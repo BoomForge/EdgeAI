@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "sources": [
     {
       "name": "OpenAI News",
@@ -22,7 +22,7 @@
       "url": "https://export.arxiv.org/rss/cs.AI",
       "kind": "research",
       "priority": 3,
-      "max_items": 10,
+      "max_items": 8,
       "enabled": true
     },
     {
@@ -30,7 +30,39 @@
       "url": "https://export.arxiv.org/rss/cs.LG",
       "kind": "research",
       "priority": 3,
-      "max_items": 10,
+      "max_items": 8,
+      "enabled": true
+    },
+    {
+      "name": "arXiv Computation and Language",
+      "url": "https://export.arxiv.org/rss/cs.CL",
+      "kind": "research",
+      "priority": 3,
+      "max_items": 8,
+      "enabled": true
+    },
+    {
+      "name": "arXiv Computer Vision",
+      "url": "https://export.arxiv.org/rss/cs.CV",
+      "kind": "research",
+      "priority": 3,
+      "max_items": 8,
+      "enabled": true
+    },
+    {
+      "name": "arXiv Statistical Machine Learning",
+      "url": "https://export.arxiv.org/rss/stat.ML",
+      "kind": "research",
+      "priority": 3,
+      "max_items": 6,
+      "enabled": true
+    },
+    {
+      "name": "arXiv Cryptography and Security",
+      "url": "https://export.arxiv.org/rss/cs.CR",
+      "kind": "research-security",
+      "priority": 4,
+      "max_items": 5,
       "enabled": true
     },
     {
@@ -42,9 +74,25 @@
       "enabled": true
     },
     {
+      "name": "Hugging Face Diffusers Releases",
+      "url": "https://github.com/huggingface/diffusers/releases.atom",
+      "kind": "open-source-creative",
+      "priority": 2,
+      "max_items": 6,
+      "enabled": true
+    },
+    {
+      "name": "Hugging Face smolagents Releases",
+      "url": "https://github.com/huggingface/smolagents/releases.atom",
+      "kind": "agents",
+      "priority": 2,
+      "max_items": 6,
+      "enabled": true
+    },
+    {
       "name": "ComfyUI Releases",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases.atom",
-      "kind": "open-source",
+      "kind": "open-source-creative",
       "priority": 2,
       "max_items": 8,
       "enabled": true
@@ -52,7 +100,15 @@
     {
       "name": "llama.cpp Releases",
       "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
-      "kind": "open-source",
+      "kind": "local-ai",
+      "priority": 2,
+      "max_items": 8,
+      "enabled": true
+    },
+    {
+      "name": "Ollama Releases",
+      "url": "https://github.com/ollama/ollama/releases.atom",
+      "kind": "local-ai",
       "priority": 2,
       "max_items": 8,
       "enabled": true
@@ -60,9 +116,137 @@
     {
       "name": "vLLM Releases",
       "url": "https://github.com/vllm-project/vllm/releases.atom",
-      "kind": "open-source",
+      "kind": "inference",
       "priority": 2,
       "max_items": 8,
+      "enabled": true
+    },
+    {
+      "name": "SGLang Releases",
+      "url": "https://github.com/sgl-project/sglang/releases.atom",
+      "kind": "inference",
+      "priority": 2,
+      "max_items": 8,
+      "enabled": true
+    },
+    {
+      "name": "LocalAI Releases",
+      "url": "https://github.com/mudler/LocalAI/releases.atom",
+      "kind": "local-ai",
+      "priority": 2,
+      "max_items": 8,
+      "enabled": true
+    },
+    {
+      "name": "MLX Releases",
+      "url": "https://github.com/ml-explore/mlx/releases.atom",
+      "kind": "local-ai",
+      "priority": 2,
+      "max_items": 6,
+      "enabled": true
+    },
+    {
+      "name": "Open WebUI Releases",
+      "url": "https://github.com/open-webui/open-webui/releases.atom",
+      "kind": "local-ai",
+      "priority": 3,
+      "max_items": 6,
+      "enabled": true
+    },
+    {
+      "name": "LiteLLM Releases",
+      "url": "https://github.com/BerriAI/litellm/releases.atom",
+      "kind": "inference",
+      "priority": 3,
+      "max_items": 6,
+      "enabled": true
+    },
+    {
+      "name": "Unsloth Releases",
+      "url": "https://github.com/unslothai/unsloth/releases.atom",
+      "kind": "training",
+      "priority": 3,
+      "max_items": 6,
+      "enabled": true
+    },
+    {
+      "name": "Aider Releases",
+      "url": "https://github.com/Aider-AI/aider/releases.atom",
+      "kind": "coding-agents",
+      "priority": 2,
+      "max_items": 6,
+      "enabled": true
+    },
+    {
+      "name": "Cline Releases",
+      "url": "https://github.com/cline/cline/releases.atom",
+      "kind": "coding-agents",
+      "priority": 2,
+      "max_items": 6,
+      "enabled": true
+    },
+    {
+      "name": "Continue Releases",
+      "url": "https://github.com/continuedev/continue/releases.atom",
+      "kind": "coding-agents",
+      "priority": 3,
+      "max_items": 6,
+      "enabled": true
+    },
+    {
+      "name": "browser-use Releases",
+      "url": "https://github.com/browser-use/browser-use/releases.atom",
+      "kind": "agents",
+      "priority": 2,
+      "max_items": 6,
+      "enabled": true
+    },
+    {
+      "name": "LangChain Releases",
+      "url": "https://github.com/langchain-ai/langchain/releases.atom",
+      "kind": "agents",
+      "priority": 3,
+      "max_items": 6,
+      "enabled": true
+    },
+    {
+      "name": "LlamaIndex Releases",
+      "url": "https://github.com/run-llama/llama_index/releases.atom",
+      "kind": "agents",
+      "priority": 3,
+      "max_items": 6,
+      "enabled": true
+    },
+    {
+      "name": "Microsoft AutoGen Releases",
+      "url": "https://github.com/microsoft/autogen/releases.atom",
+      "kind": "agents",
+      "priority": 3,
+      "max_items": 6,
+      "enabled": true
+    },
+    {
+      "name": "CrewAI Releases",
+      "url": "https://github.com/crewAIInc/crewAI/releases.atom",
+      "kind": "agents",
+      "priority": 3,
+      "max_items": 6,
+      "enabled": true
+    },
+    {
+      "name": "DSPy Releases",
+      "url": "https://github.com/stanfordnlp/dspy/releases.atom",
+      "kind": "agents-research",
+      "priority": 3,
+      "max_items": 6,
+      "enabled": true
+    },
+    {
+      "name": "Pydantic AI Releases",
+      "url": "https://github.com/pydantic/pydantic-ai/releases.atom",
+      "kind": "agents",
+      "priority": 3,
+      "max_items": 6,
       "enabled": true
     }
   ]

@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "kind": "official",
+      "priority": 1,
+      "max_items": 10,
+      "enabled": true
+    },
+    {
+      "name": "Google Blog",
+      "url": "https://blog.google/rss/",
+      "kind": "official",
+      "priority": 3,
+      "max_items": 12,
+      "enabled": true
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "kind": "research",
+      "priority": 3,
+      "max_items": 10,
+      "enabled": true
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "kind": "research",
+      "priority": 3,
+      "max_items": 10,
+      "enabled": true
+    },
+    {
+      "name": "Hugging Face Transformers Releases",
+      "url": "https://github.com/huggingface/transformers/releases.atom",
+      "kind": "open-source",
+      "priority": 2,
+      "max_items": 8,
+      "enabled": true
+    },
+    {
+      "name": "ComfyUI Releases",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases.atom",
+      "kind": "open-source",
+      "priority": 2,
+      "max_items": 8,
+      "enabled": true
+    },
+    {
+      "name": "llama.cpp Releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
+      "kind": "open-source",
+      "priority": 2,
+      "max_items": 8,
+      "enabled": true
+    },
+    {
+      "name": "vLLM Releases",
+      "url": "https://github.com/vllm-project/vllm/releases.atom",
+      "kind": "open-source",
+      "priority": 2,
+      "max_items": 8,
+      "enabled": true
+    }
+  ]
+}

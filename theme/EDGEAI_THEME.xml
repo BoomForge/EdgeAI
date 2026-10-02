@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <meta content='width=device-width,initial-scale=1,maximum-scale=5' name='viewport'/>
+  <b:include data='blog' name='all-head-content'/>
+  <title><data:view.title.escaped/></title>
+  <meta content='EdgeAI — bleeding-edge AI news, tools, models, research and open-source intelligence.' name='description'/>
+  <link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap' rel='stylesheet'/>
+  <b:skin><![CDATA[
+:root{
+  --bg:#070b11;--panel:#0d131c;--panel2:#111a25;--line:#223044;--text:#edf7ff;--muted:#8ea3b7;
+  --cyan:#4ee9ff;--blue:#6da7ff;--violet:#b18cff;--hot:#ff4f7d;--green:#6df7b1;--amber:#ffc766;
+  --radius:18px;--max:1380px;--shadow:0 18px 60px rgba(0,0,0,.32)
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:
+radial-gradient(circle at 15% 0%,rgba(78,233,255,.09),transparent 32rem),
+radial-gradient(circle at 85% 10%,rgba(177,140,255,.08),transparent 30rem),var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.62}
+a{color:inherit;text-decoration:none}img{max-width:100%;height:auto}button,input{font:inherit}
+.edge-shell{width:min(calc(100% - 34px),var(--max));margin:auto}
+.edge-topline{height:3px;background:linear-gradient(90deg,var(--cyan),var(--blue),var(--violet),var(--hot))}
+.edge-header{position:sticky;top:0;z-index:60;background:rgba(7,11,17,.88);backdrop-filter:blur(18px);border-bottom:1px solid rgba(78,233,255,.12)}
+.edge-headrow{min-height:82px;display:flex;align-items:center;gap:28px}.edge-brand{font:800 clamp(26px,4vw,42px)/1 Space Grotesk,sans-serif;letter-spacing:-.055em}.edge-brand span{color:var(--cyan);text-shadow:0 0 24px rgba(78,233,255,.42)}
+.edge-tagline{color:var(--muted);font-size:12px;letter-spacing:.11em;text-transform:uppercase;margin-top:7px}.edge-search{margin-left:auto;display:flex;align-items:center;min-width:min(360px,34vw);background:var(--panel);border:1px solid var(--line);border-radius:999px;overflow:hidden}.edge-search input{width:100%;border:0;outline:0;background:transparent;color:var(--text);padding:12px 16px}.edge-search button{border:0;background:transparent;color:var(--cyan);padding:10px 16px;cursor:pointer;font-weight:800}
+.edge-nav{border-top:1px solid rgba(255,255,255,.04);overflow:auto}.edge-nav-inner{display:flex;gap:4px;min-width:max-content}.edge-nav a{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#b7c8d9;padding:13px 14px;border-bottom:2px solid transparent}.edge-nav a:hover{color:white;border-bottom-color:var(--cyan)}
+.edge-ticker{border-bottom:1px solid var(--line);background:#090f16}.edge-ticker-inner{min-height:45px;display:flex;align-items:center;overflow:hidden}.ticker-label{flex:none;color:#061016;background:var(--cyan);font:800 11px Space Grotesk,sans-serif;letter-spacing:.12em;padding:6px 10px;border-radius:6px;margin-right:18px}.ticker-window{overflow:hidden;white-space:nowrap;flex:1}.ticker-track{display:inline-flex;gap:38px;animation:edgeTicker 55s linear infinite}.ticker-track:hover{animation-play-state:paused}.ticker-item{font-size:13px;color:#d7e6f3}.ticker-item:before{content:'◆';font-size:7px;color:var(--violet);margin-right:9px}@keyframes edgeTicker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.edge-hero-wrap{padding:28px 0 12px}.edge-kicker{display:flex;align-items:center;gap:10px;font:700 12px Space Grotesk,sans-serif;color:var(--cyan);letter-spacing:.13em;text-transform:uppercase;margin-bottom:13px}.edge-kicker:before{content:'';width:24px;height:2px;background:var(--cyan);box-shadow:0 0 14px var(--cyan)}
+.edge-hero{display:grid;grid-template-columns:1.55fr .85fr;gap:16px}.hero-main,.hero-side{display:grid;gap:16px}.hero-side{grid-template-rows:1fr 1fr}.hero-card{position:relative;min-height:220px;overflow:hidden;border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(145deg,#121d29,#0b1017);box-shadow:var(--shadow)}.hero-main .hero-card{min-height:480px}.hero-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.56;filter:saturate(.78) contrast(1.04)}.hero-card:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,rgba(5,9,14,.98) 0%,rgba(5,9,14,.36) 62%,rgba(5,9,14,.1) 100%)}.hero-copy{position:absolute;z-index:2;left:0;right:0;bottom:0;padding:clamp(18px,3vw,32px)}.hero-copy h2{font:700 clamp(26px,4vw,52px)/1.04 Space Grotesk,sans-serif;letter-spacing:-.04em;margin:8px 0 12px}.hero-side .hero-copy h2{font-size:clamp(19px,2vw,27px)}.hero-meta{font-size:11px;color:#b7c8d9;text-transform:uppercase;letter-spacing:.1em}.hero-summary{color:#c8d5df;max-width:760px;font-size:14px}.hero-side .hero-summary{display:none}.edge-chip{display:inline-flex;align-items:center;border:1px solid rgba(78,233,255,.32);background:rgba(78,233,255,.1);color:var(--cyan);border-radius:999px;padding:5px 9px;font:700 10px Space Grotesk,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+.edge-layout{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:28px;padding:30px 0 60px}.edge-section-title{display:flex;align-items:end;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:11px;margin-bottom:18px}.edge-section-title h2{margin:0;font:700 23px Space Grotesk,sans-serif;letter-spacing:-.03em}.edge-section-title span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.main .widget,.Blog{background:transparent!important}.post-outer,.post-outer-container{background:var(--panel)!important;border:1px solid var(--line)!important;border-radius:var(--radius)!important;margin:0 0 18px!important;padding:0!important;overflow:hidden;box-shadow:0 9px 30px rgba(0,0,0,.17)}.post{padding:26px!important}.post-title,.post-title.entry-title{font:700 clamp(25px,3vw,38px)/1.12 Space Grotesk,sans-serif!important;letter-spacing:-.035em!important;margin:0 0 12px!important}.post-title a:hover{color:var(--cyan)}.post-header,.post-header-line-1,.post-timestamp{color:var(--muted)!important;font-size:12px!important}.post-body{font-size:16px;color:#d6e1ea}.post-body h2,.post-body h3{font-family:Space Grotesk,sans-serif;color:#f4fbff}.post-body a{color:var(--cyan);text-decoration:underline;text-decoration-color:rgba(78,233,255,.35)}.post-body blockquote{border-left:3px solid var(--violet);margin:24px 0;padding:8px 20px;color:#bfcddd;background:rgba(177,140,255,.05)}.post-labels a,.labels a{display:inline-block;margin:5px 6px 0 0;border:1px solid var(--line);border-radius:999px;padding:5px 9px;color:#b9cad8;font-size:10px;text-transform:uppercase;letter-spacing:.07em}.post-labels a[href*='CONFIRMED']{border-color:rgba(109,247,177,.4);color:var(--green)}.post-labels a[href*='DEVELOPING']{border-color:rgba(255,199,102,.4);color:var(--amber)}.post-labels a[href*='EARLY']{border-color:rgba(109,167,255,.4);color:var(--blue)}.post-labels a[href*='RUMOUR']{border-color:rgba(255,79,125,.4);color:var(--hot)}
+.edge-sidebar{display:flex;flex-direction:column;gap:18px}.edge-widget,.edge-sidebar .widget{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px;overflow:hidden}.edge-widget h3,.edge-sidebar .title{font:700 14px Space Grotesk,sans-serif;text-transform:uppercase;letter-spacing:.08em;margin:0 0 14px;color:white}.edge-status-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}.edge-status-grid a{border:1px solid var(--line);border-radius:11px;padding:11px;font-size:11px;color:#c8d5df}.edge-status-grid b{display:block;font-size:15px;color:var(--cyan);margin-bottom:2px}.edge-about{font-size:13px;color:var(--muted)}
+.Label ul,.PopularPosts ul{list-style:none;margin:0;padding:0}.Label li,.PopularPosts li{border-top:1px solid rgba(255,255,255,.055);padding:9px 0}.Label li:first-child,.PopularPosts li:first-child{border-top:0}.PopularPosts .item-title{font-weight:600;font-size:13px}.PopularPosts .item-thumbnail img{border-radius:9px}
+.edge-footer{border-top:1px solid var(--line);padding:36px 0 55px;color:var(--muted);font-size:12px}.edge-footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px}.edge-footer strong{font-family:Space Grotesk;color:white;font-size:15px}.edge-footer a:hover{color:var(--cyan)}
+.status-line{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 0}.edge-empty{display:flex;align-items:end;min-height:220px;padding:22px;background:linear-gradient(135deg,#101a24,#0b1118);color:var(--muted)}
+@media(max-width:960px){.edge-search{min-width:0;flex:1}.edge-tagline{display:none}.edge-hero{grid-template-columns:1fr}.hero-main .hero-card{min-height:390px}.hero-side{grid-template-columns:1fr 1fr;grid-template-rows:auto}.edge-layout{grid-template-columns:1fr}.edge-sidebar{display:grid;grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.edge-shell{width:min(calc(100% - 22px),var(--max))}.edge-headrow{min-height:70px;gap:12px}.edge-brand{font-size:27px}.edge-search input{padding:9px 11px}.edge-search button{padding:9px 11px}.ticker-label{margin-right:11px}.edge-hero-wrap{padding-top:18px}.hero-main .hero-card{min-height:360px}.hero-side{grid-template-columns:1fr}.hero-side .hero-card{min-height:210px}.edge-layout{padding-top:20px}.edge-sidebar{display:flex}.post{padding:19px!important}.edge-footer-grid{grid-template-columns:1fr}.hero-copy h2{font-size:30px}}
+  ]]></b:skin>
+</head>
+<body>
+<div class='edge-topline'></div>
+<header class='edge-header'>
+  <div class='edge-shell edge-headrow'>
+    <a class='edge-brand' expr:href='data:blog.homepageUrl'><span>EDGE</span>AI</a>
+    <div class='edge-tagline'>Live intelligence from the AI frontier</div>
+    <form action='/search' class='edge-search' method='get'>
+      <input aria-label='Search EdgeAI' name='q' placeholder='Search models, tools, labs…' type='search'/>
+      <button type='submit'>SEARCH</button>
+    </form>
+  </div>
+  <nav class='edge-nav'>
+    <div class='edge-shell edge-nav-inner'>
+      <a href='/'>Latest</a>
+      <a href='/search/label/Breaking'>Breaking</a>
+      <a href='/search/label/Models'>Models</a>
+      <a href='/search/label/Tools'>Tools</a>
+      <a href='/search/label/Research'>Research</a>
+      <a href='/search/label/Agents'>Agents</a>
+      <a href='/search/label/Open%20Source'>Open Source</a>
+      <a href='/search/label/Creative%20AI'>Creative AI</a>
+      <a href='/search/label/Infrastructure'>Infrastructure</a>
+    </div>
+  </nav>
+</header>
+
+<div class='edge-ticker'>
+  <div class='edge-shell edge-ticker-inner'>
+    <span class='ticker-label'>LIVE</span>
+    <div class='ticker-window'><div class='ticker-track' id='edgeai-ticker'><span class='ticker-item'>Loading latest EdgeAI headlines…</span></div></div>
+  </div>
+</div>
+
+<b:if cond='data:view.isHomepage'>
+  <section class='edge-shell edge-hero-wrap'>
+    <div class='edge-kicker'>Featured intelligence</div>
+    <div class='edge-hero' id='edgeai-hero'>
+      <div class='hero-main'><div class='hero-card edge-empty'>Loading lead story…</div></div>
+      <div class='hero-side'><div class='hero-card edge-empty'>Loading…</div><div class='hero-card edge-empty'>Loading…</div></div>
+    </div>
+  </section>
+</b:if>
+
+<div class='edge-shell edge-layout'>
+  <main>
+    <div class='edge-section-title'><h2>Latest Intelligence</h2><span>Models · tools · research · infrastructure</span></div>
+    <b:section class='main' id='main' maxwidgets='1' showaddelement='yes'>
+      <b:widget id='Blog1' locked='true' title='Latest Intelligence' type='Blog' version='2' visible='true'/>
+    </b:section>
+  </main>
+  <aside class='edge-sidebar'>
+    <div class='edge-widget'>
+      <h3>Signal Status</h3>
+      <div class='edge-status-grid'>
+        <a href='/search/label/CONFIRMED'><b>●</b>Confirmed</a>
+        <a href='/search/label/DEVELOPING'><b>◐</b>Developing</a>
+        <a href='/search/label/EARLY%20SIGNAL'><b>◇</b>Early Signal</a>
+        <a href='/search/label/RUMOUR'><b>?</b>Rumour</a>
+      </div>
+    </div>
+    <b:section id='sidebar' maxwidgets='5' showaddelement='yes'>
+      <b:widget id='PopularPosts1' locked='false' title='Trending Now' type='PopularPosts' version='2' visible='true'/>
+      <b:widget id='Label1' locked='false' title='Browse The Radar' type='Label' version='2' visible='true'/>
+    </b:section>
+    <div class='edge-widget edge-about'>
+      <h3>About EdgeAI</h3>
+      EdgeAI monitors primary announcements, independent evaluators, open-source releases and niche discovery sources. Discovery is automated; source authority and uncertainty are surfaced in every report.
+    </div>
+  </aside>
+</div>
+
+<footer class='edge-footer'>
+  <div class='edge-shell edge-footer-grid'>
+    <div><strong>EDGEAI</strong><p>Bleeding-edge AI intelligence without the noise.</p></div>
+    <div><strong>Coverage</strong><p><a href='/search/label/Models'>Models</a> · <a href='/search/label/Tools'>Tools</a> · <a href='/search/label/Research'>Research</a> · <a href='/search/label/Agents'>Agents</a></p></div>
+    <div><strong>Site</strong><p><a href='/p/privacy-policy.html'>Privacy</a> · <a href='/feeds/posts/default'>Feed</a></p></div>
+  </div>
+</footer>
+
+<script type='text/javascript'>
+//<![CDATA[
+(function(){
+  function txt(v){var d=document.createElement('div');d.textContent=v||'';return d.innerHTML;}
+  function entries(json){return (json&&json.feed&&json.feed.entry)||[];}
+  function link(e){var a=(e.link||[]).find(function(x){return x.rel==='alternate';});return a?a.href:'#';}
+  function image(e){if(e.media$thumbnail&&e.media$thumbnail.url){return e.media$thumbnail.url.replace(/\/s72-c\//,'/s1200/');}var c=(e.content&&e.content.$t)||'';var m=c.match(/<img[^>]+src=["']([^"']+)/i);return m?m[1]:'';}
+  function summary(e){var s=(e.summary&&e.summary.$t)||(e.content&&e.content.$t)||'';var d=document.createElement('div');d.innerHTML=s;return (d.textContent||'').replace(/\s+/g,' ').trim().slice(0,210);}
+  function date(e){var v=(e.published&&e.published.$t)||'';try{return new Date(v).toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'});}catch(x){return '';}}
+  function heroCard(e,side){var im=image(e);return '<a class="hero-card" href="'+txt(link(e))+'">'+(im?'<img alt="" src="'+txt(im)+'" loading="lazy"/>':'')+'<div class="hero-copy"><span class="edge-chip">Featured</span><h2>'+txt(e.title.$t)+'</h2><div class="hero-meta">'+txt(date(e))+'</div>'+(side?'':'<p class="hero-summary">'+txt(summary(e))+'</p>')+'</div></a>';}
+  window.edgeAIHero=function(json){var es=entries(json);if(!es.length&&!window.edgeAIFallbackRequested){window.edgeAIFallbackRequested=true;var s=document.createElement('script');s.src='/feeds/posts/default?alt=json-in-script&max-results=3&callback=edgeAIHero';document.body.appendChild(s);return;}var h=document.getElementById('edgeai-hero');if(!h||!es.length)return;var main='<div class="hero-main">'+heroCard(es[0],false)+'</div>';var side='<div class="hero-side">';for(var i=1;i<3;i++){side+=es[i]?heroCard(es[i],true):'<div class="hero-card edge-empty">More intelligence incoming.</div>';}side+='</div>';h.innerHTML=main+side;};
+  window.edgeAITicker=function(json){var es=entries(json),t=document.getElementById('edgeai-ticker');if(!t||!es.length)return;var html=es.map(function(e){return '<a class="ticker-item" href="'+txt(link(e))+'">'+txt(e.title.$t)+'</a>';}).join('');t.innerHTML=html+html;};
+  var t=document.createElement('script');t.src='/feeds/posts/default?alt=json-in-script&max-results=10&callback=edgeAITicker';document.body.appendChild(t);
+  var h=document.getElementById('edgeai-hero');if(h){var s=document.createElement('script');s.src='/feeds/posts/default/-/Featured?alt=json-in-script&max-results=3&callback=edgeAIHero';document.body.appendChild(s);}
+})();
+//]]>
+</script>
+</body>
+</html>

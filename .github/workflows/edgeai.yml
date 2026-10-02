@@ -23,6 +23,7 @@ on:
       - edgeai.py
       - edgeai_runner.py
       - requirements.txt
+      - theme/**
       - .github/workflows/edgeai.yml
 
 permissions:
@@ -52,6 +53,9 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.13'
+
+      - name: Validate Blogger newsroom theme
+        run: python theme/validate_theme.py
 
       - name: Install dependencies
         run: pip install --disable-pip-version-check -r requirements.txt

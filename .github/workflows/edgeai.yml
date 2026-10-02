@@ -17,8 +17,11 @@ on:
       - main
     paths:
       - EDGEAI.md
+      - SOURCE_MAP.md
       - sources.json
+      - web_sources.json
       - edgeai.py
+      - edgeai_runner.py
       - requirements.txt
       - .github/workflows/edgeai.yml
 
@@ -32,7 +35,7 @@ concurrency:
 jobs:
   radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     env:
       BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
       BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
@@ -64,7 +67,7 @@ jobs:
           fi
 
       - name: Run EdgeAI
-        run: python edgeai.py --mode "${{ steps.mode.outputs.value }}"
+        run: python edgeai_runner.py --mode "${{ steps.mode.outputs.value }}"
 
       - name: Save radar state
         if: steps.mode.outputs.value != 'check'

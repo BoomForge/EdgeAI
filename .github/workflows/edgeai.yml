@@ -1,0 +1,81 @@
+name: EdgeAI Radar
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Run mode
+        required: true
+        default: check
+        type: choice
+        options:
+          - check
+          - baseline
+          - live
+  push:
+    branches:
+      - main
+    paths:
+      - EDGEAI.md
+      - sources.json
+      - edgeai.py
+      - requirements.txt
+      - .github/workflows/edgeai.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: edgeai-radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+      BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+      BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: gemini-3.5-flash-lite
+
+    steps:
+      - name: Check out EdgeAI
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Select mode
+        id: mode
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "value=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=check" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run EdgeAI
+        run: python edgeai.py --mode "${{ steps.mode.outputs.value }}"
+
+      - name: Save radar state
+        if: steps.mode.outputs.value != 'check'
+        shell: bash
+        run: |
+          if git diff --quiet -- state.json; then
+            echo "No state changes to save."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state.json
+          git commit -m "edgeai: update radar state [skip ci]"
+          git push

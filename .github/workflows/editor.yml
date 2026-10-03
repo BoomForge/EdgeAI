@@ -87,27 +87,49 @@ jobs:
         if: steps.mode.outputs.value != 'image-repair'
         run: python edgeai_editor.py --mode "${{ steps.mode.outputs.value }}"
 
-      - name: Repair and verify live article images
+      - name: Repair live articles with real source imagery
         if: steps.mode.outputs.value == 'image-repair'
         run: python image_repair.py
 
-      - name: Save editor state and story artwork
+      - name: Save editor state and mirrored imagery
         if: steps.mode.outputs.value != 'check'
         shell: bash
         run: |
-          mkdir -p assets/story-art
+          mkdir -p assets/story-art assets/source-media
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add editor_state.json assets/story-art
+          git add editor_state.json assets/story-art assets/source-media
           if [[ -f image_repair_report.json ]]; then git add image_repair_report.json; fi
           if git diff --cached --quiet; then
             echo "No editor state or story artwork changes to save."
-            exit 0
+          else
+            git commit -m "edgeai: persist editor imagery [skip ci]"
+            for attempt in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "Push attempt $attempt failed; retrying."
+              sleep $((attempt * 2))
+            done
           fi
-          git commit -m "edgeai: update editor state and story artwork [skip ci]"
+
+      - name: Verify mirrored images after publish
+        if: steps.mode.outputs.value == 'image-repair'
+        shell: bash
+        run: |
+          sleep 15
+          python image_repair.py --verify-only
+
+      - name: Save final image verification report
+        if: steps.mode.outputs.value == 'image-repair'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add image_repair_report.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "edgeai: record final image verification [skip ci]"
           for attempt in 1 2 3; do
             git pull --rebase origin main && git push && exit 0
-            echo "Push attempt $attempt failed; retrying."
+            echo "Verification report push attempt $attempt failed; retrying."
             sleep $((attempt * 2))
           done
           exit 1

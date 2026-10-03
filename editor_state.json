@@ -16,7 +16,7 @@
     "quota_paused": false
   },
   "last_visual_backfill": {
-    "at": "2026-10-03T04:27:51Z",
+    "at": "2026-10-03T04:33:19Z",
     "skipped": 0,
     "updated": 3
   },
@@ -74,13 +74,15 @@
   },
   "stories": {
     "black-forest-labs-flux-3-action": {
-      "image_source": "Black Forest Labs Blog",
-      "image_url": "https://cdn.sanity.io/images/2gpum2i6/production/1f041401bdd8d65b8bd70cb808904b73a9cf9dcd-1200x630.jpg",
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/black-forest-labs-flux-3-action.svg",
       "last_updated": "2026-10-03T00:58:49Z",
-      "last_visual_refresh": "2026-10-03T04:27:47Z",
+      "last_visual_refresh": "2026-10-03T04:33:17Z",
       "post_id": "2456334160016862958",
       "post_url": "https://edgeainews.blogspot.com/2026/10/black-forest-labs-introduces-flux-3.html",
       "score": 92,
+      "source_image_source": "Black Forest Labs Blog",
+      "source_image_url": "https://cdn.sanity.io/images/2gpum2i6/production/1f041401bdd8d65b8bd70cb808904b73a9cf9dcd-1200x630.jpg",
       "source_urls": [
         "https://bfl.ai/blog/flux-3-action"
       ],
@@ -94,13 +96,15 @@
       }
     },
     "minimax-m3-h3-speech-2-8-music-3-0-release": {
-      "image_source": "MiniMax Research",
-      "image_url": "https://filecdn.minimax.chat/public/58eca777-e31f-448a-9823-e2220e49b426.png",
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/minimax-m3-h3-speech-2-8-music-3-0-release.svg",
       "last_updated": "2026-10-03T00:58:53Z",
-      "last_visual_refresh": "2026-10-03T04:27:50Z",
+      "last_visual_refresh": "2026-10-03T04:33:18Z",
       "post_id": "293122341616284272",
       "post_url": "https://edgeainews.blogspot.com/2026/10/minimax-announces-m3-frontier-model.html",
       "score": 91,
+      "source_image_source": "MiniMax Research",
+      "source_image_url": "https://filecdn.minimax.chat/public/58eca777-e31f-448a-9823-e2220e49b426.png",
       "source_urls": [
         "https://www.minimax.io/"
       ],
@@ -114,13 +118,15 @@
       }
     },
     "qwen-image-20b-mmdit-native-text-rendering": {
-      "image_source": "Qwen Blog",
-      "image_url": "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/Qwen-Image/merge3.jpg#center",
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/qwen-image-20b-mmdit-native-text-rendering.svg",
       "last_updated": "2026-10-03T00:58:46Z",
-      "last_visual_refresh": "2026-10-03T04:27:51Z",
+      "last_visual_refresh": "2026-10-03T04:33:19Z",
       "post_id": "174851991802711811",
       "post_url": "https://edgeainews.blogspot.com/2026/10/alibaba-releases-qwen-image-20b-mmdit.html",
       "score": 92,
+      "source_image_source": "Qwen Blog",
+      "source_image_url": "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/Qwen-Image/merge3.jpg#center",
       "source_urls": [
         "https://qwenlm.github.io/blog/qwen-image/"
       ],

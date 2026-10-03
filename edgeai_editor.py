@@ -7,6 +7,7 @@ Discovery runners only feed queue_fast.json and queue_deep.json.
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import sys
 from datetime import datetime, timedelta, timezone
@@ -119,6 +120,118 @@ def quota_limited(exc: Exception) -> bool:
     return "quota" in text and ("exceed" in text or "limit" in text or "resource exhausted" in text)
 
 
+def trust_label(score: int) -> str:
+    if score >= 90:
+        return "Verified"
+    if score >= 75:
+        return "Strong"
+    if score >= 60:
+        return "Reasonable"
+    if score >= 40:
+        return "Caution"
+    return "Low confidence"
+
+
+def trust_rating(item: dict, status: str) -> tuple[int, str, str]:
+    """Rate evidence confidence for this report, not the permanent reputation of a source."""
+    priority = max(1, min(4, int(item.get("priority", 2))))
+    kind = str(item.get("kind", "")).lower()
+    source = str(item.get("source_name", "")).lower()
+    summary = core.clean_text(item.get("summary", ""))
+
+    score = {1: 84, 2: 74, 3: 62, 4: 50}[priority]
+
+    if "primary" in kind:
+        score += 8
+    elif "research" in kind:
+        score += 5
+    elif "independent" in kind:
+        score += 3
+
+    if any(token in kind for token in ("signal", "discovery", "directory")):
+        score -= 8
+    if any(token in source for token in ("futuretools", "futurepedia", "product hunt")):
+        score -= 10
+
+    status_adjust = {
+        "CONFIRMED": 6,
+        "DEVELOPING": -2,
+        "EARLY SIGNAL": -12,
+        "RUMOUR": -28,
+    }
+    score += status_adjust.get(status, -8)
+
+    if len(summary) >= 200:
+        score += 3
+    elif len(summary) >= 80:
+        score += 1
+    else:
+        score -= 4
+
+    if item.get("published"):
+        score += 2
+    else:
+        score -= 2
+
+    age = datetime.now(timezone.utc) - item_time(item)
+    if age <= timedelta(hours=24):
+        score += 3
+    elif age <= timedelta(hours=72):
+        score += 1
+    elif age > timedelta(days=7):
+        score -= 4
+
+    caps = {"CONFIRMED": 96, "DEVELOPING": 84, "EARLY SIGNAL": 68, "RUMOUR": 42}
+    score = max(15, min(caps.get(status, 68), score))
+    label = trust_label(score)
+
+    if status == "CONFIRMED" and priority == 1:
+        reason = "Confirmed information from a high-authority source with directly traceable source material."
+    elif status == "CONFIRMED":
+        reason = "The central claim is confirmed, with source authority and traceability reflected in this score."
+    elif status == "DEVELOPING":
+        reason = "The development appears real, but some details are still arriving or remain incomplete."
+    elif status == "EARLY SIGNAL":
+        reason = "There is a credible signal, but the available evidence is not yet complete enough for high confidence."
+    else:
+        reason = "The information remains weakly verified or uncertain and should be treated cautiously."
+
+    if any(token in source for token in ("futuretools", "futurepedia", "product hunt")):
+        reason += " This item originated from a discovery source, which lowers confidence until primary evidence is available."
+
+    return score, label, reason
+
+
+def trust_card(score: int, label: str, reason: str, source_name: str) -> str:
+    if score >= 90:
+        color = "#70f0b1"
+    elif score >= 75:
+        color = "#8ee6c4"
+    elif score >= 60:
+        color = "#ffc96b"
+    elif score >= 40:
+        color = "#ff9f5a"
+    else:
+        color = "#ff557f"
+
+    safe_label = html.escape(label)
+    safe_reason = html.escape(reason)
+    safe_source = html.escape(source_name)
+    return f"""
+<div class="edge-trust-card" style="display:flex;align-items:center;gap:14px;margin:0 0 22px;padding:14px 16px;border:1px solid #223247;border-radius:14px;background:#0d141d;color:#eef8ff;">
+  <div role="img" aria-label="Evidence Trust {score} out of 100" title="Evidence Trust {score}/100" style="width:62px;height:62px;min-width:62px;border-radius:50%;padding:5px;background:conic-gradient({color} 0 {score}%,#223247 {score}% 100%);">
+    <div style="width:52px;height:52px;border-radius:50%;background:#070b11;display:flex;align-items:center;justify-content:center;font:800 17px Arial,sans-serif;color:{color};">{score}</div>
+  </div>
+  <div style="min-width:0;">
+    <div style="font:800 11px Arial,sans-serif;letter-spacing:1px;text-transform:uppercase;color:#91a6ba;">Evidence Trust · {safe_source}</div>
+    <div style="font:800 17px Arial,sans-serif;color:{color};margin:2px 0 3px;">{safe_label}</div>
+    <div style="font:13px/1.45 Arial,sans-serif;color:#c7d5e0;">{safe_reason}</div>
+    <div style="font:11px/1.4 Arial,sans-serif;color:#91a6ba;margin-top:5px;">Evidence confidence for this report, not a permanent rating of the company or site.</div>
+  </div>
+</div>
+""".strip()
+
+
 def publish_candidate(item: dict, state: dict, key: str, blog_id: str, access: str):
     decision = core.ask_editor(item, key)
     score = int(decision.get("score", 0))
@@ -129,7 +242,7 @@ def publish_candidate(item: dict, state: dict, key: str, blog_id: str, access: s
     skey = core.story_key(str(decision.get("story_key", "")), str(decision.get("title") or item["title"]))
 
     if not should_publish:
-        return "ignored", score, skey, str(decision.get("reason", ""))[:500], False
+        return "ignored", score, skey, str(decision.get("reason", ""))[:500], False, None
 
     existing_story = state.setdefault("stories", {}).get(skey)
     existing_post = None
@@ -138,7 +251,7 @@ def publish_candidate(item: dict, state: dict, key: str, blog_id: str, access: s
         decision = core.ask_editor(item, key, existing_post)
         score = int(decision.get("score", score))
         if not bool(decision.get("publish", True)) or score < 75:
-            return "ignored_update", score, skey, str(decision.get("reason", ""))[:500], False
+            return "ignored_update", score, skey, str(decision.get("reason", ""))[:500], False, None
         status = str(decision.get("status", status)).upper()
         if status not in {"CONFIRMED", "DEVELOPING", "EARLY SIGNAL", "RUMOUR"}:
             status = "DEVELOPING"
@@ -147,6 +260,16 @@ def publish_candidate(item: dict, state: dict, key: str, blog_id: str, access: s
     body = str(decision.get("body_html", "")).strip()
     if len(core.clean_text(body)) < 180:
         raise RuntimeError("Generated body too short; refusing to publish")
+
+    trust_score, trust_name, trust_reason = trust_rating(item, status)
+    trust = {
+        "score": trust_score,
+        "label": trust_name,
+        "reason": trust_reason,
+        "source": item.get("source_name", ""),
+    }
+    body = trust_card(trust_score, trust_name, trust_reason, str(item.get("source_name", "Source"))) + body
+
     labels = add_featured(core.safe_labels(decision.get("labels"), status), score)
     payload = {
         "kind": "blogger#post",
@@ -172,10 +295,11 @@ def publish_candidate(item: dict, state: dict, key: str, blog_id: str, access: s
         "post_url": post.get("url", ""),
         "status": status,
         "score": score,
+        "trust": trust,
         "source_urls": source_urls,
         "last_updated": core.now_iso(),
     })
-    return action, score, skey, post.get("url", ""), is_new
+    return action, score, skey, post.get("url", ""), is_new, trust
 
 
 def check() -> None:
@@ -225,19 +349,23 @@ def run(mode: str) -> None:
             break
         candidate_id = item["candidate_id"]
         try:
-            action, score, skey, detail, is_new = publish_candidate(item, state, key, blog_id, access)
+            action, score, skey, detail, is_new, trust = publish_candidate(item, state, key, blog_id, access)
             evaluated += 1
-            state["processed"][candidate_id] = {
+            processed = {
                 "url": item.get("url", ""), "status": action, "score": score,
                 "story_key": skey, "at": core.now_iso(), "bootstrap": bool(item.get("bootstrap")),
             }
+            if trust:
+                processed["trust"] = trust
+            state["processed"][candidate_id] = processed
             if action in {"published", "updated"}:
                 published_actions += 1
                 if is_new:
                     new_posts += 1
                     if active:
                         state["bootstrap"]["published"] = int(state["bootstrap"].get("published", 0)) + 1
-                print(f"{action.upper()} {score}: {detail}")
+                trust_text = f" · trust {trust['score']}/100 {trust['label']}" if trust else ""
+                print(f"{action.upper()} {score}{trust_text}: {detail}")
             else:
                 print(f"IGNORED {score}: {item.get('title', '')}")
         except Exception as exc:

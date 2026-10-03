@@ -1,0 +1,111 @@
+name: EdgeAI Bootstrap Fill
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/bootstrap_fill.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: edgeai-editor
+  cancel-in-progress: false
+
+jobs:
+  fill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+      BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+      BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: gemini-3.5-flash-lite
+
+    steps:
+      - name: Check out EdgeAI
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Fill bootstrap catalogue
+        shell: bash
+        run: |
+          set -euo pipefail
+          for pass in $(seq 1 10); do
+            published=$(python - <<'PY'
+          import json
+          from pathlib import Path
+          s=json.loads(Path('editor_state.json').read_text())
+          print(int(s.get('bootstrap',{}).get('published',0)))
+          PY
+            )
+            target=$(python - <<'PY'
+          import json
+          from pathlib import Path
+          c=json.loads(Path('bootstrap_config.json').read_text())
+          print(int(c.get('target_articles',30)))
+          PY
+            )
+            if [ "$published" -ge "$target" ]; then
+              echo "Bootstrap target reached: $published/$target"
+              break
+            fi
+
+            echo "Bootstrap pass $pass starting at $published/$target"
+            python edgeai_editor.py --mode bootstrap
+
+            quota_paused=$(python - <<'PY'
+          import json
+          from pathlib import Path
+          s=json.loads(Path('editor_state.json').read_text())
+          print('true' if s.get('last_run',{}).get('quota_paused') else 'false')
+          PY
+            )
+            new_posts=$(python - <<'PY'
+          import json
+          from pathlib import Path
+          s=json.loads(Path('editor_state.json').read_text())
+          print(int(s.get('last_run',{}).get('new_posts',0)))
+          PY
+            )
+            if [ "$quota_paused" = "true" ]; then
+              echo "Free Gemini quota paused this fill safely; leaving remaining candidates untouched."
+              break
+            fi
+            if [ "$new_posts" -eq 0 ]; then
+              echo "No qualifying new posts in this pass; stopping instead of manufacturing filler."
+              break
+            fi
+            sleep 8
+          done
+
+      - name: Save bootstrap state and artwork
+        shell: bash
+        run: |
+          mkdir -p assets/story-art
+          if git diff --quiet -- editor_state.json assets/story-art; then
+            echo "No bootstrap changes to save."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add editor_state.json assets/story-art
+          git commit -m "edgeai: persist bootstrap fill and story artwork [skip ci]"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "Push attempt $attempt failed; retrying."
+            sleep $((attempt * 2))
+          done
+          exit 1

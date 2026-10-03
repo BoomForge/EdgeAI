@@ -24,6 +24,7 @@ on:
       - bootstrap_config.json
       - edgeai.py
       - edgeai_editor.py
+      - story_art.py
       - theme/**
       - .github/workflows/editor.yml
 
@@ -80,18 +81,19 @@ jobs:
       - name: Run central editor
         run: python edgeai_editor.py --mode "${{ steps.mode.outputs.value }}"
 
-      - name: Save editor state
+      - name: Save editor state and story artwork
         if: steps.mode.outputs.value != 'check'
         shell: bash
         run: |
-          if git diff --quiet -- editor_state.json; then
-            echo "No editor state changes to save."
+          mkdir -p assets/story-art
+          if git diff --quiet -- editor_state.json assets/story-art; then
+            echo "No editor state or story artwork changes to save."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add editor_state.json
-          git commit -m "edgeai: update editor state [skip ci]"
+          git add editor_state.json assets/story-art
+          git commit -m "edgeai: update editor state and story artwork [skip ci]"
           for attempt in 1 2 3; do
             git pull --rebase origin main && git push && exit 0
             echo "Push attempt $attempt failed; retrying."

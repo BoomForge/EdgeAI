@@ -1,5 +1,741 @@
 {
-  "version": 2,
-  "runs": 0,
-  "seen": {}
+  "last_run": {
+    "at": "2026-10-03T00:46:05Z",
+    "bootstrap_seed": true,
+    "mode": "discover",
+    "prefiltered": 10,
+    "queued": 129,
+    "sources_ok": 15,
+    "too_old": 4,
+    "warnings": 0
+  },
+  "runs": 1,
+  "seen": {
+    "0108f5a0b1758cecc286938e": {
+      "first_seen": "2026-10-03T00:46:01Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-955ba114b67aea6e882c"
+    },
+    "023d364db8b33fc2047dcacf": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Sep/29/photo-scrubber/"
+    },
+    "028b20a4e08ce376a1a55cdb": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://elevenlabs.io/blog/eleven-v4"
+    },
+    "03f410cf3381f3e8cf718dd8": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/veltrix-ai"
+    },
+    "042ccdeda93e0568fd77742b": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://runway.com/research/introducing-runway-gwm-1"
+    },
+    "0441f5644303dad5b450ca71": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://runway.com/research/introducing-gwm-worlds-2"
+    },
+    "04ffbf1e02c2570faffddc3b": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://portal.nousresearch.com/"
+    },
+    "07805f8ccf0891a10c549358": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/eleven-v4-and-eleven-v4-turbo"
+    },
+    "08913be196df8938b291d515": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://www.shopify.com/news/introducing-canvas?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "0a28c215b5c05aea6d5cda4b": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://sakana.ai/frontier-intelligence-group/"
+    },
+    "0c78b107823f053100b26f30": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://claude.com/blog/claude-code-mods?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "0d7a39b4768e4a09a517f07b": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/you-can-stop-typing-to-google-now-09-18-2026"
+    },
+    "0d7b9e709462447dd82bf93b": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "1165aefccbfb0d903d04ce6c": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://stability.ai/strategic-partnerships"
+    },
+    "1258d92154cf6b5b455fb550": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/anthroposcaper"
+    },
+    "179afd0ee553a08b8bacfe99": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://www.minimax.io/models/text"
+    },
+    "1884408dbd46fcfc5ba0e396": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-voice?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "19fa17b0500ad2a7a0dbccb3": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://bfl.ai/contact"
+    },
+    "1b57fa64b28fe529e32d3761": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://elevenlabs.io/blog/category/impact"
+    },
+    "1b93984ff2aed635c5f94087": {
+      "first_seen": "2026-10-03T00:46:03Z",
+      "status": "queued",
+      "url": "https://www.kimi.com/code"
+    },
+    "1e53e4b0ea0e3813fd5e7558": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/cue-by-manus"
+    },
+    "1f99edf99303e9898f56c517": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://stability.ai/solutions-1"
+    },
+    "1fb466641ec80a8dc13c7b96": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/"
+    },
+    "286a4c7e0865f7007f87bccb": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://runway.com/research/rna-sessions"
+    },
+    "28fb219774587d148d643716": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2106138356937810069"
+    },
+    "2a8e5b2eeed733baf988d7ff": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://hermes-agent.nousresearch.com/docs"
+    },
+    "2ea6f168ee68eda93378195a": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://elevenlabs.io/blog/introducing-dubbing-v2"
+    },
+    "2f1b5ca58d8805cbe859509b": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://sakana.ai/japan-startup-award-2026/"
+    },
+    "323fd1087f594a308741cd5a": {
+      "first_seen": "2026-10-03T00:46:03Z",
+      "status": "queued",
+      "url": "https://www.kimi.com/en/products/"
+    },
+    "34e114d460f2a34002d6bac5": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://runway.com/news/company-news/introducing-runway-ads?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "36980dfdde9ab39e7f62d1f0": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://sakana.ai/marlin-update/"
+    },
+    "36bdd825e1b13d8b2bcea67a": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://runway.com/news/research"
+    },
+    "37948658fc64306e709ba3fb": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://bfl.ai/models/flux-3-image"
+    },
+    "383db0675a7385f76bd3e59c": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://runway.com/research/introducing-praxis-1"
+    },
+    "3885642dc337119306372999": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/famulor-telephony-ai"
+    },
+    "3b73f4822ea0b3c87593c1f4": {
+      "first_seen": "2026-10-03T00:46:02Z",
+      "status": "queued",
+      "url": "https://qwenlm.github.io/blog/qwen3guard/"
+    },
+    "3c10e85f161e3d1d1b6983cc": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2106175254771253491"
+    },
+    "3d9482c11cf663a63fe7f54d": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://www.minimax.io/about"
+    },
+    "4048c279d9cd7af57e2f645a": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://stability.ai/board-of-directors"
+    },
+    "40b751b710ffdfe179ad0616": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://stability.ai/customer-stories"
+    },
+    "4131b6c07892f0629e8543a9": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://portal.nousresearch.com/cloud"
+    },
+    "41625591abfe53de1f2e0694": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/"
+    },
+    "41aaed3a7ec03d9596bf1d41": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://elevenlabs.io/blog/introducing-scribe-v2"
+    },
+    "42a2d2c0b055494d2d6b36ad": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/codync"
+    },
+    "4450675c6f099b0044872c16": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/shiphq"
+    },
+    "44a995e3e5a09201313731f5": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://bfl.ai/about"
+    },
+    "4712a12633fcb5d1b4744636": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/globestudio"
+    },
+    "4bc101a068feb031e91e799c": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/mintlify"
+    },
+    "4bcd91368f92e730e0936e7b": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://ideogram.ai/models/4.5/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "4cbabd98657885edf602078e": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://www.minimax.io/news/minimax-speech-28"
+    },
+    "50980c4dad6b62c89ad033d8": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://www.minimax.io/models/text/m3"
+    },
+    "509d2186beb2fc4974ecbd48": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://www.minimax.io/audio"
+    },
+    "50e2bcc2b71bcb3a35743f8a": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://sakana.ai/fugu-max-release/"
+    },
+    "547de62c683a3d7ee5a6ead4": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/bambu-lab-r1"
+    },
+    "57f26ce032c1bf6dc8f08b24": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://sakana.ai/pc-alm/"
+    },
+    "5a75b8a901e4f4a9de9bb579": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://bfl.ai/models/flux-3-action"
+    },
+    "5ee7f6c90aae0cecefe063e4": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://sakana.ai/percept-lens/"
+    },
+    "603d4f0592f632a4812d62a6": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "6138ec733e3c4420aa012e01": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://hermes-agent.nousresearch.com/"
+    },
+    "613f0908caf5019c61a1112c": {
+      "first_seen": "2026-10-03T00:46:02Z",
+      "status": "queued",
+      "url": "https://qwenlm.github.io/blog/qwen-mt/"
+    },
+    "638f8ae09ae5152488569490": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://stability.ai/company"
+    },
+    "6406be5b671a96484836e277": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://bfl.ai/brand"
+    },
+    "643740d8b1d776507524544b": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://www.minimax.io/blog/minimax-h3"
+    },
+    "64e27cc1872ee8386150363a": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
+    },
+    "68f59b89b4d78cf84a0cdf21": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://elevenlabs.io/blog/category/product"
+    },
+    "69c0e6ad413a3a11f508a1e6": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/jarviscore"
+    },
+    "6b836c8ce6ffe4dcbf09ef60": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://sakana.ai/sail/"
+    },
+    "6d2ef0c477ac4ea5a394a3d8": {
+      "first_seen": "2026-10-03T00:46:02Z",
+      "status": "queued",
+      "url": "https://qwenlm.github.io/blog/qwen-image/"
+    },
+    "6deeaa575f7a1b1ab43704bd": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "7157c7d19069852befd5724a": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://sakana.ai/world-models-royal-society-issue/"
+    },
+    "71ea610267dd1d6faf68d153": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://bfl.ai/models/flux-3-video"
+    },
+    "72c33ca5921b8b738b231089": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://elevenlabs.io/blog/eleven-v3-is-now-generally-available"
+    },
+    "79ebb80118396ffd689ca34b": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/your-chatgpt-can-now-work-while-youre-away-10-02-2026"
+    },
+    "7af48a3cbaa19c506e59d2e9": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://runway.com/research/introducing-general-world-models"
+    },
+    "7cfa53bfb68a578c85d85929": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://newsletter.futurepedia.io/p/chatgpt-6-turns-one-prompt-into-a-live-website-09-15-2026"
+    },
+    "7db4974c11ebd58e1ae24279": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
+    },
+    "7e9aff605a4e7ea56674e155": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/turn-your-messy-notes-into-a-clear-road-map-09-08-2026"
+    },
+    "8021ac8155b7aa37da2475b8": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://stability.ai/news-updates/stability-ai-latest-funding-backed-by-entertainment-industry-biggest-names"
+    },
+    "80fcbb463ccbeee372c8e68e": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/teachoo-2"
+    },
+    "82780810aba897ba13c1a821": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "868c02b1661261d41601212f": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/never-boring-ai"
+    },
+    "874d80e9e31a5a4f86d4c985": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://hermes-agent.nousresearch.com/docs/getting-started/installation#without-hermes-desktop"
+    },
+    "87e209af624212491c44f946": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "8b0edc8fdb04ddc5f4ef43b0": {
+      "first_seen": "2026-10-03T00:46:03Z",
+      "status": "queued",
+      "url": "https://www.kimi.com/membership/pricing?from=header_nav&tab=business&open=contact-sales"
+    },
+    "8d28766e7ba5e0cab3974fb4": {
+      "first_seen": "2026-10-03T00:46:02Z",
+      "status": "queued",
+      "url": "https://qwenlm.github.io/blog/gspo/"
+    },
+    "8df1952dd2a9fa1c6f0d2a6c": {
+      "first_seen": "2026-10-03T00:46:02Z",
+      "status": "queued",
+      "url": "https://qwenlm.github.io/blog/page/2/"
+    },
+    "8edf310cbf9c0577d1442636": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/gauth-ai-course"
+    },
+    "97397d7fa75c50842dda10c0": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Sep/27/hn-49871741/"
+    },
+    "9749e2baf4a95b925417c993": {
+      "first_seen": "2026-10-03T00:46:03Z",
+      "status": "queued",
+      "url": "https://www.kimi.com/en/products/kimi-work"
+    },
+    "97b1175a9af0f2e4574e8674": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2106162588497186988"
+    },
+    "9d77b23d2cd4a15f0f4308dc": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "a056268300c5b68e6b2cf85b": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://elevenlabs.io/blog/category/company"
+    },
+    "a0fc53049f812f1dd1c7f6cb": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://portal.nousresearch.com/login"
+    },
+    "a1785a44f4858e2b1ea21cf1": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://bfl.ai/models/flux-tools"
+    },
+    "a453c4ad1ff40833bc74eb48": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://bfl.ai/blog/flux-3-action"
+    },
+    "a45d817f6c42ecedbe2f74f1": {
+      "first_seen": "2026-10-03T00:46:02Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-cd070dfc6907242d4a56"
+    },
+    "a5c557c6cf82b734ecf0f1c7": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/communicate"
+    },
+    "a99e7c73be3208be7c0aeb2b": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://stability.ai/news-updates/sharing-a-new-way-to-work-with-stable-audio"
+    },
+    "aa7e1d7a8dcbea4853490ec7": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/open-inspector"
+    },
+    "adcefa2b9159833fd4bbe58b": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/syllaby-ai-avatar-2-0"
+    },
+    "add75ed4e68bed3c7da5b8ea": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://suno.com/blog/introducing-speech-beta?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "ae5cd00a09a429d2c09d4ed3": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://elevenlabs.io/blog/category/customer-stories"
+    },
+    "ae923be95479b6407abcfb62": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/earlyn"
+    },
+    "af2fbd93182d5c01937faf5a": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://runway.com/research/publications"
+    },
+    "af8a6e156fc266c29e4f7864": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://runway.com/research/introducing-runway-gen-4.5"
+    },
+    "b28db22be2dee5fac2e8c843": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/"
+    },
+    "b3ddf621cd927d255750a3ef": {
+      "first_seen": "2026-10-03T00:46:03Z",
+      "status": "queued",
+      "url": "https://www.kimi.com/membership/pricing?from=header_nav&tab=business"
+    },
+    "b602f0b5117800795a759ada": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://bfl.ai/creator-program"
+    },
+    "bdccd1b2e1deb4b775d390e6": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://stability.ai/deployment"
+    },
+    "bf54f36d6ecbf3a8efe39831": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://elevenlabs.io/blog/category/resources"
+    },
+    "c48f1ff5058b49fc9610ea09": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/"
+    },
+    "c6496f29a50495732cb54e22": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://elevenlabs.io/blog/introducing-music-v2"
+    },
+    "c6e30aab44ad97598838c4c3": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://sakana.ai/chat-fugumax/"
+    },
+    "c7b0200c3990590eaf3a7f26": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://stability.ai/license"
+    },
+    "c84785b7885bca32a7cbe6b5": {
+      "first_seen": "2026-10-03T00:46:03Z",
+      "status": "queued",
+      "url": "https://www.kimi.com/en/blog/kimi-k3"
+    },
+    "c9fca9e521cbe2a9fefa9d0a": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://bfl.ai/licensing"
+    },
+    "cd9267d452079c2353cb8ed2": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://runway.com/research/how-real-time-video-generation-is-changing-online-interaction"
+    },
+    "ce3bef4c29f308650e3c9973": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://sakana.ai/scsk-sc-partnership/"
+    },
+    "d3b185d971abc0ead80775d6": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
+    },
+    "d5135015cb86a5ed08ea8c55": {
+      "first_seen": "2026-10-03T00:46:03Z",
+      "status": "queued",
+      "url": "https://www.kimi.com/en/products/download"
+    },
+    "d716e08cd23c30890d3fdce6": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/chatgpt-just-learned-to-use-your-computer-09-11-2026"
+    },
+    "d7cfcc46f736c325047d8294": {
+      "first_seen": "2026-10-03T00:46:03Z",
+      "status": "queued",
+      "url": "https://www.kimi.com/en/products/kimi-browser-extension"
+    },
+    "d8e13386974c511dd08d75a2": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://www.minimax.io/news"
+    },
+    "d8f0f010d646003cb912c3ab": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models"
+    },
+    "d960e64d06d5c7517347cd61": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/claude-just-did-a-months-work-in-a-single-day-09-25-2026"
+    },
+    "dd052aeea45239ae007e7bd2": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://sakana.ai/inside-product-team/"
+    },
+    "dd4da1359b61535ba4332bd0": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://updates.midjourney.com/alpha-changelog-10-1-26/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "ddc53f40aa2256bac4bde24b": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Sep/28/joedaroo/"
+    },
+    "ddffe7df056e3cba5da2598d": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://www.minimax.io/"
+    },
+    "df2b3a652849a416deb89641": {
+      "first_seen": "2026-10-03T00:46:03Z",
+      "status": "queued",
+      "url": "https://www.kimi.com/en/business"
+    },
+    "e01699418682ed5521b2c47a": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/cloudflare-clef"
+    },
+    "e48a7f736f56ad596c7cd7f9": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/1/matthew-green/"
+    },
+    "e74b0ca731164f12ce98355c": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://www.minimax.io/models/text/m27"
+    },
+    "e800acacef7840a119826a49": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/chatgpt-just-took-the-image-crown-09-22-2026"
+    },
+    "e8346da5cb44c235fa05591d": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
+    },
+    "eeae4eda09cfd9e36977a75c": {
+      "first_seen": "2026-10-03T00:46:05Z",
+      "status": "queued",
+      "url": "https://runway.com/enterprise-contact"
+    },
+    "eef4d318a704a567a93440f1": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://newsletter.futurepedia.io/p/chatgpt-reads-the-fine-print-so-you-dont-have-to-09-29-2026"
+    },
+    "f49337edd4415929aaa81e89": {
+      "first_seen": "2026-10-03T00:46:04Z",
+      "status": "queued",
+      "url": "https://sakana.ai/schmidhuber/"
+    },
+    "f5edbd3b23d95b4ae1e66c01": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/"
+    },
+    "f862b9446c456ef6531bec4b": {
+      "first_seen": "2026-10-03T00:46:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/lloyal"
+    },
+    "f9ac3a3f0e104375673c2981": {
+      "first_seen": "2026-10-03T00:46:02Z",
+      "status": "queued",
+      "url": "https://qwenlm.github.io/blog/qwen-image-edit/"
+    },
+    "fc152ff68513727f347182c9": {
+      "first_seen": "2026-10-03T00:46:03Z",
+      "status": "queued",
+      "url": "https://www.kimi.com/"
+    },
+    "ff3192a07212d5fdc5524862": {
+      "first_seen": "2026-10-03T00:45:59Z",
+      "status": "queued",
+      "url": "https://microsoft.ai/models/mai-voice-2-1/?utm_source=futuretools.io&utm_medium=newspage"
+    }
+  },
+  "version": 2
 }

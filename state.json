@@ -1,5 +1,1811 @@
 {
-  "seen": {},
+  "last_run": {
+    "at": "2026-10-03T00:04:20Z",
+    "items_added": 360,
+    "mode": "baseline"
+  },
+  "seen": {
+    "0187c1ea444100fc48e8ae46": {
+      "first_seen": "2026-10-03T00:04:00Z",
+      "status": "baseline",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.101.4"
+    },
+    "023d364db8b33fc2047dcacf": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://simonwillison.net/2026/Sep/29/photo-scrubber/"
+    },
+    "028b20a4e08ce376a1a55cdb": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://elevenlabs.io/blog/eleven-v4"
+    },
+    "0319d22252bba2ff75bd49e0": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2609.38181"
+    },
+    "03f410cf3381f3e8cf718dd8": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/veltrix-ai"
+    },
+    "042ccdeda93e0568fd77742b": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://runway.com/research/introducing-runway-gwm-1"
+    },
+    "0441f5644303dad5b450ca71": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://runway.com/research/introducing-gwm-worlds-2"
+    },
+    "04ffbf1e02c2570faffddc3b": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://portal.nousresearch.com/"
+    },
+    "0519b8fa6d0c3743abd360f7": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2609.38256"
+    },
+    "058f1d37f378336cfe6debf0": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/"
+    },
+    "05e49555d6885421fdc12949": {
+      "first_seen": "2026-10-03T00:03:41Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0"
+    },
+    "061338e668ed697490e5190c": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
+    },
+    "073a7f531b0d61699fba6957": {
+      "first_seen": "2026-10-03T00:04:05Z",
+      "status": "baseline",
+      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.43"
+    },
+    "07805f8ccf0891a10c549358": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/eleven-v4-and-eleven-v4-turbo"
+    },
+    "08913be196df8938b291d515": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.shopify.com/news/introducing-canvas?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "0a28c215b5c05aea6d5cda4b": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://sakana.ai/frontier-intelligence-group/"
+    },
+    "0be66981e5a9848bfc3141a4": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2609.38195"
+    },
+    "0c78b107823f053100b26f30": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://claude.com/blog/claude-code-mods?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "0d02a63afbe5e094b9300cd8": {
+      "first_seen": "2026-10-03T00:03:45Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/smolagents/releases/tag/v1.21.3"
+    },
+    "0d1bedda434773699099da05": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00420"
+    },
+    "0d7a39b4768e4a09a517f07b": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://newsletter.futurepedia.io/p/you-can-stop-typing-to-google-now-09-18-2026"
+    },
+    "0d7b9e709462447dd82bf93b": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "0f607943d6da27d60b811bf1": {
+      "first_seen": "2026-10-03T00:03:53Z",
+      "status": "baseline",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.20"
+    },
+    "10ab6edfd8b33b10c4090f07": {
+      "first_seen": "2026-10-03T00:04:04Z",
+      "status": "baseline",
+      "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.1"
+    },
+    "10c568717ed2507c4d9b1469": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00422"
+    },
+    "1122febede168de1472c3675": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/esigna"
+    },
+    "1165aefccbfb0d903d04ce6c": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://stability.ai/strategic-partnerships"
+    },
+    "121946e928c2e8a76d631a91": {
+      "first_seen": "2026-10-03T00:03:48Z",
+      "status": "baseline",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0"
+    },
+    "1258d92154cf6b5b455fb550": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/anthroposcaper"
+    },
+    "13d9597e7c49d6e51053b901": {
+      "first_seen": "2026-10-03T00:03:57Z",
+      "status": "baseline",
+      "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.2"
+    },
+    "1441ff2ab9fdc9be50b63e1f": {
+      "first_seen": "2026-10-03T00:04:13Z",
+      "status": "baseline",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.51.0"
+    },
+    "172d052d12dca60340fc85e7": {
+      "first_seen": "2026-10-03T00:04:09Z",
+      "status": "baseline",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24"
+    },
+    "179afd0ee553a08b8bacfe99": {
+      "first_seen": "2026-10-03T00:04:18Z",
+      "status": "baseline",
+      "url": "https://www.minimax.io/models/text"
+    },
+    "182622bf1f20238f6f2bfff7": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00047"
+    },
+    "1884408dbd46fcfc5ba0e396": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-voice?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "18df95afed64f684c7833630": {
+      "first_seen": "2026-10-03T00:04:10Z",
+      "status": "baseline",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.18"
+    },
+    "19a126f9c52e35faaae01ee0": {
+      "first_seen": "2026-10-03T00:04:06Z",
+      "status": "baseline",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.8"
+    },
+    "19fa17b0500ad2a7a0dbccb3": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://bfl.ai/contact"
+    },
+    "1a62646ffec9690f1e299bab": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00101"
+    },
+    "1aab9018416fa7ee5dc90928": {
+      "first_seen": "2026-10-03T00:04:06Z",
+      "status": "baseline",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.6"
+    },
+    "1ab262daeec5747ab5941548": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/pastily"
+    },
+    "1b57fa64b28fe529e32d3761": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://elevenlabs.io/blog/category/impact"
+    },
+    "1b779e36ded287268031e79e": {
+      "first_seen": "2026-10-03T00:03:48Z",
+      "status": "baseline",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc1"
+    },
+    "1b93984ff2aed635c5f94087": {
+      "first_seen": "2026-10-03T00:04:17Z",
+      "status": "baseline",
+      "url": "https://www.kimi.com/code"
+    },
+    "1e508ff768ab30dd082fc689": {
+      "first_seen": "2026-10-03T00:03:44Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/diffusers/releases/tag/v0.39.0"
+    },
+    "1f99edf99303e9898f56c517": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://stability.ai/solutions-1"
+    },
+    "1fb466641ec80a8dc13c7b96": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/"
+    },
+    "2167384f51e2a4466793a69c": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://openai.com/index/the-den-family-social"
+    },
+    "2413f51d9fd0e84982a2e97f": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00012"
+    },
+    "27a7527a54e29bd1beb4039a": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00040"
+    },
+    "286a4c7e0865f7007f87bccb": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://runway.com/research/rna-sessions"
+    },
+    "288f4630deaa03076086fb4a": {
+      "first_seen": "2026-10-03T00:04:12Z",
+      "status": "baseline",
+      "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.2.1"
+    },
+    "28fb219774587d148d643716": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://x.com/NousResearch/status/2106138356937810069"
+    },
+    "2a7a5d91c231c387e16c68dd": {
+      "first_seen": "2026-10-03T00:03:59Z",
+      "status": "baseline",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.3"
+    },
+    "2a8e5b2eeed733baf988d7ff": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://hermes-agent.nousresearch.com/docs"
+    },
+    "2d3b0e3ef8aed1f1aafb048f": {
+      "first_seen": "2026-10-03T00:04:05Z",
+      "status": "baseline",
+      "url": "https://github.com/continuedev/continue/releases/tag/v2.0.0-vscode"
+    },
+    "2d53f04d3feae2a5fc2c4124": {
+      "first_seen": "2026-10-03T00:03:59Z",
+      "status": "baseline",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.2"
+    },
+    "2d709db6f0def6fba375931e": {
+      "first_seen": "2026-10-03T00:04:05Z",
+      "status": "baseline",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fcore%2Fv0.0.90"
+    },
+    "2d7f90284b95f6fe7941fe4e": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2609.38196"
+    },
+    "2dae4396529b7edbf3dda561": {
+      "first_seen": "2026-10-03T00:04:04Z",
+      "status": "baseline",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.900-beta"
+    },
+    "2ea6f168ee68eda93378195a": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://elevenlabs.io/blog/introducing-dubbing-v2"
+    },
+    "2f1b5ca58d8805cbe859509b": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://sakana.ai/japan-startup-award-2026/"
+    },
+    "30caef7933621cd0c8c862bd": {
+      "first_seen": "2026-10-03T00:04:15Z",
+      "status": "baseline",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-955ba114b67aea6e882c"
+    },
+    "323fd1087f594a308741cd5a": {
+      "first_seen": "2026-10-03T00:04:17Z",
+      "status": "baseline",
+      "url": "https://www.kimi.com/en/products/"
+    },
+    "3311a15a371be05b4ee5c0b6": {
+      "first_seen": "2026-10-03T00:04:09Z",
+      "status": "baseline",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.20"
+    },
+    "338ea65b29ca83a891bd3fe8": {
+      "first_seen": "2026-10-03T00:03:46Z",
+      "status": "baseline",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.1"
+    },
+    "33a204d4c3b15672cc9aa301": {
+      "first_seen": "2026-10-03T00:03:59Z",
+      "status": "baseline",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.4"
+    },
+    "33e9d331a372cba4ad1b951f": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://blog.google/products/ads-commerce/creating-assets-youtube-ads/"
+    },
+    "33f490ede507170cfb5dd99f": {
+      "first_seen": "2026-10-03T00:03:48Z",
+      "status": "baseline",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc1"
+    },
+    "34e114d460f2a34002d6bac5": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://runway.com/news/company-news/introducing-runway-ads?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "3589537387e62fc4415a57d2": {
+      "first_seen": "2026-10-03T00:03:45Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/smolagents/releases/tag/v1.25.0"
+    },
+    "36980dfdde9ab39e7f62d1f0": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://sakana.ai/marlin-update/"
+    },
+    "36bdd825e1b13d8b2bcea67a": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://runway.com/news/research"
+    },
+    "3762ff1d2e3077743459b4a4": {
+      "first_seen": "2026-10-03T00:03:50Z",
+      "status": "baseline",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0"
+    },
+    "37948658fc64306e709ba3fb": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://bfl.ai/models/flux-3-image"
+    },
+    "381da076c8f84d9c12b58c52": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/educause-2026/"
+    },
+    "383db0675a7385f76bd3e59c": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://runway.com/research/introducing-praxis-1"
+    },
+    "3885642dc337119306372999": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/famulor-telephony-ai"
+    },
+    "39f346da5a98b4d9b1195855": {
+      "first_seen": "2026-10-03T00:03:55Z",
+      "status": "baseline",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.11.0"
+    },
+    "3b1a048eadf304cf9c80eeb9": {
+      "first_seen": "2026-10-03T00:03:55Z",
+      "status": "baseline",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.7.0"
+    },
+    "3b73f4822ea0b3c87593c1f4": {
+      "first_seen": "2026-10-03T00:04:16Z",
+      "status": "baseline",
+      "url": "https://qwenlm.github.io/blog/qwen3guard/"
+    },
+    "3c12ff714ab5ec5eda4a3ae8": {
+      "first_seen": "2026-10-03T00:03:46Z",
+      "status": "baseline",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.0"
+    },
+    "3c2501ede4aef0ffb4ab10c2": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00030"
+    },
+    "3c49cae3e27b40df8f4f60a5": {
+      "first_seen": "2026-10-03T00:03:44Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/diffusers/releases/tag/v0.40.0"
+    },
+    "3d9482c11cf663a63fe7f54d": {
+      "first_seen": "2026-10-03T00:04:18Z",
+      "status": "baseline",
+      "url": "https://www.minimax.io/about"
+    },
+    "3e83ebb43ea3be9e12e61969": {
+      "first_seen": "2026-10-03T00:04:05Z",
+      "status": "baseline",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.0.90"
+    },
+    "3ea1143ac33f4c55c7eab2c5": {
+      "first_seen": "2026-10-03T00:04:05Z",
+      "status": "baseline",
+      "url": "https://github.com/continuedev/continue/releases/tag/v1.2.23-vscode"
+    },
+    "3fdfc0e4208e99b2ce1e5759": {
+      "first_seen": "2026-10-03T00:04:04Z",
+      "status": "baseline",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/prebuilt-wheels-cu13"
+    },
+    "4030ad03e7a3a7681f73ed8e": {
+      "first_seen": "2026-10-03T00:04:10Z",
+      "status": "baseline",
+      "url": "https://github.com/microsoft/autogen/releases/tag/python-v0.7.5"
+    },
+    "40380bfc093a8ca3ebfc1a58": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2609.38190"
+    },
+    "404444f15a7043fbf673d5c1": {
+      "first_seen": "2026-10-03T00:03:50Z",
+      "status": "baseline",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc3"
+    },
+    "4048c279d9cd7af57e2f645a": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://stability.ai/board-of-directors"
+    },
+    "4051bebabba48546b484d7d9": {
+      "first_seen": "2026-10-03T00:04:12Z",
+      "status": "baseline",
+      "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.3.1"
+    },
+    "40b751b710ffdfe179ad0616": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://stability.ai/customer-stories"
+    },
+    "41201ce1f215e4f9daf82d4e": {
+      "first_seen": "2026-10-03T00:03:48Z",
+      "status": "baseline",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2"
+    },
+    "4131b6c07892f0629e8543a9": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://portal.nousresearch.com/cloud"
+    },
+    "41625591abfe53de1f2e0694": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/"
+    },
+    "41aaed3a7ec03d9596bf1d41": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://elevenlabs.io/blog/introducing-scribe-v2"
+    },
+    "4244b75a9e431210953db3d0": {
+      "first_seen": "2026-10-03T00:04:04Z",
+      "status": "baseline",
+      "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.1.dev"
+    },
+    "42d9e5f881b338e799fb6c74": {
+      "first_seen": "2026-10-03T00:04:06Z",
+      "status": "baseline",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.7"
+    },
+    "42f2e37d9605f3037ecd8167": {
+      "first_seen": "2026-10-03T00:03:46Z",
+      "status": "baseline",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.0"
+    },
+    "442074384a52ee966c8cf342": {
+      "first_seen": "2026-10-03T00:04:13Z",
+      "status": "baseline",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.52.0"
+    },
+    "4450675c6f099b0044872c16": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/shiphq"
+    },
+    "44a995e3e5a09201313731f5": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://bfl.ai/about"
+    },
+    "4651fd8a89a23438c2bcbae7": {
+      "first_seen": "2026-10-03T00:03:47Z",
+      "status": "baseline",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11351"
+    },
+    "4732ebc0389ac93a123e97e6": {
+      "first_seen": "2026-10-03T00:04:12Z",
+      "status": "baseline",
+      "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.3.0"
+    },
+    "485a72695274dcc8a5aaa6f9": {
+      "first_seen": "2026-10-03T00:03:50Z",
+      "status": "baseline",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1"
+    },
+    "4a07f4cf9624cda848501f5d": {
+      "first_seen": "2026-10-03T00:04:12Z",
+      "status": "baseline",
+      "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.4.0b1"
+    },
+    "4b5ea087cc8a8e8ba85e3e54": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00098"
+    },
+    "4bc101a068feb031e91e799c": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/mintlify"
+    },
+    "4bcd91368f92e730e0936e7b": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://ideogram.ai/models/4.5/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "4cbabd98657885edf602078e": {
+      "first_seen": "2026-10-03T00:04:18Z",
+      "status": "baseline",
+      "url": "https://www.minimax.io/news/minimax-speech-28"
+    },
+    "4d3ec693be6f325b6a3f53ba": {
+      "first_seen": "2026-10-03T00:03:57Z",
+      "status": "baseline",
+      "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.1"
+    },
+    "4de3942809da23ad6b221095": {
+      "first_seen": "2026-10-03T00:04:04Z",
+      "status": "baseline",
+      "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.3.dev"
+    },
+    "4f36a48fa9096d65b0260699": {
+      "first_seen": "2026-10-03T00:04:00Z",
+      "status": "baseline",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.2"
+    },
+    "50980c4dad6b62c89ad033d8": {
+      "first_seen": "2026-10-03T00:04:18Z",
+      "status": "baseline",
+      "url": "https://www.minimax.io/models/text/m3"
+    },
+    "509d2186beb2fc4974ecbd48": {
+      "first_seen": "2026-10-03T00:04:18Z",
+      "status": "baseline",
+      "url": "https://www.minimax.io/audio"
+    },
+    "50e2bcc2b71bcb3a35743f8a": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://sakana.ai/fugu-max-release/"
+    },
+    "5404525725fe082cebc33e09": {
+      "first_seen": "2026-10-03T00:03:45Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/smolagents/releases/tag/v1.22.0"
+    },
+    "547de62c683a3d7ee5a6ead4": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/bambu-lab-r1"
+    },
+    "56725799a0c3efe2aa537020": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00515"
+    },
+    "5729c415ffed36d683b66b4e": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00126"
+    },
+    "57ed632908ae012313cd5937": {
+      "first_seen": "2026-10-03T00:04:07Z",
+      "status": "baseline",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.5"
+    },
+    "57f26ce032c1bf6dc8f08b24": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://sakana.ai/pc-alm/"
+    },
+    "5a75b8a901e4f4a9de9bb579": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://bfl.ai/models/flux-3-action"
+    },
+    "5a9041d41ad0b95106e213b7": {
+      "first_seen": "2026-10-03T00:03:53Z",
+      "status": "baseline",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.15"
+    },
+    "5abb33a67f673101067becfb": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00132"
+    },
+    "5ee7f6c90aae0cecefe063e4": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://sakana.ai/percept-lens/"
+    },
+    "5fa8ed454b1399f2c002042e": {
+      "first_seen": "2026-10-03T00:04:04Z",
+      "status": "baseline",
+      "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0"
+    },
+    "603d4f0592f632a4812d62a6": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "6071f63e21f6425413eb6372": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://openai.com/index/devday-2026-recap"
+    },
+    "6109ff708803585f7b4061a4": {
+      "first_seen": "2026-10-03T00:03:44Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/diffusers/releases/tag/v0.37.0"
+    },
+    "6138ec733e3c4420aa012e01": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://hermes-agent.nousresearch.com/"
+    },
+    "613f0908caf5019c61a1112c": {
+      "first_seen": "2026-10-03T00:04:16Z",
+      "status": "baseline",
+      "url": "https://qwenlm.github.io/blog/qwen-mt/"
+    },
+    "637d3dfa247fa816a4c4160f": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://openai.com/index/albertsons-reimagining-retail"
+    },
+    "6381db252deeabb6b54b0421": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    },
+    "638f8ae09ae5152488569490": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://stability.ai/company"
+    },
+    "63aee4d7d60aeda07b3d8998": {
+      "first_seen": "2026-10-03T00:04:12Z",
+      "status": "baseline",
+      "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.3.0b1"
+    },
+    "6406be5b671a96484836e277": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://bfl.ai/brand"
+    },
+    "643740d8b1d776507524544b": {
+      "first_seen": "2026-10-03T00:04:18Z",
+      "status": "baseline",
+      "url": "https://www.minimax.io/blog/minimax-h3"
+    },
+    "646e2d3c8e8ea51471b22c07": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/alliance-americas-skilled-trades-expands/"
+    },
+    "64e27cc1872ee8386150363a": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
+    },
+    "687e9c8e75efa984655b68da": {
+      "first_seen": "2026-10-03T00:04:04Z",
+      "status": "baseline",
+      "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.2"
+    },
+    "68cbabc2cd02fa79182c91c3": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
+    },
+    "68f59b89b4d78cf84a0cdf21": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://elevenlabs.io/blog/category/product"
+    },
+    "693e2643efdc2b6ad60ca908": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00074"
+    },
+    "699595b3b94d9b754c127512": {
+      "first_seen": "2026-10-03T00:03:48Z",
+      "status": "baseline",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0"
+    },
+    "699d6c6d40be9436432a4da5": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2609.38198"
+    },
+    "69c0e6ad413a3a11f508a1e6": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/jarviscore"
+    },
+    "6a7bb4e3e69d69f535f566ea": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/"
+    },
+    "6b836c8ce6ffe4dcbf09ef60": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://sakana.ai/sail/"
+    },
+    "6be58c975f8f03a7c33c0b06": {
+      "first_seen": "2026-10-03T00:04:05Z",
+      "status": "baseline",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.0.90"
+    },
+    "6c883b8091f090772dce997b": {
+      "first_seen": "2026-10-03T00:03:47Z",
+      "status": "baseline",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11347"
+    },
+    "6d2ef0c477ac4ea5a394a3d8": {
+      "first_seen": "2026-10-03T00:04:16Z",
+      "status": "baseline",
+      "url": "https://qwenlm.github.io/blog/qwen-image/"
+    },
+    "6deeaa575f7a1b1ab43704bd": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "6e0ba84ea28447b0d66b95c4": {
+      "first_seen": "2026-10-03T00:04:04Z",
+      "status": "baseline",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.902-beta"
+    },
+    "6ef4e425bda93bb00d8adaa9": {
+      "first_seen": "2026-10-03T00:04:10Z",
+      "status": "baseline",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.23"
+    },
+    "7157c7d19069852befd5724a": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://sakana.ai/world-models-royal-society-issue/"
+    },
+    "7164afd32ab29aac53e66bac": {
+      "first_seen": "2026-10-03T00:04:00Z",
+      "status": "baseline",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.0-rc.2"
+    },
+    "71ea610267dd1d6faf68d153": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://bfl.ai/models/flux-3-video"
+    },
+    "723ac1f70a166fbceb0ff2bb": {
+      "first_seen": "2026-10-03T00:04:13Z",
+      "status": "baseline",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.49.0"
+    },
+    "72c33ca5921b8b738b231089": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://elevenlabs.io/blog/eleven-v3-is-now-generally-available"
+    },
+    "73f1bf4d53a57ee938fe5a85": {
+      "first_seen": "2026-10-03T00:03:50Z",
+      "status": "baseline",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0"
+    },
+    "76a0385e5ac6605451f72db1": {
+      "first_seen": "2026-10-03T00:03:41Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.0"
+    },
+    "77060136cffd61a3bc11b7d0": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://x.com/NousResearch/status/2106138249496240475"
+    },
+    "7804f7383a7f978cf160f191": {
+      "first_seen": "2026-10-03T00:03:45Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/smolagents/releases/tag/v1.26.0"
+    },
+    "793a75ba0d43a66fc809b75a": {
+      "first_seen": "2026-10-03T00:04:05Z",
+      "status": "baseline",
+      "url": "https://github.com/continuedev/continue/releases/tag/v1.3.38-vscode"
+    },
+    "798a6413c0a2c1ffb5bb3c80": {
+      "first_seen": "2026-10-03T00:03:57Z",
+      "status": "baseline",
+      "url": "https://github.com/ml-explore/mlx/releases/tag/v0.31.1"
+    },
+    "79c9720701799faf00bb4932": {
+      "first_seen": "2026-10-03T00:04:10Z",
+      "status": "baseline",
+      "url": "https://github.com/microsoft/autogen/releases/tag/python-v0.7.4"
+    },
+    "79ebb80118396ffd689ca34b": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://newsletter.futurepedia.io/p/your-chatgpt-can-now-work-while-youre-away-10-02-2026"
+    },
+    "7af48a3cbaa19c506e59d2e9": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://runway.com/research/introducing-general-world-models"
+    },
+    "7b43e5d389a9f61d43575f50": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2609.38205"
+    },
+    "7b63424ea89c2d3e84f60b14": {
+      "first_seen": "2026-10-03T00:03:57Z",
+      "status": "baseline",
+      "url": "https://github.com/ml-explore/mlx/releases/tag/v0.31.2"
+    },
+    "7c578bce2bcf92bdc7cf6dde": {
+      "first_seen": "2026-10-03T00:03:46Z",
+      "status": "baseline",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.3"
+    },
+    "7cfa53bfb68a578c85d85929": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://newsletter.futurepedia.io/p/chatgpt-6-turns-one-prompt-into-a-live-website-09-15-2026"
+    },
+    "7db4974c11ebd58e1ae24279": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
+    },
+    "7df98f84a450158b725309bd": {
+      "first_seen": "2026-10-03T00:03:41Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1"
+    },
+    "7e9aff605a4e7ea56674e155": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://newsletter.futurepedia.io/p/turn-your-messy-notes-into-a-clear-road-map-09-08-2026"
+    },
+    "80045661ac99ba741eea6b22": {
+      "first_seen": "2026-10-03T00:04:07Z",
+      "status": "baseline",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.1.3"
+    },
+    "8021ac8155b7aa37da2475b8": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://stability.ai/news-updates/stability-ai-latest-funding-backed-by-entertainment-industry-biggest-names"
+    },
+    "8058f573609a95397178d0e2": {
+      "first_seen": "2026-10-03T00:03:59Z",
+      "status": "baseline",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.1"
+    },
+    "80b2fec4b1002d8816f9f649": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2609.38193"
+    },
+    "80dab0fff29ac51b9ff96394": {
+      "first_seen": "2026-10-03T00:03:57Z",
+      "status": "baseline",
+      "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.0"
+    },
+    "80fcbb463ccbeee372c8e68e": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/teachoo-2"
+    },
+    "82780810aba897ba13c1a821": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "86745252420db89333393bf9": {
+      "first_seen": "2026-10-03T00:03:48Z",
+      "status": "baseline",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1"
+    },
+    "868c02b1661261d41601212f": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/never-boring-ai"
+    },
+    "86c976194a1349e0941fe5f5": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00431"
+    },
+    "872457bb1f6a4e1ad755dbb7": {
+      "first_seen": "2026-10-03T00:03:48Z",
+      "status": "baseline",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0"
+    },
+    "874d80e9e31a5a4f86d4c985": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://hermes-agent.nousresearch.com/docs/getting-started/installation#without-hermes-desktop"
+    },
+    "87e209af624212491c44f946": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "882596cbc7639eb42bf210ab": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://openai.com/index/chatham-financial"
+    },
+    "88c587e6e9d24a892bb61836": {
+      "first_seen": "2026-10-03T00:04:06Z",
+      "status": "baseline",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.10"
+    },
+    "8add0cfb6a7ad18320e08467": {
+      "first_seen": "2026-10-03T00:04:05Z",
+      "status": "baseline",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.90"
+    },
+    "8b0edc8fdb04ddc5f4ef43b0": {
+      "first_seen": "2026-10-03T00:04:17Z",
+      "status": "baseline",
+      "url": "https://www.kimi.com/membership/pricing?from=header_nav&tab=business&open=contact-sales"
+    },
+    "8b20354625b9e8e76f18ebc7": {
+      "first_seen": "2026-10-03T00:03:55Z",
+      "status": "baseline",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.10.0"
+    },
+    "8cc5380fb99a93aeaaf4c1c6": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00018"
+    },
+    "8d28766e7ba5e0cab3974fb4": {
+      "first_seen": "2026-10-03T00:04:16Z",
+      "status": "baseline",
+      "url": "https://qwenlm.github.io/blog/gspo/"
+    },
+    "8df1952dd2a9fa1c6f0d2a6c": {
+      "first_seen": "2026-10-03T00:04:16Z",
+      "status": "baseline",
+      "url": "https://qwenlm.github.io/blog/page/2/"
+    },
+    "8e7bdd03010036f87da34ebd": {
+      "first_seen": "2026-10-03T00:03:53Z",
+      "status": "baseline",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.18"
+    },
+    "8ebdd7fd9c2ee1d12d1c5204": {
+      "first_seen": "2026-10-03T00:03:50Z",
+      "status": "baseline",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc5"
+    },
+    "8edf310cbf9c0577d1442636": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/gauth-ai-course"
+    },
+    "8fc038c2bf575413009482ff": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/"
+    },
+    "8ff13f57dac4cfa311c2ecd8": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-science-ai-flu-forecasts/"
+    },
+    "90249c2a3882c6d31b88e7ce": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+    },
+    "9211d3bdcf0f051d19d2d8d9": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00024"
+    },
+    "933cad394df844996ff7915b": {
+      "first_seen": "2026-10-03T00:04:05Z",
+      "status": "baseline",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fllms%2Fv0.0.90"
+    },
+    "94bd19d048ee866b06ef5242": {
+      "first_seen": "2026-10-03T00:04:05Z",
+      "status": "baseline",
+      "url": "https://github.com/continuedev/continue/releases/tag/v1.3.40-vscode"
+    },
+    "95a9395903c9db5363c82a9f": {
+      "first_seen": "2026-10-03T00:04:10Z",
+      "status": "baseline",
+      "url": "https://github.com/microsoft/autogen/releases/tag/python-v0.7.3"
+    },
+    "97397d7fa75c50842dda10c0": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://simonwillison.net/2026/Sep/27/hn-49871741/"
+    },
+    "9749e2baf4a95b925417c993": {
+      "first_seen": "2026-10-03T00:04:17Z",
+      "status": "baseline",
+      "url": "https://www.kimi.com/en/products/kimi-work"
+    },
+    "97b1175a9af0f2e4574e8674": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://x.com/NousResearch/status/2106162588497186988"
+    },
+    "9906482f0e9c75da96c7d515": {
+      "first_seen": "2026-10-03T00:04:00Z",
+      "status": "baseline",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.0-dev.2"
+    },
+    "994a48e90a5ee3ef1b527c90": {
+      "first_seen": "2026-10-03T00:04:09Z",
+      "status": "baseline",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25"
+    },
+    "996add26c473ba71bad49622": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00093"
+    },
+    "9a1aee0679412528a92260cc": {
+      "first_seen": "2026-10-03T00:04:10Z",
+      "status": "baseline",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.21"
+    },
+    "9b2f8ba750283adbd5d7c4a3": {
+      "first_seen": "2026-10-03T00:03:53Z",
+      "status": "baseline",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21"
+    },
+    "9d77b23d2cd4a15f0f4308dc": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "9da6f55621f5cd4edf72d52f": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00125"
+    },
+    "9dff434834cceb7d87aac076": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00424"
+    },
+    "9fa1ba6abdd740090f2d0723": {
+      "first_seen": "2026-10-03T00:04:05Z",
+      "status": "baseline",
+      "url": "https://github.com/continuedev/continue/releases/tag/v1.2.24-vscode"
+    },
+    "9fd56ce2fd76a4a73a8b7cef": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/wmail-3"
+    },
+    "a0219a244e273a8e5ed720d7": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00031"
+    },
+    "a056268300c5b68e6b2cf85b": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://elevenlabs.io/blog/category/company"
+    },
+    "a0fc53049f812f1dd1c7f6cb": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://portal.nousresearch.com/login"
+    },
+    "a1785a44f4858e2b1ea21cf1": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://bfl.ai/models/flux-tools"
+    },
+    "a1e4bf9dfd259e4a8a1b912a": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00015"
+    },
+    "a3cf20eae0fce76e913abe7e": {
+      "first_seen": "2026-10-03T00:03:46Z",
+      "status": "baseline",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.4"
+    },
+    "a3f2477a7a4c17f88579ed96": {
+      "first_seen": "2026-10-03T00:03:41Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.18.0"
+    },
+    "a453c4ad1ff40833bc74eb48": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://bfl.ai/blog/flux-3-action"
+    },
+    "a52615d03b6849c8c0ea3f2e": {
+      "first_seen": "2026-10-03T00:04:00Z",
+      "status": "baseline",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.0-dev.1"
+    },
+    "a76e093a76ecb89d1ba50ac5": {
+      "first_seen": "2026-10-03T00:04:07Z",
+      "status": "baseline",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.3"
+    },
+    "a8c296cfac9b9c39fca56080": {
+      "first_seen": "2026-10-03T00:04:09Z",
+      "status": "baseline",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.21"
+    },
+    "a99e7c73be3208be7c0aeb2b": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://stability.ai/news-updates/sharing-a-new-way-to-work-with-stable-audio"
+    },
+    "a9e5eb40b02dd637ada77901": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/wu"
+    },
+    "aa2d93de1ae70902a23c7bf5": {
+      "first_seen": "2026-10-03T00:03:50Z",
+      "status": "baseline",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc4"
+    },
+    "aa7e1d7a8dcbea4853490ec7": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/open-inspector"
+    },
+    "aadf3e6bac93c6aa4bc485ee": {
+      "first_seen": "2026-10-03T00:03:59Z",
+      "status": "baseline",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.10.2"
+    },
+    "ac41f4531fca042f6f8aec42": {
+      "first_seen": "2026-10-03T00:03:46Z",
+      "status": "baseline",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.2"
+    },
+    "ad578f6050505d8ac881181b": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00017"
+    },
+    "ad65f1967a91b4be9eb0e276": {
+      "first_seen": "2026-10-03T00:03:45Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/smolagents/releases/tag/v1.24.0"
+    },
+    "ad6db3127dac135d4222143c": {
+      "first_seen": "2026-10-03T00:03:47Z",
+      "status": "baseline",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11361"
+    },
+    "adcefa2b9159833fd4bbe58b": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/syllaby-ai-avatar-2-0"
+    },
+    "add75ed4e68bed3c7da5b8ea": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://suno.com/blog/introducing-speech-beta?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "ae5cd00a09a429d2c09d4ed3": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://elevenlabs.io/blog/category/customer-stories"
+    },
+    "ae62fced35493cf3f4e4fbcf": {
+      "first_seen": "2026-10-03T00:03:55Z",
+      "status": "baseline",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.8.2"
+    },
+    "af2fbd93182d5c01937faf5a": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://runway.com/research/publications"
+    },
+    "af8a6e156fc266c29e4f7864": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://runway.com/research/introducing-runway-gen-4.5"
+    },
+    "b0fe2e85015610c8fad31d3e": {
+      "first_seen": "2026-10-03T00:04:09Z",
+      "status": "baseline",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.23"
+    },
+    "b100d97d3f0c6129fab54223": {
+      "first_seen": "2026-10-03T00:03:53Z",
+      "status": "baseline",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.19"
+    },
+    "b28db22be2dee5fac2e8c843": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/"
+    },
+    "b2dc5166b6e43a0c38ba4d0b": {
+      "first_seen": "2026-10-03T00:03:53Z",
+      "status": "baseline",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.17"
+    },
+    "b3ddf621cd927d255750a3ef": {
+      "first_seen": "2026-10-03T00:04:17Z",
+      "status": "baseline",
+      "url": "https://www.kimi.com/membership/pricing?from=header_nav&tab=business"
+    },
+    "b602f0b5117800795a759ada": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://bfl.ai/creator-program"
+    },
+    "b7125d170eabfe20953c633d": {
+      "first_seen": "2026-10-03T00:03:44Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/diffusers/releases/tag/v0.36.0"
+    },
+    "b778f0165434de015b1547ec": {
+      "first_seen": "2026-10-03T00:04:12Z",
+      "status": "baseline",
+      "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.4.0"
+    },
+    "b8087b88cb63ae7fc829eff8": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://openai.com/index/the-eternal-complement"
+    },
+    "b900b7f12d6f003ba0f42d94": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2609.38194"
+    },
+    "b9972c54becd0c3d958a401b": {
+      "first_seen": "2026-10-03T00:03:46Z",
+      "status": "baseline",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.2"
+    },
+    "b9e8259f26cfb073c111b3ce": {
+      "first_seen": "2026-10-03T00:03:44Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/diffusers/releases/tag/v0.37.1"
+    },
+    "ba10a67cb4923b256ec4b826": {
+      "first_seen": "2026-10-03T00:04:10Z",
+      "status": "baseline",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.20"
+    },
+    "bdccd1b2e1deb4b775d390e6": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://stability.ai/deployment"
+    },
+    "bf1a189b85c837584069025f": {
+      "first_seen": "2026-10-03T00:04:00Z",
+      "status": "baseline",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.1"
+    },
+    "bf2a6d1b9b567f4c8fd38926": {
+      "first_seen": "2026-10-03T00:03:53Z",
+      "status": "baseline",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.16"
+    },
+    "bf54f36d6ecbf3a8efe39831": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://elevenlabs.io/blog/category/resources"
+    },
+    "c07a67b182a2b19fe525b92a": {
+      "first_seen": "2026-10-03T00:03:41Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0"
+    },
+    "c20b9a3c1e6308f21901ecd3": {
+      "first_seen": "2026-10-03T00:04:05Z",
+      "status": "baseline",
+      "url": "https://github.com/continuedev/continue/releases/tag/v2.1.0-vscode"
+    },
+    "c38af6e5cae43e23a64c1d50": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6"
+    },
+    "c3e9e5c56aa9ee3582d063b8": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2609.38260"
+    },
+    "c42e557a452022c7203259b4": {
+      "first_seen": "2026-10-03T00:04:10Z",
+      "status": "baseline",
+      "url": "https://github.com/microsoft/autogen/releases/tag/python-v0.7.2"
+    },
+    "c4321ef7d75de25fc04a4646": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2609.38222"
+    },
+    "c438a147fc61d86d77f56490": {
+      "first_seen": "2026-10-03T00:04:10Z",
+      "status": "baseline",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.22"
+    },
+    "c48f1ff5058b49fc9610ea09": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/"
+    },
+    "c6496f29a50495732cb54e22": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://elevenlabs.io/blog/introducing-music-v2"
+    },
+    "c6a70b623b520248d507b9c2": {
+      "first_seen": "2026-10-03T00:03:41Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.17.0"
+    },
+    "c6db10f97f0537c0086d63a2": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2609.38219"
+    },
+    "c6e30aab44ad97598838c4c3": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://sakana.ai/chat-fugumax/"
+    },
+    "c75827da1cfa5e282979f290": {
+      "first_seen": "2026-10-03T00:04:10Z",
+      "status": "baseline",
+      "url": "https://github.com/microsoft/autogen/releases/tag/python-v0.7.1.post1"
+    },
+    "c7b0200c3990590eaf3a7f26": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://stability.ai/license"
+    },
+    "c7ccacb02f5cd6df29d9d6a6": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/finbar-2"
+    },
+    "c84785b7885bca32a7cbe6b5": {
+      "first_seen": "2026-10-03T00:04:17Z",
+      "status": "baseline",
+      "url": "https://www.kimi.com/en/blog/kimi-k3"
+    },
+    "c9fca9e521cbe2a9fefa9d0a": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://bfl.ai/licensing"
+    },
+    "cb0a640f808b77e77b1219c5": {
+      "first_seen": "2026-10-03T00:03:47Z",
+      "status": "baseline",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11346"
+    },
+    "cbc8926a28c802abf681f0b7": {
+      "first_seen": "2026-10-03T00:03:47Z",
+      "status": "baseline",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11349"
+    },
+    "cbd90d17f4653b8f0ba27489": {
+      "first_seen": "2026-10-03T00:04:13Z",
+      "status": "baseline",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.53.0"
+    },
+    "cd80297b5582a6814bb21941": {
+      "first_seen": "2026-10-03T00:03:55Z",
+      "status": "baseline",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.8.1"
+    },
+    "cd9267d452079c2353cb8ed2": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://runway.com/research/how-real-time-video-generation-is-changing-online-interaction"
+    },
+    "ce3bef4c29f308650e3c9973": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://sakana.ai/scsk-sc-partnership/"
+    },
+    "ce9cb2536dd43dff90f55f52": {
+      "first_seen": "2026-10-03T00:04:04Z",
+      "status": "baseline",
+      "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.2.dev"
+    },
+    "ceb3576a6bbdd8c15087e27a": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-educator-series-badge-a-thon/"
+    },
+    "cf446191b3d956d125c736b8": {
+      "first_seen": "2026-10-03T00:04:06Z",
+      "status": "baseline",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.5"
+    },
+    "d0594e3e3d8b36eb294ad37d": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/water-resilience-chile/"
+    },
+    "d0768bba5dff363162e4e90b": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2609.38203"
+    },
+    "d0840b9daa9097a44dcda9e3": {
+      "first_seen": "2026-10-03T00:03:55Z",
+      "status": "baseline",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.9.0"
+    },
+    "d22e1a2319ccd9329b6707fd": {
+      "first_seen": "2026-10-03T00:04:07Z",
+      "status": "baseline",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.0"
+    },
+    "d2d14a92fbc8343aa3aabef2": {
+      "first_seen": "2026-10-03T00:03:48Z",
+      "status": "baseline",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc0"
+    },
+    "d30a8ab93b58a4a69b36ea97": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00064"
+    },
+    "d35bb6a301795f82b359a0bb": {
+      "first_seen": "2026-10-03T00:03:47Z",
+      "status": "baseline",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11355"
+    },
+    "d3b185d971abc0ead80775d6": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
+    },
+    "d4b5c908f621053b72723dda": {
+      "first_seen": "2026-10-03T00:03:41Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1"
+    },
+    "d4eadc6264742490b3b97c71": {
+      "first_seen": "2026-10-03T00:04:07Z",
+      "status": "baseline",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.6"
+    },
+    "d5135015cb86a5ed08ea8c55": {
+      "first_seen": "2026-10-03T00:04:17Z",
+      "status": "baseline",
+      "url": "https://www.kimi.com/en/products/download"
+    },
+    "d55a4c113a242b65cda2a026": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2609.38201"
+    },
+    "d59c4716fcf993c9d04698c7": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00010"
+    },
+    "d66945ef830bb2f2ad061770": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00025"
+    },
+    "d6b9f5e651b1891e950e0096": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+    },
+    "d716e08cd23c30890d3fdce6": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://newsletter.futurepedia.io/p/chatgpt-just-learned-to-use-your-computer-09-11-2026"
+    },
+    "d7cfcc46f736c325047d8294": {
+      "first_seen": "2026-10-03T00:04:17Z",
+      "status": "baseline",
+      "url": "https://www.kimi.com/en/products/kimi-browser-extension"
+    },
+    "d8658c9aaa0aa4238455b1c6": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2609.38276"
+    },
+    "d8bb684eb0518bbaec5fbdb3": {
+      "first_seen": "2026-10-03T00:03:55Z",
+      "status": "baseline",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.8.0"
+    },
+    "d8e13386974c511dd08d75a2": {
+      "first_seen": "2026-10-03T00:04:18Z",
+      "status": "baseline",
+      "url": "https://www.minimax.io/news"
+    },
+    "d8f0f010d646003cb912c3ab": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models"
+    },
+    "d953821332fcd27a1c6f7c6b": {
+      "first_seen": "2026-10-03T00:03:47Z",
+      "status": "baseline",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11352"
+    },
+    "d960e64d06d5c7517347cd61": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://newsletter.futurepedia.io/p/claude-just-did-a-months-work-in-a-single-day-09-25-2026"
+    },
+    "dc61cd9c23bdd4b5c1607fd2": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/halo-11"
+    },
+    "dd052aeea45239ae007e7bd2": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://sakana.ai/inside-product-team/"
+    },
+    "dd4da1359b61535ba4332bd0": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://updates.midjourney.com/alpha-changelog-10-1-26/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "ddaccaed883695c8ff80980a": {
+      "first_seen": "2026-10-03T00:03:46Z",
+      "status": "baseline",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.1"
+    },
+    "ddc53f40aa2256bac4bde24b": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://simonwillison.net/2026/Sep/28/joedaroo/"
+    },
+    "ddffe7df056e3cba5da2598d": {
+      "first_seen": "2026-10-03T00:04:18Z",
+      "status": "baseline",
+      "url": "https://www.minimax.io/"
+    },
+    "dec620cb7225d2434a9b02e6": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://openai.com/index/introducing-dots"
+    },
+    "df2b3a652849a416deb89641": {
+      "first_seen": "2026-10-03T00:04:17Z",
+      "status": "baseline",
+      "url": "https://www.kimi.com/en/business"
+    },
+    "e00c8dd11b7cb4b1e4bebb79": {
+      "first_seen": "2026-10-03T00:03:45Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/smolagents/releases/tag/v1.23.0"
+    },
+    "e01699418682ed5521b2c47a": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://www.producthunt.com/products/cloudflare-clef"
+    },
+    "e2cd6172fc1e27be742e0352": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00061"
+    },
+    "e3b8761031d237fbf22ff123": {
+      "first_seen": "2026-10-03T00:03:57Z",
+      "status": "baseline",
+      "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.3"
+    },
+    "e3bfb0c3548ab358ef2a1953": {
+      "first_seen": "2026-10-03T00:04:16Z",
+      "status": "baseline",
+      "url": "https://openrouter.ai/rankings#edgeai-cd070dfc6907242d4a56"
+    },
+    "e48a7f736f56ad596c7cd7f9": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://simonwillison.net/2026/Oct/1/matthew-green/"
+    },
+    "e711876fcc1e0f358e5682f2": {
+      "first_seen": "2026-10-03T00:03:41Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.1"
+    },
+    "e74b0ca731164f12ce98355c": {
+      "first_seen": "2026-10-03T00:04:18Z",
+      "status": "baseline",
+      "url": "https://www.minimax.io/models/text/m27"
+    },
+    "e800acacef7840a119826a49": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://newsletter.futurepedia.io/p/chatgpt-just-took-the-image-crown-09-22-2026"
+    },
+    "e8346da5cb44c235fa05591d": {
+      "first_seen": "2026-10-03T00:04:18Z",
+      "status": "baseline",
+      "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
+    },
+    "e840fda6a47ad51024535db8": {
+      "first_seen": "2026-10-03T00:03:47Z",
+      "status": "baseline",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11345"
+    },
+    "e846ecb8be949803e6d3120c": {
+      "first_seen": "2026-10-03T00:03:53Z",
+      "status": "baseline",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.15.post1"
+    },
+    "e9ede36adeaed46d0feaf80e": {
+      "first_seen": "2026-10-03T00:03:50Z",
+      "status": "baseline",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.4.0"
+    },
+    "eaf3ddcfa2f2b6accff54d95": {
+      "first_seen": "2026-10-03T00:03:55Z",
+      "status": "baseline",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.7.1"
+    },
+    "eb5388f6b69cd3b42046c2ed": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00003"
+    },
+    "ed319f70c1366d49ae747db7": {
+      "first_seen": "2026-10-03T00:03:59Z",
+      "status": "baseline",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.0"
+    },
+    "ed59254a0e36ad070ae8979e": {
+      "first_seen": "2026-10-03T00:03:37Z",
+      "status": "baseline",
+      "url": "https://blog.google/products-and-platforms/products/search/coffee-tips-google-search/"
+    },
+    "edfff1af226cc0177e5e0c11": {
+      "first_seen": "2026-10-03T00:03:38Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2609.38197"
+    },
+    "eeae4eda09cfd9e36977a75c": {
+      "first_seen": "2026-10-03T00:04:20Z",
+      "status": "baseline",
+      "url": "https://runway.com/enterprise-contact"
+    },
+    "eef4d318a704a567a93440f1": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://newsletter.futurepedia.io/p/chatgpt-reads-the-fine-print-so-you-dont-have-to-09-29-2026"
+    },
+    "eff7b109e5ada0968b399ef2": {
+      "first_seen": "2026-10-03T00:04:04Z",
+      "status": "baseline",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.814-beta"
+    },
+    "f026a6eb58aab3b53e5c4ece": {
+      "first_seen": "2026-10-03T00:04:06Z",
+      "status": "baseline",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.9"
+    },
+    "f08a6526a5200b8726c584ee": {
+      "first_seen": "2026-10-03T00:03:44Z",
+      "status": "baseline",
+      "url": "https://github.com/huggingface/diffusers/releases/tag/v0.38.0"
+    },
+    "f0eaec654f7f1f43621c2bdd": {
+      "first_seen": "2026-10-03T00:03:50Z",
+      "status": "baseline",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc2"
+    },
+    "f15a335fe7d11c978e62b355": {
+      "first_seen": "2026-10-03T00:04:09Z",
+      "status": "baseline",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.22"
+    },
+    "f3f828852141af98a5731144": {
+      "first_seen": "2026-10-03T00:04:13Z",
+      "status": "baseline",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.7"
+    },
+    "f49337edd4415929aaa81e89": {
+      "first_seen": "2026-10-03T00:04:19Z",
+      "status": "baseline",
+      "url": "https://sakana.ai/schmidhuber/"
+    },
+    "f5ca49e217faf41ac23d5dff": {
+      "first_seen": "2026-10-03T00:04:04Z",
+      "status": "baseline",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.901-beta"
+    },
+    "f5edbd3b23d95b4ae1e66c01": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/"
+    },
+    "f6d4be82fdc69f2db07074bb": {
+      "first_seen": "2026-10-03T00:03:39Z",
+      "status": "baseline",
+      "url": "https://arxiv.org/abs/2610.00006"
+    },
+    "f87baa38b03278bfed1e7313": {
+      "first_seen": "2026-10-03T00:04:07Z",
+      "status": "baseline",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.7"
+    },
+    "f90fe0c2cacaf9d0844e98f2": {
+      "first_seen": "2026-10-03T00:04:04Z",
+      "status": "baseline",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.815-beta"
+    },
+    "f9ac3a3f0e104375673c2981": {
+      "first_seen": "2026-10-03T00:04:16Z",
+      "status": "baseline",
+      "url": "https://qwenlm.github.io/blog/qwen-image-edit/"
+    },
+    "fafda57b688bf96747e6cadf": {
+      "first_seen": "2026-10-03T00:04:10Z",
+      "status": "baseline",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.19"
+    },
+    "fc152ff68513727f347182c9": {
+      "first_seen": "2026-10-03T00:04:17Z",
+      "status": "baseline",
+      "url": "https://www.kimi.com/"
+    },
+    "ff045850a73945a39f4dc371": {
+      "first_seen": "2026-10-03T00:04:10Z",
+      "status": "baseline",
+      "url": "https://github.com/microsoft/autogen/releases/tag/python-v0.7.1"
+    },
+    "ff3192a07212d5fdc5524862": {
+      "first_seen": "2026-10-03T00:04:14Z",
+      "status": "baseline",
+      "url": "https://microsoft.ai/models/mai-voice-2-1/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "ff94713669a843bf34098765": {
+      "first_seen": "2026-10-03T00:04:13Z",
+      "status": "baseline",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.50.0"
+    }
+  },
   "stories": {},
   "version": 1
 }

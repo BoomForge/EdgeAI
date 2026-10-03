@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-03T15:10:25Z",
+    "at": "2026-10-03T18:44:03Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 6,
+    "queued": 1,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 4,
+  "runs": 5,
   "seen": {
     "0187c1ea444100fc48e8ae46": {
       "first_seen": "2026-10-03T00:46:10Z",
@@ -190,6 +190,11 @@
       "first_seen": "2026-10-03T00:46:09Z",
       "status": "too_old",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.3"
+    },
+    "2c315a1352cc7df2a101db49": {
+      "first_seen": "2026-10-03T18:43:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11379"
     },
     "2d3b0e3ef8aed1f1aafb048f": {
       "first_seen": "2026-10-03T00:46:14Z",

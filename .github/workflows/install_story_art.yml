@@ -1,0 +1,53 @@
+name: Install EdgeAI Story Artwork
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - story_art.py
+      - tools/install_story_art.py
+      - .github/workflows/install_story_art.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: edgeai-story-art-install
+  cancel-in-progress: false
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out EdgeAI
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install story artwork integration
+        run: python tools/install_story_art.py
+
+      - name: Syntax check
+        run: python -m py_compile edgeai_editor.py story_art.py
+
+      - name: Commit integration
+        shell: bash
+        run: |
+          if git diff --quiet -- edgeai_editor.py; then
+            echo "Story artwork integration already installed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add edgeai_editor.py
+          git commit -m "[visual-backfill] editor: use EdgeAI-owned story artwork"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "Push attempt $attempt failed; retrying."
+            sleep $((attempt * 2))
+          done
+          exit 1

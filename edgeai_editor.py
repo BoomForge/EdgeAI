@@ -19,6 +19,7 @@ import requests
 from bs4 import BeautifulSoup
 
 import edgeai as core
+from story_art import ensure_story_art
 
 ROOT = Path(__file__).resolve().parent
 QUEUE_PATHS = (ROOT / "queue_fast.json", ROOT / "queue_deep.json")
@@ -397,14 +398,17 @@ def publish_candidate(item: dict, state: dict, key: str, blog_id: str, access: s
         "reason": trust_reason,
         "source": item.get("source_name", ""),
     }
-    image_url, image_source = extract_source_image(item)
+    labels = add_featured(core.safe_labels(decision.get("labels"), status), score)
+    source_image_url, source_image_source = extract_source_image(item)
+    image_url = ensure_story_art(
+        skey, title, str(item.get("source_name", "Source")), labels
+    )
+    image_source = "EdgeAI editorial artwork"
     body = (
         hero_media(image_url, image_source, title)
         + trust_card(trust_score, trust_name, trust_reason, str(item.get("source_name", "Source")))
         + body
     )
-
-    labels = add_featured(core.safe_labels(decision.get("labels"), status), score)
     payload = {
         "kind": "blogger#post",
         "title": title,
@@ -432,6 +436,8 @@ def publish_candidate(item: dict, state: dict, key: str, blog_id: str, access: s
         "trust": trust,
         "image_url": image_url,
         "image_source": image_source,
+        "source_image_url": source_image_url,
+        "source_image_source": source_image_source,
         "source_urls": source_urls,
         "last_updated": core.now_iso(),
     })
@@ -462,17 +468,24 @@ def visual_backfill(state: dict, blog_id: str, access: str) -> None:
 
         item = find_queue_item(str(source_urls[-1]), str(story.get("trust", {}).get("source", "")))
         item["title"] = story.get("title", item.get("title", ""))
-        image_url, image_source = extract_source_image(item)
         title = str(post.get("title") or story.get("title") or "EdgeAI report")
+        labels = post.get("labels", [])
+        source_image_url, source_image_source = extract_source_image(item)
+        image_url = ensure_story_art(
+            skey, title, str(story.get("trust", {}).get("source", item.get("source_name", "Source"))), labels
+        )
+        image_source = "EdgeAI editorial artwork"
         payload = {
             "kind": "blogger#post",
             "title": title,
             "content": hero_media(image_url, image_source, title) + content,
-            "labels": post.get("labels", []),
+            "labels": labels,
         }
         result = core.blogger("PUT", f"blogs/{blog_id}/posts/{post_id}", access, payload)
         story["image_url"] = image_url
         story["image_source"] = image_source
+        story["source_image_url"] = source_image_url
+        story["source_image_source"] = source_image_source
         story["post_url"] = result.get("url", story.get("post_url", ""))
         story["last_visual_refresh"] = core.now_iso()
         updated += 1

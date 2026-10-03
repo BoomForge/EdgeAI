@@ -189,7 +189,8 @@ EdgeAI uses a queue-based fan-in architecture. This separation is deliberate and
 - Purpose: merge discovery queues, rank candidates, run Gemini editorial judgement, deduplicate stories, update existing articles and publish qualifying new articles.
 - This is the only scheduled workflow allowed to receive the Gemini key and Blogger credentials.
 - Owns only `editor_state.json` for editorial/publishing state.
-- Code/configuration pushes run the Editor in `check` mode only and must never publish.
+- Ordinary code/configuration pushes run the Editor in `check` mode only and must never publish.
+- A repository-owner launch commit containing `[launch]` may run exactly one bootstrap pass from a push; this exists only to make an explicit launch possible without changing the standing schedule.
 - Scheduled runs use `auto` mode.
 
 ### Lane D — reserved
@@ -235,6 +236,39 @@ Noise indicators such as webinars, hiring posts, generic customer stories, spons
 ## Snapshot/delta source contract
 
 For benchmark/ranking pages such as Artificial Analysis and OpenRouter, a page-content digest may be encoded in an `#edgeai-...` URL fragment. Candidate identity must preserve that EdgeAI fragment so a material page change becomes a new discovery signal. Ordinary non-EdgeAI URL fragments may still be ignored for deduplication.
+
+## Report trust rating contract
+
+Every published EdgeAI report must include a visible **Evidence Trust** rating from 0–100 and a compact graphical dial.
+
+The rating describes the confidence in the evidence supporting that specific report. It is **not** a permanent reputation score for a company, product, developer, publication or website.
+
+The score must be based on the information available to the automation, including:
+
+- source authority and whether the source is primary or secondary;
+- the story state (`CONFIRMED`, `DEVELOPING`, `EARLY SIGNAL`, `RUMOUR`);
+- whether the available information is complete enough to support the article's claims;
+- freshness and traceability of the source material;
+- penalties for discovery-only, directory, copied, unclear or weakly supported claims.
+
+Trust labels are:
+
+- `Verified` — 90–100
+- `Strong` — 75–89
+- `Reasonable` — 60–74
+- `Caution` — 40–59
+- `Low confidence` — 0–39
+
+The technical implementation must cap trust by uncertainty state so presentation can never imply more certainty than the article itself:
+
+- `CONFIRMED`: maximum 96
+- `DEVELOPING`: maximum 84
+- `EARLY SIGNAL`: maximum 68
+- `RUMOUR`: maximum 42
+
+Every trust dial must include a short plain-language reason and the text: **Evidence confidence for this report, not a permanent rating of the company or site.**
+
+A high editorial/newsworthiness score does not automatically imply a high trust score. Trust measures evidence certainty; editorial score measures whether the development is worth covering.
 
 ## Safety against prompt injection
 

@@ -74,6 +74,9 @@ def bootstrap_active(state: dict, cfg: dict) -> bool:
         "complete": not bool(cfg.get("enabled", True)),
         "started_at": core.now_iso(),
     })
+    boot.setdefault("started_at", core.now_iso())
+    boot.setdefault("published", 0)
+    boot.setdefault("complete", not bool(cfg.get("enabled", True)))
     boot["target"] = int(cfg.get("target_articles", boot.get("target", 30)))
     if int(boot.get("published", 0)) >= int(boot.get("target", 30)):
         boot["complete"] = True
@@ -105,6 +108,15 @@ def add_featured(labels: list[str], score: int) -> list[str]:
     if len(labels) < 8:
         return labels + ["Featured"]
     return labels[:7] + ["Featured"]
+
+
+def quota_limited(exc: Exception) -> bool:
+    response = getattr(exc, "response", None)
+    status = getattr(response, "status_code", None)
+    if status == 429:
+        return True
+    text = str(exc).lower()
+    return "quota" in text and ("exceed" in text or "limit" in text or "resource exhausted" in text)
 
 
 def publish_candidate(item: dict, state: dict, key: str, blog_id: str, access: str):
@@ -207,6 +219,7 @@ def run(mode: str) -> None:
     core.blog_check(access, blog_id)
 
     evaluated = published_actions = new_posts = 0
+    quota_paused = False
     for item in pool[:eval_cap]:
         if published_actions >= publish_cap:
             break
@@ -228,6 +241,11 @@ def run(mode: str) -> None:
             else:
                 print(f"IGNORED {score}: {item.get('title', '')}")
         except Exception as exc:
+            if quota_limited(exc):
+                quota_paused = True
+                state["last_quota_pause"] = {"at": core.now_iso(), "candidate_id": candidate_id}
+                print("FREE-TIER QUOTA REACHED: stopping cleanly; candidate remains unprocessed for a later run.")
+                break
             errors = state["errors"].setdefault(candidate_id, {"count": 0})
             errors["count"] = int(errors.get("count", 0)) + 1
             errors["last_error"] = str(exc)[:500]
@@ -243,7 +261,7 @@ def run(mode: str) -> None:
             state["bootstrap"]["completed_at"] = core.now_iso()
             break
 
-    if active and not state["bootstrap"].get("complete"):
+    if active and not state["bootstrap"].get("complete") and not quota_paused:
         remaining_bootstrap = [i for i in eligible(items, state, True)]
         if not remaining_bootstrap:
             state["bootstrap"]["complete"] = True
@@ -253,13 +271,14 @@ def run(mode: str) -> None:
         "at": core.now_iso(), "mode": "bootstrap" if active else "live",
         "eligible": len(pool), "evaluated": evaluated,
         "publish_actions": published_actions, "new_posts": new_posts,
+        "quota_paused": quota_paused,
     }
     save(STATE_PATH, state)
     boot = state.get("bootstrap", {})
     print(
         f"EDITOR COMPLETE: mode={'bootstrap' if active else 'live'}; evaluated={evaluated}; "
         f"publish_actions={published_actions}; bootstrap_posts={boot.get('published', 0)}/{boot.get('target', 30)}; "
-        f"bootstrap_complete={boot.get('complete', False)}."
+        f"bootstrap_complete={boot.get('complete', False)}; quota_paused={quota_paused}."
     )
 
 

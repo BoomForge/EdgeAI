@@ -1,0 +1,95 @@
+name: EdgeAI Editor
+
+on:
+  schedule:
+    - cron: '13,33,53 * * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Editor mode
+        required: true
+        default: check
+        type: choice
+        options:
+          - check
+          - auto
+          - bootstrap
+          - live
+  push:
+    branches:
+      - main
+    paths:
+      - EDGEAI.md
+      - bootstrap_config.json
+      - edgeai.py
+      - edgeai_editor.py
+      - theme/**
+      - .github/workflows/editor.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: edgeai-editor
+  cancel-in-progress: false
+
+jobs:
+  editor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+      BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+      BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: gemini-3.5-flash-lite
+
+    steps:
+      - name: Check out EdgeAI
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Validate newsroom theme
+        run: python theme/validate_theme.py
+
+      - name: Install dependencies
+        run: pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Select mode
+        id: mode
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "value=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
+          elif [[ "${{ github.event_name }}" == "schedule" ]]; then
+            echo "value=auto" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=check" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run central editor
+        run: python edgeai_editor.py --mode "${{ steps.mode.outputs.value }}"
+
+      - name: Save editor state
+        if: steps.mode.outputs.value != 'check'
+        shell: bash
+        run: |
+          if git diff --quiet -- editor_state.json; then
+            echo "No editor state changes to save."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add editor_state.json
+          git commit -m "edgeai: update editor state [skip ci]"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "Push attempt $attempt failed; retrying."
+            sleep $((attempt * 2))
+          done
+          exit 1

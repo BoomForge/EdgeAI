@@ -9,7 +9,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent
 ART_DIR = ROOT / "assets" / "story-art"
-RAW_BASE = "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art"
+CDN_BASE = "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art"
 
 PALETTES = {
     "Models": ("#7e93ff", "#9a7cff"),
@@ -64,7 +64,7 @@ def _rgb(hex_color: str) -> tuple[int, int, int]:
 
 
 def ensure_story_art(story_key: str, title: str, source: str, labels: list[str] | None = None) -> str:
-    """Generate a Blogger-safe PNG cover and return its public raw GitHub URL."""
+    """Generate a Blogger-safe PNG cover and return its public CDN URL."""
     ART_DIR.mkdir(parents=True, exist_ok=True)
     key = _safe_key(story_key)
     path = ART_DIR / f"{key}.png"
@@ -77,17 +77,11 @@ def ensure_story_art(story_key: str, title: str, source: str, labels: list[str] 
     img = Image.new("RGB", (width, height), (10, 14, 20))
     draw = ImageDraw.Draw(img, "RGBA")
 
-    # Subtle vertical gradient for a steel/future-newsroom feel.
     for y in range(height):
         p = y / max(1, height - 1)
-        base = (
-            int(11 + 10 * p),
-            int(15 + 10 * p),
-            int(22 + 12 * p),
-        )
+        base = (int(11 + 10 * p), int(15 + 10 * p), int(22 + 12 * p))
         draw.line((0, y, width, y), fill=(*base, 255))
 
-    # Fine editorial grid.
     for x in range(0, width, 44):
         draw.line((x, 0, x, height), fill=(255, 255, 255, 8), width=1)
     for y in range(0, height, 44):
@@ -102,19 +96,12 @@ def ensure_story_art(story_key: str, title: str, source: str, labels: list[str] 
         col = c1_rgb if i % 2 == 0 else c2_rgb
         draw.ellipse((cx-r, cy-r, cx+r, cy+r), outline=(*col, 70 + i * 18), width=2)
 
-    # Signal curves / data lines.
-    points1 = [(690, 555), (805, 455), (918, 488), (1132, 344)]
-    points2 = [(715, 590), (845, 495), (958, 522), (1168, 406)]
-    draw.line(points1, fill=(*c1_rgb, 150), width=3, joint="curve")
-    draw.line(points2, fill=(223, 231, 242, 45), width=2, joint="curve")
+    draw.line([(690, 555), (805, 455), (918, 488), (1132, 344)], fill=(*c1_rgb, 150), width=3, joint="curve")
+    draw.line([(715, 590), (845, 495), (958, 522), (1168, 406)], fill=(223, 231, 242, 45), width=2, joint="curve")
 
-    # Brand badge.
     draw.rounded_rectangle((72, 64, 198, 100), radius=7, fill=(*c1_rgb, 255))
-    brand_font = _font(17, True)
-    draw.text((87, 72), "EDGEAI", font=brand_font, fill=(12, 17, 24, 255))
-
-    kicker_font = _font(16, True)
-    draw.text((72, 132), category.upper(), font=kicker_font, fill=(*c1_rgb, 255))
+    draw.text((87, 72), "EDGEAI", font=_font(17, True), fill=(12, 17, 24, 255))
+    draw.text((72, 132), category.upper(), font=_font(16, True), fill=(*c1_rgb, 255))
 
     title_font = _font(48, True)
     lines = _lines(title)
@@ -124,12 +111,10 @@ def ensure_story_art(story_key: str, title: str, source: str, labels: list[str] 
         y += 62
 
     draw.line((72, 540, 558, 540), fill=(255, 255, 255, 38), width=1)
-    source_font = _font(17, False)
-    small_font = _font(14, False)
     source_text = re.sub(r"\s+", " ", source or "EdgeAI").strip()[:60].upper()
-    draw.text((72, 566), f"SOURCE / {source_text}", font=source_font, fill=(170, 181, 195, 255))
-    draw.text((72, 608), "BLEEDING-EDGE AI WITHOUT THE NOISE", font=small_font, fill=(125, 137, 152, 255))
-    draw.text((930, 608), "SIGNAL / VERIFY / REPORT", font=small_font, fill=(116, 128, 145, 255))
+    draw.text((72, 566), f"SOURCE / {source_text}", font=_font(17), fill=(170, 181, 195, 255))
+    draw.text((72, 608), "BLEEDING-EDGE AI WITHOUT THE NOISE", font=_font(14), fill=(125, 137, 152, 255))
+    draw.text((930, 608), "SIGNAL / VERIFY / REPORT", font=_font(14), fill=(116, 128, 145, 255))
 
     img.save(path, format="PNG", optimize=True)
-    return f"{RAW_BASE}/{path.name}"
+    return f"{CDN_BASE}/{path.name}"

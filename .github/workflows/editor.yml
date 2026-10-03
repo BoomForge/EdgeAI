@@ -22,6 +22,7 @@ on:
     paths:
       - EDGEAI.md
       - bootstrap_config.json
+      - requirements.txt
       - edgeai.py
       - edgeai_editor.py
       - story_art.py

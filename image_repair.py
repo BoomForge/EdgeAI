@@ -5,6 +5,7 @@ import argparse
 import html
 import json
 import re
+import time
 from pathlib import Path
 
 import requests
@@ -24,6 +25,22 @@ def load_state() -> dict:
 
 def save_state(state: dict) -> None:
     STATE_PATH.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+
+def blogger_get(blog_id: str, post_id: str, access: str) -> dict:
+    last = None
+    for attempt in range(1, 4):
+        try:
+            return core.blogger("GET", f"blogs/{blog_id}/posts/{post_id}", access)
+        except Exception as exc:
+            last = exc
+            response = getattr(exc, "response", None)
+            status = getattr(response, "status_code", None)
+            if status not in {429, 500, 502, 503, 504} or attempt == 3:
+                raise
+            print(f"BLOGGER GET RETRY: post={post_id} status={status} attempt={attempt}/3")
+            time.sleep(attempt * 4)
+    raise last  # pragma: no cover
 
 
 def clean_old_hero(content: str) -> str:
@@ -50,13 +67,21 @@ def hero_html(url: str, title: str, attribution: str) -> str:
 
 
 def verify_remote_image(url: str) -> tuple[bool, str]:
-    try:
-        r = requests.get(url, timeout=25, headers={"User-Agent": core.USER_AGENT})
-        ctype = r.headers.get("content-type", "").lower()
-        ok = r.status_code == 200 and ctype.startswith("image/") and len(r.content) > 5000
-        return ok, f"HTTP {r.status_code} {ctype} {len(r.content)} bytes"
-    except Exception as exc:
-        return False, str(exc)
+    last = ""
+    for attempt in range(1, 4):
+        try:
+            r = requests.get(url, timeout=25, headers={"User-Agent": core.USER_AGENT})
+            ctype = r.headers.get("content-type", "").lower()
+            ok = r.status_code == 200 and ctype.startswith("image/") and len(r.content) > 5000
+            detail = f"HTTP {r.status_code} {ctype} {len(r.content)} bytes"
+            if ok:
+                return True, detail
+            last = detail
+        except Exception as exc:
+            last = str(exc)
+        if attempt < 3:
+            time.sleep(attempt * 3)
+    return False, last
 
 
 def verify_local_or_remote(url: str) -> tuple[bool, str]:
@@ -91,7 +116,7 @@ def repair() -> None:
             continue
         report["total"] += 1
 
-        post = core.blogger("GET", f"blogs/{blog_id}/posts/{post_id}", access)
+        post = blogger_get(blog_id, post_id, access)
         title = str(post.get("title") or story.get("title") or "EdgeAI report")
         labels = post.get("labels") or []
         source = str((story.get("trust") or {}).get("source") or "EdgeAI")
@@ -115,7 +140,7 @@ def repair() -> None:
         core.blogger("PUT", f"blogs/{blog_id}/posts/{post_id}", access, payload)
         report["updated"] += 1
 
-        stored = core.blogger("GET", f"blogs/{blog_id}/posts/{post_id}", access)
+        stored = blogger_get(blog_id, post_id, access)
         stored_content = str(stored.get("content", ""))
         verified = image_url in stored_content and 'edge-article-hero' in stored_content and '<img' in stored_content.lower()
         if verified:
@@ -129,7 +154,7 @@ def repair() -> None:
             story["image_kind"] = "mirrored_source" if is_real else "editorial_fallback"
             story["image_verified_in_blogger"] = True
             story["last_visual_refresh"] = core.now_iso()
-            print(f"IMAGE STORED: {title} -> {image_url} [{story['image_kind']}]")
+            print(f"IMAGE STORED: {title} -> {image_url} [{story['image_kind']}]" )
         else:
             story["image_verified_in_blogger"] = False
             report["failed"].append({"story": skey, "stage": "blogger_get", "url": image_url})
@@ -187,12 +212,15 @@ def verify_only() -> None:
         else:
             report["failed"].append({"story": skey, "stage": "cdn_after_commit", "detail": cdn_detail, "url": image_url})
 
-        post = core.blogger("GET", f"blogs/{blog_id}/posts/{post_id}", access)
-        stored_content = str(post.get("content", ""))
-        if image_url in stored_content and '<img' in stored_content.lower():
-            report["blogger_verified"] += 1
-        else:
-            report["failed"].append({"story": skey, "stage": "blogger_after_commit", "url": image_url})
+        try:
+            post = blogger_get(blog_id, post_id, access)
+            stored_content = str(post.get("content", ""))
+            if image_url in stored_content and '<img' in stored_content.lower():
+                report["blogger_verified"] += 1
+            else:
+                report["failed"].append({"story": skey, "stage": "blogger_after_commit", "url": image_url})
+        except Exception as exc:
+            report["failed"].append({"story": skey, "stage": "blogger_after_commit", "detail": str(exc), "url": image_url})
 
         print(f"FINAL IMAGE VERIFY: {story.get('title', skey)} -> cdn={cdn_ok} kind={'source' if is_real else 'fallback'}")
 

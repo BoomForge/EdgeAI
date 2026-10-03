@@ -21,9 +21,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-03T10:41:19Z",
-    "eligible": 179,
-    "evaluated": 4,
+    "at": "2026-10-03T14:57:24Z",
+    "eligible": 184,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -191,6 +191,20 @@
       "status": "expired",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.900-beta"
     },
+    "2ea6f168ee68eda93378195a": {
+      "at": "2026-10-03T14:57:20Z",
+      "bootstrap": true,
+      "score": 90,
+      "status": "published",
+      "story_key": "elevenlabs-dubbing-v2",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "ElevenLabs Research"
+      },
+      "url": "https://elevenlabs.io/blog/introducing-dubbing-v2"
+    },
     "2f1b5ca58d8805cbe859509b": {
       "at": "2026-10-03T04:46:54Z",
       "bootstrap": true,
@@ -280,6 +294,14 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1"
+    },
+    "4b22d7e89d4e656fa2874416": {
+      "at": "2026-10-03T14:57:16Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-update-oct-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-856ac3142a80b7c1453c"
     },
     "4cbabd98657885edf602078e": {
       "at": "2026-10-03T04:50:34Z",
@@ -602,6 +624,20 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/"
     },
+    "c6496f29a50495732cb54e22": {
+      "at": "2026-10-03T14:57:24Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "elevenlabs-music-v2-release",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "ElevenLabs Research"
+      },
+      "url": "https://elevenlabs.io/blog/introducing-music-v2"
+    },
     "c6e30aab44ad97598838c4c3": {
       "at": "2026-10-03T04:52:13Z",
       "bootstrap": true,
@@ -797,6 +833,11 @@
       },
       "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
     },
+    "e9ede36adeaed46d0feaf80e": {
+      "at": "2026-10-03T14:57:13Z",
+      "status": "expired",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.4.0"
+    },
     "eeae4eda09cfd9e36977a75c": {
       "at": "2026-10-03T05:49:36Z",
       "bootstrap": true,
@@ -921,6 +962,27 @@
         "source": "Black Forest Labs Blog"
       }
     },
+    "elevenlabs-dubbing-v2": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/elevenlabs-dubbing-v2.png",
+      "last_updated": "2026-10-03T14:57:20Z",
+      "post_id": "5976587945966672815",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/elevenlabs-releases-dubbing-v2-to.html",
+      "score": 90,
+      "source_image_source": "ElevenLabs Research",
+      "source_image_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/8kl37ad170a-16_9%20(1).webp",
+      "source_urls": [
+        "https://elevenlabs.io/blog/introducing-dubbing-v2"
+      ],
+      "status": "CONFIRMED",
+      "title": "ElevenLabs Releases Dubbing v2 to Preserve Original Speaker Emotion Across Languages",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "ElevenLabs Research"
+      }
+    },
     "elevenlabs-eleven-v4-expressive-tts-model": {
       "image_kind": "mirrored_source",
       "image_source": "ElevenLabs Research",
@@ -938,6 +1000,27 @@
       ],
       "status": "CONFIRMED",
       "title": "ElevenLabs Releases Eleven v4 and v4 Turbo with Advanced Emotional Control and Low Latency",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "ElevenLabs Research"
+      }
+    },
+    "elevenlabs-music-v2-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/elevenlabs-music-v2-release.png",
+      "last_updated": "2026-10-03T14:57:24Z",
+      "post_id": "6153494326017535039",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/elevenlabs-releases-music-v2-with.html",
+      "score": 92,
+      "source_image_source": "ElevenLabs Research",
+      "source_image_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/cexn5uqrbd-InApp%2016_9.webp",
+      "source_urls": [
+        "https://elevenlabs.io/blog/introducing-music-v2"
+      ],
+      "status": "CONFIRMED",
+      "title": "ElevenLabs Releases Music v2 with Enhanced Control, Inpainting, and Multi-Genre Capabilities",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

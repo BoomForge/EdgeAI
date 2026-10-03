@@ -17,7 +17,7 @@ required = [
     "/search/label/Agents",
     "CONFIRMED",
     "DEVELOPING",
-    "EARLY SIGNAL",
+    "EARLY%20SIGNAL",
     "RUMOUR",
 ]
 missing = [item for item in required if item not in text]

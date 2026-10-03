@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-03T18:47:14Z",
+    "at": "2026-10-03T21:50:37Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 1,
+    "queued": 2,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 5,
+  "runs": 6,
   "seen": {
     "0108f5a0b1758cecc286938e": {
       "first_seen": "2026-10-03T00:46:01Z",
@@ -383,6 +383,11 @@
       "first_seen": "2026-10-03T00:46:02Z",
       "status": "queued",
       "url": "https://qwenlm.github.io/blog/qwen-mt/"
+    },
+    "619069d4546663731f73800d": {
+      "first_seen": "2026-10-03T21:50:36Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2106497772426076504"
     },
     "638f8ae09ae5152488569490": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -778,6 +783,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
+    },
+    "d475dd0535cf07b7b7724188": {
+      "first_seen": "2026-10-03T21:50:36Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2106497770236387496"
     },
     "d5135015cb86a5ed08ea8c55": {
       "first_seen": "2026-10-03T00:46:03Z",

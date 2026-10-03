@@ -43,7 +43,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for pass in $(seq 1 10); do
+          quota_strikes=0
+          for pass in $(seq 1 12); do
             published=$(python - <<'PY'
           import json
           from pathlib import Path
@@ -80,10 +81,19 @@ jobs:
           print(int(s.get('last_run',{}).get('new_posts',0)))
           PY
             )
+
             if [ "$quota_paused" = "true" ]; then
-              echo "Free Gemini quota paused this fill safely; leaving remaining candidates untouched."
-              break
+              quota_strikes=$((quota_strikes + 1))
+              if [ "$quota_strikes" -ge 2 ]; then
+                echo "Free Gemini quota is still unavailable after a cooldown; stopping safely."
+                break
+              fi
+              echo "Transient free-tier quota pause; cooling down before one retry."
+              sleep 70
+              continue
             fi
+
+            quota_strikes=0
             if [ "$new_posts" -eq 0 ]; then
               echo "No qualifying new posts in this pass; stopping instead of manufacturing filler."
               break

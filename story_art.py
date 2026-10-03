@@ -31,6 +31,10 @@ PALETTES = {
     "Breaking": ("#df826f", "#d8ae61"),
 }
 
+OFFICIAL_IMAGE_OVERRIDES = {
+    "kimi-code-moonshot-ai": "https://www.kimi.com/code/docs/images/en/vscode/kimi-code-command-palette.png",
+}
+
 
 def _safe_key(value: str) -> str:
     value = re.sub(r"[^a-z0-9-]+", "-", value.lower()).strip("-")
@@ -195,7 +199,7 @@ def _discover_image_urls(page_url: str, preferred: str = "") -> list[str]:
 def _source_context(story_key: str, title: str, source: str) -> tuple[str, str]:
     state = _load_json(ROOT / "editor_state.json", {"stories": {}})
     story = state.get("stories", {}).get(story_key, {})
-    preferred = str(story.get("source_image_url", ""))
+    preferred = OFFICIAL_IMAGE_OVERRIDES.get(story_key) or str(story.get("source_image_url", ""))
     source_urls = story.get("source_urls") or []
     page_url = str(source_urls[-1]) if source_urls else ""
     if page_url or _image_url_ok(preferred):
@@ -203,8 +207,8 @@ def _source_context(story_key: str, title: str, source: str) -> tuple[str, str]:
 
     item = _queue_match(title, source)
     if not item:
-        return "", ""
-    return str(item.get("url", "")), str(item.get("image_url", ""))
+        return "", preferred
+    return str(item.get("url", "")), preferred or str(item.get("image_url", ""))
 
 
 def _mirror_source_image(story_key: str, title: str, source: str) -> str | None:

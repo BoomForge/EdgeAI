@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-03T18:44:03Z",
+    "at": "2026-10-03T22:02:19Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 1,
-    "sources_ok": 31,
+    "queued": 2,
+    "sources_ok": 29,
     "too_old": 0,
-    "warnings": 0
+    "warnings": 2
   },
-  "runs": 5,
+  "runs": 6,
   "seen": {
     "0187c1ea444100fc48e8ae46": {
       "first_seen": "2026-10-03T00:46:10Z",
@@ -271,6 +271,11 @@
       "first_seen": "2026-10-03T15:10:00Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11377"
+    },
+    "3ad6c9bd8091181b75763a69": {
+      "first_seen": "2026-10-03T22:01:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11381"
     },
     "3b1a048eadf304cf9c80eeb9": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -713,6 +718,11 @@
       "first_seen": "2026-10-03T11:19:30Z",
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0"
+    },
+    "96b8552f38a5cffcf7aa8da9": {
+      "first_seen": "2026-10-03T22:01:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11380"
     },
     "9906482f0e9c75da96c7d515": {
       "first_seen": "2026-10-03T00:46:10Z",

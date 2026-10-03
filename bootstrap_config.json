@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "target_articles": 30,
+  "max_evaluations_per_bootstrap_run": 6,
+  "max_publications_per_bootstrap_run": 3,
+  "max_evaluations_per_live_run": 5,
+  "max_publications_per_live_run": 2
+}

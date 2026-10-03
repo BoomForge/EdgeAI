@@ -7,6 +7,7 @@ file so new source runners can be added without sharing mutable state.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -42,6 +43,13 @@ def save(path: Path, data) -> None:
 
 def source_list(path: Path) -> list[dict]:
     return load(path, {"sources": []}).get("sources", [])
+
+
+def candidate_id(url: str) -> str:
+    # Page-delta adapters intentionally encode the content hash as #edgeai-....
+    # Preserve that fragment so a changed benchmark/ranking page becomes a new signal.
+    normalized = url if "#edgeai-" in url else url.split("#", 1)[0]
+    return hashlib.sha256(normalized.encode()).hexdigest()[:24]
 
 
 def item_time(item: dict):
@@ -118,7 +126,7 @@ def run(lane: str, baseline: bool = False) -> None:
             continue
 
         for item in items:
-            item_id = core.cid(item["url"])
+            item_id = candidate_id(item["url"])
             if item_id in state["seen"]:
                 continue
             published = item_time(item)

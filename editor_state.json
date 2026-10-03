@@ -1,23 +1,24 @@
 {
   "bootstrap": {
-    "complete": false,
-    "published": 8,
+    "complete": true,
+    "completed_at": "2026-10-03T04:52:48Z",
+    "published": 30,
     "started_at": "2026-10-03T00:58:41Z",
     "target": 30
   },
   "errors": {},
   "last_quota_pause": {
-    "at": "2026-10-03T04:44:42Z",
-    "candidate_id": "0a28c215b5c05aea6d5cda4b"
+    "at": "2026-10-03T04:50:58Z",
+    "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-03T04:44:42Z",
-    "eligible": 253,
-    "evaluated": 2,
+    "at": "2026-10-03T04:52:48Z",
+    "eligible": 224,
+    "evaluated": 3,
     "mode": "bootstrap",
-    "new_posts": 2,
-    "publish_actions": 2,
-    "quota_paused": true
+    "new_posts": 3,
+    "publish_actions": 3,
+    "quota_paused": false
   },
   "last_visual_backfill": {
     "at": "2026-10-03T04:42:57Z",
@@ -33,6 +34,114 @@
       "story_key": "artificial-analysis-changelog-updates",
       "url": "https://artificialanalysis.ai/changelog#edgeai-955ba114b67aea6e882c"
     },
+    "028b20a4e08ce376a1a55cdb": {
+      "at": "2026-10-03T04:48:53Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "elevenlabs-eleven-v4-expressive-tts-model",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "ElevenLabs Research"
+      },
+      "url": "https://elevenlabs.io/blog/eleven-v4"
+    },
+    "042ccdeda93e0568fd77742b": {
+      "at": "2026-10-03T04:48:32Z",
+      "bootstrap": true,
+      "score": 93,
+      "status": "published",
+      "story_key": "runway-gwm-1-general-world-model-gen-4-5",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Runway Research"
+      },
+      "url": "https://runway.com/research/introducing-runway-gwm-1"
+    },
+    "0a28c215b5c05aea6d5cda4b": {
+      "at": "2026-10-03T04:46:24Z",
+      "bootstrap": true,
+      "score": 82,
+      "status": "published",
+      "story_key": "sakana-ai-frontier-intelligence-group",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      },
+      "url": "https://sakana.ai/frontier-intelligence-group/"
+    },
+    "179afd0ee553a08b8bacfe99": {
+      "at": "2026-10-03T04:50:20Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "minimax-m2-5-release",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "MiniMax Research"
+      },
+      "url": "https://www.minimax.io/models/text"
+    },
+    "19fa17b0500ad2a7a0dbccb3": {
+      "at": "2026-10-03T04:46:32Z",
+      "bootstrap": true,
+      "score": 10,
+      "status": "ignored",
+      "story_key": "black-forest-labs-contact-page",
+      "url": "https://bfl.ai/contact"
+    },
+    "1b93984ff2aed635c5f94087": {
+      "at": "2026-10-03T04:52:37Z",
+      "bootstrap": true,
+      "score": 85,
+      "status": "published",
+      "story_key": "kimi-code-moonshot-ai",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Kimi Research"
+      },
+      "url": "https://www.kimi.com/code"
+    },
+    "286a4c7e0865f7007f87bccb": {
+      "at": "2026-10-03T04:46:52Z",
+      "bootstrap": true,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "runway-rna-sessions-event-series",
+      "url": "https://runway.com/research/rna-sessions"
+    },
+    "2f1b5ca58d8805cbe859509b": {
+      "at": "2026-10-03T04:46:54Z",
+      "bootstrap": true,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "sakana-ai-japan-startup-award-2026",
+      "url": "https://sakana.ai/japan-startup-award-2026/"
+    },
+    "36980dfdde9ab39e7f62d1f0": {
+      "at": "2026-10-03T04:52:17Z",
+      "bootstrap": true,
+      "score": 82,
+      "status": "published",
+      "story_key": "sakana-marlin-update-interactive-reading-powerpoint",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      },
+      "url": "https://sakana.ai/marlin-update/"
+    },
     "3b73f4822ea0b3c87593c1f4": {
       "at": "2026-10-03T04:44:14Z",
       "bootstrap": true,
@@ -46,6 +155,42 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/qwen3guard/"
+    },
+    "4cbabd98657885edf602078e": {
+      "at": "2026-10-03T04:50:34Z",
+      "bootstrap": true,
+      "score": 88,
+      "status": "published",
+      "story_key": "minimax-speech-2-8",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "MiniMax Research"
+      },
+      "url": "https://www.minimax.io/news/minimax-speech-28"
+    },
+    "50980c4dad6b62c89ad033d8": {
+      "at": "2026-10-03T04:50:12Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "minimax-m3-model-release",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "MiniMax Research"
+      },
+      "url": "https://www.minimax.io/models/text/m3"
+    },
+    "509d2186beb2fc4974ecbd48": {
+      "at": "2026-10-03T04:50:40Z",
+      "bootstrap": true,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "minimax-audio-landing-page",
+      "url": "https://www.minimax.io/audio"
     },
     "613f0908caf5019c61a1112c": {
       "at": "2026-10-03T04:44:35Z",
@@ -61,6 +206,20 @@
       },
       "url": "https://qwenlm.github.io/blog/qwen-mt/"
     },
+    "643740d8b1d776507524544b": {
+      "at": "2026-10-03T04:50:45Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "minimax-h3-multimodal-generation-model",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "MiniMax Research"
+      },
+      "url": "https://www.minimax.io/blog/minimax-h3"
+    },
     "6d2ef0c477ac4ea5a394a3d8": {
       "at": "2026-10-03T00:58:46Z",
       "bootstrap": true,
@@ -74,6 +233,28 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/qwen-image/"
+    },
+    "7af48a3cbaa19c506e59d2e9": {
+      "at": "2026-10-03T04:46:51Z",
+      "bootstrap": true,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "runway-general-world-models-research-announcement",
+      "url": "https://runway.com/research/introducing-general-world-models"
+    },
+    "8021ac8155b7aa37da2475b8": {
+      "at": "2026-10-03T04:46:50Z",
+      "bootstrap": true,
+      "score": 85,
+      "status": "published",
+      "story_key": "stability-ai-series-b-funding-entertainment-industry",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Stability AI News"
+      },
+      "url": "https://stability.ai/news-updates/stability-ai-latest-funding-backed-by-entertainment-industry-biggest-names"
     },
     "8d28766e7ba5e0cab3974fb4": {
       "at": "2026-10-03T04:44:39Z",
@@ -89,6 +270,34 @@
       },
       "url": "https://qwenlm.github.io/blog/gspo/"
     },
+    "90249c2a3882c6d31b88e7ce": {
+      "at": "2026-10-03T04:46:37Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-disrupts-coordinated-model-distillation-campaign",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+    },
+    "9749e2baf4a95b925417c993": {
+      "at": "2026-10-03T04:52:24Z",
+      "bootstrap": true,
+      "score": 85,
+      "status": "published",
+      "story_key": "kimi-work-desktop-ai-agent",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Kimi Research"
+      },
+      "url": "https://www.kimi.com/en/products/kimi-work"
+    },
     "a453c4ad1ff40833bc74eb48": {
       "at": "2026-10-03T00:58:49Z",
       "bootstrap": true,
@@ -102,6 +311,98 @@
         "source": "Black Forest Labs Blog"
       },
       "url": "https://bfl.ai/blog/flux-3-action"
+    },
+    "af8a6e156fc266c29e4f7864": {
+      "at": "2026-10-03T04:48:36Z",
+      "bootstrap": true,
+      "score": 93,
+      "status": "published",
+      "story_key": "runway-gen-4-5-video-model-release",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Runway Research"
+      },
+      "url": "https://runway.com/research/introducing-runway-gen-4.5"
+    },
+    "c38af6e5cae43e23a64c1d50": {
+      "at": "2026-10-03T04:48:28Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-gpt-6-model-guide-production",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/practical-guide-building-gpt-6"
+    },
+    "c6e30aab44ad97598838c4c3": {
+      "at": "2026-10-03T04:52:13Z",
+      "bootstrap": true,
+      "score": 82,
+      "status": "published",
+      "story_key": "sakana-chat-fugu-max-memory-update",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      },
+      "url": "https://sakana.ai/chat-fugumax/"
+    },
+    "c84785b7885bca32a7cbe6b5": {
+      "at": "2026-10-03T04:46:31Z",
+      "bootstrap": true,
+      "score": 96,
+      "status": "published",
+      "story_key": "kimi-k3-perceptionbench-agent-swarm-worldvqa",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Kimi Research"
+      },
+      "url": "https://www.kimi.com/en/blog/kimi-k3"
+    },
+    "c9fca9e521cbe2a9fefa9d0a": {
+      "at": "2026-10-03T04:48:48Z",
+      "bootstrap": true,
+      "score": 88,
+      "status": "published",
+      "story_key": "black-forest-labs-flux-2-klein-licensing",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Black Forest Labs Blog"
+      },
+      "url": "https://bfl.ai/licensing"
+    },
+    "ce3bef4c29f308650e3c9973": {
+      "at": "2026-10-03T04:47:08Z",
+      "bootstrap": true,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "sakana-ai-scsk-sumitomo-partnership-2026",
+      "url": "https://sakana.ai/scsk-sc-partnership/"
+    },
+    "d7cfcc46f736c325047d8294": {
+      "at": "2026-10-03T04:52:42Z",
+      "bootstrap": true,
+      "score": 82,
+      "status": "published",
+      "story_key": "kimi-browser-extension-launch",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Kimi Research"
+      },
+      "url": "https://www.kimi.com/en/products/kimi-browser-extension"
     },
     "d8f0f010d646003cb912c3ab": {
       "at": "2026-10-03T04:44:19Z",
@@ -117,6 +418,14 @@
       },
       "url": "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models"
     },
+    "dd052aeea45239ae007e7bd2": {
+      "at": "2026-10-03T04:46:58Z",
+      "bootstrap": true,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "sakana-ai-product-team-culture-2026",
+      "url": "https://sakana.ai/inside-product-team/"
+    },
     "ddffe7df056e3cba5da2598d": {
       "at": "2026-10-03T00:58:53Z",
       "bootstrap": true,
@@ -131,6 +440,62 @@
       },
       "url": "https://www.minimax.io/"
     },
+    "df2b3a652849a416deb89641": {
+      "at": "2026-10-03T04:52:48Z",
+      "bootstrap": true,
+      "score": 82,
+      "status": "published",
+      "story_key": "kimi-business-launch",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Kimi Research"
+      },
+      "url": "https://www.kimi.com/en/business"
+    },
+    "e74b0ca731164f12ce98355c": {
+      "at": "2026-10-03T04:50:16Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "minimax-m2-7-release",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "MiniMax Research"
+      },
+      "url": "https://www.minimax.io/models/text/m27"
+    },
+    "e8346da5cb44c235fa05591d": {
+      "at": "2026-10-03T04:50:39Z",
+      "bootstrap": true,
+      "score": 91,
+      "status": "published",
+      "story_key": "minimax-music-3-0-open-weights",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "MiniMax Research"
+      },
+      "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
+    },
+    "f49337edd4415929aaa81e89": {
+      "at": "2026-10-03T04:46:57Z",
+      "bootstrap": true,
+      "score": 82,
+      "status": "published",
+      "story_key": "sakana-ai-jurgen-schmidhuber-rsi-lab",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      },
+      "url": "https://sakana.ai/schmidhuber/"
+    },
     "f9ac3a3f0e104375673c2981": {
       "at": "2026-10-03T04:44:23Z",
       "bootstrap": true,
@@ -144,9 +509,38 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/qwen-image-edit/"
+    },
+    "fc152ff68513727f347182c9": {
+      "at": "2026-10-03T04:52:19Z",
+      "bootstrap": true,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "kimi-k3-and-agent-tools-launch",
+      "url": "https://www.kimi.com/"
     }
   },
   "stories": {
+    "black-forest-labs-flux-2-klein-licensing": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/black-forest-labs-flux-2-klein-licensing.png",
+      "last_updated": "2026-10-03T04:48:48Z",
+      "post_id": "1819162660216904754",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/black-forest-labs-details-flux2-open.html",
+      "score": 88,
+      "source_image_source": "Black Forest Labs Blog",
+      "source_image_url": "https://bfl.ai/og-custom-bg.jpg",
+      "source_urls": [
+        "https://bfl.ai/licensing"
+      ],
+      "status": "CONFIRMED",
+      "title": "Black Forest Labs Details FLUX.2 Open Weights Licensing and New Tiers",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Black Forest Labs Blog"
+      }
+    },
     "black-forest-labs-flux-3-action": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/black-forest-labs-flux-3-action.png",
@@ -169,6 +563,195 @@
         "source": "Black Forest Labs Blog"
       }
     },
+    "elevenlabs-eleven-v4-expressive-tts-model": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/elevenlabs-eleven-v4-expressive-tts-model.png",
+      "last_updated": "2026-10-03T04:48:53Z",
+      "post_id": "4096272041696487422",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/elevenlabs-releases-eleven-v4-and-v4.html",
+      "score": 92,
+      "source_image_source": "ElevenLabs Research",
+      "source_image_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/3o2hqbr4pb7-1920x1080.webp",
+      "source_urls": [
+        "https://elevenlabs.io/blog/eleven-v4"
+      ],
+      "status": "CONFIRMED",
+      "title": "ElevenLabs Releases Eleven v4 and v4 Turbo with Advanced Emotional Control and Low Latency",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "ElevenLabs Research"
+      }
+    },
+    "kimi-browser-extension-launch": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/kimi-browser-extension-launch.png",
+      "last_updated": "2026-10-03T04:52:42Z",
+      "post_id": "4943624511531230735",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/kimi-releases-browser-extension-for.html",
+      "score": 82,
+      "source_image_source": "Kimi Research",
+      "source_image_url": "https://www.kimi.com/landing-ui/image?url=%2Flanding-ui%2Fassets%2F_next%2Fstatic%2Fmedia%2Fkimi-logo.59a55296.png&w=640&q=75",
+      "source_urls": [
+        "https://www.kimi.com/en/products/kimi-browser-extension"
+      ],
+      "status": "CONFIRMED",
+      "title": "Kimi Releases Browser Extension for Local AI Agent Web Automation",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Kimi Research"
+      }
+    },
+    "kimi-business-launch": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/kimi-business-launch.png",
+      "last_updated": "2026-10-03T04:52:48Z",
+      "post_id": "6251044455839738391",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/moonshot-ai-launches-kimi-business-with.html",
+      "score": 82,
+      "source_image_source": "Kimi Research",
+      "source_image_url": "https://kimi-file.kimi.ai/prod-chat-kimi/kfs/4/2/2026-07-17/1d9d4dsv6rtp4tqfpbjk0?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1",
+      "source_urls": [
+        "https://www.kimi.com/en/business"
+      ],
+      "status": "CONFIRMED",
+      "title": "Moonshot AI Launches Kimi Business with Dedicated Workspaces and Agent Workflows",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Kimi Research"
+      }
+    },
+    "kimi-code-moonshot-ai": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/kimi-code-moonshot-ai.png",
+      "last_updated": "2026-10-03T04:52:37Z",
+      "post_id": "7456833453025882790",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/moonshot-ai-launches-kimi-code-powered.html",
+      "score": 85,
+      "source_image_source": "EdgeAI",
+      "source_image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/edgeai-newsroom-fallback.svg",
+      "source_urls": [
+        "https://www.kimi.com/code"
+      ],
+      "status": "CONFIRMED",
+      "title": "Moonshot AI Launches Kimi Code Powered by K3 Model",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Kimi Research"
+      }
+    },
+    "kimi-k3-perceptionbench-agent-swarm-worldvqa": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/kimi-k3-perceptionbench-agent-swarm-worldvqa.png",
+      "last_updated": "2026-10-03T04:46:31Z",
+      "post_id": "6059849750079976808",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/kimi-k3-open-frontier-intelligence.html",
+      "score": 96,
+      "source_image_source": "Kimi Research",
+      "source_image_url": "https://kimi-file.kimi.ai/prod-chat-kimi/kfs/4/2/2026-07-17/d9cs7176rtp4tqfofnsg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1",
+      "source_urls": [
+        "https://www.kimi.com/en/blog/kimi-k3"
+      ],
+      "status": "CONFIRMED",
+      "title": "Kimi K3: Open Frontier Intelligence Model Released with 2.8T Parameters",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Kimi Research"
+      }
+    },
+    "kimi-work-desktop-ai-agent": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/kimi-work-desktop-ai-agent.png",
+      "last_updated": "2026-10-03T04:52:24Z",
+      "post_id": "4191656258925637562",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/moonshot-ai-announces-kimi-work-desktop.html",
+      "score": 85,
+      "source_image_source": "Kimi Research",
+      "source_image_url": "https://kimi-file.kimi.ai/prod-chat-kimi/kfs/4/2/2026-06-02/1d8fc8k76rtp4tqdea4ng?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1",
+      "source_urls": [
+        "https://www.kimi.com/en/products/kimi-work"
+      ],
+      "status": "CONFIRMED",
+      "title": "Moonshot AI Announces Kimi Work, a Desktop AI Agent for Knowledge Work",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Kimi Research"
+      }
+    },
+    "minimax-h3-multimodal-generation-model": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/minimax-h3-multimodal-generation-model.png",
+      "last_updated": "2026-10-03T04:50:45Z",
+      "post_id": "6798336059893810540",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/minimax-announces-h3-general-purpose.html",
+      "score": 92,
+      "source_image_source": "MiniMax Research",
+      "source_image_url": "https://file.cdn.minimax.io/public/3df321d9-42bd-4be0-ac58-71f22377a11f.png",
+      "source_urls": [
+        "https://www.minimax.io/blog/minimax-h3"
+      ],
+      "status": "CONFIRMED",
+      "title": "MiniMax Announces H3: A General-Purpose Multimodal Generation Model with Native 2K and Stereo Audio",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "MiniMax Research"
+      }
+    },
+    "minimax-m2-5-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/minimax-m2-5-release.png",
+      "last_updated": "2026-10-03T04:50:20Z",
+      "post_id": "1173641302560163919",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/minimax-releases-m25-sota-coding-and.html",
+      "score": 92,
+      "source_image_source": "MiniMax Research",
+      "source_image_url": "https://filecdn.minimax.chat/public/58eca777-e31f-448a-9823-e2220e49b426.png",
+      "source_urls": [
+        "https://www.minimax.io/models/text"
+      ],
+      "status": "CONFIRMED",
+      "title": "MiniMax Releases M2.5: SOTA Coding and Agent Capabilities with Open-Source Weights",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "MiniMax Research"
+      }
+    },
+    "minimax-m2-7-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/minimax-m2-7-release.png",
+      "last_updated": "2026-10-03T04:50:16Z",
+      "post_id": "8343808559850947771",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/minimax-announces-m27-model-with.html",
+      "score": 92,
+      "source_image_source": "MiniMax Research",
+      "source_image_url": "https://filecdn.minimax.chat/public/58eca777-e31f-448a-9823-e2220e49b426.png",
+      "source_urls": [
+        "https://www.minimax.io/models/text/m27"
+      ],
+      "status": "CONFIRMED",
+      "title": "MiniMax Announces M2.7 Model with Advanced Agentic and Software Engineering Capabilities",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "MiniMax Research"
+      }
+    },
     "minimax-m3-h3-speech-2-8-music-3-0-release": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/minimax-m3-h3-speech-2-8-music-3-0-release.png",
@@ -189,6 +772,111 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "MiniMax Research"
+      }
+    },
+    "minimax-m3-model-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/minimax-m3-model-release.png",
+      "last_updated": "2026-10-03T04:50:12Z",
+      "post_id": "7447548140918625988",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/minimax-announces-m3-frontier-model_01761194102.html",
+      "score": 92,
+      "source_image_source": "MiniMax Research",
+      "source_image_url": "https://filecdn.minimax.chat/public/58eca777-e31f-448a-9823-e2220e49b426.png",
+      "source_urls": [
+        "https://www.minimax.io/models/text/m3"
+      ],
+      "status": "CONFIRMED",
+      "title": "MiniMax Announces M3 Frontier Model with 1M Context and Open-Weight Plans",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "MiniMax Research"
+      }
+    },
+    "minimax-music-3-0-open-weights": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/minimax-music-3-0-open-weights.png",
+      "last_updated": "2026-10-03T04:50:39Z",
+      "post_id": "8847374140189187173",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/minimax-releases-music-30-open-weights.html",
+      "score": 91,
+      "source_image_source": "MiniMax Research",
+      "source_image_url": "https://file.cdn.minimax.io/public/32b0b01d-d945-4c9d-a8e0-8bb9204737c2.png",
+      "source_urls": [
+        "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
+      ],
+      "status": "CONFIRMED",
+      "title": "MiniMax Releases Music 3.0: An Open-Weights Production-Ready Audio Model",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "MiniMax Research"
+      }
+    },
+    "minimax-speech-2-8": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/minimax-speech-2-8.png",
+      "last_updated": "2026-10-03T04:50:34Z",
+      "post_id": "6676203504239792609",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/minimax-releases-speech-28-with-native.html",
+      "score": 88,
+      "source_image_source": "MiniMax Research",
+      "source_image_url": "https://filecdn.minimax.chat/public/58eca777-e31f-448a-9823-e2220e49b426.png",
+      "source_urls": [
+        "https://www.minimax.io/news/minimax-speech-28"
+      ],
+      "status": "CONFIRMED",
+      "title": "MiniMax Releases Speech 2.8 with Native Sound Tags and 10-Second Voice Cloning",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "MiniMax Research"
+      }
+    },
+    "openai-disrupts-coordinated-model-distillation-campaign": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/openai-disrupts-coordinated-model-distillation-campaign.png",
+      "last_updated": "2026-10-03T04:46:37Z",
+      "post_id": "233274922800992573",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-disrupts-coordinated-adversarial.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/7MP5Bq8wKRpAAnnhqfdA8o/3ca1f00ae7ec16c5a569eb6195e24c90/disrupting-a-coordinated-model-distillation-campaign-seo.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Disrupts Coordinated Adversarial Model-Distillation Campaign",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-gpt-6-model-guide-production": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/openai-gpt-6-model-guide-production.png",
+      "last_updated": "2026-10-03T04:48:28Z",
+      "post_id": "7391091922256987871",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-publishes-comprehensive.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/30yfQUtDoZo9YOON0QB57H/7c53ac242cc32ab9a9dc05930bdc2034/6tbusrroo8ljxic8ceybig-seo.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/practical-guide-building-gpt-6"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Publishes Comprehensive Developer Guide for the GPT-6 Family",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
       }
     },
     "qwen-gspo-reinforcement-learning-algorithm": {
@@ -295,6 +983,153 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "Qwen Blog"
+      }
+    },
+    "runway-gen-4-5-video-model-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/runway-gen-4-5-video-model-release.png",
+      "last_updated": "2026-10-03T04:48:36Z",
+      "post_id": "2646238915746923039",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/runway-releases-gen-45-claiming-top.html",
+      "score": 93,
+      "source_image_source": "Runway Research",
+      "source_image_url": "https://d3phaj0sisr2ct.cloudfront.net/site/images/research/gen/launch-post/card-gen-4.5.png",
+      "source_urls": [
+        "https://runway.com/research/introducing-runway-gen-4.5"
+      ],
+      "status": "CONFIRMED",
+      "title": "Runway Releases Gen-4.5, Claiming Top Spot on Text-to-Video Benchmarks",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Runway Research"
+      }
+    },
+    "runway-gwm-1-general-world-model-gen-4-5": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/runway-gwm-1-general-world-model-gen-4-5.png",
+      "last_updated": "2026-10-03T04:48:32Z",
+      "post_id": "8870456572571703007",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/runway-announces-gwm-1-real-time.html",
+      "score": 93,
+      "source_image_source": "Runway Research",
+      "source_image_url": "https://d3phaj0sisr2ct.cloudfront.net/site/images/research/gwm/gwm-card-01.png",
+      "source_urls": [
+        "https://runway.com/research/introducing-runway-gwm-1"
+      ],
+      "status": "CONFIRMED",
+      "title": "Runway Announces GWM-1: A Real-Time General World Model Family Built on Gen-4.5",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Runway Research"
+      }
+    },
+    "sakana-ai-frontier-intelligence-group": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/sakana-ai-frontier-intelligence-group.png",
+      "last_updated": "2026-10-03T04:46:24Z",
+      "post_id": "7191266032156095709",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/sakana-ai-launches-frontier.html",
+      "score": 82,
+      "source_image_source": "Sakana AI Blog",
+      "source_image_url": "https://sakana.ai/assets/home/sakana_ogp.png",
+      "source_urls": [
+        "https://sakana.ai/frontier-intelligence-group/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Sakana AI Launches Frontier Intelligence Group to Pursue Post-Transformer Paradigms",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      }
+    },
+    "sakana-ai-jurgen-schmidhuber-rsi-lab": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/sakana-ai-jurgen-schmidhuber-rsi-lab.png",
+      "last_updated": "2026-10-03T04:46:57Z",
+      "post_id": "5179981938919567855",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/jurgen-schmidhuber-joins-sakana-ai-as.html",
+      "score": 82,
+      "source_image_source": "Sakana AI Blog",
+      "source_image_url": "https://sakana.ai/assets/home/sakana_ogp.png",
+      "source_urls": [
+        "https://sakana.ai/schmidhuber/"
+      ],
+      "status": "CONFIRMED",
+      "title": "J\u00fcrgen Schmidhuber Joins Sakana AI as Chief Scientific Advisor to Lead RSI Lab",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      }
+    },
+    "sakana-chat-fugu-max-memory-update": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/sakana-chat-fugu-max-memory-update.png",
+      "last_updated": "2026-10-03T04:52:13Z",
+      "post_id": "4643197041870046352",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/sakana-ai-updates-sakana-chat-with-fugu.html",
+      "score": 82,
+      "source_image_source": "Sakana AI Blog",
+      "source_image_url": "https://sakana.ai/assets/home/sakana_ogp.png",
+      "source_urls": [
+        "https://sakana.ai/chat-fugumax/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Sakana AI Updates Sakana Chat with Fugu Max Model and New Memory Capabilities",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      }
+    },
+    "sakana-marlin-update-interactive-reading-powerpoint": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/sakana-marlin-update-interactive-reading-powerpoint.png",
+      "last_updated": "2026-10-03T04:52:17Z",
+      "post_id": "3202270121555552294",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/sakana-ai-updates-marlin-agent-with.html",
+      "score": 82,
+      "source_image_source": "Sakana AI Blog",
+      "source_image_url": "https://sakana.ai/assets/home/sakana_ogp.png",
+      "source_urls": [
+        "https://sakana.ai/marlin-update/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Sakana AI Updates Marlin Agent with Interactive Reading and PowerPoint Export",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      }
+    },
+    "stability-ai-series-b-funding-entertainment-industry": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/stability-ai-series-b-funding-entertainment-industry.png",
+      "last_updated": "2026-10-03T04:46:50Z",
+      "post_id": "3686513007053504974",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/stability-ai-secures-76m-series-b-led.html",
+      "score": 85,
+      "source_image_source": "Stability AI News",
+      "source_image_url": "http://static1.squarespace.com/static/6213c340453c3f502425776e/62f2452bc121595f4d87c713/6a8730e30efce41687f2cc22/1787686016586/Stability_AI_Series_B_Annoucement_Blog_Thumbnail.png?format=1500w",
+      "source_urls": [
+        "https://stability.ai/news-updates/stability-ai-latest-funding-backed-by-entertainment-industry-biggest-names"
+      ],
+      "status": "CONFIRMED",
+      "title": "Stability AI Secures $76M Series B Led by Major Entertainment and Gaming Giants",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Stability AI News"
       }
     },
     "stability-ai-stable-audio-3-model-family": {

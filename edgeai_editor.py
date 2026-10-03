@@ -9,9 +9,14 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import re
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import urljoin, urlparse
+
+import requests
+from bs4 import BeautifulSoup
 
 import edgeai as core
 
@@ -20,6 +25,7 @@ QUEUE_PATHS = (ROOT / "queue_fast.json", ROOT / "queue_deep.json")
 STATE_PATH = ROOT / "editor_state.json"
 CONFIG_PATH = ROOT / "bootstrap_config.json"
 NORMAL_FRESH_HOURS = 72
+FALLBACK_IMAGE = "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/edgeai-newsroom-fallback.svg"
 
 
 def load(path: Path, default):
@@ -153,13 +159,12 @@ def trust_rating(item: dict, status: str) -> tuple[int, str, str]:
     if any(token in source for token in ("futuretools", "futurepedia", "product hunt")):
         score -= 10
 
-    status_adjust = {
+    score += {
         "CONFIRMED": 6,
         "DEVELOPING": -2,
         "EARLY SIGNAL": -12,
         "RUMOUR": -28,
-    }
-    score += status_adjust.get(status, -8)
+    }.get(status, -8)
 
     if len(summary) >= 200:
         score += 3
@@ -168,10 +173,7 @@ def trust_rating(item: dict, status: str) -> tuple[int, str, str]:
     else:
         score -= 4
 
-    if item.get("published"):
-        score += 2
-    else:
-        score -= 2
+    score += 2 if item.get("published") else -2
 
     age = datetime.now(timezone.utc) - item_time(item)
     if age <= timedelta(hours=24):
@@ -204,32 +206,155 @@ def trust_rating(item: dict, status: str) -> tuple[int, str, str]:
 
 def trust_card(score: int, label: str, reason: str, source_name: str) -> str:
     if score >= 90:
-        color = "#70f0b1"
+        color = "#7ce0b6"
     elif score >= 75:
-        color = "#8ee6c4"
+        color = "#9fc7ff"
     elif score >= 60:
-        color = "#ffc96b"
+        color = "#e7c47a"
     elif score >= 40:
-        color = "#ff9f5a"
+        color = "#e99a68"
     else:
-        color = "#ff557f"
+        color = "#e87682"
 
     safe_label = html.escape(label)
     safe_reason = html.escape(reason)
     safe_source = html.escape(source_name)
     return f"""
-<div class="edge-trust-card" style="display:flex;align-items:center;gap:14px;margin:0 0 22px;padding:14px 16px;border:1px solid #223247;border-radius:14px;background:#0d141d;color:#eef8ff;">
-  <div role="img" aria-label="Evidence Trust {score} out of 100" title="Evidence Trust {score}/100" style="width:62px;height:62px;min-width:62px;border-radius:50%;padding:5px;background:conic-gradient({color} 0 {score}%,#223247 {score}% 100%);">
-    <div style="width:52px;height:52px;border-radius:50%;background:#070b11;display:flex;align-items:center;justify-content:center;font:800 17px Arial,sans-serif;color:{color};">{score}</div>
+<div class="edge-trust-card" data-trust-score="{score}" data-trust-label="{safe_label}" style="display:flex;align-items:center;gap:14px;margin:0 0 22px;padding:14px 16px;border:1px solid #303846;border-radius:14px;background:#141922;color:#eef2f7;">
+  <div role="img" aria-label="Evidence Trust {score} out of 100" title="Evidence Trust {score}/100" style="width:62px;height:62px;min-width:62px;border-radius:50%;padding:5px;background:conic-gradient({color} 0 {score}%,#2a303b {score}% 100%);">
+    <div style="width:52px;height:52px;border-radius:50%;background:#0e1218;display:flex;align-items:center;justify-content:center;font:800 17px Arial,sans-serif;color:{color};">{score}</div>
   </div>
   <div style="min-width:0;">
-    <div style="font:800 11px Arial,sans-serif;letter-spacing:1px;text-transform:uppercase;color:#91a6ba;">Evidence Trust · {safe_source}</div>
+    <div style="font:800 11px Arial,sans-serif;letter-spacing:1px;text-transform:uppercase;color:#9ca8b7;">Evidence Trust · {safe_source}</div>
     <div style="font:800 17px Arial,sans-serif;color:{color};margin:2px 0 3px;">{safe_label}</div>
-    <div style="font:13px/1.45 Arial,sans-serif;color:#c7d5e0;">{safe_reason}</div>
-    <div style="font:11px/1.4 Arial,sans-serif;color:#91a6ba;margin-top:5px;">Evidence confidence for this report, not a permanent rating of the company or site.</div>
+    <div style="font:13px/1.45 Arial,sans-serif;color:#d2d9e2;">{safe_reason}</div>
+    <div style="font:11px/1.4 Arial,sans-serif;color:#8f99a6;margin-top:5px;">Evidence confidence for this report, not a permanent rating of the company or site.</div>
   </div>
 </div>
 """.strip()
+
+
+def _image_candidate_ok(url: str) -> bool:
+    if not url:
+        return False
+    lower = url.lower()
+    if not lower.startswith(("http://", "https://")):
+        return False
+    bad = ("favicon", "avatar", "logo-small", "icon-", "sprite", "emoji", "badge")
+    return not any(token in lower for token in bad)
+
+
+def extract_source_image(item: dict) -> tuple[str, str]:
+    """Return the strongest editorial image we can find plus an attribution label."""
+    if _image_candidate_ok(str(item.get("image_url", ""))):
+        return str(item["image_url"]), str(item.get("source_name", "Source"))
+
+    url = str(item.get("url", "")).strip()
+    if not url:
+        return FALLBACK_IMAGE, "EdgeAI"
+
+    try:
+        response = requests.get(
+            url,
+            timeout=core.TIMEOUT,
+            headers={
+                "User-Agent": core.USER_AGENT,
+                "Accept": "text/html,application/xhtml+xml,*/*;q=0.8",
+            },
+        )
+        response.raise_for_status()
+        if "html" not in response.headers.get("content-type", "").lower():
+            return FALLBACK_IMAGE, "EdgeAI"
+
+        soup = BeautifulSoup(response.text, "html.parser")
+        candidates: list[str] = []
+
+        selectors = (
+            ("meta", {"property": "og:image"}),
+            ("meta", {"property": "og:image:secure_url"}),
+            ("meta", {"name": "twitter:image"}),
+            ("meta", {"property": "twitter:image"}),
+            ("link", {"rel": "image_src"}),
+        )
+        for tag, attrs in selectors:
+            node = soup.find(tag, attrs=attrs)
+            if not node:
+                continue
+            value = node.get("content") or node.get("href")
+            if value:
+                candidates.append(str(value))
+
+        for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
+            raw = script.string or script.get_text(" ", strip=True)
+            if not raw or '"image"' not in raw:
+                continue
+            try:
+                data = json.loads(raw)
+            except Exception:
+                continue
+            stack = data if isinstance(data, list) else [data]
+            for obj in stack:
+                if not isinstance(obj, dict):
+                    continue
+                image = obj.get("image")
+                if isinstance(image, str):
+                    candidates.append(image)
+                elif isinstance(image, list):
+                    candidates.extend(str(x) for x in image if isinstance(x, str))
+                elif isinstance(image, dict):
+                    value = image.get("url") or image.get("contentUrl")
+                    if value:
+                        candidates.append(str(value))
+
+        for selector in ("article img", "main img", ".post img", ".article img"):
+            for node in soup.select(selector)[:8]:
+                value = node.get("src") or node.get("data-src") or node.get("data-lazy-src")
+                if value:
+                    width = str(node.get("width", "")).strip()
+                    height = str(node.get("height", "")).strip()
+                    try:
+                        if width and height and int(width) < 300 and int(height) < 160:
+                            continue
+                    except ValueError:
+                        pass
+                    candidates.append(str(value))
+
+        for candidate in candidates:
+            candidate = urljoin(url, html.unescape(candidate.strip()))
+            if _image_candidate_ok(candidate):
+                return candidate, str(item.get("source_name", "Source"))
+    except Exception as exc:
+        print(f"Image discovery warning - {item.get('source_name', 'source')}: {exc}")
+
+    return FALLBACK_IMAGE, "EdgeAI"
+
+
+def hero_media(image_url: str, attribution: str, title: str) -> str:
+    safe_url = html.escape(image_url, quote=True)
+    safe_attr = html.escape(attribution)
+    safe_title = html.escape(title)
+    fallback = html.escape(FALLBACK_IMAGE, quote=True)
+    return f"""
+<figure class="edge-article-hero" style="margin:0 0 22px;">
+  <img src="{safe_url}" alt="{safe_title}" loading="eager" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='{fallback}';" style="display:block;width:100%;max-height:560px;object-fit:cover;border-radius:16px;border:1px solid #303846;background:#11161e;" />
+  <figcaption style="margin-top:7px;font:11px/1.4 Arial,sans-serif;color:#8792a0;">Image: {safe_attr}</figcaption>
+</figure>
+""".strip()
+
+
+def find_queue_item(source_url: str, source_name: str = "") -> dict:
+    for item in queues():
+        if item.get("url") == source_url:
+            return item
+    return {
+        "url": source_url,
+        "source_name": source_name or (urlparse(source_url).netloc if source_url else "Source"),
+        "priority": 2,
+        "kind": "primary",
+        "summary": "",
+        "published": "",
+        "title": "",
+    }
 
 
 def publish_candidate(item: dict, state: dict, key: str, blog_id: str, access: str):
@@ -268,7 +393,12 @@ def publish_candidate(item: dict, state: dict, key: str, blog_id: str, access: s
         "reason": trust_reason,
         "source": item.get("source_name", ""),
     }
-    body = trust_card(trust_score, trust_name, trust_reason, str(item.get("source_name", "Source"))) + body
+    image_url, image_source = extract_source_image(item)
+    body = (
+        hero_media(image_url, image_source, title)
+        + trust_card(trust_score, trust_name, trust_reason, str(item.get("source_name", "Source")))
+        + body
+    )
 
     labels = add_featured(core.safe_labels(decision.get("labels"), status), score)
     payload = {
@@ -296,10 +426,55 @@ def publish_candidate(item: dict, state: dict, key: str, blog_id: str, access: s
         "status": status,
         "score": score,
         "trust": trust,
+        "image_url": image_url,
+        "image_source": image_source,
         "source_urls": source_urls,
         "last_updated": core.now_iso(),
     })
     return action, score, skey, post.get("url", ""), is_new, trust
+
+
+def visual_backfill(state: dict, blog_id: str, access: str) -> None:
+    """Add hero imagery to existing live stories without re-running Gemini."""
+    updated = skipped = 0
+    for skey, story in state.setdefault("stories", {}).items():
+        post_id = str(story.get("post_id", "")).strip()
+        source_urls = story.get("source_urls") or []
+        if not post_id or not source_urls:
+            skipped += 1
+            continue
+
+        post = core.blogger("GET", f"blogs/{blog_id}/posts/{post_id}", access)
+        content = str(post.get("content", ""))
+        if "edge-article-hero" in content:
+            skipped += 1
+            continue
+
+        item = find_queue_item(str(source_urls[-1]), str(story.get("trust", {}).get("source", "")))
+        item["title"] = story.get("title", item.get("title", ""))
+        image_url, image_source = extract_source_image(item)
+        title = str(post.get("title") or story.get("title") or "EdgeAI report")
+        payload = {
+            "kind": "blogger#post",
+            "title": title,
+            "content": hero_media(image_url, image_source, title) + content,
+            "labels": post.get("labels", []),
+        }
+        result = core.blogger("PUT", f"blogs/{blog_id}/posts/{post_id}", access, payload)
+        story["image_url"] = image_url
+        story["image_source"] = image_source
+        story["post_url"] = result.get("url", story.get("post_url", ""))
+        story["last_visual_refresh"] = core.now_iso()
+        updated += 1
+        print(f"VISUAL BACKFILL: {title} -> {image_url}")
+
+    state["last_visual_backfill"] = {
+        "at": core.now_iso(),
+        "updated": updated,
+        "skipped": skipped,
+    }
+    save(STATE_PATH, state)
+    print(f"VISUAL BACKFILL COMPLETE: updated={updated}; skipped={skipped}.")
 
 
 def check() -> None:
@@ -321,6 +496,15 @@ def run(mode: str) -> None:
     state.setdefault("processed", {})
     state.setdefault("stories", {})
     state.setdefault("errors", {})
+
+    blog_id = core.env("BLOGGER_BLOG_ID")
+    access = core.token()
+    core.blog_check(access, blog_id)
+
+    if mode == "visual":
+        visual_backfill(state, blog_id, access)
+        return
+
     active = bootstrap_active(state, cfg)
     if mode == "live":
         active = False
@@ -338,9 +522,6 @@ def run(mode: str) -> None:
     eval_cap = int(cfg.get("max_evaluations_per_bootstrap_run", 6) if active else cfg.get("max_evaluations_per_live_run", 5))
     publish_cap = int(cfg.get("max_publications_per_bootstrap_run", 3) if active else cfg.get("max_publications_per_live_run", 2))
     key = core.env("GEMINI_API_KEY")
-    blog_id = core.env("BLOGGER_BLOG_ID")
-    access = core.token()
-    core.blog_check(access, blog_id)
 
     evaluated = published_actions = new_posts = 0
     quota_paused = False
@@ -412,7 +593,7 @@ def run(mode: str) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=("check", "auto", "bootstrap", "live"), default="check")
+    parser.add_argument("--mode", choices=("check", "auto", "bootstrap", "live", "visual"), default="check")
     args = parser.parse_args()
     if args.mode == "check":
         check()

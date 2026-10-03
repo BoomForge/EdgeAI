@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-03T00:46:05Z",
-    "bootstrap_seed": true,
+    "at": "2026-10-03T05:50:34Z",
+    "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 10,
-    "queued": 129,
+    "prefiltered": 5,
+    "queued": 2,
     "sources_ok": 15,
-    "too_old": 4,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 1,
+  "runs": 2,
   "seen": {
     "0108f5a0b1758cecc286938e": {
       "first_seen": "2026-10-03T00:46:01Z",
@@ -76,6 +76,12 @@
       "status": "queued",
       "url": "https://strandsagents.com/blog/introducing-strands-decider/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "1122febede168de1472c3675": {
+      "first_seen": "2026-10-03T05:50:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/esigna"
+    },
     "1165aefccbfb0d903d04ce6c": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -100,6 +106,12 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://bfl.ai/contact"
+    },
+    "1ab262daeec5747ab5941548": {
+      "first_seen": "2026-10-03T05:50:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/pastily"
     },
     "1b57fa64b28fe529e32d3761": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -295,6 +307,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://bfl.ai/models/flux-3-action"
+    },
+    "5ee30d117f6cf7759e8ac7ff": {
+      "first_seen": "2026-10-03T05:50:29Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/weftcut"
     },
     "5ee7f6c90aae0cecefe063e4": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -508,6 +525,12 @@
       "status": "queued",
       "url": "https://stability.ai/news-updates/sharing-a-new-way-to-work-with-stable-audio"
     },
+    "a9e5eb40b02dd637ada77901": {
+      "first_seen": "2026-10-03T05:50:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/wu"
+    },
     "aa7e1d7a8dcbea4853490ec7": {
       "first_seen": "2026-10-03T00:46:00Z",
       "search_score": 1,
@@ -555,6 +578,11 @@
       "status": "queued",
       "url": "https://www.kimi.com/membership/pricing?from=header_nav&tab=business"
     },
+    "b443199b5957d8fbbf00d876": {
+      "first_seen": "2026-10-03T05:50:29Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/moxie-2"
+    },
     "b602f0b5117800795a759ada": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -589,6 +617,12 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://stability.ai/license"
+    },
+    "c7ccacb02f5cd6df29d9d6a6": {
+      "first_seen": "2026-10-03T05:50:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/finbar-2"
     },
     "c84785b7885bca32a7cbe6b5": {
       "first_seen": "2026-10-03T00:46:03Z",
@@ -644,6 +678,12 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/claude-just-did-a-months-work-in-a-single-day-09-25-2026"
+    },
+    "dc61cd9c23bdd4b5c1607fd2": {
+      "first_seen": "2026-10-03T05:50:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/halo-11"
     },
     "dd052aeea45239ae007e7bd2": {
       "first_seen": "2026-10-03T00:46:04Z",

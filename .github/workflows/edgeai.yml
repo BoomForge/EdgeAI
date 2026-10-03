@@ -1,54 +1,40 @@
-name: EdgeAI Radar
+name: EdgeAI Fast Discovery
 
 on:
-  # Lane A of a four-lane 20-minute schedule.
-  # Reserved future lanes: 08/28/48, 13/33/53, 18/38/58.
-  # Keeping five minutes between lanes prevents runner/API/state contention.
   schedule:
     - cron: '3,23,43 * * * *'
   workflow_dispatch:
     inputs:
       mode:
-        description: Run mode
+        description: Discovery mode
         required: true
         default: check
         type: choice
         options:
           - check
+          - discover
           - baseline
-          - live
   push:
     branches:
       - main
     paths:
-      - EDGEAI.md
-      - SOURCE_MAP.md
       - sources.json
-      - web_sources.json
       - edgeai.py
       - edgeai_runner.py
-      - requirements.txt
-      - theme/**
+      - edgeai_discovery.py
       - .github/workflows/edgeai.yml
 
 permissions:
   contents: write
 
 concurrency:
-  group: edgeai-radar
+  group: edgeai-fast-discovery
   cancel-in-progress: false
 
 jobs:
-  radar:
+  discovery:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-    env:
-      BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
-      BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
-      BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
-      BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
-      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      GEMINI_MODEL: gemini-3.5-flash-lite
+    timeout-minutes: 12
 
     steps:
       - name: Check out EdgeAI
@@ -59,9 +45,6 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Validate Blogger newsroom theme
-        run: python theme/validate_theme.py
-
       - name: Install dependencies
         run: pip install --disable-pip-version-check -r requirements.txt
 
@@ -71,25 +54,28 @@ jobs:
         run: |
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             echo "value=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
-          elif [[ "${{ github.event_name }}" == "schedule" ]]; then
-            echo "value=live" >> "$GITHUB_OUTPUT"
           else
-            echo "value=check" >> "$GITHUB_OUTPUT"
+            echo "value=discover" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Run EdgeAI
-        run: python edgeai_runner.py --mode "${{ steps.mode.outputs.value }}"
+      - name: Run fast discovery
+        run: python edgeai_discovery.py --lane fast --mode "${{ steps.mode.outputs.value }}"
 
-      - name: Save radar state
+      - name: Save fast discovery state and queue
         if: steps.mode.outputs.value != 'check'
         shell: bash
         run: |
-          if git diff --quiet -- state.json; then
-            echo "No state changes to save."
+          if git diff --quiet -- discovery_fast_state.json queue_fast.json; then
+            echo "No fast discovery changes to save."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state.json
-          git commit -m "edgeai: update radar state [skip ci]"
-          git push
+          git add discovery_fast_state.json queue_fast.json
+          git commit -m "edgeai: update fast discovery queue [skip ci]"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "Push attempt $attempt failed; retrying."
+            sleep $((attempt * 2))
+          done
+          exit 1

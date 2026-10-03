@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-03T00:46:21Z",
-    "bootstrap_seed": true,
+    "at": "2026-10-03T05:44:00Z",
+    "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 4,
-    "queued": 131,
+    "prefiltered": 0,
+    "queued": 13,
     "sources_ok": 31,
-    "too_old": 82,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 1,
+  "runs": 2,
   "seen": {
     "0187c1ea444100fc48e8ae46": {
       "first_seen": "2026-10-03T00:46:10Z",
@@ -61,6 +61,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00420"
     },
+    "0f13c2d1e1b999c1db27117c": {
+      "first_seen": "2026-10-03T05:43:25Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2610.00002"
+    },
     "0f607943d6da27d60b811bf1": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "too_old",
@@ -81,6 +86,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0"
     },
+    "1330b3896a02c463c4e8e350": {
+      "first_seen": "2026-10-03T05:43:34Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11365"
+    },
     "13d9597e7c49d6e51053b901": {
       "first_seen": "2026-10-03T00:46:07Z",
       "status": "too_old",
@@ -95,6 +105,11 @@
       "first_seen": "2026-10-03T00:46:17Z",
       "status": "too_old",
       "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24"
+    },
+    "180279b515dbeeff4b27ba60": {
+      "first_seen": "2026-10-03T05:43:25Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2610.00004"
     },
     "182622bf1f20238f6f2bfff7": {
       "first_seen": "2026-10-03T00:45:51Z",
@@ -140,6 +155,16 @@
       "first_seen": "2026-10-03T00:45:51Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00012"
+    },
+    "2553159a4f32c9968b59109d": {
+      "first_seen": "2026-10-03T05:43:34Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11366"
+    },
+    "25c2d34baf331a4e16b005d9": {
+      "first_seen": "2026-10-03T05:44:00Z",
+      "status": "queued",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.54.0"
     },
     "27a7527a54e29bd1beb4039a": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -377,6 +402,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00132"
     },
+    "5d1f16605adb30502ea9f3b6": {
+      "first_seen": "2026-10-03T05:43:34Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11364"
+    },
     "5fa8ed454b1399f2c002042e": {
       "first_seen": "2026-10-03T00:46:13Z",
       "status": "too_old",
@@ -412,6 +442,16 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/alliance-americas-skilled-trades-expands/"
+    },
+    "650a470be89f50277ccfc9b9": {
+      "first_seen": "2026-10-03T05:43:34Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11368"
+    },
+    "66ce92e5e68cbdb18eafdb5b": {
+      "first_seen": "2026-10-03T05:43:25Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2610.00009"
     },
     "687e9c8e75efa984655b68da": {
       "first_seen": "2026-10-03T00:46:13Z",
@@ -518,6 +558,11 @@
       "status": "queued",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.3"
     },
+    "7d41f56ee3543afc8dce0230": {
+      "first_seen": "2026-10-03T05:43:25Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2610.00083"
+    },
     "7df98f84a450158b725309bd": {
       "first_seen": "2026-10-03T00:45:54Z",
       "status": "too_old",
@@ -557,6 +602,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0"
+    },
+    "8824a722fbbd4c31d76b2acd": {
+      "first_seen": "2026-10-03T05:43:25Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2610.00049"
     },
     "882596cbc7639eb42bf210ab": {
       "first_seen": "2026-10-03T00:45:50Z",
@@ -789,6 +839,11 @@
       "status": "too_old",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.20"
     },
+    "bde261fa52d21062f74c894b": {
+      "first_seen": "2026-10-03T05:43:25Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2610.00053"
+    },
     "bf1a189b85c837584069025f": {
       "first_seen": "2026-10-03T00:46:10Z",
       "status": "queued",
@@ -848,6 +903,11 @@
       "first_seen": "2026-10-03T00:46:18Z",
       "status": "too_old",
       "url": "https://github.com/microsoft/autogen/releases/tag/python-v0.7.1.post1"
+    },
+    "c863487bf2f7202574e02c72": {
+      "first_seen": "2026-10-03T05:43:25Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2610.00050"
     },
     "cb0a640f808b77e77b1219c5": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -1059,6 +1119,11 @@
       "first_seen": "2026-10-03T00:46:21Z",
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.7"
+    },
+    "f58072678026aa6843de5877": {
+      "first_seen": "2026-10-03T05:43:25Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2610.00035"
     },
     "f5ca49e217faf41ac23d5dff": {
       "first_seen": "2026-10-03T00:46:13Z",

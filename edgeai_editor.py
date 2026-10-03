@@ -240,7 +240,11 @@ def _image_candidate_ok(url: str) -> bool:
     lower = url.lower()
     if not lower.startswith(("http://", "https://")):
         return False
-    bad = ("favicon", "avatar", "logo-small", "icon-", "sprite", "emoji", "badge")
+    bad = (
+        "favicon", "avatar", "logo-small", "icon-", "sprite", "emoji", "badge",
+        "placeholder", "%3clink", "%3cimage", "<link", "<image", "opengraph,%20twitter-cards",
+        "opengraph%2c%20twitter-cards", "path%20of%20image", "your-image", "example.com/image",
+    )
     return not any(token in lower for token in bad)
 
 
@@ -446,9 +450,15 @@ def visual_backfill(state: dict, blog_id: str, access: str) -> None:
 
         post = core.blogger("GET", f"blogs/{blog_id}/posts/{post_id}", access)
         content = str(post.get("content", ""))
-        if "edge-article-hero" in content:
-            skipped += 1
-            continue
+        # Visual mode is a repair pass: remove any previous hero block so a bad
+        # placeholder/fallback can be replaced with newly discovered source art.
+        content = re.sub(
+            r'<figure class="edge-article-hero"[\s\S]*?</figure>\s*',
+            '',
+            content,
+            count=1,
+            flags=re.IGNORECASE,
+        )
 
         item = find_queue_item(str(source_urls[-1]), str(story.get("trust", {}).get("source", "")))
         item["title"] = story.get("title", item.get("title", ""))

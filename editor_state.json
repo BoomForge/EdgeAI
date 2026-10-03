@@ -19,12 +19,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-03T04:52:48Z",
-    "eligible": 224,
-    "evaluated": 3,
-    "mode": "bootstrap",
-    "new_posts": 3,
-    "publish_actions": 3,
+    "at": "2026-10-03T05:49:38Z",
+    "eligible": 183,
+    "evaluated": 5,
+    "mode": "live",
+    "new_posts": 0,
+    "publish_actions": 0,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -40,6 +40,11 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-updates",
       "url": "https://artificialanalysis.ai/changelog#edgeai-955ba114b67aea6e882c"
+    },
+    "023d364db8b33fc2047dcacf": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Sep/29/photo-scrubber/"
     },
     "028b20a4e08ce376a1a55cdb": {
       "at": "2026-10-03T04:48:53Z",
@@ -69,6 +74,19 @@
       },
       "url": "https://runway.com/research/introducing-runway-gwm-1"
     },
+    "061338e668ed697490e5190c": {
+      "at": "2026-10-03T05:49:35Z",
+      "bootstrap": true,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "openai-americas-sbdc-small-business-partnership",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
+    },
+    "07805f8ccf0891a10c549358": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/eleven-v4-and-eleven-v4-turbo"
+    },
     "0a28c215b5c05aea6d5cda4b": {
       "at": "2026-10-03T04:46:24Z",
       "bootstrap": true,
@@ -82,6 +100,16 @@
         "source": "Sakana AI Blog"
       },
       "url": "https://sakana.ai/frontier-intelligence-group/"
+    },
+    "121946e928c2e8a76d631a91": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0"
+    },
+    "1441ff2ab9fdc9be50b63e1f": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.51.0"
     },
     "179afd0ee553a08b8bacfe99": {
       "at": "2026-10-03T04:50:20Z",
@@ -105,6 +133,11 @@
       "story_key": "black-forest-labs-contact-page",
       "url": "https://bfl.ai/contact"
     },
+    "1b779e36ded287268031e79e": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc1"
+    },
     "1b93984ff2aed635c5f94087": {
       "at": "2026-10-03T04:52:37Z",
       "bootstrap": true,
@@ -119,6 +152,16 @@
       },
       "url": "https://www.kimi.com/code"
     },
+    "1e53e4b0ea0e3813fd5e7558": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/cue-by-manus"
+    },
+    "1fb466641ec80a8dc13c7b96": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/"
+    },
     "286a4c7e0865f7007f87bccb": {
       "at": "2026-10-03T04:46:52Z",
       "bootstrap": true,
@@ -127,6 +170,11 @@
       "story_key": "runway-rna-sessions-event-series",
       "url": "https://runway.com/research/rna-sessions"
     },
+    "2dae4396529b7edbf3dda561": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.900-beta"
+    },
     "2f1b5ca58d8805cbe859509b": {
       "at": "2026-10-03T04:46:54Z",
       "bootstrap": true,
@@ -134,6 +182,11 @@
       "status": "ignored",
       "story_key": "sakana-ai-japan-startup-award-2026",
       "url": "https://sakana.ai/japan-startup-award-2026/"
+    },
+    "33a204d4c3b15672cc9aa301": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.4"
     },
     "36980dfdde9ab39e7f62d1f0": {
       "at": "2026-10-03T04:52:17Z",
@@ -149,6 +202,11 @@
       },
       "url": "https://sakana.ai/marlin-update/"
     },
+    "3762ff1d2e3077743459b4a4": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0"
+    },
     "3b73f4822ea0b3c87593c1f4": {
       "at": "2026-10-03T04:44:14Z",
       "bootstrap": true,
@@ -162,6 +220,36 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/qwen3guard/"
+    },
+    "3c12ff714ab5ec5eda4a3ae8": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.0"
+    },
+    "3fdfc0e4208e99b2ce1e5759": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/prebuilt-wheels-cu13"
+    },
+    "41625591abfe53de1f2e0694": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/"
+    },
+    "42f2e37d9605f3037ecd8167": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.0"
+    },
+    "442074384a52ee966c8cf342": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.52.0"
+    },
+    "485a72695274dcc8a5aaa6f9": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1"
     },
     "4cbabd98657885edf602078e": {
       "at": "2026-10-03T04:50:34Z",
@@ -199,6 +287,16 @@
       "story_key": "minimax-audio-landing-page",
       "url": "https://www.minimax.io/audio"
     },
+    "57ed632908ae012313cd5937": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.5"
+    },
+    "6071f63e21f6425413eb6372": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://openai.com/index/devday-2026-recap"
+    },
     "613f0908caf5019c61a1112c": {
       "at": "2026-10-03T04:44:35Z",
       "bootstrap": true,
@@ -212,6 +310,14 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/qwen-mt/"
+    },
+    "637d3dfa247fa816a4c4160f": {
+      "at": "2026-10-03T05:49:33Z",
+      "bootstrap": true,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "albertsons-openai-partnership-expansion",
+      "url": "https://openai.com/index/albertsons-reimagining-retail"
     },
     "643740d8b1d776507524544b": {
       "at": "2026-10-03T04:50:45Z",
@@ -227,6 +333,21 @@
       },
       "url": "https://www.minimax.io/blog/minimax-h3"
     },
+    "64e27cc1872ee8386150363a": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
+    },
+    "699595b3b94d9b754c127512": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0"
+    },
+    "69c0e6ad413a3a11f508a1e6": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/jarviscore"
+    },
     "6d2ef0c477ac4ea5a394a3d8": {
       "at": "2026-10-03T00:58:46Z",
       "bootstrap": true,
@@ -241,6 +362,26 @@
       },
       "url": "https://qwenlm.github.io/blog/qwen-image/"
     },
+    "6ef4e425bda93bb00d8adaa9": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.23"
+    },
+    "7164afd32ab29aac53e66bac": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.0-rc.2"
+    },
+    "723ac1f70a166fbceb0ff2bb": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.49.0"
+    },
+    "73f1bf4d53a57ee938fe5a85": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0"
+    },
     "7af48a3cbaa19c506e59d2e9": {
       "at": "2026-10-03T04:46:51Z",
       "bootstrap": true,
@@ -248,6 +389,16 @@
       "status": "ignored",
       "story_key": "runway-general-world-models-research-announcement",
       "url": "https://runway.com/research/introducing-general-world-models"
+    },
+    "7c578bce2bcf92bdc7cf6dde": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.3"
+    },
+    "7db4974c11ebd58e1ae24279": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
     },
     "8021ac8155b7aa37da2475b8": {
       "at": "2026-10-03T04:46:50Z",
@@ -262,6 +413,19 @@
         "source": "Stability AI News"
       },
       "url": "https://stability.ai/news-updates/stability-ai-latest-funding-backed-by-entertainment-industry-biggest-names"
+    },
+    "872457bb1f6a4e1ad755dbb7": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0"
+    },
+    "882596cbc7639eb42bf210ab": {
+      "at": "2026-10-03T05:49:32Z",
+      "bootstrap": true,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "openai-chatham-financial-case-study",
+      "url": "https://openai.com/index/chatham-financial"
     },
     "8d28766e7ba5e0cab3974fb4": {
       "at": "2026-10-03T04:44:39Z",
@@ -291,6 +455,11 @@
       },
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
     },
+    "97397d7fa75c50842dda10c0": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Sep/27/hn-49871741/"
+    },
     "9749e2baf4a95b925417c993": {
       "at": "2026-10-03T04:52:24Z",
       "bootstrap": true,
@@ -304,6 +473,16 @@
         "source": "Kimi Research"
       },
       "url": "https://www.kimi.com/en/products/kimi-work"
+    },
+    "994a48e90a5ee3ef1b527c90": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25"
+    },
+    "a3cf20eae0fce76e913abe7e": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.4"
     },
     "a453c4ad1ff40833bc74eb48": {
       "at": "2026-10-03T00:58:49Z",
@@ -319,6 +498,11 @@
       },
       "url": "https://bfl.ai/blog/flux-3-action"
     },
+    "a76e093a76ecb89d1ba50ac5": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.3"
+    },
     "af8a6e156fc266c29e4f7864": {
       "at": "2026-10-03T04:48:36Z",
       "bootstrap": true,
@@ -333,6 +517,21 @@
       },
       "url": "https://runway.com/research/introducing-runway-gen-4.5"
     },
+    "b778f0165434de015b1547ec": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.4.0"
+    },
+    "b9972c54becd0c3d958a401b": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.2"
+    },
+    "bf1a189b85c837584069025f": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.1"
+    },
     "c38af6e5cae43e23a64c1d50": {
       "at": "2026-10-03T04:48:28Z",
       "bootstrap": true,
@@ -346,6 +545,11 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/practical-guide-building-gpt-6"
+    },
+    "c48f1ff5058b49fc9610ea09": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/"
     },
     "c6e30aab44ad97598838c4c3": {
       "at": "2026-10-03T04:52:13Z",
@@ -397,6 +601,39 @@
       "story_key": "sakana-ai-scsk-sumitomo-partnership-2026",
       "url": "https://sakana.ai/scsk-sc-partnership/"
     },
+    "d22e1a2319ccd9329b6707fd": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.0"
+    },
+    "d2d14a92fbc8343aa3aabef2": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc0"
+    },
+    "d3b185d971abc0ead80775d6": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
+    },
+    "d4eadc6264742490b3b97c71": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.6"
+    },
+    "d5135015cb86a5ed08ea8c55": {
+      "at": "2026-10-03T05:49:38Z",
+      "bootstrap": true,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "kimi-downloads-page-refresh",
+      "url": "https://www.kimi.com/en/products/download"
+    },
+    "d6b9f5e651b1891e950e0096": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+    },
     "d7cfcc46f736c325047d8294": {
       "at": "2026-10-03T04:52:42Z",
       "bootstrap": true,
@@ -433,6 +670,16 @@
       "story_key": "sakana-ai-product-team-culture-2026",
       "url": "https://sakana.ai/inside-product-team/"
     },
+    "ddaccaed883695c8ff80980a": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.1"
+    },
+    "ddc53f40aa2256bac4bde24b": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Sep/28/joedaroo/"
+    },
     "ddffe7df056e3cba5da2598d": {
       "at": "2026-10-03T00:58:53Z",
       "bootstrap": true,
@@ -447,6 +694,11 @@
       },
       "url": "https://www.minimax.io/"
     },
+    "dec620cb7225d2434a9b02e6": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://openai.com/index/introducing-dots"
+    },
     "df2b3a652849a416deb89641": {
       "at": "2026-10-03T04:52:48Z",
       "bootstrap": true,
@@ -460,6 +712,11 @@
         "source": "Kimi Research"
       },
       "url": "https://www.kimi.com/en/business"
+    },
+    "e3b8761031d237fbf22ff123": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.3"
     },
     "e74b0ca731164f12ce98355c": {
       "at": "2026-10-03T04:50:16Z",
@@ -489,6 +746,29 @@
       },
       "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
     },
+    "eeae4eda09cfd9e36977a75c": {
+      "at": "2026-10-03T05:49:36Z",
+      "bootstrap": true,
+      "score": 10,
+      "status": "ignored",
+      "story_key": "runway-enterprise-sales",
+      "url": "https://runway.com/enterprise-contact"
+    },
+    "eff7b109e5ada0968b399ef2": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.814-beta"
+    },
+    "f0eaec654f7f1f43621c2bdd": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc2"
+    },
+    "f3f828852141af98a5731144": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.7"
+    },
     "f49337edd4415929aaa81e89": {
       "at": "2026-10-03T04:46:57Z",
       "bootstrap": true,
@@ -502,6 +782,16 @@
         "source": "Sakana AI Blog"
       },
       "url": "https://sakana.ai/schmidhuber/"
+    },
+    "f5edbd3b23d95b4ae1e66c01": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/"
+    },
+    "f90fe0c2cacaf9d0844e98f2": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.815-beta"
     },
     "f9ac3a3f0e104375673c2981": {
       "at": "2026-10-03T04:44:23Z",
@@ -524,6 +814,11 @@
       "status": "ignored",
       "story_key": "kimi-k3-and-agent-tools-launch",
       "url": "https://www.kimi.com/"
+    },
+    "ff94713669a843bf34098765": {
+      "at": "2026-10-03T05:49:31Z",
+      "status": "expired",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.50.0"
     }
   },
   "stories": {

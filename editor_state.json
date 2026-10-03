@@ -1,11 +1,124 @@
 {
-  "version": 2,
-  "processed": {},
-  "stories": {},
-  "errors": {},
   "bootstrap": {
-    "target": 30,
-    "published": 0,
-    "complete": false
-  }
+    "complete": false,
+    "published": 3,
+    "started_at": "2026-10-03T00:58:41Z",
+    "target": 30
+  },
+  "errors": {},
+  "last_run": {
+    "at": "2026-10-03T00:58:53Z",
+    "eligible": 260,
+    "evaluated": 4,
+    "mode": "bootstrap",
+    "new_posts": 3,
+    "publish_actions": 3,
+    "quota_paused": false
+  },
+  "processed": {
+    "0108f5a0b1758cecc286938e": {
+      "at": "2026-10-03T00:58:43Z",
+      "bootstrap": true,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-updates",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-955ba114b67aea6e882c"
+    },
+    "6d2ef0c477ac4ea5a394a3d8": {
+      "at": "2026-10-03T00:58:46Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "qwen-image-20b-mmdit-native-text-rendering",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Qwen Blog"
+      },
+      "url": "https://qwenlm.github.io/blog/qwen-image/"
+    },
+    "a453c4ad1ff40833bc74eb48": {
+      "at": "2026-10-03T00:58:49Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "black-forest-labs-flux-3-action",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Black Forest Labs Blog"
+      },
+      "url": "https://bfl.ai/blog/flux-3-action"
+    },
+    "ddffe7df056e3cba5da2598d": {
+      "at": "2026-10-03T00:58:53Z",
+      "bootstrap": true,
+      "score": 91,
+      "status": "published",
+      "story_key": "minimax-m3-h3-speech-2-8-music-3-0-release",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "MiniMax Research"
+      },
+      "url": "https://www.minimax.io/"
+    }
+  },
+  "stories": {
+    "black-forest-labs-flux-3-action": {
+      "last_updated": "2026-10-03T00:58:49Z",
+      "post_id": "2456334160016862958",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/black-forest-labs-introduces-flux-3.html",
+      "score": 92,
+      "source_urls": [
+        "https://bfl.ai/blog/flux-3-action"
+      ],
+      "status": "CONFIRMED",
+      "title": "Black Forest Labs Introduces FLUX 3 Action, an Open-Weights 7B World Action Model for Robotics",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Black Forest Labs Blog"
+      }
+    },
+    "minimax-m3-h3-speech-2-8-music-3-0-release": {
+      "last_updated": "2026-10-03T00:58:53Z",
+      "post_id": "293122341616284272",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/minimax-announces-m3-frontier-model.html",
+      "score": 91,
+      "source_urls": [
+        "https://www.minimax.io/"
+      ],
+      "status": "CONFIRMED",
+      "title": "MiniMax Announces M3 Frontier Model with 1M Context, H3 Video, and Open-Weights Music 3.0",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "MiniMax Research"
+      }
+    },
+    "qwen-image-20b-mmdit-native-text-rendering": {
+      "last_updated": "2026-10-03T00:58:46Z",
+      "post_id": "174851991802711811",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/alibaba-releases-qwen-image-20b-mmdit.html",
+      "score": 92,
+      "source_urls": [
+        "https://qwenlm.github.io/blog/qwen-image/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Alibaba Releases Qwen-Image: A 20B MMDiT Foundation Model Focused on Native Text Rendering",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Qwen Blog"
+      }
+    }
+  },
+  "version": 2
 }

@@ -1,19 +1,23 @@
 {
   "bootstrap": {
     "complete": false,
-    "published": 3,
+    "published": 8,
     "started_at": "2026-10-03T00:58:41Z",
     "target": 30
   },
   "errors": {},
+  "last_quota_pause": {
+    "at": "2026-10-03T04:44:42Z",
+    "candidate_id": "0a28c215b5c05aea6d5cda4b"
+  },
   "last_run": {
-    "at": "2026-10-03T00:58:53Z",
-    "eligible": 260,
-    "evaluated": 4,
+    "at": "2026-10-03T04:44:42Z",
+    "eligible": 253,
+    "evaluated": 2,
     "mode": "bootstrap",
-    "new_posts": 3,
-    "publish_actions": 3,
-    "quota_paused": false
+    "new_posts": 2,
+    "publish_actions": 2,
+    "quota_paused": true
   },
   "last_visual_backfill": {
     "at": "2026-10-03T04:42:57Z",
@@ -29,6 +33,34 @@
       "story_key": "artificial-analysis-changelog-updates",
       "url": "https://artificialanalysis.ai/changelog#edgeai-955ba114b67aea6e882c"
     },
+    "3b73f4822ea0b3c87593c1f4": {
+      "at": "2026-10-03T04:44:14Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "qwen3guard-realtime-safety-token-stream",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Qwen Blog"
+      },
+      "url": "https://qwenlm.github.io/blog/qwen3guard/"
+    },
+    "613f0908caf5019c61a1112c": {
+      "at": "2026-10-03T04:44:35Z",
+      "bootstrap": true,
+      "score": 86,
+      "status": "published",
+      "story_key": "qwen-mt-turbo-multilingual-translation-api",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Qwen Blog"
+      },
+      "url": "https://qwenlm.github.io/blog/qwen-mt/"
+    },
     "6d2ef0c477ac4ea5a394a3d8": {
       "at": "2026-10-03T00:58:46Z",
       "bootstrap": true,
@@ -42,6 +74,20 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/qwen-image/"
+    },
+    "8d28766e7ba5e0cab3974fb4": {
+      "at": "2026-10-03T04:44:39Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "qwen-gspo-reinforcement-learning-algorithm",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Qwen Blog"
+      },
+      "url": "https://qwenlm.github.io/blog/gspo/"
     },
     "a453c4ad1ff40833bc74eb48": {
       "at": "2026-10-03T00:58:49Z",
@@ -57,6 +103,20 @@
       },
       "url": "https://bfl.ai/blog/flux-3-action"
     },
+    "d8f0f010d646003cb912c3ab": {
+      "at": "2026-10-03T04:44:19Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "stability-ai-stable-audio-3-model-family",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Stability AI News"
+      },
+      "url": "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models"
+    },
     "ddffe7df056e3cba5da2598d": {
       "at": "2026-10-03T00:58:53Z",
       "bootstrap": true,
@@ -70,6 +130,20 @@
         "source": "MiniMax Research"
       },
       "url": "https://www.minimax.io/"
+    },
+    "f9ac3a3f0e104375673c2981": {
+      "at": "2026-10-03T04:44:23Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "qwen-image-edit-20b-release",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Qwen Blog"
+      },
+      "url": "https://qwenlm.github.io/blog/qwen-image-edit/"
     }
   },
   "stories": {
@@ -117,6 +191,27 @@
         "source": "MiniMax Research"
       }
     },
+    "qwen-gspo-reinforcement-learning-algorithm": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/qwen-gspo-reinforcement-learning-algorithm.png",
+      "last_updated": "2026-10-03T04:44:39Z",
+      "post_id": "3534013613166212426",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/qwen-team-proposes-group-sequence.html",
+      "score": 92,
+      "source_image_source": "Qwen Blog",
+      "source_image_url": "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/results.jpg#center",
+      "source_urls": [
+        "https://qwenlm.github.io/blog/gspo/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Qwen Team Proposes Group Sequence Policy Optimization (GSPO) to Enable Scalable Language Model RL",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Qwen Blog"
+      }
+    },
     "qwen-image-20b-mmdit-native-text-rendering": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/qwen-image-20b-mmdit-native-text-rendering.png",
@@ -137,6 +232,90 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "Qwen Blog"
+      }
+    },
+    "qwen-image-edit-20b-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/qwen-image-edit-20b-release.png",
+      "last_updated": "2026-10-03T04:44:23Z",
+      "post_id": "988010957754350977",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/alibaba-releases-qwen-image-edit-for.html",
+      "score": 92,
+      "source_image_source": "Qwen Blog",
+      "source_image_url": "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/Qwen-Image/edit_homepage.jpg#center",
+      "source_urls": [
+        "https://qwenlm.github.io/blog/qwen-image-edit/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Alibaba Releases Qwen-Image-Edit for Advanced Semantic and Precise Text Editing",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Qwen Blog"
+      }
+    },
+    "qwen-mt-turbo-multilingual-translation-api": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/qwen-mt-turbo-multilingual-translation-api.png",
+      "last_updated": "2026-10-03T04:44:35Z",
+      "post_id": "8915433295797110188",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/qwen-team-launches-qwen-mt-turbo-with.html",
+      "score": 86,
+      "source_image_source": "Qwen Blog",
+      "source_image_url": "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/qwen-mt-001.jpeg",
+      "source_urls": [
+        "https://qwenlm.github.io/blog/qwen-mt/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Qwen Team Launches Qwen-MT-Turbo with Support for 92 Languages and Custom Terminology Intervention",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Qwen Blog"
+      }
+    },
+    "qwen3guard-realtime-safety-token-stream": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/qwen3guard-realtime-safety-token-stream.png",
+      "last_updated": "2026-10-03T04:44:14Z",
+      "post_id": "6822927893436295305",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/alibaba-releases-qwen3guard-for-real.html",
+      "score": 92,
+      "source_image_source": "Qwen Blog",
+      "source_image_url": "https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen3Guard/banner.png",
+      "source_urls": [
+        "https://qwenlm.github.io/blog/qwen3guard/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Alibaba Releases Qwen3Guard for Real-Time Token Stream Moderation",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Qwen Blog"
+      }
+    },
+    "stability-ai-stable-audio-3-model-family": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art/stability-ai-stable-audio-3-model-family.png",
+      "last_updated": "2026-10-03T04:44:19Z",
+      "post_id": "5771664681907989439",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/stability-ai-launches-stable-audio-30.html",
+      "score": 92,
+      "source_image_source": "Stability AI News",
+      "source_image_url": "http://static1.squarespace.com/static/6213c340453c3f502425776e/t/6a0cba6170b343450387fd8c/1779219041928/Stable+Audio+3.0+Thumbnail_16x9.png?format=1500w",
+      "source_urls": [
+        "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models"
+      ],
+      "status": "CONFIRMED",
+      "title": "Stability AI Launches Stable Audio 3.0 With Open-Weight Models and Six-Minute Generation",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Stability AI News"
       }
     }
   },

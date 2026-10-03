@@ -21,8 +21,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-03T18:39:57Z",
-    "eligible": 181,
+    "at": "2026-10-03T21:49:33Z",
+    "eligible": 177,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
@@ -213,6 +213,11 @@
       "story_key": "sakana-ai-japan-startup-award-2026",
       "url": "https://sakana.ai/japan-startup-award-2026/"
     },
+    "338ea65b29ca83a891bd3fe8": {
+      "at": "2026-10-03T21:49:26Z",
+      "status": "expired",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.1"
+    },
     "33a204d4c3b15672cc9aa301": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -358,10 +363,29 @@
       "story_key": "minimax-audio-landing-page",
       "url": "https://www.minimax.io/audio"
     },
+    "50e2bcc2b71bcb3a35743f8a": {
+      "at": "2026-10-03T21:49:33Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "sakana-fugu-max-fugu-ultra-v2",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      },
+      "url": "https://sakana.ai/fugu-max-release/"
+    },
     "57ed632908ae012313cd5937": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.5"
+    },
+    "5ee30d117f6cf7759e8ac7ff": {
+      "at": "2026-10-03T21:49:26Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/weftcut"
     },
     "6071f63e21f6425413eb6372": {
       "at": "2026-10-03T05:49:31Z",
@@ -389,6 +413,11 @@
       "status": "ignored",
       "story_key": "albertsons-openai-partnership-expansion",
       "url": "https://openai.com/index/albertsons-reimagining-retail"
+    },
+    "6381db252deeabb6b54b0421": {
+      "at": "2026-10-03T21:49:26Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
     },
     "643740d8b1d776507524544b": {
       "at": "2026-10-03T04:50:45Z",
@@ -442,6 +471,20 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.23"
+    },
+    "7157c7d19069852befd5724a": {
+      "at": "2026-10-03T21:49:30Z",
+      "bootstrap": true,
+      "score": 82,
+      "status": "published",
+      "story_key": "sakana-ai-royal-society-world-models",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      },
+      "url": "https://sakana.ai/world-models-royal-society-issue/"
     },
     "7164afd32ab29aac53e66bac": {
       "at": "2026-10-03T05:49:31Z",
@@ -538,6 +581,11 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/gspo/"
+    },
+    "8ff13f57dac4cfa311c2ecd8": {
+      "at": "2026-10-03T21:49:26Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-science-ai-flu-forecasts/"
     },
     "90249c2a3882c6d31b88e7ce": {
       "at": "2026-10-03T04:46:37Z",
@@ -1722,6 +1770,27 @@
         "source": "Sakana AI Blog"
       }
     },
+    "sakana-ai-royal-society-world-models": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/sakana-ai-royal-society-world-models.png",
+      "last_updated": "2026-10-03T21:49:30Z",
+      "post_id": "6490103971930761442",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/sakana-ai-highlights-royal-society.html",
+      "score": 82,
+      "source_image_source": "Sakana AI Blog",
+      "source_image_url": "https://sakana.ai/assets/home/sakana_ogp.png",
+      "source_urls": [
+        "https://sakana.ai/world-models-royal-society-issue/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Sakana AI Highlights Royal Society Special Issue on World Models in AI and Biology",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      }
+    },
     "sakana-chat-fugu-max-memory-update": {
       "image_kind": "mirrored_source",
       "image_source": "Sakana AI Blog",
@@ -1739,6 +1808,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Sakana AI Updates Sakana Chat with Fugu Max Model and New Memory Capabilities",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      }
+    },
+    "sakana-fugu-max-fugu-ultra-v2": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/sakana-fugu-max-fugu-ultra-v2.jpg",
+      "last_updated": "2026-10-03T21:49:33Z",
+      "post_id": "76161321273232892",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/sakana-ai-releases-fugu-max-and-fugu.html",
+      "score": 92,
+      "source_image_source": "Sakana AI Blog",
+      "source_image_url": "https://sakana.ai/assets/home/sakana_ogp.png",
+      "source_urls": [
+        "https://sakana.ai/fugu-max-release/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Sakana AI Releases Fugu Max and Fugu Ultra v2 for Advanced Model Orchestration",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

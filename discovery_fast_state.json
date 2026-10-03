@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-03T05:44:00Z",
+    "at": "2026-10-03T11:19:54Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 13,
+    "queued": 3,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 2,
+  "runs": 3,
   "seen": {
     "0187c1ea444100fc48e8ae46": {
       "first_seen": "2026-10-03T00:46:10Z",
@@ -272,6 +272,11 @@
       "status": "too_old",
       "url": "https://github.com/huggingface/diffusers/releases/tag/v0.40.0"
     },
+    "3e3a82382d4ba1a606c6c6c7": {
+      "first_seen": "2026-10-03T11:19:29Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11370"
+    },
     "3e83ebb43ea3be9e12e61969": {
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "queued",
@@ -528,6 +533,11 @@
       "status": "too_old",
       "url": "https://github.com/huggingface/smolagents/releases/tag/v1.26.0"
     },
+    "78193f4d45e8f96f3f7b4e68": {
+      "first_seen": "2026-10-03T11:19:29Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11371"
+    },
     "793a75ba0d43a66fc809b75a": {
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "too_old",
@@ -678,6 +688,11 @@
       "first_seen": "2026-10-03T00:46:18Z",
       "status": "too_old",
       "url": "https://github.com/microsoft/autogen/releases/tag/python-v0.7.3"
+    },
+    "9668af85ed2e1acf35b791be": {
+      "first_seen": "2026-10-03T11:19:30Z",
+      "status": "queued",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0"
     },
     "9906482f0e9c75da96c7d515": {
       "first_seen": "2026-10-03T00:46:10Z",

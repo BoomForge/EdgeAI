@@ -67,7 +67,7 @@ jobs:
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             echo "value=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
           else
-            echo "value=check" >> "$GITHUB_OUTPUT"
+            echo "value=baseline" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Run EdgeAI

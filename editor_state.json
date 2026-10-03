@@ -21,9 +21,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-03T14:57:24Z",
-    "eligible": 184,
-    "evaluated": 3,
+    "at": "2026-10-03T18:39:57Z",
+    "eligible": 181,
+    "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -237,6 +237,11 @@
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0"
     },
+    "381da076c8f84d9c12b58c52": {
+      "at": "2026-10-03T18:39:51Z",
+      "status": "expired",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/educause-2026/"
+    },
     "383db0675a7385f76bd3e59c": {
       "at": "2026-10-03T10:41:15Z",
       "bootstrap": true,
@@ -279,6 +284,20 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/"
+    },
+    "41aaed3a7ec03d9596bf1d41": {
+      "at": "2026-10-03T18:39:57Z",
+      "bootstrap": true,
+      "score": 86,
+      "status": "published",
+      "story_key": "elevenlabs-scribe-v2-release",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "ElevenLabs Research"
+      },
+      "url": "https://elevenlabs.io/blog/introducing-scribe-v2"
     },
     "42f2e37d9605f3037ecd8167": {
       "at": "2026-10-03T05:49:31Z",
@@ -390,6 +409,11 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
     },
+    "68cbabc2cd02fa79182c91c3": {
+      "at": "2026-10-03T18:39:51Z",
+      "status": "expired",
+      "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
+    },
     "699595b3b94d9b754c127512": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -428,6 +452,20 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.49.0"
+    },
+    "72c33ca5921b8b738b231089": {
+      "at": "2026-10-03T18:39:54Z",
+      "bootstrap": true,
+      "score": 85,
+      "status": "published",
+      "story_key": "elevenlabs-eleven-v3-generally-available",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "ElevenLabs Research"
+      },
+      "url": "https://elevenlabs.io/blog/eleven-v3-is-now-generally-available"
     },
     "73f1bf4d53a57ee938fe5a85": {
       "at": "2026-10-03T05:49:31Z",
@@ -544,6 +582,11 @@
       "status": "expired",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.4"
     },
+    "a3f2477a7a4c17f88579ed96": {
+      "at": "2026-10-03T18:39:51Z",
+      "status": "expired",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.18.0"
+    },
     "a453c4ad1ff40833bc74eb48": {
       "at": "2026-10-03T00:58:49Z",
       "bootstrap": true,
@@ -581,6 +624,11 @@
         "source": "Runway Research"
       },
       "url": "https://runway.com/research/introducing-runway-gen-4.5"
+    },
+    "afb57b23b0892f028d1184ff": {
+      "at": "2026-10-03T18:39:51Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/agent-activity"
     },
     "b3ddf621cd927d255750a3ef": {
       "at": "2026-10-03T10:41:10Z",
@@ -880,6 +928,16 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/"
     },
+    "f862b9446c456ef6531bec4b": {
+      "at": "2026-10-03T18:39:51Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/lloyal"
+    },
+    "f87baa38b03278bfed1e7313": {
+      "at": "2026-10-03T18:39:51Z",
+      "status": "expired",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.7"
+    },
     "f90fe0c2cacaf9d0844e98f2": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -983,6 +1041,27 @@
         "source": "ElevenLabs Research"
       }
     },
+    "elevenlabs-eleven-v3-generally-available": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/elevenlabs-eleven-v3-generally-available.png",
+      "last_updated": "2026-10-03T18:39:54Z",
+      "post_id": "6144772007872574599",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/elevenlabs-releases-eleven-v3-text-to.html",
+      "score": 85,
+      "source_image_source": "ElevenLabs Research",
+      "source_image_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/bz2b99t6bk5-Eleven%20v3%20is%20Out%20of%20Alpha%2002.webp",
+      "source_urls": [
+        "https://elevenlabs.io/blog/eleven-v3-is-now-generally-available"
+      ],
+      "status": "CONFIRMED",
+      "title": "ElevenLabs Releases Eleven v3 Text-to-Speech Model Out of Alpha",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "ElevenLabs Research"
+      }
+    },
     "elevenlabs-eleven-v4-expressive-tts-model": {
       "image_kind": "mirrored_source",
       "image_source": "ElevenLabs Research",
@@ -1021,6 +1100,27 @@
       ],
       "status": "CONFIRMED",
       "title": "ElevenLabs Releases Music v2 with Enhanced Control, Inpainting, and Multi-Genre Capabilities",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "ElevenLabs Research"
+      }
+    },
+    "elevenlabs-scribe-v2-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/elevenlabs-scribe-v2-release.png",
+      "last_updated": "2026-10-03T18:39:57Z",
+      "post_id": "4068075763437423076",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/elevenlabs-releases-scribe-v2-for-batch.html",
+      "score": 86,
+      "source_image_source": "ElevenLabs Research",
+      "source_image_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/lh0voe86hck-Scribe%20v2%20is%20here.webp",
+      "source_urls": [
+        "https://elevenlabs.io/blog/introducing-scribe-v2"
+      ],
+      "status": "CONFIRMED",
+      "title": "ElevenLabs Releases Scribe v2 for Batch Transcription and Scaled Audio Pipelines",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

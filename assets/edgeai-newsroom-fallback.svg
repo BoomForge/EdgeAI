@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">EdgeAI newsroom fallback artwork</title>
+  <desc id="desc">Abstract editorial technology artwork with layered data panels and a subtle future newsroom grid.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f16"/>
+      <stop offset="0.55" stop-color="#151b25"/>
+      <stop offset="1" stop-color="#0d1118"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7ea8ff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#7ea8ff" stop-opacity="0.55"/>
+      <stop offset="0.72" stop-color="#b6a0ff" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#8fe1c1" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#d7e1ef" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <ellipse cx="1120" cy="160" rx="430" ry="170" fill="#647dff" opacity="0.11" filter="url(#soft)"/>
+  <ellipse cx="420" cy="720" rx="420" ry="180" fill="#7ce0b6" opacity="0.08" filter="url(#soft)"/>
+  <path d="M0 620C260 520 450 560 690 470S1130 270 1600 340" fill="none" stroke="url(#beam)" stroke-width="3"/>
+  <path d="M0 648C330 535 520 620 760 505S1190 330 1600 380" fill="none" stroke="#a9b6cc" stroke-opacity="0.13" stroke-width="1"/>
+  <g fill="none" stroke="#bcc9dc" stroke-opacity="0.16">
+    <rect x="92" y="112" width="510" height="286" rx="18"/>
+    <rect x="1000" y="452" width="490" height="292" rx="18"/>
+    <rect x="655" y="204" width="270" height="170" rx="15"/>
+  </g>
+  <g fill="#dce6f4" opacity="0.08">
+    <rect x="125" y="150" width="280" height="15" rx="7"/>
+    <rect x="125" y="184" width="420" height="9" rx="4"/>
+    <rect x="125" y="211" width="360" height="9" rx="4"/>
+    <rect x="1035" y="494" width="230" height="13" rx="6"/>
+    <rect x="1035" y="529" width="390" height="8" rx="4"/>
+    <rect x="1035" y="554" width="330" height="8" rx="4"/>
+  </g>
+  <g transform="translate(118 690)">
+    <text x="0" y="0" fill="#f4f7fb" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800" letter-spacing="-4">EDGEAI</text>
+    <text x="3" y="48" fill="#aebaca" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" letter-spacing="4">AI INTELLIGENCE DESK</text>
+  </g>
+  <g transform="translate(1250 110)" fill="#dce6f4" font-family="monospace" font-size="15" opacity="0.45">
+    <text x="0" y="0">SIGNAL / SOURCE</text>
+    <text x="0" y="28">VERIFY / REPORT</text>
+    <text x="0" y="56">UPDATE / TRACK</text>
+  </g>
+</svg>

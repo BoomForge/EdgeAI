@@ -16,6 +16,7 @@ on:
           - bootstrap
           - live
           - visual
+          - image-repair
   push:
     branches:
       - main
@@ -25,6 +26,7 @@ on:
       - requirements.txt
       - edgeai.py
       - edgeai_editor.py
+      - image_repair.py
       - story_art.py
       - theme/**
       - .github/workflows/editor.yml
@@ -71,6 +73,8 @@ jobs:
             echo "value=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
           elif [[ "${{ github.event_name }}" == "schedule" ]]; then
             echo "value=auto" >> "$GITHUB_OUTPUT"
+          elif [[ "${{ github.event_name }}" == "push" && "${{ contains(github.event.head_commit.message, '[image-repair]') }}" == "true" ]]; then
+            echo "value=image-repair" >> "$GITHUB_OUTPUT"
           elif [[ "${{ github.event_name }}" == "push" && "${{ contains(github.event.head_commit.message, '[visual-backfill]') }}" == "true" ]]; then
             echo "value=visual" >> "$GITHUB_OUTPUT"
           elif [[ "${{ github.event_name }}" == "push" && "${{ contains(github.event.head_commit.message, '[launch]') }}" == "true" ]]; then
@@ -80,20 +84,26 @@ jobs:
           fi
 
       - name: Run central editor
+        if: steps.mode.outputs.value != 'image-repair'
         run: python edgeai_editor.py --mode "${{ steps.mode.outputs.value }}"
+
+      - name: Repair and verify live article images
+        if: steps.mode.outputs.value == 'image-repair'
+        run: python image_repair.py
 
       - name: Save editor state and story artwork
         if: steps.mode.outputs.value != 'check'
         shell: bash
         run: |
           mkdir -p assets/story-art
-          if git diff --quiet -- editor_state.json assets/story-art; then
-            echo "No editor state or story artwork changes to save."
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add editor_state.json assets/story-art
+          if [[ -f image_repair_report.json ]]; then git add image_repair_report.json; fi
+          if git diff --cached --quiet; then
+            echo "No editor state or story artwork changes to save."
+            exit 0
+          fi
           git commit -m "edgeai: update editor state and story artwork [skip ci]"
           for attempt in 1 2 3; do
             git pull --rebase origin main && git push && exit 0

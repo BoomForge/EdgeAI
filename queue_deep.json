@@ -1822,6 +1822,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "b23a71d2dca41cfabb3715eb",
+      "discovered_at": "2026-10-03T18:47:09Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-02T22:57:38+00:00",
+      "search_score": 0,
+      "source_name": "Simon Willison Everything",
+      "summary": "Museum: Rex's Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur. The density of dinosaur puns is exceptional . Tags: art , new-york",
+      "title": "Rex's Dino Store",
+      "url": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "5ee30d117f6cf7759e8ac7ff",
       "discovered_at": "2026-10-03T05:50:29Z",
       "kind": "signal",
@@ -1934,6 +1948,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-03T15:15:08Z",
+  "updated_at": "2026-10-03T18:47:14Z",
   "version": 2
 }

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-03T15:15:08Z",
+    "at": "2026-10-03T18:47:14Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 0,
+    "prefiltered": 0,
+    "queued": 1,
     "sources_ok": 15,
-    "too_old": 3,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 4,
+  "runs": 5,
   "seen": {
     "0108f5a0b1758cecc286938e": {
       "first_seen": "2026-10-03T00:46:01Z",
@@ -50,6 +50,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/eleven-v4-and-eleven-v4-turbo"
+    },
+    "07ed550dd35ac918737ad4d0": {
+      "first_seen": "2026-10-03T18:47:09Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/prefer-2"
     },
     "08913be196df8938b291d515": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -666,6 +671,11 @@
       "first_seen": "2026-10-03T15:15:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/feelmymac"
+    },
+    "b23a71d2dca41cfabb3715eb": {
+      "first_seen": "2026-10-03T18:47:09Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/"
     },
     "b270f6f5f99b181019d846e1": {
       "first_seen": "2026-10-03T11:34:52Z",

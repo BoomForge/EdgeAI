@@ -10,6 +10,8 @@ ROOT = Path(__file__).resolve().parent
 ART_DIR = ROOT / "assets" / "story-art"
 RAW_BASE = "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art"
 
+# EdgeAI-owned artwork is the guaranteed hero/thumbnail path. Source imagery is
+# retained separately as evidence/supporting media, never as the availability dependency.
 PALETTES = {
     "Models": ("#7e93ff", "#9a7cff"),
     "Tools": ("#5ec5b1", "#6f9cff"),

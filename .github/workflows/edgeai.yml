@@ -1,6 +1,8 @@
 name: EdgeAI Radar
 
 on:
+  schedule:
+    - cron: '*/15 * * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -66,8 +68,10 @@ jobs:
         run: |
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             echo "value=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
+          elif [[ "${{ github.event_name }}" == "schedule" ]]; then
+            echo "value=live" >> "$GITHUB_OUTPUT"
           else
-            echo "value=baseline" >> "$GITHUB_OUTPUT"
+            echo "value=check" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Run EdgeAI

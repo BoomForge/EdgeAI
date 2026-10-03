@@ -33,6 +33,7 @@
 (function(){
 var fallback='https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/edgeai-newsroom-fallback.svg';
 function esc(v){var d=document.createElement('div');d.textContent=v||'';return d.innerHTML;}
+function cleanTickerTitle(v){return String(v||'').replace(/^(?:&?#?8226;|&#x2022;|•)\s*/i,'').trim();}
 function entries(j){return(j&&j.feed&&j.feed.entry)||[];}
 function href(e){var a=e.link||[];for(var i=0;i<a.length;i++)if(a[i].rel==='alternate')return a[i].href;return'#';}
 function raw(e){return(e.content&&e.content.$t)||(e.summary&&e.summary.$t)||'';}
@@ -46,7 +47,7 @@ function card(e){var t=trust(e),cs=cats(e);return'<article class="news-card"><a 
 function deskStory(e){return'<a class="desk-story" href="'+esc(href(e))+'"><img alt="" src="'+esc(thumb(e))+'" onerror="this.onerror=null;this.src=\''+fallback+'\';"/><span><b>'+esc(e.title.$t)+'</b><p>'+esc(plain(e,82))+'</p></span></a>';}
 window.edgeAIHero=function(j){var es=entries(j),h=document.getElementById('edgeai-hero');if(!h)return;if(!es.length&&!window.edgeAIFallback){window.edgeAIFallback=true;load('/feeds/posts/default?alt=json-in-script&max-results=3&callback=edgeAIHero');return;}if(!es.length)return;var a='<div class="hero-main">'+hero(es[0],false)+'</div><div class="hero-side">';for(var i=1;i<3;i++)a+=es[i]?hero(es[i],true):'<div class="hero-card edge-empty">More intelligence incoming.</div>';h.innerHTML=a+'</div>';};
 window.edgeAILatest=function(j){var es=entries(j),t=document.getElementById('edgeai-latest');if(!t)return;var a='';for(var i=0;i<Math.min(es.length,8);i++)a+=card(es[i]);t.innerHTML=a||'<div class="edge-empty">No reports yet.</div>';};
-window.edgeAITicker=function(j){var es=entries(j),t=document.getElementById('edgeai-ticker');if(!t||!es.length)return;var a='';for(var i=0;i<es.length;i++)a+='<a class="ticker-item" href="'+esc(href(es[i]))+'">'+esc(es[i].title.$t)+'</a>';t.innerHTML=a+a;};
+window.edgeAITicker=function(j){var es=entries(j),t=document.getElementById('edgeai-ticker');if(!t||!es.length)return;var a='';for(var i=0;i<es.length;i++)a+='<a class="ticker-item" href="'+esc(href(es[i]))+'">'+esc(cleanTickerTitle(es[i].title.$t))+'</a>';t.innerHTML=a+a;};
 window.edgeAITrending=function(j){var es=entries(j),nodes=document.querySelectorAll('#edgeai-trending'),a='';for(var i=0;i<Math.min(es.length,7);i++)a+='<a href="'+esc(href(es[i]))+'">'+esc(es[i].title.$t)+'<small>'+esc(when(es[i]))+'</small></a>';for(var n=0;n<nodes.length;n++)nodes[n].innerHTML=a||'<span class="edge-method">No stories yet.</span>';};
 window.edgeAIDeskModels=function(j){desk('desk-models',entries(j));};window.edgeAIDeskTools=function(j){desk('desk-tools',entries(j));};window.edgeAIDeskResearch=function(j){desk('desk-research',entries(j));};window.edgeAIDeskOpen=function(j){desk('desk-open',entries(j));};
 function desk(id,es){var t=document.getElementById(id);if(!t)return;var a='';for(var i=0;i<Math.min(es.length,3);i++)a+=deskStory(es[i]);t.innerHTML=a||'<span class="desk-empty">More reports incoming.</span>';}

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-03T11:34:57Z",
+    "at": "2026-10-03T15:15:08Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 4,
-    "queued": 7,
+    "prefiltered": 1,
+    "queued": 0,
     "sources_ok": 15,
-    "too_old": 10,
+    "too_old": 3,
     "warnings": 0
   },
-  "runs": 3,
+  "runs": 4,
   "seen": {
     "0108f5a0b1758cecc286938e": {
       "first_seen": "2026-10-03T00:46:01Z",
@@ -449,6 +449,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/bevel-software"
     },
+    "77c8b48fd34637e9f25f74cb": {
+      "first_seen": "2026-10-03T15:15:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/miso-com"
+    },
     "79ebb80118396ffd689ca34b": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -592,6 +597,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/communicate"
     },
+    "a6ce8ee62eb8a0b82d296cd7": {
+      "first_seen": "2026-10-03T15:15:03Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/yubi-2"
+    },
     "a99e7c73be3208be7c0aeb2b": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -650,6 +661,11 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/agent-activity"
+    },
+    "b16ce43b6230ac3b7ed6f521": {
+      "first_seen": "2026-10-03T15:15:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/feelmymac"
     },
     "b270f6f5f99b181019d846e1": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -854,6 +870,11 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/maccam"
+    },
+    "f1874b9d39a053083bb1f031": {
+      "first_seen": "2026-10-03T15:15:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/bawkterm-an-open-source-ssh-sftp-client"
     },
     "f49337edd4415929aaa81e89": {
       "first_seen": "2026-10-03T00:46:04Z",

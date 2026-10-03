@@ -1,17 +1,16 @@
 from __future__ import annotations
 
 import hashlib
-import html
 import re
 import textwrap
 from pathlib import Path
+
+from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent
 ART_DIR = ROOT / "assets" / "story-art"
 RAW_BASE = "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/story-art"
 
-# EdgeAI-owned artwork is the guaranteed hero/thumbnail path. Source imagery is
-# retained separately as evidence/supporting media, never as the availability dependency.
 PALETTES = {
     "Models": ("#7e93ff", "#9a7cff"),
     "Tools": ("#5ec5b1", "#6f9cff"),
@@ -42,60 +41,95 @@ def _lines(title: str) -> list[str]:
     lines = textwrap.wrap(title, width=31, break_long_words=False, break_on_hyphens=False)
     if len(lines) > 3:
         lines = lines[:3]
-        if len(lines[-1]) > 27:
-            lines[-1] = lines[-1][:27].rstrip()
-        lines[-1] += "…"
+        lines[-1] = lines[-1][:27].rstrip() + "…"
     return lines or ["EdgeAI Report"]
 
 
+def _font(size: int, bold: bool = False):
+    names = [
+        "DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf" if bold else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    ]
+    for name in names:
+        try:
+            return ImageFont.truetype(name, size)
+        except OSError:
+            pass
+    return ImageFont.load_default()
+
+
+def _rgb(hex_color: str) -> tuple[int, int, int]:
+    value = hex_color.lstrip("#")
+    return tuple(int(value[i:i+2], 16) for i in (0, 2, 4))
+
+
 def ensure_story_art(story_key: str, title: str, source: str, labels: list[str] | None = None) -> str:
+    """Generate a Blogger-safe PNG cover and return its public raw GitHub URL."""
     ART_DIR.mkdir(parents=True, exist_ok=True)
     key = _safe_key(story_key)
-    path = ART_DIR / f"{key}.svg"
+    path = ART_DIR / f"{key}.png"
 
+    width, height = 1200, 675
     category = _category(labels)
     c1, c2 = PALETTES[category]
+    c1_rgb, c2_rgb = _rgb(c1), _rgb(c2)
+
+    img = Image.new("RGB", (width, height), (10, 14, 20))
+    draw = ImageDraw.Draw(img, "RGBA")
+
+    # Subtle vertical gradient for a steel/future-newsroom feel.
+    for y in range(height):
+        p = y / max(1, height - 1)
+        base = (
+            int(11 + 10 * p),
+            int(15 + 10 * p),
+            int(22 + 12 * p),
+        )
+        draw.line((0, y, width, y), fill=(*base, 255))
+
+    # Fine editorial grid.
+    for x in range(0, width, 44):
+        draw.line((x, 0, x, height), fill=(255, 255, 255, 8), width=1)
+    for y in range(0, height, 44):
+        draw.line((0, y, width, y), fill=(255, 255, 255, 8), width=1)
+
     digest = hashlib.sha256((story_key + title).encode("utf-8")).hexdigest()
-    n1 = int(digest[:8], 16)
-    n2 = int(digest[8:16], 16)
-    n3 = int(digest[16:24], 16)
-    circles = []
-    for i, n in enumerate((n1, n2, n3)):
-        x = 720 + (n % 390)
-        y = 100 + ((n // 11) % 470)
-        r = 85 + ((n // 101) % 150)
-        circles.append(f'<circle cx="{x}" cy="{y}" r="{r}" fill="none" stroke="url(#g)" stroke-width="1.4" opacity="{0.16 + i*0.05:.2f}"/>')
+    nums = [int(digest[i:i+8], 16) for i in (0, 8, 16)]
+    for i, n in enumerate(nums):
+        cx = 760 + (n % 330)
+        cy = 100 + ((n // 13) % 470)
+        r = 90 + ((n // 101) % 150)
+        col = c1_rgb if i % 2 == 0 else c2_rgb
+        draw.ellipse((cx-r, cy-r, cx+r, cy+r), outline=(*col, 70 + i * 18), width=2)
 
-    title_lines = _lines(title)
-    text_nodes = []
-    y = 300 - (len(title_lines) - 1) * 39
-    for line in title_lines:
-        text_nodes.append(f'<text x="72" y="{y}" fill="#f4f7fb" font-size="48" font-weight="800" font-family="Arial,Helvetica,sans-serif">{html.escape(line)}</text>')
-        y += 58
+    # Signal curves / data lines.
+    points1 = [(690, 555), (805, 455), (918, 488), (1132, 344)]
+    points2 = [(715, 590), (845, 495), (958, 522), (1168, 406)]
+    draw.line(points1, fill=(*c1_rgb, 150), width=3, joint="curve")
+    draw.line(points2, fill=(223, 231, 242, 45), width=2, joint="curve")
 
-    source = re.sub(r"\s+", " ", source or "EdgeAI").strip()[:60]
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1018"/><stop offset="1" stop-color="#161b25"/></linearGradient>
-  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="{c1}"/><stop offset="1" stop-color="{c2}"/></linearGradient>
-  <filter id="blur"><feGaussianBlur stdDeviation="38"/></filter>
-  <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#ffffff" stroke-opacity=".035" stroke-width="1"/></pattern>
-</defs>
-<rect width="1200" height="675" fill="url(#bg)"/>
-<rect width="1200" height="675" fill="url(#grid)"/>
-<circle cx="1010" cy="108" r="245" fill="{c1}" opacity=".12" filter="url(#blur)"/>
-<circle cx="900" cy="585" r="220" fill="{c2}" opacity=".10" filter="url(#blur)"/>
-{''.join(circles)}
-<path d="M690 555 C805 455 918 488 1132 344" fill="none" stroke="url(#g)" stroke-width="2" opacity=".48"/>
-<path d="M715 590 C845 495 958 522 1168 406" fill="none" stroke="#dfe7f2" stroke-width="1" opacity=".14"/>
-<rect x="72" y="64" width="126" height="34" rx="6" fill="url(#g)"/>
-<text x="135" y="87" text-anchor="middle" fill="#0c1118" font-size="16" font-weight="900" font-family="Arial,Helvetica,sans-serif">EDGEAI</text>
-<text x="72" y="137" fill="{c1}" font-size="15" font-weight="800" letter-spacing="2.5" font-family="Arial,Helvetica,sans-serif">{html.escape(category.upper())}</text>
-{''.join(text_nodes)}
-<line x1="72" y1="540" x2="558" y2="540" stroke="#ffffff" stroke-opacity=".14"/>
-<text x="72" y="579" fill="#aab5c3" font-size="17" font-family="Arial,Helvetica,sans-serif">SOURCE / {html.escape(source.upper())}</text>
-<text x="72" y="616" fill="#7d8998" font-size="14" letter-spacing="1.5" font-family="Arial,Helvetica,sans-serif">BLEEDING-EDGE AI WITHOUT THE NOISE</text>
-<text x="1112" y="622" text-anchor="end" fill="#748091" font-size="12" letter-spacing="1.3" font-family="Arial,Helvetica,sans-serif">SIGNAL / VERIFY / REPORT</text>
-</svg>'''
-    path.write_text(svg, encoding="utf-8")
+    # Brand badge.
+    draw.rounded_rectangle((72, 64, 198, 100), radius=7, fill=(*c1_rgb, 255))
+    brand_font = _font(17, True)
+    draw.text((87, 72), "EDGEAI", font=brand_font, fill=(12, 17, 24, 255))
+
+    kicker_font = _font(16, True)
+    draw.text((72, 132), category.upper(), font=kicker_font, fill=(*c1_rgb, 255))
+
+    title_font = _font(48, True)
+    lines = _lines(title)
+    y = 255 - (len(lines) - 1) * 35
+    for line in lines:
+        draw.text((72, y), line, font=title_font, fill=(244, 247, 251, 255))
+        y += 62
+
+    draw.line((72, 540, 558, 540), fill=(255, 255, 255, 38), width=1)
+    source_font = _font(17, False)
+    small_font = _font(14, False)
+    source_text = re.sub(r"\s+", " ", source or "EdgeAI").strip()[:60].upper()
+    draw.text((72, 566), f"SOURCE / {source_text}", font=source_font, fill=(170, 181, 195, 255))
+    draw.text((72, 608), "BLEEDING-EDGE AI WITHOUT THE NOISE", font=small_font, fill=(125, 137, 152, 255))
+    draw.text((930, 608), "SIGNAL / VERIFY / REPORT", font=small_font, fill=(116, 128, 145, 255))
+
+    img.save(path, format="PNG", optimize=True)
     return f"{RAW_BASE}/{path.name}"

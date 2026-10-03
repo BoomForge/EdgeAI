@@ -1,0 +1,81 @@
+name: EdgeAI Deep Discovery
+
+on:
+  schedule:
+    - cron: '8,28,48 * * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Discovery mode
+        required: true
+        default: check
+        type: choice
+        options:
+          - check
+          - discover
+          - baseline
+  push:
+    branches:
+      - main
+    paths:
+      - web_sources.json
+      - edgeai.py
+      - edgeai_runner.py
+      - edgeai_discovery.py
+      - .github/workflows/deep-discovery.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: edgeai-deep-discovery
+  cancel-in-progress: false
+
+jobs:
+  discovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - name: Check out EdgeAI
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Select mode
+        id: mode
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "value=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=discover" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run deep discovery
+        run: python edgeai_discovery.py --lane deep --mode "${{ steps.mode.outputs.value }}"
+
+      - name: Save deep discovery state and queue
+        if: steps.mode.outputs.value != 'check'
+        shell: bash
+        run: |
+          if git diff --quiet -- discovery_deep_state.json queue_deep.json; then
+            echo "No deep discovery changes to save."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add discovery_deep_state.json queue_deep.json
+          git commit -m "edgeai: update deep discovery queue [skip ci]"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "Push attempt $attempt failed; retrying."
+            sleep $((attempt * 2))
+          done
+          exit 1

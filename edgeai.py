@@ -25,13 +25,51 @@ MAX_CANDIDATES = 10
 MAX_PUBLICATIONS = 2
 USER_AGENT = "EdgeAI-News-Bot/1.0 (+https://edgeainews.blogspot.com/)"
 
-AI_WORDS = (
-    "ai", "artificial intelligence", "model", "llm", "multimodal", "agent",
-    "inference", "transformer", "diffusion", "reasoning", "benchmark", "openai",
-    "anthropic", "claude", "gemini", "deepmind", "llama", "mistral",
-    "hugging face", "machine learning", "neural", "generative", "robotics",
-    "foundation model", "gpu", "tpu",
+# Broad sources (for example Product Hunt or the general Google Blog) are filtered
+# with weighted, boundary-aware search signals. Dedicated AI/research/release feeds
+# bypass this prefilter and are still judged by Gemini before publication.
+SEARCH_SIGNALS = (
+    (4, (
+        "artificial intelligence", "large language model", "foundation model",
+        "multimodal model", "reasoning model", "vision language model",
+        "open weights", "open-weight", "model release", "ai agent",
+        "text to video", "text-to-video", "text to image", "text-to-image",
+        "speech model", "inference engine",
+    )),
+    (3, (
+        "openai", "anthropic", "claude", "gemini", "deepmind", "llama",
+        "mistral", "qwen", "deepseek", "kimi", "minimax", "sakana",
+        "nous research", "hugging face", "ollama", "vllm", "sglang",
+        "comfyui", "stability ai", "runway", "elevenlabs",
+    )),
+    (2, (
+        "llm", "multimodal", "inference", "transformer", "diffusion",
+        "reasoning", "benchmark", "neural", "generative", "robotics",
+        "agent", "agents", "model", "models", "machine learning",
+        "fine tuning", "fine-tuning", "finetuning", "context window",
+        "gpu", "tpu", "api",
+    )),
+    (1, ("ai", "ml")),
 )
+
+RELEASE_SIGNALS = (
+    "release", "released", "launch", "launched", "introducing", "introduced",
+    "available", "preview", "beta", "open source", "open-source", "weights",
+    "api", "benchmark", "upgrade",
+)
+
+NOISE_SIGNALS = (
+    "webinar", "hiring", "careers", "job opening", "customer story",
+    "case study", "sponsored", "event recap", "conference recap", "giveaway",
+    "newsletter signup",
+)
+
+DEDICATED_KINDS = {
+    "research", "research-security", "open-source", "open-source-creative",
+    "local-ai", "inference", "training", "coding-agents", "agents",
+    "agents-research", "primary", "primary-signal", "independent",
+    "independent-signal",
+}
 
 
 def now_iso():
@@ -74,6 +112,51 @@ def cid(url):
 
 def clean_text(value):
     return BeautifulSoup(value or "", "html.parser").get_text(" ", strip=True)
+
+
+def phrase_hit(text, phrase):
+    pattern = r"(?<![a-z0-9])" + re.escape(phrase.lower()).replace(r"\ ", r"\s+") + r"(?![a-z0-9])"
+    return re.search(pattern, text.lower()) is not None
+
+
+def search_signal_score(title, summary):
+    title = clean_text(title).lower()
+    summary = clean_text(summary).lower()
+    score = 0
+
+    for weight, phrases in SEARCH_SIGNALS:
+        for phrase in phrases:
+            if phrase_hit(title, phrase):
+                score += weight * 2
+            elif phrase_hit(summary, phrase):
+                score += weight
+
+    if any(phrase_hit(title, phrase) for phrase in RELEASE_SIGNALS):
+        score += 2
+    elif any(phrase_hit(summary, phrase) for phrase in RELEASE_SIGNALS):
+        score += 1
+
+    if any(phrase_hit(title, phrase) for phrase in NOISE_SIGNALS):
+        score -= 4
+    elif any(phrase_hit(summary, phrase) for phrase in NOISE_SIGNALS):
+        score -= 2
+
+    return score
+
+
+def passes_prefilter(item):
+    priority = int(item.get("priority", 2))
+    kind = str(item.get("kind", "")).lower()
+    score = search_signal_score(item.get("title", ""), item.get("summary", ""))
+    item["search_score"] = score
+
+    # Strong sources and dedicated AI domains do not need keyword proof.
+    if priority <= 2 or kind in DEDICATED_KINDS:
+        return True
+
+    # Priority 3 broad sources need a clear signal; priority 4 needs stronger proof.
+    threshold = 2 if priority == 3 else 4
+    return score >= threshold
 
 
 def fetch_feed(source):
@@ -142,14 +225,20 @@ def collect(sources, state, mutate=True):
                 if mutate:
                     seen[item_id] = {"url": item["url"], "status": "too_old", "first_seen": now_iso()}
                 continue
-            text = f"{item['title']} {item['summary']}".lower()
-            if item["priority"] >= 3 and not any(word in text for word in AI_WORDS):
+            if not passes_prefilter(item):
                 if mutate:
-                    seen[item_id] = {"url": item["url"], "status": "prefiltered", "first_seen": now_iso()}
+                    seen[item_id] = {
+                        "url": item["url"], "status": "prefiltered",
+                        "search_score": item.get("search_score", 0), "first_seen": now_iso()
+                    }
                 continue
             item["candidate_id"] = item_id
             candidates.append(item)
-    candidates.sort(key=lambda x: (x["priority"], -(parse_date(x["published"]) or datetime(1970,1,1,tzinfo=timezone.utc)).timestamp()))
+    candidates.sort(key=lambda x: (
+        x["priority"],
+        -int(x.get("search_score", 0)),
+        -(parse_date(x["published"]) or datetime(1970,1,1,tzinfo=timezone.utc)).timestamp(),
+    ))
     return candidates[:MAX_CANDIDATES], ok, failed
 
 

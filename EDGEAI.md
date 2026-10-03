@@ -48,9 +48,11 @@ Established technology/science reporting and specialist publications.
 Use for context and independent confirmation.
 
 ### Tier 3 — discovery signals
-Forums, social media, Hacker News, Reddit, community posts, rumours, screenshots, leaks.
+Forums, social media, Hacker News, Reddit, community posts, rumours, screenshots, leaks, directories and launch boards.
 
 Tier 3 may trigger investigation but must not establish a fact by itself.
+
+A discovery source such as FutureTools, Futurepedia or Product Hunt is a radar trigger. Follow its link to the original developer, lab, repository, documentation, model card or announcement before treating the underlying claim as confirmed.
 
 ## Story states
 
@@ -76,6 +78,26 @@ Never label a rumour CONFIRMED simply because multiple sites copied the same ori
 - Below 75: do not publish as a standalone story.
 
 The automation has a hard technical floor of 75.
+
+## Newsroom label contract
+
+Every published story must use the verification-state label supplied by the runner plus at least one canonical coverage label where applicable.
+
+Canonical coverage labels are:
+
+- `Breaking` — genuinely time-sensitive major development, not ordinary newness.
+- `Models` — model releases, capability changes, pricing/access changes and model comparisons.
+- `Tools` — meaningful AI product/tool launches and major tool changes.
+- `Research` — papers, evaluations, benchmarks and research findings.
+- `Agents` — autonomous/agentic systems, coding agents, computer use and orchestration.
+- `Open Source` — open-weight models, repositories and substantial open-source releases.
+- `Creative AI` — image, video, audio, music, 3D and creative-generation systems.
+- `Infrastructure` — inference, hardware, runtimes, APIs, deployment and AI systems engineering.
+- `Featured` — homepage promotion reserved for exceptional stories.
+
+Use only labels that genuinely apply. Do not tag every article with every category.
+
+A score of 90 or above should normally receive `Featured` when the story is broadly important. A lower-scoring story may receive `Featured` only when it has unusual practical significance. Ordinary stories must not receive `Featured` merely to fill the homepage; the theme automatically falls back to recent stories.
 
 ## Article standard
 

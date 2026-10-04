@@ -65,6 +65,7 @@ jobs:
       - name: Install dependencies
         run: pip install --disable-pip-version-check -r requirements.txt
 
+      # A push tagged [image-repair] uses a prepare -> persist -> public verify -> Blogger repair sequence.
       - name: Select mode
         id: mode
         shell: bash

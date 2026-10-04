@@ -27,11 +27,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-04T11:21:06Z",
-    "eligible": 169,
-    "evaluated": 4,
+    "at": "2026-10-04T15:54:56Z",
+    "eligible": 170,
+    "evaluated": 5,
     "mode": "live",
-    "new_posts": 0,
+    "new_posts": 1,
     "publish_actions": 1,
     "quota_paused": false
   },
@@ -128,10 +128,23 @@
       },
       "url": "https://sakana.ai/frontier-intelligence-group/"
     },
+    "1165aefccbfb0d903d04ce6c": {
+      "at": "2026-10-04T15:54:52Z",
+      "bootstrap": true,
+      "score": 35,
+      "status": "ignored",
+      "story_key": "stability-ai-strategic-partnerships-page",
+      "url": "https://stability.ai/strategic-partnerships"
+    },
     "121946e928c2e8a76d631a91": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0"
+    },
+    "1258d92154cf6b5b455fb550": {
+      "at": "2026-10-04T15:54:47Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/anthroposcaper"
     },
     "1441ff2ab9fdc9be50b63e1f": {
       "at": "2026-10-03T05:49:31Z",
@@ -329,6 +342,22 @@
       "at": "2026-10-04T11:20:52Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc3"
+    },
+    "4048c279d9cd7af57e2f645a": {
+      "at": "2026-10-04T15:54:55Z",
+      "bootstrap": true,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "stability-ai-board-of-directors-page",
+      "url": "https://stability.ai/board-of-directors"
+    },
+    "40b751b710ffdfe179ad0616": {
+      "at": "2026-10-04T15:54:53Z",
+      "bootstrap": true,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "stability-ai-customer-stories-page",
+      "url": "https://stability.ai/customer-stories"
     },
     "41625591abfe53de1f2e0694": {
       "at": "2026-10-03T05:49:31Z",
@@ -730,6 +759,20 @@
       "status": "expired",
       "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25"
     },
+    "a1785a44f4858e2b1ea21cf1": {
+      "at": "2026-10-04T15:54:51Z",
+      "bootstrap": true,
+      "score": 91,
+      "status": "published",
+      "story_key": "black-forest-labs-flux-tools-api-release",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 93,
+        "source": "Black Forest Labs Blog"
+      },
+      "url": "https://bfl.ai/models/flux-tools"
+    },
     "a3cf20eae0fce76e913abe7e": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -788,6 +831,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/agent-activity"
     },
+    "b270f6f5f99b181019d846e1": {
+      "at": "2026-10-04T15:54:47Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/singularity-2"
+    },
     "b28db22be2dee5fac2e8c843": {
       "at": "2026-10-04T00:07:42Z",
       "status": "expired",
@@ -831,6 +879,14 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.2"
+    },
+    "bdccd1b2e1deb4b775d390e6": {
+      "at": "2026-10-04T15:54:56Z",
+      "bootstrap": true,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "stability-ai-deployment-page-update",
+      "url": "https://stability.ai/deployment"
     },
     "bf1a189b85c837584069025f": {
       "at": "2026-10-03T05:49:31Z",
@@ -1097,6 +1153,11 @@
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.4.0"
     },
+    "ed59254a0e36ad070ae8979e": {
+      "at": "2026-10-04T15:54:47Z",
+      "status": "expired",
+      "url": "https://blog.google/products-and-platforms/products/search/coffee-tips-google-search/"
+    },
     "eeae4eda09cfd9e36977a75c": {
       "at": "2026-10-03T05:49:36Z",
       "bootstrap": true,
@@ -1133,6 +1194,11 @@
         "source": "Sakana AI Blog"
       },
       "url": "https://sakana.ai/schmidhuber/"
+    },
+    "f5ca49e217faf41ac23d5dff": {
+      "at": "2026-10-04T15:54:47Z",
+      "status": "expired",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.901-beta"
     },
     "f5edbd3b23d95b4ae1e66c01": {
       "at": "2026-10-03T05:49:31Z",
@@ -1267,6 +1333,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Black Forest Labs Announces FLUX 3 Video with Unified Multimodal Architecture",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 93,
+        "source": "Black Forest Labs Blog"
+      }
+    },
+    "black-forest-labs-flux-tools-api-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/black-forest-labs-flux-tools-api-release.jpg",
+      "last_updated": "2026-10-04T15:54:51Z",
+      "post_id": "8873308584184125413",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/black-forest-labs-launches-flux-tools.html",
+      "score": 91,
+      "source_image_source": "Black Forest Labs Blog",
+      "source_image_url": "https://bfl.ai/og-custom-bg.jpg",
+      "source_urls": [
+        "https://bfl.ai/models/flux-tools"
+      ],
+      "status": "CONFIRMED",
+      "title": "Black Forest Labs Launches FLUX Tools API Suite for Specialized Image and Video Tasks",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

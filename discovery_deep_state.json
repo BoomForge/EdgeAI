@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-04T12:47:39Z",
+    "at": "2026-10-04T17:06:56Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 7,
-    "queued": 2,
+    "prefiltered": 3,
+    "queued": 0,
     "sources_ok": 15,
-    "too_old": 11,
+    "too_old": 8,
     "warnings": 0
   },
-  "runs": 9,
+  "runs": 10,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -77,6 +77,11 @@
       "status": "queued",
       "url": "https://sakana.ai/frontier-intelligence-group/"
     },
+    "0b8b56dba928bd682afd58ba": {
+      "first_seen": "2026-10-04T17:06:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/cupola"
+    },
     "0c78b107823f053100b26f30": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -96,6 +101,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://strandsagents.com/blog/introducing-strands-decider/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "0d8326c3b7632bd6f3d04042": {
+      "first_seen": "2026-10-04T17:06:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/blume-3"
     },
     "0e4a30e4b64d3de41be903f8": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -165,6 +175,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/"
     },
+    "231b7d382be19d5b20d18fa4": {
+      "first_seen": "2026-10-04T17:06:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/sorcrr"
+    },
     "2571ca81601cbb2f20861273": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
@@ -179,6 +194,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2106138356937810069"
+    },
+    "29e2961ad01fe1426761c81e": {
+      "first_seen": "2026-10-04T17:06:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/angebotsmeister"
     },
     "2a8e5b2eeed733baf988d7ff": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -377,6 +397,12 @@
       "status": "queued",
       "url": "https://sakana.ai/pc-alm/"
     },
+    "58654261fa9f0b658f22e707": {
+      "first_seen": "2026-10-04T17:06:51Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/thinking-orbs"
+    },
     "592453e9ac18ede6bfffb363": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -397,6 +423,11 @@
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/clair-3"
+    },
+    "5ebf20110b0a7c4331c376bf": {
+      "first_seen": "2026-10-04T17:06:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/art4"
     },
     "5ee30d117f6cf7759e8ac7ff": {
       "first_seen": "2026-10-03T05:50:29Z",
@@ -503,6 +534,11 @@
       "status": "queued",
       "url": "https://elevenlabs.io/blog/eleven-v3-is-now-generally-available"
     },
+    "72cff7e9ff09cb9335d92803": {
+      "first_seen": "2026-10-04T17:06:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/calnio"
+    },
     "775cce2b8f031ba723e503c1": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "queued",
@@ -579,6 +615,11 @@
       "status": "queued",
       "url": "https://hermes-agent.nousresearch.com/docs/getting-started/installation#without-hermes-desktop"
     },
+    "8772e2074f522b0572c0df09": {
+      "first_seen": "2026-10-04T17:06:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/wikifix"
+    },
     "87e209af624212491c44f946": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -631,6 +672,12 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/foundrradio"
+    },
+    "9c589f61789715c0571fcf74": {
+      "first_seen": "2026-10-04T17:06:51Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/smooth-recorder"
     },
     "9d77b23d2cd4a15f0f4308dc": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -865,6 +912,11 @@
       "status": "queued",
       "url": "https://sakana.ai/scsk-sc-partnership/"
     },
+    "cf9a17e8c858d596752872af": {
+      "first_seen": "2026-10-04T17:06:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/cursor-remote-lite"
+    },
     "d3b185d971abc0ead80775d6": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -884,6 +936,12 @@
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/octri"
+    },
+    "d5afcbd0c50daf781662bc0d": {
+      "first_seen": "2026-10-04T17:06:51Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/apple"
     },
     "d716e08cd23c30890d3fdce6": {
       "first_seen": "2026-10-03T00:45:59Z",

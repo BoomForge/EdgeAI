@@ -5,6 +5,7 @@ import argparse
 import html
 import json
 import re
+import subprocess
 import time
 from pathlib import Path
 
@@ -17,6 +18,7 @@ ROOT = Path(__file__).resolve().parent
 STATE_PATH = ROOT / "editor_state.json"
 REPORT_PATH = ROOT / "image_repair_report.json"
 SOURCE_MARKER = "/assets/source-media/"
+EDGEAI_CDN_MARKER = "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/"
 
 
 def load_state() -> dict:
@@ -85,15 +87,66 @@ def verify_remote_image(url: str) -> tuple[bool, str]:
 
 
 def verify_local_or_remote(url: str) -> tuple[bool, str]:
-    if SOURCE_MARKER in url:
-        name = url.rsplit("/", 1)[-1]
-        path = ROOT / "assets" / "source-media" / name
-        if path.exists() and path.stat().st_size > 5000:
-            return True, f"local mirrored source image {path.stat().st_size} bytes"
+    """Verify the URL Blogger readers will fetch, never just the runner's local file.
+
+    The old implementation accepted a local mirrored file as proof that an image was
+    available publicly. That allowed Blogger to be updated before the GitHub commit/CDN
+    existed, producing image-less articles while the workflow still looked successful.
+    """
     return verify_remote_image(url)
 
 
-def repair() -> None:
+def repo_revision() -> str:
+    try:
+        return subprocess.check_output(
+            ["git", "rev-parse", "--short=12", "HEAD"],
+            cwd=ROOT,
+            text=True,
+            stderr=subprocess.DEVNULL,
+        ).strip()
+    except Exception:
+        return str(int(time.time()))
+
+
+def public_image_url(url: str) -> str:
+    """Bust stale jsDelivr 404s after the image commit has reached main."""
+    if EDGEAI_CDN_MARKER not in url:
+        return url
+    base = url.split("?", 1)[0]
+    return f"{base}?v={repo_revision()}"
+
+
+def needs_repair(story: dict) -> bool:
+    if not bool(story.get("image_verified_in_blogger")):
+        return True
+    last_updated = str(story.get("last_updated", ""))
+    last_visual = str(story.get("last_visual_refresh", ""))
+    return bool(last_updated and (not last_visual or last_updated > last_visual))
+
+
+def prepare_assets() -> None:
+    """Create/mirror story assets without touching Blogger.
+
+    This is used by the explicit image-repair workflow so assets can be committed first,
+    then Blogger is repaired only after the public URL is reachable.
+    """
+    state = load_state()
+    prepared = 0
+    for skey, story in sorted(state.get("stories", {}).items()):
+        if not str(story.get("post_id", "")).strip():
+            continue
+        title = str(story.get("title") or "EdgeAI report")
+        source = str((story.get("trust") or {}).get("source") or "EdgeAI")
+        image_url = ensure_story_art(skey, title, source, [])
+        story["image_prepared_url"] = image_url
+        story["image_prepared_at"] = core.now_iso()
+        prepared += 1
+        print(f"IMAGE PREPARED: {title} -> {image_url}")
+    save_state(state)
+    print(f"IMAGE PREPARE COMPLETE: prepared={prepared}.")
+
+
+def repair(pending_only: bool = False) -> None:
     state = load_state()
     blog_id = core.env("BLOGGER_BLOG_ID")
     access = core.token()
@@ -101,7 +154,7 @@ def repair() -> None:
 
     report = {
         "at": core.now_iso(),
-        "mode": "repair",
+        "mode": "repair-pending" if pending_only else "repair",
         "total": 0,
         "updated": 0,
         "verified_in_blogger": 0,
@@ -114,18 +167,21 @@ def repair() -> None:
         post_id = str(story.get("post_id", "")).strip()
         if not post_id:
             continue
+        if pending_only and not needs_repair(story):
+            continue
         report["total"] += 1
 
         post = blogger_get(blog_id, post_id, access)
         title = str(post.get("title") or story.get("title") or "EdgeAI report")
         labels = post.get("labels") or []
         source = str((story.get("trust") or {}).get("source") or "EdgeAI")
-        image_url = ensure_story_art(skey, title, source, labels)
+        image_url = public_image_url(ensure_story_art(skey, title, source, labels))
         is_real = SOURCE_MARKER in image_url
         attribution = source if is_real else "EdgeAI editorial artwork"
 
         asset_ok, asset_detail = verify_local_or_remote(image_url)
         if not asset_ok:
+            story["image_verified_in_blogger"] = False
             report["failed"].append({"story": skey, "stage": "asset", "detail": asset_detail, "url": image_url})
             print(f"IMAGE ASSET FAIL: {skey}: {asset_detail}")
             continue
@@ -236,12 +292,17 @@ def verify_only() -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--verify-only", action="store_true")
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("--verify-only", action="store_true")
+    group.add_argument("--prepare-only", action="store_true")
+    parser.add_argument("--pending-only", action="store_true")
     args = parser.parse_args()
     if args.verify_only:
         verify_only()
+    elif args.prepare_only:
+        prepare_assets()
     else:
-        repair()
+        repair(pending_only=args.pending_only)
 
 
 if __name__ == "__main__":

@@ -27,8 +27,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-04T15:54:56Z",
-    "eligible": 170,
+    "at": "2026-10-04T19:34:01Z",
+    "eligible": 169,
     "evaluated": 5,
     "mode": "live",
     "new_posts": 1,
@@ -100,6 +100,11 @@
         "source": "Runway Research"
       },
       "url": "https://runway.com/research/introducing-gwm-worlds-2"
+    },
+    "058f1d37f378336cfe6debf0": {
+      "at": "2026-10-04T19:33:52Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/"
     },
     "061338e668ed697490e5190c": {
       "at": "2026-10-03T05:49:35Z",
@@ -197,6 +202,14 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/cue-by-manus"
     },
+    "1f99edf99303e9898f56c517": {
+      "at": "2026-10-04T19:33:53Z",
+      "bootstrap": true,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "stability-ai-solutions-page-update",
+      "url": "https://stability.ai/solutions-1"
+    },
     "1fb466641ec80a8dc13c7b96": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -275,6 +288,14 @@
         "source": "Sakana AI Blog"
       },
       "url": "https://sakana.ai/marlin-update/"
+    },
+    "36bdd825e1b13d8b2bcea67a": {
+      "at": "2026-10-04T19:34:00Z",
+      "bootstrap": true,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "runway-research-news-index",
+      "url": "https://runway.com/news/research"
     },
     "3762ff1d2e3077743459b4a4": {
       "at": "2026-10-03T05:49:31Z",
@@ -525,6 +546,14 @@
       "at": "2026-10-03T21:49:26Z",
       "status": "expired",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    },
+    "638f8ae09ae5152488569490": {
+      "at": "2026-10-04T19:33:55Z",
+      "bootstrap": true,
+      "score": 30,
+      "status": "ignored",
+      "story_key": "stability-ai-company-page-routine-update",
+      "url": "https://stability.ai/company"
     },
     "6406be5b671a96484836e277": {
       "at": "2026-10-04T11:21:04Z",
@@ -812,6 +841,28 @@
       "status": "expired",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.3"
     },
+    "a99e7c73be3208be7c0aeb2b": {
+      "at": "2026-10-04T19:33:59Z",
+      "bootstrap": true,
+      "score": 86,
+      "status": "published",
+      "story_key": "stability-ai-stable-audio-plugin-and-web-app-update",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 93,
+        "source": "Stability AI News"
+      },
+      "url": "https://stability.ai/news-updates/sharing-a-new-way-to-work-with-stable-audio"
+    },
+    "af2fbd93182d5c01937faf5a": {
+      "at": "2026-10-04T19:34:01Z",
+      "bootstrap": true,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "runway-research-publications",
+      "url": "https://runway.com/research/publications"
+    },
     "af8a6e156fc266c29e4f7864": {
       "at": "2026-10-03T04:48:36Z",
       "bootstrap": true,
@@ -997,6 +1048,11 @@
       "status": "ignored",
       "story_key": "sakana-ai-scsk-sumitomo-partnership-2026",
       "url": "https://sakana.ai/scsk-sc-partnership/"
+    },
+    "ceb3576a6bbdd8c15087e27a": {
+      "at": "2026-10-04T19:33:52Z",
+      "status": "expired",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-educator-series-badge-a-thon/"
     },
     "d22e1a2319ccd9329b6707fd": {
       "at": "2026-10-03T05:49:31Z",
@@ -2365,6 +2421,27 @@
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
+        "source": "Stability AI News"
+      }
+    },
+    "stability-ai-stable-audio-plugin-and-web-app-update": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/stability-ai-stable-audio-plugin-and-web-app-update.jpg",
+      "last_updated": "2026-10-04T19:33:59Z",
+      "post_id": "3555905635339507502",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/stability-ai-launches-stable-audio-daw.html",
+      "score": 86,
+      "source_image_source": "Stability AI News",
+      "source_image_url": "http://static1.squarespace.com/static/6213c340453c3f502425776e/t/6a8339bc452f993158f20713/1786984892211/Stable_Audio_Beta_Launch_16x9.png?format=1500w",
+      "source_urls": [
+        "https://stability.ai/news-updates/sharing-a-new-way-to-work-with-stable-audio"
+      ],
+      "status": "CONFIRMED",
+      "title": "Stability AI Launches Stable Audio DAW Plugin and Enhanced Web Experience",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 93,
         "source": "Stability AI News"
       }
     }

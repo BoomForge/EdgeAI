@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-04T17:06:56Z",
+    "at": "2026-10-04T20:10:53Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
+    "prefiltered": 1,
     "queued": 0,
     "sources_ok": 15,
-    "too_old": 8,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 10,
+  "runs": 11,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -159,6 +159,11 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
       "url": "https://www.kimi.com/code"
+    },
+    "1cae9baa075bdbaec4e8055a": {
+      "first_seen": "2026-10-04T20:10:47Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/control-my-mac"
     },
     "1e53e4b0ea0e3813fd5e7558": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -589,6 +594,12 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://stability.ai/news-updates/stability-ai-latest-funding-backed-by-entertainment-industry-biggest-names"
+    },
+    "80243862f64ebe34884c628e": {
+      "first_seen": "2026-10-04T20:10:47Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/blenny"
     },
     "80fcbb463ccbeee372c8e68e": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -1066,6 +1077,11 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/maccam"
+    },
+    "f14bb5812968562be4736ddd": {
+      "first_seen": "2026-10-04T20:10:47Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/opensend-cc"
     },
     "f1874b9d39a053083bb1f031": {
       "first_seen": "2026-10-03T15:15:03Z",

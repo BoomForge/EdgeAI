@@ -1892,6 +1892,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "1cf97cd9573961b03d43e8f5",
+      "discovered_at": "2026-10-04T12:33:55Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-04T10:42:13Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "imatrix: calculate activation-based statistics for new format (GGUF) imatrices ( #14891 ) Use activations to calculate the stats Determine calculation mode Compute entropy for activations Compute cosine similarity based on activations Compute l2 norm Add compute_layer_statistics() function Update aggregated statistic report layout Fix printing l2 norm when calc_mode = 1 Refactor variable name Compute aggregated (per layer) l2 norm Update aggregated sum of squared activations per layer Make ZD Score two-tailed Update report layout Reverse conditional logic to match convention Rename report heading Add --activation-statistics parameter Add Euclidean\u2013Cosine Score (ECS) Add --activation-statistics logic to avoid doubling the imatrix size by default Update stats output sort based on imatrix type Process external NextN draft files (-md / --model-draft) Refactor to use new llama_batch_ext Co-authored-by: compilade git@compilade.net Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52565482 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11388",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11388"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "646703daec5b98f231fee1b4",
+      "discovered_at": "2026-10-04T12:33:55Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-04T10:03:29Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "common : prepare load_from_models_dir() for path conversion ( #29674 ) This is part of the fs::path modernization series. That was also the opportunity to remove fs_list(). Signed-off-by: Adrien Gallou\u00ebt angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52560765 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11386",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11386"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "78193f4d45e8f96f3f7b4e68",
       "discovered_at": "2026-10-03T11:19:29Z",
       "kind": "local-ai",
@@ -1917,6 +1945,62 @@
       "summary": "model: support nimble decision model ( #29844 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52332773 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11364",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11364"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "8c74524609568ff648dd99b6",
+      "discovered_at": "2026-10-04T12:33:55Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-04T12:33:51Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "vulkan: fix rdna4 mat_vec tuning ( #29934 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52579133 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11389",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11389"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "af0bc63417beb8c2d29ba736",
+      "discovered_at": "2026-10-04T12:33:55Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-04T10:22:45Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "spec : fix n-gram drafts rejected at temp > 0 after truncation ( #29924 ) Co-authored-by: Pranesh Gonegandla pgonegandla@nvidia.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52563003 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11387",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11387"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "442343c819cdd430b25856d4",
+      "discovered_at": "2026-10-04T12:33:55Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-04T09:37:26Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "server : fix dead LLAMA_ARG_HF_REPO_FILE key in preset allow-list ( #29938 ) Signed-off-by: Adrien Gallou\u00ebt angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52557999 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11385",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11385"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "3c7ad66c425f89b091210eaf",
+      "discovered_at": "2026-10-04T12:33:55Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-04T08:06:26Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "ci : pushing tag needs deploy key ( #29937 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52545484 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11384",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11384"
     },
     {
       "bootstrap": false,
@@ -2057,6 +2141,20 @@
       "summary": "ggml-cpu : fix soft_max_back wrong output when dst aliases src1 ( #27096 ) ggml-cpu : fix soft_max_back wrong output when dst aliases src1 GGML_OP_SOFT_MAX_BACK is listed in ggml_op_can_inplace, so the graph allocator may assign dst to alias either src0 (dy) or src1 (y). The result was built in several steps: ggml_vec_cpy_f32  (nc, dx, dy);\nggml_vec_acc1_f32 (nc, dx, -dot_y_dy);\nggml_vec_mul_f32  (nc, dx, dx, y);\nggml_vec_scale_f32(nc, dx, scale); When dst aliases src1, the first step overwrites y and the third step then reads the overwritten values, so the output is silently wrong. Aliasing dst with src0 is unaffected. The CUDA kernel completes its reduction before writing and is already safe. Replace the sequence with a single fused loop that reads both sources before writing, which is correct under either aliasing. Add a regression test that marks dy as a graph output so the allocator is forced to alias dst with y, asserts that the alias actually happened, and compares against values computed on the host. cont : remove comment Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52336742 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11365",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11365"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "1def5ac72d467db84fc97c16",
+      "discovered_at": "2026-10-04T12:33:55Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-04T12:10:43Z",
+      "search_score": 0,
+      "source_name": "llama.cpp Releases",
+      "summary": "CUDA: fix MMQ memory fault if n_expert >> n_ubatch ( #29941 )",
+      "title": "b11390",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11390"
     },
     {
       "bootstrap": false,
@@ -2242,6 +2340,6 @@
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-04T06:20:33Z",
+  "updated_at": "2026-10-04T12:34:19Z",
   "version": 2
 }

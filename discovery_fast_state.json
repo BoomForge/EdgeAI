@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-04T06:20:33Z",
+    "at": "2026-10-04T12:34:19Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 2,
+    "queued": 7,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 8,
+  "runs": 9,
   "seen": {
     "0187c1ea444100fc48e8ae46": {
       "first_seen": "2026-10-03T00:46:10Z",
@@ -155,6 +155,16 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc1"
+    },
+    "1cf97cd9573961b03d43e8f5": {
+      "first_seen": "2026-10-04T12:33:55Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11388"
+    },
+    "1def5ac72d467db84fc97c16": {
+      "first_seen": "2026-10-04T12:33:55Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11390"
     },
     "1e508ff768ab30dd082fc689": {
       "first_seen": "2026-10-03T00:45:57Z",
@@ -302,6 +312,11 @@
       "status": "too_old",
       "url": "https://github.com/huggingface/diffusers/releases/tag/v0.40.0"
     },
+    "3c7ad66c425f89b091210eaf": {
+      "first_seen": "2026-10-04T12:33:55Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11384"
+    },
     "3e3a82382d4ba1a606c6c6c7": {
       "first_seen": "2026-10-03T11:19:29Z",
       "status": "queued",
@@ -371,6 +386,11 @@
       "first_seen": "2026-10-03T00:46:21Z",
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.52.0"
+    },
+    "442343c819cdd430b25856d4": {
+      "first_seen": "2026-10-04T12:33:55Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11385"
     },
     "4651fd8a89a23438c2bcbae7": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -481,6 +501,11 @@
       "first_seen": "2026-10-03T00:46:20Z",
       "status": "too_old",
       "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.3.0b1"
+    },
+    "646703daec5b98f231fee1b4": {
+      "first_seen": "2026-10-04T12:33:55Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11386"
     },
     "646e2d3c8e8ea51471b22c07": {
       "first_seen": "2026-10-03T00:45:50Z",
@@ -678,6 +703,11 @@
       "status": "too_old",
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.10.0"
     },
+    "8c74524609568ff648dd99b6": {
+      "first_seen": "2026-10-04T12:33:55Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11389"
+    },
     "8cc5380fb99a93aeaaf4c1c6": {
       "first_seen": "2026-10-03T00:45:51Z",
       "status": "queued",
@@ -853,6 +883,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "too_old",
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.8.2"
+    },
+    "af0bc63417beb8c2d29ba736": {
+      "first_seen": "2026-10-04T12:33:55Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11387"
     },
     "b0fe2e85015610c8fad31d3e": {
       "first_seen": "2026-10-03T00:46:17Z",

@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "at": "2026-10-04T00:30:39Z",
+    "at": "2026-10-04T06:20:33Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
@@ -9,7 +9,7 @@
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 7,
+  "runs": 8,
   "seen": {
     "0187c1ea444100fc48e8ae46": {
       "first_seen": "2026-10-03T00:46:10Z",
@@ -85,6 +85,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00422"
+    },
+    "11ff01e8f3ddf634b9fa760d": {
+      "first_seen": "2026-10-04T06:20:10Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11382"
     },
     "121946e928c2e8a76d631a91": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -311,6 +316,11 @@
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "too_old",
       "url": "https://github.com/continuedev/continue/releases/tag/v1.2.23-vscode"
+    },
+    "3fc9ff8585e35d9b18b26345": {
+      "first_seen": "2026-10-04T06:20:22Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.0-rc.1"
     },
     "3fdfc0e4208e99b2ce1e5759": {
       "first_seen": "2026-10-03T00:46:13Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-04T17:01:44Z",
+    "at": "2026-10-04T20:04:03Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 6,
+    "queued": 3,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 10,
+  "runs": 11,
   "seen": {
     "0187c1ea444100fc48e8ae46": {
       "first_seen": "2026-10-03T00:46:10Z",
@@ -276,6 +276,11 @@
       "first_seen": "2026-10-03T00:45:57Z",
       "status": "too_old",
       "url": "https://github.com/huggingface/smolagents/releases/tag/v1.25.0"
+    },
+    "36b79bc33c67cccccf910ec6": {
+      "first_seen": "2026-10-04T20:03:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11397"
     },
     "3762ff1d2e3077743459b4a4": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -1039,6 +1044,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11346"
     },
+    "cb72e5d0c728ffb026664314": {
+      "first_seen": "2026-10-04T20:03:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11398"
+    },
     "cbc8926a28c802abf681f0b7": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -1259,6 +1269,11 @@
       "first_seen": "2026-10-03T00:46:21Z",
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.7"
+    },
+    "f57c46bf1463a1b4ffd18591": {
+      "first_seen": "2026-10-04T20:03:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11396"
     },
     "f58072678026aa6843de5877": {
       "first_seen": "2026-10-03T05:43:25Z",

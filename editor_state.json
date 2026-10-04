@@ -21,9 +21,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-04T00:07:49Z",
-    "eligible": 176,
-    "evaluated": 2,
+    "at": "2026-10-04T05:45:07Z",
+    "eligible": 177,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -42,6 +42,11 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-updates",
       "url": "https://artificialanalysis.ai/changelog#edgeai-955ba114b67aea6e882c"
+    },
+    "0187c1ea444100fc48e8ae46": {
+      "at": "2026-10-04T05:44:56Z",
+      "status": "expired",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.101.4"
     },
     "023d364db8b33fc2047dcacf": {
       "at": "2026-10-03T05:49:31Z",
@@ -251,6 +256,20 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0"
+    },
+    "37948658fc64306e709ba3fb": {
+      "at": "2026-10-04T05:45:02Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "black-forest-labs-flux-3-image",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 93,
+        "source": "Black Forest Labs Blog"
+      },
+      "url": "https://bfl.ai/models/flux-3-image"
     },
     "381da076c8f84d9c12b58c52": {
       "at": "2026-10-03T18:39:51Z",
@@ -515,6 +534,20 @@
       "status": "expired",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.0-rc.2"
     },
+    "71ea610267dd1d6faf68d153": {
+      "at": "2026-10-04T05:45:07Z",
+      "bootstrap": true,
+      "score": 95,
+      "status": "published",
+      "story_key": "black-forest-labs-flux-3-video",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 93,
+        "source": "Black Forest Labs Blog"
+      },
+      "url": "https://bfl.ai/models/flux-3-video"
+    },
     "723ac1f70a166fbceb0ff2bb": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -719,6 +752,14 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.4.0"
+    },
+    "b8087b88cb63ae7fc829eff8": {
+      "at": "2026-10-04T05:44:58Z",
+      "bootstrap": true,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "openai-essay-eternal-complement",
+      "url": "https://openai.com/index/the-eternal-complement"
     },
     "b9972c54becd0c3d958a401b": {
       "at": "2026-10-03T05:49:31Z",
@@ -1108,6 +1149,48 @@
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
+        "source": "Black Forest Labs Blog"
+      }
+    },
+    "black-forest-labs-flux-3-image": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/black-forest-labs-flux-3-image.jpg",
+      "last_updated": "2026-10-04T05:45:02Z",
+      "post_id": "6173424932103700568",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/black-forest-labs-details-flux-3-image.html",
+      "score": 92,
+      "source_image_source": "Black Forest Labs Blog",
+      "source_image_url": "https://cdn.sanity.io/images/2gpum2i6/production/486fe8dbe090c31226c868dac01a1f5d918eb756-1200x630.jpg",
+      "source_urls": [
+        "https://bfl.ai/models/flux-3-image"
+      ],
+      "status": "CONFIRMED",
+      "title": "Black Forest Labs Details FLUX 3 Image with Advanced Pixel Control and Bounding Box Layouts",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 93,
+        "source": "Black Forest Labs Blog"
+      }
+    },
+    "black-forest-labs-flux-3-video": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/black-forest-labs-flux-3-video.jpg",
+      "last_updated": "2026-10-04T05:45:07Z",
+      "post_id": "4937987441249252005",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/black-forest-labs-announces-flux-3.html",
+      "score": 95,
+      "source_image_source": "Black Forest Labs Blog",
+      "source_image_url": "https://cdn.sanity.io/images/2gpum2i6/production/8d23e4c144ea18700cec7869d617b9a0f5d51680-1200x630.png",
+      "source_urls": [
+        "https://bfl.ai/models/flux-3-video"
+      ],
+      "status": "CONFIRMED",
+      "title": "Black Forest Labs Announces FLUX 3 Video with Unified Multimodal Architecture",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 93,
         "source": "Black Forest Labs Blog"
       }
     },

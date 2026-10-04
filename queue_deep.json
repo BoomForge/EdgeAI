@@ -1934,6 +1934,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "f2623f517e94709c38bd2067",
+      "discovered_at": "2026-10-04T12:47:33Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-03T16:54:19-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "AI customer support in one shared inbox powered by AI agents Discussion | Link",
+      "title": "Sellio",
+      "url": "https://www.producthunt.com/products/sellio-2"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "775cce2b8f031ba723e503c1",
+      "discovered_at": "2026-10-04T12:47:33Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-03T14:31:56-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "claude design but for editing professional videos faster. Discussion | Link",
+      "title": "LaunchReel",
+      "url": "https://www.producthunt.com/products/launchreel-2"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "b270f6f5f99b181019d846e1",
       "discovered_at": "2026-10-03T11:34:52Z",
       "kind": "signal",
@@ -2004,6 +2032,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-04T06:25:29Z",
+  "updated_at": "2026-10-04T12:47:39Z",
   "version": 2
 }

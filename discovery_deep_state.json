@@ -1,16 +1,21 @@
 {
   "last_run": {
-    "at": "2026-10-04T06:25:29Z",
+    "at": "2026-10-04T12:47:39Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 0,
+    "prefiltered": 7,
+    "queued": 2,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 11,
     "warnings": 0
   },
-  "runs": 8,
+  "runs": 9,
   "seen": {
+    "00fe22e92cb030d385660f8f": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/translate-like-me"
+    },
     "0108f5a0b1758cecc286938e": {
       "first_seen": "2026-10-03T00:46:01Z",
       "status": "queued",
@@ -324,6 +329,18 @@
       "status": "queued",
       "url": "https://www.minimax.io/news/minimax-speech-28"
     },
+    "4f78b004ba16b11412746d03": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/flexchords"
+    },
+    "5069205c8d56bd653de53693": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tinyfolder"
+    },
     "50980c4dad6b62c89ad033d8": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -365,10 +382,21 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/wattmate"
     },
+    "5a6224417127badb83133732": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/pixel-soup"
+    },
     "5a75b8a901e4f4a9de9bb579": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://bfl.ai/models/flux-3-action"
+    },
+    "5b8ee58e3c5f60e84d27c235": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/clair-3"
     },
     "5ee30d117f6cf7759e8ac7ff": {
       "first_seen": "2026-10-03T05:50:29Z",
@@ -399,6 +427,11 @@
       "first_seen": "2026-10-03T21:50:36Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2106497772426076504"
+    },
+    "625404ae9894067d0d54ba47": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/chatgpt-space"
     },
     "637b19621e90d68905988d73": {
       "first_seen": "2026-10-04T00:34:30Z",
@@ -470,6 +503,11 @@
       "status": "queued",
       "url": "https://elevenlabs.io/blog/eleven-v3-is-now-generally-available"
     },
+    "775cce2b8f031ba723e503c1": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/launchreel-2"
+    },
     "77bb9dac7f2dc73e90b658f8": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
@@ -495,6 +533,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://newsletter.futurepedia.io/p/chatgpt-6-turns-one-prompt-into-a-live-website-09-15-2026"
+    },
+    "7d06b090b39f7d712c882751": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/corespeed"
     },
     "7db4974c11ebd58e1ae24279": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -526,6 +569,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/never-boring-ai"
     },
+    "86ff7f2dddf61ef77746aae1": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/quven"
+    },
     "874d80e9e31a5a4f86d4c985": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -535,6 +583,12 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "88dbac989446ec7bf0a06415": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/capybara-court"
     },
     "8b0edc8fdb04ddc5f4ef43b0": {
       "first_seen": "2026-10-03T00:46:03Z",
@@ -744,6 +798,17 @@
       "status": "queued",
       "url": "https://elevenlabs.io/blog/category/resources"
     },
+    "c08ec2b468a48f442b32d10c": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/docsalot-2"
+    },
+    "c12a7f93c2ddc1871eb60d9c": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/eat-train-feel"
+    },
     "c48f1ff5058b49fc9610ea09": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -785,6 +850,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/scmd"
     },
+    "ccb2d72ef3f1b4f15339ed3c": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/rival-workshop"
+    },
     "cd9267d452079c2353cb8ed2": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -810,6 +880,11 @@
       "status": "queued",
       "url": "https://www.kimi.com/en/products/download"
     },
+    "d5a178a028e4b6fd4c0da3f0": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/octri"
+    },
     "d716e08cd23c30890d3fdce6": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -834,6 +909,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/claude-just-did-a-months-work-in-a-single-day-09-25-2026"
+    },
+    "db683f801c4abf511c3d7251": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/jogak"
     },
     "dc61cd9c23bdd4b5c1607fd2": {
       "first_seen": "2026-10-03T05:50:29Z",
@@ -871,15 +951,31 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/cloudflare-clef"
     },
+    "e13c3fccf40401a6444aa71d": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/snapset"
+    },
     "e48a7f736f56ad596c7cd7f9": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/1/matthew-green/"
     },
+    "e5e29b8c46bed49a08dcf72c": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/gemini-4-argon"
+    },
     "e74b0ca731164f12ce98355c": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://www.minimax.io/models/text/m27"
+    },
+    "e787b14da4302988423d314a": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/notchmate"
     },
     "e800acacef7840a119826a49": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -896,6 +992,12 @@
       "status": "queued",
       "url": "https://runway.com/enterprise-contact"
     },
+    "eeb7792e82f2a100ffe060bf": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/poddle-3"
+    },
     "eef4d318a704a567a93440f1": {
       "first_seen": "2026-10-03T00:45:59Z",
       "search_score": 0,
@@ -911,6 +1013,11 @@
       "first_seen": "2026-10-03T15:15:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/bawkterm-an-open-source-ssh-sftp-client"
+    },
+    "f2623f517e94709c38bd2067": {
+      "first_seen": "2026-10-04T12:47:33Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/sellio-2"
     },
     "f49337edd4415929aaa81e89": {
       "first_seen": "2026-10-03T00:46:04Z",

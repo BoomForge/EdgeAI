@@ -87,9 +87,9 @@ jobs:
         if: steps.mode.outputs.value != 'image-repair'
         run: python edgeai_editor.py --mode "${{ steps.mode.outputs.value }}"
 
-      - name: Repair live articles with real source imagery
+      - name: Prepare live article image assets
         if: steps.mode.outputs.value == 'image-repair'
-        run: python image_repair.py
+        run: python image_repair.py --prepare-only
 
       - name: Save editor state and mirrored imagery
         if: steps.mode.outputs.value != 'check'
@@ -111,25 +111,43 @@ jobs:
             done
           fi
 
-      - name: Verify mirrored images after publish
-        if: steps.mode.outputs.value == 'image-repair'
+      - name: Reconcile Blogger images after assets are public
+        if: steps.mode.outputs.value != 'check'
         shell: bash
         run: |
-          sleep 15
-          python image_repair.py --verify-only
+          if [[ "${{ steps.mode.outputs.value }}" == "image-repair" ]]; then
+            repair_args=""
+          else
+            repair_args="--pending-only"
+          fi
 
-      - name: Save final image verification report
-        if: steps.mode.outputs.value == 'image-repair'
+          for attempt in 1 2 3 4 5; do
+            echo "Image reconciliation attempt $attempt/5"
+            if python image_repair.py $repair_args; then
+              exit 0
+            fi
+            if [[ "$attempt" -eq 5 ]]; then
+              echo "Article images are still not publicly reachable after retries. Failing loudly instead of silently accepting broken imagery."
+              exit 1
+            fi
+            sleep $((attempt * 15))
+          done
+
+      - name: Save image verification state
+        if: steps.mode.outputs.value != 'check' && success()
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add image_repair_report.json
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -m "edgeai: record final image verification [skip ci]"
+          git add editor_state.json image_repair_report.json
+          if git diff --cached --quiet; then
+            echo "No image verification state changes to save."
+            exit 0
+          fi
+          git commit -m "edgeai: persist image verification [skip ci]"
           for attempt in 1 2 3; do
             git pull --rebase origin main && git push && exit 0
-            echo "Verification report push attempt $attempt failed; retrying."
+            echo "Verification state push attempt $attempt failed; retrying."
             sleep $((attempt * 2))
           done
           exit 1

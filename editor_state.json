@@ -14,13 +14,13 @@
     }
   },
   "last_image_repair": {
-    "at": "2026-10-04T19:31:20Z",
+    "at": "2026-10-04T19:34:03Z",
     "failed": 0,
     "fallback_images": 0,
-    "real_source_images": 43,
-    "total": 43,
-    "updated": 43,
-    "verified": 43
+    "real_source_images": 1,
+    "total": 1,
+    "updated": 1,
+    "verified": 1
   },
   "last_quota_pause": {
     "at": "2026-10-03T04:50:58Z",
@@ -2425,9 +2425,12 @@
       }
     },
     "stability-ai-stable-audio-plugin-and-web-app-update": {
-      "image_source": "EdgeAI editorial artwork",
-      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/stability-ai-stable-audio-plugin-and-web-app-update.jpg",
+      "image_kind": "mirrored_source",
+      "image_source": "Stability AI News",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/stability-ai-stable-audio-plugin-and-web-app-update.jpg?v=607766926fbf",
+      "image_verified_in_blogger": true,
       "last_updated": "2026-10-04T19:33:59Z",
+      "last_visual_refresh": "2026-10-04T19:34:04Z",
       "post_id": "3555905635339507502",
       "post_url": "https://edgeainews.blogspot.com/2026/10/stability-ai-launches-stable-audio-daw.html",
       "score": 86,

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-04T12:34:19Z",
+    "at": "2026-10-04T17:01:44Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 7,
+    "queued": 6,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 9,
+  "runs": 10,
   "seen": {
     "0187c1ea444100fc48e8ae46": {
       "first_seen": "2026-10-03T00:46:10Z",
@@ -176,6 +176,11 @@
       "status": "queued",
       "url": "https://openai.com/index/the-den-family-social"
     },
+    "23519c33061b4d3a8332fad0": {
+      "first_seen": "2026-10-04T17:01:25Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc1"
+    },
     "2413f51d9fd0e84982a2e97f": {
       "first_seen": "2026-10-03T00:45:51Z",
       "status": "queued",
@@ -200,6 +205,11 @@
       "first_seen": "2026-10-03T00:46:20Z",
       "status": "too_old",
       "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.2.1"
+    },
+    "297411d31fdaf1eb6d49d8ca": {
+      "first_seen": "2026-10-04T17:01:25Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2"
     },
     "2a7a5d91c231c387e16c68dd": {
       "first_seen": "2026-10-03T00:46:09Z",
@@ -472,6 +482,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11364"
     },
+    "5f4ccb3f58f25105b57ac498": {
+      "first_seen": "2026-10-04T17:01:25Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11392"
+    },
     "5fa8ed454b1399f2c002042e": {
       "first_seen": "2026-10-03T00:46:13Z",
       "status": "too_old",
@@ -693,6 +708,11 @@
       "status": "too_old",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.10"
     },
+    "8aacdfb29bf9c89067eb33f4": {
+      "first_seen": "2026-10-04T17:01:25Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11393"
+    },
     "8add0cfb6a7ad18320e08467": {
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "queued",
@@ -793,6 +813,11 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21"
+    },
+    "9bd0f3ba37f1ffa053a05839": {
+      "first_seen": "2026-10-04T17:01:25Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11395"
     },
     "9cf469a02c5a0aefacdc35d7": {
       "first_seen": "2026-10-03T15:10:00Z",
@@ -1184,6 +1209,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00003"
+    },
+    "ec478c07e5258496c497ee0f": {
+      "first_seen": "2026-10-04T17:01:25Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11391"
     },
     "ed319f70c1366d49ae747db7": {
       "first_seen": "2026-10-03T00:46:09Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-03T22:02:19Z",
+    "at": "2026-10-04T00:30:39Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
     "queued": 2,
-    "sources_ok": 29,
+    "sources_ok": 31,
     "too_old": 0,
-    "warnings": 2
+    "warnings": 0
   },
-  "runs": 6,
+  "runs": 7,
   "seen": {
     "0187c1ea444100fc48e8ae46": {
       "first_seen": "2026-10-03T00:46:10Z",
@@ -376,6 +376,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1"
+    },
+    "49b5951c067cceb3477399d1": {
+      "first_seen": "2026-10-04T00:30:29Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.0"
     },
     "4a07f4cf9624cda848501f5d": {
       "first_seen": "2026-10-03T00:46:20Z",
@@ -1104,6 +1109,11 @@
       "first_seen": "2026-10-03T00:46:07Z",
       "status": "queued",
       "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.3"
+    },
+    "e57e423f7a82a7d0a38f0c39": {
+      "first_seen": "2026-10-04T00:30:29Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.3"
     },
     "e711876fcc1e0f358e5682f2": {
       "first_seen": "2026-10-03T00:45:54Z",

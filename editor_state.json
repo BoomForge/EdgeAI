@@ -21,8 +21,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-03T21:49:33Z",
-    "eligible": 177,
+    "at": "2026-10-04T00:07:49Z",
+    "eligible": 176,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
@@ -178,6 +178,11 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/"
     },
+    "2167384f51e2a4466793a69c": {
+      "at": "2026-10-04T00:07:42Z",
+      "status": "expired",
+      "url": "https://openai.com/index/the-den-family-social"
+    },
     "286a4c7e0865f7007f87bccb": {
       "at": "2026-10-03T04:46:52Z",
       "bootstrap": true,
@@ -222,6 +227,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.4"
+    },
+    "3474825c1b905eaedb65db8e": {
+      "at": "2026-10-04T00:07:42Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/thanor-ai"
     },
     "36980dfdde9ab39e7f62d1f0": {
       "at": "2026-10-03T04:52:17Z",
@@ -386,6 +396,20 @@
       "at": "2026-10-03T21:49:26Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/weftcut"
+    },
+    "5ee7f6c90aae0cecefe063e4": {
+      "at": "2026-10-04T00:07:45Z",
+      "bootstrap": true,
+      "score": 86,
+      "status": "published",
+      "story_key": "sakana-ai-percept-lens-eccv-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      },
+      "url": "https://sakana.ai/percept-lens/"
     },
     "6071f63e21f6425413eb6372": {
       "at": "2026-10-03T05:49:31Z",
@@ -678,6 +702,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/agent-activity"
     },
+    "b28db22be2dee5fac2e8c843": {
+      "at": "2026-10-04T00:07:42Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/"
+    },
     "b3ddf621cd927d255750a3ef": {
       "at": "2026-10-03T10:41:10Z",
       "bootstrap": true,
@@ -775,6 +804,20 @@
         "source": "Black Forest Labs Blog"
       },
       "url": "https://bfl.ai/licensing"
+    },
+    "cd9267d452079c2353cb8ed2": {
+      "at": "2026-10-04T00:07:49Z",
+      "bootstrap": true,
+      "score": 90,
+      "status": "published",
+      "story_key": "runway-characters-real-time-video-generation-api",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Runway Research"
+      },
+      "url": "https://runway.com/research/how-real-time-video-generation-is-changing-online-interaction"
     },
     "ce3bef4c29f308650e3c9973": {
       "at": "2026-10-03T04:47:08Z",
@@ -1632,6 +1675,27 @@
         "source": "Qwen Blog"
       }
     },
+    "runway-characters-real-time-video-generation-api": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/runway-characters-real-time-video-generation-api.jpg",
+      "last_updated": "2026-10-04T00:07:49Z",
+      "post_id": "6492315748897512081",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/runway-launches-characters-api-for-real.html",
+      "score": 90,
+      "source_image_source": "Runway Research",
+      "source_image_url": "https://d3phaj0sisr2ct.cloudfront.net/site/assets/v2_real-time-video-generation.webp",
+      "source_urls": [
+        "https://runway.com/research/how-real-time-video-generation-is-changing-online-interaction"
+      ],
+      "status": "CONFIRMED",
+      "title": "Runway Launches Characters API for Real-Time Interactive Video Generation",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Runway Research"
+      }
+    },
     "runway-gen-4-5-video-model-release": {
       "image_kind": "mirrored_source",
       "image_source": "Runway Research",
@@ -1763,6 +1827,27 @@
       ],
       "status": "CONFIRMED",
       "title": "J\u00fcrgen Schmidhuber Joins Sakana AI as Chief Scientific Advisor to Lead RSI Lab",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      }
+    },
+    "sakana-ai-percept-lens-eccv-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/sakana-ai-percept-lens-eccv-2026.jpg",
+      "last_updated": "2026-10-04T00:07:45Z",
+      "post_id": "6135286491187666727",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/sakana-ai-introduces-percept-lens-for.html",
+      "score": 86,
+      "source_image_source": "Sakana AI Blog",
+      "source_image_url": "https://sakana.ai/assets/home/sakana_ogp.png",
+      "source_urls": [
+        "https://sakana.ai/percept-lens/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Sakana AI Introduces Percept-Lens for Robust AI-Generated Image Detection",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

@@ -6,7 +6,13 @@
     "started_at": "2026-10-03T00:58:41Z",
     "target": 30
   },
-  "errors": {},
+  "errors": {
+    "a1785a44f4858e2b1ea21cf1": {
+      "at": "2026-10-04T11:21:02Z",
+      "count": 1,
+      "last_error": "503 Server Error: Service Unavailable for url: https://www.googleapis.com/blogger/v3/blogs/2342065040356029552/posts"
+    }
+  },
   "last_image_repair": {
     "at": "2026-10-03T06:07:48Z",
     "failed": 0,
@@ -21,12 +27,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-04T05:45:07Z",
-    "eligible": 177,
-    "evaluated": 3,
+    "at": "2026-10-04T11:21:06Z",
+    "eligible": 169,
+    "evaluated": 4,
     "mode": "live",
-    "new_posts": 2,
-    "publish_actions": 2,
+    "new_posts": 0,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -188,6 +194,11 @@
       "status": "expired",
       "url": "https://openai.com/index/the-den-family-social"
     },
+    "2571ca81601cbb2f20861273": {
+      "at": "2026-10-04T11:20:52Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/crowny-2"
+    },
     "286a4c7e0865f7007f87bccb": {
       "at": "2026-10-03T04:46:52Z",
       "bootstrap": true,
@@ -314,6 +325,11 @@
       "status": "expired",
       "url": "https://github.com/unslothai/unsloth/releases/tag/prebuilt-wheels-cu13"
     },
+    "404444f15a7043fbf673d5c1": {
+      "at": "2026-10-04T11:20:52Z",
+      "status": "expired",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc3"
+    },
     "41625591abfe53de1f2e0694": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -370,6 +386,11 @@
       },
       "url": "https://www.minimax.io/news/minimax-speech-28"
     },
+    "4f36a48fa9096d65b0260699": {
+      "at": "2026-10-04T11:20:52Z",
+      "status": "expired",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.2"
+    },
     "50980c4dad6b62c89ad033d8": {
       "at": "2026-10-03T04:50:12Z",
       "bootstrap": true,
@@ -410,6 +431,20 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.5"
+    },
+    "5a75b8a901e4f4a9de9bb579": {
+      "at": "2026-10-04T11:20:58Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "updated",
+      "story_key": "black-forest-labs-flux-3-action",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 93,
+        "source": "Black Forest Labs Blog"
+      },
+      "url": "https://bfl.ai/models/flux-3-action"
     },
     "5ee30d117f6cf7759e8ac7ff": {
       "at": "2026-10-03T21:49:26Z",
@@ -461,6 +496,14 @@
       "at": "2026-10-03T21:49:26Z",
       "status": "expired",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    },
+    "6406be5b671a96484836e277": {
+      "at": "2026-10-04T11:21:04Z",
+      "bootstrap": true,
+      "score": 10,
+      "status": "ignored",
+      "story_key": "black-forest-labs-brand-guidelines-update",
+      "url": "https://bfl.ai/brand"
     },
     "643740d8b1d776507524544b": {
       "at": "2026-10-03T04:50:45Z",
@@ -604,6 +647,11 @@
       },
       "url": "https://stability.ai/news-updates/stability-ai-latest-funding-backed-by-entertainment-industry-biggest-names"
     },
+    "868c02b1661261d41601212f": {
+      "at": "2026-10-04T11:20:52Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/never-boring-ai"
+    },
     "872457bb1f6a4e1ad755dbb7": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -711,6 +759,11 @@
       "status": "expired",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.0-dev.1"
     },
+    "a5c557c6cf82b734ecf0f1c7": {
+      "at": "2026-10-04T11:20:52Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/communicate"
+    },
     "a76e093a76ecb89d1ba50ac5": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -747,6 +800,19 @@
       "status": "ignored",
       "story_key": "kimi-ai-business-plans",
       "url": "https://www.kimi.com/membership/pricing?from=header_nav&tab=business"
+    },
+    "b443199b5957d8fbbf00d876": {
+      "at": "2026-10-04T11:20:52Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/moxie-2"
+    },
+    "b602f0b5117800795a759ada": {
+      "at": "2026-10-04T11:21:03Z",
+      "bootstrap": true,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "black-forest-labs-creator-program",
+      "url": "https://bfl.ai/creator-program"
     },
     "b778f0165434de015b1547ec": {
       "at": "2026-10-03T05:49:31Z",
@@ -817,6 +883,14 @@
         "source": "Sakana AI Blog"
       },
       "url": "https://sakana.ai/chat-fugumax/"
+    },
+    "c7b0200c3990590eaf3a7f26": {
+      "at": "2026-10-04T11:21:06Z",
+      "bootstrap": true,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "stability-ai-self-hosted-license-policy",
+      "url": "https://stability.ai/license"
     },
     "c84785b7885bca32a7cbe6b5": {
       "at": "2026-10-03T04:46:31Z",
@@ -985,6 +1059,11 @@
       "status": "expired",
       "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.3"
     },
+    "e48a7f736f56ad596c7cd7f9": {
+      "at": "2026-10-04T11:20:52Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/1/matthew-green/"
+    },
     "e74b0ca731164f12ce98355c": {
       "at": "2026-10-03T04:50:16Z",
       "bootstrap": true,
@@ -1130,10 +1209,10 @@
     },
     "black-forest-labs-flux-3-action": {
       "image_kind": "mirrored_source",
-      "image_source": "Black Forest Labs Blog",
+      "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/black-forest-labs-flux-3-action.jpg",
       "image_verified_in_blogger": true,
-      "last_updated": "2026-10-03T00:58:49Z",
+      "last_updated": "2026-10-04T11:20:58Z",
       "last_visual_refresh": "2026-10-03T06:07:53Z",
       "post_id": "2456334160016862958",
       "post_url": "https://edgeainews.blogspot.com/2026/10/black-forest-labs-introduces-flux-3.html",
@@ -1141,14 +1220,15 @@
       "source_image_source": "Black Forest Labs Blog",
       "source_image_url": "https://cdn.sanity.io/images/2gpum2i6/production/1f041401bdd8d65b8bd70cb808904b73a9cf9dcd-1200x630.jpg",
       "source_urls": [
-        "https://bfl.ai/blog/flux-3-action"
+        "https://bfl.ai/blog/flux-3-action",
+        "https://bfl.ai/models/flux-3-action"
       ],
       "status": "CONFIRMED",
-      "title": "Black Forest Labs Introduces FLUX 3 Action, an Open-Weights 7B World Action Model for Robotics",
+      "title": "Black Forest Labs Details FLUX 3 Action and Hybrid Reasoning Integration",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
-        "score": 96,
+        "score": 93,
         "source": "Black Forest Labs Blog"
       }
     },

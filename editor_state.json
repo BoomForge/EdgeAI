@@ -27,12 +27,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-04T19:34:01Z",
-    "eligible": 169,
+    "at": "2026-10-04T22:33:10Z",
+    "eligible": 166,
     "evaluated": 5,
     "mode": "live",
-    "new_posts": 1,
-    "publish_actions": 1,
+    "new_posts": 0,
+    "publish_actions": 0,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -177,6 +177,14 @@
       "status": "ignored",
       "story_key": "black-forest-labs-contact-page",
       "url": "https://bfl.ai/contact"
+    },
+    "1b57fa64b28fe529e32d3761": {
+      "at": "2026-10-04T22:33:09Z",
+      "bootstrap": true,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "elevenlabs-blog-listing",
+      "url": "https://elevenlabs.io/blog/category/impact"
     },
     "1b779e36ded287268031e79e": {
       "at": "2026-10-03T05:49:31Z",
@@ -587,6 +595,14 @@
       "status": "expired",
       "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
     },
+    "68f59b89b4d78cf84a0cdf21": {
+      "at": "2026-10-04T22:33:06Z",
+      "bootstrap": true,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "elevenlabs-blog-category-product-index",
+      "url": "https://elevenlabs.io/blog/category/product"
+    },
     "699595b3b94d9b754c127512": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -788,6 +804,14 @@
       "status": "expired",
       "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25"
     },
+    "a056268300c5b68e6b2cf85b": {
+      "at": "2026-10-04T22:33:07Z",
+      "bootstrap": true,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "elevenlabs-blog-feed-snapshot",
+      "url": "https://elevenlabs.io/blog/category/company"
+    },
     "a1785a44f4858e2b1ea21cf1": {
       "at": "2026-10-04T15:54:51Z",
       "bootstrap": true,
@@ -854,6 +878,14 @@
         "source": "Stability AI News"
       },
       "url": "https://stability.ai/news-updates/sharing-a-new-way-to-work-with-stable-audio"
+    },
+    "ae5cd00a09a429d2c09d4ed3": {
+      "at": "2026-10-04T22:33:05Z",
+      "bootstrap": true,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "elevenlabs-customer-stories-page",
+      "url": "https://elevenlabs.io/blog/category/customer-stories"
     },
     "af2fbd93182d5c01937faf5a": {
       "at": "2026-10-04T19:34:01Z",
@@ -943,6 +975,14 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.1"
+    },
+    "bf54f36d6ecbf3a8efe39831": {
+      "at": "2026-10-04T22:33:10Z",
+      "bootstrap": true,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "elevenlabs-v4-resources-feed",
+      "url": "https://elevenlabs.io/blog/category/resources"
     },
     "c38af6e5cae43e23a64c1d50": {
       "at": "2026-10-03T04:48:28Z",
@@ -1165,6 +1205,11 @@
         "source": "Kimi Research"
       },
       "url": "https://www.kimi.com/en/business"
+    },
+    "e01699418682ed5521b2c47a": {
+      "at": "2026-10-04T22:33:04Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/cloudflare-clef"
     },
     "e3b8761031d237fbf22ff123": {
       "at": "2026-10-03T05:49:31Z",

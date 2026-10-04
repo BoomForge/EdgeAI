@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-03T21:50:37Z",
+    "at": "2026-10-04T00:34:35Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
+    "prefiltered": 1,
     "queued": 2,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 6,
+  "runs": 7,
   "seen": {
     "0108f5a0b1758cecc286938e": {
       "first_seen": "2026-10-03T00:46:01Z",
@@ -30,6 +30,12 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/veltrix-ai"
+    },
+    "04292269ce167aa25297bbe3": {
+      "first_seen": "2026-10-04T00:34:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/reassign"
     },
     "042ccdeda93e0568fd77742b": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -188,6 +194,11 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
       "url": "https://www.kimi.com/en/products/"
+    },
+    "345f1755705d282a19e9b6b2": {
+      "first_seen": "2026-10-04T00:34:30Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
     },
     "3474825c1b905eaedb65db8e": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -388,6 +399,11 @@
       "first_seen": "2026-10-03T21:50:36Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2106497772426076504"
+    },
+    "637b19621e90d68905988d73": {
+      "first_seen": "2026-10-04T00:34:30Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/3/newsletter/"
     },
     "638f8ae09ae5152488569490": {
       "first_seen": "2026-10-03T00:46:05Z",

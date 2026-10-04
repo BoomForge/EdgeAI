@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-04T20:10:53Z",
+    "at": "2026-10-04T23:29:43Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 1,
     "queued": 0,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 11,
+  "runs": 12,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -963,6 +963,12 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
       "url": "https://www.kimi.com/en/products/kimi-browser-extension"
+    },
+    "d8ab4d76c879b4b86ad16d02": {
+      "first_seen": "2026-10-04T23:29:38Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/qarunbook"
     },
     "d8e13386974c511dd08d75a2": {
       "first_seen": "2026-10-03T00:46:04Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-04T23:29:43Z",
+    "at": "2026-10-05T02:26:16Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 1,
     "queued": 0,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 12,
+  "runs": 13,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -611,6 +611,12 @@
       "status": "queued",
       "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "837a215d9156a905b173528a": {
+      "first_seen": "2026-10-05T02:26:11Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/aperture-7"
+    },
     "868c02b1661261d41601212f": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -662,6 +668,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/gauth-ai-course"
+    },
+    "907e5fd2d802aaae6e42ca23": {
+      "first_seen": "2026-10-05T02:26:11Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/sente-2"
     },
     "97397d7fa75c50842dda10c0": {
       "first_seen": "2026-10-03T00:46:00Z",

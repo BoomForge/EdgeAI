@@ -14,13 +14,13 @@
     }
   },
   "last_image_repair": {
-    "at": "2026-10-04T22:33:12Z",
+    "at": "2026-10-05T01:11:55Z",
     "failed": 0,
     "fallback_images": 0,
-    "real_source_images": 0,
-    "total": 0,
-    "updated": 0,
-    "verified": 0
+    "real_source_images": 2,
+    "total": 2,
+    "updated": 2,
+    "verified": 2
   },
   "last_quota_pause": {
     "at": "2026-10-03T04:50:58Z",
@@ -2342,9 +2342,12 @@
       }
     },
     "sakana-ai-pc-alm-training-1000-layer-networks-without-backpropagation": {
-      "image_source": "EdgeAI editorial artwork",
-      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/sakana-ai-pc-alm-training-1000-layer-networks-without-backpropagation.jpg",
+      "image_kind": "mirrored_source",
+      "image_source": "Sakana AI Blog",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/sakana-ai-pc-alm-training-1000-layer-networks-without-backpropagation.jpg?v=79ea19d15f20",
+      "image_verified_in_blogger": true,
       "last_updated": "2026-10-05T01:11:52Z",
+      "last_visual_refresh": "2026-10-05T01:11:56Z",
       "post_id": "898368014646930277",
       "post_url": "https://edgeainews.blogspot.com/2026/10/sakana-ai-introduces-pc-alm-for.html",
       "score": 91,
@@ -2415,9 +2418,12 @@
       }
     },
     "sakana-ai-sail-scaling-in-context-imitation-learning": {
-      "image_source": "EdgeAI editorial artwork",
-      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/sakana-ai-sail-scaling-in-context-imitation-learning.jpg",
+      "image_kind": "mirrored_source",
+      "image_source": "Sakana AI Blog",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/sakana-ai-sail-scaling-in-context-imitation-learning.jpg?v=79ea19d15f20",
+      "image_verified_in_blogger": true,
       "last_updated": "2026-10-05T01:11:48Z",
+      "last_visual_refresh": "2026-10-05T01:11:57Z",
       "post_id": "2551225433506677259",
       "post_url": "https://edgeainews.blogspot.com/2026/10/sakana-ai-introduces-sail-for-reliable.html",
       "score": 88,

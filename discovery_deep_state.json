@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-05T09:33:53Z",
+    "at": "2026-10-05T18:53:53Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 9,
-    "queued": 8,
+    "prefiltered": 1,
+    "queued": 10,
     "sources_ok": 15,
     "too_old": 4,
     "warnings": 0
   },
-  "runs": 14,
+  "runs": 15,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -20,6 +20,11 @@
       "first_seen": "2026-10-03T00:46:01Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-955ba114b67aea6e882c"
+    },
+    "0206483d9c649ba8189e5e82": {
+      "first_seen": "2026-10-05T18:53:47Z",
+      "status": "queued",
+      "url": "https://truthsocial.com/@realDonaldTrump/posts/117382616783706638?utm_source=futuretools.io&utm_medium=newspage"
     },
     "023d364db8b33fc2047dcacf": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -250,6 +255,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/reviu"
     },
+    "355ec313c08f6be6410734c2": {
+      "first_seen": "2026-10-05T18:53:52Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2107138770088714678"
+    },
     "36980dfdde9ab39e7f62d1f0": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -280,6 +290,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/notchware"
     },
+    "39d9d32aec31bf39472f496d": {
+      "first_seen": "2026-10-05T18:53:47Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/pilot5-ai"
+    },
     "3b73f4822ea0b3c87593c1f4": {
       "first_seen": "2026-10-03T00:46:02Z",
       "status": "queued",
@@ -304,6 +319,12 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://stability.ai/customer-stories"
+    },
+    "40be886a39addf9acfdf238c": {
+      "first_seen": "2026-10-05T18:53:47Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/dots-ui"
     },
     "4131b6c07892f0629e8543a9": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -470,6 +491,11 @@
       "status": "queued",
       "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "60a54e9cf1c99374f99c8549": {
+      "first_seen": "2026-10-05T18:53:47Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/bentomux"
+    },
     "6138ec733e3c4420aa012e01": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -524,6 +550,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/jarviscore"
+    },
+    "69f5bd9058f87f8c2c946d7c": {
+      "first_seen": "2026-10-05T18:53:48Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/"
     },
     "6a6845b2475c467c6e3f4e57": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -659,6 +690,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/teachoo-2"
     },
+    "822060bf8d8d5bd8fc661377": {
+      "first_seen": "2026-10-05T18:53:47Z",
+      "status": "queued",
+      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "82780810aba897ba13c1a821": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -695,6 +731,11 @@
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/wikifix"
+    },
+    "877b43298145aa6e8df2db60": {
+      "first_seen": "2026-10-05T18:53:47Z",
+      "status": "queued",
+      "url": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?utm_source=futuretools.io&utm_medium=newspage"
     },
     "87e209af624212491c44f946": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -757,6 +798,16 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2106162588497186988"
+    },
+    "97b57ec0d499937bfca16e5d": {
+      "first_seen": "2026-10-05T18:53:52Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2107161699837231107"
+    },
+    "9935ba29a9a1947ed2e1da09": {
+      "first_seen": "2026-10-05T18:53:47Z",
+      "status": "queued",
+      "url": "https://support.google.com/gemini/answer/17004136?utm_source=futuretools.io&utm_medium=newspage"
     },
     "9ae5172fcb83662214274ffd": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -896,6 +947,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/agent-activity"
     },
+    "b11f8970e721dabc844fd00d": {
+      "first_seen": "2026-10-05T18:53:48Z",
+      "status": "too_old",
+      "url": "https://simonwillison.net/2026/Oct/1/pwasm/"
+    },
     "b16ce43b6230ac3b7ed6f521": {
       "first_seen": "2026-10-03T15:15:03Z",
       "status": "too_old",
@@ -931,6 +987,11 @@
       "status": "queued",
       "url": "https://bfl.ai/creator-program"
     },
+    "b81c1f0d1082bccff0364908": {
+      "first_seen": "2026-10-05T18:53:47Z",
+      "status": "queued",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "b98abef5a14e12ad68a0289b": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -956,6 +1017,11 @@
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/docsalot-2"
+    },
+    "c09be9600918381c0c7f5b02": {
+      "first_seen": "2026-10-05T18:53:48Z",
+      "status": "too_old",
+      "url": "https://simonwillison.net/2026/Sep/28/llm-anthropic/"
     },
     "c12a7f93c2ddc1871eb60d9c": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -1144,6 +1210,16 @@
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/snapset"
+    },
+    "e1d1690b462a275fe49d5bd1": {
+      "first_seen": "2026-10-05T18:53:47Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/oogwai-beacon"
+    },
+    "e2b8778ca5e92223312d656b": {
+      "first_seen": "2026-10-05T18:53:47Z",
+      "status": "queued",
+      "url": "https://openai.com/index/eu-text-provenance/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "e48a7f736f56ad596c7cd7f9": {
       "first_seen": "2026-10-03T00:46:00Z",

@@ -1836,6 +1836,76 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "69f5bd9058f87f8c2c946d7c",
+      "discovered_at": "2026-10-05T18:53:48Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-04T23:34:00+00:00",
+      "search_score": 10,
+      "source_name": "Simon Willison Everything",
+      "summary": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results: I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, but I was inspired to run the experiment again on local hardware (a DGX Spark) to explore the effect in a fully controlled environment. I pasted his image into a Codex Remote session (GPT-6 Astra) and had it run the same experiment using Qwen3.8-27B-Q4_K_M.gguf . Here's the result for a run of 30 attempts per combination with reasoning disabled: Then I ran it again with reasoning enabled. This took a lot longer per pair, so instead of running 30 samples per square I ran just one - which results in a much less visually appealing heatmap since each square is either 100% or 0%: It got the right answer in 167 out of 169 attempts, and since these were one-shot I'm confident a second run would produce different results here. Here's a version of the report that includes the reasoning traces from some of those larger calculations, which include text like this: Wait, let me redo this more carefully.\n\n4,299,366,105,622\n6,088,794,067,970\n\nLet me align them:\n4 2 9 9 3 6 6 1 0 5 6 2 2\n6 0 8 8 7 9 4 0 6 7 9 7 0\n\nAdding from right to left:\nPosition 1 (units): 2 + 0 = 2\nPosition 2 (tens): 2 + 7 = 9\nPosition 3 (hundreds): 6 + 9 = 15, write 5, carry 1 Tags: mathematics , ai , generative-ai , local-llms , llms , qwen , llm-reasoning , dgx-spark",
+      "title": "Qwen3.8 27B addition in words",
+      "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "9935ba29a9a1947ed2e1da09",
+      "discovered_at": "2026-10-05T18:53:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 10,
+      "source_name": "FutureTools AI News",
+      "summary": "Google Gemini Restricts Model Access for Free Users Starting October 2026 support.google.com \u00b7 Show TLDR",
+      "title": "Google Gemini Restricts Model Access for Free Users Starting October 2026 support.google.com \u00b7 Show TLDR",
+      "url": "https://support.google.com/gemini/answer/17004136?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "e2b8778ca5e92223312d656b",
+      "discovered_at": "2026-10-05T18:53:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 8,
+      "source_name": "FutureTools AI News",
+      "summary": "OpenAI Launches TextGrain Watermarking for EU AI Act Compliance openai.com \u00b7 Show TLDR",
+      "title": "OpenAI Launches TextGrain Watermarking for EU AI Act Compliance openai.com \u00b7 Show TLDR",
+      "url": "https://openai.com/index/eu-text-provenance/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "822060bf8d8d5bd8fc661377",
+      "discovered_at": "2026-10-05T18:53:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 8,
+      "source_name": "FutureTools AI News",
+      "summary": "Ex-OpenAI Safety Lead Quits, Warns Company's Culture Threatens AI Safety theatlantic.com Paywalled \u00b7 Show TLDR",
+      "title": "Ex-OpenAI Safety Lead Quits, Warns Company's Culture Threatens AI Safety theatlantic.com Paywalled \u00b7 Show TLDR",
+      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "b81c1f0d1082bccff0364908",
+      "discovered_at": "2026-10-05T18:53:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "OpenAI Launches Visual Ad Format in ChatGPT, Expands Measurement Tools openai.com \u00b7 Show TLDR",
+      "title": "OpenAI Launches Visual Ad Format in ChatGPT, Expands Measurement Tools openai.com \u00b7 Show TLDR",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "345f1755705d282a19e9b6b2",
       "discovered_at": "2026-10-04T00:34:30Z",
       "kind": "independent",
@@ -1847,6 +1917,34 @@
       "summary": "Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be hard limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it. Coding agents, and personal agents (coding agents wrapped in a less threatening UI), greatly reduce the friction of spinning up code that can do useful things. Sometimes those things cost money - calls to paid APIs, or hosted web applications, or systems that can bill for additional storage and compute. Nobody wants to wake up to an email sent at midnight warning about a budget limit and find that, while they slept, their rogue service had consumed several hundred (or several thousand) more dollars of usage. An argument against this is that businesses don't want their hosted applications to start throwing errors because some budget was exceeded. I expect that most businesses and individuals would prefer errors to a surprise $10,000+ bill. I think hard budget caps need to be the default. If someone wants to live dangerously they should be able to do that, but it needs to be on an opt-in basis. Have a nice, clear checkbox somewhere prominent: Remove the budget cap. My application will not be shut down if I exceed the configured budget limit, and I will be responsible for subsequent charges. The service I most want to see this from is AWS. I've heard plenty of stories from people who refuse to use AWS for personal projects out of (justified) fear that a runaway service might bankrupt them. I've also heard stories from people who didn't anticipate this and ended up seriously burned. ... and it turns out AWS finally launched spending limits a few weeks ago! From their announcement New AWS experience helps builders get started and ship faster on 16th September: When you're ready to upgrade to a paid plan, you can set a monthly spend limit for your project based on your usage patterns so that you stay within your budget. If a project's usage reaches its spend limit, your project is paused for that month. See also Create a spend limit in AWS Settings , though that page warns that \"We're currently releasing our new experience to a limited number of customers.\" Here's hoping that hits general availability for existing accounts soon. Google Cloud launched a similar feature in July, called Spend Caps, which lets you \"set a monthly financial cap on specific services within a project\". Looks like this is becoming a trend! In an ideal world, our agents could help with this. It would be great if agents started biasing towards recommending providers with hard budget caps, and warning new and inexperienced builders against deploying applications using uncapped services that might get them into trouble. Tags: amazon-web-services , ai , coding-agents",
       "title": "We're going to need default hard budget caps on pretty much everything",
       "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "97b57ec0d499937bfca16e5d",
+      "discovered_at": "2026-10-05T18:53:52Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 5, 2026",
+      "search_score": 4,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch You can use Hermes Agent for a lot more than flight booking. Here are 326 use cases from real users: hermes-agent.nousresearch.com/docs/user-stor\u2026 Oct 5, 2026 @NousResearch Solar Mini 4 from @upstageai is free on Nous Portal for the next two weeks It has 3B active parameters (35B total), 512K context, and an Artificial Analysis Intelligence Index score of 24 - above models with 10x the active parameters Oct 5, 2026 @NousResearch *Not sponsored Oct 3, 2026 @NousResearch Very surreal to see @linusgsebastian discussing his Hermes setup experience on their latest podcast (and pronouncing it correctly)! Oct 3, 2026 @NousResearch If you missed the shirt, come to NousCon to get swagged up x.com/nousresearch/s\u2026 Oct 3, 2026 @NousResearch We are sold out! Oct 2, 2026 @NousResearch shop.nousresearch.com/products/rebel\u2026 Oct 2, 2026 @NousResearch THE REBELLION SHIRT $1 with code REBEL Limited edition of 2222, 1 per customer shop.nousresearch.com/products/rebel\u2026 Oct 2, 2026 @NousResearch Hermes is for the wizards x.com/flawedimp/stat\u2026 Oct 1, 2026 @NousResearch NousCon 2026 October 30th, NYC luma.com/y0y9ngkm Sep 29, 2026",
+      "title": "@NousResearch You can use Hermes Agent for a lot more than flight booking. Here are 326 use cases from real users: hermes-agent.nousresearch.com/docs/user-stor\u2026 Oct 5, 2026",
+      "url": "https://x.com/NousResearch/status/2107161699837231107"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "355ec313c08f6be6410734c2",
+      "discovered_at": "2026-10-05T18:53:52Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 5, 2026",
+      "search_score": 4,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch You can use Hermes Agent for a lot more than flight booking. Here are 326 use cases from real users: hermes-agent.nousresearch.com/docs/user-stor\u2026 Oct 5, 2026 @NousResearch Solar Mini 4 from @upstageai is free on Nous Portal for the next two weeks It has 3B active parameters (35B total), 512K context, and an Artificial Analysis Intelligence Index score of 24 - above models with 10x the active parameters Oct 5, 2026 @NousResearch *Not sponsored Oct 3, 2026 @NousResearch Very surreal to see @linusgsebastian discussing his Hermes setup experience on their latest podcast (and pronouncing it correctly)! Oct 3, 2026 @NousResearch If you missed the shirt, come to NousCon to get swagged up x.com/nousresearch/s\u2026 Oct 3, 2026 @NousResearch We are sold out! Oct 2, 2026 @NousResearch shop.nousresearch.com/products/rebel\u2026 Oct 2, 2026 @NousResearch THE REBELLION SHIRT $1 with code REBEL Limited edition of 2222, 1 per customer shop.nousresearch.com/products/rebel\u2026 Oct 2, 2026 @NousResearch Hermes is for the wizards x.com/flawedimp/stat\u2026 Oct 1, 2026 @NousResearch NousCon 2026 October 30th, NYC luma.com/y0y9ngkm Sep 29, 2026",
+      "title": "@NousResearch Solar Mini 4 from @upstageai is free on Nous Portal for the next two weeks It has 3B active parameters (35B total), 512K context, and an Artificial Analysis Intelligence Index score of 24 - above models with 10x the active par",
+      "url": "https://x.com/NousResearch/status/2107138770088714678"
     },
     {
       "bootstrap": false,
@@ -1875,6 +1973,34 @@
       "summary": "@NousResearch *Not sponsored Oct 3, 2026 @NousResearch Very surreal to see @linusgsebastian discussing his Hermes setup experience on their latest podcast (and pronouncing it correctly)! Oct 3, 2026 @NousResearch If you missed the shirt, come to NousCon to get swagged up x.com/nousresearch/s\u2026 Oct 3, 2026 @NousResearch We are sold out! Oct 2, 2026 @NousResearch shop.nousresearch.com/products/rebel\u2026 Oct 2, 2026 @NousResearch THE REBELLION SHIRT $1 with code REBEL Limited edition of 2222, 1 per customer shop.nousresearch.com/products/rebel\u2026 Oct 2, 2026 @NousResearch Hermes is for the wizards x.com/flawedimp/stat\u2026 Oct 1, 2026 @NousResearch NousCon 2026 October 30th, NYC luma.com/y0y9ngkm Sep 29, 2026 @NousResearch Access the setting under Account Settings > Linked Accounts portal.nousresearch.com/account-settin\u2026 Sep 29, 2026 @NousResearch We've partnered with @OpenAI to bring the new Sign in with ChatGPT experience to Nous Portal. Log into Nous Portal with ChatGPT to use your plan in Hermes Agent, with full visibility and controls in ChatGPT settings. Sep 29, 2026",
       "title": "@NousResearch Very surreal to see @linusgsebastian discussing his Hermes setup experience on their latest podcast (and pronouncing it correctly)! Oct 3, 2026",
       "url": "https://x.com/NousResearch/status/2106497770236387496"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "877b43298145aa6e8df2db60",
+      "discovered_at": "2026-10-05T18:53:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "TikTok Launches AI Ad Tools, Agentic Commerce & Ad Network at Advertising Week 2026 newsroom.tiktok.com \u00b7 Show TLDR",
+      "title": "TikTok Launches AI Ad Tools, Agentic Commerce & Ad Network at Advertising Week 2026 newsroom.tiktok.com \u00b7 Show TLDR",
+      "url": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "0206483d9c649ba8189e5e82",
+      "discovered_at": "2026-10-05T18:53:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "Trump Announces \"Super Intelligence Force\" to Lead U.S. AI Coordination Efforts truthsocial.com \u00b7 Show TLDR",
+      "title": "Trump Announces \"Super Intelligence Force\" to Lead U.S. AI Coordination Efforts truthsocial.com \u00b7 Show TLDR",
+      "url": "https://truthsocial.com/@realDonaldTrump/posts/117382616783706638?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -1973,6 +2099,20 @@
       "summary": "Use any AI with Claude Code, switch accounts mid-task Discussion | Link",
       "title": "Moxie",
       "url": "https://www.producthunt.com/products/moxie-2"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "39d9d32aec31bf39472f496d",
+      "discovered_at": "2026-10-05T18:53:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-04T13:12:37-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Five AI models challenge every legal answer Discussion | Link",
+      "title": "Pilot5 Legal",
+      "url": "https://www.producthunt.com/products/pilot5-ai"
     },
     {
       "bootstrap": false,
@@ -2144,6 +2284,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-05T09:33:53Z",
+  "updated_at": "2026-10-05T18:53:53Z",
   "version": 2
 }

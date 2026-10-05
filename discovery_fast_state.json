@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "at": "2026-10-04T23:18:13Z",
+    "at": "2026-10-05T02:05:59Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
@@ -9,7 +9,7 @@
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 12,
+  "runs": 13,
   "seen": {
     "00795a5db0aa8849a50cc2d5": {
       "first_seen": "2026-10-04T23:17:50Z",
@@ -250,6 +250,11 @@
       "first_seen": "2026-10-03T00:46:13Z",
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.900-beta"
+    },
+    "3208540a5698e84949296dd6": {
+      "first_seen": "2026-10-05T02:05:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11401"
     },
     "3311a15a371be05b4ee5c0b6": {
       "first_seen": "2026-10-03T00:46:17Z",
@@ -1048,6 +1053,11 @@
       "first_seen": "2026-10-03T05:43:25Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00050"
+    },
+    "ca6fadec58b05b0576c2acf4": {
+      "first_seen": "2026-10-05T02:05:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11400"
     },
     "cb0a640f808b77e77b1219c5": {
       "first_seen": "2026-10-03T00:45:59Z",

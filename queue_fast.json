@@ -1906,6 +1906,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "ca6fadec58b05b0576c2acf4",
+      "discovered_at": "2026-10-05T02:05:36Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-05T00:06:48Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "llama: support both embd + raw tokens in batch ( #29622 ) llama: support both embd + raw tokens in batch add to test-llama-archs also check case llm_arch_supports_mixed_batch = false constant graph topology have dedicated input for mixed case rm set_tensor_backend is_embd --> type consolidate m-rope pos handling into one place nits Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52666476 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11400",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11400"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "1cf97cd9573961b03d43e8f5",
       "discovered_at": "2026-10-04T12:33:55Z",
       "kind": "local-ai",
@@ -1959,6 +1973,20 @@
       "summary": "model: support nimble decision model ( #29844 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52332773 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11364",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11364"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "3208540a5698e84949296dd6",
+      "discovered_at": "2026-10-05T02:05:36Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-05T00:39:02Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "log, server: self contained colors, split child commands from logs in router mode ( #29895 ) log, server: make router child lines carry their own colors The logger writes the color reset after the trailing newline, so the reset opens the next line. On the shared pipe of a router child it lands in front of the next state command, which the router then misses, and the line break that works around it shows up as an empty log line on every progress update. The reset now goes before the trailing newlines, so every line is self contained and the command goes back to its plain framing. The router passes its effective color setting to its children, whose output ends up in its terminal, and leaves that option out when comparing presets on reload. log: enable ANSI colors on the Windows console A Windows console renders ANSI sequences only in virtual terminal mode, which nothing turns on for the logger, so llama-server prints raw escape codes on the Windows 10 console while llama-cli, whose console code enables it, shows colors. The logger now enables virtual terminal mode on stdout and stderr when it turns colors on, and keeps colors off when a console cannot render them. Pipes and files take the sequences as is. server: separate the router child commands from its logs The child sent its state commands on the same pipe as its logs, so the router had to pick them out of the log stream by a line prefix, and any unterminated write in front of a command made the router miss it. This resolves the TODO at the spawn that called for splitting stdout and stderr. The child now keeps stdout for the commands and points everything else written to stdout at stderr, before anything is written. The router reads both pipes, handles the commands from stdout and forwards stderr as the log, and warns about any other line on the command pipe. server: address review from ngxson The single server_child is now created first in the entry point and its constructor keeps stdout for the commands, so the stream is a member of the instance instead of a static, and init() is gone. The instance is passed down to the server, while the CLI entry point creates its own. Update tools/server/server.cpp Co-authored-by: Xuan-Son Nguyen thichthat@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52670797 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11401",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11401"
     },
     {
       "bootstrap": false,
@@ -2494,6 +2522,6 @@
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-04T23:18:13Z",
+  "updated_at": "2026-10-05T02:05:59Z",
   "version": 2
 }

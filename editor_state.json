@@ -7,6 +7,11 @@
     "target": 30
   },
   "errors": {
+    "323fd1087f594a308741cd5a": {
+      "at": "2026-10-05T07:02:12Z",
+      "count": 1,
+      "last_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=25)"
+    },
     "a1785a44f4858e2b1ea21cf1": {
       "at": "2026-10-04T11:21:02Z",
       "count": 1,
@@ -27,9 +32,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-05T01:11:52Z",
-    "eligible": 161,
-    "evaluated": 4,
+    "at": "2026-10-05T07:02:23Z",
+    "eligible": 108,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -73,6 +78,11 @@
       },
       "url": "https://elevenlabs.io/blog/eleven-v4"
     },
+    "0319d22252bba2ff75bd49e0": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2609.38181"
+    },
     "042ccdeda93e0568fd77742b": {
       "at": "2026-10-03T04:48:32Z",
       "bootstrap": true,
@@ -100,6 +110,11 @@
         "source": "Runway Research"
       },
       "url": "https://runway.com/research/introducing-gwm-worlds-2"
+    },
+    "0519b8fa6d0c3743abd360f7": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2609.38256"
     },
     "058f1d37f378336cfe6debf0": {
       "at": "2026-10-04T19:33:52Z",
@@ -132,6 +147,21 @@
         "source": "Sakana AI Blog"
       },
       "url": "https://sakana.ai/frontier-intelligence-group/"
+    },
+    "0be66981e5a9848bfc3141a4": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2609.38195"
+    },
+    "0d1bedda434773699099da05": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00420"
+    },
+    "10c568717ed2507c4d9b1469": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00422"
     },
     "1165aefccbfb0d903d04ce6c": {
       "at": "2026-10-04T15:54:52Z",
@@ -170,6 +200,11 @@
       },
       "url": "https://www.minimax.io/models/text"
     },
+    "182622bf1f20238f6f2bfff7": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00047"
+    },
     "19fa17b0500ad2a7a0dbccb3": {
       "at": "2026-10-03T04:46:32Z",
       "bootstrap": true,
@@ -177,6 +212,11 @@
       "status": "ignored",
       "story_key": "black-forest-labs-contact-page",
       "url": "https://bfl.ai/contact"
+    },
+    "1a62646ffec9690f1e299bab": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00101"
     },
     "1b57fa64b28fe529e32d3761": {
       "at": "2026-10-04T22:33:09Z",
@@ -228,10 +268,20 @@
       "status": "expired",
       "url": "https://openai.com/index/the-den-family-social"
     },
+    "2413f51d9fd0e84982a2e97f": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00012"
+    },
     "2571ca81601cbb2f20861273": {
       "at": "2026-10-04T11:20:52Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/crowny-2"
+    },
+    "27a7527a54e29bd1beb4039a": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00040"
     },
     "286a4c7e0865f7007f87bccb": {
       "at": "2026-10-03T04:46:52Z",
@@ -240,6 +290,16 @@
       "status": "ignored",
       "story_key": "runway-rna-sessions-event-series",
       "url": "https://runway.com/research/rna-sessions"
+    },
+    "2d709db6f0def6fba375931e": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fcore%2Fv0.0.90"
+    },
+    "2d7f90284b95f6fe7941fe4e": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2609.38196"
     },
     "2dae4396529b7edbf3dda561": {
       "at": "2026-10-03T05:49:31Z",
@@ -367,6 +427,11 @@
       "status": "expired",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.0"
     },
+    "3c2501ede4aef0ffb4ab10c2": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00030"
+    },
     "3d9482c11cf663a63fe7f54d": {
       "at": "2026-10-05T01:11:38Z",
       "bootstrap": true,
@@ -375,10 +440,20 @@
       "story_key": "minimax-about-us-page-update",
       "url": "https://www.minimax.io/about"
     },
+    "3e83ebb43ea3be9e12e61969": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.0.90"
+    },
     "3fdfc0e4208e99b2ce1e5759": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/unslothai/unsloth/releases/tag/prebuilt-wheels-cu13"
+    },
+    "40380bfc093a8ca3ebfc1a58": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2609.38190"
     },
     "404444f15a7043fbf673d5c1": {
       "at": "2026-10-04T11:20:52Z",
@@ -435,6 +510,14 @@
       "status": "expired",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.52.0"
     },
+    "44a995e3e5a09201313731f5": {
+      "at": "2026-10-05T07:02:18Z",
+      "bootstrap": true,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "black-forest-labs-about-page",
+      "url": "https://bfl.ai/about"
+    },
     "485a72695274dcc8a5aaa6f9": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -447,6 +530,11 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-update-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-856ac3142a80b7c1453c"
+    },
+    "4b5ea087cc8a8e8ba85e3e54": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00098"
     },
     "4cbabd98657885edf602078e": {
       "at": "2026-10-03T04:50:34Z",
@@ -503,6 +591,16 @@
       },
       "url": "https://sakana.ai/fugu-max-release/"
     },
+    "56725799a0c3efe2aa537020": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00515"
+    },
+    "5729c415ffed36d683b66b4e": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00126"
+    },
     "57ed632908ae012313cd5937": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -535,6 +633,11 @@
         "source": "Black Forest Labs Blog"
       },
       "url": "https://bfl.ai/models/flux-3-action"
+    },
+    "5abb33a67f673101067becfb": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00132"
     },
     "5ee30d117f6cf7759e8ac7ff": {
       "at": "2026-10-03T21:49:26Z",
@@ -635,10 +738,20 @@
       "story_key": "elevenlabs-blog-category-product-index",
       "url": "https://elevenlabs.io/blog/category/product"
     },
+    "693e2643efdc2b6ad60ca908": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00074"
+    },
     "699595b3b94d9b754c127512": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0"
+    },
+    "699d6c6d40be9436432a4da5": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2609.38198"
     },
     "69c0e6ad413a3a11f508a1e6": {
       "at": "2026-10-03T05:49:31Z",
@@ -659,6 +772,11 @@
       },
       "url": "https://sakana.ai/sail/"
     },
+    "6be58c975f8f03a7c33c0b06": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.0.90"
+    },
     "6d2ef0c477ac4ea5a394a3d8": {
       "at": "2026-10-03T00:58:46Z",
       "bootstrap": true,
@@ -672,6 +790,11 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/qwen-image/"
+    },
+    "6e0ba84ea28447b0d66b95c4": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.902-beta"
     },
     "6ef4e425bda93bb00d8adaa9": {
       "at": "2026-10-03T05:49:31Z",
@@ -743,6 +866,11 @@
       "story_key": "runway-general-world-models-research-announcement",
       "url": "https://runway.com/research/introducing-general-world-models"
     },
+    "7b43e5d389a9f61d43575f50": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2609.38205"
+    },
     "7c578bce2bcf92bdc7cf6dde": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -767,10 +895,20 @@
       },
       "url": "https://stability.ai/news-updates/stability-ai-latest-funding-backed-by-entertainment-industry-biggest-names"
     },
+    "80b2fec4b1002d8816f9f649": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2609.38193"
+    },
     "868c02b1661261d41601212f": {
       "at": "2026-10-04T11:20:52Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/never-boring-ai"
+    },
+    "86c976194a1349e0941fe5f5": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00431"
     },
     "872457bb1f6a4e1ad755dbb7": {
       "at": "2026-10-03T05:49:31Z",
@@ -785,6 +923,11 @@
       "story_key": "openai-chatham-financial-case-study",
       "url": "https://openai.com/index/chatham-financial"
     },
+    "8add0cfb6a7ad18320e08467": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.90"
+    },
     "8b0edc8fdb04ddc5f4ef43b0": {
       "at": "2026-10-03T10:41:12Z",
       "bootstrap": true,
@@ -792,6 +935,11 @@
       "status": "ignored",
       "story_key": "kimi-business-contact-sales",
       "url": "https://www.kimi.com/membership/pricing?from=header_nav&tab=business&open=contact-sales"
+    },
+    "8cc5380fb99a93aeaaf4c1c6": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00018"
     },
     "8d28766e7ba5e0cab3974fb4": {
       "at": "2026-10-03T04:44:39Z",
@@ -806,6 +954,20 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/gspo/"
+    },
+    "8df1952dd2a9fa1c6f0d2a6c": {
+      "at": "2026-10-05T07:02:17Z",
+      "bootstrap": true,
+      "score": 95,
+      "status": "published",
+      "story_key": "qwen3-release-series-coder-tts-embedding",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 93,
+        "source": "Qwen Blog"
+      },
+      "url": "https://qwenlm.github.io/blog/page/2/"
     },
     "8ff13f57dac4cfa311c2ecd8": {
       "at": "2026-10-03T21:49:26Z",
@@ -825,6 +987,16 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+    },
+    "9211d3bdcf0f051d19d2d8d9": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00024"
+    },
+    "933cad394df844996ff7915b": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fllms%2Fv0.0.90"
     },
     "97397d7fa75c50842dda10c0": {
       "at": "2026-10-03T05:49:31Z",
@@ -850,6 +1022,40 @@
       "status": "expired",
       "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25"
     },
+    "996add26c473ba71bad49622": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00093"
+    },
+    "9b2f8ba750283adbd5d7c4a3": {
+      "at": "2026-10-05T07:02:23Z",
+      "bootstrap": true,
+      "score": 92,
+      "status": "published",
+      "story_key": "sglang-v0-5-21-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "SGLang Releases"
+      },
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21"
+    },
+    "9da6f55621f5cd4edf72d52f": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00125"
+    },
+    "9dff434834cceb7d87aac076": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00424"
+    },
+    "a0219a244e273a8e5ed720d7": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00031"
+    },
     "a056268300c5b68e6b2cf85b": {
       "at": "2026-10-04T22:33:07Z",
       "bootstrap": true,
@@ -871,6 +1077,11 @@
         "source": "Black Forest Labs Blog"
       },
       "url": "https://bfl.ai/models/flux-tools"
+    },
+    "a1e4bf9dfd259e4a8a1b912a": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00015"
     },
     "a3cf20eae0fce76e913abe7e": {
       "at": "2026-10-03T05:49:31Z",
@@ -924,6 +1135,21 @@
         "source": "Stability AI News"
       },
       "url": "https://stability.ai/news-updates/sharing-a-new-way-to-work-with-stable-audio"
+    },
+    "aa2d93de1ae70902a23c7bf5": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc4"
+    },
+    "ac41f4531fca042f6f8aec42": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.2"
+    },
+    "ad578f6050505d8ac881181b": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00017"
     },
     "ae5cd00a09a429d2c09d4ed3": {
       "at": "2026-10-04T22:33:05Z",
@@ -1004,6 +1230,11 @@
       "story_key": "openai-essay-eternal-complement",
       "url": "https://openai.com/index/the-eternal-complement"
     },
+    "b900b7f12d6f003ba0f42d94": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2609.38194"
+    },
     "b9972c54becd0c3d958a401b": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -1044,6 +1275,16 @@
       },
       "url": "https://openai.com/index/practical-guide-building-gpt-6"
     },
+    "c3e9e5c56aa9ee3582d063b8": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2609.38260"
+    },
+    "c4321ef7d75de25fc04a4646": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2609.38222"
+    },
     "c48f1ff5058b49fc9610ea09": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -1062,6 +1303,11 @@
         "source": "ElevenLabs Research"
       },
       "url": "https://elevenlabs.io/blog/introducing-music-v2"
+    },
+    "c6db10f97f0537c0086d63a2": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2609.38219"
     },
     "c6e30aab44ad97598838c4c3": {
       "at": "2026-10-03T04:52:13Z",
@@ -1140,6 +1386,11 @@
       "status": "expired",
       "url": "https://blog.google/products-and-platforms/products/education/ai-educator-series-badge-a-thon/"
     },
+    "d0768bba5dff363162e4e90b": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2609.38203"
+    },
     "d22e1a2319ccd9329b6707fd": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -1149,6 +1400,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc0"
+    },
+    "d30a8ab93b58a4a69b36ea97": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00064"
     },
     "d3b185d971abc0ead80775d6": {
       "at": "2026-10-03T05:49:31Z",
@@ -1168,6 +1424,21 @@
       "story_key": "kimi-downloads-page-refresh",
       "url": "https://www.kimi.com/en/products/download"
     },
+    "d55a4c113a242b65cda2a026": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2609.38201"
+    },
+    "d59c4716fcf993c9d04698c7": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00010"
+    },
+    "d66945ef830bb2f2ad061770": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00025"
+    },
     "d6b9f5e651b1891e950e0096": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -1186,6 +1457,11 @@
         "source": "Kimi Research"
       },
       "url": "https://www.kimi.com/en/products/kimi-browser-extension"
+    },
+    "d8658c9aaa0aa4238455b1c6": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2609.38276"
     },
     "d8e13386974c511dd08d75a2": {
       "at": "2026-10-05T01:11:44Z",
@@ -1265,6 +1541,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/cloudflare-clef"
     },
+    "e2cd6172fc1e27be742e0352": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00061"
+    },
     "e3b8761031d237fbf22ff123": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -1308,10 +1589,20 @@
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.4.0"
     },
+    "eb5388f6b69cd3b42046c2ed": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00003"
+    },
     "ed59254a0e36ad070ae8979e": {
       "at": "2026-10-04T15:54:47Z",
       "status": "expired",
       "url": "https://blog.google/products-and-platforms/products/search/coffee-tips-google-search/"
+    },
+    "edfff1af226cc0177e5e0c11": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2609.38197"
     },
     "eeae4eda09cfd9e36977a75c": {
       "at": "2026-10-03T05:49:36Z",
@@ -1359,6 +1650,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/"
+    },
+    "f6d4be82fdc69f2db07074bb": {
+      "at": "2026-10-05T07:01:46Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00006"
     },
     "f862b9446c456ef6531bec4b": {
       "at": "2026-10-03T18:39:51Z",
@@ -2133,6 +2429,27 @@
         "source": "Qwen Blog"
       }
     },
+    "qwen3-release-series-coder-tts-embedding": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/qwen3-release-series-coder-tts-embedding.png",
+      "last_updated": "2026-10-05T07:02:17Z",
+      "post_id": "6149981190970335452",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/alibaba-releases-qwen3-suite-featuring.html",
+      "score": 95,
+      "source_image_source": "EdgeAI",
+      "source_image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/edgeai-newsroom-fallback.svg",
+      "source_urls": [
+        "https://qwenlm.github.io/blog/page/2/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Alibaba Releases Qwen3 Suite Featuring Qwen3-Coder-480B and Flagship Qwen3 Language Models",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 93,
+        "source": "Qwen Blog"
+      }
+    },
     "qwen3guard-realtime-safety-token-stream": {
       "image_kind": "mirrored_source",
       "image_prepared_at": "2026-10-04T19:31:16Z",
@@ -2517,6 +2834,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 95,
         "source": "Sakana AI Blog"
+      }
+    },
+    "sglang-v0-5-21-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/sglang-v0-5-21-release.png",
+      "last_updated": "2026-10-05T07:02:23Z",
+      "post_id": "4830517144867169104",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/sglang-v0521-released-with-dynamic.html",
+      "score": 92,
+      "source_image_source": "SGLang Releases",
+      "source_image_url": "https://opengraph.githubassets.com/ca4d34415bcb1e90307cd83a851bb2484be15abfa25b04f7c0a3e748b86ffdb1/sgl-project/sglang/releases/tag/v0.5.21",
+      "source_urls": [
+        "https://github.com/sgl-project/sglang/releases/tag/v0.5.21"
+      ],
+      "status": "CONFIRMED",
+      "title": "SGLang v0.5.21 Released with Dynamic Prefill-Decode Role Switching and Rust Prefix Caching",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "SGLang Releases"
       }
     },
     "stability-ai-series-b-funding-entertainment-industry": {

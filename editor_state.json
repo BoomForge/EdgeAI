@@ -32,9 +32,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-05T15:57:08Z",
-    "eligible": 157,
-    "evaluated": 4,
+    "at": "2026-10-05T22:35:34Z",
+    "eligible": 174,
+    "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -128,6 +128,11 @@
       "status": "ignored",
       "story_key": "openai-americas-sbdc-small-business-partnership",
       "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
+    },
+    "073a7f531b0d61699fba6957": {
+      "at": "2026-10-05T22:35:25Z",
+      "status": "expired",
+      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.43"
     },
     "07805f8ccf0891a10c549358": {
       "at": "2026-10-03T05:49:31Z",
@@ -300,6 +305,20 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38196"
+    },
+    "2d8e70fb45cef7470a5baf36": {
+      "at": "2026-10-05T22:35:29Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-visual-chatgpt-ads-measurement-partnerships",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
     },
     "2dae4396529b7edbf3dda561": {
       "at": "2026-10-03T05:49:31Z",
@@ -539,6 +558,11 @@
       "status": "ignored",
       "story_key": "black-forest-labs-about-page",
       "url": "https://bfl.ai/about"
+    },
+    "4651fd8a89a23438c2bcbae7": {
+      "at": "2026-10-05T22:35:25Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11351"
     },
     "485a72695274dcc8a5aaa6f9": {
       "at": "2026-10-03T05:49:31Z",
@@ -942,6 +966,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38193"
     },
+    "86745252420db89333393bf9": {
+      "at": "2026-10-05T22:35:25Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1"
+    },
     "868c02b1661261d41601212f": {
       "at": "2026-10-04T11:20:52Z",
       "status": "expired",
@@ -1033,6 +1062,11 @@
       },
       "url": "https://qwenlm.github.io/blog/page/2/"
     },
+    "8ebdd7fd9c2ee1d12d1c5204": {
+      "at": "2026-10-05T22:35:25Z",
+      "status": "expired",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc5"
+    },
     "8ff13f57dac4cfa311c2ecd8": {
       "at": "2026-10-03T21:49:26Z",
       "status": "expired",
@@ -1061,6 +1095,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fllms%2Fv0.0.90"
+    },
+    "9668af85ed2e1acf35b791be": {
+      "at": "2026-10-05T22:35:25Z",
+      "status": "expired",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0"
     },
     "97397d7fa75c50842dda10c0": {
       "at": "2026-10-03T05:49:31Z",
@@ -1235,6 +1274,11 @@
       "status": "ignored",
       "story_key": "runway-research-publications",
       "url": "https://runway.com/research/publications"
+    },
+    "af6d4b8ab88d1786c2f02d8b": {
+      "at": "2026-10-05T22:35:25Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/devpit"
     },
     "af8a6e156fc266c29e4f7864": {
       "at": "2026-10-03T04:48:36Z",
@@ -1480,6 +1524,20 @@
       "status": "expired",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.0"
     },
+    "d2b5b29b4c815525619915dc": {
+      "at": "2026-10-05T22:35:34Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-eu-text-provenance-watermarking",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/eu-text-provenance"
+    },
     "d2d14a92fbc8343aa3aabef2": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -1568,6 +1626,11 @@
         "source": "Stability AI News"
       },
       "url": "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models"
+    },
+    "d953821332fcd27a1c6f7c6b": {
+      "at": "2026-10-05T22:35:25Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11352"
     },
     "dd052aeea45239ae007e7bd2": {
       "at": "2026-10-03T04:46:58Z",
@@ -2425,6 +2488,27 @@
         "source": "OpenAI News"
       }
     },
+    "openai-eu-text-provenance-watermarking": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openai-eu-text-provenance-watermarking.png",
+      "last_updated": "2026-10-05T22:35:34Z",
+      "post_id": "4147039476644429314",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-introduces-phased-text.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/7u8k3vMOefnc2eIwqAZlCJ/5e39aad76e07dc260070eae95d545d6f/ChatGPT_Image_5_Oct_2026__18_22_35.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/eu-text-provenance"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces Phased Text Watermarking and Detector Access to Comply with EU AI Act",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
     "openai-gpt-6-model-guide-production": {
       "image_kind": "mirrored_source",
       "image_prepared_at": "2026-10-04T19:31:16Z",
@@ -2444,6 +2528,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI Publishes Comprehensive Developer Guide for the GPT-6 Family",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-visual-chatgpt-ads-measurement-partnerships": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openai-visual-chatgpt-ads-measurement-partnerships.png",
+      "last_updated": "2026-10-05T22:35:29Z",
+      "post_id": "2200712204362375394",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-introduces-visual-ad-format-for.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/rK0Bn1sDSa03vTiJvEqEk/e693b91273247f332181de385845fa52/building-advertising-for-the-way-people-use-ai-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces Visual Ad Format for ChatGPT and Expands Measurement Tools",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

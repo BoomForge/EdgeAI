@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-05T09:14:43Z",
+    "at": "2026-10-05T18:35:30Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 52,
+    "prefiltered": 3,
+    "queued": 19,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 14,
+  "runs": 15,
   "seen": {
     "00795a5db0aa8849a50cc2d5": {
       "first_seen": "2026-10-04T23:17:50Z",
@@ -20,6 +20,12 @@
       "first_seen": "2026-10-03T00:46:10Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.101.4"
+    },
+    "02712f54e967f63bf8823941": {
+      "first_seen": "2026-10-05T18:34:46Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/education/media-teacher-gemini/"
     },
     "0319d22252bba2ff75bd49e0": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -55,6 +61,11 @@
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.43"
+    },
+    "0a87ba260f515b8c572b062a": {
+      "first_seen": "2026-10-05T18:34:46Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/teacher-voices-sweden/"
     },
     "0be66981e5a9848bfc3141a4": {
       "first_seen": "2026-10-03T00:45:51Z",
@@ -141,6 +152,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11404"
     },
+    "13fd55d558d5b52f82da5631": {
+      "first_seen": "2026-10-05T18:34:46Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/science-teacher-gemini/"
+    },
     "1441ff2ab9fdc9be50b63e1f": {
       "first_seen": "2026-10-03T00:46:21Z",
       "status": "queued",
@@ -210,6 +226,11 @@
       "first_seen": "2026-10-03T00:45:57Z",
       "status": "too_old",
       "url": "https://github.com/huggingface/diffusers/releases/tag/v0.39.0"
+    },
+    "1fc121c6836d1abed79a18a5": {
+      "first_seen": "2026-10-05T18:34:46Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/english-teacher-gemini/"
     },
     "2167384f51e2a4466793a69c": {
       "first_seen": "2026-10-03T00:45:50Z",
@@ -301,10 +322,20 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2609.38196"
     },
+    "2d8e70fb45cef7470a5baf36": {
+      "first_seen": "2026-10-05T18:34:46Z",
+      "status": "queued",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+    },
     "2dae4396529b7edbf3dda561": {
       "first_seen": "2026-10-03T00:46:13Z",
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.900-beta"
+    },
+    "30fb05944a5e18201187df4e": {
+      "first_seen": "2026-10-05T18:34:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11425"
     },
     "3208540a5698e84949296dd6": {
       "first_seen": "2026-10-05T02:05:36Z",
@@ -347,6 +378,11 @@
       "status": "too_old",
       "url": "https://github.com/huggingface/smolagents/releases/tag/v1.25.0"
     },
+    "366d9f4e5a40d0265e4812e8": {
+      "first_seen": "2026-10-05T18:34:46Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/gemini-google-colab/"
+    },
     "36b79bc33c67cccccf910ec6": {
       "first_seen": "2026-10-04T20:03:38Z",
       "status": "queued",
@@ -386,6 +422,12 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "too_old",
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.7.0"
+    },
+    "3b44381c0318cdccb4d00be7": {
+      "first_seen": "2026-10-05T18:34:46Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/education/world-teachers-day-2026/"
     },
     "3bc52993114bf83f7f7db85e": {
       "first_seen": "2026-10-05T09:14:16Z",
@@ -491,6 +533,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02320"
+    },
+    "4595b71f0d99ab690df29fae": {
+      "first_seen": "2026-10-05T18:34:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11422"
     },
     "4651fd8a89a23438c2bcbae7": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -688,6 +735,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/"
     },
+    "6ac1d30f4cbf6f9faae829cc": {
+      "first_seen": "2026-10-05T18:34:46Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/special-education-gemini/"
+    },
     "6be58c975f8f03a7c33c0b06": {
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "queued",
@@ -713,6 +765,12 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02375"
     },
+    "707c259045bccf3328739bc8": {
+      "first_seen": "2026-10-05T18:34:46Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/search/holiday-travel-trends-2026/"
+    },
     "7164afd32ab29aac53e66bac": {
       "first_seen": "2026-10-03T00:46:10Z",
       "status": "queued",
@@ -727,6 +785,11 @@
       "first_seen": "2026-10-03T00:46:21Z",
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.49.0"
+    },
+    "73af55ea587bec41cd9897f4": {
+      "first_seen": "2026-10-05T18:34:46Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/teacher-voices-gemini-creativity/"
     },
     "73f1bf4d53a57ee938fe5a85": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -783,6 +846,11 @@
       "status": "queued",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.3"
     },
+    "7ce1dacb4f2add5e1d2594f3": {
+      "first_seen": "2026-10-05T18:34:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.6.0"
+    },
     "7d41f56ee3543afc8dce0230": {
       "first_seen": "2026-10-03T05:43:25Z",
       "status": "queued",
@@ -822,6 +890,11 @@
       "first_seen": "2026-10-03T00:46:07Z",
       "status": "too_old",
       "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.0"
+    },
+    "8173ca240a6bbf48e33edcd4": {
+      "first_seen": "2026-10-05T18:34:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11429"
     },
     "836ad8a0cd9c59a8342ef10a": {
       "first_seen": "2026-10-05T09:14:16Z",
@@ -983,6 +1056,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00093"
+    },
+    "9a08319930f205b1eef726ec": {
+      "first_seen": "2026-10-05T18:34:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11430"
     },
     "9a1aee0679412528a92260cc": {
       "first_seen": "2026-10-03T00:46:19Z",
@@ -1174,6 +1252,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02260"
     },
+    "bc6c0cd8ad5e57b3edd3160a": {
+      "first_seen": "2026-10-05T18:34:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11424"
+    },
     "bde261fa52d21062f74c894b": {
       "first_seen": "2026-10-03T05:43:25Z",
       "status": "queued",
@@ -1279,6 +1362,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11398"
     },
+    "cb90e0262ee8f1103a49f83d": {
+      "first_seen": "2026-10-05T18:34:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11418"
+    },
     "cbc8926a28c802abf681f0b7": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -1289,10 +1377,20 @@
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.53.0"
     },
+    "cd0e05b27e96e3cea4ef6d9c": {
+      "first_seen": "2026-10-05T18:34:46Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/teacher-stories-gemini-middle-school/"
+    },
     "cd80297b5582a6814bb21941": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "too_old",
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.8.1"
+    },
+    "ce114c8ceafbd37630c08298": {
+      "first_seen": "2026-10-05T18:34:46Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/education-officer-gemini/"
     },
     "ce9cb2536dd43dff90f55f52": {
       "first_seen": "2026-10-03T00:46:13Z",
@@ -1334,6 +1432,11 @@
       "first_seen": "2026-10-03T00:46:16Z",
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.0"
+    },
+    "d2b5b29b4c815525619915dc": {
+      "first_seen": "2026-10-05T18:34:46Z",
+      "status": "queued",
+      "url": "https://openai.com/index/eu-text-provenance"
     },
     "d2d14a92fbc8343aa3aabef2": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -1415,6 +1518,11 @@
       "status": "queued",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.1"
     },
+    "dde8830472130d519e8ab804": {
+      "first_seen": "2026-10-05T18:34:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11417"
+    },
     "dec620cb7225d2434a9b02e6": {
       "first_seen": "2026-10-03T00:45:50Z",
       "status": "queued",
@@ -1424,6 +1532,11 @@
       "first_seen": "2026-10-03T00:45:57Z",
       "status": "too_old",
       "url": "https://github.com/huggingface/smolagents/releases/tag/v1.23.0"
+    },
+    "e19c9e6ee550c24438cc92ab": {
+      "first_seen": "2026-10-05T18:34:46Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/gemini-student-newscast/"
     },
     "e210849485e3a27ebb8b68ef": {
       "first_seen": "2026-10-05T09:14:06Z",

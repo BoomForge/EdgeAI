@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-05T02:26:16Z",
+    "at": "2026-10-05T09:33:53Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 0,
+    "prefiltered": 9,
+    "queued": 8,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 4,
     "warnings": 0
   },
-  "runs": 13,
+  "runs": 14,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -165,6 +165,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/control-my-mac"
     },
+    "1d28ebd782e70d3cc523800e": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/fastrouter-ai"
+    },
     "1e53e4b0ea0e3813fd5e7558": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -239,6 +244,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://runway.com/news/company-news/introducing-runway-ads?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "352fd1a742a2b25bda6bc124": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/reviu"
     },
     "36980dfdde9ab39e7f62d1f0": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -360,6 +370,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/flexchords"
     },
+    "4fedba8b70d9334f487a5d2a": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/opengeni"
+    },
     "5069205c8d56bd653de53693": {
       "first_seen": "2026-10-04T12:47:33Z",
       "search_score": 0,
@@ -428,6 +443,12 @@
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/clair-3"
+    },
+    "5e6e795ab4db508e57bb9a41": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/xtracticle"
     },
     "5ebf20110b0a7c4331c376bf": {
       "first_seen": "2026-10-04T17:06:51Z",
@@ -509,6 +530,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/una-mano"
     },
+    "6aea9d2a251416b544a5eece": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/dereference-the-100x-ide"
+    },
     "6b836c8ce6ffe4dcbf09ef60": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -523,6 +550,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "6e61f1f92ca4e987f5a1e305": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/spira-ai"
     },
     "7157c7d19069852befd5724a": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -544,6 +576,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/calnio"
     },
+    "76c58bbf37be931e42694651": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/speechshield"
+    },
     "775cce2b8f031ba723e503c1": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "queued",
@@ -563,6 +601,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/your-chatgpt-can-now-work-while-youre-away-10-02-2026"
+    },
+    "7ab338847ccf1227bb20b2f8": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/dailyhelm"
     },
     "7af48a3cbaa19c506e59d2e9": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -585,10 +628,20 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
     },
+    "7e525aa8a6e4a82405dbb613": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/crosswalk"
+    },
     "7e9aff605a4e7ea56674e155": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/turn-your-messy-notes-into-a-clear-road-map-09-08-2026"
+    },
+    "7f251a2320ab82b5ad20e1f3": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/cloudflare"
     },
     "8021ac8155b7aa37da2475b8": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -616,6 +669,12 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/aperture-7"
+    },
+    "8571b07198f5ded2fdce388f": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/iland"
     },
     "868c02b1661261d41601212f": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -653,6 +712,11 @@
       "status": "queued",
       "url": "https://www.kimi.com/membership/pricing?from=header_nav&tab=business&open=contact-sales"
     },
+    "8b2b75d0ef1ca4856981854a": {
+      "first_seen": "2026-10-05T09:33:49Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-9e4133004a6812b634ce"
+    },
     "8d28766e7ba5e0cab3974fb4": {
       "first_seen": "2026-10-03T00:46:02Z",
       "status": "queued",
@@ -673,6 +737,11 @@
       "first_seen": "2026-10-05T02:26:11Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/sente-2"
+    },
+    "963f327d7742bfcdecb503a6": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/invofox"
     },
     "97397d7fa75c50842dda10c0": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -706,6 +775,12 @@
       "status": "queued",
       "url": "https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "9ec8824fd5232b29da3792d9": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/marv-3"
+    },
     "9f8b3ec7b4c977a08ab2b829": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -730,6 +805,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://bfl.ai/models/flux-tools"
+    },
+    "a42770df59d96ec6c9be2d27": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/heygen"
     },
     "a453c4ad1ff40833bc74eb48": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -800,6 +880,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://runway.com/research/publications"
+    },
+    "af6d4b8ab88d1786c2f02d8b": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/devpit"
     },
     "af8a6e156fc266c29e4f7864": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -944,10 +1029,22 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
     },
+    "d3c330129f3f42fba56ac1fe": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/chain-exchange"
+    },
     "d475dd0535cf07b7b7724188": {
       "first_seen": "2026-10-03T21:50:36Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2106497770236387496"
+    },
+    "d4ad3c1e60f2313205dba64a": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/jarq"
     },
     "d5135015cb86a5ed08ea8c55": {
       "first_seen": "2026-10-03T00:46:03Z",
@@ -1037,6 +1134,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/cloudflare-clef"
     },
+    "e07b73ca95c2c1d50435fbc4": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/reactive-resume"
+    },
     "e13c3fccf40401a6444aa71d": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
@@ -1072,6 +1175,12 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
+    },
+    "ec01d0cbd7fba1364c429a3b": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/netra"
     },
     "eeae4eda09cfd9e36977a75c": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -1124,6 +1233,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/lloyal"
+    },
+    "f9009280ad2c5f81dc12ea09": {
+      "first_seen": "2026-10-05T09:33:48Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/unscary-ai"
     },
     "f9ac3a3f0e104375673c2981": {
       "first_seen": "2026-10-03T00:46:02Z",

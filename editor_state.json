@@ -27,12 +27,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-04T22:33:10Z",
-    "eligible": 166,
-    "evaluated": 5,
+    "at": "2026-10-05T01:11:52Z",
+    "eligible": 161,
+    "evaluated": 4,
     "mode": "live",
-    "new_posts": 0,
-    "publish_actions": 0,
+    "new_posts": 2,
+    "publish_actions": 2,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -278,6 +278,11 @@
       "status": "expired",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.4"
     },
+    "33f490ede507170cfb5dd99f": {
+      "at": "2026-10-05T01:11:35Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc1"
+    },
     "3474825c1b905eaedb65db8e": {
       "at": "2026-10-04T00:07:42Z",
       "status": "expired",
@@ -362,6 +367,14 @@
       "status": "expired",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.0"
     },
+    "3d9482c11cf663a63fe7f54d": {
+      "at": "2026-10-05T01:11:38Z",
+      "bootstrap": true,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "minimax-about-us-page-update",
+      "url": "https://www.minimax.io/about"
+    },
     "3fdfc0e4208e99b2ce1e5759": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -387,6 +400,11 @@
       "status": "ignored",
       "story_key": "stability-ai-customer-stories-page",
       "url": "https://stability.ai/customer-stories"
+    },
+    "41201ce1f215e4f9daf82d4e": {
+      "at": "2026-10-05T01:11:35Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2"
     },
     "41625591abfe53de1f2e0694": {
       "at": "2026-10-03T05:49:31Z",
@@ -489,6 +507,20 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.5"
+    },
+    "57f26ce032c1bf6dc8f08b24": {
+      "at": "2026-10-05T01:11:52Z",
+      "bootstrap": true,
+      "score": 91,
+      "status": "published",
+      "story_key": "sakana-ai-pc-alm-training-1000-layer-networks-without-backpropagation",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 93,
+        "source": "Sakana AI Blog"
+      },
+      "url": "https://sakana.ai/pc-alm/"
     },
     "5a75b8a901e4f4a9de9bb579": {
       "at": "2026-10-04T11:20:58Z",
@@ -612,6 +644,20 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/jarviscore"
+    },
+    "6b836c8ce6ffe4dcbf09ef60": {
+      "at": "2026-10-05T01:11:48Z",
+      "bootstrap": true,
+      "score": 88,
+      "status": "published",
+      "story_key": "sakana-ai-sail-scaling-in-context-imitation-learning",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 93,
+        "source": "Sakana AI Blog"
+      },
+      "url": "https://sakana.ai/sail/"
     },
     "6d2ef0c477ac4ea5a394a3d8": {
       "at": "2026-10-03T00:58:46Z",
@@ -1140,6 +1186,14 @@
         "source": "Kimi Research"
       },
       "url": "https://www.kimi.com/en/products/kimi-browser-extension"
+    },
+    "d8e13386974c511dd08d75a2": {
+      "at": "2026-10-05T01:11:44Z",
+      "bootstrap": true,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "minimax-investor-relations-news-page",
+      "url": "https://www.minimax.io/news"
     },
     "d8f0f010d646003cb912c3ab": {
       "at": "2026-10-03T04:44:19Z",
@@ -2287,6 +2341,27 @@
         "source": "Sakana AI Blog"
       }
     },
+    "sakana-ai-pc-alm-training-1000-layer-networks-without-backpropagation": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/sakana-ai-pc-alm-training-1000-layer-networks-without-backpropagation.jpg",
+      "last_updated": "2026-10-05T01:11:52Z",
+      "post_id": "898368014646930277",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/sakana-ai-introduces-pc-alm-for.html",
+      "score": 91,
+      "source_image_source": "Sakana AI Blog",
+      "source_image_url": "https://sakana.ai/assets/home/sakana_ogp.png",
+      "source_urls": [
+        "https://sakana.ai/pc-alm/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Sakana AI Introduces PC-ALM for Training 1,000-Layer Networks Without Backpropagation",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 93,
+        "source": "Sakana AI Blog"
+      }
+    },
     "sakana-ai-percept-lens-eccv-2026": {
       "image_kind": "mirrored_source",
       "image_prepared_at": "2026-10-04T19:31:17Z",
@@ -2336,6 +2411,27 @@
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 95,
+        "source": "Sakana AI Blog"
+      }
+    },
+    "sakana-ai-sail-scaling-in-context-imitation-learning": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/sakana-ai-sail-scaling-in-context-imitation-learning.jpg",
+      "last_updated": "2026-10-05T01:11:48Z",
+      "post_id": "2551225433506677259",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/sakana-ai-introduces-sail-for-reliable.html",
+      "score": 88,
+      "source_image_source": "Sakana AI Blog",
+      "source_image_url": "https://sakana.ai/assets/home/sakana_ogp.png",
+      "source_urls": [
+        "https://sakana.ai/sail/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Sakana AI Introduces SAIL for Reliable Robot Trajectory Generation via Test-Time Scaling",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 93,
         "source": "Sakana AI Blog"
       }
     },

@@ -32,9 +32,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-05T07:02:23Z",
-    "eligible": 108,
-    "evaluated": 3,
+    "at": "2026-10-05T15:57:08Z",
+    "eligible": 157,
+    "evaluated": 4,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -328,6 +328,14 @@
       "story_key": "sakana-ai-japan-startup-award-2026",
       "url": "https://sakana.ai/japan-startup-award-2026/"
     },
+    "323fd1087f594a308741cd5a": {
+      "at": "2026-10-05T15:56:56Z",
+      "bootstrap": true,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "kimi-products-overview-page",
+      "url": "https://www.kimi.com/en/products/"
+    },
     "338ea65b29ca83a891bd3fe8": {
       "at": "2026-10-03T21:49:26Z",
       "status": "expired",
@@ -407,6 +415,20 @@
         "source": "Runway Research"
       },
       "url": "https://runway.com/research/introducing-praxis-1"
+    },
+    "39f346da5a98b4d9b1195855": {
+      "at": "2026-10-05T15:57:03Z",
+      "bootstrap": true,
+      "score": 86,
+      "status": "published",
+      "story_key": "localai-v4-11-0-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "LocalAI Releases"
+      },
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.11.0"
     },
     "3b73f4822ea0b3c87593c1f4": {
       "at": "2026-10-03T04:44:14Z",
@@ -758,6 +780,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/jarviscore"
     },
+    "6a7bb4e3e69d69f535f566ea": {
+      "at": "2026-10-05T15:56:52Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/"
+    },
     "6b836c8ce6ffe4dcbf09ef60": {
       "at": "2026-10-05T01:11:48Z",
       "bootstrap": true,
@@ -776,6 +803,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.0.90"
+    },
+    "6c883b8091f090772dce997b": {
+      "at": "2026-10-05T15:56:52Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11347"
     },
     "6d2ef0c477ac4ea5a394a3d8": {
       "at": "2026-10-03T00:58:46Z",
@@ -858,6 +890,11 @@
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0"
     },
+    "77bb9dac7f2dc73e90b658f8": {
+      "at": "2026-10-05T15:56:52Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/bevel-software"
+    },
     "7af48a3cbaa19c506e59d2e9": {
       "at": "2026-10-03T04:46:51Z",
       "bootstrap": true,
@@ -880,6 +917,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
+    },
+    "80045661ac99ba741eea6b22": {
+      "at": "2026-10-05T15:56:52Z",
+      "status": "expired",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.1.3"
     },
     "8021ac8155b7aa37da2475b8": {
       "at": "2026-10-03T04:46:50Z",
@@ -915,6 +957,20 @@
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0"
     },
+    "87e209af624212491c44f946": {
+      "at": "2026-10-05T15:57:08Z",
+      "bootstrap": true,
+      "score": 96,
+      "status": "published",
+      "story_key": "google-gemini-4-argon",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "882596cbc7639eb42bf210ab": {
       "at": "2026-10-03T05:49:32Z",
       "bootstrap": true,
@@ -935,6 +991,14 @@
       "status": "ignored",
       "story_key": "kimi-business-contact-sales",
       "url": "https://www.kimi.com/membership/pricing?from=header_nav&tab=business&open=contact-sales"
+    },
+    "8b2b75d0ef1ca4856981854a": {
+      "at": "2026-10-05T15:56:54Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-updates-oct-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-9e4133004a6812b634ce"
     },
     "8cc5380fb99a93aeaaf4c1c6": {
       "at": "2026-10-05T07:01:46Z",
@@ -1016,6 +1080,11 @@
         "source": "Kimi Research"
       },
       "url": "https://www.kimi.com/en/products/kimi-work"
+    },
+    "9906482f0e9c75da96c7d515": {
+      "at": "2026-10-05T15:56:52Z",
+      "status": "expired",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.0-dev.2"
     },
     "994a48e90a5ee3ef1b527c90": {
       "at": "2026-10-03T05:49:31Z",
@@ -1358,6 +1427,21 @@
         "source": "Black Forest Labs Blog"
       },
       "url": "https://bfl.ai/licensing"
+    },
+    "cb0a640f808b77e77b1219c5": {
+      "at": "2026-10-05T15:56:52Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11346"
+    },
+    "cbc8926a28c802abf681f0b7": {
+      "at": "2026-10-05T15:56:52Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11349"
+    },
+    "cbd90d17f4653b8f0ba27489": {
+      "at": "2026-10-05T15:56:52Z",
+      "status": "expired",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.53.0"
     },
     "cd9267d452079c2353cb8ed2": {
       "at": "2026-10-04T00:07:49Z",
@@ -1961,6 +2045,27 @@
         "source": "ElevenLabs Research"
       }
     },
+    "google-gemini-4-argon": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/google-gemini-4-argon.jpg",
+      "last_updated": "2026-10-05T15:57:08Z",
+      "post_id": "598669368960707120",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/google-announces-gemini-4-argon-with-1.html",
+      "score": 96,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Google Announces Gemini 4 Argon with 1 Million Output Token Limit and Advanced Reasoning",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      }
+    },
     "kimi-browser-extension-launch": {
       "image_kind": "mirrored_source",
       "image_prepared_at": "2026-10-04T19:31:16Z",
@@ -2089,6 +2194,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 95,
         "source": "Kimi Research"
+      }
+    },
+    "localai-v4-11-0-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/localai-v4-11-0-release.png",
+      "last_updated": "2026-10-05T15:57:03Z",
+      "post_id": "1306999569200859143",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/localai-v4110-introduces-audio-scenes.html",
+      "score": 86,
+      "source_image_source": "LocalAI Releases",
+      "source_image_url": "https://opengraph.githubassets.com/117b972bbd1563f7ad2a147a8507562032ac26e0bf404e4e0c54eae157126e2c/mudler/LocalAI/releases/tag/v4.11.0",
+      "source_urls": [
+        "https://github.com/mudler/LocalAI/releases/tag/v4.11.0"
+      ],
+      "status": "CONFIRMED",
+      "title": "LocalAI v4.11.0 Introduces Audio Scenes, Failover Chains, and Signed OCI Galleries",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "LocalAI Releases"
       }
     },
     "minimax-h3-multimodal-generation-model": {

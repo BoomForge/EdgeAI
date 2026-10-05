@@ -72,12 +72,31 @@
       "twingly_at": "2026-10-04T22:33:15.719049+00:00",
       "twingly_detail": "Thanks for the ping."
     },
+    "https://edgeainews.blogspot.com/2026/10/sakana-ai-introduces-pc-alm-for.html": {
+      "pingomatic_at": "2026-10-05T01:11:59.481186+00:00",
+      "pingomatic_detail": "Pings being forwarded to 1 services!",
+      "services": {
+        "pingomatic": "2026-10-05T01:11:52Z",
+        "twingly": "2026-10-05T01:11:52Z"
+      },
+      "title": "Sakana AI Introduces PC-ALM for Training 1,000-Layer Networks Without Backpropagation",
+      "twingly_at": "2026-10-05T01:11:59.997232+00:00",
+      "twingly_detail": "Thanks for the ping."
+    },
     "https://edgeainews.blogspot.com/2026/10/sakana-ai-introduces-percept-lens-for.html": {
       "services": {
         "twingly": "2026-10-04T00:07:45Z"
       },
       "title": "Sakana AI Introduces Percept-Lens for Robust AI-Generated Image Detection",
       "twingly_at": "2026-10-04T22:33:15.318421+00:00",
+      "twingly_detail": "Thanks for the ping."
+    },
+    "https://edgeainews.blogspot.com/2026/10/sakana-ai-introduces-sail-for-reliable.html": {
+      "services": {
+        "twingly": "2026-10-05T01:11:48Z"
+      },
+      "title": "Sakana AI Introduces SAIL for Reliable Robot Trajectory Generation via Test-Time Scaling",
+      "twingly_at": "2026-10-05T01:12:00.193376+00:00",
       "twingly_detail": "Thanks for the ping."
     },
     "https://edgeainews.blogspot.com/2026/10/sakana-ai-releases-fugu-max-and-fugu.html": {
@@ -101,19 +120,20 @@
     }
   },
   "feed": {
-    "google-websub": "2026-10-04T19:33:59Z",
-    "google-websub_at": "2026-10-04T22:33:17.334835+00:00",
+    "google-websub": "2026-10-05T01:11:52Z",
+    "google-websub_at": "2026-10-05T01:12:02.740214+00:00",
     "google-websub_detail": "HTTP 204"
   },
   "last_run": {
     "article_updates_attempted": 12,
-    "at": "2026-10-04T22:33:18.145031+00:00",
+    "at": "2026-10-05T01:12:03.640670+00:00",
     "discovery_health": [
       "Blogger sitemap HTTP 200; 20/20 tracked article URL(s) present",
       "robots.txt HTTP 404; sitemap advertised=False",
       "Blogger Atom feed HTTP 200"
     ],
     "failures": [
+      "pingomatic failed for https://edgeainews.blogspot.com/2026/10/sakana-ai-introduces-sail-for-reliable.html: Pinging too fast. Slow down cowboy. Please ping no more than once every 5 minutes.",
       "pingomatic failed for https://edgeainews.blogspot.com/2026/10/black-forest-labs-launches-flux-tools.html: Pinging too fast. Slow down cowboy. Please ping no more than once every 5 minutes.",
       "pingomatic failed for https://edgeainews.blogspot.com/2026/10/black-forest-labs-introduces-flux-3.html: Pinging too fast. Slow down cowboy. Please ping no more than once every 5 minutes.",
       "pingomatic failed for https://edgeainews.blogspot.com/2026/10/black-forest-labs-announces-flux-3.html: Pinging too fast. Slow down cowboy. Please ping no more than once every 5 minutes.",
@@ -124,11 +144,10 @@
       "pingomatic failed for https://edgeainews.blogspot.com/2026/10/sakana-ai-highlights-royal-society.html: Pinging too fast. Slow down cowboy. Please ping no more than once every 5 minutes.",
       "pingomatic failed for https://edgeainews.blogspot.com/2026/10/elevenlabs-releases-scribe-v2-for-batch.html: Pinging too fast. Slow down cowboy. Please ping no more than once every 5 minutes.",
       "pingomatic failed for https://edgeainews.blogspot.com/2026/10/elevenlabs-releases-eleven-v3-text-to.html: Pinging too fast. Slow down cowboy. Please ping no more than once every 5 minutes.",
-      "pingomatic failed for https://edgeainews.blogspot.com/2026/10/elevenlabs-releases-music-v2-with.html: Pinging too fast. Slow down cowboy. Please ping no more than once every 5 minutes.",
       "websubhub failed for https://edgeainews.blogspot.com/feeds/posts/default: HTTP 500: Topic not found for topic URL."
     ],
-    "successful_notifications": 14,
-    "tracked_articles": 44
+    "successful_notifications": 4,
+    "tracked_articles": 46
   },
   "version": 1
 }

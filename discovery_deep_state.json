@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-05T18:53:53Z",
+    "at": "2026-10-06T00:46:27Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 10,
+    "prefiltered": 0,
+    "queued": 8,
     "sources_ok": 15,
-    "too_old": 4,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 15,
+  "runs": 16,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -144,6 +144,11 @@
       "status": "queued",
       "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-voice?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "1977358a53e0880f62ddfbc5": {
+      "first_seen": "2026-10-06T00:46:20Z",
+      "status": "queued",
+      "url": "https://www.thedeepview.com/articles/runway-ceo-sees-a-much-bigger-future-for-video-ai?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "19fa17b0500ad2a7a0dbccb3": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -174,6 +179,16 @@
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/fastrouter-ai"
+    },
+    "1da920339543b387d0b45090": {
+      "first_seen": "2026-10-06T00:46:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/siteprint"
+    },
+    "1e07eed3568eeac1c1495f37": {
+      "first_seen": "2026-10-06T00:46:26Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2107268339232116804"
     },
     "1e53e4b0ea0e3813fd5e7558": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -385,6 +400,11 @@
       "status": "queued",
       "url": "https://www.minimax.io/news/minimax-speech-28"
     },
+    "4e353c6f104ebbd1b36de073": {
+      "first_seen": "2026-10-06T00:46:26Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2107210064549343358"
+    },
     "4f78b004ba16b11412746d03": {
       "first_seen": "2026-10-04T12:47:33Z",
       "search_score": 0,
@@ -577,6 +597,11 @@
       "status": "queued",
       "url": "https://qwenlm.github.io/blog/qwen-image/"
     },
+    "6d47319d0ffdc4c1646c20ae": {
+      "first_seen": "2026-10-06T00:46:20Z",
+      "status": "queued",
+      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "6deeaa575f7a1b1ab43704bd": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -762,6 +787,11 @@
       "first_seen": "2026-10-03T00:46:02Z",
       "status": "queued",
       "url": "https://qwenlm.github.io/blog/gspo/"
+    },
+    "8dc761dbcef27687b8863a87": {
+      "first_seen": "2026-10-06T00:46:23Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-523415f21574b7a404d1"
     },
     "8df1952dd2a9fa1c6f0d2a6c": {
       "first_seen": "2026-10-03T00:46:02Z",
@@ -982,6 +1012,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/moxie-2"
     },
+    "b4f88cf2625bf543c420feee": {
+      "first_seen": "2026-10-06T00:46:20Z",
+      "status": "queued",
+      "url": "https://www.teamhuman.org/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "b602f0b5117800795a759ada": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -1090,6 +1125,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/cursor-remote-lite"
     },
+    "d30951486cef96799b23ba80": {
+      "first_seen": "2026-10-06T00:46:20Z",
+      "status": "queued",
+      "url": "https://reflection.ai/blog/introducing-beam?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "d3b185d971abc0ead80775d6": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -1100,6 +1140,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/chain-exchange"
+    },
+    "d43019accfd19e1ed1c4ed4b": {
+      "first_seen": "2026-10-06T00:46:21Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/"
     },
     "d475dd0535cf07b7b7724188": {
       "first_seen": "2026-10-03T21:50:36Z",

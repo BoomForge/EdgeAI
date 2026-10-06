@@ -1836,6 +1836,62 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "8dc761dbcef27687b8863a87",
+      "discovered_at": "2026-10-06T00:46:23Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-10-06T00:46:23Z",
+      "search_score": 34,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 05 Oct 2026 Microsoft Azure performance results now available Claude Sonnet 5.5 (Low, Default Fallback) Claude Opus 5.5 (Max, Default Fallback) Claude Opus 5.5 (Low, Default Fallback) GPT-6 Luna (Non-reasoning) GPT-6.1 Sol (Max) PrimaLabs performance results now available GLM 5.3 Flash 04 Oct 2026 OpenAI performance results now available GPT-6.1 Sol (Max) 03 Oct 2026 New language model evaluation results available Ling 3.1 Flash Intelligence Index: 41 InclusionAI performance results now available Ling 3.1 Flash 01 Oct 2026 New language model evaluation results available Grok 4.7 (Low) Intelligence Index: 42 Institute of Foundation Models performance results now available K2 Horizon 375B A23B LithosAI performance results now available GLM 5.3 Flash GLM 5.3 Flash Bitdeer AI performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) SpaceXAI performance results now available Grok 4.7 (Low) 30 Sept 2026 \ud83d\udd14 New article published Korean AI Lab Upstage releases Solar Mini 4 Korean AI Lab Upstage has released Solar Mini 4 which scores 24 on the Artificial Analysis Intelligence Index, but costs ~5x as much per task as GPT-6 Luna (max) despite similar per-token prices \ud83d\udd14 New article published Gemini 4 Argon: Google is back as one of the top three labs in intelligence achieved Google\u2019s new Gemini 4 Argon equals GPT-6 Astra on the Artificial Analysis Intelligence Index at 60% of the Cost per Task with discounted prices. Google is now back to being one of the top three labs in intelligence achieved New language model evaluation results available Solar Mini 4 Intelligence Index: 24 New language model evaluation results available Gemini 4 Argon (High) Intelligence Index: 53 Upstage performance results now available Solar Mini 4 Novita performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash Modular performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Google performance results now available Gemini 4 Argon (High) 29 Sept 2026 \ud83d\udd14 New article published AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations Our open-source tool for testing how fast agentic AI runs on laptops and workstations, with launch results for the DGX Spark, Ryzen AI Halo, MacBook Pro (M5 Pro) and RTX 5090 across four open-weights models \ud83d\udd14 New article published GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence GPT-6.1 Sol replaces GPT-6 Sol after just 7 days. It scores 1 point below GPT-6 Astra in the Intelligence Index at less than one quarter of the Cost per Task New language model evaluation results available JT-4.1 Flash 236B A21B (Reasoning) Intelligence Index: 34 New language model evaluation results available DeepSeek V4 Pro 0813 (Non-reasoning) Intelligence Index: 20 New language model evaluation results available GPT-6.1 Sol (Medium) Intelligence Index: 48 New language model evaluation results available GPT-6.1 Sol (Low) Intelligence Index: 42 New language model evaluation results available GPT-6.1 Sol (High) Intelligence Index: 50 New language model evaluation results available GPT-6.1 Sol (Xhigh) Intelligence Index: 51 New language model evaluation results available GPT-6.1 Sol (Max) Intelligence Index: 52 DeepSeek performance results now available DeepSeek V4 Pro 0813 (Non-reasoning) LithosAI performance results now available GLM-5.3 (Max) GLM-5.3 (Max) DeepInfra performance results now available MiMo-V2.6-Flash CoreWeave performance results now available DeepSeek V4.1 Flash (Non-reasoning) Modal performance results now available DeepSeek V4.1 Flash (Non-reasoning) Supernova performance results now available GLM-5.3 (Low) GLM-5.3 (Max) GLM-5.3 (Low) GLM-5.3 (Max) OpenAI performance results now available GPT-6.1 Sol (Medium) GPT-6.1 Sol (Low) GPT-6.1 Sol (High) GPT-6.1 Sol (Xhigh) GPT-6.1 Sol (Max) 28 Sept 2026 \ud83d\udd14 New article published Claude Sonnet 5.5 reaches #2 on the Artificial Analysis Intelligence Index Anthropic's new Sonnet model scores 56, just 2 points behind Opus 5.5 (max), but at the highest Output Tokens per Task we have measured New language model evaluation results available Claude Sonnet 5.5 (Low, Default Fallback) Intelligence Index: 36 New language model evaluation results available Claude Sonnet 5.5 (Medium, Default Fallback) Intelligence Index: 41 New language model evaluation results available Claude Sonnet 5.5 (High, Default Fallback) Intelligence Index: 47 New language model evaluation results available Claude Sonnet 5.5 (Xhigh, Default Fallback) Intelligence Index: 52 New language model evaluation results available Claude Sonnet 5.5 (Max, Default Fal",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-523415f21574b7a404d1"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "d43019accfd19e1ed1c4ed4b",
+      "discovered_at": "2026-10-06T00:46:21Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-05T23:56:47+00:00",
+      "search_score": 15,
+      "source_name": "Simon Willison Everything",
+      "summary": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people didn't love that closing your laptop means the work stops. The \"new\" version of Cowork runs model inference and the VM in the cloud. Each session gets its own sandbox, not sharing state with other sessions. When the VM needs something on the users' device (like a file), the desktop app is responsible for that file access tool call. [...] We think this solves a lot of problems we've heard about  (like using Cowork from a phone, keeping work running, or getting all the same power without losing battery to the VM) \u2014 Felix Rieseberg , Anthropic, see also this help page Tags: claude-cowork , anthropic , claude , generative-ai , ai , general-agents , llms",
+      "title": "Quoting Felix Rieseberg",
+      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "d30951486cef96799b23ba80",
+      "discovered_at": "2026-10-06T00:46:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 14,
+      "source_name": "FutureTools AI News",
+      "summary": "Reflection AI Launches Beam: 501B Open-Weight Model Built for Coding & Agentic Tasks reflection.ai \u00b7 Show TLDR",
+      "title": "Reflection AI Launches Beam: 501B Open-Weight Model Built for Coding & Agentic Tasks reflection.ai \u00b7 Show TLDR",
+      "url": "https://reflection.ai/blog/introducing-beam?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "1977358a53e0880f62ddfbc5",
+      "discovered_at": "2026-10-06T00:46:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 12,
+      "source_name": "FutureTools AI News",
+      "summary": "Runway CEO Unveils Praxis-1 Robot Model and AI Ad Tool at Runway Summit thedeepview.com \u00b7 Show TLDR",
+      "title": "Runway CEO Unveils Praxis-1 Robot Model and AI Ad Tool at Runway Summit thedeepview.com \u00b7 Show TLDR",
+      "url": "https://www.thedeepview.com/articles/runway-ceo-sees-a-much-bigger-future-for-video-ai?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "69f5bd9058f87f8c2c946d7c",
       "discovered_at": "2026-10-05T18:53:48Z",
       "kind": "independent",
@@ -1861,6 +1917,20 @@
       "summary": "Google Gemini Restricts Model Access for Free Users Starting October 2026 support.google.com \u00b7 Show TLDR",
       "title": "Google Gemini Restricts Model Access for Free Users Starting October 2026 support.google.com \u00b7 Show TLDR",
       "url": "https://support.google.com/gemini/answer/17004136?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "4e353c6f104ebbd1b36de073",
+      "discovered_at": "2026-10-06T00:46:26Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 6, 2026",
+      "search_score": 10,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch Evergreen x.com/sounddobad/sta\u2026 Oct 6, 2026 @NousResearch You should be able to use smarter models in your agent. You should be able to use cheaper models in your agent. You should be able to use local models in your agent. You should be able to use a different model for every job. You should be able to switch models in the middle of a conversation. You should be able to choose what data your agent has. You should be able to choose what it remembers and what it forgets. You should be able to choose what computer your agent runs on. You should be able to run it on a machine that never touches the internet. You should be able to run it while your laptop is closed. You should be able to reach it from the apps you already use. You should be able to choose how your agent thinks. You should be able to read the prompt it runs on. You should be able to see every tool it has, and turn off the ones you don't want. You should be able to teach it something once and never explain it again. You should be able to know what it did, and when, and why. You should be able to export your agent. You should be able to read the code. You should be able to change the code. Your agent should be yours. Oct 5, 2026 @NousResearch You can use Hermes Agent for a lot more than flight booking. Here are 326 use cases from real users: hermes-agent.nousresearch.com/docs/user-stor\u2026 Oct 5, 2026 @NousResearch Solar Mini 4 from @upstageai is free on Nous Portal for the next two weeks It has 3B active parameters (35B total), 512K context, and an Artificial Analysis Intelligence Index score of 24 - above models with 10x the active parameters Oct 5, 2026 @NousResearch *Not sponsored Oct 3, 2026 @NousResearch Very surreal to see @linusgsebastian discussing his Hermes setup experience on their latest podcast (and pronouncing it correctly)! Oct 3, 2026 @NousResearch If you missed the shirt, come to NousCon to get swagged up x.com/nousresearch/s\u2026 Oct 3, 2026 @NousResearch We are sold out! Oct 2, 2026 @NousResearch shop.nousresearch.com/products/rebel\u2026 Oct 2, 2026 @NousResearch THE REBELLION SHIRT $1 with code REBEL Limited edition of 2222, 1 per customer shop.nousresearch.com/products/rebel\u2026 Oct 2, 2026",
+      "title": "@NousResearch You should be able to use smarter models in your agent. You should be able to use cheaper models in your agent. You should be able to use local models in your agent. You should be able to use a different model for every job. Y",
+      "url": "https://x.com/NousResearch/status/2107210064549343358"
     },
     {
       "bootstrap": false,
@@ -1948,6 +2018,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "1e07eed3568eeac1c1495f37",
+      "discovered_at": "2026-10-06T00:46:26Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 6, 2026",
+      "search_score": 4,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch Evergreen x.com/sounddobad/sta\u2026 Oct 6, 2026 @NousResearch You should be able to use smarter models in your agent. You should be able to use cheaper models in your agent. You should be able to use local models in your agent. You should be able to use a different model for every job. You should be able to switch models in the middle of a conversation. You should be able to choose what data your agent has. You should be able to choose what it remembers and what it forgets. You should be able to choose what computer your agent runs on. You should be able to run it on a machine that never touches the internet. You should be able to run it while your laptop is closed. You should be able to reach it from the apps you already use. You should be able to choose how your agent thinks. You should be able to read the prompt it runs on. You should be able to see every tool it has, and turn off the ones you don't want. You should be able to teach it something once and never explain it again. You should be able to know what it did, and when, and why. You should be able to export your agent. You should be able to read the code. You should be able to change the code. Your agent should be yours. Oct 5, 2026 @NousResearch You can use Hermes Agent for a lot more than flight booking. Here are 326 use cases from real users: hermes-agent.nousresearch.com/docs/user-stor\u2026 Oct 5, 2026 @NousResearch Solar Mini 4 from @upstageai is free on Nous Portal for the next two weeks It has 3B active parameters (35B total), 512K context, and an Artificial Analysis Intelligence Index score of 24 - above models with 10x the active parameters Oct 5, 2026 @NousResearch *Not sponsored Oct 3, 2026 @NousResearch Very surreal to see @linusgsebastian discussing his Hermes setup experience on their latest podcast (and pronouncing it correctly)! Oct 3, 2026 @NousResearch If you missed the shirt, come to NousCon to get swagged up x.com/nousresearch/s\u2026 Oct 3, 2026 @NousResearch We are sold out! Oct 2, 2026 @NousResearch shop.nousresearch.com/products/rebel\u2026 Oct 2, 2026 @NousResearch THE REBELLION SHIRT $1 with code REBEL Limited edition of 2222, 1 per customer shop.nousresearch.com/products/rebel\u2026 Oct 2, 2026",
+      "title": "@NousResearch Evergreen x.com/sounddobad/sta\u2026 Oct 6, 2026",
+      "url": "https://x.com/NousResearch/status/2107268339232116804"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "637b19621e90d68905988d73",
       "discovered_at": "2026-10-04T00:34:30Z",
       "kind": "independent",
@@ -2004,6 +2088,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "b4f88cf2625bf543c420feee",
+      "discovered_at": "2026-10-06T00:46:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "Team Human Campaign Urges Global AI Slowdown, Backed by Creators with 300M+ Subscribers teamhuman.org \u00b7 Show TLDR",
+      "title": "Team Human Campaign Urges Global AI Slowdown, Backed by Creators with 300M+ Subscribers teamhuman.org \u00b7 Show TLDR",
+      "url": "https://www.teamhuman.org/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "619069d4546663731f73800d",
       "discovered_at": "2026-10-03T21:50:36Z",
       "kind": "primary-signal",
@@ -2029,6 +2127,20 @@
       "summary": "Museum: Rex's Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur. The density of dinosaur puns is exceptional . Tags: art , new-york",
       "title": "Rex's Dino Store",
       "url": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "6d47319d0ffdc4c1646c20ae",
+      "discovered_at": "2026-10-06T00:46:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 0,
+      "source_name": "FutureTools AI News",
+      "summary": "NVIDIA DGX Spark 64GB Launches at $4,999 With Clustering Support via Sync Assistant blogs.nvidia.com \u00b7 Show TLDR",
+      "title": "NVIDIA DGX Spark 64GB Launches at $4,999 With Clustering Support via Sync Assistant blogs.nvidia.com \u00b7 Show TLDR",
+      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2284,6 +2396,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-05T18:53:53Z",
+  "updated_at": "2026-10-06T00:46:27Z",
   "version": 2
 }

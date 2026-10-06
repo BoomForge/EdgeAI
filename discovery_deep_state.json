@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-06T00:46:27Z",
+    "at": "2026-10-06T06:55:32Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 8,
+    "queued": 1,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 16,
+  "runs": 17,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -1349,6 +1349,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/"
+    },
+    "f8337d5201ca41f6b38e2a43": {
+      "first_seen": "2026-10-06T06:55:27Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-007bd9bb03e9f53f1bb7"
     },
     "f862b9446c456ef6531bec4b": {
       "first_seen": "2026-10-03T00:46:00Z",

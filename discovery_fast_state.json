@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-06T13:37:02Z",
+    "at": "2026-10-06T19:04:03Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 6,
+    "prefiltered": 2,
+    "queued": 20,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 18,
+  "runs": 19,
   "seen": {
     "00795a5db0aa8849a50cc2d5": {
       "first_seen": "2026-10-04T23:17:50Z",
@@ -81,6 +81,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00420"
+    },
+    "0da7e7a18109eccfb75730db": {
+      "first_seen": "2026-10-06T19:03:40Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6"
     },
     "0e656cd0c22ece8396e37727": {
       "first_seen": "2026-10-06T06:32:50Z",
@@ -186,6 +191,12 @@
       "first_seen": "2026-10-03T00:45:51Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00047"
+    },
+    "186442aeaf00c1e5da43b051": {
+      "first_seen": "2026-10-06T19:03:32Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-music-production-plugins-google-flow/"
     },
     "18df95afed64f684c7833630": {
       "first_seen": "2026-10-03T00:46:19Z",
@@ -293,10 +304,20 @@
       "status": "too_old",
       "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.2.1"
     },
+    "2896758265cec81d95898858": {
+      "first_seen": "2026-10-06T19:03:32Z",
+      "status": "queued",
+      "url": "https://openai.com/index/atlassian-partnership"
+    },
     "297411d31fdaf1eb6d49d8ca": {
       "first_seen": "2026-10-04T17:01:25Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2"
+    },
+    "2a12f28d7d122abde1663483": {
+      "first_seen": "2026-10-06T19:03:40Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11447"
     },
     "2a7a5d91c231c387e16c68dd": {
       "first_seen": "2026-10-03T00:46:09Z",
@@ -348,10 +369,21 @@
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.900-beta"
     },
+    "30a028d33d452e4f44f01fa3": {
+      "first_seen": "2026-10-06T19:03:40Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0"
+    },
     "30fb05944a5e18201187df4e": {
       "first_seen": "2026-10-05T18:34:59Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11425"
+    },
+    "317a166e36b7b086709c5382": {
+      "first_seen": "2026-10-06T19:03:32Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/frieze-london-2026/"
     },
     "3208540a5698e84949296dd6": {
       "first_seen": "2026-10-05T02:05:36Z",
@@ -475,6 +507,11 @@
       "status": "too_old",
       "url": "https://github.com/huggingface/diffusers/releases/tag/v0.40.0"
     },
+    "3c4be800d539ba9f01847a25": {
+      "first_seen": "2026-10-06T19:03:40Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11445"
+    },
     "3c7ad66c425f89b091210eaf": {
       "first_seen": "2026-10-04T12:33:55Z",
       "status": "queued",
@@ -575,6 +612,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11351"
     },
+    "46f3e966aa672de480e3d065": {
+      "first_seen": "2026-10-06T19:03:40Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11450"
+    },
     "4732ebc0389ac93a123e97e6": {
       "first_seen": "2026-10-03T00:46:20Z",
       "status": "too_old",
@@ -635,6 +677,11 @@
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/clai2-bleeding"
     },
+    "57154d8c4d629bfd9a98e634": {
+      "first_seen": "2026-10-06T19:03:40Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11446"
+    },
     "5729c415ffed36d683b66b4e": {
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
@@ -644,6 +691,11 @@
       "first_seen": "2026-10-03T00:46:16Z",
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.5"
+    },
+    "596e4c670db88f61b964087d": {
+      "first_seen": "2026-10-06T19:03:40Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11448"
     },
     "5a9041d41ad0b95106e213b7": {
       "first_seen": "2026-10-03T00:46:03Z",
@@ -715,6 +767,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/alliance-americas-skilled-trades-expands/"
+    },
+    "64a6575063ff0fdc5b1be00b": {
+      "first_seen": "2026-10-06T19:03:32Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-earth-ai/"
     },
     "650a470be89f50277ccfc9b9": {
       "first_seen": "2026-10-03T05:43:34Z",
@@ -836,6 +893,11 @@
       "first_seen": "2026-10-03T00:45:54Z",
       "status": "too_old",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.0"
+    },
+    "77c569ee3623683d5b804985": {
+      "first_seen": "2026-10-06T19:03:40Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11449"
     },
     "7804f7383a7f978cf160f191": {
       "first_seen": "2026-10-03T00:45:57Z",
@@ -1017,6 +1079,16 @@
       "status": "too_old",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.18"
     },
+    "8e876546a1c509c7132cf16b": {
+      "first_seen": "2026-10-06T19:03:39Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.1"
+    },
+    "8eaa8bd3569d741177a89da0": {
+      "first_seen": "2026-10-06T19:03:32Z",
+      "status": "queued",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/gemini-startup-forum-2026/"
+    },
     "8ebdd7fd9c2ee1d12d1c5204": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -1148,6 +1220,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5"
     },
+    "9f94445088fd7296d301f6fc": {
+      "first_seen": "2026-10-06T19:03:40Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/backup%2Fallozaur-ui-shell-polish"
+    },
     "9fa1ba6abdd740090f2d0723": {
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "too_old",
@@ -1197,6 +1274,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc4"
+    },
+    "aaca4ea26d928402aed6d16a": {
+      "first_seen": "2026-10-06T19:03:40Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/backup%2Fallozaur-ui-models-manager"
     },
     "aadf3e6bac93c6aa4bc485ee": {
       "first_seen": "2026-10-03T00:46:09Z",
@@ -1337,6 +1419,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02224"
+    },
+    "beb274ef00cc9345c9b0dbac": {
+      "first_seen": "2026-10-06T19:03:35Z",
+      "status": "queued",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.19.0"
     },
     "bf1a189b85c837584069025f": {
       "first_seen": "2026-10-03T00:46:10Z",
@@ -1499,6 +1586,11 @@
       "status": "too_old",
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.9.0"
     },
+    "d0c284cb68a2d3c188841f03": {
+      "first_seen": "2026-10-06T19:03:42Z",
+      "status": "queued",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.1rc0"
+    },
     "d22e1a2319ccd9329b6707fd": {
       "first_seen": "2026-10-03T00:46:16Z",
       "status": "queued",
@@ -1523,6 +1615,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11355"
+    },
+    "d3ac10456bc3cc2a9a88c8fc": {
+      "first_seen": "2026-10-06T19:03:56Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.903-beta"
     },
     "d419e01c6d985788362d145e": {
       "first_seen": "2026-10-05T09:14:07Z",
@@ -1629,6 +1726,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.3"
     },
+    "e6e1d2a9f0a4e91a5d1f2129": {
+      "first_seen": "2026-10-06T19:03:32Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
+    },
     "e70e0e1fb7c76219bb92a54d": {
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
@@ -1734,6 +1836,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11396"
     },
+    "f57eff9c23a4454b476bbb26": {
+      "first_seen": "2026-10-06T19:03:32Z",
+      "status": "queued",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad"
+    },
     "f58072678026aa6843de5877": {
       "first_seen": "2026-10-03T05:43:25Z",
       "status": "queued",
@@ -1768,6 +1875,11 @@
       "first_seen": "2026-10-03T15:10:00Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11376"
+    },
+    "f9e50d04dc76de5ab84338e3": {
+      "first_seen": "2026-10-06T19:03:59Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.7"
     },
     "fa45708d3db66482b785a49c": {
       "first_seen": "2026-10-03T00:45:59Z",

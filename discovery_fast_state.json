@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-06T00:19:43Z",
+    "at": "2026-10-06T06:33:16Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 2,
+    "queued": 6,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 16,
+  "runs": 17,
   "seen": {
     "00795a5db0aa8849a50cc2d5": {
       "first_seen": "2026-10-04T23:17:50Z",
@@ -81,6 +81,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00420"
+    },
+    "0e656cd0c22ece8396e37727": {
+      "first_seen": "2026-10-06T06:32:50Z",
+      "status": "queued",
+      "url": "https://github.com/huggingface/diffusers/releases/tag/v0.41.0"
     },
     "0ec64ac228dd9330f06ff5cc": {
       "first_seen": "2026-10-03T15:10:00Z",
@@ -347,6 +352,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11401"
     },
+    "324c195f44298cdc63284945": {
+      "first_seen": "2026-10-06T06:32:53Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11435"
+    },
     "3311a15a371be05b4ee5c0b6": {
       "first_seen": "2026-10-03T00:46:17Z",
       "status": "too_old",
@@ -509,6 +519,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2"
     },
+    "4208238e3f5770afe84e1484": {
+      "first_seen": "2026-10-06T06:32:53Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11434"
+    },
     "4244b75a9e431210953db3d0": {
       "first_seen": "2026-10-03T00:46:13Z",
       "status": "too_old",
@@ -603,6 +618,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00515"
+    },
+    "5711a6d6ed38b7fea16849ca": {
+      "first_seen": "2026-10-06T06:33:16Z",
+      "status": "queued",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/clai2-bleeding"
     },
     "5729c415ffed36d683b66b4e": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -1107,6 +1127,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00424"
     },
+    "9edf7f9e06fbe155638975ed": {
+      "first_seen": "2026-10-06T06:32:54Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5"
+    },
     "9fa1ba6abdd740090f2d0723": {
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "too_old",
@@ -1121,6 +1146,11 @@
       "first_seen": "2026-10-03T00:45:51Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00015"
+    },
+    "a1fde7c4151f3c90d3a7d4fc": {
+      "first_seen": "2026-10-06T06:32:54Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc4"
     },
     "a3cf20eae0fce76e913abe7e": {
       "first_seen": "2026-10-03T00:45:58Z",

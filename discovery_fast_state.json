@@ -1,16 +1,21 @@
 {
   "last_run": {
-    "at": "2026-10-06T19:04:03Z",
+    "at": "2026-10-06T23:07:23Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 20,
+    "prefiltered": 0,
+    "queued": 8,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 19,
+  "runs": 20,
   "seen": {
+    "00427e47df5ef3064509e152": {
+      "first_seen": "2026-10-06T23:06:44Z",
+      "status": "queued",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics"
+    },
     "00795a5db0aa8849a50cc2d5": {
       "first_seen": "2026-10-04T23:17:50Z",
       "status": "queued",
@@ -1215,6 +1220,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00424"
     },
+    "9e6d9d48a65776be86374aa9": {
+      "first_seen": "2026-10-06T23:06:53Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11453"
+    },
     "9edf7f9e06fbe155638975ed": {
       "first_seen": "2026-10-06T06:32:54Z",
       "status": "queued",
@@ -1239,6 +1249,11 @@
       "first_seen": "2026-10-03T00:45:51Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00015"
+    },
+    "a1e53497dd815283c3d2e912": {
+      "first_seen": "2026-10-06T23:06:53Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11455"
     },
     "a1fde7c4151f3c90d3a7d4fc": {
       "first_seen": "2026-10-06T06:32:54Z",
@@ -1334,6 +1349,11 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "too_old",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.19"
+    },
+    "b28cac5d3529e5b13badec16": {
+      "first_seen": "2026-10-06T23:06:44Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blind-sweep-ultrasounds-ai/"
     },
     "b2dc5166b6e43a0c38ba4d0b": {
       "first_seen": "2026-10-03T00:46:03Z",
@@ -1474,6 +1494,11 @@
       "first_seen": "2026-10-03T00:46:19Z",
       "status": "too_old",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.22"
+    },
+    "c5439d652b927923e3948c7b": {
+      "first_seen": "2026-10-06T23:06:53Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11458"
     },
     "c5b8d2caed83000227016538": {
       "first_seen": "2026-10-05T09:14:07Z",
@@ -1741,10 +1766,20 @@
       "status": "too_old",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.1"
     },
+    "e81229deb96429c505f099e3": {
+      "first_seen": "2026-10-06T23:06:53Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11456"
+    },
     "e846ecb8be949803e6d3120c": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "too_old",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.15.post1"
+    },
+    "e98c5a8376b2281ced83f67c": {
+      "first_seen": "2026-10-06T23:06:53Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11454"
     },
     "e9ede36adeaed46d0feaf80e": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -1855,6 +1890,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02298"
+    },
+    "f634936341d7f4215d39e71d": {
+      "first_seen": "2026-10-06T23:06:53Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11457"
     },
     "f6d4be82fdc69f2db07074bb": {
       "first_seen": "2026-10-03T00:45:52Z",

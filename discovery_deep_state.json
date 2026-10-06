@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-06T14:08:58Z",
+    "at": "2026-10-06T19:44:16Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 8,
+    "prefiltered": 5,
+    "queued": 13,
     "sources_ok": 15,
-    "too_old": 10,
+    "too_old": 3,
     "warnings": 0
   },
-  "runs": 18,
+  "runs": 19,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -145,6 +145,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/kishi-notch"
     },
+    "16278565d50915517bc1148d": {
+      "first_seen": "2026-10-06T19:44:11Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/"
+    },
     "179afd0ee553a08b8bacfe99": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -246,6 +251,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/crowny-2"
     },
+    "271a8d37f09e7fec2947e57b": {
+      "first_seen": "2026-10-06T19:44:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/ari-helper"
+    },
     "286a4c7e0865f7007f87bccb": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -275,6 +285,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://sakana.ai/japan-startup-award-2026/"
+    },
+    "302a4349ad418db417f5f390": {
+      "first_seen": "2026-10-06T19:44:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/noteworthy"
     },
     "315ca018630361ad01a8cc39": {
       "first_seen": "2026-10-06T14:08:51Z",
@@ -311,6 +326,17 @@
       "first_seen": "2026-10-05T18:53:52Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107138770088714678"
+    },
+    "36300441d954306806343b79": {
+      "first_seen": "2026-10-06T19:44:10Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-earth-ai/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "364b6090dc9e1554f590034c": {
+      "first_seen": "2026-10-06T19:44:10Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/willow-voice"
     },
     "36980dfdde9ab39e7f62d1f0": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -357,6 +383,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2106175254771253491"
     },
+    "3c17197e98c3e6b86354f808": {
+      "first_seen": "2026-10-06T19:44:10Z",
+      "status": "queued",
+      "url": "https://mistral.ai/news/mistral-large-4/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "3d9482c11cf663a63fe7f54d": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -371,6 +402,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://stability.ai/board-of-directors"
+    },
+    "40554e21f87e8f4beef1396f": {
+      "first_seen": "2026-10-06T19:44:11Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/"
     },
     "40b751b710ffdfe179ad0616": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -495,6 +531,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/bambu-lab-r1"
     },
+    "548cbd263e1bab205b5fdb54": {
+      "first_seen": "2026-10-06T19:44:10Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "54a565e70d5b43977dcb25ad": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
@@ -592,6 +633,11 @@
       "first_seen": "2026-10-03T21:50:36Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2106497772426076504"
+    },
+    "6218e0219f6856f2edb6a893": {
+      "first_seen": "2026-10-06T19:44:11Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/"
     },
     "625404ae9894067d0d54ba47": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -715,10 +761,21 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/miso-com"
     },
+    "788c0a497542431958d6f48b": {
+      "first_seen": "2026-10-06T19:44:12Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-eb975ed2c7e8867d6111"
+    },
     "790a0d8121f5c08ed89e857d": {
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/scumble"
+    },
+    "795a17b1b19233adebcdd861": {
+      "first_seen": "2026-10-06T19:44:10Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/floani"
     },
     "79d053956eaf89a72dae90a8": {
       "first_seen": "2026-10-06T14:08:51Z",
@@ -813,6 +870,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/aperture-7"
     },
+    "839d6d597ccc5e11a4c36a32": {
+      "first_seen": "2026-10-06T19:44:10Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/patchcord-2"
+    },
     "8571b07198f5ded2fdce388f": {
       "first_seen": "2026-10-05T09:33:48Z",
       "search_score": 0,
@@ -890,6 +953,11 @@
       "first_seen": "2026-10-05T02:26:11Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/sente-2"
+    },
+    "910569db0fc26421f7c032ca": {
+      "first_seen": "2026-10-06T19:44:10Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/iphone-use"
     },
     "963f327d7742bfcdecb503a6": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -1018,6 +1086,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/sapien-4"
     },
+    "ace0757bf0866418bb537624": {
+      "first_seen": "2026-10-06T19:44:10Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/customer-service-ai-for-etsy"
+    },
     "adcefa2b9159833fd4bbe58b": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "too_old",
@@ -1058,6 +1131,11 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/agent-activity"
+    },
+    "b0fae2704c3212d2288d6145": {
+      "first_seen": "2026-10-06T19:44:10Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "b11f8970e721dabc844fd00d": {
       "first_seen": "2026-10-05T18:53:48Z",
@@ -1110,6 +1188,11 @@
       "status": "queued",
       "url": "https://bfl.ai/creator-program"
     },
+    "b800392f061efc350c642d5c": {
+      "first_seen": "2026-10-06T19:44:15Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2107493074662281326"
+    },
     "b81c1f0d1082bccff0364908": {
       "first_seen": "2026-10-05T18:53:47Z",
       "status": "queued",
@@ -1125,6 +1208,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/bmux"
+    },
+    "b9fe30e9e4719b47f0a07a5d": {
+      "first_seen": "2026-10-06T19:44:10Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/the-sentient-world"
     },
     "baa74e9a2b5edff0a19caec4": {
       "first_seen": "2026-10-06T14:08:51Z",
@@ -1307,6 +1396,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/jogak"
     },
+    "db8ebfc77c69dd24459ca5f9": {
+      "first_seen": "2026-10-06T19:44:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/coddy"
+    },
     "dc61cd9c23bdd4b5c1607fd2": {
       "first_seen": "2026-10-03T05:50:29Z",
       "search_score": 0,
@@ -1348,6 +1442,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/reactive-resume"
+    },
+    "e09d2bada225487953eb13ef": {
+      "first_seen": "2026-10-06T19:44:10Z",
+      "status": "queued",
+      "url": "https://openai.com/index/atlassian-partnership/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "e13c3fccf40401a6444aa71d": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -1401,6 +1500,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/netra"
     },
+    "ed82d4f7bef7b92794d268a2": {
+      "first_seen": "2026-10-06T19:44:10Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/chunk-2"
+    },
     "eeae4eda09cfd9e36977a75c": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -1452,6 +1557,11 @@
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/geckit"
+    },
+    "f4dc19249c65501d190c52a2": {
+      "first_seen": "2026-10-06T19:44:10Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/gemini-finally-added-the-feature-claude-users-love-10-06-2026"
     },
     "f5edbd3b23d95b4ae1e66c01": {
       "first_seen": "2026-10-03T00:46:00Z",

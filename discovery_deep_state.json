@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-06T06:55:32Z",
+    "at": "2026-10-06T14:08:58Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 1,
+    "prefiltered": 3,
+    "queued": 8,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 10,
     "warnings": 0
   },
-  "runs": 17,
+  "runs": 18,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -77,6 +77,11 @@
       "status": "queued",
       "url": "https://www.shopify.com/news/introducing-canvas?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "08a8a56c28f5ab2d5b66cde6": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/ghostifier"
+    },
     "0a28c215b5c05aea6d5cda4b": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -134,10 +139,21 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/anthroposcaper"
     },
+    "127ad52c186b3e2b46155617": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/kishi-notch"
+    },
     "179afd0ee553a08b8bacfe99": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://www.minimax.io/models/text"
+    },
+    "17b3a1387e096e90ad4a27d9": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/extrovert"
     },
     "1884408dbd46fcfc5ba0e396": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -170,6 +186,11 @@
       "status": "queued",
       "url": "https://www.kimi.com/code"
     },
+    "1bce75677ddfec1251f5a445": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/fuseai"
+    },
     "1cae9baa075bdbaec4e8055a": {
       "first_seen": "2026-10-04T20:10:47Z",
       "status": "too_old",
@@ -190,10 +211,20 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107268339232116804"
     },
+    "1e4837e1cf2b547a42969edf": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/openbot-3"
+    },
     "1e53e4b0ea0e3813fd5e7558": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/cue-by-manus"
+    },
+    "1f8aa38b5a09e4ba93ef6102": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/incredible"
     },
     "1f99edf99303e9898f56c517": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -244,6 +275,12 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://sakana.ai/japan-startup-award-2026/"
+    },
+    "315ca018630361ad01a8cc39": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/appto"
     },
     "323fd1087f594a308741cd5a": {
       "first_seen": "2026-10-03T00:46:03Z",
@@ -325,6 +362,11 @@
       "status": "queued",
       "url": "https://www.minimax.io/about"
     },
+    "3e3599b79dca37e220662e17": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/cosmic"
+    },
     "4048c279d9cd7af57e2f645a": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -405,6 +447,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107210064549343358"
     },
+    "4ef7993f11bdb747fdda7690": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/banger-mail"
+    },
     "4f78b004ba16b11412746d03": {
       "first_seen": "2026-10-04T12:47:33Z",
       "search_score": 0,
@@ -436,6 +483,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://sakana.ai/fugu-max-release/"
+    },
+    "50e4cfae149cc737bbf68030": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/brnch"
     },
     "547de62c683a3d7ee5a6ead4": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -480,6 +532,11 @@
       "status": "queued",
       "url": "https://bfl.ai/models/flux-3-action"
     },
+    "5b330f81c26806ba1f111a52": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/mcpgawk"
+    },
     "5b8ee58e3c5f60e84d27c235": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
@@ -505,6 +562,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://sakana.ai/percept-lens/"
+    },
+    "5f19b672939574e1454c4994": {
+      "first_seen": "2026-10-06T14:08:54Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-6d25e977ed7a7140f88e"
     },
     "603d4f0592f632a4812d62a6": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -653,6 +715,16 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/miso-com"
     },
+    "790a0d8121f5c08ed89e857d": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/scumble"
+    },
+    "79d053956eaf89a72dae90a8": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/aster-by-asterwise"
+    },
     "79ebb80118396ffd689ca34b": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -667,6 +739,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://runway.com/research/introducing-general-world-models"
+    },
+    "7bbb1a192048392f44f5de7d": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/chargebee"
     },
     "7cfa53bfb68a578c85d85929": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -698,6 +775,11 @@
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/cloudflare"
+    },
+    "7fad564510a83e8eaffeb8a1": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/rill-3"
     },
     "8021ac8155b7aa37da2475b8": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -1002,6 +1084,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/"
     },
+    "b299a6b9b361a48127c1d32d": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/staycharted"
+    },
     "b3ddf621cd927d255750a3ef": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
@@ -1037,6 +1125,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/bmux"
+    },
+    "baa74e9a2b5edff0a19caec4": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/doco-4"
     },
     "bdccd1b2e1deb4b775d390e6": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -1104,6 +1197,11 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/scmd"
+    },
+    "cbf23fe5de23bfdacc341f27": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/ruos"
     },
     "ccb2d72ef3f1b4f15339ed3c": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -1335,6 +1433,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/bawkterm-an-open-source-ssh-sftp-client"
     },
+    "f230893cf53ac02df16742a3": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/easycut-2"
+    },
     "f2623f517e94709c38bd2067": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "queued",
@@ -1344,6 +1447,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://sakana.ai/schmidhuber/"
+    },
+    "f4c6a59dfdaf87404887c1d4": {
+      "first_seen": "2026-10-06T14:08:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/geckit"
     },
     "f5edbd3b23d95b4ae1e66c01": {
       "first_seen": "2026-10-03T00:46:00Z",

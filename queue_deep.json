@@ -1808,6 +1808,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "5f19b672939574e1454c4994",
+      "discovered_at": "2026-10-06T14:08:54Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-10-06T14:08:54Z",
+      "search_score": 37,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 06 Oct 2026 New language model evaluation results available Mistral Large 4 Preview Intelligence Index: 38 Mistral performance results now available Mistral Large 4 Preview 05 Oct 2026 Amazon Bedrock performance results now available Claude Opus 5.5 (Max, Default Fallback) Microsoft Azure performance results now available Claude Sonnet 5.5 (Max, Default Fallback) Claude Sonnet 5.5 (Low, Default Fallback) Claude Opus 5.5 (Max, Default Fallback) Claude Opus 5.5 (Low, Default Fallback) GPT-6 Luna (Non-reasoning) GPT-6.1 Sol (Max) PrimaLabs performance results now available GLM 5.3 Flash 04 Oct 2026 OpenAI performance results now available GPT-6.1 Sol (Max) 03 Oct 2026 New language model evaluation results available Ling 3.1 Flash Intelligence Index: 41 InclusionAI performance results now available Ling 3.1 Flash 01 Oct 2026 New language model evaluation results available Grok 4.7 (Low) Intelligence Index: 42 Institute of Foundation Models performance results now available K2 Horizon 375B A23B LithosAI performance results now available GLM 5.3 Flash GLM 5.3 Flash Bitdeer AI performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) SpaceXAI performance results now available Grok 4.7 (Low) 30 Sept 2026 \ud83d\udd14 New article published Korean AI Lab Upstage releases Solar Mini 4 Korean AI Lab Upstage has released Solar Mini 4 which scores 24 on the Artificial Analysis Intelligence Index, but costs ~5x as much per task as GPT-6 Luna (max) despite similar per-token prices \ud83d\udd14 New article published Gemini 4 Argon: Google is back as one of the top three labs in intelligence achieved Google\u2019s new Gemini 4 Argon equals GPT-6 Astra on the Artificial Analysis Intelligence Index at 60% of the Cost per Task with discounted prices. Google is now back to being one of the top three labs in intelligence achieved New language model evaluation results available Solar Mini 4 Intelligence Index: 24 New language model evaluation results available Gemini 4 Argon (High) Intelligence Index: 53 Upstage performance results now available Solar Mini 4 Novita performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash Modular performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Google performance results now available Gemini 4 Argon (High) 29 Sept 2026 \ud83d\udd14 New article published AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations Our open-source tool for testing how fast agentic AI runs on laptops and workstations, with launch results for the DGX Spark, Ryzen AI Halo, MacBook Pro (M5 Pro) and RTX 5090 across four open-weights models \ud83d\udd14 New article published GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence GPT-6.1 Sol replaces GPT-6 Sol after just 7 days. It scores 1 point below GPT-6 Astra in the Intelligence Index at less than one quarter of the Cost per Task New language model evaluation results available JT-4.1 Flash 236B A21B (Reasoning) Intelligence Index: 34 New language model evaluation results available DeepSeek V4 Pro 0813 (Non-reasoning) Intelligence Index: 20 New language model evaluation results available GPT-6.1 Sol (Medium) Intelligence Index: 48 New language model evaluation results available GPT-6.1 Sol (Low) Intelligence Index: 42 New language model evaluation results available GPT-6.1 Sol (High) Intelligence Index: 50 New language model evaluation results available GPT-6.1 Sol (Xhigh) Intelligence Index: 51 New language model evaluation results available GPT-6.1 Sol (Max) Intelligence Index: 52 DeepSeek performance results now available DeepSeek V4 Pro 0813 (Non-reasoning) LithosAI performance results now available GLM-5.3 (Max) GLM-5.3 (Max) DeepInfra performance results now available MiMo-V2.6-Flash CoreWeave performance results now available DeepSeek V4.1 Flash (Non-reasoning) Modal performance results now available DeepSeek V4.1 Flash (Non-reasoning) Supernova performance results now available GLM-5.3 (Low) GLM-5.3 (Max) GLM-5.3 (Low) GLM-5.3 (Max) OpenAI performance results now available GPT-6.1 Sol (Medium) GPT-6.1 Sol (Low) GPT-6.1 Sol (High) GPT-6.1 Sol (Xhigh) GPT-6.1 Sol (Max) 28 Sept 2026 \ud83d\udd14 New article published Claude Sonnet 5.5 reaches #2 on the Artificial Analysis Intelligence Index Anthropic's new Sonnet model scores 56, just 2 points behind Opus 5.5 (max), but at the highest Output Tokens per Task we have measured New language model evaluation results available Claude Sonnet 5.5 (Low, Default Fallback) Intelligence Index: 36 New language model evaluation results available Claude Sonnet 5.5 (Medium, Default Fallback) Intelligence Index: 41 New lang",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-6d25e977ed7a7140f88e"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "8b2b75d0ef1ca4856981854a",
       "discovered_at": "2026-10-05T09:33:49Z",
       "kind": "independent",
@@ -2200,6 +2214,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "3e3599b79dca37e220662e17",
+      "discovered_at": "2026-10-06T14:08:51Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-05T08:33:20-07:00",
+      "search_score": 6,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "An AI support agent that stays in sync with your site Discussion | Link",
+      "title": "Cosmic AI Support Agent",
+      "url": "https://www.producthunt.com/products/cosmic"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "af6d4b8ab88d1786c2f02d8b",
       "discovered_at": "2026-10-05T09:33:48Z",
       "kind": "signal",
@@ -2225,6 +2253,48 @@
       "summary": "Use any AI with Claude Code, switch accounts mid-task Discussion | Link",
       "title": "Moxie",
       "url": "https://www.producthunt.com/products/moxie-2"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "f230893cf53ac02df16742a3",
+      "discovered_at": "2026-10-06T14:08:51Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-05T10:11:09-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Edit your Claude motion videos Discussion | Link",
+      "title": "EasyCut",
+      "url": "https://www.producthunt.com/products/easycut-2"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "cbf23fe5de23bfdacc341f27",
+      "discovered_at": "2026-10-06T14:08:51Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-05T10:07:19-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "A cloud desktop where AI agents do the work for you Discussion | Link",
+      "title": "ruOS",
+      "url": "https://www.producthunt.com/products/ruos"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "7fad564510a83e8eaffeb8a1",
+      "discovered_at": "2026-10-06T14:08:51Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-04T23:40:56-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "The browser where Claude Code and Codex work beside you Discussion | Link",
+      "title": "Rill Browser",
+      "url": "https://www.producthunt.com/products/rill-3"
     },
     {
       "bootstrap": false,
@@ -2295,6 +2365,48 @@
       "summary": "Claude Code, Codex, music, your day & 20+ apps in your notch Discussion | Link",
       "title": "Crowny!",
       "url": "https://www.producthunt.com/products/crowny-2"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "17b3a1387e096e90ad4a27d9",
+      "discovered_at": "2026-10-06T14:08:51Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-05T15:56:45-07:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Run LinkedIn outreach from your agent Discussion | Link",
+      "title": "Extrovert",
+      "url": "https://www.producthunt.com/products/extrovert"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "790a0d8121f5c08ed89e857d",
+      "discovered_at": "2026-10-06T14:08:51Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-05T14:08:37-07:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "The open-source editor for AI inpainting Discussion | Link",
+      "title": "Scumble",
+      "url": "https://www.producthunt.com/products/scumble"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "50e4cfae149cc737bbf68030",
+      "discovered_at": "2026-10-06T14:08:51Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-05T08:30:20-07:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Modern code hosting for the agent era Discussion | Link",
+      "title": "Brnch",
+      "url": "https://www.producthunt.com/products/brnch"
     },
     {
       "bootstrap": false,
@@ -2410,6 +2522,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-06T06:55:32Z",
+  "updated_at": "2026-10-06T14:08:58Z",
   "version": 2
 }

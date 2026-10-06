@@ -37,8 +37,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-06T16:08:39Z",
-    "eligible": 132,
+    "at": "2026-10-06T20:56:50Z",
+    "eligible": 145,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
@@ -365,6 +365,20 @@
       "status": "ignored",
       "story_key": "runway-rna-sessions-event-series",
       "url": "https://runway.com/research/rna-sessions"
+    },
+    "2896758265cec81d95898858": {
+      "at": "2026-10-06T20:56:47Z",
+      "bootstrap": false,
+      "score": 91,
+      "status": "published",
+      "story_key": "atlassian-openai-partnership-expansion-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/atlassian-partnership"
     },
     "28fb219774587d148d643716": {
       "at": "2026-10-06T02:32:14Z",
@@ -2118,6 +2132,20 @@
       },
       "url": "https://sakana.ai/schmidhuber/"
     },
+    "f57eff9c23a4454b476bbb26": {
+      "at": "2026-10-06T20:56:50Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-ironclad-computer-use-agents",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad"
+    },
     "f58072678026aa6843de5877": {
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
@@ -2161,6 +2189,11 @@
       "at": "2026-10-03T18:39:51Z",
       "status": "expired",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.7"
+    },
+    "f9009280ad2c5f81dc12ea09": {
+      "at": "2026-10-06T20:56:42Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/unscary-ai"
     },
     "f90fe0c2cacaf9d0844e98f2": {
       "at": "2026-10-03T05:49:31Z",
@@ -2272,6 +2305,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "Artificial Analysis Changelog"
+      }
+    },
+    "atlassian-openai-partnership-expansion-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/atlassian-openai-partnership-expansion-2026.jpg",
+      "last_updated": "2026-10-06T20:56:47Z",
+      "post_id": "4068327281044691715",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-and-atlassian-expand-enterprise.html",
+      "score": 91,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/6QbNTCFAGpVGjDLSMfKf9M/e571659e9694e08b73f5e73a01a0682c/atlassian-social-official.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/atlassian-partnership"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI and Atlassian Expand Enterprise Partnership Around GPT-6 and Agentic Workflows",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
       }
     },
     "black-forest-labs-flux-2-klein-licensing": {
@@ -2997,6 +3051,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI Publishes Comprehensive Developer Guide for the GPT-6 Family",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-ironclad-computer-use-agents": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openai-ironclad-computer-use-agents.png",
+      "last_updated": "2026-10-06T20:56:50Z",
+      "post_id": "5602861332388812266",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-and-ironclad-partner-to-train-ai.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/7MHs3xHafyN62xj8ZblzjX/b0bfb5320a21766be56d761631d18899/oai_ironclad_cua_16x9.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/advancing-computer-use-with-ironclad"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI and Ironclad Partner to Train AI Agents on Complex Legal Contracting Workflows",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

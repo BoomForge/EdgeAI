@@ -16,6 +16,11 @@
       "at": "2026-10-04T11:21:02Z",
       "count": 1,
       "last_error": "503 Server Error: Service Unavailable for url: https://www.googleapis.com/blogger/v3/blogs/2342065040356029552/posts"
+    },
+    "d43019accfd19e1ed1c4ed4b": {
+      "at": "2026-10-06T16:08:34Z",
+      "count": 1,
+      "last_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=25)"
     }
   },
   "last_image_repair": {
@@ -32,8 +37,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-06T09:19:59Z",
-    "eligible": 131,
+    "at": "2026-10-06T16:08:39Z",
+    "eligible": 132,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
@@ -188,6 +193,11 @@
       "status": "expired",
       "url": "https://strandsagents.com/blog/introducing-strands-decider/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "0ec64ac228dd9330f06ff5cc": {
+      "at": "2026-10-06T16:08:03Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11372"
+    },
     "0f13c2d1e1b999c1db27117c": {
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
@@ -276,6 +286,11 @@
       "story_key": "elevenlabs-blog-listing",
       "url": "https://elevenlabs.io/blog/category/impact"
     },
+    "1b63d23cad108f2c4c6ed0ed": {
+      "at": "2026-10-06T16:08:03Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11378"
+    },
     "1b779e36ded287268031e79e": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -360,6 +375,11 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://hermes-agent.nousresearch.com/docs"
+    },
+    "2c315a1352cc7df2a101db49": {
+      "at": "2026-10-06T16:08:03Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11379"
     },
     "2d709db6f0def6fba375931e": {
       "at": "2026-10-05T07:01:46Z",
@@ -518,6 +538,11 @@
         "source": "LocalAI Releases"
       },
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.11.0"
+    },
+    "3a390cc255a4c02502111933": {
+      "at": "2026-10-06T16:08:03Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11377"
     },
     "3b73f4822ea0b3c87593c1f4": {
       "at": "2026-10-03T04:44:14Z",
@@ -803,6 +828,20 @@
         "source": "Sakana AI Blog"
       },
       "url": "https://sakana.ai/percept-lens/"
+    },
+    "5f19b672939574e1454c4994": {
+      "at": "2026-10-06T16:08:08Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "artificial-analysis-changelog-mistral-large-4-preview",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-6d25e977ed7a7140f88e"
     },
     "603d4f0592f632a4812d62a6": {
       "at": "2026-10-06T02:32:14Z",
@@ -1356,6 +1395,11 @@
       },
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21"
     },
+    "9cf469a02c5a0aefacdc35d7": {
+      "at": "2026-10-06T16:08:03Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11375"
+    },
     "9d77b23d2cd4a15f0f4308dc": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -1785,6 +1829,20 @@
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc0"
     },
+    "d30951486cef96799b23ba80": {
+      "at": "2026-10-06T16:08:39Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "reflection-ai-beam-501b-model",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://reflection.ai/blog/introducing-beam?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "d30a8ab93b58a4a69b36ea97": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -1817,6 +1875,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38201"
+    },
+    "d57f531c7227c316c0be589e": {
+      "at": "2026-10-06T16:08:03Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11374"
     },
     "d59c4716fcf993c9d04698c7": {
       "at": "2026-10-05T07:01:46Z",
@@ -2104,6 +2167,11 @@
       "status": "expired",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.815-beta"
     },
+    "f953d4e5e266fbae554baaaf": {
+      "at": "2026-10-06T16:08:03Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11376"
+    },
     "f9ac3a3f0e104375673c2981": {
       "at": "2026-10-03T04:44:23Z",
       "bootstrap": true,
@@ -2157,6 +2225,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Artificial Analysis Updates: GPT-6.1 Sol, Claude Sonnet 5.5, and Gemini 4 Argon Ranks",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
+    "artificial-analysis-changelog-mistral-large-4-preview": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-mistral-large-4-preview.jpg",
+      "last_updated": "2026-10-06T16:08:08Z",
+      "post_id": "3411287693226098940",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/artificial-analysis-adds-mistral-large.html",
+      "score": 82,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-6d25e977ed7a7140f88e"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Adds Mistral Large 4 Preview to Benchmarks",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
@@ -3085,6 +3174,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "Qwen Blog"
+      }
+    },
+    "reflection-ai-beam-501b-model": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/reflection-ai-beam-501b-model.jpg",
+      "last_updated": "2026-10-06T16:08:39Z",
+      "post_id": "1631547929350953489",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/reflection-ai-announces-beam-501b-open.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://cdn.sanity.io/images/sp40emik/production/771cfe201a3d24d7a340c3372e6a1654ec1a6e42-1800x1013.png",
+      "source_urls": [
+        "https://reflection.ai/blog/introducing-beam?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Reflection AI Announces Beam: A 501B Open-Weight Mixture-of-Experts Model for Coding and Agents",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
       }
     },
     "runway-characters-real-time-video-generation-api": {

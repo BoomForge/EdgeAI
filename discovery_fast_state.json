@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-05T18:35:30Z",
+    "at": "2026-10-06T00:19:43Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 19,
+    "prefiltered": 0,
+    "queued": 2,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 15,
+  "runs": 16,
   "seen": {
     "00795a5db0aa8849a50cc2d5": {
       "first_seen": "2026-10-04T23:17:50Z",
@@ -196,6 +196,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00101"
+    },
+    "1a83a48f2b9d2005f2db82f3": {
+      "first_seen": "2026-10-06T00:19:22Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11433"
     },
     "1aab9018416fa7ee5dc90928": {
       "first_seen": "2026-10-03T00:46:15Z",
@@ -895,6 +900,11 @@
       "first_seen": "2026-10-05T18:34:59Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11429"
+    },
+    "822cb602530fadaff99d5a0b": {
+      "first_seen": "2026-10-06T00:19:20Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.0"
     },
     "836ad8a0cd9c59a8342ef10a": {
       "first_seen": "2026-10-05T09:14:16Z",

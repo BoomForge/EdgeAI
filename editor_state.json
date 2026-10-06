@@ -32,8 +32,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-06T02:32:25Z",
-    "eligible": 143,
+    "at": "2026-10-06T09:19:59Z",
+    "eligible": 131,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
@@ -188,6 +188,11 @@
       "status": "expired",
       "url": "https://strandsagents.com/blog/introducing-strands-decider/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "0f13c2d1e1b999c1db27117c": {
+      "at": "2026-10-06T09:19:44Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00002"
+    },
     "10c568717ed2507c4d9b1469": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -234,6 +239,11 @@
         "source": "MiniMax Research"
       },
       "url": "https://www.minimax.io/models/text"
+    },
+    "180279b515dbeeff4b27ba60": {
+      "at": "2026-10-06T09:19:44Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00004"
     },
     "182622bf1f20238f6f2bfff7": {
       "at": "2026-10-05T07:01:46Z",
@@ -322,6 +332,11 @@
       "at": "2026-10-04T11:20:52Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/crowny-2"
+    },
+    "25c2d34baf331a4e16b005d9": {
+      "at": "2026-10-06T09:19:44Z",
+      "status": "expired",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.54.0"
     },
     "27a7527a54e29bd1beb4039a": {
       "at": "2026-10-05T07:01:46Z",
@@ -540,6 +555,11 @@
       "status": "ignored",
       "story_key": "minimax-about-us-page-update",
       "url": "https://www.minimax.io/about"
+    },
+    "3e3a82382d4ba1a606c6c6c7": {
+      "at": "2026-10-06T09:19:44Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11370"
     },
     "3e83ebb43ea3be9e12e61969": {
       "at": "2026-10-05T07:01:46Z",
@@ -861,6 +881,16 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
     },
+    "650a470be89f50277ccfc9b9": {
+      "at": "2026-10-06T09:19:44Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11368"
+    },
+    "66ce92e5e68cbdb18eafdb5b": {
+      "at": "2026-10-06T09:19:44Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00009"
+    },
     "68cbabc2cd02fa79182c91c3": {
       "at": "2026-10-03T18:39:51Z",
       "status": "expired",
@@ -1014,6 +1044,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/bevel-software"
     },
+    "78193f4d45e8f96f3f7b4e68": {
+      "at": "2026-10-06T09:19:44Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11371"
+    },
     "79ebb80118396ffd689ca34b": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -1036,6 +1071,25 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.3"
+    },
+    "7ce1dacb4f2add5e1d2594f3": {
+      "at": "2026-10-06T09:19:59Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "llama-cpp-v0-6-0-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
+      },
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.6.0"
+    },
+    "7d41f56ee3543afc8dce0230": {
+      "at": "2026-10-06T09:19:44Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00083"
     },
     "7db4974c11ebd58e1ae24279": {
       "at": "2026-10-03T05:49:31Z",
@@ -1128,6 +1182,11 @@
         "source": "FutureTools AI News"
       },
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "8824a722fbbd4c31d76b2acd": {
+      "at": "2026-10-06T09:19:44Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00049"
     },
     "882596cbc7639eb42bf210ab": {
       "at": "2026-10-03T05:49:32Z",
@@ -1538,6 +1597,11 @@
       "status": "ignored",
       "story_key": "stability-ai-deployment-page-update",
       "url": "https://stability.ai/deployment"
+    },
+    "bde261fa52d21062f74c894b": {
+      "at": "2026-10-06T09:19:44Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00053"
     },
     "bf1a189b85c837584069025f": {
       "at": "2026-10-03T05:49:31Z",
@@ -1991,6 +2055,11 @@
       },
       "url": "https://sakana.ai/schmidhuber/"
     },
+    "f58072678026aa6843de5877": {
+      "at": "2026-10-06T09:19:44Z",
+      "status": "expired",
+      "url": "https://arxiv.org/abs/2610.00035"
+    },
     "f5ca49e217faf41ac23d5dff": {
       "at": "2026-10-04T15:54:47Z",
       "status": "expired",
@@ -2005,6 +2074,20 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00006"
+    },
+    "f8337d5201ca41f6b38e2a43": {
+      "at": "2026-10-06T09:19:54Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "artificial-analysis-changelog-update-october-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-007bd9bb03e9f53f1bb7"
     },
     "f862b9446c456ef6531bec4b": {
       "at": "2026-10-03T18:39:51Z",
@@ -2074,6 +2157,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Artificial Analysis Updates: GPT-6.1 Sol, Claude Sonnet 5.5, and Gemini 4 Argon Ranks",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
+    "artificial-analysis-changelog-update-october-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-update-october-2026.jpg",
+      "last_updated": "2026-10-06T09:19:54Z",
+      "post_id": "4917070764744440667",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/artificial-analysis-updates-benchmark.html",
+      "score": 82,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-007bd9bb03e9f53f1bb7"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Updates Benchmark Changelog with Recent Model Performance Data",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
@@ -2512,6 +2616,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 95,
         "source": "Kimi Research"
+      }
+    },
+    "llama-cpp-v0-6-0-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/llama-cpp-v0-6-0-release.png",
+      "last_updated": "2026-10-06T09:19:59Z",
+      "post_id": "6507058958709816022",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/llamacpp-v060-released-with-extended.html",
+      "score": 92,
+      "source_image_source": "llama.cpp Releases",
+      "source_image_url": "https://opengraph.githubassets.com/f148c6e1fa26a2f23e77888f27f831597619df4e9dedb1c712812b4146909c58/ggml-org/llama.cpp/releases/tag/v0.6.0",
+      "source_urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/v0.6.0"
+      ],
+      "status": "CONFIRMED",
+      "title": "llama.cpp v0.6.0 Released With Extended Batch API, GLM-5.3-Flash, and Metal Flash Attention",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
       }
     },
     "localai-v4-11-0-release": {

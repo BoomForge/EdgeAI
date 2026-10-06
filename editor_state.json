@@ -32,8 +32,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-05T22:35:34Z",
-    "eligible": 174,
+    "at": "2026-10-06T02:32:25Z",
+    "eligible": 143,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
@@ -111,6 +111,11 @@
       },
       "url": "https://runway.com/research/introducing-gwm-worlds-2"
     },
+    "04ffbf1e02c2570faffddc3b": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://portal.nousresearch.com/"
+    },
     "0519b8fa6d0c3743abd360f7": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -139,6 +144,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/eleven-v4-and-eleven-v4-turbo"
     },
+    "08913be196df8938b291d515": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://www.shopify.com/news/introducing-canvas?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "0a28c215b5c05aea6d5cda4b": {
       "at": "2026-10-03T04:46:24Z",
       "bootstrap": true,
@@ -158,10 +168,25 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38195"
     },
+    "0c78b107823f053100b26f30": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://claude.com/blog/claude-code-mods?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "0d1bedda434773699099da05": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00420"
+    },
+    "0d7a39b4768e4a09a517f07b": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://newsletter.futurepedia.io/p/you-can-stop-typing-to-google-now-09-18-2026"
+    },
+    "0d7b9e709462447dd82bf93b": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "10c568717ed2507c4d9b1469": {
       "at": "2026-10-05T07:01:46Z",
@@ -186,6 +211,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/anthroposcaper"
     },
+    "1330b3896a02c463c4e8e350": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11365"
+    },
     "1441ff2ab9fdc9be50b63e1f": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -209,6 +239,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00047"
+    },
+    "1884408dbd46fcfc5ba0e396": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-voice?utm_source=futuretools.io&utm_medium=newspage"
     },
     "19fa17b0500ad2a7a0dbccb3": {
       "at": "2026-10-03T04:46:32Z",
@@ -278,6 +313,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00012"
     },
+    "2553159a4f32c9968b59109d": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11366"
+    },
     "2571ca81601cbb2f20861273": {
       "at": "2026-10-04T11:20:52Z",
       "status": "expired",
@@ -295,6 +335,16 @@
       "status": "ignored",
       "story_key": "runway-rna-sessions-event-series",
       "url": "https://runway.com/research/rna-sessions"
+    },
+    "28fb219774587d148d643716": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2106138356937810069"
+    },
+    "2a8e5b2eeed733baf988d7ff": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://hermes-agent.nousresearch.com/docs"
     },
     "2d709db6f0def6fba375931e": {
       "at": "2026-10-05T07:01:46Z",
@@ -374,6 +424,11 @@
       "at": "2026-10-04T00:07:42Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/thanor-ai"
+    },
+    "34e114d460f2a34002d6bac5": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://runway.com/news/company-news/introducing-runway-ads?utm_source=futuretools.io&utm_medium=newspage"
     },
     "36980dfdde9ab39e7f62d1f0": {
       "at": "2026-10-03T04:52:17Z",
@@ -463,6 +518,11 @@
       },
       "url": "https://qwenlm.github.io/blog/qwen3guard/"
     },
+    "3c10e85f161e3d1d1b6983cc": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2106175254771253491"
+    },
     "3c12ff714ab5ec5eda4a3ae8": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -521,6 +581,11 @@
       "at": "2026-10-05T01:11:35Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2"
+    },
+    "4131b6c07892f0629e8543a9": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://portal.nousresearch.com/cloud"
     },
     "41625591abfe53de1f2e0694": {
       "at": "2026-10-03T05:49:31Z",
@@ -582,6 +647,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00098"
     },
+    "4bcd91368f92e730e0936e7b": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://ideogram.ai/models/4.5/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "4cbabd98657885edf602078e": {
       "at": "2026-10-03T04:50:34Z",
       "bootstrap": true,
@@ -637,6 +707,11 @@
       },
       "url": "https://sakana.ai/fugu-max-release/"
     },
+    "54a565e70d5b43977dcb25ad": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/muse-22"
+    },
     "56725799a0c3efe2aa537020": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -685,6 +760,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00132"
     },
+    "5d1f16605adb30502ea9f3b6": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11364"
+    },
     "5ee30d117f6cf7759e8ac7ff": {
       "at": "2026-10-03T21:49:26Z",
       "status": "expired",
@@ -704,10 +784,20 @@
       },
       "url": "https://sakana.ai/percept-lens/"
     },
+    "603d4f0592f632a4812d62a6": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "6071f63e21f6425413eb6372": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://openai.com/index/devday-2026-recap"
+    },
+    "6138ec733e3c4420aa012e01": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://hermes-agent.nousresearch.com/"
     },
     "613f0908caf5019c61a1112c": {
       "at": "2026-10-03T04:44:35Z",
@@ -847,6 +937,11 @@
       },
       "url": "https://qwenlm.github.io/blog/qwen-image/"
     },
+    "6deeaa575f7a1b1ab43704bd": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "6e0ba84ea28447b0d66b95c4": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -919,6 +1014,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/bevel-software"
     },
+    "79ebb80118396ffd689ca34b": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://newsletter.futurepedia.io/p/your-chatgpt-can-now-work-while-youre-away-10-02-2026"
+    },
     "7af48a3cbaa19c506e59d2e9": {
       "at": "2026-10-03T04:46:51Z",
       "bootstrap": true,
@@ -941,6 +1041,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
+    },
+    "7e9aff605a4e7ea56674e155": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://newsletter.futurepedia.io/p/turn-your-messy-notes-into-a-clear-road-map-09-08-2026"
     },
     "80045661ac99ba741eea6b22": {
       "at": "2026-10-05T15:56:52Z",
@@ -966,6 +1071,25 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38193"
     },
+    "822cb602530fadaff99d5a0b": {
+      "at": "2026-10-06T02:32:25Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "comfyui-v0390-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "ComfyUI Releases"
+      },
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.0"
+    },
+    "82780810aba897ba13c1a821": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "86745252420db89333393bf9": {
       "at": "2026-10-05T22:35:25Z",
       "status": "expired",
@@ -985,6 +1109,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0"
+    },
+    "874d80e9e31a5a4f86d4c985": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://hermes-agent.nousresearch.com/docs/getting-started/installation#without-hermes-desktop"
     },
     "87e209af624212491c44f946": {
       "at": "2026-10-05T15:57:08Z",
@@ -1047,6 +1176,20 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/gspo/"
+    },
+    "8dc761dbcef27687b8863a87": {
+      "at": "2026-10-06T02:32:21Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "artificial-analysis-benchmark-changelog-oct-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-523415f21574b7a404d1"
     },
     "8df1952dd2a9fa1c6f0d2a6c": {
       "at": "2026-10-05T07:02:17Z",
@@ -1120,6 +1263,11 @@
       },
       "url": "https://www.kimi.com/en/products/kimi-work"
     },
+    "97b1175a9af0f2e4574e8674": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2106162588497186988"
+    },
     "9906482f0e9c75da96c7d515": {
       "at": "2026-10-05T15:56:52Z",
       "status": "expired",
@@ -1149,6 +1297,11 @@
       },
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21"
     },
+    "9d77b23d2cd4a15f0f4308dc": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "9da6f55621f5cd4edf72d52f": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -1171,6 +1324,11 @@
       "status": "ignored",
       "story_key": "elevenlabs-blog-feed-snapshot",
       "url": "https://elevenlabs.io/blog/category/company"
+    },
+    "a0fc53049f812f1dd1c7f6cb": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://portal.nousresearch.com/login"
     },
     "a1785a44f4858e2b1ea21cf1": {
       "at": "2026-10-04T15:54:51Z",
@@ -1214,6 +1372,11 @@
         "source": "Black Forest Labs Blog"
       },
       "url": "https://bfl.ai/blog/flux-3-action"
+    },
+    "a45d817f6c42ecedbe2f74f1": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://openrouter.ai/rankings#edgeai-cd070dfc6907242d4a56"
     },
     "a52615d03b6849c8c0ea3f2e": {
       "at": "2026-10-03T10:41:09Z",
@@ -1259,6 +1422,16 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00017"
     },
+    "ad6db3127dac135d4222143c": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11361"
+    },
+    "add75ed4e68bed3c7da5b8ea": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://suno.com/blog/introducing-speech-beta?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "ae5cd00a09a429d2c09d4ed3": {
       "at": "2026-10-04T22:33:05Z",
       "bootstrap": true,
@@ -1298,6 +1471,11 @@
       "at": "2026-10-03T18:39:51Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/agent-activity"
+    },
+    "b23a71d2dca41cfabb3715eb": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/"
     },
     "b270f6f5f99b181019d846e1": {
       "at": "2026-10-04T15:54:47Z",
@@ -1548,6 +1726,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00064"
     },
+    "d35bb6a301795f82b359a0bb": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11355"
+    },
     "d3b185d971abc0ead80775d6": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -1585,6 +1768,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+    },
+    "d716e08cd23c30890d3fdce6": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://newsletter.futurepedia.io/p/chatgpt-just-learned-to-use-your-computer-09-11-2026"
     },
     "d7cfcc46f736c325047d8294": {
       "at": "2026-10-03T04:52:42Z",
@@ -1632,6 +1820,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11352"
     },
+    "d960e64d06d5c7517347cd61": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://newsletter.futurepedia.io/p/claude-just-did-a-months-work-in-a-single-day-09-25-2026"
+    },
     "dd052aeea45239ae007e7bd2": {
       "at": "2026-10-03T04:46:58Z",
       "bootstrap": true,
@@ -1639,6 +1832,11 @@
       "status": "ignored",
       "story_key": "sakana-ai-product-team-culture-2026",
       "url": "https://sakana.ai/inside-product-team/"
+    },
+    "dd4da1359b61535ba4332bd0": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://updates.midjourney.com/alpha-changelog-10-1-26/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "ddaccaed883695c8ff80980a": {
       "at": "2026-10-03T05:49:31Z",
@@ -1716,6 +1914,11 @@
         "source": "MiniMax Research"
       },
       "url": "https://www.minimax.io/models/text/m27"
+    },
+    "e800acacef7840a119826a49": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://newsletter.futurepedia.io/p/chatgpt-just-took-the-image-crown-09-22-2026"
     },
     "e8346da5cb44c235fa05591d": {
       "at": "2026-10-03T04:50:39Z",
@@ -1832,6 +2035,11 @@
       },
       "url": "https://qwenlm.github.io/blog/qwen-image-edit/"
     },
+    "fa45708d3db66482b785a49c": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11362"
+    },
     "fc152ff68513727f347182c9": {
       "at": "2026-10-03T04:52:19Z",
       "bootstrap": true,
@@ -1840,6 +2048,11 @@
       "story_key": "kimi-k3-and-agent-tools-launch",
       "url": "https://www.kimi.com/"
     },
+    "ff3192a07212d5fdc5524862": {
+      "at": "2026-10-06T02:32:14Z",
+      "status": "expired",
+      "url": "https://microsoft.ai/models/mai-voice-2-1/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "ff94713669a843bf34098765": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -1847,6 +2060,27 @@
     }
   },
   "stories": {
+    "artificial-analysis-benchmark-changelog-oct-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-benchmark-changelog-oct-2026.jpg",
+      "last_updated": "2026-10-06T02:32:21Z",
+      "post_id": "4042671194842960796",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/artificial-analysis-updates-gpt-61-sol.html",
+      "score": 92,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-523415f21574b7a404d1"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Updates: GPT-6.1 Sol, Claude Sonnet 5.5, and Gemini 4 Argon Ranks",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
     "black-forest-labs-flux-2-klein-licensing": {
       "image_kind": "mirrored_source",
       "image_prepared_at": "2026-10-04T19:31:13Z",
@@ -1976,6 +2210,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 93,
         "source": "Black Forest Labs Blog"
+      }
+    },
+    "comfyui-v0390-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/comfyui-v0390-release.png",
+      "last_updated": "2026-10-06T02:32:25Z",
+      "post_id": "9169672504580726515",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/comfyui-v0390-released-with-expanded.html",
+      "score": 82,
+      "source_image_source": "ComfyUI Releases",
+      "source_image_url": "https://opengraph.githubassets.com/d52737262307d670194a4ea20d3b3e5a8072b18b4e0e826a05924f108b39704a/Comfy-Org/ComfyUI/releases/tag/v0.39.0",
+      "source_urls": [
+        "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.0"
+      ],
+      "status": "CONFIRMED",
+      "title": "ComfyUI v0.39.0 Released with Expanded Partner Nodes and Asset Management Improvements",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "ComfyUI Releases"
       }
     },
     "elevenlabs-dubbing-v2": {

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-06T06:33:16Z",
+    "at": "2026-10-06T13:37:02Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
+    "prefiltered": 1,
     "queued": 6,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 17,
+  "runs": 18,
   "seen": {
     "00795a5db0aa8849a50cc2d5": {
       "first_seen": "2026-10-04T23:17:50Z",
@@ -277,6 +277,12 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02351"
     },
+    "27215d831bbe09a339df9d2c": {
+      "first_seen": "2026-10-06T13:36:31Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/"
+    },
     "27a7527a54e29bd1beb4039a": {
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
@@ -427,6 +433,11 @@
       "first_seen": "2026-10-03T15:10:00Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11377"
+    },
+    "3a87aae1754d59e7fc522ba0": {
+      "first_seen": "2026-10-06T13:36:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11439"
     },
     "3ad6c9bd8091181b75763a69": {
       "first_seen": "2026-10-03T22:01:59Z",
@@ -1107,6 +1118,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11395"
     },
+    "9c31c15969a0389f5c8b359f": {
+      "first_seen": "2026-10-06T13:36:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11436"
+    },
     "9cf469a02c5a0aefacdc35d7": {
       "first_seen": "2026-10-03T15:10:00Z",
       "status": "queued",
@@ -1192,6 +1208,11 @@
       "status": "queued",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.2"
     },
+    "ad21292e8cbac72957f5928c": {
+      "first_seen": "2026-10-06T13:36:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11438"
+    },
     "ad578f6050505d8ac881181b": {
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
@@ -1262,6 +1283,11 @@
       "status": "queued",
       "url": "https://openai.com/index/the-eternal-complement"
     },
+    "b823eac8a77d9a7d3f4308a8": {
+      "first_seen": "2026-10-06T13:36:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11443"
+    },
     "b900b7f12d6f003ba0f42d94": {
       "first_seen": "2026-10-03T00:45:51Z",
       "status": "queued",
@@ -1286,6 +1312,11 @@
       "first_seen": "2026-10-03T00:46:19Z",
       "status": "too_old",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.20"
+    },
+    "ba2513f06d0c08b16791f768": {
+      "first_seen": "2026-10-06T13:36:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11440"
     },
     "bc14691a892bd7c7add97d6b": {
       "first_seen": "2026-10-05T09:14:06Z",
@@ -1652,6 +1683,11 @@
       "first_seen": "2026-10-03T00:45:51Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2609.38197"
+    },
+    "ef28cf6893c19644705fa20f": {
+      "first_seen": "2026-10-06T13:36:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11444"
     },
     "ef3be305c79b3c87a1dd2dab": {
       "first_seen": "2026-10-05T09:14:16Z",

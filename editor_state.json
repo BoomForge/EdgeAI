@@ -37,8 +37,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-07T06:34:19Z",
-    "eligible": 145,
+    "at": "2026-10-07T13:59:51Z",
+    "eligible": 146,
     "evaluated": 4,
     "mode": "live",
     "new_posts": 2,
@@ -343,6 +343,16 @@
       },
       "url": "https://www.kimi.com/code"
     },
+    "1cf97cd9573961b03d43e8f5": {
+      "at": "2026-10-07T13:59:34Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11388"
+    },
+    "1def5ac72d467db84fc97c16": {
+      "at": "2026-10-07T13:59:34Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11390"
+    },
     "1e53e4b0ea0e3813fd5e7558": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -422,6 +432,14 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://hermes-agent.nousresearch.com/docs"
+    },
+    "2bb707084df4189268093b76": {
+      "at": "2026-10-07T13:59:47Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "cline-v4-1-23-release",
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.23"
     },
     "2c315a1352cc7df2a101db49": {
       "at": "2026-10-06T16:08:03Z",
@@ -633,10 +651,29 @@
       "status": "expired",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.0"
     },
+    "3c17197e98c3e6b86354f808": {
+      "at": "2026-10-07T13:59:51Z",
+      "bootstrap": false,
+      "score": 95,
+      "status": "published",
+      "story_key": "mistral-large-4-launch",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://mistral.ai/news/mistral-large-4/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "3c2501ede4aef0ffb4ab10c2": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00030"
+    },
+    "3c7ad66c425f89b091210eaf": {
+      "at": "2026-10-07T13:59:34Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11384"
     },
     "3d9482c11cf663a63fe7f54d": {
       "at": "2026-10-05T01:11:38Z",
@@ -730,6 +767,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.52.0"
+    },
+    "442343c819cdd430b25856d4": {
+      "at": "2026-10-07T13:59:34Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11385"
     },
     "44a995e3e5a09201313731f5": {
       "at": "2026-10-05T07:02:18Z",
@@ -999,6 +1041,11 @@
         "source": "MiniMax Research"
       },
       "url": "https://www.minimax.io/blog/minimax-h3"
+    },
+    "646703daec5b98f231fee1b4": {
+      "at": "2026-10-07T13:59:34Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11386"
     },
     "64e27cc1872ee8386150363a": {
       "at": "2026-10-03T05:49:31Z",
@@ -1346,6 +1393,11 @@
       "story_key": "artificial-analysis-changelog-updates-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-9e4133004a6812b634ce"
     },
+    "8c74524609568ff648dd99b6": {
+      "at": "2026-10-07T13:59:34Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11389"
+    },
     "8cc5380fb99a93aeaaf4c1c6": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -1637,6 +1689,11 @@
       "status": "ignored",
       "story_key": "elevenlabs-customer-stories-page",
       "url": "https://elevenlabs.io/blog/category/customer-stories"
+    },
+    "af0bc63417beb8c2d29ba736": {
+      "at": "2026-10-07T13:59:34Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11387"
     },
     "af2fbd93182d5c01937faf5a": {
       "at": "2026-10-04T19:34:01Z",
@@ -1971,6 +2028,20 @@
       "story_key": "kimi-downloads-page-refresh",
       "url": "https://www.kimi.com/en/products/download"
     },
+    "d54e68095afbdec36a232fe3": {
+      "at": "2026-10-07T13:59:43Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "browser-use-0-13-11-claude-toolset",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "browser-use Releases"
+      },
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.11"
+    },
     "d55a4c113a242b65cda2a026": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -2112,6 +2183,14 @@
       "at": "2026-10-04T22:33:04Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/cloudflare-clef"
+    },
+    "e0810cc5162e1fa903caa1f5": {
+      "at": "2026-10-07T13:59:36Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "cline-sdk-v0-0-91-release",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.91"
     },
     "e2cd6172fc1e27be742e0352": {
       "at": "2026-10-05T07:01:46Z",
@@ -2556,6 +2635,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 93,
         "source": "Black Forest Labs Blog"
+      }
+    },
+    "browser-use-0-13-11-claude-toolset": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/browser-use-0-13-11-claude-toolset.png",
+      "last_updated": "2026-10-07T13:59:43Z",
+      "post_id": "4600987239193894366",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/browser-use-v01311-adds-native-toolsets.html",
+      "score": 82,
+      "source_image_source": "browser-use Releases",
+      "source_image_url": "https://opengraph.githubassets.com/013ef287af49de90c3cd298b878c1589871b6a19a92349ebb9d99d7da61533cb/browser-use/browser-use/releases/tag/0.13.11",
+      "source_urls": [
+        "https://github.com/browser-use/browser-use/releases/tag/0.13.11"
+      ],
+      "status": "CONFIRMED",
+      "title": "Browser-Use v0.13.11 Adds Native Toolsets for Claude Integration",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "browser-use Releases"
       }
     },
     "comfyui-v0390-release": {
@@ -3082,6 +3182,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 95,
         "source": "MiniMax Research"
+      }
+    },
+    "mistral-large-4-launch": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/mistral-large-4-launch.jpg",
+      "last_updated": "2026-10-07T13:59:51Z",
+      "post_id": "2243312168792845406",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/mistral-ai-announces-mistral-large-4-1.html",
+      "score": 95,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
+      "source_urls": [
+        "https://mistral.ai/news/mistral-large-4/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Mistral AI Announces Mistral Large 4: A 1-Trillion-Parameter Multimodal Open-Weight Model",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
       }
     },
     "mistral-large-4-le-chonk-preview": {

@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-06T20:56:50Z",
+    "at": "2026-10-07T06:34:19Z",
     "eligible": 145,
-    "evaluated": 2,
+    "evaluated": 4,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -51,6 +51,20 @@
     "updated": 3
   },
   "processed": {
+    "00427e47df5ef3064509e152": {
+      "at": "2026-10-07T06:34:13Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-sharing-ai-progress-in-mathematics-lean-proofs",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics"
+    },
     "0108f5a0b1758cecc286938e": {
       "at": "2026-10-03T00:58:43Z",
       "bootstrap": true,
@@ -193,6 +207,20 @@
       "status": "expired",
       "url": "https://strandsagents.com/blog/introducing-strands-decider/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "0e8219bd64331ee357c25f45": {
+      "at": "2026-10-07T06:34:19Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "mistral-large-4-le-chonk-preview",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
+      },
+      "url": "https://simonwillison.net/2026/Oct/6/le-chonk/"
+    },
     "0ec64ac228dd9330f06ff5cc": {
       "at": "2026-10-06T16:08:03Z",
       "status": "expired",
@@ -215,6 +243,11 @@
       "status": "ignored",
       "story_key": "stability-ai-strategic-partnerships-page",
       "url": "https://stability.ai/strategic-partnerships"
+    },
+    "11ff01e8f3ddf634b9fa760d": {
+      "at": "2026-10-07T06:34:08Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11382"
     },
     "121946e928c2e8a76d631a91": {
       "at": "2026-10-03T05:49:31Z",
@@ -446,6 +479,14 @@
       "story_key": "sakana-ai-japan-startup-award-2026",
       "url": "https://sakana.ai/japan-startup-award-2026/"
     },
+    "30796f46de906be3bc43937d": {
+      "at": "2026-10-07T06:34:10Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-snapshot",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-d84b4efe976821bada1a"
+    },
     "323fd1087f594a308741cd5a": {
       "at": "2026-10-05T15:56:56Z",
       "bootstrap": true,
@@ -468,6 +509,11 @@
       "at": "2026-10-05T01:11:35Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc1"
+    },
+    "345f1755705d282a19e9b6b2": {
+      "at": "2026-10-07T06:34:08Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
     },
     "3474825c1b905eaedb65db8e": {
       "at": "2026-10-04T00:07:42Z",
@@ -558,6 +604,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11377"
     },
+    "3ad6c9bd8091181b75763a69": {
+      "at": "2026-10-07T06:34:08Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11381"
+    },
     "3b73f4822ea0b3c87593c1f4": {
       "at": "2026-10-03T04:44:14Z",
       "bootstrap": true,
@@ -604,6 +655,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.0.90"
+    },
+    "3fc9ff8585e35d9b18b26345": {
+      "at": "2026-10-07T06:34:08Z",
+      "status": "expired",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.0-rc.1"
     },
     "3fdfc0e4208e99b2ce1e5759": {
       "at": "2026-10-03T05:49:31Z",
@@ -692,6 +748,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1"
+    },
+    "49b5951c067cceb3477399d1": {
+      "at": "2026-10-07T06:34:08Z",
+      "status": "expired",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.0"
     },
     "4b22d7e89d4e656fa2874416": {
       "at": "2026-10-03T14:57:16Z",
@@ -885,6 +946,16 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/qwen-mt/"
+    },
+    "619069d4546663731f73800d": {
+      "at": "2026-10-07T06:34:08Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2106497772426076504"
+    },
+    "637b19621e90d68905988d73": {
+      "at": "2026-10-07T06:34:08Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/3/newsletter/"
     },
     "637d3dfa247fa816a4c4160f": {
       "at": "2026-10-03T05:49:33Z",
@@ -1091,6 +1162,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0"
+    },
+    "775cce2b8f031ba723e503c1": {
+      "at": "2026-10-07T06:34:08Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/launchreel-2"
     },
     "77bb9dac7f2dc73e90b658f8": {
       "at": "2026-10-05T15:56:52Z",
@@ -1355,6 +1431,11 @@
       "at": "2026-10-05T22:35:25Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0"
+    },
+    "96b8552f38a5cffcf7aa8da9": {
+      "at": "2026-10-07T06:34:08Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11380"
     },
     "97397d7fa75c50842dda10c0": {
       "at": "2026-10-03T05:49:31Z",
@@ -1872,6 +1953,11 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
     },
+    "d475dd0535cf07b7b7724188": {
+      "at": "2026-10-07T06:34:08Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2106497770236387496"
+    },
     "d4eadc6264742490b3b97c71": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -2085,6 +2171,14 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00003"
     },
+    "ebb413cc5359756bf9234b81": {
+      "at": "2026-10-07T06:34:14Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "openai-jump-trading-case-study",
+      "url": "https://openai.com/index/jump-trading"
+    },
     "ed59254a0e36ad070ae8979e": {
       "at": "2026-10-04T15:54:47Z",
       "status": "expired",
@@ -2112,6 +2206,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc2"
+    },
+    "f2623f517e94709c38bd2067": {
+      "at": "2026-10-07T06:34:08Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/sellio-2"
     },
     "f3f828852141af98a5731144": {
       "at": "2026-10-03T05:49:31Z",
@@ -2985,6 +3084,27 @@
         "source": "MiniMax Research"
       }
     },
+    "mistral-large-4-le-chonk-preview": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/mistral-large-4-le-chonk-preview.png",
+      "last_updated": "2026-10-07T06:34:19Z",
+      "post_id": "5822639808353373113",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/mistral-ai-releases-mistral-large-4.html",
+      "score": 92,
+      "source_image_source": "Simon Willison Everything",
+      "source_image_url": "https://static.simonwillison.net/static/2026-10-06/mistral-large-4-pelican.webp",
+      "source_urls": [
+        "https://simonwillison.net/2026/Oct/6/le-chonk/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Mistral AI Releases Mistral Large 4 Preview With 1 Trillion Total Parameters",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
+      }
+    },
     "openai-disrupts-coordinated-model-distillation-campaign": {
       "image_kind": "mirrored_source",
       "image_prepared_at": "2026-10-04T19:31:16Z",
@@ -3072,6 +3192,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI and Ironclad Partner to Train AI Agents on Complex Legal Contracting Workflows",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-sharing-ai-progress-in-mathematics-lean-proofs": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openai-sharing-ai-progress-in-mathematics-lean-proofs.png",
+      "last_updated": "2026-10-07T06:34:13Z",
+      "post_id": "7204357306868256449",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-releases-frontier-model.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/sharing-ai-progress-in-mathematics"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Releases Frontier Model Mathematical Results and Lean Proof Formalizations",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

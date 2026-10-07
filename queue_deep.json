@@ -2004,6 +2004,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "5ceda9b354e942def1661823",
+      "discovered_at": "2026-10-07T09:23:08Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 7, 2026",
+      "search_score": 17,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch x.com/witcheer/statu\u2026 Oct 7, 2026 @NousResearch Claude Opus 5.5 leads at 63.31 and $4.99 per task. GPT 6 Astra is second at 56.25 and $11.61. Sonnet 5.5 follows at 53.14 and $2.82. At the other end, DeepSeek V4.1 Flash scores 36.91 at $0.26 and Ling 3.0 Flash scores 21.56 at $0.054. Oct 6, 2026 @NousResearch Every model runs the same harness, with reasoning set high where offered. The index reports the mean score and the mean cost per task across the four suites. Hermes Bench info: Oct 6, 2026 @NousResearch We do this using an index of four benchmarks. One is our new benchmark, Hermes Bench. The others are Terminal-Bench 4.0, Terminal-Bench-Science, and SkillsBench. Oct 6, 2026 @NousResearch Introducing Hermes Index: an average of benchmarks measuring model performance in Hermes Agent. Our goal with Hermes Index is to better inform users choosing between models and to show labs how they perform in Hermes. portal.nousresearch.com/bench Oct 6, 2026 @NousResearch Hey Hermes book me a flight to nyc and find the cheapest hotel available and social engineer the person approving rsvps make no mistakes x.com/nousresearch/s\u2026 Oct 6, 2026 @NousResearch Evergreen x.com/sounddobad/sta\u2026 Oct 6, 2026 @NousResearch You should be able to use smarter models in your agent. You should be able to use cheaper models in your agent. You should be able to use local models in your agent. You should be able to use a different model for every job. You should be able to switch models in the middle of a conversation. You should be able to choose what data your agent has. You should be able to choose what it remembers and what it forgets. You should be able to choose what computer your agent runs on. You should be able to run it on a machine that never touches the internet. You should be able to run it while your laptop is closed. You should be able to reach it from the apps you already use. You should be able to choose how your agent thinks. You should be able to read the prompt it runs on. You should be able to see every tool it has, and turn off the ones you don't want. You should be able to teach it something once and never explain it again. You should be able to know what it did, and when, and why. You should be able to export your agent. You should be able to read the code. You should be able to change the code. Your agent should be yours. Oct 5, 2026 @NousResearch You can use Hermes Agent for a lot more than flight booking. Here are 326 use cases from real users: hermes-agent.nousresearch.com/docs/user-stor\u2026 Oct 5, 2026 @NousResearch Solar Mini 4 from @upstageai is free on Nous Portal for the next two weeks It has 3B active parameters (35B total), 512K context, and an Artificial Analysis Intelligence Index score of 24 - above models with 10x the active parameters Oct 5, 2026",
+      "title": "@NousResearch x.com/witcheer/statu\u2026 Oct 7, 2026",
+      "url": "https://x.com/NousResearch/status/2107671544818200968"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "a919ba35a5e056c2278ba024",
       "discovered_at": "2026-10-07T02:36:56Z",
       "kind": "independent",
@@ -2225,6 +2239,20 @@
       "summary": "Google Launches EmbeddingGemma 2: 740M-Param Multimodal On-Device Embedding Model blog.google \u00b7 Show TLDR",
       "title": "Google Launches EmbeddingGemma 2: 740M-Param Multimodal On-Device Embedding Model blog.google \u00b7 Show TLDR",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "56224676afd39a97cbcee0d6",
+      "discovered_at": "2026-10-07T09:23:03Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-07T04:47:55+00:00",
+      "search_score": 6,
+      "source_name": "Simon Willison Everything",
+      "summary": "I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years of my life, on and off as I worked in many different fields. Last summer I even thought for a few days that I had actually solved it. But it's supposedly proven here - problem 180 . I don't know what to think exactly. I spent thousands of hours on that problem. I really enjoyed it. Hearing that it is solved somehow makes me sad in a far-off way, like hearing an ex-girlfriend died suddenly in a car crash. I don't know, there's probably a lot of people feeling odd emotions tonight. \u2014 Jake Boggan , Hacker News comment on openai/math Tags: openai , mathematics , deep-blue , llms , ai , generative-ai",
+      "title": "Quoting Jake Boggan",
+      "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/"
     },
     {
       "bootstrap": false,
@@ -2522,6 +2550,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "18751b3135b0ef1c82b7f5e5",
+      "discovered_at": "2026-10-07T09:23:03Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-06T08:07:45-07:00",
+      "search_score": 8,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Mistral's 1T parameter open weight frontier model Discussion | Link",
+      "title": "Mistral Large 4",
+      "url": "https://www.producthunt.com/products/mistral-7b"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "5ee30d117f6cf7759e8ac7ff",
       "discovered_at": "2026-10-03T05:50:29Z",
       "kind": "signal",
@@ -2592,6 +2634,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "62801524708e495abde98e4c",
+      "discovered_at": "2026-10-07T09:23:03Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-06T07:29:06-07:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Prompt, edit and prototype without leaving the canvas Discussion | Link",
+      "title": "Figma Agent",
+      "url": "https://www.producthunt.com/products/figma"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "b443199b5957d8fbbf00d876",
       "discovered_at": "2026-10-03T05:50:29Z",
       "kind": "signal",
@@ -2603,6 +2659,34 @@
       "summary": "Use any AI with Claude Code, switch accounts mid-task Discussion | Link",
       "title": "Moxie",
       "url": "https://www.producthunt.com/products/moxie-2"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "e29b6fd6d8e146bda617f7e0",
+      "discovered_at": "2026-10-07T09:23:03Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-05T22:51:24-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "AI search visibility, with agents that fix the gaps Discussion | Link",
+      "title": "Proofsource",
+      "url": "https://www.producthunt.com/products/proofsource"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "a71ec5cbee250906eb18bc41",
+      "discovered_at": "2026-10-07T09:23:03Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-05T15:47:06-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "One AI workspace that picks the best model for each task Discussion | Link",
+      "title": "Vresk",
+      "url": "https://www.producthunt.com/products/vresk"
     },
     {
       "bootstrap": false,
@@ -2631,6 +2715,20 @@
       "summary": "A cloud desktop where AI agents do the work for you Discussion | Link",
       "title": "ruOS",
       "url": "https://www.producthunt.com/products/ruos"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "0e55ba63354043e90753a2b6",
+      "discovered_at": "2026-10-07T09:23:03Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-05T09:36:31-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Free native Postgres app for Mac with your own AI agents Discussion | Link",
+      "title": "Postquel",
+      "url": "https://www.producthunt.com/products/postquel"
     },
     {
       "bootstrap": false,
@@ -2715,6 +2813,34 @@
       "summary": "Claude Code, Codex, music, your day & 20+ apps in your notch Discussion | Link",
       "title": "Crowny!",
       "url": "https://www.producthunt.com/products/crowny-2"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "a5831ffcc4141e67f84f5e7d",
+      "discovered_at": "2026-10-07T09:23:03Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-06T11:54:11-07:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Google's image model with sharper design and mask editing Discussion | Link",
+      "title": "Nano Banana 2.1",
+      "url": "https://www.producthunt.com/products/google"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "5bdd7f773ac8e958ad2e26f3",
+      "discovered_at": "2026-10-07T09:23:03Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-06T00:31:08-07:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Anyone Can Now Make A Video Worth Posting Discussion | Link",
+      "title": "Introducing Video Editor in Manus 2.0",
+      "url": "https://www.producthunt.com/products/manus"
     },
     {
       "bootstrap": false,
@@ -2886,6 +3012,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-07T02:37:01Z",
+  "updated_at": "2026-10-07T09:23:09Z",
   "version": 2
 }

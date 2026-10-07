@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-07T02:37:01Z",
+    "at": "2026-10-07T09:23:09Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 3,
+    "prefiltered": 4,
+    "queued": 9,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 9,
     "warnings": 0
   },
-  "runs": 21,
+  "runs": 22,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -61,6 +61,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://portal.nousresearch.com/"
+    },
+    "0529548a3e43aded8444ddee": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/takweem-ai"
     },
     "07805f8ccf0891a10c549358": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -128,6 +133,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/kindle-2026"
     },
+    "0e55ba63354043e90753a2b6": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/postquel"
+    },
     "0e8219bd64331ee357c25f45": {
       "first_seen": "2026-10-06T23:21:30Z",
       "status": "queued",
@@ -180,6 +190,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/extrovert"
     },
+    "18751b3135b0ef1c82b7f5e5": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/mistral-7b"
+    },
     "1884408dbd46fcfc5ba0e396": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -206,10 +221,26 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/pastily"
     },
+    "1af55907a2b2a8303774f9c2": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/sunsed"
+    },
+    "1b4592f1dbbe725566d71958": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/parakeetai"
+    },
     "1b57fa64b28fe529e32d3761": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://elevenlabs.io/blog/category/impact"
+    },
+    "1b874cff9e7ed3b86a592916": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/rool"
     },
     "1b93984ff2aed635c5f94087": {
       "first_seen": "2026-10-03T00:46:03Z",
@@ -291,6 +322,11 @@
       "status": "queued",
       "url": "https://runway.com/research/rna-sessions"
     },
+    "28dc3a5873d788c5b9ec4649": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/temp-mail-370"
+    },
     "28fb219774587d148d643716": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -351,6 +387,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://runway.com/news/company-news/introducing-runway-ads?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "3520de4f62d51182ad1b1111": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/thalia"
     },
     "352fd1a742a2b25bda6bc124": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -492,6 +533,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/globestudio"
     },
+    "4816346755f9c4545560ad0b": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/twelvelabs"
+    },
     "4b22d7e89d4e656fa2874416": {
       "first_seen": "2026-10-03T11:34:54Z",
       "status": "queued",
@@ -581,6 +627,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/zoowork"
     },
+    "56224676afd39a97cbcee0d6": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/"
+    },
     "573f30c6a916bb5e735b4a6b": {
       "first_seen": "2026-10-06T23:21:34Z",
       "status": "queued",
@@ -622,6 +673,16 @@
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/clair-3"
+    },
+    "5bdd7f773ac8e958ad2e26f3": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/manus"
+    },
+    "5ceda9b354e942def1661823": {
+      "first_seen": "2026-10-07T09:23:08Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2107671544818200968"
     },
     "5e6e795ab4db508e57bb9a41": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -683,6 +744,11 @@
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/chatgpt-space"
+    },
+    "62801524708e495abde98e4c": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/figma"
     },
     "62c509640c5df97d86096bb9": {
       "first_seen": "2026-10-07T02:36:56Z",
@@ -1014,6 +1080,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/iphone-use"
     },
+    "94801ca24377c4b6f66bd124": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/genpage"
+    },
     "963f327d7742bfcdecb503a6": {
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "too_old",
@@ -1118,6 +1189,11 @@
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-cd070dfc6907242d4a56"
     },
+    "a5831ffcc4141e67f84f5e7d": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/google"
+    },
     "a5c557c6cf82b734ecf0f1c7": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -1128,6 +1204,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/yubi-2"
+    },
+    "a71ec5cbee250906eb18bc41": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/vresk"
     },
     "a919ba35a5e056c2278ba024": {
       "first_seen": "2026-10-07T02:36:56Z",
@@ -1203,6 +1284,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/agent-activity"
     },
+    "b0e351c9646e33c8af9e09c7": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/linda"
+    },
     "b0fae2704c3212d2288d6145": {
       "first_seen": "2026-10-06T19:44:10Z",
       "status": "queued",
@@ -1258,6 +1344,12 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://bfl.ai/creator-program"
+    },
+    "b6305c68ec0c94778f286078": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/knuff-app"
     },
     "b800392f061efc350c642d5c": {
       "first_seen": "2026-10-06T19:44:15Z",
@@ -1394,6 +1486,12 @@
       "status": "queued",
       "url": "https://sakana.ai/scsk-sc-partnership/"
     },
+    "cedba4053a6c1e5a270aedde": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/lofi-desk-focus-relax-beats"
+    },
     "cf9a17e8c858d596752872af": {
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
@@ -1519,6 +1617,12 @@
       "status": "queued",
       "url": "https://www.minimax.io/"
     },
+    "de5f37dd0e71e135e6079fab": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/dailyhub-a-quiet-workspace-for-your-day"
+    },
     "df2b3a652849a416deb89641": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
@@ -1550,6 +1654,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/oogwai-beacon"
     },
+    "e29b6fd6d8e146bda617f7e0": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/proofsource"
+    },
     "e2b8778ca5e92223312d656b": {
       "first_seen": "2026-10-05T18:53:47Z",
       "status": "queued",
@@ -1559,6 +1668,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/1/matthew-green/"
+    },
+    "e4cc85288fe0cd562fc6a002": {
+      "first_seen": "2026-10-07T09:23:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/unprompt-2"
     },
     "e5e29b8c46bed49a08dcf72c": {
       "first_seen": "2026-10-04T12:47:33Z",

@@ -1808,6 +1808,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "c6a2e4ba2272d4f846cf8951",
+      "discovered_at": "2026-10-07T21:57:49Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-10-07T21:57:49Z",
+      "search_score": 43,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 07 Oct 2026 New language model evaluation results available Claude Haiku 5.5 (High, Default Fallback) Intelligence Index: 38 New language model evaluation results available Claude Haiku 5.5 (Low, Default Fallback) Intelligence Index: 29 New language model evaluation results available Claude Haiku 5.5 (Medium, Default Fallback) Intelligence Index: 34 New language model evaluation results available Claude Haiku 5.5 (Max, Default Fallback) Intelligence Index: 43 New language model evaluation results available Claude Haiku 5.5 (Xhigh, Default Fallback) Intelligence Index: 41 Anthropic performance results now available Claude Haiku 5.5 (Low, Default Fallback) Claude Haiku 5.5 (Xhigh, Default Fallback) Claude Haiku 5.5 (Medium, Default Fallback) Claude Haiku 5.5 (Max, Default Fallback) Claude Haiku 5.5 (High, Default Fallback) 06 Oct 2026 \ud83d\udd14 New article published Mistral has released Mistral Large 4, making France home to the most intelligent model outside the US and China Mistral has released Mistral Large 4, scoring 38 on the Artificial Analysis Intelligence Index; France is back to having the most intelligent model from outside the US and China New language model evaluation results available Mistral Large 4 Preview Intelligence Index: 38 Microsoft Azure performance results now available GPT-6 Luna (High) Google performance results now available Claude Opus 5.5 (Max, Default Fallback) Inco performance results now available Kimi K3 (Max) GMI performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash DigitalOcean performance results now available Llama 4 Maverick Gemma 4 31B (Non-reasoning) Gemma 4 31B (Reasoning) Nemotron 3 Nano Omni 30B A3B Reasoning Ministral 3 14B DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4 Pro 0813 (Non-reasoning) GLM-5.3 (Low) Kimi K3 (Low) Mistral performance results now available Mistral Large 4 Preview 05 Oct 2026 Amazon Bedrock performance results now available Claude Opus 5.5 (Max, Default Fallback) Microsoft Azure performance results now available Claude Sonnet 5.5 (Max, Default Fallback) Claude Sonnet 5.5 (Low, Default Fallback) Claude Opus 5.5 (Max, Default Fallback) Claude Opus 5.5 (Low, Default Fallback) GPT-6 Luna (Non-reasoning) GPT-6.1 Sol (Max) PrimaLabs performance results now available GLM 5.3 Flash 04 Oct 2026 OpenAI performance results now available GPT-6.1 Sol (Max) 03 Oct 2026 New language model evaluation results available Ling 3.1 Flash Intelligence Index: 41 InclusionAI performance results now available Ling 3.1 Flash 01 Oct 2026 New language model evaluation results available Grok 4.7 (Low) Intelligence Index: 42 Institute of Foundation Models performance results now available K2 Horizon 375B A23B LithosAI performance results now available GLM 5.3 Flash GLM 5.3 Flash Bitdeer AI performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) SpaceXAI performance results now available Grok 4.7 (Low) 30 Sept 2026 \ud83d\udd14 New article published Korean AI Lab Upstage releases Solar Mini 4 Korean AI Lab Upstage has released Solar Mini 4 which scores 24 on the Artificial Analysis Intelligence Index, but costs ~5x as much per task as GPT-6 Luna (max) despite similar per-token prices \ud83d\udd14 New article published Gemini 4 Argon: Google is back as one of the top three labs in intelligence achieved Google\u2019s new Gemini 4 Argon equals GPT-6 Astra on the Artificial Analysis Intelligence Index at 60% of the Cost per Task with discounted prices. Google is now back to being one of the top three labs in intelligence achieved New language model evaluation results available Solar Mini 4 Intelligence Index: 24 New language model evaluation results available Gemini 4 Argon (High) Intelligence Index: 53 Upstage performance results now available Solar Mini 4 Novita performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash Modular performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Google performance results now available Gemini 4 Argon (High) 29 Sept 2026 \ud83d\udd14 New article published AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations Our open-source tool for testing how fast agentic AI runs on laptops and workstations, with launch results for the DGX Spark, Ryzen AI Halo, MacBook Pro (M5 Pro) and RTX 5090 across four open-weights models \ud83d\udd14 New article published GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence GPT-6.1 Sol replaces GPT-6 Sol after just 7 days. It scores 1 point below GPT-6 Astra in the Intelligence Index at less than one quarter of the Cost per Task New language model evaluation results available JT-4.1 Flash 236B",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-64185faeb906f7bf2de4"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "30796f46de906be3bc43937d",
       "discovered_at": "2026-10-06T23:21:31Z",
       "kind": "independent",
@@ -1889,6 +1903,48 @@
       "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 05 Oct 2026 Microsoft Azure performance results now available Claude Sonnet 5.5 (Low, Default Fallback) Claude Opus 5.5 (Max, Default Fallback) Claude Opus 5.5 (Low, Default Fallback) GPT-6 Luna (Non-reasoning) GPT-6.1 Sol (Max) PrimaLabs performance results now available GLM 5.3 Flash 04 Oct 2026 OpenAI performance results now available GPT-6.1 Sol (Max) 03 Oct 2026 New language model evaluation results available Ling 3.1 Flash Intelligence Index: 41 InclusionAI performance results now available Ling 3.1 Flash 01 Oct 2026 New language model evaluation results available Grok 4.7 (Low) Intelligence Index: 42 Institute of Foundation Models performance results now available K2 Horizon 375B A23B LithosAI performance results now available GLM 5.3 Flash GLM 5.3 Flash Bitdeer AI performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) SpaceXAI performance results now available Grok 4.7 (Low) 30 Sept 2026 \ud83d\udd14 New article published Korean AI Lab Upstage releases Solar Mini 4 Korean AI Lab Upstage has released Solar Mini 4 which scores 24 on the Artificial Analysis Intelligence Index, but costs ~5x as much per task as GPT-6 Luna (max) despite similar per-token prices \ud83d\udd14 New article published Gemini 4 Argon: Google is back as one of the top three labs in intelligence achieved Google\u2019s new Gemini 4 Argon equals GPT-6 Astra on the Artificial Analysis Intelligence Index at 60% of the Cost per Task with discounted prices. Google is now back to being one of the top three labs in intelligence achieved New language model evaluation results available Solar Mini 4 Intelligence Index: 24 New language model evaluation results available Gemini 4 Argon (High) Intelligence Index: 53 Upstage performance results now available Solar Mini 4 Novita performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash Modular performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Google performance results now available Gemini 4 Argon (High) 29 Sept 2026 \ud83d\udd14 New article published AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations Our open-source tool for testing how fast agentic AI runs on laptops and workstations, with launch results for the DGX Spark, Ryzen AI Halo, MacBook Pro (M5 Pro) and RTX 5090 across four open-weights models \ud83d\udd14 New article published GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence GPT-6.1 Sol replaces GPT-6 Sol after just 7 days. It scores 1 point below GPT-6 Astra in the Intelligence Index at less than one quarter of the Cost per Task New language model evaluation results available JT-4.1 Flash 236B A21B (Reasoning) Intelligence Index: 34 New language model evaluation results available DeepSeek V4 Pro 0813 (Non-reasoning) Intelligence Index: 20 New language model evaluation results available GPT-6.1 Sol (Medium) Intelligence Index: 48 New language model evaluation results available GPT-6.1 Sol (Low) Intelligence Index: 42 New language model evaluation results available GPT-6.1 Sol (High) Intelligence Index: 50 New language model evaluation results available GPT-6.1 Sol (Xhigh) Intelligence Index: 51 New language model evaluation results available GPT-6.1 Sol (Max) Intelligence Index: 52 DeepSeek performance results now available DeepSeek V4 Pro 0813 (Non-reasoning) LithosAI performance results now available GLM-5.3 (Max) GLM-5.3 (Max) DeepInfra performance results now available MiMo-V2.6-Flash CoreWeave performance results now available DeepSeek V4.1 Flash (Non-reasoning) Modal performance results now available DeepSeek V4.1 Flash (Non-reasoning) Supernova performance results now available GLM-5.3 (Low) GLM-5.3 (Max) GLM-5.3 (Low) GLM-5.3 (Max) OpenAI performance results now available GPT-6.1 Sol (Medium) GPT-6.1 Sol (Low) GPT-6.1 Sol (High) GPT-6.1 Sol (Xhigh) GPT-6.1 Sol (Max) 28 Sept 2026 \ud83d\udd14 New article published Claude Sonnet 5.5 reaches #2 on the Artificial Analysis Intelligence Index Anthropic's new Sonnet model scores 56, just 2 points behind Opus 5.5 (max), but at the highest Output Tokens per Task we have measured New language model evaluation results available Claude Sonnet 5.5 (Low, Default Fallback) Intelligence Index: 36 New language model evaluation results available Claude Sonnet 5.5 (Medium, Default Fallback) Intelligence Index: 41 New language model evaluation results available Claude Sonnet 5.5 (High, Default Fallback) Intelligence Index: 47 New language model evaluation results available Claude Sonnet 5.5 (Xhigh, Default Fallback) Intelligence Index: 52 New language model evaluation results available Claude Sonnet 5.5 (Max, Default Fal",
       "title": "Artificial Analysis benchmark changelog changed",
       "url": "https://artificialanalysis.ai/changelog#edgeai-523415f21574b7a404d1"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "7285d7b661f41f6ff0755320",
+      "discovered_at": "2026-10-07T21:57:54Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "",
+      "search_score": 0,
+      "source_name": "Runway Research",
+      "summary": "Enterprises get 2 months of usage free. Sign by 10/31. See terms Contact sales",
+      "title": "Enterprises get 2 months of usage free. Sign by 10/31. See terms Contact sales",
+      "url": "https://runway.com/enterprise-bonus-terms"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "590df63d3a724549f5f72ef7",
+      "discovered_at": "2026-10-07T21:57:54Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "",
+      "search_score": 0,
+      "source_name": "Runway Research",
+      "summary": "Enterprises get 2 months of usage free. Sign by 10/31. See terms Contact sales",
+      "title": "Contact sales",
+      "url": "https://runway.com/enterprise-contact?utm_source=runway&utm_medium=homepagebanner&utm_campaign=twomonthsentfree"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "231befe88d753d0247c6f00f",
+      "discovered_at": "2026-10-07T21:57:48Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-07T20:56:21+00:00",
+      "search_score": 26,
+      "source_name": "Simon Willison Everything",
+      "summary": "As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's GPT-6 Luna , released last month. The new Haiku exactly matches the price of GPT-6 Luna - $0.10/$0.50 - up to 100,000 tokens. Beyond 100,000 tokens the price increases 5x to $0.50/$2.50. Luna itself has a price increase at 272,000 tokens but only to $0.20/$0.75. Haiku 5.5 also uses a new, less generous tokenizer. My Claude Token Counter tool shows that the same long prompt uses around 1.25x as many tokens with Haiku 5.5 compared to Haiku 4.5, so there's a hidden price increase there. If your workloads fit in 100,000 tokens, Haiku is the same price as Luna and reports higher benchmark scores. Above 100,000 tokens, Luna looks like a much better deal. The most recent release of llm-anthropic finally fixed it so I don't need to ship a new version of that plugin for every new model. I tested the new model like this: llm install -U llm-anthropic\nllm anthropic refresh\nllm -m claude-haiku-5.5 \"Generate an SVG of a pelican riding a bicycle\" -o thinking_effort low Pelicans Here are pelicans for low, medium, high, xhigh, and max . The new Haiku doesn't let you disable reasoning, and defaults to medium . I got a good bicycle frame for everything beyond low . The low effort pelican cost 0.0936 cents and took 7 seconds. This max effort pelican took 5 minutes 9 seconds to generate, but still only cost me 3.3826 cents : For comparison, here's the pelican I got a year ago from Haiku 4.5 (for 0.7583 cents - Haiku 4.5 did not support reasoning levels). It sucked at drawing pelicans: And a generous API credit scheme for subscribers In addition to Haiku 5.5, Anthropic announced today that they are halving the price of cache reads for Sonnet 5.5. They've also added API credits to subscription plans: Second, this week, we\u2019ll roll out a new monthly API credit to all Max and Team subscribers for use on the Claude Platform . Max 5x users will get $100 in credits per month, Max 20x users will get $200, and Team subscribers will receive up to $500, pooled across their users. Claiming this is pleasantly easy: navigate to Settings -> Billing and select the API organization that should benefit from the credits every month: The API credits exactly match the cost of the subscription itself. This is really generous - it makes it much easier for subscribers to use the API. Anthropic also let you disable auto-reload for the API, with the consequence that \"API requests will stop when your balance runs out\" - exactly what you want if you're planning to burn through those API credits without risk of a nasty billing surprise . Note that the monthly credits do not roll over - use them or lose them. OpenAI still allow you to use your Codex subscription for personal API use, which works out as a better deal for heavy API users. This new credit scheme goes at least some way to overcoming that difference. Tags: ai , generative-ai , llms , anthropic , claude , llm-pricing , pelican-riding-a-bicycle , llm-release",
+      "title": "Claude Haiku 5.5",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
     },
     {
       "bootstrap": false,
@@ -2018,6 +2074,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "d820d527a66cc6767ec5fec6",
+      "discovered_at": "2026-10-07T21:57:53Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 7, 2026",
+      "search_score": 17,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch @WSJ @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures Join us at NousCon to celebrate and perhaps catch some sneak peeks x.com/NousResearch/s\u2026 Or come work for us! nousresearch.com/careers Oct 7, 2026 @NousResearch As reported in the @WSJ, we have raised a Series B to bring Hermes Agent to new frontiers (and, yes, build a mobile app) Thank you to our investors including @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures, among others wsj.com/pro/venture-ca\u2026 x.com/dillonrolnick/\u2026 Oct 7, 2026 @NousResearch x.com/witcheer/statu\u2026 Oct 7, 2026 @NousResearch Claude Opus 5.5 leads at 63.31 and $4.99 per task. GPT 6 Astra is second at 56.25 and $11.61. Sonnet 5.5 follows at 53.14 and $2.82. At the other end, DeepSeek V4.1 Flash scores 36.91 at $0.26 and Ling 3.0 Flash scores 21.56 at $0.054. Oct 6, 2026 @NousResearch Every model runs the same harness, with reasoning set high where offered. The index reports the mean score and the mean cost per task across the four suites. Hermes Bench info: Oct 6, 2026 @NousResearch We do this using an index of four benchmarks. One is our new benchmark, Hermes Bench. The others are Terminal-Bench 4.0, Terminal-Bench-Science, and SkillsBench. Oct 6, 2026 @NousResearch Introducing Hermes Index: an average of benchmarks measuring model performance in Hermes Agent. Our goal with Hermes Index is to better inform users choosing between models and to show labs how they perform in Hermes. portal.nousresearch.com/bench Oct 6, 2026 @NousResearch Hey Hermes book me a flight to nyc and find the cheapest hotel available and social engineer the person approving rsvps make no mistakes x.com/nousresearch/s\u2026 Oct 6, 2026 @NousResearch Evergreen x.com/sounddobad/sta\u2026 Oct 6, 2026 @NousResearch You should be able to use smarter models in your agent. You should be able to use cheaper models in your agent. You should be able to use local models in your agent. You should be able to use a different model for every job. You should be able to switch models in the middle of a conversation. You should be able to choose what data your agent has. You should be able to choose what it remembers and what it forgets. You should be able to choose what computer your agent runs on. You should be able to run it on a machine that never touches the internet. You should be able to run it while your laptop is closed. You should be able to reach it from the apps you already use. You should be able to choose how your agent thinks. You should be able to read the prompt it runs on. You should be able to see every tool it has, and turn off the ones you don't want. You should be able to teach it something once and never explain it again. You should be able to know what it did, and when, and why. You should be able to export your agent. You should be able to read the code. You should be able to change the code. Your agent should be yours. Oct 5, 2026",
+      "title": "@NousResearch As reported in the @WSJ, we have raised a Series B to bring Hermes Agent to new frontiers (and, yes, build a mobile app) Thank you to our investors including @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloV",
+      "url": "https://x.com/NousResearch/status/2107874963382538469"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "205c105de580d142d0e5be16",
+      "discovered_at": "2026-10-07T21:57:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 16,
+      "source_name": "FutureTools AI News",
+      "summary": "Anthropic Launches Claude Haiku 5.5: Fastest Small Model at 75% Lower Cost anthropic.com \u00b7 Show TLDR",
+      "title": "Anthropic Launches Claude Haiku 5.5: Fastest Small Model at 75% Lower Cost anthropic.com \u00b7 Show TLDR",
+      "url": "https://www.anthropic.com/claude-haiku-5-5?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "a919ba35a5e056c2278ba024",
       "discovered_at": "2026-10-07T02:36:56Z",
       "kind": "independent",
@@ -2071,6 +2155,20 @@
       "summary": "Reflection AI Launches Beam: 501B Open-Weight Model Built for Coding & Agentic Tasks reflection.ai \u00b7 Show TLDR",
       "title": "Reflection AI Launches Beam: 501B Open-Weight Model Built for Coding & Agentic Tasks reflection.ai \u00b7 Show TLDR",
       "url": "https://reflection.ai/blog/introducing-beam?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "be8fc480c667640aea46906e",
+      "discovered_at": "2026-10-07T21:57:53Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 7, 2026",
+      "search_score": 13,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch @WSJ @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures Join us at NousCon to celebrate and perhaps catch some sneak peeks x.com/NousResearch/s\u2026 Or come work for us! nousresearch.com/careers Oct 7, 2026 @NousResearch As reported in the @WSJ, we have raised a Series B to bring Hermes Agent to new frontiers (and, yes, build a mobile app) Thank you to our investors including @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures, among others wsj.com/pro/venture-ca\u2026 x.com/dillonrolnick/\u2026 Oct 7, 2026 @NousResearch x.com/witcheer/statu\u2026 Oct 7, 2026 @NousResearch Claude Opus 5.5 leads at 63.31 and $4.99 per task. GPT 6 Astra is second at 56.25 and $11.61. Sonnet 5.5 follows at 53.14 and $2.82. At the other end, DeepSeek V4.1 Flash scores 36.91 at $0.26 and Ling 3.0 Flash scores 21.56 at $0.054. Oct 6, 2026 @NousResearch Every model runs the same harness, with reasoning set high where offered. The index reports the mean score and the mean cost per task across the four suites. Hermes Bench info: Oct 6, 2026 @NousResearch We do this using an index of four benchmarks. One is our new benchmark, Hermes Bench. The others are Terminal-Bench 4.0, Terminal-Bench-Science, and SkillsBench. Oct 6, 2026 @NousResearch Introducing Hermes Index: an average of benchmarks measuring model performance in Hermes Agent. Our goal with Hermes Index is to better inform users choosing between models and to show labs how they perform in Hermes. portal.nousresearch.com/bench Oct 6, 2026 @NousResearch Hey Hermes book me a flight to nyc and find the cheapest hotel available and social engineer the person approving rsvps make no mistakes x.com/nousresearch/s\u2026 Oct 6, 2026 @NousResearch Evergreen x.com/sounddobad/sta\u2026 Oct 6, 2026 @NousResearch You should be able to use smarter models in your agent. You should be able to use cheaper models in your agent. You should be able to use local models in your agent. You should be able to use a different model for every job. You should be able to switch models in the middle of a conversation. You should be able to choose what data your agent has. You should be able to choose what it remembers and what it forgets. You should be able to choose what computer your agent runs on. You should be able to run it on a machine that never touches the internet. You should be able to run it while your laptop is closed. You should be able to reach it from the apps you already use. You should be able to choose how your agent thinks. You should be able to read the prompt it runs on. You should be able to see every tool it has, and turn off the ones you don't want. You should be able to teach it something once and never explain it again. You should be able to know what it did, and when, and why. You should be able to export your agent. You should be able to read the code. You should be able to change the code. Your agent should be yours. Oct 5, 2026",
+      "title": "@NousResearch @WSJ @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures Join us at NousCon to celebrate and perhaps catch some sneak peeks x.com/NousResearch/s\u2026 Or come work for us! nousresearch.com/careers Oct 7, 202",
+      "url": "https://x.com/NousResearch/status/2107880428111806730"
     },
     {
       "bootstrap": false,
@@ -2155,6 +2253,20 @@
       "summary": "Musubi Releases PolicyLM-1.7B: Open-Weight Content Policy Classifier Under 100ms musubilabs.ai \u00b7 Show TLDR",
       "title": "Musubi Releases PolicyLM-1.7B: Open-Weight Content Policy Classifier Under 100ms musubilabs.ai \u00b7 Show TLDR",
       "url": "https://www.musubilabs.ai/blog/introducing-policylm-1-7b?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "f39d26586a9bbbb17ae8bee8",
+      "discovered_at": "2026-10-07T21:57:50Z",
+      "kind": "independent-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-07T21:57:50Z",
+      "search_score": 8,
+      "source_name": "OpenRouter Rankings",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models Rankings data by OpenRouter is licensed under CC BY 4.0 . Reuse and republish it with attribution. The Data API docs cover the citation format and JSON access to these datasets. \u00a9 2026 OpenRouter, Inc Product Chat Rankings Benchmarks Apps Discover Models Ori Collections Providers Tools Pricing Business Enterprise Labs Company About Blog Careers Hiring Privacy Terms of Service Trust Center Support Works With OR Data Brand Developer Documentation API Reference Developer Platform Status AI Site Map Connect Discord GitHub LinkedIn X YouTube",
+      "title": "OpenRouter real-world model rankings changed",
+      "url": "https://openrouter.ai/rankings#edgeai-664b99d8d1508d59e241"
     },
     {
       "bootstrap": false,
@@ -2295,6 +2407,34 @@
       "summary": "Anthropic Expands Cyber Verification Program with 3-Tier Access for Security Pros anthropic.com \u00b7 Show TLDR",
       "title": "Anthropic Expands Cyber Verification Program with 3-Tier Access for Security Pros anthropic.com \u00b7 Show TLDR",
       "url": "https://www.anthropic.com/news/cyber-verification-program?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "9682867a2f613c9a6c55cbdc",
+      "discovered_at": "2026-10-07T21:57:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "OpenAI Launches GPT-6 and Intelligent UI for All 1.2B Weekly ChatGPT Users openai.com \u00b7 Show TLDR",
+      "title": "OpenAI Launches GPT-6 and Intelligent UI for All 1.2B Weekly ChatGPT Users openai.com \u00b7 Show TLDR",
+      "url": "https://openai.com/index/gpt-6-for-everyone/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "221b145950af7f1f5f3ecc9a",
+      "discovered_at": "2026-10-07T21:57:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "Microsoft Copilot Studio Sept 2026: Build Apps, Workflows & AI Agents Together microsoft.com \u00b7 Show TLDR",
+      "title": "Microsoft Copilot Studio Sept 2026: Build Apps, Workflows & AI Agents Together microsoft.com \u00b7 Show TLDR",
+      "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-build-apps-extend-agents-and-transform-business-processes-in-microsoft-copilot-studio/?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2452,6 +2592,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "876d6f1c3aa60a2865588c65",
+      "discovered_at": "2026-10-07T21:57:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "Google Launches SynthID Detector Globally to Identify AI-Generated Content blog.google \u00b7 Show TLDR",
+      "title": "Google Launches SynthID Detector Globally to Identify AI-Generated Content blog.google \u00b7 Show TLDR",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "54ed88bfa16aa334327fb5bf",
+      "discovered_at": "2026-10-07T21:57:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "Google Launches Playground: AI-Powered Game Creation Platform Requiring No Coding blog.google \u00b7 Show TLDR",
+      "title": "Google Launches Playground: AI-Powered Game Creation Platform Requiring No Coding blog.google \u00b7 Show TLDR",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "4c30b4b05fcb88bec2dc3e39",
       "discovered_at": "2026-10-07T16:48:32Z",
       "kind": "independent",
@@ -2533,6 +2701,20 @@
       "summary": "NVIDIA DGX Spark 64GB Launches at $4,999 With Clustering Support via Sync Assistant blogs.nvidia.com \u00b7 Show TLDR",
       "title": "NVIDIA DGX Spark 64GB Launches at $4,999 With Clustering Support via Sync Assistant blogs.nvidia.com \u00b7 Show TLDR",
       "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "276633348655bb1b12742fc4",
+      "discovered_at": "2026-10-07T21:57:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 0,
+      "source_name": "FutureTools AI News",
+      "summary": "Microsoft Surface Laptop Ultra launches with Nvidia RTX Spark chip, starting at $2,600 techcrunch.com \u00b7 Show TLDR",
+      "title": "Microsoft Surface Laptop Ultra launches with Nvidia RTX Spark chip, starting at $2,600 techcrunch.com \u00b7 Show TLDR",
+      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2659,6 +2841,20 @@
       "summary": "A native control room for your Claude Code agents Discussion | Link",
       "title": "devpit",
       "url": "https://www.producthunt.com/products/devpit"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "dd72c09ab1511030de239b7e",
+      "discovered_at": "2026-10-07T21:57:48Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-06T20:36:08-07:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "A coding agent CLI designed around small local models first Discussion | Link",
+      "title": "Reika",
+      "url": "https://www.producthunt.com/products/reika"
     },
     {
       "bootstrap": false,
@@ -3054,6 +3250,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-07T16:48:38Z",
+  "updated_at": "2026-10-07T21:57:54Z",
   "version": 2
 }

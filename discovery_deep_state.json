@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-07T16:48:38Z",
+    "at": "2026-10-07T21:57:54Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 5,
-    "queued": 3,
+    "prefiltered": 2,
+    "queued": 14,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 5,
     "warnings": 0
   },
-  "runs": 23,
+  "runs": 24,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -96,6 +96,11 @@
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/cupola"
+    },
+    "0c30926095c0d9d91fe3d640": {
+      "first_seen": "2026-10-07T21:57:48Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/imageflow-6"
     },
     "0c78b107823f053100b26f30": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -210,6 +215,11 @@
       "status": "queued",
       "url": "https://bfl.ai/contact"
     },
+    "19fba6a6a99b52bbbdd81539": {
+      "first_seen": "2026-10-07T21:57:48Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/velozity-2"
+    },
     "1a20b26310a65ef85250d8bd": {
       "first_seen": "2026-10-06T23:21:34Z",
       "status": "queued",
@@ -302,10 +312,25 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/"
     },
+    "205c105de580d142d0e5be16": {
+      "first_seen": "2026-10-07T21:57:47Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/claude-haiku-5-5?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "221b145950af7f1f5f3ecc9a": {
+      "first_seen": "2026-10-07T21:57:47Z",
+      "status": "queued",
+      "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-build-apps-extend-agents-and-transform-business-processes-in-microsoft-copilot-studio/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "231b7d382be19d5b20d18fa4": {
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/sorcrr"
+    },
+    "231befe88d753d0247c6f00f": {
+      "first_seen": "2026-10-07T21:57:48Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
     },
     "2571ca81601cbb2f20861273": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -316,6 +341,11 @@
       "first_seen": "2026-10-06T19:44:10Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/ari-helper"
+    },
+    "276633348655bb1b12742fc4": {
+      "first_seen": "2026-10-07T21:57:47Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "286a4c7e0865f7007f87bccb": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -538,6 +568,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/twelvelabs"
     },
+    "49ed414931058e2ec90de080": {
+      "first_seen": "2026-10-07T21:57:48Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/flowo-2"
+    },
     "4b22d7e89d4e656fa2874416": {
       "first_seen": "2026-10-03T11:34:54Z",
       "status": "queued",
@@ -633,6 +668,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/muse-22"
     },
+    "54ed88bfa16aa334327fb5bf": {
+      "first_seen": "2026-10-07T21:57:47Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "56214e5d22ef22f55c37175c": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -658,6 +698,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/thinking-orbs"
+    },
+    "590df63d3a724549f5f72ef7": {
+      "first_seen": "2026-10-07T21:57:54Z",
+      "status": "queued",
+      "url": "https://runway.com/enterprise-contact?utm_source=runway&utm_medium=homepagebanner&utm_campaign=twomonthsentfree"
     },
     "592453e9ac18ede6bfffb363": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -746,6 +791,11 @@
       "first_seen": "2026-10-03T00:46:02Z",
       "status": "queued",
       "url": "https://qwenlm.github.io/blog/qwen-mt/"
+    },
+    "61488943e7158664cad3e280": {
+      "first_seen": "2026-10-07T21:57:48Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/cinch-reminders-tasks"
     },
     "619069d4546663731f73800d": {
       "first_seen": "2026-10-03T21:50:36Z",
@@ -862,6 +912,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://bfl.ai/models/flux-3-video"
+    },
+    "7285d7b661f41f6ff0755320": {
+      "first_seen": "2026-10-07T21:57:54Z",
+      "status": "queued",
+      "url": "https://runway.com/enterprise-bonus-terms"
     },
     "72c33ca5921b8b738b231089": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -1045,6 +1100,11 @@
       "status": "queued",
       "url": "https://hermes-agent.nousresearch.com/docs/getting-started/installation#without-hermes-desktop"
     },
+    "876d6f1c3aa60a2865588c65": {
+      "first_seen": "2026-10-07T21:57:47Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "8772e2074f522b0572c0df09": {
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
@@ -1091,6 +1151,12 @@
       "status": "queued",
       "url": "https://qwenlm.github.io/blog/page/2/"
     },
+    "8e23c02c57a01a488a3f501a": {
+      "first_seen": "2026-10-07T21:57:48Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/studyquest"
+    },
     "8edf310cbf9c0577d1442636": {
       "first_seen": "2026-10-03T00:46:00Z",
       "search_score": 1,
@@ -1128,6 +1194,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/review-2"
+    },
+    "9682867a2f613c9a6c55cbdc": {
+      "first_seen": "2026-10-07T21:57:47Z",
+      "status": "queued",
+      "url": "https://openai.com/index/gpt-6-for-everyone/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "97397d7fa75c50842dda10c0": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -1323,6 +1394,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/agent-activity"
     },
+    "b05f1468807557e3aec70150": {
+      "first_seen": "2026-10-07T21:57:48Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/alkera"
+    },
     "b0e351c9646e33c8af9e09c7": {
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
@@ -1432,6 +1508,11 @@
       "status": "queued",
       "url": "https://stability.ai/deployment"
     },
+    "be8fc480c667640aea46906e": {
+      "first_seen": "2026-10-07T21:57:53Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2107880428111806730"
+    },
     "bf54f36d6ecbf3a8efe39831": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -1478,6 +1559,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://elevenlabs.io/blog/introducing-music-v2"
+    },
+    "c6a2e4ba2272d4f846cf8951": {
+      "first_seen": "2026-10-07T21:57:49Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-64185faeb906f7bf2de4"
     },
     "c6e30aab44ad97598838c4c3": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -1604,6 +1690,11 @@
       "status": "queued",
       "url": "https://www.kimi.com/en/products/kimi-browser-extension"
     },
+    "d820d527a66cc6767ec5fec6": {
+      "first_seen": "2026-10-07T21:57:53Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2107874963382538469"
+    },
     "d8ab4d76c879b4b86ad16d02": {
       "first_seen": "2026-10-04T23:29:38Z",
       "search_score": 1,
@@ -1635,6 +1726,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/coddy"
     },
+    "dc0f9416cdde2e252955ad20": {
+      "first_seen": "2026-10-07T21:57:48Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/walrus-console"
+    },
     "dc61cd9c23bdd4b5c1607fd2": {
       "first_seen": "2026-10-03T05:50:29Z",
       "search_score": 0,
@@ -1656,6 +1753,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://updates.midjourney.com/alpha-changelog-10-1-26/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "dd72c09ab1511030de239b7e": {
+      "first_seen": "2026-10-07T21:57:48Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/reika"
     },
     "ddc53f40aa2256bac4bde24b": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -1808,6 +1910,11 @@
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/sellio-2"
+    },
+    "f39d26586a9bbbb17ae8bee8": {
+      "first_seen": "2026-10-07T21:57:50Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-664b99d8d1508d59e241"
     },
     "f49337edd4415929aaa81e89": {
       "first_seen": "2026-10-03T00:46:04Z",

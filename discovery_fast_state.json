@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-07T09:14:38Z",
+    "at": "2026-10-07T16:39:28Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 55,
+    "queued": 12,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 22,
+  "runs": 23,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -41,6 +41,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2609.38181"
+    },
+    "037c9a6eec7a37f3bc367de9": {
+      "first_seen": "2026-10-07T16:39:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11474"
     },
     "0519b8fa6d0c3743abd360f7": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -283,6 +288,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc1"
     },
+    "1b8e85f13f6f91840163ac9e": {
+      "first_seen": "2026-10-07T16:39:20Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.904-beta"
+    },
     "1cf97cd9573961b03d43e8f5": {
       "first_seen": "2026-10-04T12:33:55Z",
       "status": "queued",
@@ -490,6 +500,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc1"
+    },
+    "356e43026a7ba565a76e47e3": {
+      "first_seen": "2026-10-07T16:39:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11468"
     },
     "3586cd6101eb2c93af827c02": {
       "first_seen": "2026-10-05T09:14:07Z",
@@ -727,6 +742,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06994"
     },
+    "4cf4b7306faaa5e44b0b4642": {
+      "first_seen": "2026-10-07T16:39:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11469"
+    },
     "4d3ec693be6f325b6a3f53ba": {
       "first_seen": "2026-10-03T00:46:07Z",
       "status": "too_old",
@@ -892,6 +912,11 @@
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06962"
+    },
+    "661f64ddb5f472a2675ed75a": {
+      "first_seen": "2026-10-07T16:38:55Z",
+      "status": "queued",
+      "url": "https://openai.com/index/teens-learn-and-plan"
     },
     "668277063e194c53bbb5b6b6": {
       "first_seen": "2026-10-05T09:14:07Z",
@@ -1550,6 +1575,11 @@
       "status": "too_old",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.17"
     },
+    "b6aec8c05cfc3e2f0fe39756": {
+      "first_seen": "2026-10-07T16:38:56Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
+    },
     "b6f6539d97ae14e80d20aead": {
       "first_seen": "2026-10-04T23:17:49Z",
       "status": "queued",
@@ -1715,6 +1745,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2609.38219"
     },
+    "c6df618ecceffebff6e3e3e2": {
+      "first_seen": "2026-10-07T16:39:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11471"
+    },
     "c75827da1cfa5e282979f290": {
       "first_seen": "2026-10-03T00:46:18Z",
       "status": "too_old",
@@ -1799,6 +1834,11 @@
       "first_seen": "2026-10-03T00:46:15Z",
       "status": "too_old",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.5"
+    },
+    "d01ebd3c72db89b95dfc9a57": {
+      "first_seen": "2026-10-07T16:39:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11475"
     },
     "d0594e3e3d8b36eb294ad37d": {
       "first_seen": "2026-10-03T00:45:50Z",
@@ -1896,6 +1936,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00010"
     },
+    "d6233baa7d5321cb0fc775bb": {
+      "first_seen": "2026-10-07T16:38:56Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
+    },
     "d66945ef830bb2f2ad061770": {
       "first_seen": "2026-10-03T00:45:51Z",
       "status": "queued",
@@ -1905,6 +1950,11 @@
       "first_seen": "2026-10-03T00:45:50Z",
       "status": "queued",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+    },
+    "d73ba1c5ca7dc0b3316d87f0": {
+      "first_seen": "2026-10-07T16:39:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11476"
     },
     "d79f9d5dd9f3ac78ec6ee6c1": {
       "first_seen": "2026-10-07T09:14:07Z",
@@ -1986,6 +2036,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.3"
     },
+    "e5f8df0d727db32b0276a182": {
+      "first_seen": "2026-10-07T16:39:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11477"
+    },
     "e630fdd4ef926151f40bdf60": {
       "first_seen": "2026-10-07T09:14:06Z",
       "status": "queued",
@@ -2040,6 +2095,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00003"
+    },
+    "eba0c9f2e14140d209a9a356": {
+      "first_seen": "2026-10-07T16:39:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11472"
     },
     "ebb413cc5359756bf9234b81": {
       "first_seen": "2026-10-07T02:28:18Z",

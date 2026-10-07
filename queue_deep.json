@@ -2452,6 +2452,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "4c30b4b05fcb88bec2dc3e39",
+      "discovered_at": "2026-10-07T16:48:32Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-07T14:53:51+00:00",
+      "search_score": 1,
+      "source_name": "Simon Willison Everything",
+      "summary": "Anti-Patterns in Software Blogging Some excellent writing advice from Michael Lynch. Michael warns against \"meandering intros\", misjudging your reader's existing knowledge, assuming they'll read your previous posts, and excessive formality. He also warns against overreliance on links as an excuse not to explain terminology. This one hurt! I do this all the time, but I have a nagging suspicion that almost nobody ever clicks on them. (In a Lobste.rs comment Michael clarifies that \"My rule of thumb is that my article should still make sense to the reader even if they don't click any links\". That works for me.) This point about using your own voice is crucial: Beginner software bloggers suffer from a mass delusion that you have to write in a stiff, overly formal way for people to take you seriously [...] Just write the way you talk. With so many developers delegating their writing to AI, software blogging is becoming bland and homogenous. Readers are hungry for writing with personality. Via Lobste.rs Tags: blogging , writing , michael-lynch",
+      "title": "Anti-Patterns in Software Blogging",
+      "url": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "16278565d50915517bc1148d",
       "discovered_at": "2026-10-06T19:44:11Z",
       "kind": "independent",
@@ -2519,6 +2533,20 @@
       "summary": "NVIDIA DGX Spark 64GB Launches at $4,999 With Clustering Support via Sync Assistant blogs.nvidia.com \u00b7 Show TLDR",
       "title": "NVIDIA DGX Spark 64GB Launches at $4,999 With Clustering Support via Sync Assistant blogs.nvidia.com \u00b7 Show TLDR",
       "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "79496cdb25d507d2bc6e03cf",
+      "discovered_at": "2026-10-07T16:48:32Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-05T09:46:44-07:00",
+      "search_score": 14,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "User journeys captured with natural language Discussion | Link",
+      "title": "DevAlly AI Agent",
+      "url": "https://www.producthunt.com/products/devally"
     },
     {
       "bootstrap": false,
@@ -2631,6 +2659,20 @@
       "summary": "A native control room for your Claude Code agents Discussion | Link",
       "title": "devpit",
       "url": "https://www.producthunt.com/products/devpit"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "7703ddeda66cd51a102ab3f7",
+      "discovered_at": "2026-10-07T16:48:32Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-06T19:05:50-07:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Turn requests into interactive interfaces on your screen Discussion | Link",
+      "title": "Aura by Neural",
+      "url": "https://www.producthunt.com/products/aura-by-neural"
     },
     {
       "bootstrap": false,
@@ -3012,6 +3054,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-07T09:23:09Z",
+  "updated_at": "2026-10-07T16:48:38Z",
   "version": 2
 }

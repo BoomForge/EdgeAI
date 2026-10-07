@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-07T09:23:09Z",
+    "at": "2026-10-07T16:48:38Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 4,
-    "queued": 9,
+    "prefiltered": 5,
+    "queued": 3,
     "sources_ok": 15,
-    "too_old": 9,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 22,
+  "runs": 23,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -554,6 +554,11 @@
       "status": "queued",
       "url": "https://ideogram.ai/models/4.5/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "4c30b4b05fcb88bec2dc3e39": {
+      "first_seen": "2026-10-07T16:48:32Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/"
+    },
     "4cbabd98657885edf602078e": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -605,6 +610,12 @@
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/brnch"
+    },
+    "5348c60bd5e91500ff590f30": {
+      "first_seen": "2026-10-07T16:48:32Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/vanoor-running-pacer-map"
     },
     "547de62c683a3d7ee5a6ead4": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -714,6 +725,12 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "6076147f11368437df66bba5": {
+      "first_seen": "2026-10-07T16:48:32Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/albie"
     },
     "60a54e9cf1c99374f99c8549": {
       "first_seen": "2026-10-05T18:53:47Z",
@@ -862,6 +879,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/speechshield"
     },
+    "7703ddeda66cd51a102ab3f7": {
+      "first_seen": "2026-10-07T16:48:32Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/aura-by-neural"
+    },
     "775cce2b8f031ba723e503c1": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "queued",
@@ -886,6 +908,11 @@
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/scumble"
+    },
+    "79496cdb25d507d2bc6e03cf": {
+      "first_seen": "2026-10-07T16:48:32Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/devally"
     },
     "795a17b1b19233adebcdd861": {
       "first_seen": "2026-10-06T19:44:10Z",
@@ -1070,6 +1097,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/gauth-ai-course"
     },
+    "905dc6245d43b31ec40ee091": {
+      "first_seen": "2026-10-07T16:48:32Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/plugins-radar"
+    },
     "907e5fd2d802aaae6e42ca23": {
       "first_seen": "2026-10-05T02:26:11Z",
       "status": "too_old",
@@ -1173,6 +1206,12 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://bfl.ai/models/flux-tools"
+    },
+    "a3a77eccfdf8ff450a462bff": {
+      "first_seen": "2026-10-07T16:48:32Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/rhem-labs"
     },
     "a42770df59d96ec6c9be2d27": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -1377,6 +1416,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/the-sentient-world"
+    },
+    "ba479076d0d4baac2b8f1773": {
+      "first_seen": "2026-10-07T16:48:32Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/supademo"
     },
     "baa74e9a2b5edff0a19caec4": {
       "first_seen": "2026-10-06T14:08:51Z",
@@ -1597,6 +1641,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/halo-11"
     },
+    "dc94f0ad092e5a022204f6b3": {
+      "first_seen": "2026-10-07T16:48:32Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/irisgo-public-beta"
+    },
     "dd052aeea45239ae007e7bd2": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -1699,6 +1749,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
+    },
+    "ea5393988595240846dbf311": {
+      "first_seen": "2026-10-07T16:48:32Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/redlamp"
     },
     "ec01d0cbd7fba1364c429a3b": {
       "first_seen": "2026-10-05T09:33:48Z",

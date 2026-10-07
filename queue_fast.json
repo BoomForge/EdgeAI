@@ -1906,6 +1906,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "4e324623ab7ca6fee0e14241",
+      "discovered_at": "2026-10-07T21:34:03Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Wed, 07 Oct 2026 07:00:00 GMT",
+      "search_score": 3,
+      "source_name": "OpenAI News",
+      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "url": "https://openai.com/index/radisson"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "d2b5b29b4c815525619915dc",
       "discovered_at": "2026-10-05T18:34:46Z",
       "kind": "official",
@@ -1931,6 +1945,20 @@
       "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
       "title": "Helping teens learn, plan, and shape the future of AI",
       "url": "https://openai.com/index/teens-learn-and-plan"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "a097ef0d441a7216b7cd0e23",
+      "discovered_at": "2026-10-07T21:34:03Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Wed, 07 Oct 2026 00:00:00 GMT",
+      "search_score": 0,
+      "source_name": "OpenAI News",
+      "summary": "GPT\u20116 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone"
     },
     {
       "bootstrap": false,
@@ -3166,6 +3194,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "ca551873aefbe34c428d82c2",
+      "discovered_at": "2026-10-07T21:34:12Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-07T17:53:43Z",
+      "search_score": 0,
+      "source_name": "llama.cpp Releases",
+      "summary": "cuda: update uncoalesced memory reads in pool2d cuda: Added perf and restrict in pool2d Update POOL2D_WARP_KERNEL_MIN_WINDOW macro Co-authored-by: Georgi Gerganov ggerganov@gmail.com cuda: Fix compiler bugs Co-authored-by: Georgi Gerganov ggerganov@gmail.com",
+      "title": "b11479: cuda: update uncoalesced memory reads in pool2d (#29425)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11479"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "281b47934e27b9a437486950",
       "discovered_at": "2026-10-07T09:14:13Z",
       "kind": "local-ai",
@@ -3457,51 +3499,9 @@
       "summary": "What's Changed \u26a0\ufe0f Compatibility Notes Handle draft-7 list-form items in JsonSchemaTransformer , TestModel and Mistral streamed output, and make TestModel accept boolean subschemas and cap prefixItems at maxItems by @dsfaccini in #9560 Fix ImageGeneration under FallbackModel and dataclasses.replace , and compare Embedder by identity by @dsfaccini in #9477 Refuse a second durable execution engine on an agent before either binds by @DouweM in #9391 Make wrap_* hooks enclose complete stage lifecycles by @adtyavrdhn in #7053 Re-raise model errors from Temporal model activities with their original type in workflow code by @DouweM in #9580 End the run when a BackgroundTools tool raises an unexpected exception, as a sequential tool does by @DouweM in #9434 Drop the SubAgents agent_folders default-change warning: since v2.52.0 ( #9023 ) the agents folder is not loaded by default, so pass agent_folders='agents' to keep loading it by @DouweM in #9424 \ud83d\ude80 Features Tint clai2 file diffs from the selected /theme palette by @mpfaffenberger in #9648 Make clai2 /update always install the newest build and restart into it, resuming the session by @mpfaffenberger in #9659 Disable RepoContext inventory by default by @DouweM in #9382 Give the CodeMode missing-return-schema warning its own CodeModeReturnSchemaWarning category by @DouweM in #9423 Add cancel_and_resume example: cancel and resume a streaming run by @DouweM in #7012 Reconnect dropped OpenAILiveModel sessions by forking a stored session or replaying the history by @DouweM in #9401 Default Pydantic AI-created HTTP clients to the OpenAI SDK's connection pool limits, and make create_async_httpx2_client() public by @DouweM in #9600 Use gpt-live-transcribe for OpenAI realtime's default input_transcription_model='auto' and list gpt-transcribe by @DouweM in #9402 Support WebSearchTool on OpenAI GPT-Live through its delegated backend by @DouweM in #9049 Add native to ExaSearch and YouSearch to prefer the model's native web search, and web_search_tool() for WebSearch(local=...) by @DouweM in #9386 Add a double- Esc conversation rewind menu to clai2 by @mpfaffenberger in #9688 Allow deleting unused models from the clai2 /model menu by @mpfaffenberger in #9696 \ud83d\udc1b Bug Fixes Fail closed in the shell realpath fallback when readlink cannot read a symlink by @dsfaccini in #9613 Stop importing the undeclared sniffio package in pydantic-evals and pydantic-ai-harness by @pydanty in #9620 Fall back from ImageGenerationTool to the local tool on Gemini text models, and keep tool output when a native tool falls back locally on Gemini 2.5 by @dsfaccini in #9551 Nest worktrees under their repository in the clai2 resume sidebar by @mpfaffenberger in #9667 Remove the clai2 resume-directory confirmation by @mpfaffenberger in #9682 Report clai2 startup plugin failures through observability by @mpfaffenberger in #9681 Show file diffs in compact clai2 tool output by @mpfaffenberger in #9687 Treat a null finish_reason on a SnowflakeModel response like an empty one by @DouweM in #9590 Refuse a LocalFileStore root another user owns, and log ToolOutputLimits spill and summarize fallbacks by @DouweM in #9020 State when the ConversationSearch default-scope warning will be removed by @DouweM in #9383 Warn when read_only=True removes every hosted MCP tool by @DouweM in #9387 Pin the request that started the current run, not the first prompt of the conversation, in the TrajectoryJudge window by @DouweM in #9425 Identify the search_tools tool by its tool_kind instead of its name by @DouweM in #9603 Find the tool search tool in CodeMode by its tool_kind , so a prefixed search tool still gets its notes by @DouweM in #9604 Log LLMReminder generation failures instead of silently falling back to GoalReanchor text by @DouweM in #9024 Include function tools run after the final result in run_stream() usage by @DouweM in #9694 Build the same ModelResponse from streamed and complete GoogleModel responses, and add Gemini 3 web search sources by @DouweM in #9594 Recover run state with RunCancelled.from_cancellation() when a DBOS workflow is cancelled by @DouweM in #9394 Make custom setup_logfire callbacks replay-safe and add replay_safe to LogfirePlugin by @DouweM in #9698 Raise ModelAPIError for undecodable 200 response bodies from Anthropic, Bedrock, Groq, Hugging Face, Google, and OpenAI embeddings and images by @DouweM in #9350 Keep the run state recoverable when Ctrl-C interrupts run_sync() by @DouweM in #9605 Clamp OpenAI realtime barge-in truncation at the profile's audio_output_sample_rate by @DouweM in #9399 Load a capability once when load_capability is called twice for it in one response by @DouweM in #9397 Keep a first-position ToolAvailabilityDeltaPart announcement out of the standing system prompt by @DouweM in #9413 Commit an ACP turn up to its usage limit instead of rolling it back by @DouweM in #9426 Preserve dependency extras in clai2 archive updates by @mpfaffenberger in #9690 Preserve text and reasoning part boundaries in OpenAIChatModel streams by @pydanty in #8729 Propagate a native cancel that lands during a command timeout's stop by @dsfaccini in #9675 Return the live token from PKCESignIn.token() when another clai2 session saved one without a refresh token by @dsfaccini in #9670 Keep BubblewrapWorkspace commands from running code on the SSH host through shell startup files or the SSHWorkspaceBackend stop script's PATH (VERIA-212) by @mpfaffenberger in #9673 Full Changelog : v2.53.0...v2.54.0",
       "title": "v2.54.0 (2026-10-02)",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.54.0"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "4d611d68a5a28f312281b92e",
-      "discovered_at": "2026-10-05T09:14:06Z",
-      "kind": "research",
-      "lane": "fast",
-      "priority": 3,
-      "published": "Mon, 05 Oct 2026 00:00:00 -0400",
-      "search_score": 19,
-      "source_name": "arXiv Artificial Intelligence",
-      "summary": "arXiv:2610.02267v1 Announce Type: new \nAbstract: Agent harnesses make many small, typed decisions per task: which model to call, which tool to use, whether retrieved text is relevant, whether an input carries an injection. System-1 decision models answer such questions in a single forward pass with class probabilities, promising large cost and latency savings over LLM calls. We present a paired evaluation of an open-weight (Laya) and a hosted (Jev) System-1 model on 11 agent decision points built from 18 public sources: 7,283 base cases plus 6,640 robustness variants, with byte-identical inputs, paired tests, and cross-hardware and cross-day reproducibility checks. Jev is significantly more accurate on 9 of 11 decision points (+10.8 to +46.0 pp). Neither model beats chance on zero-shot model routing, and they tie on RAG relevance gating. Laya changes 30% of its answers when the option order is reversed and degrades sharply with many or similar candidates (31% at 50 nearest-neighbour tools, vs. 98% for Jev on items with a unique correct tool). We also audit our own pipeline. Three analysis errors and one design confound distorted headline deployment claims: an omitted pre-screen cost (reported 23.9% saving, actual 4.3%), gate accuracy reported as end-to-end quality (58% vs. 98%), in-sample thresholds (5% target, up to 17% held-out misses), and a \"channel effect\" on injection false positives that vanishes with channel-native content. Two other suspected confounds did not change the conclusions. All cases, raw outputs and analysis code are available at https://github.com/David-DL-Space/sys1-eval.",
-      "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
-      "url": "https://arxiv.org/abs/2610.02267"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "25f0cb851e6be81052ca4ba0",
-      "discovered_at": "2026-10-05T09:14:06Z",
-      "kind": "research",
-      "lane": "fast",
-      "priority": 3,
-      "published": "Mon, 05 Oct 2026 00:00:00 -0400",
-      "search_score": 19,
-      "source_name": "arXiv Artificial Intelligence",
-      "summary": "arXiv:2610.02351v1 Announce Type: new \nAbstract: ReAct-based agents typically rely on a single LLM policy to propose actions, interact with the environment, and decide when a task is complete. This coupling makes action authorization and completion control difficult to enforce independently, allowing errors to propagate and unsupported completion claims to terminate execution. We introduce DeReAct, a modular agent architecture that externalizes two gating policies: a Critic that validates proposed actions before execution, and a Context Manager that reconstructs an environment-supported \\textsc{State} and certifies task completion.\n  Across GAIA and SWE-bench Verified, DeReAct improves Pass@1 most for weaker Brain models, with gains of 6.5--7.0 points for Qwen3-Coder-480B and 4.2--5.2 points for Claude Sonnet~4.5; gains diminish as Brain capability increases. Trajectory and ablation analyses show that external gating is effective when targeted failures are sufficiently prevalent and the gating policy is itself sufficient. With Claude Opus~4.5, Pass@1 remains comparable to ReAct, while DeReAct produces more evidence-complete and constraint-satisfying trajectories, indicating that completion control can trade earlier termination for stronger grounding. Overall, DeReAct improves weaker agents while retaining grounding benefits as models strengthen.",
-      "title": "DeReAct: Decomposed Reasoning and Acting for Reliable AI Agents",
-      "url": "https://arxiv.org/abs/2610.02351"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "8dce27f84ec6b99c43b15df9",
-      "discovered_at": "2026-10-07T09:14:07Z",
-      "kind": "research",
-      "lane": "fast",
-      "priority": 3,
-      "published": "Wed, 07 Oct 2026 00:00:00 -0400",
-      "search_score": 17,
-      "source_name": "arXiv Computation and Language",
-      "summary": "arXiv:2610.06903v1 Announce Type: new \nAbstract: Activation steering manipulates large language model behavior by intervening on internal activations, but the mechanistic basis of these interventions remains poorly understood. We decompose refusal steering into component-level interventions across four open-weight models, identifying the sparse subsets of attention and MLP components whose steering suffices to reproduce the full behavioral effect. We find that refusal directions concentrate in sparse component mechanisms comprising 28--48\\% of upstream components, retaining 88--101\\% of steering effectiveness. Within these mechanisms, effective steering further concentrates in approximately 50\\% of residual stream dimensions, retaining 85--98\\% of the component-mechanism baseline, consistent with a privileged basis structure. Sparsity thus operates at two levels: which components are steered, and which dimensions within those components carry the signal. Together these findings show that refusal is not diffusely encoded across a transformer but assembled by a structured, identifiable mechanism, providing a foundation for mechanistic understanding of how refusal behaviors are represented and steered. To facilitate reproducibility, we release all code and raw experimental results in https://github.com/wang-research-lab/Refusal_Mechanisms.",
-      "title": "Component and Dimension Sparsity in Transformer Refusal Mechanisms",
-      "url": "https://arxiv.org/abs/2610.06903"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-07T16:39:28Z",
+  "updated_at": "2026-10-07T21:34:40Z",
   "version": 2
 }

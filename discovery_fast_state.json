@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-07T16:39:28Z",
+    "at": "2026-10-07T21:34:40Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 12,
+    "queued": 11,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 23,
+  "runs": 24,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -627,6 +627,11 @@
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/prebuilt-wheels-cu13"
     },
+    "3ffac33d065197d239c07c7e": {
+      "first_seen": "2026-10-07T21:34:34Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.1"
+    },
     "4000ede4eb801587211df327": {
       "first_seen": "2026-10-07T09:14:06Z",
       "status": "queued",
@@ -762,6 +767,11 @@
       "status": "too_old",
       "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.3.dev"
     },
+    "4e324623ab7ca6fee0e14241": {
+      "first_seen": "2026-10-07T21:34:03Z",
+      "status": "queued",
+      "url": "https://openai.com/index/radisson"
+    },
     "4f36a48fa9096d65b0260699": {
       "first_seen": "2026-10-03T00:46:10Z",
       "status": "queued",
@@ -831,6 +841,11 @@
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06902"
+    },
+    "5b316ee253782d3fc69e8c17": {
+      "first_seen": "2026-10-07T21:34:26Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.102.3"
     },
     "5c2906c99bce192f35f89c35": {
       "first_seen": "2026-10-07T09:14:13Z",
@@ -1049,6 +1064,11 @@
       "status": "too_old",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.0"
     },
+    "76ff5abfdfc45f0df903bb1d": {
+      "first_seen": "2026-10-07T21:34:37Z",
+      "status": "queued",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.24"
+    },
     "77c569ee3623683d5b804985": {
       "first_seen": "2026-10-06T19:03:40Z",
       "status": "queued",
@@ -1103,6 +1123,11 @@
       "first_seen": "2026-10-03T00:46:07Z",
       "status": "too_old",
       "url": "https://github.com/ml-explore/mlx/releases/tag/v0.31.2"
+    },
+    "7b8542d687a9973af788f7d2": {
+      "first_seen": "2026-10-07T21:34:34Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.2.3"
     },
     "7bf864fb84afee764bd9474e": {
       "first_seen": "2026-10-07T09:14:07Z",
@@ -1178,6 +1203,11 @@
       "first_seen": "2026-10-05T09:14:16Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11403"
+    },
+    "843eb345c8a66c727a11ac68": {
+      "first_seen": "2026-10-07T21:34:26Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.4"
     },
     "86745252420db89333393bf9": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -1340,6 +1370,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02414"
     },
+    "9825f3c2238a6f0aa1983063": {
+      "first_seen": "2026-10-07T21:34:26Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.1"
+    },
     "9880aac42aa3a29fb78098ef": {
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
@@ -1439,6 +1474,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00031"
+    },
+    "a097ef0d441a7216b7cd0e23": {
+      "first_seen": "2026-10-07T21:34:03Z",
+      "status": "queued",
+      "url": "https://openai.com/index/gpt-6-for-everyone"
     },
     "a0e5f3129cf7b80a3faf2634": {
       "first_seen": "2026-10-07T09:14:06Z",
@@ -1770,6 +1810,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06963"
     },
+    "ca551873aefbe34c428d82c2": {
+      "first_seen": "2026-10-07T21:34:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11479"
+    },
     "ca6fadec58b05b0576c2acf4": {
       "first_seen": "2026-10-05T02:05:36Z",
       "status": "queued",
@@ -1839,6 +1884,11 @@
       "first_seen": "2026-10-07T16:39:04Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11475"
+    },
+    "d04ba0e64e4ee0639311519b": {
+      "first_seen": "2026-10-07T21:34:26Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.101.5"
     },
     "d0594e3e3d8b36eb294ad37d": {
       "first_seen": "2026-10-03T00:45:50Z",
@@ -2255,6 +2305,11 @@
       "first_seen": "2026-10-03T15:10:00Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11376"
+    },
+    "f98bf505388d59d014232eff": {
+      "first_seen": "2026-10-07T21:34:26Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.0-rc.2"
     },
     "f9e50d04dc76de5ab84338e3": {
       "first_seen": "2026-10-06T19:03:59Z",

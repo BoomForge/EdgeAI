@@ -1892,6 +1892,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "ebb413cc5359756bf9234b81",
+      "discovered_at": "2026-10-07T02:28:18Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Tue, 06 Oct 2026 12:00:00 GMT",
+      "search_score": 4,
+      "source_name": "OpenAI News",
+      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "url": "https://openai.com/index/jump-trading"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "d2b5b29b4c815525619915dc",
       "discovered_at": "2026-10-05T18:34:46Z",
       "kind": "official",
@@ -3485,23 +3499,9 @@
       "summary": "arXiv:2610.02251v1 Announce Type: new \nAbstract: Speculative sampling accelerates diffusion generation by verifying inexpensive draft states in parallel while preserving the target law. Recent tree-based methods allocate the parallel compute budget more effectively than single-chain drafts, as demonstrated by Diffusion Greedy Rejection Sampling (D-GRS). D-GRS generates $K$ conditionally independent candidates per node, and sequentially tests them in their generation order. Yet the sampled candidates admit an informative ranking without additional target-model evaluations. To exploit this, we introduce Rank-Aware Speculative Sampling (RASS), a verification rule for speculative draft trees based on rank-aware list coupling. RASS orders draft candidates along the proposal-target mean displacement and samples a rank with weights optimized to minimize total variation between the selected-proposal and target laws. Finally, the selected candidate is maximally coupled with the target, with residual correction ensuring exact sampling for any choice of rank weights. We evaluate RASS on a Gaussian-mixture target, unconditional pixel-space generation on FFHQ, conditional generation on CIFAR-10, and latent diffusion with Stable Diffusion 3.5 using COCO2014 prompts. Measured by the ratio of standard to speculative sampling's target-model evaluation counts, RASS improves on D-GRS across the evaluated settings, with gains reaching approximately 20% on CIFAR-10 at matched compute budgets.",
       "title": "Rank-Aware Speculative Sampling for Diffusion Draft Trees",
       "url": "https://arxiv.org/abs/2610.02251"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "aff938afa23326fcd0937d3a",
-      "discovered_at": "2026-10-05T09:14:07Z",
-      "kind": "research",
-      "lane": "fast",
-      "priority": 3,
-      "published": "Mon, 05 Oct 2026 00:00:00 -0400",
-      "search_score": 7,
-      "source_name": "arXiv Machine Learning",
-      "summary": "arXiv:2610.02252v1 Announce Type: new \nAbstract: Many scientific questions require reasoning about what was never observed: What if the conditions, interventions, or history had been different? Models can predict accurately on observed data yet fail on such what-if queries when correlated inputs are varied independently. A common remedy is to add controlled simulation data in which these factors are explicitly disentangled, but this requires access to a simulator, can be computationally expensive, and inherits the simulator's modeling assumptions. We introduce ReRoute, a framework for targeted scientific what-if prediction that combines factual data with partial mechanistic knowledge, without requiring controlled intervention data for adaptation. ReRoute fixes the queried input of a pretrained backbone to a reference value, reintroduces its variation through a known mechanistic pathway, and fine-tunes on the original factual data, while leaving downstream effects to the learned dynamics. We provide a causal identification result for this construction under explicit structural assumptions, with the core argument machine-checked in Lean. After showing that ReRoute achieves highly accurate counterfactual predictions in a controlled advection-diffusion system where exact responses are available, we turn to state-of-the-art climate emulation. On held-out coupled-climate interventions, ReRoute reduces aggregate climate error by 18.2-31.8% under severe CO$_2$ distribution shifts while preserving skill under standard conditions, at a small fraction of the cost of retraining on additional controlled simulations, without even accounting for the substantial expense of generating such data. Finally, on an emulator trained from historical ERA5 reanalysis, where no counterfactual reference exists, ReRoute preserves substantially more of the surface warming implied by the observed boundary conditions under a fixed-CO$_2$ counterfactual.",
-      "title": "Counterfactual Predictions in Scientific Emulators Without Controlled Experiments",
-      "url": "https://arxiv.org/abs/2610.02252"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-06T23:07:23Z",
+  "updated_at": "2026-10-07T02:28:53Z",
   "version": 2
 }

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-06T23:07:23Z",
+    "at": "2026-10-07T02:28:53Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 8,
+    "queued": 1,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 20,
+  "runs": 21,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -1795,6 +1795,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00003"
+    },
+    "ebb413cc5359756bf9234b81": {
+      "first_seen": "2026-10-07T02:28:18Z",
+      "status": "queued",
+      "url": "https://openai.com/index/jump-trading"
     },
     "ec478c07e5258496c497ee0f": {
       "first_seen": "2026-10-04T17:01:25Z",

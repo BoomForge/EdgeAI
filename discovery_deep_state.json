@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-06T23:21:35Z",
+    "at": "2026-10-07T02:37:01Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 10,
+    "prefiltered": 2,
+    "queued": 3,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 20,
+  "runs": 21,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -684,6 +684,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/chatgpt-space"
     },
+    "62c509640c5df97d86096bb9": {
+      "first_seen": "2026-10-07T02:36:56Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/"
+    },
     "637b19621e90d68905988d73": {
       "first_seen": "2026-10-04T00:34:30Z",
       "status": "queued",
@@ -1014,6 +1019,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/invofox"
     },
+    "96596417416c31a3a3fa9529": {
+      "first_seen": "2026-10-07T02:36:55Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/review-2"
+    },
     "97397d7fa75c50842dda10c0": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -1117,6 +1128,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/yubi-2"
+    },
+    "a919ba35a5e056c2278ba024": {
+      "first_seen": "2026-10-07T02:36:56Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/"
     },
     "a99e7c73be3208be7c0aeb2b": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -1285,6 +1301,17 @@
       "status": "queued",
       "url": "https://elevenlabs.io/blog/category/resources"
     },
+    "bf81a86bdbb1e23bc30a36a9": {
+      "first_seen": "2026-10-07T02:36:55Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/awakado"
+    },
+    "bfbb36d019dc362f19a26129": {
+      "first_seen": "2026-10-07T02:36:55Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/lecta"
+    },
     "bfe26c486afd130cfca54011": {
       "first_seen": "2026-10-06T23:21:29Z",
       "status": "queued",
@@ -1371,6 +1398,11 @@
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/cursor-remote-lite"
+    },
+    "d1e512dab3854dc0079a0149": {
+      "first_seen": "2026-10-07T02:36:56Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/"
     },
     "d30951486cef96799b23ba80": {
       "first_seen": "2026-10-06T00:46:20Z",

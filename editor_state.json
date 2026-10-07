@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-07T13:59:51Z",
-    "eligible": 146,
-    "evaluated": 4,
+    "at": "2026-10-07T19:57:06Z",
+    "eligible": 134,
+    "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -376,6 +376,11 @@
       "status": "expired",
       "url": "https://openai.com/index/the-den-family-social"
     },
+    "23519c33061b4d3a8332fad0": {
+      "at": "2026-10-07T19:56:51Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc1"
+    },
     "2413f51d9fd0e84982a2e97f": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -427,6 +432,11 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2106138356937810069"
+    },
+    "297411d31fdaf1eb6d49d8ca": {
+      "at": "2026-10-07T19:56:51Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2"
     },
     "2a8e5b2eeed733baf988d7ff": {
       "at": "2026-10-06T02:32:14Z",
@@ -543,6 +553,11 @@
       "status": "expired",
       "url": "https://runway.com/news/company-news/introducing-runway-ads?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "352fd1a742a2b25bda6bc124": {
+      "at": "2026-10-07T19:56:51Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/reviu"
+    },
     "36980dfdde9ab39e7f62d1f0": {
       "at": "2026-10-03T04:52:17Z",
       "bootstrap": true,
@@ -556,6 +571,11 @@
         "source": "Sakana AI Blog"
       },
       "url": "https://sakana.ai/marlin-update/"
+    },
+    "36b79bc33c67cccccf910ec6": {
+      "at": "2026-10-07T19:56:51Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11397"
     },
     "36bdd825e1b13d8b2bcea67a": {
       "at": "2026-10-04T19:34:00Z",
@@ -960,6 +980,11 @@
       },
       "url": "https://artificialanalysis.ai/changelog#edgeai-6d25e977ed7a7140f88e"
     },
+    "5f4ccb3f58f25105b57ac498": {
+      "at": "2026-10-07T19:56:51Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11392"
+    },
     "603d4f0592f632a4812d62a6": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -1056,6 +1081,20 @@
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11368"
+    },
+    "661f64ddb5f472a2675ed75a": {
+      "at": "2026-10-07T19:56:55Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "openai-chatgpt-for-teens-college-planner-features",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/teens-learn-and-plan"
     },
     "66ce92e5e68cbdb18eafdb5b": {
       "at": "2026-10-06T09:19:44Z",
@@ -1277,6 +1316,11 @@
       "status": "expired",
       "url": "https://newsletter.futurepedia.io/p/turn-your-messy-notes-into-a-clear-road-map-09-08-2026"
     },
+    "7f251a2320ab82b5ad20e1f3": {
+      "at": "2026-10-07T19:56:51Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/cloudflare"
+    },
     "80045661ac99ba741eea6b22": {
       "at": "2026-10-05T15:56:52Z",
       "status": "expired",
@@ -1371,6 +1415,11 @@
       "status": "ignored",
       "story_key": "openai-chatham-financial-case-study",
       "url": "https://openai.com/index/chatham-financial"
+    },
+    "8aacdfb29bf9c89067eb33f4": {
+      "at": "2026-10-07T19:56:51Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11393"
     },
     "8add0cfb6a7ad18320e08467": {
       "at": "2026-10-05T07:01:46Z",
@@ -1528,6 +1577,20 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00093"
     },
+    "9a0455be99171fe1a5f5d188": {
+      "at": "2026-10-07T19:57:06Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "nous-research-hermes-index-benchmark-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2107592263887147077"
+    },
     "9b2f8ba750283adbd5d7c4a3": {
       "at": "2026-10-05T07:02:23Z",
       "bootstrap": true,
@@ -1541,6 +1604,11 @@
         "source": "SGLang Releases"
       },
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21"
+    },
+    "9bd0f3ba37f1ffa053a05839": {
+      "at": "2026-10-07T19:56:51Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11395"
     },
     "9cf469a02c5a0aefacdc35d7": {
       "at": "2026-10-06T16:08:03Z",
@@ -1915,6 +1983,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11346"
     },
+    "cb72e5d0c728ffb026664314": {
+      "at": "2026-10-07T19:56:51Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11398"
+    },
     "cbc8926a28c802abf681f0b7": {
       "at": "2026-10-05T15:56:52Z",
       "status": "expired",
@@ -2258,6 +2331,11 @@
       "story_key": "openai-jump-trading-case-study",
       "url": "https://openai.com/index/jump-trading"
     },
+    "ec478c07e5258496c497ee0f": {
+      "at": "2026-10-07T19:56:51Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11391"
+    },
     "ed59254a0e36ad070ae8979e": {
       "at": "2026-10-04T15:54:47Z",
       "status": "expired",
@@ -2309,6 +2387,11 @@
         "source": "Sakana AI Blog"
       },
       "url": "https://sakana.ai/schmidhuber/"
+    },
+    "f57c46bf1463a1b4ffd18591": {
+      "at": "2026-10-07T19:56:51Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11396"
     },
     "f57eff9c23a4454b476bbb26": {
       "at": "2026-10-06T20:56:50Z",
@@ -3224,6 +3307,48 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 91,
         "source": "Simon Willison Everything"
+      }
+    },
+    "nous-research-hermes-index-benchmark-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-hermes-index-benchmark-release.jpg",
+      "last_updated": "2026-10-07T19:57:06Z",
+      "post_id": "1448446633511446929",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-launches-hermes-index-to_0691692606.html",
+      "score": 82,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/media/HT-M_1MXEAEMGC8?format=webp&name=large",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2107592263887147077"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Launches Hermes Index to Benchmark LLM Performance and Cost in Agentic Workloads",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      }
+    },
+    "openai-chatgpt-for-teens-college-planner-features": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openai-chatgpt-for-teens-college-planner-features.png",
+      "last_updated": "2026-10-07T19:56:55Z",
+      "post_id": "4069129234375671108",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-expands-chatgpt-for-teens-with.html",
+      "score": 82,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/48q2nDNP9Gj81cxL5sCOFv/e0692d4bcad2b81fad9b62b5bea904b7/teens-learn-and-plan-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/teens-learn-and-plan"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Expands ChatGPT for Teens with College Planner, Flashcards, and Quizzes",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
       }
     },
     "openai-disrupts-coordinated-model-distillation-campaign": {

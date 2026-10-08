@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-08T05:57:31Z",
-    "eligible": 138,
-    "evaluated": 4,
+    "at": "2026-10-08T13:21:23Z",
+    "eligible": 137,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 1,
     "publish_actions": 2,
@@ -269,6 +269,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11365"
     },
+    "13fc07cf0aa925c672839a5f": {
+      "at": "2026-10-08T13:20:55Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11404"
+    },
     "1441ff2ab9fdc9be50b63e1f": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -497,6 +502,11 @@
       "story_key": "artificial-analysis-changelog-updates-october-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-0c571b26db3fe2459e7c"
     },
+    "2d1ba5f9cd87f735ba5c106b": {
+      "at": "2026-10-08T13:20:55Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11405"
+    },
     "2d709db6f0def6fba375931e": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -711,6 +721,11 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/qwen3guard/"
+    },
+    "3bc52993114bf83f7f7db85e": {
+      "at": "2026-10-08T13:20:55Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11408"
     },
     "3c10e85f161e3d1d1b6983cc": {
       "at": "2026-10-06T02:32:14Z",
@@ -963,6 +978,20 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00126"
     },
+    "573f30c6a916bb5e735b4a6b": {
+      "at": "2026-10-08T13:21:23Z",
+      "bootstrap": false,
+      "score": 90,
+      "status": "updated",
+      "story_key": "nous-research-hermes-index-benchmark-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2107592258216206497"
+    },
     "57ed632908ae012313cd5937": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -1093,6 +1122,20 @@
       "status": "ignored",
       "story_key": "mistral-large-4-simon-willison-comment",
       "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/"
+    },
+    "62c509640c5df97d86096bb9": {
+      "at": "2026-10-08T13:21:06Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "llm-openai-decisions-plugin-simon-willison",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 89,
+        "source": "Simon Willison Everything"
+      },
+      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/"
     },
     "637b19621e90d68905988d73": {
       "at": "2026-10-07T06:34:08Z",
@@ -1419,6 +1462,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/cloudflare"
     },
+    "7fad564510a83e8eaffeb8a1": {
+      "at": "2026-10-08T13:20:55Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/rill-3"
+    },
     "80045661ac99ba741eea6b22": {
       "at": "2026-10-05T15:56:52Z",
       "status": "expired",
@@ -1487,6 +1535,11 @@
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0"
     },
+    "87329ec6bcf74e7615c2493a": {
+      "at": "2026-10-08T13:20:55Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11406"
+    },
     "874d80e9e31a5a4f86d4c985": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -1528,6 +1581,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.90"
+    },
+    "8b0675fd0a82299ef4f22821": {
+      "at": "2026-10-08T13:20:55Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11407"
     },
     "8b0edc8fdb04ddc5f4ef43b0": {
       "at": "2026-10-03T10:41:12Z",
@@ -1793,6 +1851,11 @@
       "at": "2026-10-03T18:39:51Z",
       "status": "expired",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.18.0"
+    },
+    "a42770df59d96ec6c9be2d27": {
+      "at": "2026-10-08T13:20:55Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/heygen"
     },
     "a453c4ad1ff40833bc74eb48": {
       "at": "2026-10-03T00:58:49Z",
@@ -2504,6 +2567,14 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc2"
+    },
+    "f1dd3c30e284d704e858ca26": {
+      "at": "2026-10-08T13:21:02Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-update-oct-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-dfce9a5c40dc0d0b3b1e"
     },
     "f2623f517e94709c38bd2067": {
       "at": "2026-10-07T06:34:08Z",
@@ -3247,6 +3318,27 @@
         "source": "llama.cpp Releases"
       }
     },
+    "llm-openai-decisions-plugin-simon-willison": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/llm-openai-decisions-plugin-simon-willison.png",
+      "last_updated": "2026-10-08T13:21:06Z",
+      "post_id": "5080067661313622237",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/simon-willison-releases-llm-openai.html",
+      "score": 82,
+      "source_image_source": "EdgeAI",
+      "source_image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/edgeai-newsroom-fallback.svg",
+      "source_urls": [
+        "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Simon Willison Releases llm-openai-decisions Plugin for OpenAI's New Decisions API",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 89,
+        "source": "Simon Willison Everything"
+      }
+    },
     "localai-v4-11-0-release": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/localai-v4-11-0-release.png",
@@ -3495,15 +3587,16 @@
     "nous-research-hermes-index-benchmark-release": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-hermes-index-benchmark-release.jpg",
-      "last_updated": "2026-10-08T05:57:31Z",
+      "last_updated": "2026-10-08T13:21:23Z",
       "post_id": "1448446633511446929",
       "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-launches-hermes-index-to_0691692606.html",
-      "score": 88,
+      "score": 90,
       "source_image_source": "Nous Research Announcements",
-      "source_image_url": "https://pbs.twimg.com/media/HT-dRVXXwAAwURU?format=webp&name=large",
+      "source_image_url": "https://pbs.twimg.com/media/HT-M5KzXIAAzHRC?format=webp&name=large",
       "source_urls": [
         "https://x.com/NousResearch/status/2107592263887147077",
-        "https://x.com/NousResearch/status/2107592260682391925"
+        "https://x.com/NousResearch/status/2107592260682391925",
+        "https://x.com/NousResearch/status/2107592258216206497"
       ],
       "status": "CONFIRMED",
       "title": "Nous Research Launches Hermes Index to Benchmark LLM Performance and Cost in Agentic Workloads",

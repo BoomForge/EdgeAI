@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-08T01:53:50Z",
+    "at": "2026-10-08T08:53:59Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 4,
+    "prefiltered": 10,
+    "queued": 7,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 4,
     "warnings": 0
   },
-  "runs": 25,
+  "runs": 26,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -66,6 +66,18 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/takweem-ai"
+    },
+    "05366116e12045798c5cc465": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tide-simple-self-hostable-video-calls"
+    },
+    "0658c3d44f7b5cdf8bafbf8f": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/mailwell-2"
     },
     "07805f8ccf0891a10c549358": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -343,10 +355,20 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
     },
+    "24089a8016c84891608f0945": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/kloudmate"
+    },
     "2571ca81601cbb2f20861273": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/crowny-2"
+    },
+    "259318d9feb078d2a298c2dc": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/sineframe-m3"
     },
     "271a8d37f09e7fec2947e57b": {
       "first_seen": "2026-10-06T19:44:10Z",
@@ -383,6 +405,12 @@
       "status": "queued",
       "url": "https://hermes-agent.nousresearch.com/docs"
     },
+    "2b585f6f4d613dd795f19156": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/ahem-calendar-overlay"
+    },
     "2c8b555f89725b795ac88b8d": {
       "first_seen": "2026-10-08T01:53:43Z",
       "status": "queued",
@@ -407,6 +435,12 @@
       "first_seen": "2026-10-06T23:21:31Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-d84b4efe976821bada1a"
+    },
+    "30d7f6182a51f14db0d05c06": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tonefold"
     },
     "315ca018630361ad01a8cc39": {
       "first_seen": "2026-10-06T14:08:51Z",
@@ -662,6 +696,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/brnch"
     },
+    "51e9644687d4622bc1d41619": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/openseo"
+    },
     "5348c60bd5e91500ff590f30": {
       "first_seen": "2026-10-07T16:48:32Z",
       "search_score": 0,
@@ -708,6 +748,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://sakana.ai/pc-alm/"
+    },
+    "582acc501becaba4fff59638": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/griffin-by-tavus"
     },
     "58654261fa9f0b658f22e707": {
       "first_seen": "2026-10-04T17:06:51Z",
@@ -863,6 +908,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
     },
+    "6676883e07115b3ec1aaa9de": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/clippo-2"
+    },
     "68f59b89b4d78cf84a0cdf21": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -918,6 +968,12 @@
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/spira-ai"
+    },
+    "6f6084433480be6ed79c0a4b": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/chime-sms-categorized-on-device"
     },
     "7157c7d19069852befd5724a": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -1020,6 +1076,12 @@
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/chargebee"
+    },
+    "7bd38f5c4e02d8c38897f9eb": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/side"
     },
     "7cfa53bfb68a578c85d85929": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -1325,6 +1387,11 @@
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-cd070dfc6907242d4a56"
     },
+    "a56a5684d29c63e96acf899b": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/openswarm-3"
+    },
     "a5831ffcc4141e67f84f5e7d": {
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "queued",
@@ -1492,6 +1559,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/knuff-app"
     },
+    "b6813875e7c1d6b069d9d1be": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/nova-18"
+    },
     "b800392f061efc350c642d5c": {
       "first_seen": "2026-10-06T19:44:15Z",
       "status": "queued",
@@ -1612,6 +1685,11 @@
       "status": "queued",
       "url": "https://www.kimi.com/en/blog/kimi-k3"
     },
+    "c9d9e5394f2cbbcab7e127a1": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/liquid-inference"
+    },
     "c9fca9e521cbe2a9fefa9d0a": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -1652,6 +1730,12 @@
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/cursor-remote-lite"
+    },
+    "cfe74026140204f1da364a30": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/simo-3"
     },
     "d1dfcca4ed604925cb790620": {
       "first_seen": "2026-10-08T01:53:48Z",
@@ -1827,6 +1911,11 @@
       "status": "queued",
       "url": "https://openai.com/index/atlassian-partnership/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "e0f4b229e9b7953d33441e48": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/drunken-penguins"
+    },
     "e13c3fccf40401a6444aa71d": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
@@ -1856,6 +1945,17 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/unprompt-2"
+    },
+    "e4e4cf13390eee7b2044e3d3": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/strac-comply"
+    },
+    "e5bf2fe3c121747cc53874fb": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/revela"
     },
     "e5e29b8c46bed49a08dcf72c": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -1900,6 +2000,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/chunk-2"
     },
+    "ee6bb2a4f1c515eca7c7cb27": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/botbus"
+    },
     "eeae4eda09cfd9e36977a75c": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -1917,6 +2022,11 @@
       "status": "prefiltered",
       "url": "https://newsletter.futurepedia.io/p/chatgpt-reads-the-fine-print-so-you-dont-have-to-09-29-2026"
     },
+    "ef8dc3e0756d057ef38462cf": {
+      "first_seen": "2026-10-08T08:53:54Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/vocera"
+    },
     "f0c7caee95f4b04d841dbc74": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -1931,6 +2041,11 @@
       "first_seen": "2026-10-03T15:15:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/bawkterm-an-open-source-ssh-sftp-client"
+    },
+    "f1dd3c30e284d704e858ca26": {
+      "first_seen": "2026-10-08T08:53:55Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-dfce9a5c40dc0d0b3b1e"
     },
     "f230893cf53ac02df16742a3": {
       "first_seen": "2026-10-06T14:08:51Z",

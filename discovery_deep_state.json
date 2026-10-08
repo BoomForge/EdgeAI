@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-08T08:53:59Z",
+    "at": "2026-10-08T16:26:01Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 10,
-    "queued": 7,
+    "prefiltered": 5,
+    "queued": 8,
     "sources_ok": 15,
-    "too_old": 4,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 26,
+  "runs": 27,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -73,6 +73,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/tide-simple-self-hostable-video-calls"
     },
+    "05ca3e77b86ce14128a9432c": {
+      "first_seen": "2026-10-08T16:25:55Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/chickytutor"
+    },
     "0658c3d44f7b5cdf8bafbf8f": {
       "first_seen": "2026-10-08T08:53:54Z",
       "search_score": 0,
@@ -83,6 +88,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/eleven-v4-and-eleven-v4-turbo"
+    },
+    "07dffacc5be464373897633e": {
+      "first_seen": "2026-10-08T16:26:00Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2108202803449692620"
     },
     "07ed550dd35ac918737ad4d0": {
       "first_seen": "2026-10-03T18:47:09Z",
@@ -360,6 +370,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/kloudmate"
     },
+    "25699d15b38305675ec53cee": {
+      "first_seen": "2026-10-08T16:25:55Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/claude-for-google-workspace"
+    },
     "2571ca81601cbb2f20861273": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
@@ -575,6 +590,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/dots-ui"
     },
+    "40dbf036065a48dd5c9389ac": {
+      "first_seen": "2026-10-08T16:25:55Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/isle-notch"
+    },
     "4131b6c07892f0629e8543a9": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -653,6 +673,12 @@
       "first_seen": "2026-10-06T00:46:26Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107210064549343358"
+    },
+    "4ef6ddedb2e4f33bddb28d3c": {
+      "first_seen": "2026-10-08T16:25:55Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/polylane"
     },
     "4ef7993f11bdb747fdda7690": {
       "first_seen": "2026-10-06T14:08:51Z",
@@ -995,10 +1021,21 @@
       "status": "queued",
       "url": "https://elevenlabs.io/blog/eleven-v3-is-now-generally-available"
     },
+    "72cf347d6d9c9a4ea133e56a": {
+      "first_seen": "2026-10-08T16:25:55Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/typeling"
+    },
     "72cff7e9ff09cb9335d92803": {
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/calnio"
+    },
+    "767d277bfa1d3e61b6f4b6c8": {
+      "first_seen": "2026-10-08T16:25:55Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/semwright"
     },
     "76c58bbf37be931e42694651": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -1119,6 +1156,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/cloudflare"
     },
+    "7f638f8a41665051a1bf6b08": {
+      "first_seen": "2026-10-08T16:25:55Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/aegis-14"
+    },
     "7fad564510a83e8eaffeb8a1": {
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "queued",
@@ -1161,6 +1204,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/patchcord-2"
+    },
+    "853a0c249788523a4e15541f": {
+      "first_seen": "2026-10-08T16:26:00Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2108231536772596193"
     },
     "8571b07198f5ded2fdce388f": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -1223,6 +1271,12 @@
       "first_seen": "2026-10-05T09:33:49Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-9e4133004a6812b634ce"
+    },
+    "8c8d770fd47419f05c82fa78": {
+      "first_seen": "2026-10-08T16:25:55Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tunnl-gg"
     },
     "8d28766e7ba5e0cab3974fb4": {
       "first_seen": "2026-10-03T00:46:02Z",
@@ -1324,6 +1378,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/foundrradio"
     },
+    "9b982b2cc135ef9267e47ef1": {
+      "first_seen": "2026-10-08T16:26:00Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2108201390493544680"
+    },
     "9c589f61789715c0571fcf74": {
       "first_seen": "2026-10-04T17:06:51Z",
       "search_score": 0,
@@ -1365,6 +1424,12 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://bfl.ai/models/flux-tools"
+    },
+    "a1f40c1d808a5628c37177a0": {
+      "first_seen": "2026-10-08T16:25:55Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/hark-3"
     },
     "a3a77eccfdf8ff450a462bff": {
       "first_seen": "2026-10-07T16:48:32Z",
@@ -1602,6 +1667,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/doco-4"
     },
+    "bdc3c2af02f44af22bcadb19": {
+      "first_seen": "2026-10-08T16:25:55Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/clawcall"
+    },
     "bdccd1b2e1deb4b775d390e6": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -1831,6 +1901,11 @@
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/claude-just-did-a-months-work-in-a-single-day-09-25-2026"
     },
+    "da5386cfb0b962647e8e6f07": {
+      "first_seen": "2026-10-08T16:25:59Z",
+      "status": "queued",
+      "url": "https://sakana.ai/sakana-ai-insider/"
+    },
     "db683f801c4abf511c3d7251": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
@@ -1982,6 +2057,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
+    },
+    "e9a128e279ff480986fb87f4": {
+      "first_seen": "2026-10-08T16:25:56Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-fbc099ea16b6dac2e560"
     },
     "ea5393988595240846dbf311": {
       "first_seen": "2026-10-07T16:48:32Z",

@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-07T19:57:06Z",
-    "eligible": 134,
-    "evaluated": 2,
+    "at": "2026-10-08T00:10:05Z",
+    "eligible": 141,
+    "evaluated": 5,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -64,6 +64,11 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics"
+    },
+    "00795a5db0aa8849a50cc2d5": {
+      "at": "2026-10-08T00:09:43Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc3"
     },
     "0108f5a0b1758cecc286938e": {
       "at": "2026-10-03T00:58:43Z",
@@ -623,6 +628,11 @@
       },
       "url": "https://runway.com/research/introducing-praxis-1"
     },
+    "39d9d32aec31bf39472f496d": {
+      "at": "2026-10-08T00:09:43Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/pilot5-ai"
+    },
     "39f346da5a98b4d9b1195855": {
       "at": "2026-10-05T15:57:03Z",
       "bootstrap": true,
@@ -848,6 +858,14 @@
       },
       "url": "https://www.minimax.io/news/minimax-speech-28"
     },
+    "4e324623ab7ca6fee0e14241": {
+      "at": "2026-10-08T00:09:56Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "radisson-chatgpt-plugin-openai",
+      "url": "https://openai.com/index/radisson"
+    },
     "4f36a48fa9096d65b0260699": {
       "at": "2026-10-04T11:20:52Z",
       "status": "expired",
@@ -922,6 +940,14 @@
         "source": "Sakana AI Blog"
       },
       "url": "https://sakana.ai/pc-alm/"
+    },
+    "590df63d3a724549f5f72ef7": {
+      "at": "2026-10-08T00:10:01Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "runway-enterprise-promo-contact-sales",
+      "url": "https://runway.com/enterprise-contact?utm_source=runway&utm_medium=homepagebanner&utm_campaign=twomonthsentfree"
     },
     "5a75b8a901e4f4a9de9bb579": {
       "at": "2026-10-04T11:20:58Z",
@@ -1134,6 +1160,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/jarviscore"
     },
+    "69f5bd9058f87f8c2c946d7c": {
+      "at": "2026-10-08T00:09:43Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/"
+    },
     "6a7bb4e3e69d69f535f566ea": {
       "at": "2026-10-05T15:56:52Z",
       "status": "expired",
@@ -1229,6 +1260,14 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.49.0"
+    },
+    "7285d7b661f41f6ff0755320": {
+      "at": "2026-10-08T00:09:59Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "runway-enterprise-bonus-terms",
+      "url": "https://runway.com/enterprise-bonus-terms"
     },
     "72c33ca5921b8b738b231089": {
       "at": "2026-10-03T18:39:54Z",
@@ -1643,6 +1682,20 @@
       "story_key": "elevenlabs-blog-feed-snapshot",
       "url": "https://elevenlabs.io/blog/category/company"
     },
+    "a097ef0d441a7216b7cd0e23": {
+      "at": "2026-10-08T00:10:05Z",
+      "bootstrap": false,
+      "score": 96,
+      "status": "published",
+      "story_key": "openai-gpt-6-intelligent-ui",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/gpt-6-for-everyone"
+    },
     "a0fc53049f812f1dd1c7f6cb": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -1831,6 +1884,11 @@
       "story_key": "black-forest-labs-creator-program",
       "url": "https://bfl.ai/creator-program"
     },
+    "b6f6539d97ae14e80d20aead": {
+      "at": "2026-10-08T00:09:43Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11399"
+    },
     "b778f0165434de015b1547ec": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -1923,6 +1981,20 @@
       },
       "url": "https://elevenlabs.io/blog/introducing-music-v2"
     },
+    "c6a2e4ba2272d4f846cf8951": {
+      "at": "2026-10-08T00:09:52Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "artificial-analysis-claude-haiku-55-benchmarks-2026-10",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-64185faeb906f7bf2de4"
+    },
     "c6db10f97f0537c0086d63a2": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -1977,6 +2049,11 @@
         "source": "Black Forest Labs Blog"
       },
       "url": "https://bfl.ai/licensing"
+    },
+    "ca6fadec58b05b0576c2acf4": {
+      "at": "2026-10-08T00:09:43Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11400"
     },
     "cb0a640f808b77e77b1219c5": {
       "at": "2026-10-05T15:56:52Z",
@@ -2561,6 +2638,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Artificial Analysis Updates Benchmark Changelog with Recent Model Performance Data",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
+    "artificial-analysis-claude-haiku-55-benchmarks-2026-10": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-claude-haiku-55-benchmarks-2026-10.jpg",
+      "last_updated": "2026-10-08T00:09:52Z",
+      "post_id": "267278028353877297",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/artificial-analysis-adds-benchmark-data.html",
+      "score": 85,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-64185faeb906f7bf2de4"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Adds Benchmark Data for Anthropic's Claude Haiku 5.5",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
@@ -3395,6 +3493,27 @@
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-gpt-6-intelligent-ui": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-gpt-6-intelligent-ui.jpg",
+      "last_updated": "2026-10-08T00:10:05Z",
+      "post_id": "8104750290580581329",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-announces-gpt-6-with-intelligent.html",
+      "score": 96,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/5frqtUAWccstAbVrCFraH6/5ae9b6bfbc3f3dff8001ed249812f97d/Intelligent-UI_Art-Card_16x9.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/gpt-6-for-everyone"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Announces GPT-6 with \"Intelligent UI\" and Faster Reasoning",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
         "source": "OpenAI News"
       }
     },

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-08T07:31:53Z",
+    "at": "2026-10-08T14:56:36Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 50,
+    "prefiltered": 2,
+    "queued": 13,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 26,
+  "runs": 27,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -288,6 +288,11 @@
       "status": "too_old",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.18"
     },
+    "19484ef3250af48f56713734": {
+      "first_seen": "2026-10-08T14:56:24Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.102.4"
+    },
     "19a126f9c52e35faaae01ee0": {
       "first_seen": "2026-10-03T00:46:15Z",
       "status": "too_old",
@@ -338,10 +343,20 @@
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.904-beta"
     },
+    "1c80b3847e5e582872f28009": {
+      "first_seen": "2026-10-08T14:56:24Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.101.6"
+    },
     "1cf97cd9573961b03d43e8f5": {
       "first_seen": "2026-10-04T12:33:55Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11388"
+    },
+    "1dc67391a9e2cf42818e7b9f": {
+      "first_seen": "2026-10-08T14:56:24Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.0-rc.3"
     },
     "1def5ac72d467db84fc97c16": {
       "first_seen": "2026-10-04T12:33:55Z",
@@ -387,6 +402,12 @@
       "first_seen": "2026-10-07T09:14:06Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06881"
+    },
+    "24f2e03514de03584416db6e": {
+      "first_seen": "2026-10-08T14:56:03Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/maps/google-maps-fan-favorite-dining-list/"
     },
     "2553159a4f32c9968b59109d": {
       "first_seen": "2026-10-03T05:43:34Z",
@@ -504,6 +525,11 @@
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.900-beta"
     },
+    "2df7efde6b87d44a5e2ee7c1": {
+      "first_seen": "2026-10-08T14:56:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11501"
+    },
     "2e09df471c5417f8c2e39eda": {
       "first_seen": "2026-10-08T07:31:26Z",
       "status": "queued",
@@ -513,6 +539,11 @@
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08826"
+    },
+    "2eafb85fadef752a571fd7b2": {
+      "first_seen": "2026-10-08T14:56:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11500"
     },
     "30a028d33d452e4f44f01fa3": {
       "first_seen": "2026-10-06T19:03:40Z",
@@ -778,6 +809,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11434"
     },
+    "4208f9cee11d97df60c85685": {
+      "first_seen": "2026-10-08T14:56:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11504"
+    },
     "4244b75a9e431210953db3d0": {
       "first_seen": "2026-10-03T00:46:13Z",
       "status": "too_old",
@@ -893,6 +929,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.2"
     },
+    "4f8bbc5cc6eedd4e461b193f": {
+      "first_seen": "2026-10-08T14:56:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11499"
+    },
     "5036f5960e5c005d77fbc3e8": {
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
@@ -953,6 +994,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11448"
     },
+    "5a6c4821fe4b8d3aa5cb51c2": {
+      "first_seen": "2026-10-08T14:56:03Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/"
+    },
     "5a9041d41ad0b95106e213b7": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "too_old",
@@ -987,6 +1033,11 @@
       "first_seen": "2026-10-04T17:01:25Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11392"
+    },
+    "5f6db8b0b36e1913b73609aa": {
+      "first_seen": "2026-10-08T14:56:24Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.2"
     },
     "5fa8ed454b1399f2c002042e": {
       "first_seen": "2026-10-03T00:46:13Z",
@@ -1123,6 +1174,11 @@
       "first_seen": "2026-10-05T09:14:16Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11410"
+    },
+    "6a68d2a0f478d498b02bda57": {
+      "first_seen": "2026-10-08T14:56:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11503"
     },
     "6a7bb4e3e69d69f535f566ea": {
       "first_seen": "2026-10-03T00:45:50Z",
@@ -1511,6 +1567,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00024"
     },
+    "926c73c571be8f6363c450d0": {
+      "first_seen": "2026-10-08T14:56:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11502"
+    },
     "933cad394df844996ff7915b": {
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "queued",
@@ -1655,6 +1716,12 @@
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "too_old",
       "url": "https://github.com/continuedev/continue/releases/tag/v1.2.24-vscode"
+    },
+    "a018d30291dfb638fae47af2": {
+      "first_seen": "2026-10-08T14:56:03Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/maps/google-maps-restaurant-tips-tricks/"
     },
     "a0219a244e273a8e5ed720d7": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -1855,6 +1922,11 @@
       "first_seen": "2026-10-07T09:14:06Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06971"
+    },
+    "b8d4fc972195dba2f907f39b": {
+      "first_seen": "2026-10-08T14:56:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11506"
     },
     "b900b7f12d6f003ba0f42d94": {
       "first_seen": "2026-10-03T00:45:51Z",
@@ -2306,6 +2378,11 @@
       "first_seen": "2026-10-05T18:34:46Z",
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/education/gemini-student-newscast/"
+    },
+    "e1f52aa5c9ca591760756c0c": {
+      "first_seen": "2026-10-08T14:56:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11505"
     },
     "e210849485e3a27ebb8b68ef": {
       "first_seen": "2026-10-05T09:14:06Z",

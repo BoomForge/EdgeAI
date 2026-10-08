@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-08T16:26:01Z",
+    "at": "2026-10-08T21:27:41Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 5,
-    "queued": 8,
+    "prefiltered": 1,
+    "queued": 14,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 27,
+  "runs": 28,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -463,6 +463,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/appto"
     },
+    "3164e64241a7d8fc31b2daa2": {
+      "first_seen": "2026-10-08T21:27:34Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "323fd1087f594a308741cd5a": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
@@ -559,6 +564,11 @@
       "status": "queued",
       "url": "https://mistral.ai/news/mistral-large-4/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "3ccf3de22994731127247487": {
+      "first_seen": "2026-10-08T21:27:36Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-989879af9de3ff049b6e"
+    },
     "3d9482c11cf663a63fe7f54d": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -568,6 +578,11 @@
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/cosmic"
+    },
+    "3fd780cf9f0f9d8af472aa01": {
+      "first_seen": "2026-10-08T21:27:35Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/judged-systems"
     },
     "4048c279d9cd7af57e2f645a": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -712,6 +727,11 @@
       "status": "queued",
       "url": "https://www.minimax.io/audio"
     },
+    "50b37877a7cd8a8d77b11c89": {
+      "first_seen": "2026-10-08T21:27:34Z",
+      "status": "queued",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "50e2bcc2b71bcb3a35743f8a": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -826,6 +846,17 @@
       "first_seen": "2026-10-07T09:23:08Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107671544818200968"
+    },
+    "5d0e03925a09a55df82ef680": {
+      "first_seen": "2026-10-08T21:27:34Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "5db9ed4d8d0e1704c4859b53": {
+      "first_seen": "2026-10-08T21:27:35Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/simple-workout-log"
     },
     "5e6e795ab4db508e57bb9a41": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -959,6 +990,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/una-mano"
     },
+    "6a857c81af1808e684971dcb": {
+      "first_seen": "2026-10-08T21:27:34Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/news/genesis-mission-commitment?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "6aea9d2a251416b544a5eece": {
       "first_seen": "2026-10-05T09:33:48Z",
       "search_score": 0,
@@ -1067,6 +1103,11 @@
       "first_seen": "2026-10-03T15:15:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/miso-com"
+    },
+    "785ae5d61ec0075f6154b90e": {
+      "first_seen": "2026-10-08T21:27:34Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky?utm_source=futuretools.io&utm_medium=newspage"
     },
     "788c0a497542431958d6f48b": {
       "first_seen": "2026-10-06T19:44:12Z",
@@ -1262,6 +1303,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/capybara-court"
     },
+    "8a3406e6a76a97fc77fa230c": {
+      "first_seen": "2026-10-08T21:27:34Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "8b0edc8fdb04ddc5f4ef43b0": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
@@ -1405,6 +1451,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/otpfill"
     },
+    "9fd35c15f72452089f53fad6": {
+      "first_seen": "2026-10-08T21:27:34Z",
+      "status": "queued",
+      "url": "https://claude.com/resources/articles/dashboards-and-motion?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "a056268300c5b68e6b2cf85b": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -1430,6 +1481,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/hark-3"
+    },
+    "a3323ce37a6dcf1415e1b97e": {
+      "first_seen": "2026-10-08T21:27:34Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission?utm_source=futuretools.io&utm_medium=newspage"
     },
     "a3a77eccfdf8ff450a462bff": {
       "first_seen": "2026-10-07T16:48:32Z",
@@ -1466,6 +1522,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/communicate"
+    },
+    "a5daa58e03241b1f55767a99": {
+      "first_seen": "2026-10-08T21:27:35Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/offstage"
     },
     "a6ce8ee62eb8a0b82d296cd7": {
       "first_seen": "2026-10-03T15:15:03Z",
@@ -1698,6 +1759,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/lecta"
     },
+    "bfd5c674822307695b5ce33d": {
+      "first_seen": "2026-10-08T21:27:34Z",
+      "status": "queued",
+      "url": "https://about.fb.com/news/2026/10/debunking-the-biggest-data-center-myths/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "bfe26c486afd130cfca54011": {
       "first_seen": "2026-10-06T23:21:29Z",
       "status": "queued",
@@ -1869,6 +1935,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/chatgpt-just-learned-to-use-your-computer-09-11-2026"
+    },
+    "d78c809701169b7e2e2c2fbf": {
+      "first_seen": "2026-10-08T21:27:34Z",
+      "status": "queued",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026?utm_source=futuretools.io&utm_medium=newspage"
     },
     "d7cfcc46f736c325047d8294": {
       "first_seen": "2026-10-03T00:46:03Z",
@@ -2073,6 +2144,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/netra"
+    },
+    "ed14048bb9127b900e68489f": {
+      "first_seen": "2026-10-08T21:27:35Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/8/carson-gross/"
     },
     "ed82d4f7bef7b92794d268a2": {
       "first_seen": "2026-10-06T19:44:10Z",

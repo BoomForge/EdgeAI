@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-07T21:57:54Z",
+    "at": "2026-10-08T01:53:50Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 14,
+    "prefiltered": 1,
+    "queued": 4,
     "sources_ok": 15,
-    "too_old": 5,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 24,
+  "runs": 25,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -148,6 +148,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/le-chonk/"
     },
+    "1040f15dec51655d9da5e598": {
+      "first_seen": "2026-10-08T01:53:48Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2108005475895701712"
+    },
     "10e556402d45283b9552e036": {
       "first_seen": "2026-10-06T23:21:29Z",
       "status": "queued",
@@ -173,6 +178,12 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/anthroposcaper"
+    },
+    "127639cc62d76a80ea31db16": {
+      "first_seen": "2026-10-08T01:53:41Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/basedash"
     },
     "127ad52c186b3e2b46155617": {
       "first_seen": "2026-10-06T14:08:51Z",
@@ -371,6 +382,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://hermes-agent.nousresearch.com/docs"
+    },
+    "2c8b555f89725b795ac88b8d": {
+      "first_seen": "2026-10-08T01:53:43Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-0c571b26db3fe2459e7c"
     },
     "2ea6f168ee68eda93378195a": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -939,6 +955,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/aura-by-neural"
     },
+    "772ea628020792eed6657fed": {
+      "first_seen": "2026-10-08T01:53:41Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/viibeo"
+    },
     "775cce2b8f031ba723e503c1": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "queued",
@@ -1025,6 +1046,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/turn-your-messy-notes-into-a-clear-road-map-09-08-2026"
+    },
+    "7eac6b6be14b4ece298b52bc": {
+      "first_seen": "2026-10-08T01:53:41Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/zavi"
     },
     "7f251a2320ab82b5ad20e1f3": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -1627,6 +1653,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/cursor-remote-lite"
     },
+    "d1dfcca4ed604925cb790620": {
+      "first_seen": "2026-10-08T01:53:48Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2107975473229918360"
+    },
     "d1e512dab3854dc0079a0149": {
       "first_seen": "2026-10-07T02:36:56Z",
       "status": "queued",
@@ -1935,6 +1966,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/"
+    },
+    "f60f92689e069107e062ec54": {
+      "first_seen": "2026-10-08T01:53:42Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/7/ben-affleck/"
     },
     "f8337d5201ca41f6b38e2a43": {
       "first_seen": "2026-10-06T06:55:27Z",

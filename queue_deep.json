@@ -1808,6 +1808,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "2c8b555f89725b795ac88b8d",
+      "discovered_at": "2026-10-08T01:53:43Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-10-08T01:53:43Z",
+      "search_score": 43,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 07 Oct 2026 New language model evaluation results available Claude Haiku 5.5 (High) Intelligence Index: 38 New language model evaluation results available Claude Haiku 5.5 (Low) Intelligence Index: 29 New language model evaluation results available Claude Haiku 5.5 (Medium) Intelligence Index: 34 New language model evaluation results available Claude Haiku 5.5 (Max) Intelligence Index: 43 New language model evaluation results available Claude Haiku 5.5 (Xhigh) Intelligence Index: 41 LithosAI performance results now available GLM 5.3 Flash Nebius performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Anthropic performance results now available Claude Haiku 5.5 (Low) Claude Haiku 5.5 (Xhigh) Claude Haiku 5.5 (Medium) Claude Haiku 5.5 (Max) Claude Haiku 5.5 (High) 06 Oct 2026 \ud83d\udd14 New article published Mistral has released Mistral Large 4, making France home to the most intelligent model outside the US and China Mistral has released Mistral Large 4, scoring 38 on the Artificial Analysis Intelligence Index; France is back to having the most intelligent model from outside the US and China New language model evaluation results available Mistral Large 4 Preview Intelligence Index: 38 Microsoft Azure performance results now available GPT-6 Luna (High) Google performance results now available Claude Opus 5.5 (Max, Default Fallback) Inco performance results now available Kimi K3 (Max) GMI performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash DigitalOcean performance results now available Llama 4 Maverick Gemma 4 31B (Non-reasoning) Gemma 4 31B (Reasoning) Nemotron 3 Nano Omni 30B A3B Reasoning Ministral 3 14B DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4 Pro 0813 (Non-reasoning) GLM-5.3 (Low) Kimi K3 (Low) Mistral performance results now available Mistral Large 4 Preview 05 Oct 2026 Amazon Bedrock performance results now available Claude Opus 5.5 (Max, Default Fallback) Microsoft Azure performance results now available Claude Sonnet 5.5 (Max, Default Fallback) Claude Sonnet 5.5 (Low, Default Fallback) Claude Opus 5.5 (Max, Default Fallback) Claude Opus 5.5 (Low, Default Fallback) GPT-6 Luna (Non-reasoning) GPT-6.1 Sol (Max) PrimaLabs performance results now available GLM 5.3 Flash 04 Oct 2026 OpenAI performance results now available GPT-6.1 Sol (Max) 03 Oct 2026 New language model evaluation results available Ling 3.1 Flash Intelligence Index: 41 InclusionAI performance results now available Ling 3.1 Flash 01 Oct 2026 New language model evaluation results available Grok 4.7 (Low) Intelligence Index: 42 Institute of Foundation Models performance results now available K2 Horizon 375B A23B LithosAI performance results now available GLM 5.3 Flash GLM 5.3 Flash Bitdeer AI performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) SpaceXAI performance results now available Grok 4.7 (Low) 30 Sept 2026 \ud83d\udd14 New article published Korean AI Lab Upstage releases Solar Mini 4 Korean AI Lab Upstage has released Solar Mini 4 which scores 24 on the Artificial Analysis Intelligence Index, but costs ~5x as much per task as GPT-6 Luna (max) despite similar per-token prices \ud83d\udd14 New article published Gemini 4 Argon: Google is back as one of the top three labs in intelligence achieved Google\u2019s new Gemini 4 Argon equals GPT-6 Astra on the Artificial Analysis Intelligence Index at 60% of the Cost per Task with discounted prices. Google is now back to being one of the top three labs in intelligence achieved New language model evaluation results available Solar Mini 4 Intelligence Index: 24 New language model evaluation results available Gemini 4 Argon (High) Intelligence Index: 53 Upstage performance results now available Solar Mini 4 Novita performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash Modular performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Google performance results now available Gemini 4 Argon (High) 29 Sept 2026 \ud83d\udd14 New article published AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations Our open-source tool for testing how fast agentic AI runs on laptops and workstations, with launch results for the DGX Spark, Ryzen AI Halo, MacBook Pro (M5 Pro) and RTX 5090 across four open-weights models \ud83d\udd14 New article published GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence GPT-6.1 Sol replaces GPT-6 Sol after just 7 days. It scores 1 point below GPT-6 Astra in the Intelligence Index at less than one quarter of the Cost per Task New language model evaluation results available JT-4.1 Flash 236B A21B (Reasoning) Intelligence Ind",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-0c571b26db3fe2459e7c"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "c6a2e4ba2272d4f846cf8951",
       "discovered_at": "2026-10-07T21:57:49Z",
       "kind": "independent",
@@ -2144,6 +2158,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "1040f15dec51655d9da5e598",
+      "discovered_at": "2026-10-08T01:53:48Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 8, 2026",
+      "search_score": 15,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch Oct 8, 2026 @NousResearch Rated E for Everyone Oct 7, 2026 @NousResearch @WSJ @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures Join us at NousCon to celebrate and perhaps catch some sneak peeks x.com/NousResearch/s\u2026 Or come work for us! nousresearch.com/careers Oct 7, 2026 @NousResearch As reported in the @WSJ, we have raised a Series B to bring Hermes Agent to new frontiers (and, yes, build a mobile app) Thank you to our investors including @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures, among others wsj.com/pro/venture-ca\u2026 x.com/dillonrolnick/\u2026 Oct 7, 2026 @NousResearch x.com/witcheer/statu\u2026 Oct 7, 2026 @NousResearch Claude Opus 5.5 leads at 63.31 and $4.99 per task. GPT 6 Astra is second at 56.25 and $11.61. Sonnet 5.5 follows at 53.14 and $2.82. At the other end, DeepSeek V4.1 Flash scores 36.91 at $0.26 and Ling 3.0 Flash scores 21.56 at $0.054. Oct 6, 2026 @NousResearch Every model runs the same harness, with reasoning set high where offered. The index reports the mean score and the mean cost per task across the four suites. Hermes Bench info: Oct 6, 2026 @NousResearch We do this using an index of four benchmarks. One is our new benchmark, Hermes Bench. The others are Terminal-Bench 4.0, Terminal-Bench-Science, and SkillsBench. Oct 6, 2026 @NousResearch Introducing Hermes Index: an average of benchmarks measuring model performance in Hermes Agent. Our goal with Hermes Index is to better inform users choosing between models and to show labs how they perform in Hermes. portal.nousresearch.com/bench Oct 6, 2026 @NousResearch Hey Hermes book me a flight to nyc and find the cheapest hotel available and social engineer the person approving rsvps make no mistakes x.com/nousresearch/s\u2026 Oct 6, 2026",
+      "title": "@NousResearch Oct 8, 2026",
+      "url": "https://x.com/NousResearch/status/2108005475895701712"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "d1dfcca4ed604925cb790620",
+      "discovered_at": "2026-10-08T01:53:48Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 8, 2026",
+      "search_score": 15,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch Oct 8, 2026 @NousResearch Rated E for Everyone Oct 7, 2026 @NousResearch @WSJ @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures Join us at NousCon to celebrate and perhaps catch some sneak peeks x.com/NousResearch/s\u2026 Or come work for us! nousresearch.com/careers Oct 7, 2026 @NousResearch As reported in the @WSJ, we have raised a Series B to bring Hermes Agent to new frontiers (and, yes, build a mobile app) Thank you to our investors including @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures, among others wsj.com/pro/venture-ca\u2026 x.com/dillonrolnick/\u2026 Oct 7, 2026 @NousResearch x.com/witcheer/statu\u2026 Oct 7, 2026 @NousResearch Claude Opus 5.5 leads at 63.31 and $4.99 per task. GPT 6 Astra is second at 56.25 and $11.61. Sonnet 5.5 follows at 53.14 and $2.82. At the other end, DeepSeek V4.1 Flash scores 36.91 at $0.26 and Ling 3.0 Flash scores 21.56 at $0.054. Oct 6, 2026 @NousResearch Every model runs the same harness, with reasoning set high where offered. The index reports the mean score and the mean cost per task across the four suites. Hermes Bench info: Oct 6, 2026 @NousResearch We do this using an index of four benchmarks. One is our new benchmark, Hermes Bench. The others are Terminal-Bench 4.0, Terminal-Bench-Science, and SkillsBench. Oct 6, 2026 @NousResearch Introducing Hermes Index: an average of benchmarks measuring model performance in Hermes Agent. Our goal with Hermes Index is to better inform users choosing between models and to show labs how they perform in Hermes. portal.nousresearch.com/bench Oct 6, 2026 @NousResearch Hey Hermes book me a flight to nyc and find the cheapest hotel available and social engineer the person approving rsvps make no mistakes x.com/nousresearch/s\u2026 Oct 6, 2026",
+      "title": "@NousResearch Rated E for Everyone Oct 7, 2026",
+      "url": "https://x.com/NousResearch/status/2107975473229918360"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "d30951486cef96799b23ba80",
       "discovered_at": "2026-10-06T00:46:20Z",
       "kind": "signal",
@@ -2351,6 +2393,20 @@
       "summary": "Google Launches EmbeddingGemma 2: 740M-Param Multimodal On-Device Embedding Model blog.google \u00b7 Show TLDR",
       "title": "Google Launches EmbeddingGemma 2: 740M-Param Multimodal On-Device Embedding Model blog.google \u00b7 Show TLDR",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "f60f92689e069107e062ec54",
+      "discovered_at": "2026-10-08T01:53:42Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-07T23:14:58+00:00",
+      "search_score": 6,
+      "source_name": "Simon Willison Everything",
+      "summary": "I've always been kind of into computers since I was young. And then when film started to move from analog film to digital, I became more interested in that aspect of it. And the visual effects workflow for many years has included machine learning. So I can write like pretty shitty Python scripts and stuff like that because with convolutional neural networks, which were the sort of precursors to what the transformer can do, which is just much more computation simultaneously, you would do things like look at what's called a tensor, which is just the numerical translation of a visual image in numbers \u2014 like the batch number, the frame number, the red, green, and blue values of each pixel in each frame. And a tensor, you use a convolutional neural network to identify patterns in that that would reveal what's called edge detection or feature extraction, which is just identifying patterns enough to know like this is where the window ledge is, so we can more easily take the green screen image out and replace it with something. \u2014 Ben Affleck , Pythonista Tags: machine-learning , python",
+      "title": "Quoting Ben Affleck",
+      "url": "https://simonwillison.net/2026/Oct/7/ben-affleck/"
     },
     {
       "bootstrap": false,
@@ -3250,6 +3306,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-07T21:57:54Z",
+  "updated_at": "2026-10-08T01:53:50Z",
   "version": 2
 }

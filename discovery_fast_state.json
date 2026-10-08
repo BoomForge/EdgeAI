@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-08T14:56:36Z",
+    "at": "2026-10-08T20:34:46Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 2,
-    "queued": 13,
+    "queued": 16,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 27,
+  "runs": 28,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -106,6 +106,11 @@
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06897"
+    },
+    "0b73e19a82e61c91a758019e": {
+      "first_seen": "2026-10-08T20:34:36Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.905-beta"
     },
     "0be66981e5a9848bfc3141a4": {
       "first_seen": "2026-10-03T00:45:51Z",
@@ -256,6 +261,11 @@
       "first_seen": "2026-10-05T09:14:06Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02281"
+    },
+    "14916a2490f688da9ae768f0": {
+      "first_seen": "2026-10-08T20:34:17Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11511"
     },
     "1705d0bacfce97178b931318": {
       "first_seen": "2026-10-07T09:14:07Z",
@@ -794,6 +804,11 @@
       "status": "too_old",
       "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.3.1"
     },
+    "40a44871ce5df89b9d11d192": {
+      "first_seen": "2026-10-08T20:34:39Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.0"
+    },
     "41201ce1f215e4f9daf82d4e": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -894,6 +909,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00098"
     },
+    "4c13f8e2c7d9b1ec15096dcd": {
+      "first_seen": "2026-10-08T20:34:17Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11507"
+    },
     "4c8ba28a0e6392fc56933088": {
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
@@ -958,6 +978,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00515"
+    },
+    "56eb29f3263726d8a778c934": {
+      "first_seen": "2026-10-08T20:34:17Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11514"
     },
     "5711a6d6ed38b7fea16849ca": {
       "first_seen": "2026-10-06T06:33:16Z",
@@ -1105,6 +1130,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06962"
     },
+    "65cf245591aca8f20d74430c": {
+      "first_seen": "2026-10-08T20:34:17Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11509"
+    },
     "661f64ddb5f472a2675ed75a": {
       "first_seen": "2026-10-07T16:38:55Z",
       "status": "queued",
@@ -1194,6 +1224,11 @@
       "first_seen": "2026-10-05T18:34:46Z",
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/education/special-education-gemini/"
+    },
+    "6aeb8b84935c1b408afa9ba3": {
+      "first_seen": "2026-10-08T20:34:17Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11513"
     },
     "6ba6c0a7e0a1329cd32500e4": {
       "first_seen": "2026-10-07T09:14:07Z",
@@ -1356,6 +1391,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.6.0"
     },
+    "7d118aeafab68e400dcb39a3": {
+      "first_seen": "2026-10-08T20:34:39Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.9"
+    },
     "7d41f56ee3543afc8dce0230": {
       "first_seen": "2026-10-03T05:43:25Z",
       "status": "queued",
@@ -1425,6 +1465,11 @@
       "first_seen": "2026-10-07T21:34:26Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.4"
+    },
+    "855092fba1df7e8a668bec1b": {
+      "first_seen": "2026-10-08T20:34:08Z",
+      "status": "queued",
+      "url": "https://openai.com/index/pollo-ai"
     },
     "859460e5c1894b734ca53ec7": {
       "first_seen": "2026-10-08T07:31:41Z",
@@ -1586,6 +1631,11 @@
       "first_seen": "2026-10-03T00:46:18Z",
       "status": "too_old",
       "url": "https://github.com/microsoft/autogen/releases/tag/python-v0.7.3"
+    },
+    "95b91ef337a82fbc2d2056c4": {
+      "first_seen": "2026-10-08T20:34:18Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2"
     },
     "95eb6c8a3e94753a6eb7d170": {
       "first_seen": "2026-10-05T09:14:06Z",
@@ -1948,6 +1998,11 @@
       "status": "queued",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.2"
     },
+    "b9cbe33895e4e0864e4ead56": {
+      "first_seen": "2026-10-08T20:34:17Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11510"
+    },
     "b9e8259f26cfb073c111b3ce": {
       "first_seen": "2026-10-03T00:45:57Z",
       "status": "too_old",
@@ -1962,6 +2017,11 @@
       "first_seen": "2026-10-06T13:36:39Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11440"
+    },
+    "bc04e68ea0738a77a4404dd8": {
+      "first_seen": "2026-10-08T20:34:17Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11512"
     },
     "bc14691a892bd7c7add97d6b": {
       "first_seen": "2026-10-05T09:14:06Z",
@@ -2072,6 +2132,11 @@
       "first_seen": "2026-10-03T00:45:54Z",
       "status": "too_old",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.17.0"
+    },
+    "c6c16ae06fb845935c17a345": {
+      "first_seen": "2026-10-08T20:34:39Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.8"
     },
     "c6db10f97f0537c0086d63a2": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -2264,6 +2329,12 @@
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.6"
     },
+    "d4eed22af98dccbdc69437e0": {
+      "first_seen": "2026-10-08T20:34:09Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/play-fest/"
+    },
     "d54e68095afbdec36a232fe3": {
       "first_seen": "2026-10-07T09:14:32Z",
       "status": "queued",
@@ -2334,10 +2405,20 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11352"
     },
+    "d9e485b409fe8517ac6e3a5b": {
+      "first_seen": "2026-10-08T20:34:08Z",
+      "status": "queued",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+    },
     "db40878f6dc76cc124d521e6": {
       "first_seen": "2026-10-08T07:31:45Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.0.92"
+    },
+    "db7b9e6fe248e3146f87743a": {
+      "first_seen": "2026-10-08T20:34:08Z",
+      "status": "queued",
+      "url": "https://openai.com/index/oracle"
     },
     "dc23fb37627ab187fc567c52": {
       "first_seen": "2026-10-08T07:31:18Z",
@@ -2358,6 +2439,12 @@
       "first_seen": "2026-10-05T18:34:59Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11417"
+    },
+    "dec45192904d8250c4004df0": {
+      "first_seen": "2026-10-08T20:34:09Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/how-to-set-up-passkey/"
     },
     "dec620cb7225d2434a9b02e6": {
       "first_seen": "2026-10-03T00:45:50Z",
@@ -2698,6 +2785,11 @@
       "first_seen": "2026-10-03T00:46:21Z",
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.50.0"
+    },
+    "ffbada98cace5f62be30cc7a": {
+      "first_seen": "2026-10-08T20:34:18Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2-rc0"
     }
   },
   "version": 2

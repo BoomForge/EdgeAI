@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-09T07:47:56Z",
+    "at": "2026-10-09T14:44:19Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 11,
-    "queued": 8,
+    "prefiltered": 2,
+    "queued": 7,
     "sources_ok": 15,
-    "too_old": 4,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 30,
+  "runs": 31,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -113,6 +113,12 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://sakana.ai/frontier-intelligence-group/"
+    },
+    "0afd77473fa38dff4948fbb4": {
+      "first_seen": "2026-10-09T14:44:12Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/thravik"
     },
     "0b8b56dba928bd682afd58ba": {
       "first_seen": "2026-10-04T17:06:51Z",
@@ -391,6 +397,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/kloudmate"
     },
+    "2429fe1e707aa324fbe26947": {
+      "first_seen": "2026-10-09T14:44:12Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/refs"
+    },
     "25699d15b38305675ec53cee": {
       "first_seen": "2026-10-08T16:25:55Z",
       "status": "queued",
@@ -420,6 +431,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://runway.com/research/rna-sessions"
+    },
+    "28a9ca860108bf2d15699545": {
+      "first_seen": "2026-10-09T14:44:12Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/your-next-chatgpt-answer-might-come-with-buttons-10-09-2026"
     },
     "28dc3a5873d788c5b9ec4649": {
       "first_seen": "2026-10-07T09:23:03Z",
@@ -471,6 +487,11 @@
       "first_seen": "2026-10-06T19:44:10Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/noteworthy"
+    },
+    "305ba874f36ffe291e11411a": {
+      "first_seen": "2026-10-09T14:44:13Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
     },
     "30796f46de906be3bc43937d": {
       "first_seen": "2026-10-06T23:21:31Z",
@@ -953,6 +974,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/albie"
     },
+    "60a34fc4c43bf41cbe86151c": {
+      "first_seen": "2026-10-09T14:44:12Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/melete"
+    },
     "60a54e9cf1c99374f99c8549": {
       "first_seen": "2026-10-05T18:53:47Z",
       "status": "too_old",
@@ -987,6 +1013,11 @@
       "first_seen": "2026-10-09T01:22:21Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/procboss"
+    },
+    "61c0bafbe2ffd27cce113063": {
+      "first_seen": "2026-10-09T14:44:12Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/iwant"
     },
     "6218e0219f6856f2edb6a893": {
       "first_seen": "2026-10-06T19:44:11Z",
@@ -1338,6 +1369,11 @@
       "first_seen": "2026-10-09T07:47:55Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2108418231388278875"
+    },
+    "84e01a8553a87598d4170806": {
+      "first_seen": "2026-10-09T14:44:12Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/odyssey-3"
     },
     "853a0c249788523a4e15541f": {
       "first_seen": "2026-10-08T16:26:00Z",
@@ -1817,6 +1853,12 @@
       "status": "queued",
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "b854073f1822836ee0ab8ee6": {
+      "first_seen": "2026-10-09T14:44:12Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/staffcoder"
+    },
     "b98abef5a14e12ad68a0289b": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -1890,6 +1932,16 @@
       "first_seen": "2026-10-06T23:21:29Z",
       "status": "queued",
       "url": "https://www.musubilabs.ai/blog/introducing-policylm-1-7b?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "c00d49acad62014c6ab80d8a": {
+      "first_seen": "2026-10-09T14:44:12Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/openpilot"
+    },
+    "c027af4d74dc7dca138ac31e": {
+      "first_seen": "2026-10-09T14:44:12Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/busabase"
     },
     "c08ec2b468a48f442b32d10c": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -2232,6 +2284,11 @@
       "first_seen": "2026-10-05T18:53:47Z",
       "status": "queued",
       "url": "https://openai.com/index/eu-text-provenance/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "e33385be6adbba61c61abc3f": {
+      "first_seen": "2026-10-09T14:44:15Z",
+      "status": "queued",
+      "url": "https://www.kimi.com/en/products/kimi-office"
     },
     "e48a7f736f56ad596c7cd7f9": {
       "first_seen": "2026-10-03T00:46:00Z",

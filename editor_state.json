@@ -37,12 +37,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-08T23:51:42Z",
-    "eligible": 130,
-    "evaluated": 2,
+    "at": "2026-10-09T03:09:42Z",
+    "eligible": 123,
+    "evaluated": 5,
     "mode": "live",
-    "new_posts": 2,
-    "publish_actions": 2,
+    "new_posts": 1,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -318,6 +318,11 @@
       "status": "expired",
       "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-voice?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "1977358a53e0880f62ddfbc5": {
+      "at": "2026-10-09T03:09:32Z",
+      "status": "expired",
+      "url": "https://www.thedeepview.com/articles/runway-ceo-sees-a-much-bigger-future-for-video-ai?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "19fa17b0500ad2a7a0dbccb3": {
       "at": "2026-10-03T04:46:32Z",
       "bootstrap": true,
@@ -344,6 +349,14 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00101"
+    },
+    "1a6c2f85d9e601ca12e1b7a0": {
+      "at": "2026-10-09T03:09:34Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-updates-october-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-8c1a880b28f31fa7f49b"
     },
     "1a83a48f2b9d2005f2db82f3": {
       "at": "2026-10-08T23:51:05Z",
@@ -391,6 +404,11 @@
       "at": "2026-10-07T13:59:34Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11390"
+    },
+    "1e07eed3568eeac1c1495f37": {
+      "at": "2026-10-09T03:09:32Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2107268339232116804"
     },
     "1e53e4b0ea0e3813fd5e7558": {
       "at": "2026-10-03T05:49:31Z",
@@ -966,6 +984,11 @@
       "story_key": "radisson-chatgpt-plugin-openai",
       "url": "https://openai.com/index/radisson"
     },
+    "4e353c6f104ebbd1b36de073": {
+      "at": "2026-10-09T03:09:32Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2107210064549343358"
+    },
     "4f36a48fa9096d65b0260699": {
       "at": "2026-10-04T11:20:52Z",
       "status": "expired",
@@ -1344,6 +1367,11 @@
       },
       "url": "https://qwenlm.github.io/blog/qwen-image/"
     },
+    "6d47319d0ffdc4c1646c20ae": {
+      "at": "2026-10-09T03:09:32Z",
+      "status": "expired",
+      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "6deeaa575f7a1b1ab43704bd": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -1573,6 +1601,14 @@
       "at": "2026-10-08T05:56:53Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11403"
+    },
+    "855092fba1df7e8a668bec1b": {
+      "at": "2026-10-09T03:09:36Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "pollo-ai-openai-integration",
+      "url": "https://openai.com/index/pollo-ai"
     },
     "86745252420db89333393bf9": {
       "at": "2026-10-05T22:35:25Z",
@@ -1875,6 +1911,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00424"
     },
+    "9edf7f9e06fbe155638975ed": {
+      "at": "2026-10-09T03:09:32Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5"
+    },
     "a0219a244e273a8e5ed720d7": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -2091,6 +2132,11 @@
       "at": "2026-10-04T11:20:52Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/moxie-2"
+    },
+    "b4f88cf2625bf543c420feee": {
+      "at": "2026-10-09T03:09:32Z",
+      "status": "expired",
+      "url": "https://www.teamhuman.org/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "b602f0b5117800795a759ada": {
       "at": "2026-10-04T11:21:03Z",
@@ -2396,6 +2442,11 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
     },
+    "d43019accfd19e1ed1c4ed4b": {
+      "at": "2026-10-09T03:09:32Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/"
+    },
     "d475dd0535cf07b7b7724188": {
       "at": "2026-10-07T06:34:08Z",
       "status": "expired",
@@ -2508,6 +2559,36 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://newsletter.futurepedia.io/p/claude-just-did-a-months-work-in-a-single-day-09-25-2026"
+    },
+    "d9e485b409fe8517ac6e3a5b": {
+      "at": "2026-10-09T03:09:41Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "openai-disrupts-ai-enabled-false-front-influence-operations-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+    },
+    "da5386cfb0b962647e8e6f07": {
+      "at": "2026-10-09T03:09:35Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "sakana-ai-insider-newsletter-launch",
+      "url": "https://sakana.ai/sakana-ai-insider/"
+    },
+    "db7b9e6fe248e3146f87743a": {
+      "at": "2026-10-09T03:09:42Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "openai-oracle-case-study-chatgpt-codex",
+      "url": "https://openai.com/index/oracle"
     },
     "dd052aeea45239ae007e7bd2": {
       "at": "2026-10-03T04:46:58Z",
@@ -3805,6 +3886,27 @@
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-disrupts-ai-enabled-false-front-influence-operations-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-disrupts-ai-enabled-false-front-influence-operations-2026.jpg",
+      "last_updated": "2026-10-09T03:09:41Z",
+      "post_id": "4173251253836174789",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-disrupts-major-ai-enabled.html",
+      "score": 88,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/59gWIyg4DMtitwWO9AW6Af/9c66b1544d2b8d55f98703da82eeb5cf/false-front-operations-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Disrupts Major AI-Enabled Influence Operations from Russia and Iran",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
         "source": "OpenAI News"
       }
     },

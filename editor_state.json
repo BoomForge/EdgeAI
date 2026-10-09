@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-09T10:27:41Z",
-    "eligible": 119,
-    "evaluated": 3,
+    "at": "2026-10-09T17:08:00Z",
+    "eligible": 114,
+    "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -217,6 +217,11 @@
       "status": "expired",
       "url": "https://strandsagents.com/blog/introducing-strands-decider/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "0da7e7a18109eccfb75730db": {
+      "at": "2026-10-09T17:07:50Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6"
+    },
     "0e55ba63354043e90753a2b6": {
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
@@ -312,6 +317,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00047"
+    },
+    "18751b3135b0ef1c82b7f5e5": {
+      "at": "2026-10-09T17:07:50Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/mistral-7b"
     },
     "1884408dbd46fcfc5ba0e396": {
       "at": "2026-10-06T02:32:14Z",
@@ -773,6 +783,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11377"
     },
+    "3a87aae1754d59e7fc522ba0": {
+      "at": "2026-10-09T17:07:50Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11439"
+    },
     "3ad6c9bd8091181b75763a69": {
       "at": "2026-10-07T06:34:08Z",
       "status": "expired",
@@ -825,6 +840,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00030"
+    },
+    "3c4be800d539ba9f01847a25": {
+      "at": "2026-10-09T17:07:50Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11445"
     },
     "3c7ad66c425f89b091210eaf": {
       "at": "2026-10-07T13:59:34Z",
@@ -895,6 +915,11 @@
       "status": "ignored",
       "story_key": "stability-ai-board-of-directors-page",
       "url": "https://stability.ai/board-of-directors"
+    },
+    "40554e21f87e8f4beef1396f": {
+      "at": "2026-10-09T17:07:50Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/"
     },
     "40b751b710ffdfe179ad0616": {
       "at": "2026-10-04T15:54:53Z",
@@ -1081,6 +1106,20 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00515"
     },
+    "570fe3204556675e8dd927e7": {
+      "at": "2026-10-09T17:08:00Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "openai-daybreak-sophos-cybersecurity-agents",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/sophos"
+    },
     "5729c415ffed36d683b66b4e": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -1230,6 +1269,11 @@
       "status": "ignored",
       "story_key": "mistral-large-4-simon-willison-comment",
       "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/"
+    },
+    "62801524708e495abde98e4c": {
+      "at": "2026-10-09T17:07:50Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/figma"
     },
     "62c509640c5df97d86096bb9": {
       "at": "2026-10-08T13:21:06Z",
@@ -1957,6 +2001,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00424"
     },
+    "9e6d9d48a65776be86374aa9": {
+      "at": "2026-10-09T17:07:50Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11453"
+    },
     "9edf7f9e06fbe155638975ed": {
       "at": "2026-10-09T03:09:32Z",
       "status": "expired",
@@ -2161,6 +2210,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/agent-activity"
     },
+    "b086982776d8ed321378c722": {
+      "at": "2026-10-09T17:07:50Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/agentguard-5"
+    },
     "b23a71d2dca41cfabb3715eb": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -2225,6 +2279,11 @@
       "status": "expired",
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "b823eac8a77d9a7d3f4308a8": {
+      "at": "2026-10-09T17:07:50Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11443"
+    },
     "b900b7f12d6f003ba0f42d94": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -2234,6 +2293,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.2"
+    },
+    "ba2513f06d0c08b16791f768": {
+      "at": "2026-10-09T17:07:50Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11440"
     },
     "bc6c0cd8ad5e57b3edd3160a": {
       "at": "2026-10-08T23:51:05Z",
@@ -2252,6 +2316,11 @@
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00053"
+    },
+    "beb274ef00cc9345c9b0dbac": {
+      "at": "2026-10-09T17:07:50Z",
+      "status": "expired",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.19.0"
     },
     "bf1a189b85c837584069025f": {
       "at": "2026-10-03T05:49:31Z",
@@ -2734,6 +2803,20 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00061"
+    },
+    "e33385be6adbba61c61abc3f": {
+      "at": "2026-10-09T17:07:56Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "kimi-office-extension-wps",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Kimi Research"
+      },
+      "url": "https://www.kimi.com/en/products/kimi-office"
     },
     "e3b8761031d237fbf22ff123": {
       "at": "2026-10-03T05:49:31Z",
@@ -3593,6 +3676,27 @@
         "source": "Kimi Research"
       }
     },
+    "kimi-office-extension-wps": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/kimi-office-extension-wps.jpg",
+      "last_updated": "2026-10-09T17:07:56Z",
+      "post_id": "7122350071172311081",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/kimi-office-extension-launches-in-beta.html",
+      "score": 82,
+      "source_image_source": "Kimi Research",
+      "source_image_url": "https://statics.kimi.ai/kimi-seo/products/kimi-office/assets/hero-share.png",
+      "source_urls": [
+        "https://www.kimi.com/en/products/kimi-office"
+      ],
+      "status": "CONFIRMED",
+      "title": "Kimi Office Extension Launches in Beta for WPS Office",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Kimi Research"
+      }
+    },
     "kimi-work-desktop-ai-agent": {
       "image_kind": "mirrored_source",
       "image_prepared_at": "2026-10-04T19:31:16Z",
@@ -3964,6 +4068,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI Expands ChatGPT for Teens with College Planner, Flashcards, and Quizzes",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-daybreak-sophos-cybersecurity-agents": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-daybreak-sophos-cybersecurity-agents.jpg",
+      "last_updated": "2026-10-09T17:08:00Z",
+      "post_id": "3382898855061868106",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-introduces-daybreak-as-sophos.html",
+      "score": 88,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/4pg31JOD6Z3cO31LCR6GYq/8c1cedfd2e85c6dd80d2ea8c5ea0c9a1/sophos-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/sophos"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces Daybreak as Sophos Cuts Threat Investigation Times to 89 Seconds",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

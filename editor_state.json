@@ -37,12 +37,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-09T03:09:42Z",
-    "eligible": 123,
-    "evaluated": 5,
+    "at": "2026-10-09T10:27:41Z",
+    "eligible": 119,
+    "evaluated": 3,
     "mode": "live",
-    "new_posts": 1,
-    "publish_actions": 1,
+    "new_posts": 2,
+    "publish_actions": 2,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -452,6 +452,14 @@
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc1"
     },
+    "23b886bef1cf374a04a163f9": {
+      "at": "2026-10-09T10:27:32Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-updates-oct-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-2d844e62959301f0e262"
+    },
     "2413f51d9fd0e84982a2e97f": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -521,6 +529,20 @@
       "status": "ignored",
       "story_key": "cline-v4-1-23-release",
       "url": "https://github.com/cline/cline/releases/tag/v4.1.23"
+    },
+    "2bc89da3f2611b9900152569": {
+      "at": "2026-10-09T10:27:36Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "sakana-namazu-evidence-finder-medical-ai",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      },
+      "url": "https://sakana.ai/namazu-aillis/"
     },
     "2c315a1352cc7df2a101db49": {
       "at": "2026-10-06T16:08:03Z",
@@ -616,6 +638,11 @@
       "status": "ignored",
       "story_key": "kimi-products-overview-page",
       "url": "https://www.kimi.com/en/products/"
+    },
+    "324c195f44298cdc63284945": {
+      "at": "2026-10-09T10:27:28Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11435"
     },
     "338ea65b29ca83a891bd3fe8": {
       "at": "2026-10-03T21:49:26Z",
@@ -928,6 +955,20 @@
       "status": "ignored",
       "story_key": "black-forest-labs-about-page",
       "url": "https://bfl.ai/about"
+    },
+    "45d6a2b79938283a07ca47b3": {
+      "at": "2026-10-09T10:27:41Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "legalon-codex-cost-optimization-gpt6",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/legalon-halves-codex-costs"
     },
     "4651fd8a89a23438c2bcbae7": {
       "at": "2026-10-05T22:35:25Z",
@@ -1891,6 +1932,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11395"
     },
+    "9c31c15969a0389f5c8b359f": {
+      "at": "2026-10-09T10:27:28Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11436"
+    },
     "9cf469a02c5a0aefacdc35d7": {
       "at": "2026-10-06T16:08:03Z",
       "status": "expired",
@@ -1915,6 +1961,11 @@
       "at": "2026-10-09T03:09:32Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5"
+    },
+    "9f94445088fd7296d301f6fc": {
+      "at": "2026-10-09T10:27:28Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/backup%2Fallozaur-ui-shell-polish"
     },
     "a0219a244e273a8e5ed720d7": {
       "at": "2026-10-05T07:01:46Z",
@@ -2044,6 +2095,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.2"
+    },
+    "ad21292e8cbac72957f5928c": {
+      "at": "2026-10-09T10:27:28Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11438"
     },
     "ad578f6050505d8ac881181b": {
       "at": "2026-10-05T07:01:46Z",
@@ -2663,6 +2719,11 @@
       "status": "ignored",
       "story_key": "cline-sdk-v0-0-91-release",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.91"
+    },
+    "e29b6fd6d8e146bda617f7e0": {
+      "at": "2026-10-09T10:27:28Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/proofsource"
     },
     "e2b8778ca5e92223312d656b": {
       "at": "2026-10-08T23:51:05Z",
@@ -3556,6 +3617,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 95,
         "source": "Kimi Research"
+      }
+    },
+    "legalon-codex-cost-optimization-gpt6": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/legalon-codex-cost-optimization-gpt6.jpg",
+      "last_updated": "2026-10-09T10:27:41Z",
+      "post_id": "8891528138556334793",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/legalon-cuts-codex-costs-by-65-using.html",
+      "score": 82,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/2P8XYqMKsOiY9IUl1H3YfF/d737379b5aebd51ab8cf5962a82ac429/legalon-codex-customer-story-seo-open-graph-1920x1080.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/legalon-halves-codex-costs"
+      ],
+      "status": "CONFIRMED",
+      "title": "LegalOn Cuts Codex Costs by 65% Using Multi-Model Routing Strategy with GPT-6 Lineup",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
       }
     },
     "llama-cpp-v0-6-0-release": {
@@ -4592,6 +4674,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Sakana AI Updates Marlin Agent with Interactive Reading and PowerPoint Export",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      }
+    },
+    "sakana-namazu-evidence-finder-medical-ai": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/sakana-namazu-evidence-finder-medical-ai.jpg",
+      "last_updated": "2026-10-09T10:27:36Z",
+      "post_id": "1711007937620750813",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/sakana-ais-namazu-model-adopted-for.html",
+      "score": 85,
+      "source_image_source": "Sakana AI Blog",
+      "source_image_url": "https://sakana.ai/assets/home/sakana_ogp.png",
+      "source_urls": [
+        "https://sakana.ai/namazu-aillis/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Sakana AI's Namazu Model Adopted for Medical Evidence Search Tool",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

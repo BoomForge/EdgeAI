@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-08T20:34:46Z",
+    "at": "2026-10-09T00:38:57Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 16,
+    "prefiltered": 0,
+    "queued": 4,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 28,
+  "runs": 29,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -869,6 +869,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11422"
     },
+    "45d6a2b79938283a07ca47b3": {
+      "first_seen": "2026-10-09T00:38:25Z",
+      "status": "queued",
+      "url": "https://openai.com/index/legalon-halves-codex-costs"
+    },
     "4651fd8a89a23438c2bcbae7": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -1073,6 +1078,11 @@
       "first_seen": "2026-10-05T09:14:06Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02300"
+    },
+    "605cee19632e07cf4d3aa4dc": {
+      "first_seen": "2026-10-09T00:38:26Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/"
     },
     "6071f63e21f6425413eb6372": {
       "first_seen": "2026-10-03T00:45:50Z",
@@ -1627,6 +1637,11 @@
       "status": "too_old",
       "url": "https://github.com/continuedev/continue/releases/tag/v1.3.40-vscode"
     },
+    "9503050a530eab40c78f684c": {
+      "first_seen": "2026-10-09T00:38:52Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.4"
+    },
     "95a9395903c9db5363c82a9f": {
       "first_seen": "2026-10-03T00:46:18Z",
       "status": "too_old",
@@ -1902,6 +1917,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "too_old",
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.8.2"
+    },
+    "aef01fc63aa5d009eb36f871": {
+      "first_seen": "2026-10-09T00:38:55Z",
+      "status": "queued",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.26"
     },
     "af0bc63417beb8c2d29ba736": {
       "first_seen": "2026-10-04T12:33:55Z",

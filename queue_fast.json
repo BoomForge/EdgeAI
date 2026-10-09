@@ -1990,6 +1990,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "45d6a2b79938283a07ca47b3",
+      "discovered_at": "2026-10-09T00:38:25Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Thu, 08 Oct 2026 12:00:00 GMT",
+      "search_score": 0,
+      "source_name": "OpenAI News",
+      "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+      "title": "LegalOn halves Codex costs while maintaining development speed",
+      "url": "https://openai.com/index/legalon-halves-codex-costs"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "a097ef0d441a7216b7cd0e23",
       "discovered_at": "2026-10-07T21:34:03Z",
       "kind": "official",
@@ -3485,23 +3499,9 @@
       "summary": "@cline/agents@0.0.92",
       "title": "sdk/agents/v0.0.92",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.0.92"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "69724523bcf474454a4306c7",
-      "discovered_at": "2026-10-07T09:14:31Z",
-      "kind": "coding-agents",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-07T05:59:53Z",
-      "search_score": 4,
-      "source_name": "Cline Releases",
-      "summary": "@cline/agents@0.0.91",
-      "title": "sdk/agents/v0.0.91",
-      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.0.91"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-08T20:34:46Z",
+  "updated_at": "2026-10-09T00:38:57Z",
   "version": 2
 }

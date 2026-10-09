@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-09T19:21:06Z",
+    "at": "2026-10-09T23:20:48Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 10,
+    "queued": 4,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 32,
+  "runs": 33,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -1048,6 +1048,11 @@
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08840"
+    },
+    "51267d3b2a316fb88d05c407": {
+      "first_seen": "2026-10-09T23:20:25Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11539"
     },
     "5404525725fe082cebc33e09": {
       "first_seen": "2026-10-03T00:45:57Z",
@@ -2398,6 +2403,11 @@
       "status": "too_old",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.22"
     },
+    "c4f1058de9017fcb93b73275": {
+      "first_seen": "2026-10-09T23:20:37Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.0-dev.3"
+    },
     "c5439d652b927923e3948c7b": {
       "first_seen": "2026-10-06T23:06:53Z",
       "status": "queued",
@@ -2502,6 +2512,11 @@
       "first_seen": "2026-10-05T18:34:46Z",
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/education/education-officer-gemini/"
+    },
+    "ce7a8790e53e0e8fbce51560": {
+      "first_seen": "2026-10-09T23:20:25Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11538"
     },
     "ce9cb2536dd43dff90f55f52": {
       "first_seen": "2026-10-03T00:46:13Z",
@@ -2654,6 +2669,11 @@
       "first_seen": "2026-10-03T00:45:50Z",
       "status": "queued",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+    },
+    "d6ebdb5374f4aeeed8ccf68c": {
+      "first_seen": "2026-10-09T23:20:46Z",
+      "status": "queued",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.27"
     },
     "d6f0701af17c757cb61bb959": {
       "first_seen": "2026-10-08T07:31:26Z",

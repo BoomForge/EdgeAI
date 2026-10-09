@@ -1808,6 +1808,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "a8426dcdf9a2dd0dc3f668f9",
+      "discovered_at": "2026-10-09T19:51:23Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-10-09T19:51:23Z",
+      "search_score": 43,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 09 Oct 2026 Baseten performance results now available DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4.1 Flash (Max) 08 Oct 2026 \ud83d\udd14 New article published Introducing trusted-access models to the Artificial Analysis Cyber Index GPT-6 Sol (Daybreak Blue) now leads the Cyber Index \ud83d\udd14 New article published Announcing Harvey LAB-AA v1.1: adding hallucination checks to raise the bar for agentic legal work Harvey LAB-AA v1.1 adds hallucination auditing with a new Hallucination-Gated All-Pass Rate headline metric, a three-judge grading panel, and Harvey's latest private dataset with improved tasks and criteria. New language model evaluation results available GPT-6 Sol (Daybreak Blue, max) Makora performance results now available MiMo-V2.6-Flash OpenAI performance results now available GPT-6 Sol (Daybreak Blue, max) 07 Oct 2026 \ud83d\udd14 New article published Anthropic has released Claude Haiku 5.5 Claude Haiku 5.5 scores 43 on the Artificial Analysis Intelligence Index, up 26 points one year after the last Haiku release New language model evaluation results available Claude Haiku 5.5 (High) Intelligence Index: 38 New language model evaluation results available Claude Haiku 5.5 (Low) Intelligence Index: 29 New language model evaluation results available Claude Haiku 5.5 (Medium) Intelligence Index: 34 New language model evaluation results available Claude Haiku 5.5 (Max) Intelligence Index: 43 New language model evaluation results available Claude Haiku 5.5 (Xhigh) Intelligence Index: 41 LithosAI performance results now available GLM-5.3-Flash Nebius performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Anthropic performance results now available Claude Haiku 5.5 (Low) Claude Haiku 5.5 (Xhigh) Claude Haiku 5.5 (Medium) Claude Haiku 5.5 (Max) Claude Haiku 5.5 (High) 06 Oct 2026 \ud83d\udd14 New article published Mistral has released Mistral Large 4, making France home to the most intelligent model outside the US and China Mistral has released Mistral Large 4, scoring 38 on the Artificial Analysis Intelligence Index; France is back to having the most intelligent model from outside the US and China New language model evaluation results available Mistral Large 4 Preview Intelligence Index: 38 Microsoft Azure performance results now available GPT-6 Luna (High) Google performance results now available Claude Opus 5.5 (Max, Default Fallback) Inco performance results now available Kimi K3 (Max) GMI performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash DigitalOcean performance results now available Llama 4 Maverick Gemma 4 31B (Non-reasoning) Gemma 4 31B (Reasoning) Nemotron 3 Nano Omni 30B A3B Reasoning Ministral 3 14B DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4 Pro 0813 (Non-reasoning) GLM-5.3 (Low) Kimi K3 (Low) Mistral performance results now available Mistral Large 4 Preview 05 Oct 2026 Amazon Bedrock performance results now available Claude Opus 5.5 (Max, Default Fallback) Microsoft Azure performance results now available Claude Sonnet 5.5 (Max, Default Fallback) Claude Sonnet 5.5 (Low, Default Fallback) Claude Opus 5.5 (Max, Default Fallback) Claude Opus 5.5 (Low, Default Fallback) GPT-6 Luna (Non-reasoning) GPT-6.1 Sol (Max) PrimaLabs performance results now available GLM-5.3-Flash 04 Oct 2026 OpenAI performance results now available GPT-6.1 Sol (Max) 03 Oct 2026 New language model evaluation results available Ling 3.1 Flash Intelligence Index: 41 InclusionAI performance results now available Ling 3.1 Flash 01 Oct 2026 New language model evaluation results available Grok 4.7 (Low) Intelligence Index: 42 Institute of Foundation Models performance results now available K2 Horizon 375B A23B LithosAI performance results now available GLM-5.3-Flash GLM-5.3-Flash Bitdeer AI performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) SpaceXAI performance results now available Grok 4.7 (Low) 30 Sept 2026 \ud83d\udd14 New article published Korean AI Lab Upstage releases Solar Mini 4 Korean AI Lab Upstage has released Solar Mini 4 which scores 24 on the Artificial Analysis Intelligence Index, but costs ~5x as much per task as GPT-6 Luna (max) despite similar per-token prices \ud83d\udd14 New article published Gemini 4 Argon: Google is back as one of the top three labs in intelligence achieved Google\u2019s new Gemini 4 Argon equals GPT-6 Astra on the Artificial Analysis Intelligence Index at 60% of the Cost per Task with discounted prices. Google is now back to being one of the top three labs in intelligence achieved New language model evaluation results available Solar Mini 4 Intelligence Index: 24 New language model evaluation results available ",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-9306a718d8b1bf40a8c0"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "23b886bef1cf374a04a163f9",
       "discovered_at": "2026-10-09T07:47:52Z",
       "kind": "independent",
@@ -2382,6 +2396,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "e5292497ed6938ae8aab9d59",
+      "discovered_at": "2026-10-09T19:51:21Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 14,
+      "source_name": "FutureTools AI News",
+      "summary": "Anthropic, OpenAI Quietly War-Game Public Backlash After Catastrophic AI Event axios.com \u00b7 Show TLDR",
+      "title": "Anthropic, OpenAI Quietly War-Game Public Backlash After Catastrophic AI Event axios.com \u00b7 Show TLDR",
+      "url": "https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "be8fc480c667640aea46906e",
       "discovered_at": "2026-10-07T21:57:53Z",
       "kind": "primary-signal",
@@ -2449,6 +2477,20 @@
       "summary": "Anthropic Commits $150M to Genesis Mission, Bringing Claude to 15+ Federal Science Agencies anthropic.com \u00b7 Show TLDR",
       "title": "Anthropic Commits $150M to Genesis Mission, Bringing Claude to 15+ Federal Science Agencies anthropic.com \u00b7 Show TLDR",
       "url": "https://www.anthropic.com/news/genesis-mission-commitment?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "9f96a2d3a84b82bbb405905b",
+      "discovered_at": "2026-10-09T19:51:27Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 9, 2026",
+      "search_score": 11,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch Slight Correction: Step 5 Preview's final score on Hermes Index has been updated to 32.83, slightly behind GPT-6 Luna (33.89) and GLM 5.3 Flash (34.95) Learn more @ portal.nousresearch.com/bench Oct 9, 2026 @NousResearch Step 5 Preview from @StepFun_ai is free on Nous Portal for the next week 600B total / 27B active MoE, 1M context, with vision Step 5 Preview scored 33.89 on Hermes Index, the same score as GPT-6 Luna Oct 9, 2026 @NousResearch Hemres Agnet Oct 9, 2026 @NousResearch Hermes Agent is now live (and featured) in the @Microsoft Store for seamless one-click install. More updates for the Windows ecosystem coming soon! Oct 8, 2026 @NousResearch asus.com/blog/asus-proa\u2026 Oct 8, 2026 @NousResearch Advancing our mission to deliver ubiquitous powerful agents to everyone, Hermes Agent is on the new ASUS ProArt RTX Spark PCs: MuseTree and ComfyUI integrations plus local model support on up to 128 GB of unified memory. A complete creative stack that runs on your own machine. x.com/ASUS/status/21\u2026 Oct 8, 2026 @NousResearch Oct 8, 2026 @NousResearch Rated E for Everyone Oct 7, 2026 @NousResearch @WSJ @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures Join us at NousCon to celebrate and perhaps catch some sneak peeks x.com/NousResearch/s\u2026 Or come work for us! nousresearch.com/careers Oct 7, 2026 @NousResearch As reported in the @WSJ, we have raised a Series B to bring Hermes Agent to new frontiers (and, yes, build a mobile app) Thank you to our investors including @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures, among others wsj.com/pro/venture-ca\u2026 x.com/dillonrolnick/\u2026 Oct 7, 2026",
+      "title": "@NousResearch Step 5 Preview from @StepFun_ai is free on Nous Portal for the next week 600B total / 27B active MoE, 1M context, with vision Step 5 Preview scored 33.89 on Hermes Index, the same score as GPT-6 Luna Oct 9, 2026",
+      "url": "https://x.com/NousResearch/status/2108638389045960958"
     },
     {
       "bootstrap": false,
@@ -2547,6 +2589,20 @@
       "summary": "Google Launches Universal Gemini Agent for Work Across Workspace and Enterprise cloud.google.com \u00b7 Show TLDR",
       "title": "Google Launches Universal Gemini Agent for Work Across Workspace and Enterprise cloud.google.com \u00b7 Show TLDR",
       "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "24da2b7e99224f26ab55331f",
+      "discovered_at": "2026-10-09T19:51:27Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 9, 2026",
+      "search_score": 10,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch Slight Correction: Step 5 Preview's final score on Hermes Index has been updated to 32.83, slightly behind GPT-6 Luna (33.89) and GLM 5.3 Flash (34.95) Learn more @ portal.nousresearch.com/bench Oct 9, 2026 @NousResearch Step 5 Preview from @StepFun_ai is free on Nous Portal for the next week 600B total / 27B active MoE, 1M context, with vision Step 5 Preview scored 33.89 on Hermes Index, the same score as GPT-6 Luna Oct 9, 2026 @NousResearch Hemres Agnet Oct 9, 2026 @NousResearch Hermes Agent is now live (and featured) in the @Microsoft Store for seamless one-click install. More updates for the Windows ecosystem coming soon! Oct 8, 2026 @NousResearch asus.com/blog/asus-proa\u2026 Oct 8, 2026 @NousResearch Advancing our mission to deliver ubiquitous powerful agents to everyone, Hermes Agent is on the new ASUS ProArt RTX Spark PCs: MuseTree and ComfyUI integrations plus local model support on up to 128 GB of unified memory. A complete creative stack that runs on your own machine. x.com/ASUS/status/21\u2026 Oct 8, 2026 @NousResearch Oct 8, 2026 @NousResearch Rated E for Everyone Oct 7, 2026 @NousResearch @WSJ @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures Join us at NousCon to celebrate and perhaps catch some sneak peeks x.com/NousResearch/s\u2026 Or come work for us! nousresearch.com/careers Oct 7, 2026 @NousResearch As reported in the @WSJ, we have raised a Series B to bring Hermes Agent to new frontiers (and, yes, build a mobile app) Thank you to our investors including @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures, among others wsj.com/pro/venture-ca\u2026 x.com/dillonrolnick/\u2026 Oct 7, 2026",
+      "title": "@NousResearch Slight Correction: Step 5 Preview's final score on Hermes Index has been updated to 32.83, slightly behind GPT-6 Luna (33.89) and GLM 5.3 Flash (34.95) Learn more @ portal.nousresearch.com/bench Oct 9, 2026",
+      "url": "https://x.com/NousResearch/status/2108645938403405896"
     },
     {
       "bootstrap": false,
@@ -2701,6 +2757,20 @@
       "summary": "OpenAI Disrupts Russian & Iranian AI-Powered Influence Ops Using Fake Journalists openai.com \u00b7 Show TLDR",
       "title": "OpenAI Disrupts Russian & Iranian AI-Powered Influence Ops Using Fake Journalists openai.com \u00b7 Show TLDR",
       "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "f16e4a447914196697492641",
+      "discovered_at": "2026-10-09T19:51:21Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 8,
+      "source_name": "FutureTools AI News",
+      "summary": "OpenAI Fired Safety Researchers Deny Misconduct, Warn of Chilling Effect on AI Safety techcrunch.com \u00b7 Show TLDR",
+      "title": "OpenAI Fired Safety Researchers Deny Misconduct, Warn of Chilling Effect on AI Safety techcrunch.com \u00b7 Show TLDR",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2883,6 +2953,20 @@
       "summary": "@NousResearch Evergreen x.com/sounddobad/sta\u2026 Oct 6, 2026 @NousResearch You should be able to use smarter models in your agent. You should be able to use cheaper models in your agent. You should be able to use local models in your agent. You should be able to use a different model for every job. You should be able to switch models in the middle of a conversation. You should be able to choose what data your agent has. You should be able to choose what it remembers and what it forgets. You should be able to choose what computer your agent runs on. You should be able to run it on a machine that never touches the internet. You should be able to run it while your laptop is closed. You should be able to reach it from the apps you already use. You should be able to choose how your agent thinks. You should be able to read the prompt it runs on. You should be able to see every tool it has, and turn off the ones you don't want. You should be able to teach it something once and never explain it again. You should be able to know what it did, and when, and why. You should be able to export your agent. You should be able to read the code. You should be able to change the code. Your agent should be yours. Oct 5, 2026 @NousResearch You can use Hermes Agent for a lot more than flight booking. Here are 326 use cases from real users: hermes-agent.nousresearch.com/docs/user-stor\u2026 Oct 5, 2026 @NousResearch Solar Mini 4 from @upstageai is free on Nous Portal for the next two weeks It has 3B active parameters (35B total), 512K context, and an Artificial Analysis Intelligence Index score of 24 - above models with 10x the active parameters Oct 5, 2026 @NousResearch *Not sponsored Oct 3, 2026 @NousResearch Very surreal to see @linusgsebastian discussing his Hermes setup experience on their latest podcast (and pronouncing it correctly)! Oct 3, 2026 @NousResearch If you missed the shirt, come to NousCon to get swagged up x.com/nousresearch/s\u2026 Oct 3, 2026 @NousResearch We are sold out! Oct 2, 2026 @NousResearch shop.nousresearch.com/products/rebel\u2026 Oct 2, 2026 @NousResearch THE REBELLION SHIRT $1 with code REBEL Limited edition of 2222, 1 per customer shop.nousresearch.com/products/rebel\u2026 Oct 2, 2026",
       "title": "@NousResearch Evergreen x.com/sounddobad/sta\u2026 Oct 6, 2026",
       "url": "https://x.com/NousResearch/status/2107268339232116804"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "7af93f3f2c1476c300e88434",
+      "discovered_at": "2026-10-09T19:51:22Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-09T15:02:29+00:00",
+      "search_score": 3,
+      "source_name": "Simon Willison Everything",
+      "summary": "Everyone is very concerned about being respectable, so I\u2019m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence in our existing public-key encryption algorithms. [...] The problem here is that the speed of AI producing surprises, and the speed of human beings replacing standards (even with the very best AI assistance) are just orders of magnitude different. You only recover from a surprise like this if you do the preparation in advance. \u2014 Matthew Green , on Twitter. I looked it up and Minicrypt is Russell Impagliazzo\u2019s hypothetical world in which public-key encryption is impossible. Tags: ai-security-research , matthew-green , cryptography , standards , llms , ai , generative-ai",
+      "title": "Quoting Matthew Green",
+      "url": "https://simonwillison.net/2026/Oct/9/matthew-green/"
     },
     {
       "bootstrap": false,
@@ -3415,93 +3499,9 @@
       "summary": "A native control room for your Claude Code agents Discussion | Link",
       "title": "devpit",
       "url": "https://www.producthunt.com/products/devpit"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "dd72c09ab1511030de239b7e",
-      "discovered_at": "2026-10-07T21:57:48Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-06T20:36:08-07:00",
-      "search_score": 4,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "A coding agent CLI designed around small local models first Discussion | Link",
-      "title": "Reika",
-      "url": "https://www.producthunt.com/products/reika"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "7703ddeda66cd51a102ab3f7",
-      "discovered_at": "2026-10-07T16:48:32Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-06T19:05:50-07:00",
-      "search_score": 4,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Turn requests into interactive interfaces on your screen Discussion | Link",
-      "title": "Aura by Neural",
-      "url": "https://www.producthunt.com/products/aura-by-neural"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "62801524708e495abde98e4c",
-      "discovered_at": "2026-10-07T09:23:03Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-06T07:29:06-07:00",
-      "search_score": 4,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Prompt, edit and prototype without leaving the canvas Discussion | Link",
-      "title": "Figma Agent",
-      "url": "https://www.producthunt.com/products/figma"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "b443199b5957d8fbbf00d876",
-      "discovered_at": "2026-10-03T05:50:29Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-09-30T23:39:40-07:00",
-      "search_score": 4,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Use any AI with Claude Code, switch accounts mid-task Discussion | Link",
-      "title": "Moxie",
-      "url": "https://www.producthunt.com/products/moxie-2"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "61c0bafbe2ffd27cce113063",
-      "discovered_at": "2026-10-09T14:44:12Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-08T21:20:47-07:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Find available GPUs and host open models in one command Discussion | Link",
-      "title": "iwant",
-      "url": "https://www.producthunt.com/products/iwant"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "2429fe1e707aa324fbe26947",
-      "discovered_at": "2026-10-09T14:44:12Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-08T07:22:26-07:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Give Claude better references for your videos Discussion | Link",
-      "title": "Refs",
-      "url": "https://www.producthunt.com/products/refs"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-09T14:44:19Z",
+  "updated_at": "2026-10-09T19:51:28Z",
   "version": 2
 }

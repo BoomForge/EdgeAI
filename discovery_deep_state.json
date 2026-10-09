@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-09T14:44:19Z",
+    "at": "2026-10-09T19:51:28Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 7,
+    "prefiltered": 0,
+    "queued": 8,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 31,
+  "runs": 32,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -401,6 +401,11 @@
       "first_seen": "2026-10-09T14:44:12Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/refs"
+    },
+    "24da2b7e99224f26ab55331f": {
+      "first_seen": "2026-10-09T19:51:27Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2108645938403405896"
     },
     "25699d15b38305675ec53cee": {
       "first_seen": "2026-10-08T16:25:55Z",
@@ -854,6 +859,11 @@
       "status": "queued",
       "url": "https://updates.midjourney.com/testing-thinking-mode/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "5591ab28bd9758b5ff9121d3": {
+      "first_seen": "2026-10-09T19:51:22Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/ambiguous-workspace"
+    },
     "56214e5d22ef22f55c37175c": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -868,6 +878,11 @@
       "first_seen": "2026-10-06T23:21:34Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107592258216206497"
+    },
+    "57851c37ed3aed2adff650a1": {
+      "first_seen": "2026-10-09T19:51:22Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/murmur-15"
     },
     "57f26ce032c1bf6dc8f08b24": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -1264,6 +1279,11 @@
       "status": "queued",
       "url": "https://runway.com/research/introducing-general-world-models"
     },
+    "7af93f3f2c1476c300e88434": {
+      "first_seen": "2026-10-09T19:51:22Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/9/matthew-green/"
+    },
     "7bbb1a192048392f44f5de7d": {
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "too_old",
@@ -1586,6 +1606,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/otpfill"
     },
+    "9f96a2d3a84b82bbb405905b": {
+      "first_seen": "2026-10-09T19:51:27Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2108638389045960958"
+    },
     "9fd35c15f72452089f53fad6": {
       "first_seen": "2026-10-08T21:27:34Z",
       "status": "queued",
@@ -1685,6 +1710,11 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/vresk"
+    },
+    "a8426dcdf9a2dd0dc3f668f9": {
+      "first_seen": "2026-10-09T19:51:23Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-9306a718d8b1bf40a8c0"
     },
     "a919ba35a5e056c2278ba024": {
       "first_seen": "2026-10-07T02:36:56Z",
@@ -1810,6 +1840,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/staycharted"
+    },
+    "b304c3fd9188a96af535a6cd": {
+      "first_seen": "2026-10-09T19:51:22Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/openvids"
     },
     "b3ddf621cd927d255750a3ef": {
       "first_seen": "2026-10-03T00:46:03Z",
@@ -2306,6 +2341,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/strac-comply"
     },
+    "e5292497ed6938ae8aab9d59": {
+      "first_seen": "2026-10-09T19:51:21Z",
+      "status": "queued",
+      "url": "https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "e5bf2fe3c121747cc53874fb": {
       "first_seen": "2026-10-08T08:53:54Z",
       "status": "too_old",
@@ -2400,6 +2440,11 @@
       "first_seen": "2026-10-04T20:10:47Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/opensend-cc"
+    },
+    "f16e4a447914196697492641": {
+      "first_seen": "2026-10-09T19:51:21Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "f1874b9d39a053083bb1f031": {
       "first_seen": "2026-10-03T15:15:03Z",

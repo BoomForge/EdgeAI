@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-09T01:22:27Z",
+    "at": "2026-10-09T07:47:56Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 5,
+    "prefiltered": 11,
+    "queued": 8,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 4,
     "warnings": 0
   },
-  "runs": 29,
+  "runs": 30,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -129,6 +129,12 @@
       "status": "queued",
       "url": "https://claude.com/blog/claude-code-mods?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "0c815aab8de10d07a26e545d": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/pine-computer"
+    },
     "0c830c2469f15ef07b1a06c4": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -212,6 +218,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/kishi-notch"
+    },
+    "139c57fb737ea881353402ce": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/cakie-2"
     },
     "16278565d50915517bc1148d": {
       "first_seen": "2026-10-06T19:44:11Z",
@@ -370,6 +381,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
     },
+    "23b886bef1cf374a04a163f9": {
+      "first_seen": "2026-10-09T07:47:52Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-2d844e62959301f0e262"
+    },
     "24089a8016c84891608f0945": {
       "first_seen": "2026-10-08T08:53:54Z",
       "status": "too_old",
@@ -430,6 +446,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/ahem-calendar-overlay"
+    },
+    "2bc89da3f2611b9900152569": {
+      "first_seen": "2026-10-09T07:47:55Z",
+      "status": "queued",
+      "url": "https://sakana.ai/namazu-aillis/"
     },
     "2c8b555f89725b795ac88b8d": {
       "first_seen": "2026-10-08T01:53:43Z",
@@ -652,6 +673,11 @@
       "status": "queued",
       "url": "https://bfl.ai/about"
     },
+    "4531aaeb11d6a46bc2567ac4": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/9/ttok/"
+    },
     "4712a12633fcb5d1b4744636": {
       "first_seen": "2026-10-03T00:46:00Z",
       "search_score": 1,
@@ -662,6 +688,11 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/twelvelabs"
+    },
+    "49c1d8fc4ff8f06e55716ad2": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/phonable"
     },
     "49ed414931058e2ec90de080": {
       "first_seen": "2026-10-07T21:57:48Z",
@@ -693,6 +724,12 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://www.minimax.io/news/minimax-speech-28"
+    },
+    "4d25b01d5170938dbcae3b2c": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/trophy-1-0"
     },
     "4e353c6f104ebbd1b36de073": {
       "first_seen": "2026-10-06T00:46:26Z",
@@ -921,6 +958,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/bentomux"
     },
+    "60b8148b514465fe1d0a0510": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/microsoft-surface-laptop-ultra"
+    },
     "6138ec733e3c4420aa012e01": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -1027,6 +1069,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/dereference-the-100x-ide"
     },
+    "6b4383b5f78100fd06a972b9": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/zernio"
+    },
     "6b4cd44f6032da1f1cebe4e8": {
       "first_seen": "2026-10-06T23:21:30Z",
       "status": "too_old",
@@ -1063,6 +1110,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/chime-sms-categorized-on-device"
     },
+    "70c10ce905c06a54f91717a4": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/opencharm"
+    },
     "7157c7d19069852befd5724a": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -1093,6 +1145,11 @@
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/calnio"
+    },
+    "74727f58a7375e00f9e5624e": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/de-stash"
     },
     "767d277bfa1d3e61b6f4b6c8": {
       "first_seen": "2026-10-08T16:25:55Z",
@@ -1187,6 +1244,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/side"
     },
+    "7c90221d90c9aee658867f72": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/vocascript"
+    },
     "7cfa53bfb68a578c85d85929": {
       "first_seen": "2026-10-03T00:45:59Z",
       "search_score": 0,
@@ -1271,6 +1333,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/patchcord-2"
+    },
+    "8469217d750f3815d3a34736": {
+      "first_seen": "2026-10-09T07:47:55Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2108418231388278875"
     },
     "853a0c249788523a4e15541f": {
       "first_seen": "2026-10-08T16:26:00Z",
@@ -1461,6 +1528,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/smooth-recorder"
     },
+    "9d458e52652f9c939ec81a11": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/google-labs"
+    },
     "9d77b23d2cd4a15f0f4308dc": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -1491,6 +1564,12 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/kilo"
+    },
+    "a0f96c54336d04f1daa51485": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/rune"
     },
     "a0fc53049f812f1dd1c7f6cb": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -1559,6 +1638,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/yubi-2"
+    },
+    "a7113a0dbdee7f416f2e280c": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/porch-6"
     },
     "a71ec5cbee250906eb18bc41": {
       "first_seen": "2026-10-07T09:23:03Z",
@@ -1759,6 +1844,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/doco-4"
     },
+    "bd2b3c6a95f6304023ad4797": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/request-eagle"
+    },
     "bdc3c2af02f44af22bcadb19": {
       "first_seen": "2026-10-08T16:25:55Z",
       "status": "queued",
@@ -1821,6 +1912,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/"
     },
+    "c58c832a38538cb3c7849296": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/agentsdr"
+    },
     "c6496f29a50495732cb54e22": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -1862,6 +1958,12 @@
       "status": "queued",
       "url": "https://bfl.ai/licensing"
     },
+    "cb4e8f9149af017628ccea38": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/heypi"
+    },
     "cbaf9562bef45be7e7897094": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -1876,6 +1978,12 @@
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/rival-workshop"
+    },
+    "ccf00074d984add5493dbead": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/regunow"
     },
     "cd9267d452079c2353cb8ed2": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -2051,10 +2159,22 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/reika"
     },
+    "ddbdb508d1e3eb62b336dd7d": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/sorted-6"
+    },
     "ddc53f40aa2256bac4bde24b": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/28/joedaroo/"
+    },
+    "ddf87c105d0b9adab0c9e6f8": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/comcent"
     },
     "ddffe7df056e3cba5da2598d": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -2268,6 +2388,12 @@
       "first_seen": "2026-10-06T19:44:10Z",
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/gemini-finally-added-the-feature-claude-users-love-10-06-2026"
+    },
+    "f598a18e8a0c86865be4ac76": {
+      "first_seen": "2026-10-09T07:47:51Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/brightbean-studio-social-media"
     },
     "f5edbd3b23d95b4ae1e66c01": {
       "first_seen": "2026-10-03T00:46:00Z",

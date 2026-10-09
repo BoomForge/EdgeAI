@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-09T17:08:00Z",
-    "eligible": 114,
-    "evaluated": 2,
+    "at": "2026-10-09T21:39:09Z",
+    "eligible": 101,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -274,6 +274,11 @@
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0"
     },
+    "1244a96b60ce187188fe2460": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/"
+    },
     "1258d92154cf6b5b455fb550": {
       "at": "2026-10-04T15:54:47Z",
       "status": "expired",
@@ -293,6 +298,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.51.0"
+    },
+    "16278565d50915517bc1148d": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/"
     },
     "179afd0ee553a08b8bacfe99": {
       "at": "2026-10-03T04:50:20Z",
@@ -425,6 +435,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/cue-by-manus"
     },
+    "1f6a7ac23b124288368f68ff": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/"
+    },
     "1f99edf99303e9898f56c517": {
       "at": "2026-10-04T19:33:53Z",
       "bootstrap": true,
@@ -526,6 +541,11 @@
       "at": "2026-10-07T19:56:51Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2"
+    },
+    "2a12f28d7d122abde1663483": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11447"
     },
     "2a8e5b2eeed733baf988d7ff": {
       "at": "2026-10-06T02:32:14Z",
@@ -631,6 +651,11 @@
       "story_key": "artificial-analysis-changelog-snapshot",
       "url": "https://artificialanalysis.ai/changelog#edgeai-d84b4efe976821bada1a"
     },
+    "30a028d33d452e4f44f01fa3": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0"
+    },
     "30fb05944a5e18201187df4e": {
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
@@ -693,6 +718,11 @@
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2107138770088714678"
+    },
+    "36300441d954306806343b79": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-earth-ai/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "36980dfdde9ab39e7f62d1f0": {
       "at": "2026-10-03T04:52:17Z",
@@ -1096,6 +1126,11 @@
       },
       "url": "https://sakana.ai/fugu-max-release/"
     },
+    "548cbd263e1bab205b5fdb54": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "54a565e70d5b43977dcb25ad": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -1119,6 +1154,11 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/sophos"
+    },
+    "57154d8c4d629bfd9a98e634": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11446"
     },
     "5729c415ffed36d683b66b4e": {
       "at": "2026-10-05T07:01:46Z",
@@ -1165,6 +1205,11 @@
       "status": "ignored",
       "story_key": "runway-enterprise-promo-contact-sales",
       "url": "https://runway.com/enterprise-contact?utm_source=runway&utm_medium=homepagebanner&utm_campaign=twomonthsentfree"
+    },
+    "596e4c670db88f61b964087d": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11448"
     },
     "5a75b8a901e4f4a9de9bb579": {
       "at": "2026-10-04T11:20:58Z",
@@ -1552,10 +1597,20 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/bevel-software"
     },
+    "77c569ee3623683d5b804985": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11449"
+    },
     "78193f4d45e8f96f3f7b4e68": {
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11371"
+    },
+    "788c0a497542431958d6f48b": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://openrouter.ai/rankings#edgeai-eb975ed2c7e8867d6111"
     },
     "79496cdb25d507d2bc6e03cf": {
       "at": "2026-10-08T23:51:05Z",
@@ -1694,6 +1749,11 @@
       "status": "ignored",
       "story_key": "pollo-ai-openai-integration",
       "url": "https://openai.com/index/pollo-ai"
+    },
+    "85aa24163c1d7e9a59e61b68": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/6/datasette-atom/"
     },
     "86745252420db89333393bf9": {
       "at": "2026-10-05T22:35:25Z",
@@ -1971,10 +2031,38 @@
       },
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21"
     },
+    "9b982b2cc135ef9267e47ef1": {
+      "at": "2026-10-09T21:39:09Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "nous-research-hermes-agent-asus-proart-rtx-spark",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2108201390493544680"
+    },
     "9bd0f3ba37f1ffa053a05839": {
       "at": "2026-10-07T19:56:51Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11395"
+    },
+    "9bf93d58cc35db9987f8bca4": {
+      "at": "2026-10-09T21:39:04Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "asana-browser-agent-gpt-6-sol-optimization",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/asana-browser-agent"
     },
     "9c31c15969a0389f5c8b359f": {
       "at": "2026-10-09T10:27:28Z",
@@ -2067,6 +2155,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00015"
     },
+    "a1e53497dd815283c3d2e912": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11455"
+    },
     "a3cf20eae0fce76e913abe7e": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -2120,6 +2213,14 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.3"
+    },
+    "a8426dcdf9a2dd0dc3f668f9": {
+      "at": "2026-10-09T21:39:00Z",
+      "bootstrap": false,
+      "score": 65,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-updates-oct-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-9306a718d8b1bf40a8c0"
     },
     "a99e7c73be3208be7c0aeb2b": {
       "at": "2026-10-04T19:33:59Z",
@@ -2215,6 +2316,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/agentguard-5"
     },
+    "b0fae2704c3212d2288d6145": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "b23a71d2dca41cfabb3715eb": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -2265,6 +2371,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.4.0"
+    },
+    "b800392f061efc350c642d5c": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2107493074662281326"
     },
     "b8087b88cb63ae7fc829eff8": {
       "at": "2026-10-04T05:44:58Z",
@@ -2789,6 +2900,11 @@
       "story_key": "cline-sdk-v0-0-91-release",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.91"
     },
+    "e09d2bada225487953eb13ef": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://openai.com/index/atlassian-partnership/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "e29b6fd6d8e146bda617f7e0": {
       "at": "2026-10-09T10:27:28Z",
       "status": "expired",
@@ -2847,6 +2963,11 @@
       "status": "expired",
       "url": "https://newsletter.futurepedia.io/p/chatgpt-just-took-the-image-crown-09-22-2026"
     },
+    "e81229deb96429c505f099e3": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11456"
+    },
     "e8346da5cb44c235fa05591d": {
       "at": "2026-10-03T04:50:39Z",
       "bootstrap": true,
@@ -2860,6 +2981,11 @@
         "source": "MiniMax Research"
       },
       "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
+    },
+    "e98c5a8376b2281ced83f67c": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11454"
     },
     "e9a128e279ff480986fb87f4": {
       "at": "2026-10-08T23:51:42Z",
@@ -2916,6 +3042,11 @@
       "story_key": "runway-enterprise-sales",
       "url": "https://runway.com/enterprise-contact"
     },
+    "ef8dc3e0756d057ef38462cf": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/vocera"
+    },
     "eff7b109e5ada0968b399ef2": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -2963,6 +3094,11 @@
       },
       "url": "https://sakana.ai/schmidhuber/"
     },
+    "f4dc19249c65501d190c52a2": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://newsletter.futurepedia.io/p/gemini-finally-added-the-feature-claude-users-love-10-06-2026"
+    },
     "f57c46bf1463a1b4ffd18591": {
       "at": "2026-10-07T19:56:51Z",
       "status": "expired",
@@ -2996,6 +3132,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/"
+    },
+    "f634936341d7f4215d39e71d": {
+      "at": "2026-10-09T21:38:57Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11457"
     },
     "f6d4be82fdc69f2db07074bb": {
       "at": "2026-10-05T07:01:46Z",
@@ -3225,6 +3366,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "Artificial Analysis Changelog"
+      }
+    },
+    "asana-browser-agent-gpt-6-sol-optimization": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/asana-browser-agent-gpt-6-sol-optimization.jpg",
+      "last_updated": "2026-10-09T21:39:04Z",
+      "post_id": "6835000065079855978",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/asana-cuts-browser-agent-costs-76x.html",
+      "score": 88,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/4bNHf0rdpv55WFke9YADV7/306540f0701aa79ce7cc9057f616c577/asana-blue-layered-paper-social-seo-1920x1080.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/asana-browser-agent"
+      ],
+      "status": "CONFIRMED",
+      "title": "Asana Cuts Browser Agent Costs 76x Using GPT-6.1 Sol and Codex",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
       }
     },
     "atlassian-openai-partnership-expansion-2026": {
@@ -4029,6 +4191,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 91,
         "source": "Simon Willison Everything"
+      }
+    },
+    "nous-research-hermes-agent-asus-proart-rtx-spark": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-hermes-agent-asus-proart-rtx-spark.jpg",
+      "last_updated": "2026-10-09T21:39:09Z",
+      "post_id": "932227674725559828",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-integrates-hermes-agent.html",
+      "score": 82,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_400x400.jpg",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2108201390493544680"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Integrates Hermes Agent into ASUS ProArt RTX Spark PCs for Local Creative Workflows",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
       }
     },
     "nous-research-hermes-index-benchmark-release": {

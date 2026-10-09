@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-08T21:27:41Z",
+    "at": "2026-10-09T01:22:27Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 1,
-    "queued": 14,
+    "queued": 5,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 28,
+  "runs": 29,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -257,6 +257,11 @@
       "first_seen": "2026-10-06T23:21:34Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107592260682391925"
+    },
+    "1a6c2f85d9e601ca12e1b7a0": {
+      "first_seen": "2026-10-09T01:22:23Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-8c1a880b28f31fa7f49b"
     },
     "1ab262daeec5747ab5941548": {
       "first_seen": "2026-10-03T05:50:29Z",
@@ -519,6 +524,11 @@
       "status": "queued",
       "url": "https://sakana.ai/marlin-update/"
     },
+    "36a5d95f764b3068a705da7d": {
+      "first_seen": "2026-10-09T01:22:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/paw-paw"
+    },
     "36bdd825e1b13d8b2bcea67a": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -700,6 +710,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/banger-mail"
     },
+    "4f6ee6fb52ce253ad03c145a": {
+      "first_seen": "2026-10-09T01:22:21Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/pmtui"
+    },
     "4f78b004ba16b11412746d03": {
       "first_seen": "2026-10-04T12:47:33Z",
       "search_score": 0,
@@ -774,6 +790,11 @@
       "first_seen": "2026-10-07T21:57:47Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "551d9f15e55d0a5c767736bf": {
+      "first_seen": "2026-10-09T01:22:21Z",
+      "status": "queued",
+      "url": "https://updates.midjourney.com/testing-thinking-mode/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "56214e5d22ef22f55c37175c": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -919,6 +940,11 @@
       "first_seen": "2026-10-03T21:50:36Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2106497772426076504"
+    },
+    "61983422680f87fff0b1faa2": {
+      "first_seen": "2026-10-09T01:22:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/procboss"
     },
     "6218e0219f6856f2edb6a893": {
       "first_seen": "2026-10-06T19:44:11Z",
@@ -1618,6 +1644,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/alkera"
     },
+    "b086982776d8ed321378c722": {
+      "first_seen": "2026-10-09T01:22:21Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/agentguard-5"
+    },
     "b0e351c9646e33c8af9e09c7": {
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
@@ -2208,6 +2239,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/easycut-2"
     },
+    "f242adb232a8919dd94035cc": {
+      "first_seen": "2026-10-09T01:22:22Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/8/ttok/"
+    },
     "f2623f517e94709c38bd2067": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "queued",
@@ -2242,6 +2278,11 @@
       "first_seen": "2026-10-08T01:53:42Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/7/ben-affleck/"
+    },
+    "f68e4130196e02821447341e": {
+      "first_seen": "2026-10-09T01:22:21Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/termaxa"
     },
     "f8337d5201ca41f6b38e2a43": {
       "first_seen": "2026-10-06T06:55:27Z",

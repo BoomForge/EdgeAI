@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-10T05:45:04Z",
+    "at": "2026-10-10T11:25:20Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 2,
+    "prefiltered": 8,
+    "queued": 6,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 6,
     "warnings": 0
   },
-  "runs": 34,
+  "runs": 35,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -412,6 +412,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2108645938403405896"
     },
+    "24fb3ce9224c485c3ae25f5f": {
+      "first_seen": "2026-10-10T11:25:13Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/skreno"
+    },
     "25699d15b38305675ec53cee": {
       "first_seen": "2026-10-08T16:25:55Z",
       "status": "queued",
@@ -426,6 +431,12 @@
       "first_seen": "2026-10-08T08:53:54Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/sineframe-m3"
+    },
+    "25e1661dc408a4f0093e28aa": {
+      "first_seen": "2026-10-10T11:25:14Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/cue-26"
     },
     "271a8d37f09e7fec2947e57b": {
       "first_seen": "2026-10-06T19:44:10Z",
@@ -597,6 +608,12 @@
       "status": "queued",
       "url": "https://runway.com/news/research"
     },
+    "3774108e3713e3617bf731a6": {
+      "first_seen": "2026-10-10T11:25:14Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/the-computer-game"
+    },
     "37948658fc64306e709ba3fb": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -616,6 +633,12 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/notchware"
+    },
+    "39c4d30bf982dabb34c7d1aa": {
+      "first_seen": "2026-10-10T11:25:14Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tuck-6"
     },
     "39d9d32aec31bf39472f496d": {
       "first_seen": "2026-10-05T18:53:47Z",
@@ -715,6 +738,11 @@
       "status": "queued",
       "url": "https://bfl.ai/about"
     },
+    "44e21fa11d739b78715daeae": {
+      "first_seen": "2026-10-10T11:25:13Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/naarchy"
+    },
     "4531aaeb11d6a46bc2567ac4": {
       "first_seen": "2026-10-09T07:47:51Z",
       "status": "queued",
@@ -745,6 +773,12 @@
       "first_seen": "2026-10-03T11:34:54Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-856ac3142a80b7c1453c"
+    },
+    "4ba5ed876417eddb55c73101": {
+      "first_seen": "2026-10-10T11:25:13Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/maildun-for-mac"
     },
     "4bc101a068feb031e91e799c": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -880,6 +914,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/ambiguous-workspace"
     },
+    "561a30e5490e7d073fd8c55f": {
+      "first_seen": "2026-10-10T11:25:13Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/museum-of-models"
+    },
     "56214e5d22ef22f55c37175c": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -889,6 +928,11 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/"
+    },
+    "56df3be0422e0863012d9566": {
+      "first_seen": "2026-10-10T11:25:13Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/reso"
     },
     "573f30c6a916bb5e735b4a6b": {
       "first_seen": "2026-10-06T23:21:34Z",
@@ -1177,10 +1221,21 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/chime-sms-categorized-on-device"
     },
+    "6fb08d1499db4b2d0b2c3702": {
+      "first_seen": "2026-10-10T11:25:13Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/history-monk-better-history-search"
+    },
     "70c10ce905c06a54f91717a4": {
       "first_seen": "2026-10-09T07:47:51Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/opencharm"
+    },
+    "70d5e4d4fb5b8c5e490419d9": {
+      "first_seen": "2026-10-10T11:25:14Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/kernelai"
     },
     "7157c7d19069852befd5724a": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -1191,6 +1246,12 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://bfl.ai/models/flux-3-video"
+    },
+    "72545bf67931823dc054ad99": {
+      "first_seen": "2026-10-10T11:25:13Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/pixrater"
     },
     "7285d7b661f41f6ff0755320": {
       "first_seen": "2026-10-07T21:57:54Z",
@@ -1337,6 +1398,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
     },
+    "7e2bd70a99cf3d9441f7abf9": {
+      "first_seen": "2026-10-10T11:25:14Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/agentdock"
+    },
     "7e525aa8a6e4a82405dbb613": {
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "queued",
@@ -1351,6 +1417,12 @@
       "first_seen": "2026-10-08T01:53:41Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/zavi"
+    },
+    "7f13ecabdb2b75e7b27a40f3": {
+      "first_seen": "2026-10-10T11:25:13Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tapnoise"
     },
     "7f251a2320ab82b5ad20e1f3": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -1442,6 +1514,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/quven"
     },
+    "870f5caaf25f4ba512e0009c": {
+      "first_seen": "2026-10-10T11:25:13Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/mozilla"
+    },
     "874d80e9e31a5a4f86d4c985": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -1473,6 +1550,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/capybara-court"
     },
+    "89d4d034d86a1c4859ddef00": {
+      "first_seen": "2026-10-10T11:25:13Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/letra-3"
+    },
     "8a3406e6a76a97fc77fa230c": {
       "first_seen": "2026-10-08T21:27:34Z",
       "status": "queued",
@@ -1498,6 +1581,11 @@
       "first_seen": "2026-10-03T00:46:02Z",
       "status": "queued",
       "url": "https://qwenlm.github.io/blog/gspo/"
+    },
+    "8d6e3476b487afeace9878ed": {
+      "first_seen": "2026-10-10T11:25:13Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/adsnotch"
     },
     "8dc761dbcef27687b8863a87": {
       "first_seen": "2026-10-06T00:46:23Z",
@@ -2025,6 +2113,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/eat-train-feel"
     },
+    "c46e83ffe9fcac6056ab89b2": {
+      "first_seen": "2026-10-10T11:25:13Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/onepin"
+    },
     "c48f1ff5058b49fc9610ea09": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -2267,6 +2360,11 @@
       "status": "queued",
       "url": "https://sakana.ai/inside-product-team/"
     },
+    "dd1b1741699e6f6f23cf94eb": {
+      "first_seen": "2026-10-10T11:25:14Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/hypervibe-2"
+    },
     "dd4da1359b61535ba4332bd0": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -2276,6 +2374,11 @@
       "first_seen": "2026-10-07T21:57:48Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/reika"
+    },
+    "dda80ddeff6ba44350898844": {
+      "first_seen": "2026-10-10T11:25:13Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/lune-research"
     },
     "ddbdb508d1e3eb62b336dd7d": {
       "first_seen": "2026-10-09T07:47:51Z",
@@ -2335,6 +2438,11 @@
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/snapset"
+    },
+    "e194f1ea6d18e65bd29bb9d3": {
+      "first_seen": "2026-10-10T11:25:14Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/claude-dashboards-motion"
     },
     "e1d1690b462a275fe49d5bd1": {
       "first_seen": "2026-10-05T18:53:47Z",

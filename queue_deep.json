@@ -3474,6 +3474,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "e194f1ea6d18e65bd29bb9d3",
+      "discovered_at": "2026-10-10T11:25:14Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-09T08:13:51-07:00",
+      "search_score": 6,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Ask Claude for live dashboards and animated explainers Discussion | Link",
+      "title": "Claude Dashboards & Motion",
+      "url": "https://www.producthunt.com/products/claude-dashboards-motion"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "25699d15b38305675ec53cee",
       "discovered_at": "2026-10-08T16:25:55Z",
       "kind": "signal",
@@ -3485,23 +3499,9 @@
       "summary": "Bring Claude directly into Google Docs, Sheets & Slides Discussion | Link",
       "title": "Claude for Google Workspace",
       "url": "https://www.producthunt.com/products/claude-for-google-workspace"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "c9d9e5394f2cbbcab7e127a1",
-      "discovered_at": "2026-10-08T08:53:54Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-07T01:14:41-07:00",
-      "search_score": 6,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "LLM router where providers compete for every prompt Discussion | Link",
-      "title": "Liquid Inference",
-      "url": "https://www.producthunt.com/products/liquid-inference"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-10T05:45:04Z",
+  "updated_at": "2026-10-10T11:25:20Z",
   "version": 2
 }

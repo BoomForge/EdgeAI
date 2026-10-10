@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-10T00:00:24Z",
+    "at": "2026-10-10T05:45:04Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
+    "prefiltered": 2,
     "queued": 2,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 33,
+  "runs": 34,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -431,6 +431,12 @@
       "first_seen": "2026-10-06T19:44:10Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/ari-helper"
+    },
+    "2762645003ffee6788cf55f0": {
+      "first_seen": "2026-10-10T05:44:59Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/opposable"
     },
     "276633348655bb1b12742fc4": {
       "first_seen": "2026-10-07T21:57:47Z",
@@ -930,6 +936,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://bfl.ai/models/flux-3-action"
+    },
+    "5af1a93eb20fb54cb0fa4305": {
+      "first_seen": "2026-10-10T05:44:59Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/"
     },
     "5b330f81c26806ba1f111a52": {
       "first_seen": "2026-10-06T14:08:51Z",
@@ -1742,6 +1753,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/wu"
     },
+    "aa710bc139577e4ead1a417c": {
+      "first_seen": "2026-10-10T05:45:00Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-1a1822b7190d4eead63a"
+    },
     "aa7e1d7a8dcbea4853490ec7": {
       "first_seen": "2026-10-03T00:46:00Z",
       "search_score": 1,
@@ -2526,6 +2542,12 @@
       "first_seen": "2026-10-09T01:22:21Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/termaxa"
+    },
+    "f812ee2e5ad7f8ff56103b85": {
+      "first_seen": "2026-10-10T05:44:59Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/amazon-alexa-tablets"
     },
     "f8337d5201ca41f6b38e2a43": {
       "first_seen": "2026-10-06T06:55:27Z",

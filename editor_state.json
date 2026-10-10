@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-10T13:59:41Z",
-    "eligible": 86,
-    "evaluated": 2,
+    "at": "2026-10-10T18:31:50Z",
+    "eligible": 79,
+    "evaluated": 4,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -269,6 +269,14 @@
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00002"
+    },
+    "1040f15dec51655d9da5e598": {
+      "at": "2026-10-10T18:31:39Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "nous-research-series-b-hermes-index",
+      "url": "https://x.com/NousResearch/status/2108005475895701712"
     },
     "10c568717ed2507c4d9b1469": {
       "at": "2026-10-05T07:01:46Z",
@@ -784,6 +792,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11468"
     },
+    "35dfcb83feb6b71f84a23053": {
+      "at": "2026-10-10T18:31:36Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11480"
+    },
     "36300441d954306806343b79": {
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
@@ -1131,6 +1144,11 @@
       "status": "expired",
       "url": "https://ideogram.ai/models/4.5/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "4c30b4b05fcb88bec2dc3e39": {
+      "at": "2026-10-10T18:31:36Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/"
+    },
     "4cbabd98657885edf602078e": {
       "at": "2026-10-03T04:50:34Z",
       "bootstrap": true,
@@ -1331,6 +1349,20 @@
         "source": "Nous Research Announcements"
       },
       "url": "https://x.com/NousResearch/status/2107671544818200968"
+    },
+    "5d0e03925a09a55df82ef680": {
+      "at": "2026-10-10T18:31:50Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "anthropic-2026-usage-policy-update",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update?utm_source=futuretools.io&utm_medium=newspage"
     },
     "5d1f16605adb30502ea9f3b6": {
       "at": "2026-10-06T02:32:14Z",
@@ -1623,6 +1655,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.23"
+    },
+    "70c10ce905c06a54f91717a4": {
+      "at": "2026-10-10T18:31:36Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/opencharm"
     },
     "7157c7d19069852befd5724a": {
       "at": "2026-10-03T21:49:30Z",
@@ -2759,10 +2796,23 @@
       "status": "expired",
       "url": "https://blog.google/products-and-platforms/products/education/ai-educator-series-badge-a-thon/"
     },
+    "d01ebd3c72db89b95dfc9a57": {
+      "at": "2026-10-10T18:31:36Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11475"
+    },
     "d0768bba5dff363162e4e90b": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38203"
+    },
+    "d1dfcca4ed604925cb790620": {
+      "at": "2026-10-10T18:31:43Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "nous-research-rated-e-for-everyone-x-post",
+      "url": "https://x.com/NousResearch/status/2107975473229918360"
     },
     "d1e512dab3854dc0079a0149": {
       "at": "2026-10-10T01:19:14Z",
@@ -2888,6 +2938,11 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://newsletter.futurepedia.io/p/chatgpt-just-learned-to-use-your-computer-09-11-2026"
+    },
+    "d73ba1c5ca7dc0b3316d87f0": {
+      "at": "2026-10-10T18:31:36Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11476"
     },
     "d7cfcc46f736c325047d8294": {
       "at": "2026-10-03T04:52:42Z",
@@ -3101,6 +3156,25 @@
       "at": "2026-10-04T11:20:52Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/1/matthew-green/"
+    },
+    "e5292497ed6938ae8aab9d59": {
+      "at": "2026-10-10T18:31:46Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "anthropic-openai-war-game-catastrophic-ai-event",
+      "trust": {
+        "label": "Caution",
+        "reason": "The development appears real, but some details are still arriving or remain incomplete. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 56,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "e5f8df0d727db32b0276a182": {
+      "at": "2026-10-10T18:31:36Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11477"
     },
     "e74b0ca731164f12ce98355c": {
       "at": "2026-10-03T04:50:16Z",
@@ -3394,6 +3468,27 @@
     }
   },
   "stories": {
+    "anthropic-2026-usage-policy-update": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-2026-usage-policy-update.jpg",
+      "last_updated": "2026-10-10T18:31:50Z",
+      "post_id": "1445017958436536331",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-updates-claude-usage-policy.html",
+      "score": 82,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "source_urls": [
+        "https://www.anthropic.com/news/2026-usage-policy-update?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Updates Claude Usage Policy to Target Deception, Autonomous Weapons, and Surveillance",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      }
+    },
     "anthropic-claude-haiku-5-5": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-claude-haiku-5-5.jpg",
@@ -3434,6 +3529,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 91,
         "source": "Simon Willison Everything"
+      }
+    },
+    "anthropic-openai-war-game-catastrophic-ai-event": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/anthropic-openai-war-game-catastrophic-ai-event.png",
+      "last_updated": "2026-10-10T18:31:46Z",
+      "post_id": "5197757894665252323",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-and-openai-war-game-public.html",
+      "score": 85,
+      "source_image_source": "EdgeAI",
+      "source_image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/edgeai-newsroom-fallback.svg",
+      "source_urls": [
+        "https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "DEVELOPING",
+      "title": "Anthropic and OpenAI War-Game Public Backlash Following Catastrophic AI Scenarios",
+      "trust": {
+        "label": "Caution",
+        "reason": "The development appears real, but some details are still arriving or remain incomplete. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 56,
+        "source": "FutureTools AI News"
       }
     },
     "artificial-analysis-benchmark-changelog-oct-2026": {

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-10T11:25:20Z",
+    "at": "2026-10-10T16:21:20Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 8,
-    "queued": 6,
+    "prefiltered": 4,
+    "queued": 1,
     "sources_ok": 15,
     "too_old": 6,
     "warnings": 0
   },
-  "runs": 35,
+  "runs": 36,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -125,6 +125,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/cupola"
     },
+    "0b9eaf4f64677e8568581154": {
+      "first_seen": "2026-10-10T16:21:13Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/isly"
+    },
     "0c30926095c0d9d91fe3d640": {
       "first_seen": "2026-10-07T21:57:48Z",
       "status": "too_old",
@@ -186,6 +191,11 @@
       "first_seen": "2026-10-08T01:53:48Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2108005475895701712"
+    },
+    "106dbca835aa2a7088b7ac94": {
+      "first_seen": "2026-10-10T16:21:13Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/fluence"
     },
     "10e556402d45283b9552e036": {
       "first_seen": "2026-10-06T23:21:29Z",
@@ -1043,6 +1053,12 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-6d25e977ed7a7140f88e"
     },
+    "5fa35c3ea57cc876c21df92f": {
+      "first_seen": "2026-10-10T16:21:13Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/kitbar"
+    },
     "603d4f0592f632a4812d62a6": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -1305,6 +1321,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/launchreel-2"
     },
+    "77a6b07b6c8daa980c044805": {
+      "first_seen": "2026-10-10T16:21:13Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/underplane-deleted-1312891"
+    },
     "77bb9dac7f2dc73e90b658f8": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
@@ -1314,6 +1335,12 @@
       "first_seen": "2026-10-03T15:15:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/miso-com"
+    },
+    "77ded49aa23f33d225f1243c": {
+      "first_seen": "2026-10-10T16:21:13Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/new-windows-search"
     },
     "785ae5d61ec0075f6154b90e": {
       "first_seen": "2026-10-08T21:27:34Z",
@@ -1625,6 +1652,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/iphone-use"
     },
+    "91402fffa583d9a002266174": {
+      "first_seen": "2026-10-10T16:21:13Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/ej-jev-but-for-edge-devices"
+    },
     "94801ca24377c4b6f66bd124": {
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
@@ -1692,6 +1724,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/smooth-recorder"
+    },
+    "9cb2ddd10e3e61780dd91b16": {
+      "first_seen": "2026-10-10T16:21:13Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/pocketwebtools"
     },
     "9d458e52652f9c939ec81a11": {
       "first_seen": "2026-10-09T07:47:51Z",
@@ -1834,6 +1872,12 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://stability.ai/news-updates/sharing-a-new-way-to-work-with-stable-audio"
+    },
+    "a9afb641a9285c010871d580": {
+      "first_seen": "2026-10-10T16:21:13Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/put-here"
     },
     "a9e5eb40b02dd637ada77901": {
       "first_seen": "2026-10-03T05:50:29Z",
@@ -2008,6 +2052,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/staffcoder"
     },
+    "b863b3fd2cadf72315b4786b": {
+      "first_seen": "2026-10-10T16:21:13Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/toolaby"
+    },
     "b98abef5a14e12ad68a0289b": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -2096,6 +2145,11 @@
       "first_seen": "2026-10-09T14:44:12Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/busabase"
+    },
+    "c08335a771dce774db8dd0f8": {
+      "first_seen": "2026-10-10T16:21:13Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/pawse-2"
     },
     "c08ec2b468a48f442b32d10c": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -2463,6 +2517,11 @@
       "first_seen": "2026-10-09T14:44:15Z",
       "status": "queued",
       "url": "https://www.kimi.com/en/products/kimi-office"
+    },
+    "e377cf58dc07cdd0e09e88ca": {
+      "first_seen": "2026-10-10T16:21:13Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/baby-desk"
     },
     "e48a7f736f56ad596c7cd7f9": {
       "first_seen": "2026-10-03T00:46:00Z",

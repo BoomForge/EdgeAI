@@ -37,11 +37,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-10T07:33:57Z",
-    "eligible": 93,
-    "evaluated": 4,
+    "at": "2026-10-10T13:59:41Z",
+    "eligible": 86,
+    "evaluated": 2,
     "mode": "live",
-    "new_posts": 1,
+    "new_posts": 2,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -112,6 +112,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38181"
     },
+    "037c9a6eec7a37f3bc367de9": {
+      "at": "2026-10-10T13:59:33Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11474"
+    },
     "042ccdeda93e0568fd77742b": {
       "at": "2026-10-03T04:48:32Z",
       "bootstrap": true,
@@ -172,6 +177,20 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/eleven-v4-and-eleven-v4-turbo"
+    },
+    "07dffacc5be464373897633e": {
+      "at": "2026-10-10T13:59:41Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "nous-research-hermes-agent-asus-proart",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2108202803449692620"
     },
     "08913be196df8938b291d515": {
       "at": "2026-10-06T02:32:14Z",
@@ -662,6 +681,20 @@
       "story_key": "sakana-ai-japan-startup-award-2026",
       "url": "https://sakana.ai/japan-startup-award-2026/"
     },
+    "305ba874f36ffe291e11411a": {
+      "at": "2026-10-10T13:59:36Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "simon-willison-voice-coding-django-feature",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 89,
+        "source": "Simon Willison Everything"
+      },
+      "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
+    },
     "30796f46de906be3bc43937d": {
       "at": "2026-10-07T06:34:10Z",
       "bootstrap": false,
@@ -745,6 +778,11 @@
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2107138770088714678"
+    },
+    "356e43026a7ba565a76e47e3": {
+      "at": "2026-10-10T13:59:33Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11468"
     },
     "36300441d954306806343b79": {
       "at": "2026-10-09T21:38:57Z",
@@ -1106,6 +1144,11 @@
         "source": "MiniMax Research"
       },
       "url": "https://www.minimax.io/news/minimax-speech-28"
+    },
+    "4cf4b7306faaa5e44b0b4642": {
+      "at": "2026-10-10T13:59:33Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11469"
     },
     "4e324623ab7ca6fee0e14241": {
       "at": "2026-10-08T00:09:56Z",
@@ -2599,6 +2642,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38219"
     },
+    "c6df618ecceffebff6e3e3e2": {
+      "at": "2026-10-10T13:59:33Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11471"
+    },
     "c6e30aab44ad97598838c4c3": {
       "at": "2026-10-03T04:52:13Z",
       "bootstrap": true,
@@ -3125,6 +3173,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00003"
+    },
+    "eba0c9f2e14140d209a9a356": {
+      "at": "2026-10-10T13:59:33Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11472"
     },
     "ebb413cc5359756bf9234b81": {
       "at": "2026-10-07T06:34:14Z",
@@ -4334,6 +4387,27 @@
         "source": "Simon Willison Everything"
       }
     },
+    "nous-research-hermes-agent-asus-proart": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-hermes-agent-asus-proart.jpg",
+      "last_updated": "2026-10-10T13:59:41Z",
+      "post_id": "112769568577770511",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-brings-hermes-agent-to.html",
+      "score": 88,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/card_img/2108202788253499392/N0RXvb_a?format=webp&name=medium",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2108202803449692620"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Brings Hermes Agent to ASUS ProArt RTX Spark PCs with Local Model Support",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      }
+    },
     "nous-research-hermes-agent-asus-proart-rtx-spark": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-hermes-agent-asus-proart-rtx-spark.jpg",
@@ -5213,6 +5287,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 86,
         "source": "SGLang Releases"
+      }
+    },
+    "simon-willison-voice-coding-django-feature": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/simon-willison-voice-coding-django-feature.jpg",
+      "last_updated": "2026-10-10T13:59:36Z",
+      "post_id": "6131487183727110879",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/developer-builds-production-django.html",
+      "score": 82,
+      "source_image_source": "Simon Willison Everything",
+      "source_image_url": "https://static.simonwillison.net/static/2026/newsletters-card.webp",
+      "source_urls": [
+        "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Developer Builds Production Django Feature Entirely via Voice with AI Coding Agent",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 89,
+        "source": "Simon Willison Everything"
       }
     },
     "stability-ai-series-b-funding-entertainment-industry": {

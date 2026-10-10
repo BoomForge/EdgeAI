@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-10T18:31:50Z",
-    "eligible": 79,
-    "evaluated": 4,
+    "at": "2026-10-10T21:57:08Z",
+    "eligible": 75,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -466,6 +466,20 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/cue-by-manus"
+    },
+    "1eb9694d7827865d4e95ff08": {
+      "at": "2026-10-10T21:56:59Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "nous-research-missingno-model",
+      "trust": {
+        "label": "Strong",
+        "reason": "The development appears real, but some details are still arriving or remain incomplete.",
+        "score": 80,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2109012611555840069"
     },
     "1f6a7ac23b124288368f68ff": {
       "at": "2026-10-09T21:38:57Z",
@@ -1545,6 +1559,11 @@
       },
       "url": "https://openai.com/index/teens-learn-and-plan"
     },
+    "6676883e07115b3ec1aaa9de": {
+      "at": "2026-10-10T21:56:54Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/clippo-2"
+    },
     "66ce92e5e68cbdb18eafdb5b": {
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
@@ -1880,6 +1899,14 @@
       "at": "2026-10-08T05:56:53Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11403"
+    },
+    "8469217d750f3815d3a34736": {
+      "at": "2026-10-10T21:57:01Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "nous-research-hermes-agent-windows-store",
+      "url": "https://x.com/NousResearch/status/2108418231388278875"
     },
     "853a0c249788523a4e15541f": {
       "at": "2026-10-10T01:19:22Z",
@@ -2593,6 +2620,20 @@
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00053"
+    },
+    "be8fc480c667640aea46906e": {
+      "at": "2026-10-10T21:57:08Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "nous-research-series-b-hermes-agent-mobile-app",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2107880428111806730"
     },
     "beb274ef00cc9345c9b0dbac": {
       "at": "2026-10-09T17:07:50Z",
@@ -3384,6 +3425,11 @@
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11457"
+    },
+    "f68e4130196e02821447341e": {
+      "at": "2026-10-10T21:56:54Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/termaxa"
     },
     "f6d4be82fdc69f2db07074bb": {
       "at": "2026-10-05T07:01:46Z",
@@ -4590,6 +4636,27 @@
         "source": "Nous Research Announcements"
       }
     },
+    "nous-research-missingno-model": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-missingno-model.jpg",
+      "last_updated": "2026-10-10T21:56:59Z",
+      "post_id": "4983325973858705823",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-releases-missingno-coding.html",
+      "score": 82,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/amplify_video_thumb/2108552852654239744/img/nwqChCHZJqH19goR?format=webp&name=large",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2109012611555840069"
+      ],
+      "status": "DEVELOPING",
+      "title": "Nous Research Releases \"MISSINGNO.\" Coding and Agentic Reasoning Model",
+      "trust": {
+        "label": "Strong",
+        "reason": "The development appears real, but some details are still arriving or remain incomplete.",
+        "score": 80,
+        "source": "Nous Research Announcements"
+      }
+    },
     "nous-research-series-b-hermes-agent": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-series-b-hermes-agent.jpg",
@@ -4604,6 +4671,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Nous Research Raises Series B to Scale Hermes Agent and Expand to Mobile",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      }
+    },
+    "nous-research-series-b-hermes-agent-mobile-app": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-series-b-hermes-agent-mobile-app.jpg",
+      "last_updated": "2026-10-10T21:57:08Z",
+      "post_id": "4554807180332908105",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-raises-series-b-funding.html",
+      "score": 82,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_400x400.jpg",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2107880428111806730"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Raises Series B Funding to Expand Hermes Agent and Build Mobile App",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

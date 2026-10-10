@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-10T02:27:02Z",
+    "at": "2026-10-10T08:59:56Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 0,
+    "queued": 4,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 34,
+  "runs": 35,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -116,6 +116,11 @@
       "first_seen": "2026-10-08T20:34:36Z",
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.905-beta"
+    },
+    "0bd4807c4cdaac12fd532073": {
+      "first_seen": "2026-10-10T08:59:32Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11542"
     },
     "0be66981e5a9848bfc3141a4": {
       "first_seen": "2026-10-03T00:45:51Z",
@@ -1711,6 +1716,11 @@
       "status": "too_old",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.10"
     },
+    "89c32091399dabfa1a90ef3e": {
+      "first_seen": "2026-10-10T08:59:32Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11541"
+    },
     "89f90ac413203f7546686b84": {
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
@@ -2816,6 +2826,11 @@
       "status": "queued",
       "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.3"
     },
+    "e447cf92d70f23df27463fc5": {
+      "first_seen": "2026-10-10T08:59:32Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11540"
+    },
     "e57e423f7a82a7d0a38f0c39": {
       "first_seen": "2026-10-04T00:30:29Z",
       "status": "queued",
@@ -3030,6 +3045,11 @@
       "first_seen": "2026-10-03T00:46:21Z",
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.7"
+    },
+    "f3fc66063b988d6f6e279ef8": {
+      "first_seen": "2026-10-10T08:59:32Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11543"
     },
     "f4e9f0c4306128e81c614da9": {
       "first_seen": "2026-10-09T06:41:17Z",

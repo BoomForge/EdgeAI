@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-10T15:12:06Z",
+    "at": "2026-10-10T19:21:30Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 6,
+    "queued": 2,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 36,
+  "runs": 37,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -2233,6 +2233,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10623"
     },
+    "b50f3a47067c5ec9935b1f5c": {
+      "first_seen": "2026-10-10T19:21:11Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11551"
+    },
     "b6aec8c05cfc3e2f0fe39756": {
       "first_seen": "2026-10-07T16:38:56Z",
       "status": "queued",
@@ -2542,6 +2547,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "too_old",
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.8.1"
+    },
+    "cdec551026cbc0789c854deb": {
+      "first_seen": "2026-10-10T19:21:11Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11550"
     },
     "ce114c8ceafbd37630c08298": {
       "first_seen": "2026-10-05T18:34:46Z",

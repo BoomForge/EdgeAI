@@ -2536,6 +2536,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "b50f3a47067c5ec9935b1f5c",
+      "discovered_at": "2026-10-10T19:21:11Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-10T19:13:14Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "model : support MiniCPM-V 4.7 ( #29416 ) mtmd : add MiniCPM-V 4.7 support Signed-off-by: tc-mb tianchi_cai@icloud.com model : allow mrope time from an extra position slot Signed-off-by: tc-mb tianchi_cai@icloud.com Update conversion/minicpm.py Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Slim down comments Signed-off-by: tc-mb tianchi_cai@icloud.com fix for \"do not hand-wrap comments\" Signed-off-by: tc-mb tianchi_cai@icloud.com fix ci Signed-off-by: tc-mb tianchi_cai@icloud.com rm 3d repo for pr one Signed-off-by: tc-mb tianchi_cai@icloud.com gguf: add rope.section_order metadata fix comments handle grid layout allow compat Signed-off-by: tc-mb tianchi_cai@icloud.com Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54661395 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11551",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11551"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "1d108a11bc33f28a865d162a",
       "discovered_at": "2026-10-09T13:48:02Z",
       "kind": "local-ai",
@@ -2785,6 +2799,20 @@
       "summary": "cuda: tile the lightning indexer over keys and tokens for 4 heads ( #29901 ) cuda: tile the lightning indexer over keys and tokens for 4 heads With too few heads for a wmma tile, a block scores 64 keys against 8 tokens: the keys are staged once in half precision, the queries one head at a time, and each thread owns one key for two tokens, so no dot product needs a cross thread reduction. Batches smaller than a token tile keep the vector kernel. test-backend-ops measures 4 heads. cuda: multiply the lightning indexer tile in float Address review from am17an: the half2 products overflow once a single q * k exceeds the f16 range. The queries stay in float in shared memory and each half2 of keys is widened once for both tokens, so every product and sum is computed in float. cuda: widen each lightning indexer key once for all heads The tile kernel stages the queries and weights of every head at once, so each key element is widened from half once and feeds all heads, with a single barrier. F16 keys are copied into the tile without a float round trip. Keeping the keys in float in shared memory measures slower, the occupancy drops. cuda: stop the lightning indexer tile from spilling registers on ROCm Each thread of the tile kernel now scores two keys for a single token, so a warp shares its token and the query reads are broadcasts: six shared reads per element pair instead of nine for the same products. The inner loop is unrolled by 8, which keeps gfx908 at 63 VGPRs with no spill where the fully unrolled loop needed over a thousand, and makes the kernel 36x faster on an R9700 and slightly faster on CUDA. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52734616 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11405",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11405"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "cdec551026cbc0789c854deb",
+      "discovered_at": "2026-10-10T19:21:11Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-10T18:33:11Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "cmake(s390x): disable z17 target for unsupported compilers ( #30297 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54655455 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11550",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11550"
     },
     {
       "bootstrap": false,
@@ -3471,37 +3499,9 @@
       "summary": "CUDA: use MMVF for thin f16/bf16 mul_mat at small batch size ( #29633 ) CUDA: use MMVF for thin f16/bf16 mul_mat at small batch size Signed-off-by: ynankani ynankani@nvidia.com adjust kernel selection logic Signed-off-by: ynankani ynankani@nvidia.com Co-authored-by: Johannes G\u00e4\u00dfler johannesg@5d6.de Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52714313 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11403",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11403"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "3208540a5698e84949296dd6",
-      "discovered_at": "2026-10-05T02:05:36Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-05T00:39:02Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "log, server: self contained colors, split child commands from logs in router mode ( #29895 ) log, server: make router child lines carry their own colors The logger writes the color reset after the trailing newline, so the reset opens the next line. On the shared pipe of a router child it lands in front of the next state command, which the router then misses, and the line break that works around it shows up as an empty log line on every progress update. The reset now goes before the trailing newlines, so every line is self contained and the command goes back to its plain framing. The router passes its effective color setting to its children, whose output ends up in its terminal, and leaves that option out when comparing presets on reload. log: enable ANSI colors on the Windows console A Windows console renders ANSI sequences only in virtual terminal mode, which nothing turns on for the logger, so llama-server prints raw escape codes on the Windows 10 console while llama-cli, whose console code enables it, shows colors. The logger now enables virtual terminal mode on stdout and stderr when it turns colors on, and keeps colors off when a console cannot render them. Pipes and files take the sequences as is. server: separate the router child commands from its logs The child sent its state commands on the same pipe as its logs, so the router had to pick them out of the log stream by a line prefix, and any unterminated write in front of a command made the router miss it. This resolves the TODO at the spawn that called for splitting stdout and stderr. The child now keeps stdout for the commands and points everything else written to stdout at stderr, before anything is written. The router reads both pipes, handles the commands from stdout and forwards stderr as the log, and warns about any other line on the command pipe. server: address review from ngxson The single server_child is now created first in the entry point and its constructor keeps stdout for the commands, so the stream is a member of the instance instead of a static, and init() is gone. The instance is passed down to the server, while the CLI entry point creates its own. Update tools/server/server.cpp Co-authored-by: Xuan-Son Nguyen thichthat@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52670797 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11401",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11401"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "b6f6539d97ae14e80d20aead",
-      "discovered_at": "2026-10-04T23:17:49Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-04T22:56:24Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "CUDA: refactor swizzling code ( #29612 ) CUDA: refactor swizzling code fix templates/loop bounds Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52658795 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11399",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11399"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-10T15:12:06Z",
+  "updated_at": "2026-10-10T19:21:30Z",
   "version": 2
 }

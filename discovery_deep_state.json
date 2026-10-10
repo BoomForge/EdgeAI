@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-10T16:21:20Z",
+    "at": "2026-10-10T20:14:08Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 4,
-    "queued": 1,
+    "prefiltered": 0,
+    "queued": 2,
     "sources_ok": 15,
-    "too_old": 6,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 36,
+  "runs": 37,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -361,6 +361,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/cue-by-manus"
+    },
+    "1eb9694d7827865d4e95ff08": {
+      "first_seen": "2026-10-10T20:14:07Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2109012611555840069"
     },
     "1f6a7ac23b124288368f68ff": {
       "first_seen": "2026-10-06T23:21:30Z",
@@ -726,6 +731,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/"
     },
+    "4171f42d5d7d9e3d8a2eb7fb": {
+      "first_seen": "2026-10-10T20:14:03Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/microsoft-decision-1"
+    },
     "41aaed3a7ec03d9596bf1d41": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -768,6 +778,11 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/twelvelabs"
+    },
+    "48621235051afa239607b1b6": {
+      "first_seen": "2026-10-10T20:14:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/buffer-3"
     },
     "49c1d8fc4ff8f06e55716ad2": {
       "first_seen": "2026-10-09T07:47:51Z",

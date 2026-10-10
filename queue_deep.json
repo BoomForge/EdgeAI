@@ -1808,6 +1808,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "34c28f35d971685bdb2ffdeb",
+      "discovered_at": "2026-10-10T00:00:13Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-10-10T00:00:13Z",
+      "search_score": 43,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 09 Oct 2026 Databricks performance results now available DeepSeek V4 Flash 0731 (Max) Baseten performance results now available DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4.1 Flash (Max) 08 Oct 2026 \ud83d\udd14 New article published Introducing trusted-access models to the Artificial Analysis Cyber Index GPT-6 Sol (Daybreak Blue) now leads the Cyber Index \ud83d\udd14 New article published Announcing Harvey LAB-AA v1.1: adding hallucination checks to raise the bar for agentic legal work Harvey LAB-AA v1.1 adds hallucination auditing with a new Hallucination-Gated All-Pass Rate headline metric, a three-judge grading panel, and Harvey's latest private dataset with improved tasks and criteria. New language model evaluation results available GPT-6 Sol (Daybreak Blue, max) Makora performance results now available MiMo-V2.6-Flash OpenAI performance results now available GPT-6 Sol (Daybreak Blue, max) 07 Oct 2026 \ud83d\udd14 New article published Anthropic has released Claude Haiku 5.5 Claude Haiku 5.5 scores 43 on the Artificial Analysis Intelligence Index, up 26 points one year after the last Haiku release New language model evaluation results available Claude Haiku 5.5 (High) Intelligence Index: 38 New language model evaluation results available Claude Haiku 5.5 (Low) Intelligence Index: 29 New language model evaluation results available Claude Haiku 5.5 (Medium) Intelligence Index: 34 New language model evaluation results available Claude Haiku 5.5 (Max) Intelligence Index: 43 New language model evaluation results available Claude Haiku 5.5 (Xhigh) Intelligence Index: 41 LithosAI performance results now available GLM-5.3-Flash Nebius performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Anthropic performance results now available Claude Haiku 5.5 (Low) Claude Haiku 5.5 (Xhigh) Claude Haiku 5.5 (Medium) Claude Haiku 5.5 (Max) Claude Haiku 5.5 (High) 06 Oct 2026 \ud83d\udd14 New article published Mistral has released Mistral Large 4, making France home to the most intelligent model outside the US and China Mistral has released Mistral Large 4, scoring 38 on the Artificial Analysis Intelligence Index; France is back to having the most intelligent model from outside the US and China New language model evaluation results available Mistral Large 4 Preview Intelligence Index: 38 Microsoft Azure performance results now available GPT-6 Luna (High) Google performance results now available Claude Opus 5.5 (Max, Default Fallback) Inco performance results now available Kimi K3 (Max) GMI performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash DigitalOcean performance results now available Llama 4 Maverick Gemma 4 31B (Non-reasoning) Gemma 4 31B (Reasoning) Nemotron 3 Nano Omni 30B A3B Reasoning Ministral 3 14B DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4 Pro 0813 (Non-reasoning) GLM-5.3 (Low) Kimi K3 (Low) Mistral performance results now available Mistral Large 4 Preview 05 Oct 2026 Amazon Bedrock performance results now available Claude Opus 5.5 (Max, Default Fallback) Microsoft Azure performance results now available Claude Sonnet 5.5 (Max, Default Fallback) Claude Sonnet 5.5 (Low, Default Fallback) Claude Opus 5.5 (Max, Default Fallback) Claude Opus 5.5 (Low, Default Fallback) GPT-6 Luna (Non-reasoning) GPT-6.1 Sol (Max) PrimaLabs performance results now available GLM-5.3-Flash 04 Oct 2026 OpenAI performance results now available GPT-6.1 Sol (Max) 03 Oct 2026 New language model evaluation results available Ling 3.1 Flash Intelligence Index: 41 InclusionAI performance results now available Ling 3.1 Flash 01 Oct 2026 New language model evaluation results available Grok 4.7 (Low) Intelligence Index: 42 Institute of Foundation Models performance results now available K2 Horizon 375B A23B LithosAI performance results now available GLM-5.3-Flash GLM-5.3-Flash Bitdeer AI performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) SpaceXAI performance results now available Grok 4.7 (Low) 30 Sept 2026 \ud83d\udd14 New article published Korean AI Lab Upstage releases Solar Mini 4 Korean AI Lab Upstage has released Solar Mini 4 which scores 24 on the Artificial Analysis Intelligence Index, but costs ~5x as much per task as GPT-6 Luna (max) despite similar per-token prices \ud83d\udd14 New article published Gemini 4 Argon: Google is back as one of the top three labs in intelligence achieved Google\u2019s new Gemini 4 Argon equals GPT-6 Astra on the Artificial Analysis Intelligence Index at 60% of the Cost per Task with discounted prices. Google is now back to being one of the top three labs in intelligence achieved New language model evaluation results available Solar Mini",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-e0dd50335cd12ac045d3"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "a8426dcdf9a2dd0dc3f668f9",
       "discovered_at": "2026-10-09T19:51:23Z",
       "kind": "independent",
@@ -2900,6 +2914,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "1d5fd2024caedd1b40098511",
+      "discovered_at": "2026-10-10T00:00:12Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-09T22:48:37+00:00",
+      "search_score": 5,
+      "source_name": "Simon Willison Everything",
+      "summary": "Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno outright, with the goal of building on celld to \"make workerd self-hosting a first-class supported way to build and run apps using the Workers programming model\" (see the Cloudflare blog .) The bad news is that Deno itself will not be maintained by Cloudflare beyond the next year: We will support the Deno runtime for another year with monthly releases containing bug fixes and security updates. After that year we will end our development of the Deno runtime. Deno will remain open source, and we welcome others who want to continue its development. Deno (and Node.js) creator Ryan Dahl explained that decision in a comment on Hacker News: It's a joint decision and I agree with it. I'm most invested in its success and have put the most work into it - and I no longer think it's where I can do the most important work. There are some good ideas in Deno and it's well engineered - but it ultimately is not solving big problems. It has been sucked into the gravity well of node compatibility, which forces it to behave exactly as Node does. Why reimplement Node? It works. Marginal performance or UX or security benefits are not enough. I'm interested in building powerful new abstractions. celld has been working remarkably well, depending only on object storage for coordination and persistence. It is not just a slightly different API to interact with the file system or network - it's an entirely new model for server development. My favorite feature of Deno has long been the permissions system, where you can run a Deno script and specify exactly which files and folders it can read and write to, and which network hosts it can access. Node.js has a similar permissions model these days, added in Node v20.0.0 in April 2023 and declared stable in Node v22.13.0 in January 2025. They don't yet support allow-listing specific network hosts though - networking is either on or off. Via Hacker News Tags: cloudfront , javascript , nodejs , ryan-dahl , sandboxing , deno",
+      "title": "Deno is joining Cloudflare",
+      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "345f1755705d282a19e9b6b2",
       "discovered_at": "2026-10-04T00:34:30Z",
       "kind": "independent",
@@ -3471,37 +3499,9 @@
       "summary": "Let AI agents drive a real iPhone, even apps with no API Discussion | Link",
       "title": "iphone-use",
       "url": "https://www.producthunt.com/products/iphone-use"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "3e3599b79dca37e220662e17",
-      "discovered_at": "2026-10-06T14:08:51Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-05T08:33:20-07:00",
-      "search_score": 6,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "An AI support agent that stays in sync with your site Discussion | Link",
-      "title": "Cosmic AI Support Agent",
-      "url": "https://www.producthunt.com/products/cosmic"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "af6d4b8ab88d1786c2f02d8b",
-      "discovered_at": "2026-10-05T09:33:48Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-02T12:16:12-07:00",
-      "search_score": 5,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "A native control room for your Claude Code agents Discussion | Link",
-      "title": "devpit",
-      "url": "https://www.producthunt.com/products/devpit"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-09T19:51:28Z",
+  "updated_at": "2026-10-10T00:00:24Z",
   "version": 2
 }

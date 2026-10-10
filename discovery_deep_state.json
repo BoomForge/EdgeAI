@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-09T19:51:28Z",
+    "at": "2026-10-10T00:00:24Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 8,
+    "queued": 2,
     "sources_ok": 15,
     "too_old": 1,
     "warnings": 0
   },
-  "runs": 32,
+  "runs": 33,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -327,6 +327,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/fastrouter-ai"
     },
+    "1d5fd2024caedd1b40098511": {
+      "first_seen": "2026-10-10T00:00:12Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/"
+    },
     "1da920339543b387d0b45090": {
       "first_seen": "2026-10-06T00:46:21Z",
       "status": "too_old",
@@ -534,6 +539,11 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/thanor-ai"
+    },
+    "34c28f35d971685bdb2ffdeb": {
+      "first_seen": "2026-10-10T00:00:13Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-e0dd50335cd12ac045d3"
     },
     "34e114d460f2a34002d6bac5": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -1936,6 +1946,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://stability.ai/deployment"
+    },
+    "be0127738f95a1b1b1c1159e": {
+      "first_seen": "2026-10-10T00:00:12Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/voicera-3"
     },
     "be8fc480c667640aea46906e": {
       "first_seen": "2026-10-07T21:57:53Z",

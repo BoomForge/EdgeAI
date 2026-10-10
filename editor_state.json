@@ -37,8 +37,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-09T21:39:09Z",
-    "eligible": 101,
+    "at": "2026-10-10T01:19:29Z",
+    "eligible": 98,
     "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
@@ -255,6 +255,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00422"
+    },
+    "10e556402d45283b9552e036": {
+      "at": "2026-10-10T01:19:14Z",
+      "status": "expired",
+      "url": "https://www.anthropic.com/news/cyber-verification-program?utm_source=futuretools.io&utm_medium=newspage"
     },
     "1165aefccbfb0d903d04ce6c": {
       "at": "2026-10-04T15:54:52Z",
@@ -703,6 +708,14 @@
       "at": "2026-10-04T00:07:42Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/thanor-ai"
+    },
+    "34c28f35d971685bdb2ffdeb": {
+      "at": "2026-10-10T01:19:15Z",
+      "bootstrap": false,
+      "score": 65,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-snapshot",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-e0dd50335cd12ac045d3"
     },
     "34e114d460f2a34002d6bac5": {
       "at": "2026-10-06T02:32:14Z",
@@ -1742,6 +1755,20 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11403"
     },
+    "853a0c249788523a4e15541f": {
+      "at": "2026-10-10T01:19:22Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "nous-research-hermes-agent-microsoft-store",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2108231536772596193"
+    },
     "855092fba1df7e8a668bec1b": {
       "at": "2026-10-09T03:09:36Z",
       "bootstrap": false,
@@ -2222,6 +2249,11 @@
       "story_key": "artificial-analysis-changelog-updates-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-9306a718d8b1bf40a8c0"
     },
+    "a919ba35a5e056c2278ba024": {
+      "at": "2026-10-10T01:19:14Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/"
+    },
     "a99e7c73be3208be7c0aeb2b": {
       "at": "2026-10-04T19:33:59Z",
       "bootstrap": true,
@@ -2446,6 +2478,11 @@
       "story_key": "elevenlabs-v4-resources-feed",
       "url": "https://elevenlabs.io/blog/category/resources"
     },
+    "bfe26c486afd130cfca54011": {
+      "at": "2026-10-10T01:19:14Z",
+      "status": "expired",
+      "url": "https://www.musubilabs.ai/blog/introducing-policylm-1-7b?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "c38af6e5cae43e23a64c1d50": {
       "at": "2026-10-03T04:48:28Z",
       "bootstrap": true,
@@ -2625,6 +2662,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38203"
     },
+    "d1e512dab3854dc0079a0149": {
+      "at": "2026-10-10T01:19:14Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/"
+    },
     "d22e1a2319ccd9329b6707fd": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -2758,6 +2800,20 @@
         "source": "Kimi Research"
       },
       "url": "https://www.kimi.com/en/products/kimi-browser-extension"
+    },
+    "d820d527a66cc6767ec5fec6": {
+      "at": "2026-10-10T01:19:29Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "nous-research-series-b-hermes-agent",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2107874963382538469"
     },
     "d8658c9aaa0aa4238455b1c6": {
       "at": "2026-10-05T07:01:46Z",
@@ -4214,6 +4270,27 @@
         "source": "Nous Research Announcements"
       }
     },
+    "nous-research-hermes-agent-microsoft-store": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-hermes-agent-microsoft-store.jpg",
+      "last_updated": "2026-10-10T01:19:22Z",
+      "post_id": "2340049236104120787",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-launches-hermes-agent-on_01154376882.html",
+      "score": 82,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/media/HUHvizAWYAMXhEE?format=webp&name=large",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2108231536772596193"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Launches Hermes Agent on the Microsoft Store",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      }
+    },
     "nous-research-hermes-index-benchmark-release": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-hermes-index-benchmark-release.jpg",
@@ -4230,6 +4307,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Nous Research Launches Hermes Index to Benchmark LLM Performance and Cost in Agentic Workloads",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      }
+    },
+    "nous-research-series-b-hermes-agent": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-series-b-hermes-agent.jpg",
+      "last_updated": "2026-10-10T01:19:29Z",
+      "post_id": "5713676079300324536",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-raises-series-b-to-scale.html",
+      "score": 88,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/media/HUCde70XQAAtlCg?format=webp&name=large",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2107874963382538469"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Raises Series B to Scale Hermes Agent and Expand to Mobile",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

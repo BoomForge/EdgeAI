@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "at": "2026-10-10T19:21:30Z",
+    "at": "2026-10-10T22:43:15Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
@@ -9,7 +9,7 @@
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 37,
+  "runs": 38,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -468,6 +468,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/products-and-platforms/products/maps/google-maps-fan-favorite-dining-list/"
+    },
+    "24ff0fdb7aa9116bc7fdfb6f": {
+      "first_seen": "2026-10-10T22:43:01Z",
+      "status": "queued",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.0"
     },
     "2553159a4f32c9968b59109d": {
       "first_seen": "2026-10-03T05:43:34Z",
@@ -1680,6 +1685,11 @@
       "first_seen": "2026-10-08T07:31:41Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.0-dev.2"
+    },
+    "85b33ed482439c13b36cf549": {
+      "first_seen": "2026-10-10T22:42:50Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11552"
     },
     "86745252420db89333393bf9": {
       "first_seen": "2026-10-03T00:45:59Z",

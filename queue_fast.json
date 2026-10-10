@@ -2690,6 +2690,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "f18921b26aea0d923122bc4e",
+      "discovered_at": "2026-10-10T15:11:44Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-10T13:34:40Z",
+      "search_score": 6,
+      "source_name": "llama.cpp Releases",
+      "summary": "Allow configuring --slot-save-path via LLAMA_ARG_SLOT_SAVE_PATH so it can be set from an EnvironmentFile in a systemd unit file.",
+      "title": "b11549: args: add LLAMA_ARG_SLOT_SAVE_PATH env for --slot-save-path (#30272)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11549"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "6aeb8b84935c1b408afa9ba3",
       "discovered_at": "2026-10-08T20:34:17Z",
       "kind": "local-ai",
@@ -3485,23 +3499,9 @@
       "summary": "CUDA: refactor swizzling code ( #29612 ) CUDA: refactor swizzling code fix templates/loop bounds Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52658795 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11399",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11399"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "36b79bc33c67cccccf910ec6",
-      "discovered_at": "2026-10-04T20:03:38Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-04T19:50:49Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "cuda : move neu_padded to where it is used ( #29940 ) Signed-off-by: Adrien Gallou\u00ebt angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52636582 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11397",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11397"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-10T08:59:56Z",
+  "updated_at": "2026-10-10T15:12:06Z",
   "version": 2
 }

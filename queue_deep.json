@@ -3460,6 +3460,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "db43978e14f42f17f01b9cc4",
+      "discovered_at": "2026-10-11T09:11:21Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-10T06:04:39-07:00",
+      "search_score": 7,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Personal AI agent for your Mac using your own keys Discussion | Link",
+      "title": "Agibot",
+      "url": "https://www.producthunt.com/products/agibot"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "bdc3c2af02f44af22bcadb19",
       "discovered_at": "2026-10-08T16:25:55Z",
       "kind": "signal",
@@ -3485,23 +3499,9 @@
       "summary": "See what an AI agent's command would destroy before it runs Discussion | Link",
       "title": "Termaxa",
       "url": "https://www.producthunt.com/products/termaxa"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "6676883e07115b3ec1aaa9de",
-      "discovered_at": "2026-10-08T08:53:54Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-07T12:03:43-07:00",
-      "search_score": 7,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Orchestrate AI agent teams on a visual canvas Discussion | Link",
-      "title": "Clippo",
-      "url": "https://www.producthunt.com/products/clippo-2"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-11T02:16:07Z",
+  "updated_at": "2026-10-11T09:11:42Z",
   "version": 2
 }

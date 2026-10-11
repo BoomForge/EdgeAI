@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-11T02:16:07Z",
+    "at": "2026-10-11T09:11:42Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 3,
+    "prefiltered": 3,
+    "queued": 2,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 13,
     "warnings": 0
   },
-  "runs": 39,
+  "runs": 40,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -83,6 +83,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/mailwell-2"
+    },
+    "0749e18eb169d7317ef37e04": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/devterminal"
     },
     "07805f8ccf0891a10c549358": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -240,6 +246,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/cakie-2"
     },
+    "13edfacffd4637ed2e2d2078": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/kooler-2"
+    },
     "16278565d50915517bc1148d": {
       "first_seen": "2026-10-06T19:44:11Z",
       "status": "queued",
@@ -264,6 +275,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-voice?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "18fc300f0043c42de1998396": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/poke-finder-catch-em-on-the-web"
     },
     "1977358a53e0880f62ddfbc5": {
       "first_seen": "2026-10-06T00:46:20Z",
@@ -346,6 +362,11 @@
       "first_seen": "2026-10-06T00:46:21Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/siteprint"
+    },
+    "1dab44065894537694bf5123": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/foley"
     },
     "1e07eed3568eeac1c1495f37": {
       "first_seen": "2026-10-06T00:46:26Z",
@@ -431,6 +452,11 @@
       "first_seen": "2026-10-10T11:25:13Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/skreno"
+    },
+    "252d5b3c7d6743a5d25ceea5": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/mepersona"
     },
     "25699d15b38305675ec53cee": {
       "first_seen": "2026-10-08T16:25:55Z",
@@ -534,6 +560,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://sakana.ai/japan-startup-award-2026/"
+    },
+    "2fc061114bba09f9ff0652fb": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/farol-3"
     },
     "302a4349ad418db417f5f390": {
       "first_seen": "2026-10-06T19:44:10Z",
@@ -969,6 +1000,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/reso"
     },
+    "573e14965f6f6511c475beb1": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/ayven"
+    },
     "573f30c6a916bb5e735b4a6b": {
       "first_seen": "2026-10-06T23:21:34Z",
       "status": "queued",
@@ -1180,10 +1216,20 @@
       "status": "queued",
       "url": "https://www.minimax.io/blog/minimax-h3"
     },
+    "64d8f3ec2e2e4644fbbad8f0": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/shippedit-me"
+    },
     "64e27cc1872ee8386150363a": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
+    },
+    "6529892c1d836cf6d246db1b": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/ghost-core"
     },
     "6676883e07115b3ec1aaa9de": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -1220,6 +1266,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/dereference-the-100x-ide"
+    },
+    "6b1f2736c991cd73b3cebbd2": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/simplespread"
     },
     "6b4383b5f78100fd06a972b9": {
       "first_seen": "2026-10-09T07:47:51Z",
@@ -1319,6 +1371,11 @@
       "first_seen": "2026-10-09T07:47:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/de-stash"
+    },
+    "75de0ca6002a41d945c681c9": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/kodlo"
     },
     "767d277bfa1d3e61b6f4b6c8": {
       "first_seen": "2026-10-08T16:25:55Z",
@@ -1459,6 +1516,11 @@
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/crosswalk"
+    },
+    "7e7d4eb62ecc02a7012b70ca": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/unboom"
     },
     "7e9aff605a4e7ea56674e155": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -1915,6 +1977,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/wu"
     },
+    "aa40e1ebb5e6913c041351c7": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/focuswrite"
+    },
     "aa710bc139577e4ead1a417c": {
       "first_seen": "2026-10-10T05:45:00Z",
       "status": "queued",
@@ -1977,6 +2045,11 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/agent-activity"
+    },
+    "b059cc78b6b4f6e70463b23b": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/openscreen-2"
     },
     "b05f1468807557e3aec70150": {
       "first_seen": "2026-10-07T21:57:48Z",
@@ -2086,6 +2159,11 @@
       "first_seen": "2026-10-10T16:21:13Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/toolaby"
+    },
+    "b90abb23275d070b94162f55": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/tori-japanese-listening-srs"
     },
     "b98abef5a14e12ad68a0289b": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -2411,6 +2489,16 @@
       "status": "queued",
       "url": "https://sakana.ai/sakana-ai-insider/"
     },
+    "db2198007a214d5a15101a72": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/hirekey"
+    },
+    "db43978e14f42f17f01b9cc4": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/agibot"
+    },
     "db683f801c4abf511c3d7251": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
@@ -2594,6 +2682,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/notchmate"
+    },
+    "e7c0d826d9cc0cd57199c15b": {
+      "first_seen": "2026-10-11T09:11:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/perplexity-ai"
     },
     "e800acacef7840a119826a49": {
       "first_seen": "2026-10-03T00:45:59Z",

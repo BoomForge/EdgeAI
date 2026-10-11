@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-11T14:10:53Z",
+    "at": "2026-10-11T19:00:20Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 7,
+    "queued": 3,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 41,
+  "runs": 42,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -30,6 +30,11 @@
       "first_seen": "2026-10-07T09:14:06Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06927"
+    },
+    "01bf81a0100b1185f6d94073": {
+      "first_seen": "2026-10-11T18:59:53Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11559"
     },
     "02712f54e967f63bf8823941": {
       "first_seen": "2026-10-05T18:34:46Z",
@@ -1069,6 +1074,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08840"
     },
+    "50b1c8de89b4c2a697407cdc": {
+      "first_seen": "2026-10-11T18:59:53Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11558"
+    },
     "51267d3b2a316fb88d05c407": {
       "first_seen": "2026-10-09T23:20:25Z",
       "status": "queued",
@@ -1886,6 +1896,11 @@
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fllms%2Fv0.0.90"
+    },
+    "93d159491c27c347995ff66f": {
+      "first_seen": "2026-10-11T18:59:53Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11557"
     },
     "94bd19d048ee866b06ef5242": {
       "first_seen": "2026-10-03T00:46:14Z",

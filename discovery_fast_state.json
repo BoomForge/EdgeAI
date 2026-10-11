@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "at": "2026-10-11T01:17:13Z",
+    "at": "2026-10-11T07:19:30Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
@@ -9,7 +9,7 @@
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 39,
+  "runs": 40,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -2809,6 +2809,11 @@
       "first_seen": "2026-10-05T18:34:59Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11417"
+    },
+    "de32d3b9322608aa8c64b95d": {
+      "first_seen": "2026-10-11T07:19:10Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.3"
     },
     "de3301f4821ae8ca18c263ad": {
       "first_seen": "2026-10-09T06:41:16Z",

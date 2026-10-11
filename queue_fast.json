@@ -2340,6 +2340,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "de32d3b9322608aa8c64b95d",
+      "discovered_at": "2026-10-11T07:19:10Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-11T06:40:39Z",
+      "search_score": 9,
+      "source_name": "Ollama Releases",
+      "summary": "What's Changed ollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878 ollama launch codex no longer warns about service tiers by @hoyyeva in #18879 Paused background model upgrade for embedding and other request performance, by @jmorganca in #18908 Full Changelog : v0.40.2...v0.40.3",
+      "title": "v0.40.3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.3"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "3a87aae1754d59e7fc522ba0",
       "discovered_at": "2026-10-06T13:36:39Z",
       "kind": "local-ai",
@@ -3485,23 +3499,9 @@
       "summary": "vulkan : Fix undeclared identifiers when -DGGML_VULKAN_RUN_TESTS=ON ( #29912 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52752005 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11407",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11407"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "87329ec6bcf74e7615c2493a",
-      "discovered_at": "2026-10-05T09:14:16Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-05T07:41:32Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "webgpu: add MMVQ support for Q1_0/Q5_0/Q5_1/Q3_K/Q5_K/Q6_K/MXFP4 ( #29483 ) add supports for q1/q5/q3_k/q5_k/q6_k/mxfp4 of mmvq path Add K_QUANTS_HANDLING macro to q1_0 of mmvq path Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52742465 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11406",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11406"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-11T01:17:13Z",
+  "updated_at": "2026-10-11T07:19:30Z",
   "version": 2
 }

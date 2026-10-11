@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-11T00:57:23Z",
-    "eligible": 66,
-    "evaluated": 3,
+    "at": "2026-10-11T07:07:56Z",
+    "eligible": 56,
+    "evaluated": 4,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -326,6 +326,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11404"
     },
+    "140eb9519f15cb6ef5c9eb91": {
+      "at": "2026-10-11T07:07:40Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11485"
+    },
     "1441ff2ab9fdc9be50b63e1f": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -555,6 +560,14 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00012"
     },
+    "24da2b7e99224f26ab55331f": {
+      "at": "2026-10-11T07:07:51Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "nous-research-step-5-preview-hermes-index-correction",
+      "url": "https://x.com/NousResearch/status/2108645938403405896"
+    },
     "2553159a4f32c9968b59109d": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -690,6 +703,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.900-beta"
+    },
+    "2e09df471c5417f8c2e39eda": {
+      "at": "2026-10-11T07:07:40Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11490"
     },
     "2ea6f168ee68eda93378195a": {
       "at": "2026-10-03T14:57:20Z",
@@ -939,6 +957,11 @@
       },
       "url": "https://qwenlm.github.io/blog/qwen3guard/"
     },
+    "3b7dfb15ccd25789d7bec035": {
+      "at": "2026-10-11T07:07:40Z",
+      "status": "expired",
+      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.45"
+    },
     "3bc52993114bf83f7f7db85e": {
       "at": "2026-10-08T13:20:55Z",
       "status": "expired",
@@ -1097,6 +1120,16 @@
         "source": "ElevenLabs Research"
       },
       "url": "https://elevenlabs.io/blog/introducing-scribe-v2"
+    },
+    "420734bb3fbbefb9aa82f403": {
+      "at": "2026-10-11T07:07:40Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11491"
+    },
+    "428574c612f6e9a407d1feb8": {
+      "at": "2026-10-11T07:07:40Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11487"
     },
     "42f2e37d9605f3037ecd8167": {
       "at": "2026-10-03T05:49:31Z",
@@ -1692,6 +1725,11 @@
       "status": "expired",
       "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "6d642c53db62ecac4b0b4b6c": {
+      "at": "2026-10-11T07:07:40Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11489"
+    },
     "6deeaa575f7a1b1ab43704bd": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -1946,6 +1984,14 @@
       "status": "expired",
       "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "82bfd1f839387037303c5e40": {
+      "at": "2026-10-11T07:07:52Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11532-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11532"
+    },
     "836ad8a0cd9c59a8342ef10a": {
       "at": "2026-10-08T05:56:53Z",
       "status": "expired",
@@ -2052,6 +2098,20 @@
       "status": "ignored",
       "story_key": "openai-chatham-financial-case-study",
       "url": "https://openai.com/index/chatham-financial"
+    },
+    "8a3406e6a76a97fc77fa230c": {
+      "at": "2026-10-11T07:07:56Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "anthropic-oss-scanner-vulnerability-detection",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source?utm_source=futuretools.io&utm_medium=newspage"
     },
     "8aacdfb29bf9c89067eb33f4": {
       "at": "2026-10-07T19:56:51Z",
@@ -2345,6 +2405,20 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/backup%2Fallozaur-ui-shell-polish"
     },
+    "9f96a2d3a84b82bbb405905b": {
+      "at": "2026-10-11T07:07:49Z",
+      "bootstrap": false,
+      "score": 86,
+      "status": "published",
+      "story_key": "nous-research-step-5-preview-nous-portal",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2108638389045960958"
+    },
     "a0219a244e273a8e5ed720d7": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -2515,6 +2589,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11361"
     },
+    "ad7758210585a348b5e2b1db": {
+      "at": "2026-10-11T07:07:40Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11488"
+    },
     "add75ed4e68bed3c7da5b8ea": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -2668,6 +2747,11 @@
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11424"
+    },
+    "bdc3c2af02f44af22bcadb19": {
+      "at": "2026-10-11T07:07:40Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/clawcall"
     },
     "bdccd1b2e1deb4b775d390e6": {
       "at": "2026-10-04T15:54:56Z",
@@ -3573,6 +3657,11 @@
       "story_key": "kimi-k3-and-agent-tools-launch",
       "url": "https://www.kimi.com/"
     },
+    "fd1458eaf49fedff2cc99214": {
+      "at": "2026-10-11T07:07:40Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11486"
+    },
     "ff3192a07212d5fdc5524862": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -3687,6 +3776,27 @@
         "label": "Caution",
         "reason": "The development appears real, but some details are still arriving or remain incomplete. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
         "score": 56,
+        "source": "FutureTools AI News"
+      }
+    },
+    "anthropic-oss-scanner-vulnerability-detection": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-oss-scanner-vulnerability-detection.jpg",
+      "last_updated": "2026-10-11T07:07:56Z",
+      "post_id": "3086696342065605669",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-launches-oss-scanner-to.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "source_urls": [
+        "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Launches OSS Scanner to Provide Free AI Vulnerability Detection for Open-Source Projects",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
         "source": "FutureTools AI News"
       }
     },
@@ -4805,6 +4915,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Nous Research Raises Series B Funding to Expand Hermes Agent and Build Mobile App",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      }
+    },
+    "nous-research-step-5-preview-nous-portal": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-step-5-preview-nous-portal.jpg",
+      "last_updated": "2026-10-11T07:07:49Z",
+      "post_id": "7292739809010374634",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/step-5-preview-model-released-on-nous.html",
+      "score": 86,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/amplify_video_thumb/2108638010665275392/img/8o-6L9Y9xbv-2wJ1?format=webp&name=large",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2108638389045960958"
+      ],
+      "status": "CONFIRMED",
+      "title": "Step 5 Preview Model Released on Nous Portal with 1M Context and Vision",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

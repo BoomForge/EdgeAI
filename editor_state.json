@@ -37,8 +37,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-11T18:49:55Z",
-    "eligible": 44,
+    "at": "2026-10-11T22:31:40Z",
+    "eligible": 33,
     "evaluated": 5,
     "mode": "live",
     "new_posts": 1,
@@ -220,6 +220,14 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://claude.com/blog/claude-code-mods?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "0cbbbb5285d664f9e61a7306": {
+      "at": "2026-10-11T22:31:37Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "llamacpp-b11531-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11531"
     },
     "0d1bedda434773699099da05": {
       "at": "2026-10-05T07:01:46Z",
@@ -461,6 +469,14 @@
       "at": "2026-10-07T13:59:34Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11388"
+    },
+    "1d108a11bc33f28a865d162a": {
+      "at": "2026-10-11T22:31:40Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b11523-webgpu-fix",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11523"
     },
     "1def5ac72d467db84fc97c16": {
       "at": "2026-10-07T13:59:34Z",
@@ -785,6 +801,11 @@
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11425"
+    },
+    "3164e64241a7d8fc31b2daa2": {
+      "at": "2026-10-11T22:31:31Z",
+      "status": "expired",
+      "url": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline?utm_source=futuretools.io&utm_medium=newspage"
     },
     "3208540a5698e84949296dd6": {
       "at": "2026-10-08T05:56:53Z",
@@ -1322,6 +1343,11 @@
       "story_key": "minimax-audio-landing-page",
       "url": "https://www.minimax.io/audio"
     },
+    "50b37877a7cd8a8d77b11c89": {
+      "at": "2026-10-11T22:31:31Z",
+      "status": "expired",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "50e2bcc2b71bcb3a35743f8a": {
       "at": "2026-10-03T21:49:33Z",
       "bootstrap": true,
@@ -1360,6 +1386,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00515"
+    },
+    "56eb29f3263726d8a778c934": {
+      "at": "2026-10-11T22:31:31Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11514"
     },
     "570fe3204556675e8dd927e7": {
       "at": "2026-10-09T17:08:00Z",
@@ -1430,6 +1461,14 @@
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11448"
+    },
+    "5a12e63bd486b58edf031728": {
+      "at": "2026-10-11T22:31:35Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b11535-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11535"
     },
     "5a75b8a901e4f4a9de9bb579": {
       "at": "2026-10-04T11:20:58Z",
@@ -1754,6 +1793,11 @@
         "source": "FutureTools AI News"
       },
       "url": "https://www.anthropic.com/news/genesis-mission-commitment?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "6aeb8b84935c1b408afa9ba3": {
+      "at": "2026-10-11T22:31:31Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11513"
     },
     "6b836c8ce6ffe4dcbf09ef60": {
       "at": "2026-10-05T01:11:48Z",
@@ -2506,6 +2550,11 @@
       },
       "url": "https://x.com/NousResearch/status/2108638389045960958"
     },
+    "9fd35c15f72452089f53fad6": {
+      "at": "2026-10-11T22:31:31Z",
+      "status": "expired",
+      "url": "https://claude.com/resources/articles/dashboards-and-motion?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "a0219a244e273a8e5ed720d7": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -2561,6 +2610,11 @@
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11455"
+    },
+    "a3323ce37a6dcf1415e1b97e": {
+      "at": "2026-10-11T22:31:31Z",
+      "status": "expired",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission?utm_source=futuretools.io&utm_medium=newspage"
     },
     "a3cf20eae0fce76e913abe7e": {
       "at": "2026-10-03T05:49:31Z",
@@ -2774,6 +2828,14 @@
       "status": "expired",
       "url": "https://www.teamhuman.org/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "b50f3a47067c5ec9935b1f5c": {
+      "at": "2026-10-11T22:31:38Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llama-cpp-minicpm-v-4-7-support",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11551"
+    },
     "b602f0b5117800795a759ada": {
       "at": "2026-10-04T11:21:03Z",
       "bootstrap": true,
@@ -2899,6 +2961,11 @@
       "status": "ignored",
       "story_key": "elevenlabs-v4-resources-feed",
       "url": "https://elevenlabs.io/blog/category/resources"
+    },
+    "bfd5c674822307695b5ce33d": {
+      "at": "2026-10-11T22:31:31Z",
+      "status": "expired",
+      "url": "https://about.fb.com/news/2026/10/debunking-the-biggest-data-center-myths/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "bfe26c486afd130cfca54011": {
       "at": "2026-10-10T01:19:14Z",
@@ -3581,6 +3648,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11391"
     },
+    "ed14048bb9127b900e68489f": {
+      "at": "2026-10-11T22:31:31Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/8/carson-gross/"
+    },
     "ed59254a0e36ad070ae8979e": {
       "at": "2026-10-04T15:54:47Z",
       "status": "expired",
@@ -3613,6 +3685,20 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc2"
+    },
+    "f16e4a447914196697492641": {
+      "at": "2026-10-11T22:31:34Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "openai-fired-safety-researchers-open-letter",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "f1dd3c30e284d704e858ca26": {
       "at": "2026-10-08T13:21:02Z",
@@ -5256,6 +5342,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "OpenAI News"
+      }
+    },
+    "openai-fired-safety-researchers-open-letter": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-fired-safety-researchers-open-letter.jpg",
+      "last_updated": "2026-10-11T22:31:34Z",
+      "post_id": "2261423666555090617",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/fired-openai-safety-researchers-dispute.html",
+      "score": 85,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Fired OpenAI Safety Researchers Dispute Misconduct Claims in Open Letter",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "openai-gpt-6-intelligent-ui": {

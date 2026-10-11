@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-11T09:11:42Z",
+    "at": "2026-10-11T15:53:37Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 2,
+    "prefiltered": 2,
+    "queued": 1,
     "sources_ok": 15,
-    "too_old": 13,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 40,
+  "runs": 41,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -524,6 +524,12 @@
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/angebotsmeister"
+    },
+    "29e6043967b5dd1dec3dc474": {
+      "first_seen": "2026-10-11T15:53:31Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/edgevolume-volume-at-your-fingertips"
     },
     "2a8e5b2eeed733baf988d7ff": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -1486,10 +1492,21 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/side"
     },
+    "7bdf7c9de2d9cde3c0ad830f": {
+      "first_seen": "2026-10-11T15:53:31Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/notchpit"
+    },
     "7c90221d90c9aee658867f72": {
       "first_seen": "2026-10-09T07:47:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/vocascript"
+    },
+    "7cf3ebe6e9136919c61a12ce": {
+      "first_seen": "2026-10-11T15:53:36Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2109301268955181334"
     },
     "7cfa53bfb68a578c85d85929": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -2714,6 +2731,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/netra"
     },
+    "ec2df7b76a1ea6ff41bb72a1": {
+      "first_seen": "2026-10-11T15:53:31Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/newminecraftservers"
+    },
     "ed14048bb9127b900e68489f": {
       "first_seen": "2026-10-08T21:27:35Z",
       "status": "queued",
@@ -2751,6 +2773,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://newsletter.futurepedia.io/p/chatgpt-reads-the-fine-print-so-you-dont-have-to-09-29-2026"
+    },
+    "ef19d24fbcfe049a546138c3": {
+      "first_seen": "2026-10-11T15:53:31Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/pickle-sensei-dink-coach"
     },
     "ef8dc3e0756d057ef38462cf": {
       "first_seen": "2026-10-08T08:53:54Z",

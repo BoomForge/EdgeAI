@@ -2102,6 +2102,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "2e014338a53a0a15a7c0b5c9",
+      "discovered_at": "2026-10-11T23:51:14Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "",
+      "search_score": 0,
+      "source_name": "Sakana AI Blog",
+      "summary": "Recursive Self-Improvement through Collective Intelligence",
+      "title": "Recursive Self-Improvement through Collective Intelligence",
+      "url": "https://sakana.ai/mass/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "231befe88d753d0247c6f00f",
       "discovered_at": "2026-10-07T21:57:48Z",
       "kind": "independent",
@@ -3485,23 +3499,9 @@
       "summary": "Personal AI agent for your Mac using your own keys Discussion | Link",
       "title": "Agibot",
       "url": "https://www.producthunt.com/products/agibot"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "bdc3c2af02f44af22bcadb19",
-      "discovered_at": "2026-10-08T16:25:55Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-07T22:27:12-07:00",
-      "search_score": 7,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Your AI agent's phone to dial, hold, and reports back Discussion | Link",
-      "title": "ClawCall",
-      "url": "https://www.producthunt.com/products/clawcall"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-11T20:12:56Z",
+  "updated_at": "2026-10-11T23:51:16Z",
   "version": 2
 }

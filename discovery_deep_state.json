@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-11T20:12:56Z",
+    "at": "2026-10-11T23:51:16Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 0,
+    "queued": 1,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 42,
+  "runs": 43,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -556,6 +556,11 @@
       "first_seen": "2026-10-08T01:53:43Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-0c571b26db3fe2459e7c"
+    },
+    "2e014338a53a0a15a7c0b5c9": {
+      "first_seen": "2026-10-11T23:51:14Z",
+      "status": "queued",
+      "url": "https://sakana.ai/mass/"
     },
     "2ea6f168ee68eda93378195a": {
       "first_seen": "2026-10-03T00:46:05Z",

@@ -37,8 +37,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-10T21:57:08Z",
-    "eligible": 75,
+    "at": "2026-10-11T00:57:23Z",
+    "eligible": 66,
     "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
@@ -518,6 +518,11 @@
       "status": "expired",
       "url": "https://openai.com/index/the-den-family-social"
     },
+    "221b145950af7f1f5f3ecc9a": {
+      "at": "2026-10-11T00:57:13Z",
+      "status": "expired",
+      "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-build-apps-extend-agents-and-transform-business-processes-in-microsoft-copilot-studio/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "231befe88d753d0247c6f00f": {
       "at": "2026-10-08T05:57:06Z",
       "bootstrap": false,
@@ -564,6 +569,11 @@
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.54.0"
+    },
+    "276633348655bb1b12742fc4": {
+      "at": "2026-10-11T00:57:13Z",
+      "status": "expired",
+      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "27a7527a54e29bd1beb4039a": {
       "at": "2026-10-05T07:01:46Z",
@@ -1135,6 +1145,14 @@
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1"
     },
+    "48dbc11a26c33e597fb890d1": {
+      "at": "2026-10-11T00:57:14Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11536-ui-models-manager-improvements",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11536"
+    },
     "49b5951c067cceb3477399d1": {
       "at": "2026-10-07T06:34:08Z",
       "status": "expired",
@@ -1245,6 +1263,11 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/muse-22"
+    },
+    "54ed88bfa16aa334327fb5bf": {
+      "at": "2026-10-11T00:57:13Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "56224676afd39a97cbcee0d6": {
       "at": "2026-10-10T07:33:39Z",
@@ -1612,6 +1635,20 @@
       "status": "expired",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/"
     },
+    "6a857c81af1808e684971dcb": {
+      "at": "2026-10-11T00:57:23Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "anthropic-150m-genesis-mission-federal-science",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.anthropic.com/news/genesis-mission-commitment?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "6b836c8ce6ffe4dcbf09ef60": {
       "at": "2026-10-05T01:11:48Z",
       "bootstrap": true,
@@ -1764,6 +1801,20 @@
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11371"
+    },
+    "785ae5d61ec0075f6154b90e": {
+      "at": "2026-10-11T00:57:19Z",
+      "bootstrap": false,
+      "score": 86,
+      "status": "published",
+      "story_key": "claude-science-first-complete-uv-sky-map",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky?utm_source=futuretools.io&utm_medium=newspage"
     },
     "788c0a497542431958d6f48b": {
       "at": "2026-10-09T21:38:57Z",
@@ -1965,6 +2016,11 @@
       "status": "expired",
       "url": "https://hermes-agent.nousresearch.com/docs/getting-started/installation#without-hermes-desktop"
     },
+    "876d6f1c3aa60a2865588c65": {
+      "at": "2026-10-11T00:57:13Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "877b43298145aa6e8df2db60": {
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
@@ -2123,6 +2179,11 @@
       "at": "2026-10-05T22:35:25Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0"
+    },
+    "9682867a2f613c9a6c55cbdc": {
+      "at": "2026-10-11T00:57:13Z",
+      "status": "expired",
+      "url": "https://openai.com/index/gpt-6-for-everyone/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "96b8552f38a5cffcf7aa8da9": {
       "at": "2026-10-07T06:34:08Z",
@@ -3363,6 +3424,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/sellio-2"
     },
+    "f39d26586a9bbbb17ae8bee8": {
+      "at": "2026-10-11T00:57:13Z",
+      "status": "expired",
+      "url": "https://openrouter.ai/rankings#edgeai-664b99d8d1508d59e241"
+    },
     "f3f828852141af98a5731144": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -3420,6 +3486,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/"
+    },
+    "f60f92689e069107e062ec54": {
+      "at": "2026-10-11T00:57:13Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/7/ben-affleck/"
     },
     "f634936341d7f4215d39e71d": {
       "at": "2026-10-09T21:38:57Z",
@@ -3514,6 +3585,27 @@
     }
   },
   "stories": {
+    "anthropic-150m-genesis-mission-federal-science": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-150m-genesis-mission-federal-science.jpg",
+      "last_updated": "2026-10-11T00:57:23Z",
+      "post_id": "99804778365067635",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-commits-150m-to-bring-claude.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20DoubleHelix&backgroundColor=heather",
+      "source_urls": [
+        "https://www.anthropic.com/news/genesis-mission-commitment?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Commits $150M to Bring Claude to 15+ Federal Science Agencies",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      }
+    },
     "anthropic-2026-usage-policy-update": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-2026-usage-policy-update.jpg",
@@ -3916,6 +4008,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 88,
         "source": "browser-use Releases"
+      }
+    },
+    "claude-science-first-complete-uv-sky-map": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/claude-science-first-complete-uv-sky-map.jpg",
+      "last_updated": "2026-10-11T00:57:19Z",
+      "post_id": "3404495257928657915",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-details-claude-science.html",
+      "score": 86,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/dde28f2eb899eade347dd07314a9c6b65bfbbb3c-1200x630.png",
+      "source_urls": [
+        "https://www.anthropic.com/research/the-missing-map-of-the-sky?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Details 'Claude Science' Workflow Used to Build First Complete UV Sky Map",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "comfyui-v0390-release": {

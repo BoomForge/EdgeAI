@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-11T07:19:30Z",
+    "at": "2026-10-11T14:10:53Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 1,
+    "queued": 7,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 40,
+  "runs": 41,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -727,6 +727,11 @@
       "status": "queued",
       "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/educause-2026/"
     },
+    "3830488492cf97e234c693ed": {
+      "first_seen": "2026-10-11T14:10:34Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11556"
+    },
     "3840606c6c2631b0141fdf60": {
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
@@ -904,6 +909,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2"
     },
+    "41e12843f2c4fc0abb992355": {
+      "first_seen": "2026-10-11T14:10:43Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.0-rc.1"
+    },
     "420734bb3fbbefb9aa82f403": {
       "first_seen": "2026-10-08T07:31:26Z",
       "status": "queued",
@@ -1063,6 +1073,11 @@
       "first_seen": "2026-10-09T23:20:25Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11539"
+    },
+    "51ddba2e3e4c402c871902fd": {
+      "first_seen": "2026-10-11T14:10:34Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11555"
     },
     "5404525725fe082cebc33e09": {
       "first_seen": "2026-10-03T00:45:57Z",
@@ -1234,6 +1249,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02330"
     },
+    "6376692708a589e10b25236a": {
+      "first_seen": "2026-10-11T14:10:34Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11554"
+    },
     "637d3dfa247fa816a4c4160f": {
       "first_seen": "2026-10-03T00:45:50Z",
       "status": "queued",
@@ -1294,6 +1314,11 @@
       "first_seen": "2026-10-07T16:38:55Z",
       "status": "queued",
       "url": "https://openai.com/index/teens-learn-and-plan"
+    },
+    "666b74eaa9402c3e47d6d7a4": {
+      "first_seen": "2026-10-11T14:10:44Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.3"
     },
     "6670c8a0940d181292f23158": {
       "first_seen": "2026-10-08T07:31:18Z",
@@ -2037,6 +2062,11 @@
       "status": "too_old",
       "url": "https://github.com/continuedev/continue/releases/tag/v1.2.24-vscode"
     },
+    "9fb40bfab34a893d33422142": {
+      "first_seen": "2026-10-11T14:10:34Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11553"
+    },
     "a018d30291dfb638fae47af2": {
       "first_seen": "2026-10-08T14:56:03Z",
       "search_score": 0,
@@ -2207,6 +2237,11 @@
       "first_seen": "2026-10-04T12:33:55Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11387"
+    },
+    "afb4f1911ed6958ad55eb1b4": {
+      "first_seen": "2026-10-11T14:10:44Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.0"
     },
     "aff938afa23326fcd0937d3a": {
       "first_seen": "2026-10-05T09:14:07Z",

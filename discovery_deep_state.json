@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-10T23:43:58Z",
+    "at": "2026-10-11T02:16:07Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 1,
+    "queued": 3,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 38,
+  "runs": 39,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -452,6 +452,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/cue-26"
+    },
+    "26b38e61c6e185d1b3ceb9cf": {
+      "first_seen": "2026-10-11T02:16:04Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-88adf2e51a0f1f1e5fff"
     },
     "271a8d37f09e7fec2947e57b": {
       "first_seen": "2026-10-06T19:44:10Z",
@@ -1815,6 +1820,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/hark-3"
     },
+    "a2dbc26766a3bd99231d2ba1": {
+      "first_seen": "2026-10-11T02:16:02Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/10/python-actions/"
+    },
     "a3323ce37a6dcf1415e1b97e": {
       "first_seen": "2026-10-08T21:27:34Z",
       "status": "queued",
@@ -2615,6 +2625,11 @@
       "first_seen": "2026-10-08T21:27:35Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/8/carson-gross/"
+    },
+    "ed32cd489cb393b4ea9cbdec": {
+      "first_seen": "2026-10-11T02:16:02Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/"
     },
     "ed82d4f7bef7b92794d268a2": {
       "first_seen": "2026-10-06T19:44:10Z",

@@ -2690,6 +2690,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "26b38e61c6e185d1b3ceb9cf",
+      "discovered_at": "2026-10-11T02:16:04Z",
+      "kind": "independent-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-11T02:16:04Z",
+      "search_score": 8,
+      "source_name": "OpenRouter Rankings",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models Rankings data by OpenRouter is licensed under CC BY 4.0 . Reuse and republish it with attribution. The Data API docs cover the citation format and JSON access to these datasets. Footer \u00a9 2026 OpenRouter, Inc Product Chat Rankings Benchmarks Apps Discover Models Ori Collections Providers Tools Pricing Business Enterprise Labs Company About Blog Careers Hiring Privacy Terms of Service Trust Center Support Works With OR Data Brand Developer Documentation API Reference Developer Platform Status AI Site Map Connect Discord GitHub LinkedIn X YouTube",
+      "title": "OpenRouter real-world model rankings changed",
+      "url": "https://openrouter.ai/rankings#edgeai-88adf2e51a0f1f1e5fff"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "f39d26586a9bbbb17ae8bee8",
       "discovered_at": "2026-10-07T21:57:50Z",
       "kind": "independent-signal",
@@ -3166,6 +3180,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "ed32cd489cb393b4ea9cbdec",
+      "discovered_at": "2026-10-11T02:16:02Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-11T00:52:37+00:00",
+      "search_score": 1,
+      "source_name": "Simon Willison Everything",
+      "summary": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more . That's art. I went looking and I'm sad to report that the days without version control appear to have ended. Quoting Tarn Adams over time: March 2013: \"I don't use version control -- I didn't like the feeling of having the code get committed into a black box thingy with no immediate upside\" March 2016: \"I don\u2019t even use version control. If you don\u2019t know what that is then you\u2019re not gonna yell at me. If you even know what version control is you\u2019re gonna be like, \u2018You don\u2019t use version control? You don\u2019t use source control? What is wrong with you? How can you even work? I\u2019m just not cut out for it, in a sense. It\u2019s been 15 years, so the reasons have change over time, but that\u2019s my current understanding of it.\" March 2023: \"I've got Discord channels to check and version control stuff to use now, so the process is definitely a little more involved\" That March 2023 quote comes from an interview about the release on Steam which made them millionaires . I'm a tiny bit sad that they gave in before they hit that milestone, but what an impressive run. Tags: version-control",
+      "title": "Dwarf Fortress uses version control now",
+      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "a2dbc26766a3bd99231d2ba1",
+      "discovered_at": "2026-10-11T02:16:02Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-10T23:58:04+00:00",
+      "search_score": 1,
+      "source_name": "Simon Willison Everything",
+      "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions  and git pull once an hour until they add the stable  3.15 - then tell me about it Now that this has landed, you can add \"3.15\" to a GitHub Actions testing matrix to run tests against the new Python 3.15.0 release . Tags: github , python , github-actions , chatgpt",
+      "title": "Python 3.15.0 added to actions/python-versions",
+      "url": "https://simonwillison.net/2026/Oct/10/python-actions/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "4c30b4b05fcb88bec2dc3e39",
       "discovered_at": "2026-10-07T16:48:32Z",
       "kind": "independent",
@@ -3457,51 +3499,9 @@
       "summary": "Orchestrate AI agent teams on a visual canvas Discussion | Link",
       "title": "Clippo",
       "url": "https://www.producthunt.com/products/clippo-2"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "b086982776d8ed321378c722",
-      "discovered_at": "2026-10-09T01:22:21Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-06T09:58:06-07:00",
-      "search_score": 7,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Scan AI agent Skills for risks before you install them Discussion | Link",
-      "title": "AgentGuard",
-      "url": "https://www.producthunt.com/products/agentguard-5"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "afb57b23b0892f028d1184ff",
-      "discovered_at": "2026-10-03T11:34:52Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-09-30T09:56:38-07:00",
-      "search_score": 7,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "See what your AI agents do behind Discussion | Link",
-      "title": "Agent Activity",
-      "url": "https://www.producthunt.com/products/agent-activity"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "e194f1ea6d18e65bd29bb9d3",
-      "discovered_at": "2026-10-10T11:25:14Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-09T08:13:51-07:00",
-      "search_score": 6,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Ask Claude for live dashboards and animated explainers Discussion | Link",
-      "title": "Claude Dashboards & Motion",
-      "url": "https://www.producthunt.com/products/claude-dashboards-motion"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-10T23:43:58Z",
+  "updated_at": "2026-10-11T02:16:07Z",
   "version": 2
 }

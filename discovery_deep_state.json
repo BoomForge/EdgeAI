@@ -1,16 +1,21 @@
 {
   "last_run": {
-    "at": "2026-10-12T15:14:44Z",
+    "at": "2026-10-12T22:33:16Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 6,
+    "prefiltered": 0,
+    "queued": 7,
     "sources_ok": 15,
-    "too_old": 13,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 45,
+  "runs": 46,
   "seen": {
+    "009b2e4d3edeb64c5098744c": {
+      "first_seen": "2026-10-12T22:33:10Z",
+      "status": "queued",
+      "url": "https://research.meta.ai/blog/muse-wonder?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
@@ -35,6 +40,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://elevenlabs.io/blog/eleven-v4"
+    },
+    "035f6f223ed7ad47ab68a054": {
+      "first_seen": "2026-10-12T22:33:11Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-f649d5748324f3286476"
     },
     "03e8a7a64a2ee8865a32c593": {
       "first_seen": "2026-10-12T15:14:38Z",
@@ -601,6 +611,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://sakana.ai/japan-startup-award-2026/"
+    },
+    "2f5855ec66718315fec2ed61": {
+      "first_seen": "2026-10-12T22:33:11Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/"
     },
     "2fc061114bba09f9ff0652fb": {
       "first_seen": "2026-10-11T09:11:21Z",
@@ -1826,6 +1841,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/manifold-mcp"
     },
+    "901eddfa61b84a5e35f1f60f": {
+      "first_seen": "2026-10-12T22:33:11Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/"
+    },
     "905dc6245d43b31ec40ee091": {
       "first_seen": "2026-10-07T16:48:32Z",
       "search_score": 0,
@@ -1846,6 +1866,11 @@
       "first_seen": "2026-10-10T16:21:13Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/ej-jev-but-for-edge-devices"
+    },
+    "9330ae30d1053d8c5efb2029": {
+      "first_seen": "2026-10-12T22:33:10Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/research/self-replicating-ai?utm_source=futuretools.io&utm_medium=newspage"
     },
     "94801ca24377c4b6f66bd124": {
       "first_seen": "2026-10-07T09:23:03Z",
@@ -1936,6 +1961,11 @@
       "first_seen": "2026-10-12T15:14:39Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-cfd1f3e35b55f8fc6689"
+    },
+    "9ea751a7dcd830fad50127d9": {
+      "first_seen": "2026-10-12T22:33:10Z",
+      "status": "queued",
+      "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "9ec8824fd5232b29da3792d9": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -3006,6 +3036,11 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
       "url": "https://www.kimi.com/"
+    },
+    "fe1f2f0ee9507d19b02640e1": {
+      "first_seen": "2026-10-12T22:33:10Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions?utm_source=futuretools.io&utm_medium=newspage"
     },
     "ff3192a07212d5fdc5524862": {
       "first_seen": "2026-10-03T00:45:59Z",

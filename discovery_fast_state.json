@@ -1,20 +1,26 @@
 {
   "last_run": {
-    "at": "2026-10-12T09:24:37Z",
+    "at": "2026-10-12T19:18:56Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 50,
+    "prefiltered": 6,
+    "queued": 12,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 45,
+  "runs": 46,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
       "status": "queued",
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics"
+    },
+    "005adc0cbed04e408ac0f93f": {
+      "first_seen": "2026-10-12T19:18:24Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/google-health/commitment-womens-health-flo-health-partnership/"
     },
     "00795a5db0aa8849a50cc2d5": {
       "first_seen": "2026-10-04T23:17:50Z",
@@ -262,6 +268,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12850"
     },
+    "130a6ee92052ca3b5899c826": {
+      "first_seen": "2026-10-12T19:18:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11568"
+    },
     "1322a304a3c5e6527676eef5": {
       "first_seen": "2026-10-09T06:41:16Z",
       "status": "queued",
@@ -331,6 +342,12 @@
       "first_seen": "2026-10-03T00:46:17Z",
       "status": "too_old",
       "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24"
+    },
+    "17ae0263749e16b232c5a47e": {
+      "first_seen": "2026-10-12T19:18:24Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/google-health/fitbit-google-health-updates/"
     },
     "180279b515dbeeff4b27ba60": {
       "first_seen": "2026-10-03T05:43:25Z",
@@ -467,6 +484,11 @@
       "first_seen": "2026-10-03T00:45:50Z",
       "status": "queued",
       "url": "https://openai.com/index/the-den-family-social"
+    },
+    "216858577134aecaf8bf20ab": {
+      "first_seen": "2026-10-12T19:18:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11572"
     },
     "21d604b42911dfdc01835b38": {
       "first_seen": "2026-10-12T09:24:00Z",
@@ -1029,6 +1051,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11385"
     },
+    "446280555baf13989bca7be5": {
+      "first_seen": "2026-10-12T19:18:52Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.6"
+    },
     "44847976725a12d1539724e9": {
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
@@ -1359,6 +1386,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02330"
     },
+    "62bd2b4c042758daf6fae090": {
+      "first_seen": "2026-10-12T19:18:34Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc0"
+    },
     "62f46bc38e0002e76ea0be4a": {
       "first_seen": "2026-10-12T09:24:00Z",
       "status": "queued",
@@ -1540,6 +1572,12 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11547"
     },
+    "6b2b07b69aa63512d190a378": {
+      "first_seen": "2026-10-12T19:18:24Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/google-health/google-health-updates/"
+    },
     "6ba6c0a7e0a1329cd32500e4": {
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
@@ -1600,6 +1638,12 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10845"
+    },
+    "7137d7cc9af98a47f08e4630": {
+      "first_seen": "2026-10-12T19:18:24Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge/"
     },
     "7164afd32ab29aac53e66bac": {
       "first_seen": "2026-10-03T00:46:10Z",
@@ -1821,6 +1865,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11403"
     },
+    "83c757b36ce8c8329be2986c": {
+      "first_seen": "2026-10-12T19:18:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11570"
+    },
     "840978c2e6f28318fa694682": {
       "first_seen": "2026-10-09T13:48:02Z",
       "status": "queued",
@@ -1830,6 +1879,12 @@
       "first_seen": "2026-10-07T21:34:26Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.4"
+    },
+    "8480f2f9df3680b91e1a008d": {
+      "first_seen": "2026-10-12T19:18:24Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/google-health/google-health-partnership-athletes-creators/"
     },
     "855092fba1df7e8a668bec1b": {
       "first_seen": "2026-10-08T20:34:08Z",
@@ -1876,6 +1931,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11406"
     },
+    "8733d719fa871e1ea80eb42c": {
+      "first_seen": "2026-10-12T19:18:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11574"
+    },
     "879223c03da5c67bbbc7e733": {
       "first_seen": "2026-10-10T15:11:44Z",
       "status": "queued",
@@ -1916,6 +1976,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02322"
     },
+    "8a29c0194e2bf02960ef4ab3": {
+      "first_seen": "2026-10-12T19:18:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11571"
+    },
     "8aacdfb29bf9c89067eb33f4": {
       "first_seen": "2026-10-04T17:01:25Z",
       "status": "queued",
@@ -1940,6 +2005,12 @@
       "first_seen": "2026-10-04T12:33:55Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11389"
+    },
+    "8c74b81f618ade177a2002c1": {
+      "first_seen": "2026-10-12T19:18:24Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/technology/health/ai-health-research/"
     },
     "8c9dd461b232f6c733622c72": {
       "first_seen": "2026-10-08T01:18:13Z",
@@ -2393,6 +2464,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08868"
     },
+    "ad1bab0fb2e7ec83f38d5d1b": {
+      "first_seen": "2026-10-12T19:18:52Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.1"
+    },
     "ad21292e8cbac72957f5928c": {
       "first_seen": "2026-10-06T13:36:39Z",
       "status": "queued",
@@ -2447,6 +2523,11 @@
       "first_seen": "2026-10-12T09:23:59Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12601"
+    },
+    "af41e11c1664671d783ba3ef": {
+      "first_seen": "2026-10-12T19:18:52Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.10"
     },
     "afb4f1911ed6958ad55eb1b4": {
       "first_seen": "2026-10-11T14:10:44Z",
@@ -2673,6 +2754,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10793"
     },
+    "c288f00f94c5b3aa84365a46": {
+      "first_seen": "2026-10-12T19:18:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11569"
+    },
     "c30dcdffc231ce954d07b0f9": {
       "first_seen": "2026-10-09T06:41:25Z",
       "status": "queued",
@@ -2717,6 +2803,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02302"
+    },
+    "c5dfc0af3d4a2905a05a1502": {
+      "first_seen": "2026-10-12T19:18:49Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.906-beta"
     },
     "c5e0cf186093ad288b34deb7": {
       "first_seen": "2026-10-09T06:41:17Z",
@@ -3400,6 +3491,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10650"
+    },
+    "f4ed36eb5e3ed1848886303e": {
+      "first_seen": "2026-10-12T19:18:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11573"
     },
     "f515c352b2b1e0ca5293fc0d": {
       "first_seen": "2026-10-12T09:23:59Z",

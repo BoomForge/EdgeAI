@@ -37,8 +37,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-12T01:40:24Z",
-    "eligible": 28,
+    "at": "2026-10-12T17:49:37Z",
+    "eligible": 19,
     "evaluated": 5,
     "mode": "live",
     "new_posts": 1,
@@ -228,6 +228,11 @@
       "status": "ignored",
       "story_key": "llamacpp-b11531-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11531"
+    },
+    "0ce91db369e58780fbe769e8": {
+      "at": "2026-10-12T17:49:23Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11518"
     },
     "0d1bedda434773699099da05": {
       "at": "2026-10-05T07:01:46Z",
@@ -644,6 +649,11 @@
       },
       "url": "https://openai.com/index/atlassian-partnership"
     },
+    "28a9ca860108bf2d15699545": {
+      "at": "2026-10-12T17:49:23Z",
+      "status": "expired",
+      "url": "https://newsletter.futurepedia.io/p/your-next-chatgpt-answer-might-come-with-buttons-10-09-2026"
+    },
     "28fb219774587d148d643716": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -658,6 +668,14 @@
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11447"
+    },
+    "2a417b80bb390145cbda96e2": {
+      "at": "2026-10-12T17:49:33Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamaccpp-b11563-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11563"
     },
     "2a8e5b2eeed733baf988d7ff": {
       "at": "2026-10-06T02:32:14Z",
@@ -1738,6 +1756,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11368"
     },
+    "651eb83950e5fc77f990aaa6": {
+      "at": "2026-10-12T17:49:23Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11515"
+    },
     "65cf245591aca8f20d74430c": {
       "at": "2026-10-11T18:49:43Z",
       "status": "expired",
@@ -2029,6 +2052,11 @@
       "story_key": "runway-general-world-models-research-announcement",
       "url": "https://runway.com/research/introducing-general-world-models"
     },
+    "7af93f3f2c1476c300e88434": {
+      "at": "2026-10-12T17:49:23Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/9/matthew-green/"
+    },
     "7b43e5d389a9f61d43575f50": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -2162,6 +2190,11 @@
       "at": "2026-10-08T05:56:53Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11403"
+    },
+    "840978c2e6f28318fa694682": {
+      "at": "2026-10-12T17:49:23Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11517"
     },
     "8469217d750f3815d3a34736": {
       "at": "2026-10-10T21:57:01Z",
@@ -2468,6 +2501,11 @@
       "status": "expired",
       "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25"
     },
+    "994e352fe4595423c9305758": {
+      "at": "2026-10-12T17:49:23Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11521"
+    },
     "996add26c473ba71bad49622": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -2505,6 +2543,11 @@
         "source": "SGLang Releases"
       },
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21"
+    },
+    "9b969da080efdf9fcad72596": {
+      "at": "2026-10-12T17:49:23Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11533"
     },
     "9b982b2cc135ef9267e47ef1": {
       "at": "2026-10-09T21:39:09Z",
@@ -2568,6 +2611,20 @@
       "at": "2026-10-09T17:07:50Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11453"
+    },
+    "9e898dc1426186d95d9811d0": {
+      "at": "2026-10-12T17:49:30Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "artificial-analysis-changelog-muse-wonder-zoom-scribe-oct-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-cfd1f3e35b55f8fc6689"
     },
     "9edf7f9e06fbe155638975ed": {
       "at": "2026-10-09T03:09:32Z",
@@ -3015,6 +3072,11 @@
       "status": "expired",
       "url": "https://www.musubilabs.ai/blog/introducing-policylm-1-7b?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "c00d49acad62014c6ab80d8a": {
+      "at": "2026-10-12T17:49:23Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/openpilot"
+    },
     "c38af6e5cae43e23a64c1d50": {
       "at": "2026-10-03T04:48:28Z",
       "bootstrap": true,
@@ -3292,6 +3354,14 @@
       "status": "ignored",
       "story_key": "kimi-downloads-page-refresh",
       "url": "https://www.kimi.com/en/products/download"
+    },
+    "d51d2c9dca8a6f98bee8176f": {
+      "at": "2026-10-12T17:49:37Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b11564-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11564"
     },
     "d54e68095afbdec36a232fe3": {
       "at": "2026-10-07T13:59:43Z",
@@ -3601,6 +3671,19 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11477"
     },
+    "e717d115bc50b825a8cae035": {
+      "at": "2026-10-12T17:49:23Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11530"
+    },
+    "e748499528dff52906945218": {
+      "at": "2026-10-12T17:49:31Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "llamacpp-b11567-compute-graph-reallocations",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11567"
+    },
     "e74b0ca731164f12ce98355c": {
       "at": "2026-10-03T04:50:16Z",
       "bootstrap": true,
@@ -3792,6 +3875,14 @@
       "status": "expired",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.7"
     },
+    "f4613aa777a13aa7e1cdd0be": {
+      "at": "2026-10-12T17:49:35Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b11565-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11565"
+    },
     "f49337edd4415929aaa81e89": {
       "at": "2026-10-03T04:46:57Z",
       "bootstrap": true,
@@ -3864,6 +3955,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00006"
+    },
+    "f82d4af7e53a994322f02c3d": {
+      "at": "2026-10-12T17:49:23Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11524"
     },
     "f8337d5201ca41f6b38e2a43": {
       "at": "2026-10-06T09:19:54Z",
@@ -4135,6 +4231,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Artificial Analysis Adds Mistral Large 4 Preview to Benchmarks",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
+    "artificial-analysis-changelog-muse-wonder-zoom-scribe-oct-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-muse-wonder-zoom-scribe-oct-2026.jpg",
+      "last_updated": "2026-10-12T17:49:30Z",
+      "post_id": "9034413542653042585",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/artificial-analysis-updates-changelog.html",
+      "score": 82,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-cfd1f3e35b55f8fc6689"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Updates Changelog with Muse Wonder and Zoom Scribe V2 Pro Evaluations",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

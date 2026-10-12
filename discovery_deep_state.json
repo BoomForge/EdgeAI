@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-12T05:49:44Z",
+    "at": "2026-10-12T15:14:44Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 0,
+    "prefiltered": 1,
+    "queued": 6,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 13,
     "warnings": 0
   },
-  "runs": 44,
+  "runs": 45,
   "seen": {
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -35,6 +35,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://elevenlabs.io/blog/eleven-v4"
+    },
+    "03e8a7a64a2ee8865a32c593": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/squadroom"
     },
     "03f410cf3381f3e8cf718dd8": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -120,6 +125,11 @@
       "status": "queued",
       "url": "https://sakana.ai/frontier-intelligence-group/"
     },
+    "0ad7064a4996ac268f3869e4": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/dropstone-cli"
+    },
     "0afd77473fa38dff4948fbb4": {
       "first_seen": "2026-10-09T14:44:12Z",
       "search_score": 0,
@@ -140,6 +150,11 @@
       "first_seen": "2026-10-07T21:57:48Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/imageflow-6"
+    },
+    "0c37ee95a300f52cd84514e5": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/invited-ai-reminder-scanner"
     },
     "0c78b107823f053100b26f30": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -348,6 +363,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/control-my-mac"
     },
+    "1d00dfe21278d2e6b0949ff5": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/understory-notes"
+    },
     "1d28ebd782e70d3cc523800e": {
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "too_old",
@@ -402,6 +422,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://stability.ai/solutions-1"
+    },
+    "1fa018d22efd5a84fed51329": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/salesrep-com"
     },
     "1fb466641ec80a8dc13c7b96": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -665,6 +690,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/willow-voice"
     },
+    "367c15be4f37c77b25801082": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/kudos-smart-wallet"
+    },
     "36980dfdde9ab39e7f62d1f0": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -825,6 +856,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/9/ttok/"
     },
+    "46e22b88664990f32b9508fb": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/cube-forms"
+    },
     "4712a12633fcb5d1b4744636": {
       "first_seen": "2026-10-03T00:46:00Z",
       "search_score": 1,
@@ -835,6 +871,16 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/twelvelabs"
+    },
+    "4847a92bf6bcb72f97c6754b": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/knocket-2"
+    },
+    "485748c9fbe82c07163bc0ad": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/excaliclaw"
     },
     "48621235051afa239607b1b6": {
       "first_seen": "2026-10-10T20:14:03Z",
@@ -991,6 +1037,11 @@
       "status": "queued",
       "url": "https://updates.midjourney.com/testing-thinking-mode/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "557b922ed659604267526078": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/ancher-ai"
+    },
     "5591ab28bd9758b5ff9121d3": {
       "first_seen": "2026-10-09T19:51:22Z",
       "status": "queued",
@@ -1087,6 +1138,11 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/manus"
+    },
+    "5ce0aedfed00876afc0ca4fa": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/guilds-run"
     },
     "5ceda9b354e942def1661823": {
       "first_seen": "2026-10-07T09:23:08Z",
@@ -1251,6 +1307,11 @@
       "first_seen": "2026-10-08T08:53:54Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/clippo-2"
+    },
+    "668c5161d4a920a8e2d1a69a": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/ngram"
     },
     "68f59b89b4d78cf84a0cdf21": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -1645,6 +1706,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/datasette-atom/"
     },
+    "8609703c606c7eb2702dd0b6": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/codemind-2"
+    },
     "868c02b1661261d41601212f": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -1718,6 +1784,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/tunnl-gg"
     },
+    "8d0c38888496be7fb7bb74b8": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/early-access-bearconnect-io"
+    },
     "8d28766e7ba5e0cab3974fb4": {
       "first_seen": "2026-10-03T00:46:02Z",
       "status": "queued",
@@ -1749,6 +1820,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/gauth-ai-course"
+    },
+    "8f4c5229a1a79048741cf97b": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/manifold-mcp"
     },
     "905dc6245d43b31ec40ee091": {
       "first_seen": "2026-10-07T16:48:32Z",
@@ -1855,6 +1931,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "9e898dc1426186d95d9811d0": {
+      "first_seen": "2026-10-12T15:14:39Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-cfd1f3e35b55f8fc6689"
     },
     "9ec8824fd5232b29da3792d9": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -2027,6 +2108,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/sapien-4"
     },
+    "ab7039cdea2b4697028265ab": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/milepost-2"
+    },
     "ace0757bf0866418bb537624": {
       "first_seen": "2026-10-06T19:44:10Z",
       "status": "queued",
@@ -2052,6 +2138,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/earlyn"
+    },
+    "aeec7a15e81750556e62946a": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/context-dev"
     },
     "af2fbd93182d5c01937faf5a": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -2454,6 +2545,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/jarq"
     },
+    "d4ba28051a15be01f9995115": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/base44"
+    },
     "d5135015cb86a5ed08ea8c55": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
@@ -2714,6 +2810,11 @@
       "first_seen": "2026-10-11T09:11:21Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/perplexity-ai"
+    },
+    "e7d7e8fc00f350e9071b3d36": {
+      "first_seen": "2026-10-12T15:14:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/embeddinggemma-2"
     },
     "e800acacef7840a119826a49": {
       "first_seen": "2026-10-03T00:45:59Z",

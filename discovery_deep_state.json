@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-13T03:13:35Z",
+    "at": "2026-10-13T10:55:55Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 1,
+    "prefiltered": 5,
+    "queued": 5,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 10,
     "warnings": 0
   },
-  "runs": 47,
+  "runs": 48,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -46,10 +46,20 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-f649d5748324f3286476"
     },
+    "03dc4194d234185480299628": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/articos"
+    },
     "03e8a7a64a2ee8865a32c593": {
       "first_seen": "2026-10-12T15:14:38Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/squadroom"
+    },
+    "03f0760c003867d18f450fab": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/openflowkit"
     },
     "03f410cf3381f3e8cf718dd8": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -87,6 +97,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/tide-simple-self-hostable-video-calls"
+    },
+    "055e10c1aeb1f19298cb227c": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/postnitro"
     },
     "05ca3e77b86ce14128a9432c": {
       "first_seen": "2026-10-08T16:25:55Z",
@@ -265,6 +280,17 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/kishi-notch"
+    },
+    "12aa44c67aba2f4c93212dfa": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/hirekai"
+    },
+    "13357c8148c1e621f38300dc": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/gotemail"
     },
     "139c57fb737ea881353402ce": {
       "first_seen": "2026-10-09T07:47:51Z",
@@ -559,6 +585,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2106138356937810069"
+    },
+    "293212af1428ad79e0113bfd": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/genchi"
     },
     "29e2961ad01fe1426761c81e": {
       "first_seen": "2026-10-04T17:06:51Z",
@@ -1047,6 +1078,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "5503bb8aa2b4ea261aa9270d": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/fina"
+    },
     "551d9f15e55d0a5c767736bf": {
       "first_seen": "2026-10-09T01:22:21Z",
       "status": "queued",
@@ -1153,6 +1189,11 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/manus"
+    },
+    "5c98b69c446552546ce6d49c": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/takes-for-mac"
     },
     "5ce0aedfed00876afc0ca4fa": {
       "first_seen": "2026-10-12T15:14:38Z",
@@ -1262,6 +1303,12 @@
       "first_seen": "2026-10-09T14:44:12Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/iwant"
+    },
+    "61c634ad4e09496fb4e49e00": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/music-dawn"
     },
     "6218e0219f6856f2edb6a893": {
       "first_seen": "2026-10-06T19:44:11Z",
@@ -1531,6 +1578,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/scumble"
     },
+    "792f7d6a7277183232fe1363": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/cli-manager"
+    },
     "79496cdb25d507d2bc6e03cf": {
       "first_seen": "2026-10-07T16:48:32Z",
       "status": "queued",
@@ -1609,6 +1661,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
+    },
+    "7dc9a6fe6a6c9d18d63bdde6": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/xiryn"
     },
     "7e2bd70a99cf3d9441f7abf9": {
       "first_seen": "2026-10-10T11:25:14Z",
@@ -1923,10 +1980,27 @@
       "status": "queued",
       "url": "https://support.google.com/gemini/answer/17004136?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "99758a9b58c5fbd86ceefbf6": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "search_score": -1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/toby-5"
+    },
+    "99ed192118002ed42ded74aa": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/agent-craft"
+    },
     "9a0455be99171fe1a5f5d188": {
       "first_seen": "2026-10-06T23:21:34Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107592263887147077"
+    },
+    "9a1b2939c0ff8893fc629909": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/google-fit-2"
     },
     "9ae5172fcb83662214274ffd": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -2260,6 +2334,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/openvids"
     },
+    "b36f7116a84b8a9ebda32e2d": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/upsolve-ai"
+    },
     "b3ddf621cd927d255750a3ef": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
@@ -2318,6 +2397,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/tori-japanese-listening-srs"
     },
+    "b961bd9c06691f1aba7a4290": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/mentionbird"
+    },
     "b98abef5a14e12ad68a0289b": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -2350,6 +2434,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/request-eagle"
+    },
+    "bd9fac1bbd7dd13140f79c16": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/the-drive-ai-2"
     },
     "bdc3c2af02f44af22bcadb19": {
       "first_seen": "2026-10-08T16:25:55Z",
@@ -2474,6 +2563,11 @@
       "status": "queued",
       "url": "https://www.kimi.com/en/blog/kimi-k3"
     },
+    "c8e0ffff3a63e885e8eb93c0": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/meta-ai"
+    },
     "c9d9e5394f2cbbcab7e127a1": {
       "first_seen": "2026-10-08T08:53:54Z",
       "status": "queued",
@@ -2537,6 +2631,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/simo-3"
+    },
+    "d09fd65332f82cfcb2b3597b": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/harnesshive"
     },
     "d1dfcca4ed604925cb790620": {
       "first_seen": "2026-10-08T01:53:48Z",
@@ -2615,6 +2715,11 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
       "url": "https://www.kimi.com/en/products/kimi-browser-extension"
+    },
+    "d7f4442d0d4e4adaf6feb07e": {
+      "first_seen": "2026-10-13T10:55:50Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/openwispr-open-source-ai-speech-to-text"
     },
     "d820d527a66cc6767ec5fec6": {
       "first_seen": "2026-10-07T21:57:53Z",

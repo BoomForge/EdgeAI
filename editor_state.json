@@ -37,12 +37,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-13T11:42:30Z",
-    "eligible": 23,
-    "evaluated": 5,
+    "at": "2026-10-13T23:04:26Z",
+    "eligible": 39,
+    "evaluated": 3,
     "mode": "live",
-    "new_posts": 0,
-    "publish_actions": 0,
+    "new_posts": 2,
+    "publish_actions": 2,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -205,6 +205,20 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/eleven-v4-and-eleven-v4-turbo"
+    },
+    "079cc6fd715edfcb3eb130e4": {
+      "at": "2026-10-13T23:04:20Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "artificial-analysis-changelog-oct-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-20d470951bb41b38113b"
     },
     "07dffacc5be464373897633e": {
       "at": "2026-10-10T13:59:41Z",
@@ -2301,6 +2315,11 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/6/datasette-atom/"
     },
+    "85b33ed482439c13b36cf549": {
+      "at": "2026-10-13T23:04:15Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11552"
+    },
     "86745252420db89333393bf9": {
       "at": "2026-10-05T22:35:25Z",
       "status": "expired",
@@ -2449,6 +2468,20 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/gspo/"
+    },
+    "8d45898e533e591d4241f4c1": {
+      "at": "2026-10-13T23:04:26Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "higgsfield-gpt6-astra-video-10-minutes",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice"
     },
     "8d6b25abb26bdbb6286b5088": {
       "at": "2026-10-12T23:48:45Z",
@@ -3353,6 +3386,11 @@
       },
       "url": "https://runway.com/research/how-real-time-video-generation-is-changing-online-interaction"
     },
+    "cdec551026cbc0789c854deb": {
+      "at": "2026-10-13T23:04:15Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11550"
+    },
     "ce3bef4c29f308650e3c9973": {
       "at": "2026-10-03T04:47:08Z",
       "bootstrap": true,
@@ -4030,6 +4068,14 @@
       "status": "expired",
       "url": "https://newsletter.futurepedia.io/p/gemini-finally-added-the-feature-claude-users-love-10-06-2026"
     },
+    "f5062afb1bfb74381ac3af4f": {
+      "at": "2026-10-13T23:04:22Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-updates-oct-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-3f60d53becd0c25f66c1"
+    },
     "f57c46bf1463a1b4ffd18591": {
       "at": "2026-10-07T19:56:51Z",
       "status": "expired",
@@ -4465,6 +4511,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Artificial Analysis Updates Changelog with Muse Wonder and Zoom Scribe V2 Pro Evaluations",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
+    "artificial-analysis-changelog-oct-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-oct-2026.jpg",
+      "last_updated": "2026-10-13T23:04:20Z",
+      "post_id": "511009945520828127",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/artificial-analysis-updates-benchmark_01785872676.html",
+      "score": 85,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-20d470951bb41b38113b"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Updates Benchmark Changelog with Recent Model Evaluations",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
@@ -4962,6 +5029,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
         "score": 62,
         "source": "FutureTools AI News"
+      }
+    },
+    "higgsfield-gpt6-astra-video-10-minutes": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/higgsfield-gpt6-astra-video-10-minutes.jpg",
+      "last_updated": "2026-10-13T23:04:26Z",
+      "post_id": "4667697764651822692",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/higgsfield-scales-ai-video-beyond-10.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/6QmB7YuFllKCVKPoWn7vnJ/6f3ac19d1e10d2a864481a174813c7f7/higgsfield-longer-videos-voice-seo-open-graph-1920x1080.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/higgsfield-longer-videos-voice"
+      ],
+      "status": "CONFIRMED",
+      "title": "Higgsfield Scales AI Video Beyond 10 Minutes Using OpenAI's GPT-6 Astra",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
       }
     },
     "kimi-browser-extension-launch": {

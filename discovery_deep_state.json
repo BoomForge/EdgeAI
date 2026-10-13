@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-12T22:33:16Z",
+    "at": "2026-10-13T03:13:35Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 7,
+    "queued": 1,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 46,
+  "runs": 47,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -1672,6 +1672,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/teachoo-2"
+    },
+    "818cf62a3bb0a7f8412e2dfd": {
+      "first_seen": "2026-10-13T03:13:29Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/12/web-edit/"
     },
     "822060bf8d8d5bd8fc661377": {
       "first_seen": "2026-10-05T18:53:47Z",

@@ -2788,6 +2788,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "818cf62a3bb0a7f8412e2dfd",
+      "discovered_at": "2026-10-13T03:13:29Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-12T15:54:36+00:00",
+      "search_score": 8,
+      "source_name": "Simon Willison Everything",
+      "summary": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for viewing and editing files in a folder. It's intended to be run over Tailscale, so I can have an agent start this running and then edit files via my Tailscale network directly from my phone. Here's the interface for browsing files in a folder: Editing uses CodeMirror 6 - I was going to use Monaco but that still doesn't have a great mobile experience yet. Tags: projects , python , ai , tailscale , generative-ai , llms , codex",
+      "title": "web-edit 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/12/web-edit/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "26b38e61c6e185d1b3ceb9cf",
       "discovered_at": "2026-10-11T02:16:04Z",
       "kind": "independent-signal",
@@ -3485,23 +3499,9 @@
       "summary": "Computer programming is, fundamentally, about two things: Problem-solving using computers Learning to control complexity while solving these problems I have a hard time imagining a future where knowing how to solve problems with computers and how to control the complexity of those solutions is less valuable than it is today, so I think it will continue to be a viable career even with the advent of AI tools. \u2014 Carson Gross Tags: computer-science , carson-gross , careers , ai",
       "title": "Quoting Carson Gross",
       "url": "https://simonwillison.net/2026/Oct/8/carson-gross/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "79496cdb25d507d2bc6e03cf",
-      "discovered_at": "2026-10-07T16:48:32Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-05T09:46:44-07:00",
-      "search_score": 14,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "User journeys captured with natural language Discussion | Link",
-      "title": "DevAlly AI Agent",
-      "url": "https://www.producthunt.com/products/devally"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-12T22:33:16Z",
+  "updated_at": "2026-10-13T03:13:35Z",
   "version": 2
 }

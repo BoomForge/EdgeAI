@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-13T16:26:32Z",
+    "at": "2026-10-13T21:32:57Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 2,
-    "queued": 15,
+    "queued": 12,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 49,
+  "runs": 50,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -237,6 +237,12 @@
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08829"
+    },
+    "1143b1c433b3a84fd0cad4ea": {
+      "first_seen": "2026-10-13T21:32:25Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/platforms/android/cars-with-google-built-in-google-play-updates/"
     },
     "1143ba815ec4656ffda16d73": {
       "first_seen": "2026-10-07T09:14:26Z",
@@ -976,6 +982,11 @@
       "status": "prefiltered",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/indiana-energy-imact-program/"
     },
+    "3fbcb9b67843708734726082": {
+      "first_seen": "2026-10-13T21:32:32Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11596"
+    },
     "3fc6c28d446192a47f721788": {
       "first_seen": "2026-10-08T01:18:06Z",
       "search_score": 0,
@@ -1428,6 +1439,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02300"
     },
+    "5febfc6f0d2e810d3e4c2ce0": {
+      "first_seen": "2026-10-13T21:32:32Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11597"
+    },
     "605cee19632e07cf4d3aa4dc": {
       "first_seen": "2026-10-09T00:38:26Z",
       "status": "queued",
@@ -1447,6 +1463,17 @@
       "first_seen": "2026-10-05T09:14:06Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02330"
+    },
+    "61915a37127b98c442310e53": {
+      "first_seen": "2026-10-13T21:32:25Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/"
+    },
+    "624d8c9f06fd047f9da48924": {
+      "first_seen": "2026-10-13T21:32:25Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/"
     },
     "62bd2b4c042758daf6fae090": {
       "first_seen": "2026-10-12T19:18:34Z",
@@ -1711,6 +1738,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge/"
+    },
+    "714d15998bb769d3264989be": {
+      "first_seen": "2026-10-13T21:32:32Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11601"
     },
     "7164afd32ab29aac53e66bac": {
       "first_seen": "2026-10-03T00:46:10Z",
@@ -2104,10 +2136,20 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06940"
     },
+    "8d45898e533e591d4241f4c1": {
+      "first_seen": "2026-10-13T21:32:25Z",
+      "status": "queued",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice"
+    },
     "8d6b25abb26bdbb6286b5088": {
       "first_seen": "2026-10-09T19:20:42Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11534"
+    },
+    "8d92d426ee46f64f08cd8291": {
+      "first_seen": "2026-10-13T21:32:32Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11602"
     },
     "8dce27f84ec6b99c43b15df9": {
       "first_seen": "2026-10-07T09:14:07Z",
@@ -2671,6 +2713,11 @@
       "status": "too_old",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.17"
     },
+    "b3047042ec64cdc765b8e9cb": {
+      "first_seen": "2026-10-13T21:32:32Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11598"
+    },
     "b46371496930d9dae1bee892": {
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
@@ -3061,6 +3108,11 @@
       "status": "too_old",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.5"
     },
+    "cfa14935e06b790ed18d220c": {
+      "first_seen": "2026-10-13T21:32:32Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11599"
+    },
     "d01ebd3c72db89b95dfc9a57": {
       "first_seen": "2026-10-07T16:39:04Z",
       "status": "queued",
@@ -3242,6 +3294,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11352"
+    },
+    "d9be917439ae8646ae20a7b6": {
+      "first_seen": "2026-10-13T21:32:32Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11600"
     },
     "d9e485b409fe8517ac6e3a5b": {
       "first_seen": "2026-10-08T20:34:08Z",
@@ -3469,6 +3526,11 @@
       "status": "queued",
       "url": "https://openai.com/index/jump-trading"
     },
+    "ebde56fe0030c1c198cffb65": {
+      "first_seen": "2026-10-13T21:32:33Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc2"
+    },
     "ec401ab98bd184aa7b5ade19": {
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
@@ -3683,6 +3745,16 @@
       "first_seen": "2026-10-06T23:06:53Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11457"
+    },
+    "f6512e064973fcb9a0ec1f11": {
+      "first_seen": "2026-10-13T21:32:32Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11594"
+    },
+    "f67a6e730922fbb9302a7398": {
+      "first_seen": "2026-10-13T21:32:31Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.40.0"
     },
     "f6d4be82fdc69f2db07074bb": {
       "first_seen": "2026-10-03T00:45:52Z",

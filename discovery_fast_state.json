@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-12T19:18:56Z",
+    "at": "2026-10-13T01:26:56Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 6,
-    "queued": 12,
+    "prefiltered": 0,
+    "queued": 5,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 46,
+  "runs": 47,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -561,6 +561,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02351"
     },
+    "25f24cd8cd45bad928193558": {
+      "first_seen": "2026-10-13T01:26:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11575"
+    },
     "27215d831bbe09a339df9d2c": {
       "first_seen": "2026-10-06T13:36:31Z",
       "search_score": 0,
@@ -899,6 +904,11 @@
       "first_seen": "2026-10-04T12:33:55Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11384"
+    },
+    "3c96e8812836b2c3959a6a92": {
+      "first_seen": "2026-10-13T01:26:52Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.5"
     },
     "3cfdb313e450153a27a12f05": {
       "first_seen": "2026-10-09T06:41:17Z",
@@ -2068,6 +2078,11 @@
       "status": "prefiltered",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/"
     },
+    "8fd6c3da352d70f0842c07c7": {
+      "first_seen": "2026-10-13T01:26:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11577"
+    },
     "8ff13f57dac4cfa311c2ecd8": {
       "first_seen": "2026-10-03T00:45:50Z",
       "status": "queued",
@@ -2102,6 +2117,11 @@
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fllms%2Fv0.0.90"
+    },
+    "93629456a54f2a24f45d3801": {
+      "first_seen": "2026-10-13T01:26:56Z",
+      "status": "queued",
+      "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.4.1"
     },
     "9365773c40064e66f27935c8": {
       "first_seen": "2026-10-12T09:24:00Z",
@@ -3556,6 +3576,11 @@
       "first_seen": "2026-10-03T00:46:16Z",
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.7"
+    },
+    "f903fa4c66226278f5c5efcc": {
+      "first_seen": "2026-10-13T01:26:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11576"
     },
     "f90fe0c2cacaf9d0844e98f2": {
       "first_seen": "2026-10-03T00:46:13Z",

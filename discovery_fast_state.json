@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-13T08:25:48Z",
+    "at": "2026-10-13T16:26:32Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 7,
+    "prefiltered": 2,
+    "queued": 15,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 48,
+  "runs": 49,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -242,6 +242,11 @@
       "first_seen": "2026-10-07T09:14:26Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.0-dev.1"
+    },
+    "1188e82b717fca5d5ef2e0a6": {
+      "first_seen": "2026-10-13T16:26:01Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11584"
     },
     "11e95e729ef8fa908a6a7fd3": {
       "first_seen": "2026-10-08T07:31:17Z",
@@ -499,6 +504,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02460"
+    },
+    "230c5f3b5b2a57fcc7b2982f": {
+      "first_seen": "2026-10-13T16:26:22Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fllms%2Fv0.0.93"
     },
     "23519c33061b4d3a8332fad0": {
       "first_seen": "2026-10-04T17:01:25Z",
@@ -829,6 +839,16 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02382"
     },
+    "38c445fba78be444f32b8e42": {
+      "first_seen": "2026-10-13T16:26:01Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11588"
+    },
+    "39a55203d49cf313f7b91b9b": {
+      "first_seen": "2026-10-13T16:26:01Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11586"
+    },
     "39f346da5a98b4d9b1195855": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -949,6 +969,12 @@
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08830"
+    },
+    "3f244126e9d6ab8745ea3b4b": {
+      "first_seen": "2026-10-13T16:25:52Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/indiana-energy-imact-program/"
     },
     "3fc6c28d446192a47f721788": {
       "first_seen": "2026-10-08T01:18:06Z",
@@ -1091,6 +1117,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08833"
     },
+    "466fd99a808e83e2c0d42df5": {
+      "first_seen": "2026-10-13T16:26:22Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fcore%2Fv0.0.93"
+    },
     "46ab3d05931e11e543059691": {
       "first_seen": "2026-10-12T09:24:08Z",
       "status": "queued",
@@ -1125,6 +1156,12 @@
       "first_seen": "2026-10-03T00:46:20Z",
       "status": "too_old",
       "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.4.0b1"
+    },
+    "4a7c0627614787f810cfaa65": {
+      "first_seen": "2026-10-13T16:25:52Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-october-2026/"
     },
     "4b5ea087cc8a8e8ba85e3e54": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -1186,6 +1223,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11499"
     },
+    "4fb313bfef004f15abdc72c1": {
+      "first_seen": "2026-10-13T16:26:21Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.907-beta"
+    },
     "5036f5960e5c005d77fbc3e8": {
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
@@ -1220,6 +1262,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10761"
+    },
+    "54e63c7fa18f9c6d2103ae28": {
+      "first_seen": "2026-10-13T16:25:52Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/"
     },
     "55343430538830063dc618ba": {
       "first_seen": "2026-10-08T07:31:18Z",
@@ -1507,6 +1554,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02472"
     },
+    "6823801d4a6c9058ddd90d9c": {
+      "first_seen": "2026-10-13T16:26:22Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.93"
+    },
     "687e9c8e75efa984655b68da": {
       "first_seen": "2026-10-03T00:46:13Z",
       "status": "too_old",
@@ -1700,6 +1752,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12625"
     },
+    "74c9e10c02543c499970682c": {
+      "first_seen": "2026-10-13T16:25:52Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+    },
     "75c9bae4fe7a0957d3f09dba": {
       "first_seen": "2026-10-12T09:24:00Z",
       "status": "queued",
@@ -1759,6 +1816,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02425"
+    },
+    "7b33fd90a58414fd02ee01fa": {
+      "first_seen": "2026-10-13T16:26:01Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11589"
     },
     "7b350c4dafe600daf645a719": {
       "first_seen": "2026-10-07T09:14:06Z",
@@ -2369,6 +2431,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12514"
     },
+    "a1d61aadf0d60aed3e8bd82e": {
+      "first_seen": "2026-10-13T16:26:01Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11583"
+    },
     "a1e4bf9dfd259e4a8a1b912a": {
       "first_seen": "2026-10-03T00:45:51Z",
       "status": "queued",
@@ -2443,6 +2510,11 @@
       "first_seen": "2026-10-07T09:14:06Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06923"
+    },
+    "a7f933faaa0f4d4ad3a14c35": {
+      "first_seen": "2026-10-13T16:26:22Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.24"
     },
     "a8ac830d507256c942102f31": {
       "first_seen": "2026-10-07T09:14:06Z",
@@ -2709,6 +2781,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11512"
     },
+    "bc084cc78ed3792c091ebc04": {
+      "first_seen": "2026-10-13T16:25:52Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/"
+    },
     "bc14691a892bd7c7add97d6b": {
       "first_seen": "2026-10-05T09:14:06Z",
       "status": "queued",
@@ -2953,6 +3030,11 @@
       "first_seen": "2026-10-05T18:34:46Z",
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/education/education-officer-gemini/"
+    },
+    "ce73009b0e6483149fdb3676": {
+      "first_seen": "2026-10-13T16:26:22Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.0.93"
     },
     "ce7a8790e53e0e8fbce51560": {
       "first_seen": "2026-10-09T23:20:25Z",
@@ -3491,6 +3573,11 @@
       "first_seen": "2026-10-03T00:46:17Z",
       "status": "too_old",
       "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.22"
+    },
+    "f18246a10df0951272d01679": {
+      "first_seen": "2026-10-13T16:26:22Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.0.93"
     },
     "f18921b26aea0d923122bc4e": {
       "first_seen": "2026-10-10T15:11:44Z",

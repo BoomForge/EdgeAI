@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-13T18:14:21Z",
+    "at": "2026-10-13T23:00:47Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 11,
+    "prefiltered": 0,
+    "queued": 6,
     "sources_ok": 15,
-    "too_old": 4,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 49,
+  "runs": 50,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -129,6 +129,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/eleven-v4-and-eleven-v4-turbo"
+    },
+    "079cc6fd715edfcb3eb130e4": {
+      "first_seen": "2026-10-13T23:00:42Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-20d470951bb41b38113b"
     },
     "07dffacc5be464373897633e": {
       "first_seen": "2026-10-08T16:26:00Z",
@@ -1682,6 +1687,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/vocascript"
     },
+    "7c9e315c820562b6165a0b66": {
+      "first_seen": "2026-10-13T23:00:39Z",
+      "status": "queued",
+      "url": "https://www.theinformation.com/newsletters/ai-agenda/openais-plan-revive-sora?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "7cf3ebe6e9136919c61a12ce": {
       "first_seen": "2026-10-11T15:53:36Z",
       "status": "queued",
@@ -1990,6 +2000,11 @@
       "status": "queued",
       "url": "https://www.anthropic.com/research/self-replicating-ai?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "9363f381f0ec11aa1f233a0a": {
+      "first_seen": "2026-10-13T23:00:39Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "94801ca24377c4b6f66bd124": {
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
@@ -2068,6 +2083,11 @@
       "first_seen": "2026-10-08T16:26:00Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2108201390493544680"
+    },
+    "9c11d7169c7fa53a668031c3": {
+      "first_seen": "2026-10-13T23:00:41Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/"
     },
     "9c589f61789715c0571fcf74": {
       "first_seen": "2026-10-04T17:06:51Z",
@@ -2792,6 +2812,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107874963382538469"
     },
+    "d87ec52777a804f4dba4fc8e": {
+      "first_seen": "2026-10-13T23:00:39Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "d8ab4d76c879b4b86ad16d02": {
       "first_seen": "2026-10-04T23:29:38Z",
       "search_score": 1,
@@ -3218,6 +3243,11 @@
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/unscary-ai"
+    },
+    "f99ea621acd6e4bbbe5b26d3": {
+      "first_seen": "2026-10-13T23:00:41Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/"
     },
     "f9ac3a3f0e104375673c2981": {
       "first_seen": "2026-10-03T00:46:02Z",

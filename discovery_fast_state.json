@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-14T05:22:48Z",
+    "at": "2026-10-14T10:23:00Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 4,
+    "queued": 5,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 52,
+  "runs": 53,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -375,6 +375,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00047"
     },
+    "18521ab849e45ccff746b9d7": {
+      "first_seen": "2026-10-14T10:22:27Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models/"
+    },
     "18611376fdf204eb5509030a": {
       "first_seen": "2026-10-12T09:24:00Z",
       "status": "queued",
@@ -495,6 +500,11 @@
       "first_seen": "2026-10-05T18:34:46Z",
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/education/english-teacher-gemini/"
+    },
+    "200a5d3dd39c6bfb7a201928": {
+      "first_seen": "2026-10-14T10:22:27Z",
+      "status": "queued",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
     },
     "20b6195dd6f81b9b870d8c4e": {
       "first_seen": "2026-10-09T06:41:16Z",
@@ -1133,6 +1143,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02320"
     },
+    "45457a9fbb94c90033c1db48": {
+      "first_seen": "2026-10-14T10:22:27Z",
+      "status": "queued",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/european-economic-impact-report/"
+    },
     "4595b71f0d99ab690df29fae": {
       "first_seen": "2026-10-05T18:34:59Z",
       "status": "queued",
@@ -1368,6 +1383,11 @@
       "first_seen": "2026-10-07T09:14:31Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fcore%2Fv0.0.91"
+    },
+    "57b475f8d8db01aa1ca7922d": {
+      "first_seen": "2026-10-14T10:22:34Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11612"
     },
     "57da777c4c2700254495a538": {
       "first_seen": "2026-10-09T06:41:18Z",
@@ -3690,6 +3710,11 @@
       "first_seen": "2026-10-03T00:45:57Z",
       "status": "too_old",
       "url": "https://github.com/huggingface/diffusers/releases/tag/v0.38.0"
+    },
+    "f0b80431f300200a949399f6": {
+      "first_seen": "2026-10-14T10:22:27Z",
+      "status": "queued",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/impact-challenge-ai-science-recipients/"
     },
     "f0eaec654f7f1f43621c2bdd": {
       "first_seen": "2026-10-03T00:46:00Z",

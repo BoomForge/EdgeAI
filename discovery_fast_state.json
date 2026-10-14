@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-14T00:36:58Z",
+    "at": "2026-10-14T05:22:48Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 9,
+    "queued": 4,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 51,
+  "runs": 52,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -471,6 +471,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11523"
     },
+    "1d2320510d10b3681238c060": {
+      "first_seen": "2026-10-14T05:22:42Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/desktop-nightly-20261014011413"
+    },
     "1dc67391a9e2cf42818e7b9f": {
       "first_seen": "2026-10-08T14:56:24Z",
       "status": "queued",
@@ -672,6 +677,11 @@
       "first_seen": "2026-10-03T18:43:36Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11379"
+    },
+    "2c5c1a302baa91ba3f0ddfed": {
+      "first_seen": "2026-10-14T05:22:46Z",
+      "status": "queued",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.28"
     },
     "2d1ba5f9cd87f735ba5c106b": {
       "first_seen": "2026-10-05T09:14:16Z",
@@ -2322,6 +2332,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11578"
     },
+    "9823b5a89ae5522f0d751c53": {
+      "first_seen": "2026-10-14T05:22:39Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.1"
+    },
     "9825f3c2238a6f0aa1983063": {
       "first_seen": "2026-10-07T21:34:26Z",
       "status": "queued",
@@ -3067,6 +3082,11 @@
       "first_seen": "2026-10-07T21:34:12Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11479"
+    },
+    "ca64cd0bc7b9ec8b3ce10270": {
+      "first_seen": "2026-10-14T05:22:27Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11610"
     },
     "ca6fadec58b05b0576c2acf4": {
       "first_seen": "2026-10-05T02:05:36Z",

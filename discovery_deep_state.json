@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-14T13:07:16Z",
+    "at": "2026-10-14T18:01:02Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 5,
-    "queued": 1,
+    "prefiltered": 4,
+    "queued": 6,
     "sources_ok": 15,
-    "too_old": 4,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 53,
+  "runs": 54,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -129,6 +129,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/eleven-v4-and-eleven-v4-turbo"
+    },
+    "078dfa3c48c7da2410caf893": {
+      "first_seen": "2026-10-14T18:01:02Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2110385144284725592"
     },
     "079cc6fd715edfcb3eb130e4": {
       "first_seen": "2026-10-13T23:00:42Z",
@@ -430,6 +435,11 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/rool"
+    },
+    "1b9196bd3c1c733977797db3": {
+      "first_seen": "2026-10-14T18:00:58Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-e3351d692035637f32f2"
     },
     "1b93984ff2aed635c5f94087": {
       "first_seen": "2026-10-03T00:46:03Z",
@@ -899,6 +909,12 @@
       "status": "queued",
       "url": "https://www.minimax.io/about"
     },
+    "3e14fe748856c48f68ca88f5": {
+      "first_seen": "2026-10-14T18:00:57Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/spotify"
+    },
     "3e3599b79dca37e220662e17": {
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "queued",
@@ -1364,6 +1380,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/kitbar"
     },
+    "5fe026c23b18dde92a71102f": {
+      "first_seen": "2026-10-14T18:00:57Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/t-scriptor"
+    },
     "603d4f0592f632a4812d62a6": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -1626,6 +1647,16 @@
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/calnio"
+    },
+    "73a96a860aa56cb1085532d8": {
+      "first_seen": "2026-10-14T18:00:57Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/exodus-by-elim-io"
+    },
+    "73d6684f69e16267a8161d30": {
+      "first_seen": "2026-10-14T18:01:01Z",
+      "status": "queued",
+      "url": "https://sakana.ai/my-fish/"
     },
     "74580c76c4b983efd6274c97": {
       "first_seen": "2026-10-14T13:07:10Z",
@@ -2007,6 +2038,17 @@
       "first_seen": "2026-10-05T09:33:49Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-9e4133004a6812b634ce"
+    },
+    "8b2cab1489374fa7ca00ab1f": {
+      "first_seen": "2026-10-14T18:00:57Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/"
+    },
+    "8b9d6c384f9787a62f253628": {
+      "first_seen": "2026-10-14T18:00:57Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/specreel"
     },
     "8bc3d6a6800df1cc369bf4cd": {
       "first_seen": "2026-10-13T18:14:14Z",
@@ -2411,6 +2453,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/open-inspector"
     },
+    "aac38c41610d191c3b7fbf20": {
+      "first_seen": "2026-10-14T18:00:57Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/winq"
+    },
     "ab1718b76615d24d8db4db7d": {
       "first_seen": "2026-10-03T11:34:52Z",
       "search_score": 1,
@@ -2680,6 +2728,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://stability.ai/deployment"
+    },
+    "bdfd46eaf2cae139ef0717a4": {
+      "first_seen": "2026-10-14T18:01:02Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2110385143643091204"
     },
     "be0127738f95a1b1b1c1159e": {
       "first_seen": "2026-10-10T00:00:12Z",
@@ -3398,6 +3451,12 @@
       "first_seen": "2026-10-09T01:22:21Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/termaxa"
+    },
+    "f768c49392b0d57832c13a81": {
+      "first_seen": "2026-10-14T18:00:57Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/epherem"
     },
     "f7dc11939f82a6e92680fb82": {
       "first_seen": "2026-10-14T07:31:56Z",

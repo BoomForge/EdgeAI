@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-14T01:51:50Z",
+    "at": "2026-10-14T07:32:01Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 4,
+    "prefiltered": 6,
+    "queued": 5,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 10,
     "warnings": 0
   },
-  "runs": 51,
+  "runs": 52,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -154,6 +154,11 @@
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/ghostifier"
+    },
+    "090953ea4b259d5536c06162": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/rambox"
     },
     "0a28c215b5c05aea6d5cda4b": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -301,6 +306,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/hirekai"
     },
+    "12be8f4a83ee4bade85db387": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/notehouse-2"
+    },
     "13357c8148c1e621f38300dc": {
       "first_seen": "2026-10-13T10:55:50Z",
       "search_score": 1,
@@ -321,6 +332,11 @@
       "first_seen": "2026-10-13T18:14:20Z",
       "status": "queued",
       "url": "https://runway.com/code-terms/enterprise-bonus-terms"
+    },
+    "1469db0a07ecb19e2e6a46e8": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/supoclip"
     },
     "16278565d50915517bc1148d": {
       "first_seen": "2026-10-06T19:44:11Z",
@@ -356,6 +372,12 @@
       "first_seen": "2026-10-06T00:46:20Z",
       "status": "queued",
       "url": "https://www.thedeepview.com/articles/runway-ceo-sees-a-much-bigger-future-for-video-ai?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "199edccf21e1dcd4af638048": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/rolefit"
     },
     "19fa17b0500ad2a7a0dbccb3": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -627,6 +649,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/edgevolume-volume-at-your-fingertips"
     },
+    "2a271ea2de878ed2fa8174b3": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/cloud-releases"
+    },
     "2a8e5b2eeed733baf988d7ff": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -824,6 +852,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/pilot5-ai"
     },
+    "3ae01dd0a209187b6545ad44": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/famrelay"
+    },
     "3b73f4822ea0b3c87593c1f4": {
       "first_seen": "2026-10-03T00:46:02Z",
       "status": "queued",
@@ -989,6 +1022,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/maildun-for-mac"
     },
+    "4ba645af8bfe308baff40e5c": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/spinachi-ai"
+    },
     "4bc101a068feb031e91e799c": {
       "first_seen": "2026-10-03T00:46:00Z",
       "search_score": 1,
@@ -1015,6 +1053,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/trophy-1-0"
+    },
+    "4d282b1c56dbd0c8d49a3369": {
+      "first_seen": "2026-10-14T07:31:59Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2110209866996252729"
     },
     "4d581edee7535d61366801df": {
       "first_seen": "2026-10-13T18:14:14Z",
@@ -1391,6 +1434,11 @@
       "status": "queued",
       "url": "https://stability.ai/company"
     },
+    "639e94e31df2621a657d6c57": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/airjelly"
+    },
     "6406be5b671a96484836e277": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -1623,6 +1671,11 @@
       "first_seen": "2026-10-06T19:44:12Z",
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-eb975ed2c7e8867d6111"
+    },
+    "78e7e1f106f1a5291f072447": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/elocuenti"
     },
     "790a0d8121f5c08ed89e857d": {
       "first_seen": "2026-10-06T14:08:51Z",
@@ -1889,6 +1942,12 @@
       "status": "queued",
       "url": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "87cda75840bcd583b9571487": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/payload-peek"
+    },
     "87e209af624212491c44f946": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -2000,6 +2059,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/ej-jev-but-for-edge-devices"
     },
+    "9146fd56cf18d60bbdba363e": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/vectorize"
+    },
     "9330ae30d1053d8c5efb2029": {
       "first_seen": "2026-10-12T22:33:10Z",
       "status": "queued",
@@ -2014,6 +2078,12 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/genpage"
+    },
+    "9561e0b2102ff5b96763a074": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/adant-ai"
     },
     "963f327d7742bfcdecb503a6": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -2050,6 +2120,11 @@
       "first_seen": "2026-10-05T18:53:52Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107161699837231107"
+    },
+    "97cf8686b3feba7e91e409b2": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/acyclic"
     },
     "9935ba29a9a1947ed2e1da09": {
       "first_seen": "2026-10-05T18:53:47Z",
@@ -2230,6 +2305,11 @@
       "first_seen": "2026-10-08T21:27:35Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/offstage"
+    },
+    "a632e53275506c174a83c5ec": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/legacyfixer"
     },
     "a6ce8ee62eb8a0b82d296cd7": {
       "first_seen": "2026-10-03T15:15:03Z",
@@ -2446,6 +2526,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/moxie-2"
     },
+    "b49ab13dddaa37ab59d300d1": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/etchv"
+    },
     "b4f88cf2625bf543c420feee": {
       "first_seen": "2026-10-06T00:46:20Z",
       "status": "queued",
@@ -2525,6 +2610,11 @@
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/doco-4"
+    },
+    "bb0f3a1f930d003d6c11780a": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/tiden"
     },
     "bd173e559ba5d0f1c24750dd": {
       "first_seen": "2026-10-13T18:14:14Z",
@@ -2618,6 +2708,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/eat-train-feel"
+    },
+    "c2499710b8c1841e3c65677b": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/razorpay"
     },
     "c46e83ffe9fcac6056ab89b2": {
       "first_seen": "2026-10-10T11:25:13Z",
@@ -2982,6 +3077,11 @@
       "status": "queued",
       "url": "https://openai.com/index/atlassian-partnership/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "e0abfbb44ab5688ea39fa936": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/writerzroom"
+    },
     "e0f4b229e9b7953d33441e48": {
       "first_seen": "2026-10-08T08:53:54Z",
       "status": "too_old",
@@ -3244,11 +3344,22 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/termaxa"
     },
+    "f7dc11939f82a6e92680fb82": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/dashrendr"
+    },
     "f812ee2e5ad7f8ff56103b85": {
       "first_seen": "2026-10-10T05:44:59Z",
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/amazon-alexa-tablets"
+    },
+    "f81a5617073604b1bb2fdd17": {
+      "first_seen": "2026-10-14T07:31:56Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/microsoft-maia-300"
     },
     "f8337d5201ca41f6b38e2a43": {
       "first_seen": "2026-10-06T06:55:27Z",

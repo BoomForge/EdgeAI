@@ -2354,6 +2354,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "4d282b1c56dbd0c8d49a3369",
+      "discovered_at": "2026-10-14T07:31:59Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 14, 2026",
+      "search_score": 19,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch An agent with swag Oct 14, 2026 @NousResearch Hermes Agent is yours Oct 11, 2026 @NousResearch Wild MISSINGNO. appeared! A coding and agentic reasoning model that is highly token efficient, free for a limited time on Nous Portal Try it out in your Hermes Agent today Oct 10, 2026 @NousResearch Slight Correction: Step 5 Preview's final score on Hermes Index has been updated to 32.83, slightly behind GPT-6 Luna (33.89) and GLM 5.3 Flash (34.95) Learn more @ portal.nousresearch.com/bench Oct 9, 2026 @NousResearch Step 5 Preview from @StepFun_ai is free on Nous Portal for the next week 600B total / 27B active MoE, 1M context, with vision Step 5 Preview scored 33.89 on Hermes Index, the same score as GPT-6 Luna Oct 9, 2026 @NousResearch Hemres Agnet Oct 9, 2026 @NousResearch Hermes Agent is now live (and featured) in the @Microsoft Store for seamless one-click install. More updates for the Windows ecosystem coming soon! Oct 8, 2026 @NousResearch asus.com/blog/asus-proa\u2026 Oct 8, 2026 @NousResearch Advancing our mission to deliver ubiquitous powerful agents to everyone, Hermes Agent is on the new ASUS ProArt RTX Spark PCs: MuseTree and ComfyUI integrations plus local model support on up to 128 GB of unified memory. A complete creative stack that runs on your own machine. x.com/ASUS/status/21\u2026 Oct 8, 2026 @NousResearch Oct 8, 2026",
+      "title": "@NousResearch An agent with swag Oct 14, 2026",
+      "url": "https://x.com/NousResearch/status/2110209866996252729"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "573f30c6a916bb5e735b4a6b",
       "discovered_at": "2026-10-06T23:21:34Z",
       "kind": "primary-signal",
@@ -3485,23 +3499,9 @@
       "summary": "Google Launches SynthID Detector Globally to Identify AI-Generated Content blog.google \u00b7 Show TLDR",
       "title": "Google Launches SynthID Detector Globally to Identify AI-Generated Content blog.google \u00b7 Show TLDR",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "54ed88bfa16aa334327fb5bf",
-      "discovered_at": "2026-10-07T21:57:47Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 2,
-      "source_name": "FutureTools AI News",
-      "summary": "Google Launches Playground: AI-Powered Game Creation Platform Requiring No Coding blog.google \u00b7 Show TLDR",
-      "title": "Google Launches Playground: AI-Powered Game Creation Platform Requiring No Coding blog.google \u00b7 Show TLDR",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/?utm_source=futuretools.io&utm_medium=newspage"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-14T01:51:50Z",
+  "updated_at": "2026-10-14T07:32:01Z",
   "version": 2
 }

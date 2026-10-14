@@ -2648,6 +2648,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "56c3e617dcc3857375b28b82",
+      "discovered_at": "2026-10-14T22:37:10Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-14T19:54:20Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "cuda : use SIMT implicit GEMM conv2d on AMD without WMMA ( #30325 ) cuda : use SIMT implicit GEMM conv2d on AMD without WMMA Assisted-by: Claude Opus cuda : update conv2d SIMT comment cuda : skip SIMT conv2d on AMD for short reductions Co-authored-by: thelittlefireman 5165783+thelittlefireman@users.noreply.github.com Co-authored-by: thelittlefireman 5165783+thelittlefireman@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55983695 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11623",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11623"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "2a417b80bb390145cbda96e2",
       "discovered_at": "2026-10-12T09:24:08Z",
       "kind": "local-ai",
@@ -3236,6 +3250,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "5b1994ebb44d1c0766219116",
+      "discovered_at": "2026-10-14T22:37:10Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-14T20:13:15Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "ggml : improve RPC tensor transfer logs ( #30481 ) add rpc_log_format_size() and print byte counts in KiB/MiB/GiB across the RPC client, server and transport traces add rpc_log_format_tensor() and include tensor name, op, type and shape in the set/get/memset/copy/init tensor logs fix rpc_cmd_name() returning UNKNOWN for SET_TENSOR_2D, GET_TENSOR_2D, COMM_INIT, COMM_ALLREDUCE and COMM_FREE move the log helpers to ggml-rpc/log.{h,cpp} under a common rpc_log_ prefix Assisted-by: pi:llama.cpp/Qwen3.8-Flash-Next Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55989334 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11624",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11624"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "834107350469d4452756b800",
       "discovered_at": "2026-10-14T19:29:32Z",
       "kind": "local-ai",
@@ -3471,37 +3499,9 @@
       "summary": "tests : link each test against only the libraries it uses ( #30299 ) Give llama_build() and llama_build_and_test() a LINK keyword (default: llama-common) so call sites can declare what a test actually needs: ggml-only tests now link just ggml: test-opt, test-metal-graph-optimize, test-backend-ops, test-tiled-mulmat, test-barrier, test-quantize-fns, test-quantize-perf, test-rope, test-col2im-1d, test-gguf, test-alloc llama-only tests drop llama-common: test-unicode, test-sampling, test-grammar-parser, test-llama-grammar, test-batch-alloc, test-gbnf-validator, test-quant-type-selection both mtmd tests link mtmd only, dropping the LLAMA_TEST_NAME / target_link_libraries workarounds Both helpers now set cxx_std_17 explicitly, since the tests no longer inherit it from llama-common's PUBLIC interface. tests/testing.h no longer includes common.h; the only symbol it used from there (string_join) is inlined. Assisted-by: pi:llama.cpp/Qwen3.8-Flash-Next Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55065319 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11570",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11570"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "f4613aa777a13aa7e1cdd0be",
-      "discovered_at": "2026-10-12T09:24:08Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-12T09:19:57Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "sycl: guard DMMV reads at row tails ( #29338 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54988744 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11565",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11565"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "d51d2c9dca8a6f98bee8176f",
-      "discovered_at": "2026-10-12T09:24:08Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-12T06:59:45Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "vulkan: use ternary expressions to avoid switch lowering for CM2 quant block size ( #30164 ) vulkan: specialize quant block size for CM2 matmul vulkan: use ternary expressions to avoid switch lowering for CM2 quant block size vulkan: clarify CM2 quant block size comment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54952894 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11564",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11564"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-14T19:29:59Z",
+  "updated_at": "2026-10-14T22:37:34Z",
   "version": 2
 }

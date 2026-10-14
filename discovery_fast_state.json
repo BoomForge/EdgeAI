@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-14T19:29:59Z",
+    "at": "2026-10-14T22:37:34Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 11,
-    "sources_ok": 30,
+    "prefiltered": 1,
+    "queued": 8,
+    "sources_ok": 31,
     "too_old": 0,
-    "warnings": 1
+    "warnings": 0
   },
-  "runs": 55,
+  "runs": 56,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -607,6 +607,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11575"
     },
+    "26b2b4564025bf6af9573b16": {
+      "first_seen": "2026-10-14T22:37:10Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11627"
+    },
     "27215d831bbe09a339df9d2c": {
       "first_seen": "2026-10-06T13:36:31Z",
       "search_score": 0,
@@ -762,6 +767,11 @@
       "first_seen": "2026-10-08T14:56:12Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11500"
+    },
+    "2f00b868c6925064dbefd66b": {
+      "first_seen": "2026-10-14T22:37:19Z",
+      "status": "queued",
+      "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.4"
     },
     "2fbafa8be8d3a6c95283bc9c": {
       "first_seen": "2026-10-14T00:36:37Z",
@@ -995,6 +1005,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10827"
+    },
+    "3d088d7da484d5f5f0569d7d": {
+      "first_seen": "2026-10-14T22:37:10Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11626"
     },
     "3d4f03cc82948ccccc141e93": {
       "first_seen": "2026-10-14T15:16:26Z",
@@ -1386,6 +1401,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00515"
     },
+    "56c3e617dcc3857375b28b82": {
+      "first_seen": "2026-10-14T22:37:10Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11623"
+    },
     "56eb29f3263726d8a778c934": {
       "first_seen": "2026-10-08T20:34:17Z",
       "status": "queued",
@@ -1486,6 +1506,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06902"
     },
+    "5b1994ebb44d1c0766219116": {
+      "first_seen": "2026-10-14T22:37:10Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11624"
+    },
     "5b316ee253782d3fc69e8c17": {
       "first_seen": "2026-10-07T21:34:26Z",
       "status": "queued",
@@ -1566,6 +1591,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/"
+    },
+    "61fac9f3665241d3d9c073d6": {
+      "first_seen": "2026-10-14T22:37:23Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.0-rc.3"
     },
     "624d8c9f06fd047f9da48924": {
       "first_seen": "2026-10-13T21:32:25Z",
@@ -2424,6 +2454,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.0-dev.2"
     },
+    "994700d848ae3d4fbae2b373": {
+      "first_seen": "2026-10-14T22:37:10Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11625"
+    },
     "994a48e90a5ee3ef1b527c90": {
       "first_seen": "2026-10-03T00:46:17Z",
       "status": "queued",
@@ -2869,6 +2904,11 @@
       "first_seen": "2026-10-14T19:29:32Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11619"
+    },
+    "b43ac9894b2f08d94db766cb": {
+      "first_seen": "2026-10-14T22:37:21Z",
+      "status": "queued",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.2"
     },
     "b46371496930d9dae1bee892": {
       "first_seen": "2026-10-09T06:41:17Z",
@@ -3588,6 +3628,12 @@
       "first_seen": "2026-10-03T00:45:51Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00061"
+    },
+    "e2d194ea6676ff63d9ca9de4": {
+      "first_seen": "2026-10-14T22:37:02Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026/"
     },
     "e3b8761031d237fbf22ff123": {
       "first_seen": "2026-10-03T00:46:07Z",

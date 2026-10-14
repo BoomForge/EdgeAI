@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-14T12:28:32Z",
-    "eligible": 40,
-    "evaluated": 2,
+    "at": "2026-10-14T17:28:28Z",
+    "eligible": 39,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -1420,6 +1420,14 @@
       "at": "2026-10-10T13:59:33Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11469"
+    },
+    "4d282b1c56dbd0c8d49a3369": {
+      "at": "2026-10-14T17:28:17Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "nous-research-agent-swag-update",
+      "url": "https://x.com/NousResearch/status/2110209866996252729"
     },
     "4db8b31e131d49040e5c6003": {
       "at": "2026-10-13T11:42:29Z",
@@ -4189,6 +4197,20 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11457"
     },
+    "f67a6e730922fbb9302a7398": {
+      "at": "2026-10-14T17:28:28Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "comfyui-v0-40-0-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "ComfyUI Releases"
+      },
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.40.0"
+    },
     "f68e4130196e02821447341e": {
       "at": "2026-10-10T21:56:54Z",
       "status": "expired",
@@ -4282,6 +4304,20 @@
       "at": "2026-10-11T07:07:40Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11486"
+    },
+    "fdc555784f18363338e2980b": {
+      "at": "2026-10-14T17:28:23Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "anthropic-scion-source-control-git-replacement",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
+      },
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
     },
     "fe1f2f0ee9507d19b02640e1": {
       "at": "2026-10-12T23:48:56Z",
@@ -4480,6 +4516,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
         "score": 62,
         "source": "FutureTools AI News"
+      }
+    },
+    "anthropic-scion-source-control-git-replacement": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-scion-source-control-git-replacement.jpg",
+      "last_updated": "2026-10-14T17:28:23Z",
+      "post_id": "3022119623408406529",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-replaces-git-with-custom.html",
+      "score": 88,
+      "source_image_source": "Simon Willison Everything",
+      "source_image_url": "https://static.simonwillison.net/static/2026/anthropic-merges-per-day.webp",
+      "source_urls": [
+        "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Replaces Git with Custom 'Scion' Version Control System to Handle AI Coding Scale",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
       }
     },
     "anthropic-self-replicating-ai-iot-devices": {
@@ -4947,6 +5004,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 88,
         "source": "Cline Releases"
+      }
+    },
+    "comfyui-v0-40-0-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/comfyui-v0-40-0-release.png",
+      "last_updated": "2026-10-14T17:28:28Z",
+      "post_id": "8094085859462540274",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/comfyui-v0400-released-native-lora.html",
+      "score": 82,
+      "source_image_source": "ComfyUI Releases",
+      "source_image_url": "https://opengraph.githubassets.com/349e664da2a8d146f47f2e57537f9569eccb0ac83a3f1d1a775d91f5fc40c7ce/Comfy-Org/ComfyUI/releases/tag/v0.40.0",
+      "source_urls": [
+        "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.40.0"
+      ],
+      "status": "CONFIRMED",
+      "title": "ComfyUI v0.40.0 Released: Native LoRA Stacks, Asset Management Updates, and New Partner Nodes",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "ComfyUI Releases"
       }
     },
     "comfyui-v0390-release": {

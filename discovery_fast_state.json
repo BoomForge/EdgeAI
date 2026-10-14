@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-14T10:23:00Z",
+    "at": "2026-10-14T15:17:12Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
+    "prefiltered": 3,
     "queued": 5,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 53,
+  "runs": 54,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -663,6 +663,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12851"
     },
+    "2ac0e6e409f8005ae4b4d7c2": {
+      "first_seen": "2026-10-14T15:17:06Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.2"
+    },
     "2ae367c42d12035b495c1cd8": {
       "first_seen": "2026-10-09T06:41:18Z",
       "status": "queued",
@@ -767,6 +772,11 @@
       "first_seen": "2026-10-05T18:34:59Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11425"
+    },
+    "316ae7ad46f4bae7e2a7ee91": {
+      "first_seen": "2026-10-14T15:16:35Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11614"
     },
     "317a166e36b7b086709c5382": {
       "first_seen": "2026-10-06T19:03:32Z",
@@ -975,6 +985,12 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10827"
+    },
+    "3d4f03cc82948ccccc141e93": {
+      "first_seen": "2026-10-14T15:16:26Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/search/halloween-tips-2026/"
     },
     "3d5cc4672554672b851c176b": {
       "first_seen": "2026-10-08T07:31:18Z",
@@ -1259,6 +1275,12 @@
       "status": "too_old",
       "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.3.dev"
     },
+    "4e181c171390031be9814779": {
+      "first_seen": "2026-10-14T15:16:26Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/search/frightgeist-halloween-trends-2026/"
+    },
     "4e1d9d23d49d980baef0ff91": {
       "first_seen": "2026-10-12T09:23:59Z",
       "status": "queued",
@@ -1408,6 +1430,11 @@
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06972"
+    },
+    "58f76062de5535e2b7820539": {
+      "first_seen": "2026-10-14T15:16:35Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11613"
     },
     "5957413db4a4d6aaae96b441": {
       "first_seen": "2026-10-12T09:24:00Z",
@@ -2788,6 +2815,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10782"
     },
+    "b2d7068daec6581007fd1b01": {
+      "first_seen": "2026-10-14T15:16:35Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11617"
+    },
     "b2dc5166b6e43a0c38ba4d0b": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "too_old",
@@ -2938,6 +2970,12 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12536"
     },
+    "be6c37dce88bdd9925003393": {
+      "first_seen": "2026-10-14T15:16:26Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products/ads-commerce/channel-prioritization-budget-allocation/"
+    },
     "be8c29ea13f2fba78bdd8af9": {
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
@@ -2987,6 +3025,11 @@
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "too_old",
       "url": "https://github.com/continuedev/continue/releases/tag/v2.1.0-vscode"
+    },
+    "c2180bb2edfaf92e97ad96a9": {
+      "first_seen": "2026-10-14T15:16:35Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11618"
     },
     "c283c07e82a8cabfd3d199d5": {
       "first_seen": "2026-10-09T06:41:17Z",

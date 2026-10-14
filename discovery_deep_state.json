@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-13T23:00:47Z",
+    "at": "2026-10-14T01:51:50Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 6,
+    "prefiltered": 2,
+    "queued": 4,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 50,
+  "runs": 51,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -807,6 +807,11 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/notchware"
+    },
+    "39b03f627696e97fefd30234": {
+      "first_seen": "2026-10-14T01:51:45Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/"
     },
     "39c4d30bf982dabb34c7d1aa": {
       "first_seen": "2026-10-10T11:25:14Z",
@@ -2270,6 +2275,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/wu"
     },
+    "a9e6bc4a9623476fa2b050dd": {
+      "first_seen": "2026-10-14T01:51:45Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/servor"
+    },
     "aa40e1ebb5e6913c041351c7": {
       "first_seen": "2026-10-11T09:11:21Z",
       "search_score": 0,
@@ -2302,6 +2313,11 @@
       "first_seen": "2026-10-06T19:44:10Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/customer-service-ai-for-etsy"
+    },
+    "ace58ee31866ab85a90642d9": {
+      "first_seen": "2026-10-14T01:51:45Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/13/web-edit/"
     },
     "adcefa2b9159833fd4bbe58b": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -2348,6 +2364,11 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/agent-activity"
+    },
+    "afdc7d882300b859770e4c2c": {
+      "first_seen": "2026-10-14T01:51:44Z",
+      "status": "queued",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "b059cc78b6b4f6e70463b23b": {
       "first_seen": "2026-10-11T09:11:21Z",
@@ -2607,6 +2628,12 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/"
+    },
+    "c531f4496aa96e6f9ff854a8": {
+      "first_seen": "2026-10-14T01:51:45Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/adhelm-cli"
     },
     "c58c832a38538cb3c7849296": {
       "first_seen": "2026-10-09T07:47:51Z",
@@ -3263,6 +3290,11 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
       "url": "https://www.kimi.com/"
+    },
+    "fdc555784f18363338e2980b": {
+      "first_seen": "2026-10-14T01:51:45Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
     },
     "fe1f2f0ee9507d19b02640e1": {
       "first_seen": "2026-10-12T22:33:10Z",

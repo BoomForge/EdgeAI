@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-14T18:01:02Z",
+    "at": "2026-10-14T21:37:28Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 4,
-    "queued": 6,
+    "prefiltered": 0,
+    "queued": 10,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 54,
+  "runs": 55,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -165,10 +165,20 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/make0-brain"
     },
+    "08d60f9b0262fb44795a02ff": {
+      "first_seen": "2026-10-14T21:37:22Z",
+      "status": "queued",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "090953ea4b259d5536c06162": {
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/rambox"
+    },
+    "099e2a81bfcf5754e86e442c": {
+      "first_seen": "2026-10-14T21:37:22Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/pancake-6"
     },
     "0a28c215b5c05aea6d5cda4b": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -321,6 +331,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/notehouse-2"
+    },
+    "12e1dac22404b2e5d78f073b": {
+      "first_seen": "2026-10-14T21:37:22Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/news/singapore-office-opening?utm_source=futuretools.io&utm_medium=newspage"
     },
     "13357c8148c1e621f38300dc": {
       "first_seen": "2026-10-13T10:55:50Z",
@@ -770,6 +785,11 @@
       "status": "queued",
       "url": "https://www.kimi.com/en/products/"
     },
+    "32b1b407a33f8067297c2e92": {
+      "first_seen": "2026-10-14T21:37:22Z",
+      "status": "queued",
+      "url": "https://blog.youtube/news-and-events/youtube-music-ai-labels/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "345f1755705d282a19e9b6b2": {
       "first_seen": "2026-10-04T00:34:30Z",
       "status": "queued",
@@ -940,6 +960,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/"
     },
+    "407333463c66ba349e682c91": {
+      "first_seen": "2026-10-14T21:37:27Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2110470076595835353"
+    },
     "40b751b710ffdfe179ad0616": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -1101,6 +1126,11 @@
       "first_seen": "2026-10-13T18:14:14Z",
       "status": "queued",
       "url": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "4e31d07c8e885469dec4faf4": {
+      "first_seen": "2026-10-14T21:37:23Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-9b612a4cb28c5cef2e3c"
     },
     "4e353c6f104ebbd1b36de073": {
       "first_seen": "2026-10-06T00:46:26Z",
@@ -1467,6 +1497,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/"
     },
+    "62e56e6557bbca262668ab74": {
+      "first_seen": "2026-10-14T21:37:22Z",
+      "status": "queued",
+      "url": "https://x.ai/news/grok-voice-3?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "637b19621e90d68905988d73": {
       "first_seen": "2026-10-04T00:34:30Z",
       "status": "queued",
@@ -1669,6 +1704,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/de-stash"
     },
+    "75baa838d851ff459587521f": {
+      "first_seen": "2026-10-14T21:37:22Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "75de0ca6002a41d945c681c9": {
       "first_seen": "2026-10-11T09:11:21Z",
       "status": "too_old",
@@ -1709,6 +1749,11 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/bevel-software"
+    },
+    "77be93120edfa6ea3776aa85": {
+      "first_seen": "2026-10-14T21:37:22Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/keysi"
     },
     "77c8b48fd34637e9f25f74cb": {
       "first_seen": "2026-10-03T15:15:03Z",
@@ -3200,6 +3245,16 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/oogwai-beacon"
     },
+    "e22b90d283cba6d2df508749": {
+      "first_seen": "2026-10-14T21:37:27Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2110438287399698522"
+    },
+    "e26c69d1b48ec35984aba35b": {
+      "first_seen": "2026-10-14T21:37:22Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/news/2026-us-midterms?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "e29b6fd6d8e146bda617f7e0": {
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "queued",
@@ -3360,6 +3415,11 @@
       "first_seen": "2026-10-08T08:53:54Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/vocera"
+    },
+    "f0bdd2caa8622824124d94f0": {
+      "first_seen": "2026-10-14T21:37:22Z",
+      "status": "queued",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "f0c7caee95f4b04d841dbc74": {
       "first_seen": "2026-10-03T11:34:52Z",

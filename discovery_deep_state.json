@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-14T07:32:01Z",
+    "at": "2026-10-14T13:07:16Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 6,
-    "queued": 5,
+    "prefiltered": 5,
+    "queued": 1,
     "sources_ok": 15,
-    "too_old": 10,
+    "too_old": 4,
     "warnings": 0
   },
-  "runs": 52,
+  "runs": 53,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -154,6 +154,11 @@
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/ghostifier"
+    },
+    "08c176c6730c056e66625976": {
+      "first_seen": "2026-10-14T13:07:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/make0-brain"
     },
     "090953ea4b259d5536c06162": {
       "first_seen": "2026-10-14T07:31:56Z",
@@ -681,6 +686,12 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-0c571b26db3fe2459e7c"
     },
+    "2d649ed6c35f69e8f64cf7fb": {
+      "first_seen": "2026-10-14T13:07:10Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/diagramly-2"
+    },
     "2e014338a53a0a15a7c0b5c9": {
       "first_seen": "2026-10-11T23:51:14Z",
       "status": "queued",
@@ -690,6 +701,12 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://elevenlabs.io/blog/introducing-dubbing-v2"
+    },
+    "2eb55a885b827b3d03388671": {
+      "first_seen": "2026-10-14T13:07:10Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/blade-4"
     },
     "2f1b5ca58d8805cbe859509b": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -886,6 +903,11 @@
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/cosmic"
+    },
+    "3e566c6aa464d492c7e8f123": {
+      "first_seen": "2026-10-14T13:07:10Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/daily-dev"
     },
     "3fd780cf9f0f9d8af472aa01": {
       "first_seen": "2026-10-08T21:27:35Z",
@@ -1605,6 +1627,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/calnio"
     },
+    "74580c76c4b983efd6274c97": {
+      "first_seen": "2026-10-14T13:07:10Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/aurora-lifeline"
+    },
     "74727f58a7375e00f9e5624e": {
       "first_seen": "2026-10-09T07:47:51Z",
       "status": "too_old",
@@ -2164,6 +2192,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2108201390493544680"
     },
+    "9c07afaa955a7a1ec4b918a1": {
+      "first_seen": "2026-10-14T13:07:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/inferock"
+    },
     "9c11d7169c7fa53a668031c3": {
       "first_seen": "2026-10-13T23:00:41Z",
       "status": "queued",
@@ -2510,6 +2543,12 @@
       "first_seen": "2026-10-09T19:51:22Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/openvids"
+    },
+    "b35a9d9520c678a8602023fa": {
+      "first_seen": "2026-10-14T13:07:10Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/orbora"
     },
     "b36f7116a84b8a9ebda32e2d": {
       "first_seen": "2026-10-13T10:55:50Z",
@@ -2960,6 +2999,12 @@
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/claude-just-did-a-months-work-in-a-single-day-09-25-2026"
     },
+    "d979758ad3465d486bc85543": {
+      "first_seen": "2026-10-14T13:07:10Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/pixlate"
+    },
     "da5386cfb0b962647e8e6f07": {
       "first_seen": "2026-10-08T16:25:59Z",
       "status": "queued",
@@ -3189,6 +3234,11 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-fbc099ea16b6dac2e560"
     },
+    "e9fbe0e69000aec63c0cd9bc": {
+      "first_seen": "2026-10-14T13:07:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/csuite"
+    },
     "ea5393988595240846dbf311": {
       "first_seen": "2026-10-07T16:48:32Z",
       "status": "too_old",
@@ -3236,6 +3286,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/poddle-3"
+    },
+    "eeb7a3f57112a931369bbb09": {
+      "first_seen": "2026-10-14T13:07:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/opencouncil"
     },
     "eef4d318a704a567a93440f1": {
       "first_seen": "2026-10-03T00:45:59Z",

@@ -37,8 +37,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-14T17:28:28Z",
-    "eligible": 39,
+    "at": "2026-10-14T20:53:03Z",
+    "eligible": 44,
     "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
@@ -505,6 +505,14 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc1"
+    },
+    "1b9196bd3c1c733977797db3": {
+      "at": "2026-10-14T20:52:46Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-snapshot-oct-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-e3351d692035637f32f2"
     },
     "1b93984ff2aed635c5f94087": {
       "at": "2026-10-03T04:52:37Z",
@@ -1587,6 +1595,20 @@
       },
       "url": "https://x.com/NousResearch/status/2107592258216206497"
     },
+    "57c3309db5bedcdec4e0532a": {
+      "at": "2026-10-14T20:52:54Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-amp-agents-gpt6-astra-gpt-live-1",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/amp-beyond-coding"
+    },
     "57ed632908ae012313cd5937": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -2123,6 +2145,20 @@
         "source": "ElevenLabs Research"
       },
       "url": "https://elevenlabs.io/blog/eleven-v3-is-now-generally-available"
+    },
+    "73d6684f69e16267a8161d30": {
+      "at": "2026-10-14T20:53:03Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "sakana-ai-my-fish-chat-memory-feature",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      },
+      "url": "https://sakana.ai/my-fish/"
     },
     "73f1bf4d53a57ee938fe5a85": {
       "at": "2026-10-03T05:49:31Z",
@@ -5934,6 +5970,27 @@
         "source": "Nous Research Announcements"
       }
     },
+    "openai-amp-agents-gpt6-astra-gpt-live-1": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-amp-agents-gpt6-astra-gpt-live-1.jpg",
+      "last_updated": "2026-10-14T20:52:54Z",
+      "post_id": "3525289652797646002",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-highlights-amp-integration.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/4cxTIUhXa03TEYCnkIcMCu/29e6065058ed969022021186f994dad6/amp-beyond-coding-coiled-connection-seo-open-graph-1920x1080.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/amp-beyond-coding"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Highlights Amp Integration Leveraging GPT-6 Astra and GPT-Live-1 for Autonomous Agents",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
     "openai-chatgpt-for-teens-college-planner-features": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openai-chatgpt-for-teens-college-planner-features.png",
@@ -6564,6 +6621,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Sakana AI Introduces MASS for Recursive Self-Improvement via Collective Intelligence",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      }
+    },
+    "sakana-ai-my-fish-chat-memory-feature": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/sakana-ai-my-fish-chat-memory-feature.jpg",
+      "last_updated": "2026-10-14T20:53:03Z",
+      "post_id": "1282656069912287931",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/sakana-ai-introduces-my-fish-memory.html",
+      "score": 82,
+      "source_image_source": "Sakana AI Blog",
+      "source_image_url": "https://sakana.ai/assets/home/sakana_ogp.png",
+      "source_urls": [
+        "https://sakana.ai/my-fish/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Sakana AI Introduces 'My Fish' Memory Visualization Feature for Sakana Chat",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

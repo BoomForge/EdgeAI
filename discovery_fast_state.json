@@ -1,20 +1,25 @@
 {
   "last_run": {
-    "at": "2026-10-14T15:17:12Z",
+    "at": "2026-10-14T19:29:59Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 5,
-    "sources_ok": 31,
+    "prefiltered": 0,
+    "queued": 11,
+    "sources_ok": 30,
     "too_old": 0,
-    "warnings": 0
+    "warnings": 1
   },
-  "runs": 54,
+  "runs": 55,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
       "status": "queued",
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics"
+    },
+    "004cd593adabcd24c97d9e96": {
+      "first_seen": "2026-10-14T19:28:58Z",
+      "status": "queued",
+      "url": "https://openai.com/index/sentinelone"
     },
     "005adc0cbed04e408ac0f93f": {
       "first_seen": "2026-10-12T19:18:24Z",
@@ -652,6 +657,11 @@
       "first_seen": "2026-10-12T09:24:08Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11563"
+    },
+    "2a6cebce8bbe51f31cac241d": {
+      "first_seen": "2026-10-14T19:29:53Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.6"
     },
     "2a7a5d91c231c387e16c68dd": {
       "first_seen": "2026-10-03T00:46:09Z",
@@ -1411,6 +1421,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11612"
     },
+    "57c3309db5bedcdec4e0532a": {
+      "first_seen": "2026-10-14T19:28:58Z",
+      "status": "queued",
+      "url": "https://openai.com/index/amp-beyond-coding"
+    },
     "57da777c4c2700254495a538": {
       "first_seen": "2026-10-09T06:41:18Z",
       "status": "queued",
@@ -1586,6 +1601,11 @@
       "first_seen": "2026-10-03T00:46:20Z",
       "status": "too_old",
       "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.3.0b1"
+    },
+    "640c2a5785f18b13f797e50f": {
+      "first_seen": "2026-10-14T19:29:44Z",
+      "status": "queued",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.1"
     },
     "646703daec5b98f231fee1b4": {
       "first_seen": "2026-10-04T12:33:55Z",
@@ -2060,6 +2080,11 @@
       "first_seen": "2026-10-09T19:20:42Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11532"
+    },
+    "834107350469d4452756b800": {
+      "first_seen": "2026-10-14T19:29:32Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11621"
     },
     "836ad8a0cd9c59a8342ef10a": {
       "first_seen": "2026-10-05T09:14:16Z",
@@ -2665,6 +2690,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06910"
     },
+    "a8b8c31de898145e14c82e5a": {
+      "first_seen": "2026-10-14T19:28:58Z",
+      "status": "queued",
+      "url": "https://openai.com/index/third-moment-research"
+    },
     "a8c296cfac9b9c39fca56080": {
       "first_seen": "2026-10-03T00:46:17Z",
       "status": "too_old",
@@ -2760,6 +2790,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12535"
     },
+    "aee45a0b82ef5c8c797182e5": {
+      "first_seen": "2026-10-14T19:29:32Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11622"
+    },
     "aef01fc63aa5d009eb36f871": {
       "first_seen": "2026-10-09T00:38:55Z",
       "status": "queued",
@@ -2829,6 +2864,11 @@
       "first_seen": "2026-10-13T21:32:32Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11598"
+    },
+    "b39c30e6bbc6c6f0ecf447d0": {
+      "first_seen": "2026-10-14T19:29:32Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11619"
     },
     "b46371496930d9dae1bee892": {
       "first_seen": "2026-10-09T06:41:17Z",
@@ -3001,6 +3041,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08941"
     },
+    "bf737796f518b634abb94e72": {
+      "first_seen": "2026-10-14T19:29:47Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.107.0-dev.1"
+    },
     "c07a67b182a2b19fe525b92a": {
       "first_seen": "2026-10-03T00:45:54Z",
       "status": "too_old",
@@ -3086,6 +3131,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02302"
     },
+    "c5d2b05946d7f5b783fb5a6d": {
+      "first_seen": "2026-10-14T19:29:32Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11620"
+    },
     "c5dfc0af3d4a2905a05a1502": {
       "first_seen": "2026-10-12T19:18:49Z",
       "status": "queued",
@@ -3135,6 +3185,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02248"
+    },
+    "c93c3e8d8c8dfb19f8dd20e4": {
+      "first_seen": "2026-10-14T19:29:32Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc0"
     },
     "ca2ee896cc3c92110d1659fa": {
       "first_seen": "2026-10-07T09:14:07Z",

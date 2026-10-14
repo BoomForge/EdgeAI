@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-14T06:46:43Z",
-    "eligible": 41,
-    "evaluated": 3,
+    "at": "2026-10-14T12:28:32Z",
+    "eligible": 40,
+    "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -584,6 +584,20 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/"
+    },
+    "200a5d3dd39c6bfb7a201928": {
+      "at": "2026-10-14T12:28:27Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "openai-eu-agentic-ai-adoption-report-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
     },
     "205c105de580d142d0e5be16": {
       "at": "2026-10-10T07:33:57Z",
@@ -2829,6 +2843,11 @@
       },
       "url": "https://x.com/NousResearch/status/2108638389045960958"
     },
+    "9fb40bfab34a893d33422142": {
+      "at": "2026-10-14T12:28:23Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11553"
+    },
     "9fd35c15f72452089f53fad6": {
       "at": "2026-10-11T22:31:31Z",
       "status": "expired",
@@ -2948,6 +2967,20 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.3"
+    },
+    "a7f933faaa0f4d4ad3a14c35": {
+      "at": "2026-10-14T12:28:32Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "cline-v4-1-24-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Cline Releases"
+      },
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.24"
     },
     "a8426dcdf9a2dd0dc3f668f9": {
       "at": "2026-10-09T21:39:00Z",
@@ -4895,6 +4928,27 @@
         "source": "Cline Releases"
       }
     },
+    "cline-v4-1-24-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/cline-v4-1-24-release.png",
+      "last_updated": "2026-10-14T12:28:32Z",
+      "post_id": "9165728665377031651",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/cline-v4124-updates-default-models-adds.html",
+      "score": 82,
+      "source_image_source": "Cline Releases",
+      "source_image_url": "https://opengraph.githubassets.com/c0b163dc07d4a52768103d31b118ed9cc3a109da4432625c35c8ef865bc0f723/cline/cline/releases/tag/v4.1.24",
+      "source_urls": [
+        "https://github.com/cline/cline/releases/tag/v4.1.24"
+      ],
+      "status": "CONFIRMED",
+      "title": "Cline v4.1.24 Updates Default Models, Adds New Inference Providers and Bug Fixes",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Cline Releases"
+      }
+    },
     "comfyui-v0390-release": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/comfyui-v0390-release.png",
@@ -5888,6 +5942,27 @@
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 94,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-eu-agentic-ai-adoption-report-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openai-eu-agentic-ai-adoption-report-2026.png",
+      "last_updated": "2026-10-14T12:28:27Z",
+      "post_id": "3166608783219849253",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-report-highlights-rapid-growth.html",
+      "score": 82,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/6xrAX2ILJHXpMMsuHeU637/30512c9697f4e9214c5466e5a7ddda75/the-eus-next-chapter-in-ai-is-agentic-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Report Highlights Rapid Growth and Regional Disparities in EU Agentic AI Adoption",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
         "source": "OpenAI News"
       }
     },

@@ -37,8 +37,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-14T20:53:03Z",
-    "eligible": 44,
+    "at": "2026-10-14T23:30:29Z",
+    "eligible": 50,
     "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
@@ -64,6 +64,20 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics"
+    },
+    "004cd593adabcd24c97d9e96": {
+      "at": "2026-10-14T23:30:29Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "openai-daybreak-sentinelone-malware-analysis",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/sentinelone"
     },
     "00795a5db0aa8849a50cc2d5": {
       "at": "2026-10-08T00:09:43Z",
@@ -1444,6 +1458,14 @@
       "status": "ignored",
       "story_key": "llamacpp-b11581-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11581"
+    },
+    "4e31d07c8e885469dec4faf4": {
+      "at": "2026-10-14T23:30:22Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-updates-oct-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-9b612a4cb28c5cef2e3c"
     },
     "4e324623ab7ca6fee0e14241": {
       "at": "2026-10-08T00:09:56Z",
@@ -3033,6 +3055,20 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-updates-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-9306a718d8b1bf40a8c0"
+    },
+    "a8b8c31de898145e14c82e5a": {
+      "at": "2026-10-14T23:30:26Z",
+      "bootstrap": false,
+      "score": 91,
+      "status": "published",
+      "story_key": "openai-third-moment-research-10000-agents",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/third-moment-research"
     },
     "a919ba35a5e056c2278ba024": {
       "at": "2026-10-10T01:19:14Z",
@@ -6012,6 +6048,27 @@
         "source": "OpenAI News"
       }
     },
+    "openai-daybreak-sentinelone-malware-analysis": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-daybreak-sentinelone-malware-analysis.jpg",
+      "last_updated": "2026-10-14T23:30:29Z",
+      "post_id": "7622954415709226949",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-introduces-daybreak-enabling.html",
+      "score": 85,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/6LgeCJxMCVafjSThCrAJNz/4859e929cd3c29c50f70ee81ff920dab/sentinelone-woven-texture-social-larger-logos.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/sentinelone"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces Daybreak, Enabling SentinelOne to Accelerate Malware Analysis",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
     "openai-daybreak-sophos-cybersecurity-agents": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-daybreak-sophos-cybersecurity-agents.jpg",
@@ -6225,6 +6282,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI Releases Frontier Model Mathematical Results and Lean Proof Formalizations",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-third-moment-research-10000-agents": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-third-moment-research-10000-agents.jpg",
+      "last_updated": "2026-10-14T23:30:26Z",
+      "post_id": "4677087579718545464",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/third-moment-research-deploys-10000.html",
+      "score": 91,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/m0YDNMUPfmBJYf8nw2LGR/202c3cb46da0506d77cce90027c1ef9c/third-moment-research-first-light-social-1920x1080.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/third-moment-research"
+      ],
+      "status": "CONFIRMED",
+      "title": "Third Moment Research Deploys 10,000 Autonomous Agents Using OpenAI Models",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

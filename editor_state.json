@@ -37,8 +37,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-13T23:04:26Z",
-    "eligible": 39,
+    "at": "2026-10-14T06:46:43Z",
+    "eligible": 41,
     "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
@@ -385,6 +385,14 @@
       "at": "2026-10-11T07:07:40Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11485"
+    },
+    "141d2b205446e61244d572d9": {
+      "at": "2026-10-14T06:46:35Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "runway-enterprise-bonus-terms",
+      "url": "https://runway.com/code-terms/enterprise-bonus-terms"
     },
     "1441ff2ab9fdc9be50b63e1f": {
       "at": "2026-10-03T05:49:31Z",
@@ -1047,6 +1055,20 @@
         "source": "Runway Research"
       },
       "url": "https://runway.com/research/introducing-praxis-1"
+    },
+    "39b03f627696e97fefd30234": {
+      "at": "2026-10-14T06:46:39Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "gemini-4-argon-release-llm-gemini-0-35",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
+      },
+      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/"
     },
     "39d9d32aec31bf39472f496d": {
       "at": "2026-10-08T00:09:43Z",
@@ -1865,6 +1887,20 @@
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00009"
+    },
+    "6823801d4a6c9058ddd90d9c": {
+      "at": "2026-10-14T06:46:43Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "cline-sdk-v0-0-93-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Cline Releases"
+      },
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.93"
     },
     "68cbabc2cd02fa79182c91c3": {
       "at": "2026-10-03T18:39:51Z",
@@ -4838,6 +4874,27 @@
         "source": "FutureTools AI News"
       }
     },
+    "cline-sdk-v0-0-93-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/cline-sdk-v0-0-93-release.png",
+      "last_updated": "2026-10-14T06:46:43Z",
+      "post_id": "5614799129246964060",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/cline-sdk-v0093-adds-in-process-plugin.html",
+      "score": 82,
+      "source_image_source": "Cline Releases",
+      "source_image_url": "https://opengraph.githubassets.com/99db45246a44c6c5fe310bd6c4b2c732e8ec7d9d9f00d860f68c44ed53c8f769/cline/cline/releases/tag/sdk/sdk/v0.0.93",
+      "source_urls": [
+        "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.93"
+      ],
+      "status": "CONFIRMED",
+      "title": "Cline SDK v0.0.93 Adds In-Process Plugin Registry, Composio Connectors, and Token Fixes",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Cline Releases"
+      }
+    },
     "comfyui-v0390-release": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/comfyui-v0390-release.png",
@@ -4987,6 +5044,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 95,
         "source": "ElevenLabs Research"
+      }
+    },
+    "gemini-4-argon-release-llm-gemini-0-35": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/gemini-4-argon-release-llm-gemini-0-35.png",
+      "last_updated": "2026-10-14T06:46:39Z",
+      "post_id": "8697333534916305308",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/google-launches-gemini-4-argon-model.html",
+      "score": 85,
+      "source_image_source": "Simon Willison Everything",
+      "source_image_url": "https://static.simonwillison.net/static/2026/gemini-4-argon-artificial-analysis.webp",
+      "source_urls": [
+        "https://simonwillison.net/2026/Oct/13/llm-gemini/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Google Launches Gemini 4 Argon Model with Aggressive Initial Pricing",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
       }
     },
     "google-gemini-4-argon": {

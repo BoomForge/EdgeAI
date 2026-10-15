@@ -37,8 +37,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-15T16:54:33Z",
-    "eligible": 41,
+    "at": "2026-10-15T20:19:04Z",
+    "eligible": 45,
     "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
@@ -790,6 +790,14 @@
       "at": "2026-10-07T19:56:51Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2"
+    },
+    "2a095791e12a8566198b0285": {
+      "at": "2026-10-15T20:18:52Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-snapshot",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-dd87357c988ba7947ab6"
     },
     "2a12f28d7d122abde1663483": {
       "at": "2026-10-09T21:38:57Z",
@@ -2256,6 +2264,20 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0"
+    },
+    "75bb450ac9abb666c3e6b151": {
+      "at": "2026-10-15T20:18:57Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "huggingface-transformers-v5-20-0-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Hugging Face Transformers Releases"
+      },
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.0"
     },
     "775cce2b8f031ba723e503c1": {
       "at": "2026-10-07T06:34:08Z",
@@ -4409,6 +4431,20 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00006"
     },
+    "f727b4e1831e7a08543a22d3": {
+      "at": "2026-10-15T20:19:04Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "llamaccpp-v070-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
+      },
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0"
+    },
     "f82d4af7e53a994322f02c3d": {
       "at": "2026-10-12T17:49:23Z",
       "status": "expired",
@@ -5506,6 +5542,27 @@
         "source": "OpenAI News"
       }
     },
+    "huggingface-transformers-v5-20-0-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/huggingface-transformers-v5-20-0-release.png",
+      "last_updated": "2026-10-15T20:18:57Z",
+      "post_id": "7224209610717079433",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/hugging-face-transformers-v5200.html",
+      "score": 88,
+      "source_image_source": "Hugging Face Transformers Releases",
+      "source_image_url": "https://opengraph.githubassets.com/a5b3ac138c374a332c42816a85e57d09e951c51f3577bb120d4fabe809d3d51f/huggingface/transformers/releases/tag/v5.20.0",
+      "source_urls": [
+        "https://github.com/huggingface/transformers/releases/tag/v5.20.0"
+      ],
+      "status": "CONFIRMED",
+      "title": "Hugging Face Transformers v5.20.0 Released with Native Model Integrations and Unified Quantization API",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Hugging Face Transformers Releases"
+      }
+    },
     "kimi-browser-extension-launch": {
       "image_kind": "mirrored_source",
       "image_prepared_at": "2026-10-04T19:31:16Z",
@@ -5692,6 +5749,27 @@
       ],
       "status": "CONFIRMED",
       "title": "llama.cpp v0.6.0 Released With Extended Batch API, GLM-5.3-Flash, and Metal Flash Attention",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
+      }
+    },
+    "llamaccpp-v070-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/llamaccpp-v070-release.png",
+      "last_updated": "2026-10-15T20:19:04Z",
+      "post_id": "2062374205403208742",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/llamacpp-v070-released-with-host-memory.html",
+      "score": 92,
+      "source_image_source": "llama.cpp Releases",
+      "source_image_url": "https://opengraph.githubassets.com/b8d899892416c12e378245c0905307689ecdbded11f73d02cc56af498e5ef55f/ggml-org/llama.cpp/releases/tag/v0.7.0",
+      "source_urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0"
+      ],
+      "status": "CONFIRMED",
+      "title": "llama.cpp v0.7.0 Released with Host-Memory MoE Caching, LiliCorr Speculative Decoding, and Extensive Model Support",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

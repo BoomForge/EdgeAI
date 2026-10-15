@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-15T15:07:34Z",
+    "at": "2026-10-15T19:15:26Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 4,
-    "queued": 9,
+    "queued": 11,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 60,
+  "runs": 61,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -137,6 +137,12 @@
       "first_seen": "2026-10-15T05:40:21Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.19039"
+    },
+    "09cafcfe0698167f2399633a": {
+      "first_seen": "2026-10-15T19:14:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/search/updates-ai-mode-overviews-explore-web/"
     },
     "0a87ba260f515b8c572b062a": {
       "first_seen": "2026-10-05T18:34:46Z",
@@ -293,6 +299,11 @@
       "first_seen": "2026-10-13T16:26:01Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11584"
+    },
+    "11a03795fbf5afda58caa475": {
+      "first_seen": "2026-10-15T19:15:21Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.11"
     },
     "11aed905a59ea243af88c28f": {
       "first_seen": "2026-10-15T05:40:21Z",
@@ -505,6 +516,12 @@
       "first_seen": "2026-10-07T16:39:20Z",
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.904-beta"
+    },
+    "1b9d80577b59a084166732bc": {
+      "first_seen": "2026-10-15T19:14:53Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/circle-to-search-android-text-message-scams/"
     },
     "1bbf73ec8258519a45d52a3d": {
       "first_seen": "2026-10-09T06:41:17Z",
@@ -842,6 +859,12 @@
       "first_seen": "2026-10-06T19:03:40Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0"
+    },
+    "30b77afd86fd20a8f0966c09": {
+      "first_seen": "2026-10-15T19:14:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/"
     },
     "30c38a4f4bf9960ad2b06834": {
       "first_seen": "2026-10-09T06:41:16Z",
@@ -2000,6 +2023,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02375"
     },
+    "6f8d1b039ca8000237248a5d": {
+      "first_seen": "2026-10-15T19:15:01Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.0"
+    },
     "6fc7f72a81c622b75f40fad8": {
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
@@ -2081,6 +2109,11 @@
       "first_seen": "2026-10-13T16:25:52Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+    },
+    "75bb450ac9abb666c3e6b151": {
+      "first_seen": "2026-10-15T19:14:58Z",
+      "status": "queued",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.0"
     },
     "75c9bae4fe7a0957d3f09dba": {
       "first_seen": "2026-10-12T09:24:00Z",
@@ -2207,6 +2240,11 @@
       "first_seen": "2026-10-03T05:43:25Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00083"
+    },
+    "7da99f40f855b50457e2a875": {
+      "first_seen": "2026-10-15T19:15:04Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5"
     },
     "7df98f84a450158b725309bd": {
       "first_seen": "2026-10-03T00:45:54Z",
@@ -2423,6 +2461,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "too_old",
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.10.0"
+    },
+    "8c2b245fc6de2976ce533a38": {
+      "first_seen": "2026-10-15T19:15:19Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.908-beta"
     },
     "8c74524609568ff648dd99b6": {
       "first_seen": "2026-10-04T12:33:55Z",
@@ -2715,6 +2758,11 @@
       "first_seen": "2026-10-09T19:20:33Z",
       "status": "queued",
       "url": "https://openai.com/index/asana-browser-agent"
+    },
+    "9c2c9f923050a8407dfb58c1": {
+      "first_seen": "2026-10-15T19:14:53Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/news/news-ai-pilot-update-publishers/"
     },
     "9c31c15969a0389f5c8b359f": {
       "first_seen": "2026-10-06T13:36:39Z",
@@ -3339,6 +3387,11 @@
       "status": "too_old",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0"
     },
+    "c08dc5794b018e368be67920": {
+      "first_seen": "2026-10-15T19:14:53Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/platforms/android/android-earthquake-alerts-expansion-2026/"
+    },
     "c11c748e3403dedaf0128484": {
       "first_seen": "2026-10-07T09:14:31Z",
       "status": "queued",
@@ -3498,6 +3551,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02248"
+    },
+    "c8b6a82f12aabd1b005dfc62": {
+      "first_seen": "2026-10-15T19:15:01Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.1"
     },
     "c93c3e8d8c8dfb19f8dd20e4": {
       "first_seen": "2026-10-14T19:29:32Z",
@@ -4014,6 +4072,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12530"
     },
+    "e704308cfd7d44d0931cdd4c": {
+      "first_seen": "2026-10-15T19:15:15Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.0-rc.4"
+    },
     "e70e0e1fb7c76219bb92a54d": {
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
@@ -4113,6 +4176,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10829"
+    },
+    "ed0e38dfc7378c4e97ccf15c": {
+      "first_seen": "2026-10-15T19:15:04Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc2"
     },
     "ed319f70c1366d49ae747db7": {
       "first_seen": "2026-10-03T00:46:09Z",
@@ -4339,6 +4407,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00006"
     },
+    "f727b4e1831e7a08543a22d3": {
+      "first_seen": "2026-10-15T19:15:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0"
+    },
     "f82d4af7e53a994322f02c3d": {
       "first_seen": "2026-10-09T13:48:02Z",
       "status": "queued",
@@ -4398,6 +4471,12 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02251"
+    },
+    "fb9b71b9aeee89562a94ea6a": {
+      "first_seen": "2026-10-15T19:14:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/crisis-resilience-white-paper/"
     },
     "fbef55a1c7ad32b0b01a7961": {
       "first_seen": "2026-10-15T05:40:20Z",

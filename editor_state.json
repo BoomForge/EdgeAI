@@ -37,8 +37,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-15T06:32:26Z",
-    "eligible": 46,
+    "at": "2026-10-15T11:59:41Z",
+    "eligible": 44,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
@@ -219,6 +219,20 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/eleven-v4-and-eleven-v4-turbo"
+    },
+    "078dfa3c48c7da2410caf893": {
+      "at": "2026-10-15T11:59:34Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "nous-research-hermes-agent-v0220-threshold-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2110385144284725592"
     },
     "079cc6fd715edfcb3eb130e4": {
       "at": "2026-10-13T23:04:20Z",
@@ -1280,6 +1294,20 @@
       "at": "2026-10-09T17:07:50Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/"
+    },
+    "407333463c66ba349e682c91": {
+      "at": "2026-10-15T11:59:41Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "nous-research-hermes-agent-connectors-launch",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2110470076595835353"
     },
     "40b751b710ffdfe179ad0616": {
       "at": "2026-10-04T15:54:53Z",
@@ -5933,6 +5961,27 @@
         "source": "Nous Research Announcements"
       }
     },
+    "nous-research-hermes-agent-connectors-launch": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/nous-research-hermes-agent-connectors-launch.png",
+      "last_updated": "2026-10-15T11:59:41Z",
+      "post_id": "4306286539512887858",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-launches-hermes-agent.html",
+      "score": 88,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_400x400.jpg",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2110470076595835353"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Launches Hermes Agent Connectors with Over 50 Integrations",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      }
+    },
     "nous-research-hermes-agent-microsoft-store": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-hermes-agent-microsoft-store.jpg",
@@ -5989,6 +6038,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Nous Research Releases Hermes Agent v0.22.0 'The Threshold'",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      }
+    },
+    "nous-research-hermes-agent-v0220-threshold-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-hermes-agent-v0220-threshold-release.jpg",
+      "last_updated": "2026-10-15T11:59:34Z",
+      "post_id": "1866877872208024054",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-releases-hermes-agent_01816773569.html",
+      "score": 85,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/media/HUmQ1SlXYAAGDQs?format=webp&name=large",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2110385144284725592"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Releases Hermes Agent v0.22.0 'The Threshold Release'",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

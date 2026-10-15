@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-15T00:08:42Z",
+    "at": "2026-10-15T05:00:32Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
     "queued": 1,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 4,
     "warnings": 0
   },
-  "runs": 56,
+  "runs": 57,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -1735,6 +1735,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/viibeo"
     },
+    "77576f2d0fd355ba737aba68": {
+      "first_seen": "2026-10-15T05:00:27Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/rtrvr-ai"
+    },
     "775cce2b8f031ba723e503c1": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "queued",
@@ -2193,6 +2198,11 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/genpage"
+    },
+    "9494ba9b7656f700b723e0d1": {
+      "first_seen": "2026-10-15T05:00:27Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/table-canon-ttrpg-campaign-memory"
     },
     "94faac851ec30f0548ab99a4": {
       "first_seen": "2026-10-15T00:08:36Z",
@@ -3087,6 +3097,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/qarunbook"
     },
+    "d8ab70190942ff67ba152e51": {
+      "first_seen": "2026-10-15T05:00:27Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/screenwell-ai"
+    },
     "d8e13386974c511dd08d75a2": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -3357,6 +3372,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/redlamp"
     },
+    "eb4b2d9063ab8e79fdabef32": {
+      "first_seen": "2026-10-15T05:00:27Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/"
+    },
     "ec01d0cbd7fba1364c429a3b": {
       "first_seen": "2026-10-05T09:33:48Z",
       "search_score": 0,
@@ -3560,6 +3580,11 @@
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/unscary-ai"
+    },
+    "f92d3babf75023b63f271b2e": {
+      "first_seen": "2026-10-15T05:00:27Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/mira-tours"
     },
     "f99ea621acd6e4bbbe5b26d3": {
       "first_seen": "2026-10-13T23:00:41Z",

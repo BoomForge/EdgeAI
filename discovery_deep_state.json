@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-15T19:05:49Z",
+    "at": "2026-10-15T22:15:00Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 1,
-    "queued": 12,
+    "queued": 4,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 60,
+  "runs": 61,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -608,6 +608,11 @@
       "status": "queued",
       "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-build-apps-extend-agents-and-transform-business-processes-in-microsoft-copilot-studio/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "23178e6a594364e04f6a76d3": {
+      "first_seen": "2026-10-15T22:14:55Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/"
+    },
     "231b7d382be19d5b20d18fa4": {
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
@@ -1016,6 +1021,11 @@
       "first_seen": "2026-10-14T13:07:10Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/daily-dev"
+    },
+    "3e6df18b17e95714db16cf05": {
+      "first_seen": "2026-10-15T22:14:54Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "3fd780cf9f0f9d8af472aa01": {
       "first_seen": "2026-10-08T21:27:35Z",
@@ -2087,6 +2097,12 @@
       "status": "queued",
       "url": "https://bfl.ai/blog/flux-3-image-klein?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "8177e4e8fccd37634d52a249": {
+      "first_seen": "2026-10-15T22:14:55Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/cinemalut"
+    },
     "818cf62a3bb0a7f8412e2dfd": {
       "first_seen": "2026-10-13T03:13:29Z",
       "status": "queued",
@@ -2697,6 +2713,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/milepost-2"
     },
+    "acb4d46b14ee21b8f01ee718": {
+      "first_seen": "2026-10-15T22:14:56Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-f8641d0af7ac05430409"
+    },
     "ace0757bf0866418bb537624": {
       "first_seen": "2026-10-06T19:44:10Z",
       "status": "queued",
@@ -2934,6 +2955,11 @@
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/tiden"
+    },
+    "bb95438e7a5883c8cd30a13f": {
+      "first_seen": "2026-10-15T22:14:54Z",
+      "status": "queued",
+      "url": "https://elevenlabs.io/blog/introducing-instant-soundtracks?utm_source=futuretools.io&utm_medium=newspage"
     },
     "bd173e559ba5d0f1c24750dd": {
       "first_seen": "2026-10-13T18:14:14Z",

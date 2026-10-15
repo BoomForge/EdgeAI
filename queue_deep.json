@@ -2116,6 +2116,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "155c7b54b4cbd80e144fcf46",
+      "discovered_at": "2026-10-15T14:58:06Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "October 15, 2026",
+      "search_score": 26,
+      "source_name": "Black Forest Labs Blog",
+      "summary": "Discover what\u2019s new Models News Research FLUX 3 Image Klein A 5.6B parameter open weights model, leading our blind evaluations for text-to-image, multi-reference generation and image editing. October 15, 2026 Read more",
+      "title": "Models News Research FLUX 3 Image Klein A 5.6B parameter open weights model, leading our blind evaluations for text-to-image, multi-reference generation and image editing. October 15, 2026 Read more",
+      "url": "https://bfl.ai/blog/flux-3-image-klein"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "da5386cfb0b962647e8e6f07",
       "discovered_at": "2026-10-08T16:25:59Z",
       "kind": "primary",
@@ -2225,6 +2239,20 @@
       "summary": "Enterprises get 2 months of usage free. Sign by 10/31. See terms Contact sales",
       "title": "Enterprises get 2 months of usage free. Sign by 10/31. See terms Contact sales",
       "url": "https://runway.com/code-terms/enterprise-bonus-terms"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "2e6c7d5b62b02c1a6c3993f3",
+      "discovered_at": "2026-10-15T14:58:06Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "",
+      "search_score": 0,
+      "source_name": "Black Forest Labs Blog",
+      "summary": "FLUX 3 Image Klein FLUX 3 Image FLUX 3 Video FLUX 3 Action FLUX Tools",
+      "title": "FLUX 3 Image Klein",
+      "url": "https://bfl.ai/models/flux-3-image-klein"
     },
     {
       "bootstrap": false,
@@ -2690,6 +2718,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "12069dbe170b04bd498373b6",
+      "discovered_at": "2026-10-15T14:58:06Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 15, 2026",
+      "search_score": 14,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch An agent for the projects that matter most x.com/alexandermann/\u2026 Oct 15, 2026 @NousResearch It's time to connect \ud83c\udf10 x.com/sidbing/status\u2026 Oct 14, 2026 @NousResearch Word on the street x.com/kev_esh/status\u2026 Oct 14, 2026 @NousResearch Full Release Notes: github.com/NousResearch/h\u2026 Oct 14, 2026 @NousResearch Hermes Agent v0.22.0: The Threshold Release Changelog below Oct 14, 2026 @NousResearch An agent with swag Oct 14, 2026 @NousResearch Hermes Agent is yours Oct 11, 2026 @NousResearch Wild MISSINGNO. appeared! A coding and agentic reasoning model that is highly token efficient, free for a limited time on Nous Portal Try it out in your Hermes Agent today Oct 10, 2026 @NousResearch Slight Correction: Step 5 Preview's final score on Hermes Index has been updated to 32.83, slightly behind GPT-6 Luna (33.89) and GLM 5.3 Flash (34.95) Learn more @ portal.nousresearch.com/bench Oct 9, 2026 @NousResearch Step 5 Preview from @StepFun_ai is free on Nous Portal for the next week 600B total / 27B active MoE, 1M context, with vision Step 5 Preview scored 33.89 on Hermes Index, the same score as GPT-6 Luna Oct 9, 2026",
+      "title": "@NousResearch An agent for the projects that matter most x.com/alexandermann/\u2026 Oct 15, 2026",
+      "url": "https://x.com/NousResearch/status/2110722045411549645"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "be8fc480c667640aea46906e",
       "discovered_at": "2026-10-07T21:57:53Z",
       "kind": "primary-signal",
@@ -2827,6 +2869,20 @@
       "summary": "@NousResearch It's time to connect \ud83c\udf10 x.com/sidbing/status\u2026 Oct 14, 2026 @NousResearch Word on the street x.com/kev_esh/status\u2026 Oct 14, 2026 @NousResearch Full Release Notes: github.com/NousResearch/h\u2026 Oct 14, 2026 @NousResearch Hermes Agent v0.22.0: The Threshold Release Changelog below Oct 14, 2026 @NousResearch An agent with swag Oct 14, 2026 @NousResearch Hermes Agent is yours Oct 11, 2026 @NousResearch Wild MISSINGNO. appeared! A coding and agentic reasoning model that is highly token efficient, free for a limited time on Nous Portal Try it out in your Hermes Agent today Oct 10, 2026 @NousResearch Slight Correction: Step 5 Preview's final score on Hermes Index has been updated to 32.83, slightly behind GPT-6 Luna (33.89) and GLM 5.3 Flash (34.95) Learn more @ portal.nousresearch.com/bench Oct 9, 2026 @NousResearch Step 5 Preview from @StepFun_ai is free on Nous Portal for the next week 600B total / 27B active MoE, 1M context, with vision Step 5 Preview scored 33.89 on Hermes Index, the same score as GPT-6 Luna Oct 9, 2026 @NousResearch Hemres Agnet Oct 9, 2026",
       "title": "@NousResearch Word on the street x.com/kev_esh/status\u2026 Oct 14, 2026",
       "url": "https://x.com/NousResearch/status/2110438287399698522"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "782d5b0065aab2f93bad1890",
+      "discovered_at": "2026-10-15T14:58:02Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-15T13:04:03+00:00",
+      "search_score": 11,
+      "source_name": "Simon Willison Everything",
+      "summary": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from \" people with knowledge of the matter \". Key things I learned from the article: Q1 revenue (Jan/Feb/Mar) was \"about $4.8bn\" Q2 (Apr/May/Jun) was $11.5bn Q3 (Jul/Aug/Sep) was $16.8bn In Q3: $1.70 in revenue for every $1 spent on \"computing power\" Adjusted operating margins (excluding stock-based compensation) were 11% This point about distillation is worth quoting in full (highlight mine): The start-up has also clamped down on \u201cdistillation\u201d \u2014 a controversial practice whereby rival AI labs train their models on the outputs of more advanced ones. When rival companies \u201cdistil\u201d their models from Anthropic\u2019s models, that involves heavy usage and spending. Anthropic told investors on Wednesday distillation accounted for 5 per cent to 7 per cent of revenue and that they had cut it back \u201cmaterially\u201d in the third quarter of the year, said four people with direct knowledge of the matter. Napkin maths says that if distillation was 5% of their Q2 revenue (before they cut it back in Q3) then unnamed \"other labs\" spent over half a billion dollars distilling Anthropic's models in that quarter! Tags: ai , generative-ai , llms , anthropic",
+      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
     },
     {
       "bootstrap": false,
@@ -3443,65 +3499,9 @@
       "summary": "Google Launches Gemini 4 Argon for Developers: Targets Complex Code & Cybersecurity Workflows blog.google \u00b7 Show TLDR",
       "title": "Google Launches Gemini 4 Argon for Developers: Targets Complex Code & Cybersecurity Workflows blog.google \u00b7 Show TLDR",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "7c9e315c820562b6165a0b66",
-      "discovered_at": "2026-10-13T23:00:39Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 6,
-      "source_name": "FutureTools AI News",
-      "summary": "OpenAI in Talks to License Sora to Katzenberg-Backed Startup for Filmmakers theinformation.com Paywalled \u00b7 Show TLDR",
-      "title": "OpenAI in Talks to License Sora to Katzenberg-Backed Startup for Filmmakers theinformation.com Paywalled \u00b7 Show TLDR",
-      "url": "https://www.theinformation.com/newsletters/ai-agenda/openais-plan-revive-sora?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "75baa838d851ff459587521f",
-      "discovered_at": "2026-10-14T21:37:22Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 6,
-      "source_name": "FutureTools AI News",
-      "summary": "OpenAI Accuses Ex-Employee of Leaking 100+ Confidential Files to Apple theverge.com \u00b7 Show TLDR",
-      "title": "OpenAI Accuses Ex-Employee of Leaking 100+ Confidential Files to Apple theverge.com \u00b7 Show TLDR",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "1d5fd2024caedd1b40098511",
-      "discovered_at": "2026-10-10T00:00:12Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-09T22:48:37+00:00",
-      "search_score": 5,
-      "source_name": "Simon Willison Everything",
-      "summary": "Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno outright, with the goal of building on celld to \"make workerd self-hosting a first-class supported way to build and run apps using the Workers programming model\" (see the Cloudflare blog .) The bad news is that Deno itself will not be maintained by Cloudflare beyond the next year: We will support the Deno runtime for another year with monthly releases containing bug fixes and security updates. After that year we will end our development of the Deno runtime. Deno will remain open source, and we welcome others who want to continue its development. Deno (and Node.js) creator Ryan Dahl explained that decision in a comment on Hacker News: It's a joint decision and I agree with it. I'm most invested in its success and have put the most work into it - and I no longer think it's where I can do the most important work. There are some good ideas in Deno and it's well engineered - but it ultimately is not solving big problems. It has been sucked into the gravity well of node compatibility, which forces it to behave exactly as Node does. Why reimplement Node? It works. Marginal performance or UX or security benefits are not enough. I'm interested in building powerful new abstractions. celld has been working remarkably well, depending only on object storage for coordination and persistence. It is not just a slightly different API to interact with the file system or network - it's an entirely new model for server development. My favorite feature of Deno has long been the permissions system, where you can run a Deno script and specify exactly which files and folders it can read and write to, and which network hosts it can access. Node.js has a similar permissions model these days, added in Node v20.0.0 in April 2023 and declared stable in Node v22.13.0 in January 2025. They don't yet support allow-listing specific network hosts though - networking is either on or off. Via Hacker News Tags: cloudfront , javascript , nodejs , ryan-dahl , sandboxing , deno",
-      "title": "Deno is joining Cloudflare",
-      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "ace58ee31866ab85a90642d9",
-      "discovered_at": "2026-10-14T01:51:45Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-13T01:40:05+00:00",
-      "search_score": 4,
-      "source_name": "Simon Willison Everything",
-      "summary": "Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects",
-      "title": "web-edit 0.1a1",
-      "url": "https://simonwillison.net/2026/Oct/13/web-edit/"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-15T09:50:37Z",
+  "updated_at": "2026-10-15T14:58:06Z",
   "version": 2
 }

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-15T09:50:37Z",
+    "at": "2026-10-15T14:58:06Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 7,
-    "queued": 9,
+    "prefiltered": 4,
+    "queued": 5,
     "sources_ok": 15,
     "too_old": 3,
     "warnings": 0
   },
-  "runs": 58,
+  "runs": 59,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -299,6 +299,11 @@
       "status": "queued",
       "url": "https://stability.ai/strategic-partnerships"
     },
+    "12069dbe170b04bd498373b6": {
+      "first_seen": "2026-10-15T14:58:06Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2110722045411549645"
+    },
     "1244a96b60ce187188fe2460": {
       "first_seen": "2026-10-06T23:21:30Z",
       "status": "queued",
@@ -363,6 +368,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/supoclip"
     },
+    "155c7b54b4cbd80e144fcf46": {
+      "first_seen": "2026-10-15T14:58:06Z",
+      "status": "queued",
+      "url": "https://bfl.ai/blog/flux-3-image-klein"
+    },
     "16278565d50915517bc1148d": {
       "first_seen": "2026-10-06T19:44:11Z",
       "status": "queued",
@@ -392,6 +402,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-voice?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "18b660db4a2876e6e1a5faf0": {
+      "first_seen": "2026-10-15T14:58:02Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/fwrd"
     },
     "18fc300f0043c42de1998396": {
       "first_seen": "2026-10-11T09:11:21Z",
@@ -742,6 +757,11 @@
       "first_seen": "2026-10-11T23:51:14Z",
       "status": "queued",
       "url": "https://sakana.ai/mass/"
+    },
+    "2e6c7d5b62b02c1a6c3993f3": {
+      "first_seen": "2026-10-15T14:58:06Z",
+      "status": "queued",
+      "url": "https://bfl.ai/models/flux-3-image-klein"
     },
     "2ea6f168ee68eda93378195a": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -1388,6 +1408,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/withhuman"
     },
+    "5c50cc48a2b9d4162c05e7fb": {
+      "first_seen": "2026-10-15T14:58:02Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/kerno"
+    },
     "5c98b69c446552546ce6d49c": {
       "first_seen": "2026-10-13T10:55:50Z",
       "status": "queued",
@@ -1791,6 +1816,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/underplane-deleted-1312891"
     },
+    "77aa76cee961f8ba1a219ab1": {
+      "first_seen": "2026-10-15T14:58:02Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/silixon"
+    },
     "77bb9dac7f2dc73e90b658f8": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
@@ -1811,6 +1842,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/new-windows-search"
+    },
+    "782d5b0065aab2f93bad1890": {
+      "first_seen": "2026-10-15T14:58:02Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
     },
     "785ae5d61ec0075f6154b90e": {
       "first_seen": "2026-10-08T21:27:34Z",
@@ -1999,6 +2035,12 @@
       "status": "queued",
       "url": "https://about.fb.com/news/2026/10/introducing-your-algorithm-facebook/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "808be99d3670e1fe54332fbc": {
+      "first_seen": "2026-10-15T14:58:02Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/ubuntu"
+    },
     "80fcbb463ccbeee372c8e68e": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "too_old",
@@ -2145,6 +2187,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/"
     },
+    "8b8b3315af4c89c14aab536c": {
+      "first_seen": "2026-10-15T14:58:02Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/audio-lip-sync-pro-for-blender"
+    },
     "8b9d6c384f9787a62f253628": {
       "first_seen": "2026-10-14T18:00:57Z",
       "search_score": 0,
@@ -2219,6 +2267,12 @@
       "first_seen": "2026-10-05T02:26:11Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/sente-2"
+    },
+    "90a66bf4fc753d41cd1f6240": {
+      "first_seen": "2026-10-15T14:58:02Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/nestjs-observe"
     },
     "910569db0fc26421f7c032ca": {
       "first_seen": "2026-10-06T19:44:10Z",
@@ -2647,6 +2701,11 @@
       "first_seen": "2026-10-14T01:51:44Z",
       "status": "queued",
       "url": "https://openai.com/index/higgsfield-longer-videos-voice/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "b0409510b16c111a8c50ecbd": {
+      "first_seen": "2026-10-15T14:58:02Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/daddy-issues"
     },
     "b059cc78b6b4f6e70463b23b": {
       "first_seen": "2026-10-11T09:11:21Z",
@@ -3707,6 +3766,11 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
       "url": "https://www.kimi.com/"
+    },
+    "fcb408321ee506756d3f8d8e": {
+      "first_seen": "2026-10-15T14:58:02Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/chatway"
     },
     "fdc555784f18363338e2980b": {
       "first_seen": "2026-10-14T01:51:45Z",

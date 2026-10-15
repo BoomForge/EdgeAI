@@ -37,8 +37,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-15T01:43:44Z",
-    "eligible": 47,
+    "at": "2026-10-15T06:32:26Z",
+    "eligible": 46,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
@@ -1848,6 +1848,20 @@
         "source": "Simon Willison Everything"
       },
       "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/"
+    },
+    "62e56e6557bbca262668ab74": {
+      "at": "2026-10-15T06:32:26Z",
+      "bootstrap": false,
+      "score": 93,
+      "status": "published",
+      "story_key": "xai-grok-voice-3-release",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://x.ai/news/grok-voice-3?utm_source=futuretools.io&utm_medium=newspage"
     },
     "6376692708a589e10b25236a": {
       "at": "2026-10-12T01:40:22Z",
@@ -4373,6 +4387,20 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11376"
     },
+    "f99ea621acd6e4bbbe5b26d3": {
+      "at": "2026-10-15T06:32:22Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "meta-ai-muse-wonder-llm-meta-ai-0-2",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 89,
+        "source": "Simon Willison Everything"
+      },
+      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/"
+    },
     "f9ac3a3f0e104375673c2981": {
       "at": "2026-10-03T04:44:23Z",
       "bootstrap": true,
@@ -5595,6 +5623,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 86,
         "source": "LocalAI Releases"
+      }
+    },
+    "meta-ai-muse-wonder-llm-meta-ai-0-2": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/meta-ai-muse-wonder-llm-meta-ai-0-2.jpg",
+      "last_updated": "2026-10-15T06:32:22Z",
+      "post_id": "7811577565181877048",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/meta-ai-releases-muse-wonder-models.html",
+      "score": 88,
+      "source_image_source": "Simon Willison Everything",
+      "source_image_url": "https://static.simonwillison.net/static/2026/muse-wonder-max.webp",
+      "source_urls": [
+        "https://simonwillison.net/2026/Oct/12/llm-meta-ai/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Meta AI Releases Muse Wonder Models Alongside llm-meta-ai 0.2",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 89,
+        "source": "Simon Willison Everything"
       }
     },
     "meta-muse-wonder-frontier-model": {
@@ -7112,6 +7161,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 93,
         "source": "Stability AI News"
+      }
+    },
+    "xai-grok-voice-3-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/xai-grok-voice-3-release.jpg",
+      "last_updated": "2026-10-15T06:32:26Z",
+      "post_id": "8727374348878067001",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/xai-releases-grok-voice-30-claiming-1.html",
+      "score": 93,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://media.x.ai/v1/website/og-grok-voice-3-0-b281361b.webp",
+      "source_urls": [
+        "https://x.ai/news/grok-voice-3?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "xAI Releases Grok Voice 3.0, Claiming #1 Spot on Artificial Analysis Speech Index",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
       }
     }
   },

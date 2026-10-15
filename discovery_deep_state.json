@@ -1,20 +1,26 @@
 {
   "last_run": {
-    "at": "2026-10-15T14:58:06Z",
+    "at": "2026-10-15T19:05:49Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 4,
-    "queued": 5,
+    "prefiltered": 1,
+    "queued": 12,
     "sources_ok": 15,
-    "too_old": 3,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 59,
+  "runs": 60,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
       "status": "queued",
       "url": "https://research.meta.ai/blog/muse-wonder?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "00d9c588af8bb4dbad0a7c5b": {
+      "first_seen": "2026-10-15T19:05:43Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/backdrop"
     },
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -97,6 +103,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/takweem-ai"
     },
+    "0534554c0d414dacc867a822": {
+      "first_seen": "2026-10-15T19:05:42Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "05366116e12045798c5cc465": {
       "first_seen": "2026-10-08T08:53:54Z",
       "search_score": 0,
@@ -174,6 +185,11 @@
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/rambox"
+    },
+    "09622c6b726761f41ce23ac3": {
+      "first_seen": "2026-10-15T19:05:42Z",
+      "status": "queued",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "099e2a81bfcf5754e86e442c": {
       "first_seen": "2026-10-14T21:37:22Z",
@@ -282,6 +298,11 @@
       "first_seen": "2026-10-10T16:21:13Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/fluence"
+    },
+    "10a0d2531acac1dee97df5f3": {
+      "first_seen": "2026-10-15T19:05:43Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/audimate"
     },
     "10e556402d45283b9552e036": {
       "first_seen": "2026-10-06T23:21:29Z",
@@ -714,6 +735,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/edgevolume-volume-at-your-fingertips"
+    },
+    "2a095791e12a8566198b0285": {
+      "first_seen": "2026-10-15T19:05:44Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-dd87357c988ba7947ab6"
     },
     "2a271ea2de878ed2fa8174b3": {
       "first_seen": "2026-10-14T07:31:56Z",
@@ -1393,6 +1419,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/mcpgawk"
     },
+    "5b4a7623abc93e8b0358755b": {
+      "first_seen": "2026-10-15T19:05:42Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "5b8ee58e3c5f60e84d27c235": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
@@ -1674,6 +1705,11 @@
       "first_seen": "2026-10-03T00:46:02Z",
       "status": "queued",
       "url": "https://qwenlm.github.io/blog/qwen-image/"
+    },
+    "6d467d6c43f83349b65a68dc": {
+      "first_seen": "2026-10-15T19:05:42Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "6d47319d0ffdc4c1646c20ae": {
       "first_seen": "2026-10-06T00:46:20Z",
@@ -2046,6 +2082,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/teachoo-2"
     },
+    "81564953af2596613c95f372": {
+      "first_seen": "2026-10-15T19:05:42Z",
+      "status": "queued",
+      "url": "https://bfl.ai/blog/flux-3-image-klein?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "818cf62a3bb0a7f8412e2dfd": {
       "first_seen": "2026-10-13T03:13:29Z",
       "status": "queued",
@@ -2186,6 +2227,11 @@
       "first_seen": "2026-10-14T18:00:57Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/"
+    },
+    "8b4ddedb7f43d7ec1efe4c20": {
+      "first_seen": "2026-10-15T19:05:42Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/circle-to-search-android-text-message-scams/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "8b8b3315af4c89c14aab536c": {
       "first_seen": "2026-10-15T14:58:02Z",
@@ -2501,6 +2547,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/hark-3"
     },
+    "a2d47d967762a3a499dff79c": {
+      "first_seen": "2026-10-15T19:05:42Z",
+      "status": "queued",
+      "url": "https://research.meta.ai/blog/muse-spark-open?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "a2dbc26766a3bd99231d2ba1": {
       "first_seen": "2026-10-11T02:16:02Z",
       "status": "queued",
@@ -2573,6 +2624,11 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/vresk"
+    },
+    "a78a7dd6f5101f71bfa84705": {
+      "first_seen": "2026-10-15T19:05:45Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-1e6c65588e43ac9e658e"
     },
     "a8426dcdf9a2dd0dc3f668f9": {
       "first_seen": "2026-10-09T19:51:23Z",
@@ -3167,6 +3223,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/base44"
     },
+    "d50669b1dfb67b51e730eaef": {
+      "first_seen": "2026-10-15T19:05:42Z",
+      "status": "queued",
+      "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "d5135015cb86a5ed08ea8c55": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
@@ -3355,6 +3416,11 @@
       "first_seen": "2026-10-15T09:50:31Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/superlocalmemory-v2"
+    },
+    "e07b1338e91c69ebd6fe27e6": {
+      "first_seen": "2026-10-15T19:05:48Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2110786024024445201"
     },
     "e07b73ca95c2c1d50435fbc4": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -3614,6 +3680,11 @@
       "first_seen": "2026-10-08T08:53:55Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-dfce9a5c40dc0d0b3b1e"
+    },
+    "f2079d17845cc47db2297145": {
+      "first_seen": "2026-10-15T19:05:42Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "f230893cf53ac02df16742a3": {
       "first_seen": "2026-10-06T14:08:51Z",

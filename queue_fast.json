@@ -1850,6 +1850,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "94ee28b93f9d2d830319b5f7",
+      "discovered_at": "2026-10-15T00:51:00Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "search_score": 8,
+      "source_name": "OpenAI News",
+      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "url": "https://openai.com/index/block-ai-powered-security"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "9bf93d58cc35db9987f8bca4",
       "discovered_at": "2026-10-09T19:20:33Z",
       "kind": "official",
@@ -3250,6 +3264,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "f54fabf4506a01ac658a9f91",
+      "discovered_at": "2026-10-15T00:51:07Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-15T00:36:04Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "ggml: fix conv_1d result layout for batched input ( #28738 ) ggml: fix conv_1d result layout for batched input The GEMM behind conv_1d folds the batch into its rows, so the product sits in memory as [OL, N, OC] while the reshape claims [OL, OC, N]. The shape is right and the contents are transposed, so nothing fires: no assert, no abort, the graph just runs and the channels come out interleaved with the batches. With N == 1 the two readings describe the same buffer, which is why the three vocoders in the tree never hit it, they all squeeze to 2d right after the call. Reshape to the real layout and permute OC and N back. The N == 1 path keeps its direct reshape, so the current callers build the same graph and pay for no extra copy. tests/test-conv-1d.cpp compares one batched convolution against N single batch convolutions built from the same weight and the same input slices. Five of the seven geometries fail before this change and all seven pass after. N == 1 and OC == 1 pass either way, since swapping two dimensions when one of them is 1 changes nothing. The batched path matters to downstream audio projects where several synthesis lanes share a single graph. Nothing in mtmd batches a vocoder today, each one streams one flow and carries its left context between calls, but the op is correct now if one of them grows a lane dimension. ggml: build the same conv_1d graph for every batch size Address review from ggerganov: drop the N == 1 branch of ggml_conv_1d. The GEMM result is always reshaped to [OC, N, OL] and permuted back, as ggml_conv_2d does, so every batch size builds the same graph. For N == 1 this adds a cont on an already ordered tensor. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56061987 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11630",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11630"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "5b1994ebb44d1c0766219116",
       "discovered_at": "2026-10-14T22:37:10Z",
       "kind": "local-ai",
@@ -3471,37 +3499,9 @@
       "summary": "metal: fix metal tensor kernel_mul_mm error for large tensor ( #28748 ) metal: fix metal tensor kernel_mul_mm error for large tensor Assisted-by: Codex Update ggml/src/ggml-metal/kernels/mul_mm.metal Co-authored-by: YiChen Lv 63285796+forforever73@users.noreply.github.com Co-authored-by: \u5411\u9521\u94ed xiangximing@xiangximings-MacBook-Air.local Co-authored-by: YiChen Lv 63285796+forforever73@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55187748 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11575",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11575"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "f4ed36eb5e3ed1848886303e",
-      "discovered_at": "2026-10-12T19:18:33Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-12T14:51:50Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "vulkan: pack FMA for f16 accumulation, no dot product op ( #29877 ) vulkan: pack FMA for f16 accumulation, no dot product op vulkan: dot_product packs two rows per f16 FMA vulkan: rename dot_product to dot_product_v2 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55086973 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11573",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11573"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "83c757b36ce8c8329be2986c",
-      "discovered_at": "2026-10-12T19:18:33Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-12T13:43:44Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "tests : link each test against only the libraries it uses ( #30299 ) Give llama_build() and llama_build_and_test() a LINK keyword (default: llama-common) so call sites can declare what a test actually needs: ggml-only tests now link just ggml: test-opt, test-metal-graph-optimize, test-backend-ops, test-tiled-mulmat, test-barrier, test-quantize-fns, test-quantize-perf, test-rope, test-col2im-1d, test-gguf, test-alloc llama-only tests drop llama-common: test-unicode, test-sampling, test-grammar-parser, test-llama-grammar, test-batch-alloc, test-gbnf-validator, test-quant-type-selection both mtmd tests link mtmd only, dropping the LLAMA_TEST_NAME / target_link_libraries workarounds Both helpers now set cxx_std_17 explicitly, since the tests no longer inherit it from llama-common's PUBLIC interface. tests/testing.h no longer includes common.h; the only symbol it used from there (string_join) is inlined. Assisted-by: pi:llama.cpp/Qwen3.8-Flash-Next Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55065319 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11570",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11570"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-14T22:37:34Z",
+  "updated_at": "2026-10-15T00:51:33Z",
   "version": 2
 }

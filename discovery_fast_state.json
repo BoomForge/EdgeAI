@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-14T22:37:34Z",
+    "at": "2026-10-15T00:51:33Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 8,
+    "prefiltered": 0,
+    "queued": 5,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 56,
+  "runs": 57,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -465,6 +465,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10722"
+    },
+    "1c1dc6fbc1637955b7723827": {
+      "first_seen": "2026-10-15T00:51:07Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11632"
     },
     "1c80b3847e5e582872f28009": {
       "first_seen": "2026-10-08T14:56:24Z",
@@ -2394,6 +2399,11 @@
       "status": "too_old",
       "url": "https://github.com/continuedev/continue/releases/tag/v1.3.40-vscode"
     },
+    "94ee28b93f9d2d830319b5f7": {
+      "first_seen": "2026-10-15T00:51:00Z",
+      "status": "queued",
+      "url": "https://openai.com/index/block-ai-powered-security"
+    },
     "9503050a530eab40c78f684c": {
       "first_seen": "2026-10-09T00:38:52Z",
       "status": "queued",
@@ -2664,6 +2674,11 @@
       "first_seen": "2026-10-10T15:11:44Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11545"
+    },
+    "a264c4af5885aa0a7df14add": {
+      "first_seen": "2026-10-15T00:51:10Z",
+      "status": "queued",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc1"
     },
     "a390f1821d8ae660facddf9b": {
       "first_seen": "2026-10-12T09:24:08Z",
@@ -3589,6 +3604,11 @@
       "status": "queued",
       "url": "https://openai.com/index/introducing-dots"
     },
+    "deebc1af26824e66f83fec2f": {
+      "first_seen": "2026-10-15T00:51:10Z",
+      "status": "queued",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.6.0"
+    },
     "dfdb0f5667e9b7c113f3d9b1": {
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
@@ -3944,6 +3964,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02529"
+    },
+    "f54fabf4506a01ac658a9f91": {
+      "first_seen": "2026-10-15T00:51:07Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11630"
     },
     "f57c46bf1463a1b4ffd18591": {
       "first_seen": "2026-10-04T20:03:38Z",

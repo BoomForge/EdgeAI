@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-15T05:00:32Z",
+    "at": "2026-10-15T09:50:37Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 1,
+    "prefiltered": 7,
+    "queued": 9,
     "sources_ok": 15,
-    "too_old": 4,
+    "too_old": 3,
     "warnings": 0
   },
-  "runs": 57,
+  "runs": 58,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -368,6 +368,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/"
     },
+    "16664f89bddb74894b31a820": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/copilotkit"
+    },
     "179afd0ee553a08b8bacfe99": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -471,6 +476,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/control-my-mac"
     },
+    "1ceb380969d9142f1a267526": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/dreamscale-labs"
+    },
     "1d00dfe21278d2e6b0949ff5": {
       "first_seen": "2026-10-12T15:14:38Z",
       "status": "too_old",
@@ -545,6 +555,12 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/"
+    },
+    "1ffe44b88032d87cbe87c539": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/codecrab"
     },
     "205c105de580d142d0e5be16": {
       "first_seen": "2026-10-07T21:57:47Z",
@@ -621,6 +637,11 @@
       "first_seen": "2026-10-11T02:16:04Z",
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-88adf2e51a0f1f1e5fff"
+    },
+    "26b44b3ba5b4e06df4c9a5ff": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/shrine-2"
     },
     "271a8d37f09e7fec2947e57b": {
       "first_seen": "2026-10-06T19:44:10Z",
@@ -789,6 +810,11 @@
       "first_seen": "2026-10-14T21:37:22Z",
       "status": "queued",
       "url": "https://blog.youtube/news-and-events/youtube-music-ai-labels/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "342976c99332a08be7ba988b": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/z-ai"
     },
     "345f1755705d282a19e9b6b2": {
       "first_seen": "2026-10-04T00:34:30Z",
@@ -1249,6 +1275,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/ambiguous-workspace"
     },
+    "55cb68d4cf228ab90a3f463d": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/afterparty"
+    },
     "561a30e5490e7d073fd8c55f": {
       "first_seen": "2026-10-10T11:25:13Z",
       "status": "queued",
@@ -1352,6 +1383,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/manus"
     },
+    "5bf110e26d34d7055e14113f": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/withhuman"
+    },
     "5c98b69c446552546ce6d49c": {
       "first_seen": "2026-10-13T10:55:50Z",
       "status": "queued",
@@ -1409,6 +1445,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/kitbar"
+    },
+    "5fd5d3c0289bee35e91c5aed": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/cmdround"
     },
     "5fe026c23b18dde92a71102f": {
       "first_seen": "2026-10-14T18:00:57Z",
@@ -1807,6 +1848,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/floani"
     },
+    "79aef65f0c707597dad33b42": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/rushilo"
+    },
     "79d053956eaf89a72dae90a8": {
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "too_old",
@@ -1967,6 +2013,11 @@
       "first_seen": "2026-10-05T18:53:47Z",
       "status": "queued",
       "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "8240a1c4f6ce19e3d33473ee": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/buddy"
     },
     "82780810aba897ba13c1a821": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -2193,6 +2244,12 @@
       "first_seen": "2026-10-13T23:00:39Z",
       "status": "queued",
       "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "946804574bf0aa10d325f6af": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/nostaliga"
     },
     "94801ca24377c4b6f66bd124": {
       "first_seen": "2026-10-07T09:23:03Z",
@@ -2799,6 +2856,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/voicera-3"
     },
+    "be65296db4560cb9ef358ffe": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/superdraft"
+    },
     "be8fc480c667640aea46906e": {
       "first_seen": "2026-10-07T21:57:53Z",
       "status": "queued",
@@ -3229,6 +3292,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/cloudflare-clef"
     },
+    "e028e7028f7c972526a9da13": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/superlocalmemory-v2"
+    },
     "e07b73ca95c2c1d50435fbc4": {
       "first_seen": "2026-10-05T09:33:48Z",
       "search_score": 1,
@@ -3436,10 +3504,27 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/pickle-sensei-dink-coach"
     },
+    "ef3c2b177ca77dea23a44bbd": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/navige"
+    },
     "ef8dc3e0756d057ef38462cf": {
       "first_seen": "2026-10-08T08:53:54Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/vocera"
+    },
+    "efc5d2303b1b96c5101ca014": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/atticus"
+    },
+    "f0939d8c42a5916b0cbe4dd2": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/brussle-2"
     },
     "f0bdd2caa8622824124d94f0": {
       "first_seen": "2026-10-14T21:37:22Z",
@@ -3480,6 +3565,12 @@
       "first_seen": "2026-10-09T01:22:22Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/8/ttok/"
+    },
+    "f261dfd2a809f3bd9cf3eade": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/actually-asked"
     },
     "f2623f517e94709c38bd2067": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -3581,6 +3672,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/unscary-ai"
     },
+    "f9124e4f2b21eaccdc1d0f27": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/talanoa-2"
+    },
     "f92d3babf75023b63f271b2e": {
       "first_seen": "2026-10-15T05:00:27Z",
       "status": "too_old",
@@ -3600,6 +3696,12 @@
       "first_seen": "2026-10-13T18:14:15Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/mi-speaks"
+    },
+    "fb3669bea1e8b6c8ae568746": {
+      "first_seen": "2026-10-15T09:50:31Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/lleverage"
     },
     "fc152ff68513727f347182c9": {
       "first_seen": "2026-10-03T00:46:03Z",

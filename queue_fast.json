@@ -2662,6 +2662,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "cc240cb0b9ea2a1163aff3e4",
+      "discovered_at": "2026-10-15T10:18:29Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-15T07:34:54Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "server: save only restorable slot states to the prompt cache ( #30498 ) server: save only restorable slot states to the prompt cache The idle-slot save loop stores every idle slot whenever a task starts, while only completion tasks restore from the prompt cache. Rerank, embedding, decision and infill states fill the cache up to its limit without ever being read back, and slots already cached are offered again at every task start. Each slot now tracks with cache_pending whether its state is restorable and missing from the cache: a completion release or an explicit slot restore sets it, prompt_save consumes it, prompt_clear resets it. Both save paths share this rule, and the LRU path restores only for completion tasks. server: test that decision slots skip the prompt cache Decision tasks never mark their slot as cacheable, so starting new tasks must not save their idle slots to the RAM prompt cache, with or without a unified KV cache. server: restore any reusing task from the prompt cache Embedding and rerank tasks never reuse their state, so their slots are cleared on release like child slots and the cache only holds states that a later task can restore. Infill and decision tasks now restore from the cache too, which replaces the cache_pending flag. Decision models disable the prompt cache unless --cache-ram is given, since their states seldom repeat. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56156929 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11642",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11642"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "56c3e617dcc3857375b28b82",
       "discovered_at": "2026-10-14T22:37:10Z",
       "kind": "local-ai",
@@ -2869,6 +2883,20 @@
       "summary": "ggml-quants : avoid invalid rounding in qkx3 scale search ( #29817 ) ggml-quants : avoid invalid rounding in qkx3 scale search The imatrix scale search can produce an infinite, NaN, or otherwise out-of-range value when the fitted minimum collapses to the maximum or makes the range extremely small. That value is then passed to nearest_int and can trip its assertion in Debug builds. Clamp the quantization level to [0, nmax] before rounding so valid in-range values behave the same as before while invalid scale-search results no longer reach nearest_int. Add regression coverage for degenerate imatrix groups across q2_K, q4_K, q5_K, q4_1, and q5_1. Fixes #29804 . Assisted-by: Claude Opus 5.5 tests: print degenerate imatrix quant types Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52340657 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11366",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11366"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "262e31703e1026a9f4c8bbc7",
+      "discovered_at": "2026-10-15T10:18:29Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-15T10:01:16Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "graph: keep the graph non empty without embeddings ( #30522 ) An embedding-only graph has no logits, and build_pooling() returns early when embeddings are off, so since the models no longer expand t_embd the graph ends up empty and its inputs are never allocated. Expand t_embd in that case. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56206571 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11643",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11643"
     },
     {
       "bootstrap": false,
@@ -3278,6 +3306,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "e3fbab269c4c21b247698d66",
+      "discovered_at": "2026-10-15T10:18:29Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-15T06:30:56Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "vulkan: Use L2-friendly workgroup scheduling for cm2 mulmat ( #30215 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56139256 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11640",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11640"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "798dd4e62a4a54034c8a7342",
       "discovered_at": "2026-10-15T05:40:28Z",
       "kind": "local-ai",
@@ -3457,51 +3499,9 @@
       "summary": "vulkan: Optimize pool_2d when the pooling window is large ( #30119 ) When the window is larger than a subgroup, use a whole subgroup to compute each output. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55607759 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11603",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11603"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "714d15998bb769d3264989be",
-      "discovered_at": "2026-10-13T21:32:32Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-13T21:32:29Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "hexagon: add configurable HTP DCVS/HMX power mode ( #30423 ) hexagon: add configurable HTP DCVS/HMX power mode hexagon: address PR review feedback (drop CLI flag, align QAIRT power modes, comment/log cleanup) hexagon: add --hex-power-mode flag to run.py Hooks GGML_HEXAGON_POWER_MODE into the unified run.py runner, following the existing --hex-nhvx pattern. The env var must be set before the process touches the Hexagon backend registry (see comment in ggml_hexagon_init), so this is exposed as a runner flag rather than a common/arg.cpp CLI option. hexagon: keep HTP awake for DCVS power profiles Apply suggestion from @max-krasnyansky Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55598222 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11601",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11601"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "d9be917439ae8646ae20a7b6",
-      "discovered_at": "2026-10-13T21:32:32Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-13T21:13:57Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "graph: pad the KQ bias of the no-cache attention ( #30446 ) The no-cache attention pads K, V and the mask to 256, but T5 also adds a relative position bias of [n_tokens, n_tokens], so the add with KQ fails unless n_tokens divides the padded width. Pad the bias with zeros up to the KV dimension of the mask, like K and V. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55592156 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11600",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11600"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "f6512e064973fcb9a0ec1f11",
-      "discovered_at": "2026-10-13T21:32:32Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-13T19:38:34Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "vulkan: allow multiple devices to access gpu-visible host memory ( #29741 ) vulkan: allow multiple devices to access gpu-visible host memory clean up erroneous newlines add Windows support handle nullptr fix enable condition Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55561276 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11594",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11594"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-15T05:40:52Z",
+  "updated_at": "2026-10-15T10:18:55Z",
   "version": 2
 }

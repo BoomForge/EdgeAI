@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-15T10:18:55Z",
+    "at": "2026-10-15T15:07:34Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 5,
+    "prefiltered": 4,
+    "queued": 9,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 59,
+  "runs": 60,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -520,6 +520,11 @@
       "first_seen": "2026-10-08T14:56:24Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.101.6"
+    },
+    "1cf8eba545fec9e5493fa779": {
+      "first_seen": "2026-10-15T15:07:09Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11658"
     },
     "1cf97cd9573961b03d43e8f5": {
       "first_seen": "2026-10-04T12:33:55Z",
@@ -1828,6 +1833,17 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02472"
     },
+    "67cc77b3c538c465a2437ea5": {
+      "first_seen": "2026-10-15T15:07:09Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11645"
+    },
+    "67ffc0a982f5d23d65bf5b92": {
+      "first_seen": "2026-10-15T15:06:59Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/shopping/holiday-shopping-when-to-buy-guide/"
+    },
     "6823801d4a6c9058ddd90d9c": {
       "first_seen": "2026-10-13T16:26:22Z",
       "status": "queued",
@@ -2175,6 +2191,12 @@
       "first_seen": "2026-10-05T18:34:59Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.6.0"
+    },
+    "7d0ed3cb5cb4581ac2aae88c": {
+      "first_seen": "2026-10-15T15:06:59Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-time-best-inventions/"
     },
     "7d118aeafab68e400dcb39a3": {
       "first_seen": "2026-10-08T20:34:39Z",
@@ -2614,6 +2636,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.0-dev.2"
     },
+    "99349eeb1d4542ebd7aeab30": {
+      "first_seen": "2026-10-15T15:07:09Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11662"
+    },
     "994700d848ae3d4fbae2b373": {
       "first_seen": "2026-10-14T22:37:10Z",
       "status": "queued",
@@ -2835,6 +2862,11 @@
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc1"
     },
+    "a2e40b2ea6e99ae4c657a891": {
+      "first_seen": "2026-10-15T15:07:09Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11644"
+    },
     "a390f1821d8ae660facddf9b": {
       "first_seen": "2026-10-12T09:24:08Z",
       "status": "queued",
@@ -2860,6 +2892,12 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06918"
     },
+    "a4d56d187e5a9c78f5a64f22": {
+      "first_seen": "2026-10-15T15:06:59Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/international-repair-day-2026/"
+    },
     "a52615d03b6849c8c0ea3f2e": {
       "first_seen": "2026-10-03T00:46:10Z",
       "status": "queued",
@@ -2869,6 +2907,11 @@
       "first_seen": "2026-10-09T06:41:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10612"
+    },
+    "a60f4a701f887ae8f46b94e0": {
+      "first_seen": "2026-10-15T15:06:59Z",
+      "status": "queued",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions"
     },
     "a706979044b95fdb3dfe0bec": {
       "first_seen": "2026-10-12T09:23:59Z",
@@ -3341,6 +3384,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11516"
     },
+    "c382892319c647d5502c85bb": {
+      "first_seen": "2026-10-15T15:07:09Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc1"
+    },
     "c38af6e5cae43e23a64c1d50": {
       "first_seen": "2026-10-03T00:45:50Z",
       "status": "queued",
@@ -3803,6 +3851,12 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.14186"
     },
+    "dcaabf5e08f6a89425c24830": {
+      "first_seen": "2026-10-15T15:06:59Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/"
+    },
     "dd817b9c3a30f625a3b0848c": {
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
@@ -3925,6 +3979,16 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.3"
     },
+    "e5bcb2cb64abc07d062a2970": {
+      "first_seen": "2026-10-15T15:07:09Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11647"
+    },
+    "e5d74c5e7d6620bd9730c08b": {
+      "first_seen": "2026-10-15T15:07:09Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11655"
+    },
     "e5f8df0d727db32b0276a182": {
       "first_seen": "2026-10-07T16:39:04Z",
       "status": "queued",
@@ -3979,6 +4043,11 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "too_old",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.15.post1"
+    },
+    "e86f5a64d3658262312f7e06": {
+      "first_seen": "2026-10-15T15:07:09Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11669"
     },
     "e88304f86f8d96c2642dbb59": {
       "first_seen": "2026-10-15T05:40:20Z",

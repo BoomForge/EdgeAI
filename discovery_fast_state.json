@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-15T19:15:26Z",
+    "at": "2026-10-15T22:27:49Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 4,
-    "queued": 11,
+    "prefiltered": 0,
+    "queued": 2,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 61,
+  "runs": 62,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -891,6 +891,11 @@
       "first_seen": "2026-10-05T02:05:36Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11401"
+    },
+    "32165ee6af8945a5bd83e423": {
+      "first_seen": "2026-10-15T22:27:18Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
     },
     "32300cb27ee8e889c800b417": {
       "first_seen": "2026-10-12T09:24:00Z",
@@ -3914,6 +3919,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/"
+    },
+    "dd6669033ccdf16934af21a3": {
+      "first_seen": "2026-10-15T22:27:27Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11671"
     },
     "dd817b9c3a30f625a3b0848c": {
       "first_seen": "2026-10-05T09:14:07Z",

@@ -2144,6 +2144,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "32165ee6af8945a5bd83e423",
+      "discovered_at": "2026-10-15T22:27:18Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Thu, 15 Oct 2026 19:00:00 GMT",
+      "search_score": -1,
+      "source_name": "OpenAI News",
+      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "75bb450ac9abb666c3e6b151",
       "discovered_at": "2026-10-15T19:14:58Z",
       "kind": "open-source",
@@ -2715,6 +2729,20 @@
       "summary": "ggml: refactor selective expert copying to user code ( #29943 ) ggml: refactor selective expert copying to user code tests: enroll two models into selective expert copy test tests: use deepseek2 as test model improve comment in ggml-backend.h Co-authored-by: Georgi Gerganov ggerganov@gmail.com cont: fix whitespace cont : better comments Co-authored-by: Georgi Gerganov ggerganov@gmail.com Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/53174329 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11439",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11439"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "dd6669033ccdf16934af21a3",
+      "discovered_at": "2026-10-15T22:27:27Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-15T21:27:12Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "model: add Muse Spark Open (text, vision and audio) Muse Spark Open is a latent space MoE: the residual stream stays at 8192 while the 256 experts live in 4096, with a projection down and up around them, top-8 sigmoid routing with a correction bias. Attention interleaves three sliding layers at a 2048 window with rope for one global layer without rope, with a sigmoid output gate and a weightless QK-norm. Residuals are norm preserving, their gate is folded at conversion time. Vision reuses the Muse Glimmer tower. Audio is a causal convolutional pyramid with no attention and no spectrogram, four stages folding 16, 6, 5 and 4 samples into the channel dim, one embedding per 80 ms of 24 kHz. The quantizer keeps the latent projections and the attention gate at Q8_0, a little over 1% of the weights, since the whole residual stream passes through them and the low-bit types turned the output into a repeating loop. The model saver writes the post norm epsilon, and the arch is registered in test-llama-archs. Co-authored-by: Xuan Son Nguyen son@huggingface.co Co-authored-by: Pedro Cuenca pedro@huggingface.co Muse Spark: drop the redundant forward expand Muse Spark: drop the redundant forward expand and tighten the comments Update src/llama-quant.cpp Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Update src/llama-graph.cpp Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Update conversion/muse_spark.py Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Update conversion/muse_spark.py Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Update conversion/muse_spark.py Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Update conversion/muse_spark.py Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Co-authored-by: Xuan Son Nguyen son@huggingface.co Co-authored-by: Pedro Cuenca pedro@huggingface.co Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co",
+      "title": "b11671: model: add Muse Spark Open (text, vision and audio) (#30616)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11671"
     },
     {
       "bootstrap": false,
@@ -3471,37 +3499,9 @@
       "summary": "ggml-cpu : size set_rows conversion buffer for all threads ( #30454 ) ggml-cpu : size set_rows conversion buffer for all threads SET_ROWS is planned with n_tasks = 1, but every thread runs it and uses its own row of the F16 -> F32 conversion buffer, so threads > 0 wrote past the work buffer when the graph had another multi-threaded op. move set_rows to n_task = n_threads group Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56100739 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11633",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11633"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "f54fabf4506a01ac658a9f91",
-      "discovered_at": "2026-10-15T00:51:07Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-15T00:36:04Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "ggml: fix conv_1d result layout for batched input ( #28738 ) ggml: fix conv_1d result layout for batched input The GEMM behind conv_1d folds the batch into its rows, so the product sits in memory as [OL, N, OC] while the reshape claims [OL, OC, N]. The shape is right and the contents are transposed, so nothing fires: no assert, no abort, the graph just runs and the channels come out interleaved with the batches. With N == 1 the two readings describe the same buffer, which is why the three vocoders in the tree never hit it, they all squeeze to 2d right after the call. Reshape to the real layout and permute OC and N back. The N == 1 path keeps its direct reshape, so the current callers build the same graph and pay for no extra copy. tests/test-conv-1d.cpp compares one batched convolution against N single batch convolutions built from the same weight and the same input slices. Five of the seven geometries fail before this change and all seven pass after. N == 1 and OC == 1 pass either way, since swapping two dimensions when one of them is 1 changes nothing. The batched path matters to downstream audio projects where several synthesis lanes share a single graph. Nothing in mtmd batches a vocoder today, each one streams one flow and carries its left context between calls, but the op is correct now if one of them grows a lane dimension. ggml: build the same conv_1d graph for every batch size Address review from ggerganov: drop the N == 1 branch of ggml_conv_1d. The GEMM result is always reshaped to [OC, N, OL] and permuted back, as ggml_conv_2d does, so every batch size builds the same graph. For N == 1 this adds a cont on an already ordered tensor. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56061987 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11630",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11630"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "5b1994ebb44d1c0766219116",
-      "discovered_at": "2026-10-14T22:37:10Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-14T20:13:15Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "ggml : improve RPC tensor transfer logs ( #30481 ) add rpc_log_format_size() and print byte counts in KiB/MiB/GiB across the RPC client, server and transport traces add rpc_log_format_tensor() and include tensor name, op, type and shape in the set/get/memset/copy/init tensor logs fix rpc_cmd_name() returning UNKNOWN for SET_TENSOR_2D, GET_TENSOR_2D, COMM_INIT, COMM_ALLREDUCE and COMM_FREE move the log helpers to ggml-rpc/log.{h,cpp} under a common rpc_log_ prefix Assisted-by: pi:llama.cpp/Qwen3.8-Flash-Next Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55989334 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11624",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11624"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-15T19:15:26Z",
+  "updated_at": "2026-10-15T22:27:49Z",
   "version": 2
 }

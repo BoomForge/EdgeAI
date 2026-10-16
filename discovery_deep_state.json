@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-16T00:36:13Z",
+    "at": "2026-10-16T05:09:19Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 2,
+    "queued": 1,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 62,
+  "runs": 63,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -1156,6 +1156,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/flowo-2"
     },
+    "4a5f898dc42901e71f0a0e30": {
+      "first_seen": "2026-10-16T05:09:15Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-d1703deb31d3c6677c0d"
+    },
     "4b22d7e89d4e656fa2874416": {
       "first_seen": "2026-10-03T11:34:54Z",
       "status": "queued",
@@ -1762,6 +1767,11 @@
       "first_seen": "2026-10-10T11:25:14Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/kernelai"
+    },
+    "70f4599cdca4bb9f636405aa": {
+      "first_seen": "2026-10-16T05:09:14Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/saidtrace"
     },
     "7157c7d19069852befd5724a": {
       "first_seen": "2026-10-03T00:46:04Z",

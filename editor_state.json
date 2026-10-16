@@ -37,8 +37,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-16T18:55:37Z",
-    "eligible": 36,
+    "at": "2026-10-16T22:03:33Z",
+    "eligible": 34,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 1,
@@ -1331,6 +1331,11 @@
       "story_key": "cline-sdk-v0-0-92-release",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.92"
     },
+    "3fbcb9b67843708734726082": {
+      "at": "2026-10-16T22:03:17Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11596"
+    },
     "3fc9ff8585e35d9b18b26345": {
       "at": "2026-10-07T06:34:08Z",
       "status": "expired",
@@ -1895,6 +1900,11 @@
       "at": "2026-10-07T19:56:51Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11392"
+    },
+    "5febfc6f0d2e810d3e4c2ce0": {
+      "at": "2026-10-16T22:03:17Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11597"
     },
     "603d4f0592f632a4812d62a6": {
       "at": "2026-10-06T02:32:14Z",
@@ -2865,6 +2875,20 @@
       },
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
     },
+    "90cc6f51408ea53226245800": {
+      "at": "2026-10-16T22:03:28Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "updated",
+      "story_key": "artificial-analysis-changelog-oct-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-7c1633ccfa6615adce13"
+    },
     "910569db0fc26421f7c032ca": {
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
@@ -3094,6 +3118,20 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00424"
+    },
+    "9e63539289a31c8631b61e2d": {
+      "at": "2026-10-16T22:03:33Z",
+      "bootstrap": false,
+      "score": 86,
+      "status": "published",
+      "story_key": "openai-stack-overflow-agents-chatgpt-plugin",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin"
     },
     "9e6d9d48a65776be86374aa9": {
       "at": "2026-10-09T17:07:50Z",
@@ -3452,6 +3490,11 @@
       "at": "2026-10-04T00:07:42Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/"
+    },
+    "b3047042ec64cdc765b8e9cb": {
+      "at": "2026-10-16T22:03:17Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11598"
     },
     "b3ddf621cd927d255750a3ef": {
       "at": "2026-10-03T10:41:10Z",
@@ -5074,7 +5117,7 @@
     "artificial-analysis-changelog-oct-2026": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-oct-2026.jpg",
-      "last_updated": "2026-10-16T18:55:18Z",
+      "last_updated": "2026-10-16T22:03:28Z",
       "post_id": "511009945520828127",
       "post_url": "https://edgeainews.blogspot.com/2026/10/artificial-analysis-updates-benchmark_01785872676.html",
       "score": 92,
@@ -5084,10 +5127,11 @@
         "https://artificialanalysis.ai/changelog#edgeai-20d470951bb41b38113b",
         "https://artificialanalysis.ai/changelog#edgeai-f8641d0af7ac05430409",
         "https://artificialanalysis.ai/changelog#edgeai-d1703deb31d3c6677c0d",
-        "https://artificialanalysis.ai/changelog#edgeai-e9c5c12cc49ae62051ac"
+        "https://artificialanalysis.ai/changelog#edgeai-e9c5c12cc49ae62051ac",
+        "https://artificialanalysis.ai/changelog#edgeai-7c1633ccfa6615adce13"
       ],
       "status": "CONFIRMED",
-      "title": "Artificial Analysis Updates Benchmark Suite: Reflection Beam, NVIDIA Nemotron 3.5, and AA-Robotics v0.1",
+      "title": "Artificial Analysis Expands Benchmark Suite with Meta Muse Wonder, Decision Index, and AA-3D",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
@@ -6934,6 +6978,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI Releases Frontier Model Mathematical Results and Lean Proof Formalizations",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-stack-overflow-agents-chatgpt-plugin": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-stack-overflow-agents-chatgpt-plugin.jpg",
+      "last_updated": "2026-10-16T22:03:33Z",
+      "post_id": "14076900610515671",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/stack-overflow-reports-tripled-signups.html",
+      "score": 86,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/4HTc2pk7XGFhzDU8RX0Ivg/ff2b922fa1914350c9d800da622ebe04/stack-overflow-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/stack-overflow-chatgpt-plugin"
+      ],
+      "status": "CONFIRMED",
+      "title": "Stack Overflow Reports Tripled Signups and 10x Agent Creation via ChatGPT Plugin",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

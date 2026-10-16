@@ -1920,6 +1920,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "9e63539289a31c8631b61e2d",
+      "discovered_at": "2026-10-16T21:43:45Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "search_score": 6,
+      "source_name": "OpenAI News",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10\u00d7 growth in agent creation.",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "570fe3204556675e8dd927e7",
       "discovered_at": "2026-10-09T13:47:51Z",
       "kind": "official",
@@ -3418,6 +3432,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "52c93fcf6b24dbf372a96565",
+      "discovered_at": "2026-10-16T21:43:55Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-16T01:09:41Z",
+      "search_score": 6,
+      "source_name": "Ollama Releases",
+      "summary": "use identifiers for --ask mode question keys",
+      "title": "v0.40.6-rc0: Merge pull request #19041 from ollama/jberg/clef-question-ids",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc0"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "c1f975e922220e7ead6a8734",
       "discovered_at": "2026-10-15T05:40:28Z",
       "kind": "local-ai",
@@ -3471,37 +3499,9 @@
       "summary": "metal : fix mul_mat_id with duplicate ids ( #30373 ) metal : fix mul_mat_id limits and kernel name metal : fix mul_mat_id with duplicate ids kernel_mul_mm_id_map0 assumed at most one match per token and a fixed capacity of ne21 entries per expert, which produced wrong or dropped output rows and could overflow into the slice of the next expert when the ids contain duplicates. build a compact per-expert list of the (token, slot) entries instead: pass 1 counts the entries of every expert, thread 0 computes the offsets of the expert slices (tpe now holds [base, count]) pass 2 writes the entries with one unconditional store per token (conditional stores of divergent lanes are very slow), the dummy value of the tokens without a match lands on a padding slot of the slice that is never read - duplicates are handled by a rare branch kernel_mul_mm_id reads the base/count of its expert and loops over the entry tiles that do not fit into the grid The ids buffer is sized as ne20*ne21 + ne02 (entries + padding). 883/883 test-backend-ops MUL_MAT_ID tests pass, llama-bench is within run-to-run variance of the previous behavior. Assisted-by: pi:llama.cpp/MiMo-V2.6-Flash-MOPD metal : make mul_mat_id map0 ne02 a function constant use FOR_UNROLL for the id loops of kernel_mul_mm_id_map0 and turn ne02 into the function constant FC_mul_mm_id_map0_ne02 (FC_MUL_MM + 7), so that the threadgroup offsets of cnt/bas/sids and the prefix-sum bound fold at compile time. the pipeline name now encodes ne02 (same convention as the ssm_conv nc/silu constants) and the map0 pipeline is compiled with the constant value set. ne02 is no longer part of ggml_metal_kargs_mul_mm_id_map0 - the dispatch grid still comes from the tensor ne[2] on the host. no measurable perf change: 883/883 test-backend-ops MUL_MAT_ID tests pass, op-level and llama-bench results are within run variance. Assisted-by: pi:llama.cpp/MiMo-V2.6-Flash-MOPD cont : clean-up + TODO metal : dispatch mul_mat_id entry tiles from the prepass follow the approach of the vulkan implementation ( #29998 ): instead of launching a grid over experts x ne21 entry tiles and letting most of the threadgroups early exit, kernel_mul_mm_id_map0 now also emits a row map - the total tile count plus one (expert, first entry, valid rows) descriptor per 32-entry tile that has work. kernel_mul_mm_id is launched with a static upper bound on the number of tiles (full tiles over all entries plus at most one partial tile per expert), reads its descriptor and processes a single tile - the tail early exits. This removes the round loop that was needed to cover duplicate ids past the grid (register pressure: th_max 768 -> back to the plain mul_mm level) and duplicates are now handled implicitly, since they only produce more descriptors within the bound. The grid shrinks by ~8-16x on typical shapes (e.g. 128 experts, 8 used, 512 tokens: 128 tiles instead of 2048 entry tiles, of which 94% only launched to exit) and ne21 is no longer needed by the mm kernel kargs. 883/883 test-backend-ops MUL_MAT_ID tests pass. llama-bench (Qwen3.6-35B-A3B Q8_0) is now faster than master on all pp sizes (pp2048/4096/8192 +2%, pp512 +0.5%), tg32 unchanged. Assisted-by: pi:llama.cpp/MiMo-V2.6-Flash-MOPD cont : add smem assert Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55057952 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11569",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11569"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "93d159491c27c347995ff66f",
-      "discovered_at": "2026-10-11T18:59:53Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-11T15:14:40Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "rpc : turn GGML_RPC_DEBUG into a verbosity level and add logs ( #29544 ) rpc : turn GGML_RPC_DEBUG into a verbosity level and add logs GGML_RPC_DEBUG is now parsed as a number: 0/unset disables debug logs, 1-3 emit increasingly detailed output (events, per-command trace, transport detail). Non-numeric values fall back to 1. The duplicated env/macro blocks in ggml-rpc.cpp and transport.cpp are replaced by a shared log.h, which becomes the single choke point for all logging of the RPC backend: LOG_ERROR/LOG_WARN/LOG_INFO for unconditional severity logs and LOG_DBG/LOG_DBG2/LOG_DBG3 for the verbosity-gated ones. The transport files no longer need ggml-impl.h, and the server banner now also goes through the ggml logger (stderr). Missing logs are added on both the client (handshake, buffer ops, tensor transfers, graph computes, cache decisions) and the server (per-command dispatch, graph nodes), including the negotiated transport via the new socket_t::transport_name(). Assisted-by: pi:llama.cpp/MiMo-V2.6-Flash-RL rpc : align log levels with the documented verbosity semantics The first pass introduced GGML_RPC_DEBUG levels, but many call sites did not follow the documented semantics and some logs bypassed the macros entirely: Route the remaining raw GGML_LOG_* call sites through the local LOG_* macros so that log.h stays the single choke point for RPC logging Emit per-tensor transfers and per-command handler traces at level 2, and one-shot lifecycle events (backend and buffer type creation, buffer allocation, graph compute, graph cache eviction) at level 1 Drop the duplicated enqueue trace in rpc_dispatcher::send, work() already logs every dispatched command together with its round-trip timing Promote degraded-operation events to LOG_WARN: remote allocation failure, RDMA falling back to TCP, unexpected peer disconnect Log graph cache eviction on both sides, since client and server must stay in sync for the incremental graph update to be valid Distinguish Unknown command (opcode out of range) from Unhandled command (valid opcode with no handler) Fix format specifiers (%zu for size_t, %u for device ids, 0x for hex pointers) and a missing newline in an error log Document that llama.cpp applications drop ggml debug records unless the verbosity threshold is raised with -lv 5 Assisted-by: pi:llama.cpp/Qwen3.8-Flash-Next Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54812036 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11557",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11557"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "51ddba2e3e4c402c871902fd",
-      "discovered_at": "2026-10-11T14:10:34Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-11T13:13:56Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "cpu: fix AVX2 CPUs not using F16C when available ( #30270 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54796975 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11555",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11555"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-16T18:41:26Z",
+  "updated_at": "2026-10-16T21:44:21Z",
   "version": 2
 }

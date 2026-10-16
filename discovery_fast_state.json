@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "at": "2026-10-16T18:41:26Z",
+    "at": "2026-10-16T21:44:21Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
@@ -9,7 +9,7 @@
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 67,
+  "runs": 68,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -1564,6 +1564,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11555"
     },
+    "52c93fcf6b24dbf372a96565": {
+      "first_seen": "2026-10-16T21:43:55Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc0"
+    },
     "5343bc19b8a2ab68996a01cd": {
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
@@ -3058,6 +3063,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00424"
+    },
+    "9e63539289a31c8631b61e2d": {
+      "first_seen": "2026-10-16T21:43:45Z",
+      "status": "queued",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin"
     },
     "9e6d9d48a65776be86374aa9": {
       "first_seen": "2026-10-06T23:06:53Z",
@@ -4696,6 +4706,11 @@
       "first_seen": "2026-10-07T09:14:06Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06919"
+    },
+    "f3881ffb51f5cdaacce8ff76": {
+      "first_seen": "2026-10-16T21:44:13Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.12"
     },
     "f3f828852141af98a5731144": {
       "first_seen": "2026-10-03T00:46:21Z",

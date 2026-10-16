@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-16T10:03:28Z",
+    "at": "2026-10-16T14:48:20Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 3,
+    "prefiltered": 6,
+    "queued": 4,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 5,
     "warnings": 0
   },
-  "runs": 64,
+  "runs": 65,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -393,6 +393,12 @@
       "first_seen": "2026-10-15T14:58:06Z",
       "status": "queued",
       "url": "https://bfl.ai/blog/flux-3-image-klein"
+    },
+    "15b55416c268f429445a8309": {
+      "first_seen": "2026-10-16T14:48:14Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/nani-2"
     },
     "16278565d50915517bc1148d": {
       "first_seen": "2026-10-06T19:44:11Z",
@@ -955,6 +961,11 @@
       "status": "queued",
       "url": "https://bfl.ai/models/flux-3-image"
     },
+    "37bf9e8730e43c251486d07b": {
+      "first_seen": "2026-10-16T14:48:14Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/calenteri"
+    },
     "383db0675a7385f76bd3e59c": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -964,6 +975,17 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/famulor-telephony-ai"
+    },
+    "3886ba01c453bc7c5bd1504c": {
+      "first_seen": "2026-10-16T14:48:14Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/doyt"
+    },
+    "38e462d6d4450c6c878cbb44": {
+      "first_seen": "2026-10-16T14:48:14Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/neophyte"
     },
     "395ffc3e9f574d449ffebf3b": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -1015,6 +1037,11 @@
       "first_seen": "2026-10-08T21:27:36Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-989879af9de3ff049b6e"
+    },
+    "3d4362e82edd89613db72579": {
+      "first_seen": "2026-10-16T14:48:14Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/gemini-can-now-order-your-groceries-book-your-dinner-10-16-2026"
     },
     "3d9482c11cf663a63fe7f54d": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -1406,6 +1433,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/griffin-by-tavus"
     },
+    "582f9814d62f7e68fe136f22": {
+      "first_seen": "2026-10-16T14:48:14Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/mermaid"
+    },
     "58654261fa9f0b658f22e707": {
       "first_seen": "2026-10-04T17:06:51Z",
       "search_score": 1,
@@ -1793,6 +1826,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/saidtrace"
     },
+    "712a8be153b2900da91e9bed": {
+      "first_seen": "2026-10-16T14:48:14Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/skisso-design-on-the-live-product"
+    },
     "7157c7d19069852befd5724a": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -1850,6 +1889,12 @@
       "first_seen": "2026-10-09T07:47:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/de-stash"
+    },
+    "75ad735f3b00fa737990acd0": {
+      "first_seen": "2026-10-16T14:48:14Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tidy-design"
     },
     "75baa838d851ff459587521f": {
       "first_seen": "2026-10-14T21:37:22Z",
@@ -2475,6 +2520,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/acyclic"
     },
+    "992103baab869f7b32d66923": {
+      "first_seen": "2026-10-16T14:48:14Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/lovable"
+    },
     "9935ba29a9a1947ed2e1da09": {
       "first_seen": "2026-10-05T18:53:47Z",
       "status": "queued",
@@ -2918,6 +2969,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/moxie-2"
     },
+    "b4955263c590c8b42db08679": {
+      "first_seen": "2026-10-16T14:48:14Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/nvidia"
+    },
     "b49ab13dddaa37ab59d300d1": {
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "too_old",
@@ -2966,6 +3022,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/staffcoder"
+    },
+    "b85dbf7affcff6f0514e0fd7": {
+      "first_seen": "2026-10-16T14:48:14Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/findergit"
     },
     "b863b3fd2cadf72315b4786b": {
       "first_seen": "2026-10-10T16:21:13Z",
@@ -3106,6 +3167,11 @@
       "first_seen": "2026-10-09T14:44:12Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/busabase"
+    },
+    "c06c3bb88911c2b1b93c4061": {
+      "first_seen": "2026-10-16T14:48:16Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-9b0d0013db1bf8f37984"
     },
     "c08335a771dce774db8dd0f8": {
       "first_seen": "2026-10-10T16:21:13Z",
@@ -3264,6 +3330,11 @@
       "first_seen": "2026-10-13T18:14:15Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/vincentt"
+    },
+    "d1608caf25486f9e641dbeef": {
+      "first_seen": "2026-10-16T14:48:14Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/nudgebox"
     },
     "d1dfcca4ed604925cb790620": {
       "first_seen": "2026-10-08T01:53:48Z",
@@ -3425,6 +3496,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/walrus-console"
+    },
+    "dc3db661ead4341e36b26e38": {
+      "first_seen": "2026-10-16T14:48:14Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/helicon"
     },
     "dc61cd9c23bdd4b5c1607fd2": {
       "first_seen": "2026-10-03T05:50:29Z",
@@ -3638,6 +3714,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
+    },
+    "e911ce0dca2fc01e210ece7f": {
+      "first_seen": "2026-10-16T14:48:14Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/boss-console"
     },
     "e9a128e279ff480986fb87f4": {
       "first_seen": "2026-10-08T16:25:56Z",

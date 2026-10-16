@@ -3068,6 +3068,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "ad81c0b4930729b94c5bbdf2",
+      "discovered_at": "2026-10-16T14:55:25Z",
+      "kind": "open-source",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-16T13:02:29Z",
+      "search_score": 7,
+      "source_name": "Hugging Face Transformers Releases",
+      "summary": "Release v5.20.1 Special surprise including the new model Beam from Reflection AI \ud83e\udd73 Beam is a token-efficient, frontier-scale model focused on coding and agentic use cases. It is built for teams that want to run a powerful model on their own hardware, infrastructure, or cloud, and customize it to their specific needs. Links: Documentation Fix small bug in auto mappings ( #49664 ) by @yonigozlan in #49664 Some real patch fixes We broke loading models on older torch versions \ud83d\ude22 should be fixed now. But here is the full list of fixes Fix HunYuan-VL image assignment during batched generation ( #49557 ) by @Arnav66692 Fix DeepGEMM Mega MoE under expert parallelism( #49428 ) by @IlyasMoutawwakil Fix from_pretrained on torch 2.7: require torch>=2.8 for distributed checkpointing ( #49652 ) by @naveecode Make DtensorShardOperation work on torch 2.6 and 2.7 ( #49657 ) by @hazelxue Full Changelog : v5.20.0...v5.20.1",
+      "title": "Release v5.20.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.1"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "27c6d4d54b8e5e0bff643540",
+      "discovered_at": "2026-10-16T14:55:30Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-16T11:16:03Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "model : MTP support for Mellum2.1 ( #30612 ) model : MTP support for Mellum model : inline rope construction in Mellum Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56634767 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11695",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11695"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "73d75a58fd916ae7f1bb67e5",
       "discovered_at": "2026-10-16T00:45:08Z",
       "kind": "agents",
@@ -3471,37 +3499,9 @@
       "summary": "Allow configuring --slot-save-path via LLAMA_ARG_SLOT_SAVE_PATH so it can be set from an EnvironmentFile in a systemd unit file.",
       "title": "b11549: args: add LLAMA_ARG_SLOT_SAVE_PATH env for --slot-save-path (#30272)",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11549"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "6aeb8b84935c1b408afa9ba3",
-      "discovered_at": "2026-10-08T20:34:17Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-08T19:22:06Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "CUDA: improve top-k algorithm selection ( #28713 ) CUDA: radix top-k for large row counts Replaces CUB's per-row DeviceTopKKernel with a grid-over-rows radix select, gated on GGML_CUDA_TOPK_RADIX_MIN_ROWS. On qwen4exp at 34,816 tokens this cuts top-k from 1,671,253 launches / 5,761.8 ms to 2,329 / 941.8 ms. CUDA: select the TOP_K implementation by shape Replace the nrows/ncols special case with the decision boundary from #28547 (as implemented in #29278 ): bitonic for short rows, radix select for several long rows, and DeviceTopK or CUB argsort for a single long row. The thresholds stay overridable at build time. Two refinements on top of that boundary: bitonic stays in use for rows up to a padded 1024 while the rows fit in one wave of blocks (nrows <= number of SMs); radix select pays a fixed cost of about a dozen launches that only amortizes over more rows with DeviceTopK available, it handles up to two rows Radix select now processes rows in chunks so its scratch memory stays bounded, and the bitonic path keeps its chunking. HIP and MUSA keep their previous thresholds. Add perf cases around the bitonic/radix crossover to test-backend-ops. CUDA: make top-k comments less verbose CUDA: remove the TOP_K width limit from supports_op CUDA: use DeviceTopK for single-row TOP_K if available CUDA: avoid ncols overflow in the TOP_K bitonic check CUDA: share the row chunking helper between argsort and top-k CUDA: do the TOP_K radix blocks_per_row math in int64_t CUDA: rename GGML_CUDA_TOP_K_NROWS_THRESHOLD_DEVICETOPK to GGML_CUDA_TOP_K_NROWS_THRESHOLD CUDA: share one sort helper between the bitonic and CUB TOP_K paths CUDA: update the TOP_K TODO, threshold and chunking comments tests: add TOP_K cases that span several row chunks CUDA: use int64_t col in the TOP_K radix loops, fix threshold comment CUDA: limit TOP_K and ARGSORT support to ne[0] <= INT_MAX Co-authored-by: praneshgo 227579474+praneshgo@users.noreply.github.com Co-authored-by: Pranesh Gonegandla pgonegandla@nvidia.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54066267 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11513",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11513"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "ffbada98cace5f62be30cc7a",
-      "discovered_at": "2026-10-08T20:34:18Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-08T15:54:06Z",
-      "search_score": 6,
-      "source_name": "Ollama Releases",
-      "summary": "When a legacy GGUF which requires our llama.cpp patch set is loaded, we do a lazy conversion on disk to make it llama.cpp compatible.  To support downgrades, we temporarily hold both the new and old GGUFs and create a shadow v1 manifest tag to prevent the downgraded server from deleting the new blobs. Showing these in the list output is confusing to users and API consumers.  The legacy copies will be removed in a future release to recover the disk space.",
-      "title": "v0.40.2-rc0: server: hide duplicate and downgrade guards from list (#18874)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2-rc0"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-16T10:06:30Z",
+  "updated_at": "2026-10-16T14:55:55Z",
   "version": 2
 }

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-16T10:06:30Z",
+    "at": "2026-10-16T14:55:55Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 8,
+    "queued": 6,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 65,
+  "runs": 66,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -278,6 +278,11 @@
       "first_seen": "2026-10-03T00:46:13Z",
       "status": "too_old",
       "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.1"
+    },
+    "10bcd18897aedb7b781c4989": {
+      "first_seen": "2026-10-16T14:55:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11696"
     },
     "10c568717ed2507c4d9b1469": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -689,6 +694,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10724"
     },
+    "25b0ab25e0a380fbf4bda66f": {
+      "first_seen": "2026-10-16T14:55:41Z",
+      "status": "queued",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.3"
+    },
     "25c2d34baf331a4e16b005d9": {
       "first_seen": "2026-10-03T05:44:00Z",
       "status": "queued",
@@ -729,6 +739,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00040"
+    },
+    "27c6d4d54b8e5e0bff643540": {
+      "first_seen": "2026-10-16T14:55:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11695"
     },
     "27d8f80030b34f456f3374e7": {
       "first_seen": "2026-10-12T09:23:59Z",
@@ -1062,6 +1077,11 @@
       "first_seen": "2026-10-13T16:26:01Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11588"
+    },
+    "39321820961e2367a377b226": {
+      "first_seen": "2026-10-16T14:55:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11691"
     },
     "39a55203d49cf313f7b91b9b": {
       "first_seen": "2026-10-13T16:26:01Z",
@@ -3321,6 +3341,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11488"
     },
+    "ad81c0b4930729b94c5bbdf2": {
+      "first_seen": "2026-10-16T14:55:25Z",
+      "status": "queued",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.1"
+    },
     "add7e11ad964d1ef033c7767": {
       "first_seen": "2026-10-12T09:23:59Z",
       "status": "queued",
@@ -4381,6 +4406,11 @@
       "first_seen": "2026-10-07T16:39:04Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11477"
+    },
+    "e6014491769e99cf4ccec313": {
+      "first_seen": "2026-10-16T14:55:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11693"
     },
     "e630fdd4ef926151f40bdf60": {
       "first_seen": "2026-10-07T09:14:06Z",

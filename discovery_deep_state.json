@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-16T18:47:00Z",
+    "at": "2026-10-16T21:47:34Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 8,
+    "prefiltered": 0,
+    "queued": 9,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 66,
+  "runs": 67,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -820,6 +820,11 @@
       "status": "queued",
       "url": "https://bfl.ai/models/flux-3-image-klein"
     },
+    "2e7e9c41607a282bc3bf2845": {
+      "first_seen": "2026-10-16T21:47:28Z",
+      "status": "queued",
+      "url": "https://youtu.be/KGcuuhqmPhI?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "2ea6f168ee68eda93378195a": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -1178,6 +1183,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/globestudio"
     },
+    "4739cfb54ab725fc7a23d516": {
+      "first_seen": "2026-10-16T21:47:28Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "47c3437aa5d6b239339d11fd": {
       "first_seen": "2026-10-13T18:14:14Z",
       "status": "queued",
@@ -1202,6 +1212,11 @@
       "first_seen": "2026-10-10T20:14:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/buffer-3"
+    },
+    "49afd859905d7e770d7c03a5": {
+      "first_seen": "2026-10-16T21:47:28Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/research/ai-expectations-gap?utm_source=futuretools.io&utm_medium=newspage"
     },
     "49c1d8fc4ff8f06e55716ad2": {
       "first_seen": "2026-10-09T07:47:51Z",
@@ -1377,6 +1392,11 @@
       "first_seen": "2026-10-07T21:57:47Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "550270aabdd984213a2443c5": {
+      "first_seen": "2026-10-16T21:47:28Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "5503bb8aa2b4ea261aa9270d": {
       "first_seen": "2026-10-13T10:55:50Z",
@@ -1737,6 +1757,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/ngram"
     },
+    "66df145f1bf2ecb65766ac97": {
+      "first_seen": "2026-10-16T21:47:28Z",
+      "status": "queued",
+      "url": "https://finance.yahoo.com/markets/article/sylvester-stallone-on-ai-in-hollywood-it-makes-things-so-much-easier-160000411.html?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "68f59b89b4d78cf84a0cdf21": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -1862,6 +1887,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://bfl.ai/models/flux-3-video"
+    },
+    "723cf35cae5b6915aa59c46f": {
+      "first_seen": "2026-10-16T21:47:28Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/taim-4"
     },
     "72545bf67931823dc054ad99": {
       "first_seen": "2026-10-10T11:25:13Z",
@@ -2426,6 +2456,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/gauth-ai-course"
     },
+    "8f3380f9ca8ba0a6dcc026d8": {
+      "first_seen": "2026-10-16T21:47:28Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/dottr"
+    },
     "8f4c5229a1a79048741cf97b": {
       "first_seen": "2026-10-12T15:14:38Z",
       "status": "queued",
@@ -2452,6 +2487,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/nestjs-observe"
+    },
+    "90cc6f51408ea53226245800": {
+      "first_seen": "2026-10-16T21:47:29Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-7c1633ccfa6615adce13"
     },
     "910569db0fc26421f7c032ca": {
       "first_seen": "2026-10-06T19:44:10Z",
@@ -3106,6 +3146,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/doco-4"
     },
+    "baaecd55ff1b9309669cdf67": {
+      "first_seen": "2026-10-16T21:47:28Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "bb0f3a1f930d003d6c11780a": {
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "too_old",
@@ -3307,6 +3352,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/heypi"
+    },
+    "cb5360f70e576e14afe80a2b": {
+      "first_seen": "2026-10-16T21:47:28Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic?utm_source=futuretools.io&utm_medium=newspage"
     },
     "cbaf9562bef45be7e7897094": {
       "first_seen": "2026-10-03T11:34:52Z",

@@ -37,11 +37,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-16T11:17:00Z",
-    "eligible": 39,
-    "evaluated": 3,
+    "at": "2026-10-16T18:55:37Z",
+    "eligible": 36,
+    "evaluated": 2,
     "mode": "live",
-    "new_posts": 2,
+    "new_posts": 1,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -484,6 +484,20 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-voice?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "195086faf712f2609593e186": {
+      "at": "2026-10-16T18:55:18Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "updated",
+      "story_key": "artificial-analysis-changelog-oct-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-e9c5c12cc49ae62051ac"
     },
     "1977358a53e0880f62ddfbc5": {
       "at": "2026-10-09T03:09:32Z",
@@ -1156,6 +1170,11 @@
       },
       "url": "https://runway.com/research/introducing-praxis-1"
     },
+    "38c445fba78be444f32b8e42": {
+      "at": "2026-10-16T18:54:59Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11588"
+    },
     "39b03f627696e97fefd30234": {
       "at": "2026-10-14T06:46:39Z",
       "bootstrap": false,
@@ -1455,6 +1474,11 @@
       "at": "2026-10-05T22:35:25Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11351"
+    },
+    "47c3437aa5d6b239339d11fd": {
+      "at": "2026-10-16T18:54:59Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "485a72695274dcc8a5aaa6f9": {
       "at": "2026-10-03T05:49:31Z",
@@ -3531,6 +3555,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11424"
     },
+    "bd173e559ba5d0f1c24750dd": {
+      "at": "2026-10-16T18:54:59Z",
+      "status": "expired",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "bdc3c2af02f44af22bcadb19": {
       "at": "2026-10-11T07:07:40Z",
       "status": "expired",
@@ -3609,6 +3638,20 @@
       "at": "2026-10-12T17:49:23Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/openpilot"
+    },
+    "c06c3bb88911c2b1b93c4061": {
+      "at": "2026-10-16T18:55:37Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "artificial-analysis-changelog-oct-2026-updates",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-9b0d0013db1bf8f37984"
     },
     "c288f00f94c5b3aa84365a46": {
       "at": "2026-10-15T16:54:14Z",
@@ -3803,6 +3846,11 @@
       "at": "2026-10-04T19:33:52Z",
       "status": "expired",
       "url": "https://blog.google/products-and-platforms/products/education/ai-educator-series-badge-a-thon/"
+    },
+    "cfa14935e06b790ed18d220c": {
+      "at": "2026-10-16T18:54:59Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11599"
     },
     "d01ebd3c72db89b95dfc9a57": {
       "at": "2026-10-10T18:31:36Z",
@@ -5026,7 +5074,7 @@
     "artificial-analysis-changelog-oct-2026": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-oct-2026.jpg",
-      "last_updated": "2026-10-16T06:10:14Z",
+      "last_updated": "2026-10-16T18:55:18Z",
       "post_id": "511009945520828127",
       "post_url": "https://edgeainews.blogspot.com/2026/10/artificial-analysis-updates-benchmark_01785872676.html",
       "score": 92,
@@ -5035,10 +5083,32 @@
       "source_urls": [
         "https://artificialanalysis.ai/changelog#edgeai-20d470951bb41b38113b",
         "https://artificialanalysis.ai/changelog#edgeai-f8641d0af7ac05430409",
-        "https://artificialanalysis.ai/changelog#edgeai-d1703deb31d3c6677c0d"
+        "https://artificialanalysis.ai/changelog#edgeai-d1703deb31d3c6677c0d",
+        "https://artificialanalysis.ai/changelog#edgeai-e9c5c12cc49ae62051ac"
       ],
       "status": "CONFIRMED",
-      "title": "Artificial Analysis Adds Meta Muse Wonder and FrontierCode to Benchmark Suite",
+      "title": "Artificial Analysis Updates Benchmark Suite: Reflection Beam, NVIDIA Nemotron 3.5, and AA-Robotics v0.1",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
+    "artificial-analysis-changelog-oct-2026-updates": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-oct-2026-updates.jpg",
+      "last_updated": "2026-10-16T18:55:37Z",
+      "post_id": "4806842187461291375",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/artificial-analysis-changelog.html",
+      "score": 92,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-9b0d0013db1bf8f37984"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Changelog: Reflection Beam, Meta Muse Wonder, and New Benchmark Indices",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

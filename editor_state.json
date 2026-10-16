@@ -37,11 +37,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-16T01:19:24Z",
-    "eligible": 41,
+    "at": "2026-10-16T06:10:32Z",
+    "eligible": 40,
     "evaluated": 3,
     "mode": "live",
-    "new_posts": 2,
+    "new_posts": 1,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -1474,6 +1474,20 @@
       "status": "expired",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.0"
     },
+    "4a5f898dc42901e71f0a0e30": {
+      "at": "2026-10-16T06:10:14Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "updated",
+      "story_key": "artificial-analysis-changelog-oct-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-d1703deb31d3c6677c0d"
+    },
     "4b22d7e89d4e656fa2874416": {
       "at": "2026-10-03T14:57:16Z",
       "bootstrap": false,
@@ -2505,6 +2519,14 @@
       "status": "ignored",
       "story_key": "llamacpp-b11532-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11532"
+    },
+    "833bda6d1c7777e35dda0b14": {
+      "at": "2026-10-16T06:10:22Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "cline-sdk-v0-0-94-release",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.94"
     },
     "836ad8a0cd9c59a8342ef10a": {
       "at": "2026-10-08T05:56:53Z",
@@ -4356,6 +4378,20 @@
       "story_key": "artificial-analysis-changelog-update-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-dfce9a5c40dc0d0b3b1e"
     },
+    "f2079d17845cc47db2297145": {
+      "at": "2026-10-16T06:10:32Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "rivian-third-party-ai-agents-anthropic-claude",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "f230893cf53ac02df16742a3": {
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
@@ -4954,7 +4990,7 @@
     "artificial-analysis-changelog-oct-2026": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-oct-2026.jpg",
-      "last_updated": "2026-10-15T23:11:19Z",
+      "last_updated": "2026-10-16T06:10:14Z",
       "post_id": "511009945520828127",
       "post_url": "https://edgeainews.blogspot.com/2026/10/artificial-analysis-updates-benchmark_01785872676.html",
       "score": 92,
@@ -4962,10 +4998,11 @@
       "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
       "source_urls": [
         "https://artificialanalysis.ai/changelog#edgeai-20d470951bb41b38113b",
-        "https://artificialanalysis.ai/changelog#edgeai-f8641d0af7ac05430409"
+        "https://artificialanalysis.ai/changelog#edgeai-f8641d0af7ac05430409",
+        "https://artificialanalysis.ai/changelog#edgeai-d1703deb31d3c6677c0d"
       ],
       "status": "CONFIRMED",
-      "title": "Artificial Analysis Changelog Adds NVIDIA Nemotron 3.5 Super VL and Embodied AI Benchmarks",
+      "title": "Artificial Analysis Adds Meta Muse Wonder and FrontierCode to Benchmark Suite",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
@@ -6963,6 +7000,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Reflection AI Announces Beam: A 501B Open-Weight Mixture-of-Experts Model for Coding and Agents",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      }
+    },
+    "rivian-third-party-ai-agents-anthropic-claude": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/rivian-third-party-ai-agents-anthropic-claude.jpg",
+      "last_updated": "2026-10-16T06:10:32Z",
+      "post_id": "7383067400711714694",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/rivian-plans-to-integrate-third-party.html",
+      "score": 82,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://techcrunch.com/wp-content/uploads/2026/10/55587802359_b756c3c3bd_k.jpg?resize=1200,800",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Rivian Plans to Integrate Third-Party AI Agents Like Anthropic's Claude Into Its EVs",
       "trust": {
         "label": "Reasonable",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",

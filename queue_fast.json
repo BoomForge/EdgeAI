@@ -2284,6 +2284,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "833bda6d1c7777e35dda0b14",
+      "discovered_at": "2026-10-16T05:36:48Z",
+      "kind": "coding-agents",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-16T03:51:13Z",
+      "search_score": 21,
+      "source_name": "Cline Releases",
+      "summary": "Plugins now run only in worker threads (the default, CLINE_PLUGIN_MODE=worker ) or in the subprocess sandbox ( sandbox ). The in_process mode is removed, along with its silent fallback. A host that ships no plugin-sandbox-bootstrap.js fails every plugin load with PluginBootstrapMissingError , which names CLINE_PLUGIN_BOOTSTRAP_PATH , instead of quietly running plugins inside the hub. The hub daemon's uncaught error handlers are fatal again. The SSH remote hub ships no bootstrap yet, so it reports plugin tools as missing Provider errors that arrive after a model stream has started are retried up to 3 times, and the final failure is reported as an error in logs and Langfuse traces. Exhausted retries no longer also trigger the agent's whole-turn retry, so retry budgets don't multiply Model request failure logs include the provider's request id setHubDaemonLauncher lets an embedding host start the hub daemon through a bundled Cline CLI, and ensureDetachedHubServer gains a beforeSpawn hook that runs only when a new daemon actually starts. The standalone SSH remote helper entrypoint is removed: SSH remotes run the hub through the uploaded Cline CLI NodeHubClient accepts resolveConnectionHeaders , so a remote proxy's WebSocket upgrade can be authenticated with HTTP headers refreshed on every reconnect. It is threaded through HubRuntimeHost and RemoteRuntimeHost AskQuestionExecutor may return text and image blocks, so attachments sent with an answer reach the model New buildTelemetrySelfcheckReport export in @cline/shared The cline provider's bundled default (the first Cline recommended model) is now Gemini 4 Argon instead of Claude Sonnet 5.5, because the recommended list now leads with it Refreshed the model catalog (6,862 \u2192 6,952 models). Adds the Boundless and Standard Compute providers, and SambaNova now comes from the catalog with MiniMax M3 as its default. The Cline recommended list adds Gemini 4 Argon and drops Grok 4.7, and the Cline free list replaces Step 5 Preview with Nemotron 3.5 Super VL. OpenCode Go no longer lists MiniMax M2.7. Default models change for Cortecs, CrossModel, Eden AI, Google Gemini, GitHub Copilot, Google Vertex AI, LLM Gateway, Ofox, OpenCode Go, and Prime Inference (Gemini 4 Argon), Fireworks AI, Nebius Token Factory, and Requesty (Muse Spark Open), CoreWeave, DigitalOcean, NanoGPT, and Nvidia (Nemotron 3.5 Super VL), Aixy and Neon (Claude Haiku 5.5), Agnes AI, Ambient, IteraCompute, Poe, Scaleway, and SenseNova Full Changelog : sdk/sdk/v0.0.93...sdk/sdk/v0.0.94",
+      "title": "SDK v0.0.94",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.94"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "7da99f40f855b50457e2a875",
       "discovered_at": "2026-10-15T19:15:04Z",
       "kind": "local-ai",
@@ -3292,6 +3306,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "8305d1a357e5243d7c9138d4",
+      "discovered_at": "2026-10-16T05:36:35Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-16T05:30:53Z",
+      "search_score": 6,
+      "source_name": "llama.cpp Releases",
+      "summary": "hexagon: tensor repacking rework and support for tiled and flat quantized and fp weights  ( #30635 ) hex-repack: Remove need_repack hack and streamline the rules -- breaks GET_ROWS tests for K-Quants, will fix in the next round Add support for GET_ROWS with tiled Q5_K Add support for raw k-quant tensors hex-get-rows: vectorize raw k-quant ukernels hex-binary: refactor dma-loop thread functions (no need for macros, etc) hex-quant: move/cleanup flat and tiled dequant ukernels hex-repack: add support for repacking/tiling F16/F32/BF16 2D weights hex-get-rows: remove redundant cast hex-repack: proper filtering for BF16 that were leaking through during the tests hex-repack: streamling tiling rules (broken MM for now) hex-repack: fix mmid after tiling updates hex-repack: rename repacked to tiled in all flags/funcs/kernels/vars hex-mm: fix valid_rows calc in various kernels hex-mm: remove unused hvx_mm_nx_2d_flat hex-mm: cleanup and optimize hvx-tiled vec_dot_f16 hex-mm: another pass at hvx-tiled f16 matmul hex-get-rows: optimize small src1 hex-get-rows: one more pass at recovering get-rows perf regression hex-repack: export GGML_HEXAGON_RT_REPACK via run.py hex-mm-tiled: fix accuracy regression with hmx-tiled-f16 matmul hex-mm: fold tiled_f16 checks into the general flow hex-get-rows: remove dead checks for buffer_is_hexagon and tiling during supports_op hex-quant: proper tail handling in new dequant ukernels hex-get-rows: remove unused code and cleanup support checks hex-mm: cleanup ne1 padding/tiling checks hex-mm: cleanup fusion checks for tiled tensors hex-repack: add a little can_repack helper to reduce duplication hex-repack: never repack host buffers hex-repack: factor out repack functions into separate .h and .cpp hex-tensor: cleanup tensor ifaces for tiled/padded sizes hex-repack: update k-quant tiling comments and cleanup #defines hex-dcache: factor out l2/dcache dirty tracking and flushing hex-tensor: update docs and remove #defs duplication hex-tensor: remove unused/incorrect get_data interface hex-get-rows: cleanup vtcm layout build tests: disable huge MM tests hex-dcache: add missing header Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56541220 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11680",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11680"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "0a6bc5106f21c99b2b3a521b",
+      "discovered_at": "2026-10-16T05:36:35Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-16T03:14:36Z",
+      "search_score": 6,
+      "source_name": "llama.cpp Releases",
+      "summary": "The scheduler uploads each view of a host input on its own, so the per-layer reshape of new_pool_idxs (and of sel_mask in glm5-next) was copied once per layer.",
+      "title": "b11679: llama : share the k-pool input views between layers (#30613)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11679"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "c1f975e922220e7ead6a8734",
       "discovered_at": "2026-10-15T05:40:28Z",
       "kind": "local-ai",
@@ -3457,51 +3499,9 @@
       "summary": "The gather path attended over the selected latents with a plain matmul and softmax. It only ran with n_ubatch <= 16, and the flash attention backends now skip the masked rows through n_kv_max, so the scatter path covers every case. Drop the gather flag, the gathered attention branch and gather_mla_rows. set_input_kpool always maps padding to the n_kv sentinel, and the slot mask becomes sel_mask since only the scatter reads it.",
       "title": "b11453: llama: remove the gather path of the glm5-next sparse attention (#30042)",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11453"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "3bc52993114bf83f7f7db85e",
-      "discovered_at": "2026-10-05T09:14:16Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-05T08:37:59Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "ggml-cpu : add Q8_0 IME1 matrix kernel for SpacemiT X60 ( #28479 ) ggml-cpu : add Q8_0 IME1 matrix kernel for SpacemiT X60 On the SpacemiT X60, IME matrix acceleration only covered Q4_0/Q4_1/Q4_K. Q8_0 had no IME1 kernel, and since the SpacemiT build sets GGML_CPU_REPACK=OFF there was no repack path compiled in either, so Q8_0 had no accelerated path at all and ran roughly ten times slower than Q4_0 for prefill on the same board. add make_block_q8_0x16 and the Q8_0 repack entry: interleave the weights into the 16-column layout the IME1 vmadot sequence expects add ime1::gemm_kernel_i8i8, an int8 x int8 IME1 kernel with a single-row and a 4-row A path; the 4-row path loads each B panel once and reuses it across 4 rows of A add quantize_a_4row_i8 for the 4-row activation quantization wire both into forward_mul_mat and the repack factory for Q8_0 docs: mark Q8_0 as supported on X60 Correctness was checked against a quant-exact integer reference for K = 32 up to 4096, with a max relative error of about 1e-6, and by checking that generation stays coherent across several prompts. Tested on Milk-V Jupiter (SpacemiT X60), Bianbu 2.1.1, gcc 14.2, with Qwen2.5-0.5B-Instruct Q8_0. llama-bench -t 4 under taskset -c 0-3, 5 repetitions on an idle board: pp128 goes from 10.70 to 93.87 t/s. Q4_0 is unchanged at 106.40 -> 107.51 t/s, as expected since this does not touch that path. ggml-cpu : move q8_0_16x32 decl to IME1 section ggml-cpu : align q8_0 IME1 kernel assignments Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52757256 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11408",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11408"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "2d1ba5f9cd87f735ba5c106b",
-      "discovered_at": "2026-10-05T09:14:16Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-05T07:08:58Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "cuda: tile the lightning indexer over keys and tokens for 4 heads ( #29901 ) cuda: tile the lightning indexer over keys and tokens for 4 heads With too few heads for a wmma tile, a block scores 64 keys against 8 tokens: the keys are staged once in half precision, the queries one head at a time, and each thread owns one key for two tokens, so no dot product needs a cross thread reduction. Batches smaller than a token tile keep the vector kernel. test-backend-ops measures 4 heads. cuda: multiply the lightning indexer tile in float Address review from am17an: the half2 products overflow once a single q * k exceeds the f16 range. The queries stay in float in shared memory and each half2 of keys is widened once for both tokens, so every product and sum is computed in float. cuda: widen each lightning indexer key once for all heads The tile kernel stages the queries and weights of every head at once, so each key element is widened from half once and feeds all heads, with a single barrier. F16 keys are copied into the tile without a float round trip. Keeping the keys in float in shared memory measures slower, the occupancy drops. cuda: stop the lightning indexer tile from spilling registers on ROCm Each thread of the tile kernel now scores two keys for a single token, so a warp shares its token and the query reads are broadcasts: six shared reads per element pair instead of nine for the same products. The inner loop is unrolled by 8, which keeps gfx908 at 63 VGPRs with no spill where the fully unrolled loop needed over a thousand, and makes the kernel 36x faster on an R9700 and slightly faster on CUDA. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52734616 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11405",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11405"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "c382892319c647d5502c85bb",
-      "discovered_at": "2026-10-15T15:07:09Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-15T15:07:02Z",
-      "search_score": 5,
-      "source_name": "Ollama Releases",
-      "summary": "What's Changed mlx: port the Metal custom kernels to CUDA by @dhiltgen in #18657 docs: model recs and language standardization by @anra8571 in #18981 openai: accept custom tool calls in Responses history by @hoyyeva in #18911 app: clarify cloud payment errors by @willietran in #18986 MLX: version bump by @dhiltgen in #18993 New Contributors @willietran made their first contribution in #18986 Full Changelog : v0.40.4...v0.40.5-rc0",
-      "title": "v0.40.5",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc1"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-16T00:45:14Z",
+  "updated_at": "2026-10-16T05:36:54Z",
   "version": 2
 }

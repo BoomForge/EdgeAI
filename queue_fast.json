@@ -1990,6 +1990,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "94eadcab22c41e356a1d9bf1",
+      "discovered_at": "2026-10-16T00:44:38Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "search_score": 4,
+      "source_name": "OpenAI News",
+      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "ebb413cc5359756bf9234b81",
       "discovered_at": "2026-10-07T02:28:18Z",
       "kind": "official",
@@ -2732,6 +2746,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "e48eb6d06c650a2077e98021",
+      "discovered_at": "2026-10-16T00:45:08Z",
+      "kind": "agents",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-15T23:37:58Z",
+      "search_score": 8,
+      "source_name": "browser-use Releases",
+      "summary": "Add OpenAI browser tools backed by Browser Use Actor. Import BrowserUse from browser_use.integrations.openai . Install browser-use[openai-tools] to enable OpenAI Python 3.31+. Use local browsers, Browser Use Cloud, or an existing connected BrowserSession. Support the 18 default browser tools and six optional actions. Preserve borrowed browser ownership and check Cloud browser cleanup. Preserve URL and timeout settings across OpenAI 2.x and 3.x model wrappers. OpenAI 3.x uses httpx2. For custom HTTP clients, use OpenAI's DefaultAsyncHttpxClient. This integration does not yet provide uploads, downloads, scoped reads, console/network diagnostics, or Bash. Validation: 35 integration/model tests passed, two skipped; OpenAI 2.26 compatibility: 15 passed, one skipped. All pull-request checks passed. Live Cloud navigation and element-reference click tests passed with provider-confirmed cleanup. Implementation: #6086 Cloud tests: https://github.com/browser-use/new-eval-platform/actions/runs/38824343560",
+      "title": "0.13.12: OpenAI browser tools",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.12"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "dd6669033ccdf16934af21a3",
       "discovered_at": "2026-10-15T22:27:27Z",
       "kind": "local-ai",
@@ -2995,6 +3023,20 @@
       "summary": "ggml-quants : avoid invalid rounding in qkx3 scale search ( #29817 ) ggml-quants : avoid invalid rounding in qkx3 scale search The imatrix scale search can produce an infinite, NaN, or otherwise out-of-range value when the fitted minimum collapses to the maximum or makes the range extremely small. That value is then passed to nearest_int and can trip its assertion in Debug builds. Clamp the quantization level to [0, nmax] before rounding so valid in-range values behave the same as before while invalid scale-search results no longer reach nearest_int. Add regression coverage for degenerate imatrix groups across q2_K, q4_K, q5_K, q4_1, and q5_1. Fixes #29804 . Assisted-by: Claude Opus 5.5 tests: print degenerate imatrix quant types Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52340657 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11366",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11366"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "73d75a58fd916ae7f1bb67e5",
+      "discovered_at": "2026-10-16T00:45:08Z",
+      "kind": "agents",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-15T23:50:45Z",
+      "search_score": 7,
+      "source_name": "browser-use Releases",
+      "summary": "This release includes the OpenAI browser-tool driver and fixes two integration issues. Handle temporary empty Cloud tab URLs during navigation. Keep screenshots, crops, and pointer coordinates aligned on scaled displays. Provide 18 default browser tools and six optional actions through Browser Use Actor. Support local browsers, Browser Use Cloud, and borrowed browser sessions. Install the openai-tools extra with OpenAI Python 3.31+. OpenAI 3.x uses httpx2; use its DefaultAsyncHttpxClient for custom HTTP clients. Validation: all eleven driver tests pass. Both new regression tests fail on the earlier implementation. Pre-commit, type checks, package builds, and GitHub tests pass. Live remote-browser and library smoke tests passed; broader evaluation results remain separate. This release supersedes 0.13.12, whose PyPI publication was cancelled before approval. Guide: https://docs.browser-use.com/open-source/customize/integrations/openai Driver: #6086 Fixes: #6089",
+      "title": "0.13.13: OpenAI browser tools and Cloud fixes",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.13"
     },
     {
       "bootstrap": false,
@@ -3457,51 +3499,9 @@
       "summary": "What's Changed mlx: port the Metal custom kernels to CUDA by @dhiltgen in #18657 docs: model recs and language standardization by @anra8571 in #18981 openai: accept custom tool calls in Responses history by @hoyyeva in #18911 app: clarify cloud payment errors by @willietran in #18986 MLX: version bump by @dhiltgen in #18993 New Contributors @willietran made their first contribution in #18986 Full Changelog : v0.40.4...v0.40.5-rc0",
       "title": "v0.40.5",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc1"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "e3fbab269c4c21b247698d66",
-      "discovered_at": "2026-10-15T10:18:29Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-15T06:30:56Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "vulkan: Use L2-friendly workgroup scheduling for cm2 mulmat ( #30215 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56139256 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11640",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11640"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "798dd4e62a4a54034c8a7342",
-      "discovered_at": "2026-10-15T05:40:28Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-15T04:01:39Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "ggml-cpu : keep the FP16->FP32 lookup table on x86 with F16C ( #30342 ) ( #30343 ) ggml-cpu : keep the FP16->FP32 lookup table on x86 with F16C ( #30342 ) #30270 routed both scalar conversions through F16C. For FP16->FP32, Clang 20.1.8 lowers the intrinsic to a vpinsrw merging into the live accumulator register of the quantized dot products, which serialises the loop (19 vs 4 cycles/iteration estimated, 45-65% slower Q8_0/Q4_0 MUL_MAT_ID kernels measured). Keep F16C for FP32->FP16 as intended and the table for FP16->FP32. ggml-cpu : comment out the F16C FP16->FP32 define instead of removing it (review) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56105849 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11635",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11635"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "cd37e28fc8a53d4d1ce768d5",
-      "discovered_at": "2026-10-15T05:40:28Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-15T03:41:25Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "ggml-cpu : size set_rows conversion buffer for all threads ( #30454 ) ggml-cpu : size set_rows conversion buffer for all threads SET_ROWS is planned with n_tasks = 1, but every thread runs it and uses its own row of the F16 -> F32 conversion buffer, so threads > 0 wrote past the work buffer when the graph had another multi-threaded op. move set_rows to n_task = n_threads group Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56100739 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11633",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11633"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-15T22:27:49Z",
+  "updated_at": "2026-10-16T00:45:14Z",
   "version": 2
 }

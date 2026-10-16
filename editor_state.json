@@ -37,11 +37,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-15T23:11:22Z",
-    "eligible": 43,
-    "evaluated": 2,
+    "at": "2026-10-16T01:19:24Z",
+    "eligible": 41,
+    "evaluated": 3,
     "mode": "live",
-    "new_posts": 1,
+    "new_posts": 2,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -2398,6 +2398,20 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00083"
     },
+    "7da99f40f855b50457e2a875": {
+      "at": "2026-10-16T01:19:24Z",
+      "bootstrap": false,
+      "score": 91,
+      "status": "published",
+      "story_key": "ollama-v0-40-5-nemotron-3-5-support-cloud-decision-models",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Ollama Releases"
+      },
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5"
+    },
     "7db4974c11ebd58e1ae24279": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -2509,6 +2523,14 @@
       "status": "ignored",
       "story_key": "nous-research-hermes-agent-windows-store",
       "url": "https://x.com/NousResearch/status/2108418231388278875"
+    },
+    "84815758cd7d5295ad0c54ae": {
+      "at": "2026-10-16T01:19:15Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-snapshot-oct-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-afaacdc0c3dfe629b399"
     },
     "853a0c249788523a4e15541f": {
       "at": "2026-10-10T01:19:22Z",
@@ -2811,6 +2833,20 @@
       "status": "ignored",
       "story_key": "llamacpp-b11557-rpc-logging-update",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11557"
+    },
+    "94eadcab22c41e356a1d9bf1": {
+      "at": "2026-10-16T01:19:19Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "sullivan-cromwell-agreement-analyzer-openai",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/sullivan-cromwell"
     },
     "94ee28b93f9d2d830319b5f7": {
       "at": "2026-10-15T01:43:29Z",
@@ -6374,6 +6410,27 @@
         "source": "Nous Research Announcements"
       }
     },
+    "ollama-v0-40-5-nemotron-3-5-support-cloud-decision-models": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/ollama-v0-40-5-nemotron-3-5-support-cloud-decision-models.png",
+      "last_updated": "2026-10-16T01:19:24Z",
+      "post_id": "4422763331528937364",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/ollama-v0405-adds-support-for-nvidia.html",
+      "score": 91,
+      "source_image_source": "Ollama Releases",
+      "source_image_url": "https://opengraph.githubassets.com/50e08577562f01dc2938165767d228422e7733298c7bdcfbca3e27fdb82b2a18/ollama/ollama/releases/tag/v0.40.5",
+      "source_urls": [
+        "https://github.com/ollama/ollama/releases/tag/v0.40.5"
+      ],
+      "status": "CONFIRMED",
+      "title": "Ollama v0.40.5 Adds Support for NVIDIA Nemotron 3.5 Models and Cloud Decision Routing",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Ollama Releases"
+      }
+    },
     "openai-amp-agents-gpt6-astra-gpt-live-1": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-amp-agents-gpt6-astra-gpt-live-1.jpg",
@@ -7452,6 +7509,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 93,
         "source": "Stability AI News"
+      }
+    },
+    "sullivan-cromwell-agreement-analyzer-openai": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/sullivan-cromwell-agreement-analyzer-openai.jpg",
+      "last_updated": "2026-10-16T01:19:19Z",
+      "post_id": "4468793454485184134",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/sullivan-cromwell-and-openai-partner-on.html",
+      "score": 82,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/4UO3B0RlmvGz3hIUiiFyJl/262aca81008e886c7d750c18ee33c0aa/sullivan-cromwell-seo.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/sullivan-cromwell"
+      ],
+      "status": "CONFIRMED",
+      "title": "Sullivan & Cromwell and OpenAI Partner on Agreement Analyzer for Legal Workflows",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
       }
     },
     "xai-grok-voice-3-release": {

@@ -37,11 +37,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-16T06:10:32Z",
-    "eligible": 40,
+    "at": "2026-10-16T11:17:00Z",
+    "eligible": 39,
     "evaluated": 3,
     "mode": "live",
-    "new_posts": 1,
+    "new_posts": 2,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -1906,6 +1906,14 @@
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2106497772426076504"
     },
+    "61c29b6f97246c3b30895a84": {
+      "at": "2026-10-16T11:16:38Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-snapshot",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-cc7d476dd571b24438a8"
+    },
     "6218e0219f6856f2edb6a893": {
       "at": "2026-10-08T05:57:12Z",
       "bootstrap": false,
@@ -2758,6 +2766,20 @@
       "at": "2026-10-12T23:48:45Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11534"
+    },
+    "8d8b12d65d3b29d54a46605b": {
+      "at": "2026-10-16T11:16:52Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "cline-v4-1-25-cloud-sessions-default-models",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Cline Releases"
+      },
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.25"
     },
     "8dc761dbcef27687b8863a87": {
       "at": "2026-10-06T02:32:21Z",
@@ -4126,6 +4148,20 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/cloudflare-clef"
     },
+    "e07b1338e91c69ebd6fe27e6": {
+      "at": "2026-10-16T11:17:00Z",
+      "bootstrap": false,
+      "score": 91,
+      "status": "published",
+      "story_key": "nvidia-nemotron-3-5-super-vl-hermes-agent",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2110786024024445201"
+    },
     "e0810cc5162e1fa903caa1f5": {
       "at": "2026-10-07T13:59:36Z",
       "bootstrap": false,
@@ -5372,6 +5408,27 @@
         "source": "Cline Releases"
       }
     },
+    "cline-v4-1-25-cloud-sessions-default-models": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/cline-v4-1-25-cloud-sessions-default-models.png",
+      "last_updated": "2026-10-16T11:16:52Z",
+      "post_id": "6703793517519972441",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/cline-v4125-introduces-cloud-sandbox.html",
+      "score": 85,
+      "source_image_source": "Cline Releases",
+      "source_image_url": "https://opengraph.githubassets.com/5980d9027f2aabb611e849bc155e624eaafe8f34e05865197afaaaa3a53e9446/cline/cline/releases/tag/v4.1.25",
+      "source_urls": [
+        "https://github.com/cline/cline/releases/tag/v4.1.25"
+      ],
+      "status": "CONFIRMED",
+      "title": "Cline v4.1.25 Introduces Cloud Sandbox Sessions and Updates Default Model Routing",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Cline Releases"
+      }
+    },
     "comfyui-v0-40-0-release": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/comfyui-v0-40-0-release.png",
@@ -6444,6 +6501,27 @@
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 86,
+        "source": "Nous Research Announcements"
+      }
+    },
+    "nvidia-nemotron-3-5-super-vl-hermes-agent": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nvidia-nemotron-3-5-super-vl-hermes-agent.jpg",
+      "last_updated": "2026-10-16T11:17:00Z",
+      "post_id": "6098667314899848208",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nvidia-releases-nemotron-35-super-vl.html",
+      "score": 91,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_400x400.jpg",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2110786024024445201"
+      ],
+      "status": "CONFIRMED",
+      "title": "NVIDIA Releases Nemotron 3.5 Super VL with 120B Parameters for Long-Running Agents",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
         "source": "Nous Research Announcements"
       }
     },

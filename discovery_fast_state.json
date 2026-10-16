@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-16T05:36:54Z",
+    "at": "2026-10-16T10:06:30Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 59,
+    "queued": 8,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 64,
+  "runs": 65,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -608,6 +608,11 @@
       "status": "queued",
       "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
     },
+    "2067d9d2fbf30d76c39877da": {
+      "first_seen": "2026-10-16T10:06:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11683"
+    },
     "20b6195dd6f81b9b870d8c4e": {
       "first_seen": "2026-10-09T06:41:16Z",
       "status": "queued",
@@ -1205,6 +1210,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/indiana-energy-imact-program/"
+    },
+    "3fb841e489d51fc4f16a7c50": {
+      "first_seen": "2026-10-16T10:06:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11687"
     },
     "3fbcb9b67843708734726082": {
       "first_seen": "2026-10-13T21:32:32Z",
@@ -2486,6 +2496,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11570"
     },
+    "83e4afbbadb84e11080248a4": {
+      "first_seen": "2026-10-16T10:06:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11685"
+    },
     "840978c2e6f28318fa694682": {
       "first_seen": "2026-10-09T13:48:02Z",
       "status": "queued",
@@ -2531,6 +2546,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1"
+    },
+    "86b385c6ba2d7b396b81c226": {
+      "first_seen": "2026-10-16T10:06:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11688"
     },
     "86c976194a1349e0941fe5f5": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -2667,6 +2687,11 @@
       "first_seen": "2026-10-09T19:20:42Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11534"
+    },
+    "8d8b12d65d3b29d54a46605b": {
+      "first_seen": "2026-10-16T10:06:22Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.25"
     },
     "8d92d426ee46f64f08cd8291": {
       "first_seen": "2026-10-13T21:32:32Z",
@@ -4033,6 +4058,11 @@
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.903-beta"
     },
+    "d3ec8753d421d644d81f616d": {
+      "first_seen": "2026-10-16T10:06:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11684"
+    },
     "d419e01c6d985788362d145e": {
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
@@ -4727,6 +4757,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0"
     },
+    "f7d49e39d15a6792b2c76848": {
+      "first_seen": "2026-10-16T10:06:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11682"
+    },
     "f81e09a34a93804752fa7e79": {
       "first_seen": "2026-10-16T05:36:29Z",
       "status": "queued",
@@ -4776,6 +4811,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11362"
+    },
+    "fa6da7aac393f1f739ef8238": {
+      "first_seen": "2026-10-16T10:06:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11690"
     },
     "fada9b8ec938f910e1ba76ed": {
       "first_seen": "2026-10-11T01:16:52Z",

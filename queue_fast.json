@@ -2284,6 +2284,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "8d8b12d65d3b29d54a46605b",
+      "discovered_at": "2026-10-16T10:06:22Z",
+      "kind": "coding-agents",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-16T06:39:25Z",
+      "search_score": 25,
+      "source_name": "Cline Releases",
+      "summary": "Added Cline Cloud sessions, rolling out gradually: run a task in a hosted sandbox on a GitHub repo and branch you pick. Turn it on in Settings. Cloud tasks show in Recent and History with their status, notify you when they finish, and keep running after you close your editor. Changed With no model chosen, the Cline provider now uses Gemini 4 Argon, the new first model in Cline's recommended list. OpenRouter stays on Claude Sonnet 5.5. Refreshed the model catalog. Adds the Boundless and Standard Compute providers, and SambaNova now comes from the catalog with MiniMax M3 as its default. The Cline recommended list adds Gemini 4 Argon and drops Grok 4.7, and the Cline free list replaces Step 5 Preview with Nemotron 3.5 Super VL. OpenCode Go no longer lists MiniMax M2.7. Default models change for Cortecs, CrossModel, Eden AI, Google Gemini, GitHub Copilot, Google Vertex AI, LLM Gateway, Ofox, OpenCode Go, and Prime Inference (Gemini 4 Argon), Fireworks AI, Nebius Token Factory, and Requesty (Muse Spark Open), CoreWeave, DigitalOcean, NanoGPT, and Nvidia (Nemotron 3.5 Super VL), Aixy and Neon (Claude Haiku 5.5), Agnes AI, Ambient, IteraCompute, Poe, Scaleway, and SenseNova. If you use one of those providers without pinning a model, expect a different default. Fixed Long requests to local models (LM Studio, Ollama) no longer fail after 5 minutes of silence with terminated: BodyTimeoutError while the server is still processing a large prompt. OpenAI Compatible base URLs are used exactly as entered. A host-only URL like https://abc.com used to get /v1 added silently. Host-only URLs saved by earlier versions get /v1 added once, so existing setups keep working. Images and files attached to an answer to one of Cline's questions now reach the model instead of being dropped. When a provider error interrupts a response mid-stream, Cline retries it up to 3 times before failing the turn. In JetBrains, the Run task card stays above the Auto-approve bar. Auto Compact and its strategy setting sit together again in Feature settings. Full Changelog : v4.1.24...v4.1.25",
+      "title": "v4.1.25",
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.25"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "833bda6d1c7777e35dda0b14",
       "discovered_at": "2026-10-16T05:36:48Z",
       "kind": "coding-agents",
@@ -2547,6 +2561,20 @@
       "summary": "The secondary button gets its own look back and the chat add button its own light surface. Pressable elements get a pointer cursor again, the font rendering smooths on the app shell, the root layout resolves its props probe through the providers' api url, and the agent skills stay out of prettier's way. Assisted-by: pi:llama.cpp/DeepSeek-V4.1-Flash",
       "title": "backup/allozaur-ui-shell-polish: ui : polish the shell",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/backup%2Fallozaur-ui-shell-polish"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "d3ec8753d421d644d81f616d",
+      "discovered_at": "2026-10-16T10:06:04Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-16T09:02:53Z",
+      "search_score": 10,
+      "source_name": "llama.cpp Releases",
+      "summary": "tests : catch vanished rows in the fusion baseline ( #30618 ) tests : update the Metal fusion baseline Re-record the MTL fusion baseline with the current build: 276 rows over 131 dummy models. Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) tests : fail test-fusion when a baseline row stops matching The report was built from the counters the run produced, and the baseline was only ever used as a lookup table, so a fusion that stopped matching produced no row and was never compared. qwen4exp and mellum lost their fusions this way while the Fusion / metal job stayed green. Report a baseline row that the run does not reproduce as a regression. Scope the pass to the arches that were actually run so --model keeps working. Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) pi : never write inline comments unless the user asks Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) tests : keep the mellum dummy model softmax-gated mellum reads expert_gating_func from the GGUF since #30578 , while the fixture writes sigmoid for every MoE arch, so the Mellum dummy model stopped building the softmax MoE routing fusion. Write softmax for mellum, matching the arch default and the GGUFs that conversion/mellum.py produces. Re-record the MTL baseline: the routing row is back, 277 ok / 0 failed. Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) pi : use emoji in the AI stats disclosure Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) pi : list the disclosure model after the hardware Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) pi : use monochrome symbols in the AI stats disclosure Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) tests : add muse-spark to the Metal fusion baseline Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56596354 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11684",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11684"
     },
     {
       "bootstrap": false,
@@ -3471,37 +3499,9 @@
       "summary": "When a legacy GGUF which requires our llama.cpp patch set is loaded, we do a lazy conversion on disk to make it llama.cpp compatible.  To support downgrades, we temporarily hold both the new and old GGUFs and create a shadow v1 manifest tag to prevent the downgraded server from deleting the new blobs. Showing these in the list output is confusing to users and API consumers.  The legacy copies will be removed in a future release to recover the disk space.",
       "title": "v0.40.2-rc0: server: hide duplicate and downgrade guards from list (#18874)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2-rc0"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "65cf245591aca8f20d74430c",
-      "discovered_at": "2026-10-08T20:34:17Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-08T15:53:36Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "CUDA: fix CCCL version guard breaking on major version rollover ( #29453 ) CUDA: fix CCCL version guard breaking on major version rollover The guard compared the major and minor components independently: CCCL_MAJOR_VERSION >= 3 && CCCL_MINOR_VERSION >= 1 Minor resets to 0 whenever a new major series is cut, so on CCCL 4.x this evaluates as 4 >= 3 && 0 >= 1, i.e. false. STRIDED_ITERATOR_AVAILABLE stops being defined and argsort silently falls back to the init_offsets path. Nothing warns and the build still succeeds, so the regression is a quiet performance loss rather than a compile error. CCCL already exposes the version as a single packed integer in MMMmmmpp form, which is what its own version header uses: CCCL_VERSION = MAJOR * 1000000 + MINOR * 1000 + PATCH so 3.4.3 is 3004003 and \">= 3.1\" is a plain \">= 3001000\". One comparison, with no component arithmetic left to get wrong. Checked against a hand-written \"version >= 3.1\" reference over 2.9.9, 3.0.0, 3.1.0, 3.1.99, 3.2.0, 3.4.3, 3.9.9, 3.99.99, 4.0.0, 4.2.7 and 5.0.0: no divergences. The old guard disagreed at 4.0.0 and 5.0.0. Verified on RTX 4070 (sm_89), CUDA 13.4, CCCL 3.4.3: cmake --build build --config Release: exit 0 test-backend-ops test -o ARGSORT -b CUDA0: 98/98 passed, CUDA0 OK Note that a passing regression test does not on its own prove the guard is still taken, since the fallback path passes too. Preprocessing the real translation unit confirms the strided-iterator branch is the one compiled in: counting_iterator is present, init_offsets is not. Signed-off-by: Heitor heitorgm@outlook.com Update ggml/src/ggml-cuda/argsort.cu Apply suggestion from @ORippler Signed-off-by: Heitor heitorgm@outlook.com Co-authored-by: Oliver Simons osimons@nvidia.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/53997029 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11509",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11509"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "9e6d9d48a65776be86374aa9",
-      "discovered_at": "2026-10-06T23:06:53Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-06T16:31:13Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "The gather path attended over the selected latents with a plain matmul and softmax. It only ran with n_ubatch <= 16, and the flash attention backends now skip the masked rows through n_kv_max, so the scatter path covers every case. Drop the gather flag, the gathered attention branch and gather_mla_rows. set_input_kpool always maps padding to the n_kv sentinel, and the slot mask becomes sel_mask since only the scatter reads it.",
-      "title": "b11453: llama: remove the gather path of the glm5-next sparse attention (#30042)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11453"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-16T05:36:54Z",
+  "updated_at": "2026-10-16T10:06:30Z",
   "version": 2
 }

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-16T14:48:20Z",
+    "at": "2026-10-16T18:47:00Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 6,
-    "queued": 4,
+    "prefiltered": 2,
+    "queued": 8,
     "sources_ok": 15,
-    "too_old": 5,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 65,
+  "runs": 66,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -445,6 +445,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/poke-finder-catch-em-on-the-web"
     },
+    "195086faf712f2609593e186": {
+      "first_seen": "2026-10-16T18:46:48Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-e9c5c12cc49ae62051ac"
+    },
     "1977358a53e0880f62ddfbc5": {
       "first_seen": "2026-10-06T00:46:20Z",
       "status": "queued",
@@ -517,6 +522,11 @@
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/fuseai"
+    },
+    "1c9a400580e4588c0fe128dd": {
+      "first_seen": "2026-10-16T18:46:59Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2111153981825155420"
     },
     "1cae9baa075bdbaec4e8055a": {
       "first_seen": "2026-10-04T20:10:47Z",
@@ -1088,6 +1098,11 @@
       "first_seen": "2026-10-14T21:37:27Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2110470076595835353"
+    },
+    "40a75d3cf0fdab68f031833b": {
+      "first_seen": "2026-10-16T18:46:44Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/toad-4"
     },
     "40b751b710ffdfe179ad0616": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -1811,6 +1826,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/history-monk-better-history-search"
     },
+    "6fb2c624519f86cf09c36a90": {
+      "first_seen": "2026-10-16T18:46:44Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/maybloc"
+    },
     "70c10ce905c06a54f91717a4": {
       "first_seen": "2026-10-09T07:47:51Z",
       "status": "queued",
@@ -2252,6 +2273,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/datasette-atom/"
     },
+    "85df24013f11a469fb1ae7c4": {
+      "first_seen": "2026-10-16T18:46:44Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/agent-vault-2"
+    },
     "8609703c606c7eb2702dd0b6": {
       "first_seen": "2026-10-12T15:14:38Z",
       "status": "too_old",
@@ -2520,6 +2546,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/acyclic"
     },
+    "9883533b07155eec428ab626": {
+      "first_seen": "2026-10-16T18:46:44Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/muse-spark-open"
+    },
     "992103baab869f7b32d66923": {
       "first_seen": "2026-10-16T14:48:14Z",
       "search_score": 0,
@@ -2775,6 +2806,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/servor"
+    },
+    "a9e79dfb0bcdb4b31a30499e": {
+      "first_seen": "2026-10-16T18:46:44Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/tetriz-harness"
     },
     "a9fa9b91d3ac8d8a0f169da0": {
       "first_seen": "2026-10-16T10:03:10Z",
@@ -3282,6 +3318,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/ruos"
     },
+    "ccad0e2700f01b639f503de2": {
+      "first_seen": "2026-10-16T18:46:44Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/holm"
+    },
     "ccb2d72ef3f1b4f15339ed3c": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
@@ -3308,6 +3350,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/lofi-desk-focus-relax-beats"
+    },
+    "cf3314df5d7b6a8ec423cd91": {
+      "first_seen": "2026-10-16T18:46:59Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2111130305780130131"
     },
     "cf9a17e8c858d596752872af": {
       "first_seen": "2026-10-04T17:06:51Z",
@@ -3887,6 +3934,11 @@
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-664b99d8d1508d59e241"
     },
+    "f46db7476e489b8b8d0c8a58": {
+      "first_seen": "2026-10-16T18:46:44Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/palomino"
+    },
     "f49337edd4415929aaa81e89": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -3955,6 +4007,11 @@
       "first_seen": "2026-10-06T06:55:27Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-007bd9bb03e9f53f1bb7"
+    },
+    "f84e97675f64d20ad04429b6": {
+      "first_seen": "2026-10-16T18:46:44Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/signwith"
     },
     "f862b9446c456ef6531bec4b": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -4027,6 +4084,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://microsoft.ai/models/mai-voice-2-1/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "ffac842e9f5df66048d20e96": {
+      "first_seen": "2026-10-16T18:46:59Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2111130300638273550"
     }
   },
   "version": 2

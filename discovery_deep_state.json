@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-16T21:47:34Z",
+    "at": "2026-10-16T23:59:27Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 9,
+    "prefiltered": 1,
+    "queued": 5,
     "sources_ok": 15,
     "too_old": 1,
     "warnings": 0
   },
-  "runs": 67,
+  "runs": 68,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -893,6 +893,11 @@
       "status": "queued",
       "url": "https://blog.youtube/news-and-events/youtube-music-ai-labels/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "34013be11de2ae69520ad6ee": {
+      "first_seen": "2026-10-16T23:59:21Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/15/latex/"
+    },
     "342976c99332a08be7ba988b": {
       "first_seen": "2026-10-15T09:50:31Z",
       "status": "queued",
@@ -949,6 +954,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/kudos-smart-wallet"
+    },
+    "368236d8ae253c6f1b6d1bc5": {
+      "first_seen": "2026-10-16T23:59:22Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-f8443b2f432f2773e3b5"
     },
     "36980dfdde9ab39e7f62d1f0": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -1746,6 +1756,11 @@
       "first_seen": "2026-10-11T09:11:21Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/ghost-core"
+    },
+    "6629ea3cb8a952e144b154a3": {
+      "first_seen": "2026-10-16T23:59:26Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2111243538440810641"
     },
     "6676883e07115b3ec1aaa9de": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -2586,6 +2601,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/acyclic"
     },
+    "98759ec285d8c46ec5f9aeee": {
+      "first_seen": "2026-10-16T23:59:21Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/grablo-spot"
+    },
     "9883533b07155eec428ab626": {
       "first_seen": "2026-10-16T18:46:44Z",
       "status": "queued",
@@ -3259,6 +3280,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/pawse-2"
     },
+    "c08a073b0cb6f80a23966527": {
+      "first_seen": "2026-10-16T23:59:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/scalebrowser"
+    },
     "c08ec2b468a48f442b32d10c": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
@@ -3812,6 +3838,11 @@
       "status": "queued",
       "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
     },
+    "e8a95e9b22df9875a5142cea": {
+      "first_seen": "2026-10-16T23:59:21Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review/"
+    },
     "e911ce0dca2fc01e210ece7f": {
       "first_seen": "2026-10-16T14:48:14Z",
       "status": "queued",
@@ -3942,6 +3973,11 @@
       "first_seen": "2026-10-03T15:15:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/bawkterm-an-open-source-ssh-sftp-client"
+    },
+    "f1d166af23c4ca249234391d": {
+      "first_seen": "2026-10-16T23:59:23Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-0e84d6ba164d83d0b5ab"
     },
     "f1dd3c30e284d704e858ca26": {
       "first_seen": "2026-10-08T08:53:55Z",

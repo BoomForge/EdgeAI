@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-16T14:55:55Z",
+    "at": "2026-10-16T18:41:26Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 6,
+    "queued": 3,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 66,
+  "runs": 67,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -62,6 +62,11 @@
       "first_seen": "2026-10-07T16:39:04Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11474"
+    },
+    "0400448115dbe0ee87bb492d": {
+      "first_seen": "2026-10-16T18:41:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11699"
     },
     "04a3afe8fc92fa04289acf34": {
       "first_seen": "2026-10-09T06:41:16Z",
@@ -429,6 +434,11 @@
       "first_seen": "2026-10-16T05:36:35Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11676"
+    },
+    "16ce5eb07728264c2c5f202e": {
+      "first_seen": "2026-10-16T18:41:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11700"
     },
     "1705d0bacfce97178b931318": {
       "first_seen": "2026-10-07T09:14:07Z",
@@ -3570,6 +3580,11 @@
       "first_seen": "2026-10-03T00:45:57Z",
       "status": "too_old",
       "url": "https://github.com/huggingface/diffusers/releases/tag/v0.37.1"
+    },
+    "b9fbebb49a086aa401ffd97b": {
+      "first_seen": "2026-10-16T18:40:55Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/"
     },
     "ba10a67cb4923b256ec4b826": {
       "first_seen": "2026-10-03T00:46:19Z",

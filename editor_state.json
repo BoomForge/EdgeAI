@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-17T12:30:04Z",
-    "eligible": 36,
-    "evaluated": 4,
+    "at": "2026-10-17T15:50:45Z",
+    "eligible": 33,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -4431,6 +4431,28 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11505"
     },
+    "e22b90d283cba6d2df508749": {
+      "at": "2026-10-17T15:50:41Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "nous-research-social-chatter",
+      "url": "https://x.com/NousResearch/status/2110438287399698522"
+    },
+    "e26c69d1b48ec35984aba35b": {
+      "at": "2026-10-17T15:50:45Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "anthropic-claude-election-safeguards-2026-midterms",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.anthropic.com/news/2026-us-midterms?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "e29b6fd6d8e146bda617f7e0": {
       "at": "2026-10-09T10:27:28Z",
       "status": "expired",
@@ -4656,6 +4678,20 @@
       "status": "ignored",
       "story_key": "llamacpp-b11549-slot-save-path-env",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11549"
+    },
+    "f1a5d21d344faf86a500d54a": {
+      "at": "2026-10-17T15:50:39Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "llamacpp-kolibri1-aleph-alpha-support",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
+      },
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11709"
     },
     "f1dd3c30e284d704e858ca26": {
       "at": "2026-10-08T13:21:02Z",
@@ -5041,6 +5077,27 @@
         "reason": "The development appears real, but some details are still arriving or remain incomplete.",
         "score": 81,
         "source": "Simon Willison Everything"
+      }
+    },
+    "anthropic-claude-election-safeguards-2026-midterms": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-claude-election-safeguards-2026-midterms.jpg",
+      "last_updated": "2026-10-17T15:50:45Z",
+      "post_id": "929255245950525564",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-details-expanded-claude.html",
+      "score": 82,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg",
+      "source_urls": [
+        "https://www.anthropic.com/news/2026-us-midterms?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Details Expanded Claude Election Safeguards and Data Integration Ahead of 2026 US Midterms",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "anthropic-claude-haiku-5-5": {
@@ -6273,6 +6330,27 @@
       ],
       "status": "CONFIRMED",
       "title": "llama.cpp v0.7.0 Released with Host-Memory MoE Caching, LiliCorr Speculative Decoding, and Extensive Model Support",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
+      }
+    },
+    "llamacpp-kolibri1-aleph-alpha-support": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/llamacpp-kolibri1-aleph-alpha-support.jpg",
+      "last_updated": "2026-10-17T15:50:39Z",
+      "post_id": "726073849359004087",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/llamacpp-adds-native-support-for-aleph.html",
+      "score": 82,
+      "source_image_source": "llama.cpp Releases",
+      "source_image_url": "https://opengraph.githubassets.com/85c85b127ac481f64b2e74c90c11bfb5b7d47fcb7490f96cc7f82e133c8ec3a1/ggml-org/llama.cpp/releases/tag/b11709",
+      "source_urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b11709"
+      ],
+      "status": "CONFIRMED",
+      "title": "llama.cpp Adds Native Support for Aleph-Alpha's Kolibri-1 MoE Reasoning Model",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

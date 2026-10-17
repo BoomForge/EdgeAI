@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-17T08:49:07Z",
+    "at": "2026-10-17T12:47:31Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 2,
+    "queued": 3,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 71,
+  "runs": 72,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -623,6 +623,11 @@
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/education/english-teacher-gemini/"
     },
+    "1fc1342f12a4a5529cacba27": {
+      "first_seen": "2026-10-17T12:47:08Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11710"
+    },
     "200a5d3dd39c6bfb7a201928": {
       "first_seen": "2026-10-14T10:22:27Z",
       "status": "queued",
@@ -749,6 +754,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/"
+    },
+    "2733257fb933e807dd0dfdef": {
+      "first_seen": "2026-10-17T12:47:08Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11711"
     },
     "27a7527a54e29bd1beb4039a": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -4771,6 +4781,11 @@
       "first_seen": "2026-10-10T15:11:44Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11549"
+    },
+    "f1a5d21d344faf86a500d54a": {
+      "first_seen": "2026-10-17T12:47:08Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11709"
     },
     "f2255dc9b461260a8ef0b0f6": {
       "first_seen": "2026-10-09T19:20:42Z",

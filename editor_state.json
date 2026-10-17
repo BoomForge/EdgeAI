@@ -37,11 +37,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-17T00:25:25Z",
-    "eligible": 38,
-    "evaluated": 3,
+    "at": "2026-10-17T04:50:11Z",
+    "eligible": 39,
+    "evaluated": 4,
     "mode": "live",
-    "new_posts": 0,
+    "new_posts": 2,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -450,6 +450,14 @@
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/"
+    },
+    "16e337b96c2a78400914d310": {
+      "at": "2026-10-17T04:50:02Z",
+      "bootstrap": false,
+      "score": 65,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-updates-oct-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-3e1c72d550f22f51a99c"
     },
     "179afd0ee553a08b8bacfe99": {
       "at": "2026-10-03T04:50:20Z",
@@ -965,6 +973,20 @@
       "story_key": "sakana-ai-japan-startup-award-2026",
       "url": "https://sakana.ai/japan-startup-award-2026/"
     },
+    "30524c47438f129e3b693188": {
+      "at": "2026-10-17T04:50:07Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "cline-sdk-v0095-model-catalog-and-openai-compatibility",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Cline Releases"
+      },
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.95"
+    },
     "305ba874f36ffe291e11411a": {
       "at": "2026-10-10T13:59:36Z",
       "bootstrap": false,
@@ -1260,6 +1282,14 @@
       "at": "2026-10-08T13:20:55Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11408"
+    },
+    "3bdf966e9b19733865cc7191": {
+      "at": "2026-10-17T04:50:04Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "cline-desktop-v0-0-48",
+      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.48"
     },
     "3c10e85f161e3d1d1b6983cc": {
       "at": "2026-10-06T02:32:14Z",
@@ -3277,6 +3307,20 @@
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11455"
+    },
+    "a2d47d967762a3a499dff79c": {
+      "at": "2026-10-17T04:50:11Z",
+      "bootstrap": false,
+      "score": 95,
+      "status": "published",
+      "story_key": "meta-muse-spark-open-816b-model",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://research.meta.ai/blog/muse-spark-open?utm_source=futuretools.io&utm_medium=newspage"
     },
     "a3323ce37a6dcf1415e1b97e": {
       "at": "2026-10-11T22:31:31Z",
@@ -5539,6 +5583,27 @@
         "source": "Cline Releases"
       }
     },
+    "cline-sdk-v0095-model-catalog-and-openai-compatibility": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/cline-sdk-v0095-model-catalog-and-openai-compatibility.png",
+      "last_updated": "2026-10-17T04:50:07Z",
+      "post_id": "9159331124855944392",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/cline-sdk-v0095-updates-model-catalog.html",
+      "score": 82,
+      "source_image_source": "Cline Releases",
+      "source_image_url": "https://opengraph.githubassets.com/f4818ecbf55e9a522d5ebf2c66124f325fb2a111f46da7ef68df773c8613dc21/cline/cline/releases/tag/sdk/sdk/v0.0.95",
+      "source_urls": [
+        "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.95"
+      ],
+      "status": "CONFIRMED",
+      "title": "Cline SDK v0.0.95 Updates Model Catalog to Over 7,000 Entries and Adjusts OpenAI API Compatibility",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Cline Releases"
+      }
+    },
     "cline-v4-1-24-release": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/cline-v4-1-24-release.png",
@@ -6154,6 +6219,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 89,
         "source": "Simon Willison Everything"
+      }
+    },
+    "meta-muse-spark-open-816b-model": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/meta-muse-spark-open-816b-model.jpg",
+      "last_updated": "2026-10-17T04:50:11Z",
+      "post_id": "4305882196557292928",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/meta-releases-muse-spark-open-816b.html",
+      "score": 95,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://research.meta.ai/articles/muse-spark-open/social/muse-spark-1-2-open-weights-social-v2.webp",
+      "source_urls": [
+        "https://research.meta.ai/blog/muse-spark-open?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Meta Releases Muse Spark Open: An 816B-Parameter Open-Weight Model Capable of Running on Apple Silicon",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "meta-muse-wonder-frontier-model": {

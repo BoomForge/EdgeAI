@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-17T08:52:20Z",
-    "eligible": 39,
-    "evaluated": 3,
+    "at": "2026-10-17T12:30:04Z",
+    "eligible": 36,
+    "evaluated": 4,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -464,6 +464,14 @@
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/"
+    },
+    "16ce5eb07728264c2c5f202e": {
+      "at": "2026-10-17T12:29:54Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11700-granite-switch",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11700"
     },
     "16e337b96c2a78400914d310": {
       "at": "2026-10-17T04:50:02Z",
@@ -1538,6 +1546,20 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11351"
     },
+    "4739cfb54ab725fc7a23d516": {
+      "at": "2026-10-17T12:30:04Z",
+      "bootstrap": false,
+      "score": 95,
+      "status": "published",
+      "story_key": "claude-solves-nist-ecdsa-curve-origins",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "47c3437aa5d6b239339d11fd": {
       "at": "2026-10-16T18:54:59Z",
       "status": "expired",
@@ -1621,6 +1643,14 @@
       "at": "2026-10-10T13:59:33Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11469"
+    },
+    "4d1d649a4ab59a9940eac48d": {
+      "at": "2026-10-17T12:29:56Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "nous-research-time-mention-satire",
+      "url": "https://x.com/NousResearch/status/2110886131290259537"
     },
     "4d282b1c56dbd0c8d49a3369": {
       "at": "2026-10-14T17:28:17Z",
@@ -3690,6 +3720,20 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11440"
     },
+    "baaecd55ff1b9309669cdf67": {
+      "at": "2026-10-17T12:29:59Z",
+      "bootstrap": false,
+      "score": 93,
+      "status": "published",
+      "story_key": "anthropic-claude-quantum-circuits-10x",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "bc04e68ea0738a77a4404dd8": {
       "at": "2026-10-11T18:49:43Z",
       "status": "expired",
@@ -5041,6 +5085,27 @@
         "source": "Simon Willison Everything"
       }
     },
+    "anthropic-claude-quantum-circuits-10x": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-claude-quantum-circuits-10x.jpg",
+      "last_updated": "2026-10-17T12:29:59Z",
+      "post_id": "1950543997324117805",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-reveals-claude-successfully.html",
+      "score": 93,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cc389d90b468ebc86011f6642099dfad9a4a757f-2000x1125.jpg",
+      "source_urls": [
+        "https://www.anthropic.com/research/designing-efficient-quantum-circuits?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic reveals Claude successfully optimized quantum circuits beyond published benchmarks",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      }
+    },
     "anthropic-investigating-unintended-model-actions-claude": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-investigating-unintended-model-actions-claude.jpg",
@@ -5595,6 +5660,27 @@
         "label": "Reasonable",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
         "score": 62,
+        "source": "FutureTools AI News"
+      }
+    },
+    "claude-solves-nist-ecdsa-curve-origins": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/claude-solves-nist-ecdsa-curve-origins.jpg",
+      "last_updated": "2026-10-17T12:30:04Z",
+      "post_id": "6233278527107820418",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/claude-solves-25-year-mystery-of-nist.html",
+      "score": 95,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d0c862c5cabd703c0fcbaad939385133f02b694c-1200x630.jpg",
+      "source_urls": [
+        "https://www.anthropic.com/research/ecdsa-curve-origins?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Claude Solves 25-Year Mystery of NIST ECDSA Curve Origins",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
         "source": "FutureTools AI News"
       }
     },

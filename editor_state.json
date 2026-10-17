@@ -37,12 +37,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-17T17:58:37Z",
-    "eligible": 32,
-    "evaluated": 4,
+    "at": "2026-10-17T20:31:24Z",
+    "eligible": 26,
+    "evaluated": 5,
     "mode": "live",
-    "new_posts": 2,
-    "publish_actions": 2,
+    "new_posts": 0,
+    "publish_actions": 0,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -725,6 +725,14 @@
       "status": "expired",
       "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-build-apps-extend-agents-and-transform-business-processes-in-microsoft-copilot-studio/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "23178e6a594364e04f6a76d3": {
+      "at": "2026-10-17T20:31:23Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "simon-willison-chirp-pong-experiment",
+      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/"
+    },
     "231befe88d753d0247c6f00f": {
       "at": "2026-10-08T05:57:06Z",
       "bootstrap": false,
@@ -1092,6 +1100,14 @@
       "at": "2026-10-05T01:11:35Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc1"
+    },
+    "34013be11de2ae69520ad6ee": {
+      "at": "2026-10-17T20:31:24Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "simon-willison-latex-renderer-tool",
+      "url": "https://simonwillison.net/2026/Oct/15/latex/"
     },
     "345f1755705d282a19e9b6b2": {
       "at": "2026-10-07T06:34:08Z",
@@ -1783,6 +1799,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00515"
     },
+    "56c3e617dcc3857375b28b82": {
+      "at": "2026-10-17T20:31:16Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11623"
+    },
     "56eb29f3263726d8a778c934": {
       "at": "2026-10-11T22:31:31Z",
       "status": "expired",
@@ -2352,6 +2373,14 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.23"
+    },
+    "7043036d10c7bf654f7b5126": {
+      "at": "2026-10-17T20:31:21Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b11703-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11703"
     },
     "70c10ce905c06a54f91717a4": {
       "at": "2026-10-10T18:31:36Z",
@@ -3656,6 +3685,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11598"
     },
+    "b39c30e6bbc6c6f0ecf447d0": {
+      "at": "2026-10-17T20:31:16Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11619"
+    },
     "b3ddf621cd927d255750a3ef": {
       "at": "2026-10-03T10:41:10Z",
       "bootstrap": true,
@@ -4153,6 +4187,14 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
     },
+    "d3ec8753d421d644d81f616d": {
+      "at": "2026-10-17T20:31:20Z",
+      "bootstrap": false,
+      "score": 50,
+      "status": "ignored",
+      "story_key": "llamacpp-b11684-routine-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11684"
+    },
     "d43019accfd19e1ed1c4ed4b": {
       "at": "2026-10-09T03:09:32Z",
       "status": "expired",
@@ -4410,6 +4452,14 @@
       "status": "ignored",
       "story_key": "ollama-v0-40-3",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.3"
+    },
+    "de38b48d82475212f00c1c46": {
+      "at": "2026-10-17T20:31:18Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b11712-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11712"
     },
     "dec620cb7225d2434a9b02e6": {
       "at": "2026-10-03T05:49:31Z",

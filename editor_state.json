@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-17T15:50:45Z",
-    "eligible": 33,
-    "evaluated": 3,
+    "at": "2026-10-17T17:58:37Z",
+    "eligible": 32,
+    "evaluated": 4,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -2036,6 +2036,20 @@
       "story_key": "artificial-analysis-changelog-snapshot",
       "url": "https://artificialanalysis.ai/changelog#edgeai-cc7d476dd571b24438a8"
     },
+    "61dfb167a321c72f918e7bb9": {
+      "at": "2026-10-17T17:58:30Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "llama-cpp-b11714-hf-hub-discover-download",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
+      },
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11714"
+    },
     "6218e0219f6856f2edb6a893": {
       "at": "2026-10-08T05:57:12Z",
       "bootstrap": false,
@@ -2456,6 +2470,20 @@
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11371"
+    },
+    "782d5b0065aab2f93bad1890": {
+      "at": "2026-10-17T17:58:37Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "anthropic-investor-revenue-distillation-2026",
+      "trust": {
+        "label": "Strong",
+        "reason": "The development appears real, but some details are still arriving or remain incomplete.",
+        "score": 81,
+        "source": "Simon Willison Everything"
+      },
+      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
     },
     "785ae5d61ec0075f6154b90e": {
       "at": "2026-10-11T00:57:19Z",
@@ -3500,6 +3528,14 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-updates-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-1a1822b7190d4eead63a"
+    },
+    "abcb23b0cf18257657450f25": {
+      "at": "2026-10-17T17:58:32Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11707-granite-switch",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11707"
     },
     "ac41f4531fca042f6f8aec42": {
       "at": "2026-10-05T07:01:46Z",
@@ -4567,6 +4603,14 @@
       },
       "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
     },
+    "e8a95e9b22df9875a5142cea": {
+      "at": "2026-10-17T17:58:33Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "claude-code-team-code-review-practices-quote",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review/"
+    },
     "e90be0694fe4344005cda733": {
       "at": "2026-10-10T07:33:39Z",
       "status": "expired",
@@ -5182,6 +5226,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
         "score": 64,
         "source": "FutureTools AI News"
+      }
+    },
+    "anthropic-investor-revenue-distillation-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/anthropic-investor-revenue-distillation-2026.png",
+      "last_updated": "2026-10-17T17:58:37Z",
+      "post_id": "4662707323942759221",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-reports-strong-quarterly.html",
+      "score": 85,
+      "source_image_source": "EdgeAI",
+      "source_image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/edgeai-newsroom-fallback.svg",
+      "source_urls": [
+        "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
+      ],
+      "status": "DEVELOPING",
+      "title": "Anthropic Reports Strong Quarterly Revenue Growth and Details Distillation Crackdown Ahead of IPO",
+      "trust": {
+        "label": "Strong",
+        "reason": "The development appears real, but some details are still arriving or remain incomplete.",
+        "score": 81,
+        "source": "Simon Willison Everything"
       }
     },
     "anthropic-openai-war-game-catastrophic-ai-event": {
@@ -6293,6 +6358,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "OpenAI News"
+      }
+    },
+    "llama-cpp-b11714-hf-hub-discover-download": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/llama-cpp-b11714-hf-hub-discover-download.jpg",
+      "last_updated": "2026-10-17T17:58:30Z",
+      "post_id": "7517074997729774983",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/llamacpp-release-b11714-adds-hugging.html",
+      "score": 82,
+      "source_image_source": "llama.cpp Releases",
+      "source_image_url": "https://opengraph.githubassets.com/3d5e10405293b4aa369d00897957db41c9362d135b5c1cdfb09a5aba7aadd73d/ggml-org/llama.cpp/releases/tag/b11714",
+      "source_urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b11714"
+      ],
+      "status": "CONFIRMED",
+      "title": "llama.cpp Release b11714 Adds Hugging Face Hub Model Discovery and Download UI",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
       }
     },
     "llama-cpp-v0-6-0-release": {

@@ -37,12 +37,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-17T20:31:24Z",
-    "eligible": 26,
-    "evaluated": 5,
+    "at": "2026-10-17T22:35:00Z",
+    "eligible": 20,
+    "evaluated": 2,
     "mode": "live",
-    "new_posts": 0,
-    "publish_actions": 0,
+    "new_posts": 2,
+    "publish_actions": 2,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -2787,6 +2787,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11552"
     },
+    "85de25504b4d92d69daf9d75": {
+      "at": "2026-10-17T22:34:49Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/crew-tower"
+    },
     "86745252420db89333393bf9": {
       "at": "2026-10-05T22:35:25Z",
       "status": "expired",
@@ -4583,6 +4588,20 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/1/matthew-green/"
     },
+    "e48eb6d06c650a2077e98021": {
+      "at": "2026-10-17T22:35:00Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "browser-use-0-13-12-openai-browser-tools",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "browser-use Releases"
+      },
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.12"
+    },
     "e5292497ed6938ae8aab9d59": {
       "at": "2026-10-10T18:31:46Z",
       "bootstrap": false,
@@ -4786,6 +4805,20 @@
         "source": "llama.cpp Releases"
       },
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11709"
+    },
+    "f1d166af23c4ca249234391d": {
+      "at": "2026-10-17T22:34:55Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "openrouter-rankings-october-2026",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 83,
+        "source": "OpenRouter Rankings"
+      },
+      "url": "https://openrouter.ai/rankings#edgeai-0e84d6ba164d83d0b5ab"
     },
     "f1dd3c30e284d704e858ca26": {
       "at": "2026-10-08T13:21:02Z",
@@ -5811,6 +5844,27 @@
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 88,
+        "source": "browser-use Releases"
+      }
+    },
+    "browser-use-0-13-12-openai-browser-tools": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/browser-use-0-13-12-openai-browser-tools.jpg",
+      "last_updated": "2026-10-17T22:35:00Z",
+      "post_id": "6387511528978115540",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/browser-use-v01312-adds-native-openai.html",
+      "score": 85,
+      "source_image_source": "browser-use Releases",
+      "source_image_url": "https://opengraph.githubassets.com/b59c7cf1845e3fb2e8041095e406d571772f70d3d41ed499216d09bf511ee24b/browser-use/browser-use/releases/tag/0.13.12",
+      "source_urls": [
+        "https://github.com/browser-use/browser-use/releases/tag/0.13.12"
+      ],
+      "status": "CONFIRMED",
+      "title": "Browser-Use v0.13.12 Adds Native OpenAI Browser Tools Integration",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
         "source": "browser-use Releases"
       }
     },
@@ -7548,6 +7602,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "OpenAI News"
+      }
+    },
+    "openrouter-rankings-october-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openrouter-rankings-october-2026.jpg",
+      "last_updated": "2026-10-17T22:34:55Z",
+      "post_id": "7261509399945541089",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openrouter-model-rankings-show-deepseek.html",
+      "score": 82,
+      "source_image_source": "OpenRouter Rankings",
+      "source_image_url": "https://openrouter.ai/dynamic-og?pathname=rankings&title=LLM+Rankings&description=LLM+rankings+and+AI+leaderboard+by+real-world+usage%2C+ranked+by+tokens+processed+through+the+OpenRouter+API.+See+which+AI+models+developers+actually+use.&v=2",
+      "source_urls": [
+        "https://openrouter.ai/rankings#edgeai-0e84d6ba164d83d0b5ab"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenRouter Model Rankings Show DeepSeek V4.1 Flash Leading Token Volume as Z.ai and Anthropic Surge",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 83,
+        "source": "OpenRouter Rankings"
       }
     },
     "qwen-gspo-reinforcement-learning-algorithm": {

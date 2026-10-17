@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-17T04:40:22Z",
+    "at": "2026-10-17T08:49:07Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 11,
+    "queued": 2,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 70,
+  "runs": 71,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -3386,6 +3386,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10616"
     },
+    "abcb23b0cf18257657450f25": {
+      "first_seen": "2026-10-17T08:48:41Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11707"
+    },
     "ac41f4531fca042f6f8aec42": {
       "first_seen": "2026-10-03T00:45:58Z",
       "status": "queued",
@@ -3560,6 +3565,11 @@
       "first_seen": "2026-10-10T19:21:11Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11551"
+    },
+    "b6756c0a180ee554226c332b": {
+      "first_seen": "2026-10-17T08:48:33Z",
+      "status": "queued",
+      "url": "https://openai.com/index/benefit-street-partners"
     },
     "b6aec8c05cfc3e2f0fe39756": {
       "first_seen": "2026-10-07T16:38:56Z",

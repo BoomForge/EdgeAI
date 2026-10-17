@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-17T00:13:23Z",
+    "at": "2026-10-17T04:40:22Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 4,
+    "queued": 11,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 69,
+  "runs": 70,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -384,6 +384,11 @@
       "first_seen": "2026-10-08T07:31:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08816"
+    },
+    "13d109f5467363c930ba93d5": {
+      "first_seen": "2026-10-17T04:40:00Z",
+      "status": "queued",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3"
     },
     "13d9597e7c49d6e51053b901": {
       "first_seen": "2026-10-03T00:46:07Z",
@@ -910,10 +915,20 @@
       "status": "queued",
       "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.4"
     },
+    "2f16e67e6fe5fa26b2bdd97b": {
+      "first_seen": "2026-10-17T04:40:15Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.0.95"
+    },
     "2fbafa8be8d3a6c95283bc9c": {
       "first_seen": "2026-10-14T00:36:37Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4"
+    },
+    "30524c47438f129e3b693188": {
+      "first_seen": "2026-10-17T04:40:15Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.95"
     },
     "30a028d33d452e4f44f01fa3": {
       "first_seen": "2026-10-06T19:03:40Z",
@@ -1148,6 +1163,11 @@
       "first_seen": "2026-10-05T09:14:16Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11408"
+    },
+    "3bdf966e9b19733865cc7191": {
+      "first_seen": "2026-10-17T04:40:15Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.48"
     },
     "3c12ff714ab5ec5eda4a3ae8": {
       "first_seen": "2026-10-03T00:45:58Z",
@@ -1774,6 +1794,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11364"
     },
+    "5d2054d33a223607888aa3ea": {
+      "first_seen": "2026-10-17T04:39:57Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.3"
+    },
     "5d6ab34c3d75d540393ec528": {
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
@@ -1884,6 +1909,11 @@
       "first_seen": "2026-10-12T09:24:00Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12624"
+    },
+    "630ca87cf322b200196ee5e5": {
+      "first_seen": "2026-10-17T04:39:59Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6"
     },
     "632c15cdcac17efff538219a": {
       "first_seen": "2026-10-15T05:40:20Z",
@@ -2026,6 +2056,11 @@
       "first_seen": "2026-10-03T00:45:50Z",
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
+    },
+    "692bda143162e7cfe3ba0909": {
+      "first_seen": "2026-10-17T04:40:15Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fcore%2Fv0.0.95"
     },
     "693e2643efdc2b6ad60ca908": {
       "first_seen": "2026-10-03T00:45:51Z",
@@ -2198,6 +2233,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10600"
     },
+    "7043036d10c7bf654f7b5126": {
+      "first_seen": "2026-10-17T04:39:58Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11703"
+    },
     "707c259045bccf3328739bc8": {
       "first_seen": "2026-10-05T18:34:46Z",
       "search_score": 0,
@@ -2249,6 +2289,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10703"
+    },
+    "72aa5bfffea352f1fd1626fd": {
+      "first_seen": "2026-10-17T04:39:58Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11706"
     },
     "73af55ea587bec41cd9897f4": {
       "first_seen": "2026-10-05T18:34:46Z",
@@ -3165,6 +3210,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06917"
     },
+    "a11fff47294f76de6d86b1cc": {
+      "first_seen": "2026-10-17T04:40:15Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fllms%2Fv0.0.95"
+    },
     "a15f3cfea2ff585b9622227b": {
       "first_seen": "2026-10-09T19:21:06Z",
       "status": "queued",
@@ -4056,6 +4106,11 @@
       "first_seen": "2026-10-07T21:34:26Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.101.5"
+    },
+    "d04c153cd4f37f6eaab1d648": {
+      "first_seen": "2026-10-17T04:40:15Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.0.95"
     },
     "d0594e3e3d8b36eb294ad37d": {
       "first_seen": "2026-10-03T00:45:50Z",

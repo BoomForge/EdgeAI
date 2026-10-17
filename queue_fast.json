@@ -2354,6 +2354,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "3bdf966e9b19733865cc7191",
+      "discovered_at": "2026-10-17T04:40:15Z",
+      "kind": "coding-agents",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-17T04:34:29Z",
+      "search_score": 19,
+      "source_name": "Cline Releases",
+      "summary": "GPT-6 models (such as gpt-6-sol and gpt-6.1-sol ) work on OpenAI and Azure OpenAI-compatible endpoints. Before, every request was rejected because Cline sent max_tokens instead of max_completion_tokens The Cline provider's default model is Claude Sonnet 5.5 again, which is back at the top of Cline's recommended list Refreshed the model catalog. Adds the CommandCode and Reflection providers. Default models change for 302.AI (Gemini 4 Argon), Eden AI and Prime Inference (Muse Spark Open), CoreWeave (Reflection Beam 1.0), NanoGPT, Pioneer (Nemotron 3.5 Super VL), and Scaleway (DeepSeek V4.1 Flash) Full Changelog : desktop-v0.0.47...desktop-v0.0.48",
+      "title": "Desktop v0.0.48",
+      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.48"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "30524c47438f129e3b693188",
+      "discovered_at": "2026-10-17T04:40:15Z",
+      "kind": "coding-agents",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-17T03:00:13Z",
+      "search_score": 19,
+      "source_name": "Cline Releases",
+      "summary": "OpenAI-compatible requests for GPT-6 models ( gpt-6-sol , gpt-6.1-sol , gpt-6-1-sol , and later gpt-5 through gpt-9 ids) send max_completion_tokens instead of max_tokens , so OpenAI and Azure no longer reject them. Azure's gpt-35-turbo keeps max_tokens The hub daemon records which client started it ( CLINE_HUB_LAUNCHER_CLIENT , CLINE_HUB_LAUNCHER_VERSION , CLINE_HUB_LAUNCHER_TRANSPORT ) and publishes that as OTel resource attributes. SSH remote hubs report the local client with transport ssh . @cline/shared adds withHubLauncherIdentity , claimHubLauncherIdentity and readHubLauncherIdentity The telemetry self-check report includes traces_exporter Refreshed the model catalog (6,952 \u2192 7,041 models). Adds the CommandCode and Reflection providers. The Cline recommended list leads with Claude Sonnet 5.5 again, so the cline provider's bundled default goes back to Claude Sonnet 5.5 from Gemini 4 Argon. Default models change for 302.AI (Gemini 4 Argon), Eden AI and Prime Inference (Muse Spark Open), CoreWeave (Reflection Beam 1.0), NanoGPT, Pioneer (Nemotron 3.5 Super VL), and Scaleway (DeepSeek V4.1 Flash). OpenCode Go keeps its https://opencode.ai/inference/go/v1 base URL, now pinned, because models.dev moved its provider-level URL to an OpenAI-only path Full Changelog : sdk/sdk/v0.0.94...sdk/sdk/v0.0.95",
+      "title": "SDK v0.0.95",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.95"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "7ce1dacb4f2add5e1d2594f3",
       "discovered_at": "2026-10-05T18:34:59Z",
       "kind": "local-ai",
@@ -2760,6 +2788,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "7043036d10c7bf654f7b5126",
+      "discovered_at": "2026-10-17T04:39:58Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-17T01:06:03Z",
+      "search_score": 9,
+      "source_name": "llama.cpp Releases",
+      "summary": "hexagon: vectorize softplus with HVX ( #30435 ) softplus_f32 and tile_softplus_f32 ran a scalar logf(1.0f + expf(x)) loop. Replace both with a shared hvx_softplus_f32_aa() helper built from the backend's existing hvx_vec_exp_f32 / hvx_vec_log_f32 primitives, so no new numerical approximation is introduced. hvx_vec_exp_f32 clamps its input to (-88, 88) before exponentiating, so a naive log(1 + exp(x)) composition would saturate to ~88.72 for large x instead of returning x. The Q6_V_vmux_QVV select keeps the scalar reference's x > 20 guard (ggml_compute_softplus_f32 in ggml-impl.h), which is what makes the vector path match the CPU result. Assisted-by: Claude Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56858411 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11703",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11703"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "b39c30e6bbc6c6f0ecf447d0",
       "discovered_at": "2026-10-14T19:29:32Z",
       "kind": "local-ai",
@@ -3096,20 +3138,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "2553159a4f32c9968b59109d",
-      "discovered_at": "2026-10-03T05:43:34Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-03T01:58:45Z",
-      "search_score": 8,
-      "source_name": "llama.cpp Releases",
-      "summary": "ggml-quants : avoid invalid rounding in qkx3 scale search ( #29817 ) ggml-quants : avoid invalid rounding in qkx3 scale search The imatrix scale search can produce an infinite, NaN, or otherwise out-of-range value when the fitted minimum collapses to the maximum or makes the range extremely small. That value is then passed to nearest_int and can trip its assertion in Debug builds. Clamp the quantization level to [0, nmax] before rounding so valid in-range values behave the same as before while invalid scale-search results no longer reach nearest_int. Add regression coverage for degenerate imatrix groups across q2_K, q4_K, q5_K, q4_1, and q5_1. Fixes #29804 . Assisted-by: Claude Opus 5.5 tests: print degenerate imatrix quant types Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52340657 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11366",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11366"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "73c05de96ed57d2467556098",
       "discovered_at": "2026-10-17T00:13:03Z",
       "kind": "local-ai",
@@ -3418,17 +3446,17 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "5d1f16605adb30502ea9f3b6",
-      "discovered_at": "2026-10-03T05:43:34Z",
-      "kind": "local-ai",
+      "candidate_id": "13d109f5467363c930ba93d5",
+      "discovered_at": "2026-10-17T04:40:00Z",
+      "kind": "inference",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-10-03T01:06:38Z",
-      "search_score": 7,
-      "source_name": "llama.cpp Releases",
-      "summary": "model: support nimble decision model ( #29844 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52332773 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11364",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11364"
+      "published": "2026-10-17T00:25:45Z",
+      "search_score": 6,
+      "source_name": "vLLM Releases",
+      "summary": "Signed-off-by: Vadim Gimpelson vadim.gimpelson@gmail.com Co-authored-by: Claude noreply@anthropic.com",
+      "title": "v0.32.0rc3: [Bugfix] Fix NaN output of the Mamba2 chunk scan kernel on sm90 (#61718)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3"
     },
     {
       "bootstrap": false,
@@ -3471,37 +3499,9 @@
       "summary": "use identifiers for --ask mode question keys",
       "title": "v0.40.6-rc0: Merge pull request #19041 from ollama/jberg/clef-question-ids",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc0"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "c1f975e922220e7ead6a8734",
-      "discovered_at": "2026-10-15T05:40:28Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-15T04:53:26Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "sycl: IQ3 code reorder ( #29107 ) sycl: persistent IQ3_S/IQ3_XXS weight reorder for SYCL decode and prefill Add persistent reordered weight layouts for IQ3_S and IQ3_XXS. Weights are reordered once at load time; the reordered MMVQ dot products then walk dense super-blocks with dp4a and SWAR sign expansion instead of gathering bits from the interleaved standard layout. Reorder-aware dequantization feeds the batched prefill GEMMs so prompt processing sees the same benefit. Also harden the oneDNN build check: a missing DNNL package or a CPU-only DNNL build now fails at configure time instead of silently producing a degraded backend. Measured on Intel Arc Pro B70 with Qwen3.8-27B-GSQ-RCO-IQ3_S (MTP), -ngl 999 -b 4096 -ub 1024 -fa on: tg256 @ 0 ctx      12.92 -> 23.54 tok/s (+82%) tg256 @ 9,216      12.33 -> 21.69 tok/s (+76%) tg256 @ 64,000      9.76 -> 14.91 tok/s (+53%) pp8192             833.9  -> 833.6 tok/s (flat) Qwen3.5-9B Q4_K_M / Q3_K_M are unchanged within noise (largest delta -0.5% pp, tg flat), so standard quants are not affected. The MMVQ GLU fusion widening and rms_norm+scale fusion are intentionally not part of this change; master already carries them via #28931 . removing wait as per review request sycl : fix fusion.cpp line ending Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56116978 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11636",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11636"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "d4901c93c13cc31215bc6b15",
-      "discovered_at": "2026-10-13T08:25:20Z",
-      "kind": "inference",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-12T20:49:49Z",
-      "search_score": 6,
-      "source_name": "vLLM Releases",
-      "summary": "Signed-off-by: Matthew Bonanni mbonanni@redhat.com Co-authored-by: Claude Opus 5.5 noreply@anthropic.com",
-      "title": "v0.32.0rc0: [HiSparse] Report host pool in KV cache capacity logs (#60285)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc0"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-17T00:13:23Z",
+  "updated_at": "2026-10-17T04:40:22Z",
   "version": 2
 }

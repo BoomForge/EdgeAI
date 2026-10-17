@@ -2015,9 +2015,51 @@
       "summary": "Ex-OpenAI Safety Lead Quits, Warns Company's Culture Threatens AI Safety theatlantic.com Paywalled \u00b7 Show TLDR",
       "title": "Ex-OpenAI Safety Lead Quits, Warns Company's Culture Threatens AI Safety theatlantic.com Paywalled \u00b7 Show TLDR",
       "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "357354b22cef8f7e910ad734",
+      "discovered_at": "2026-10-17T08:44:04Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-16T08:06:14-07:00",
+      "search_score": 8,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "600B open weights, trained for long-running agents Discussion | Link",
+      "title": "Step 5 Preview",
+      "url": "https://www.producthunt.com/products/step-3-5-flash"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "85de25504b4d92d69daf9d75",
+      "discovered_at": "2026-10-17T08:44:04Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-14T14:15:16-07:00",
+      "search_score": 6,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Talk to Claude Code right from your MacBook notch Discussion | Link",
+      "title": "CrewTower Mod for Claude Code",
+      "url": "https://www.producthunt.com/products/crew-tower"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "cf5829efbae7aba1ede11e57",
+      "discovered_at": "2026-10-17T08:44:04Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-14T21:48:37-07:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "The world's most powerful agents, with the UX they deserve Discussion | Link",
+      "title": "Craft Agents",
+      "url": "https://www.producthunt.com/products/craft-agents"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-17T04:18:35Z",
+  "updated_at": "2026-10-17T08:44:09Z",
   "version": 2
 }

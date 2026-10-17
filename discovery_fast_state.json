@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-16T21:44:21Z",
+    "at": "2026-10-17T00:13:23Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 3,
+    "queued": 4,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 68,
+  "runs": 69,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -1664,6 +1664,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11446"
     },
+    "571ab44eabfb10a9c097131e": {
+      "first_seen": "2026-10-17T00:13:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11702"
+    },
     "5729c415ffed36d683b66b4e": {
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
@@ -2249,6 +2254,11 @@
       "first_seen": "2026-10-05T18:34:46Z",
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/education/teacher-voices-gemini-creativity/"
+    },
+    "73c05de96ed57d2467556098": {
+      "first_seen": "2026-10-17T00:13:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11701"
     },
     "73d75a58fd916ae7f1bb67e5": {
       "first_seen": "2026-10-16T00:45:08Z",
@@ -2884,6 +2894,11 @@
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/education/making-ai-training-available-to-uk-and-ireland-educators/"
     },
+    "960b79ede6c466dc76b014b8": {
+      "first_seen": "2026-10-17T00:13:04Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc1"
+    },
     "9668af85ed2e1acf35b791be": {
       "first_seen": "2026-10-03T11:19:30Z",
       "status": "queued",
@@ -2893,6 +2908,11 @@
       "first_seen": "2026-10-03T22:01:59Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11380"
+    },
+    "9732b2763df5a67ab9455b82": {
+      "first_seen": "2026-10-17T00:12:54Z",
+      "status": "queued",
+      "url": "https://openai.com/index/itau-generative-ai"
     },
     "974fc73128977f2f17789676": {
       "first_seen": "2026-10-05T09:14:07Z",

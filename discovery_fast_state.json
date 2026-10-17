@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "at": "2026-10-17T18:34:59Z",
+    "at": "2026-10-17T20:57:34Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
@@ -9,7 +9,7 @@
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 74,
+  "runs": 75,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -1538,6 +1538,11 @@
       "status": "too_old",
       "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.3.dev"
     },
+    "4deb72897bf4cab24f1a6061": {
+      "first_seen": "2026-10-17T20:57:13Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11716"
+    },
     "4e181c171390031be9814779": {
       "first_seen": "2026-10-14T15:16:26Z",
       "search_score": 0,
@@ -2605,6 +2610,11 @@
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20638"
+    },
+    "83a753b4160cba93855aa436": {
+      "first_seen": "2026-10-17T20:57:14Z",
+      "status": "queued",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0"
     },
     "83c757b36ce8c8329be2986c": {
       "first_seen": "2026-10-12T19:18:33Z",

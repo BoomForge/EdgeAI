@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-17T04:50:11Z",
+    "at": "2026-10-17T08:52:20Z",
     "eligible": 39,
-    "evaluated": 4,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -383,6 +383,20 @@
       "at": "2026-10-07T06:34:08Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11382"
+    },
+    "12069dbe170b04bd498373b6": {
+      "at": "2026-10-17T08:52:20Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "nous-research-hermes-agent-updates",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2110722045411549645"
     },
     "121946e928c2e8a76d631a91": {
       "at": "2026-10-03T05:49:31Z",
@@ -3610,6 +3624,14 @@
       "story_key": "black-forest-labs-creator-program",
       "url": "https://bfl.ai/creator-program"
     },
+    "b6756c0a180ee554226c332b": {
+      "at": "2026-10-17T08:52:11Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "openai-benefit-street-partners-codex",
+      "url": "https://openai.com/index/benefit-street-partners"
+    },
     "b6f6539d97ae14e80d20aead": {
       "at": "2026-10-08T00:09:43Z",
       "status": "expired",
@@ -4070,6 +4092,20 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.6"
+    },
+    "d50669b1dfb67b51e730eaef": {
+      "at": "2026-10-17T08:52:15Z",
+      "bootstrap": false,
+      "score": 93,
+      "status": "published",
+      "story_key": "microsoft-mai-base-2-2-8t-moe-model",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "d5135015cb86a5ed08ea8c55": {
       "at": "2026-10-03T05:49:38Z",
@@ -6263,6 +6299,27 @@
         "source": "FutureTools AI News"
       }
     },
+    "microsoft-mai-base-2-2-8t-moe-model": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/microsoft-mai-base-2-2-8t-moe-model.jpg",
+      "last_updated": "2026-10-17T08:52:15Z",
+      "post_id": "5696244362181775692",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/microsoft-unveils-mai-base-2-28t.html",
+      "score": 93,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://microsoft.ai/wp-content/uploads/2026/10/frontier_pretraining_header_small.webp",
+      "source_urls": [
+        "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Microsoft Unveils MAI-Base-2: 2.8T Parameter MoE Model Outperforms Open-Weight Rivals",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      }
+    },
     "minimax-h3-multimodal-generation-model": {
       "image_kind": "mirrored_source",
       "image_prepared_at": "2026-10-04T19:31:16Z",
@@ -6589,6 +6646,27 @@
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 88,
+        "source": "Nous Research Announcements"
+      }
+    },
+    "nous-research-hermes-agent-updates": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/nous-research-hermes-agent-updates.png",
+      "last_updated": "2026-10-17T08:52:20Z",
+      "post_id": "2586644909659362664",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-highlights-hermes-agent.html",
+      "score": 82,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_400x400.jpg",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2110722045411549645"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Highlights Hermes Agent Capabilities and Practical Home Automation Integrations",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
         "source": "Nous Research Announcements"
       }
     },

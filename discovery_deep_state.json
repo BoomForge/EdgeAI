@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-16T23:59:27Z",
+    "at": "2026-10-17T04:18:35Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 1,
-    "queued": 5,
+    "queued": 1,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 68,
+  "runs": 69,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -414,6 +414,11 @@
       "first_seen": "2026-10-16T10:03:10Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/parallax-5"
+    },
+    "16e337b96c2a78400914d310": {
+      "first_seen": "2026-10-17T04:18:30Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-3e1c72d550f22f51a99c"
     },
     "179afd0ee553a08b8bacfe99": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -1665,6 +1670,12 @@
       "first_seen": "2026-10-07T21:57:48Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/cinch-reminders-tasks"
+    },
+    "618500f23bf844c1615e1ae3": {
+      "first_seen": "2026-10-17T04:18:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/kalesh-judge"
     },
     "619069d4546663731f73800d": {
       "first_seen": "2026-10-03T21:50:36Z",

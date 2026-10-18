@@ -3418,6 +3418,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "37d5d89bc2e5a3ea388e33a1",
+      "discovered_at": "2026-10-18T19:28:59Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-18T18:08:15Z",
+      "search_score": 6,
+      "source_name": "llama.cpp Releases",
+      "summary": "cuda : fuse qwen4exp's SCALE -> SIGMOID -> SCALE -> hc_post chain ( #30602 ) Port of the Vulkan HC_POST_GATE fusion ( #29520 ). hc_combine builds the hc_post weights as 2 sigmoid(inject/hc); dsv4_hc_post_f32 now takes a gated template flag and computes scale_out sigmoid(scale_in*p) from the raw weights, so the chain runs as one kernel instead of four. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57168730 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11721",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11721"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "13d109f5467363c930ba93d5",
       "discovered_at": "2026-10-17T04:40:00Z",
       "kind": "inference",
@@ -3488,6 +3502,6 @@
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-18T17:10:10Z",
+  "updated_at": "2026-10-18T19:29:26Z",
   "version": 2
 }

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-18T00:43:47Z",
+    "at": "2026-10-18T05:33:30Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 0,
+    "queued": 2,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 77,
+  "runs": 78,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -1629,6 +1629,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11609"
     },
+    "53ef1840b857a00e1fa9f08a": {
+      "first_seen": "2026-10-18T05:33:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11718"
+    },
     "5404525725fe082cebc33e09": {
       "first_seen": "2026-10-03T00:45:57Z",
       "status": "too_old",
@@ -3143,6 +3148,11 @@
       "first_seen": "2026-10-03T15:10:00Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11375"
+    },
+    "9d5298e46a58a148185eb393": {
+      "first_seen": "2026-10-18T05:33:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11717"
     },
     "9d572f259e15ed33468ecfc5": {
       "first_seen": "2026-10-12T09:23:59Z",

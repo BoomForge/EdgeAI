@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-18T05:33:30Z",
+    "at": "2026-10-18T09:53:18Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 2,
+    "queued": 3,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 78,
+  "runs": 79,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -178,6 +178,11 @@
       "first_seen": "2026-10-10T08:59:32Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11542"
+    },
+    "0be4f86c9f0221271a17a6da": {
+      "first_seen": "2026-10-18T09:53:06Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.107.0-rc.1"
     },
     "0be66981e5a9848bfc3141a4": {
       "first_seen": "2026-10-03T00:45:51Z",
@@ -1132,6 +1137,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.11.0"
+    },
+    "3a009819ab2b072c059c7c97": {
+      "first_seen": "2026-10-18T09:52:51Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11719"
     },
     "3a390cc255a4c02502111933": {
       "first_seen": "2026-10-03T15:10:00Z",
@@ -5062,6 +5072,11 @@
       "first_seen": "2026-10-08T07:31:26Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11486"
+    },
+    "fe3326f4dbcaa51b1783e46b": {
+      "first_seen": "2026-10-18T09:53:06Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.0"
     },
     "fe611530f63c2e92b82ecbfe": {
       "first_seen": "2026-10-08T07:31:18Z",

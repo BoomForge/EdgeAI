@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "at": "2026-10-18T21:52:38Z",
+    "at": "2026-10-18T23:59:58Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
@@ -9,7 +9,7 @@
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 83,
+  "runs": 84,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -3620,6 +3620,11 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "too_old",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.17"
+    },
+    "b2fcfb9fb70bbbac0d678aab": {
+      "first_seen": "2026-10-18T23:59:34Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.1"
     },
     "b3047042ec64cdc765b8e9cb": {
       "first_seen": "2026-10-13T21:32:32Z",

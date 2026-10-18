@@ -3474,6 +3474,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "b2fcfb9fb70bbbac0d678aab",
+      "discovered_at": "2026-10-18T23:59:34Z",
+      "kind": "open-source-creative",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-18T22:58:57Z",
+      "search_score": 3,
+      "source_name": "ComfyUI Releases",
+      "summary": "ComfyUI v0.42.1",
+      "title": "v0.42.1",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.1"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "ebaad67deb748f0c6ce5305a",
       "discovered_at": "2026-10-18T21:52:17Z",
       "kind": "open-source-creative",
@@ -3485,23 +3499,9 @@
       "summary": "ComfyUI v0.42.0",
       "title": "v0.42.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.0"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "3c8d7bec4403e1832356f931",
-      "discovered_at": "2026-10-18T17:09:49Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-18T16:57:36Z",
-      "search_score": 0,
-      "source_name": "llama.cpp Releases",
-      "summary": "ggml: support non-contiguous SUM (CPU, CUDA) tests: add non-contiguous SUM cases tests: SUM over non-contiguous views vulkan: support non-contiguous SUM webgpu: support non-contiguous SUM",
-      "title": "b11720: ggml: support non-contiguous SUM (CPU, CUDA, Vulkan, WebGPU) (#28851)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11720"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-18T21:52:38Z",
+  "updated_at": "2026-10-18T23:59:58Z",
   "version": 2
 }

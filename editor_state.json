@@ -37,7 +37,7 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-18T16:44:14Z",
+    "at": "2026-10-18T18:59:57Z",
     "eligible": 1,
     "evaluated": 1,
     "mode": "live",
@@ -1423,6 +1423,14 @@
       "at": "2026-10-07T13:59:34Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11384"
+    },
+    "3c8d7bec4403e1832356f931": {
+      "at": "2026-10-18T18:59:57Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "llamacpp-b11720-non-contiguous-sum",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11720"
     },
     "3ccf3de22994731127247487": {
       "at": "2026-10-08T23:51:22Z",

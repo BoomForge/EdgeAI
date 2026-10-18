@@ -37,12 +37,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-17T22:35:00Z",
-    "eligible": 20,
-    "evaluated": 2,
+    "at": "2026-10-18T00:26:54Z",
+    "eligible": 18,
+    "evaluated": 5,
     "mode": "live",
-    "new_posts": 2,
-    "publish_actions": 2,
+    "new_posts": 1,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -2225,6 +2225,14 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00009"
     },
+    "67cc77b3c538c465a2437ea5": {
+      "at": "2026-10-18T00:26:52Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11645-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11645"
+    },
     "6823801d4a6c9058ddd90d9c": {
       "at": "2026-10-14T06:46:43Z",
       "bootstrap": false,
@@ -3495,6 +3503,14 @@
       "status": "expired",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.3"
     },
+    "a78a7dd6f5101f71bfa84705": {
+      "at": "2026-10-18T00:26:49Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "openrouter-rankings-october-2026",
+      "url": "https://openrouter.ai/rankings#edgeai-1e6c65588e43ac9e658e"
+    },
     "a7f933faaa0f4d4ad3a14c35": {
       "at": "2026-10-14T12:28:32Z",
       "bootstrap": false,
@@ -4074,6 +4090,14 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/ruos"
     },
+    "cc240cb0b9ea2a1163aff3e4": {
+      "at": "2026-10-18T00:26:54Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11642-prompt-cache-optimization",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11642"
+    },
     "cd9267d452079c2353cb8ed2": {
       "at": "2026-10-04T00:07:49Z",
       "bootstrap": true,
@@ -4421,6 +4445,20 @@
       "status": "expired",
       "url": "https://updates.midjourney.com/alpha-changelog-10-1-26/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "dd6669033ccdf16934af21a3": {
+      "at": "2026-10-18T00:26:48Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "llama-cpp-muse-spark-open-support",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "llama.cpp Releases"
+      },
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11671"
+    },
     "ddaccaed883695c8ff80980a": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -4615,6 +4653,14 @@
         "source": "FutureTools AI News"
       },
       "url": "https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "e5bcb2cb64abc07d062a2970": {
+      "at": "2026-10-18T00:26:51Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "llamacpp-vulkan-kv-scratch-copy-b11647",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11647"
     },
     "e5f8df0d727db32b0276a182": {
       "at": "2026-10-10T18:31:36Z",
@@ -6482,6 +6528,27 @@
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 88,
+        "source": "llama.cpp Releases"
+      }
+    },
+    "llama-cpp-muse-spark-open-support": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/llama-cpp-muse-spark-open-support.png",
+      "last_updated": "2026-10-18T00:26:48Z",
+      "post_id": "2868083078988632568",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/llamacpp-adds-native-support-for-muse.html",
+      "score": 82,
+      "source_image_source": "llama.cpp Releases",
+      "source_image_url": "https://opengraph.githubassets.com/6d8b6477436634ab74fe9301dd641e69ead1db14b2f0ded411dfb6816c112379/ggml-org/llama.cpp/releases/tag/b11671",
+      "source_urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b11671"
+      ],
+      "status": "CONFIRMED",
+      "title": "llama.cpp Adds Native Support for Muse Spark Open Multimodal Architecture",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
         "source": "llama.cpp Releases"
       }
     },

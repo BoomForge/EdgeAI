@@ -3152,20 +3152,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "297411d31fdaf1eb6d49d8ca",
-      "discovered_at": "2026-10-04T17:01:25Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-04T16:37:17Z",
-      "search_score": 8,
-      "source_name": "Ollama Releases",
-      "summary": "What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8\nollama run qwen3.8 During the pre-release we will be testing and enabling additional models. Full Changelog : v0.34.4...v0.40.0-rc0",
-      "title": "v0.40.0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "73c05de96ed57d2467556098",
       "discovered_at": "2026-10-17T00:13:03Z",
       "kind": "local-ai",
@@ -3474,6 +3460,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "3c8d7bec4403e1832356f931",
+      "discovered_at": "2026-10-18T17:09:49Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-18T16:57:36Z",
+      "search_score": 0,
+      "source_name": "llama.cpp Releases",
+      "summary": "ggml: support non-contiguous SUM (CPU, CUDA) tests: add non-contiguous SUM cases tests: SUM over non-contiguous views vulkan: support non-contiguous SUM webgpu: support non-contiguous SUM",
+      "title": "b11720: ggml: support non-contiguous SUM (CPU, CUDA, Vulkan, WebGPU) (#28851)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11720"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "6846386ee35eb87e2aa20282",
       "discovered_at": "2026-10-18T13:50:19Z",
       "kind": "inference",
@@ -3488,6 +3488,6 @@
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-18T13:50:44Z",
+  "updated_at": "2026-10-18T17:10:10Z",
   "version": 2
 }

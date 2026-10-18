@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "at": "2026-10-18T13:50:44Z",
+    "at": "2026-10-18T17:10:10Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
@@ -9,7 +9,7 @@
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 80,
+  "runs": 81,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -1218,6 +1218,11 @@
       "first_seen": "2026-10-04T12:33:55Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11384"
+    },
+    "3c8d7bec4403e1832356f931": {
+      "first_seen": "2026-10-18T17:09:49Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11720"
     },
     "3c96e8812836b2c3959a6a92": {
       "first_seen": "2026-10-13T01:26:52Z",

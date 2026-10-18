@@ -37,12 +37,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-18T21:27:39Z",
+    "at": "2026-10-18T23:30:43Z",
     "eligible": 1,
     "evaluated": 1,
     "mode": "live",
-    "new_posts": 0,
-    "publish_actions": 0,
+    "new_posts": 1,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -4926,6 +4926,20 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11472"
     },
+    "ebaad67deb748f0c6ce5305a": {
+      "at": "2026-10-18T23:30:43Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "comfyui-v0420-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 81,
+        "source": "ComfyUI Releases"
+      },
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.0"
+    },
     "ebb413cc5359756bf9234b81": {
       "at": "2026-10-07T06:34:14Z",
       "bootstrap": false,
@@ -6261,6 +6275,27 @@
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 88,
+        "source": "ComfyUI Releases"
+      }
+    },
+    "comfyui-v0420-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/comfyui-v0420-release.png",
+      "last_updated": "2026-10-18T23:30:43Z",
+      "post_id": "6296023489107009720",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/comfyui-v0420-released-moss-image.html",
+      "score": 82,
+      "source_image_source": "ComfyUI Releases",
+      "source_image_url": "https://opengraph.githubassets.com/a01e520815477cbb927366daeab1e55dd435b9a6e5a3e43c55344d1fdfb73d10/Comfy-Org/ComfyUI/releases/tag/v0.42.0",
+      "source_urls": [
+        "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.0"
+      ],
+      "status": "CONFIRMED",
+      "title": "ComfyUI v0.42.0 Released: MOSS-Image Support, Qwen 3.x Optimizations, and ARM Linux Testing",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 81,
         "source": "ComfyUI Releases"
       }
     },

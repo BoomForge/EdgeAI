@@ -37,7 +37,7 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-18T18:59:57Z",
+    "at": "2026-10-18T21:27:39Z",
     "eligible": 1,
     "evaluated": 1,
     "mode": "live",
@@ -1272,6 +1272,14 @@
         "source": "Black Forest Labs Blog"
       },
       "url": "https://bfl.ai/models/flux-3-image"
+    },
+    "37d5d89bc2e5a3ea388e33a1": {
+      "at": "2026-10-18T21:27:39Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11721-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11721"
     },
     "381da076c8f84d9c12b58c52": {
       "at": "2026-10-03T18:39:51Z",

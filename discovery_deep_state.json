@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-18T05:50:51Z",
+    "at": "2026-10-18T10:57:59Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 2,
+    "prefiltered": 9,
+    "queued": 1,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 7,
     "warnings": 0
   },
-  "runs": 77,
+  "runs": 78,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -123,6 +123,12 @@
       "first_seen": "2026-10-08T16:25:55Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/chickytutor"
+    },
+    "06467367b73cf993c62983bc": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/vampire-crawlers"
     },
     "0658c3d44f7b5cdf8bafbf8f": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -741,6 +747,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/karmaboard"
     },
+    "2868f0eaf01a650f5954579d": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/popcraft"
+    },
     "286a4c7e0865f7007f87bccb": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -1253,6 +1264,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/train-with-pasta"
     },
+    "48c453c1f48a4ae80c7e4d22": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/bee-frontier-and-bee-eclipse"
+    },
     "49afd859905d7e770d7c03a5": {
       "first_seen": "2026-10-16T21:47:28Z",
       "status": "queued",
@@ -1399,6 +1416,12 @@
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/brnch"
+    },
+    "511954a6d0270d3681f880b9": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/mylens-ai"
     },
     "51e9644687d4622bc1d41619": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -1618,6 +1641,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/xtracticle"
+    },
+    "5e79c8c00535511a8c21416a": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/latch-7"
     },
     "5ebf20110b0a7c4331c376bf": {
       "first_seen": "2026-10-04T17:06:51Z",
@@ -1885,6 +1914,12 @@
       "status": "queued",
       "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "6de49000ac019aa847053cb3": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/3am-super-intelligence"
+    },
     "6deeaa575f7a1b1ab43704bd": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -2049,6 +2084,12 @@
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/launchreel-2"
+    },
+    "778936462985561a1676c68a": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tomo-for-chatgpt"
     },
     "77a6b07b6c8daa980c044805": {
       "first_seen": "2026-10-10T16:21:13Z",
@@ -2395,6 +2436,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/mozilla"
     },
+    "874b7baf0a6c461ec5ed6f4d": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/krea"
+    },
     "874d80e9e31a5a4f86d4c985": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -2489,6 +2535,11 @@
       "first_seen": "2026-10-13T18:14:14Z",
       "status": "queued",
       "url": "https://x.ai/news/x-subscription?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "8c4fdd7bfd39c840b63b29dd": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/inbox-zero-2"
     },
     "8c8d770fd47419f05c82fa78": {
       "first_seen": "2026-10-08T16:25:55Z",
@@ -2621,6 +2672,16 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/adant-ai"
+    },
+    "959b91079b4054f1b5c534db": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/shim-cli"
+    },
+    "962fa613337a4bffcda6a4f2": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/openbroca"
     },
     "963f327d7742bfcdecb503a6": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -3191,6 +3252,12 @@
       "status": "queued",
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "b84929d8cec5f43bd441a958": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/meetpaw"
+    },
     "b854073f1822836ee0ab8ee6": {
       "first_seen": "2026-10-09T14:44:12Z",
       "search_score": 0,
@@ -3387,6 +3454,12 @@
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/razorpay"
+    },
+    "c2b97039d8e05c486a9cbcda": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/microsoft-xbox-series-s"
     },
     "c46e83ffe9fcac6056ab89b2": {
       "first_seen": "2026-10-10T11:25:13Z",
@@ -3910,6 +3983,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/gemini-4-argon"
     },
+    "e670f629a3bc9b889156e837": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/gravity-notes-for-mac"
+    },
     "e74b0ca731164f12ce98355c": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -3982,6 +4060,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/newminecraftservers"
     },
+    "ec62ebfe432a31f41d6ac5b2": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/speechfast"
+    },
     "ed14048bb9127b900e68489f": {
       "first_seen": "2026-10-08T21:27:35Z",
       "status": "queued",
@@ -3997,6 +4081,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/chunk-2"
+    },
+    "ede267779ebde8af6a4078b3": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/tower"
     },
     "ee6bb2a4f1c515eca7c7cb27": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -4248,6 +4337,11 @@
       "first_seen": "2026-10-13T18:14:15Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/mi-speaks"
+    },
+    "fa8918cf1cdfc56d6ae7a094": {
+      "first_seen": "2026-10-18T10:57:54Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/pastekit-2"
     },
     "fb3669bea1e8b6c8ae568746": {
       "first_seen": "2026-10-15T09:50:31Z",

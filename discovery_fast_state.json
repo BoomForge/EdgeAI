@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "at": "2026-10-18T19:29:26Z",
+    "at": "2026-10-18T21:52:38Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
@@ -9,7 +9,7 @@
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 82,
+  "runs": 83,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -4711,6 +4711,11 @@
       "first_seen": "2026-10-07T16:39:04Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11472"
+    },
+    "ebaad67deb748f0c6ce5305a": {
+      "first_seen": "2026-10-18T21:52:17Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.0"
     },
     "ebb413cc5359756bf9234b81": {
       "first_seen": "2026-10-07T02:28:18Z",

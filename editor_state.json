@@ -37,8 +37,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-18T09:31:13Z",
-    "eligible": 9,
+    "at": "2026-10-18T13:29:17Z",
+    "eligible": 5,
     "evaluated": 5,
     "mode": "live",
     "new_posts": 0,
@@ -288,6 +288,14 @@
         "source": "Sakana AI Blog"
       },
       "url": "https://sakana.ai/frontier-intelligence-group/"
+    },
+    "0a6bc5106f21c99b2b3a521b": {
+      "at": "2026-10-18T13:29:12Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "llamacpp-b11679-k-pool-input-views",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11679"
     },
     "0be66981e5a9848bfc3141a4": {
       "at": "2026-10-05T07:01:46Z",
@@ -1186,6 +1194,14 @@
       "at": "2026-10-10T13:59:33Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11468"
+    },
+    "357354b22cef8f7e910ad734": {
+      "at": "2026-10-18T13:29:16Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "step-5-preview-product-hunt",
+      "url": "https://www.producthunt.com/products/step-3-5-flash"
     },
     "35dfcb83feb6b71f84a23053": {
       "at": "2026-10-10T18:31:36Z",
@@ -2900,6 +2916,14 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11574"
     },
+    "874b7baf0a6c461ec5ed6f4d": {
+      "at": "2026-10-18T13:29:17Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "krea-3",
+      "url": "https://www.producthunt.com/products/krea"
+    },
     "874d80e9e31a5a4f86d4c985": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -4103,6 +4127,14 @@
       },
       "url": "https://sakana.ai/chat-fugumax/"
     },
+    "c706b8884b6bc82406c5b770": {
+      "at": "2026-10-18T13:29:13Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "simon-willison-web-edit-0-1a2",
+      "url": "https://simonwillison.net/2026/Oct/17/web-edit/"
+    },
     "c7b0200c3990590eaf3a7f26": {
       "at": "2026-10-04T11:21:06Z",
       "bootstrap": true,
@@ -4173,6 +4205,14 @@
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/ruos"
+    },
+    "cc225fa176e6c3eac28c8676": {
+      "at": "2026-10-18T13:29:14Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "simon-willison-inline-rendering-document-currentscript",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/"
     },
     "cc240cb0b9ea2a1163aff3e4": {
       "at": "2026-10-18T00:26:54Z",

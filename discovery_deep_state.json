@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-18T01:00:37Z",
+    "at": "2026-10-18T05:50:51Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 0,
+    "queued": 2,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 76,
+  "runs": 77,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -3424,6 +3424,11 @@
       "status": "queued",
       "url": "https://sakana.ai/chat-fugumax/"
     },
+    "c706b8884b6bc82406c5b770": {
+      "first_seen": "2026-10-18T05:50:47Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/17/web-edit/"
+    },
     "c7b0200c3990590eaf3a7f26": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -3475,6 +3480,11 @@
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/ruos"
+    },
+    "cc225fa176e6c3eac28c8676": {
+      "first_seen": "2026-10-18T05:50:47Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/"
     },
     "ccad0e2700f01b639f503de2": {
       "first_seen": "2026-10-16T18:46:44Z",

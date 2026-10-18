@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-18T13:29:17Z",
-    "eligible": 5,
-    "evaluated": 5,
+    "at": "2026-10-18T16:44:14Z",
+    "eligible": 1,
+    "evaluated": 1,
     "mode": "live",
     "new_posts": 0,
     "publish_actions": 0,
@@ -2302,6 +2302,14 @@
         "source": "Cline Releases"
       },
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.93"
+    },
+    "6846386ee35eb87e2aa20282": {
+      "at": "2026-10-18T16:44:14Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "vllm-v0-32-1rc0-release",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.1rc0"
     },
     "68cbabc2cd02fa79182c91c3": {
       "at": "2026-10-03T18:39:51Z",

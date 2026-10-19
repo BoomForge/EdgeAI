@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-19T01:33:31Z",
-    "eligible": 4,
-    "evaluated": 4,
+    "at": "2026-10-19T06:57:19Z",
+    "eligible": 3,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 0,
     "publish_actions": 0,
@@ -274,6 +274,14 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://www.shopify.com/news/introducing-canvas?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "0982b0d31b705956abb0dcd1": {
+      "at": "2026-10-19T06:57:16Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-updates-october-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-06ab581d51bdb6005221"
     },
     "0a28c215b5c05aea6d5cda4b": {
       "at": "2026-10-03T04:46:24Z",
@@ -4131,6 +4139,14 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/"
     },
+    "c59e46da12229872b831eba2": {
+      "at": "2026-10-19T06:57:19Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11722-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11722"
+    },
     "c6496f29a50495732cb54e22": {
       "at": "2026-10-03T14:57:24Z",
       "bootstrap": true,
@@ -4824,6 +4840,14 @@
         "source": "browser-use Releases"
       },
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.12"
+    },
+    "e51e7ef628a3ce1797f6ac65": {
+      "at": "2026-10-19T06:57:17Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11723-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11723"
     },
     "e5292497ed6938ae8aab9d59": {
       "at": "2026-10-10T18:31:46Z",

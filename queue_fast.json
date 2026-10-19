@@ -2004,20 +2004,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "2d8e70fb45cef7470a5baf36",
-      "discovered_at": "2026-10-05T18:34:46Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Mon, 05 Oct 2026 10:00:00 GMT",
-      "search_score": 5,
-      "source_name": "OpenAI News",
-      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-      "title": "Building advertising for the way people use AI",
-      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "94eadcab22c41e356a1d9bf1",
       "discovered_at": "2026-10-16T00:44:38Z",
       "kind": "official",
@@ -3152,20 +3138,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "13fc07cf0aa925c672839a5f",
-      "discovered_at": "2026-10-05T09:14:16Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-05T06:10:10Z",
-      "search_score": 8,
-      "source_name": "llama.cpp Releases",
-      "summary": "metal : few-row MMA mat-mul ( #29869 ) metal : few-row MMA mat-mul and batched copies for speculative decoding Speculative decoding verifies a few draft tokens per step. Without the tensor API, Metal ran these mat-muls with the mat-vec kernels, whose time grows with every src1 row, so DFlash2 decoding on an M3 Ultra was slower than serial decoding. add mat-mul kernels for 2..16 src1 rows on 8x8 simdgroup matrices: each weight is dequantized once for all rows, and the simdgroups of a threadgroup split K. Q4_0, Q8_0 and Q5_K have their own kernels, F32, F16, Q4_1, Q5_0, Q5_1, Q4_K and Q6_K use a generic path over the 16-weight dequantizers, and Q4_0 at 2 rows uses a 2-row variant of the mat-vec kernel use them only on MTLGPUFamilyApple7+ without the tensor API, from the row count at which they beat the mat-vec kernels on an M3 Ultra (F32: 6, F16, Q4_K, Q5_0, Q5_1: 3, other types: 2) fusion table: MUL_MAT + ADD adds a same-shape residual in the MMA store, and up to 16 adjacent same-layout f32 copies between the same two tensors run as one dispatch the fusion checks and ggml_graph_optimize take the device props, so the reorder packs MUL_MAT + ADD only on devices that can fuse it, at every src1 row count views do not count toward GGML_METAL_FUSION_MAX when the reorder packs a group, so 16 recurrent state snapshot copies with views between them stay one group the encoder checks the inner nodes of a fused group for concurrency, tracks written views by their extent, and does not count the destination of a CPY as a read CONCAT splits long rows across threadgroups when there are few rows tests: few-row MUL_MAT, MUL_MAT_ADD, CPY_BATCH and CONCAT cases in test-backend-ops (with a prepare_graph hook for the copy order), test-metal-graph-optimize, test-metal-cpy-batch-alias metal : remove the CPY_BATCH fusion and the memory range changes Remove the batched copy fusion with its kernel and tests, and revert the memory range changes, as suggested in review. The memory ranges, the graph reorder and the CPY encoder are again the same as on master. cont : clean-up cont : drop has_tensor gate cont : clean-up operand/residual logic cont : drop Q4_0 ne11=2 special-case cont : add kernels/mul_mv_mma.metal cont : consolidate mma pipeline selection logic cont : decouple fusion logic from device props Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52722020 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11404",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11404"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "73c05de96ed57d2467556098",
       "discovered_at": "2026-10-17T00:13:03Z",
       "kind": "local-ai",
@@ -3474,6 +3446,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "0b684c52f721825fe71d17ba",
+      "discovered_at": "2026-10-19T10:02:48Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-19T05:47:22Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "CUDA: fix shared-memory WAR hazard in flash_attn_ext_vec ( #30573 ) CUDA: fix KQ write-after-read race in flash_attn_ext_vec Assisted-by: ChatGPT CUDA: apply review suggestions for KQ sync comments Co-authored-by: Johannes G\u00e4\u00dfler johannesg@5d6.de Co-authored-by: Johannes G\u00e4\u00dfler johannesg@5d6.de Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57270560 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11724",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11724"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "c59e46da12229872b831eba2",
       "discovered_at": "2026-10-19T04:18:20Z",
       "kind": "local-ai",
@@ -3499,9 +3485,23 @@
       "summary": "ComfyUI v0.42.1",
       "title": "v0.42.1",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.1"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "0ce49673993106aa9c7c9763",
+      "discovered_at": "2026-10-19T10:02:48Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-19T06:27:46Z",
+      "search_score": 0,
+      "source_name": "llama.cpp Releases",
+      "summary": "tools : reject truncated GGUF tensor data in split and export tools (\u2026",
+      "title": "b11727",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11727"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-19T04:18:43Z",
+  "updated_at": "2026-10-19T10:03:16Z",
   "version": 2
 }

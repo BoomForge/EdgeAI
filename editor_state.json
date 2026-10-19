@@ -37,12 +37,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-19T14:37:57Z",
-    "eligible": 5,
-    "evaluated": 5,
+    "at": "2026-10-19T20:15:23Z",
+    "eligible": 8,
+    "evaluated": 3,
     "mode": "live",
-    "new_posts": 0,
-    "publish_actions": 0,
+    "new_posts": 2,
+    "publish_actions": 2,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -1801,6 +1801,20 @@
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2107210064549343358"
     },
+    "4ed8d6fe63542c3a355d2338": {
+      "at": "2026-10-19T20:15:15Z",
+      "bootstrap": false,
+      "score": 91,
+      "status": "published",
+      "story_key": "minimax-maxproof-math-proof-evolution",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "MiniMax Research"
+      },
+      "url": "https://www.minimax.io/blog/minimax-maxproof-math-proof-evolution"
+    },
     "4f36a48fa9096d65b0260699": {
       "at": "2026-10-04T11:20:52Z",
       "status": "expired",
@@ -3221,6 +3235,14 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00024"
     },
+    "92d32bba66440a83e682427f": {
+      "at": "2026-10-19T20:15:18Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-oct-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-aeea575d95af9cbcfed8"
+    },
     "9330ae30d1053d8c5efb2029": {
       "at": "2026-10-13T03:56:46Z",
       "bootstrap": false,
@@ -3999,6 +4021,20 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38194"
+    },
+    "b984a5c544e6313764ddbb1c": {
+      "at": "2026-10-19T20:15:23Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "minimax-m31-flash-release",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "MiniMax Research"
+      },
+      "url": "https://www.minimax.io/blog/minimax-m31f"
     },
     "b9972c54becd0c3d958a401b": {
       "at": "2026-10-03T05:49:31Z",
@@ -7202,6 +7238,48 @@
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 95,
+        "source": "MiniMax Research"
+      }
+    },
+    "minimax-m31-flash-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/minimax-m31-flash-release.jpg",
+      "last_updated": "2026-10-19T20:15:23Z",
+      "post_id": "5859127518248807843",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/minimax-announces-m31-flash-with-focus.html",
+      "score": 92,
+      "source_image_source": "MiniMax Research",
+      "source_image_url": "https://filecdn.minimax.chat/public/m31-flash-zh-1-1792403273121.png?x-oss-process=image/format,webp",
+      "source_urls": [
+        "https://www.minimax.io/blog/minimax-m31f"
+      ],
+      "status": "CONFIRMED",
+      "title": "MiniMax Announces M3.1 Flash with Focus on Agentic Tasks and Lower Costs",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "MiniMax Research"
+      }
+    },
+    "minimax-maxproof-math-proof-evolution": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/minimax-maxproof-math-proof-evolution.jpg",
+      "last_updated": "2026-10-19T20:15:15Z",
+      "post_id": "27554566022451381",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/minimax-details-maxproof-framework-and.html",
+      "score": 91,
+      "source_image_source": "MiniMax Research",
+      "source_image_url": "https://filecdn.minimax.chat/public/maxproof-cover-1781185313899-1781185423262.png?x-oss-process=image/format,webp",
+      "source_urls": [
+        "https://www.minimax.io/blog/minimax-maxproof-math-proof-evolution"
+      ],
+      "status": "CONFIRMED",
+      "title": "MiniMax Details MaxProof Framework and M3 Mathematical Proof Capabilities",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
         "source": "MiniMax Research"
       }
     },

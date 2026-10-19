@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-19T05:06:05Z",
+    "at": "2026-10-19T10:44:30Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 1,
+    "prefiltered": 9,
+    "queued": 3,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 5,
     "warnings": 0
   },
-  "runs": 84,
+  "runs": 85,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -446,6 +446,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/extrovert"
     },
+    "1844279e31368f1a77aa3f75": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/beam-13"
+    },
     "18751b3135b0ef1c82b7f5e5": {
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "queued",
@@ -871,6 +876,12 @@
       "first_seen": "2026-10-12T22:33:11Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/"
+    },
+    "2fb4385b08a9c761a7bfcaea": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/triwarden"
     },
     "2fc061114bba09f9ff0652fb": {
       "first_seen": "2026-10-11T09:11:21Z",
@@ -1332,6 +1343,12 @@
       "status": "queued",
       "url": "https://www.minimax.io/news/minimax-speech-28"
     },
+    "4d152b393e43842c1ff1999c": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/cooldock-2"
+    },
     "4d1d649a4ab59a9940eac48d": {
       "first_seen": "2026-10-16T00:36:12Z",
       "status": "queued",
@@ -1506,6 +1523,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/"
     },
+    "566736f2419c7c28e46fed4a": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/quello"
+    },
     "56df3be0422e0863012d9566": {
       "first_seen": "2026-10-10T11:25:13Z",
       "status": "too_old",
@@ -1614,6 +1637,12 @@
       "first_seen": "2026-10-15T14:58:02Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/kerno"
+    },
+    "5c6b2c270d4980ae0bf9b9db": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/switch-lab"
     },
     "5c98b69c446552546ce6d49c": {
       "first_seen": "2026-10-13T10:55:50Z",
@@ -1745,6 +1774,11 @@
       "first_seen": "2026-10-09T01:22:21Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/procboss"
+    },
+    "61b41a3b623f484f6a757027": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/face2social"
     },
     "61c0bafbe2ffd27cce113063": {
       "first_seen": "2026-10-09T14:44:12Z",
@@ -2194,6 +2228,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/dailyhelm"
     },
+    "7ae4a01b1d5bad0acc13dcb4": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/umbra-mail"
+    },
     "7af48a3cbaa19c506e59d2e9": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -2362,6 +2402,11 @@
       "first_seen": "2026-10-05T18:53:47Z",
       "status": "queued",
       "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "8228cefa4d872b98af21d7b9": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/lancetta"
     },
     "8240a1c4f6ce19e3d33473ee": {
       "first_seen": "2026-10-15T09:50:31Z",
@@ -2863,6 +2908,11 @@
       "status": "queued",
       "url": "https://claude.com/resources/articles/dashboards-and-motion?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "a000a761e1c361c70f66f6de": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/beam-win"
+    },
     "a056268300c5b68e6b2cf85b": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -2872,6 +2922,12 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/kilo"
+    },
+    "a0e46d52d014793bcba104b1": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/croft-2"
     },
     "a0f96c54336d04f1daa51485": {
       "first_seen": "2026-10-09T07:47:51Z",
@@ -2884,10 +2940,21 @@
       "status": "queued",
       "url": "https://portal.nousresearch.com/login"
     },
+    "a1333e0b35da945b6a10af25": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/starkomand"
+    },
     "a1785a44f4858e2b1ea21cf1": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://bfl.ai/models/flux-tools"
+    },
+    "a1c3614f9f04bf282d6eb487": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/own-1-a-powerful-personal-ai-computer"
     },
     "a1f40c1d808a5628c37177a0": {
       "first_seen": "2026-10-08T16:25:55Z",
@@ -2983,6 +3050,11 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-9306a718d8b1bf40a8c0"
     },
+    "a8549a14c24fb0a2a31553a7": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/buddylist-2"
+    },
     "a919ba35a5e056c2278ba024": {
       "first_seen": "2026-10-07T02:36:56Z",
       "status": "queued",
@@ -3070,6 +3142,11 @@
       "first_seen": "2026-10-14T01:51:45Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/13/web-edit/"
+    },
+    "adabeb1c4fba292590344eea": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/crawlforge-mcp"
     },
     "adcefa2b9159833fd4bbe58b": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -3412,6 +3489,12 @@
       "first_seen": "2026-10-07T02:36:55Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/awakado"
+    },
+    "bfb837f42b37841f7a5e3f83": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/framefields"
     },
     "bfbb36d019dc362f19a26129": {
       "first_seen": "2026-10-07T02:36:55Z",
@@ -4069,6 +4152,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/"
     },
+    "eb65d41fa5052fb7185089cb": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/walkai-talkai"
+    },
     "ec01d0cbd7fba1364c429a3b": {
       "first_seen": "2026-10-05T09:33:48Z",
       "search_score": 0,
@@ -4342,6 +4430,12 @@
       "first_seen": "2026-10-15T05:00:27Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/mira-tours"
+    },
+    "f98c2c9dbf1b43116fb88718": {
+      "first_seen": "2026-10-19T10:44:24Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/planet-x"
     },
     "f99ea621acd6e4bbbe5b26d3": {
       "first_seen": "2026-10-13T23:00:41Z",

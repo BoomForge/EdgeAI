@@ -2844,6 +2844,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "e51e7ef628a3ce1797f6ac65",
+      "discovered_at": "2026-10-19T04:18:20Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-19T02:09:04Z",
+      "search_score": 9,
+      "source_name": "llama.cpp Releases",
+      "summary": "hexagon: FLASH_ATTN_EXT improvements for longer context and SWA models ( #30731 ) hex-fa: support for masked block skipping to reduce DMA fetching hex-fa: finetuning the hmx->hvx crossover thresholds (boosting gemma-4) hex-fa: update hmx gate to account for mdev.count Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57234765 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11723",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11723"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "7043036d10c7bf654f7b5126",
       "discovered_at": "2026-10-17T04:39:58Z",
       "kind": "local-ai",
@@ -3404,20 +3418,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "ca6fadec58b05b0576c2acf4",
-      "discovered_at": "2026-10-05T02:05:36Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-05T00:06:48Z",
-      "search_score": 7,
-      "source_name": "llama.cpp Releases",
-      "summary": "llama: support both embd + raw tokens in batch ( #29622 ) llama: support both embd + raw tokens in batch add to test-llama-archs also check case llm_arch_supports_mixed_batch = false constant graph topology have dedicated input for mixed case rm set_tensor_backend is_embd --> type consolidate m-rope pos handling into one place nits Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52666476 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11400",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11400"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "37d5d89bc2e5a3ea388e33a1",
       "discovered_at": "2026-10-18T19:28:59Z",
       "kind": "local-ai",
@@ -3474,6 +3474,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "c59e46da12229872b831eba2",
+      "discovered_at": "2026-10-19T04:18:20Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-19T01:54:23Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "hexagon: allow multistream FA ( #30218 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57232684 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11722",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11722"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "b2fcfb9fb70bbbac0d678aab",
       "discovered_at": "2026-10-18T23:59:34Z",
       "kind": "open-source-creative",
@@ -3485,23 +3499,9 @@
       "summary": "ComfyUI v0.42.1",
       "title": "v0.42.1",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.1"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "ebaad67deb748f0c6ce5305a",
-      "discovered_at": "2026-10-18T21:52:17Z",
-      "kind": "open-source-creative",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-18T21:13:09Z",
-      "search_score": 3,
-      "source_name": "ComfyUI Releases",
-      "summary": "ComfyUI v0.42.0",
-      "title": "v0.42.0",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.0"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-18T23:59:58Z",
+  "updated_at": "2026-10-19T04:18:43Z",
   "version": 2
 }

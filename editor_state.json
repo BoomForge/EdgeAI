@@ -37,12 +37,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-19T20:15:23Z",
-    "eligible": 8,
-    "evaluated": 3,
+    "at": "2026-10-19T23:52:42Z",
+    "eligible": 10,
+    "evaluated": 5,
     "mode": "live",
-    "new_posts": 2,
-    "publish_actions": 2,
+    "new_posts": 0,
+    "publish_actions": 0,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -1690,6 +1690,14 @@
       "story_key": "llamacpp-b11536-ui-models-manager-improvements",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11536"
     },
+    "48f2d19b1f5faea6e2283ee3": {
+      "at": "2026-10-19T23:52:33Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "llamacpp-b11742-hybrid-dna-tokenizer",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11742"
+    },
     "49b5951c067cceb3477399d1": {
       "at": "2026-10-07T06:34:08Z",
       "status": "expired",
@@ -1800,6 +1808,14 @@
       "at": "2026-10-09T03:09:32Z",
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2107210064549343358"
+    },
+    "4ed713dd821837ee62f373d4": {
+      "at": "2026-10-19T23:52:42Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b11740-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11740"
     },
     "4ed8d6fe63542c3a355d2338": {
       "at": "2026-10-19T20:15:15Z",
@@ -2636,6 +2652,14 @@
       },
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.0"
     },
+    "7613bbebfcfc0377de3b6fb6": {
+      "at": "2026-10-19T23:52:39Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "huggingface-transformers-v5-20-2-patch",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2"
+    },
     "775cce2b8f031ba723e503c1": {
       "at": "2026-10-07T06:34:08Z",
       "status": "expired",
@@ -3242,6 +3266,14 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-aeea575d95af9cbcfed8"
+    },
+    "92e0c97450dbd02dae6c8e1e": {
+      "at": "2026-10-19T23:52:37Z",
+      "bootstrap": false,
+      "score": 10,
+      "status": "ignored",
+      "story_key": "nous-research-dolores-park-meetup",
+      "url": "https://x.com/NousResearch/status/2112260376469422586"
     },
     "9330ae30d1053d8c5efb2029": {
       "at": "2026-10-13T03:56:46Z",
@@ -3856,6 +3888,14 @@
       "status": "ignored",
       "story_key": "llm-tools-datasette-0-1-1",
       "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/"
+    },
+    "ae8cc1ad843ebfe5fc666522": {
+      "at": "2026-10-19T23:52:40Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11741-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11741"
     },
     "af0bc63417beb8c2d29ba736": {
       "at": "2026-10-07T13:59:34Z",

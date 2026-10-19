@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-19T16:56:32Z",
+    "at": "2026-10-19T21:23:12Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 10,
+    "prefiltered": 2,
+    "queued": 6,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 87,
+  "runs": 88,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -1577,6 +1577,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11536"
     },
+    "48f2d19b1f5faea6e2283ee3": {
+      "first_seen": "2026-10-19T21:22:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11742"
+    },
     "49b5951c067cceb3477399d1": {
       "first_seen": "2026-10-04T00:30:29Z",
       "status": "queued",
@@ -1674,6 +1679,11 @@
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.909-beta"
     },
+    "4ed713dd821837ee62f373d4": {
+      "first_seen": "2026-10-19T21:22:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11740"
+    },
     "4f36a48fa9096d65b0260699": {
       "first_seen": "2026-10-03T00:46:10Z",
       "status": "queued",
@@ -1723,6 +1733,11 @@
       "first_seen": "2026-10-11T14:10:34Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11555"
+    },
+    "52617e21810898c12b8bd06d": {
+      "first_seen": "2026-10-19T21:22:39Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/"
     },
     "52c93fcf6b24dbf372a96565": {
       "first_seen": "2026-10-16T21:43:55Z",
@@ -2338,6 +2353,12 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12527"
     },
+    "6bcd2a5d60e7816ce6164d7d": {
+      "first_seen": "2026-10-19T21:22:39Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/search/fashion-capital-style-searches/"
+    },
     "6be58c975f8f03a7c33c0b06": {
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "queued",
@@ -2529,6 +2550,11 @@
       "first_seen": "2026-10-12T09:24:00Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12517"
+    },
+    "7613bbebfcfc0377de3b6fb6": {
+      "first_seen": "2026-10-19T21:22:43Z",
+      "status": "queued",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2"
     },
     "76a0385e5ac6605451f72db1": {
       "first_seen": "2026-10-03T00:45:54Z",
@@ -3119,6 +3145,12 @@
       "first_seen": "2026-10-12T09:24:00Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12829"
+    },
+    "92f044b92b6a9da899b2645d": {
+      "first_seen": "2026-10-19T21:22:39Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/arkansas-partnerships/"
     },
     "933cad394df844996ff7915b": {
       "first_seen": "2026-10-03T00:46:14Z",
@@ -3751,6 +3783,11 @@
       "first_seen": "2026-10-12T09:24:00Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12535"
+    },
+    "ae8cc1ad843ebfe5fc666522": {
+      "first_seen": "2026-10-19T21:22:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11741"
     },
     "ae9c98f8d9010ce83c2718e6": {
       "first_seen": "2026-10-15T05:40:21Z",
@@ -4756,6 +4793,11 @@
       "first_seen": "2026-10-15T00:51:10Z",
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.6.0"
+    },
+    "df523df86c83732c52ed92f5": {
+      "first_seen": "2026-10-19T21:22:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11739"
     },
     "dfdb0f5667e9b7c113f3d9b1": {
       "first_seen": "2026-10-09T06:41:17Z",

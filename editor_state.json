@@ -37,9 +37,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-19T06:57:19Z",
-    "eligible": 3,
-    "evaluated": 3,
+    "at": "2026-10-19T14:37:57Z",
+    "eligible": 5,
+    "evaluated": 5,
     "mode": "live",
     "new_posts": 0,
     "publish_actions": 0,
@@ -305,6 +305,14 @@
       "story_key": "llamacpp-b11679-k-pool-input-views",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11679"
     },
+    "0b684c52f721825fe71d17ba": {
+      "at": "2026-10-19T14:37:42Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b11724-patch-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11724"
+    },
     "0be66981e5a9848bfc3141a4": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -322,6 +330,14 @@
       "status": "ignored",
       "story_key": "llamacpp-b11531-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11531"
+    },
+    "0ce49673993106aa9c7c9763": {
+      "at": "2026-10-19T14:37:48Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b11727-bugfix",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11727"
     },
     "0ce91db369e58780fbe769e8": {
       "at": "2026-10-12T17:49:23Z",
@@ -3508,6 +3524,14 @@
       "status": "expired",
       "url": "https://claude.com/resources/articles/dashboards-and-motion?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "a000a761e1c361c70f66f6de": {
+      "at": "2026-10-19T14:37:52Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "beam-win-cross-machine-ai-agents",
+      "url": "https://www.producthunt.com/products/beam-win"
+    },
     "a0219a244e273a8e5ed720d7": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -3539,6 +3563,14 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://portal.nousresearch.com/login"
+    },
+    "a1333e0b35da945b6a10af25": {
+      "at": "2026-10-19T14:37:57Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "starkomand-ai-coding-agents-canvas",
+      "url": "https://www.producthunt.com/products/starkomand"
     },
     "a1785a44f4858e2b1ea21cf1": {
       "at": "2026-10-04T15:54:51Z",
@@ -4976,6 +5008,14 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00003"
+    },
+    "eb65d41fa5052fb7185089cb": {
+      "at": "2026-10-19T14:37:55Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "producthunt-walkai-talkai",
+      "url": "https://www.producthunt.com/products/walkai-talkai"
     },
     "eba0c9f2e14140d209a9a356": {
       "at": "2026-10-10T13:59:33Z",

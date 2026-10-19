@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-19T10:03:16Z",
+    "at": "2026-10-19T16:56:32Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 2,
+    "prefiltered": 1,
+    "queued": 10,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 86,
+  "runs": 87,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -62,6 +62,11 @@
       "first_seen": "2026-10-07T16:39:04Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11474"
+    },
+    "038e4117310d8ac348484ac3": {
+      "first_seen": "2026-10-19T16:56:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11738"
     },
     "0400448115dbe0ee87bb492d": {
       "first_seen": "2026-10-16T18:41:03Z",
@@ -279,6 +284,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.19264"
     },
+    "0feb98280ecf82bb5c887985": {
+      "first_seen": "2026-10-19T16:56:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11732"
+    },
     "101489b52765feb01972a028": {
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
@@ -475,6 +485,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.07009"
     },
+    "170a86c2d8ea47464aff51da": {
+      "first_seen": "2026-10-19T16:56:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11734"
+    },
     "172d052d12dca60340fc85e7": {
       "first_seen": "2026-10-03T00:46:17Z",
       "status": "too_old",
@@ -607,6 +622,11 @@
       "first_seen": "2026-10-08T14:56:24Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.101.6"
+    },
+    "1cb005d80097bea5386bff5b": {
+      "first_seen": "2026-10-19T16:56:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11737"
     },
     "1cf8eba545fec9e5493fa779": {
       "first_seen": "2026-10-15T15:07:09Z",
@@ -1562,6 +1582,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.0"
     },
+    "49ec90948533c3b6bb275f38": {
+      "first_seen": "2026-10-19T16:55:53Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/gemini/stylist-outfit-tips-gemini/"
+    },
     "4a07f4cf9624cda848501f5d": {
       "first_seen": "2026-10-03T00:46:20Z",
       "status": "too_old",
@@ -1643,6 +1668,11 @@
       "first_seen": "2026-10-07T21:34:03Z",
       "status": "queued",
       "url": "https://openai.com/index/radisson"
+    },
+    "4e3562311f495406029985b8": {
+      "first_seen": "2026-10-19T16:56:22Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.909-beta"
     },
     "4f36a48fa9096d65b0260699": {
       "first_seen": "2026-10-03T00:46:10Z",
@@ -2425,6 +2455,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.19108"
     },
+    "71e2f6baf18406044321358e": {
+      "first_seen": "2026-10-19T16:56:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11736"
+    },
     "71ea9e29d6f79869c396ce40": {
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
@@ -2656,6 +2691,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.18877"
     },
+    "7ee4ca37828a8878fc22ec15": {
+      "first_seen": "2026-10-19T16:56:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11731"
+    },
     "7f4f8be374c6d7b846ae465b": {
       "first_seen": "2026-10-08T07:31:17Z",
       "status": "queued",
@@ -2886,6 +2926,12 @@
       "first_seen": "2026-10-12T19:18:33Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11571"
+    },
+    "8a5bbea3d5273e7fa87dc594": {
+      "first_seen": "2026-10-19T16:55:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/brazil-silvopasture/"
     },
     "8aacdfb29bf9c89067eb33f4": {
       "first_seen": "2026-10-04T17:01:25Z",
@@ -4463,6 +4509,11 @@
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.903-beta"
     },
+    "d3cc85c71c3b10d11e6f5a35": {
+      "first_seen": "2026-10-19T16:56:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11730"
+    },
     "d3ec8753d421d644d81f616d": {
       "first_seen": "2026-10-16T10:06:04Z",
       "status": "queued",
@@ -4996,6 +5047,11 @@
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20676"
+    },
+    "edd09fef65e224be12a33264": {
+      "first_seen": "2026-10-19T16:56:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11735"
     },
     "edfff1af226cc0177e5e0c11": {
       "first_seen": "2026-10-03T00:45:51Z",

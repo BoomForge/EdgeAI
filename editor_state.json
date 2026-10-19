@@ -37,12 +37,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-18T23:30:43Z",
-    "eligible": 1,
-    "evaluated": 1,
+    "at": "2026-10-19T01:33:31Z",
+    "eligible": 4,
+    "evaluated": 4,
     "mode": "live",
-    "new_posts": 1,
-    "publish_actions": 1,
+    "new_posts": 0,
+    "publish_actions": 0,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -2394,6 +2394,14 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11513"
     },
+    "6b1b5569c129608c1b4b3a8d": {
+      "at": "2026-10-19T01:33:28Z",
+      "bootstrap": false,
+      "score": 10,
+      "status": "ignored",
+      "story_key": "nous-research-social-media-posts-october-2026",
+      "url": "https://x.com/NousResearch/status/2111969779128950802"
+    },
     "6b836c8ce6ffe4dcbf09ef60": {
       "at": "2026-10-05T01:11:48Z",
       "bootstrap": true,
@@ -3402,6 +3410,14 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11375"
     },
+    "9d2417f40cde50f04449dce6": {
+      "at": "2026-10-19T01:33:27Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llm-echo-0-5",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/"
+    },
     "9d77b23d2cd4a15f0f4308dc": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -3771,6 +3787,14 @@
       "story_key": "elevenlabs-customer-stories-page",
       "url": "https://elevenlabs.io/blog/category/customer-stories"
     },
+    "ae7b31dc246e27601c985358": {
+      "at": "2026-10-19T01:33:30Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llm-tools-datasette-0-1-1",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/"
+    },
     "af0bc63417beb8c2d29ba736": {
       "at": "2026-10-07T13:59:34Z",
       "status": "expired",
@@ -3832,6 +3856,14 @@
       "at": "2026-10-04T00:07:42Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/"
+    },
+    "b2fcfb9fb70bbbac0d678aab": {
+      "at": "2026-10-19T01:33:31Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "comfyui-v0421-release",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.1"
     },
     "b3047042ec64cdc765b8e9cb": {
       "at": "2026-10-16T22:03:17Z",

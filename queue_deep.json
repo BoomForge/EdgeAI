@@ -492,6 +492,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "4ed8d6fe63542c3a355d2338",
+      "discovered_at": "2026-10-19T17:12:35Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-10-19",
+      "search_score": 42,
+      "source_name": "MiniMax Research",
+      "summary": "AI M3.1 Flash 2026-10-19 MiniMax M3.1 Flash: Redefining Agent Performance and Cost Today, we officially roll out MiniMax M3.1 Flash. As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly three times faster and reducing usage costs by 70%. Read More MiniMax Music 3.0 Music Generation 2026-08-13 MiniMax Music 3.0: Next-Generation Open-Weights, Production-Ready & Versatile Music Model Today, we are introducing MiniMax Music 3.0, our next-generation music generation model. Given a creative concept and optional lyrics, the model composes, arranges, performs, and produces a complete s Read More AI H3 2026-07-31 MiniMax H3: An Open Model Breaking the Boundaries Between Tasks and Modalities Today, we're officially launching MiniMax H3, a general-purpose omni-modal generation model. H3 can jointly understand multimodal contexts spanning text, images, video, and audio. It generates video with native stereo audio at up to 2K resolution and 15 seconds in length. Read More AI M3 2026-06-09 MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Evolutionary Search In the M3 release post, we reported the performance of the M3 model on two international mathematical olympiad benchmarks: IMO 2025 and USAMO 2026. With the MaxProof framework, M3 exceeded the human gold-medal threshold on both. This article further elaborates on our technical path toward advancing mathematical proof capabilities, including base model enhancement, verifier alignment, refinement capability building, and the design of the test-time scaling framework MaxProof. Read More AI M3 2026-06-01 MiniMax M3: Frontier Coding, 1M Context, Native Multimodality \u2014 All in One Model M3 reaches frontier capability on coding and agentic tasks, introduces the brand-new MSA (MiniMax Sparse Attention) supporting up to 1M context, and is a natively multimodal model. It is the only domestic model combining all three Frontier essentials and will be the only open-source one in this class. Read More AI Agent 2026-05-27 MiniMax Agent Team: Built for Long-Running Tasks and Continuous Evolution Today we are introducing the overall upgrade of MiniMax Agent. We have given the upgraded Agent a new name: Mavis \u2014 MiniMax as a Jarvis, your AI butler. Read More AI LLM 2026-05-26 Why Can't the MiniMax LLM Say \"Ma Jiaqi\"? Internal Investigation of Sparse Token Forgetting The MiniMax M2 series has attracted widespread attention from the developer community. This article presents our internal investigation into the sparse token forgetting phenomenon. Read More AI LLM 2026-03-18 MiniMax M2.7: Early Echoes of Self-Evolution M2.7 is MiniMax's first model deeply participating in its own evolution, excelling at software engineering, professional work, and entertainment with native Agent Teams and self-evolving capabilities. Read More AI RL 2026-02-14 Forge: Scalable Agent RL Framework and Algorithm Scaling reinforcement learning for real-world agents runs into a three-way conflict: system throughput, training stability, and agent flexibility all pull in different directions, and that tension has Read More M2.5 Model Release 2026-02-12 MiniMax M2.5: Built for Real-World Productivity. MiniMax M2.5: Built for Real-World Productivity. Read More AI Role-Play 2026-01-27 A Deep Dive into the MiniMax-M2-her Worlds to Dream, Stories to Live. How we built a Role-Play Agent for the production usage. This year marks our third year optimizing Role-Play in Talkie / Xingye. Three years is long enough for a pro Read More AI Coding 2025-12-23 MiniMax M2.1: Significantly Enhanced Multi-Language Programming, Built for Real-World Complex Tasks MiniMax M2.1 delivers industry-leading multi-language programming capabilities across Rust, Java, Go, C++, TypeScript and more, with enhanced mobile development, aesthetic web design, concise responses, and robust Agent framework generalization. Read More AI Agent 2025-10-27 MiniMax M2 & Agent: Ingenious in Simplicity MiniMax launches and open-sources M2, an agent-first model delivering top-tier coding, tool use, and deep search at 8% of Claude Sonnet's price with 2x speed. Free API and Agent product available. Read More",
+      "title": "AI M3 2026-06-09 MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Evolutionary Search In the M3 release post, we reported the performance of the M3 model on two international mathematical olympiad benchmarks: IMO 2025 an",
+      "url": "https://www.minimax.io/blog/minimax-maxproof-math-proof-evolution"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "92d32bba66440a83e682427f",
+      "discovered_at": "2026-10-19T17:12:32Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-10-19T17:12:32Z",
+      "search_score": 40,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 19 Oct 2026 New language model evaluation results available MiniMax-M3.1-Flash Intelligence Index: 42 MiniMax performance results now available MiniMax-M3.1-Flash 18 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Max) Intelligence Index: 45 Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available DeepSeek V4.1 Flash 1017 (Max) Parasail performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepInfra performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (Max) 16 Oct 2026 \ud83d\udd14 New article published Reflection has released Beam, their first model launch Reflection\u2019s first model, Beam, scores 30 on the Artificial Analysis Intelligence Index, placing it #2 among US open weights models New language model evaluation results available Beam 1.0 Intelligence Index: 30 Together AI performance results now available Beam 1.0 PrimaLabs performance results now available DeepSeek V4.1 Flash (Max) DeepSeek V4.1 Flash (Non-reasoning) Nemotron 3.5 Super VL Nebius performance results now available Beam 1.0 CoreWeave performance results now available Beam 1.0 Baseten performance results now available Beam 1.0 Nemotron 3.5 Super VL Makora performance results now available Muse Spark Open (Xhigh) 15 Oct 2026 \ud83d\udd14 New article published NVIDIA Releases Nemotron 3.5 Super VL and Nemotron 3.5 Bolt 74B A9B Nvidia\u2019s Nemotron 3.5 Super VL is now the leading US open weight model, scoring 26 on the Artificial Analysis Intelligence Index New language model evaluation results available Solar Pro 4 Intelligence Index: 27 New language model evaluation results available Muse Spark Open (Xhigh) Intelligence Index: 39 New language model evaluation results available Nemotron 3.5 Super VL Intelligence Index: 26 New language model evaluation results available Nemotron 3.5 Bolt 74B-A9B Intelligence Index: 21 Upstage performance results now available Solar Pro 4 CoreWeave performance results now available Nemotron 3.5 Super VL Nebius performance results now available Nemotron 3.5 Super VL Muse Spark Open (Xhigh) DeepInfra performance results now available Ling 3.1 Flash Crusoe performance results now available DeepSeek V4.1 Flash (Max) DeepSeek V4.1 Flash (Non-reasoning) Nemotron 3.5 Super VL Scaleway performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4.1 Flash (Max) GLM-5.3 (Max) Fireworks performance results now available Inkling (Xhigh) Kimi K3 (Low) Muse Spark Open (Xhigh) Inco performance results now available Kimi K3 (Low) GLM-5.3 (Low) GLM-5.3 (Low) Kimi K3 (Low) DeepSeek V4.1 Flash (Non-reasoning) Together AI performance results now available Nemotron 3.5 Super VL Muse Spark Open (Xhigh) DigitalOcean performance results now available Nemotron 3.5 Super VL Baseten performance results now available Muse Spark Open (Xhigh) 14 Oct 2026 \ud83d\udd14 New article published Welcome to the era of embodied AI: Introducing AA-Robotics v0.1 We are launching AA-Robotics v0.1, our research preview that measures frontier language model performance on understanding, planning, and acting in the physical world. In v0.1, each model is given control of a 6-axis robot arm (5 joints and a gripper) and a simple objective. We\u2019re releasing results for our first eight tasks today. 13 Oct 2026 \ud83d\udd14 New article published Artificial Analysis Decision Index v1.0 The Artificial Analysis Decision Index benchmarks decision models, a new category of models that answer structured decisions in a single call with a probability for each option. Version 1.0 combines four evaluations across classification, tool calling, knowledge, hallucination, and reasoning. Google performance results now available Gemini 4 Argon (High) Gemini 4 Argon (High) OpenAI performance results now available GPT-6 Luna (Max) 12 Oct 2026 \ud83d\udd14 New article published Muse Wonder and Muse Wonder Full: a material jump in intelligence over previous Meta models Meta has released Muse Wonder and Muse Wonder Full, achieving Artificial Analysis Intelligence Index v4.3 scores of 52 and 56 at max reasoning effort - each a material gain over Muse Spark 1.3 (max) at 48, with a release gap of only 6 weeks \ud83d\udd14 New article published Announcing FrontierCode on Artificial Analysis: can AI models write code maintainers would merge? Cognition's FrontierCode 1.1 tests whether AI models make code changes that maintainers of real open source repositories would merge. Leading models still fail more than 40% of the time. \ud83d\udd14 New article published Announcing AA-3D: a benchm",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-aeea575d95af9cbcfed8"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "4e31d07c8e885469dec4faf4",
       "discovered_at": "2026-10-14T21:37:23Z",
       "kind": "independent",
@@ -811,6 +839,20 @@
       "summary": "Sakana Chat\u304c\u899a\u3048\u3066\u3044\u308b\u3053\u3068\u3092\u898b\u3066\u307f\u3088\u3046\uff1a\u30e1\u30e2\u30ea\u30fc\u3092\u53ef\u8996\u5316\u3059\u308b\u65b0\u6a5f\u80fd\u300cMy Fish\u300d",
       "title": "Sakana Chat\u304c\u899a\u3048\u3066\u3044\u308b\u3053\u3068\u3092\u898b\u3066\u307f\u3088\u3046\uff1a\u30e1\u30e2\u30ea\u30fc\u3092\u53ef\u8996\u5316\u3059\u308b\u65b0\u6a5f\u80fd\u300cMy Fish\u300d",
       "url": "https://sakana.ai/my-fish/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "b984a5c544e6313764ddbb1c",
+      "discovered_at": "2026-10-19T17:12:35Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "",
+      "search_score": 6,
+      "source_name": "MiniMax Research",
+      "summary": "MiniMax M3.1 Flash MiniMax M3",
+      "title": "MiniMax M3.1 Flash",
+      "url": "https://www.minimax.io/blog/minimax-m31f"
     },
     {
       "bootstrap": false,
@@ -2155,9 +2197,23 @@
       "summary": "Krea's AI image model: 2K edits in under 8 seconds Discussion | Link",
       "title": "Krea 3",
       "url": "https://www.producthunt.com/products/krea"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "546ee585b64064600c6b9739",
+      "discovered_at": "2026-10-19T17:12:31Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "Oct 19, 2026",
+      "search_score": 2,
+      "source_name": "Futurepedia Newsletter Archive",
+      "summary": "Oct 19, 2026 \u2022 2 min read Futurepedia Now Builds You an AI Plan Tell us your role and goals. Get tools, workflows, and next steps picked for you. Kevin at Futurepedia",
+      "title": "Oct 19, 2026 \u2022 2 min read Futurepedia Now Builds You an AI Plan Tell us your role and goals. Get tools, workflows, and next steps picked for you. Kevin at Futurepedia",
+      "url": "https://newsletter.futurepedia.io/p/futurepedia-now-builds-you-an-ai-plan-10-19-2026"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-19T10:44:30Z",
+  "updated_at": "2026-10-19T17:12:37Z",
   "version": 2
 }

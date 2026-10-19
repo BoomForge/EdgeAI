@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-18T21:56:41Z",
+    "at": "2026-10-19T00:11:51Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 0,
+    "queued": 3,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 82,
+  "runs": 83,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -1878,6 +1878,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/dereference-the-100x-ide"
     },
+    "6b1b5569c129608c1b4b3a8d": {
+      "first_seen": "2026-10-19T00:11:50Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2111969779128950802"
+    },
     "6b1f2736c991cd73b3cebbd2": {
       "first_seen": "2026-10-11T09:11:21Z",
       "search_score": 1,
@@ -2806,6 +2811,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/pocketwebtools"
     },
+    "9d2417f40cde50f04449dce6": {
+      "first_seen": "2026-10-19T00:11:45Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/"
+    },
     "9d458e52652f9c939ec81a11": {
       "first_seen": "2026-10-09T07:47:51Z",
       "search_score": 1,
@@ -3070,6 +3080,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://elevenlabs.io/blog/category/customer-stories"
+    },
+    "ae7b31dc246e27601c985358": {
+      "first_seen": "2026-10-19T00:11:45Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/"
     },
     "ae923be95479b6407abcfb62": {
       "first_seen": "2026-10-03T00:46:00Z",

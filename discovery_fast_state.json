@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-19T21:23:12Z",
+    "at": "2026-10-20T00:28:41Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 6,
+    "prefiltered": 0,
+    "queued": 4,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 88,
+  "runs": 89,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -248,6 +248,11 @@
       "first_seen": "2026-10-06T19:03:40Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6"
+    },
+    "0e1db53b0026ae7a0a2d7e6d": {
+      "first_seen": "2026-10-20T00:28:13Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11744"
     },
     "0e656cd0c22ece8396e37727": {
       "first_seen": "2026-10-06T06:32:50Z",
@@ -647,6 +652,11 @@
       "first_seen": "2026-10-14T05:22:42Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/desktop-nightly-20261014011413"
+    },
+    "1dbe22633003a2af4fddcdba": {
+      "first_seen": "2026-10-20T00:28:04Z",
+      "status": "queued",
+      "url": "https://openai.com/index/low-resource-programming-languages"
     },
     "1dc67391a9e2cf42818e7b9f": {
       "first_seen": "2026-10-08T14:56:24Z",
@@ -4084,6 +4094,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12536"
     },
+    "be5dbf8399484e1effbc39f2": {
+      "first_seen": "2026-10-20T00:28:13Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11747"
+    },
     "be69b6e013180f12cd52ef0c": {
       "first_seen": "2026-10-15T10:18:30Z",
       "status": "queued",
@@ -4864,6 +4879,11 @@
       "first_seen": "2026-10-15T10:18:29Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11640"
+    },
+    "e4159de940dd7513dbec5ba9": {
+      "first_seen": "2026-10-20T00:28:13Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11748"
     },
     "e447cf92d70f23df27463fc5": {
       "first_seen": "2026-10-10T08:59:32Z",

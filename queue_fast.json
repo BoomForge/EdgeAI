@@ -2032,6 +2032,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "1dbe22633003a2af4fddcdba",
+      "discovered_at": "2026-10-20T00:28:04Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Mon, 19 Oct 2026 12:00:00 GMT",
+      "search_score": 3,
+      "source_name": "OpenAI News",
+      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "title": "Advancing coding in low\u2011resource programming languages",
+      "url": "https://openai.com/index/low-resource-programming-languages"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "004cd593adabcd24c97d9e96",
       "discovered_at": "2026-10-14T19:28:58Z",
       "kind": "official",
@@ -2267,20 +2281,6 @@
       "summary": "Changed If a model's response ends without a recognized finish reason, Cline asks it to continue once instead of treating the response as complete. Refreshed the model catalog. The Cline recommended list adds GPT-6.1 Sol, and the free list adds Solar Mini 4 and drops DeepSeek V4.1 Flash and space-bunny-alpha. Default models change for 302.AI, AKI.IO, Blue Claw, CoralBricks, CrossModel, DevPass, DigitalOcean, GMI Cloud, LLM Gateway, Mistral, NanoGPT, Neon, Nvidia, Ofox, Requesty, Subconscious, The Grid AI, Vivgrid, and Vultr. Vultr's model ids were renamed upstream, so a pinned Vultr model may need to be re-selected. If you use one of those providers without pinning a model, expect a different default. Fixed Generate Commit Message now follows your .clinerules , so conventions like language, format, and ticket references apply to commit messages too. Claude through a custom Anthropic base URL (Azure AI Foundry, corporate gateways) no longer fails with a 400 error. 4.1.22 started sending an option only Anthropic's own API accepts. Kimi K3 and other models that only accept certain reasoning levels no longer reject requests. Cline picks the closest level the model supports. When an MCP tool returns more output than fits in context, Cline can now read the rest. It gets a preview plus a link it can page through with read_files , so the output past the cutoff is no longer lost. Approve and Reject on a tool approval work right away, even while the panel is still updating. A late update failure no longer rejects a later, unrelated approval. Old tasks no longer show leftover Focus Chain checklist rows when reopened. Full Changelog : v4.1.22...v4.1.23",
       "title": "v4.1.23",
       "url": "https://github.com/cline/cline/releases/tag/v4.1.23"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "822cb602530fadaff99d5a0b",
-      "discovered_at": "2026-10-06T00:19:20Z",
-      "kind": "open-source-creative",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-05T22:49:43Z",
-      "search_score": 27,
-      "source_name": "ComfyUI Releases",
-      "summary": "What's Changed Support LynnReal light Minimax-H3 vae by @kijai in #16657 Update embedded docs to v0.5.13 by @comfyui-wiki in #16618 Use higher quality defaults for Save Video encoding. by @comfyanonymous in #16663 feat: add DynamicGroup widget input by @jaeone94 in #16260 fix(assets): don't let a model category that can't be listed abort the scan by @synap5e in #16658 fix(assets): recover records when a drive comes back with hashing off by @synap5e in #16646 Fix crash when selecting int8 or int4 cache in qwen image 2.1 by @comfyanonymous in #16667 [Partner Nodes] feat(Anthropic): add Sonnet 5.5 model by @bigcat88 in #16647 [Partner Nodes] feat(Ideogram): add nodes for Ideogram 4.5 model by @bigcat88 in #16689 Fix minimax vae offload issue. by @comfyanonymous in #16698 [Partner Nodes] feat(HeyGen): add nodes for HeyGen Video 1.0 model by @bigcat88 in #16695 Update workflow templates to v0.11.73 by @comfyui-wiki in #16693 Add 16-bit float support to Save EXR. by @comfyanonymous in #16706 Bump comfyui-frontend-package to 1.53.10 by @comfy-pr-bot in #16456 Release packed MiniMax H3 embedding temporaries before blocks by @Tokha233 in #16677 Update default bit depth for 'exr' option to 16 bit float. by @comfyanonymous in #16715 feat: add --offline and --disable-partner-nodes, deprecate --disable-api-nodes by @deepme987 in #16672 [Partner Nodes] feat(BFL): add FLUX 3 Image node by @bigcat88 in #16716 [Partner Nodes] feat(Grok): add grok-imagine-video-1.5-lite model by @bigcat88 in #16721 Update workflow templates to v0.11.74 by @purzbeats in #16724 fix(assets): batch prefix filters so scans work with many model folders by @synap5e in #16645 Update comfy-kitchen version to 0.2.37 by @comfyanonymous in #16738 [Partner Nodes] chore(Luma): deprecate Ray 2 nodes by @bigcat88 in #16741 Update workflow templates to v0.11.76 by @comfyui-wiki in #16739 Disable pinned memory automatically on integrated GPUs by @rattus128 in #16746 feat(assets): report scan CPU and paused time, and classify scan failures by @synap5e in #16719 fix(assets): don't take the database lock when assets are off; warn when it's held by @synap5e in #16742 Echo the Create Bounding Boxes background as a UI preview by @jtydhr88 in #16636 perf(assets): let the partial live-path index serve live-row-at-path lookups by @synap5e in #16659 [Partner Nodes] feat(ElevenLabs): add Eleven v4 and v4 Turbo models by @bigcat88 in #16737 [Partner Nodes] fix(OpenAI): remove transparent background for GPT Image 2 by @bigcat88 in #16744 fix(assets): write the prune and offline marking in short batches so saves aren't locked out by @synap5e in #16696 Add new attention and compiler stuff to AGENTS.md by @comfyanonymous in #16762 Add comfy_attention and AttentionTensorContainer support to more models. by @comfyanonymous in #16766 fix(assets): write scan inserts in short transactions so uploads and output saves aren't locked out + use WAL synchronous=NORMAL by @synap5e in #16748 fix(assets): resume the background scan once the prompt queue is empty by @synap5e in #16765 fix(assets): pause the startup scan during its folder walk and file stats by @synap5e in #16764 fix(assets): copy uploads into place when the destination is on another volume by @synap5e in #16722 New Contributors @jaeone94 made their first contribution in #16260 @Tokha233 made their first contribution in #16677 Full Changelog : v0.38.0...v0.39.0",
-      "title": "v0.39.0",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.0"
     },
     {
       "bootstrap": false,
@@ -2900,6 +2900,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "be5dbf8399484e1effbc39f2",
+      "discovered_at": "2026-10-20T00:28:13Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-20T00:02:29Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "mtmd : match the transformers Qwen-VL resize ( #30736 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57593886 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11747",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11747"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "48f2d19b1f5faea6e2283ee3",
       "discovered_at": "2026-10-19T21:22:48Z",
       "kind": "local-ai",
@@ -3121,6 +3135,20 @@
       "summary": "What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8\nollama run qwen3.8 Additional models include gemma4 , qwen3.6 and qwen3.5 Decision models are now available on MLX as well: Nimble tev1 clef clef-flash We will continue testing and enabling additional models. Full Changelog : v0.34.4...v0.40.0-rc3",
       "title": "v0.40.0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "0e1db53b0026ae7a0a2d7e6d",
+      "discovered_at": "2026-10-20T00:28:13Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-19T22:58:29Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "server: add --connect, allow p2p access to server outside LAN ( #28277 ) init wip wire it up make it clear that it's experimental add props.connect_code nits fix windows build server: do not advertise a connect code without the tunnel --connect-code on its own had no effect other than being served in /props, so the Web UI showed a remote access code that no tunnel was serving. Clear it when --connect is off, and say so once at startup. The teardown comment claimed that terminate() closes the child stdout. It does not: the log thread leaves fgets() only once every writer of that pipe is gone, so a descendant of llama-connect would block the join forever. Describe the real contract instead. Also restore the --reasoning-preserve default in the generated docs. Update tools/connect/CMakeLists.txt Co-authored-by: Adrien Gallou\u00ebt angt@huggingface.co server: dial llama-connect on the bound port and a reachable host Pass ctx_http.port so --port 0 and the GCP override work, pick the dial host from --host (wildcards map to loopback, IPv6 is bracketed) and refuse --connect when only unix sockets are bound. Co-authored-by: Pascal admin@serveurperso.com Co-authored-by: Adrien Gallou\u00ebt angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57580475 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11744",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11744"
     },
     {
       "bootstrap": false,
@@ -3362,6 +3390,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "e4159de940dd7513dbec5ba9",
+      "discovered_at": "2026-10-20T00:28:13Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-20T00:27:18Z",
+      "search_score": 6,
+      "source_name": "llama.cpp Releases",
+      "summary": "sycl : fix get_rows on reordered quantized weights ( #30430 ) Co-authored-by: Sam sam@garagellm.tail7dd858.ts.net Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57598742 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11748",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11748"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "7613bbebfcfc0377de3b6fb6",
       "discovered_at": "2026-10-19T21:22:43Z",
       "kind": "open-source",
@@ -3457,51 +3499,9 @@
       "summary": "opencl: add get_rows for i32, cpy for i32 and f32 ( #30756 ) opencl: support i32 GET_ROWS opencl: support i32 and f32 copy conversions Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57528236 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11740",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11740"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "df523df86c83732c52ed92f5",
-      "discovered_at": "2026-10-19T21:22:48Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-19T18:02:13Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "jinja : implement unique filter ( #30819 ) jinja : implement unique filter cont : inline key_of cont : fix alignment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57486845 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11739",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11739"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "170a86c2d8ea47464aff51da",
-      "discovered_at": "2026-10-19T16:56:03Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-19T14:11:57Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "cann : refactor #ifdef blocks to avoid unreachable code after return ( #25273 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57413259 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11734",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11734"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "0feb98280ecf82bb5c887985",
-      "discovered_at": "2026-10-19T16:56:03Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-19T13:53:56Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "CUDA: fix warning for nonexistent extra semicolon ( #30774 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57407216 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11732",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11732"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-19T21:23:12Z",
+  "updated_at": "2026-10-20T00:28:41Z",
   "version": 2
 }

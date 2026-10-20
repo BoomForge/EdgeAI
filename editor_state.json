@@ -37,12 +37,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-19T23:52:42Z",
-    "eligible": 10,
-    "evaluated": 5,
+    "at": "2026-10-20T02:11:05Z",
+    "eligible": 15,
+    "evaluated": 3,
     "mode": "live",
-    "new_posts": 0,
-    "publish_actions": 0,
+    "new_posts": 2,
+    "publish_actions": 2,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -687,6 +687,20 @@
       "at": "2026-10-12T23:48:45Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/"
+    },
+    "1dbe22633003a2af4fddcdba": {
+      "at": "2026-10-20T02:11:02Z",
+      "bootstrap": false,
+      "score": 95,
+      "status": "published",
+      "story_key": "openai-low-resource-programming-languages-multilangbench",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/low-resource-programming-languages"
     },
     "1def5ac72d467db84fc97c16": {
       "at": "2026-10-07T13:59:34Z",
@@ -3426,6 +3440,20 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11430"
     },
+    "9a14c7ad35dbf128544a4399": {
+      "at": "2026-10-20T02:11:05Z",
+      "bootstrap": false,
+      "score": 78,
+      "status": "published",
+      "story_key": "openai-aurora-image-models-gpt-image-3",
+      "trust": {
+        "label": "Caution",
+        "reason": "There is a credible signal, but the available evidence is not yet complete enough for high confidence. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 46,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "9b2f8ba750283adbd5d7c4a3": {
       "at": "2026-10-05T07:02:23Z",
       "bootstrap": true,
@@ -3439,6 +3467,14 @@
         "source": "SGLang Releases"
       },
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21"
+    },
+    "9b36e4b0fdda5ea1fc30aef3": {
+      "at": "2026-10-20T02:10:59Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-updates-october-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-6476f9dbf1768d76318d"
     },
     "9b969da080efdf9fcad72596": {
       "at": "2026-10-12T17:49:23Z",
@@ -7756,6 +7792,27 @@
         "source": "OpenAI News"
       }
     },
+    "openai-aurora-image-models-gpt-image-3": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-aurora-image-models-gpt-image-3.jpg",
+      "last_updated": "2026-10-20T02:11:05Z",
+      "post_id": "9209509617701012991",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-aurora-image-models-surface-in.html",
+      "score": 78,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/images/size/w1200/2026/10/Arena-Benchmark-Compare-the-Best-AI-Models-10-18-2026_07_44_PM.jpg",
+      "source_urls": [
+        "https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "EARLY SIGNAL",
+      "title": "OpenAI \"Aurora\" Image Models Surface in API and Arena Tests, Hinting at GPT-Image-3",
+      "trust": {
+        "label": "Caution",
+        "reason": "There is a credible signal, but the available evidence is not yet complete enough for high confidence. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 46,
+        "source": "FutureTools AI News"
+      }
+    },
     "openai-block-defense-factory-security": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-block-defense-factory-security.jpg",
@@ -8011,6 +8068,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI and Ironclad Partner to Train AI Agents on Complex Legal Contracting Workflows",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-low-resource-programming-languages-multilangbench": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-low-resource-programming-languages-multilangbench.jpg",
+      "last_updated": "2026-10-20T02:11:02Z",
+      "post_id": "547480163830185750",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-introduces-multilangbench-and.html",
+      "score": 95,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/1wQpFFie9sKfVWvApPYyn5/db28adb6a2dfdfdef39fb548fca8913d/low_resource_programming__SEO_Card__3_.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/low-resource-programming-languages"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces MultiLangBench and New Models for Low-Resource Programming Languages",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-20T00:28:41Z",
+    "at": "2026-10-20T05:16:36Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 4,
+    "queued": 6,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 89,
+  "runs": 90,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -499,6 +499,11 @@
       "first_seen": "2026-10-03T00:46:17Z",
       "status": "too_old",
       "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24"
+    },
+    "17700e6a84d6104399eb8603": {
+      "first_seen": "2026-10-20T05:16:24Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.107.0-rc.2"
     },
     "17ae0263749e16b232c5a47e": {
       "first_seen": "2026-10-12T19:18:24Z",
@@ -1734,6 +1739,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.5"
     },
+    "512562f1d7f67f90d120ea85": {
+      "first_seen": "2026-10-20T05:16:24Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.4"
+    },
     "51267d3b2a316fb88d05c407": {
       "first_seen": "2026-10-09T23:20:25Z",
       "status": "queued",
@@ -2074,6 +2084,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/"
+    },
+    "61d90717669ce5b05c4e8c27": {
+      "first_seen": "2026-10-20T05:16:11Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11750"
     },
     "61dfb167a321c72f918e7bb9": {
       "first_seen": "2026-10-17T16:12:06Z",
@@ -3568,6 +3583,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11644"
     },
+    "a3065e227eb56b2980ed646f": {
+      "first_seen": "2026-10-20T05:16:36Z",
+      "status": "queued",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.8"
+    },
     "a390f1821d8ae660facddf9b": {
       "first_seen": "2026-10-12T09:24:08Z",
       "status": "queued",
@@ -4380,6 +4400,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11418"
     },
+    "cba1491e88259cb2c1ccf734": {
+      "first_seen": "2026-10-20T05:16:36Z",
+      "status": "queued",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.58.0"
+    },
     "cbc8926a28c802abf681f0b7": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -5134,6 +5159,11 @@
       "first_seen": "2026-10-05T09:14:16Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11411"
+    },
+    "ef55f8ad37a2de5fe041de6c": {
+      "first_seen": "2026-10-20T05:16:11Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11749"
     },
     "ef7024e5052fb5713228a3d5": {
       "first_seen": "2026-10-08T07:31:45Z",

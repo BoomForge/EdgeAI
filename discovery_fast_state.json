@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-20T10:10:49Z",
+    "at": "2026-10-20T15:12:07Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
+    "prefiltered": 1,
     "queued": 3,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 91,
+  "runs": 92,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -581,6 +581,11 @@
       "first_seen": "2026-10-03T00:46:15Z",
       "status": "too_old",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.6"
+    },
+    "1abb0c06a1739c596297418f": {
+      "first_seen": "2026-10-20T15:11:37Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11757"
     },
     "1ad68fd246afaeafc9d9255e": {
       "first_seen": "2026-10-08T07:31:18Z",
@@ -1581,6 +1586,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1"
+    },
+    "486268bba86c4a62987a8552": {
+      "first_seen": "2026-10-20T15:11:37Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11755"
     },
     "488f7e0cba92c726474e4da7": {
       "first_seen": "2026-10-16T05:36:35Z",
@@ -3734,6 +3744,12 @@
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc4"
     },
+    "aaace91e46634af67900f9b9": {
+      "first_seen": "2026-10-20T15:11:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products/ads-commerce/financial-services-verification-united-states-canada/"
+    },
     "aaca4ea26d928402aed6d16a": {
       "first_seen": "2026-10-06T19:03:40Z",
       "status": "queued",
@@ -4914,6 +4930,11 @@
       "first_seen": "2026-10-16T05:36:29Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20647"
+    },
+    "e3ebda66e40d24b73dd045e6": {
+      "first_seen": "2026-10-20T15:11:37Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11756"
     },
     "e3fbab269c4c21b247698d66": {
       "first_seen": "2026-10-15T10:18:29Z",

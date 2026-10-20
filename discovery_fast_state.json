@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-20T15:12:07Z",
+    "at": "2026-10-20T19:23:08Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 3,
+    "prefiltered": 0,
+    "queued": 8,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 92,
+  "runs": 93,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -495,6 +495,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11734"
     },
+    "1725d137aa3debc0d8ae9b76": {
+      "first_seen": "2026-10-20T19:22:35Z",
+      "status": "queued",
+      "url": "https://openai.com/index/ted-taylor-restaurant"
+    },
     "172d052d12dca60340fc85e7": {
       "first_seen": "2026-10-03T00:46:17Z",
       "status": "too_old",
@@ -653,6 +658,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11388"
     },
+    "1cfb6291fa158d05a5bad0e6": {
+      "first_seen": "2026-10-20T19:22:35Z",
+      "status": "queued",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio"
+    },
     "1d108a11bc33f28a865d162a": {
       "first_seen": "2026-10-09T13:48:02Z",
       "status": "queued",
@@ -788,6 +798,11 @@
       "first_seen": "2026-10-10T22:43:01Z",
       "status": "queued",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.0"
+    },
+    "2508ace600ddfdfca14dcbe2": {
+      "first_seen": "2026-10-20T19:22:35Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-clinical-study/"
     },
     "2553159a4f32c9968b59109d": {
       "first_seen": "2026-10-03T05:43:34Z",
@@ -994,6 +1009,11 @@
       "first_seen": "2026-10-08T07:31:26Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11490"
+    },
+    "2e63afff050cbe1ca9580a30": {
+      "first_seen": "2026-10-20T19:22:56Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.2"
     },
     "2e7d4623c510312b740a9cc7": {
       "first_seen": "2026-10-08T07:31:18Z",
@@ -1974,6 +1994,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.102.3"
     },
+    "5bd44e1c0c6e2cd959a21cfc": {
+      "first_seen": "2026-10-20T19:22:56Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.6"
+    },
     "5c2906c99bce192f35f89c35": {
       "first_seen": "2026-10-07T09:14:13Z",
       "status": "queued",
@@ -2893,6 +2918,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12580"
     },
+    "857dc90a2ea956351d92ac90": {
+      "first_seen": "2026-10-20T19:22:56Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.1"
+    },
     "859460e5c1894b734ca53ec7": {
       "first_seen": "2026-10-08T07:31:41Z",
       "status": "queued",
@@ -3246,6 +3276,11 @@
       "first_seen": "2026-10-08T20:34:18Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2"
+    },
+    "95de753e037a62ea21b5ca64": {
+      "first_seen": "2026-10-20T19:23:00Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/archive%2Fpr15095"
     },
     "95eb6c8a3e94753a6eb7d170": {
       "first_seen": "2026-10-05T09:14:06Z",
@@ -4129,6 +4164,11 @@
       "first_seen": "2026-10-08T07:31:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08809"
+    },
+    "bdc0c47bb06abc625d61c147": {
+      "first_seen": "2026-10-20T19:22:35Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/"
     },
     "bde261fa52d21062f74c894b": {
       "first_seen": "2026-10-03T05:43:25Z",

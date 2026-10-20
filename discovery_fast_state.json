@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "at": "2026-10-20T19:23:08Z",
+    "at": "2026-10-20T22:27:36Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
@@ -9,7 +9,7 @@
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 93,
+  "runs": 94,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -203,6 +203,11 @@
       "first_seen": "2026-10-03T00:45:51Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2609.38195"
+    },
+    "0c709df81efddcad76734304": {
+      "first_seen": "2026-10-20T22:27:10Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11762"
     },
     "0cbbbb5285d664f9e61a7306": {
       "first_seen": "2026-10-09T19:20:42Z",
@@ -2459,6 +2464,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.18881"
     },
+    "6ddf0366087284b8f44162ac": {
+      "first_seen": "2026-10-20T22:27:10Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11760"
+    },
     "6e0ba84ea28447b0d66b95c4": {
       "first_seen": "2026-10-03T00:46:13Z",
       "status": "queued",
@@ -2680,6 +2690,11 @@
       "first_seen": "2026-10-03T00:46:18Z",
       "status": "too_old",
       "url": "https://github.com/microsoft/autogen/releases/tag/python-v0.7.4"
+    },
+    "7a44093bc311d4a6250b6ca5": {
+      "first_seen": "2026-10-20T22:27:03Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/"
     },
     "7a765cf2b605934d9943d32f": {
       "first_seen": "2026-10-05T09:14:07Z",
@@ -4361,6 +4376,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.19005"
     },
+    "c6502becd35462bd12cd2025": {
+      "first_seen": "2026-10-20T22:27:10Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11758"
+    },
     "c690c3ae06d3d98aee27b99d": {
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
@@ -4501,6 +4521,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11633"
     },
+    "cd7ec95f220a0ea5bee81e48": {
+      "first_seen": "2026-10-20T22:27:09Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.2"
+    },
     "cd80297b5582a6814bb21941": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "too_old",
@@ -4616,6 +4641,11 @@
       "first_seen": "2026-10-03T00:46:16Z",
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.0"
+    },
+    "d2ace7e9d2436a978a3a613d": {
+      "first_seen": "2026-10-20T22:27:11Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1"
     },
     "d2b5b29b4c815525619915dc": {
       "first_seen": "2026-10-05T18:34:46Z",
@@ -4752,6 +4782,11 @@
       "first_seen": "2026-10-08T07:31:26Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11493"
+    },
+    "d729c5af15e6e1c382365ec6": {
+      "first_seen": "2026-10-20T22:27:10Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11759"
     },
     "d73ba1c5ca7dc0b3316d87f0": {
       "first_seen": "2026-10-07T16:39:04Z",
@@ -5255,6 +5290,11 @@
       "first_seen": "2026-10-12T09:23:59Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12542"
+    },
+    "efba68315c6e645d2b64a5c6": {
+      "first_seen": "2026-10-20T22:27:10Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11761"
     },
     "eff076b7907fd74d48a632a2": {
       "first_seen": "2026-10-07T09:14:07Z",

@@ -37,12 +37,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-20T17:58:13Z",
-    "eligible": 25,
-    "evaluated": 5,
+    "at": "2026-10-20T21:33:47Z",
+    "eligible": 37,
+    "evaluated": 3,
     "mode": "live",
-    "new_posts": 1,
-    "publish_actions": 1,
+    "new_posts": 2,
+    "publish_actions": 2,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -537,6 +537,14 @@
       "story_key": "artificial-analysis-changelog-updates-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-3e1c72d550f22f51a99c"
     },
+    "1725d137aa3debc0d8ae9b76": {
+      "at": "2026-10-20T21:33:44Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "openai-chatgpt-work-franchisee-case-study",
+      "url": "https://openai.com/index/ted-taylor-restaurant"
+    },
     "179afd0ee553a08b8bacfe99": {
       "at": "2026-10-03T04:50:20Z",
       "bootstrap": true,
@@ -682,6 +690,20 @@
       "at": "2026-10-07T13:59:34Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11388"
+    },
+    "1cfb6291fa158d05a5bad0e6": {
+      "at": "2026-10-20T21:33:42Z",
+      "bootstrap": false,
+      "score": 91,
+      "status": "published",
+      "story_key": "openai-acquires-orchestra-bio-life-sciences",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio"
     },
     "1d108a11bc33f28a865d162a": {
       "at": "2026-10-11T22:31:40Z",
@@ -2008,6 +2030,20 @@
         "source": "Nous Research Announcements"
       },
       "url": "https://x.com/NousResearch/status/2107592258216206497"
+    },
+    "57c07d00a31145ec21b39186": {
+      "at": "2026-10-20T21:33:47Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "claude-scorpion-neurotoxin-binder-design-anthropic",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design?utm_source=futuretools.io&utm_medium=newspage"
     },
     "57c3309db5bedcdec4e0532a": {
       "at": "2026-10-14T20:52:54Z",
@@ -6483,6 +6519,27 @@
         "source": "FutureTools AI News"
       }
     },
+    "claude-scorpion-neurotoxin-binder-design-anthropic": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/claude-scorpion-neurotoxin-binder-design-anthropic.jpg",
+      "last_updated": "2026-10-20T21:33:47Z",
+      "post_id": "8874724973590592716",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-reports-claude-designed-17.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/187c8077329b22f6bd02c5648ea58749af892e8c-1200x630.jpg",
+      "source_urls": [
+        "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Reports Claude Designed 17 Protein Binders Against Scorpion Neurotoxins in 64-Hour Autonomous Campaign",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      }
+    },
     "claude-solves-nist-ecdsa-curve-origins": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/claude-solves-nist-ecdsa-curve-origins.jpg",
@@ -7934,6 +7991,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 88,
         "source": "Ollama Releases"
+      }
+    },
+    "openai-acquires-orchestra-bio-life-sciences": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-acquires-orchestra-bio-life-sciences.jpg",
+      "last_updated": "2026-10-20T21:33:42Z",
+      "post_id": "4411023568712978850",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-acquires-orchestra-bio-to-expand.html",
+      "score": 91,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/qoX4w89e0GxOOa2GsAdSm/b4a461997956908e9813e59044617416/openai-to-acquire-orchestra-bio-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/openai-to-acquire-orchestra-bio"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Acquires Orchestra Bio to Expand AI Agents in Life Sciences R&D",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
       }
     },
     "openai-amp-agents-gpt6-astra-gpt-live-1": {

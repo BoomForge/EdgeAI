@@ -37,8 +37,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-20T07:30:12Z",
-    "eligible": 13,
+    "at": "2026-10-20T12:53:44Z",
+    "eligible": 18,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
@@ -2457,6 +2457,20 @@
       },
       "url": "https://www.anthropic.com/news/genesis-mission-commitment?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "6ab4715319297146a5c962b3": {
+      "at": "2026-10-20T12:53:44Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "anthropic-public-benefit-fund-shares-commitment",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.anthropic.com/news/public-benefit-fund?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "6aeb8b84935c1b408afa9ba3": {
       "at": "2026-10-11T22:31:31Z",
       "status": "expired",
@@ -4249,6 +4263,20 @@
       },
       "url": "https://artificialanalysis.ai/changelog#edgeai-9b0d0013db1bf8f37984"
     },
+    "c107d73a22627786c3dfb1b0": {
+      "at": "2026-10-20T12:53:34Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "artificial-analysis-changelog-healthbench-and-recent-evaluations",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-3ba4700c9f09b5fe658a"
+    },
     "c288f00f94c5b3aa84365a46": {
       "at": "2026-10-15T16:54:14Z",
       "status": "expired",
@@ -5831,6 +5859,27 @@
         "source": "FutureTools AI News"
       }
     },
+    "anthropic-public-benefit-fund-shares-commitment": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-public-benefit-fund-shares-commitment.jpg",
+      "last_updated": "2026-10-20T12:53:44Z",
+      "post_id": "5727815056506723303",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-commits-5-plus-of-shares-to.html",
+      "score": 85,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+      "source_urls": [
+        "https://www.anthropic.com/news/public-benefit-fund?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Commits 5% Plus of Shares to New Public Benefit Fund",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      }
+    },
     "anthropic-scion-source-control-git-replacement": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-scion-source-control-git-replacement.jpg",
@@ -5887,6 +5936,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Artificial Analysis Updates: GPT-6.1 Sol, Claude Sonnet 5.5, and Gemini 4 Argon Ranks",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
+    "artificial-analysis-changelog-healthbench-and-recent-evaluations": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-healthbench-and-recent-evaluations.jpg",
+      "last_updated": "2026-10-20T12:53:34Z",
+      "post_id": "865647784781775633",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/artificial-analysis-updates-changelog_01283033592.html",
+      "score": 85,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-3ba4700c9f09b5fe658a"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Updates Changelog with HealthBench Leaderboards and New Model Evaluations",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

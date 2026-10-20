@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-20T10:21:06Z",
+    "at": "2026-10-20T15:17:22Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 10,
-    "queued": 4,
+    "prefiltered": 3,
+    "queued": 6,
     "sources_ok": 15,
-    "too_old": 5,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 90,
+  "runs": 91,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -565,6 +565,12 @@
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/fuseai"
+    },
+    "1c24f9fc140ff50050219b53": {
+      "first_seen": "2026-10-20T15:17:17Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/kling-4-0-4"
     },
     "1c9a400580e4588c0fe128dd": {
       "first_seen": "2026-10-16T18:46:59Z",
@@ -1289,6 +1295,12 @@
       "status": "queued",
       "url": "https://www.anthropic.com/research/ecdsa-curve-origins?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "47bac31787a17a8cb62fb290": {
+      "first_seen": "2026-10-20T15:17:17Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/asimov-1"
+    },
     "47c3437aa5d6b239339d11fd": {
       "first_seen": "2026-10-13T18:14:14Z",
       "status": "queued",
@@ -1587,6 +1599,11 @@
       "first_seen": "2026-10-10T11:25:13Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/reso"
+    },
+    "5722d6d2937c17322ab2e1a7": {
+      "first_seen": "2026-10-20T15:17:21Z",
+      "status": "queued",
+      "url": "https://sakana.ai/qd-rec/"
     },
     "573e14965f6f6511c475beb1": {
       "first_seen": "2026-10-11T09:11:21Z",
@@ -2286,6 +2303,12 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/your-chatgpt-can-now-work-while-youre-away-10-02-2026"
+    },
+    "7a99c50815c06efddb413695": {
+      "first_seen": "2026-10-20T15:17:17Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://newsletter.futurepedia.io/p/chatgpt-has-a-second-mode-most-people-never-open-10-20-2026"
     },
     "7ab338847ccf1227bb20b2f8": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -3334,6 +3357,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/alkera"
     },
+    "b083a6bf6a98a2733b77fa87": {
+      "first_seen": "2026-10-20T15:17:17Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/todo-is"
+    },
     "b086982776d8ed321378c722": {
       "first_seen": "2026-10-09T01:22:21Z",
       "status": "queued",
@@ -3706,6 +3734,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/microsoft-xbox-series-s"
+    },
+    "c338cc27b47c37b92288f512": {
+      "first_seen": "2026-10-20T15:17:17Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/harness-104"
     },
     "c46e83ffe9fcac6056ab89b2": {
       "first_seen": "2026-10-10T11:25:13Z",
@@ -4225,6 +4258,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/baby-desk"
     },
+    "e47b399eb3be487eb6702724": {
+      "first_seen": "2026-10-20T15:17:17Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/runinfra"
+    },
     "e48a7f736f56ad596c7cd7f9": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -4251,6 +4289,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/revela"
     },
+    "e5d7fe526f2bbce52697faf3": {
+      "first_seen": "2026-10-20T15:17:17Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/exa-ai"
+    },
     "e5e29b8c46bed49a08dcf72c": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
@@ -4260,6 +4303,11 @@
       "first_seen": "2026-10-18T10:57:54Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/gravity-notes-for-mac"
+    },
+    "e70bc32f2eb563dd5c6c7e59": {
+      "first_seen": "2026-10-20T15:17:17Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/sorcerer"
     },
     "e74b0ca731164f12ce98355c": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -4301,6 +4349,11 @@
       "first_seen": "2026-10-16T23:59:21Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/16/code-review/"
+    },
+    "e8b684b0e8627fc77c3989d3": {
+      "first_seen": "2026-10-20T15:17:17Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/lugh-xtudio"
     },
     "e911ce0dca2fc01e210ece7f": {
       "first_seen": "2026-10-16T14:48:14Z",
@@ -4694,6 +4747,11 @@
       "first_seen": "2026-10-20T00:43:52Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "ff2c216b20103980ddbe972d": {
+      "first_seen": "2026-10-20T15:17:17Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/yggy"
     },
     "ff3192a07212d5fdc5524862": {
       "first_seen": "2026-10-03T00:45:59Z",

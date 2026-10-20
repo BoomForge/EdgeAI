@@ -702,20 +702,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "5f19b672939574e1454c4994",
-      "discovered_at": "2026-10-06T14:08:54Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-10-06T14:08:54Z",
-      "search_score": 37,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 06 Oct 2026 New language model evaluation results available Mistral Large 4 Preview Intelligence Index: 38 Mistral performance results now available Mistral Large 4 Preview 05 Oct 2026 Amazon Bedrock performance results now available Claude Opus 5.5 (Max, Default Fallback) Microsoft Azure performance results now available Claude Sonnet 5.5 (Max, Default Fallback) Claude Sonnet 5.5 (Low, Default Fallback) Claude Opus 5.5 (Max, Default Fallback) Claude Opus 5.5 (Low, Default Fallback) GPT-6 Luna (Non-reasoning) GPT-6.1 Sol (Max) PrimaLabs performance results now available GLM 5.3 Flash 04 Oct 2026 OpenAI performance results now available GPT-6.1 Sol (Max) 03 Oct 2026 New language model evaluation results available Ling 3.1 Flash Intelligence Index: 41 InclusionAI performance results now available Ling 3.1 Flash 01 Oct 2026 New language model evaluation results available Grok 4.7 (Low) Intelligence Index: 42 Institute of Foundation Models performance results now available K2 Horizon 375B A23B LithosAI performance results now available GLM 5.3 Flash GLM 5.3 Flash Bitdeer AI performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) SpaceXAI performance results now available Grok 4.7 (Low) 30 Sept 2026 \ud83d\udd14 New article published Korean AI Lab Upstage releases Solar Mini 4 Korean AI Lab Upstage has released Solar Mini 4 which scores 24 on the Artificial Analysis Intelligence Index, but costs ~5x as much per task as GPT-6 Luna (max) despite similar per-token prices \ud83d\udd14 New article published Gemini 4 Argon: Google is back as one of the top three labs in intelligence achieved Google\u2019s new Gemini 4 Argon equals GPT-6 Astra on the Artificial Analysis Intelligence Index at 60% of the Cost per Task with discounted prices. Google is now back to being one of the top three labs in intelligence achieved New language model evaluation results available Solar Mini 4 Intelligence Index: 24 New language model evaluation results available Gemini 4 Argon (High) Intelligence Index: 53 Upstage performance results now available Solar Mini 4 Novita performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash Modular performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Google performance results now available Gemini 4 Argon (High) 29 Sept 2026 \ud83d\udd14 New article published AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations Our open-source tool for testing how fast agentic AI runs on laptops and workstations, with launch results for the DGX Spark, Ryzen AI Halo, MacBook Pro (M5 Pro) and RTX 5090 across four open-weights models \ud83d\udd14 New article published GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence GPT-6.1 Sol replaces GPT-6 Sol after just 7 days. It scores 1 point below GPT-6 Astra in the Intelligence Index at less than one quarter of the Cost per Task New language model evaluation results available JT-4.1 Flash 236B A21B (Reasoning) Intelligence Index: 34 New language model evaluation results available DeepSeek V4 Pro 0813 (Non-reasoning) Intelligence Index: 20 New language model evaluation results available GPT-6.1 Sol (Medium) Intelligence Index: 48 New language model evaluation results available GPT-6.1 Sol (Low) Intelligence Index: 42 New language model evaluation results available GPT-6.1 Sol (High) Intelligence Index: 50 New language model evaluation results available GPT-6.1 Sol (Xhigh) Intelligence Index: 51 New language model evaluation results available GPT-6.1 Sol (Max) Intelligence Index: 52 DeepSeek performance results now available DeepSeek V4 Pro 0813 (Non-reasoning) LithosAI performance results now available GLM-5.3 (Max) GLM-5.3 (Max) DeepInfra performance results now available MiMo-V2.6-Flash CoreWeave performance results now available DeepSeek V4.1 Flash (Non-reasoning) Modal performance results now available DeepSeek V4.1 Flash (Non-reasoning) Supernova performance results now available GLM-5.3 (Low) GLM-5.3 (Max) GLM-5.3 (Low) GLM-5.3 (Max) OpenAI performance results now available GPT-6.1 Sol (Medium) GPT-6.1 Sol (Low) GPT-6.1 Sol (High) GPT-6.1 Sol (Xhigh) GPT-6.1 Sol (Max) 28 Sept 2026 \ud83d\udd14 New article published Claude Sonnet 5.5 reaches #2 on the Artificial Analysis Intelligence Index Anthropic's new Sonnet model scores 56, just 2 points behind Opus 5.5 (max), but at the highest Output Tokens per Task we have measured New language model evaluation results available Claude Sonnet 5.5 (Low, Default Fallback) Intelligence Index: 36 New language model evaluation results available Claude Sonnet 5.5 (Medium, Default Fallback) Intelligence Index: 41 New lang",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-6d25e977ed7a7140f88e"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "acb4d46b14ee21b8f01ee718",
       "discovered_at": "2026-10-15T22:14:56Z",
       "kind": "independent",
@@ -923,6 +909,20 @@
       "summary": "FLUX 3 Image Klein FLUX 3 Image FLUX 3 Video FLUX 3 Action FLUX Tools",
       "title": "FLUX 3 Image Klein",
       "url": "https://bfl.ai/models/flux-3-image-klein"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "5722d6d2937c17322ab2e1a7",
+      "discovered_at": "2026-10-20T15:17:21Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "",
+      "search_score": 0,
+      "source_name": "Sakana AI Blog",
+      "summary": "\u30aa\u30fc\u30d7\u30f3\u30a8\u30f3\u30c9\u306a\u63a2\u7d22\u3092\u610f\u601d\u6c7a\u5b9a\u652f\u63f4\u3078\uff1a\u63a8\u85a6\u306e\u8cea\u3068\u591a\u69d8\u6027\u3092\u9ad8\u3081\u308b\u300cQD-Rec\u300d\u3092\u63d0\u6848",
+      "title": "\u30aa\u30fc\u30d7\u30f3\u30a8\u30f3\u30c9\u306a\u63a2\u7d22\u3092\u610f\u601d\u6c7a\u5b9a\u652f\u63f4\u3078\uff1a\u63a8\u85a6\u306e\u8cea\u3068\u591a\u69d8\u6027\u3092\u9ad8\u3081\u308b\u300cQD-Rec\u300d\u3092\u63d0\u6848",
+      "url": "https://sakana.ai/qd-rec/"
     },
     {
       "bootstrap": false,
@@ -2144,6 +2144,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "e5d7fe526f2bbce52697faf3",
+      "discovered_at": "2026-10-20T15:17:17Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-19T13:05:52-07:00",
+      "search_score": 7,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Smarter search that gives AI agent richer data at lower cost Discussion | Link",
+      "title": "Exa 3.0",
+      "url": "https://www.producthunt.com/products/exa-ai"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "f09ae79bc02abf8089372192",
       "discovered_at": "2026-10-20T10:21:00Z",
       "kind": "signal",
@@ -2155,6 +2169,20 @@
       "summary": "Give your AI agent a phone that calls and answers Discussion | Link",
       "title": "call4me",
       "url": "https://www.producthunt.com/products/call4me"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "e70bc32f2eb563dd5c6c7e59",
+      "discovered_at": "2026-10-20T15:17:17Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-19T11:20:54-07:00",
+      "search_score": 7,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Simulate an AI agent community reacting to \"what if\" Discussion | Link",
+      "title": "Sorcerer",
+      "url": "https://www.producthunt.com/products/sorcerer"
     },
     {
       "bootstrap": false,
@@ -2186,6 +2214,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "e47b399eb3be487eb6702724",
+      "discovered_at": "2026-10-20T15:17:17Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-19T16:12:51-07:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Open models, built for agents. Discussion | Link",
+      "title": "RunInfra",
+      "url": "https://www.producthunt.com/products/runinfra"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "cf5829efbae7aba1ede11e57",
       "discovered_at": "2026-10-17T08:44:04Z",
       "kind": "signal",
@@ -2197,6 +2239,20 @@
       "summary": "The world's most powerful agents, with the UX they deserve Discussion | Link",
       "title": "Craft Agents",
       "url": "https://www.producthunt.com/products/craft-agents"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "e8b684b0e8627fc77c3989d3",
+      "discovered_at": "2026-10-20T15:17:17Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-19T20:08:40-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "The video studio where AI agents edit with you Discussion | Link",
+      "title": "Lugh Xtudio",
+      "url": "https://www.producthunt.com/products/lugh-xtudio"
     },
     {
       "bootstrap": false,
@@ -2270,6 +2326,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "c338cc27b47c37b92288f512",
+      "discovered_at": "2026-10-20T15:17:17Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-19T12:43:26-07:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Harness the agent. Then harness its self-improvement. Discussion | Link",
+      "title": "Harness\u00b2",
+      "url": "https://www.producthunt.com/products/harness-104"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "82b186859e8e06676d1b2d80",
       "discovered_at": "2026-10-19T21:40:03Z",
       "kind": "signal",
@@ -2298,6 +2368,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-20T10:21:06Z",
+  "updated_at": "2026-10-20T15:17:22Z",
   "version": 2
 }

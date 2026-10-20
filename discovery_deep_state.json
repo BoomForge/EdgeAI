@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-20T19:29:52Z",
+    "at": "2026-10-20T22:43:59Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 1,
-    "queued": 9,
+    "queued": 3,
     "sources_ok": 15,
     "too_old": 1,
     "warnings": 0
   },
-  "runs": 92,
+  "runs": 93,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -411,6 +411,11 @@
       "first_seen": "2026-10-13T18:14:20Z",
       "status": "queued",
       "url": "https://runway.com/code-terms/enterprise-bonus-terms"
+    },
+    "1464945db0ba3868d024d3d9": {
+      "first_seen": "2026-10-20T22:43:53Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/glance-for-mac"
     },
     "1469db0a07ecb19e2e6a46e8": {
       "first_seen": "2026-10-14T07:31:56Z",
@@ -1666,6 +1671,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/mermaid"
     },
+    "58632a2d8030a25d987094e1": {
+      "first_seen": "2026-10-20T22:43:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/xtty"
+    },
     "58654261fa9f0b658f22e707": {
       "first_seen": "2026-10-04T17:06:51Z",
       "search_score": 1,
@@ -1733,6 +1744,11 @@
       "first_seen": "2026-10-15T09:50:31Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/withhuman"
+    },
+    "5c3d7c24b4602c4d2658f950": {
+      "first_seen": "2026-10-20T22:43:54Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-1911f5d0599358d77a3c"
     },
     "5c50cc48a2b9d4162c05e7fb": {
       "first_seen": "2026-10-15T14:58:02Z",
@@ -1981,6 +1997,11 @@
       "first_seen": "2026-10-16T21:47:28Z",
       "status": "queued",
       "url": "https://finance.yahoo.com/markets/article/sylvester-stallone-on-ai-in-hollywood-it-makes-things-so-much-easier-160000411.html?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "679aa5ba7788168552bddeeb": {
+      "first_seen": "2026-10-20T22:43:57Z",
+      "status": "queued",
+      "url": "https://sakana.ai/open-house-2026/"
     },
     "68f59b89b4d78cf84a0cdf21": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -2470,6 +2491,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/aegis-14"
+    },
+    "7fa30abfca2c7ff1033a152c": {
+      "first_seen": "2026-10-20T22:43:53Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/20/battledrones/"
     },
     "7fad564510a83e8eaffeb8a1": {
       "first_seen": "2026-10-06T14:08:51Z",

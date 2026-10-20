@@ -1962,20 +1962,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "f57eff9c23a4454b476bbb26",
-      "discovered_at": "2026-10-06T19:03:32Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Tue, 06 Oct 2026 10:00:00 GMT",
-      "search_score": 6,
-      "source_name": "OpenAI News",
-      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-      "title": "Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "a8b8c31de898145e14c82e5a",
       "discovered_at": "2026-10-14T19:28:58Z",
       "kind": "official",
@@ -2620,20 +2606,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "9f94445088fd7296d301f6fc",
-      "discovered_at": "2026-10-06T19:03:40Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-06T07:07:16Z",
-      "search_score": 11,
-      "source_name": "llama.cpp Releases",
-      "summary": "The secondary button gets its own look back and the chat add button its own light surface. Pressable elements get a pointer cursor again, the font rendering smooths on the app shell, the root layout resolves its props probe through the providers' api url, and the agent skills stay out of prettier's way. Assisted-by: pi:llama.cpp/DeepSeek-V4.1-Flash",
-      "title": "backup/allozaur-ui-shell-polish: ui : polish the shell",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/backup%2Fallozaur-ui-shell-polish"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "de38b48d82475212f00c1c46",
       "discovered_at": "2026-10-17T16:12:06Z",
       "kind": "local-ai",
@@ -2785,20 +2757,6 @@
       "summary": "sampling : use greedy selection for eligible temperature-zero chains ( #29797 ) sampling : use greedy selection for eligible temperature-zero chains Assisted-by: OpenAI Codex Apply suggestion from @ggerganov Co-authored-by: Georgi Gerganov ggerganov@gmail.com sampling: simplify zero-temperature greedy eligibility Allow the same greedy selection on CPU and grammar/reasoning-budget paths. Keep distribution sampling for dynamic temperature and requested probabilities. Cover the common sampler selection and probability behavior in the existing sampler tests. Assisted-by: OpenAI Codex sampling : use greedy selection after final top-k with k=1 Assisted-by: OpenAI Codex cont : clean-up Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/53574365 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11472",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11472"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "9c31c15969a0389f5c8b359f",
-      "discovered_at": "2026-10-06T13:36:39Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-06T09:43:57Z",
-      "search_score": 10,
-      "source_name": "llama.cpp Releases",
-      "summary": "ggml-openvino: fix CI tests; fix GPU regressions. ( #30037 ) ggml-openvino: skip unselected graph branches and support DUP Upstream #29622 adds a mixed token/embd branch to every input embedding graph through ggml_build_forward_select(). Its nodes are not flagged for compute, but the backend translated them anyway, and the DUP in that branch was unsupported, so the scheduler split the graph and passed the embeddings across the split with a fixed token count. The first single-token decode then failed (test-thread-safety on CPU and GPU). Build the OV model from the compute nodes only, and translate a same-type contiguous DUP like CONT so the graph stays on one backend. ggml-openvino: make inp_scale_rows token dim dynamic #29622 also moves the per-token embedding scale (gemma3, gemma3n, gemma4) into a new [1, n_tokens] input. Give it a dynamic token dim and pad it per chunk on the static (NPU) path. ggml-openvino: skip GPU MUL_MAT op tests with unbound Q4_1/Q4_K weights Op tests build Q4_1/Q4_K weights as u4 with an f16 zero point. The GPU plugin fails to compile that form for some row counts with \"clFinish, error code: -5 CL_OUT_OF_RESOURCES\", which aborts test-backend-ops on the MUL_MAT cases added in #29869 (e.g. m=1000, n=2, k=1024). Model weights use a u4 zero point and are not affected. Report these cases as unsupported on GPU until the plugin is fixed. Op tests check support before allocating, so the check matches unbound weights only; model loading probes with a dummy buffer and keeps its weights on the GPU. ggml-openvino: create FILL in the output type translate_fill always built an f32 constant, so an f16 FILL produced f32 data and the copy back overran the f16 output buffer. Use the output type for the constant. ggml-openvino: reject CONCAT with a quantized type Quantized inputs are dequantized when translated, so the backend cannot write a quantized CONCAT output. Report it as unsupported, as for CPY to a quantized type. ggml-openvino: handle the single recurrent state gather of build_rs #29856 changed build_rs to gather all recurrent states with one GET_ROWS on the s_copy leaf and take the ubatch and extra states as views of it. The stateful path matched only the previous form, a GET_ROWS per view of s_copy, so Qwen3.5 failed with stateful execution on CPU and GPU (\"is_axis_valid(axis, r)\" in a Concat). For a single-slot cache, treat the GET_ROWS on the s_copy leaf as the active-state gather, keep the rank-4 layout of reshapes that read a view of it, and map the copy of the empty extra-state view to the single-slot remainder writeback. Do not warn about the dynamic dim of empty views. openvino: align eltwise operand ranks to work around a GPU-plugin defect openvino: match the MoE fusion on the rank-3 stateful graph ggml-openvino: do not unsqueeze an RMS norm output in AlignEltwiseOperandRanks The pass unsqueezes the lower-rank operand of an Add/Multiply/Subtract whose operand ranks differ. In gemma-3 the lower-rank operand of the post-attention residual add is the norm output, and unsqueezing it makes the GPU plugin compute the layer wrongly: gemma-3 returns empty answers on GPU with stateful execution. Skip the rewrite when the lower-rank operand is an RMS norm output. docs : update OpenVINO validated models Co-authored-by: Mustafa Cavus mustafa.cavus@intel.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/53122299 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11436",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11436"
     },
     {
       "bootstrap": false,
@@ -3362,17 +3320,17 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "ad21292e8cbac72957f5928c",
-      "discovered_at": "2026-10-06T13:36:39Z",
+      "candidate_id": "5f17c45bfaacda63f87d9e45",
+      "discovered_at": "2026-10-20T10:10:22Z",
       "kind": "local-ai",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-10-06T10:05:40Z",
-      "search_score": 7,
+      "published": "2026-10-20T08:21:12Z",
+      "search_score": 6,
       "source_name": "llama.cpp Releases",
-      "summary": "test-llama-archs : initialize backends before generating models ( #30034 ) With GGML_BACKEND_DL=ON, backends must be loaded explicitly before creating models. Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/53128977 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11438",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11438"
+      "summary": "tests : make MoE router selection independent of the backend noise ( #30818 ) tests : make MoE router selection independent of the backend noise The router scores are in the range [0, 1), so a random draw can leave the last expert (or expert group) still selected and the first one dropped tied within the noise between the backends. They then route a token to different experts and the logits differ by 4e-3 instead of the usual 5e-7. Beam is the only arch here with a real top-k (8 experts, 2 used) and a group top-k (4 groups, 2 used), so it is the only one that hits this: 2 of 20 seeds failed on an M2 Ultra, the other MoE archs select 2 of 2 and cannot tie. Fill the selection bias with a ramp of step 2 to give every expert a score range of its own, which turns the top-k into a function of the expert index alone. The bias affects only the selection, the weights still come from the unbiased probs, so the MoE output keeps its magnitude. Beam now matches the CPU reference within 4e-7 for all of 160 seeds. Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) tests : tell the CPU and the GPU of an Apple SoC apart in the device table Both devices report the same description (\"Apple M2 Ultra\" here), so the device column of the test table had two indistinguishable rows and a failing row did not say whether the Metal device or the host CPU produced it. Add the device name, which is also what -b takes, unless the description already is the name. Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57707819 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11752",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11752"
     },
     {
       "bootstrap": false,
@@ -3460,6 +3418,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "916686ac2e288443b17dc7eb",
+      "discovered_at": "2026-10-20T10:10:22Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-20T09:10:56Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "vocab : add \\p{M} to lookaheads in Tekken and GPT-4o pre-tokenizer regexes ( #30845 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57723477 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11753",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11753"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "dcea53a7a39a72006cba2e3f",
+      "discovered_at": "2026-10-20T10:10:22Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-20T07:21:36Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "hexagon: update to snapdragon-toolchain v0.8 and enable hexagon v85 ( #30854 ) hex-build: bump toolchain, enable v85 hex-build: bump toolchain to v0.8 in the CI and build scripts hex-build: add a little python script for swiv needed on some iot devices hex-build: fix flake8 warnings hex-arch: update version cap to v85 hex-inspect: flexible TOOLS_ROOT hex-build: update to snake_case naming hex-build: update leftover old toolchain refs hex-target: update build and run scripts to support ubuntu with adb transport Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57688321 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11751",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11751"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "ae8cc1ad843ebfe5fc666522",
       "discovered_at": "2026-10-19T21:22:48Z",
       "kind": "local-ai",
@@ -3502,6 +3488,6 @@
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-20T05:16:36Z",
+  "updated_at": "2026-10-20T10:10:49Z",
   "version": 2
 }

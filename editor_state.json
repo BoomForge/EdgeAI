@@ -37,12 +37,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-20T12:53:44Z",
-    "eligible": 18,
-    "evaluated": 2,
+    "at": "2026-10-20T17:58:13Z",
+    "eligible": 25,
+    "evaluated": 5,
     "mode": "live",
-    "new_posts": 2,
-    "publish_actions": 2,
+    "new_posts": 1,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -363,6 +363,14 @@
       "at": "2026-10-09T17:07:50Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6"
+    },
+    "0e1db53b0026ae7a0a2d7e6d": {
+      "at": "2026-10-20T17:57:50Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11744-experimental-p2p-connect",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11744"
     },
     "0e55ba63354043e90753a2b6": {
       "at": "2026-10-08T23:51:05Z",
@@ -1968,6 +1976,20 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11446"
     },
+    "5722d6d2937c17322ab2e1a7": {
+      "at": "2026-10-20T17:57:16Z",
+      "bootstrap": false,
+      "score": 91,
+      "status": "published",
+      "story_key": "sakana-ai-qd-rec-decision-making",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      },
+      "url": "https://sakana.ai/qd-rec/"
+    },
     "5729c415ffed36d683b66b4e": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -2130,6 +2152,14 @@
         "source": "Sakana AI Blog"
       },
       "url": "https://sakana.ai/percept-lens/"
+    },
+    "5f17c45bfaacda63f87d9e45": {
+      "at": "2026-10-20T17:58:13Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11752-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11752"
     },
     "5f19b672939574e1454c4994": {
       "at": "2026-10-06T16:08:08Z",
@@ -4202,6 +4232,14 @@
       },
       "url": "https://x.com/NousResearch/status/2110385143643091204"
     },
+    "be5dbf8399484e1effbc39f2": {
+      "at": "2026-10-20T17:57:40Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "llamacpp-b11747-routine-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11747"
+    },
     "be8fc480c667640aea46906e": {
       "at": "2026-10-10T21:57:08Z",
       "bootstrap": false,
@@ -4988,6 +5026,14 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.3"
+    },
+    "e3ebda66e40d24b73dd045e6": {
+      "at": "2026-10-20T17:57:27Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "llamacpp-b11756-anthropic-slot-fix",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11756"
     },
     "e447cf92d70f23df27463fc5": {
       "at": "2026-10-13T03:56:43Z",
@@ -8801,6 +8847,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Sakana AI Introduces Percept-Lens for Robust AI-Generated Image Detection",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      }
+    },
+    "sakana-ai-qd-rec-decision-making": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/sakana-ai-qd-rec-decision-making.png",
+      "last_updated": "2026-10-20T17:57:16Z",
+      "post_id": "3374288285298480314",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/sakana-ai-introduces-qd-rec-applying.html",
+      "score": 91,
+      "source_image_source": "Sakana AI Blog",
+      "source_image_url": "https://sakana.ai/assets/home/sakana_ogp.png",
+      "source_urls": [
+        "https://sakana.ai/qd-rec/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Sakana AI Introduces QD-Rec: Applying Quality-Diversity Search to Generative AI Decision Support",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

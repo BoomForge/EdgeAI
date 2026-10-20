@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-20T05:25:11Z",
+    "at": "2026-10-20T10:21:06Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 0,
+    "prefiltered": 10,
+    "queued": 4,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 5,
     "warnings": 0
   },
-  "runs": 89,
+  "runs": 90,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -238,6 +238,12 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "0bf7693ce92002ce6b55f3f2": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/capitol-alpha-machine"
+    },
     "0c30926095c0d9d91fe3d640": {
       "first_seen": "2026-10-07T21:57:48Z",
       "status": "too_old",
@@ -451,6 +457,11 @@
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/extrovert"
+    },
+    "18078502f6d0431664918eb1": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/esp-mosaico"
     },
     "1844279e31368f1a77aa3f75": {
       "first_seen": "2026-10-19T10:44:24Z",
@@ -732,6 +743,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/cue-26"
     },
+    "260b1d61a13354ca3e607c53": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/composio"
+    },
     "26b38e61c6e185d1b3ceb9cf": {
       "first_seen": "2026-10-11T02:16:04Z",
       "status": "queued",
@@ -872,6 +888,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/blade-4"
+    },
+    "2ef3646bb17e1ab0ade5620e": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/openship-2"
     },
     "2f1b5ca58d8805cbe859509b": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -1095,6 +1117,12 @@
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/famrelay"
+    },
+    "3b573e0f859d9797b2cfc3ab": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/snyvi"
     },
     "3b73f4822ea0b3c87593c1f4": {
       "first_seen": "2026-10-03T00:46:02Z",
@@ -2568,6 +2596,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "8859dca49d075e7cb240bbcf": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/the-new-beings"
+    },
     "88b68a1cf767a91706169022": {
       "first_seen": "2026-10-17T08:44:04Z",
       "status": "too_old",
@@ -2578,6 +2611,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/capybara-court"
+    },
+    "8976af8b058523370d1e9d5e": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/jotform"
     },
     "89d4d034d86a1c4859ddef00": {
       "first_seen": "2026-10-10T11:25:13Z",
@@ -2689,6 +2727,12 @@
       "first_seen": "2026-10-12T15:14:38Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/manifold-mcp"
+    },
+    "8f9155c7b158e21b72e741f3": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/dev-null"
     },
     "901eddfa61b84a5e35f1f60f": {
       "first_seen": "2026-10-12T22:33:11Z",
@@ -3404,6 +3448,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/nova-18"
     },
+    "b76d609ea42e4e7f1852f066": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/reception"
+    },
     "b798d454d78e21d063126dc7": {
       "first_seen": "2026-10-16T10:03:10Z",
       "search_score": 0,
@@ -3503,6 +3553,12 @@
       "first_seen": "2026-10-15T22:14:54Z",
       "status": "queued",
       "url": "https://elevenlabs.io/blog/introducing-instant-soundtracks?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "bc4274c70382580c549977b6": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/bonds-2"
     },
     "bd173e559ba5d0f1c24750dd": {
       "first_seen": "2026-10-13T18:14:14Z",
@@ -3623,11 +3679,22 @@
       "status": "too_old",
       "url": "https://simonwillison.net/2026/Sep/28/llm-anthropic/"
     },
+    "c107d73a22627786c3dfb1b0": {
+      "first_seen": "2026-10-20T10:21:01Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-3ba4700c9f09b5fe658a"
+    },
     "c12a7f93c2ddc1871eb60d9c": {
       "first_seen": "2026-10-04T12:47:33Z",
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/eat-train-feel"
+    },
+    "c21a731587b9df7d6cdf942e": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/stage-9"
     },
     "c2499710b8c1841e3c65677b": {
       "first_seen": "2026-10-14T07:31:56Z",
@@ -3949,6 +4016,16 @@
       "status": "queued",
       "url": "https://sakana.ai/sakana-ai-insider/"
     },
+    "da65d1b9a734d54ec1cb43ef": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/inflight-2"
+    },
+    "da94d6b5b8908134c53c7745": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/praex"
+    },
     "db2198007a214d5a15101a72": {
       "first_seen": "2026-10-11T09:11:21Z",
       "status": "too_old",
@@ -4090,6 +4167,12 @@
       "first_seen": "2026-10-08T08:53:54Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/drunken-penguins"
+    },
+    "e0fd59054e441fe08064e788": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/portlivo"
     },
     "e13c3fccf40401a6444aa71d": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -4341,6 +4424,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/brussle-2"
     },
+    "f09ae79bc02abf8089372192": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/call4me"
+    },
     "f0bdd2caa8622824124d94f0": {
       "first_seen": "2026-10-14T21:37:22Z",
       "status": "queued",
@@ -4395,6 +4483,11 @@
       "first_seen": "2026-10-09T01:22:22Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/8/ttok/"
+    },
+    "f257f43eb0e9b8f362354530": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/panza-2"
     },
     "f261dfd2a809f3bd9cf3eade": {
       "first_seen": "2026-10-15T09:50:31Z",
@@ -4533,6 +4626,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/mira-tours"
     },
+    "f94036dcc874fe8292f29d44": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tiny-little-office"
+    },
     "f98c2c9dbf1b43116fb88718": {
       "first_seen": "2026-10-19T10:44:24Z",
       "search_score": 0,
@@ -4569,6 +4668,12 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
       "url": "https://www.kimi.com/"
+    },
+    "fc23ab2e9fb8b1b8fb0b1c54": {
+      "first_seen": "2026-10-20T10:21:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/rovalty-creator-program-ugc"
     },
     "fcb408321ee506756d3f8d8e": {
       "first_seen": "2026-10-15T14:58:02Z",

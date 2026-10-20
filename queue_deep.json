@@ -1010,20 +1010,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "6218e0219f6856f2edb6a893",
-      "discovered_at": "2026-10-06T19:44:11Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-06T18:20:58+00:00",
-      "search_score": 21,
-      "source_name": "Simon Willison Everything",
-      "summary": "My comment on Mistral Large 4 \u2014 Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m claude-opus-5.5 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars'\nllm -m gpt-6.1-sol 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars'\nllm -m gemini-3.8-flash 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars'\nllm -m mistral/mistral-large-4 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' Default reasoning levels for each: https://tools.simonwillison.net/markdown-svg-renderer?url=ht...",
-      "title": "Mistral Large 4",
-      "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "9a0455be99171fe1a5f5d188",
       "discovered_at": "2026-10-06T23:21:34Z",
       "kind": "primary-signal",
@@ -1455,6 +1441,20 @@
       "summary": "Microsoft Unveils MAI-Base-2: 2.8T Parameter MoE Model Beats All Open-Weight Rivals microsoft.ai \u00b7 Show TLDR",
       "title": "Microsoft Unveils MAI-Base-2: 2.8T Parameter MoE Model Beats All Open-Weight Rivals microsoft.ai \u00b7 Show TLDR",
       "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "57c07d00a31145ec21b39186",
+      "discovered_at": "2026-10-20T19:29:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 14,
+      "source_name": "FutureTools AI News",
+      "summary": "Claude Designs 17 Protein Binders Against Scorpion Neurotoxins in 64-Hour AI Campaign anthropic.com \u00b7 Show TLDR",
+      "title": "Claude Designs 17 Protein Binders Against Scorpion Neurotoxins in 64-Hour AI Campaign anthropic.com \u00b7 Show TLDR",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -1976,20 +1976,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "40554e21f87e8f4beef1396f",
-      "discovered_at": "2026-10-06T19:44:11Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-06T15:17:39+00:00",
-      "search_score": 8,
-      "source_name": "Simon Willison Everything",
-      "summary": "Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this : I want you to write some computer game music for me. First design simple text based format for the music and build an artifact that can play it out loud - include some example tracks in that artifact I am looking for music of the quality of the original secret of Monkey Island It leaned a lot harder into the Monkey Island theme than I had intended, but the results are surprisingly good. I wonder if the ability to compose competent music is similar to the 3D graphics thing - a new capability for text models that emerged in the past few months? Would need some careful experiments with other recent and not-so-recent models to confirm if this is new or if they've been able to do this for a while. Tags: ai , generative-ai , llms , claude , vibe-coding",
-      "title": "Scrimshaw Jukebox",
-      "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "6ab4715319297146a5c962b3",
       "discovered_at": "2026-10-20T00:43:52Z",
       "kind": "signal",
@@ -2001,6 +1987,20 @@
       "summary": "Anthropic Commits 5%+ of Shares to New Public Benefit Fund for AI's Social Impact anthropic.com \u00b7 Show TLDR",
       "title": "Anthropic Commits 5%+ of Shares to New Public Benefit Fund for AI's Social Impact anthropic.com \u00b7 Show TLDR",
       "url": "https://www.anthropic.com/news/public-benefit-fund?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "6dc1f68b02963da8f1899e0d",
+      "discovered_at": "2026-10-20T19:29:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 8,
+      "source_name": "FutureTools AI News",
+      "summary": "OpenAI acquires Orchestra Bio to accelerate AI-driven drug development openai.com \u00b7 Show TLDR",
+      "title": "OpenAI acquires Orchestra Bio to accelerate AI-driven drug development openai.com \u00b7 Show TLDR",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2060,6 +2060,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "9a5bcb800c8150e5256bb970",
+      "discovered_at": "2026-10-20T19:29:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "Google Gemini Launches Business Hub With Financial Insights and Brand Tools for SMBs blog.google \u00b7 Show TLDR",
+      "title": "Google Gemini Launches Business Hub With Financial Insights and Brand Tools for SMBs blog.google \u00b7 Show TLDR",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "ae7b31dc246e27601c985358",
       "discovered_at": "2026-10-19T00:11:45Z",
       "kind": "independent",
@@ -2116,6 +2130,76 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "3569384ebdc76e039c8f08a1",
+      "discovered_at": "2026-10-20T19:29:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "Grok Bot's IncidentWatch & IncidentSweep Automate Support Queue Incident Detection x.ai \u00b7 Show TLDR",
+      "title": "Grok Bot's IncidentWatch & IncidentSweep Automate Support Queue Incident Detection x.ai \u00b7 Show TLDR",
+      "url": "https://x.ai/news/incident-sweep?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "209851e1d08aff94d5326a2f",
+      "discovered_at": "2026-10-20T19:29:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "Perplexity Computer Now Runs Fully Local on Apple Silicon Macs for Pro Users perplexity.ai \u00b7 Show TLDR",
+      "title": "Perplexity Computer Now Runs Fully Local on Apple Silicon Macs for Pro Users perplexity.ai \u00b7 Show TLDR",
+      "url": "https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "6dc620341d3bde9888dbf00c",
+      "discovered_at": "2026-10-20T19:29:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "Spotify Removes 50M AI Spam Tracks, Launches Tools to Protect Human Artists newsroom.spotify.com \u00b7 Show TLDR",
+      "title": "Spotify Removes 50M AI Spam Tracks, Launches Tools to Protect Human Artists newsroom.spotify.com \u00b7 Show TLDR",
+      "url": "https://newsroom.spotify.com/2026-10-20/prioritizing-human-artistry/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "a459b56634dc5cb2f423a286",
+      "discovered_at": "2026-10-20T19:29:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "Yelp's New AI Feature Calls Restaurants to Check Wait Times on Your Behalf techcrunch.com \u00b7 Show TLDR",
+      "title": "Yelp's New AI Feature Calls Restaurants to Check Wait Times on Your Behalf techcrunch.com \u00b7 Show TLDR",
+      "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "16a30527ab41fa506f92501c",
+      "discovered_at": "2026-10-20T19:29:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "NYC Mayor Mamdani Calls Out Federal AI Inaction, Pushes for Local Accountability techcrunch.com \u00b7 Show TLDR",
+      "title": "NYC Mayor Mamdani Calls Out Federal AI Inaction, Pushes for Local Accountability techcrunch.com \u00b7 Show TLDR",
+      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "cc225fa176e6c3eac28c8676",
       "discovered_at": "2026-10-18T05:50:47Z",
       "kind": "independent",
@@ -2127,6 +2211,20 @@
       "summary": "Inline rendering with document\u200b.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline <script> element that replaces itself when the page loads: The year is <script>\ndocument.currentScript.replaceWith(\n  new Date().getFullYear())</script> If you define a shortcut function like this: $=(...n)=>document.currentScript.replaceWith(...n) You get a tiny template language: The year is <script>$(new Date().getFullYear())</script> Tags: javascript",
       "title": "Inline rendering with document\u200b.currentScript",
       "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "409f9f30a8b878bdb8ec19d3",
+      "discovered_at": "2026-10-20T19:29:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 0,
+      "source_name": "FutureTools AI News",
+      "summary": "Meta Muse Share Links Expose Private Conversations; Feature Suspended arstechnica.com \u00b7 Show TLDR",
+      "title": "Meta Muse Share Links Expose Private Conversations; Feature Suspended arstechnica.com \u00b7 Show TLDR",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2368,6 +2466,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-20T15:17:22Z",
+  "updated_at": "2026-10-20T19:29:52Z",
   "version": 2
 }

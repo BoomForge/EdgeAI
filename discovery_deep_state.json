@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-20T15:17:22Z",
+    "at": "2026-10-20T19:29:52Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 6,
+    "prefiltered": 1,
+    "queued": 9,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 91,
+  "runs": 92,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -438,6 +438,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/copilotkit"
     },
+    "16a30527ab41fa506f92501c": {
+      "first_seen": "2026-10-20T19:29:47Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "16bf1103249e092196a272ea": {
       "first_seen": "2026-10-16T10:03:10Z",
       "status": "queued",
@@ -672,6 +677,11 @@
       "first_seen": "2026-10-07T21:57:47Z",
       "status": "queued",
       "url": "https://www.anthropic.com/claude-haiku-5-5?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "209851e1d08aff94d5326a2f": {
+      "first_seen": "2026-10-20T19:29:47Z",
+      "status": "queued",
+      "url": "https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac?utm_source=futuretools.io&utm_medium=newspage"
     },
     "211d4417958e3cbf833ac7f7": {
       "first_seen": "2026-10-16T10:03:10Z",
@@ -999,6 +1009,11 @@
       "status": "queued",
       "url": "https://runway.com/news/company-news/introducing-runway-ads?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "3519f9f5b46fb1b6e9b65251": {
+      "first_seen": "2026-10-20T19:29:47Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/hoistbay"
+    },
     "3520de4f62d51182ad1b1111": {
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
@@ -1013,6 +1028,11 @@
       "first_seen": "2026-10-05T18:53:52Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107138770088714678"
+    },
+    "3569384ebdc76e039c8f08a1": {
+      "first_seen": "2026-10-20T19:29:47Z",
+      "status": "queued",
+      "url": "https://x.ai/news/incident-sweep?utm_source=futuretools.io&utm_medium=newspage"
     },
     "357354b22cef8f7e910ad734": {
       "first_seen": "2026-10-17T08:44:04Z",
@@ -1205,6 +1225,11 @@
       "first_seen": "2026-10-14T21:37:27Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2110470076595835353"
+    },
+    "409f9f30a8b878bdb8ec19d3": {
+      "first_seen": "2026-10-20T19:29:47Z",
+      "status": "queued",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "40a75d3cf0fdab68f031833b": {
       "first_seen": "2026-10-16T18:46:44Z",
@@ -1620,6 +1645,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/murmur-15"
     },
+    "57c07d00a31145ec21b39186": {
+      "first_seen": "2026-10-20T19:29:47Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "57f26ce032c1bf6dc8f08b24": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -2033,6 +2063,16 @@
       "first_seen": "2026-10-06T00:46:20Z",
       "status": "queued",
       "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "6dc1f68b02963da8f1899e0d": {
+      "first_seen": "2026-10-20T19:29:47Z",
+      "status": "queued",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "6dc620341d3bde9888dbf00c": {
+      "first_seen": "2026-10-20T19:29:47Z",
+      "status": "queued",
+      "url": "https://newsroom.spotify.com/2026-10-20/prioritizing-human-artistry/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "6de49000ac019aa847053cb3": {
       "first_seen": "2026-10-18T10:57:54Z",
@@ -2951,6 +2991,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/google-fit-2"
     },
+    "9a5bcb800c8150e5256bb970": {
+      "first_seen": "2026-10-20T19:29:47Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "9ae5172fcb83662214274ffd": {
       "first_seen": "2026-10-03T11:34:52Z",
       "search_score": 1,
@@ -3130,6 +3175,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://bfl.ai/blog/flux-3-action"
+    },
+    "a459b56634dc5cb2f423a286": {
+      "first_seen": "2026-10-20T19:29:47Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "a45d817f6c42ecedbe2f74f1": {
       "first_seen": "2026-10-03T00:46:02Z",
@@ -3391,6 +3441,12 @@
       "first_seen": "2026-10-17T08:44:04Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/nitrostack"
+    },
+    "b1defbbfea91daf795390ab7": {
+      "first_seen": "2026-10-20T19:29:47Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/stella-5"
     },
     "b2359431c7c24db1d10d9e6b": {
       "first_seen": "2026-10-17T08:44:04Z",

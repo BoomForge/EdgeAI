@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-19T21:40:08Z",
+    "at": "2026-10-20T00:43:58Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 2,
+    "prefiltered": 1,
+    "queued": 9,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 87,
+  "runs": 88,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -283,6 +283,12 @@
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/blume-3"
+    },
+    "0de021f7a36756ebc94a041f": {
+      "first_seen": "2026-10-20T00:43:52Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/autochart-eu"
     },
     "0e4a30e4b64d3de41be903f8": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -1141,6 +1147,11 @@
       "status": "queued",
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "3ec219ad3cb7053dc15eb71c": {
+      "first_seen": "2026-10-20T00:43:52Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "3fd780cf9f0f9d8af472aa01": {
       "first_seen": "2026-10-08T21:27:35Z",
       "status": "queued",
@@ -1926,6 +1937,11 @@
       "status": "queued",
       "url": "https://www.anthropic.com/news/genesis-mission-commitment?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "6ab4715319297146a5c962b3": {
+      "first_seen": "2026-10-20T00:43:52Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/news/public-benefit-fund?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "6aea9d2a251416b544a5eece": {
       "first_seen": "2026-10-05T09:33:48Z",
       "search_score": 0,
@@ -2232,6 +2248,11 @@
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/aster-by-asterwise"
+    },
+    "79e6dbdf917e9f8f37b2b77d": {
+      "first_seen": "2026-10-20T00:43:52Z",
+      "status": "queued",
+      "url": "https://openai.com/index/low-resource-programming-languages/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "79ebb80118396ffd689ca34b": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -2852,6 +2873,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107592263887147077"
     },
+    "9a14c7ad35dbf128544a4399": {
+      "first_seen": "2026-10-20T00:43:52Z",
+      "status": "queued",
+      "url": "https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "9a1b2939c0ff8893fc629909": {
       "first_seen": "2026-10-13T10:55:50Z",
       "search_score": 0,
@@ -2863,6 +2889,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/foundrradio"
+    },
+    "9b36e4b0fdda5ea1fc30aef3": {
+      "first_seen": "2026-10-20T00:43:54Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-6476f9dbf1768d76318d"
     },
     "9b86f086e89170b2ff15802a": {
       "first_seen": "2026-10-17T08:44:04Z",
@@ -2996,6 +3027,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/hark-3"
+    },
+    "a286ccfbec858524d381aa54": {
+      "first_seen": "2026-10-20T00:43:53Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
     },
     "a2d47d967762a3a499dff79c": {
       "first_seen": "2026-10-15T19:05:42Z",
@@ -4345,6 +4381,11 @@
       "status": "queued",
       "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "f20946b0531740e0f0ffc55d": {
+      "first_seen": "2026-10-20T00:43:52Z",
+      "status": "queued",
+      "url": "https://api-docs.deepseek.com/news/news261017/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "f230893cf53ac02df16742a3": {
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "queued",
@@ -4427,6 +4468,11 @@
       "first_seen": "2026-10-09T01:22:21Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/termaxa"
+    },
+    "f7595b9269d08c84dbe392da": {
+      "first_seen": "2026-10-20T00:43:52Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web?utm_source=futuretools.io&utm_medium=newspage"
     },
     "f768c49392b0d57832c13a81": {
       "first_seen": "2026-10-14T18:00:57Z",
@@ -4538,6 +4584,11 @@
       "first_seen": "2026-10-12T22:33:10Z",
       "status": "queued",
       "url": "https://www.anthropic.com/research/investigating-unintended-model-actions?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "fedef723b1959221b5c5a68b": {
+      "first_seen": "2026-10-20T00:43:52Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "ff3192a07212d5fdc5524862": {
       "first_seen": "2026-10-03T00:45:59Z",

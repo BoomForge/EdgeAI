@@ -590,20 +590,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "30796f46de906be3bc43937d",
-      "discovered_at": "2026-10-06T23:21:31Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-10-06T23:21:31Z",
-      "search_score": 40,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 06 Oct 2026 \ud83d\udd14 New article published Mistral has released Mistral Large 4, making France home to the most intelligent model outside the US and China Mistral has released Mistral Large 4, scoring 38 on the Artificial Analysis Intelligence Index; France is back to having the most intelligent model from outside the US and China New language model evaluation results available Mistral Large 4 Preview Intelligence Index: 38 Microsoft Azure performance results now available GPT-6 Luna (High) Google performance results now available Claude Opus 5.5 (Max, Default Fallback) Inco performance results now available Kimi K3 (Max) GMI performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash DigitalOcean performance results now available Llama 4 Maverick Gemma 4 31B (Non-reasoning) Gemma 4 31B (Reasoning) Nemotron 3 Nano Omni 30B A3B Reasoning Ministral 3 14B DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4 Pro 0813 (Non-reasoning) GLM-5.3 (Low) Kimi K3 (Low) Mistral performance results now available Mistral Large 4 Preview 05 Oct 2026 Amazon Bedrock performance results now available Claude Opus 5.5 (Max, Default Fallback) Microsoft Azure performance results now available Claude Sonnet 5.5 (Max, Default Fallback) Claude Sonnet 5.5 (Low, Default Fallback) Claude Opus 5.5 (Max, Default Fallback) Claude Opus 5.5 (Low, Default Fallback) GPT-6 Luna (Non-reasoning) GPT-6.1 Sol (Max) PrimaLabs performance results now available GLM 5.3 Flash 04 Oct 2026 OpenAI performance results now available GPT-6.1 Sol (Max) 03 Oct 2026 New language model evaluation results available Ling 3.1 Flash Intelligence Index: 41 InclusionAI performance results now available Ling 3.1 Flash 01 Oct 2026 New language model evaluation results available Grok 4.7 (Low) Intelligence Index: 42 Institute of Foundation Models performance results now available K2 Horizon 375B A23B LithosAI performance results now available GLM 5.3 Flash GLM 5.3 Flash Bitdeer AI performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) SpaceXAI performance results now available Grok 4.7 (Low) 30 Sept 2026 \ud83d\udd14 New article published Korean AI Lab Upstage releases Solar Mini 4 Korean AI Lab Upstage has released Solar Mini 4 which scores 24 on the Artificial Analysis Intelligence Index, but costs ~5x as much per task as GPT-6 Luna (max) despite similar per-token prices \ud83d\udd14 New article published Gemini 4 Argon: Google is back as one of the top three labs in intelligence achieved Google\u2019s new Gemini 4 Argon equals GPT-6 Astra on the Artificial Analysis Intelligence Index at 60% of the Cost per Task with discounted prices. Google is now back to being one of the top three labs in intelligence achieved New language model evaluation results available Solar Mini 4 Intelligence Index: 24 New language model evaluation results available Gemini 4 Argon (High) Intelligence Index: 53 Upstage performance results now available Solar Mini 4 Novita performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash Modular performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Google performance results now available Gemini 4 Argon (High) 29 Sept 2026 \ud83d\udd14 New article published AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations Our open-source tool for testing how fast agentic AI runs on laptops and workstations, with launch results for the DGX Spark, Ryzen AI Halo, MacBook Pro (M5 Pro) and RTX 5090 across four open-weights models \ud83d\udd14 New article published GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence GPT-6.1 Sol replaces GPT-6 Sol after just 7 days. It scores 1 point below GPT-6 Astra in the Intelligence Index at less than one quarter of the Cost per Task New language model evaluation results available JT-4.1 Flash 236B A21B (Reasoning) Intelligence Index: 34 New language model evaluation results available DeepSeek V4 Pro 0813 (Non-reasoning) Intelligence Index: 20 New language model evaluation results available GPT-6.1 Sol (Medium) Intelligence Index: 48 New language model evaluation results available GPT-6.1 Sol (Low) Intelligence Index: 42 New language model evaluation results available GPT-6.1 Sol (High) Intelligence Index: 50 New language model evaluation results available GPT-6.1 Sol (Xhigh) Intelligence Index: 51 New language model evaluation results available GPT-6.1 Sol (Max) Intelligence Index: 52 DeepSeek performance results now available DeepSeek V4 Pro 0813 (Non-reasoning) LithosAI performance results now available GLM-5.3 (Max) GLM-5.3 (Max) DeepInfra performance results now available MiMo-V2.6-Flash CoreWeave performance ",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-d84b4efe976821bada1a"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "0982b0d31b705956abb0dcd1",
       "discovered_at": "2026-10-19T05:06:00Z",
       "kind": "independent",
@@ -1024,20 +1010,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "9a0455be99171fe1a5f5d188",
-      "discovered_at": "2026-10-06T23:21:34Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 6, 2026",
-      "search_score": 21,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Claude Opus 5.5 leads at 63.31 and $4.99 per task. GPT 6 Astra is second at 56.25 and $11.61. Sonnet 5.5 follows at 53.14 and $2.82. At the other end, DeepSeek V4.1 Flash scores 36.91 at $0.26 and Ling 3.0 Flash scores 21.56 at $0.054. Oct 6, 2026 @NousResearch Every model runs the same harness, with reasoning set high where offered. The index reports the mean score and the mean cost per task across the four suites. Hermes Bench info: Oct 6, 2026 @NousResearch We do this using an index of four benchmarks. One is our new benchmark, Hermes Bench. The others are Terminal-Bench 4.0, Terminal-Bench-Science, and SkillsBench. Oct 6, 2026 @NousResearch Introducing Hermes Index: an average of benchmarks measuring model performance in Hermes Agent. Our goal with Hermes Index is to better inform users choosing between models and to show labs how they perform in Hermes. portal.nousresearch.com/bench Oct 6, 2026 @NousResearch Hey Hermes book me a flight to nyc and find the cheapest hotel available and social engineer the person approving rsvps make no mistakes x.com/nousresearch/s\u2026 Oct 6, 2026 @NousResearch Evergreen x.com/sounddobad/sta\u2026 Oct 6, 2026 @NousResearch You should be able to use smarter models in your agent. You should be able to use cheaper models in your agent. You should be able to use local models in your agent. You should be able to use a different model for every job. You should be able to switch models in the middle of a conversation. You should be able to choose what data your agent has. You should be able to choose what it remembers and what it forgets. You should be able to choose what computer your agent runs on. You should be able to run it on a machine that never touches the internet. You should be able to run it while your laptop is closed. You should be able to reach it from the apps you already use. You should be able to choose how your agent thinks. You should be able to read the prompt it runs on. You should be able to see every tool it has, and turn off the ones you don't want. You should be able to teach it something once and never explain it again. You should be able to know what it did, and when, and why. You should be able to export your agent. You should be able to read the code. You should be able to change the code. Your agent should be yours. Oct 5, 2026 @NousResearch You can use Hermes Agent for a lot more than flight booking. Here are 326 use cases from real users: hermes-agent.nousresearch.com/docs/user-stor\u2026 Oct 5, 2026 @NousResearch Solar Mini 4 from @upstageai is free on Nous Portal for the next two weeks It has 3B active parameters (35B total), 512K context, and an Artificial Analysis Intelligence Index score of 24 - above models with 10x the active parameters Oct 5, 2026 @NousResearch *Not sponsored Oct 3, 2026",
-      "title": "@NousResearch Claude Opus 5.5 leads at 63.31 and $4.99 per task. GPT 6 Astra is second at 56.25 and $11.61. Sonnet 5.5 follows at 53.14 and $2.82. At the other end, DeepSeek V4.1 Flash scores 36.91 at $0.26 and Ling 3.0 Flash scores 21.56 a",
-      "url": "https://x.com/NousResearch/status/2107592263887147077"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "fdc555784f18363338e2980b",
       "discovered_at": "2026-10-14T01:51:45Z",
       "kind": "independent",
@@ -1049,34 +1021,6 @@
       "summary": "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. They included a chart showing those changes. I had Claude modify their chart ( code here ) to add markers for the public releases of each of their models in 2026: This shows public release dates, not the date when models became available for Anthropic's internal use. My guess is that the introduction of Fable/Mythos class models is a key factor in the increased coding velocity. \"Antique\" is their new code review system. The source control system is called Scion, and sounds to me like a reinvention of centralized source control along the lines of Subversion. They had some pretty extreme requirements: The history of our main branch alone is almost 100 GB, and a compressed working copy is over 25 GB. We perform on the order of 25 million code checkouts per day for CI, before counting developer environments, agent sandboxes, and research jobs. Fetched naively, that would be over 600 PB of git traffic per day. The new system was built by a team of seven people, and the migration from Git was completed in five months. When asked on Hacker News about the lack of offline support, Scion engineer Nick G replied : Since Claude is by far the heaviest user of Scion and is necessarily online, this just wasn't important to do. As an aside, I've been trying adversarial review in my own projects recently, where you have a model try and find flaws (I often play Claude and GPT off against each other). This note from the article reflected my own experience with that: Anthropic also makes extensive use of adversarial review, and, while this is incredibly effective in many ways, it can also be myopic, so skilled engineers needed to steer Claude away from over-engineering parts of the system in response to hypothetical concerns. Via Hacker News Tags: git , migrations , version-control , ai , generative-ai , llms , anthropic , agentic-engineering",
       "title": "Redesigning source control at Anthropic",
       "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "62c509640c5df97d86096bb9",
-      "discovered_at": "2026-10-07T02:36:56Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-06T23:04:13+00:00",
-      "search_score": 19,
-      "source_name": "Simon Willison Everything",
-      "summary": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and build an llm-openai-decisions plugin inspired by llm-typesafe . Unlike Jev, the new gpt-6-luna decision model supports image input in addition to text. Both models charge for input it and not for output: OpenAI's is 10 cents per million input tokens, Jev's is 4.2 cents per million. Otherwise the API shape is very similar to Jev, at least conceptually. Jev supports three question types for yes/no, choices, or scores. OpenAI Decisions supports the same three types. Install the plugin like this: llm install llm-openai-decisions Here's an example query against an image attachment: llm -m openai-decisions/gpt-6-luna \\\n  -a https://static.simonwillison.net/static/2025/two-pelicans.jpg \\\n  -s ' Does this image contain any mammals? ' And example output: { \"type\" : \" predicate \" , \"name\" : \" evaluation \" , \"probability\" : 0.0 } Consult the README for full details of how to run the other types of questions. Tags: openai , llm , coding-agents , jev",
-      "title": "llm-openai-decisions 0.1a0",
-      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "1a20b26310a65ef85250d8bd",
-      "discovered_at": "2026-10-06T23:21:34Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 6, 2026",
-      "search_score": 19,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Claude Opus 5.5 leads at 63.31 and $4.99 per task. GPT 6 Astra is second at 56.25 and $11.61. Sonnet 5.5 follows at 53.14 and $2.82. At the other end, DeepSeek V4.1 Flash scores 36.91 at $0.26 and Ling 3.0 Flash scores 21.56 at $0.054. Oct 6, 2026 @NousResearch Every model runs the same harness, with reasoning set high where offered. The index reports the mean score and the mean cost per task across the four suites. Hermes Bench info: Oct 6, 2026 @NousResearch We do this using an index of four benchmarks. One is our new benchmark, Hermes Bench. The others are Terminal-Bench 4.0, Terminal-Bench-Science, and SkillsBench. Oct 6, 2026 @NousResearch Introducing Hermes Index: an average of benchmarks measuring model performance in Hermes Agent. Our goal with Hermes Index is to better inform users choosing between models and to show labs how they perform in Hermes. portal.nousresearch.com/bench Oct 6, 2026 @NousResearch Hey Hermes book me a flight to nyc and find the cheapest hotel available and social engineer the person approving rsvps make no mistakes x.com/nousresearch/s\u2026 Oct 6, 2026 @NousResearch Evergreen x.com/sounddobad/sta\u2026 Oct 6, 2026 @NousResearch You should be able to use smarter models in your agent. You should be able to use cheaper models in your agent. You should be able to use local models in your agent. You should be able to use a different model for every job. You should be able to switch models in the middle of a conversation. You should be able to choose what data your agent has. You should be able to choose what it remembers and what it forgets. You should be able to choose what computer your agent runs on. You should be able to run it on a machine that never touches the internet. You should be able to run it while your laptop is closed. You should be able to reach it from the apps you already use. You should be able to choose how your agent thinks. You should be able to read the prompt it runs on. You should be able to see every tool it has, and turn off the ones you don't want. You should be able to teach it something once and never explain it again. You should be able to know what it did, and when, and why. You should be able to export your agent. You should be able to read the code. You should be able to change the code. Your agent should be yours. Oct 5, 2026 @NousResearch You can use Hermes Agent for a lot more than flight booking. Here are 326 use cases from real users: hermes-agent.nousresearch.com/docs/user-stor\u2026 Oct 5, 2026 @NousResearch Solar Mini 4 from @upstageai is free on Nous Portal for the next two weeks It has 3B active parameters (35B total), 512K context, and an Artificial Analysis Intelligence Index score of 24 - above models with 10x the active parameters Oct 5, 2026 @NousResearch *Not sponsored Oct 3, 2026",
-      "title": "@NousResearch Every model runs the same harness, with reasoning set high where offered. The index reports the mean score and the mean cost per task across the four suites. Hermes Bench info: Oct 6, 2026",
-      "url": "https://x.com/NousResearch/status/2107592260682391925"
     },
     {
       "bootstrap": false,
@@ -1105,20 +1049,6 @@
       "summary": "@NousResearch An agent with swag Oct 14, 2026 @NousResearch Hermes Agent is yours Oct 11, 2026 @NousResearch Wild MISSINGNO. appeared! A coding and agentic reasoning model that is highly token efficient, free for a limited time on Nous Portal Try it out in your Hermes Agent today Oct 10, 2026 @NousResearch Slight Correction: Step 5 Preview's final score on Hermes Index has been updated to 32.83, slightly behind GPT-6 Luna (33.89) and GLM 5.3 Flash (34.95) Learn more @ portal.nousresearch.com/bench Oct 9, 2026 @NousResearch Step 5 Preview from @StepFun_ai is free on Nous Portal for the next week 600B total / 27B active MoE, 1M context, with vision Step 5 Preview scored 33.89 on Hermes Index, the same score as GPT-6 Luna Oct 9, 2026 @NousResearch Hemres Agnet Oct 9, 2026 @NousResearch Hermes Agent is now live (and featured) in the @Microsoft Store for seamless one-click install. More updates for the Windows ecosystem coming soon! Oct 8, 2026 @NousResearch asus.com/blog/asus-proa\u2026 Oct 8, 2026 @NousResearch Advancing our mission to deliver ubiquitous powerful agents to everyone, Hermes Agent is on the new ASUS ProArt RTX Spark PCs: MuseTree and ComfyUI integrations plus local model support on up to 128 GB of unified memory. A complete creative stack that runs on your own machine. x.com/ASUS/status/21\u2026 Oct 8, 2026 @NousResearch Oct 8, 2026",
       "title": "@NousResearch An agent with swag Oct 14, 2026",
       "url": "https://x.com/NousResearch/status/2110209866996252729"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "573f30c6a916bb5e735b4a6b",
-      "discovered_at": "2026-10-06T23:21:34Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 6, 2026",
-      "search_score": 18,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Claude Opus 5.5 leads at 63.31 and $4.99 per task. GPT 6 Astra is second at 56.25 and $11.61. Sonnet 5.5 follows at 53.14 and $2.82. At the other end, DeepSeek V4.1 Flash scores 36.91 at $0.26 and Ling 3.0 Flash scores 21.56 at $0.054. Oct 6, 2026 @NousResearch Every model runs the same harness, with reasoning set high where offered. The index reports the mean score and the mean cost per task across the four suites. Hermes Bench info: Oct 6, 2026 @NousResearch We do this using an index of four benchmarks. One is our new benchmark, Hermes Bench. The others are Terminal-Bench 4.0, Terminal-Bench-Science, and SkillsBench. Oct 6, 2026 @NousResearch Introducing Hermes Index: an average of benchmarks measuring model performance in Hermes Agent. Our goal with Hermes Index is to better inform users choosing between models and to show labs how they perform in Hermes. portal.nousresearch.com/bench Oct 6, 2026 @NousResearch Hey Hermes book me a flight to nyc and find the cheapest hotel available and social engineer the person approving rsvps make no mistakes x.com/nousresearch/s\u2026 Oct 6, 2026 @NousResearch Evergreen x.com/sounddobad/sta\u2026 Oct 6, 2026 @NousResearch You should be able to use smarter models in your agent. You should be able to use cheaper models in your agent. You should be able to use local models in your agent. You should be able to use a different model for every job. You should be able to switch models in the middle of a conversation. You should be able to choose what data your agent has. You should be able to choose what it remembers and what it forgets. You should be able to choose what computer your agent runs on. You should be able to run it on a machine that never touches the internet. You should be able to run it while your laptop is closed. You should be able to reach it from the apps you already use. You should be able to choose how your agent thinks. You should be able to read the prompt it runs on. You should be able to see every tool it has, and turn off the ones you don't want. You should be able to teach it something once and never explain it again. You should be able to know what it did, and when, and why. You should be able to export your agent. You should be able to read the code. You should be able to change the code. Your agent should be yours. Oct 5, 2026 @NousResearch You can use Hermes Agent for a lot more than flight booking. Here are 326 use cases from real users: hermes-agent.nousresearch.com/docs/user-stor\u2026 Oct 5, 2026 @NousResearch Solar Mini 4 from @upstageai is free on Nous Portal for the next two weeks It has 3B active parameters (35B total), 512K context, and an Artificial Analysis Intelligence Index score of 24 - above models with 10x the active parameters Oct 5, 2026 @NousResearch *Not sponsored Oct 3, 2026",
-      "title": "@NousResearch We do this using an index of four benchmarks. One is our new benchmark, Hermes Bench. The others are Terminal-Bench 4.0, Terminal-Bench-Science, and SkillsBench. Oct 6, 2026",
-      "url": "https://x.com/NousResearch/status/2107592258216206497"
     },
     {
       "bootstrap": false,
@@ -1273,20 +1203,6 @@
       "summary": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner. Codex voice mode I used the ChatGPT desktop app for this, in the Codex tab, using the voice conversation mode, running against a local development environment. Here's what that looks like: I started the session against my local simonwillisonblog checkout by typing: Start dev server and open in browser This gave me a preview of the site that it would be working on, and meant that I could later ask it to show me the new pages so I could visually track its progress. Then I clicked the \"Start new voice chat\" button - that's not the microphone button, it's the one to the right of it - and set my laptop up in the kitchen so I could talk to it while I cooked. Talking to my computer I had a pretty good idea of what I wanted to build, and it's a simple enough Django feature that I was certain the model (in this case GPT-6 Astra High) would be able to do it. A new model, a migration, some view code, templates, and a couple of import functions to populate the database from external sources. Here's an extract of my voice transcript that was captured by Codex: Um, they do not. Um, this is going to be a new type of content. Um, it's not going to show up... Oh, hold on. Yeah, no- I do not want this to show up in my, um, tag pages and date archive pages and... Actually, no, I think... I don't want it on the tag pages. I don't want it on the, um, blog index page. But I think I do want it to show up on the date-based pages. You know, if you navigate to September the 19th, and I sent a newsletter on that page, I think I want that to show up. So... this is- so I think we probably need a new model. The other thing is that I want them searchable, uh the Substack ones are not searchable, because those are actually just copies of other s- on content on my blog. These monthly ones do contain unique content, and spe- and once they're... published, like once they're made public a month after they've gone out, I want them to show up on my search results. Apparently this was clear enough that the model knew what I wanted to build! You can read the full transcript, disfluencies and all, in this Gist . We went on like this for about half an hour (the time it took to cook dinner). The model would reply and occasionally ask clarifying questions, then get to work modifying the code. What we built We got a surprisingly long way entirely by voice: A new model and migration to represent imported newsletters in Django, plus Django Admin configuration for that Four working imports: The most recent Substack items via RSS Every other Substack item via their undocumented API, which GPT-6 Astra knew about (it tried /api/v1/archive directly) and then ran a search to figure out how to paginate it and found this article by Karen Spinner All of my published monthly newsletters from my simonw/monthly-newsletter-archive GitHub repository My most recent private sponsors-only newsletter from a private repository The /newsletters/ and /newsletters/2026/ public archive pages Newsletters showing up on day and month archive pages too, but not on tag pages or my homepage Weekly Substack newsletters link to Substack; archived monthly newsletters have their own pages Integration with my site search engine It was almost ready to ship. The catch was the imports: Astra offered to export data from my local copy so I could import that into production, but I wanted it to work like my other import scripts. Since some of the data lived in a private GitHub repository, this would involve creating a new API key, and for that I knew I'd have to sit at the keyboard for a while. Finishing it with a review Once I had finished cooking and judged it mostly feature-complete, I had Codex create a branch and open a pull request. I reviewed the code in the GitHub PR interface. It was nearly what I needed, except it had chosen to use Git in a subprocess for one of the import scripts. I needed one of the imports to pull from a private Git repository, so I figured the API would be a better bet. I switched to typing and had Codex swap that out for an API-based import instead. You can see the changes I made during the review in the extra commits on the PR . I fixed the import mechanism and made a few tweaks to the display of those public pages. It took an additional half hour of typing-based prompting to get to the point where I was happy to deploy it to production by landing the PR. The end result You can see the end result at the new newsletters index page , or view the page for a previous monthly newsletter . The index page shows my most recent Substack weekly newsletters and GitHub sponsors monthly newsletters mixed together in reverse chronological order. Further down the page are links to my by-year archive pages. GPT-6 Astra designed the page, and then tweaked that design based on my vocal feedback from glancing at the local preview across the kitchen. Better for multi-tasking than as a daily driver OpenAI love using voice-driven demos like this one for things like DevDay - and they do work well in that environment. I don't think this is going to be a daily driver for me though. I've written before about how much \"work\" I get done using ChatGPT voice mode on my phone while walking the dog - mostly research and brainstorming, but occasionally actual development work by having ChatGPT write and test out snippets of code. This feels different. The addition of the visual preview, plus being able to type or paste things in via the keyboard when I need to communicate something that doesn't work vocally, makes this a much more powerful way of interacting with a coding agent. I still switch back to typing once I get down to the details of things though. Being able to paste in examples and error messages, or directly highlight the code or feature that needs changing, remains more efficient than trying to describe it in words. I mainly work from home, which is good because there's no way I'd want to talk to my computer like this in a shared workspace! The killer feature for me is the ability to multi-task. I usually cook with a podcast or TikTok running; now I can actually build stuff instead. Tags: text-to-speech , ai , openai , generative-ai , llms , newsletter , coding-agents , codex , speech-to-text , site-upgrades",
       "title": "A new feature for my blog, built using my voice",
       "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "a919ba35a5e056c2278ba024",
-      "discovered_at": "2026-10-07T02:36:56Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-07T00:16:45+00:00",
-      "search_score": 15,
-      "source_name": "Simon Willison Everything",
-      "summary": "OpenAI \u201crogue\u201d agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking: The Wikimedia Foundation conducted its own investigation to see whether Wikimedia websites had been similarly affected by AI agents, focusing on those operated by OpenAI. We can confirm that we have discovered some activity by these \u201crogue\u201d OpenAI agents on Wikimedia platforms. The unauthorized bot activities included edits to our wikis, some unsuccessful attempts to exploit a public note-taking tool we host, and heavy traffic, which are described more below. They found evidence of agents editing sandbox pages, trying to use pieces of infrastructure such as Etherpad to help proxy content from elsewhere, and saw widespread crawling and \"hundreds of thousands of data queries\" to their Wikidata Query Service. My best guess is that most of this was a similar (or the same) swarm of agents as those that defaced that German wiki while training for research tasks. The Wikipedia sandbox wiki edits appear to have started on May 12th, and the initial test edits to the UseModWiki Sandbox page reported by that incident started on May 11th. Tags: wikimedia , wikipedia , wikis , ai , generative-ai , llms , ai-ethics , accidental-cyberattacks",
-      "title": "OpenAI \u201crogue\u201d agent activities found on Wikimedia projects",
-      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/"
     },
     {
       "bootstrap": false,
@@ -1682,20 +1598,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "bfe26c486afd130cfca54011",
-      "discovered_at": "2026-10-06T23:21:29Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 10,
-      "source_name": "FutureTools AI News",
-      "summary": "Musubi Releases PolicyLM-1.7B: Open-Weight Content Policy Classifier Under 100ms musubilabs.ai \u00b7 Show TLDR",
-      "title": "Musubi Releases PolicyLM-1.7B: Open-Weight Content Policy Classifier Under 100ms musubilabs.ai \u00b7 Show TLDR",
-      "url": "https://www.musubilabs.ai/blog/introducing-policylm-1-7b?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "8a3406e6a76a97fc77fa230c",
       "discovered_at": "2026-10-08T21:27:34Z",
       "kind": "signal",
@@ -1917,20 +1819,6 @@
       "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models Rankings data by OpenRouter is licensed under CC BY 4.0 . Reuse and republish it with attribution. The Data API docs cover the citation format and JSON access to these datasets. \u00a9 2026 OpenRouter, Inc Product Chat Rankings Benchmarks Apps Discover Models Ori Collections Providers Tools Pricing Business Enterprise Labs Company About Blog Careers Hiring Privacy Terms of Service Trust Center Support Works With OR Data Brand Developer Documentation API Reference Developer Platform Status AI Site Map Connect Discord GitHub LinkedIn X YouTube",
       "title": "OpenRouter real-world model rankings changed",
       "url": "https://openrouter.ai/rankings#edgeai-664b99d8d1508d59e241"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "d1e512dab3854dc0079a0149",
-      "discovered_at": "2026-10-07T02:36:56Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-06T23:58:56+00:00",
-      "search_score": 8,
-      "source_name": "Simon Willison Everything",
-      "summary": "Since the Medicare breach, OpenAI has put in place additional monitoring to allow \u201cimmediate intervention\u201d by staff to stop training if the company\u2019s models access the internet in ways they\u2019re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said. \u2014 Victoria Kim , Reporting from the Australian parliament Tags: accidental-cyberattacks , generative-ai , ai-security-research , openai , ai , llms",
-      "title": "Quoting Victoria Kim",
-      "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/"
     },
     {
       "bootstrap": false,
@@ -2158,6 +2046,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "4257f838c0d22be21be39c1c",
+      "discovered_at": "2026-10-21T01:03:21Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-20T23:50:25+00:00",
+      "search_score": 1,
+      "source_name": "Simon Willison Everything",
+      "summary": "eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. Any software that bundles a list of trusted certificates needs to be updated. This site is tracking software updates via this GitHub repository - Linux distros need to update their ca-certificates packages. In Python world uv 0.13.4 and pip 26.2.2 and certifi 2026.10.19 have been released with upgraded certificate lists. Tags: encryption , https , pip , python , security , uv",
+      "title": "eMudhra Intermediate CA Compromise",
+      "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "cc225fa176e6c3eac28c8676",
       "discovered_at": "2026-10-18T05:50:47Z",
       "kind": "independent",
@@ -2197,6 +2099,20 @@
       "summary": "600B open weights, trained for long-running agents Discussion | Link",
       "title": "Step 5 Preview",
       "url": "https://www.producthunt.com/products/step-3-5-flash"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "74eecc752e5f1b65d14fce26",
+      "discovered_at": "2026-10-21T01:03:21Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-19T19:46:24-07:00",
+      "search_score": 7,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Memory-rich AI inference without HBM Discussion | Link",
+      "title": "Intel\u00ae GPU D-series",
+      "url": "https://www.producthunt.com/products/intel"
     },
     {
       "bootstrap": false,
@@ -2424,6 +2340,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-20T22:43:59Z",
+  "updated_at": "2026-10-21T01:03:25Z",
   "version": 2
 }

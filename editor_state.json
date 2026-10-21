@@ -47,12 +47,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-21T14:44:02Z",
-    "eligible": 38,
-    "evaluated": 3,
+    "at": "2026-10-21T18:59:13Z",
+    "eligible": 44,
+    "evaluated": 2,
     "mode": "live",
-    "new_posts": 0,
-    "publish_actions": 0,
+    "new_posts": 2,
+    "publish_actions": 2,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -2413,6 +2413,20 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11386"
     },
+    "64ddfb139fec8a1cb4597ec2": {
+      "at": "2026-10-21T18:59:13Z",
+      "bootstrap": false,
+      "score": 93,
+      "status": "published",
+      "story_key": "openai-perturbai-scripps-thousands-ai-agents-biological-data",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data"
+    },
     "64e27cc1872ee8386150363a": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -3523,6 +3537,20 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/block-ai-powered-security"
+    },
+    "95dedf578de78f3ec264f66e": {
+      "at": "2026-10-21T18:59:08Z",
+      "bootstrap": false,
+      "score": 95,
+      "status": "published",
+      "story_key": "openai-models-google-cloud-partnership-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/openai-models-google-cloud"
     },
     "9668af85ed2e1acf35b791be": {
       "at": "2026-10-05T22:35:25Z",
@@ -8605,6 +8633,48 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI Introduces MultiLangBench and New Models for Low-Resource Programming Languages",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-models-google-cloud-partnership-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-models-google-cloud-partnership-2026.jpg",
+      "last_updated": "2026-10-21T18:59:08Z",
+      "post_id": "3527698348968358746",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-models-and-codex-coming-to.html",
+      "score": 95,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/659u0DsrtDQd9LxI8L4J9M/0b95908d6a9ed46ffe20b23d081574b4/openai-models-coming-to-google-cloud-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/openai-models-google-cloud"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Models and Codex Coming to Google Cloud Model Garden",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-perturbai-scripps-thousands-ai-agents-biological-data": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-perturbai-scripps-thousands-ai-agents-biological-data.jpg",
+      "last_updated": "2026-10-21T18:59:13Z",
+      "post_id": "8617286307872638024",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-perturbai-and-scripps-deploy.html",
+      "score": 93,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/5Uhfx9LWwXWN8zKg7a6aNi/021edebfedf0c6f9638f929ba23900ab/scaling-ai-biological-data-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/scaling-ai-research-for-complex-biological-data"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI, PerturbAI, and Scripps Deploy Thousands of AI Agents to Analyze Brain Cell Data",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

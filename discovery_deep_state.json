@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-21T16:08:25Z",
+    "at": "2026-10-21T20:18:37Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 2,
-    "queued": 4,
+    "queued": 9,
     "sources_ok": 15,
     "too_old": 2,
     "warnings": 0
   },
-  "runs": 97,
+  "runs": 98,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -51,6 +51,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://elevenlabs.io/blog/eleven-v4"
+    },
+    "02eca8b590f2b78dd2414766": {
+      "first_seen": "2026-10-21T20:18:30Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/nativeship"
     },
     "035f6f223ed7ad47ab68a054": {
       "first_seen": "2026-10-12T22:33:11Z",
@@ -863,6 +868,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/cloud-releases"
     },
+    "2a3dd5d4c32cefa4bce14488": {
+      "first_seen": "2026-10-21T20:18:30Z",
+      "status": "queued",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "2a8e5b2eeed733baf988d7ff": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -994,6 +1004,11 @@
       "first_seen": "2026-10-08T21:27:34Z",
       "status": "queued",
       "url": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "31cb329d8f01c5a51c60a0f8": {
+      "first_seen": "2026-10-21T20:18:30Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/band"
     },
     "323fd1087f594a308741cd5a": {
       "first_seen": "2026-10-03T00:46:03Z",
@@ -1221,6 +1236,12 @@
       "first_seen": "2026-10-16T14:48:14Z",
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/gemini-can-now-order-your-groceries-book-your-dinner-10-16-2026"
+    },
+    "3d5d85891519238c4197d508": {
+      "first_seen": "2026-10-21T20:18:30Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/learnexcel"
     },
     "3d9482c11cf663a63fe7f54d": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -1524,6 +1545,12 @@
       "first_seen": "2026-10-06T00:46:26Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107210064549343358"
+    },
+    "4e8a43958f16f0b47961d68e": {
+      "first_seen": "2026-10-21T20:18:30Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/koi-2"
     },
     "4ed8d6fe63542c3a355d2338": {
       "first_seen": "2026-10-19T17:12:35Z",
@@ -1895,6 +1922,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/kitbar"
     },
+    "5fa5077c586be6aa58321c41": {
+      "first_seen": "2026-10-21T20:18:36Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2112950316018647125"
+    },
     "5fd5d3c0289bee35e91c5aed": {
       "first_seen": "2026-10-15T09:50:31Z",
       "status": "queued",
@@ -1935,6 +1967,11 @@
       "first_seen": "2026-10-09T07:47:51Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/microsoft-surface-laptop-ultra"
+    },
+    "60cdd6b596008249bf482a06": {
+      "first_seen": "2026-10-21T20:18:31Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/21/php-security-release/"
     },
     "6138ec733e3c4420aa012e01": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -2052,6 +2089,11 @@
       "first_seen": "2026-10-11T09:11:21Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/ghost-core"
+    },
+    "65882ee49dd3bdda47b9f4a2": {
+      "first_seen": "2026-10-21T20:18:30Z",
+      "status": "queued",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "6629ea3cb8a952e144b154a3": {
       "first_seen": "2026-10-16T23:59:26Z",
@@ -3107,6 +3149,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "9ab433de0f8262ff60bdfce1": {
+      "first_seen": "2026-10-21T20:18:30Z",
+      "status": "queued",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "9ae5172fcb83662214274ffd": {
       "first_seen": "2026-10-03T11:34:52Z",
       "search_score": 1,
@@ -3307,6 +3354,11 @@
       "first_seen": "2026-10-03T00:46:02Z",
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-cd070dfc6907242d4a56"
+    },
+    "a48e52007960d5cfdfe36b4d": {
+      "first_seen": "2026-10-21T20:18:30Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps?utm_source=futuretools.io&utm_medium=newspage"
     },
     "a56a5684d29c63e96acf899b": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -4019,6 +4071,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/meta-ai"
     },
+    "c95ddbc579654aa65129e4e7": {
+      "first_seen": "2026-10-21T20:18:30Z",
+      "status": "queued",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "c9d9e5394f2cbbcab7e127a1": {
       "first_seen": "2026-10-08T08:53:54Z",
       "status": "queued",
@@ -4422,6 +4479,16 @@
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/writerzroom"
+    },
+    "e0bb18a9e834bf54bf2ef0c1": {
+      "first_seen": "2026-10-21T20:18:30Z",
+      "status": "queued",
+      "url": "https://openai.com/index/openai-models-google-cloud/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "e0e7f9f0f4ba064a212b5a0e": {
+      "first_seen": "2026-10-21T20:18:31Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/21/panache/"
     },
     "e0f4b229e9b7953d33441e48": {
       "first_seen": "2026-10-08T08:53:54Z",

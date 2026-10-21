@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-21T20:18:37Z",
+    "at": "2026-10-21T23:32:31Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
+    "prefiltered": 0,
     "queued": 9,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 98,
+  "runs": 99,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -61,6 +61,11 @@
       "first_seen": "2026-10-12T22:33:11Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-f649d5748324f3286476"
+    },
+    "0388a87b2f488e68bbf5a938": {
+      "first_seen": "2026-10-21T23:32:24Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "03dc4194d234185480299628": {
       "first_seen": "2026-10-13T10:55:50Z",
@@ -550,6 +555,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/pastily"
+    },
+    "1ac866d660fa1366abb4ba66": {
+      "first_seen": "2026-10-21T23:32:24Z",
+      "status": "queued",
+      "url": "https://claude.com/resources/articles/claude-duet?utm_source=futuretools.io&utm_medium=newspage"
     },
     "1af55907a2b2a8303774f9c2": {
       "first_seen": "2026-10-07T09:23:03Z",
@@ -1243,6 +1253,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/learnexcel"
     },
+    "3d8a5abd6a048d9c44217e9d": {
+      "first_seen": "2026-10-21T23:32:25Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/searchtok"
+    },
     "3d9482c11cf663a63fe7f54d": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -1383,6 +1398,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/9/ttok/"
     },
+    "459f7fe9529784462447ea3c": {
+      "first_seen": "2026-10-21T23:32:29Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2113010017645244623"
+    },
     "464b242e08c88b0c2a1c797a": {
       "first_seen": "2026-10-21T11:41:37Z",
       "search_score": 1,
@@ -1415,6 +1435,11 @@
       "first_seen": "2026-10-13T18:14:14Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "47ec2c4c7bbe63ed9357c9ad": {
+      "first_seen": "2026-10-21T23:32:24Z",
+      "status": "queued",
+      "url": "https://mistral.ai/news/voxtral-3/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "4816346755f9c4545560ad0b": {
       "first_seen": "2026-10-07T09:23:03Z",
@@ -2314,6 +2339,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/calnio"
     },
+    "72dec636484c9abfcf850523": {
+      "first_seen": "2026-10-21T23:32:24Z",
+      "status": "queued",
+      "url": "https://news.zoom.com/zoomtopia-2026-security/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "73a96a860aa56cb1085532d8": {
       "first_seen": "2026-10-14T18:00:57Z",
       "status": "queued",
@@ -2991,6 +3021,11 @@
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/vectorize"
+    },
+    "916c010bf9b1035e0ad3396f": {
+      "first_seen": "2026-10-21T23:32:25Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/supercmo-ai"
     },
     "92d32bba66440a83e682427f": {
       "first_seen": "2026-10-19T17:12:32Z",
@@ -3711,6 +3746,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/knuff-app"
     },
+    "b6540b94c141e6fc1c7c4a2f": {
+      "first_seen": "2026-10-21T23:32:26Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-44a0d5d393794d6503c5"
+    },
     "b6813875e7c1d6b069d9d1be": {
       "first_seen": "2026-10-08T08:53:54Z",
       "search_score": 1,
@@ -4024,6 +4064,11 @@
       "first_seen": "2026-10-09T07:47:51Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/agentsdr"
+    },
+    "c6322ba99796710a10171cbe": {
+      "first_seen": "2026-10-21T23:32:24Z",
+      "status": "queued",
+      "url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes?utm_source=futuretools.io&utm_medium=newspage"
     },
     "c6496f29a50495732cb54e22": {
       "first_seen": "2026-10-03T00:46:05Z",

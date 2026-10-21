@@ -37,12 +37,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-21T04:40:39Z",
-    "eligible": 38,
-    "evaluated": 5,
+    "at": "2026-10-21T09:42:09Z",
+    "eligible": 36,
+    "evaluated": 3,
     "mode": "live",
-    "new_posts": 1,
-    "publish_actions": 1,
+    "new_posts": 2,
+    "publish_actions": 2,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -3157,6 +3157,20 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00431"
     },
+    "86cb76492e93ed0a125c7ef9": {
+      "at": "2026-10-21T09:42:05Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "ollama-v0-40-7-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Ollama Releases"
+      },
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7"
+    },
     "872457bb1f6a4e1ad755dbb7": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -4005,6 +4019,14 @@
       "story_key": "artificial-analysis-changelog-updates-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-1a1822b7190d4eead63a"
     },
+    "aa8847d44cbae3328f3c5cbb": {
+      "at": "2026-10-21T09:42:01Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "openai-terminal-x-gpt-6-1",
+      "url": "https://openai.com/index/terminal-x"
+    },
     "abcb23b0cf18257657450f25": {
       "at": "2026-10-17T17:58:32Z",
       "bootstrap": false,
@@ -4556,6 +4578,20 @@
         "source": "Kimi Research"
       },
       "url": "https://www.kimi.com/en/blog/kimi-k3"
+    },
+    "c9022369197c2d05ce55ae10": {
+      "at": "2026-10-21T09:42:09Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "llamaccpp-b11781-tts-endpoint",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
+      },
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11781"
     },
     "c9fca9e521cbe2a9fefa9d0a": {
       "at": "2026-10-03T04:48:48Z",
@@ -7360,6 +7396,27 @@
         "source": "llama.cpp Releases"
       }
     },
+    "llamaccpp-b11781-tts-endpoint": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/llamaccpp-b11781-tts-endpoint.png",
+      "last_updated": "2026-10-21T09:42:09Z",
+      "post_id": "7108405565974144223",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/llamacpp-adds-native-post-tts-endpoint.html",
+      "score": 82,
+      "source_image_source": "llama.cpp Releases",
+      "source_image_url": "https://opengraph.githubassets.com/88c353208ce37ffbc5204c02537b2447362e667ba8e0b0e50cb45274eda5fa00/ggml-org/llama.cpp/releases/tag/b11781",
+      "source_urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b11781"
+      ],
+      "status": "CONFIRMED",
+      "title": "llama.cpp Adds Native POST /tts Endpoint for Multimodal Audio Generation",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
+      }
+    },
     "llamaccpp-v070-release": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/llamaccpp-v070-release.png",
@@ -8105,6 +8162,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Ollama v0.40.5 Adds Support for NVIDIA Nemotron 3.5 Models and Cloud Decision Routing",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Ollama Releases"
+      }
+    },
+    "ollama-v0-40-7-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/ollama-v0-40-7-release.png",
+      "last_updated": "2026-10-21T09:42:05Z",
+      "post_id": "6562197874476280956",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/ollama-v0407-released-with-perplexitys.html",
+      "score": 82,
+      "source_image_source": "Ollama Releases",
+      "source_image_url": "https://opengraph.githubassets.com/47b7d34db34038ab39840639a8891e479837a66c0877c150c5058c7c1f4c5cf6/ollama/ollama/releases/tag/v0.40.7",
+      "source_urls": [
+        "https://github.com/ollama/ollama/releases/tag/v0.40.7"
+      ],
+      "status": "CONFIRMED",
+      "title": "Ollama v0.40.7 Released with Perplexity's pplx-decider Model Support and Streaming Fixes",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

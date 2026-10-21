@@ -37,12 +37,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-21T00:10:39Z",
-    "eligible": 40,
+    "at": "2026-10-21T04:40:39Z",
+    "eligible": 38,
     "evaluated": 5,
     "mode": "live",
-    "new_posts": 2,
-    "publish_actions": 2,
+    "new_posts": 1,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -460,6 +460,14 @@
       "at": "2026-10-04T15:54:47Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/anthroposcaper"
+    },
+    "125af853e4eeacede9b5e890": {
+      "at": "2026-10-21T04:40:34Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11766-metal-optimizations",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11766"
     },
     "1330b3896a02c463c4e8e350": {
       "at": "2026-10-06T02:32:14Z",
@@ -2707,6 +2715,14 @@
       "story_key": "runway-enterprise-bonus-terms",
       "url": "https://runway.com/enterprise-bonus-terms"
     },
+    "72a731f967f209c7ab3a63b8": {
+      "at": "2026-10-21T04:40:31Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b11765-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11765"
+    },
     "72c33ca5921b8b738b231089": {
       "at": "2026-10-03T18:39:54Z",
       "bootstrap": true,
@@ -2841,6 +2857,20 @@
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/devally"
+    },
+    "79e6dbdf917e9f8f37b2b77d": {
+      "at": "2026-10-21T04:40:39Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-gpt-6-low-resource-programming-languages-multilangbench",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://openai.com/index/low-resource-programming-languages/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "79ebb80118396ffd689ca34b": {
       "at": "2026-10-06T02:32:14Z",
@@ -5008,6 +5038,14 @@
       "status": "expired",
       "url": "https://openai.com/index/introducing-dots"
     },
+    "df1d6ce7caa4eee397d5bcfc": {
+      "at": "2026-10-21T04:40:32Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11763-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11763"
+    },
     "df2b3a652849a416deb89641": {
       "at": "2026-10-03T04:52:48Z",
       "bootstrap": true,
@@ -5665,6 +5703,14 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.815-beta"
+    },
+    "f94dbedb777bca1e7dcc5ceb": {
+      "at": "2026-10-21T04:40:29Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b11768-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11768"
     },
     "f953d4e5e266fbae554baaaf": {
       "at": "2026-10-06T16:08:03Z",
@@ -8363,6 +8409,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 94,
         "source": "OpenAI News"
+      }
+    },
+    "openai-gpt-6-low-resource-programming-languages-multilangbench": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-gpt-6-low-resource-programming-languages-multilangbench.jpg",
+      "last_updated": "2026-10-21T04:40:39Z",
+      "post_id": "4602526523427725762",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-introduces-gpt-6-models-with.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/1wQpFFie9sKfVWvApPYyn5/db28adb6a2dfdfdef39fb548fca8913d/low_resource_programming__SEO_Card__3_.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/low-resource-programming-languages/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces GPT-6 Models with Major Low-Resource Coding and Migration Capabilities",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "openai-gpt-6-model-guide-production": {

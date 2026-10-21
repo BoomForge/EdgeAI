@@ -1934,6 +1934,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "39cad894cdd240fbe2dba606",
+      "discovered_at": "2026-10-21T20:13:59Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Wed, 21 Oct 2026 17:00:00 GMT",
+      "search_score": 6,
+      "source_name": "OpenAI News",
+      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "9732b2763df5a67ab9455b82",
       "discovered_at": "2026-10-17T00:12:54Z",
       "kind": "official",
@@ -2001,6 +2015,20 @@
       "summary": "Learn how OpenAI built ChatGPT\u2019s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
       "title": "How we built ChatGPT\u2019s novel ad stack for user trust and relevance",
       "url": "https://openai.com/index/building-chatgpt-ad-stack"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "e270f5ba4688033de075906d",
+      "discovered_at": "2026-10-21T20:13:59Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Wed, 21 Oct 2026 00:00:00 GMT",
+      "search_score": 5,
+      "source_name": "OpenAI News",
+      "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "url": "https://openai.com/index/empowering-cyber-defenders"
     },
     {
       "bootstrap": false,
@@ -2410,6 +2438,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "b254ed96fddf9e1cbfbeba70",
+      "discovered_at": "2026-10-21T20:14:08Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-21T17:02:22Z",
+      "search_score": 13,
+      "source_name": "llama.cpp Releases",
+      "summary": "llama: create new fused op for QSA scoring enroll glm5.3-next too tests : initialize the remaining tensors in test_kpool_mask The harness sentinels were left uninitialized, so leftover memory could read as NaN and fail the NaN check. ggml: generalize the k-pool mask op into ggml_top_k_mask The k-pool mask op only covered the pooled QSA selection of qwen4exp and glm5-next, while the DSA models and the DeepSeek V4 CSA build the same top-k mask by hand with fill, set_rows and add. ggml_top_k_mask(mask, top_k, score, blocks, extra) keeps the mask cells of the live picks and the extra cells, and sets the rest to -inf. Every row tensor is 4D in the layout of top_k, and the mask is broadcast to those rows, so a selection can also be made per head. score, blocks and extra are optional: without score every pick is live, without blocks a pick is a cell, and extra holds the cells a row keeps without a pick. llm_graph_context::build_fused_top_k_mask views the row tensors in the layout of kq_mask and registers the fused node. The k-pool models, the DSA attention of build_attn and the DeepSeek V4 CSA mask use it when the probe enables the op, and keep their current path on backends without it. Co-authored-by: Pascal admin@serveurperso.com",
+      "title": "b11800: llama: create new fused op for QSA mask (#30640)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11800"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "16ce5eb07728264c2c5f202e",
       "discovered_at": "2026-10-16T18:41:03Z",
       "kind": "local-ai",
@@ -2421,20 +2463,6 @@
       "summary": "model : Granite Switch Decision ( #30676 ) feat(convert): Add decision.chat to support decision models that can also chat Branch: GraniteSwitchDecision AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.ibm.com feat(convert): Add conversion for Granite Switch as decision model The template follows from the usage sample: https://huggingface.co/ibm-granite/granite-switch-4.1-8b#guardian-and-decision-side-by-side Branch: GraniteSwitchDecision AI-usage: draft (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.ibm.com feat(common): Add support for chat+decision models in common Branch: GraniteSwitchDecision AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.ibm.com feat(common): Add granite switch decision model enum Branch: GraniteSwitchDecision AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.ibm.com feat(server): Plumb through decision_chat bool to support decision+chat models Branch: GraniteSwitchDecision AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.ibm.com feat(server): Add Granite Switch decision support Branch: GraniteSwitchDecision AI-usage: draft (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.ibm.com docs: Update server README for granite switch decisions / chat+decisions Branch: GraniteSwitchDecision AI-usage: draft (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.ibm.com Revert \"feat(convert): Add decision.chat to support decision models that can also chat\" This reverts commit 952ef56 . Revert \"feat(common): Add support for chat+decision models in common\" This reverts commit 93ed782 . Revert \"feat(server): Plumb through decision_chat bool to support decision+chat models\" This reverts commit 97e9af6 . fix: If Granite Switch supports decisions, it always supports text too Branch: GraniteSwitchDecision AI-usage: none Signed-off-by: Gabe Goodhart ghart@us.ibm.com docs: Remove reference to decision.chat in server README Branch: GraniteSwitchDecision AI-usage: none Signed-off-by: Gabe Goodhart ghart@us.ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56766635 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11700",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11700"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "35dfcb83feb6b71f84a23053",
-      "discovered_at": "2026-10-08T01:18:14Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-07T18:07:45Z",
-      "search_score": 13,
-      "source_name": "llama.cpp Releases",
-      "summary": "llama : add a GPU cache for MoE experts kept in host memory Assisted-by: Claude use llama_moe_cache_ptr",
-      "title": "b11480: llama : add a GPU cache for MoE experts kept in host memory (#29887)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11480"
     },
     {
       "bootstrap": false,
@@ -2729,6 +2757,20 @@
       "summary": "Preserve source tool JSON alongside decoded API values so Flint can retain numeric types and schema order in prompts. Existing API marshaling is unchanged. Assemble ModelOpt expert banks during safetensors import, and reject direct Flint NVFP4 creation before conversion. Other models retain their existing import and quantization paths. Add optional learned sinks and device causal masks to shared MLX attention. Existing callers retain the no-sink and host-mask paths; Flint opts into the new behavior.",
       "title": "v0.40.8-rc0: mlx: add Flint model support (#19181)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "bb132bf741e1159b4d9c3028",
+      "discovered_at": "2026-10-21T20:14:09Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-21T14:45:50Z",
+      "search_score": 9,
+      "source_name": "Ollama Releases",
+      "summary": "Preserve source tool JSON alongside decoded API values so Flint can retain numeric types and schema order in prompts. Existing API marshaling is unchanged. Assemble ModelOpt expert banks during safetensors import, and reject direct Flint NVFP4 creation before conversion. Other models retain their existing import and quantization paths. Add optional learned sinks and device causal masks to shared MLX attention. Existing callers retain the no-sink and host-mask paths; Flint opts into the new behavior.",
+      "title": "v0.40.8: mlx: add Flint model support (#19181)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8"
     },
     {
       "bootstrap": false,
@@ -3390,6 +3432,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "945ba015726b3f326c93c17b",
+      "discovered_at": "2026-10-21T20:14:08Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-21T17:55:45Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "sycl: q8 fast dequant ( #30775 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58318564 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11799",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11799"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "f2f3954fbf20a27bff2ada86",
+      "discovered_at": "2026-10-21T20:14:08Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-21T16:40:43Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "jinja: support hexadecimal string escapes ( #30929 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58290954 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11798",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11798"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "4710bbb8e1b9e540a43d9c42",
       "discovered_at": "2026-10-21T16:05:49Z",
       "kind": "local-ai",
@@ -3429,79 +3499,9 @@
       "summary": "server : forward llama.cpp sampling params on /v1/messages ( #30856 ) server : forward llama.cpp sampling params on /v1/messages server : pass the request through on /v1/messages instead of copying listed keys NIT: Change comment from multiline to single line server : accept llama.cpp params under extra_params on /v1/messages server : remove test case for trivial functionality server : show extra_params in the /v1/messages README example Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58197214 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11795",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11795"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "3c4a73ae71962f503bbd4291",
-      "discovered_at": "2026-10-21T16:05:49Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-21T11:58:23Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "llama : optimize vocabulary loading ( #30679 ) llama : optimize vocabulary loading Update src/unicode.h Co-authored-by: Georgi Gerganov ggerganov@gmail.com CR : added reserve in gguf_kv_to_str CR : trailing space fix Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58189832 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11793",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11793"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "f0724bc31a39f504d94b8d67",
-      "discovered_at": "2026-10-21T11:25:13Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-21T11:07:34Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "metal : fix memory leaks and cleanup logic in GPU capture path ( #30890 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58173455 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11791",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11791"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "10a795afb881953ae9de0941",
-      "discovered_at": "2026-10-21T11:25:13Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-21T10:44:26Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "hexagon: neon-vectorized and threaded repack (tiling) ( #30901 ) add vectorized q4_0 repack apply to more types hex-repack: neon-vectorize the rest of the types q1/q2/f16/... hex-repack: add simple chunking / threading Co-authored-by: hubezhou hubezhou@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58165545 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11790",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11790"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "8fb5d92459329d6f9ed6c1f3",
-      "discovered_at": "2026-10-21T11:25:13Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-21T10:27:09Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "opencl: add dp4a GEMM variants to vector load activation ( #30753 ) opencl: add dp4a GEMM variants with vector activation loads opencl: rename kernels and env vars Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58160559 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11789",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11789"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "e66e14c1a1f61c332c35f1be",
-      "discovered_at": "2026-10-21T11:25:13Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-21T10:13:36Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "sycl : fix fa crash for Query head dimension mismatch (neq0 != HSK / D=2048/4096) ( #30286 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58155998 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11788",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11788"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-21T16:06:18Z",
+  "updated_at": "2026-10-21T20:14:37Z",
   "version": 2
 }

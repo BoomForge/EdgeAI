@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-21T16:06:18Z",
+    "at": "2026-10-21T20:14:37Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 11,
+    "prefiltered": 0,
+    "queued": 8,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 98,
+  "runs": 99,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -1328,6 +1328,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11586"
     },
+    "39cad894cdd240fbe2dba606": {
+      "first_seen": "2026-10-21T20:13:59Z",
+      "status": "queued",
+      "url": "https://openai.com/index/att-legal"
+    },
     "39f346da5a98b4d9b1195855": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -1383,6 +1388,11 @@
       "first_seen": "2026-10-08T07:31:45Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.45"
+    },
+    "3b94502ba2eceec312332bb2": {
+      "first_seen": "2026-10-21T20:14:31Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.2"
     },
     "3bc52993114bf83f7f7db85e": {
       "first_seen": "2026-10-05T09:14:16Z",
@@ -3502,6 +3512,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.26992"
     },
+    "945ba015726b3f326c93c17b": {
+      "first_seen": "2026-10-21T20:14:08Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11799"
+    },
     "94bd19d048ee866b06ef5242": {
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "too_old",
@@ -4230,6 +4245,11 @@
       "status": "queued",
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
     },
+    "b254ed96fddf9e1cbfbeba70": {
+      "first_seen": "2026-10-21T20:14:08Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11800"
+    },
     "b28cac5d3529e5b13badec16": {
       "first_seen": "2026-10-06T23:06:44Z",
       "status": "queued",
@@ -4424,6 +4444,11 @@
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22516"
+    },
+    "bb132bf741e1159b4d9c3028": {
+      "first_seen": "2026-10-21T20:14:09Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8"
     },
     "bb280405ef39d55c9a8eb60c": {
       "first_seen": "2026-10-16T05:36:28Z",
@@ -5081,6 +5106,11 @@
       "status": "queued",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.11"
     },
+    "d55387b1b29d2e7bff282604": {
+      "first_seen": "2026-10-21T20:14:09Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc0"
+    },
     "d55a4c113a242b65cda2a026": {
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
@@ -5373,6 +5403,11 @@
       "first_seen": "2026-10-05T09:14:06Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02331"
+    },
+    "e270f5ba4688033de075906d": {
+      "first_seen": "2026-10-21T20:13:59Z",
+      "status": "queued",
+      "url": "https://openai.com/index/empowering-cyber-defenders"
     },
     "e2b600cde6cb4a781c94aba5": {
       "first_seen": "2026-10-07T09:14:31Z",
@@ -5804,6 +5839,11 @@
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06956"
+    },
+    "f2f3954fbf20a27bff2ada86": {
+      "first_seen": "2026-10-21T20:14:08Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11798"
     },
     "f34e2880394efff739330307": {
       "first_seen": "2026-10-21T11:25:13Z",

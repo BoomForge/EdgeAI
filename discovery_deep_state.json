@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-21T05:59:03Z",
+    "at": "2026-10-21T11:41:50Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 0,
+    "prefiltered": 9,
+    "queued": 2,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 9,
     "warnings": 0
   },
-  "runs": 95,
+  "runs": 96,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -612,6 +612,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/"
     },
+    "1d674b21d76221ca5afd31d5": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/connect-pipedrive-to-ads-with-flyweel"
+    },
     "1da920339543b387d0b45090": {
       "first_seen": "2026-10-06T00:46:21Z",
       "status": "too_old",
@@ -878,6 +883,11 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-0c571b26db3fe2459e7c"
     },
+    "2d2256c26edfbdb2907cf30a": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery"
+    },
     "2d649ed6c35f69e8f64cf7fb": {
       "first_seen": "2026-10-14T13:07:10Z",
       "search_score": 0,
@@ -888,6 +898,11 @@
       "first_seen": "2026-10-11T23:51:14Z",
       "status": "queued",
       "url": "https://sakana.ai/mass/"
+    },
+    "2e49f16bbbee584a97f49f76": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/blooio-imessages-api-that-scales"
     },
     "2e6c7d5b62b02c1a6c3993f3": {
       "first_seen": "2026-10-15T14:58:06Z",
@@ -978,6 +993,11 @@
       "first_seen": "2026-10-14T21:37:22Z",
       "status": "queued",
       "url": "https://blog.youtube/news-and-events/youtube-music-ai-labels/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "3360920a5dc85c27087b9112": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/animatica-autoposer-pro"
     },
     "33f2ae97818354edc44a7dfe": {
       "first_seen": "2026-10-17T08:44:04Z",
@@ -1226,6 +1246,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/"
     },
+    "4059566198258f25ce09a935": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/woven-video"
+    },
     "407333463c66ba349e682c91": {
       "first_seen": "2026-10-14T21:37:27Z",
       "status": "queued",
@@ -1314,6 +1340,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/9/ttok/"
     },
+    "464b242e08c88b0c2a1c797a": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/hibi"
+    },
     "46e22b88664990f32b9508fb": {
       "first_seen": "2026-10-12T15:14:38Z",
       "status": "queued",
@@ -1391,6 +1423,11 @@
       "first_seen": "2026-10-16T05:09:15Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-d1703deb31d3c6677c0d"
+    },
+    "4abb7987b14fd53ddf445579": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/iglass"
     },
     "4b22d7e89d4e656fa2874416": {
       "first_seen": "2026-10-03T11:34:54Z",
@@ -1547,6 +1584,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/vanoor-running-pacer-map"
+    },
+    "539a380ce2d73ef2a64d8322": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/lea-by-leanaios"
     },
     "540274e07e8b13fc72fc2c9d": {
       "first_seen": "2026-10-19T17:12:31Z",
@@ -1844,6 +1887,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "6047c33594457ef3e3a675a4": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/querri"
     },
     "6076147f11368437df66bba5": {
       "first_seen": "2026-10-07T16:48:32Z",
@@ -3117,6 +3165,12 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2108638389045960958"
     },
+    "9fb56c241454f9f3cc181227": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/hotly"
+    },
     "9fd35c15f72452089f53fad6": {
       "first_seen": "2026-10-08T21:27:34Z",
       "status": "queued",
@@ -3180,6 +3234,11 @@
       "first_seen": "2026-10-20T00:43:53Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
+    },
+    "a2c09d89bd7192ee9929849f": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/twinmind"
     },
     "a2d47d967762a3a499dff79c": {
       "first_seen": "2026-10-15T19:05:42Z",
@@ -3264,6 +3323,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/vresk"
     },
+    "a7763b1d5fafdb2e3799ffd0": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/yarite"
+    },
     "a78a7dd6f5101f71bfa84705": {
       "first_seen": "2026-10-15T19:05:45Z",
       "status": "queued",
@@ -3340,6 +3404,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/winq"
+    },
+    "aacb450843f1933715a67952": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/triage-by-chodeberg"
     },
     "ab1718b76615d24d8db4db7d": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -3574,6 +3644,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/reception"
     },
+    "b78b3e5f4143d74fefcbd365": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/flagsmith"
+    },
     "b798d454d78e21d063126dc7": {
       "first_seen": "2026-10-16T10:03:10Z",
       "search_score": 0,
@@ -3584,6 +3660,12 @@
       "first_seen": "2026-10-06T19:44:15Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107493074662281326"
+    },
+    "b81707fa629d7d2281d97c4c": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/burrow-macos"
     },
     "b81c1f0d1082bccff0364908": {
       "first_seen": "2026-10-05T18:53:47Z",
@@ -3715,6 +3797,12 @@
       "first_seen": "2026-10-10T00:00:12Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/voicera-3"
+    },
+    "be50c6cc622bf4facb959660": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tend-5"
     },
     "be65296db4560cb9ef358ffe": {
       "first_seen": "2026-10-15T09:50:31Z",
@@ -3873,6 +3961,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/17/web-edit/"
     },
+    "c73ed4d8f3f6b0a94c43af5b": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/agent-pets"
+    },
     "c7b0200c3990590eaf3a7f26": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -4016,6 +4109,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/lookout-for-slack"
     },
+    "d2bb0989f4e171dc1d91404e": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/notion-99"
+    },
     "d30951486cef96799b23ba80": {
       "first_seen": "2026-10-06T00:46:20Z",
       "status": "queued",
@@ -4073,6 +4171,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/apple"
+    },
+    "d5d46e2f7cc145602c9ab7ee": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/ilha"
     },
     "d716e08cd23c30890d3fdce6": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -4598,6 +4701,12 @@
       "first_seen": "2026-10-03T15:15:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/bawkterm-an-open-source-ssh-sftp-client"
+    },
+    "f19879aff52c1d288b5f8bff": {
+      "first_seen": "2026-10-21T11:41:37Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/fini-2"
     },
     "f1d166af23c4ca249234391d": {
       "first_seen": "2026-10-16T23:59:23Z",

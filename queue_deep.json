@@ -1066,20 +1066,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "5ceda9b354e942def1661823",
-      "discovered_at": "2026-10-07T09:23:08Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 7, 2026",
-      "search_score": 17,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch x.com/witcheer/statu\u2026 Oct 7, 2026 @NousResearch Claude Opus 5.5 leads at 63.31 and $4.99 per task. GPT 6 Astra is second at 56.25 and $11.61. Sonnet 5.5 follows at 53.14 and $2.82. At the other end, DeepSeek V4.1 Flash scores 36.91 at $0.26 and Ling 3.0 Flash scores 21.56 at $0.054. Oct 6, 2026 @NousResearch Every model runs the same harness, with reasoning set high where offered. The index reports the mean score and the mean cost per task across the four suites. Hermes Bench info: Oct 6, 2026 @NousResearch We do this using an index of four benchmarks. One is our new benchmark, Hermes Bench. The others are Terminal-Bench 4.0, Terminal-Bench-Science, and SkillsBench. Oct 6, 2026 @NousResearch Introducing Hermes Index: an average of benchmarks measuring model performance in Hermes Agent. Our goal with Hermes Index is to better inform users choosing between models and to show labs how they perform in Hermes. portal.nousresearch.com/bench Oct 6, 2026 @NousResearch Hey Hermes book me a flight to nyc and find the cheapest hotel available and social engineer the person approving rsvps make no mistakes x.com/nousresearch/s\u2026 Oct 6, 2026 @NousResearch Evergreen x.com/sounddobad/sta\u2026 Oct 6, 2026 @NousResearch You should be able to use smarter models in your agent. You should be able to use cheaper models in your agent. You should be able to use local models in your agent. You should be able to use a different model for every job. You should be able to switch models in the middle of a conversation. You should be able to choose what data your agent has. You should be able to choose what it remembers and what it forgets. You should be able to choose what computer your agent runs on. You should be able to run it on a machine that never touches the internet. You should be able to run it while your laptop is closed. You should be able to reach it from the apps you already use. You should be able to choose how your agent thinks. You should be able to read the prompt it runs on. You should be able to see every tool it has, and turn off the ones you don't want. You should be able to teach it something once and never explain it again. You should be able to know what it did, and when, and why. You should be able to export your agent. You should be able to read the code. You should be able to change the code. Your agent should be yours. Oct 5, 2026 @NousResearch You can use Hermes Agent for a lot more than flight booking. Here are 326 use cases from real users: hermes-agent.nousresearch.com/docs/user-stor\u2026 Oct 5, 2026 @NousResearch Solar Mini 4 from @upstageai is free on Nous Portal for the next two weeks It has 3B active parameters (35B total), 512K context, and an Artificial Analysis Intelligence Index score of 24 - above models with 10x the active parameters Oct 5, 2026",
-      "title": "@NousResearch x.com/witcheer/statu\u2026 Oct 7, 2026",
-      "url": "https://x.com/NousResearch/status/2107671544818200968"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "d820d527a66cc6767ec5fec6",
       "discovered_at": "2026-10-07T21:57:53Z",
       "kind": "primary-signal",
@@ -2158,6 +2144,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "c73ed4d8f3f6b0a94c43af5b",
+      "discovered_at": "2026-10-21T11:41:37Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-20T21:55:21-07:00",
+      "search_score": 6,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Coding agents as pets that live on every page in Chrome Discussion | Link",
+      "title": "Agent Pets",
+      "url": "https://www.producthunt.com/products/agent-pets"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "85de25504b4d92d69daf9d75",
       "discovered_at": "2026-10-17T08:44:04Z",
       "kind": "signal",
@@ -2298,6 +2298,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "d2bb0989f4e171dc1d91404e",
+      "discovered_at": "2026-10-21T11:41:37Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-20T11:01:39-07:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Notion\u2019s rebuilt Agents run for hours and cost far less Discussion | Link",
+      "title": "Notion Auto",
+      "url": "https://www.producthunt.com/products/notion-99"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "c338cc27b47c37b92288f512",
       "discovered_at": "2026-10-20T15:17:17Z",
       "kind": "signal",
@@ -2340,6 +2354,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-21T05:59:03Z",
+  "updated_at": "2026-10-21T11:41:50Z",
   "version": 2
 }

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-20T22:27:36Z",
+    "at": "2026-10-21T00:55:54Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 8,
+    "queued": 7,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 94,
+  "runs": 95,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -389,6 +389,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02578"
+    },
+    "125af853e4eeacede9b5e890": {
+      "first_seen": "2026-10-21T00:55:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11766"
     },
     "128b29d0b37072f03ad19c51": {
       "first_seen": "2026-10-12T09:24:00Z",
@@ -1557,6 +1562,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22445"
     },
+    "4595a7e6448251cb81b3fc4e": {
+      "first_seen": "2026-10-21T00:55:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11769"
+    },
     "4595b71f0d99ab690df29fae": {
       "first_seen": "2026-10-05T18:34:59Z",
       "status": "queued",
@@ -2474,6 +2484,11 @@
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.902-beta"
     },
+    "6e9c74f8713da6416f70743b": {
+      "first_seen": "2026-10-21T00:55:29Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.3"
+    },
     "6ef4e425bda93bb00d8adaa9": {
       "first_seen": "2026-10-03T00:46:19Z",
       "status": "queued",
@@ -2575,6 +2590,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10703"
+    },
+    "72a731f967f209c7ab3a63b8": {
+      "first_seen": "2026-10-21T00:55:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11765"
     },
     "72aa5bfffea352f1fd1626fd": {
       "first_seen": "2026-10-17T04:39:58Z",
@@ -4909,6 +4929,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11417"
     },
+    "de3116074f2bc759e39e1b5f": {
+      "first_seen": "2026-10-21T00:55:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11767"
+    },
     "de32d3b9322608aa8c64b95d": {
       "first_seen": "2026-10-11T07:19:10Z",
       "status": "queued",
@@ -4939,6 +4964,11 @@
       "first_seen": "2026-10-15T00:51:10Z",
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.6.0"
+    },
+    "df1d6ce7caa4eee397d5bcfc": {
+      "first_seen": "2026-10-21T00:55:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11763"
     },
     "df523df86c83732c52ed92f5": {
       "first_seen": "2026-10-19T21:22:48Z",
@@ -5520,6 +5550,11 @@
       "first_seen": "2026-10-03T00:46:13Z",
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.815-beta"
+    },
+    "f94dbedb777bca1e7dcc5ceb": {
+      "first_seen": "2026-10-21T00:55:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11768"
     },
     "f953d4e5e266fbae554baaaf": {
       "first_seen": "2026-10-03T15:10:00Z",

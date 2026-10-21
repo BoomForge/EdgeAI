@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-21T20:14:37Z",
+    "at": "2026-10-21T23:27:02Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 8,
+    "queued": 6,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 99,
+  "runs": 100,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -1040,6 +1040,11 @@
       "status": "queued",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.28"
     },
+    "2cc234a0974badebe317f780": {
+      "first_seen": "2026-10-21T23:26:40Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11803"
+    },
     "2d1ba5f9cd87f735ba5c106b": {
       "first_seen": "2026-10-05T09:14:16Z",
       "status": "queued",
@@ -1499,6 +1504,11 @@
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08830"
+    },
+    "3f1a11956436b167380065dc": {
+      "first_seen": "2026-10-21T23:26:32Z",
+      "status": "queued",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards"
     },
     "3f244126e9d6ab8745ea3b4b": {
       "first_seen": "2026-10-13T16:25:52Z",
@@ -4310,6 +4320,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11551"
     },
+    "b64a64ebcbf24722e01cfde4": {
+      "first_seen": "2026-10-21T23:26:41Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11802"
+    },
     "b6756c0a180ee554226c332b": {
       "first_seen": "2026-10-17T08:48:33Z",
       "status": "queued",
@@ -4803,6 +4818,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.14005"
     },
+    "ca1e9b27c57e709059a075d0": {
+      "first_seen": "2026-10-21T23:26:57Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.7"
+    },
     "ca2ee896cc3c92110d1659fa": {
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
@@ -5200,6 +5220,11 @@
       "first_seen": "2026-10-21T05:49:09Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11782"
+    },
+    "d7f891d2a048125a896b09bd": {
+      "first_seen": "2026-10-21T23:26:57Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.13"
     },
     "d8658c9aaa0aa4238455b1c6": {
       "first_seen": "2026-10-03T00:45:51Z",
@@ -5969,6 +5994,11 @@
       "first_seen": "2026-10-15T19:15:03Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0"
+    },
+    "f77e9421dbc5f3379a18bb2c": {
+      "first_seen": "2026-10-21T23:26:41Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11801"
     },
     "f7d49e39d15a6792b2c76848": {
       "first_seen": "2026-10-16T10:06:04Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-21T11:25:37Z",
+    "at": "2026-10-21T16:06:18Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
+    "prefiltered": 3,
     "queued": 11,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 97,
+  "runs": 98,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -738,6 +738,11 @@
       "status": "too_old",
       "url": "https://github.com/huggingface/diffusers/releases/tag/v0.39.0"
     },
+    "1e8b991416e8869feffd5695": {
+      "first_seen": "2026-10-21T16:06:04Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.107.0"
+    },
     "1ee054f8306049bbc177567c": {
       "first_seen": "2026-10-16T05:36:33Z",
       "status": "queued",
@@ -1404,6 +1409,11 @@
       "status": "too_old",
       "url": "https://github.com/huggingface/diffusers/releases/tag/v0.40.0"
     },
+    "3c4a73ae71962f503bbd4291": {
+      "first_seen": "2026-10-21T16:05:49Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11793"
+    },
     "3c4be800d539ba9f01847a25": {
       "first_seen": "2026-10-06T19:03:40Z",
       "status": "queued",
@@ -1702,6 +1712,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11450"
     },
+    "4710bbb8e1b9e540a43d9c42": {
+      "first_seen": "2026-10-21T16:05:49Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11797"
+    },
     "4732ebc0389ac93a123e97e6": {
       "first_seen": "2026-10-03T00:46:20Z",
       "status": "too_old",
@@ -1757,6 +1772,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00098"
+    },
+    "4babaa5942eda11661e60b87": {
+      "first_seen": "2026-10-21T16:05:49Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11795"
     },
     "4c13f8e2c7d9b1ec15096dcd": {
       "first_seen": "2026-10-08T20:34:17Z",
@@ -2361,6 +2381,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20667"
     },
+    "64ddfb139fec8a1cb4597ec2": {
+      "first_seen": "2026-10-21T16:05:39Z",
+      "status": "queued",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data"
+    },
     "64f50062a724b13f1a8e465e": {
       "first_seen": "2026-10-17T18:34:34Z",
       "status": "queued",
@@ -2716,6 +2741,11 @@
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.49.0"
     },
+    "7244c29cc7dd8333243d151c": {
+      "first_seen": "2026-10-21T16:05:49Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11796"
+    },
     "7250ed766acb8703211c62ee": {
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
@@ -2790,6 +2820,11 @@
       "first_seen": "2026-10-19T21:22:43Z",
       "status": "queued",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2"
+    },
+    "76744d828500bda5b632e17e": {
+      "first_seen": "2026-10-21T16:05:50Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0"
     },
     "76a0385e5ac6605451f72db1": {
       "first_seen": "2026-10-03T00:45:54Z",
@@ -3502,6 +3537,11 @@
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/archive%2Fpr15095"
     },
+    "95dedf578de78f3ec264f66e": {
+      "first_seen": "2026-10-21T16:05:39Z",
+      "status": "queued",
+      "url": "https://openai.com/index/openai-models-google-cloud"
+    },
     "95eb6c8a3e94753a6eb7d170": {
       "first_seen": "2026-10-05T09:14:06Z",
       "status": "queued",
@@ -4185,6 +4225,11 @@
       "status": "too_old",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.19"
     },
+    "b1215e1aefc04c61e203617a": {
+      "first_seen": "2026-10-21T16:05:39Z",
+      "status": "queued",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
+    },
     "b28cac5d3529e5b13badec16": {
       "first_seen": "2026-10-06T23:06:44Z",
       "status": "queued",
@@ -4409,6 +4454,12 @@
       "first_seen": "2026-10-05T18:34:59Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11424"
+    },
+    "bc70ac2dbf779ff88ac62786": {
+      "first_seen": "2026-10-21T16:05:39Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/visionaries-petit-palais-art-basel-paris-prune-nourry/"
     },
     "bc90661641d1e5db78d9e164": {
       "first_seen": "2026-10-15T05:40:20Z",
@@ -4801,6 +4852,12 @@
       "first_seen": "2026-10-15T05:40:28Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11633"
+    },
+    "cd3cd724749fa46244e9211a": {
+      "first_seen": "2026-10-21T16:05:39Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products/ads-commerce/holiday-shopping-bidding-budgeting/"
     },
     "cd7ec95f220a0ea5bee81e48": {
       "first_seen": "2026-10-20T22:27:09Z",
@@ -5240,6 +5297,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11712"
     },
+    "de9db6f384cbc788775550a9": {
+      "first_seen": "2026-10-21T16:05:39Z",
+      "status": "queued",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+    },
     "dec45192904d8250c4004df0": {
       "first_seen": "2026-10-08T20:34:09Z",
       "search_score": 0,
@@ -5265,6 +5327,12 @@
       "first_seen": "2026-10-19T21:22:48Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11739"
+    },
+    "dfb6e6be45662091eab87f1e": {
+      "first_seen": "2026-10-21T16:05:39Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/waze/waze-the-cat-in-the-hat/"
     },
     "dfdb0f5667e9b7c113f3d9b1": {
       "first_seen": "2026-10-09T06:41:17Z",
@@ -5491,6 +5559,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.4.0"
+    },
+    "ea92da5c121ecb4527027c2b": {
+      "first_seen": "2026-10-21T16:05:39Z",
+      "status": "queued",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack"
     },
     "eaf3ddcfa2f2b6accff54d95": {
       "first_seen": "2026-10-03T00:46:05Z",

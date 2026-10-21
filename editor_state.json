@@ -47,9 +47,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-21T18:59:13Z",
-    "eligible": 44,
-    "evaluated": 2,
+    "at": "2026-10-21T22:17:52Z",
+    "eligible": 52,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -1412,6 +1412,14 @@
         "source": "Simon Willison Everything"
       },
       "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/"
+    },
+    "39cad894cdd240fbe2dba606": {
+      "at": "2026-10-21T22:17:45Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "openai-att-legal-partnership",
+      "url": "https://openai.com/index/att-legal"
     },
     "39d9d32aec31bf39472f496d": {
       "at": "2026-10-08T00:09:43Z",
@@ -5131,6 +5139,20 @@
       "story_key": "llamacpp-b11712-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11712"
     },
+    "de9db6f384cbc788775550a9": {
+      "at": "2026-10-21T22:17:48Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-patch-the-planet-php-vulnerabilities",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+    },
     "dec620cb7225d2434a9b02e6": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -5413,6 +5435,20 @@
       "at": "2026-10-03T14:57:13Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.4.0"
+    },
+    "ea92da5c121ecb4527027c2b": {
+      "at": "2026-10-21T22:17:52Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "openai-chatgpt-ad-stack-architecture",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/building-chatgpt-ad-stack"
     },
     "eb5388f6b69cd3b42046c2ed": {
       "at": "2026-10-05T07:01:46Z",
@@ -8357,6 +8393,27 @@
         "source": "OpenAI News"
       }
     },
+    "openai-chatgpt-ad-stack-architecture": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-chatgpt-ad-stack-architecture.jpg",
+      "last_updated": "2026-10-21T22:17:52Z",
+      "post_id": "1714168714016691906",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-details-custom-llm-powered-ad.html",
+      "score": 85,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/GsY5RrFvT4ZOnPC3oZUya/e3168194d55c5d9c8060ce5c5ba6c3ed/building-chatgpt-ad-stack-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/building-chatgpt-ad-stack"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Details Custom LLM-Powered Ad Stack Architecture for ChatGPT",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
     "openai-chatgpt-for-teens-college-planner-features": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openai-chatgpt-for-teens-college-planner-features.png",
@@ -8654,6 +8711,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI Models and Codex Coming to Google Cloud Model Garden",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-patch-the-planet-php-vulnerabilities": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-patch-the-planet-php-vulnerabilities.jpg",
+      "last_updated": "2026-10-21T22:17:48Z",
+      "post_id": "8858296349469084546",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-launches-patch-planet-framework.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/xq2rRszwLvIAxOynZi2qa/b1cf094a0d095f67821bf4b8cfaba0b9/coordinated-disclosure-of-critical-vulnerabilities-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Launches 'Patch the Planet' Framework as Frontier Models Discover Critical PHP Flaws",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

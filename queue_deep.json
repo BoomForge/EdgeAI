@@ -2158,6 +2158,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "6efe1c62f251acf7b3947e2d",
+      "discovered_at": "2026-10-21T16:08:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-20T00:04:54-07:00",
+      "search_score": 6,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Run WhatsApp, Instagram & web chat from ChatGPT or Claude Discussion | Link",
+      "title": "Intelli for ChatGPT & Claude",
+      "url": "https://www.producthunt.com/products/intelli"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "85de25504b4d92d69daf9d75",
       "discovered_at": "2026-10-17T08:44:04Z",
       "kind": "signal",
@@ -2183,6 +2197,20 @@
       "summary": "The coding agent that runs on its own AI models Discussion | Link",
       "title": "Praex",
       "url": "https://www.producthunt.com/products/praex"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "e8e969fb649a6a4765a72a84",
+      "discovered_at": "2026-10-21T16:08:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-20T19:01:18-07:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "A decision model for your agent harness. Discussion | Link",
+      "title": "Mouse-1",
+      "url": "https://www.producthunt.com/products/mouse-1"
     },
     {
       "bootstrap": false,
@@ -2312,6 +2340,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "2f9135cc5a09bba941f88b88",
+      "discovered_at": "2026-10-21T16:08:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-20T08:19:17-07:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Wiki your agents write for you to think, organize, direct Discussion | Link",
+      "title": "Nimbalyst Wiki",
+      "url": "https://www.producthunt.com/products/nimbalyst-wiki"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "edb4b64f3765a7123bebbf82",
+      "discovered_at": "2026-10-21T16:08:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-20T03:54:16-07:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Chat, Docs, Kanban Tasks and Al agents that act, self-hosted Discussion | Link",
+      "title": "PrivOS",
+      "url": "https://www.producthunt.com/products/privos"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "c338cc27b47c37b92288f512",
       "discovered_at": "2026-10-20T15:17:17Z",
       "kind": "signal",
@@ -2354,6 +2410,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-21T11:41:50Z",
+  "updated_at": "2026-10-21T16:08:25Z",
   "version": 2
 }

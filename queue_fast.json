@@ -2438,20 +2438,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "3edac89f6e2aabc592420d13",
-      "discovered_at": "2026-10-08T07:31:45Z",
-      "kind": "coding-agents",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-08T05:09:49Z",
-      "search_score": 16,
-      "source_name": "Cline Releases",
-      "summary": "The AI SDK moves together to one release line: ai 7.0.120 and every @ai-sdk/* package on @ai-sdk/provider-utils 5.0.50 (previously ai 7.0.79 with packages bumped one by one). Turning reasoning off no longer sends reasoning.effort: \"none\" to OpenAI models that can't turn it off, such as GPT-6 Astra and GPT-6.1 Sol (GPT-6 Astra answered with a 400, for example from commit message generation); GPT-5.x and GPT-6 Sol/Luna still get \"none\" . Turning reasoning off also no longer sends thinking: {type: \"disabled\"} to Claude models that can't turn thinking off, such as Claude Fable 5 and Opus 5.5 (they answered with \"thinking.type.disabled\" is not supported for this model ); other Claude models still get disabled Stdio MCP clients handle EPIPE when a server exits before reading all of its input. Previously that raised an uncaught exception on the host process. The SAP AI Core provider also no longer installs winston's process-wide uncaughtException handler, which called process.exit(1) three seconds after any uncaught error The legacy provider-settings migration no longer adds an empty sapaicore entry to providers.json . It used to do this for every migrated user, because the extension writes sapAiCoreUseOrchestrationMode as a default @cline/core exports parseMcpHeaders , used by the CLI's mcp add wizard to keep --header values Refreshed the model catalog. Adds Claude Haiku 5.5. Default models change for Google Vertex AI (Claude Sonnet 5.5 \u2192 Claude Haiku 5.5), Cortecs, DevPass (LLM Gateway), Eden AI, GitHub Copilot, LLM Gateway, NanoGPT, OpenCode Go, Requesty, and Vivgrid (most now Claude Haiku 5.5) Full Changelog : sdk/sdk/v0.0.91...sdk/sdk/v0.0.92",
-      "title": "SDK v0.0.92",
-      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.92"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "b254ed96fddf9e1cbfbeba70",
       "discovered_at": "2026-10-21T20:14:08Z",
       "kind": "local-ai",
@@ -2547,20 +2533,6 @@
       "summary": "common : read a GGUF's trained context from its metadata common_get_gguf_n_ctx_train opens only the file's metadata (no_alloc, like common_get_decision_type) and reads .context_length, so a caller can learn the trained context without loading the model. It accepts both u32 and u64 values and returns 0 when the file is missing, unreadable, invalid, or reports no context length. Assisted-by: pi:zai-org/GLM-5.3-Flash server : report the trained context in the models listing update_caps already resolves the model file offline to read its modalities, so it now reads the trained context from the same GGUF metadata, and GET /models reports it as context_length when it is known. A router listing then carries the context without any Hub request, which lets the UI sort and filter by it offline. Assisted-by: pi:zai-org/GLM-5.3-Flash ui : take the trained context from the models listing The router now reports context_length per model, so the option mapping fills contextLength from it and the manager reads it before the Hub record. The Context column, the context sort and the context filter then work with the Hugging Face Hub API turned off. A browser suite guards the sort and the search, the Hub-cache driven context filter and the re-sort when details arrive after the sort was clicked. Assisted-by: pi:zai-org/GLM-5.3-Flash ui : mark favorite models with a heart A favorited model shows a rose heart in the selector even before its row is hovered, and the crossed heart takes its place on hover, so unfavoriting stays one hover away. The manager table marks its favorited rows with the same heart after the badges and capabilities. Assisted-by: pi:zai-org/GLM-5.3-Flash fix: UI text nit fix: UI nits fix: Favorite models grouping in models table feat: Remove sorting from Status column in Models Table server: read the GGUF metadata once per model Read the decision type and the trained context in a single GGUF open, accept only a UINT32 context length like the model loader, and reset n_ctx_train with the other caps so a failed refresh drops it. fix: Post-review fixes Co-authored-by: Pascal admin@serveurperso.com",
       "title": "b11536: ui: Models Manager Follow-up Improvements (#30228)",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11536"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "3b7dfb15ccd25789d7bec035",
-      "discovered_at": "2026-10-08T07:31:45Z",
-      "kind": "coding-agents",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-08T06:50:38Z",
-      "search_score": 12,
-      "source_name": "Cline Releases",
-      "summary": "SSH remotes start again. Since 0.0.38, connecting to an SSH environment failed with SyntaxError: Invalid character On SSH environments, the git branch label no longer opens two new SSH logins every 5 seconds. It checks every 30 seconds now, and switching branches from the picker still updates it right away Long model names in the composer show in full when the row has room, and only truncate when it runs out Turning reasoning off no longer fails with a 400 error on GPT-6 Astra, GPT-6.1 Sol, Claude Fable 5 or Claude Opus 5.5 The background service no longer crashes about 3 seconds after an MCP server or hook quits before reading all of its input Settings migrated from the VS Code extension no longer add an empty SAP AI Core provider Refreshed the model catalog. Adds Claude Haiku 5.5. Default models change for Google Vertex AI (Claude Sonnet 5.5 \u2192 Claude Haiku 5.5), Cortecs, DevPass (LLM Gateway), Eden AI, GitHub Copilot, LLM Gateway, NanoGPT, OpenCode Go, Requesty, and Vivgrid (most now Claude Haiku 5.5) Full Changelog : desktop-v0.0.44...desktop-v0.0.45",
-      "title": "Desktop v0.0.45",
-      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.45"
     },
     {
       "bootstrap": false,
@@ -2757,20 +2729,6 @@
       "summary": "model : use exact GELU for ModernBERT encoders ( #30108 ) model : use exact GELU for ModernBERT encoders Assisted-by: Codex model : keep tanh GELU aliases on ggml_geglu Assisted-by: Claude Opus 5.5 model : map gelu_python to ggml_geglu_erf Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54401986 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11532",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11532"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "ad7758210585a348b5e2b1db",
-      "discovered_at": "2026-10-08T07:31:26Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-08T04:19:05Z",
-      "search_score": 10,
-      "source_name": "llama.cpp Releases",
-      "summary": "model : add LiquidAI/d1-omni-600M decision model ( #30114 ) model : add LiquidAI/d1-omni-600M decision model Assisted-by: Claude Opus 5.5 mtmd : keep conformer GLU sigmoid on CUDA Assisted-by: Claude Opus 5.5 server : take d1omni audio through images and input_audio, scope memory-less lfm2 to non-causal Assisted-by: Claude Opus 5.5 common : rename decision type d1omni to lfm2-d1-omni, server : make images an alias of files Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/53804555 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11488",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11488"
     },
     {
       "bootstrap": false,
@@ -3348,6 +3306,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "6ef30b59765d1610423adaf8",
+      "discovered_at": "2026-10-22T07:18:30Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-22T06:32:29Z",
+      "search_score": 6,
+      "source_name": "llama.cpp Releases",
+      "summary": "lora : support prism.hadamard folded weights ( #30910 ) lora : support prism.hadamard folded weights tests : remove LoRA test from test-llama-archs Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58519760 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11806",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11806"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "f34e2880394efff739330307",
       "discovered_at": "2026-10-21T11:25:13Z",
       "kind": "local-ai",
@@ -3474,6 +3446,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "48eb86352e910f34657b6f5e",
+      "discovered_at": "2026-10-22T07:18:30Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-22T07:06:57Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "webgpu : add Q2_0 support ( #30914 ) webgpu : add Q2_0 row dequantization webgpu : add Q2_0 matrix multiplication Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58527719 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11809",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11809"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "ad9afe56c7e75db9e4e54c7f",
+      "discovered_at": "2026-10-22T07:18:30Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-22T06:50:29Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "dflash : load optional FC input scale ( #30945 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58523956 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11808",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11808"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "c14954ab7d9901bc7781a9cc",
       "discovered_at": "2026-10-22T01:51:00Z",
       "kind": "local-ai",
@@ -3502,6 +3502,6 @@
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-22T01:51:27Z",
+  "updated_at": "2026-10-22T07:18:52Z",
   "version": 2
 }

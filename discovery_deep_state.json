@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-21T23:32:31Z",
+    "at": "2026-10-22T01:58:01Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 9,
+    "queued": 2,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 99,
+  "runs": 100,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -151,6 +151,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/devterminal"
+    },
+    "0774b1f3d1a85ad1b7dd6b91": {
+      "first_seen": "2026-10-22T01:58:00Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2113077994315034967"
     },
     "07805f8ccf0891a10c549358": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -4819,6 +4824,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/atticus"
+    },
+    "f046fa1f0c2a4483a15cbd04": {
+      "first_seen": "2026-10-22T01:57:55Z",
+      "status": "queued",
+      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st?utm_source=futuretools.io&utm_medium=newspage"
     },
     "f0939d8c42a5916b0cbe4dd2": {
       "first_seen": "2026-10-15T09:50:31Z",

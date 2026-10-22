@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-22T07:18:52Z",
+    "at": "2026-10-22T13:02:39Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 39,
+    "prefiltered": 2,
+    "queued": 8,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 102,
+  "runs": 103,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -703,6 +703,21 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10722"
     },
+    "1c060e6401dc3614d2f9a1af": {
+      "first_seen": "2026-10-22T13:02:17Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11820"
+    },
+    "1c075b98a7130d79b76fb072": {
+      "first_seen": "2026-10-22T13:02:17Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11815"
+    },
+    "1c1a3f1456bf64f46e92913f": {
+      "first_seen": "2026-10-22T13:02:17Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11819"
+    },
     "1c1dc6fbc1637955b7723827": {
       "first_seen": "2026-10-15T00:51:07Z",
       "status": "queued",
@@ -852,6 +867,12 @@
       "first_seen": "2026-10-08T07:31:45Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.0.92"
+    },
+    "23b7d3069afaccfd30e02db8": {
+      "first_seen": "2026-10-22T13:02:09Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products/marketingplatform/360/google-marketing-platform-drop-october/"
     },
     "23d65be69b099d33638e6ac9": {
       "first_seen": "2026-10-12T09:23:59Z",
@@ -1637,6 +1658,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2"
     },
+    "41ba1ce2339fc3afad478eac": {
+      "first_seen": "2026-10-22T13:02:17Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11813"
+    },
     "41e12843f2c4fc0abb992355": {
       "first_seen": "2026-10-11T14:10:43Z",
       "status": "queued",
@@ -1907,6 +1933,11 @@
       "first_seen": "2026-10-05T09:14:06Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02267"
+    },
+    "4d8e460dfcbc5c4a0a978fbb": {
+      "first_seen": "2026-10-22T13:02:17Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11812"
     },
     "4dadc7afdfda6c937b172d62": {
       "first_seen": "2026-10-21T05:49:00Z",
@@ -2895,6 +2926,11 @@
       "first_seen": "2026-10-21T05:49:00Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.26888"
+    },
+    "73adbc32b729a69f60721831": {
+      "first_seen": "2026-10-22T13:02:17Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11818"
     },
     "73af55ea587bec41cd9897f4": {
       "first_seen": "2026-10-05T18:34:46Z",
@@ -4962,6 +4998,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22430"
     },
+    "c7b942d9db5dedfd4257151a": {
+      "first_seen": "2026-10-22T13:02:17Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11811"
+    },
     "c7c1db1d24f97b16930900ba": {
       "first_seen": "2026-10-21T05:49:00Z",
       "search_score": 0,
@@ -6075,6 +6116,12 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11798"
     },
+    "f32712b46e4edc8d4c0a0e12": {
+      "first_seen": "2026-10-22T13:02:09Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virtual-power-plant-1-gigawatt/"
+    },
     "f34e2880394efff739330307": {
       "first_seen": "2026-10-21T11:25:13Z",
       "status": "queued",
@@ -6305,6 +6352,11 @@
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.19102"
+    },
+    "fc21734831cb785bbbe2edfb": {
+      "first_seen": "2026-10-22T13:02:17Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11814"
     },
     "fc3118d0cb024e5843f5231f": {
       "first_seen": "2026-10-15T05:40:20Z",

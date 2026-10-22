@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-22T13:02:39Z",
+    "at": "2026-10-22T17:56:30Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 8,
+    "prefiltered": 0,
+    "queued": 7,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 103,
+  "runs": 104,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -228,6 +228,11 @@
       "first_seen": "2026-10-20T22:27:10Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11762"
+    },
+    "0c874d04763c664a26ec78fd": {
+      "first_seen": "2026-10-22T17:56:06Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11823"
     },
     "0cbbbb5285d664f9e61a7306": {
       "first_seen": "2026-10-09T19:20:42Z",
@@ -1582,6 +1587,11 @@
       "status": "prefiltered",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/indiana-energy-imact-program/"
     },
+    "3f3b9cf3711f8a8a4b19a738": {
+      "first_seen": "2026-10-22T17:56:06Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11822"
+    },
     "3fb841e489d51fc4f16a7c50": {
       "first_seen": "2026-10-16T10:06:04Z",
       "status": "queued",
@@ -2485,6 +2495,11 @@
       "first_seen": "2026-10-22T07:18:24Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.28810"
+    },
+    "6400feb681472530a689e8c5": {
+      "first_seen": "2026-10-22T17:55:59Z",
+      "status": "queued",
+      "url": "https://openai.com/index/forward-deployed-engineering-means"
     },
     "640c2a5785f18b13f797e50f": {
       "first_seen": "2026-10-14T19:29:44Z",
@@ -4049,6 +4064,11 @@
       "status": "queued",
       "url": "https://openai.com/index/gpt-6-for-everyone"
     },
+    "a09804c9ecef0de7684b0c57": {
+      "first_seen": "2026-10-22T17:56:14Z",
+      "status": "queued",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.12.0"
+    },
     "a09ee5060c6b7b7e5dd2633e": {
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
@@ -4525,6 +4545,11 @@
       "first_seen": "2026-10-10T19:21:11Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11551"
+    },
+    "b59dab6824688f36820558e6": {
+      "first_seen": "2026-10-22T17:56:24Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.0"
     },
     "b64a64ebcbf24722e01cfde4": {
       "first_seen": "2026-10-21T23:26:41Z",
@@ -5063,6 +5088,11 @@
       "first_seen": "2026-10-05T02:05:36Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11400"
+    },
+    "caa2121350852b24ddb09ffb": {
+      "first_seen": "2026-10-22T17:56:06Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11821"
     },
     "cab1410e9440e33b0fc6a245": {
       "first_seen": "2026-10-15T05:40:20Z",
@@ -5965,6 +5995,11 @@
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20676"
+    },
+    "eda525050cea8fce4b138233": {
+      "first_seen": "2026-10-22T17:55:59Z",
+      "status": "queued",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout"
     },
     "edd09fef65e224be12a33264": {
       "first_seen": "2026-10-19T16:56:03Z",

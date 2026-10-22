@@ -47,9 +47,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-22T10:26:44Z",
-    "eligible": 62,
-    "evaluated": 3,
+    "at": "2026-10-22T19:22:20Z",
+    "eligible": 65,
+    "evaluated": 5,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -950,6 +950,14 @@
       "story_key": "openrouter-rankings-update-2026-10",
       "url": "https://openrouter.ai/rankings#edgeai-88adf2e51a0f1f1e5fff"
     },
+    "270c47435d1854dece57ea72": {
+      "at": "2026-10-22T19:22:06Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-updates-oct-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-01385d29a6abea0cb221"
+    },
     "276633348655bb1b12742fc4": {
       "at": "2026-10-11T00:57:13Z",
       "status": "expired",
@@ -1576,6 +1584,11 @@
       },
       "url": "https://artificialanalysis.ai/changelog#edgeai-989879af9de3ff049b6e"
     },
+    "3d8a5abd6a048d9c44217e9d": {
+      "at": "2026-10-22T19:22:03Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/searchtok"
+    },
     "3d9482c11cf663a63fe7f54d": {
       "at": "2026-10-05T01:11:38Z",
       "bootstrap": true,
@@ -2029,6 +2042,11 @@
       "story_key": "llamacpp-b11555-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11555"
     },
+    "546ee585b64064600c6b9739": {
+      "at": "2026-10-22T19:22:03Z",
+      "status": "expired",
+      "url": "https://newsletter.futurepedia.io/p/futurepedia-now-builds-you-an-ai-plan-10-19-2026"
+    },
     "548cbd263e1bab205b5fdb54": {
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
@@ -2457,6 +2475,14 @@
       "status": "ignored",
       "story_key": "stability-ai-company-page-routine-update",
       "url": "https://stability.ai/company"
+    },
+    "6400feb681472530a689e8c5": {
+      "at": "2026-10-22T19:22:09Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "openai-forward-deployed-engineering",
+      "url": "https://openai.com/index/forward-deployed-engineering-means"
     },
     "6406be5b671a96484836e277": {
       "at": "2026-10-04T11:21:04Z",
@@ -3337,6 +3363,11 @@
       "story_key": "openai-chatham-financial-case-study",
       "url": "https://openai.com/index/chatham-financial"
     },
+    "8859dca49d075e7cb240bbcf": {
+      "at": "2026-10-22T19:22:03Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/the-new-beings"
+    },
     "89c32091399dabfa1a90ef3e": {
       "at": "2026-10-13T11:42:22Z",
       "status": "expired",
@@ -3961,6 +3992,20 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/gpt-6-for-everyone"
+    },
+    "a09804c9ecef0de7684b0c57": {
+      "at": "2026-10-22T19:22:20Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "localai-v4-12-0-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "LocalAI Releases"
+      },
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.12.0"
     },
     "a0fc53049f812f1dd1c7f6cb": {
       "at": "2026-10-06T02:32:14Z",
@@ -5469,6 +5514,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11477"
     },
+    "e70bc32f2eb563dd5c6c7e59": {
+      "at": "2026-10-22T19:22:03Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/sorcerer"
+    },
     "e717d115bc50b825a8cae035": {
       "at": "2026-10-12T17:49:23Z",
       "status": "expired",
@@ -5626,6 +5676,20 @@
       "status": "expired",
       "url": "https://blog.google/products-and-platforms/products/search/coffee-tips-google-search/"
     },
+    "eda525050cea8fce4b138233": {
+      "at": "2026-10-22T19:22:15Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "uber-chatgpt-work-openai-rollout",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout"
+    },
     "edfff1af226cc0177e5e0c11": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -5648,6 +5712,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.814-beta"
+    },
+    "f09ae79bc02abf8089372192": {
+      "at": "2026-10-22T19:22:03Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/call4me"
     },
     "f0eaec654f7f1f43621c2bdd": {
       "at": "2026-10-03T05:49:31Z",
@@ -5757,6 +5826,14 @@
       "at": "2026-10-10T07:33:39Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11461"
+    },
+    "f25dafd1f77d397bd3f54ece": {
+      "at": "2026-10-22T19:22:08Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-updates-oct-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-65aa51faeb60ecd10e3a"
     },
     "f2623f517e94709c38bd2067": {
       "at": "2026-10-07T06:34:08Z",
@@ -7738,6 +7815,27 @@
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 86,
+        "source": "LocalAI Releases"
+      }
+    },
+    "localai-v4-12-0-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/localai-v4-12-0-release.png",
+      "last_updated": "2026-10-22T19:22:20Z",
+      "post_id": "1381371437293874030",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/localai-v4120-adds-streaming-voice.html",
+      "score": 88,
+      "source_image_source": "LocalAI Releases",
+      "source_image_url": "https://opengraph.githubassets.com/5854933e388a6dc31f7524092ac16f09c14db41450dfa3302f9f785fca175f43/mudler/LocalAI/releases/tag/v4.12.0",
+      "source_urls": [
+        "https://github.com/mudler/LocalAI/releases/tag/v4.12.0"
+      ],
+      "status": "CONFIRMED",
+      "title": "LocalAI v4.12.0 Adds Streaming Voice Responses, Native Decision Routing, and Qdrant Stores",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
         "source": "LocalAI Releases"
       }
     },
@@ -9906,6 +10004,27 @@
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 94,
+        "source": "OpenAI News"
+      }
+    },
+    "uber-chatgpt-work-openai-rollout": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/uber-chatgpt-work-openai-rollout.jpg",
+      "last_updated": "2026-10-22T19:22:15Z",
+      "post_id": "8782348995147052408",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/uber-deploys-chatgpt-work-to-over-30000.html",
+      "score": 82,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/5Ggg0KhDALourCX7MklMBY/c7f06d5982895ca0867ed21a0b95d422/uber-brings-chatgpt-work-to-all-employees-seo.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/uber-chatgpt-work-rollout"
+      ],
+      "status": "CONFIRMED",
+      "title": "Uber Deploys ChatGPT Work to Over 30,000 Employees",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
         "source": "OpenAI News"
       }
     },

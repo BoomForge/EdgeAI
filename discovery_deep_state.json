@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-22T01:58:01Z",
+    "at": "2026-10-22T07:30:09Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 2,
+    "prefiltered": 8,
+    "queued": 6,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 7,
     "warnings": 0
   },
-  "runs": 100,
+  "runs": 101,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -237,6 +237,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/thravik"
+    },
+    "0b14f5d4624747b04a15c479": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/kugelaudio"
     },
     "0b8b56dba928bd682afd58ba": {
       "first_seen": "2026-10-04T17:06:51Z",
@@ -993,6 +999,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/noteworthy"
     },
+    "30575de818b810e164ca1bed": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/notif-2"
+    },
     "305ba874f36ffe291e11411a": {
       "first_seen": "2026-10-09T14:44:13Z",
       "status": "queued",
@@ -1002,6 +1014,11 @@
       "first_seen": "2026-10-06T23:21:31Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-d84b4efe976821bada1a"
+    },
+    "308f0a34958ca415c61947f8": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/doneas"
     },
     "30d7f6182a51f14db0d05c06": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -1242,6 +1259,12 @@
       "status": "queued",
       "url": "https://mistral.ai/news/mistral-large-4/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "3c89e2e323a44324f8a7d00c": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/radaric"
+    },
     "3ccf3de22994731127247487": {
       "first_seen": "2026-10-08T21:27:36Z",
       "status": "queued",
@@ -1267,6 +1290,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://www.minimax.io/about"
+    },
+    "3e03da110d6749f028cfe20f": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/playad"
     },
     "3e14fe748856c48f68ca88f5": {
       "first_seen": "2026-10-14T18:00:57Z",
@@ -1502,6 +1530,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/iglass"
     },
+    "4ac5ca436e5b6549e98581c7": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/claire-mail"
+    },
     "4b22d7e89d4e656fa2874416": {
       "first_seen": "2026-10-03T11:34:54Z",
       "status": "queued",
@@ -1610,6 +1643,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/flexchords"
     },
+    "4fc41f3374cfeb413163c846": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/sponkly"
+    },
     "4fedba8b70d9334f487a5d2a": {
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "too_old",
@@ -1691,6 +1730,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "5497297be8ff584d0f241216": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/mercury-412"
+    },
     "54a565e70d5b43977dcb25ad": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
@@ -1756,6 +1800,12 @@
       "first_seen": "2026-10-10T11:25:13Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/reso"
+    },
+    "56f159df158cbe330e304305": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/causo"
     },
     "5722d6d2937c17322ab2e1a7": {
       "first_seen": "2026-10-20T15:17:21Z",
@@ -1825,6 +1875,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/pixel-soup"
+    },
+    "5a6540f611150615aecd2bc6": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/elevenlabs-realtime-translation"
     },
     "5a75b8a901e4f4a9de9bb579": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -2402,6 +2457,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/semwright"
     },
+    "76a940fe4a3b3c0bc456adf0": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/claude"
+    },
     "76c58bbf37be931e42694651": {
       "first_seen": "2026-10-05T09:33:48Z",
       "search_score": 0,
@@ -2417,6 +2477,12 @@
       "first_seen": "2026-10-08T01:53:41Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/viibeo"
+    },
+    "77520fb61be3d3d8c1667971": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/voxelo-ai"
     },
     "77576f2d0fd355ba737aba68": {
       "first_seen": "2026-10-15T05:00:27Z",
@@ -2836,6 +2902,11 @@
       "status": "queued",
       "url": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "87af6f0ccbf918deb0cd9bd5": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/cutbay"
+    },
     "87cda75840bcd583b9571487": {
       "first_seen": "2026-10-14T07:31:56Z",
       "search_score": 0,
@@ -3129,6 +3200,11 @@
       "first_seen": "2026-10-05T18:53:52Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107161699837231107"
+    },
+    "97cbb004cc8c64e792450cec": {
+      "first_seen": "2026-10-22T07:30:07Z",
+      "status": "queued",
+      "url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729"
     },
     "97cf8686b3feba7e91e409b2": {
       "first_seen": "2026-10-14T07:31:56Z",
@@ -3699,6 +3775,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/staycharted"
     },
+    "b2d3f46531c091e023f06bd0": {
+      "first_seen": "2026-10-22T07:30:05Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-67d4c3c8f5a0608779fd"
+    },
     "b304c3fd9188a96af535a6cd": {
       "first_seen": "2026-10-09T19:51:22Z",
       "status": "queued",
@@ -4070,6 +4151,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/agentsdr"
     },
+    "c60a9161b5323a4fb36813db": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/deepcell"
+    },
     "c6322ba99796710a10171cbe": {
       "first_seen": "2026-10-21T23:32:24Z",
       "status": "queued",
@@ -4135,6 +4222,12 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://bfl.ai/licensing"
+    },
+    "ca7a54426803b87d0360be86": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/archivist"
     },
     "cb4e8f9149af017628ccea38": {
       "first_seen": "2026-10-09T07:47:51Z",
@@ -4204,6 +4297,11 @@
       "first_seen": "2026-10-17T08:44:04Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/craft-agents"
+    },
+    "cf894e084a2188fe36b6d687": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/bits-4"
     },
     "cf9a17e8c858d596752872af": {
       "first_seen": "2026-10-04T17:06:51Z",
@@ -4326,6 +4424,11 @@
       "status": "queued",
       "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "d7ac39314bf8d75df82ea649": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/loom"
+    },
     "d7cfcc46f736c325047d8294": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
@@ -4377,6 +4480,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/pixlate"
+    },
+    "d9bb4f8b86ff5a541ada2912": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/heal-dev"
     },
     "da5386cfb0b962647e8e6f07": {
       "first_seen": "2026-10-08T16:25:59Z",
@@ -4723,6 +4831,11 @@
       "first_seen": "2026-10-07T16:48:32Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/redlamp"
+    },
+    "eb333a2d7512ce898ff99eac": {
+      "first_seen": "2026-10-22T07:30:04Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/fastlane-3"
     },
     "eb4b2d9063ab8e79fdabef32": {
       "first_seen": "2026-10-15T05:00:27Z",

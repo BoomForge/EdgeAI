@@ -464,6 +464,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "97cbb004cc8c64e792450cec",
+      "discovered_at": "2026-10-22T07:30:07Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-10-22",
+      "search_score": 42,
+      "source_name": "MiniMax Research",
+      "summary": "MiniMax Code Mini App 2026-10-22 Introducing MiniMax Code Mini App A Mini App is a long-running application with a frontend and a backend. It installs as a plugin, calls and is called by the Agent, and keeps the Agent\u2019s work on a page that stays live. Read More AI M3.1 Flash 2026-10-19 MiniMax M3.1 Flash: Redefining Agent Performance and Cost Today, we officially roll out MiniMax M3.1 Flash. As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly three times faster and reducing usage costs by 70%. Read More MiniMax Music 3.0 Music Generation 2026-08-13 MiniMax Music 3.0: Next-Generation Open-Weights, Production-Ready & Versatile Music Model Today, we are introducing MiniMax Music 3.0, our next-generation music generation model. Given a creative concept and optional lyrics, the model composes, arranges, performs, and produces a complete s Read More AI H3 2026-07-31 MiniMax H3: An Open Model Breaking the Boundaries Between Tasks and Modalities Today, we're officially launching MiniMax H3, a general-purpose omni-modal generation model. H3 can jointly understand multimodal contexts spanning text, images, video, and audio. It generates video with native stereo audio at up to 2K resolution and 15 seconds in length. Read More AI M3 2026-06-09 MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Evolutionary Search In the M3 release post, we reported the performance of the M3 model on two international mathematical olympiad benchmarks: IMO 2025 and USAMO 2026. With the MaxProof framework, M3 exceeded the human gold-medal threshold on both. This article further elaborates on our technical path toward advancing mathematical proof capabilities, including base model enhancement, verifier alignment, refinement capability building, and the design of the test-time scaling framework MaxProof. Read More AI M3 2026-06-01 MiniMax M3: Frontier Coding, 1M Context, Native Multimodality \u2014 All in One Model M3 reaches frontier capability on coding and agentic tasks, introduces the brand-new MSA (MiniMax Sparse Attention) supporting up to 1M context, and is a natively multimodal model. It is the only domestic model combining all three Frontier essentials and will be the only open-source one in this class. Read More AI Agent 2026-05-27 MiniMax Agent Team: Built for Long-Running Tasks and Continuous Evolution Today we are introducing the overall upgrade of MiniMax Agent. We have given the upgraded Agent a new name: Mavis \u2014 MiniMax as a Jarvis, your AI butler. Read More AI LLM 2026-05-26 Why Can't the MiniMax LLM Say \"Ma Jiaqi\"? Internal Investigation of Sparse Token Forgetting The MiniMax M2 series has attracted widespread attention from the developer community. This article presents our internal investigation into the sparse token forgetting phenomenon. Read More AI LLM 2026-03-18 MiniMax M2.7: Early Echoes of Self-Evolution M2.7 is MiniMax's first model deeply participating in its own evolution, excelling at software engineering, professional work, and entertainment with native Agent Teams and self-evolving capabilities. Read More AI RL 2026-02-14 Forge: Scalable Agent RL Framework and Algorithm Scaling reinforcement learning for real-world agents runs into a three-way conflict: system throughput, training stability, and agent flexibility all pull in different directions, and that tension has Read More M2.5 Model Release 2026-02-12 MiniMax M2.5: Built for Real-World Productivity. MiniMax M2.5: Built for Real-World Productivity. Read More AI Role-Play 2026-01-27 A Deep Dive into the MiniMax-M2-her Worlds to Dream, Stories to Live. How we built a Role-Play Agent for the production usage. This year marks our third year optimizing Role-Play in Talkie / Xingye. Three years is long enough for a pro Read More AI Coding 2025-12-23 MiniMax M2.1: Significantly Enhanced Multi-Language Programming, Built for Real-World Complex Tasks MiniMax M2.1 delivers industry-leading multi-language programming capabilities across Rust, Java, Go, C++, TypeScript and more, with enhanced mobile development, aesthetic web design, concise responses, and robust Agent framework generalization. Read More AI Agent 2025-10-27 MiniMax M2 & Agent: Ingenious in Simplicity MiniMax launches and open-sources M2, an agent-first model delivering top-tier coding, tool use, and deep search at 8% of Claude Sonnet's price with 2x speed. Free API and Agent product available. Read More",
+      "title": "MiniMax Code Mini App 2026-10-22 Introducing MiniMax Code Mini App A Mini App is a long-running application with a frontend and a backend. It installs as a plugin, calls and is called by the Agent, and keeps the Agent\u2019s work on a page that ",
+      "url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "4ed8d6fe63542c3a355d2338",
       "discovered_at": "2026-10-19T17:12:35Z",
       "kind": "primary",
@@ -657,6 +671,20 @@
       "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 15 Oct 2026 \ud83d\udd14 New article published NVIDIA Releases Nemotron 3.5 Super VL and Nemotron 3.5 Bolt 74B A9B Nvidia\u2019s Nemotron 3.5 Super VL is now the leading US open weight model, scoring 26 on the Artificial Analysis Intelligence Index New language model evaluation results available Muse Spark Open (Xhigh) Intelligence Index: 39 New language model evaluation results available Nemotron 3.5 Super VL Intelligence Index: 26 New language model evaluation results available Nemotron 3.5 Bolt 74B-A9B Intelligence Index: 21 13 Oct 2026 \ud83d\udd14 New article published Artificial Analysis Decision Index v1.0 The Artificial Analysis Decision Index benchmarks decision models, a new category of models that answer structured decisions in a single call with a probability for each option. Version 1.0 combines four evaluations across classification, tool calling, knowledge, hallucination, and reasoning. Google performance results now available Gemini 4 Argon (High) Gemini 4 Argon (High) OpenAI performance results now available GPT-6 Luna (Max) 12 Oct 2026 \ud83d\udd14 New article published Muse Wonder and Muse Wonder Full: a material jump in intelligence over previous Meta models Meta has released Muse Wonder and Muse Wonder Full, achieving Artificial Analysis Intelligence Index v4.3 scores of 52 and 56 at max reasoning effort - each a material gain over Muse Spark 1.3 (max) at 48, with a release gap of only 6 weeks \ud83d\udd14 New article published Announcing FrontierCode on Artificial Analysis: can AI models write code maintainers would merge? Cognition's FrontierCode 1.1 tests whether AI models make code changes that maintainers of real open source repositories would merge. Leading models still fail more than 40% of the time. \ud83d\udd14 New article published Announcing AA-3D: a benchmark for AI models building interactive 3D experiences AA-3D is a new benchmark of how well AI models build interactive 3D experiences. Each model turns a written brief into a working three.js scene in an offline sandbox, and our recruited panel compares the scenes in blind pairwise votes. New language model evaluation results available Muse Wonder Full (Max) Intelligence Index: 56 New language model evaluation results available Muse Wonder (Max) Intelligence Index: 52 Meta performance results now available Muse Wonder (Max) OpenAI performance results now available GPT-6 Astra (Max) GPT-6 Astra (Max) GPT-6.1 Sol (Max) GPT-6 Astra (Max) GPT-6.1 Sol (Max) GPT-6.1 Sol (Max) New Speech to Text model evaluation results available Zoom Scribe V2 Pro Zoom performance results now available Zoom Scribe V2 Pro 09 Oct 2026 SpaceXAI performance results now available Grok 3 Databricks performance results now available DeepSeek V4 Flash 0731 (Max) Baseten performance results now available DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4.1 Flash (Max) 08 Oct 2026 \ud83d\udd14 New article published Introducing trusted-access models to the Artificial Analysis Cyber Index GPT-6 Sol (Daybreak Blue) now leads the Cyber Index \ud83d\udd14 New article published Announcing Harvey LAB-AA v1.1: adding hallucination checks to raise the bar for agentic legal work Harvey LAB-AA v1.1 adds hallucination auditing with a new Hallucination-Gated All-Pass Rate headline metric, a three-judge grading panel, and Harvey's latest private dataset with improved tasks and criteria. New language model evaluation results available GPT-6 Sol (Daybreak Blue, max) Makora performance results now available MiMo-V2.6-Flash OpenAI performance results now available GPT-6 Sol (Daybreak Blue, max) 07 Oct 2026 \ud83d\udd14 New article published Anthropic has released Claude Haiku 5.5 Claude Haiku 5.5 scores 43 on the Artificial Analysis Intelligence Index, up 26 points one year after the last Haiku release New language model evaluation results available Claude Haiku 5.5 (High) Intelligence Index: 38 New language model evaluation results available Claude Haiku 5.5 (Low) Intelligence Index: 29 New language model evaluation results available Claude Haiku 5.5 (Medium) Intelligence Index: 34 New language model evaluation results available Claude Haiku 5.5 (Max) Intelligence Index: 43 New language model evaluation results available Claude Haiku 5.5 (Xhigh) Intelligence Index: 41 LithosAI performance results now available GLM-5.3-Flash Nebius performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Anthropic performance results now available Claude Haiku 5.5 (Low) Claude Haiku 5.5 (Xhigh) Claude Haiku 5.5 (Medium) Claude Haiku 5.5 (Max) Claude Haiku 5.5 (High) 06 Oct 2026 \ud83d\udd14 New article published Mistral has released Mistral Large 4, making France home to the most intelligent model outside th",
       "title": "Artificial Analysis benchmark changelog changed",
       "url": "https://artificialanalysis.ai/changelog#edgeai-dd87357c988ba7947ab6"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "b2d3f46531c091e023f06bd0",
+      "discovered_at": "2026-10-22T07:30:05Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-10-22T07:30:05Z",
+      "search_score": 34,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 21 Oct 2026 LithosAI performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DigitalOcean performance results now available Beam 1.0 Makora performance results now available DeepSeek V4.1 Flash 1017 (Max) 20 Oct 2026 GMI performance results now available DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available DeepSeek V4.1 Flash 1017 (Max) 19 Oct 2026 \ud83d\udd14 New article published HealthBench and HealthBench Professional: Evaluating models in realistic health conversations We\u2019re launching leaderboards for HealthBench and HealthBench Professional, two benchmarks evaluating how AI models respond in realistic health conversations New language model evaluation results available MiniMax-M3.1-Flash Intelligence Index: 43 SiliconFlow performance results now available DeepSeek V4.1 Flash 1017 (Max) Together AI performance results now available DeepSeek V4.1 Flash 1017 (Max) Novita performance results now available DeepSeek V4.1 Flash 1017 (Max) Systalyze performance results now available GLM-5.2 (Non-reasoning) GLM-5.2 (Max) DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available Nemotron 3.5 Lightning Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax performance results now available MiniMax-M3.1-Flash 18 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Max) Intelligence Index: 45 Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available DeepSeek V4.1 Flash 1017 (Max) Parasail performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepInfra performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (Max) 16 Oct 2026 \ud83d\udd14 New article published Reflection has released Beam, their first model launch Reflection\u2019s first model, Beam, scores 30 on the Artificial Analysis Intelligence Index, placing it #2 among US open weights models New language model evaluation results available Beam 1.0 Intelligence Index: 30 Together AI performance results now available Beam 1.0 PrimaLabs performance results now available DeepSeek V4.1 Flash (Max) DeepSeek V4.1 Flash (Non-reasoning) Nemotron 3.5 Super VL Nebius performance results now available Beam 1.0 CoreWeave performance results now available Beam 1.0 Baseten performance results now available Beam 1.0 Nemotron 3.5 Super VL Makora performance results now available Muse Spark Open (Xhigh) 15 Oct 2026 \ud83d\udd14 New article published NVIDIA Releases Nemotron 3.5 Super VL and Nemotron 3.5 Bolt 74B A9B Nvidia\u2019s Nemotron 3.5 Super VL is now the leading US open weight model, scoring 26 on the Artificial Analysis Intelligence Index New language model evaluation results available Solar Pro 4 New language model evaluation results available Muse Spark Open (Xhigh) Intelligence Index: 39 New language model evaluation results available Nemotron 3.5 Super VL Intelligence Index: 26 New language model evaluation results available Nemotron 3.5 Bolt 74B-A9B Intelligence Index: 21 Upstage performance results now available Solar Pro 4 CoreWeave performance results now available Nemotron 3.5 Super VL Nebius performance results now available Nemotron 3.5 Super VL Muse Spark Open (Xhigh) DeepInfra performance results now available Ling 3.1 Flash Crusoe performance results now available DeepSeek V4.1 Flash (Max) DeepSeek V4.1 Flash (Non-reasoning) Nemotron 3.5 Super VL Scaleway performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4.1 Flash (Max) GLM-5.3 (Max) Fireworks performance results now available Inkling (Xhigh) Kimi K3 (Low) Muse Spark Open (Xhigh) Inco performance results now available Kimi K3 (Low) GLM-5.3 (Low) GLM-5.3 (Low) Kimi K3 (Low) DeepSeek V4.1 Flash (Non-reasoning) Together AI performance results now available Nemotron 3.5 Super VL Muse Spark Open (Xhigh) DigitalOcean performance results now available Nemotron 3.5 Super VL Baseten performance results now available Muse Spark Open (Xhigh) 14 Oct 2026 \ud83d\udd14 New article published Welcome to the era of embodied AI: Introducing AA-Robotics v0.1 We are launching AA-Robotics v0.1, our research preview that measures frontier language model performance on understanding, planning, and acting in the physical world. In v0.1, each model is given control of a 6-axis robot arm (5 joints and a gripper) and a simple objective. We\u2019re releasing results for our first eight tasks today. 13 Oct 2026 \ud83d\udd14 New article published Artificial ",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-67d4c3c8f5a0608779fd"
     },
     {
       "bootstrap": false,
@@ -2172,6 +2200,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "76a940fe4a3b3c0bc456adf0",
+      "discovered_at": "2026-10-22T07:30:04Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-21T12:40:23-07:00",
+      "search_score": 8,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Proactive agent that understands what needs your attention Discussion | Link",
+      "title": "Claude Duet",
+      "url": "https://www.producthunt.com/products/claude"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "357354b22cef8f7e910ad734",
       "discovered_at": "2026-10-17T08:44:04Z",
       "kind": "signal",
@@ -2256,6 +2298,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "5a6540f611150615aecd2bc6",
+      "discovered_at": "2026-10-22T07:30:04Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-21T07:36:07-07:00",
+      "search_score": 6,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Turn live speech into translated audio as people talk Discussion | Link",
+      "title": "ElevenLabs Realtime Translation",
+      "url": "https://www.producthunt.com/products/elevenlabs-realtime-translation"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "c73ed4d8f3f6b0a94c43af5b",
       "discovered_at": "2026-10-21T11:41:37Z",
       "kind": "signal",
@@ -2326,6 +2382,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "5497297be8ff584d0f241216",
+      "discovered_at": "2026-10-22T07:30:04Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-21T02:51:21-07:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "The diffusion LLM that scaled 40x without slowing down Discussion | Link",
+      "title": "Mercury 3",
+      "url": "https://www.producthunt.com/products/mercury-412"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "e8e969fb649a6a4765a72a84",
       "discovered_at": "2026-10-21T16:08:20Z",
       "kind": "signal",
@@ -2365,6 +2435,20 @@
       "summary": "The world's most powerful agents, with the UX they deserve Discussion | Link",
       "title": "Craft Agents",
       "url": "https://www.producthunt.com/products/craft-agents"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "cf894e084a2188fe36b6d687",
+      "discovered_at": "2026-10-22T07:30:04Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-21T13:59:15-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "An open-source personal agent that gets you things done Discussion | Link",
+      "title": "Bits",
+      "url": "https://www.producthunt.com/products/bits-4"
     },
     {
       "bootstrap": false,
@@ -2536,6 +2620,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-22T01:58:01Z",
+  "updated_at": "2026-10-22T07:30:09Z",
   "version": 2
 }

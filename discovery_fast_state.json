@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-21T23:27:02Z",
+    "at": "2026-10-22T01:51:27Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 6,
+    "queued": 4,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 100,
+  "runs": 101,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -1541,6 +1541,11 @@
       "first_seen": "2026-10-03T00:46:13Z",
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/prebuilt-wheels-cu13"
+    },
+    "3fe372fb2e8166f0e8146fd8": {
+      "first_seen": "2026-10-22T01:50:52Z",
+      "status": "queued",
+      "url": "https://openai.com/index/cloudflare-cyber"
     },
     "3ffac33d065197d239c07c7e": {
       "first_seen": "2026-10-07T21:34:34Z",
@@ -3410,6 +3415,16 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10621"
     },
+    "8f6bec0a27923dd2929527f2": {
+      "first_seen": "2026-10-22T01:51:01Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1"
+    },
+    "8fa592f6e215c4684c0985c3": {
+      "first_seen": "2026-10-22T01:50:59Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.4"
+    },
     "8fa6018ae0682b71365367ba": {
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
@@ -4606,6 +4621,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02538"
+    },
+    "c14954ab7d9901bc7781a9cc": {
+      "first_seen": "2026-10-22T01:51:00Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11804"
     },
     "c17a3ef2e1c9afce7f768783": {
       "first_seen": "2026-10-08T07:31:17Z",

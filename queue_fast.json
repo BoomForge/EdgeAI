@@ -1948,6 +1948,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "3fe372fb2e8166f0e8146fd8",
+      "discovered_at": "2026-10-22T01:50:52Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Wed, 21 Oct 2026 00:00:00 GMT",
+      "search_score": 6,
+      "source_name": "OpenAI News",
+      "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "url": "https://openai.com/index/cloudflare-cyber"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "9732b2763df5a67ab9455b82",
       "discovered_at": "2026-10-17T00:12:54Z",
       "kind": "official",
@@ -2043,20 +2057,6 @@
       "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
       "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
       "url": "https://openai.com/index/third-moment-research"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "d9e485b409fe8517ac6e3a5b",
-      "discovered_at": "2026-10-08T20:34:08Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Thu, 08 Oct 2026 00:00:00 GMT",
-      "search_score": 5,
-      "source_name": "OpenAI News",
-      "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-      "title": "Disrupting AI-enabled \u201cfalse front\u201d operations",
-      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
     },
     {
       "bootstrap": false,
@@ -3474,6 +3474,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "c14954ab7d9901bc7781a9cc",
+      "discovered_at": "2026-10-22T01:51:00Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-22T01:30:26Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "opencl: add F32-to-I32 ARGMAX ( #30897 ) opencl: add F32-to-I32 ARGMAX Assisted-by: OpenCode opencl: init to 0 to be consistent with cpu Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58459449 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11804",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11804"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "b64a64ebcbf24722e01cfde4",
       "discovered_at": "2026-10-21T23:26:41Z",
       "kind": "local-ai",
@@ -3485,23 +3499,9 @@
       "summary": "jinja : fix namespace attributes shadowed by dict methods ( #30941 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58411998 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11802",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11802"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "945ba015726b3f326c93c17b",
-      "discovered_at": "2026-10-21T20:14:08Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-21T17:55:45Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "sycl: q8 fast dequant ( #30775 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58318564 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11799",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11799"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-21T23:27:02Z",
+  "updated_at": "2026-10-22T01:51:27Z",
   "version": 2
 }

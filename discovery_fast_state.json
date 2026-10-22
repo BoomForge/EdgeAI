@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-22T17:56:30Z",
+    "at": "2026-10-22T21:20:52Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 7,
+    "queued": 5,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 104,
+  "runs": 105,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -676,6 +676,11 @@
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06930"
+    },
+    "1b490a05d592c0ac9dd84ac0": {
+      "first_seen": "2026-10-22T21:20:27Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2"
     },
     "1b60bc9aa85f93ce47f6fe09": {
       "first_seen": "2026-10-22T07:18:23Z",
@@ -2592,6 +2597,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.26942"
     },
+    "66a2b0ce114a65fe5ef2bde1": {
+      "first_seen": "2026-10-22T21:20:27Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11826"
+    },
     "66ce92e5e68cbdb18eafdb5b": {
       "first_seen": "2026-10-03T05:43:25Z",
       "status": "queued",
@@ -3409,6 +3419,11 @@
       "status": "too_old",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.10"
     },
+    "891b7e0bbf66f86d27b770f3": {
+      "first_seen": "2026-10-22T21:20:18Z",
+      "status": "queued",
+      "url": "https://openai.com/index/decisions-api"
+    },
     "89c32091399dabfa1a90ef3e": {
       "first_seen": "2026-10-10T08:59:32Z",
       "status": "queued",
@@ -3580,6 +3595,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10621"
+    },
+    "8f169718541d06e7e2da01fb": {
+      "first_seen": "2026-10-22T21:20:27Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11827"
     },
     "8f6bec0a27923dd2929527f2": {
       "first_seen": "2026-10-22T01:51:01Z",
@@ -4932,6 +4952,11 @@
       "first_seen": "2026-10-09T23:20:37Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.0-dev.3"
+    },
+    "c507d608fd77e610595ef471": {
+      "first_seen": "2026-10-22T21:20:27Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11824"
     },
     "c53da03e3d9faada131a8bfb": {
       "first_seen": "2026-10-21T05:49:01Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-22T18:07:12Z",
+    "at": "2026-10-22T21:35:27Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 3,
+    "prefiltered": 1,
+    "queued": 8,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 103,
+  "runs": 104,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -720,6 +720,11 @@
       "status": "queued",
       "url": "https://www.anthropic.com/claude-haiku-5-5?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "207f8e58deb14df6808132d9": {
+      "first_seen": "2026-10-22T21:35:20Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "209851e1d08aff94d5326a2f": {
       "first_seen": "2026-10-20T19:29:47Z",
       "status": "queued",
@@ -982,6 +987,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://sakana.ai/japan-startup-award-2026/"
+    },
+    "2f38489938aada9ceff85535": {
+      "first_seen": "2026-10-22T21:35:21Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
     },
     "2f5855ec66718315fec2ed61": {
       "first_seen": "2026-10-12T22:33:11Z",
@@ -2250,6 +2260,11 @@
       "status": "queued",
       "url": "https://www.anthropic.com/news/genesis-mission-commitment?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "6ab217ca008d834febacb741": {
+      "first_seen": "2026-10-22T21:35:20Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "6ab4715319297146a5c962b3": {
       "first_seen": "2026-10-20T00:43:52Z",
       "status": "queued",
@@ -2837,6 +2852,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/patchcord-2"
     },
+    "839d7313354d9b07e067fd2b": {
+      "first_seen": "2026-10-22T21:35:20Z",
+      "status": "queued",
+      "url": "https://openai.com/index/decisions-api/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "8469217d750f3815d3a34736": {
       "first_seen": "2026-10-09T07:47:55Z",
       "status": "queued",
@@ -2944,6 +2964,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "87e22db35085845a31934bac": {
+      "first_seen": "2026-10-22T21:35:21Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/"
     },
     "8859dca49d075e7cb240bbcf": {
       "first_seen": "2026-10-20T10:21:00Z",
@@ -4178,6 +4203,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/harness-104"
     },
+    "c4040fe52edf29b085000e66": {
+      "first_seen": "2026-10-22T21:35:20Z",
+      "status": "queued",
+      "url": "https://microsoft.ai/news/building-medical-superintelligence/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "c46e83ffe9fcac6056ab89b2": {
       "first_seen": "2026-10-10T11:25:13Z",
       "status": "too_old",
@@ -4329,6 +4359,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://sakana.ai/scsk-sc-partnership/"
+    },
+    "ce4185c7dd04efe88125209f": {
+      "first_seen": "2026-10-22T21:35:20Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "cedba4053a6c1e5a270aedde": {
       "first_seen": "2026-10-07T09:23:03Z",
@@ -4486,6 +4521,12 @@
       "first_seen": "2026-10-13T10:55:50Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/openwispr-open-source-ai-speech-to-text"
+    },
+    "d8028ddfe111346c0faef78f": {
+      "first_seen": "2026-10-22T21:35:21Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tetriz-engg-intelligence-connectors"
     },
     "d820d527a66cc6767ec5fec6": {
       "first_seen": "2026-10-07T21:57:53Z",
@@ -5130,6 +5171,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/brightbean-studio-social-media"
+    },
+    "f5cf65c63313c791c5d9604d": {
+      "first_seen": "2026-10-22T21:35:26Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2113375941431009526"
     },
     "f5edbd3b23d95b4ae1e66c01": {
       "first_seen": "2026-10-03T00:46:00Z",

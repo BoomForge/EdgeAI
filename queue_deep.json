@@ -422,20 +422,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "3ccf3de22994731127247487",
-      "discovered_at": "2026-10-08T21:27:36Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-10-08T21:27:36Z",
-      "search_score": 43,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 08 Oct 2026 \ud83d\udd14 New article published Introducing trusted-access models to the Artificial Analysis Cyber Index GPT-6 Sol (Daybreak Blue) now leads the Cyber Index New language model evaluation results available GPT-6 Sol (Daybreak Blue, max) OpenAI performance results now available GPT-6 Sol (Daybreak Blue, max) Aardvark performance results now available GLM-5.3-Flash 07 Oct 2026 \ud83d\udd14 New article published Anthropic has released Claude Haiku 5.5 Claude Haiku 5.5 scores 43 on the Artificial Analysis Intelligence Index, up 26 points one year after the last Haiku release New language model evaluation results available Claude Haiku 5.5 (High) Intelligence Index: 38 New language model evaluation results available Claude Haiku 5.5 (Low) Intelligence Index: 29 New language model evaluation results available Claude Haiku 5.5 (Medium) Intelligence Index: 34 New language model evaluation results available Claude Haiku 5.5 (Max) Intelligence Index: 43 New language model evaluation results available Claude Haiku 5.5 (Xhigh) Intelligence Index: 41 LithosAI performance results now available GLM-5.3-Flash Nebius performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Anthropic performance results now available Claude Haiku 5.5 (Low) Claude Haiku 5.5 (Xhigh) Claude Haiku 5.5 (Medium) Claude Haiku 5.5 (Max) Claude Haiku 5.5 (High) 06 Oct 2026 \ud83d\udd14 New article published Mistral has released Mistral Large 4, making France home to the most intelligent model outside the US and China Mistral has released Mistral Large 4, scoring 38 on the Artificial Analysis Intelligence Index; France is back to having the most intelligent model from outside the US and China New language model evaluation results available Mistral Large 4 Preview Intelligence Index: 38 Microsoft Azure performance results now available GPT-6 Luna (High) Google performance results now available Claude Opus 5.5 (Max, Default Fallback) Inco performance results now available Kimi K3 (Max) GMI performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash DigitalOcean performance results now available Llama 4 Maverick Gemma 4 31B (Non-reasoning) Gemma 4 31B (Reasoning) Nemotron 3 Nano Omni 30B A3B Reasoning Ministral 3 14B DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4 Pro 0813 (Non-reasoning) GLM-5.3 (Low) Kimi K3 (Low) Mistral performance results now available Mistral Large 4 Preview 05 Oct 2026 Amazon Bedrock performance results now available Claude Opus 5.5 (Max, Default Fallback) Microsoft Azure performance results now available Claude Sonnet 5.5 (Max, Default Fallback) Claude Sonnet 5.5 (Low, Default Fallback) Claude Opus 5.5 (Max, Default Fallback) Claude Opus 5.5 (Low, Default Fallback) GPT-6 Luna (Non-reasoning) GPT-6.1 Sol (Max) PrimaLabs performance results now available GLM-5.3-Flash 04 Oct 2026 OpenAI performance results now available GPT-6.1 Sol (Max) 03 Oct 2026 New language model evaluation results available Ling 3.1 Flash Intelligence Index: 41 InclusionAI performance results now available Ling 3.1 Flash 01 Oct 2026 New language model evaluation results available Grok 4.7 (Low) Intelligence Index: 42 Institute of Foundation Models performance results now available K2 Horizon 375B A23B LithosAI performance results now available GLM-5.3-Flash GLM-5.3-Flash Bitdeer AI performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) SpaceXAI performance results now available Grok 4.7 (Low) 30 Sept 2026 \ud83d\udd14 New article published Korean AI Lab Upstage releases Solar Mini 4 Korean AI Lab Upstage has released Solar Mini 4 which scores 24 on the Artificial Analysis Intelligence Index, but costs ~5x as much per task as GPT-6 Luna (max) despite similar per-token prices \ud83d\udd14 New article published Gemini 4 Argon: Google is back as one of the top three labs in intelligence achieved Google\u2019s new Gemini 4 Argon equals GPT-6 Astra on the Artificial Analysis Intelligence Index at 60% of the Cost per Task with discounted prices. Google is now back to being one of the top three labs in intelligence achieved New language model evaluation results available Solar Mini 4 Intelligence Index: 24 New language model evaluation results available Gemini 4 Argon (High) Intelligence Index: 53 Upstage performance results now available Solar Mini 4 Novita performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash Modular performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Google performance results now available Gemini 4 Argon (High) 29 Sept 2026 \ud83d\udd14 New article published AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations Our open-",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-989879af9de3ff049b6e"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "97cbb004cc8c64e792450cec",
       "discovered_at": "2026-10-22T07:30:07Z",
       "kind": "primary",
@@ -968,6 +954,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "2f38489938aada9ceff85535",
+      "discovered_at": "2026-10-22T21:35:21Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-22T18:09:56+00:00",
+      "search_score": 20,
+      "source_name": "Simon Willison Everything",
+      "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We\u2019re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I called this one last December , when Anthropic first declared skills to be an \"open standard\": I wouldn't be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to \" Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body \". Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "fdc555784f18363338e2980b",
       "discovered_at": "2026-10-14T01:51:45Z",
       "kind": "independent",
@@ -1094,6 +1094,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "f5cf65c63313c791c5d9604d",
+      "discovered_at": "2026-10-22T21:35:26Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 22, 2026",
+      "search_score": 16,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch Meshy is offering Hermes users a month of Pro, which includes API access and 1,000 credits, for $1. After you subscribe and install the plugin, create a key at meshy.ai/developers/keys and paste it into Settings > Plugins > Meshy in Hermes Desktop. meshy.ai/pricing?utm_me\u2026 x.com/NousResearch/s\u2026 Oct 22, 2026 @NousResearch Our CEO @dillonrolnick sat down with @eastdakota, CEO of @Cloudflare, for a wide-ranging conversation about agents, the future of the internet, and the fight for digital sovereignty. Thanks to the @usv team for hosting! x.com/mattcynamon/st\u2026 Oct 22, 2026 @NousResearch Hermes Agent now has an official plugin for @MeshyAI. Ask Hermes to make a 70m poly treasure chest for Godot, or to turn a photo of a mug into a model you can print, and it does the job through Meshy's MCP server. In Hermes Desktop the models render in chat, rigged characters animate inline, and a gallery stores every model and prompt. On messaging apps, Hermes sends a short preview video so you can create on the go. https://t.co/QlxZUDEBn3 Oct 22, 2026 @NousResearch Jensen closed his GTC Berlin 2026 keynote with this Hermes Agent demo as the finale. He introduced it by saying the way to build an agent is to ask an agent to build it for you, so he installed and set up a customized Hermes in one prompt. Then he used Hermes, running on @nvidia RTX Spark, to create a simulated training environment for the @huggingface Microduck. Hermes planned an obstacle course with Nemotron and had GPT-6 Astra build it using FreeCAD, Omniverse libraries, Blender, Newton, and Isaac Lab. Hermes trained thousands of simulated ducks on that course until the validated policy was ready to run on the real robot in the physical world. At Nous, we believe open source is a practical tool as much as a philosophical ideal. It gives users the ability to build powerful, complex workflows chaining numerous local+cloud models, devices, and tools themselves instead of waiting for a company to enable them. Oct 21, 2026 @NousResearch Krea 3 from @krea_ai is now available in Nous Portal Fast mode does 2k edits in under 8 seconds, and Ultra is a higher quality tier outperforming Nano Banana Pro It supports precise controls: draw a box to create a bounded editing region leaving the rest of an image unchanged, or specify a hex code to apply precise color https://t.co/uomohWX1dw Oct 21, 2026 @NousResearch Look for Nightwing in Dolores Park this Friday for a chance to grab the sold out Rebellion shirt and hang out with fellow Hermes heads x.com/yaboilyrical/s\u2026 Oct 19, 2026 @NousResearch Let\u2019s see your Nous fit pics Oct 18, 2026 @NousResearch Motion. Oct 16, 2026 @NousResearch Editor's Note: This tweet was intended as satire by our social intern, who did not expect it to be taken seriously. Hermes was not selected for the list as we do not do paid PR placements; we think it is a wonderful invention and perhaps TIME will see fit to recognize it eventually. Oct 16, 2026 @NousResearch Another in-depth review from @zacbowden for @WindowsCentral: windowscentral.com/hardware/nvidi\u2026 Oct 16, 2026",
+      "title": "@NousResearch Meshy is offering Hermes users a month of Pro, which includes API access and 1,000 credits, for $1. After you subscribe and install the plugin, create a key at meshy.ai/developers/keys and paste it into Settings > Plugins > Me",
+      "url": "https://x.com/NousResearch/status/2113375941431009526"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "f99ea621acd6e4bbbe5b26d3",
       "discovered_at": "2026-10-13T23:00:41Z",
       "kind": "independent",
@@ -1133,20 +1147,6 @@
       "summary": "@NousResearch Full Release Notes: github.com/NousResearch/h\u2026 Oct 14, 2026 @NousResearch Hermes Agent v0.22.0: The Threshold Release Changelog below Oct 14, 2026 @NousResearch An agent with swag Oct 14, 2026 @NousResearch Hermes Agent is yours Oct 11, 2026 @NousResearch Wild MISSINGNO. appeared! A coding and agentic reasoning model that is highly token efficient, free for a limited time on Nous Portal Try it out in your Hermes Agent today Oct 10, 2026 @NousResearch Slight Correction: Step 5 Preview's final score on Hermes Index has been updated to 32.83, slightly behind GPT-6 Luna (33.89) and GLM 5.3 Flash (34.95) Learn more @ portal.nousresearch.com/bench Oct 9, 2026 @NousResearch Step 5 Preview from @StepFun_ai is free on Nous Portal for the next week 600B total / 27B active MoE, 1M context, with vision Step 5 Preview scored 33.89 on Hermes Index, the same score as GPT-6 Luna Oct 9, 2026 @NousResearch Hemres Agnet Oct 9, 2026 @NousResearch Hermes Agent is now live (and featured) in the @Microsoft Store for seamless one-click install. More updates for the Windows ecosystem coming soon! Oct 8, 2026 @NousResearch asus.com/blog/asus-proa\u2026 Oct 8, 2026",
       "title": "@NousResearch Hermes Agent v0.22.0: The Threshold Release Changelog below Oct 14, 2026",
       "url": "https://x.com/NousResearch/status/2110385143643091204"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "5d0e03925a09a55df82ef680",
-      "discovered_at": "2026-10-08T21:27:34Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 14,
-      "source_name": "FutureTools AI News",
-      "summary": "Anthropic Updates Claude Usage Policy: New Rules on Deception, Weapons & AI Abuse anthropic.com \u00b7 Show TLDR",
-      "title": "Anthropic Updates Claude Usage Policy: New Rules on Deception, Weapons & AI Abuse anthropic.com \u00b7 Show TLDR",
-      "url": "https://www.anthropic.com/news/2026-usage-policy-update?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -1304,34 +1304,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "785ae5d61ec0075f6154b90e",
-      "discovered_at": "2026-10-08T21:27:34Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 12,
-      "source_name": "FutureTools AI News",
-      "summary": "Claude Science Helps Create First Complete UV Light Map of the Entire Sky anthropic.com \u00b7 Show TLDR",
-      "title": "Claude Science Helps Create First Complete UV Light Map of the Entire Sky anthropic.com \u00b7 Show TLDR",
-      "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "6a857c81af1808e684971dcb",
-      "discovered_at": "2026-10-08T21:27:34Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 12,
-      "source_name": "FutureTools AI News",
-      "summary": "Anthropic Commits $150M to Genesis Mission, Bringing Claude to 15+ Federal Science Agencies anthropic.com \u00b7 Show TLDR",
-      "title": "Anthropic Commits $150M to Genesis Mission, Bringing Claude to 15+ Federal Science Agencies anthropic.com \u00b7 Show TLDR",
-      "url": "https://www.anthropic.com/news/genesis-mission-commitment?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "9330ae30d1053d8c5efb2029",
       "discovered_at": "2026-10-12T22:33:10Z",
       "kind": "signal",
@@ -1472,6 +1444,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "839d7313354d9b07e067fd2b",
+      "discovered_at": "2026-10-22T21:35:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 12,
+      "source_name": "FutureTools AI News",
+      "summary": "OpenAI Launches Decisions API for 10x Faster App Decisions Using GPT-6 Luna openai.com \u00b7 Show TLDR",
+      "title": "OpenAI Launches Decisions API for 10x Faster App Decisions Using GPT-6 Luna openai.com \u00b7 Show TLDR",
+      "url": "https://openai.com/index/decisions-api/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "207f8e58deb14df6808132d9",
+      "discovered_at": "2026-10-22T21:35:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 12,
+      "source_name": "FutureTools AI News",
+      "summary": "Anthropic Donates Agent Skills Standard to Agentic AI Foundation Under Linux Foundation anthropic.com \u00b7 Show TLDR",
+      "title": "Anthropic Donates Agent Skills Standard to Agentic AI Foundation Under Linux Foundation anthropic.com \u00b7 Show TLDR",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "e8a95e9b22df9875a5142cea",
       "discovered_at": "2026-10-16T23:59:21Z",
       "kind": "independent",
@@ -1525,34 +1525,6 @@
       "summary": "@NousResearch Jensen closed his GTC Berlin 2026 keynote with this Hermes Agent demo as the finale. He introduced it by saying the way to build an agent is to ask an agent to build it for you, so he installed and set up a customized Hermes in one prompt. Then he used Hermes, running on @nvidia RTX Spark, to create a simulated training environment for the @huggingface Microduck. Hermes planned an obstacle course with Nemotron and had GPT-6 Astra build it using FreeCAD, Omniverse libraries, Blender, Newton, and Isaac Lab. Hermes trained thousands of simulated ducks on that course until the validated policy was ready to run on the real robot in the physical world. At Nous, we believe open source is a practical tool as much as a philosophical ideal. It gives users the ability to build powerful, complex workflows chaining numerous local+cloud models, devices, and tools themselves instead of waiting for a company to enable them. Oct 21, 2026 @NousResearch Krea 3 from @krea_ai is now available in Nous Portal Fast mode does 2k edits in under 8 seconds, and Ultra is a higher quality tier outperforming Nano Banana Pro It supports precise controls: draw a box to create a bounded editing region leaving the rest of an image unchanged, or specify a hex code to apply precise color https://t.co/uomohWX1dw Oct 21, 2026 @NousResearch Look for Nightwing in Dolores Park this Friday for a chance to grab the sold out Rebellion shirt and hang out with fellow Hermes heads x.com/yaboilyrical/s\u2026 Oct 19, 2026 @NousResearch Let\u2019s see your Nous fit pics Oct 18, 2026 @NousResearch Motion. Oct 16, 2026 @NousResearch Editor's Note: This tweet was intended as satire by our social intern, who did not expect it to be taken seriously. Hermes was not selected for the list as we do not do paid PR placements; we think it is a wonderful invention and perhaps TIME will see fit to recognize it eventually. Oct 16, 2026 @NousResearch Another in-depth review from @zacbowden for @WindowsCentral: windowscentral.com/hardware/nvidi\u2026 Oct 16, 2026 @NousResearch Watch the full video for more coverage on the hardware, security, and demos. youtube.com/watch?v=sjuisA\u2026 Oct 16, 2026 @NousResearch Hermes Agent is a launch partner for @nvidia's RTX Spark across the new generation of laptops. Pick it in the built-in @Windows agent setup flow, run the new generative onboarding, and get straight to work locally or in the cloud. Linus is impressed! Oct 16, 2026 @NousResearch Thank you @TIME Oct 16, 2026",
       "title": "@NousResearch Jensen closed his GTC Berlin 2026 keynote with this Hermes Agent demo as the finale. He introduced it by saying the way to build an agent is to ask an agent to build it for you, so he installed and set up a customized Hermes i",
       "url": "https://x.com/NousResearch/status/2113010017645244623"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "8a3406e6a76a97fc77fa230c",
-      "discovered_at": "2026-10-08T21:27:34Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 10,
-      "source_name": "FutureTools AI News",
-      "summary": "Anthropic Launches OSS Scanner: Free AI Vulnerability Detection for Open-Source Projects anthropic.com \u00b7 Show TLDR",
-      "title": "Anthropic Launches OSS Scanner: Free AI Vulnerability Detection for Open-Source Projects anthropic.com \u00b7 Show TLDR",
-      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "d78c809701169b7e2e2c2fbf",
-      "discovered_at": "2026-10-08T21:27:34Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 10,
-      "source_name": "FutureTools AI News",
-      "summary": "Google Launches Universal Gemini Agent for Work Across Workspace and Enterprise cloud.google.com \u00b7 Show TLDR",
-      "title": "Google Launches Universal Gemini Agent for Work Across Workspace and Enterprise cloud.google.com \u00b7 Show TLDR",
-      "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -1948,6 +1920,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "ce4185c7dd04efe88125209f",
+      "discovered_at": "2026-10-22T21:35:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "Canva launches Canva Craft, its first in-house AI image generation model techcrunch.com \u00b7 Show TLDR",
+      "title": "Canva launches Canva Craft, its first in-house AI image generation model techcrunch.com \u00b7 Show TLDR",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "ae7b31dc246e27601c985358",
       "discovered_at": "2026-10-19T00:11:45Z",
       "kind": "independent",
@@ -1973,6 +1959,20 @@
       "summary": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek",
       "title": "web-edit 0.1a2",
       "url": "https://simonwillison.net/2026/Oct/17/web-edit/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "87e22db35085845a31934bac",
+      "discovered_at": "2026-10-22T21:35:21Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-22T19:42:26+00:00",
+      "search_score": 3,
+      "source_name": "Simon Willison Everything",
+      "summary": "DE STAAT - FREEDOM (Official Music Video) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat : The visual effects are credited to Matties Grooten of Fake it or Leave it . Via flir on Hacker News Tags: music , ai , generative-ai , pelican-riding-a-bicycle",
+      "title": "DE STAAT - FREEDOM (Official Music Video)",
+      "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/"
     },
     {
       "bootstrap": false,
@@ -2113,6 +2113,34 @@
       "summary": "Zoom Launches AI Management Tools with Deepfake Detection for Enterprises news.zoom.com \u00b7 Show TLDR",
       "title": "Zoom Launches AI Management Tools with Deepfake Detection for Enterprises news.zoom.com \u00b7 Show TLDR",
       "url": "https://news.zoom.com/zoomtopia-2026-security/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "c4040fe52edf29b085000e66",
+      "discovered_at": "2026-10-22T21:35:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "Microsoft's MAI-DxO AI Outperforms Physicians in Diagnostic Accuracy at Half the Cost microsoft.ai \u00b7 Show TLDR",
+      "title": "Microsoft's MAI-DxO AI Outperforms Physicians in Diagnostic Accuracy at Half the Cost microsoft.ai \u00b7 Show TLDR",
+      "url": "https://microsoft.ai/news/building-medical-superintelligence/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "6ab217ca008d834febacb741",
+      "discovered_at": "2026-10-22T21:35:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "PHP vulnerabilities affect 70% of web, AI-discovered exploits hit Wikipedia, WordPress, governments theverge.com \u00b7 Show TLDR",
+      "title": "PHP vulnerabilities affect 70% of web, AI-discovered exploits hit Wikipedia, WordPress, governments theverge.com \u00b7 Show TLDR",
+      "url": "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2620,6 +2648,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-22T18:07:12Z",
+  "updated_at": "2026-10-22T21:35:27Z",
   "version": 2
 }

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-22T13:13:55Z",
+    "at": "2026-10-22T18:07:12Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
+    "prefiltered": 0,
     "queued": 3,
     "sources_ok": 15,
     "too_old": 1,
     "warnings": 0
   },
-  "runs": 102,
+  "runs": 103,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -816,6 +816,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/shrine-2"
     },
+    "270c47435d1854dece57ea72": {
+      "first_seen": "2026-10-22T18:07:07Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-01385d29a6abea0cb221"
+    },
     "271a8d37f09e7fec2947e57b": {
       "first_seen": "2026-10-06T19:44:10Z",
       "status": "too_old",
@@ -961,6 +966,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/blade-4"
+    },
+    "2eded73c1a58a8ad57ea20a4": {
+      "first_seen": "2026-10-22T18:07:07Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/"
     },
     "2ef3646bb17e1ab0ade5620e": {
       "first_seen": "2026-10-20T10:21:00Z",
@@ -3319,6 +3329,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2108201390493544680"
     },
+    "9bbec82be200718e269f3286": {
+      "first_seen": "2026-10-22T18:07:11Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2113327348171030630"
+    },
     "9c07afaa955a7a1ec4b918a1": {
       "first_seen": "2026-10-14T13:07:10Z",
       "status": "too_old",
@@ -4146,6 +4161,11 @@
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/razorpay"
+    },
+    "c27b5f6ceb0d3a557ae2dcce": {
+      "first_seen": "2026-10-22T18:07:06Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/concierge-by-juniors-ai"
     },
     "c2b97039d8e05c486a9cbcda": {
       "first_seen": "2026-10-18T10:57:54Z",

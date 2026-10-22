@@ -436,20 +436,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "e9a128e279ff480986fb87f4",
-      "discovered_at": "2026-10-08T16:25:56Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-10-08T16:25:56Z",
-      "search_score": 43,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 08 Oct 2026 Aardvark performance results now available GLM-5.3-Flash 07 Oct 2026 \ud83d\udd14 New article published Anthropic has released Claude Haiku 5.5 Claude Haiku 5.5 scores 43 on the Artificial Analysis Intelligence Index, up 26 points one year after the last Haiku release New language model evaluation results available Claude Haiku 5.5 (High) Intelligence Index: 38 New language model evaluation results available Claude Haiku 5.5 (Low) Intelligence Index: 29 New language model evaluation results available Claude Haiku 5.5 (Medium) Intelligence Index: 34 New language model evaluation results available Claude Haiku 5.5 (Max) Intelligence Index: 43 New language model evaluation results available Claude Haiku 5.5 (Xhigh) Intelligence Index: 41 LithosAI performance results now available GLM-5.3-Flash Nebius performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Anthropic performance results now available Claude Haiku 5.5 (Low) Claude Haiku 5.5 (Xhigh) Claude Haiku 5.5 (Medium) Claude Haiku 5.5 (Max) Claude Haiku 5.5 (High) 06 Oct 2026 \ud83d\udd14 New article published Mistral has released Mistral Large 4, making France home to the most intelligent model outside the US and China Mistral has released Mistral Large 4, scoring 38 on the Artificial Analysis Intelligence Index; France is back to having the most intelligent model from outside the US and China New language model evaluation results available Mistral Large 4 Preview Intelligence Index: 38 Microsoft Azure performance results now available GPT-6 Luna (High) Google performance results now available Claude Opus 5.5 (Max, Default Fallback) Inco performance results now available Kimi K3 (Max) GMI performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash DigitalOcean performance results now available Llama 4 Maverick Gemma 4 31B (Non-reasoning) Gemma 4 31B (Reasoning) Nemotron 3 Nano Omni 30B A3B Reasoning Ministral 3 14B DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4 Pro 0813 (Non-reasoning) GLM-5.3 (Low) Kimi K3 (Low) Mistral performance results now available Mistral Large 4 Preview 05 Oct 2026 Amazon Bedrock performance results now available Claude Opus 5.5 (Max, Default Fallback) Microsoft Azure performance results now available Claude Sonnet 5.5 (Max, Default Fallback) Claude Sonnet 5.5 (Low, Default Fallback) Claude Opus 5.5 (Max, Default Fallback) Claude Opus 5.5 (Low, Default Fallback) GPT-6 Luna (Non-reasoning) GPT-6.1 Sol (Max) PrimaLabs performance results now available GLM-5.3-Flash 04 Oct 2026 OpenAI performance results now available GPT-6.1 Sol (Max) 03 Oct 2026 New language model evaluation results available Ling 3.1 Flash Intelligence Index: 41 InclusionAI performance results now available Ling 3.1 Flash 01 Oct 2026 New language model evaluation results available Grok 4.7 (Low) Intelligence Index: 42 Institute of Foundation Models performance results now available K2 Horizon 375B A23B LithosAI performance results now available GLM-5.3-Flash GLM-5.3-Flash Bitdeer AI performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) SpaceXAI performance results now available Grok 4.7 (Low) 30 Sept 2026 \ud83d\udd14 New article published Korean AI Lab Upstage releases Solar Mini 4 Korean AI Lab Upstage has released Solar Mini 4 which scores 24 on the Artificial Analysis Intelligence Index, but costs ~5x as much per task as GPT-6 Luna (max) despite similar per-token prices \ud83d\udd14 New article published Gemini 4 Argon: Google is back as one of the top three labs in intelligence achieved Google\u2019s new Gemini 4 Argon equals GPT-6 Astra on the Artificial Analysis Intelligence Index at 60% of the Cost per Task with discounted prices. Google is now back to being one of the top three labs in intelligence achieved New language model evaluation results available Solar Mini 4 Intelligence Index: 24 New language model evaluation results available Gemini 4 Argon (High) Intelligence Index: 53 Upstage performance results now available Solar Mini 4 Novita performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash Modular performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Google performance results now available Gemini 4 Argon (High) 29 Sept 2026 \ud83d\udd14 New article published AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations Our open-source tool for testing how fast agentic AI runs on laptops and workstations, with launch results for the DGX Spark, Ryzen AI Halo, MacBook Pro (M5 Pro) and RTX 5090 across four open-weights models \ud83d\udd14 New article published GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-fbc099ea16b6dac2e560"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "97cbb004cc8c64e792450cec",
       "discovered_at": "2026-10-22T07:30:07Z",
       "kind": "primary",
@@ -660,6 +646,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "270c47435d1854dece57ea72",
+      "discovered_at": "2026-10-22T18:07:07Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-10-22T18:07:07Z",
+      "search_score": 34,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 22 Oct 2026 New language model evaluation results available Ling 3.1 Flash 1019 Intelligence Index: 44 InclusionAI performance results now available Ling 3.1 Flash 1019 21 Oct 2026 LithosAI performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DigitalOcean performance results now available Beam 1.0 Makora performance results now available DeepSeek V4.1 Flash 1017 (Max) 20 Oct 2026 GMI performance results now available DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available DeepSeek V4.1 Flash 1017 (Max) 19 Oct 2026 \ud83d\udd14 New article published HealthBench and HealthBench Professional: Evaluating models in realistic health conversations We\u2019re launching leaderboards for HealthBench and HealthBench Professional, two benchmarks evaluating how AI models respond in realistic health conversations New language model evaluation results available MiniMax-M3.1-Flash Intelligence Index: 43 SiliconFlow performance results now available DeepSeek V4.1 Flash 1017 (Max) Together AI performance results now available DeepSeek V4.1 Flash 1017 (Max) Novita performance results now available DeepSeek V4.1 Flash 1017 (Max) Systalyze performance results now available GLM-5.2 (Non-reasoning) GLM-5.2 (Max) DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available Nemotron 3.5 Lightning Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax performance results now available MiniMax-M3.1-Flash 18 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Max) Intelligence Index: 45 Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available DeepSeek V4.1 Flash 1017 (Max) Parasail performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepInfra performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (Max) 16 Oct 2026 \ud83d\udd14 New article published Reflection has released Beam, their first model launch Reflection\u2019s first model, Beam, scores 30 on the Artificial Analysis Intelligence Index, placing it #2 among US open weights models New language model evaluation results available Beam 1.0 Intelligence Index: 30 Together AI performance results now available Beam 1.0 PrimaLabs performance results now available DeepSeek V4.1 Flash (Max) DeepSeek V4.1 Flash (Non-reasoning) Nemotron 3.5 Super VL Nebius performance results now available Beam 1.0 CoreWeave performance results now available Beam 1.0 Baseten performance results now available Beam 1.0 Nemotron 3.5 Super VL Makora performance results now available Muse Spark Open (Xhigh) 15 Oct 2026 \ud83d\udd14 New article published NVIDIA Releases Nemotron 3.5 Super VL and Nemotron 3.5 Bolt 74B A9B Nvidia\u2019s Nemotron 3.5 Super VL is now the leading US open weight model, scoring 26 on the Artificial Analysis Intelligence Index New language model evaluation results available Solar Pro 4 Intelligence Index: 27 New language model evaluation results available Muse Spark Open (Xhigh) Intelligence Index: 39 New language model evaluation results available Nemotron 3.5 Super VL Intelligence Index: 26 New language model evaluation results available Nemotron 3.5 Bolt 74B-A9B Intelligence Index: 21 Upstage performance results now available Solar Pro 4 CoreWeave performance results now available Nemotron 3.5 Super VL Nebius performance results now available Nemotron 3.5 Super VL Muse Spark Open (Xhigh) DeepInfra performance results now available Ling 3.1 Flash Crusoe performance results now available DeepSeek V4.1 Flash (Max) DeepSeek V4.1 Flash (Non-reasoning) Nemotron 3.5 Super VL Scaleway performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4.1 Flash (Max) GLM-5.3 (Max) Fireworks performance results now available Inkling (Xhigh) Kimi K3 (Low) Muse Spark Open (Xhigh) Inco performance results now available Kimi K3 (Low) GLM-5.3 (Low) GLM-5.3 (Low) Kimi K3 (Low) DeepSeek V4.1 Flash (Non-reasoning) Together AI performance results now available Nemotron 3.5 Super VL Muse Spark Open (Xhigh) DigitalOcean performance results now available Nemotron 3.5 Super VL Baseten performance results now available Muse Spark Open (Xhigh) 14 Oct 2026 \ud83d\udd14 New article published Welcome to the era of embodied AI: Introducing AA-Robotics v0.1 We are launching AA-Robotics v0.1, our research preview that measures frontier language model performance on understanding, planning, and acting in the physical world. In v0.1, each model ",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-01385d29a6abea0cb221"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "f25dafd1f77d397bd3f54ece",
       "discovered_at": "2026-10-22T13:13:51Z",
       "kind": "independent",
@@ -783,20 +783,6 @@
       "summary": "Discover what\u2019s new Models News Research FLUX 3 Image Klein A 5.6B parameter open weights model, leading our blind evaluations for text-to-image, multi-reference generation and image editing. October 15, 2026 Read more",
       "title": "Models News Research FLUX 3 Image Klein A 5.6B parameter open weights model, leading our blind evaluations for text-to-image, multi-reference generation and image editing. October 15, 2026 Read more",
       "url": "https://bfl.ai/blog/flux-3-image-klein"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "da5386cfb0b962647e8e6f07",
-      "discovered_at": "2026-10-08T16:25:59Z",
-      "kind": "primary",
-      "lane": "deep",
-      "priority": 1,
-      "published": "",
-      "search_score": 8,
-      "source_name": "Sakana AI Blog",
-      "summary": "\u7814\u7a76\u3001\u7523\u696d\u5b9f\u88c5\u3001\u30d7\u30ed\u30c0\u30af\u30c8\u306e\u6700\u524d\u7dda\u3078\u2015Sakana AI\u30cb\u30e5\u30fc\u30b9\u30ec\u30bf\u30fc\u300cSakana AI Insider\u300d\u2015",
-      "title": "\u7814\u7a76\u3001\u7523\u696d\u5b9f\u88c5\u3001\u30d7\u30ed\u30c0\u30af\u30c8\u306e\u6700\u524d\u7dda\u3078\u2015Sakana AI\u30cb\u30e5\u30fc\u30b9\u30ec\u30bf\u30fc\u300cSakana AI Insider\u300d\u2015",
-      "url": "https://sakana.ai/sakana-ai-insider/"
     },
     {
       "bootstrap": false,
@@ -982,20 +968,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "9b982b2cc135ef9267e47ef1",
-      "discovered_at": "2026-10-08T16:26:00Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 8, 2026",
-      "search_score": 24,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Hermes Agent is now live (and featured) in the @Microsoft Store for seamless one-click install. More updates for the Windows ecosystem coming soon! Oct 8, 2026 @NousResearch asus.com/blog/asus-proa\u2026 Oct 8, 2026 @NousResearch Advancing our mission to deliver ubiquitous powerful agents to everyone, Hermes Agent is on the new ASUS ProArt RTX Spark PCs: MuseTree and ComfyUI integrations plus local model support on up to 128 GB of unified memory. A complete creative stack that runs on your own machine. x.com/ASUS/status/21\u2026 Oct 8, 2026 @NousResearch Oct 8, 2026 @NousResearch Rated E for Everyone Oct 7, 2026 @NousResearch @WSJ @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures Join us at NousCon to celebrate and perhaps catch some sneak peeks x.com/NousResearch/s\u2026 Or come work for us! nousresearch.com/careers Oct 7, 2026 @NousResearch As reported in the @WSJ, we have raised a Series B to bring Hermes Agent to new frontiers (and, yes, build a mobile app) Thank you to our investors including @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures, among others wsj.com/pro/venture-ca\u2026 x.com/dillonrolnick/\u2026 Oct 7, 2026 @NousResearch x.com/witcheer/statu\u2026 Oct 7, 2026 @NousResearch Claude Opus 5.5 leads at 63.31 and $4.99 per task. GPT 6 Astra is second at 56.25 and $11.61. Sonnet 5.5 follows at 53.14 and $2.82. At the other end, DeepSeek V4.1 Flash scores 36.91 at $0.26 and Ling 3.0 Flash scores 21.56 at $0.054. Oct 6, 2026 @NousResearch Every model runs the same harness, with reasoning set high where offered. The index reports the mean score and the mean cost per task across the four suites. Hermes Bench info: Oct 6, 2026",
-      "title": "@NousResearch Advancing our mission to deliver ubiquitous powerful agents to everyone, Hermes Agent is on the new ASUS ProArt RTX Spark PCs: MuseTree and ComfyUI integrations plus local model support on up to 128 GB of unified memory. A com",
-      "url": "https://x.com/NousResearch/status/2108201390493544680"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "fdc555784f18363338e2980b",
       "discovered_at": "2026-10-14T01:51:45Z",
       "kind": "independent",
@@ -1049,20 +1021,6 @@
       "summary": "Rivian Plans to Integrate Third-Party AI Agents Like Anthropic's Claude Into Its EVs techcrunch.com \u00b7 Show TLDR",
       "title": "Rivian Plans to Integrate Third-Party AI Agents Like Anthropic's Claude Into Its EVs techcrunch.com \u00b7 Show TLDR",
       "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "853a0c249788523a4e15541f",
-      "discovered_at": "2026-10-08T16:26:00Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 8, 2026",
-      "search_score": 17,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Hermes Agent is now live (and featured) in the @Microsoft Store for seamless one-click install. More updates for the Windows ecosystem coming soon! Oct 8, 2026 @NousResearch asus.com/blog/asus-proa\u2026 Oct 8, 2026 @NousResearch Advancing our mission to deliver ubiquitous powerful agents to everyone, Hermes Agent is on the new ASUS ProArt RTX Spark PCs: MuseTree and ComfyUI integrations plus local model support on up to 128 GB of unified memory. A complete creative stack that runs on your own machine. x.com/ASUS/status/21\u2026 Oct 8, 2026 @NousResearch Oct 8, 2026 @NousResearch Rated E for Everyone Oct 7, 2026 @NousResearch @WSJ @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures Join us at NousCon to celebrate and perhaps catch some sneak peeks x.com/NousResearch/s\u2026 Or come work for us! nousresearch.com/careers Oct 7, 2026 @NousResearch As reported in the @WSJ, we have raised a Series B to bring Hermes Agent to new frontiers (and, yes, build a mobile app) Thank you to our investors including @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures, among others wsj.com/pro/venture-ca\u2026 x.com/dillonrolnick/\u2026 Oct 7, 2026 @NousResearch x.com/witcheer/statu\u2026 Oct 7, 2026 @NousResearch Claude Opus 5.5 leads at 63.31 and $4.99 per task. GPT 6 Astra is second at 56.25 and $11.61. Sonnet 5.5 follows at 53.14 and $2.82. At the other end, DeepSeek V4.1 Flash scores 36.91 at $0.26 and Ling 3.0 Flash scores 21.56 at $0.054. Oct 6, 2026 @NousResearch Every model runs the same harness, with reasoning set high where offered. The index reports the mean score and the mean cost per task across the four suites. Hermes Bench info: Oct 6, 2026",
-      "title": "@NousResearch Hermes Agent is now live (and featured) in the @Microsoft Store for seamless one-click install. More updates for the Windows ecosystem coming soon! Oct 8, 2026",
-      "url": "https://x.com/NousResearch/status/2108231536772596193"
     },
     {
       "bootstrap": false,
@@ -1161,20 +1119,6 @@
       "summary": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner. Codex voice mode I used the ChatGPT desktop app for this, in the Codex tab, using the voice conversation mode, running against a local development environment. Here's what that looks like: I started the session against my local simonwillisonblog checkout by typing: Start dev server and open in browser This gave me a preview of the site that it would be working on, and meant that I could later ask it to show me the new pages so I could visually track its progress. Then I clicked the \"Start new voice chat\" button - that's not the microphone button, it's the one to the right of it - and set my laptop up in the kitchen so I could talk to it while I cooked. Talking to my computer I had a pretty good idea of what I wanted to build, and it's a simple enough Django feature that I was certain the model (in this case GPT-6 Astra High) would be able to do it. A new model, a migration, some view code, templates, and a couple of import functions to populate the database from external sources. Here's an extract of my voice transcript that was captured by Codex: Um, they do not. Um, this is going to be a new type of content. Um, it's not going to show up... Oh, hold on. Yeah, no- I do not want this to show up in my, um, tag pages and date archive pages and... Actually, no, I think... I don't want it on the tag pages. I don't want it on the, um, blog index page. But I think I do want it to show up on the date-based pages. You know, if you navigate to September the 19th, and I sent a newsletter on that page, I think I want that to show up. So... this is- so I think we probably need a new model. The other thing is that I want them searchable, uh the Substack ones are not searchable, because those are actually just copies of other s- on content on my blog. These monthly ones do contain unique content, and spe- and once they're... published, like once they're made public a month after they've gone out, I want them to show up on my search results. Apparently this was clear enough that the model knew what I wanted to build! You can read the full transcript, disfluencies and all, in this Gist . We went on like this for about half an hour (the time it took to cook dinner). The model would reply and occasionally ask clarifying questions, then get to work modifying the code. What we built We got a surprisingly long way entirely by voice: A new model and migration to represent imported newsletters in Django, plus Django Admin configuration for that Four working imports: The most recent Substack items via RSS Every other Substack item via their undocumented API, which GPT-6 Astra knew about (it tried /api/v1/archive directly) and then ran a search to figure out how to paginate it and found this article by Karen Spinner All of my published monthly newsletters from my simonw/monthly-newsletter-archive GitHub repository My most recent private sponsors-only newsletter from a private repository The /newsletters/ and /newsletters/2026/ public archive pages Newsletters showing up on day and month archive pages too, but not on tag pages or my homepage Weekly Substack newsletters link to Substack; archived monthly newsletters have their own pages Integration with my site search engine It was almost ready to ship. The catch was the imports: Astra offered to export data from my local copy so I could import that into production, but I wanted it to work like my other import scripts. Since some of the data lived in a private GitHub repository, this would involve creating a new API key, and for that I knew I'd have to sit at the keyboard for a while. Finishing it with a review Once I had finished cooking and judged it mostly feature-complete, I had Codex create a branch and open a pull request. I reviewed the code in the GitHub PR interface. It was nearly what I needed, except it had chosen to use Git in a subprocess for one of the import scripts. I needed one of the imports to pull from a private Git repository, so I figured the API would be a better bet. I switched to typing and had Codex swap that out for an API-based import instead. You can see the changes I made during the review in the extra commits on the PR . I fixed the import mechanism and made a few tweaks to the display of those public pages. It took an additional half hour of typing-based prompting to get to the point where I was happy to deploy it to production by landing the PR. The end result You can see the end result at the new newsletters index page , or view the page for a previous monthly newsletter . The index page shows my most recent Substack weekly newsletters and GitHub sponsors monthly newsletters mixed together in reverse chronological order. Further down the page are links to my by-year archive pages. GPT-6 Astra designed the page, and then tweaked that design based on my vocal feedback from glancing at the local preview across the kitchen. Better for multi-tasking than as a daily driver OpenAI love using voice-driven demos like this one for things like DevDay - and they do work well in that environment. I don't think this is going to be a daily driver for me though. I've written before about how much \"work\" I get done using ChatGPT voice mode on my phone while walking the dog - mostly research and brainstorming, but occasionally actual development work by having ChatGPT write and test out snippets of code. This feels different. The addition of the visual preview, plus being able to type or paste things in via the keyboard when I need to communicate something that doesn't work vocally, makes this a much more powerful way of interacting with a coding agent. I still switch back to typing once I get down to the details of things though. Being able to paste in examples and error messages, or directly highlight the code or feature that needs changing, remains more efficient than trying to describe it in words. I mainly work from home, which is good because there's no way I'd want to talk to my computer like this in a shared workspace! The killer feature for me is the ability to multi-task. I usually cook with a podcast or TikTok running; now I can actually build stuff instead. Tags: text-to-speech , ai , openai , generative-ai , llms , newsletter , coding-agents , codex , speech-to-text , site-upgrades",
       "title": "A new feature for my blog, built using my voice",
       "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "07dffacc5be464373897633e",
-      "discovered_at": "2026-10-08T16:26:00Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 8, 2026",
-      "search_score": 15,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Hermes Agent is now live (and featured) in the @Microsoft Store for seamless one-click install. More updates for the Windows ecosystem coming soon! Oct 8, 2026 @NousResearch asus.com/blog/asus-proa\u2026 Oct 8, 2026 @NousResearch Advancing our mission to deliver ubiquitous powerful agents to everyone, Hermes Agent is on the new ASUS ProArt RTX Spark PCs: MuseTree and ComfyUI integrations plus local model support on up to 128 GB of unified memory. A complete creative stack that runs on your own machine. x.com/ASUS/status/21\u2026 Oct 8, 2026 @NousResearch Oct 8, 2026 @NousResearch Rated E for Everyone Oct 7, 2026 @NousResearch @WSJ @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures Join us at NousCon to celebrate and perhaps catch some sneak peeks x.com/NousResearch/s\u2026 Or come work for us! nousresearch.com/careers Oct 7, 2026 @NousResearch As reported in the @WSJ, we have raised a Series B to bring Hermes Agent to new frontiers (and, yes, build a mobile app) Thank you to our investors including @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures, among others wsj.com/pro/venture-ca\u2026 x.com/dillonrolnick/\u2026 Oct 7, 2026 @NousResearch x.com/witcheer/statu\u2026 Oct 7, 2026 @NousResearch Claude Opus 5.5 leads at 63.31 and $4.99 per task. GPT 6 Astra is second at 56.25 and $11.61. Sonnet 5.5 follows at 53.14 and $2.82. At the other end, DeepSeek V4.1 Flash scores 36.91 at $0.26 and Ling 3.0 Flash scores 21.56 at $0.054. Oct 6, 2026 @NousResearch Every model runs the same harness, with reasoning set high where offered. The index reports the mean score and the mean cost per task across the four suites. Hermes Bench info: Oct 6, 2026",
-      "title": "@NousResearch asus.com/blog/asus-proa\u2026 Oct 8, 2026",
-      "url": "https://x.com/NousResearch/status/2108202803449692620"
     },
     {
       "bootstrap": false,
@@ -1511,6 +1455,20 @@
       "summary": "Claude Security adds continuous repo scanning, fix tracking, API & MCP for Enterprise claude.com \u00b7 Show TLDR",
       "title": "Claude Security adds continuous repo scanning, fix tracking, API & MCP for Enterprise claude.com \u00b7 Show TLDR",
       "url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "9bbec82be200718e269f3286",
+      "discovered_at": "2026-10-22T18:07:11Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 22, 2026",
+      "search_score": 12,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch Our CEO @dillonrolnick sat down with @eastdakota, CEO of @Cloudflare, for a wide-ranging conversation about agents, the future of the internet, and the fight for digital sovereignty. Thanks to the @usv team for hosting! x.com/mattcynamon/st\u2026 Oct 22, 2026 @NousResearch Hermes Agent now has an official plugin for @MeshyAI. Ask Hermes to make a 70m poly treasure chest for Godot, or to turn a photo of a mug into a model you can print, and it does the job through Meshy's MCP server. In Hermes Desktop the models render in chat, rigged characters animate inline, and a gallery stores every model and prompt. On messaging apps, Hermes sends a short preview video so you can create on the go. https://t.co/QlxZUDEBn3 Oct 22, 2026 @NousResearch Jensen closed his GTC Berlin 2026 keynote with this Hermes Agent demo as the finale. He introduced it by saying the way to build an agent is to ask an agent to build it for you, so he installed and set up a customized Hermes in one prompt. Then he used Hermes, running on @nvidia RTX Spark, to create a simulated training environment for the @huggingface Microduck. Hermes planned an obstacle course with Nemotron and had GPT-6 Astra build it using FreeCAD, Omniverse libraries, Blender, Newton, and Isaac Lab. Hermes trained thousands of simulated ducks on that course until the validated policy was ready to run on the real robot in the physical world. At Nous, we believe open source is a practical tool as much as a philosophical ideal. It gives users the ability to build powerful, complex workflows chaining numerous local+cloud models, devices, and tools themselves instead of waiting for a company to enable them. Oct 21, 2026 @NousResearch Krea 3 from @krea_ai is now available in Nous Portal Fast mode does 2k edits in under 8 seconds, and Ultra is a higher quality tier outperforming Nano Banana Pro It supports precise controls: draw a box to create a bounded editing region leaving the rest of an image unchanged, or specify a hex code to apply precise color https://t.co/uomohWX1dw Oct 21, 2026 @NousResearch Look for Nightwing in Dolores Park this Friday for a chance to grab the sold out Rebellion shirt and hang out with fellow Hermes heads x.com/yaboilyrical/s\u2026 Oct 19, 2026 @NousResearch Let\u2019s see your Nous fit pics Oct 18, 2026 @NousResearch Motion. Oct 16, 2026 @NousResearch Editor's Note: This tweet was intended as satire by our social intern, who did not expect it to be taken seriously. Hermes was not selected for the list as we do not do paid PR placements; we think it is a wonderful invention and perhaps TIME will see fit to recognize it eventually. Oct 16, 2026 @NousResearch Another in-depth review from @zacbowden for @WindowsCentral: windowscentral.com/hardware/nvidi\u2026 Oct 16, 2026 @NousResearch Watch the full video for more coverage on the hardware, security, and demos. youtube.com/watch?v=sjuisA\u2026 Oct 16, 2026",
+      "title": "@NousResearch Our CEO @dillonrolnick sat down with @eastdakota, CEO of @Cloudflare, for a wide-ranging conversation about agents, the future of the internet, and the fight for digital sovereignty. Thanks to the @usv team for hosting! x.com/",
+      "url": "https://x.com/NousResearch/status/2113327348171030630"
     },
     {
       "bootstrap": false,
@@ -2015,6 +1973,20 @@
       "summary": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek",
       "title": "web-edit 0.1a2",
       "url": "https://simonwillison.net/2026/Oct/17/web-edit/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "2eded73c1a58a8ad57ea20a4",
+      "discovered_at": "2026-10-22T18:07:07Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-22T15:34:13+00:00",
+      "search_score": 3,
+      "source_name": "Simon Willison Everything",
+      "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. \u2014 Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms",
+      "title": "Quoting Armin Ronacher",
+      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/"
     },
     {
       "bootstrap": false,
@@ -2648,6 +2620,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-22T13:13:55Z",
+  "updated_at": "2026-10-22T18:07:12Z",
   "version": 2
 }

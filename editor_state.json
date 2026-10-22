@@ -47,9 +47,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-22T05:27:59Z",
-    "eligible": 55,
-    "evaluated": 2,
+    "at": "2026-10-22T10:26:44Z",
+    "eligible": 62,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -232,6 +232,20 @@
       "at": "2026-10-05T22:35:25Z",
       "status": "expired",
       "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.43"
+    },
+    "0774b1f3d1a85ad1b7dd6b91": {
+      "at": "2026-10-22T10:26:44Z",
+      "bootstrap": false,
+      "score": 86,
+      "status": "published",
+      "story_key": "nous-research-hermes-agent-meshy-ai-plugin",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2113077994315034967"
     },
     "07805f8ccf0891a10c549358": {
       "at": "2026-10-03T05:49:31Z",
@@ -3667,6 +3681,20 @@
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2107161699837231107"
     },
+    "97cbb004cc8c64e792450cec": {
+      "at": "2026-10-22T10:26:35Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "minimax-code-mini-app",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "MiniMax Research"
+      },
+      "url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729"
+    },
     "9906482f0e9c75da96c7d515": {
       "at": "2026-10-05T15:56:52Z",
       "status": "expired",
@@ -4309,6 +4337,14 @@
       "at": "2026-10-04T00:07:42Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/"
+    },
+    "b2d3f46531c091e023f06bd0": {
+      "at": "2026-10-22T10:26:38Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-updates-oct-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-67d4c3c8f5a0608779fd"
     },
     "b2fcfb9fb70bbbac0d678aab": {
       "at": "2026-10-19T01:33:31Z",
@@ -7789,6 +7825,27 @@
         "source": "FutureTools AI News"
       }
     },
+    "minimax-code-mini-app": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/minimax-code-mini-app.jpg",
+      "last_updated": "2026-10-22T10:26:35Z",
+      "post_id": "1403068656532597360",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/minimax-introduces-code-mini-app-for.html",
+      "score": 85,
+      "source_image_source": "MiniMax Research",
+      "source_image_url": "https://file.cdn.minimax.io/public/baac1569-c6e0-46ca-86c9-1a8e6141cf0f.jpeg",
+      "source_urls": [
+        "https://www.minimax.io/blog/minimax-code-mini-app-1792650729"
+      ],
+      "status": "CONFIRMED",
+      "title": "MiniMax Introduces 'Code Mini App' for Long-Running AI Agent Workspaces",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "MiniMax Research"
+      }
+    },
     "minimax-h3-multimodal-generation-model": {
       "image_kind": "mirrored_source",
       "image_prepared_at": "2026-10-04T19:31:16Z",
@@ -8132,6 +8189,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Nous Research Launches Hermes Agent Connectors with Over 50 Integrations",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      }
+    },
+    "nous-research-hermes-agent-meshy-ai-plugin": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/nous-research-hermes-agent-meshy-ai-plugin.png",
+      "last_updated": "2026-10-22T10:26:44Z",
+      "post_id": "8452572238169019966",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-releases-official-meshy.html",
+      "score": 86,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/amplify_video_thumb/2113077135778656256/img/ZLOdw6gkq9Nj4Dpe?format=webp&name=large",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2113077994315034967"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Releases Official Meshy AI Plugin for Hermes Agent",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

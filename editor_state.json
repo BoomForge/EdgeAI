@@ -47,8 +47,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-23T01:00:40Z",
-    "eligible": 62,
+    "at": "2026-10-23T06:00:04Z",
+    "eligible": 59,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
@@ -1462,6 +1462,20 @@
       "at": "2026-10-16T18:54:59Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11588"
+    },
+    "39a2c26df5548ff5b1c5ffa0": {
+      "at": "2026-10-23T06:00:00Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "ollama-v0-40-9-phonon-speech-d3-decision-models-flint",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Ollama Releases"
+      },
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9"
     },
     "39b03f627696e97fefd30234": {
       "at": "2026-10-14T06:46:39Z",
@@ -2932,6 +2946,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0"
+    },
+    "74eecc752e5f1b65d14fce26": {
+      "at": "2026-10-23T05:59:56Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/intel"
     },
     "75bb450ac9abb666c3e6b151": {
       "at": "2026-10-15T20:18:57Z",
@@ -5669,6 +5688,11 @@
       "story_key": "claude-code-team-code-review-practices-quote",
       "url": "https://simonwillison.net/2026/Oct/16/code-review/"
     },
+    "e8b684b0e8627fc77c3989d3": {
+      "at": "2026-10-23T05:59:56Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/lugh-xtudio"
+    },
     "e90be0694fe4344005cda733": {
       "at": "2026-10-10T07:33:39Z",
       "status": "expired",
@@ -6012,6 +6036,20 @@
       "at": "2026-10-04T15:54:47Z",
       "status": "expired",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.901-beta"
+    },
+    "f5cf65c63313c791c5d9604d": {
+      "at": "2026-10-23T06:00:04Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "nous-research-meshy-hermes-agent-plugin",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2113375941431009526"
     },
     "f5edbd3b23d95b4ae1e66c01": {
       "at": "2026-10-03T05:49:31Z",
@@ -8561,6 +8599,27 @@
         "source": "Nous Research Announcements"
       }
     },
+    "nous-research-meshy-hermes-agent-plugin": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-meshy-hermes-agent-plugin.jpg",
+      "last_updated": "2026-10-23T06:00:04Z",
+      "post_id": "5908260885256674065",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-integrates-meshy-ai-into.html",
+      "score": 82,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/card_img/2112786122510381056/0OgYinTc?format=webp&name=medium",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2113375941431009526"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Integrates Meshy AI Into Hermes Desktop via MCP Server",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      }
+    },
     "nous-research-missingno-model": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-missingno-model.jpg",
@@ -8722,6 +8781,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Ollama v0.40.9 Introduces Native Speech Generation with Phonon and D3 Decision Models",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Ollama Releases"
+      }
+    },
+    "ollama-v0-40-9-phonon-speech-d3-decision-models-flint": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/ollama-v0-40-9-phonon-speech-d3-decision-models-flint.png",
+      "last_updated": "2026-10-23T06:00:00Z",
+      "post_id": "2174838458068421136",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/ollama-v0409-adds-phonon-speech-on.html",
+      "score": 88,
+      "source_image_source": "Ollama Releases",
+      "source_image_url": "https://opengraph.githubassets.com/1eb9106659ba4f970416d2752c8a90bab1f113a7aefbcd9a5d8e4a1c57b4613f/ollama/ollama/releases/tag/v0.40.9",
+      "source_urls": [
+        "https://github.com/ollama/ollama/releases/tag/v0.40.9"
+      ],
+      "status": "CONFIRMED",
+      "title": "Ollama v0.40.9 Adds Phonon Speech on Apple Silicon, D3 Decision Models, and Cross-Platform Flint",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-23T09:34:19Z",
+    "at": "2026-10-23T14:26:19Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 5,
+    "queued": 3,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 108,
+  "runs": 109,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -3594,6 +3594,11 @@
       "status": "queued",
       "url": "https://openai.com/index/decisions-api"
     },
+    "894d6b5c56fd7cecb49a028e": {
+      "first_seen": "2026-10-23T14:25:55Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0"
+    },
     "89c32091399dabfa1a90ef3e": {
       "first_seen": "2026-10-10T08:59:32Z",
       "status": "queued",
@@ -5123,6 +5128,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.27402"
     },
+    "c26e3599e93fe93b54f88072": {
+      "first_seen": "2026-10-23T14:25:55Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11838"
+    },
     "c283c07e82a8cabfd3d199d5": {
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
@@ -5363,6 +5373,11 @@
       "first_seen": "2026-10-04T20:03:38Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11398"
+    },
+    "cb8208acc035887be5651960": {
+      "first_seen": "2026-10-23T14:26:03Z",
+      "status": "queued",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.12.1"
     },
     "cb90e0262ee8f1103a49f83d": {
       "first_seen": "2026-10-05T18:34:59Z",

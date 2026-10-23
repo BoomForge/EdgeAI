@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-23T14:26:19Z",
+    "at": "2026-10-23T18:43:07Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 3,
+    "queued": 9,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 109,
+  "runs": 110,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -2069,6 +2069,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11716"
     },
+    "4dfb62570818f8132ab46bca": {
+      "first_seen": "2026-10-23T18:42:36Z",
+      "status": "queued",
+      "url": "https://github.com/huggingface/diffusers/releases/tag/v0.42.0"
+    },
     "4e181c171390031be9814779": {
       "first_seen": "2026-10-14T15:16:26Z",
       "search_score": 0,
@@ -3282,10 +3287,20 @@
       "status": "queued",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.3"
     },
+    "7c75079081c0357307bc3ec7": {
+      "first_seen": "2026-10-23T18:42:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11840"
+    },
     "7ce1dacb4f2add5e1d2594f3": {
       "first_seen": "2026-10-05T18:34:59Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.6.0"
+    },
+    "7cf3ac7f100eb267aed414bd": {
+      "first_seen": "2026-10-23T18:42:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11843"
     },
     "7d0ed3cb5cb4581ac2aae88c": {
       "first_seen": "2026-10-15T15:06:59Z",
@@ -3468,6 +3483,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.4"
     },
+    "846fae8d241f69fb74914fb1": {
+      "first_seen": "2026-10-23T18:43:04Z",
+      "status": "queued",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29"
+    },
     "8480f2f9df3680b91e1a008d": {
       "first_seen": "2026-10-12T19:18:24Z",
       "search_score": 0,
@@ -3649,6 +3669,11 @@
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22474"
+    },
+    "8c177b37ece0d145f22fb5f2": {
+      "first_seen": "2026-10-23T18:42:39Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10"
     },
     "8c2b245fc6de2976ce533a38": {
       "first_seen": "2026-10-15T19:15:19Z",
@@ -5450,6 +5475,11 @@
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/education/education-officer-gemini/"
     },
+    "ce34207316a2fe6bcee5c090": {
+      "first_seen": "2026-10-23T18:42:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11841"
+    },
     "ce353e1749242a2c3b8b8e94": {
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
@@ -6321,6 +6351,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2609.38197"
     },
+    "ee4c22366ef7e7abd786b0a4": {
+      "first_seen": "2026-10-23T18:42:30Z",
+      "status": "queued",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+    },
     "ef1f58208d029e7e21c219de": {
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
@@ -6692,6 +6727,11 @@
       "status": "too_old",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.19"
     },
+    "fb2da0de911e9602f0e6d8ae": {
+      "first_seen": "2026-10-23T18:42:57Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.910-beta"
+    },
     "fb49e20ce2251b9bdff1cb06": {
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
@@ -6707,6 +6747,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/crisis-resilience-white-paper/"
+    },
+    "fbadabad4df2c3de0a690dae": {
+      "first_seen": "2026-10-23T18:42:30Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-builders/"
     },
     "fbef55a1c7ad32b0b01a7961": {
       "first_seen": "2026-10-15T05:40:20Z",

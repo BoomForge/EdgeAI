@@ -47,8 +47,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-22T22:37:30Z",
-    "eligible": 65,
+    "at": "2026-10-23T01:00:40Z",
+    "eligible": 62,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
@@ -723,6 +723,20 @@
         "source": "Kimi Research"
       },
       "url": "https://www.kimi.com/code"
+    },
+    "1c948c95b065977a6cda6fea": {
+      "at": "2026-10-23T01:00:40Z",
+      "bootstrap": false,
+      "score": 91,
+      "status": "published",
+      "story_key": "ollama-v0-40-9-phonon-speech-d3-decision-models",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Ollama Releases"
+      },
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc3"
     },
     "1cf8eba545fec9e5493fa779": {
       "at": "2026-10-18T09:31:07Z",
@@ -1625,6 +1639,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.0.90"
+    },
+    "3ec219ad3cb7053dc15eb71c": {
+      "at": "2026-10-23T01:00:32Z",
+      "status": "expired",
+      "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites?utm_source=futuretools.io&utm_medium=newspage"
     },
     "3edac89f6e2aabc592420d13": {
       "at": "2026-10-10T07:33:53Z",
@@ -4072,6 +4091,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11455"
     },
+    "a286ccfbec858524d381aa54": {
+      "at": "2026-10-23T01:00:32Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
+    },
     "a2d47d967762a3a499dff79c": {
       "at": "2026-10-17T04:50:11Z",
       "bootstrap": false,
@@ -4763,6 +4787,20 @@
         "source": "ElevenLabs Research"
       },
       "url": "https://elevenlabs.io/blog/introducing-music-v2"
+    },
+    "c68c09911d8d7e6536d6ff08": {
+      "at": "2026-10-23T01:00:36Z",
+      "bootstrap": false,
+      "score": 91,
+      "status": "published",
+      "story_key": "sakana-ai-aquarium-platform",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      },
+      "url": "https://sakana.ai/aquarium-release/"
     },
     "c6a2e4ba2272d4f846cf8951": {
       "at": "2026-10-08T00:09:52Z",
@@ -5485,10 +5523,20 @@
       "story_key": "llamacpp-b11756-anthropic-slot-fix",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11756"
     },
+    "e4159de940dd7513dbec5ba9": {
+      "at": "2026-10-23T01:00:32Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11748"
+    },
     "e447cf92d70f23df27463fc5": {
       "at": "2026-10-13T03:56:43Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11540"
+    },
+    "e47b399eb3be487eb6702724": {
+      "at": "2026-10-23T01:00:32Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/runinfra"
     },
     "e48a7f736f56ad596c7cd7f9": {
       "at": "2026-10-04T11:20:52Z",
@@ -6165,6 +6213,11 @@
         "source": "FutureTools AI News"
       },
       "url": "https://www.anthropic.com/research/investigating-unintended-model-actions?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "fedef723b1959221b5c5a68b": {
+      "at": "2026-10-23T01:00:32Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "ff3192a07212d5fdc5524862": {
       "at": "2026-10-06T02:32:14Z",
@@ -8655,6 +8708,27 @@
         "source": "Ollama Releases"
       }
     },
+    "ollama-v0-40-9-phonon-speech-d3-decision-models": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/ollama-v0-40-9-phonon-speech-d3-decision-models.png",
+      "last_updated": "2026-10-23T01:00:40Z",
+      "post_id": "1790794440484892486",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/ollama-v0409-introduces-native-speech.html",
+      "score": 91,
+      "source_image_source": "Ollama Releases",
+      "source_image_url": "https://opengraph.githubassets.com/df0904e07c1e83f4fa05e66e91a8f4640eeba3e3fabe377a6770a112d40fa23f/ollama/ollama/releases/tag/v0.40.9-rc3",
+      "source_urls": [
+        "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc3"
+      ],
+      "status": "CONFIRMED",
+      "title": "Ollama v0.40.9 Introduces Native Speech Generation with Phonon and D3 Decision Models",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Ollama Releases"
+      }
+    },
     "openai-acquires-orchestra-bio-drug-development": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-acquires-orchestra-bio-drug-development.jpg",
@@ -9637,6 +9711,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "Runway Research"
+      }
+    },
+    "sakana-ai-aquarium-platform": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/sakana-ai-aquarium-platform.jpg",
+      "last_updated": "2026-10-23T01:00:36Z",
+      "post_id": "7464771717772245036",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/sakana-ai-announces-sakana-aquarium.html",
+      "score": 91,
+      "source_image_source": "Sakana AI Blog",
+      "source_image_url": "https://sakana.ai/assets/home/sakana_ogp.png",
+      "source_urls": [
+        "https://sakana.ai/aquarium-release/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Sakana AI Announces 'Sakana Aquarium' Ontology-Based AI Agent Platform",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
       }
     },
     "sakana-ai-frontier-intelligence-group": {

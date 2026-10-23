@@ -47,9 +47,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-23T15:53:01Z",
-    "eligible": 65,
-    "evaluated": 4,
+    "at": "2026-10-23T19:35:05Z",
+    "eligible": 57,
+    "evaluated": 2,
     "mode": "live",
     "new_posts": 1,
     "publish_actions": 2,
@@ -567,6 +567,16 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/"
     },
+    "162a880b65704d07b8777008": {
+      "at": "2026-10-23T19:34:52Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/dotmd-3"
+    },
+    "16a30527ab41fa506f92501c": {
+      "at": "2026-10-23T19:34:52Z",
+      "status": "expired",
+      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "16ce5eb07728264c2c5f202e": {
       "at": "2026-10-17T12:29:54Z",
       "bootstrap": false,
@@ -894,6 +904,11 @@
         "source": "FutureTools AI News"
       },
       "url": "https://www.anthropic.com/claude-haiku-5-5?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "209851e1d08aff94d5326a2f": {
+      "at": "2026-10-23T19:34:52Z",
+      "status": "expired",
+      "url": "https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac?utm_source=futuretools.io&utm_medium=newspage"
     },
     "2167384f51e2a4466793a69c": {
       "at": "2026-10-04T00:07:42Z",
@@ -1373,6 +1388,11 @@
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2107138770088714678"
     },
+    "3569384ebdc76e039c8f08a1": {
+      "at": "2026-10-23T19:34:52Z",
+      "status": "expired",
+      "url": "https://x.ai/news/incident-sweep?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "356e43026a7ba565a76e47e3": {
       "at": "2026-10-10T13:59:33Z",
       "status": "expired",
@@ -1773,6 +1793,11 @@
         "source": "Nous Research Announcements"
       },
       "url": "https://x.com/NousResearch/status/2110470076595835353"
+    },
+    "409f9f30a8b878bdb8ec19d3": {
+      "at": "2026-10-23T19:34:52Z",
+      "status": "expired",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "40b751b710ffdfe179ad0616": {
       "at": "2026-10-04T15:54:53Z",
@@ -2838,6 +2863,11 @@
       },
       "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "6dc620341d3bde9888dbf00c": {
+      "at": "2026-10-23T19:34:52Z",
+      "status": "expired",
+      "url": "https://newsroom.spotify.com/2026-10-20/prioritizing-human-artistry/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "6deeaa575f7a1b1ab43704bd": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -3628,6 +3658,20 @@
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc5"
     },
+    "8f0d8952b597354552ef9b26": {
+      "at": "2026-10-23T19:35:00Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "updated",
+      "story_key": "artificial-analysis-changelog-oct-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-c2f97c056df2001a7108"
+    },
     "8fd6c3da352d70f0842c07c7": {
       "at": "2026-10-13T03:56:51Z",
       "bootstrap": false,
@@ -4210,6 +4254,11 @@
         "source": "Black Forest Labs Blog"
       },
       "url": "https://bfl.ai/blog/flux-3-action"
+    },
+    "a459b56634dc5cb2f423a286": {
+      "at": "2026-10-23T19:34:52Z",
+      "status": "expired",
+      "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "a45d817f6c42ecedbe2f74f1": {
       "at": "2026-10-06T02:32:14Z",
@@ -5135,6 +5184,11 @@
       },
       "url": "https://openai.com/index/eu-text-provenance"
     },
+    "d2bb0989f4e171dc1d91404e": {
+      "at": "2026-10-23T19:34:52Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/notion-99"
+    },
     "d2d14a92fbc8343aa3aabef2": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -5906,6 +5960,20 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38197"
+    },
+    "ee4c22366ef7e7abd786b0a4": {
+      "at": "2026-10-23T19:35:05Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "openai-habitat-azure-cosmos-db-scaling",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
     },
     "eeae4eda09cfd9e36977a75c": {
       "at": "2026-10-03T05:49:36Z",
@@ -6815,10 +6883,10 @@
     "artificial-analysis-changelog-oct-2026": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-oct-2026.jpg",
-      "last_updated": "2026-10-17T00:25:18Z",
+      "last_updated": "2026-10-23T19:35:00Z",
       "post_id": "511009945520828127",
       "post_url": "https://edgeainews.blogspot.com/2026/10/artificial-analysis-updates-benchmark_01785872676.html",
-      "score": 92,
+      "score": 85,
       "source_image_source": "Artificial Analysis Changelog",
       "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
       "source_urls": [
@@ -6827,10 +6895,11 @@
         "https://artificialanalysis.ai/changelog#edgeai-d1703deb31d3c6677c0d",
         "https://artificialanalysis.ai/changelog#edgeai-e9c5c12cc49ae62051ac",
         "https://artificialanalysis.ai/changelog#edgeai-7c1633ccfa6615adce13",
-        "https://artificialanalysis.ai/changelog#edgeai-f8443b2f432f2773e3b5"
+        "https://artificialanalysis.ai/changelog#edgeai-f8443b2f432f2773e3b5",
+        "https://artificialanalysis.ai/changelog#edgeai-c2f97c056df2001a7108"
       ],
       "status": "CONFIRMED",
-      "title": "Artificial Analysis Adds Reflection Beam, Nvidia Nemotron 3.5 Super VL, and Embodied AI Benchmarks",
+      "title": "Artificial Analysis Adds Kimi K3.1 Pro, HealthBench, and Decision Index Benchmarks",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
@@ -9351,6 +9420,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI Publishes Comprehensive Developer Guide for the GPT-6 Family",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-habitat-azure-cosmos-db-scaling": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-habitat-azure-cosmos-db-scaling.jpg",
+      "last_updated": "2026-10-23T19:35:05Z",
+      "post_id": "3125051116089812938",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-details-multi-tenant.html",
+      "score": 82,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/1p8WL4wct7MU8nnw6609WL/6ae794fe4cc93d37cc095d4d45730669/scaling-storage-one-billion-users-part-two-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Details Multi-Tenant Architecture Behind Habitat Storage Platform for ChatGPT",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

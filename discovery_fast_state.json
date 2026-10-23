@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-23T18:43:07Z",
+    "at": "2026-10-23T21:42:28Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 9,
+    "queued": 4,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 110,
+  "runs": 111,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -1666,6 +1666,11 @@
       "first_seen": "2026-10-23T04:34:35Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.30193"
+    },
+    "3fa5960172bad1030cd32759": {
+      "first_seen": "2026-10-23T21:42:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11844"
     },
     "3fb841e489d51fc4f16a7c50": {
       "first_seen": "2026-10-16T10:06:04Z",
@@ -3423,6 +3428,11 @@
       "status": "queued",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.0"
     },
+    "82423b134af5a2d779cd5dda": {
+      "first_seen": "2026-10-23T21:42:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11845"
+    },
     "824800ba9e2894508cbdbec8": {
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
@@ -3962,6 +3972,11 @@
       "first_seen": "2026-10-09T00:38:52Z",
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.4"
+    },
+    "951436d00cb9472608b98404": {
+      "first_seen": "2026-10-23T21:42:04Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11846"
     },
     "95a9395903c9db5363c82a9f": {
       "first_seen": "2026-10-03T00:46:18Z",
@@ -6671,6 +6686,11 @@
       "first_seen": "2026-10-03T00:46:16Z",
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.7"
+    },
+    "f8c156dba7886826388b35c0": {
+      "first_seen": "2026-10-23T21:41:57Z",
+      "status": "queued",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
     },
     "f903fa4c66226278f5c5efcc": {
       "first_seen": "2026-10-13T01:26:33Z",

@@ -1878,6 +1878,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "1a543055a02f9816518cc039",
+      "discovered_at": "2026-10-23T09:33:43Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Fri, 23 Oct 2026 00:00:00 GMT",
+      "search_score": 8,
+      "source_name": "OpenAI News",
+      "summary": "OpenAI and Poland\u2019s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "title": "OpenAI and Poland\u2019s NASK partner to advance AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "94ee28b93f9d2d830319b5f7",
       "discovered_at": "2026-10-15T00:51:00Z",
       "kind": "official",
@@ -1889,20 +1903,6 @@
       "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
       "title": "How Block is building AI-powered security with OpenAI technology",
       "url": "https://openai.com/index/block-ai-powered-security"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "9bf93d58cc35db9987f8bca4",
-      "discovered_at": "2026-10-09T19:20:33Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "search_score": 8,
-      "source_name": "OpenAI News",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent"
     },
     {
       "bootstrap": false,
@@ -2015,20 +2015,6 @@
       "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10\u00d7 growth in agent creation.",
       "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "570fe3204556675e8dd927e7",
-      "discovered_at": "2026-10-09T13:47:51Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "search_score": 6,
-      "source_name": "OpenAI News",
-      "summary": "Discover how Sophos uses OpenAI\u2019s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos"
     },
     {
       "bootstrap": false,
@@ -3499,9 +3485,23 @@
       "summary": "Signed-off-by: Vadim Gimpelson vadim.gimpelson@gmail.com Co-authored-by: Claude noreply@anthropic.com",
       "title": "v0.32.0rc3: [Bugfix] Fix NaN output of the Mamba2 chunk scan kernel on sm90 (#61718)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "db3745f77cd2d4c2fafec2a6",
+      "discovered_at": "2026-10-23T09:33:52Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-23T08:23:15Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "CANN: missing const qualifiers added for consistency ( #30933 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58989960 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11836",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11836"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-23T04:35:07Z",
+  "updated_at": "2026-10-23T09:34:19Z",
   "version": 2
 }

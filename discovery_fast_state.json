@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-23T04:35:07Z",
+    "at": "2026-10-23T09:34:19Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 49,
+    "queued": 5,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 107,
+  "runs": 108,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -656,6 +656,11 @@
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20761"
+    },
+    "1a543055a02f9816518cc039": {
+      "first_seen": "2026-10-23T09:33:43Z",
+      "status": "queued",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
     },
     "1a62646ffec9690f1e299bab": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -1338,6 +1343,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc1"
+    },
+    "340c7f78c024bca281c6afb5": {
+      "first_seen": "2026-10-23T09:33:52Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11833"
     },
     "3410e52a9f5f6033a0276de6": {
       "first_seen": "2026-10-21T05:49:00Z",
@@ -4118,6 +4128,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11436"
     },
+    "9c402a4cbad33e5829e588bb": {
+      "first_seen": "2026-10-23T09:33:52Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11835"
+    },
     "9c7ae20136849e67c3cce762": {
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
@@ -4595,6 +4610,11 @@
       "first_seen": "2026-10-22T07:18:30Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11808"
+    },
+    "ada67d15e0aa2ae2a097842c": {
+      "first_seen": "2026-10-23T09:33:52Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11834"
     },
     "add7e11ad964d1ef033c7767": {
       "first_seen": "2026-10-12T09:23:59Z",
@@ -5756,6 +5776,11 @@
       "first_seen": "2026-10-19T04:18:13Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22373"
+    },
+    "db3745f77cd2d4c2fafec2a6": {
+      "first_seen": "2026-10-23T09:33:52Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11836"
     },
     "db40878f6dc76cc124d521e6": {
       "first_seen": "2026-10-08T07:31:45Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-22T21:20:52Z",
+    "at": "2026-10-23T00:02:25Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 5,
+    "queued": 3,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 105,
+  "runs": 106,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -545,6 +545,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11676"
     },
+    "16576bf8c3e2a0281344f8a1": {
+      "first_seen": "2026-10-23T00:01:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11828"
+    },
     "16ce5eb07728264c2c5f202e": {
       "first_seen": "2026-10-16T18:41:03Z",
       "status": "queued",
@@ -737,6 +742,11 @@
       "first_seen": "2026-10-08T14:56:24Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.101.6"
+    },
+    "1c948c95b065977a6cda6fea": {
+      "first_seen": "2026-10-23T00:01:58Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc3"
     },
     "1cb005d80097bea5386bff5b": {
       "first_seen": "2026-10-19T16:56:03Z",
@@ -4872,6 +4882,11 @@
       "first_seen": "2026-10-08T07:31:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08818"
+    },
+    "c17b7bdbd8dad87499a1dd03": {
+      "first_seen": "2026-10-23T00:01:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11829"
     },
     "c1f975e922220e7ead6a8734": {
       "first_seen": "2026-10-15T05:40:28Z",

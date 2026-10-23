@@ -47,8 +47,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-23T06:00:04Z",
-    "eligible": 59,
+    "at": "2026-10-23T11:31:46Z",
+    "eligible": 65,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
@@ -651,6 +651,20 @@
         "source": "Nous Research Announcements"
       },
       "url": "https://x.com/NousResearch/status/2107592260682391925"
+    },
+    "1a543055a02f9816518cc039": {
+      "at": "2026-10-23T11:31:42Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "openai-nask-poland-ai-safety-partnership-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
     },
     "1a62646ffec9690f1e299bab": {
       "at": "2026-10-05T07:01:46Z",
@@ -2824,6 +2838,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.23"
+    },
+    "6efe1c62f251acf7b3947e2d": {
+      "at": "2026-10-23T11:31:39Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/intelli"
     },
     "7043036d10c7bf654f7b5126": {
       "at": "2026-10-17T20:31:21Z",
@@ -5465,6 +5484,20 @@
       "status": "expired",
       "url": "https://openai.com/index/atlassian-partnership/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "e0bb18a9e834bf54bf2ef0c1": {
+      "at": "2026-10-23T11:31:46Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-models-google-cloud-model-garden",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://openai.com/index/openai-models-google-cloud/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "e1f52aa5c9ca591760756c0c": {
       "at": "2026-10-11T18:49:43Z",
       "status": "expired",
@@ -5804,6 +5837,11 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/uber-chatgpt-work-rollout"
+    },
+    "edb4b64f3765a7123bebbf82": {
+      "at": "2026-10-23T11:31:39Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/privos"
     },
     "edfff1af226cc0177e5e0c11": {
       "at": "2026-10-05T07:01:46Z",
@@ -9281,6 +9319,27 @@
         "source": "OpenAI News"
       }
     },
+    "openai-models-google-cloud-model-garden": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-models-google-cloud-model-garden.jpg",
+      "last_updated": "2026-10-23T11:31:46Z",
+      "post_id": "1791681554520611454",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-brings-frontier-models-and-codex_02062359764.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/659u0DsrtDQd9LxI8L4J9M/0b95908d6a9ed46ffe20b23d081574b4/openai-models-coming-to-google-cloud-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/openai-models-google-cloud/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Brings Frontier Models and Codex to Google Cloud Model Garden",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      }
+    },
     "openai-models-google-cloud-partnership-2026": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-models-google-cloud-partnership-2026.jpg",
@@ -9295,6 +9354,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI Models and Codex Coming to Google Cloud Model Garden",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-nask-poland-ai-safety-partnership-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-nask-poland-ai-safety-partnership-2026.jpg",
+      "last_updated": "2026-10-23T11:31:42Z",
+      "post_id": "5647677221194405625",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-and-polands-nask-partner-on.html",
+      "score": 82,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/2QFh7GNhKrntGGGPok2slW/0a4c69fe28104fc2102821d451277b06/openai-and-poland-s-nask-announce-partnership-seo.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI and Poland\u2019s NASK Partner on Frontier AI Safety and Research",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

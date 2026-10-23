@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-23T10:24:20Z",
+    "at": "2026-10-23T15:23:33Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 5,
-    "queued": 8,
+    "prefiltered": 1,
+    "queued": 4,
     "sources_ok": 15,
-    "too_old": 5,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 107,
+  "runs": 108,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -279,6 +279,11 @@
       "first_seen": "2026-10-12T15:14:38Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/invited-ai-reminder-scanner"
+    },
+    "0c6dedaec7191d127d0babe2": {
+      "first_seen": "2026-10-23T15:23:25Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-7124042a341364c601a2"
     },
     "0c78b107823f053100b26f30": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -1451,6 +1456,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/loogo"
     },
+    "424ede75ce7b5e9f01ccd089": {
+      "first_seen": "2026-10-23T15:23:24Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/fal-ai"
+    },
     "4257f838c0d22be21be39c1c": {
       "first_seen": "2026-10-21T01:03:21Z",
       "status": "queued",
@@ -1530,6 +1540,11 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/twelvelabs"
+    },
+    "483bc0ecf1e1b613e97b9f2a": {
+      "first_seen": "2026-10-23T15:23:24Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/dub"
     },
     "4847a92bf6bcb72f97c6754b": {
       "first_seen": "2026-10-12T15:14:38Z",
@@ -2026,6 +2041,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/simple-workout-log"
     },
+    "5e4b58556368ff151236a2bd": {
+      "first_seen": "2026-10-23T15:23:24Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/dots-phone"
+    },
     "5e6e795ab4db508e57bb9a41": {
       "first_seen": "2026-10-05T09:33:48Z",
       "search_score": 0,
@@ -2236,6 +2256,12 @@
       "first_seen": "2026-10-21T20:18:30Z",
       "status": "queued",
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "661151aa1069640ab9cf2f1d": {
+      "first_seen": "2026-10-23T15:23:24Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/instant-search-2"
     },
     "6629ea3cb8a952e144b154a3": {
       "first_seen": "2026-10-16T23:59:26Z",
@@ -3654,6 +3680,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/vresk"
     },
+    "a770c4b21acb29e5260ad5da": {
+      "first_seen": "2026-10-23T15:23:24Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/claude-can-make-videos-without-a-video-generator-10-23-2026"
+    },
     "a7763b1d5fafdb2e3799ffd0": {
       "first_seen": "2026-10-21T11:41:37Z",
       "status": "too_old",
@@ -3833,6 +3864,11 @@
       "first_seen": "2026-10-14T01:51:44Z",
       "status": "queued",
       "url": "https://openai.com/index/higgsfield-longer-videos-voice/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "afee72ee98d55c825a02ccf4": {
+      "first_seen": "2026-10-23T15:23:32Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2113638609794293773"
     },
     "b0409510b16c111a8c50ecbd": {
       "first_seen": "2026-10-15T14:58:02Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-23T19:28:35Z",
+    "at": "2026-10-23T22:40:18Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 1,
+    "queued": 6,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 109,
+  "runs": 110,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -211,6 +211,11 @@
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/rambox"
+    },
+    "094171d39ea0a0a02c6af419": {
+      "first_seen": "2026-10-23T22:40:13Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-c7eae0eb152b854a394f"
     },
     "09622c6b726761f41ce23ac3": {
       "first_seen": "2026-10-15T19:05:42Z",
@@ -463,6 +468,11 @@
       "first_seen": "2026-10-15T14:58:06Z",
       "status": "queued",
       "url": "https://bfl.ai/blog/flux-3-image-klein"
+    },
+    "1560ea04dee0e58af37b6a0a": {
+      "first_seen": "2026-10-23T22:40:12Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/"
     },
     "15b55416c268f429445a8309": {
       "first_seen": "2026-10-16T14:48:14Z",
@@ -2283,6 +2293,11 @@
       "status": "queued",
       "url": "https://finance.yahoo.com/markets/article/sylvester-stallone-on-ai-in-hollywood-it-makes-things-so-much-easier-160000411.html?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "6774446985c5093f5ba19079": {
+      "first_seen": "2026-10-23T22:40:12Z",
+      "status": "queued",
+      "url": "https://claude.com/resources/articles/unified-claude-enterprise?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "679aa5ba7788168552bddeeb": {
       "first_seen": "2026-10-20T22:43:57Z",
       "status": "queued",
@@ -2497,6 +2512,11 @@
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/calnio"
+    },
+    "72dc99e3e91ddfb8cbe17dd5": {
+      "first_seen": "2026-10-23T22:40:12Z",
+      "status": "queued",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "72dec636484c9abfcf850523": {
       "first_seen": "2026-10-21T23:32:24Z",
@@ -3484,6 +3504,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "9e0308113d32ae3fc5365520": {
+      "first_seen": "2026-10-23T22:40:12Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
     },
     "9e898dc1426186d95d9811d0": {
       "first_seen": "2026-10-12T15:14:39Z",
@@ -4646,6 +4671,11 @@
       "first_seen": "2026-10-13T10:55:50Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/openwispr-open-source-ai-speech-to-text"
+    },
+    "d7fbf294edee14d0381a6fcd": {
+      "first_seen": "2026-10-23T22:40:12Z",
+      "status": "queued",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "d8028ddfe111346c0faef78f": {
       "first_seen": "2026-10-22T21:35:21Z",

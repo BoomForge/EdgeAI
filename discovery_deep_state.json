@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-22T21:35:27Z",
+    "at": "2026-10-23T00:13:08Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 8,
+    "prefiltered": 0,
+    "queued": 3,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 104,
+  "runs": 105,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -3413,6 +3413,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/marv-3"
     },
+    "9f11a45ca27b4f2df7b9db57": {
+      "first_seen": "2026-10-23T00:13:01Z",
+      "status": "queued",
+      "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "9f8b3ec7b4c977a08ab2b829": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -3610,6 +3615,11 @@
       "first_seen": "2026-10-07T02:36:56Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/"
+    },
+    "a967a5ebab93d9c091d23839": {
+      "first_seen": "2026-10-23T00:13:07Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2113391397760041329"
     },
     "a99e7c73be3208be7c0aeb2b": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -4244,6 +4254,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://elevenlabs.io/blog/introducing-music-v2"
+    },
+    "c68c09911d8d7e6536d6ff08": {
+      "first_seen": "2026-10-23T00:13:06Z",
+      "status": "queued",
+      "url": "https://sakana.ai/aquarium-release/"
     },
     "c6a2e4ba2272d4f846cf8951": {
       "first_seen": "2026-10-07T21:57:49Z",

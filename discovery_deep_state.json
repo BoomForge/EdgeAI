@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-23T05:12:32Z",
+    "at": "2026-10-23T10:24:20Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 0,
+    "prefiltered": 5,
+    "queued": 8,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 5,
     "warnings": 0
   },
-  "runs": 106,
+  "runs": 107,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -31,6 +31,11 @@
       "first_seen": "2026-10-03T00:46:01Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-955ba114b67aea6e882c"
+    },
+    "01619fc955cc4a4bfbd33fc3": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/peras"
     },
     "019225f602d2708d0edbfad6": {
       "first_seen": "2026-10-13T18:14:15Z",
@@ -333,6 +338,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/le-chonk/"
     },
+    "1020060f6ff9f5860cc92152": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/shogunai"
+    },
     "1040f15dec51655d9da5e598": {
       "first_seen": "2026-10-08T01:53:48Z",
       "status": "queued",
@@ -464,6 +475,11 @@
       "first_seen": "2026-10-06T19:44:11Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/"
+    },
+    "162a880b65704d07b8777008": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/dotmd-3"
     },
     "16664f89bddb74894b31a820": {
       "first_seen": "2026-10-15T09:50:31Z",
@@ -941,6 +957,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/diagramly-2"
     },
+    "2d794a3707c457579b8f2c85": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/gerty"
+    },
     "2e014338a53a0a15a7c0b5c9": {
       "first_seen": "2026-10-11T23:51:14Z",
       "status": "queued",
@@ -1341,6 +1363,16 @@
       "first_seen": "2026-10-20T00:43:52Z",
       "status": "queued",
       "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "3ee45ea26cb0c275b19aeb05": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/bloblings"
+    },
+    "3f465524e152c3fd7e95efe5": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/termi-protocol"
     },
     "3fd780cf9f0f9d8af472aa01": {
       "first_seen": "2026-10-08T21:27:35Z",
@@ -2354,6 +2386,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/intelli"
     },
+    "6f0373ea99d71e087ca50ca9": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/inyon"
+    },
     "6f6084433480be6ed79c0a4b": {
       "first_seen": "2026-10-08T08:53:54Z",
       "search_score": 0,
@@ -2568,10 +2605,20 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/new-windows-search"
     },
+    "7809a973bebe33cbe286e509": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/monish"
+    },
     "782d5b0065aab2f93bad1890": {
       "first_seen": "2026-10-15T14:58:02Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
+    },
+    "785413db256928ae89996f55": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/movo-ai"
     },
     "785ae5d61ec0075f6154b90e": {
       "first_seen": "2026-10-08T21:27:34Z",
@@ -2682,6 +2729,11 @@
       "first_seen": "2026-10-13T23:00:39Z",
       "status": "queued",
       "url": "https://www.theinformation.com/newsletters/ai-agenda/openais-plan-revive-sora?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "7cdd3998b104904d0a861e13": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/context-engine-2"
     },
     "7cf3ebe6e9136919c61a12ce": {
       "first_seen": "2026-10-11T15:53:36Z",
@@ -3213,6 +3265,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/adant-ai"
     },
+    "956586a3d2805e1ad30b7153": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/realtime-max-mini"
+    },
     "959b91079b4054f1b5c534db": {
       "first_seen": "2026-10-18T10:57:54Z",
       "status": "too_old",
@@ -3573,6 +3630,12 @@
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/legacyfixer"
+    },
+    "a68939cd6af8d342f7d35861": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/truffle-music-tag-editor"
     },
     "a6ce8ee62eb8a0b82d296cd7": {
       "first_seen": "2026-10-03T15:15:03Z",
@@ -4202,6 +4265,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/concierge-by-juniors-ai"
     },
+    "c2b44c28b03b2b1f118db5e9": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/plango"
+    },
     "c2b97039d8e05c486a9cbcda": {
       "first_seen": "2026-10-18T10:57:54Z",
       "search_score": 0,
@@ -4706,6 +4775,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/dailyhub-a-quiet-workspace-for-your-day"
     },
+    "df04c3f89de2f4ce146157ef": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/ovren"
+    },
     "df2b3a652849a416deb89641": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
@@ -5042,6 +5116,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/atticus"
     },
+    "f01e1d1f7f1967bc58c6859a": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/monid"
+    },
     "f046fa1f0c2a4483a15cbd04": {
       "first_seen": "2026-10-22T01:57:55Z",
       "status": "queued",
@@ -5181,6 +5260,11 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-3f60d53becd0c25f66c1"
     },
+    "f5155bac5c21fc05560bb290": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/headroom-5"
+    },
     "f598a18e8a0c86865be4ac76": {
       "first_seen": "2026-10-09T07:47:51Z",
       "search_score": 1,
@@ -5202,6 +5286,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/7/ben-affleck/"
     },
+    "f61b3e88c92bfe9e7ba785c0": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/dots-7"
+    },
     "f68e4130196e02821447341e": {
       "first_seen": "2026-10-09T01:22:21Z",
       "status": "queued",
@@ -5222,6 +5312,11 @@
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/dashrendr"
+    },
+    "f7fda8171297815a5553f115": {
+      "first_seen": "2026-10-23T10:24:14Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/producthunt"
     },
     "f812ee2e5ad7f8ff56103b85": {
       "first_seen": "2026-10-10T05:44:59Z",

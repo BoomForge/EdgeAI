@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "at": "2026-10-24T19:19:38Z",
+    "at": "2026-10-24T21:41:34Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
@@ -9,7 +9,7 @@
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 117,
+  "runs": 118,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -440,6 +440,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0"
     },
+    "122cce26ca27407f3f8853c0": {
+      "first_seen": "2026-10-24T21:41:08Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11867"
+    },
     "122cd17ac83230ee869195a0": {
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
@@ -549,6 +554,11 @@
       "first_seen": "2026-10-08T20:34:17Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11511"
+    },
+    "1506904bb8bf0601ee4fac21": {
+      "first_seen": "2026-10-24T21:41:08Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11869"
     },
     "1597d96613c49911a280f632": {
       "first_seen": "2026-10-22T07:18:23Z",
@@ -4801,6 +4811,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02252"
     },
+    "b0c812cbc916a282e408cbdb": {
+      "first_seen": "2026-10-24T21:41:08Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11866"
+    },
     "b0fe2e85015610c8fad31d3e": {
       "first_seen": "2026-10-03T00:46:17Z",
       "status": "too_old",
@@ -5931,6 +5946,11 @@
       "first_seen": "2026-10-19T04:18:13Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22373"
+    },
+    "daa3e6d4190f371e5e420662": {
+      "first_seen": "2026-10-24T21:41:08Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11868"
     },
     "db3745f77cd2d4c2fafec2a6": {
       "first_seen": "2026-10-23T09:33:52Z",

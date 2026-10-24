@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-24T11:25:58Z",
+    "at": "2026-10-24T14:47:09Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 4,
-    "queued": 2,
+    "prefiltered": 0,
+    "queued": 1,
     "sources_ok": 15,
-    "too_old": 7,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 113,
+  "runs": 114,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -4625,6 +4625,11 @@
       "first_seen": "2026-10-16T14:48:14Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/nudgebox"
+    },
+    "d1879513a33727bd29220105": {
+      "first_seen": "2026-10-24T14:47:04Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones/"
     },
     "d1dfcca4ed604925cb790620": {
       "first_seen": "2026-10-08T01:53:48Z",

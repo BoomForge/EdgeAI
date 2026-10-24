@@ -1710,6 +1710,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "d1879513a33727bd29220105",
+      "discovered_at": "2026-10-24T14:47:04Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-24T03:59:57+00:00",
+      "search_score": 7,
+      "source_name": "Simon Willison Everything",
+      "summary": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to four human players can join (any spare slots use AI) Claude Opus 4.5 added a new map called \"Compass Rose\" and modified the WebSockets multiplayer network code to support up to four players for that map, joining via share links or QR codes. The new teams use robots themed in purple and green, joining the existing blue and red designs. You can preview those colors in the updated model browser . Here's a replay link to watch a four way AI battle with the \"Goliath Armada\" mutator turned on, where each side starts with four giant Goliath mech units. Tags: game-design , projects , claude",
+      "title": "battledrones v14: Compass Rose, a four player map",
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "6b1b5569c129608c1b4b3a8d",
       "discovered_at": "2026-10-19T00:11:50Z",
       "kind": "primary-signal",
@@ -2774,6 +2788,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-24T11:25:58Z",
+  "updated_at": "2026-10-24T14:47:09Z",
   "version": 2
 }

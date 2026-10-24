@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-23T21:42:28Z",
+    "at": "2026-10-24T00:03:25Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 4,
+    "queued": 1,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 111,
+  "runs": 112,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -5092,6 +5092,11 @@
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08941"
+    },
+    "bf6c1f5aeba5312508e129fe": {
+      "first_seen": "2026-10-24T00:03:03Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0"
     },
     "bf737796f518b634abb94e72": {
       "first_seen": "2026-10-14T19:29:47Z",

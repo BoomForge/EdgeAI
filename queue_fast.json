@@ -3348,6 +3348,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "d900ce0eeaf0d8733cc7accf",
+      "discovered_at": "2026-10-24T04:26:18Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-24T02:22:01Z",
+      "search_score": 6,
+      "source_name": "llama.cpp Releases",
+      "summary": "hip: fix bf16 WMMA operand vector type for gfx11/gfx12 ( #30885 ) The __builtin_amdgcn_wmma_f32_16x16x16_bf16_w32 (and _gfx12) builtins take their A/B operands as vectors of short (_ExtVector<16, short> / _ExtVector<8, short>), not __bf16. Declaring the fragments as ext_vector_type(N) __bf16 fails to compile: error: cannot initialize a parameter of type 'short attribute ((ext_vector_type(16)))' with an lvalue of type 'const bf16x16_t' (vector of 16 '__bf16' values) short and __bf16 are both 16-bit and the value is only ever passed to the builtin via reinterpret_cast over raw bytes, so changing the element type is bit-identical. The operand type has been short since the builtin was introduced, so this works across LLVM/ROCm versions without a version gate. Fixes HIP builds for RDNA3 (gfx1150/1151) and RDNA4 (gfx1200/1201). Signed-off-by: Pablo Cholaky waltercool@slash.cl Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59316876 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11847",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11847"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "dbe76cd2643cea628620f51d",
+      "discovered_at": "2026-10-24T04:26:18Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-23T23:09:50Z",
+      "search_score": 6,
+      "source_name": "llama.cpp Releases",
+      "summary": "Add Soprano-80M and Soprano-1.1-80M ( https://huggingface.co/ekwek/Soprano-1.1-80M ) as an audio generation model: a Qwen3 backbone plus a Vocos decoder that runs as a gen-only mmproj. convert: detect Soprano checkpoints and export the backbone as qwen3 and the decoder.pth Vocos weights as the mmproj vocab: add the soprano pre-tokenizer (lowercase, whitespace collapse, per-digit split, [UNK] fallback) mtmd: add the Vocos graph and ISTFT, allow loading a gen-only mmproj for Soprano and include the gen-audio context in mtmd_get_memory_usage mtmd-helper: add the Soprano pipeline; the decoder runs over the whole utterance, so stream mode sends the audio in one chunk after flush() tts: document Soprano usage Assisted-by: Codex Assisted-by: Claude Opus 5.5",
+      "title": "b11850: mtmd : add Soprano TTS support (#28607)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11850"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "caa2121350852b24ddb09ffb",
       "discovered_at": "2026-10-22T17:56:06Z",
       "kind": "local-ai",
@@ -3471,37 +3499,9 @@
       "summary": "Signed-off-by: Vadim Gimpelson vadim.gimpelson@gmail.com Co-authored-by: Claude noreply@anthropic.com",
       "title": "v0.32.0rc3: [Bugfix] Fix NaN output of the Mamba2 chunk scan kernel on sm90 (#61718)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "7c75079081c0357307bc3ec7",
-      "discovered_at": "2026-10-23T18:42:39Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-23T16:51:13Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "hexagon: add CEIL op ( #31006 ) hex-ceil: add CEIL(f32) op hex-ceil: add f16 version hex-ops: update supported ops hex-ops: update docs with supported ops Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59163430 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11840",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11840"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "c26e3599e93fe93b54f88072",
-      "discovered_at": "2026-10-23T14:25:55Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-23T13:39:52Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "ggml : fix time overflow in ggml_time_us ( #30969 ) fix time overflow use double Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59093605 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11838",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11838"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-24T00:03:25Z",
+  "updated_at": "2026-10-24T04:26:46Z",
   "version": 2
 }

@@ -47,9 +47,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-23T22:40:14Z",
-    "eligible": 56,
-    "evaluated": 2,
+    "at": "2026-10-24T01:10:28Z",
+    "eligible": 58,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -298,6 +298,14 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://www.shopify.com/news/introducing-canvas?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "094171d39ea0a0a02c6af419": {
+      "at": "2026-10-24T01:10:15Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-update-oct-2026",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-c7eae0eb152b854a394f"
     },
     "0982b0d31b705956abb0dcd1": {
       "at": "2026-10-19T06:57:16Z",
@@ -1841,6 +1849,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11491"
     },
+    "4257f838c0d22be21be39c1c": {
+      "at": "2026-10-24T01:10:11Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/"
+    },
     "428574c612f6e9a407d1feb8": {
       "at": "2026-10-11T07:07:40Z",
       "status": "expired",
@@ -2404,6 +2417,11 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11364"
+    },
+    "5e4b58556368ff151236a2bd": {
+      "at": "2026-10-24T01:10:11Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/dots-phone"
     },
     "5ee30d117f6cf7759e8ac7ff": {
       "at": "2026-10-03T21:49:26Z",
@@ -4063,6 +4081,20 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00424"
     },
+    "9e0308113d32ae3fc5365520": {
+      "at": "2026-10-24T01:10:22Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "kimi-k3-1-pro-moonshot-api-release",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
+      },
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
+    },
     "9e63539289a31c8631b61e2d": {
       "at": "2026-10-16T22:03:33Z",
       "bootstrap": false,
@@ -5379,6 +5411,20 @@
         "source": "Kimi Research"
       },
       "url": "https://www.kimi.com/en/products/kimi-browser-extension"
+    },
+    "d7fbf294edee14d0381a6fcd": {
+      "at": "2026-10-24T01:10:28Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-hardens-frontier-model-training-offline-environments",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "d820d527a66cc6767ec5fec6": {
       "at": "2026-10-10T01:19:29Z",
@@ -7927,6 +7973,27 @@
         "source": "Kimi Research"
       }
     },
+    "kimi-k3-1-pro-moonshot-api-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/kimi-k3-1-pro-moonshot-api-release.jpg",
+      "last_updated": "2026-10-24T01:10:22Z",
+      "post_id": "340909911405280414",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/moonshot-ai-releases-kimi-k31-pro-with.html",
+      "score": 92,
+      "source_image_source": "Simon Willison Everything",
+      "source_image_url": "https://static.simonwillison.net/static/2026/kimi-k3.1-card.jpg",
+      "source_urls": [
+        "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Moonshot AI Releases Kimi K3.1 Pro with Frontier-Class Performance and Open-Weight Commitment",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
+      }
+    },
     "kimi-k3-perceptionbench-agent-swarm-worldvqa": {
       "image_kind": "mirrored_source",
       "image_prepared_at": "2026-10-04T19:31:16Z",
@@ -9495,6 +9562,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "OpenAI News"
+      }
+    },
+    "openai-hardens-frontier-model-training-offline-environments": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-hardens-frontier-model-training-offline-environments.jpg",
+      "last_updated": "2026-10-24T01:10:28Z",
+      "post_id": "7919736415342946882",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-hardens-frontier-training.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/securing-our-frontier-model-training-environment/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Hardens Frontier Training Environments With Offline Air-Gapping and AI Red-Teaming",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
       }
     },
     "openai-ironclad-computer-use-agents": {

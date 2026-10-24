@@ -912,20 +912,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "1eb9694d7827865d4e95ff08",
-      "discovered_at": "2026-10-10T20:14:07Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 10, 2026",
-      "search_score": 25,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Wild MISSINGNO. appeared! A coding and agentic reasoning model that is highly token efficient, free for a limited time on Nous Portal Try it out in your Hermes Agent today Oct 10, 2026 @NousResearch Slight Correction: Step 5 Preview's final score on Hermes Index has been updated to 32.83, slightly behind GPT-6 Luna (33.89) and GLM 5.3 Flash (34.95) Learn more @ portal.nousresearch.com/bench Oct 9, 2026 @NousResearch Step 5 Preview from @StepFun_ai is free on Nous Portal for the next week 600B total / 27B active MoE, 1M context, with vision Step 5 Preview scored 33.89 on Hermes Index, the same score as GPT-6 Luna Oct 9, 2026 @NousResearch Hemres Agnet Oct 9, 2026 @NousResearch Hermes Agent is now live (and featured) in the @Microsoft Store for seamless one-click install. More updates for the Windows ecosystem coming soon! Oct 8, 2026 @NousResearch asus.com/blog/asus-proa\u2026 Oct 8, 2026 @NousResearch Advancing our mission to deliver ubiquitous powerful agents to everyone, Hermes Agent is on the new ASUS ProArt RTX Spark PCs: MuseTree and ComfyUI integrations plus local model support on up to 128 GB of unified memory. A complete creative stack that runs on your own machine. x.com/ASUS/status/21\u2026 Oct 8, 2026 @NousResearch Oct 8, 2026 @NousResearch Rated E for Everyone Oct 7, 2026 @NousResearch @WSJ @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures Join us at NousCon to celebrate and perhaps catch some sneak peeks x.com/NousResearch/s\u2026 Or come work for us! nousresearch.com/careers Oct 7, 2026",
-      "title": "@NousResearch Wild MISSINGNO. appeared! A coding and agentic reasoning model that is highly token efficient, free for a limited time on Nous Portal Try it out in your Hermes Agent today Oct 10, 2026",
-      "url": "https://x.com/NousResearch/status/2109012611555840069"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "2f38489938aada9ceff85535",
       "discovered_at": "2026-10-22T21:35:21Z",
       "kind": "independent",
@@ -2802,6 +2788,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-24T19:51:30Z",
+  "updated_at": "2026-10-24T22:27:11Z",
   "version": 2
 }

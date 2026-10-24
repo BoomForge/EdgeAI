@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-24T16:57:32Z",
+    "at": "2026-10-24T19:19:38Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 3,
+    "queued": 4,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 116,
+  "runs": 117,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -1333,6 +1333,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.14146"
     },
+    "32cb066587c2253fdc4555d9": {
+      "first_seen": "2026-10-24T19:19:11Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11858"
+    },
     "32f6ab018b2956ed9218840b": {
       "first_seen": "2026-10-14T00:36:35Z",
       "status": "queued",
@@ -2509,6 +2514,11 @@
       "first_seen": "2026-10-20T10:10:22Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11752"
+    },
+    "5f2ac8f83e3e3f0dbf133288": {
+      "first_seen": "2026-10-24T19:19:11Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11860"
     },
     "5f33a9489c9672d63dc09ad1": {
       "first_seen": "2026-10-15T10:18:42Z",
@@ -3766,6 +3776,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06940"
     },
+    "8d0fa1ae78bc4b87cc4d4dc7": {
+      "first_seen": "2026-10-24T19:19:11Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11865"
+    },
     "8d16a40561216b34498a99ef": {
       "first_seen": "2026-10-21T11:25:13Z",
       "status": "queued",
@@ -4975,6 +4990,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02364"
+    },
+    "b961263fdf3fde56106f3df8": {
+      "first_seen": "2026-10-24T19:19:11Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11861"
     },
     "b9972c54becd0c3d958a401b": {
       "first_seen": "2026-10-03T00:45:58Z",

@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "at": "2026-10-24T14:47:09Z",
+    "at": "2026-10-24T17:40:32Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
@@ -9,7 +9,7 @@
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 114,
+  "runs": 115,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -3905,6 +3905,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/earlyn"
+    },
+    "aea96708fb85aeadbd7902a9": {
+      "first_seen": "2026-10-24T17:40:31Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2114029282892595467"
     },
     "aeec7a15e81750556e62946a": {
       "first_seen": "2026-10-12T15:14:38Z",

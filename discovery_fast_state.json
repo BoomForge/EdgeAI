@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-24T04:26:46Z",
+    "at": "2026-10-24T09:06:58Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 6,
+    "queued": 7,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 113,
+  "runs": 114,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -183,6 +183,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/products-and-platforms/products/search/updates-ai-mode-overviews-explore-web/"
+    },
+    "0a1e4d636a3e03754fd523de": {
+      "first_seen": "2026-10-24T09:06:47Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.8"
     },
     "0a6bc5106f21c99b2b3a521b": {
       "first_seen": "2026-10-16T05:36:35Z",
@@ -2364,6 +2369,11 @@
       "first_seen": "2026-10-06T19:03:40Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11448"
+    },
+    "5999e957f142fc2da964d70d": {
+      "first_seen": "2026-10-24T09:06:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11851"
     },
     "59d33d46139f560fc0ef97c1": {
       "first_seen": "2026-10-21T05:49:01Z",
@@ -5083,6 +5093,11 @@
       "status": "prefiltered",
       "url": "https://blog.google/products/ads-commerce/channel-prioritization-budget-allocation/"
     },
+    "be85813681676bcab5f05b86": {
+      "first_seen": "2026-10-24T09:06:47Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.4"
+    },
     "be8c29ea13f2fba78bdd8af9": {
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
@@ -5322,6 +5337,11 @@
       "first_seen": "2026-10-08T20:34:39Z",
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.8"
+    },
+    "c6c6058ff3b4c87b27f27e81": {
+      "first_seen": "2026-10-24T09:06:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11852"
     },
     "c6db10f97f0537c0086d63a2": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -5651,6 +5671,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11355"
     },
+    "d3739b69c6a3eb39a84e6ea0": {
+      "first_seen": "2026-10-24T09:06:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11853"
+    },
     "d3ac10456bc3cc2a9a88c8fc": {
       "first_seen": "2026-10-06T19:03:56Z",
       "status": "queued",
@@ -5801,6 +5826,11 @@
       "first_seen": "2026-10-08T07:31:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08794"
+    },
+    "d77e0f3435d490169f9e767f": {
+      "first_seen": "2026-10-24T09:06:47Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.6"
     },
     "d79f9d5dd9f3ac78ec6ee6c1": {
       "first_seen": "2026-10-07T09:14:07Z",
@@ -6069,6 +6099,11 @@
       "first_seen": "2026-10-21T20:13:59Z",
       "status": "queued",
       "url": "https://openai.com/index/empowering-cyber-defenders"
+    },
+    "e27fb46a94e610c5a2d8edd6": {
+      "first_seen": "2026-10-24T09:06:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11854"
     },
     "e2b600cde6cb4a781c94aba5": {
       "first_seen": "2026-10-07T09:14:31Z",

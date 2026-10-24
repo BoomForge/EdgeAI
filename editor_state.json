@@ -47,9 +47,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-24T05:47:46Z",
-    "eligible": 52,
-    "evaluated": 2,
+    "at": "2026-10-24T09:50:36Z",
+    "eligible": 51,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -912,6 +912,20 @@
         "source": "FutureTools AI News"
       },
       "url": "https://www.anthropic.com/claude-haiku-5-5?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "207f8e58deb14df6808132d9": {
+      "at": "2026-10-24T09:50:28Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "anthropic-donates-agent-skills-standard-linux-foundation-aaif",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation?utm_source=futuretools.io&utm_medium=newspage"
     },
     "209851e1d08aff94d5326a2f": {
       "at": "2026-10-23T19:34:52Z",
@@ -4043,6 +4057,14 @@
       },
       "url": "https://x.com/NousResearch/status/2108201390493544680"
     },
+    "9bbec82be200718e269f3286": {
+      "at": "2026-10-24T09:50:29Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "nous-research-cloudflare-podcast-2026",
+      "url": "https://x.com/NousResearch/status/2113327348171030630"
+    },
     "9bd0f3ba37f1ffa053a05839": {
       "at": "2026-10-07T19:56:51Z",
       "status": "expired",
@@ -4998,6 +5020,20 @@
       "status": "ignored",
       "story_key": "llamacpp-b11722-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11722"
+    },
+    "c6322ba99796710a10171cbe": {
+      "at": "2026-10-24T09:50:36Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "claude-security-continuous-scanning-api-mcp-enterprise",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes?utm_source=futuretools.io&utm_medium=newspage"
     },
     "c6496f29a50495732cb54e22": {
       "at": "2026-10-03T14:57:24Z",
@@ -6724,6 +6760,27 @@
         "source": "FutureTools AI News"
       }
     },
+    "anthropic-donates-agent-skills-standard-linux-foundation-aaif": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-donates-agent-skills-standard-linux-foundation-aaif.jpg",
+      "last_updated": "2026-10-24T09:50:28Z",
+      "post_id": "5618102268479705990",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-donates-agent-skills-standard_01231118606.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "source_urls": [
+        "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Donates Agent Skills Standard to the Agentic AI Foundation",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      }
+    },
     "anthropic-donates-agent-skills-to-agentic-ai-foundation": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/anthropic-donates-agent-skills-to-agentic-ai-foundation.png",
@@ -7448,6 +7505,27 @@
         "label": "Reasonable",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
         "score": 64,
+        "source": "FutureTools AI News"
+      }
+    },
+    "claude-security-continuous-scanning-api-mcp-enterprise": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/claude-security-continuous-scanning-api-mcp-enterprise.jpg",
+      "last_updated": "2026-10-24T09:50:36Z",
+      "post_id": "2896365307433969052",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-updates-claude-security-with_02023193302.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes/opengraph-image/og",
+      "source_urls": [
+        "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Updates Claude Security with Continuous Repo Scanning, APIs, and MCP Support",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
         "source": "FutureTools AI News"
       }
     },

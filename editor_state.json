@@ -47,9 +47,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-24T09:50:36Z",
-    "eligible": 51,
-    "evaluated": 3,
+    "at": "2026-10-24T13:39:34Z",
+    "eligible": 48,
+    "evaluated": 4,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -1904,6 +1904,20 @@
       "story_key": "ttok-1-0-release",
       "url": "https://simonwillison.net/2026/Oct/9/ttok/"
     },
+    "459f7fe9529784462447ea3c": {
+      "at": "2026-10-24T13:39:29Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "nous-research-hermes-agent-gtc-berlin-2026",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2113010017645244623"
+    },
     "45d6a2b79938283a07ca47b3": {
       "at": "2026-10-09T10:27:41Z",
       "bootstrap": false,
@@ -2059,6 +2073,14 @@
       "story_key": "nous-research-agent-swag-update",
       "url": "https://x.com/NousResearch/status/2110209866996252729"
     },
+    "4d8e460dfcbc5c4a0a978fbb": {
+      "at": "2026-10-24T13:39:23Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11812-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11812"
+    },
     "4db8b31e131d49040e5c6003": {
       "at": "2026-10-13T11:42:29Z",
       "bootstrap": false,
@@ -2197,6 +2219,11 @@
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "5497297be8ff584d0f241216": {
+      "at": "2026-10-24T13:39:18Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/mercury-412"
     },
     "54a565e70d5b43977dcb25ad": {
       "at": "2026-10-06T02:32:14Z",
@@ -2482,6 +2509,20 @@
       "at": "2026-10-07T19:56:51Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11392"
+    },
+    "5fa5077c586be6aa58321c41": {
+      "at": "2026-10-24T13:39:34Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "nous-research-krea-3-portal-integration",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2112950316018647125"
     },
     "5febfc6f0d2e810d3e4c2ce0": {
       "at": "2026-10-16T22:03:17Z",
@@ -6259,6 +6300,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/sellio-2"
     },
+    "f34e2880394efff739330307": {
+      "at": "2026-10-24T13:39:18Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11787"
+    },
     "f39d26586a9bbbb17ae8bee8": {
       "at": "2026-10-11T00:57:13Z",
       "status": "expired",
@@ -6421,6 +6467,14 @@
         "source": "FutureTools AI News"
       },
       "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "f77e9421dbc5f3379a18bb2c": {
+      "at": "2026-10-24T13:39:20Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-sensenova-u1-support",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11801"
     },
     "f82d4af7e53a994322f02c3d": {
       "at": "2026-10-12T17:49:23Z",
@@ -8895,6 +8949,27 @@
         "source": "Nous Research Announcements"
       }
     },
+    "nous-research-hermes-agent-gtc-berlin-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-hermes-agent-gtc-berlin-2026.jpg",
+      "last_updated": "2026-10-24T13:39:29Z",
+      "post_id": "732673676683933016",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-hermes-agent-featured-in.html",
+      "score": 85,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/amplify_video_thumb/2113007811546230785/img/qNPId_VjirdnTdfB?format=webp&name=large",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2113010017645244623"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Hermes Agent Featured in GTC Berlin 2026 Keynote Finale",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      }
+    },
     "nous-research-hermes-agent-meshy-ai-plugin": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/nous-research-hermes-agent-meshy-ai-plugin.png",
@@ -9038,6 +9113,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Nous Research Expands Hermes Index and Highlights Enterprise Agent Adoptions",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      }
+    },
+    "nous-research-krea-3-portal-integration": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-krea-3-portal-integration.jpg",
+      "last_updated": "2026-10-24T13:39:34Z",
+      "post_id": "5247717127447294823",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/krea-3-integrates-into-nous-portal-with.html",
+      "score": 82,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112950102830571520/img/JVP60CD6UZYg8yTr?format=webp&name=large",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2112950316018647125"
+      ],
+      "status": "CONFIRMED",
+      "title": "Krea 3 Integrates into Nous Portal with Fast and Ultra Modes",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

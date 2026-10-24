@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-24T13:24:24Z",
+    "at": "2026-10-24T16:57:32Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 1,
+    "queued": 3,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 115,
+  "runs": 116,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -594,6 +594,11 @@
       "first_seen": "2026-10-03T00:46:17Z",
       "status": "too_old",
       "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24"
+    },
+    "173b2ddf9d58603a17345ad9": {
+      "first_seen": "2026-10-24T16:57:11Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11"
     },
     "17700e6a84d6104399eb8603": {
       "first_seen": "2026-10-20T05:16:24Z",
@@ -1953,6 +1958,11 @@
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1"
     },
+    "485e04c8a3fd159f7c280f73": {
+      "first_seen": "2026-10-24T16:57:11Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11857"
+    },
     "486268bba86c4a62987a8552": {
       "first_seen": "2026-10-20T15:11:37Z",
       "status": "queued",
@@ -2721,6 +2731,11 @@
       "first_seen": "2026-10-07T16:38:55Z",
       "status": "queued",
       "url": "https://openai.com/index/teens-learn-and-plan"
+    },
+    "664553e7007c199f396852d8": {
+      "first_seen": "2026-10-24T16:57:11Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11856"
     },
     "666b74eaa9402c3e47d6d7a4": {
       "first_seen": "2026-10-11T14:10:44Z",

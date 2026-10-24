@@ -2788,6 +2788,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "664553e7007c199f396852d8",
+      "discovered_at": "2026-10-24T16:57:11Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-24T15:10:27Z",
+      "search_score": 9,
+      "source_name": "llama.cpp Releases",
+      "summary": "tests : add speculative rejection draft sampling test ( #30213 ) tests : add speculative rejection draft sampling test This commit adds a test for speculative rejection sampling test that excercises the speculative rejection sampling mechanism in common/speculative.cpp. The motivation for this is have a test that verifies that the speculative draft models emitts tokens that  match the target models distribution. So when rejection sampling occurs it should still produce the same probability distribution as if we directly sampled from the target model. Running the test: $ ctest --test-dir build -R \" ^test-speculative-rejection-sampling$ \" \\ --n_trials 5000 -V This will generate two models, one target and one draft model. For subsequent runs use the \"fixture exclude any\" option to avoid recreating the models: $ ctest --test-dir build-cpu-debug -R \\ \"^test-speculative-rejection-sampling$\" \\ -FA \"^speculative-models$\" --n_trails 5000 -V remove draft model Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59423747 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11856",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11856"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "73adbc32b729a69f60721831",
       "discovered_at": "2026-10-22T13:02:17Z",
       "kind": "local-ai",
@@ -3485,23 +3499,9 @@
       "summary": "Patch release: v5.20.2 This patch notably solves an issue where some inputs could loose their original type inside prepare_inputs_for_generation in generate , leading to problems with multimodal models. It also fixes some other issues listed on the below commits. It contains the following commits: Fix inputs dict casting in generate ( #49731 ) by @Cyrilvallez Fix zero expert gradients in bfloat16 with expert parallelism and ep_size < fsdp_size ( #49688 ) by @qgallouedec Declare the input modalities of the VLMs that report text only ( #49677 ) by @qgallouedec Avoid a host-to-device copy in eager_mask ( #49684 ) by @hmellor",
       "title": "Patch release v5.20.2",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "37d5d89bc2e5a3ea388e33a1",
-      "discovered_at": "2026-10-18T19:28:59Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-18T18:08:15Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "cuda : fuse qwen4exp's SCALE -> SIGMOID -> SCALE -> hc_post chain ( #30602 ) Port of the Vulkan HC_POST_GATE fusion ( #29520 ). hc_combine builds the hc_post weights as 2 sigmoid(inject/hc); dsv4_hc_post_f32 now takes a gated template flag and computes scale_out sigmoid(scale_in*p) from the raw weights, so the chain runs as one kernel instead of four. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57168730 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11721",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11721"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-24T13:24:24Z",
+  "updated_at": "2026-10-24T16:57:32Z",
   "version": 2
 }

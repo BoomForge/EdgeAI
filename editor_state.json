@@ -47,9 +47,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-24T13:39:34Z",
-    "eligible": 48,
-    "evaluated": 4,
+    "at": "2026-10-24T17:01:45Z",
+    "eligible": 42,
+    "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -1104,6 +1104,20 @@
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11447"
+    },
+    "2a3dd5d4c32cefa4bce14488": {
+      "at": "2026-10-24T17:01:45Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-perturbai-gpt-rosalind-brain-cell-agents",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "2a417b80bb390145cbda96e2": {
       "at": "2026-10-12T17:49:33Z",
@@ -2380,6 +2394,11 @@
       "story_key": "llamacpp-b11535-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11535"
     },
+    "5a6540f611150615aecd2bc6": {
+      "at": "2026-10-24T17:01:31Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/elevenlabs-realtime-translation"
+    },
     "5a75b8a901e4f4a9de9bb579": {
       "at": "2026-10-04T11:20:58Z",
       "bootstrap": true,
@@ -3128,6 +3147,11 @@
       "status": "ignored",
       "story_key": "huggingface-transformers-v5-20-2-patch",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2"
+    },
+    "76744d828500bda5b632e17e": {
+      "at": "2026-10-24T17:01:31Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0"
     },
     "775cce2b8f031ba723e503c1": {
       "at": "2026-10-07T06:34:08Z",
@@ -4057,6 +4081,20 @@
       },
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "9ab433de0f8262ff60bdfce1": {
+      "at": "2026-10-24T17:01:37Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "openai-chatgpt-ad-stack-revenue",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://openai.com/index/building-chatgpt-ad-stack/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "9b2f8ba750283adbd5d7c4a3": {
       "at": "2026-10-05T07:02:23Z",
       "bootstrap": true,
@@ -4884,6 +4922,11 @@
         "source": "FutureTools AI News"
       },
       "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "bb132bf741e1159b4d9c3028": {
+      "at": "2026-10-24T17:01:31Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8"
     },
     "bc04e68ea0738a77a4404dd8": {
       "at": "2026-10-11T18:49:43Z",
@@ -5785,6 +5828,11 @@
         "source": "FutureTools AI News"
       },
       "url": "https://openai.com/index/openai-models-google-cloud/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "e0e7f9f0f4ba064a212b5a0e": {
+      "at": "2026-10-24T17:01:31Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/21/panache/"
     },
     "e1f52aa5c9ca591760756c0c": {
       "at": "2026-10-11T18:49:43Z",
@@ -9477,6 +9525,27 @@
         "source": "OpenAI News"
       }
     },
+    "openai-chatgpt-ad-stack-revenue": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-chatgpt-ad-stack-revenue.jpg",
+      "last_updated": "2026-10-24T17:01:37Z",
+      "post_id": "723029680662416129",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-details-llm-powered-chatgpt-ad.html",
+      "score": 88,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/GsY5RrFvT4ZOnPC3oZUya/e3168194d55c5d9c8060ce5c5ba6c3ed/building-chatgpt-ad-stack-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/building-chatgpt-ad-stack/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Details LLM-Powered ChatGPT Ad Stack and Reports $1B Run Rate",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      }
+    },
     "openai-chatgpt-ads-expansion-89-countries": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-chatgpt-ads-expansion-89-countries.jpg",
@@ -9968,6 +10037,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "OpenAI News"
+      }
+    },
+    "openai-perturbai-gpt-rosalind-brain-cell-agents": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-perturbai-gpt-rosalind-brain-cell-agents.jpg",
+      "last_updated": "2026-10-24T17:01:45Z",
+      "post_id": "8747939795822798225",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-and-perturbai-deploy-thousands.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/5Uhfx9LWwXWN8zKg7a6aNi/021edebfedf0c6f9638f929ba23900ab/scaling-ai-biological-data-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/scaling-ai-research-for-complex-biological-data/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI and PerturbAI Deploy Thousands of GPT-Rosalind Agents to Analyze Brain Cell Data",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "openai-perturbai-scripps-thousands-ai-agents-biological-data": {

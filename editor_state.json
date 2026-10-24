@@ -47,12 +47,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-24T19:28:10Z",
-    "eligible": 41,
+    "at": "2026-10-24T21:45:04Z",
+    "eligible": 31,
     "evaluated": 5,
     "mode": "live",
-    "new_posts": 0,
-    "publish_actions": 0,
+    "new_posts": 1,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -579,6 +579,14 @@
       "at": "2026-10-23T19:34:52Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/dotmd-3"
+    },
+    "16576bf8c3e2a0281344f8a1": {
+      "at": "2026-10-24T21:44:57Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-release-b11828",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11828"
     },
     "16a30527ab41fa506f92501c": {
       "at": "2026-10-23T19:34:52Z",
@@ -1772,6 +1780,14 @@
       "story_key": "openai-usage-policies-and-partner-safety-standards-2026",
       "url": "https://openai.com/index/broad-access-through-consistent-standards"
     },
+    "3f3b9cf3711f8a8a4b19a738": {
+      "at": "2026-10-24T21:45:04Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "llamacpp-b11822-patch",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11822"
+    },
     "3fbcb9b67843708734726082": {
       "at": "2026-10-16T22:03:17Z",
       "status": "expired",
@@ -2394,6 +2410,14 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11448"
     },
+    "5999e957f142fc2da964d70d": {
+      "at": "2026-10-24T21:44:55Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b11851-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11851"
+    },
     "5a12e63bd486b58edf031728": {
       "at": "2026-10-11T22:31:35Z",
       "bootstrap": false,
@@ -2763,6 +2787,11 @@
       "at": "2026-10-12T17:49:23Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11515"
+    },
+    "65882ee49dd3bdda47b9f4a2": {
+      "at": "2026-10-24T21:44:53Z",
+      "status": "expired",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "65cf245591aca8f20d74430c": {
       "at": "2026-10-11T18:49:43Z",
@@ -3181,6 +3210,11 @@
       "at": "2026-10-24T17:01:31Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0"
+    },
+    "76a940fe4a3b3c0bc456adf0": {
+      "at": "2026-10-24T21:44:53Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/claude"
     },
     "775cce2b8f031ba723e503c1": {
       "at": "2026-10-07T06:34:08Z",
@@ -3713,6 +3747,20 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-updates-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-9e4133004a6812b634ce"
+    },
+    "8c177b37ece0d145f22fb5f2": {
+      "at": "2026-10-24T21:45:02Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "ollama-v0-40-10-nvidia-nemotron-3-5-bolt-support",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Ollama Releases"
+      },
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10"
     },
     "8c74524609568ff648dd99b6": {
       "at": "2026-10-07T13:59:34Z",
@@ -4473,6 +4521,11 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://openrouter.ai/rankings#edgeai-cd070dfc6907242d4a56"
+    },
+    "a48e52007960d5cfdfe36b4d": {
+      "at": "2026-10-24T21:44:53Z",
+      "status": "expired",
+      "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps?utm_source=futuretools.io&utm_medium=newspage"
     },
     "a52615d03b6849c8c0ea3f2e": {
       "at": "2026-10-03T10:41:09Z",
@@ -5279,6 +5332,11 @@
       },
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11781"
     },
+    "c95ddbc579654aa65129e4e7": {
+      "at": "2026-10-24T21:44:53Z",
+      "status": "expired",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "c9fca9e521cbe2a9fefa9d0a": {
       "at": "2026-10-03T04:48:48Z",
       "bootstrap": true,
@@ -5386,6 +5444,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/craft-agents"
     },
+    "cf894e084a2188fe36b6d687": {
+      "at": "2026-10-24T21:44:53Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/bits-4"
+    },
     "cfa14935e06b790ed18d220c": {
       "at": "2026-10-16T18:54:59Z",
       "status": "expired",
@@ -5400,6 +5463,14 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38203"
+    },
+    "d1879513a33727bd29220105": {
+      "at": "2026-10-24T21:44:58Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "battledrones-v14-compass-rose",
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones/"
     },
     "d1dfcca4ed604925cb790620": {
       "at": "2026-10-10T18:31:43Z",
@@ -9358,6 +9429,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 88,
         "source": "Nous Research Announcements"
+      }
+    },
+    "ollama-v0-40-10-nvidia-nemotron-3-5-bolt-support": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/ollama-v0-40-10-nvidia-nemotron-3-5-bolt-support.png",
+      "last_updated": "2026-10-24T21:45:02Z",
+      "post_id": "4987736877619556652",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/ollama-v04010-released-with-nvidia.html",
+      "score": 85,
+      "source_image_source": "Ollama Releases",
+      "source_image_url": "https://opengraph.githubassets.com/230b9956d8a47505cbd7c1a735e64cdd9b1105a3d63e01d91c49b2490b6fe327/ollama/ollama/releases/tag/v0.40.10",
+      "source_urls": [
+        "https://github.com/ollama/ollama/releases/tag/v0.40.10"
+      ],
+      "status": "CONFIRMED",
+      "title": "Ollama v0.40.10 Released with NVIDIA Nemotron 3.5 Bolt Support",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Ollama Releases"
       }
     },
     "ollama-v0-40-5-nemotron-3-5-support-cloud-decision-models": {

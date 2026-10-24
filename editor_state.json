@@ -47,12 +47,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-24T17:01:45Z",
-    "eligible": 42,
-    "evaluated": 2,
+    "at": "2026-10-24T19:28:10Z",
+    "eligible": 41,
+    "evaluated": 5,
     "mode": "live",
-    "new_posts": 2,
-    "publish_actions": 2,
+    "new_posts": 0,
+    "publish_actions": 0,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -1166,6 +1166,14 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-updates-october-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-0c571b26db3fe2459e7c"
+    },
+    "2cc234a0974badebe317f780": {
+      "at": "2026-10-24T19:28:10Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11803-flint-model",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11803"
     },
     "2d1ba5f9cd87f735ba5c106b": {
       "at": "2026-10-08T13:20:55Z",
@@ -2558,6 +2566,11 @@
       "status": "expired",
       "url": "https://openai.com/index/devday-2026-recap"
     },
+    "60cdd6b596008249bf482a06": {
+      "at": "2026-10-24T19:28:01Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/21/php-security-release/"
+    },
     "6138ec733e3c4420aa012e01": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -2769,6 +2782,14 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/teens-learn-and-plan"
+    },
+    "664553e7007c199f396852d8": {
+      "at": "2026-10-24T19:28:07Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llama-cpp-b11856-speculative-rejection-test",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11856"
     },
     "6676883e07115b3ec1aaa9de": {
       "at": "2026-10-10T21:56:54Z",
@@ -3079,6 +3100,14 @@
         "source": "ElevenLabs Research"
       },
       "url": "https://elevenlabs.io/blog/eleven-v3-is-now-generally-available"
+    },
+    "73adbc32b729a69f60721831": {
+      "at": "2026-10-24T19:28:08Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "llamacpp-b11818-rerank-updates",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11818"
     },
     "73c05de96ed57d2467556098": {
       "at": "2026-10-18T04:56:02Z",
@@ -4669,6 +4698,14 @@
       "story_key": "llamacpp-b11741-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11741"
     },
+    "aea96708fb85aeadbd7902a9": {
+      "at": "2026-10-24T19:28:05Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "nous-research-hermes-agent-updates",
+      "url": "https://x.com/NousResearch/status/2114029282892595467"
+    },
     "af0bc63417beb8c2d29ba736": {
       "at": "2026-10-07T13:59:34Z",
       "status": "expired",
@@ -4879,6 +4916,14 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38194"
+    },
+    "b961263fdf3fde56106f3df8": {
+      "at": "2026-10-24T19:28:03Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "llamacpp-b11861-minimax-m3-quant-fix",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11861"
     },
     "b984a5c544e6313764ddbb1c": {
       "at": "2026-10-19T20:15:23Z",

@@ -47,9 +47,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-24T01:10:28Z",
-    "eligible": 58,
-    "evaluated": 3,
+    "at": "2026-10-24T05:47:46Z",
+    "eligible": 52,
+    "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -3363,6 +3363,20 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11403"
     },
+    "839d7313354d9b07e067fd2b": {
+      "at": "2026-10-24T05:47:46Z",
+      "bootstrap": false,
+      "score": 93,
+      "status": "published",
+      "story_key": "openai-decisions-api-gpt-6-luna",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://openai.com/index/decisions-api/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "840978c2e6f28318fa694682": {
       "at": "2026-10-12T17:49:23Z",
       "status": "expired",
@@ -4071,6 +4085,11 @@
       "status": "expired",
       "url": "https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "9d97e084d9511587a8bca369": {
+      "at": "2026-10-24T05:47:37Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11780"
+    },
     "9da6f55621f5cd4edf72d52f": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -4132,6 +4151,20 @@
       "at": "2026-10-09T03:09:32Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5"
+    },
+    "9f11a45ca27b4f2df7b9db57": {
+      "at": "2026-10-24T05:47:42Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "claude-platform-google-cloud-anthropic-managed",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed?utm_source=futuretools.io&utm_medium=newspage"
     },
     "9f94445088fd7296d301f6fc": {
       "at": "2026-10-09T10:27:28Z",
@@ -5040,6 +5073,11 @@
       "story_key": "simon-willison-web-edit-0-1a2",
       "url": "https://simonwillison.net/2026/Oct/17/web-edit/"
     },
+    "c73ed4d8f3f6b0a94c43af5b": {
+      "at": "2026-10-24T05:47:37Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/agent-pets"
+    },
     "c7b0200c3990590eaf3a7f26": {
       "at": "2026-10-04T11:21:06Z",
       "bootstrap": true,
@@ -5898,6 +5936,11 @@
       "at": "2026-10-23T05:59:56Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/lugh-xtudio"
+    },
+    "e8e969fb649a6a4765a72a84": {
+      "at": "2026-10-24T05:47:37Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/mouse-1"
     },
     "e90be0694fe4344005cda733": {
       "at": "2026-10-10T07:33:39Z",
@@ -7343,6 +7386,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 86,
         "source": "browser-use Releases"
+      }
+    },
+    "claude-platform-google-cloud-anthropic-managed": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/claude-platform-google-cloud-anthropic-managed.jpg",
+      "last_updated": "2026-10-24T05:47:42Z",
+      "post_id": "1863335313351678494",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-launches-fully-managed-claude.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed/opengraph-image/og",
+      "source_urls": [
+        "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Launches Fully Managed Claude Platform on Google Cloud with Day-Zero Feature Parity",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "claude-science-first-complete-uv-sky-map": {
@@ -9363,6 +9427,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 91,
         "source": "OpenAI News"
+      }
+    },
+    "openai-decisions-api-gpt-6-luna": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-decisions-api-gpt-6-luna.jpg",
+      "last_updated": "2026-10-24T05:47:46Z",
+      "post_id": "3495717647946579585",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-launches-decisions-api-powered.html",
+      "score": 93,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/2oP82PTDAPhlalF1TRNt8Q/af6bb8e886e29d6e0880c75a0de781f8/build-more-responsive-apps-with-the-decisions-api-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/decisions-api/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Launches Decisions API Powered by GPT-6 Luna for Fast App Routing and Classification",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "openai-disrupts-ai-enabled-false-front-influence-operations-2026": {

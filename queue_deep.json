@@ -2382,6 +2382,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "0ef9150d64f8dd2ccc3f6ea9",
+      "discovered_at": "2026-10-24T11:25:53Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-22T11:14:06-07:00",
+      "search_score": 5,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Let AI agents sign in for you without seeing your passwords Discussion | Link",
+      "title": "1Password for Agents",
+      "url": "https://www.producthunt.com/products/1password"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "da94d6b5b8908134c53c7745",
       "discovered_at": "2026-10-20T10:21:00Z",
       "kind": "signal",
@@ -2620,6 +2634,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "a00826147dcbb65b836f4713",
+      "discovered_at": "2026-10-24T11:25:53Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-23T06:28:40-07:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Local AI for dictation, meetings, background tasks and more Discussion | Link",
+      "title": "sideOS.ai",
+      "url": "https://www.producthunt.com/products/sideos-ai"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "f7fda8171297815a5553f115",
       "discovered_at": "2026-10-23T10:24:14Z",
       "kind": "signal",
@@ -2746,6 +2774,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-24T06:16:18Z",
+  "updated_at": "2026-10-24T11:25:58Z",
   "version": 2
 }

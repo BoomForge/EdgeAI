@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-24T06:16:19Z",
+    "at": "2026-10-24T11:25:58Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 0,
+    "prefiltered": 4,
+    "queued": 2,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 7,
     "warnings": 0
   },
-  "runs": 112,
+  "runs": 113,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -348,6 +348,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/le-chonk/"
     },
+    "0ef9150d64f8dd2ccc3f6ea9": {
+      "first_seen": "2026-10-24T11:25:53Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/1password"
+    },
     "1020060f6ff9f5860cc92152": {
       "first_seen": "2026-10-23T10:24:14Z",
       "search_score": 0,
@@ -421,6 +426,11 @@
       "first_seen": "2026-10-13T10:55:50Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/hirekai"
+    },
+    "12ade2b1aa2eb906dea602f4": {
+      "first_seen": "2026-10-24T11:25:53Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/linkintel"
     },
     "12be8f4a83ee4bade85db387": {
       "first_seen": "2026-10-14T07:31:56Z",
@@ -1109,6 +1119,11 @@
       "status": "queued",
       "url": "https://blog.youtube/news-and-events/youtube-music-ai-labels/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "32b6aa29441601a9d3cb7db0": {
+      "first_seen": "2026-10-24T11:25:53Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/zcad-ai"
+    },
     "3360920a5dc85c27087b9112": {
       "first_seen": "2026-10-21T11:41:37Z",
       "status": "too_old",
@@ -1226,6 +1241,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://runway.com/news/research"
+    },
+    "376d0c81956afb62f601cfab": {
+      "first_seen": "2026-10-24T11:25:53Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/how-it-went"
     },
     "3774108e3713e3617bf731a6": {
       "first_seen": "2026-10-10T11:25:14Z",
@@ -1460,6 +1480,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://elevenlabs.io/blog/introducing-scribe-v2"
+    },
+    "41d099216188ee8aa5c2e2bc": {
+      "first_seen": "2026-10-24T11:25:53Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/many-displays"
     },
     "423cd4e96b171d29f543e506": {
       "first_seen": "2026-10-17T08:44:04Z",
@@ -2817,6 +2842,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/crosswalk"
     },
+    "7e757af485340b5175ace169": {
+      "first_seen": "2026-10-24T11:25:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/canva"
+    },
     "7e7d4eb62ecc02a7012b70ca": {
       "first_seen": "2026-10-11T09:11:21Z",
       "status": "too_old",
@@ -3072,6 +3103,11 @@
       "first_seen": "2026-10-20T10:21:00Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/the-new-beings"
+    },
+    "885e6bb6c732f66f15f43abb": {
+      "first_seen": "2026-10-24T11:25:53Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/shedi"
     },
     "88b68a1cf767a91706169022": {
       "first_seen": "2026-10-17T08:44:04Z",
@@ -3557,6 +3593,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/beam-win"
     },
+    "a00826147dcbb65b836f4713": {
+      "first_seen": "2026-10-24T11:25:53Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/sideos-ai"
+    },
     "a056268300c5b68e6b2cf85b": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -3992,6 +4033,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/openvids"
     },
+    "b3243385a12d4b4fd8982e78": {
+      "first_seen": "2026-10-24T11:25:53Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/agentvalley"
+    },
     "b35a9d9520c678a8602023fa": {
       "first_seen": "2026-10-14T13:07:10Z",
       "search_score": 0,
@@ -4043,6 +4089,11 @@
       "first_seen": "2026-10-21T23:32:26Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-44a0d5d393794d6503c5"
+    },
+    "b66f552a070814a0c663b095": {
+      "first_seen": "2026-10-24T11:25:53Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/mypip-2"
     },
     "b6813875e7c1d6b069d9d1be": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -4315,6 +4366,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/eat-train-feel"
     },
+    "c1499eb51ba3ed7505b59c3b": {
+      "first_seen": "2026-10-24T11:25:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/penta-cd-player-changer"
+    },
     "c21a731587b9df7d6cdf942e": {
       "first_seen": "2026-10-20T10:21:00Z",
       "search_score": 0,
@@ -4557,6 +4614,12 @@
       "first_seen": "2026-10-13T18:14:15Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/vincentt"
+    },
+    "d133b95a5a1bb59f10379916": {
+      "first_seen": "2026-10-24T11:25:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/river-writer"
     },
     "d1608caf25486f9e641dbeef": {
       "first_seen": "2026-10-16T14:48:14Z",
@@ -5080,6 +5143,12 @@
       "first_seen": "2026-10-07T16:48:32Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/redlamp"
+    },
+    "ea9b2e623c829fe67956d1ee": {
+      "first_seen": "2026-10-24T11:25:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/byter"
     },
     "eb333a2d7512ce898ff99eac": {
       "first_seen": "2026-10-22T07:30:04Z",

@@ -47,12 +47,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-25T12:32:43Z",
-    "eligible": 18,
+    "at": "2026-10-25T16:44:42Z",
+    "eligible": 15,
     "evaluated": 5,
     "mode": "live",
-    "new_posts": 0,
-    "publish_actions": 0,
+    "new_posts": 2,
+    "publish_actions": 2,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -510,6 +510,14 @@
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0"
     },
+    "12323df3c35d6104e63ac303": {
+      "at": "2026-10-25T16:44:30Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "llamacpp-b11874-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11874"
+    },
     "1244a96b60ce187188fe2460": {
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
@@ -532,6 +540,14 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11365"
+    },
+    "133d4b09bc8d1a8236b16039": {
+      "at": "2026-10-25T16:44:34Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "llama-cpp-b11873-opencl-q2-k",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11873"
     },
     "13d109f5467363c930ba93d5": {
       "at": "2026-10-18T09:31:11Z",
@@ -2793,6 +2809,14 @@
       "story_key": "black-forest-labs-brand-guidelines-update",
       "url": "https://bfl.ai/brand"
     },
+    "6414d40d8b7b7cddde8a8308": {
+      "at": "2026-10-25T16:44:27Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "nous-research-mobile-app-fraud-warning",
+      "url": "https://x.com/NousResearch/status/2114340383044063552"
+    },
     "643740d8b1d776507524544b": {
       "at": "2026-10-03T04:50:45Z",
       "bootstrap": true,
@@ -2996,6 +3020,20 @@
         "source": "FutureTools AI News"
       },
       "url": "https://www.anthropic.com/news/genesis-mission-commitment?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "6ab217ca008d834febacb741": {
+      "at": "2026-10-25T16:44:42Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "php2shell-ai-discovered-vulnerability-2026",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down?utm_source=futuretools.io&utm_medium=newspage"
     },
     "6ab4715319297146a5c962b3": {
       "at": "2026-10-20T12:53:44Z",
@@ -3321,6 +3359,11 @@
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11449"
+    },
+    "7809a973bebe33cbe286e509": {
+      "at": "2026-10-25T16:44:24Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/monish"
     },
     "78193f4d45e8f96f3f7b4e68": {
       "at": "2026-10-06T09:19:44Z",
@@ -5288,6 +5331,20 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38260"
+    },
+    "c4040fe52edf29b085000e66": {
+      "at": "2026-10-25T16:44:38Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "microsoft-mai-dxo-medical-diagnostic-ai-science-paper",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://microsoft.ai/news/building-medical-superintelligence/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "c4321ef7d75de25fc04a4646": {
       "at": "2026-10-05T07:01:46Z",
@@ -8972,6 +9029,27 @@
         "source": "FutureTools AI News"
       }
     },
+    "microsoft-mai-dxo-medical-diagnostic-ai-science-paper": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/microsoft-mai-dxo-medical-diagnostic-ai-science-paper.jpg",
+      "last_updated": "2026-10-25T16:44:38Z",
+      "post_id": "2838793403072042435",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/microsoft-unveils-mai-dxo-claiming.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://microsoft.ai/wp-content/uploads/2026/10/health_v5_stat_typeset.webp",
+      "source_urls": [
+        "https://microsoft.ai/news/building-medical-superintelligence/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Microsoft Unveils MAI-DxO, Claiming Superior Diagnostic Accuracy Over Physicians in New Study",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      }
+    },
     "minimax-code-mini-app": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/minimax-code-mini-app.jpg",
@@ -10656,6 +10734,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 83,
         "source": "OpenRouter Rankings"
+      }
+    },
+    "php2shell-ai-discovered-vulnerability-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/php2shell-ai-discovered-vulnerability-2026.jpg",
+      "last_updated": "2026-10-25T16:44:42Z",
+      "post_id": "8579827109032582064",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/massive-php2shell-vulnerabilities.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/VRG_ILLO_STK001_carlo_cadenas_cybersecurity_virus.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "source_urls": [
+        "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Massive PHP2Shell Vulnerabilities Expose Web Infrastructure as AI-Assisted Exploits Surface",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "qwen-gspo-reinforcement-learning-algorithm": {

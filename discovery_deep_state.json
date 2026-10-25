@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-25T00:29:53Z",
+    "at": "2026-10-25T05:23:23Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 0,
+    "queued": 1,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 118,
+  "runs": 119,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -4608,6 +4608,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/simo-3"
+    },
+    "d0103d243f213f75b5c2ce44": {
+      "first_seen": "2026-10-25T05:23:22Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2114169327968469133"
     },
     "d09fd65332f82cfcb2b3597b": {
       "first_seen": "2026-10-13T10:55:50Z",

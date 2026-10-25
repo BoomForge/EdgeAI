@@ -47,12 +47,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-25T19:19:18Z",
-    "eligible": 13,
+    "at": "2026-10-25T21:59:04Z",
+    "eligible": 8,
     "evaluated": 5,
     "mode": "live",
-    "new_posts": 1,
-    "publish_actions": 1,
+    "new_posts": 0,
+    "publish_actions": 0,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -115,6 +115,11 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-updates",
       "url": "https://artificialanalysis.ai/changelog#edgeai-955ba114b67aea6e882c"
+    },
+    "01619fc955cc4a4bfbd33fc3": {
+      "at": "2026-10-25T21:58:57Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/peras"
     },
     "0187c1ea444100fc48e8ae46": {
       "at": "2026-10-04T05:44:56Z",
@@ -1859,6 +1864,14 @@
       "story_key": "llamacpp-b11822-patch",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11822"
     },
+    "3f465524e152c3fd7e95efe5": {
+      "at": "2026-10-25T21:59:04Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "termi-protocol-product-hunt",
+      "url": "https://www.producthunt.com/products/termi-protocol"
+    },
     "3fbcb9b67843708734726082": {
       "at": "2026-10-16T22:03:17Z",
       "status": "expired",
@@ -2509,6 +2522,14 @@
       "story_key": "runway-enterprise-promo-contact-sales",
       "url": "https://runway.com/enterprise-contact?utm_source=runway&utm_medium=homepagebanner&utm_campaign=twomonthsentfree"
     },
+    "5947ec3b9f690fa4163dc20f": {
+      "at": "2026-10-25T21:58:59Z",
+      "bootstrap": false,
+      "score": 65,
+      "status": "ignored",
+      "story_key": "llamacpp-b11886-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11886"
+    },
     "596e4c670db88f61b964087d": {
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
@@ -2752,6 +2773,14 @@
       "status": "ignored",
       "story_key": "mistral-large-4-simon-willison-comment",
       "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/"
+    },
+    "62664a385d3d9da7001ccd59": {
+      "at": "2026-10-25T21:59:03Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "papermark-virtual-data-room-ai-agents",
+      "url": "https://www.producthunt.com/products/papermark-2"
     },
     "62801524708e495abde98e4c": {
       "at": "2026-10-09T17:07:50Z",
@@ -4737,6 +4766,14 @@
       "status": "expired",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.3"
     },
+    "a770c4b21acb29e5260ad5da": {
+      "at": "2026-10-25T21:59:02Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "claude-code-generated-explainer-videos-futurepedia",
+      "url": "https://newsletter.futurepedia.io/p/claude-can-make-videos-without-a-video-generator-10-23-2026"
+    },
     "a78a7dd6f5101f71bfa84705": {
       "at": "2026-10-18T00:26:49Z",
       "bootstrap": false,
@@ -6606,6 +6643,14 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.814-beta"
+    },
+    "f01e1d1f7f1967bc58c6859a": {
+      "at": "2026-10-25T21:59:00Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "agent-hunt-product-hunt",
+      "url": "https://www.producthunt.com/products/monid"
     },
     "f046fa1f0c2a4483a15cbd04": {
       "at": "2026-10-25T06:58:10Z",

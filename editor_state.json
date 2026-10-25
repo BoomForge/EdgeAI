@@ -47,9 +47,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-24T23:47:33Z",
-    "eligible": 24,
-    "evaluated": 3,
+    "at": "2026-10-25T01:45:34Z",
+    "eligible": 21,
+    "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -3149,6 +3149,20 @@
       },
       "url": "https://elevenlabs.io/blog/eleven-v3-is-now-generally-available"
     },
+    "72dc99e3e91ddfb8cbe17dd5": {
+      "at": "2026-10-25T01:45:31Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "openai-azure-cosmos-db-scaling-chatgpt",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "72dec636484c9abfcf850523": {
       "at": "2026-10-24T23:47:18Z",
       "status": "expired",
@@ -5453,6 +5467,20 @@
       "story_key": "sakana-ai-scsk-sumitomo-partnership-2026",
       "url": "https://sakana.ai/scsk-sc-partnership/"
     },
+    "ce4185c7dd04efe88125209f": {
+      "at": "2026-10-25T01:45:34Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "canva-craft-image-generation-model",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "ce7a8790e53e0e8fbce51560": {
       "at": "2026-10-12T23:48:45Z",
       "status": "expired",
@@ -7709,6 +7737,27 @@
         "source": "browser-use Releases"
       }
     },
+    "canva-craft-image-generation-model": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/canva-craft-image-generation-model.jpg",
+      "last_updated": "2026-10-25T01:45:34Z",
+      "post_id": "1117810657351918841",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/canva-releases-in-house-canva-craft.html",
+      "score": 85,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Sample-Outputs.jpeg?resize=1200,675",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Canva Releases In-House 'Canva Craft' Image Generation Model",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      }
+    },
     "claude-enterprise-unified-chat-cowork": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/claude-enterprise-unified-chat-cowork.jpg",
@@ -9705,6 +9754,27 @@
         "label": "Caution",
         "reason": "There is a credible signal, but the available evidence is not yet complete enough for high confidence. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
         "score": 46,
+        "source": "FutureTools AI News"
+      }
+    },
+    "openai-azure-cosmos-db-scaling-chatgpt": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-azure-cosmos-db-scaling-chatgpt.jpg",
+      "last_updated": "2026-10-25T01:45:31Z",
+      "post_id": "5355417665856089073",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-details-scaling-chatgpt-storage.html",
+      "score": 82,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/1p8WL4wct7MU8nnw6609WL/6ae794fe4cc93d37cc095d4d45730669/scaling-storage-one-billion-users-part-two-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/scaling-storage-one-billion-users-part-two/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Details Scaling ChatGPT Storage to 1 Billion Users via Azure Cosmos DB",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
         "source": "FutureTools AI News"
       }
     },

@@ -2802,20 +2802,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "3830488492cf97e234c693ed",
-      "discovered_at": "2026-10-11T14:10:34Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-11T13:34:31Z",
-      "search_score": 10,
-      "source_name": "llama.cpp Releases",
-      "summary": "model :  support for Prism Bonsai 2 27B ( #29600 ) Runtime support for Prism Bonsai 2 27B Assisted-by: Claude Code address prism hadamard runtime feedback move hadamard tensors into method, define folded weight load_* hadamard fixes cont : clean-up conversion cleanup Assisted-by: Claude Code prism hadamard key and methods for converter Assisted-by: Claude Code address review bot feedback Assisted-by: Claude Code Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54799696 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11556",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11556"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "664553e7007c199f396852d8",
       "discovered_at": "2026-10-24T16:57:11Z",
       "kind": "local-ai",
@@ -3488,20 +3474,34 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "086ef25257c10bd98a8e5547",
-      "discovered_at": "2026-10-25T09:01:39Z",
+      "candidate_id": "12323df3c35d6104e63ac303",
+      "discovered_at": "2026-10-25T13:40:42Z",
       "kind": "local-ai",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-10-25T06:31:38Z",
+      "published": "2026-10-25T13:33:31Z",
       "search_score": 5,
       "source_name": "llama.cpp Releases",
-      "summary": "chat : reject JSON nested more than 128 levels before walking it ( #30242 ) chat : reject JSON nested more than 128 levels before walking it The schema builder, the jinja engine and the decision code walk request JSON with recursion. A request nested deep enough overflows the stack of the HTTP thread and llama-server dies (SIGBUS on macOS, SIGSEGV on Linux): for a tool schema from a few hundred levels on macOS and about 10000 on Linux. Check the depth first and answer 400 past 128 levels: the chat inputs in common_chat_templates_apply (tools, tool-call arguments, chat_template_kwargs, json_schema), the json_schema of /completion, and the whole /v1/systemone body. A gemma4 tool result that is too deep stays text. fix the root, not the call side Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59557647 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11871",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11871"
+      "summary": "opencl: add topk and lightning indexer ( #31026 ) opencl: add topk opencl: optimize topk opencl: add fp lightning indexer opencl: optimize lightning indexer opencl: refactor opencl: refactor tiled topk kernel opencl: adjust format Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59622642 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11874",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11874"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "133d4b09bc8d1a8236b16039",
+      "discovered_at": "2026-10-25T13:40:42Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-25T12:27:17Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "opencl: add initial q2_k support ( #30999 ) opencl: add mul_mv_q2_k_f32 opencl: add q2_k SOA mv and tiled mm opencl: add q2_k noshuffle gemm/gemv for adreno opencl: add q2_k dp4a gemm for adreno Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: tune q2_k kernels for adreno Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59612922 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11873",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11873"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-25T09:02:05Z",
+  "updated_at": "2026-10-25T13:41:05Z",
   "version": 2
 }

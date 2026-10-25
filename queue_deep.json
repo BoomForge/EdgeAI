@@ -2214,6 +2214,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "be773f113ad6fd84eed160c0",
+      "discovered_at": "2026-10-25T10:01:09Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-23T19:40:27-07:00",
+      "search_score": 7,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "One local AI server for all your Windows apps Discussion | Link",
+      "title": "Llama Windows",
+      "url": "https://www.producthunt.com/products/llama-windows"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "f01e1d1f7f1967bc58c6859a",
       "discovered_at": "2026-10-23T10:24:14Z",
       "kind": "signal",
@@ -2480,6 +2494,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "62664a385d3d9da7001ccd59",
+      "discovered_at": "2026-10-25T10:01:09Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-24T12:09:46-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Secure data rooms your AI agents can run. Live in < 60 sec. Discussion | Link",
+      "title": "Papermark Virtual Data Room",
+      "url": "https://www.producthunt.com/products/papermark-2"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "3f465524e152c3fd7e95efe5",
       "discovered_at": "2026-10-23T10:24:14Z",
       "kind": "signal",
@@ -2648,6 +2676,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "33aa528b7cafa35534b800b3",
+      "discovered_at": "2026-10-25T10:01:09Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-24T22:39:16-07:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Shared workspace for humans and agents Discussion | Link",
+      "title": "AgentGrid.io",
+      "url": "https://www.producthunt.com/products/agentgrid-io"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "a00826147dcbb65b836f4713",
       "discovered_at": "2026-10-24T11:25:53Z",
       "kind": "signal",
@@ -2788,6 +2830,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-25T05:23:23Z",
+  "updated_at": "2026-10-25T10:01:13Z",
   "version": 2
 }

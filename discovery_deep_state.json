@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-25T05:23:23Z",
+    "at": "2026-10-25T10:01:13Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 1,
+    "prefiltered": 2,
+    "queued": 3,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 7,
     "warnings": 0
   },
-  "runs": 119,
+  "runs": 120,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -1129,6 +1129,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/animatica-autoposer-pro"
     },
+    "33aa528b7cafa35534b800b3": {
+      "first_seen": "2026-10-25T10:01:09Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/agentgrid-io"
+    },
     "33f2ae97818354edc44a7dfe": {
       "first_seen": "2026-10-17T08:44:04Z",
       "status": "too_old",
@@ -1284,6 +1289,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/neophyte"
     },
+    "392f0d7e6d39b0b2d20de3fb": {
+      "first_seen": "2026-10-25T10:01:09Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/clips-by-plastic"
+    },
     "395ffc3e9f574d449ffebf3b": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -1367,6 +1377,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://www.minimax.io/about"
+    },
+    "3dfead77c8b6c533389ef61c": {
+      "first_seen": "2026-10-25T10:01:09Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/specsight"
     },
     "3e03da110d6749f028cfe20f": {
       "first_seen": "2026-10-22T07:30:04Z",
@@ -2232,6 +2247,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/chatgpt-space"
     },
+    "62664a385d3d9da7001ccd59": {
+      "first_seen": "2026-10-25T10:01:09Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/papermark-2"
+    },
     "62801524708e495abde98e4c": {
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "queued",
@@ -2241,6 +2261,11 @@
       "first_seen": "2026-10-07T02:36:56Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/"
+    },
+    "62e0600a22caed7cff4b84fa": {
+      "first_seen": "2026-10-25T10:01:09Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/lexmount-browser"
     },
     "62e56e6557bbca262668ab74": {
       "first_seen": "2026-10-14T21:37:22Z",
@@ -2968,6 +2993,11 @@
       "first_seen": "2026-10-19T21:40:03Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/point-and-yap"
+    },
+    "8377f36fc7180b09f8c22d6b": {
+      "first_seen": "2026-10-25T10:01:09Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/how-it-spread"
     },
     "837a215d9156a905b173528a": {
       "first_seen": "2026-10-05T02:26:11Z",
@@ -3875,6 +3905,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/13/web-edit/"
     },
+    "acf2ca2d8514b223befd526a": {
+      "first_seen": "2026-10-25T10:01:09Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/mrraudit"
+    },
     "adabeb1c4fba292590344eea": {
       "first_seen": "2026-10-19T10:44:24Z",
       "status": "too_old",
@@ -4162,6 +4198,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/toolaby"
     },
+    "b8e89bc0c52f51cc31d07020": {
+      "first_seen": "2026-10-25T10:01:09Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/badgey"
+    },
     "b90abb23275d070b94162f55": {
       "first_seen": "2026-10-11T09:11:21Z",
       "status": "too_old",
@@ -4282,6 +4323,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/superdraft"
+    },
+    "be773f113ad6fd84eed160c0": {
+      "first_seen": "2026-10-25T10:01:09Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/llama-windows"
     },
     "be8fc480c667640aea46906e": {
       "first_seen": "2026-10-07T21:57:53Z",
@@ -4808,6 +4854,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/heal-dev"
     },
+    "da4be82071d1150698fcb2dd": {
+      "first_seen": "2026-10-25T10:01:09Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/pawl"
+    },
     "da5386cfb0b962647e8e6f07": {
       "first_seen": "2026-10-08T16:25:59Z",
       "status": "queued",
@@ -5062,6 +5113,12 @@
       "first_seen": "2026-10-09T19:51:21Z",
       "status": "queued",
       "url": "https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "e59aabed7f24eafb16dff249": {
+      "first_seen": "2026-10-25T10:01:09Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/yourcast"
     },
     "e5bf2fe3c121747cc53874fb": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -5451,6 +5508,11 @@
       "first_seen": "2026-10-09T01:22:21Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/termaxa"
+    },
+    "f72a8550f935e17610d91403": {
+      "first_seen": "2026-10-25T10:01:09Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/openstatus-2"
     },
     "f7595b9269d08c84dbe392da": {
       "first_seen": "2026-10-20T00:43:52Z",

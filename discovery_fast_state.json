@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-25T13:41:05Z",
+    "at": "2026-10-25T17:14:14Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 5,
+    "queued": 8,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 122,
+  "runs": 123,
   "seen": {
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -687,6 +687,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.30465"
     },
+    "190f51ace900a81058c8c56e": {
+      "first_seen": "2026-10-25T17:13:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11881"
+    },
     "19484ef3250af48f56713734": {
       "first_seen": "2026-10-08T14:56:24Z",
       "status": "queued",
@@ -892,6 +897,11 @@
       "first_seen": "2026-10-23T04:34:34Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.30390"
+    },
+    "1f632b2b5ecfc3029c9c2b40": {
+      "first_seen": "2026-10-25T17:13:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11876"
     },
     "1f7cb8c3b36b79676247fe12": {
       "first_seen": "2026-10-21T05:49:37Z",
@@ -2285,6 +2295,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.18889"
     },
+    "54a6525554fa79638ca8fad2": {
+      "first_seen": "2026-10-25T17:13:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11879"
+    },
     "54e63c7fa18f9c6d2103ae28": {
       "first_seen": "2026-10-13T16:25:52Z",
       "status": "queued",
@@ -2985,6 +3000,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11347"
     },
+    "6c930facd5f312051a53bf72": {
+      "first_seen": "2026-10-25T17:13:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11883"
+    },
     "6cd8ea8a7d3bd22f6f20d08d": {
       "first_seen": "2026-10-14T00:36:35Z",
       "status": "queued",
@@ -3221,6 +3241,11 @@
       "first_seen": "2026-10-12T09:24:00Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12625"
+    },
+    "74b249640aafe29a74f05677": {
+      "first_seen": "2026-10-25T17:13:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11877"
     },
     "74c9e10c02543c499970682c": {
       "first_seen": "2026-10-13T16:25:52Z",
@@ -4007,6 +4032,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/arkansas-partnerships/"
+    },
+    "930bbdaab8325f1ed16aa286": {
+      "first_seen": "2026-10-25T17:13:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11882"
     },
     "9338dc45c6a452d39ca8dc50": {
       "first_seen": "2026-10-21T05:49:09Z",
@@ -5615,6 +5645,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11579"
     },
+    "cdda228c6f4088bb0e0b8dcf": {
+      "first_seen": "2026-10-25T17:13:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11878"
+    },
     "cdec551026cbc0789c854deb": {
       "first_seen": "2026-10-10T19:21:11Z",
       "status": "queued",
@@ -6260,6 +6295,11 @@
       "first_seen": "2026-10-16T00:45:08Z",
       "status": "queued",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.12"
+    },
+    "e4c34a60fa6e9314307b8b1a": {
+      "first_seen": "2026-10-25T17:13:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11880"
     },
     "e513ec69bf8cf41b91265073": {
       "first_seen": "2026-10-22T07:18:23Z",

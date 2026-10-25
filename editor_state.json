@@ -47,12 +47,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-25T16:44:42Z",
-    "eligible": 15,
+    "at": "2026-10-25T19:19:18Z",
+    "eligible": 13,
     "evaluated": 5,
     "mode": "live",
-    "new_posts": 2,
-    "publish_actions": 2,
+    "new_posts": 1,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -455,6 +455,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11372"
     },
+    "0ef9150d64f8dd2ccc3f6ea9": {
+      "at": "2026-10-25T19:19:06Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/1password"
+    },
     "0f13c2d1e1b999c1db27117c": {
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
@@ -688,6 +693,14 @@
       "status": "expired",
       "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-voice?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "190f51ace900a81058c8c56e": {
+      "at": "2026-10-25T19:19:08Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11881-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11881"
+    },
     "195086faf712f2609593e186": {
       "at": "2026-10-16T18:55:18Z",
       "bootstrap": false,
@@ -911,6 +924,14 @@
         "source": "Nous Research Announcements"
       },
       "url": "https://x.com/NousResearch/status/2109012611555840069"
+    },
+    "1f632b2b5ecfc3029c9c2b40": {
+      "at": "2026-10-25T19:19:11Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11876-vulkan-fix",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11876"
     },
     "1f6a7ac23b124288368f68ff": {
       "at": "2026-10-09T21:38:57Z",
@@ -2336,6 +2357,20 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/muse-22"
+    },
+    "54a6525554fa79638ca8fad2": {
+      "at": "2026-10-25T19:19:16Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "llama-cpp-b11879-cuda-ffn-glu-fusion",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
+      },
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11879"
     },
     "54ed88bfa16aa334327fb5bf": {
       "at": "2026-10-11T00:57:13Z",
@@ -5228,6 +5263,14 @@
       "story_key": "llamacpp-b11747-routine-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11747"
     },
+    "be773f113ad6fd84eed160c0": {
+      "at": "2026-10-25T19:19:18Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "llama-windows",
+      "url": "https://www.producthunt.com/products/llama-windows"
+    },
     "be8fc480c667640aea46906e": {
       "at": "2026-10-10T21:57:08Z",
       "bootstrap": false,
@@ -5584,6 +5627,14 @@
         "source": "Runway Research"
       },
       "url": "https://runway.com/research/how-real-time-video-generation-is-changing-online-interaction"
+    },
+    "cdda228c6f4088bb0e0b8dcf": {
+      "at": "2026-10-25T19:19:10Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11878-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11878"
     },
     "cdec551026cbc0789c854deb": {
       "at": "2026-10-13T23:04:15Z",
@@ -8728,6 +8779,27 @@
       ],
       "status": "CONFIRMED",
       "title": "llama.cpp Release b11714 Adds Hugging Face Hub Model Discovery and Download UI",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
+      }
+    },
+    "llama-cpp-b11879-cuda-ffn-glu-fusion": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/llama-cpp-b11879-cuda-ffn-glu-fusion.png",
+      "last_updated": "2026-10-25T19:19:16Z",
+      "post_id": "7909581805795596053",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/llamacpp-release-b11879-introduces-cuda.html",
+      "score": 82,
+      "source_image_source": "llama.cpp Releases",
+      "source_image_url": "https://opengraph.githubassets.com/0765b4be0845d720ad5ae2cd89b01855b2ae584a259475f0f3c893c8c53ca35c/ggml-org/llama.cpp/releases/tag/b11879",
+      "source_urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b11879"
+      ],
+      "status": "CONFIRMED",
+      "title": "llama.cpp Release b11879 Introduces CUDA Kernel Fusion for FFN and GLU Operations",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

@@ -2662,6 +2662,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "442c03010979f676ae2f1c87",
+      "discovered_at": "2026-10-25T03:53:00Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-25T02:18:48Z",
+      "search_score": 10,
+      "source_name": "llama.cpp Releases",
+      "summary": "model: DSV4.1 flash ( #31086 ) model : add DeepSeek-V4.1-Flash (deepseek41) deepseek41 : remove MXFP8, convert the Engram table to BF16 deepseek41 : compute the compressed-KV read layers once in the cache deepseek41 : use get_cells() for the shared-history check, drop llama_kv_cache::seq_pos_tok_le deepseek41 : gather the Engram rows in-graph like qwen4exp, drop the host gather deepseek41 : keep the Engram hash constants in hparams.ple_*, one module per Engram layer deepseek41 : drop the LLAMA_DSV41_KV_MIRROR toggle deepseek41 : keep il last in build_hc_mixes deepseek41 : sort the top-k rows before the sparse gather tests : add deepseek41 to the Metal fusion baseline Co-authored-by: Daniel Han danielhanchen@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59523050 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11870",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11870"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "9d97e084d9511587a8bca369",
       "discovered_at": "2026-10-21T05:49:09Z",
       "kind": "local-ai",
@@ -3485,23 +3499,9 @@
       "summary": "sycl : fix get_rows on reordered quantized weights ( #30430 ) Co-authored-by: Sam sam@garagellm.tail7dd858.ts.net Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57598742 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11748",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11748"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "7613bbebfcfc0377de3b6fb6",
-      "discovered_at": "2026-10-19T21:22:43Z",
-      "kind": "open-source",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-19T17:45:37Z",
-      "search_score": 6,
-      "source_name": "Hugging Face Transformers Releases",
-      "summary": "Patch release: v5.20.2 This patch notably solves an issue where some inputs could loose their original type inside prepare_inputs_for_generation in generate , leading to problems with multimodal models. It also fixes some other issues listed on the below commits. It contains the following commits: Fix inputs dict casting in generate ( #49731 ) by @Cyrilvallez Fix zero expert gradients in bfloat16 with expert parallelism and ep_size < fsdp_size ( #49688 ) by @qgallouedec Declare the input modalities of the VLMs that report text only ( #49677 ) by @qgallouedec Avoid a host-to-device copy in eager_mask ( #49684 ) by @hmellor",
-      "title": "Patch release v5.20.2",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-24T23:44:31Z",
+  "updated_at": "2026-10-25T03:53:21Z",
   "version": 2
 }

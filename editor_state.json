@@ -47,8 +47,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-25T01:45:34Z",
-    "eligible": 21,
+    "at": "2026-10-25T06:58:20Z",
+    "eligible": 17,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
@@ -1931,6 +1931,20 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11385"
     },
+    "442c03010979f676ae2f1c87": {
+      "at": "2026-10-25T06:58:20Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "llamaccpp-deepseek-v41-flash-support",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
+      },
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11870"
+    },
     "44a995e3e5a09201313731f5": {
       "at": "2026-10-05T07:02:18Z",
       "bootstrap": true,
@@ -2252,6 +2266,11 @@
       "status": "ignored",
       "story_key": "llamacpp-b11555-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11555"
+    },
+    "52d2852bd491dd26fd15351b": {
+      "at": "2026-10-25T06:58:10Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/cleanslop"
     },
     "546ee585b64064600c6b9739": {
       "at": "2026-10-22T19:22:03Z",
@@ -3057,6 +3076,11 @@
       "at": "2026-10-08T05:56:53Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/spira-ai"
+    },
+    "6ef30b59765d1610423adaf8": {
+      "at": "2026-10-25T06:58:10Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11806"
     },
     "6ef4e425bda93bb00d8adaa9": {
       "at": "2026-10-03T05:49:31Z",
@@ -4038,6 +4062,11 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/block-ai-powered-security"
+    },
+    "950a2f9be429ddd407925dfa": {
+      "at": "2026-10-25T06:58:10Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/resend"
     },
     "956586a3d2805e1ad30b7153": {
       "at": "2026-10-23T15:52:04Z",
@@ -5506,6 +5535,20 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11599"
     },
+    "d0103d243f213f75b5c2ce44": {
+      "at": "2026-10-25T06:58:15Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "nous-research-hermes-agent-updates-october-2026",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2114169327968469133"
+    },
     "d01ebd3c72db89b95dfc9a57": {
       "at": "2026-10-10T18:31:36Z",
       "status": "expired",
@@ -6410,6 +6453,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.814-beta"
+    },
+    "f046fa1f0c2a4483a15cbd04": {
+      "at": "2026-10-25T06:58:10Z",
+      "status": "expired",
+      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st?utm_source=futuretools.io&utm_medium=newspage"
     },
     "f09ae79bc02abf8089372192": {
       "at": "2026-10-22T19:22:03Z",
@@ -8648,6 +8696,27 @@
         "source": "llama.cpp Releases"
       }
     },
+    "llamaccpp-deepseek-v41-flash-support": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/llamaccpp-deepseek-v41-flash-support.png",
+      "last_updated": "2026-10-25T06:58:20Z",
+      "post_id": "915785316629928208",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/llamacpp-adds-native-support-for_0497550640.html",
+      "score": 85,
+      "source_image_source": "llama.cpp Releases",
+      "source_image_url": "https://opengraph.githubassets.com/126e3629a50b61fc7c317a53d349ee7f03f2b48f0765a4863c40820bd4dcb5c9/ggml-org/llama.cpp/releases/tag/b11870",
+      "source_urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b11870"
+      ],
+      "status": "CONFIRMED",
+      "title": "llama.cpp Adds Native Support for DeepSeek-V4.1-Flash",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
+      }
+    },
     "llamaccpp-v070-release": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/llamaccpp-v070-release.png",
@@ -9352,6 +9421,27 @@
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 86,
+        "source": "Nous Research Announcements"
+      }
+    },
+    "nous-research-hermes-agent-updates-october-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/nous-research-hermes-agent-updates-october-2026.png",
+      "last_updated": "2026-10-25T06:58:15Z",
+      "post_id": "8980568369215180419",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-expands-hermes-agent.html",
+      "score": 88,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/media/HVcJzGPWQAAZBnt?format=webp&name=large",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2114169327968469133"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Expands Hermes Agent Capabilities with Shared Computer Spaces and Meshy MCP Integration",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
         "source": "Nous Research Announcements"
       }
     },

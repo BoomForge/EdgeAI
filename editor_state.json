@@ -47,12 +47,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-25T06:58:20Z",
-    "eligible": 17,
-    "evaluated": 2,
+    "at": "2026-10-25T12:32:43Z",
+    "eligible": 18,
+    "evaluated": 5,
     "mode": "live",
-    "new_posts": 2,
-    "publish_actions": 2,
+    "new_posts": 0,
+    "publish_actions": 0,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -298,6 +298,14 @@
         "source": "Nous Research Announcements"
       },
       "url": "https://x.com/NousResearch/status/2108202803449692620"
+    },
+    "086ef25257c10bd98a8e5547": {
+      "at": "2026-10-25T12:32:23Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "llama-cpp-b11871-json-depth-fix",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11871"
     },
     "08913be196df8938b291d515": {
       "at": "2026-10-06T02:32:14Z",
@@ -574,6 +582,14 @@
         "source": "Black Forest Labs Blog"
       },
       "url": "https://bfl.ai/blog/flux-3-image-klein"
+    },
+    "1560ea04dee0e58af37b6a0a": {
+      "at": "2026-10-25T12:32:31Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "quick-study-simon-willison-claude-opus",
+      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/"
     },
     "16278565d50915517bc1148d": {
       "at": "2026-10-09T21:38:57Z",
@@ -1279,6 +1295,14 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11500"
     },
+    "2eded73c1a58a8ad57ea20a4": {
+      "at": "2026-10-25T12:32:43Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "simon-willison-quoting-armin-ronacher-ai-software",
+      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/"
+    },
     "2f1b5ca58d8805cbe859509b": {
       "at": "2026-10-03T04:46:54Z",
       "bootstrap": true,
@@ -1776,6 +1800,11 @@
       "status": "ignored",
       "story_key": "cline-sdk-v0-0-92-release",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.92"
+    },
+    "3ee45ea26cb0c275b19aeb05": {
+      "at": "2026-10-25T12:32:16Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/bloblings"
     },
     "3f1a11956436b167380065dc": {
       "at": "2026-10-22T00:48:47Z",
@@ -3720,6 +3749,14 @@
       },
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "87e22db35085845a31934bac": {
+      "at": "2026-10-25T12:32:37Z",
+      "bootstrap": false,
+      "score": 35,
+      "status": "ignored",
+      "story_key": "de-staat-freedom-music-video-generative-ai-vfx",
+      "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/"
+    },
     "8824a722fbbd4c31d76b2acd": {
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
@@ -5422,6 +5459,14 @@
       "at": "2026-10-08T00:09:43Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11400"
+    },
+    "caa2121350852b24ddb09ffb": {
+      "at": "2026-10-25T12:32:20Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "llama-cpp-b11821-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11821"
     },
     "cb0a640f808b77e77b1219c5": {
       "at": "2026-10-05T15:56:52Z",

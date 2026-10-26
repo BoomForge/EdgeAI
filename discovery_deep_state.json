@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-26T17:40:21Z",
+    "at": "2026-10-26T21:56:11Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 7,
+    "prefiltered": 0,
+    "queued": 8,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 128,
+  "runs": 129,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -547,6 +547,11 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-3e1c72d550f22f51a99c"
     },
+    "1716c6d9d7e9eae3344aad7c": {
+      "first_seen": "2026-10-26T21:56:06Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "179afd0ee553a08b8bacfe99": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -1022,6 +1027,11 @@
       "first_seen": "2026-10-08T01:53:43Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-0c571b26db3fe2459e7c"
+    },
+    "2cac5fffb268480cb1ec8885": {
+      "first_seen": "2026-10-26T21:56:09Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2114780096204857522"
     },
     "2d2256c26edfbdb2907cf30a": {
       "first_seen": "2026-10-21T11:41:37Z",
@@ -2904,6 +2914,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/9/matthew-green/"
     },
+    "7ba6fe6e3c6997f136b7d72c": {
+      "first_seen": "2026-10-26T21:56:06Z",
+      "status": "queued",
+      "url": "https://runway.com/news/company-news/introducing-runway-app-studio?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "7bbb1a192048392f44f5de7d": {
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "too_old",
@@ -4433,10 +4448,20 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/request-eagle"
     },
+    "bd44c26270a40ce1808d339f": {
+      "first_seen": "2026-10-26T21:56:06Z",
+      "status": "queued",
+      "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "bd9fac1bbd7dd13140f79c16": {
       "first_seen": "2026-10-13T10:55:50Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/the-drive-ai-2"
+    },
+    "bdbe6ef75087bf5e5202a346": {
+      "first_seen": "2026-10-26T21:56:06Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-da66332dc8a97bd94699"
     },
     "bdc3c2af02f44af22bcadb19": {
       "first_seen": "2026-10-08T16:25:55Z",
@@ -4596,6 +4621,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/microsoft-xbox-series-s"
+    },
+    "c2ebc5e9013153af8de1c2a5": {
+      "first_seen": "2026-10-26T21:56:06Z",
+      "status": "queued",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "c338cc27b47c37b92288f512": {
       "first_seen": "2026-10-20T15:17:17Z",
@@ -5130,6 +5160,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://www.minimax.io/"
+    },
+    "de56fb996b09bd2941430391": {
+      "first_seen": "2026-10-26T21:56:06Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/26/jason-koebler/"
     },
     "de5f37dd0e71e135e6079fab": {
       "first_seen": "2026-10-07T09:23:03Z",
@@ -5792,6 +5827,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/lleverage"
+    },
+    "fb59312dc3838390dade1008": {
+      "first_seen": "2026-10-26T21:56:06Z",
+      "status": "queued",
+      "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits?utm_source=futuretools.io&utm_medium=newspage"
     },
     "fc152ff68513727f347182c9": {
       "first_seen": "2026-10-03T00:46:03Z",

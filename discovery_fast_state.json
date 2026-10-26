@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-26T11:16:31Z",
+    "at": "2026-10-26T17:27:47Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 6,
+    "prefiltered": 3,
+    "queued": 8,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 128,
+  "runs": 129,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -414,6 +414,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.18879"
     },
+    "10d57e44ea333786f408e93e": {
+      "first_seen": "2026-10-26T17:27:18Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11899"
+    },
     "10fa35cbc6e92fedcf219ab7": {
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
@@ -737,6 +742,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00101"
     },
+    "1a7cbf98b6ef2aa4bdd7aa0e": {
+      "first_seen": "2026-10-26T17:27:37Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.911-beta"
+    },
     "1a83a48f2b9d2005f2db82f3": {
       "first_seen": "2026-10-06T00:19:22Z",
       "status": "queued",
@@ -932,6 +942,11 @@
       "first_seen": "2026-10-21T05:49:37Z",
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.9"
+    },
+    "1f93e5d0440cbc792bc0f324": {
+      "first_seen": "2026-10-26T17:27:08Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/gemini/college-student-favorite-features/"
     },
     "1fc121c6836d1abed79a18a5": {
       "first_seen": "2026-10-05T18:34:46Z",
@@ -1356,6 +1371,11 @@
       "first_seen": "2026-10-05T18:34:59Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11425"
+    },
+    "313af67fd8c7e8b6f1c4ec0e": {
+      "first_seen": "2026-10-26T17:27:18Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11902"
     },
     "314eaac391022cbd08d892d5": {
       "first_seen": "2026-10-24T04:26:18Z",
@@ -2510,6 +2530,12 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11886"
     },
+    "594be5bd31019da8d9576793": {
+      "first_seen": "2026-10-26T17:27:08Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/digital-public-infrastructure-farmers/"
+    },
     "5957413db4a4d6aaae96b441": {
       "first_seen": "2026-10-12T09:24:00Z",
       "status": "queued",
@@ -2946,6 +2972,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02472"
+    },
+    "6748773ad13d989a528248b7": {
+      "first_seen": "2026-10-26T17:27:18Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11900"
     },
     "67cc77b3c538c465a2437ea5": {
       "first_seen": "2026-10-15T15:07:09Z",
@@ -3563,6 +3594,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02293"
     },
+    "7e73eebe3e909303c4c59a7d": {
+      "first_seen": "2026-10-26T17:27:08Z",
+      "status": "queued",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience"
+    },
     "7e77755f987ae3bbe3014452": {
       "first_seen": "2026-10-23T04:34:35Z",
       "status": "queued",
@@ -3728,6 +3764,12 @@
       "first_seen": "2026-10-22T07:18:23Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.28829"
+    },
+    "84c8b528621607acc677c61e": {
+      "first_seen": "2026-10-26T17:27:08Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-uso-docuseries-service-members/"
     },
     "855092fba1df7e8a668bec1b": {
       "first_seen": "2026-10-08T20:34:08Z",
@@ -5041,6 +5083,11 @@
       "status": "queued",
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
     },
+    "b1d7eb2dedce5839f5898b83": {
+      "first_seen": "2026-10-26T17:27:08Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/"
+    },
     "b254ed96fddf9e1cbfbeba70": {
       "first_seen": "2026-10-21T20:14:08Z",
       "status": "queued",
@@ -5557,6 +5604,11 @@
       "first_seen": "2026-10-03T00:46:19Z",
       "status": "too_old",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.22"
+    },
+    "c43ee03833a300847059e10a": {
+      "first_seen": "2026-10-26T17:27:18Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11901"
     },
     "c4eeefc4e76f2fa44d0ee9c9": {
       "first_seen": "2026-10-15T05:40:20Z",
@@ -6905,6 +6957,12 @@
       "first_seen": "2026-10-03T00:45:57Z",
       "status": "too_old",
       "url": "https://github.com/huggingface/diffusers/releases/tag/v0.38.0"
+    },
+    "f0acb11d7bdafd3b1cd2b61e": {
+      "first_seen": "2026-10-26T17:27:08Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/sub-saharan-africa-ignite/"
     },
     "f0b80431f300200a949399f6": {
       "first_seen": "2026-10-14T10:22:27Z",

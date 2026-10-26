@@ -2298,6 +2298,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "c37ae89eeb136ded26fa13e9",
+      "discovered_at": "2026-10-26T05:16:55Z",
+      "kind": "coding-agents",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-26T03:34:08Z",
+      "search_score": 29,
+      "source_name": "Cline Releases",
+      "summary": "Starting a session that already has a run in progress now reattaches to the live session instead of replacing its runtime. Before, the original run kept going but couldn't be reached, and its transcript writes landed on a stale snapshot. A start that includes a prompt while a run is in progress is rejected The hub records every client that registered a capability for a session, including clients that join a task that's already running, and sends each request to the first one still connected. If none is left, the request fails quickly with a message the user can act on, instead of waiting forever A turn whose connection drops after the model has streamed only reasoning is now retried, and the partial reasoning is discarded. Turns with text, media or tool calls are still never retried Model requests retry at most 3 times after the first attempt (down from 5). Failed attempts are recorded in Langfuse traces, and cancelled requests are no longer reported as Langfuse errors AI SDK updated to ai 7.0.136 / @ai-sdk/provider-utils 5.0.58. max reasoning now reaches the provider: the gateway no longer turns it into xhigh , and Kimi K3 gets max for Extra High and Max. Empty Anthropic turns are still retried despite the new anthropic.* custom stream parts The gemini provider no longer sends native Google Search. On Gemini 3+, free-tier keys failed every turn with a 429 quota error, and on Gemini 2.x it dropped every Cline tool. Vertex keeps native search Auto-compaction no longer runs when the model's input limit is unknown. Manual and overflow-recovery compaction still work After the first compaction, the size estimate now uses the messages as they are actually sent, with tool results truncated. Before, it overestimated about 7x and compaction ran again every few tool calls Checkpoint diffs read file contents with a single git cat-file --batch process instead of up to two git show processes per file. Workspaces with many untracked files used to spawn thousands of git processes SSH remotes work behind a ProxyJump alias. The connect budget goes from 10s to 30s, the per-command limit to 60s, and tunnel readiness to 40s. When ssh exits mid-upload, its real error is reported instead of EPIPE , and a LocalForward on the alias no longer collides with the tunnel ask_question answers are framed so the model keeps going after a bare choice. Empty answers are rejected, and an answer with only an attachment counts as answered run_commands rejects an empty commands list with a tool error, and its schema now advertises minItems: 1 On PowerShell, the run_commands description explains backtick escaping, single-quoting literal paths, preferring cmdlets over cmd /c , and confirming recursive deletes first Plugin commands run in the active session runtime and the hub. Plugin watches start working again when discovery directories appear Compiled binaries load embedded plugin and dashboard resources straight from the binary, and every declared SDK runtime export is packaged A configured CLINE_PLUGIN_RUNTIME_DIR is resolved to an absolute path When OpenRouter has no match for a Cline recommended model, its capabilities are filled in from the Vercel catalog Desktop cloud session orchestration moved into the hub. session.list reports activeCloudCommands , and the hub isn't replaced while cloud commands are still running Core adds conversation summaries and cloud continuation support Run stall telemetry: agent.run-finished and agent.run-failed carry stall signals from a new RunHealthObserver @cline/ui now ships with the SDK packages on the shared version. It adds a Kbd component and token chips for slash commands and file mentions in AgentComposer Refreshed the model catalog (7,041 \u2192 6,457 models). Adds the Liquid Inference, Munito AI and Munito AI (EU) providers and drops CrofAI, iFlow and Llama. The Cline free list adds Reflection Beam, Nemotron 3.5 Lightning and Laguna S 2.1 and drops Mimo V2.6 Flash and Muse Spark 1.3 Contributor. ClinePass adds Kimi K3.1 Pro (now its default), MiniMax M3.1 Flash and DeepSeek V4.1 Flash 1017, and drops Mimo V2.5 and V2.5 Pro. Default models change for 56 other providers, mostly to Kimi K3.1 Pro, MiniMax M3.1 Flash or DeepSeek V4.1 Flash 1017 Full Changelog : sdk/sdk/v0.0.95...sdk/sdk/v0.2.0",
+      "title": "SDK v0.2.0",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.2.0"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "6823801d4a6c9058ddd90d9c",
       "discovered_at": "2026-10-13T16:26:22Z",
       "kind": "coding-agents",
@@ -3485,23 +3499,9 @@
       "summary": "lora : support prism.hadamard folded weights ( #30910 ) lora : support prism.hadamard folded weights tests : remove LoRA test from test-llama-archs Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58519760 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11806",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11806"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "f34e2880394efff739330307",
-      "discovered_at": "2026-10-21T11:25:13Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-21T09:52:56Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "sycl: collapse duplicate need_check launch bodies in mmq ( #30739 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58149005 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11787",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11787"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-26T00:30:42Z",
+  "updated_at": "2026-10-26T05:17:04Z",
   "version": 2
 }

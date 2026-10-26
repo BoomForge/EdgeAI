@@ -338,20 +338,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "9e898dc1426186d95d9811d0",
-      "discovered_at": "2026-10-12T15:14:39Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-10-12T15:14:39Z",
-      "search_score": 43,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 12 Oct 2026 OpenAI performance results now available GPT-6 Astra (Max) GPT-6 Astra (Max) GPT-6.1 Sol (Max) GPT-6 Astra (Max) GPT-6.1 Sol (Max) GPT-6.1 Sol (Max) New Speech to Text model evaluation results available Zoom Scribe V2 Pro Zoom performance results now available Zoom Scribe V2 Pro 09 Oct 2026 SpaceXAI performance results now available Grok 3 Databricks performance results now available DeepSeek V4 Flash 0731 (Max) Baseten performance results now available DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4.1 Flash (Max) 08 Oct 2026 \ud83d\udd14 New article published Introducing trusted-access models to the Artificial Analysis Cyber Index GPT-6 Sol (Daybreak Blue) now leads the Cyber Index \ud83d\udd14 New article published Announcing Harvey LAB-AA v1.1: adding hallucination checks to raise the bar for agentic legal work Harvey LAB-AA v1.1 adds hallucination auditing with a new Hallucination-Gated All-Pass Rate headline metric, a three-judge grading panel, and Harvey's latest private dataset with improved tasks and criteria. New language model evaluation results available GPT-6 Sol (Daybreak Blue, max) Makora performance results now available MiMo-V2.6-Flash OpenAI performance results now available GPT-6 Sol (Daybreak Blue, max) 07 Oct 2026 \ud83d\udd14 New article published Anthropic has released Claude Haiku 5.5 Claude Haiku 5.5 scores 43 on the Artificial Analysis Intelligence Index, up 26 points one year after the last Haiku release New language model evaluation results available Claude Haiku 5.5 (High) Intelligence Index: 38 New language model evaluation results available Claude Haiku 5.5 (Low) Intelligence Index: 29 New language model evaluation results available Claude Haiku 5.5 (Medium) Intelligence Index: 34 New language model evaluation results available Claude Haiku 5.5 (Max) Intelligence Index: 43 New language model evaluation results available Claude Haiku 5.5 (Xhigh) Intelligence Index: 41 LithosAI performance results now available GLM-5.3-Flash Nebius performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Anthropic performance results now available Claude Haiku 5.5 (Low) Claude Haiku 5.5 (Xhigh) Claude Haiku 5.5 (Medium) Claude Haiku 5.5 (Max) Claude Haiku 5.5 (High) 06 Oct 2026 \ud83d\udd14 New article published Mistral has released Mistral Large 4, making France home to the most intelligent model outside the US and China Mistral has released Mistral Large 4, scoring 38 on the Artificial Analysis Intelligence Index; France is back to having the most intelligent model from outside the US and China New language model evaluation results available Mistral Large 4 Preview Intelligence Index: 38 Microsoft Azure performance results now available GPT-6 Luna (High) Google performance results now available Claude Opus 5.5 (Max, Default Fallback) Inco performance results now available Kimi K3 (Max) GMI performance results now available MiMo-V2.6-Pro MiMo-V2.6-Flash DigitalOcean performance results now available Llama 4 Maverick Gemma 4 31B (Non-reasoning) Gemma 4 31B (Reasoning) Nemotron 3 Nano Omni 30B A3B Reasoning Ministral 3 14B DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4 Pro 0813 (Non-reasoning) GLM-5.3 (Low) Kimi K3 (Low) Mistral performance results now available Mistral Large 4 Preview 05 Oct 2026 Amazon Bedrock performance results now available Claude Opus 5.5 (Max, Default Fallback) Microsoft Azure performance results now available Claude Sonnet 5.5 (Max, Default Fallback) Claude Sonnet 5.5 (Low, Default Fallback) Claude Opus 5.5 (Max, Default Fallback) Claude Opus 5.5 (Low, Default Fallback) GPT-6 Luna (Non-reasoning) GPT-6.1 Sol (Max) PrimaLabs performance results now available GLM-5.3-Flash 04 Oct 2026 OpenAI performance results now available GPT-6.1 Sol (Max) 03 Oct 2026 New language model evaluation results available Ling 3.1 Flash Intelligence Index: 41 InclusionAI performance results now available Ling 3.1 Flash 01 Oct 2026 New language model evaluation results available Grok 4.7 (Low) Intelligence Index: 42 Institute of Foundation Models performance results now available K2 Horizon 375B A23B LithosAI performance results now available GLM-5.3-Flash GLM-5.3-Flash Bitdeer AI performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) SpaceXAI performance results now available Grok 4.7 (Low) 30 Sept 2026 \ud83d\udd14 New article published Korean AI Lab Upstage releases Solar Mini 4 Korean AI Lab Upstage has released Solar Mini 4 which scores 24 on the Artificial Analysis Intelligence Index, but costs ~5x as much per task as GPT-6 Luna (max) despite similar per-token prices \ud83d\udd14 New article published Gemini 4 Argon: Google is",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-cfd1f3e35b55f8fc6689"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "97cbb004cc8c64e792450cec",
       "discovered_at": "2026-10-22T07:30:07Z",
       "kind": "primary",
@@ -1192,6 +1178,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "f686d07c1e559dffea4025a0",
+      "discovered_at": "2026-10-26T17:40:20Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 26, 2026",
+      "search_score": 14,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch With the new Advanced Delegation modes plugin, Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up. The right model or profile for every job. hermes-agent.nousresearch.com/docs/plugins/a\u2026 Oct 26, 2026 @NousResearch Oct 26, 2026 @NousResearch Great time to use the Unbroker skill! x.com/shl0ms/status/\u2026 Oct 26, 2026 @NousResearch Please be careful about downloading third-party apps. The official mobile apps are not in app stores yet, and apps that closely mirror Hermes branding are typically fraudulent and not legitimate community projects. Oct 25, 2026 @NousResearch Oct 25, 2026 @NousResearch Hermes Agent gives you control x.com/yacinemtb/stat\u2026 Oct 24, 2026 @NousResearch See you next week in NYC! x.com/nousresearch/s\u2026 Oct 23, 2026 @NousResearch Your team and your Hermes can now share a computer. The new @trycua Spaces plugin gives Hermes its own Linux, macOS, or Windows Space on hardware you already own. Anyone on your team can open it, watch live, step in, and hand it back while Hermes keeps working. https://t.co/nVs7sCmspk Oct 22, 2026 @NousResearch Meshy is offering Hermes users a month of Pro, which includes API access and 1,000 credits, for $1. After you subscribe and install the plugin, create a key at meshy.ai/developers/keys and paste it into Settings > Plugins > Meshy in Hermes Desktop. meshy.ai/pricing?utm_me\u2026 x.com/NousResearch/s\u2026 Oct 22, 2026 @NousResearch Our CEO @dillonrolnick sat down with @eastdakota, CEO of @Cloudflare, for a wide-ranging conversation about agents, the future of the internet, and the fight for digital sovereignty. Thanks to the @usv team for hosting! x.com/mattcynamon/st\u2026 Oct 22, 2026",
+      "title": "@NousResearch With the new Advanced Delegation modes plugin, Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up. The right model or profile for every job. hermes-agent.nousresearch",
+      "url": "https://x.com/NousResearch/status/2114753914939863260"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "078dfa3c48c7da2410caf893",
       "discovered_at": "2026-10-14T18:01:02Z",
       "kind": "primary-signal",
@@ -1598,6 +1598,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "ba1d377f69ab9ac9fdc93d09",
+      "discovered_at": "2026-10-26T17:40:20Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 26, 2026",
+      "search_score": 10,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch With the new Advanced Delegation modes plugin, Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up. The right model or profile for every job. hermes-agent.nousresearch.com/docs/plugins/a\u2026 Oct 26, 2026 @NousResearch Oct 26, 2026 @NousResearch Great time to use the Unbroker skill! x.com/shl0ms/status/\u2026 Oct 26, 2026 @NousResearch Please be careful about downloading third-party apps. The official mobile apps are not in app stores yet, and apps that closely mirror Hermes branding are typically fraudulent and not legitimate community projects. Oct 25, 2026 @NousResearch Oct 25, 2026 @NousResearch Hermes Agent gives you control x.com/yacinemtb/stat\u2026 Oct 24, 2026 @NousResearch See you next week in NYC! x.com/nousresearch/s\u2026 Oct 23, 2026 @NousResearch Your team and your Hermes can now share a computer. The new @trycua Spaces plugin gives Hermes its own Linux, macOS, or Windows Space on hardware you already own. Anyone on your team can open it, watch live, step in, and hand it back while Hermes keeps working. https://t.co/nVs7sCmspk Oct 22, 2026 @NousResearch Meshy is offering Hermes users a month of Pro, which includes API access and 1,000 credits, for $1. After you subscribe and install the plugin, create a key at meshy.ai/developers/keys and paste it into Settings > Plugins > Meshy in Hermes Desktop. meshy.ai/pricing?utm_me\u2026 x.com/NousResearch/s\u2026 Oct 22, 2026 @NousResearch Our CEO @dillonrolnick sat down with @eastdakota, CEO of @Cloudflare, for a wide-ranging conversation about agents, the future of the internet, and the fight for digital sovereignty. Thanks to the @usv team for hosting! x.com/mattcynamon/st\u2026 Oct 22, 2026",
+      "title": "@NousResearch Oct 26, 2026",
+      "url": "https://x.com/NousResearch/status/2114743313685176544"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "9d2417f40cde50f04449dce6",
       "discovered_at": "2026-10-19T00:11:45Z",
       "kind": "independent",
@@ -1665,20 +1679,6 @@
       "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models Rankings data by OpenRouter is licensed under CC BY 4.0 . Reuse and republish it with attribution. The Data API docs cover the citation format and JSON access to these datasets. Footer \u00a9 2026 OpenRouter, Inc Product Chat Rankings Benchmarks Apps Discover Models Ori Collections Providers Tools Pricing Business Enterprise Labs Company About Blog Careers Hiring Privacy Terms of Service Trust Center Support Works With OR Data Brand Developer Documentation API Reference Developer Platform Status AI Site Map Connect Discord GitHub LinkedIn X YouTube",
       "title": "OpenRouter real-world model rankings changed",
       "url": "https://openrouter.ai/rankings#edgeai-1e6c65588e43ac9e658e"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "818cf62a3bb0a7f8412e2dfd",
-      "discovered_at": "2026-10-13T03:13:29Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-12T15:54:36+00:00",
-      "search_score": 8,
-      "source_name": "Simon Willison Everything",
-      "summary": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for viewing and editing files in a folder. It's intended to be run over Tailscale, so I can have an agent start this running and then edit files via my Tailscale network directly from my phone. Here's the interface for browsing files in a folder: Editing uses CodeMirror 6 - I was going to use Monaco but that still doesn't have a great mobile experience yet. Tags: projects , python , ai , tailscale , generative-ai , llms , codex",
-      "title": "web-edit 0.1a0",
-      "url": "https://simonwillison.net/2026/Oct/12/web-edit/"
     },
     {
       "bootstrap": false,
@@ -1906,6 +1906,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "b8742f8aa2b36a661caf6169",
+      "discovered_at": "2026-10-26T17:40:15Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "Anthropic Files S-1 with SEC, Plans Nasdaq IPO Under Symbol \"ANT anthropic.com \u00b7 Show TLDR",
+      "title": "Anthropic Files S-1 with SEC, Plans Nasdaq IPO Under Symbol \"ANT anthropic.com \u00b7 Show TLDR",
+      "url": "https://www.anthropic.com/news/s1-sec?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "ae7b31dc246e27601c985358",
       "discovered_at": "2026-10-19T00:11:45Z",
       "kind": "independent",
@@ -2130,6 +2144,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "1261b387692fef6ca9f0ac5e",
+      "discovered_at": "2026-10-26T17:40:15Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "Google Launches \"Polar Peaks\" AI Quest Teaching Students Brain Mapping & Neuroscience blog.google \u00b7 Show TLDR",
+      "title": "Google Launches \"Polar Peaks\" AI Quest Teaching Students Brain Mapping & Neuroscience blog.google \u00b7 Show TLDR",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "4969031d951b71c9edf39b46",
+      "discovered_at": "2026-10-26T17:40:15Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "r/opensource Bans All AI-Related Projects, Requires 3+ Contributors and 1-Year History reddit.com \u00b7 Show TLDR",
+      "title": "r/opensource Bans All AI-Related Projects, Requires 3+ Contributors and 1-Year History reddit.com \u00b7 Show TLDR",
+      "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "4257f838c0d22be21be39c1c",
       "discovered_at": "2026-10-21T01:03:21Z",
       "kind": "independent",
@@ -2239,6 +2281,20 @@
       "summary": "600B open weights, trained for long-running agents Discussion | Link",
       "title": "Step 5 Preview",
       "url": "https://www.producthunt.com/products/step-3-5-flash"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "25e762d6cfe77966d2df61fe",
+      "discovered_at": "2026-10-26T17:40:15Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-25T14:45:54-07:00",
+      "search_score": 7,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "See which AI agent is heating your Mac and cool it down. Discussion | Link",
+      "title": "WhoIsCooking",
+      "url": "https://www.producthunt.com/products/whoiscooking"
     },
     {
       "bootstrap": false,
@@ -2463,6 +2519,20 @@
       "summary": "The coding agent that runs on its own AI models Discussion | Link",
       "title": "Praex",
       "url": "https://www.producthunt.com/products/praex"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "3e1e6e34703c813e2412b9da",
+      "discovered_at": "2026-10-26T17:40:15Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-25T15:53:07-07:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Open source alternative to Git for AI coding agents Discussion | Link",
+      "title": "AVP",
+      "url": "https://www.producthunt.com/products/avp"
     },
     {
       "bootstrap": false,
@@ -2942,6 +3012,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-26T11:34:50Z",
+  "updated_at": "2026-10-26T17:40:21Z",
   "version": 2
 }

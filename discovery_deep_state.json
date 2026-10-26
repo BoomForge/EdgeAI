@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-26T11:34:50Z",
+    "at": "2026-10-26T17:40:21Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 5,
+    "prefiltered": 2,
     "queued": 7,
     "sources_ok": 15,
-    "too_old": 9,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 127,
+  "runs": 128,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -425,6 +425,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/anthroposcaper"
+    },
+    "1261b387692fef6ca9f0ac5e": {
+      "first_seen": "2026-10-26T17:40:15Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "127639cc62d76a80ea31db16": {
       "first_seen": "2026-10-08T01:53:41Z",
@@ -889,6 +894,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/cue-26"
     },
+    "25e762d6cfe77966d2df61fe": {
+      "first_seen": "2026-10-26T17:40:15Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/whoiscooking"
+    },
     "260b1d61a13354ca3e607c53": {
       "first_seen": "2026-10-20T10:21:00Z",
       "status": "too_old",
@@ -1150,6 +1160,12 @@
       "first_seen": "2026-10-21T20:18:30Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/band"
+    },
+    "32017c9401f769e6ea0704ee": {
+      "first_seen": "2026-10-26T17:40:15Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/loqui-2"
     },
     "323fd1087f594a308741cd5a": {
       "first_seen": "2026-10-03T00:46:03Z",
@@ -1436,6 +1452,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/spotify"
     },
+    "3e1e6e34703c813e2412b9da": {
+      "first_seen": "2026-10-26T17:40:15Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/avp"
+    },
     "3e3599b79dca37e220662e17": {
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "queued",
@@ -1668,6 +1689,17 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/bee-frontier-and-bee-eclipse"
+    },
+    "4959b0865b1db1c08d9adf80": {
+      "first_seen": "2026-10-26T17:40:15Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/mozy-walk-to-unlock-apps"
+    },
+    "4969031d951b71c9edf39b46": {
+      "first_seen": "2026-10-26T17:40:15Z",
+      "status": "queued",
+      "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "49afd859905d7e770d7c03a5": {
       "first_seen": "2026-10-16T21:47:28Z",
@@ -4302,6 +4334,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/toolaby"
     },
+    "b8742f8aa2b36a661caf6169": {
+      "first_seen": "2026-10-26T17:40:15Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/news/s1-sec?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "b8e89bc0c52f51cc31d07020": {
       "first_seen": "2026-10-25T10:01:09Z",
       "status": "too_old",
@@ -4338,6 +4375,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/the-sentient-world"
+    },
+    "ba1d377f69ab9ac9fdc93d09": {
+      "first_seen": "2026-10-26T17:40:20Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2114743313685176544"
     },
     "ba479076d0d4baac2b8f1773": {
       "first_seen": "2026-10-07T16:48:32Z",
@@ -5628,6 +5670,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/dots-7"
+    },
+    "f686d07c1e559dffea4025a0": {
+      "first_seen": "2026-10-26T17:40:20Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2114753914939863260"
     },
     "f68e4130196e02821447341e": {
       "first_seen": "2026-10-09T01:22:21Z",

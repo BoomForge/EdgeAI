@@ -7,6 +7,11 @@
     "target": 30
   },
   "errors": {
+    "2ca7d41d10979cb66e73ffb7": {
+      "at": "2026-10-26T17:20:29Z",
+      "count": 1,
+      "last_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=25)"
+    },
     "323fd1087f594a308741cd5a": {
       "at": "2026-10-05T07:02:12Z",
       "count": 1,
@@ -24,6 +29,11 @@
     },
     "d43019accfd19e1ed1c4ed4b": {
       "at": "2026-10-06T16:08:34Z",
+      "count": 1,
+      "last_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=25)"
+    },
+    "f317c625fcd712dc85b8cf38": {
+      "at": "2026-10-26T17:19:18Z",
       "count": 1,
       "last_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=25)"
     },
@@ -47,8 +57,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-26T11:01:43Z",
-    "eligible": 3,
+    "at": "2026-10-26T17:20:47Z",
+    "eligible": 10,
     "evaluated": 3,
     "mode": "live",
     "new_posts": 1,
@@ -677,6 +687,14 @@
         "source": "MiniMax Research"
       },
       "url": "https://www.minimax.io/models/text"
+    },
+    "17e8a03b253a57bc28ac2220": {
+      "at": "2026-10-26T17:20:47Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "manyagents-mac-coding-tool",
+      "url": "https://www.producthunt.com/products/manyagents"
     },
     "180279b515dbeeff4b27ba60": {
       "at": "2026-10-06T09:19:44Z",
@@ -5203,6 +5221,14 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11443"
     },
+    "b8d1597f4456030e665e34ec": {
+      "at": "2026-10-26T17:20:04Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b11897-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11897"
+    },
     "b8d4fc972195dba2f907f39b": {
       "at": "2026-10-11T13:58:22Z",
       "status": "expired",
@@ -5481,6 +5507,20 @@
       "status": "ignored",
       "story_key": "llamacpp-b11722-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11722"
+    },
+    "c5b8989e40faf498e5a52f22": {
+      "at": "2026-10-26T17:19:41Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "cline-v4-1-26-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Cline Releases"
+      },
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.26"
     },
     "c6322ba99796710a10171cbe": {
       "at": "2026-10-24T09:50:36Z",
@@ -8282,6 +8322,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Cline v4.1.25 Introduces Cloud Sandbox Sessions and Updates Default Model Routing",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Cline Releases"
+      }
+    },
+    "cline-v4-1-26-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/cline-v4-1-26-release.png",
+      "last_updated": "2026-10-26T17:19:41Z",
+      "post_id": "617300290207781099",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/cline-v4126-release-introduces-cloud.html",
+      "score": 82,
+      "source_image_source": "Cline Releases",
+      "source_image_url": "https://opengraph.githubassets.com/338b760445174f265f674b28e9fdefd1ba673568776c3dd54310d37a46bfd8b7/cline/cline/releases/tag/v4.1.26",
+      "source_urls": [
+        "https://github.com/cline/cline/releases/tag/v4.1.26"
+      ],
+      "status": "CONFIRMED",
+      "title": "Cline v4.1.26 Release Introduces Cloud Tasks, Sandbox Progress Tracking, and Expanded Model Provider Support",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

@@ -57,12 +57,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-26T17:20:47Z",
-    "eligible": 10,
+    "at": "2026-10-26T21:46:07Z",
+    "eligible": 17,
     "evaluated": 3,
     "mode": "live",
-    "new_posts": 1,
-    "publish_actions": 1,
+    "new_posts": 2,
+    "publish_actions": 2,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -3605,6 +3605,14 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/crosswalk"
     },
+    "7e73eebe3e909303c4c59a7d": {
+      "at": "2026-10-26T21:46:03Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "fanatics-openai-shop-the-look",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience"
+    },
     "7e9aff605a4e7ea56674e155": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -6870,6 +6878,20 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/sellio-2"
     },
+    "f317c625fcd712dc85b8cf38": {
+      "at": "2026-10-26T21:46:01Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "openai-gpt-6-1-terra-artificial-analysis",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-a2f70f3b9d12b19cc962"
+    },
     "f34e2880394efff739330307": {
       "at": "2026-10-24T13:39:18Z",
       "status": "expired",
@@ -6999,6 +7021,20 @@
         "source": "ComfyUI Releases"
       },
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.40.0"
+    },
+    "f686d07c1e559dffea4025a0": {
+      "at": "2026-10-26T21:46:07Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "nous-research-hermes-agent-advanced-delegation-plugin",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2114753914939863260"
     },
     "f68e4130196e02821447341e": {
       "at": "2026-10-10T21:56:54Z",
@@ -9632,6 +9668,27 @@
         "source": "Nous Research Announcements"
       }
     },
+    "nous-research-hermes-agent-advanced-delegation-plugin": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-hermes-agent-advanced-delegation-plugin.jpg",
+      "last_updated": "2026-10-26T21:46:07Z",
+      "post_id": "8878864851542771819",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-releases-advanced.html",
+      "score": 85,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/amplify_video_thumb/2114753174988804098/img/XTx1OcRa5IMVM1lw?format=webp&name=large",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2114753914939863260"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Releases Advanced Delegation Plugin for Hermes Agent",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      }
+    },
     "nous-research-hermes-agent-asus-proart": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-hermes-agent-asus-proart.jpg",
@@ -10562,6 +10619,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
         "score": 62,
         "source": "FutureTools AI News"
+      }
+    },
+    "openai-gpt-6-1-terra-artificial-analysis": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-gpt-6-1-terra-artificial-analysis.jpg",
+      "last_updated": "2026-10-26T21:46:01Z",
+      "post_id": "7765384392224723651",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-launches-gpt-61-terra-pushing.html",
+      "score": 88,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-a2f70f3b9d12b19cc962"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Launches GPT-6.1 Terra, Pushing Cost Efficiency Frontier on Artificial Analysis",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
       }
     },
     "openai-gpt-6-intelligent-ui": {

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-26T05:17:04Z",
+    "at": "2026-10-26T11:16:31Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 41,
+    "queued": 6,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 127,
+  "runs": 128,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1236,6 +1236,11 @@
       "status": "queued",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.28"
     },
+    "2ca7d41d10979cb66e73ffb7": {
+      "first_seen": "2026-10-26T11:16:07Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11890"
+    },
     "2cc234a0974badebe317f780": {
       "first_seen": "2026-10-21T23:26:40Z",
       "status": "queued",
@@ -1832,6 +1837,11 @@
       "first_seen": "2026-10-07T09:14:06Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06883"
+    },
+    "400b7781ac0b129b03b8b002": {
+      "first_seen": "2026-10-26T11:16:07Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11898"
     },
     "40135d27cf5821ee9c620d90": {
       "first_seen": "2026-10-07T09:14:07Z",
@@ -2755,6 +2765,11 @@
       "first_seen": "2026-10-13T21:32:25Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/"
+    },
+    "62bc207b9e95c88439f21ed4": {
+      "first_seen": "2026-10-26T11:16:07Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11896"
     },
     "62bd2b4c042758daf6fae090": {
       "first_seen": "2026-10-12T19:18:34Z",
@@ -4861,6 +4876,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.28703"
     },
+    "ac2dba7d51e93c7bd65504e7": {
+      "first_seen": "2026-10-26T11:16:07Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11895"
+    },
     "ac41f4531fca042f6f8aec42": {
       "first_seen": "2026-10-03T00:45:58Z",
       "status": "queued",
@@ -5180,6 +5200,11 @@
       "first_seen": "2026-10-10T15:11:44Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11544"
+    },
+    "b8d1597f4456030e665e34ec": {
+      "first_seen": "2026-10-26T11:16:07Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11897"
     },
     "b8d4fc972195dba2f907f39b": {
       "first_seen": "2026-10-08T14:56:12Z",
@@ -5562,6 +5587,11 @@
       "first_seen": "2026-10-19T04:18:20Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11722"
+    },
+    "c5b8989e40faf498e5a52f22": {
+      "first_seen": "2026-10-26T11:16:24Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.26"
     },
     "c5b8d2caed83000227016538": {
       "first_seen": "2026-10-05T09:14:07Z",

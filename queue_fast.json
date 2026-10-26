@@ -2270,6 +2270,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "c5b8989e40faf498e5a52f22",
+      "discovered_at": "2026-10-26T11:16:24Z",
+      "kind": "coding-agents",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-26T09:06:51Z",
+      "search_score": 35,
+      "source_name": "Cline Releases",
+      "summary": "Added Cloud tasks: Settings > API Configuration has a Local | Cloud toggle when cloud sessions are on. Cloud picks the Cline model new cloud tasks run on, saved separately from your local models. Clicking the model label in a cloud session's composer opens it there. Starting or resuming a cloud sandbox shows a progress card with the repo, branch and steps (start sandbox, clone repository, start agent). It collapses once the agent starts. Changed Cloud sessions hide the Plan/Act toggle and the auto-approve bar instead of showing them disabled. With no model chosen, the Cline provider uses Claude Sonnet 5.5 again, which is back at the top of Cline's recommended list. Model requests retry at most 3 times instead of 5. Kimi K3 now gets max reasoning for Extra High and Max, instead of an xhigh setting it rejects. Refreshed the model catalog. Adds the CommandCode, Reflection, Liquid Inference and Munito AI providers and drops CrofAI, iFlow and Llama. The Cline free list adds Reflection Beam, Nemotron 3.5 Lightning and Laguna S 2.1 and drops Mimo V2.6 Flash and Muse Spark 1.3 Contributor. ClinePass now defaults to Kimi K3.1 Pro and adds MiniMax M3.1 Flash and DeepSeek V4.1 Flash 1017. Default models change for most other providers, mostly to Kimi K3.1 Pro, MiniMax M3.1 Flash or DeepSeek V4.1 Flash 1017. If you use a provider without pinning a model, expect a different default. Fixed GPT-6 models (such as gpt-6-sol and gpt-6.1-sol ) work on OpenAI and Azure OpenAI-compatible endpoints, and SAP AI Core no longer rejects requests with \"Unsupported parameter: 'max_tokens'\". Both now get max_completion_tokens . Gemini API keys (the gemini provider) no longer send native Google Search. Free-tier keys failed every turn with a 429 quota error on Gemini 3+, and on Gemini 2.x every Cline tool was dropped. Toggling Plan/Act while a task is starting no longer drops your first prompt, and the session no longer keeps running with the other mode's tools. Disabled rules stay disabled. Starting a command no longer moves keyboard focus into the terminal, so text you're typing in the chat no longer lands in the shell. Cancelling a task or opening another one while Cline is asking a question no longer lets your next message get taken as the answer to the old question. A turn whose connection drops after the model has streamed only reasoning is now retried instead of ending the task. Auto-compaction no longer runs for models with an unknown context limit, and it no longer runs again every few tool calls after the first compaction. ask_question : the model keeps going after you pick an option, and empty answers are rejected. run_commands with an empty command list now returns an error instead of a silent success. On PowerShell, the tool tells the model how quote escaping works and to confirm recursive deletes first. Task header badges wrap instead of hiding the close button, the GitHub connection check no longer flashes a loading indicator, and the Local/Cloud toggle's padding is fixed. Full Changelog : v4.1.25...v4.1.26",
+      "title": "v4.1.26",
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.26"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "a09804c9ecef0de7684b0c57",
       "discovered_at": "2026-10-22T17:56:14Z",
       "kind": "local-ai",
@@ -2620,6 +2634,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "b8d1597f4456030e665e34ec",
+      "discovered_at": "2026-10-26T11:16:07Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-26T11:00:46Z",
+      "search_score": 11,
+      "source_name": "llama.cpp Releases",
+      "summary": "tests : refactor test-llama-archs to not link internal libllama symbols ( #30880 ) test-llama-archs included src/llama-arch.h and src/llama-model-saver.h, which prevented building on Windows with shared libraries since the used symbols are not exported from the DLL. declare llama_arch_* wrappers around the internal llm_ arch query functions in the llama-ext.h staging header, together with llama_arch_kv_name() and llama_arch_supports_save() slim llama_model_saver down to the private implementation of llama_model_save_to_file(): the fixture-writer half used by the test moves into tests/test-llama-archs.cpp as a local kv_writer replace the roundtrip saver usage with the public llama_model_save_to_file() writing to a temp path (also removes the tmpfile() fd leak and its Windows workaround) move test-llama-archs, test-generate-models, test-llama-context and test-fusion out of the NOT WIN32 OR NOT BUILD_SHARED_LIBS guard Assisted-by: pi:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (2x DGX Spark (RDMA, TP=2)) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59875631 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11897",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11897"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "4d8e460dfcbc5c4a0a978fbb",
       "discovered_at": "2026-10-22T13:02:17Z",
       "kind": "local-ai",
@@ -2799,20 +2827,6 @@
       "summary": "What's Changed llama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in #18917 server: reuse verified manifests and loaded models in inference routes by @dhiltgen in #18947 mlx: compact restored recurrent state after speculative rollback by @dhiltgen in #18955 launch: include installed models in Codex /model picker by @ParthSareen in #18887 MLX, MLX-C: version bump by @dhiltgen in #18956 Full Changelog : v0.40.3...v0.40.4-rc0",
       "title": "v0.40.4",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc0"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "e748499528dff52906945218",
-      "discovered_at": "2026-10-12T09:24:08Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-12T08:53:58Z",
-      "search_score": 10,
-      "source_name": "llama.cpp Releases",
-      "summary": "Add an optional ggml_backend_sched_realloc_callback that user code registers with ggml_backend_sched_set_realloc_callback to be notified when the buffers reserved for a graph are not sufficient and have to be reserved again. The callback reports whether the backend assignments and the graph size changed since the previous scheduling. llama_context registers the callback when creating the scheduler (wrapped into the new llama_context::sched_new helper) and treats the reallocations that follow a change of the backend assignments as expected, counting the rest by graph size - unchanged or changed from the previously scheduled graph. Both counters are reported on one line in the perf stats. Assisted-by: pi:llama.cpp/Qwen3.8-Flash-Next",
-      "title": "b11567: llama : report compute graph reallocations during inference (#30329)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11567"
     },
     {
       "bootstrap": false,
@@ -3180,17 +3194,17 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "2a417b80bb390145cbda96e2",
-      "discovered_at": "2026-10-12T09:24:08Z",
+      "candidate_id": "2ca7d41d10979cb66e73ffb7",
+      "discovered_at": "2026-10-26T11:16:07Z",
       "kind": "local-ai",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-10-12T06:41:40Z",
-      "search_score": 8,
+      "published": "2026-10-26T08:58:06Z",
+      "search_score": 7,
       "source_name": "llama.cpp Releases",
-      "summary": "ggml: Change default visibility of symbols to hidden ( #30014 ) See discussion in #29997 . This prevents a handful of internal symbols leaking via GGML_API. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54949054 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11563",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11563"
+      "summary": "deepseekv4.1: follow-up review fixes ( #31137 ) kv-cache : use ggml_backend_tensor_copy to refill the DSV4 K mirrors llama : move the Engram pad id to llama_hparams and the token map to llama_model The saver no longer needs the deepseek41 model class. deepseek41 : drop the F32 src1 request on the HC mixes matmul ggml : add softplus TODOs in the backends that still use log(1 + exp(x)) convert : make the DSV4/DSV4.1 modify_tensors generators, drop the redundant vision filter deepseek41 : clean up comments deepseek41 : drop the F32 src1 requests on the router and indexer matmuls convert : use format_tensor_name directly in DeepseekV4Model s/comp_kv_src/comp_il_src/g cont : fix TODOs for log1p Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59835673 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11890",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11890"
     },
     {
       "bootstrap": false,
@@ -3485,23 +3499,9 @@
       "summary": "Multi-column on Intel XMX matrix engines refactored ( #29864 ) Multi-column on Intel XMX matrix engines refactored Multi-column (2 to 80 activation columns) mul_mat_vec_q for reordered K-quant and Q8_0 weights on the Intel XMX matrix engines (int8 DPAS, ESIMD), for the SYCL backend. It targets speculative decoding verification (2 to 8 tokens per step) and short prompt batches (9 to 80 tokens). Three types also use it for a single column (Q2_K, Q3_K, Q8_0). Fixed regression bug real bug found: the first version produced NaN whenever the row count wasn't a multiple of 4 Removed GGML_TYPE_Q8_0 activation rewritten xmx_mul_mat 64-byte alignment and 16-byte pitch check on the activations Implemented fused gate/up kernel One launch computes up * act(gate) for both FFN weights, reading the activations once and applying SWIGLU or GEGLU in the epilogue. It covers up to 16 columns and works for all six XMX types. Removed the temporary XMX_NOGLU environment switch Q2_K min-sum optimization Q2_K weight is d\u00b7scl\u00b7q \u2212 dmin\u00b7mc, where scl (the 4-bit scale) and mc (the 4-bit min code) apply to each half of a 32-weight group Added dispatch check and GRF sweep tg128 on Q4_K_M goes from 26.67 to 28.23 tok/s on the B70 (+5.9%). Q6_K is unchanged. MUL_MAT passes 1727/1727 and MUL_MAT_VEC_FUSION 1361/1361. Perplexity at batch 1 is 5.2064 with XMX and 5.2058 without. Renamed variables Added 2 environment variables GGML_SYCL_XMX_MAX_COLS (default 80, any value 0 or higher) and GGML_SYCL_XMX_GLU_MAX_COLS (default 16, range 0 to 16):  the largest batch for the fused gate/up kernel. It is clamped to 16 because that is the most the fused kernel is compiled for, so the variable can only lower it. Update esimd.hpp All five quant structs were repeating the same boilerplate, so I moved it into shared pieces. A new helper xmx_term does one DPAS, converts it to float and scales it per row. The four branches are now one or two lines each, and the shared Cb += z * d8r is written once. The refactor passes all three op tests. MUL_MAT_VEC_FUSION is 1369/1369, MUL_MAT is 2281/2281 (the count includes your uncommitted f32 tests) and MUL_MAT_ID is 937/937. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58735943 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11821",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11821"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "6ef30b59765d1610423adaf8",
-      "discovered_at": "2026-10-22T07:18:30Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-22T06:32:29Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "lora : support prism.hadamard folded weights ( #30910 ) lora : support prism.hadamard folded weights tests : remove LoRA test from test-llama-archs Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58519760 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11806",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11806"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-26T05:17:04Z",
+  "updated_at": "2026-10-26T11:16:31Z",
   "version": 2
 }

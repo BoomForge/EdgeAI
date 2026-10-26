@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-26T17:27:47Z",
+    "at": "2026-10-26T21:52:05Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 8,
+    "prefiltered": 0,
+    "queued": 14,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 129,
+  "runs": 130,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -423,6 +423,11 @@
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08829"
+    },
+    "1131c79da1510707cee09823": {
+      "first_seen": "2026-10-26T21:51:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11905"
     },
     "1143b1c433b3a84fd0cad4ea": {
       "first_seen": "2026-10-13T21:32:25Z",
@@ -1131,6 +1136,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11711"
     },
+    "27334100e818b98514ff3198": {
+      "first_seen": "2026-10-26T21:51:28Z",
+      "status": "queued",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work"
+    },
     "27a7527a54e29bd1beb4039a": {
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
@@ -1518,6 +1528,11 @@
       "first_seen": "2026-10-08T01:18:14Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11480"
+    },
+    "35e334c198740f7416638922": {
+      "first_seen": "2026-10-26T21:51:28Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra"
     },
     "366d9f4e5a40d0265e4812e8": {
       "first_seen": "2026-10-05T18:34:46Z",
@@ -2661,6 +2676,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12598"
     },
+    "5e742d363152cad5a3c39241": {
+      "first_seen": "2026-10-26T21:51:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11904"
+    },
     "5ecef1cb5a88bbe83d49551c": {
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
@@ -2978,10 +2998,20 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11900"
     },
+    "67c44c74430c7c20f6d96ea8": {
+      "first_seen": "2026-10-26T21:51:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11907"
+    },
     "67cc77b3c538c465a2437ea5": {
       "first_seen": "2026-10-15T15:07:09Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11645"
+    },
+    "67d65f355064243488b61250": {
+      "first_seen": "2026-10-26T21:51:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11909"
     },
     "67ffc0a982f5d23d65bf5b92": {
       "first_seen": "2026-10-15T15:06:59Z",
@@ -2998,6 +3028,11 @@
       "first_seen": "2026-10-18T13:50:19Z",
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.1rc0"
+    },
+    "686ae76031355764883a6b3c": {
+      "first_seen": "2026-10-26T21:51:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11910"
     },
     "687e9c8e75efa984655b68da": {
       "first_seen": "2026-10-03T00:46:13Z",
@@ -3373,6 +3408,11 @@
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0"
     },
+    "742d30efdc4090c11a97794f": {
+      "first_seen": "2026-10-26T21:51:28Z",
+      "status": "queued",
+      "url": "https://openai.com/index/openai-cut-incident-investigation"
+    },
     "74655899d2c02f414ae48235": {
       "first_seen": "2026-10-23T04:34:33Z",
       "status": "queued",
@@ -3574,6 +3614,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00083"
     },
+    "7d972df501d01ba1f64ace9f": {
+      "first_seen": "2026-10-26T21:51:28Z",
+      "status": "queued",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
+    },
     "7da99f40f855b50457e2a875": {
       "first_seen": "2026-10-15T19:15:04Z",
       "status": "queued",
@@ -3699,6 +3744,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11532"
     },
+    "82ca109e520592e23b65dc1c": {
+      "first_seen": "2026-10-26T21:51:32Z",
+      "status": "queued",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.21"
+    },
     "8305d1a357e5243d7c9138d4": {
       "first_seen": "2026-10-16T05:36:35Z",
       "status": "queued",
@@ -3748,6 +3798,11 @@
       "first_seen": "2026-10-07T21:34:26Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.4"
+    },
+    "84403df1ba879799cb55a5bd": {
+      "first_seen": "2026-10-26T21:51:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11908"
     },
     "846fae8d241f69fb74914fb1": {
       "first_seen": "2026-10-23T18:43:04Z",
@@ -4077,6 +4132,11 @@
       "first_seen": "2026-10-06T19:03:32Z",
       "status": "queued",
       "url": "https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/gemini-startup-forum-2026/"
+    },
+    "8eb6001a836a6e50b8fb133e": {
+      "first_seen": "2026-10-26T21:51:28Z",
+      "status": "queued",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities"
     },
     "8ebdd7fd9c2ee1d12d1c5204": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -6279,6 +6339,11 @@
       "status": "queued",
       "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
     },
+    "da08d56823ef393396147260": {
+      "first_seen": "2026-10-26T21:51:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11906"
+    },
     "da92b80397690dde35e85c39": {
       "first_seen": "2026-10-19T04:18:13Z",
       "status": "queued",
@@ -7219,6 +7284,11 @@
       "first_seen": "2026-10-03T00:46:13Z",
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.815-beta"
+    },
+    "f9239efda563ef5e7a8c315a": {
+      "first_seen": "2026-10-26T21:51:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11903"
     },
     "f94dbedb777bca1e7dcc5ceb": {
       "first_seen": "2026-10-21T00:55:30Z",

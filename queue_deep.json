@@ -800,20 +800,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "2e014338a53a0a15a7c0b5c9",
-      "discovered_at": "2026-10-11T23:51:14Z",
-      "kind": "primary",
-      "lane": "deep",
-      "priority": 1,
-      "published": "",
-      "search_score": 0,
-      "source_name": "Sakana AI Blog",
-      "summary": "Recursive Self-Improvement through Collective Intelligence",
-      "title": "Recursive Self-Improvement through Collective Intelligence",
-      "url": "https://sakana.ai/mass/"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "141d2b205446e61244d572d9",
       "discovered_at": "2026-10-13T18:14:20Z",
       "kind": "primary",
@@ -2830,6 +2816,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-25T22:31:31Z",
+  "updated_at": "2026-10-26T00:45:51Z",
   "version": 2
 }

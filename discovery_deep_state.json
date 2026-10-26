@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-26T00:45:51Z",
+    "at": "2026-10-26T05:28:26Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 0,
+    "queued": 2,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 125,
+  "runs": 126,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -1537,6 +1537,11 @@
       "first_seen": "2026-10-10T11:25:13Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/naarchy"
+    },
+    "452814709e1615f5b494d051": {
+      "first_seen": "2026-10-26T05:28:20Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/25/seam-cutter/"
     },
     "4531aaeb11d6a46bc2567ac4": {
       "first_seen": "2026-10-09T07:47:51Z",
@@ -4921,6 +4926,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/irisgo-public-beta"
+    },
+    "dcb8257201c7b1551d587d16": {
+      "first_seen": "2026-10-26T05:28:25Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2114530795868373035"
     },
     "dd052aeea45239ae007e7bd2": {
       "first_seen": "2026-10-03T00:46:04Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-26T05:28:26Z",
+    "at": "2026-10-26T11:34:50Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 2,
+    "prefiltered": 5,
+    "queued": 7,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 9,
     "warnings": 0
   },
-  "runs": 126,
+  "runs": 127,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -134,6 +134,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/postnitro"
     },
+    "05c2557b5ef06ce7ee22fb5f": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/knock-7"
+    },
     "05ca3e77b86ce14128a9432c": {
       "first_seen": "2026-10-08T16:25:55Z",
       "status": "too_old",
@@ -150,6 +156,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/mailwell-2"
+    },
+    "068caaea2ccef4072951a1af": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/n8n-chat-ui-2"
     },
     "0749e18eb169d7317ef37e04": {
       "first_seen": "2026-10-11T09:11:21Z",
@@ -369,6 +380,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/fluence"
     },
+    "109ed8473a0ee20eb059c6f2": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/jobmate-ai-3"
+    },
     "10a0d2531acac1dee97df5f3": {
       "first_seen": "2026-10-15T19:05:43Z",
       "status": "too_old",
@@ -536,10 +552,20 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/extrovert"
     },
+    "17e8a03b253a57bc28ac2220": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/manyagents"
+    },
     "18078502f6d0431664918eb1": {
       "first_seen": "2026-10-20T10:21:00Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/esp-mosaico"
+    },
+    "183cebe18862b43afc27664c": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/strawberry"
     },
     "1844279e31368f1a77aa3f75": {
       "first_seen": "2026-10-19T10:44:24Z",
@@ -761,6 +787,11 @@
       "status": "queued",
       "url": "https://www.anthropic.com/claude-haiku-5-5?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "20700f8251398bca024193d2": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/ai-bridge"
+    },
     "207f8e58deb14df6808132d9": {
       "first_seen": "2026-10-22T21:35:20Z",
       "status": "queued",
@@ -770,6 +801,12 @@
       "first_seen": "2026-10-20T19:29:47Z",
       "status": "queued",
       "url": "https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "2116d4596fb7c5e8aea60392": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/kiwi-7"
     },
     "211d4417958e3cbf833ac7f7": {
       "first_seen": "2026-10-16T10:03:10Z",
@@ -800,6 +837,11 @@
       "first_seen": "2026-10-09T07:47:52Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-2d844e62959301f0e262"
+    },
+    "23ed2fd509d712248592a95c": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/allmodels-io"
     },
     "24089a8016c84891608f0945": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -1694,6 +1736,12 @@
       "status": "queued",
       "url": "https://www.minimax.io/news/minimax-speech-28"
     },
+    "4d0b2f3a3cb8e6a4c5c0a101": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/desigma"
+    },
     "4d152b393e43842c1ff1999c": {
       "first_seen": "2026-10-19T10:44:24Z",
       "search_score": 0,
@@ -1782,6 +1830,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/tinyfolder"
     },
+    "508ab1b29ef0806bbe5219d1": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/surgepix"
+    },
     "50980c4dad6b62c89ad033d8": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -1866,6 +1919,11 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/muse-22"
+    },
+    "54cf07458f95ff054992c206": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/pdf-accessibility-checker"
     },
     "54ed88bfa16aa334327fb5bf": {
       "first_seen": "2026-10-07T21:57:47Z",
@@ -1996,6 +2054,11 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/wattmate"
+    },
+    "5984d25b2ab1bfd68c20c541": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/helio-7"
     },
     "5a6224417127badb83133732": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -3057,6 +3120,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/datasette-atom/"
     },
+    "85cdc70e6cac784e6ae3e1e5": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/vibeide"
+    },
     "85de25504b4d92d69daf9d75": {
       "first_seen": "2026-10-17T08:44:04Z",
       "status": "queued",
@@ -3082,6 +3150,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/whiteboard-5"
+    },
+    "86fc6aab17638a8e2b417370": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/2g"
     },
     "86ff7f2dddf61ef77746aae1": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -3138,6 +3211,11 @@
       "first_seen": "2026-10-22T21:35:21Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/"
+    },
+    "88021b834dc97a9c853f1b8c": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/tabsh"
     },
     "8859dca49d075e7cb240bbcf": {
       "first_seen": "2026-10-20T10:21:00Z",
@@ -3474,6 +3552,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/lovable"
+    },
+    "9923d415a3b080377e598c3f": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/standfast"
     },
     "9935ba29a9a1947ed2e1da09": {
       "first_seen": "2026-10-05T18:53:47Z",
@@ -3815,6 +3899,16 @@
       "first_seen": "2026-10-19T10:44:24Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/buddylist-2"
+    },
+    "a85df85f61957fdf605be299": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/flipcorder"
+    },
+    "a905e2dc78e0acc5e245fd13": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/cloudknife"
     },
     "a919ba35a5e056c2278ba024": {
       "first_seen": "2026-10-07T02:36:56Z",
@@ -4544,6 +4638,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/finbar-2"
     },
+    "c838cd3c7a9f609fe1829c8c": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/omerta"
+    },
     "c84785b7885bca32a7cbe6b5": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
@@ -4931,6 +5031,11 @@
       "first_seen": "2026-10-26T05:28:25Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2114530795868373035"
+    },
+    "dcc5175f764bc8f5a2453c65": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/minimax-4"
     },
     "dd052aeea45239ae007e7bd2": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -5456,6 +5561,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/emochi-2"
+    },
+    "f317c625fcd712dc85b8cf38": {
+      "first_seen": "2026-10-26T11:34:46Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-a2f70f3b9d12b19cc962"
     },
     "f39d26586a9bbbb17ae8bee8": {
       "first_seen": "2026-10-07T21:57:50Z",

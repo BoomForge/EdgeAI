@@ -47,9 +47,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-25T21:59:04Z",
-    "eligible": 8,
-    "evaluated": 5,
+    "at": "2026-10-26T00:16:36Z",
+    "eligible": 3,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 0,
     "publish_actions": 0,
@@ -1464,6 +1464,14 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.4"
+    },
+    "33aa528b7cafa35534b800b3": {
+      "at": "2026-10-26T00:16:31Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "agentgrid-io-product-hunt",
+      "url": "https://www.producthunt.com/products/agentgrid-io"
     },
     "33f490ede507170cfb5dd99f": {
       "at": "2026-10-05T01:11:35Z",
@@ -4592,6 +4600,14 @@
       "story_key": "beam-win-cross-machine-ai-agents",
       "url": "https://www.producthunt.com/products/beam-win"
     },
+    "a00826147dcbb65b836f4713": {
+      "at": "2026-10-26T00:16:34Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "sideos-ai-local-ai-tools",
+      "url": "https://www.producthunt.com/products/sideos-ai"
+    },
     "a0219a244e273a8e5ed720d7": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -6959,6 +6975,14 @@
       "status": "ignored",
       "story_key": "llamacpp-sensenova-u1-support",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11801"
+    },
+    "f7fda8171297815a5553f115": {
+      "at": "2026-10-26T00:16:36Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "product-hunt-visual-launch-editor",
+      "url": "https://www.producthunt.com/products/producthunt"
     },
     "f82d4af7e53a994322f02c3d": {
       "at": "2026-10-12T17:49:23Z",

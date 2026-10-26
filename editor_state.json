@@ -47,12 +47,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-26T05:08:55Z",
-    "eligible": 0,
-    "evaluated": 0,
+    "at": "2026-10-26T11:01:43Z",
+    "eligible": 3,
+    "evaluated": 3,
     "mode": "live",
-    "new_posts": 0,
-    "publish_actions": 0,
+    "new_posts": 1,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -2039,6 +2039,14 @@
       "status": "ignored",
       "story_key": "black-forest-labs-about-page",
       "url": "https://bfl.ai/about"
+    },
+    "452814709e1615f5b494d051": {
+      "at": "2026-10-26T11:01:43Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "simon-willison-seam-cutter-tool",
+      "url": "https://simonwillison.net/2026/Oct/25/seam-cutter/"
     },
     "4531aaeb11d6a46bc2567ac4": {
       "at": "2026-10-11T18:49:52Z",
@@ -5409,6 +5417,20 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/harness-104"
     },
+    "c37ae89eeb136ded26fa13e9": {
+      "at": "2026-10-26T11:01:40Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "cline-sdk-v0-2-0-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Cline Releases"
+      },
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.2.0"
+    },
     "c38af6e5cae43e23a64c1d50": {
       "at": "2026-10-03T04:48:28Z",
       "bootstrap": true,
@@ -6108,6 +6130,14 @@
         "source": "llama.cpp Releases"
       },
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11850"
+    },
+    "dcb8257201c7b1551d587d16": {
+      "at": "2026-10-26T11:01:42Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "nous-research-unbroker-skill-hermes-agent",
+      "url": "https://x.com/NousResearch/status/2114530795868373035"
     },
     "dd052aeea45239ae007e7bd2": {
       "at": "2026-10-03T04:46:58Z",
@@ -8168,6 +8198,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Cline SDK v0.0.93 Adds In-Process Plugin Registry, Composio Connectors, and Token Fixes",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Cline Releases"
+      }
+    },
+    "cline-sdk-v0-2-0-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/cline-sdk-v0-2-0-release.png",
+      "last_updated": "2026-10-26T11:01:40Z",
+      "post_id": "1450152348356545051",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/cline-sdk-v020-ships-major-improvements.html",
+      "score": 82,
+      "source_image_source": "Cline Releases",
+      "source_image_url": "https://opengraph.githubassets.com/4517212f1f7cbae68e79f06f41a10106d5c064b3e0ff4c7e2cc03c9b21a84980/cline/cline/releases/tag/sdk/sdk/v0.2.0",
+      "source_urls": [
+        "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.2.0"
+      ],
+      "status": "CONFIRMED",
+      "title": "Cline SDK v0.2.0 Ships Major Improvements to Session Hub, Model Catalogs, and Gemini Integration",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

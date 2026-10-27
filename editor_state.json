@@ -57,11 +57,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-26T21:46:07Z",
-    "eligible": 17,
+    "at": "2026-10-27T00:53:37Z",
+    "eligible": 29,
     "evaluated": 3,
     "mode": "live",
-    "new_posts": 2,
+    "new_posts": 1,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -3406,6 +3406,14 @@
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0"
     },
+    "742d30efdc4090c11a97794f": {
+      "at": "2026-10-27T00:53:33Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "openai-codex-ultrafast-internal-workflow",
+      "url": "https://openai.com/index/openai-cut-incident-investigation"
+    },
     "74eecc752e5f1b65d14fce26": {
       "at": "2026-10-23T05:59:56Z",
       "status": "expired",
@@ -4102,6 +4110,20 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/page/2/"
+    },
+    "8eb6001a836a6e50b8fb133e": {
+      "at": "2026-10-27T00:53:37Z",
+      "bootstrap": false,
+      "score": 96,
+      "status": "published",
+      "story_key": "openai-scientific-discoveries-math-cs-physics",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities"
     },
     "8ebdd7fd9c2ee1d12d1c5204": {
       "at": "2026-10-05T22:35:25Z",
@@ -5317,6 +5339,20 @@
       "at": "2026-10-16T18:54:59Z",
       "status": "expired",
       "url": "https://www.anthropic.com/engineering/redesigning-source-control?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "bdbe6ef75087bf5e5202a346": {
+      "at": "2026-10-27T00:53:32Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "updated",
+      "story_key": "openai-gpt-6-1-terra-artificial-analysis",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-da66332dc8a97bd94699"
     },
     "bdc3c2af02f44af22bcadb19": {
       "at": "2026-10-11T07:07:40Z",
@@ -10624,14 +10660,15 @@
     "openai-gpt-6-1-terra-artificial-analysis": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-gpt-6-1-terra-artificial-analysis.jpg",
-      "last_updated": "2026-10-26T21:46:01Z",
+      "last_updated": "2026-10-27T00:53:32Z",
       "post_id": "7765384392224723651",
       "post_url": "https://edgeainews.blogspot.com/2026/10/openai-launches-gpt-61-terra-pushing.html",
-      "score": 88,
+      "score": 92,
       "source_image_source": "Artificial Analysis Changelog",
       "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
       "source_urls": [
-        "https://artificialanalysis.ai/changelog#edgeai-a2f70f3b9d12b19cc962"
+        "https://artificialanalysis.ai/changelog#edgeai-a2f70f3b9d12b19cc962",
+        "https://artificialanalysis.ai/changelog#edgeai-da66332dc8a97bd94699"
       ],
       "status": "CONFIRMED",
       "title": "OpenAI Launches GPT-6.1 Terra, Pushing Cost Efficiency Frontier on Artificial Analysis",
@@ -10938,6 +10975,27 @@
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-scientific-discoveries-math-cs-physics": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openai-scientific-discoveries-math-cs-physics.png",
+      "last_updated": "2026-10-27T00:53:37Z",
+      "post_id": "7834972009152643790",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-announces-ai-generated.html",
+      "score": 96,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/5HKwJOTURosg0IoKJA21s8/88eefd210a578266fca1a9d9454daadc/from-ai-results-to-scientific-understanding-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/building-scientific-understanding-with-academic-communities"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Announces AI-Generated Breakthroughs in Mathematics, Computer Science, and Physics",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
         "source": "OpenAI News"
       }
     },

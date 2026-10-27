@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-27T12:46:54Z",
+    "at": "2026-10-27T18:23:55Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 6,
+    "prefiltered": 1,
+    "queued": 4,
     "sources_ok": 15,
-    "too_old": 9,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 132,
+  "runs": 133,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -484,6 +484,11 @@
       "first_seen": "2026-10-13T18:14:20Z",
       "status": "queued",
       "url": "https://runway.com/code-terms/enterprise-bonus-terms"
+    },
+    "1445b894808d974c625bc87d": {
+      "first_seen": "2026-10-27T18:23:50Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/claude-can-now-build-a-dashboard-that-updates-itself-10-27-2026"
     },
     "1464945db0ba3868d024d3d9": {
       "first_seen": "2026-10-20T22:43:53Z",
@@ -1033,6 +1038,11 @@
       "first_seen": "2026-10-10T23:43:52Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/gitglow-2"
+    },
+    "2bbf27d88bc8b18ad05b0d21": {
+      "first_seen": "2026-10-27T18:23:50Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-3d60ad9bbbc575b3e33d"
     },
     "2bc89da3f2611b9900152569": {
       "first_seen": "2026-10-09T07:47:55Z",
@@ -2983,6 +2993,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/notchpit"
     },
+    "7c363a9f000ae8a44318f09f": {
+      "first_seen": "2026-10-27T18:23:54Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2115131295319662938"
+    },
     "7c90221d90c9aee658867f72": {
       "first_seen": "2026-10-09T07:47:51Z",
       "status": "too_old",
@@ -3378,6 +3393,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/audio-lip-sync-pro-for-blender"
+    },
+    "8b8d11c5c80d0e4dca5f164e": {
+      "first_seen": "2026-10-27T18:23:54Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2115120531611787323"
     },
     "8b9d6c384f9787a62f253628": {
       "first_seen": "2026-10-14T18:00:57Z",
@@ -4955,6 +4975,12 @@
       "first_seen": "2026-10-24T14:47:04Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/24/battledrones/"
+    },
+    "d1b2e82c44f78c762d36999b": {
+      "first_seen": "2026-10-27T18:23:50Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/openai"
     },
     "d1dfcca4ed604925cb790620": {
       "first_seen": "2026-10-08T01:53:48Z",

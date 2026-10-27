@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-26T21:56:11Z",
+    "at": "2026-10-27T01:27:31Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 8,
+    "queued": 3,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 129,
+  "runs": 130,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -4594,6 +4594,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/penta-cd-player-changer"
     },
+    "c15b1e3c66d845646c4c6440": {
+      "first_seen": "2026-10-27T01:27:26Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+    },
     "c21a731587b9df7d6cdf942e": {
       "first_seen": "2026-10-20T10:21:00Z",
       "search_score": 0,
@@ -4789,6 +4794,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/regunow"
+    },
+    "cd171daba2bfd557d394614b": {
+      "first_seen": "2026-10-27T01:27:26Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-4bfc27b875b671c5d270"
     },
     "cd9267d452079c2353cb8ed2": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -5070,6 +5080,11 @@
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/jogak"
+    },
+    "db71bb0ca35a812059311a36": {
+      "first_seen": "2026-10-27T01:27:26Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/"
     },
     "db8ebfc77c69dd24459ca5f9": {
       "first_seen": "2026-10-06T19:44:10Z",

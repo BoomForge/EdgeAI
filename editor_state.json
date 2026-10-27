@@ -57,11 +57,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-27T06:13:58Z",
+    "at": "2026-10-27T12:34:26Z",
     "eligible": 31,
-    "evaluated": 2,
+    "evaluated": 3,
     "mode": "live",
-    "new_posts": 1,
+    "new_posts": 2,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -1573,6 +1573,20 @@
       "at": "2026-10-10T18:31:36Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11480"
+    },
+    "35e334c198740f7416638922": {
+      "at": "2026-10-27T12:34:26Z",
+      "bootstrap": false,
+      "score": 96,
+      "status": "published",
+      "story_key": "openai-gpt-6-1-terra",
+      "trust": {
+        "label": "Strong",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 89,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra"
     },
     "36300441d954306806343b79": {
       "at": "2026-10-09T21:38:57Z",
@@ -3317,6 +3331,14 @@
       },
       "url": "https://bfl.ai/models/flux-3-video"
     },
+    "72369d10b115056982748797": {
+      "at": "2026-10-27T12:33:58Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "sakana-ai-gtm-strategy-2026",
+      "url": "https://sakana.ai/vp-of-gtm-interview/"
+    },
     "723ac1f70a166fbceb0ff2bb": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -3602,6 +3624,20 @@
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00083"
+    },
+    "7d972df501d01ba1f64ace9f": {
+      "at": "2026-10-27T12:34:22Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-gpt-6-1-sol-coderabbit-security",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
     },
     "7da99f40f855b50457e2a875": {
       "at": "2026-10-16T01:19:24Z",
@@ -10683,6 +10719,48 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
         "score": 62,
         "source": "FutureTools AI News"
+      }
+    },
+    "openai-gpt-6-1-sol-coderabbit-security": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-gpt-6-1-sol-coderabbit-security.jpg",
+      "last_updated": "2026-10-27T12:34:22Z",
+      "post_id": "3707313675173658781",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-introduces-gpt-61-sol-powering.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/1ksgDNZQ7aw2uHUY6xbaVm/0ffd141428e2cea70f4dcbf67ccd6245/gpt-6-1-sol-helps-coderabbit-strengthen-security-across-complex-codebases-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces GPT-6.1 Sol, Powering CodeRabbit Security Agent",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-gpt-6-1-terra": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-gpt-6-1-terra.jpg",
+      "last_updated": "2026-10-27T12:34:26Z",
+      "post_id": "5684630284558025070",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-releases-gpt-61-terra-with-lower.html",
+      "score": 96,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://cdn.openai.com/mdx-assets/71f084db-a08b-48c5-b96e-5fbdc21a1a00/terra-art-card-16x9.0394724b.png",
+      "source_urls": [
+        "https://openai.com/index/introducing-gpt-6-1-terra"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Releases GPT-6.1 Terra with Lower Pricing and Advanced Computer Use",
+      "trust": {
+        "label": "Strong",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 89,
+        "source": "OpenAI News"
       }
     },
     "openai-gpt-6-1-terra-artificial-analysis": {

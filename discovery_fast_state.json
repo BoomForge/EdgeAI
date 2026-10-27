@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-27T06:25:13Z",
+    "at": "2026-10-27T12:40:28Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 45,
+    "queued": 10,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 132,
+  "runs": 133,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -877,6 +877,11 @@
       "first_seen": "2026-10-19T16:56:03Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11737"
+    },
+    "1ce9c5a561d19543dbbddec9": {
+      "first_seen": "2026-10-27T12:40:00Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11925"
     },
     "1cf53f8f1a87fe6327788e37": {
       "first_seen": "2026-10-22T07:18:23Z",
@@ -2038,6 +2043,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.28966"
     },
+    "433c4c8f989e8655527a8b7f": {
+      "first_seen": "2026-10-27T12:40:00Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11929"
+    },
     "434246a93fec15537b140248": {
       "first_seen": "2026-10-19T04:18:13Z",
       "status": "queued",
@@ -2907,6 +2917,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/"
     },
+    "6276584e0a9e160276e074b6": {
+      "first_seen": "2026-10-27T12:40:00Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11927"
+    },
     "62bc207b9e95c88439f21ed4": {
       "first_seen": "2026-10-26T11:16:07Z",
       "status": "queued",
@@ -3713,6 +3728,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11840"
     },
+    "7cb522fa07995fb5ac193fa2": {
+      "first_seen": "2026-10-27T12:39:57Z",
+      "status": "queued",
+      "url": "https://github.com/huggingface/diffusers/releases/tag/v0.42.1"
+    },
     "7ce1dacb4f2add5e1d2594f3": {
       "first_seen": "2026-10-05T18:34:59Z",
       "status": "queued",
@@ -4368,6 +4388,11 @@
       "first_seen": "2026-10-27T01:17:41Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11912"
+    },
+    "913f8566e8adb0f7b4070605": {
+      "first_seen": "2026-10-27T12:40:02Z",
+      "status": "queued",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc0"
     },
     "916686ac2e288443b17dc7eb": {
       "first_seen": "2026-10-20T10:10:22Z",
@@ -6187,6 +6212,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20731"
     },
+    "ce56c2f85b023448550285f1": {
+      "first_seen": "2026-10-27T12:40:00Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11922"
+    },
     "ce73009b0e6483149fdb3676": {
       "first_seen": "2026-10-13T16:26:22Z",
       "status": "queued",
@@ -6782,6 +6812,11 @@
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.91"
     },
+    "e0ae721a32ea3a299220ba2a": {
+      "first_seen": "2026-10-27T12:40:00Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11926"
+    },
     "e1437283004c66696fa991ce": {
       "first_seen": "2026-10-21T05:49:01Z",
       "status": "queued",
@@ -6791,6 +6826,11 @@
       "first_seen": "2026-10-05T18:34:46Z",
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/education/gemini-student-newscast/"
+    },
+    "e1a6c815842fc51802b59507": {
+      "first_seen": "2026-10-27T12:40:00Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11928"
     },
     "e1f52aa5c9ca591760756c0c": {
       "first_seen": "2026-10-08T14:56:12Z",
@@ -7203,6 +7243,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11749"
     },
+    "ef6ce20df87cff519fed1670": {
+      "first_seen": "2026-10-27T12:40:00Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11921"
+    },
     "ef7024e5052fb5713228a3d5": {
       "first_seen": "2026-10-08T07:31:45Z",
       "status": "queued",
@@ -7484,6 +7529,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00006"
+    },
+    "f6ebe2c120b7f357d957334b": {
+      "first_seen": "2026-10-27T12:40:00Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11923"
     },
     "f727b4e1831e7a08543a22d3": {
       "first_seen": "2026-10-15T19:15:03Z",

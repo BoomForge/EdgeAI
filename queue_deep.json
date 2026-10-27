@@ -786,6 +786,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "72369d10b115056982748797",
+      "discovered_at": "2026-10-27T06:46:44Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "",
+      "search_score": 8,
+      "source_name": "Sakana AI Blog",
+      "summary": "Taking Japan-Born AI Products to the World: An Interview with Sakana AI\u2019s VP of GTM",
+      "title": "Taking Japan-Born AI Products to the World: An Interview with Sakana AI\u2019s VP of GTM",
+      "url": "https://sakana.ai/vp-of-gtm-interview/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "73d6684f69e16267a8161d30",
       "discovered_at": "2026-10-14T18:01:01Z",
       "kind": "primary",
@@ -3096,6 +3110,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-27T01:27:31Z",
+  "updated_at": "2026-10-27T06:46:46Z",
   "version": 2
 }

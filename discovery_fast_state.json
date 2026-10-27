@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-27T18:16:37Z",
+    "at": "2026-10-27T22:24:57Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 10,
+    "prefiltered": 0,
+    "queued": 8,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 134,
+  "runs": 135,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -313,6 +313,11 @@
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.07089"
+    },
+    "0d7ea80051ba20829834c768": {
+      "first_seen": "2026-10-27T22:24:44Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.10"
     },
     "0da7e7a18109eccfb75730db": {
       "first_seen": "2026-10-06T19:03:40Z",
@@ -1241,6 +1246,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.28716"
     },
+    "28f5a6727fc645be3ab75e2e": {
+      "first_seen": "2026-10-27T22:24:44Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.5"
+    },
     "2973c2b9eb553c872d161e21": {
       "first_seen": "2026-10-21T05:49:01Z",
       "status": "queued",
@@ -1290,6 +1300,11 @@
       "first_seen": "2026-10-09T06:41:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10597"
+    },
+    "2b4fadbef084435142a49ad2": {
+      "first_seen": "2026-10-27T22:24:44Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.6"
     },
     "2b63c7c697dbbe1e89666b1e": {
       "first_seen": "2026-10-05T09:14:07Z",
@@ -1668,6 +1683,11 @@
       "first_seen": "2026-10-15T05:40:21Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.19020"
+    },
+    "38bd0a3233bd07bfe21a4e76": {
+      "first_seen": "2026-10-27T22:24:44Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.8"
     },
     "38c445fba78be444f32b8e42": {
       "first_seen": "2026-10-13T16:26:01Z",
@@ -3567,6 +3587,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0"
+    },
+    "740c5733ca5094b5da389e6d": {
+      "first_seen": "2026-10-27T22:24:33Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12"
     },
     "742d30efdc4090c11a97794f": {
       "first_seen": "2026-10-26T21:51:28Z",
@@ -5851,6 +5876,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11829"
     },
+    "c1efe94a438c78db4aca9c6d": {
+      "first_seen": "2026-10-27T22:24:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11937"
+    },
     "c1f975e922220e7ead6a8734": {
       "first_seen": "2026-10-15T05:40:28Z",
       "status": "queued",
@@ -5960,6 +5990,11 @@
       "first_seen": "2026-10-26T17:27:18Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11901"
+    },
+    "c44dc9ed271ff418b14ac5c9": {
+      "first_seen": "2026-10-27T22:24:24Z",
+      "status": "queued",
+      "url": "https://openai.com/index/check-point-daybreak"
     },
     "c4eeefc4e76f2fa44d0ee9c9": {
       "first_seen": "2026-10-15T05:40:20Z",
@@ -6674,6 +6709,11 @@
       "first_seen": "2026-10-24T21:41:08Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11868"
+    },
+    "dac3e81b9670df3c9e8c02d8": {
+      "first_seen": "2026-10-27T22:24:54Z",
+      "status": "queued",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.31"
     },
     "dadf4d481b4da1e53106a4eb": {
       "first_seen": "2026-10-26T05:16:26Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-26T21:52:05Z",
+    "at": "2026-10-27T01:18:08Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 14,
+    "queued": 7,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 130,
+  "runs": 131,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -4214,6 +4214,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06977"
     },
+    "90d359b06e094ba879adefc6": {
+      "first_seen": "2026-10-27T01:17:41Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11912"
+    },
     "916686ac2e288443b17dc7eb": {
       "first_seen": "2026-10-20T10:10:22Z",
       "status": "queued",
@@ -4711,6 +4716,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12514"
     },
+    "a1a40a257a9ec90ed710bd71": {
+      "first_seen": "2026-10-27T01:18:01Z",
+      "status": "queued",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.14"
+    },
     "a1d61aadf0d60aed3e8bd82e": {
       "first_seen": "2026-10-13T16:26:01Z",
       "status": "queued",
@@ -4931,6 +4941,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10613"
+    },
+    "a9c488820a62ac4adcd9d66c": {
+      "first_seen": "2026-10-27T01:17:32Z",
+      "status": "queued",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra"
     },
     "aa178b575bb249be9aef3b15": {
       "first_seen": "2026-10-19T04:18:14Z",
@@ -5645,10 +5660,20 @@
       "status": "queued",
       "url": "https://openai.com/index/practical-guide-building-gpt-6"
     },
+    "c39f2a58bf6fb070341bc846": {
+      "first_seen": "2026-10-27T01:17:41Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0"
+    },
     "c3e9e5c56aa9ee3582d063b8": {
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2609.38260"
+    },
+    "c410254cd0aaab5985667e75": {
+      "first_seen": "2026-10-27T01:17:41Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11913"
     },
     "c42e557a452022c7203259b4": {
       "first_seen": "2026-10-03T00:46:18Z",
@@ -6532,6 +6557,11 @@
       "status": "too_old",
       "url": "https://github.com/huggingface/smolagents/releases/tag/v1.23.0"
     },
+    "e04bf53c4a731ffd33a87b3b": {
+      "first_seen": "2026-10-27T01:17:39Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.0"
+    },
     "e04d2b7692ee64cc03848910": {
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
@@ -7299,6 +7329,11 @@
       "first_seen": "2026-10-03T15:10:00Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11376"
+    },
+    "f978f7c73c30df668db72235": {
+      "first_seen": "2026-10-27T01:18:02Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.3"
     },
     "f98bf505388d59d014232eff": {
       "first_seen": "2026-10-07T21:34:26Z",

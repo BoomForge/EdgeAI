@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-27T12:40:28Z",
+    "at": "2026-10-27T18:16:37Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
+    "prefiltered": 1,
     "queued": 10,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 133,
+  "runs": 134,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -77,6 +77,11 @@
       "first_seen": "2026-10-19T16:56:03Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11738"
+    },
+    "03efaabc91c5a0ac5b1fa7bf": {
+      "first_seen": "2026-10-27T18:16:11Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11930"
     },
     "0400448115dbe0ee87bb492d": {
       "first_seen": "2026-10-16T18:41:03Z",
@@ -1105,6 +1110,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-clinical-study/"
     },
+    "25296bd10ebb7ad2c6b8762e": {
+      "first_seen": "2026-10-27T18:16:12Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1"
+    },
     "2553159a4f32c9968b59109d": {
       "first_seen": "2026-10-03T05:43:34Z",
       "status": "queued",
@@ -1457,6 +1467,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/frieze-london-2026/"
+    },
+    "319d52d61ca2c83a7213cd2e": {
+      "first_seen": "2026-10-27T18:16:02Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
     },
     "31ab6eb6ed7e114eec94e884": {
       "first_seen": "2026-10-16T05:36:54Z",
@@ -2088,6 +2103,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02320"
     },
+    "4501706684331e525ea0a487": {
+      "first_seen": "2026-10-27T18:16:11Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11936"
+    },
     "4508b0cc9905d6396c98728f": {
       "first_seen": "2026-10-21T05:49:00Z",
       "status": "queued",
@@ -2278,6 +2298,11 @@
       "first_seen": "2026-10-19T04:18:13Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22420"
+    },
+    "4c772ea870ef1e2f13771767": {
+      "first_seen": "2026-10-27T18:16:11Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11935"
     },
     "4c8ba28a0e6392fc56933088": {
       "first_seen": "2026-10-07T09:14:07Z",
@@ -4525,6 +4550,12 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11846"
     },
+    "958f93db13edac304e970c19": {
+      "first_seen": "2026-10-27T18:16:02Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-edge-design/"
+    },
     "95a9395903c9db5363c82a9f": {
       "first_seen": "2026-10-03T00:46:18Z",
       "status": "too_old",
@@ -5127,6 +5158,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08811"
     },
+    "a94cf55dda58e660c947b7ed": {
+      "first_seen": "2026-10-27T18:16:11Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11932"
+    },
     "a96dde8c7e248443f7487f01": {
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
@@ -5593,6 +5629,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/"
     },
+    "ba0c41f8addcc99f72317dd8": {
+      "first_seen": "2026-10-27T18:16:11Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11933"
+    },
     "ba10a67cb4923b256ec4b826": {
       "first_seen": "2026-10-03T00:46:19Z",
       "status": "too_old",
@@ -5895,6 +5936,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11913"
     },
+    "c417f8e3d39d0b893c07541b": {
+      "first_seen": "2026-10-27T18:16:01Z",
+      "status": "queued",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt"
+    },
     "c42e557a452022c7203259b4": {
       "first_seen": "2026-10-03T00:46:18Z",
       "status": "too_old",
@@ -6145,6 +6191,11 @@
       "first_seen": "2026-10-15T10:18:29Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11642"
+    },
+    "cc7dc046155f648c4d884e28": {
+      "first_seen": "2026-10-27T18:16:02Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-in-action/"
     },
     "ccc48caa46ec0b1214a46d73": {
       "first_seen": "2026-10-25T13:40:54Z",
@@ -7730,6 +7781,11 @@
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08944"
+    },
+    "fe6c8212a1cce378584e2e9a": {
+      "first_seen": "2026-10-27T18:16:11Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11934"
     },
     "fe7f2d4bddf9116ef205b113": {
       "first_seen": "2026-10-16T05:36:28Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-27T06:46:46Z",
+    "at": "2026-10-27T12:46:54Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 1,
+    "prefiltered": 3,
+    "queued": 6,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 9,
     "warnings": 0
   },
-  "runs": 131,
+  "runs": 132,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -505,6 +505,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/"
     },
+    "158b80486d5284b98b132f73": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/revix-ai-2"
+    },
     "15b55416c268f429445a8309": {
       "first_seen": "2026-10-16T14:48:14Z",
       "search_score": 0,
@@ -637,6 +642,11 @@
       "first_seen": "2026-10-09T01:22:23Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-8c1a880b28f31fa7f49b"
+    },
+    "1a8015f4f2b7e4a4569a9c39": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/paddock-2"
     },
     "1ab262daeec5747ab5941548": {
       "first_seen": "2026-10-03T05:50:29Z",
@@ -842,6 +852,12 @@
       "first_seen": "2026-10-07T21:57:48Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
+    },
+    "232610421dd7bc7d6cd6e6d1": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/fswitcher"
     },
     "23b886bef1cf374a04a163f9": {
       "first_seen": "2026-10-09T07:47:52Z",
@@ -1497,6 +1513,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/termi-protocol"
     },
+    "3f53f10f752a8269ed0764ac": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/contextgem"
+    },
     "3fd780cf9f0f9d8af472aa01": {
       "first_seen": "2026-10-08T21:27:35Z",
       "status": "queued",
@@ -1773,10 +1794,20 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/"
     },
+    "4c7364a368c918f53bff0102": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/orbit-app-blocker"
+    },
     "4cbabd98657885edf602078e": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://www.minimax.io/news/minimax-speech-28"
+    },
+    "4ce6ae2c14b56bb250a184a9": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/savor-3"
     },
     "4d0b2f3a3cb8e6a4c5c0a101": {
       "first_seen": "2026-10-26T11:34:46Z",
@@ -2468,6 +2499,11 @@
       "status": "queued",
       "url": "https://sakana.ai/open-house-2026/"
     },
+    "68d23b417efc93d186b8ce73": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/theysaid"
+    },
     "68f59b89b4d78cf84a0cdf21": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -2545,6 +2581,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/teclo"
+    },
+    "6c9a3778997db3fc25b1b0b9": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/bluetooth-snes-controller"
     },
     "6d2ef0c477ac4ea5a394a3d8": {
       "first_seen": "2026-10-03T00:46:02Z",
@@ -3695,6 +3737,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/smooth-recorder"
     },
+    "9c986258d51d03b4399fee35": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/spacesheep"
+    },
     "9cb2ddd10e3e61780dd91b16": {
       "first_seen": "2026-10-10T16:21:13Z",
       "search_score": 1,
@@ -4321,6 +4368,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107493074662281326"
     },
+    "b8027b998a3859ca16466320": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/pulsedev"
+    },
     "b81707fa629d7d2281d97c4c": {
       "first_seen": "2026-10-21T11:41:37Z",
       "search_score": 0,
@@ -4642,6 +4694,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/harness-104"
     },
+    "c39be7b7ef76e252eff5eeb7": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/overmind-2"
+    },
     "c4040fe52edf29b085000e66": {
       "first_seen": "2026-10-22T21:35:20Z",
       "status": "queued",
@@ -4667,6 +4724,11 @@
       "first_seen": "2026-10-09T07:47:51Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/agentsdr"
+    },
+    "c5bca5c7ae5da88b7dbfb55f": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/coachare"
     },
     "c60a9161b5323a4fb36813db": {
       "first_seen": "2026-10-22T07:30:04Z",
@@ -4794,6 +4856,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/rival-workshop"
     },
+    "ccc7821bd40c1cf6d972eff9": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/notra-3"
+    },
     "ccf00074d984add5493dbead": {
       "first_seen": "2026-10-09T07:47:51Z",
       "search_score": 0,
@@ -4845,6 +4912,11 @@
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/cursor-remote-lite"
+    },
+    "cfe4955cd22f709a4db34062": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/nuplay"
     },
     "cfe74026140204f1da364a30": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -4968,6 +5040,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/ilha"
     },
+    "d5e5c47f2f1d8aa919b82f9c": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/off-grid-ai"
+    },
     "d716e08cd23c30890d3fdce6": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -5008,6 +5085,11 @@
       "first_seen": "2026-10-07T21:57:53Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107874963382538469"
+    },
+    "d84f30af7d5d46557d6d59c7": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/nuvio"
     },
     "d87ec52777a804f4dba4fc8e": {
       "first_seen": "2026-10-13T23:00:39Z",
@@ -5118,6 +5200,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/irisgo-public-beta"
+    },
+    "dc9674fda60eec522d7b3d8e": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/ninx-2"
     },
     "dcb8257201c7b1551d587d16": {
       "first_seen": "2026-10-26T05:28:25Z",
@@ -5678,6 +5765,12 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://sakana.ai/schmidhuber/"
+    },
+    "f4c384acde8e9fca0eac3202": {
+      "first_seen": "2026-10-27T12:46:49Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/openradview"
     },
     "f4c6a59dfdaf87404887c1d4": {
       "first_seen": "2026-10-06T14:08:51Z",

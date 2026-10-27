@@ -57,9 +57,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-27T00:53:37Z",
-    "eligible": 29,
-    "evaluated": 3,
+    "at": "2026-10-27T06:13:58Z",
+    "eligible": 31,
+    "evaluated": 2,
     "mode": "live",
     "new_posts": 1,
     "publish_actions": 2,
@@ -1125,6 +1125,20 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-updates-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-01385d29a6abea0cb221"
+    },
+    "27334100e818b98514ff3198": {
+      "at": "2026-10-27T06:13:58Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "openai-signals-economic-research-data-release-october-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work"
     },
     "276633348655bb1b12742fc4": {
       "at": "2026-10-11T00:57:13Z",
@@ -5772,6 +5786,20 @@
       "status": "ignored",
       "story_key": "llamacpp-b11642-prompt-cache-optimization",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11642"
+    },
+    "cd171daba2bfd557d394614b": {
+      "at": "2026-10-27T06:13:54Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "updated",
+      "story_key": "openai-gpt-6-1-terra-artificial-analysis",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-4bfc27b875b671c5d270"
     },
     "cd9267d452079c2353cb8ed2": {
       "at": "2026-10-04T00:07:49Z",
@@ -10660,7 +10688,7 @@
     "openai-gpt-6-1-terra-artificial-analysis": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-gpt-6-1-terra-artificial-analysis.jpg",
-      "last_updated": "2026-10-27T00:53:32Z",
+      "last_updated": "2026-10-27T06:13:54Z",
       "post_id": "7765384392224723651",
       "post_url": "https://edgeainews.blogspot.com/2026/10/openai-launches-gpt-61-terra-pushing.html",
       "score": 92,
@@ -10668,7 +10696,8 @@
       "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
       "source_urls": [
         "https://artificialanalysis.ai/changelog#edgeai-a2f70f3b9d12b19cc962",
-        "https://artificialanalysis.ai/changelog#edgeai-da66332dc8a97bd94699"
+        "https://artificialanalysis.ai/changelog#edgeai-da66332dc8a97bd94699",
+        "https://artificialanalysis.ai/changelog#edgeai-4bfc27b875b671c5d270"
       ],
       "status": "CONFIRMED",
       "title": "OpenAI Launches GPT-6.1 Terra, Pushing Cost Efficiency Frontier on Artificial Analysis",
@@ -11034,6 +11063,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI Releases Frontier Model Mathematical Results and Lean Proof Formalizations",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-signals-economic-research-data-release-october-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-signals-economic-research-data-release-october-2026.jpg",
+      "last_updated": "2026-10-27T06:13:58Z",
+      "post_id": "6000078139753476762",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-releases-economic-research-data.html",
+      "score": 82,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/6K9gMLTc6r3aFUbyZ2uZDN/d05f2ece956d33201cab06373febac3a/how-workers-use-chatgpt-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/chatgpt-expanding-world-of-work"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Releases Economic Research Data Mapping ChatGPT Work Usage Across 100 Countries",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

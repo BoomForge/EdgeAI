@@ -520,6 +520,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "e093df58a552087f62efbd98",
+      "discovered_at": "2026-10-27T22:30:10Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-10-27T22:30:10Z",
+      "search_score": 35,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 27 Oct 2026 Modal performance results now available DeepSeek V4.1 Flash 1017 (Max) SambaNova performance results now available MiniMax-M3.1-Flash 26 Oct 2026 \ud83d\udd14 New article published GPT-6.1 Terra pushes the cost efficiency frontier OpenAI has released GPT-6.1 Terra, pushing the cost efficiency frontier. It is the first Terra-class model since GPT-5.6, and is more intelligent for less than a third of the cost \ud83d\udd14 New article published Code2Video-AA: how well do AI models design videos in code? Artificial Analysis' implementation of HeyGen's Code2Video Bench, evaluating how well models create short product and brand videos from 114 design briefs using HyperFrames HTML. New language model evaluation results available GPT-6.1 Terra (Non-reasoning) Intelligence Index: 33 New language model evaluation results available GPT-6.1 Terra (Low) Intelligence Index: 36 New language model evaluation results available GPT-6.1 Terra (Medium) Intelligence Index: 41 New language model evaluation results available GPT-6.1 Terra (High) Intelligence Index: 44 New language model evaluation results available GPT-6.1 Terra (Xhigh) Intelligence Index: 45 New language model evaluation results available GPT-6.1 Terra (Max) Intelligence Index: 48 OpenAI performance results now available GPT-6.1 Terra (Non-reasoning) GPT-6.1 Terra (Low) GPT-6.1 Terra (Medium) GPT-6.1 Terra (High) GPT-6.1 Terra (Xhigh) GPT-6.1 Terra (Max) 23 Oct 2026 \ud83d\udd14 New article published Kimi K3.1 Pro launches at 4th on the Intelligence Index and will lead open weights models Kimi K3.1 Pro launches at 4th on the Artificial Analysis Intelligence Index and will lead open weights models New language model evaluation results available Kimi K3.1 Pro Intelligence Index: 55 New language model evaluation results available Nemotron 3.5 Bolt E4B 4GB (Reasoning) Inco performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax-M3.1-Flash MiniMax-M3.1-Flash Nebius performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax-M3.1-Flash Modular performance results now available MiniMax-M3.1-Flash SiliconFlow performance results now available MiniMax-M3.1-Flash Fireworks performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash (Non-reasoning) Wafer performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash 1017 (Max) Together AI performance results now available MiniMax-M3.1-Flash Parasail performance results now available MiniMax-M3.1-Flash GMI performance results now available MiniMax-M3.1-Flash Novita performance results now available MiniMax-M3.1-Flash DigitalOcean performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash 1017 (Max) Kimi performance results now available Kimi K3.1 Pro Kimi K3.1 Pro 22 Oct 2026 New language model evaluation results available Ling 3.1 Flash 1019 Intelligence Index: 44 InclusionAI performance results now available Ling 3.1 Flash 1019 21 Oct 2026 LithosAI performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DigitalOcean performance results now available Beam 1.0 Makora performance results now available DeepSeek V4.1 Flash 1017 (Max) 20 Oct 2026 GMI performance results now available DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available DeepSeek V4.1 Flash 1017 (Max) 19 Oct 2026 \ud83d\udd14 New article published HealthBench and HealthBench Professional: Evaluating models in realistic health conversations We\u2019re launching leaderboards for HealthBench and HealthBench Professional, two benchmarks evaluating how AI models respond in realistic health conversations New language model evaluation results available MiniMax-M3.1-Flash Intelligence Index: 43 SiliconFlow performance results now available DeepSeek V4.1 Flash 1017 (Max) Together AI performance results now available DeepSeek V4.1 Flash 1017 (Max) Novita performance results now available DeepSeek V4.1 Flash 1017 (Max) Systalyze performance results now available GLM-5.2 (Non-reasoning) GLM-5.2 (Max) DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available Nemotron 3.5 Lightning Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax performance results now available MiniMax-M3.1-Flash 18 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Max) Intelligence Index: 45 Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available DeepSeek V4.1 Flash 1017 (Max) Parasail performance results now available DeepSeek V4.1 Flash 1017 (Max) Dee",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-2312c5a81a22778d97e0"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "2bbf27d88bc8b18ad05b0d21",
       "discovered_at": "2026-10-27T18:23:50Z",
       "kind": "independent",
@@ -856,20 +870,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "39b03f627696e97fefd30234",
-      "discovered_at": "2026-10-14T01:51:45Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-13T22:28:54+00:00",
-      "search_score": 34,
-      "source_name": "Simon Willison Everything",
-      "summary": "Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here's the \"high\" illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output - the same price as GPT-6 Sol, half the price of Claude Opus 5.5 and 1/5th the price of Claude Fable 5.1 and GPT-6 Astra. But on December 1st Argon is set to double in price - so it will be the same price as Opus 5.5. Prices like this aren't really comparable these days since what really matters is how many tokens a model takes to achieve a goal within an agentic harness. One useful clue for that comes from Artificial Analysis, who publish the total cost to run their benchmark using each model. Argon is looking very good there - costing $2,407 to run the benchmark, putting it close to GLM-5.3 and significantly cheaper than OpenAI, Anthropic, and Meta's latest models. When the price doubles it will still be a little cheaper than GPT-6 Astra. (I used ChatGPT to edit that chart ! The data is all correct, I checked - I needed to get that Gemini 4 Argon info box to display without overlapping the other numbers.) Some bonus examples using Gemini 4 Argon: here's Generate an SVG of an armadillo in fishnet tights jaywalking on Mars , here's a Faberg\u00e9 egg it created for me using Blender, and DeepMind staffer @fofrAI shared a video of a pelican riding a bike, using fourier epicycles . That's a fun new twist! Tags: google , ai , generative-ai , llms , llm , gemini , llm-pricing , pelican-riding-a-bicycle , llm-release",
-      "title": "llm-gemini 0.35",
-      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "9e0308113d32ae3fc5365520",
       "discovered_at": "2026-10-23T22:40:12Z",
       "kind": "independent",
@@ -1189,6 +1189,20 @@
       "summary": "@NousResearch With the new Advanced Delegation modes plugin, Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up. The right model or profile for every job. hermes-agent.nousresearch.com/docs/plugins/a\u2026 Oct 26, 2026 @NousResearch Oct 26, 2026 @NousResearch Great time to use the Unbroker skill! x.com/shl0ms/status/\u2026 Oct 26, 2026 @NousResearch Please be careful about downloading third-party apps. The official mobile apps are not in app stores yet, and apps that closely mirror Hermes branding are typically fraudulent and not legitimate community projects. Oct 25, 2026 @NousResearch Oct 25, 2026 @NousResearch Hermes Agent gives you control x.com/yacinemtb/stat\u2026 Oct 24, 2026 @NousResearch See you next week in NYC! x.com/nousresearch/s\u2026 Oct 23, 2026 @NousResearch Your team and your Hermes can now share a computer. The new @trycua Spaces plugin gives Hermes its own Linux, macOS, or Windows Space on hardware you already own. Anyone on your team can open it, watch live, step in, and hand it back while Hermes keeps working. https://t.co/nVs7sCmspk Oct 22, 2026 @NousResearch Meshy is offering Hermes users a month of Pro, which includes API access and 1,000 credits, for $1. After you subscribe and install the plugin, create a key at meshy.ai/developers/keys and paste it into Settings > Plugins > Meshy in Hermes Desktop. meshy.ai/pricing?utm_me\u2026 x.com/NousResearch/s\u2026 Oct 22, 2026 @NousResearch Our CEO @dillonrolnick sat down with @eastdakota, CEO of @Cloudflare, for a wide-ranging conversation about agents, the future of the internet, and the fight for digital sovereignty. Thanks to the @usv team for hosting! x.com/mattcynamon/st\u2026 Oct 22, 2026",
       "title": "@NousResearch With the new Advanced Delegation modes plugin, Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up. The right model or profile for every job. hermes-agent.nousresearch",
       "url": "https://x.com/NousResearch/status/2114753914939863260"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "40518120130bdf47a4cce7ff",
+      "discovered_at": "2026-10-27T22:30:09Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 14,
+      "source_name": "FutureTools AI News",
+      "summary": "Claude AI Finds Critical RCE Exploits in Chrome, Safari, Android, Windows & Linux anthropic.com \u00b7 Show TLDR",
+      "title": "Claude AI Finds Critical RCE Exploits in Chrome, Safari, Android, Windows & Linux anthropic.com \u00b7 Show TLDR",
+      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -1528,6 +1542,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "7fe67dc45aa88bd115b334f4",
+      "discovered_at": "2026-10-27T22:30:09Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 12,
+      "source_name": "FutureTools AI News",
+      "summary": "Anthropic's Claude Accelerates Drug Discovery With 6 Biotech Partners, Launches Own Programs anthropic.com \u00b7 Show TLDR",
+      "title": "Anthropic's Claude Accelerates Drug Discovery With 6 Biotech Partners, Launches Own Programs anthropic.com \u00b7 Show TLDR",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "9078aa1bd544b4445eb62e23",
+      "discovered_at": "2026-10-27T22:30:09Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 12,
+      "source_name": "FutureTools AI News",
+      "summary": "OpenAI & Oracle Expand Partnership, Bringing Business Apps and AI Agents to ChatGPT openai.com \u00b7 Show TLDR",
+      "title": "OpenAI & Oracle Expand Partnership, Bringing Business Apps and AI Agents to ChatGPT openai.com \u00b7 Show TLDR",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "e8a95e9b22df9875a5142cea",
       "discovered_at": "2026-10-16T23:59:21Z",
       "kind": "independent",
@@ -1668,6 +1710,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "56f6cf04ba533a6005c58bec",
+      "discovered_at": "2026-10-27T22:30:10Z",
+      "kind": "independent-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-27T22:30:10Z",
+      "search_score": 8,
+      "source_name": "OpenRouter Rankings",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models Rankings data by OpenRouter is licensed under CC BY 4.0 . Reuse and republish it with attribution. The Data API docs cover the citation format and JSON access to these datasets. Footer \u00a9 2026 OpenRouter, Inc Product Chat Rankings Benchmarks Apps Discover Models Ori Collections Providers Tools Pricing Business EU routing Enterprise Labs Company About Blog Customers Careers Hiring Privacy Terms of Service Trust Center Support Works With OR Data Brand Developer Documentation API Reference Developer Platform Status AI Site Map Connect Discord GitHub LinkedIn X YouTube",
+      "title": "OpenRouter real-world model rankings changed",
+      "url": "https://openrouter.ai/rankings#edgeai-1be0ec74423f527dda58"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "f1d166af23c4ca249234391d",
       "discovered_at": "2026-10-16T23:59:23Z",
       "kind": "independent-signal",
@@ -1805,6 +1861,20 @@
       "summary": "@NousResearch Look for Nightwing in Dolores Park this Friday for a chance to grab the sold out Rebellion shirt and hang out with fellow Hermes heads x.com/yaboilyrical/s\u2026 Oct 19, 2026 @NousResearch Let\u2019s see your Nous fit pics Oct 18, 2026 @NousResearch Motion. Oct 16, 2026 @NousResearch Editor's Note: This tweet was intended as satire by our social intern, who did not expect it to be taken seriously. Hermes was not selected for the list as we do not do paid PR placements; we think it is a wonderful invention and perhaps TIME will see fit to recognize it eventually. Oct 16, 2026 @NousResearch Another in-depth review from @zacbowden for @WindowsCentral: windowscentral.com/hardware/nvidi\u2026 Oct 16, 2026 @NousResearch Watch the full video for more coverage on the hardware, security, and demos. youtube.com/watch?v=sjuisA\u2026 Oct 16, 2026 @NousResearch Hermes Agent is a launch partner for @nvidia's RTX Spark across the new generation of laptops. Pick it in the built-in @Windows agent setup flow, run the new generative onboarding, and get straight to work locally or in the cloud. Linus is impressed! Oct 16, 2026 @NousResearch Thank you @TIME Oct 16, 2026 @NousResearch Hermes Agent is the best place to use the new @NVIDIAAI Nemotron 3.5 Super VL and Bolt models. NVIDIA benchmarked Super VL on Hermes Bench with a score of 63.44, and compared to similar local models it has up to 5x the token throughput. x.com/NVIDIAAI/statu\u2026 Oct 15, 2026 @NousResearch An agent for the projects that matter most x.com/alexandermann/\u2026 Oct 15, 2026",
       "title": "@NousResearch Look for Nightwing in Dolores Park this Friday for a chance to grab the sold out Rebellion shirt and hang out with fellow Hermes heads x.com/yaboilyrical/s\u2026 Oct 19, 2026",
       "url": "https://x.com/NousResearch/status/2112260376469422586"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "8333c89d9d7c203a0369214c",
+      "discovered_at": "2026-10-27T22:30:10Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-27T19:34:18+00:00",
+      "search_score": 6,
+      "source_name": "Simon Willison Everything",
+      "summary": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NES emulator working on it, and then went a step further and deployed an emulator for both the Game Boy and the Game Boy Color. Which means, if you can obtain the ROM, you can run The Legend of Zelda: Link's Awakening on your conference badge! A neat feature of the badge is that you can turn it upside down and then use game controller touch buttons that are built into the badge body. Tags: games , github , hardware-hacking , ai , generative-ai , llms , gemini , steve-francia",
+      "title": "Game Boy Color on My Conference Badge",
+      "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/"
     },
     {
       "bootstrap": false,
@@ -1987,6 +2057,34 @@
       "summary": "OpenAI Releases ChatGPT Work Activity Data Across 165 Tasks in 100 Countries openai.com \u00b7 Show TLDR",
       "title": "OpenAI Releases ChatGPT Work Activity Data Across 165 Tasks in 100 Countries openai.com \u00b7 Show TLDR",
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "6fca76cd16ee82423d82d844",
+      "discovered_at": "2026-10-27T22:30:09Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "DeepMind's Genie 4 Brings Real-Time World Simulation With Audio and Advanced Physics deepmind.google \u00b7 Show TLDR",
+      "title": "DeepMind's Genie 4 Brings Real-Time World Simulation With Audio and Advanced Physics deepmind.google \u00b7 Show TLDR",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "d2a239d4a8c6e6c1aeaf7910",
+      "discovered_at": "2026-10-27T22:30:09Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "Alibaba Launches Qwen-Image-2.1 Pro & Turbo APIs for Image Generation and Editing alibabacloud.com \u00b7 Show TLDR",
+      "title": "Alibaba Launches Qwen-Image-2.1 Pro & Turbo APIs for Image Generation and Editing alibabacloud.com \u00b7 Show TLDR",
+      "url": "https://www.alibabacloud.com/blog/qwen-image-2-1-pro-and-turbo-apis-are-live-one-7b-model-to-generate-edit-and-cut-out_603679?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2267,6 +2365,48 @@
       "summary": "Siri AI Expands to French, Japanese, Korean, Portuguese & Spanish in iOS 27.2 apple.com \u00b7 Show TLDR",
       "title": "Siri AI Expands to French, Japanese, Korean, Portuguese & Spanish in iOS 27.2 apple.com \u00b7 Show TLDR",
       "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "8acaafaa437ceaceda80a67b",
+      "discovered_at": "2026-10-27T22:30:09Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "Microsoft MAI Image 2.7 Launches, Ranks #2 on Artificial Analysis Image Editing Leaderboard microsoft.ai \u00b7 Show TLDR",
+      "title": "Microsoft MAI Image 2.7 Launches, Ranks #2 on Artificial Analysis Image Editing Leaderboard microsoft.ai \u00b7 Show TLDR",
+      "url": "https://microsoft.ai/news/mai-image-2-7-debut/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "185dd308c58bd95cfbc4a964",
+      "discovered_at": "2026-10-27T22:30:09Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "Microsoft's MAI Cyber 1.1 Flash Cuts MDASH Scan Costs by 18% microsoft.ai \u00b7 Show TLDR",
+      "title": "Microsoft's MAI Cyber 1.1 Flash Cuts MDASH Scan Costs by 18% microsoft.ai \u00b7 Show TLDR",
+      "url": "https://microsoft.ai/news/mai-cyber-1-1-flash/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "ef3b85f79100b92e24e403cc",
+      "discovered_at": "2026-10-27T22:30:09Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "Apple Creator Studio Gets AI Assistants, MotionVFX, and Logic Pro Upgrades apple.com \u00b7 Show TLDR",
+      "title": "Apple Creator Studio Gets AI Assistants, MotionVFX, and Logic Pro Upgrades apple.com \u00b7 Show TLDR",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -3208,6 +3348,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-27T18:23:55Z",
+  "updated_at": "2026-10-27T22:30:13Z",
   "version": 2
 }

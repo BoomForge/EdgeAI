@@ -1864,6 +1864,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "1e3ebf94e41ebe19793bfa16",
+      "discovered_at": "2026-10-28T01:41:58Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Tue, 27 Oct 2026 15:00:00 GMT",
+      "search_score": 15,
+      "source_name": "OpenAI News",
+      "summary": "GPT-6 Astra tops Retell\u2019s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "url": "https://openai.com/index/retell-ai"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "c417f8e3d39d0b893c07541b",
       "discovered_at": "2026-10-27T18:16:01Z",
       "kind": "official",
@@ -2281,20 +2295,6 @@
       "summary": "Terminal X\u2019s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund\u2019s mandate with GPT-6.1 Sol.",
       "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
       "url": "https://openai.com/index/terminal-x"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "200a5d3dd39c6bfb7a201928",
-      "discovered_at": "2026-10-14T10:22:27Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Wed, 14 Oct 2026 00:00:00 GMT",
-      "search_score": 2,
-      "source_name": "OpenAI News",
-      "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses\u2014and where deeper use could unlock more value.",
-      "title": "The EU\u2019s next chapter in AI is agentic",
-      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
     },
     {
       "bootstrap": false,
@@ -2746,6 +2746,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "e8c798b49e967c6df9450800",
+      "discovered_at": "2026-10-28T01:42:05Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-28T01:06:31Z",
+      "search_score": 11,
+      "source_name": "llama.cpp Releases",
+      "summary": "model : add LiquidAI/LFM3-Audio-2B and LiquidAI/LFM3-Omni-2B ( #31257 ) model : add LiquidAI/LFM3-Audio-2B and LiquidAI/LFM3-Omni-2B Co-authored-by: Xuan Son Nguyen son@huggingface.co Assisted-by: Claude Opus 5.5 convert : read the LFM3-Audio config.json as released A transformers that knows lfm3_audio rewrites the config into another layout (no lfm/encoder keys). Assisted-by: Claude Opus 5.5 mtmd : disable flash attention for the LFM3-Audio depthformer Assisted-by: Claude Opus 5.5 tts : add a voice option for LFM3-Audio and LFM3-Omni The model card offers a female and a male voice; --tts-voice for llama-tts, \"voice\" for the server /tts. Assisted-by: Claude Opus 5.5 clean up template handling convert : detect LFM3-Audio and LFM3-Omni by model_type Assisted-by: Claude Opus 5.5 move banned tokens --> logits bias --> mtmd_helper leave mtmd-cli unchanged no more template_asr_system left over llama : keep the LFM3-Audio encoder convs and codec unquantized Assisted-by: Claude Opus 5.5 common, mtmd : shorten comments Assisted-by: Claude Opus 5.5 Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60633440 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11941",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11941"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "b8d1597f4456030e665e34ec",
       "discovered_at": "2026-10-26T11:16:07Z",
       "kind": "local-ai",
@@ -2799,6 +2813,34 @@
       "summary": "model : Granite switch decision 256 options ( #30693 ) feat(convert): Attempt to come up with 256 single-token, semantic option markers Each switch model needs to identify a collection of single-token option markers that can be mapped to their respective logits for the output probability distribution. The simple upper/lower/numbers set only yields 66 unique markers, but the model can support up to 255. The challenge is that which combinations of characters result in single-token markers is model- specific, so we do a discovery exercise at conversion time by looking through the specific model's vocab for single-token sequences of 1+ plain letter strings (eg A , AA , BB , etc). Branch: GraniteSwitchDecisionFullOptions AI-usage: none Signed-off-by: Gabe Goodhart ghart@us.ibm.com docs: Note granite-switch with 256 option markers Branch: GraniteSwitchDecisionFullOptions AI-usage: none Signed-off-by: Gabe Goodhart ghart@us.ibm.com style: Remove extra newline Branch: GraniteSwitchDecisionFullOptions AI-usage: none Signed-off-by: Gabe Goodhart ghart@us.ibm.com feat(convert): Use the computed labels in the template so c++ side is source of truth Branch: GraniteSwitchDecisionFullOptions AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.ibm.com feat: Use LEV case for GRANITE_SWITCH w/ computed labels Branch: GraniteSwitchDecisionFullOptions AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.ibm.com docs: Consolidate g-s into 255 bucket Branch: GraniteSwitchDecisionFullOptions AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56911978 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11707",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11707"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "1d810bfe409cd0323759ff72",
+      "discovered_at": "2026-10-28T01:42:05Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-28T01:42:04Z",
+      "search_score": 10,
+      "source_name": "llama.cpp Releases",
+      "summary": "model : add LiquidAI/d1-2B and LiquidAI/d1-omni-2B ( #31275 ) model : add LiquidAI/d1-2B and LiquidAI/d1-omni-2B Assisted-by: Claude Opus 5.5 convert : keep the speech task templates out of the d1 GGUFs Assisted-by: Claude Opus 5.5 small refactoring: no_batching Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60641357 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11945",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11945"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "459fa697a2c152c84a58eeb8",
+      "discovered_at": "2026-10-28T01:42:05Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-28T00:01:54Z",
+      "search_score": 10,
+      "source_name": "llama.cpp Releases",
+      "summary": "model : add LiquidAI/LFM3-1.7B and LiquidAI/LFM3-VL-2B ( #31252 ) model : add LiquidAI/LFM3-1.7B and LiquidAI/LFM3-VL-2B Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Co-authored-by: Xuan-Son Nguyen son@huggingface.co Assisted-by: Claude Opus 5.5 tests : set the SWA rope base of the LFM3 test model Assisted-by: Claude Opus 5.5 llama : enable recurrent state rollback for LFM3 Assisted-by: Claude Opus 5.5 Apply batched suggestions from code review Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Co-authored-by: Tarek Dakhran github@dakhran.com gguf-py : align the lfm3vl mapping comments Assisted-by: Claude Opus 5.5 llama : fix CRLF line endings from the review suggestions Assisted-by: Claude Opus 5.5 tests : add the LFM3 Metal fusion baseline Assisted-by: Claude Opus 5.5 llama : keep the LFM3-VL depthwise conv kernels in F32 when quantizing Assisted-by: Claude Opus 5.5 Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Co-authored-by: Xuan-Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60617910 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11938",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11938"
     },
     {
       "bootstrap": false,
@@ -3037,6 +3079,20 @@
       "summary": "models: drop the t_embd expand of the embedding graphs ( #30461 ) These graphs only produce embeddings, and build_pooling() already expands its output for every pooling type, so the expand at the end of the model graph is redundant. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55957395 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11619",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11619"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "6747d723bcd58ba07990e6b0",
+      "discovered_at": "2026-10-28T01:42:05Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-28T00:35:53Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "common : support deferred tools and tool_reference content parts ( #31256 ) common : support deferred tools and tool_reference content parts Assisted-by: Claude Opus 5.5 common : credit the deferred tools co-author Co-authored-by: Aldehir Rojas 765227+aldehir@users.noreply.github.com Assisted-by: Claude Opus 5.5 tests : fix the type check of the deferred tools test Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60626465 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11940",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11940"
     },
     {
       "bootstrap": false,
@@ -3292,6 +3348,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "79326e62ecc4a5d82e44ef35",
+      "discovered_at": "2026-10-28T01:42:05Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-28T01:27:07Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "server: expose the reasoning effort levels of the chat template ( #31271 ) server: expose the reasoning effort levels of the chat template The capability probe renders a user turn for each candidate level (minimal, low, medium, high, xhigh, max) and for an unknown level. A level is honored when it renders without raising and differently from the unknown level, which shows the template fallback. Levels sharing a render are aliases and the highest one is kept. The caps serialize to JSON, and chat_template_caps in /props reports the list as reasoning_effort_levels, from lowest to highest. jinja: keep the caps free of the json dependency The caps keep reporting their flags as a map, and the effort levels stay a plain member. common_chat_templates_get_caps() builds the JSON the server reports from both, so jinja depends on json only for the probe inputs. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60638014 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11944",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11944"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "67c44c74430c7c20f6d96ea8",
       "discovered_at": "2026-10-26T21:51:38Z",
       "kind": "local-ai",
@@ -3429,79 +3499,9 @@
       "summary": "common: honor HTTP_PROXY/HTTPS_PROXY env vars in http client ( #21752 ) common: honor HTTP_PROXY/HTTPS_PROXY env vars in http client common_http_client() was ignoring standard proxy env vars, causing downloads via -hf and similar flags to fail silently in environments behind an HTTP proxy (corporate networks, air-gapped infra, etc.). Checks HTTPS_PROXY/https_proxy for https:// URLs and HTTP_PROXY/http_proxy for http:// URLs, in that order. If a proxy URL is set and parseable, passes it to httplib's set_proxy() and set_proxy_basic_auth() as appropriate. Malformed proxy URLs are silently ignored so existing callers aren't affected. Fixes #21694 common: drop misleading comment about generic proxy fallback The comment referenced a 'generic one' that doesn't exist in the code \u2014 both HTTP_PROXY and HTTPS_PROXY are scheme-specific. Reviewer noted the mismatch. Addresses review feedback from @ServeurpersoCom . common : warn when the proxy URL from the environment is malformed common : honor NO_PROXY when selecting the http proxy ci : retrigger checks (test-thread-safety flake) common : bypass the proxy for loopback destinations llama cli talks to its spawned server on 127.0.0.1 through common_http_client, so with HTTP_PROXY set and no NO_PROXY the health polling went to the corporate proxy, which rejects loopback targets, and the wait loop never exits (\"Loading model...\" hangs forever). A remote proxy can never reach the client machine's own loopback, so these destinations are now always contacted directly, before NO_PROXY is consulted: localhost, *.localhost, 127.0.0.0/8, ::1 and 0.0.0.0. Similar to Go's net/http. Proxy handling for downloads and remote --server-base endpoints is unchanged. Signed-off-by: texasich 101962694+texasich@users.noreply.github.com docs: move proxy tip from README to server docs per review: the top level README stays lean; the proxy howto now lives with the server docs under Usage Signed-off-by: texasich 101962694+texasich@users.noreply.github.com Signed-off-by: texasich 101962694+texasich@users.noreply.github.com Co-authored-by: texasich texasich@users.noreply.github.com Co-authored-by: texasich texasich@gmail.com Co-authored-by: marecabo 23156476+marecabo@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56756047 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11699",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11699"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "ad81c0b4930729b94c5bbdf2",
-      "discovered_at": "2026-10-16T14:55:25Z",
-      "kind": "open-source",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-16T13:02:29Z",
-      "search_score": 7,
-      "source_name": "Hugging Face Transformers Releases",
-      "summary": "Release v5.20.1 Special surprise including the new model Beam from Reflection AI \ud83e\udd73 Beam is a token-efficient, frontier-scale model focused on coding and agentic use cases. It is built for teams that want to run a powerful model on their own hardware, infrastructure, or cloud, and customize it to their specific needs. Links: Documentation Fix small bug in auto mappings ( #49664 ) by @yonigozlan in #49664 Some real patch fixes We broke loading models on older torch versions \ud83d\ude22 should be fixed now. But here is the full list of fixes Fix HunYuan-VL image assignment during batched generation ( #49557 ) by @Arnav66692 Fix DeepGEMM Mega MoE under expert parallelism( #49428 ) by @IlyasMoutawwakil Fix from_pretrained on torch 2.7: require torch>=2.8 for distributed checkpointing ( #49652 ) by @naveecode Make DtensorShardOperation work on torch 2.6 and 2.7 ( #49657 ) by @hazelxue Full Changelog : v5.20.0...v5.20.1",
-      "title": "Release v5.20.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.1"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "27c6d4d54b8e5e0bff643540",
-      "discovered_at": "2026-10-16T14:55:30Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-16T11:16:03Z",
-      "search_score": 7,
-      "source_name": "llama.cpp Releases",
-      "summary": "model : MTP support for Mellum2.1 ( #30612 ) model : MTP support for Mellum model : inline rope construction in Mellum Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56634767 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11695",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11695"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "73d75a58fd916ae7f1bb67e5",
-      "discovered_at": "2026-10-16T00:45:08Z",
-      "kind": "agents",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-15T23:50:45Z",
-      "search_score": 7,
-      "source_name": "browser-use Releases",
-      "summary": "This release includes the OpenAI browser-tool driver and fixes two integration issues. Handle temporary empty Cloud tab URLs during navigation. Keep screenshots, crops, and pointer coordinates aligned on scaled displays. Provide 18 default browser tools and six optional actions through Browser Use Actor. Support local browsers, Browser Use Cloud, and borrowed browser sessions. Install the openai-tools extra with OpenAI Python 3.31+. OpenAI 3.x uses httpx2; use its DefaultAsyncHttpxClient for custom HTTP clients. Validation: all eleven driver tests pass. Both new regression tests fail on the earlier implementation. Pre-commit, type checks, package builds, and GitHub tests pass. Live remote-browser and library smoke tests passed; broader evaluation results remain separate. This release supersedes 0.13.12, whose PyPI publication was cancelled before approval. Guide: https://docs.browser-use.com/open-source/customize/integrations/openai Driver: #6086 Fixes: #6089",
-      "title": "0.13.13: OpenAI browser tools and Cloud fixes",
-      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.13"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "c1efe94a438c78db4aca9c6d",
-      "discovered_at": "2026-10-27T22:24:33Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-27T14:14:03Z",
-      "search_score": 0,
-      "source_name": "llama.cpp Releases",
-      "summary": "cmake: WASI doesn't support spawning ( #30751 )",
-      "title": "b11937",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11937"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "dac3e81b9670df3c9e8c02d8",
-      "discovered_at": "2026-10-27T22:24:54Z",
-      "kind": "agents",
-      "lane": "fast",
-      "priority": 3,
-      "published": "2026-10-27T21:36:29Z",
-      "search_score": 4,
-      "source_name": "CrewAI Releases",
-      "summary": "What's Changed Features Support conversational flow context compaction. Bug Fixes Update vulnerable audit dependencies. Stop sending 'stop' to GPT-6 and newer models. Run the provider listing off the loop in acleanup_provider_files . Emit LLMGuardrailCompletedEvent for a malformed guardrail result. Name the renamed integration token when it is missing. Fix path traversal in output_file via template interpolation. Patch deserialization, SQL injection, and path traversal vulnerabilities. Restore configured logging levels after suppression. Drop checkpoint resume state when copying a crew. Honor an injected aioboto3 session in BedrockFileUploader . Use the right task slice with custom templates. Guard against storage listing failures in encoding flow analysis. Enforce guardrail result/error exclusivity with model validator. Filter categories server-side in Qdrant edge search. Documentation Use HTTPS for CrewAI AMP link in CLI concept documentation. Fix internal anchor links pointing to English slugs on translated pages. Fix CrewBase imports in documentation examples. Contributors @Kiko0301 , @Trenyx , @Velmet44 , @Vidit-Ostwal , @Wilson0511 , @gabemilani , @iris-clawd , @joaomdmoura , @lakers-abing , @leom1919 , @lester076 , @lorenzejay , @subhashpolisetti",
-      "title": "1.15.31",
-      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.31"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-27T22:24:57Z",
+  "updated_at": "2026-10-28T01:42:29Z",
   "version": 2
 }

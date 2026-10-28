@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-27T22:24:57Z",
+    "at": "2026-10-28T01:42:29Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 8,
+    "queued": 10,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 135,
+  "runs": 136,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -767,6 +767,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20761"
     },
+    "1a39657ce4fa82382e6400d4": {
+      "first_seen": "2026-10-28T01:42:05Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11946"
+    },
     "1a543055a02f9816518cc039": {
       "first_seen": "2026-10-23T09:33:43Z",
       "status": "queued",
@@ -791,6 +796,11 @@
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06898"
+    },
+    "1aab6efabbe27417e2d827f0": {
+      "first_seen": "2026-10-28T01:42:23Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.7"
     },
     "1aab9018416fa7ee5dc90928": {
       "first_seen": "2026-10-03T00:46:15Z",
@@ -821,6 +831,11 @@
       "first_seen": "2026-10-22T21:20:27Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2"
+    },
+    "1b541bee7a68a51bf7e0fbae": {
+      "first_seen": "2026-10-28T01:42:26Z",
+      "status": "queued",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.32"
     },
     "1b60bc9aa85f93ce47f6fe09": {
       "first_seen": "2026-10-22T07:18:23Z",
@@ -923,6 +938,11 @@
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/desktop-nightly-20261014011413"
     },
+    "1d810bfe409cd0323759ff72": {
+      "first_seen": "2026-10-28T01:42:05Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11945"
+    },
     "1dbe22633003a2af4fddcdba": {
       "first_seen": "2026-10-20T00:28:04Z",
       "status": "queued",
@@ -942,6 +962,11 @@
       "first_seen": "2026-10-27T06:24:39Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31726"
+    },
+    "1e3ebf94e41ebe19793bfa16": {
+      "first_seen": "2026-10-28T01:41:58Z",
+      "status": "queued",
+      "url": "https://openai.com/index/retell-ai"
     },
     "1e508ff768ab30dd082fc689": {
       "first_seen": "2026-10-03T00:45:57Z",
@@ -1482,6 +1507,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/frieze-london-2026/"
+    },
+    "319314c0e5515411ec740c40": {
+      "first_seen": "2026-10-28T01:42:29Z",
+      "status": "queued",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.63.0"
     },
     "319d52d61ca2c83a7213cd2e": {
       "first_seen": "2026-10-27T18:16:02Z",
@@ -2152,6 +2182,11 @@
       "first_seen": "2026-10-05T18:34:59Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11422"
+    },
+    "459fa697a2c152c84a58eeb8": {
+      "first_seen": "2026-10-28T01:42:05Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11938"
     },
     "45a31fcfe6d3c3fc217278dd": {
       "first_seen": "2026-10-15T05:40:20Z",
@@ -3153,6 +3188,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02472"
     },
+    "6747d723bcd58ba07990e6b0": {
+      "first_seen": "2026-10-28T01:42:05Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11940"
+    },
     "6748773ad13d989a528248b7": {
       "first_seen": "2026-10-26T17:27:18Z",
       "status": "queued",
@@ -3697,6 +3737,11 @@
       "first_seen": "2026-10-27T06:24:39Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31728"
+    },
+    "79326e62ecc4a5d82e44ef35": {
+      "first_seen": "2026-10-28T01:42:05Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11944"
     },
     "793a75ba0d43a66fc809b75a": {
       "first_seen": "2026-10-03T00:46:14Z",
@@ -7148,6 +7193,11 @@
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.18883"
+    },
+    "e8c798b49e967c6df9450800": {
+      "first_seen": "2026-10-28T01:42:05Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11941"
     },
     "e8d538cc87f8326901d35a00": {
       "first_seen": "2026-10-26T05:16:26Z",

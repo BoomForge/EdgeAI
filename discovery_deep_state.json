@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-28T08:23:17Z",
+    "at": "2026-10-28T15:20:05Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 7,
-    "queued": 7,
+    "prefiltered": 2,
+    "queued": 2,
     "sources_ok": 15,
     "too_old": 5,
     "warnings": 0
   },
-  "runs": 136,
+  "runs": 137,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -847,6 +847,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/ai-bridge"
     },
+    "2077b3dd20118e7856900613": {
+      "first_seen": "2026-10-28T15:20:01Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/bytemail"
+    },
     "207f8e58deb14df6808132d9": {
       "first_seen": "2026-10-22T21:35:20Z",
       "status": "queued",
@@ -1094,6 +1099,11 @@
       "first_seen": "2026-10-26T21:56:09Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2114780096204857522"
+    },
+    "2cf23206607f40daee574c46": {
+      "first_seen": "2026-10-28T15:20:02Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/"
     },
     "2d2256c26edfbdb2907cf30a": {
       "first_seen": "2026-10-21T11:41:37Z",
@@ -2034,6 +2044,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/vanoor-running-pacer-map"
     },
+    "5374932a819cbc70b81e76c3": {
+      "first_seen": "2026-10-28T15:20:01Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/botgauge-2"
+    },
     "539a380ce2d73ef2a64d8322": {
       "first_seen": "2026-10-21T11:41:37Z",
       "search_score": 1,
@@ -2848,6 +2863,12 @@
       "status": "queued",
       "url": "https://sakana.ai/my-fish/"
     },
+    "73f912cf049f6f59f60d4528": {
+      "first_seen": "2026-10-28T15:20:01Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/open-for-sales"
+    },
     "74580c76c4b983efd6274c97": {
       "first_seen": "2026-10-14T13:07:10Z",
       "search_score": 0,
@@ -3037,6 +3058,11 @@
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/your-chatgpt-can-now-work-while-youre-away-10-02-2026"
     },
+    "7a7e3fdce7c17ca7f3ecf920": {
+      "first_seen": "2026-10-28T15:20:01Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/zro"
+    },
     "7a99c50815c06efddb413695": {
       "first_seen": "2026-10-20T15:17:17Z",
       "search_score": 0,
@@ -3178,6 +3204,11 @@
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/cloudflare"
+    },
+    "7f577f4b01c6fc58e5ce0f31": {
+      "first_seen": "2026-10-28T15:20:02Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
     },
     "7f638f8a41665051a1bf6b08": {
       "first_seen": "2026-10-08T16:25:55Z",
@@ -3597,6 +3628,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/dev-null"
+    },
+    "8fec8cb58680ebd297ae6766": {
+      "first_seen": "2026-10-28T15:20:01Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/trellis-4"
     },
     "901eddfa61b84a5e35f1f60f": {
       "first_seen": "2026-10-12T22:33:11Z",
@@ -4225,6 +4261,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/open-inspector"
     },
+    "aaa4e847bdb50df46c629421": {
+      "first_seen": "2026-10-28T15:20:01Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/trigger-dev"
+    },
     "aac38c41610d191c3b7fbf20": {
       "first_seen": "2026-10-14T18:00:57Z",
       "search_score": 0,
@@ -4472,6 +4513,12 @@
       "first_seen": "2026-10-06T00:46:20Z",
       "status": "queued",
       "url": "https://www.teamhuman.org/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "b50df6e285fd1fb700d17dc5": {
+      "first_seen": "2026-10-28T15:20:01Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/gemini-1-5-pro"
     },
     "b602f0b5117800795a759ada": {
       "first_seen": "2026-10-03T00:46:05Z",

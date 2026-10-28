@@ -57,11 +57,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-28T01:33:55Z",
-    "eligible": 52,
-    "evaluated": 3,
+    "at": "2026-10-28T07:30:46Z",
+    "eligible": 57,
+    "evaluated": 2,
     "mode": "live",
-    "new_posts": 1,
+    "new_posts": 2,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -377,6 +377,20 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38195"
+    },
+    "0bf7019bc2b233e19e59f6db": {
+      "at": "2026-10-28T07:30:46Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "nous-research-hermes-desktop-elevenlabs-sfx-plugin",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2115220372228612579"
     },
     "0c6dedaec7191d127d0babe2": {
       "at": "2026-10-23T15:52:31Z",
@@ -928,6 +942,20 @@
       "at": "2026-10-09T03:09:32Z",
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2107268339232116804"
+    },
+    "1e3ebf94e41ebe19793bfa16": {
+      "at": "2026-10-28T07:30:42Z",
+      "bootstrap": false,
+      "score": 91,
+      "status": "published",
+      "story_key": "openai-retell-voice-agents-benchmark-oct-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/retell-ai"
     },
     "1e53e4b0ea0e3813fd5e7558": {
       "at": "2026-10-03T05:49:31Z",
@@ -10175,6 +10203,27 @@
         "source": "Nous Research Announcements"
       }
     },
+    "nous-research-hermes-desktop-elevenlabs-sfx-plugin": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-hermes-desktop-elevenlabs-sfx-plugin.jpg",
+      "last_updated": "2026-10-28T07:30:46Z",
+      "post_id": "8913259200963216190",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-releases-elevenlabs-sfx.html",
+      "score": 82,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_400x400.jpg",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2115220372228612579"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Releases ElevenLabs SFX Plugin for Hermes Desktop",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      }
+    },
     "nous-research-hermes-index-benchmark-release": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-hermes-index-benchmark-release.jpg",
@@ -11276,6 +11325,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI, PerturbAI, and Scripps Deploy Thousands of AI Agents to Analyze Brain Cell Data",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-retell-voice-agents-benchmark-oct-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-retell-voice-agents-benchmark-oct-2026.jpg",
+      "last_updated": "2026-10-28T07:30:42Z",
+      "post_id": "2394670784147776816",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/retell-crosses-100m-monthly-voice-calls.html",
+      "score": 91,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/5uWhs4tBhdZ4XPHsi9IaMG/06f4b61c4303de24a65075b3eaf500b2/retell-ai-customer-story-open-graph-acoustic-fabric.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/retell-ai"
+      ],
+      "status": "CONFIRMED",
+      "title": "Retell Crosses 100M Monthly Voice Calls on OpenAI Models as GPT-6 Astra Tops Benchmarks",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-27T22:30:13Z",
+    "at": "2026-10-28T01:49:10Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 11,
+    "queued": 2,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 134,
+  "runs": 135,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -279,6 +279,11 @@
       "first_seen": "2026-10-13T18:14:14Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "0bf7019bc2b233e19e59f6db": {
+      "first_seen": "2026-10-28T01:49:08Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2115220372228612579"
     },
     "0bf7693ce92002ce6b55f3f2": {
       "first_seen": "2026-10-20T10:21:00Z",
@@ -1387,6 +1392,11 @@
       "first_seen": "2026-10-16T14:48:14Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/neophyte"
+    },
+    "391b2a19b716d7dde3fba439": {
+      "first_seen": "2026-10-28T01:49:06Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-019226d06ff2b072c0b5"
     },
     "392f0d7e6d39b0b2d20de3fb": {
       "first_seen": "2026-10-25T10:01:09Z",

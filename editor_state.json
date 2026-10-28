@@ -17,6 +17,11 @@
       "count": 1,
       "last_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=25)"
     },
+    "40518120130bdf47a4cce7ff": {
+      "at": "2026-10-28T14:22:47Z",
+      "count": 1,
+      "last_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=25)"
+    },
     "9d97e084d9511587a8bca369": {
       "at": "2026-10-21T14:42:44Z",
       "count": 1,
@@ -57,8 +62,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-28T07:30:46Z",
-    "eligible": 57,
+    "at": "2026-10-28T14:23:07Z",
+    "eligible": 60,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
@@ -3046,6 +3051,20 @@
       "status": "expired",
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "658c10b87fbc153446c34bb0": {
+      "at": "2026-10-28T14:22:22Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "openai-gpt-61-terra-artificial-analysis",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-823618d5296e14a524f7"
+    },
     "65cf245591aca8f20d74430c": {
       "at": "2026-10-11T18:49:43Z",
       "status": "expired",
@@ -3651,6 +3670,20 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38205"
     },
+    "7c363a9f000ae8a44318f09f": {
+      "at": "2026-10-28T14:23:07Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "nous-research-revamps-hermes-agent-subscriptions",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2115131295319662938"
+    },
     "7c578bce2bcf92bdc7cf6dde": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -4047,6 +4080,11 @@
       "story_key": "de-staat-freedom-music-video-generative-ai-vfx",
       "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/"
     },
+    "88021b834dc97a9c853f1b8c": {
+      "at": "2026-10-28T14:22:06Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/tabsh"
+    },
     "8824a722fbbd4c31d76b2acd": {
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
@@ -4059,6 +4097,11 @@
       "status": "ignored",
       "story_key": "openai-chatham-financial-case-study",
       "url": "https://openai.com/index/chatham-financial"
+    },
+    "883ed7c8b73484c64a712254": {
+      "at": "2026-10-28T14:22:06Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/zest-6"
     },
     "8859dca49d075e7cb240bbcf": {
       "at": "2026-10-22T19:22:03Z",
@@ -10311,6 +10354,27 @@
         "source": "Nous Research Announcements"
       }
     },
+    "nous-research-revamps-hermes-agent-subscriptions": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-revamps-hermes-agent-subscriptions.jpg",
+      "last_updated": "2026-10-28T14:23:07Z",
+      "post_id": "3213417790238877748",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-revamps-hermes-agent.html",
+      "score": 82,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_400x400.jpg",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2115131295319662938"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Revamps Hermes Agent Subscriptions with Cloud Hosting and Dynamic Limits",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      }
+    },
     "nous-research-series-b-hermes-agent": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-series-b-hermes-agent.jpg",
@@ -11099,6 +11163,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "OpenAI News"
+      }
+    },
+    "openai-gpt-61-terra-artificial-analysis": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-gpt-61-terra-artificial-analysis.jpg",
+      "last_updated": "2026-10-28T14:22:22Z",
+      "post_id": "8621478073069926888",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-launches-gpt-61-terra-on.html",
+      "score": 88,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-823618d5296e14a524f7"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Launches GPT-6.1 Terra on Artificial Analysis, Pushing Cost Efficiency Frontier",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
       }
     },
     "openai-habitat-azure-cosmos-db-scaling": {

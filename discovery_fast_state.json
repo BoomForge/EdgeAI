@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-28T14:30:59Z",
+    "at": "2026-10-28T19:53:12Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 11,
+    "prefiltered": 3,
+    "queued": 12,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 138,
+  "runs": 139,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1381,6 +1381,12 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10597"
     },
+    "2b0f3e1d89ebc85a3bf9cafd": {
+      "first_seen": "2026-10-28T19:52:37Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/"
+    },
     "2b4fadbef084435142a49ad2": {
       "first_seen": "2026-10-27T22:24:44Z",
       "status": "queued",
@@ -1808,6 +1814,11 @@
       "first_seen": "2026-10-21T20:13:59Z",
       "status": "queued",
       "url": "https://openai.com/index/att-legal"
+    },
+    "39cf0e80e1ec33973930738a": {
+      "first_seen": "2026-10-28T19:52:45Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11969"
     },
     "39f346da5a98b4d9b1195855": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -2409,6 +2420,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11795"
     },
+    "4bf8e91caed38e9b3afedd58": {
+      "first_seen": "2026-10-28T19:52:37Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/immersive-explorations-student-hub/"
+    },
     "4c13f8e2c7d9b1ec15096dcd": {
       "first_seen": "2026-10-08T20:34:17Z",
       "status": "queued",
@@ -2665,6 +2681,12 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.07048"
     },
+    "55691822cc670f9d8347bce3": {
+      "first_seen": "2026-10-28T19:52:37Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-search-data/"
+    },
     "558f2daa7fae0987d8946872": {
       "first_seen": "2026-10-21T05:49:00Z",
       "status": "queued",
@@ -2840,6 +2862,11 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "too_old",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.15"
+    },
+    "5a94e92ea1729a3634bb6c6d": {
+      "first_seen": "2026-10-28T19:52:45Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0"
     },
     "5ab22fbf5a0984d2e500345d": {
       "first_seen": "2026-10-19T04:18:14Z",
@@ -3334,6 +3361,11 @@
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.93"
     },
+    "6825ae5281ac7c3fe9afc39e": {
+      "first_seen": "2026-10-28T19:52:37Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    },
     "6846386ee35eb87e2aa20282": {
       "first_seen": "2026-10-18T13:50:19Z",
       "status": "queued",
@@ -3631,6 +3663,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/products-and-platforms/products/search/holiday-travel-trends-2026/"
+    },
+    "709cc8e2bd467b7916899fb3": {
+      "first_seen": "2026-10-28T19:52:36Z",
+      "status": "queued",
+      "url": "https://openai.com/index/legora"
     },
     "7126cbf1300d5943d33bb5c3": {
       "first_seen": "2026-10-09T06:41:17Z",
@@ -4183,6 +4220,11 @@
       "first_seen": "2026-10-16T10:06:04Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11685"
+    },
+    "83fae39fd1ea431a06d57889": {
+      "first_seen": "2026-10-28T19:52:45Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11967"
     },
     "840978c2e6f28318fa694682": {
       "first_seen": "2026-10-09T13:48:02Z",
@@ -5584,6 +5626,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12535"
     },
+    "ae7be6fb4f6d788b65362e27": {
+      "first_seen": "2026-10-28T19:52:45Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11965"
+    },
     "ae8cc1ad843ebfe5fc666522": {
       "first_seen": "2026-10-19T21:22:48Z",
       "status": "queued",
@@ -5643,6 +5690,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02252"
+    },
+    "b006d38b52ac3fe65fe04832": {
+      "first_seen": "2026-10-28T19:52:45Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11968"
     },
     "b0c812cbc916a282e408cbdb": {
       "first_seen": "2026-10-24T21:41:08Z",
@@ -7254,6 +7306,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.30207"
     },
+    "e26ac0eef4d158c034dcb558": {
+      "first_seen": "2026-10-28T19:52:37Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/"
+    },
     "e270f5ba4688033de075906d": {
       "first_seen": "2026-10-21T20:13:59Z",
       "status": "queued",
@@ -7279,6 +7336,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026/"
+    },
+    "e2ed7680c50ae3f074e04f96": {
+      "first_seen": "2026-10-28T19:52:36Z",
+      "status": "queued",
+      "url": "https://openai.com/index/the-future-of-the-firm"
     },
     "e38e6ce4316c7aae5019ab33": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -7700,6 +7762,11 @@
       "status": "too_old",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.9"
     },
+    "f04b23208c735a6d015510cf": {
+      "first_seen": "2026-10-28T19:52:45Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11966"
+    },
     "f059d0148ed6d42b606d85e7": {
       "first_seen": "2026-10-21T05:49:00Z",
       "status": "queued",
@@ -8077,6 +8144,11 @@
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.910-beta"
     },
+    "fb4453fe7d722c3bc58e3398": {
+      "first_seen": "2026-10-28T19:53:06Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.1"
+    },
     "fb49e20ce2251b9bdff1cb06": {
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
@@ -8172,6 +8244,12 @@
       "first_seen": "2026-10-03T00:46:18Z",
       "status": "too_old",
       "url": "https://github.com/microsoft/autogen/releases/tag/python-v0.7.1"
+    },
+    "ff68e260eb779e7779d72ecd": {
+      "first_seen": "2026-10-28T19:52:37Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/"
     },
     "ff94713669a843bf34098765": {
       "first_seen": "2026-10-03T00:46:21Z",

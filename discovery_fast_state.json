@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-28T07:28:36Z",
+    "at": "2026-10-28T14:30:59Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 45,
+    "prefiltered": 1,
+    "queued": 11,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 137,
+  "runs": 138,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1138,6 +1138,11 @@
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.0.92"
     },
+    "2382ac28ae22d4673adebf69": {
+      "first_seen": "2026-10-28T14:30:29Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11958"
+    },
     "23b7d3069afaccfd30e02db8": {
       "first_seen": "2026-10-22T13:02:09Z",
       "search_score": 0,
@@ -1793,6 +1798,11 @@
       "first_seen": "2026-10-13T16:26:01Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11586"
+    },
+    "39c5696554580b8daaa5d9d9": {
+      "first_seen": "2026-10-28T14:30:29Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11953"
     },
     "39cad894cdd240fbe2dba606": {
       "first_seen": "2026-10-21T20:13:59Z",
@@ -2916,6 +2926,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22468"
     },
+    "5e30d5e3d67dee3832a44b67": {
+      "first_seen": "2026-10-28T14:30:29Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11963"
+    },
     "5e67eaf20784dd12844010c1": {
       "first_seen": "2026-10-12T09:23:59Z",
       "status": "queued",
@@ -3077,6 +3092,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11927"
     },
+    "627f35d9b468c9ec4680e614": {
+      "first_seen": "2026-10-28T14:30:49Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.912-beta"
+    },
     "62bc207b9e95c88439f21ed4": {
       "first_seen": "2026-10-26T11:16:07Z",
       "status": "queued",
@@ -3121,6 +3141,11 @@
       "first_seen": "2026-10-03T00:45:50Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    },
+    "63ae6c27cd8130f1a107b7fc": {
+      "first_seen": "2026-10-28T14:30:29Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11962"
     },
     "63aee4d7d60aeda07b3d8998": {
       "first_seen": "2026-10-03T00:46:20Z",
@@ -3283,6 +3308,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11907"
     },
+    "67c6b18b0a76451db874442c": {
+      "first_seen": "2026-10-28T14:30:19Z",
+      "status": "queued",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work"
+    },
     "67cc77b3c538c465a2437ea5": {
       "first_seen": "2026-10-15T15:07:09Z",
       "status": "queued",
@@ -3313,6 +3343,11 @@
       "first_seen": "2026-10-28T07:28:01Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.36191"
+    },
+    "685ab71363a9a3de503bc558": {
+      "first_seen": "2026-10-28T14:30:29Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11954"
     },
     "686ae76031355764883a6b3c": {
       "first_seen": "2026-10-26T21:51:38Z",
@@ -3762,6 +3797,11 @@
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22454"
+    },
+    "754548d382a06747e85f64c4": {
+      "first_seen": "2026-10-28T14:30:31Z",
+      "status": "queued",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1"
     },
     "75bb450ac9abb666c3e6b151": {
       "first_seen": "2026-10-15T19:14:58Z",
@@ -5519,6 +5559,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12495"
     },
+    "adfecc92b51ffe6bf370f51a": {
+      "first_seen": "2026-10-28T14:30:29Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11960"
+    },
     "ae2593ff9e1d94bc04c9ac7f": {
       "first_seen": "2026-10-21T05:49:09Z",
       "status": "queued",
@@ -5733,6 +5778,11 @@
       "first_seen": "2026-10-07T16:38:56Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
+    },
+    "b6c92cb2c2f5abc71a2553f8": {
+      "first_seen": "2026-10-28T14:30:29Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11957"
     },
     "b6d5f64fc4441995edaeb133": {
       "first_seen": "2026-10-16T05:36:35Z",
@@ -6885,6 +6935,12 @@
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.13"
     },
+    "d8183669720c73e25da9b33a": {
+      "first_seen": "2026-10-28T14:30:19Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/platforms/google-pay/indie-games-fund-africa-selected-studios/"
+    },
     "d8639c0b4eb9ace31e9d7884": {
       "first_seen": "2026-10-23T04:34:33Z",
       "status": "queued",
@@ -7132,6 +7188,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10738"
+    },
+    "dfe8f4ca2517538c6c73eb91": {
+      "first_seen": "2026-10-28T14:30:29Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0"
     },
     "e00c8dd11b7cb4b1e4bebb79": {
       "first_seen": "2026-10-03T00:45:57Z",

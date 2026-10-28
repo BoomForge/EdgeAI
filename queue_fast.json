@@ -1864,6 +1864,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "a395c7da350b5086cc15f6b6",
+      "discovered_at": "2026-10-28T23:55:34Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Wed, 28 Oct 2026 13:15:00 GMT",
+      "search_score": 10,
+      "source_name": "OpenAI News",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "c417f8e3d39d0b893c07541b",
       "discovered_at": "2026-10-27T18:16:01Z",
       "kind": "official",
@@ -2816,6 +2830,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "f9fdd453543028293b64ef43",
+      "discovered_at": "2026-10-28T23:55:43Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-28T22:53:53Z",
+      "search_score": 10,
+      "source_name": "llama.cpp Releases",
+      "summary": "common, mtmd: bound control vector layer indices and M-RoPE position loops ( #31336 ) common: bound control vector layer indices by the model layer count A direction tensor layer index is parsed from the tensor name with no upper bound, and the buffer size and write offset are computed in int. A large index overflows both, so the accumulation writes before the start of the buffer. Pass the model layer count to the loader, reject indices above it like the existing zero index check, and compute the sizes in size_t. mtmd: fill M-RoPE positions by whole merge tiles The position loops of the Qwen-VL, GLM, PaddleOCR and Qwen2.5-VL encoders hardcode a 2x2 merge inside a stride of n_merge, so a patch grid that is not a multiple of the merge writes past the positions buffer. Iterate over whole merge tiles with n_merge inner steps, which bounds the writes by the patch count and gives the same positions on aligned grids. PaddleOCR also requires a merge aligned image at graph build, as the Qwen-VL family already does. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61041957 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11972",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11972"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "1d810bfe409cd0323759ff72",
       "discovered_at": "2026-10-28T01:42:05Z",
       "kind": "local-ai",
@@ -3334,20 +3362,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "56c3e617dcc3857375b28b82",
-      "discovered_at": "2026-10-14T22:37:10Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-14T19:54:20Z",
-      "search_score": 8,
-      "source_name": "llama.cpp Releases",
-      "summary": "cuda : use SIMT implicit GEMM conv2d on AMD without WMMA ( #30325 ) cuda : use SIMT implicit GEMM conv2d on AMD without WMMA Assisted-by: Claude Opus cuda : update conv2d SIMT comment cuda : skip SIMT conv2d on AMD for short reductions Co-authored-by: thelittlefireman 5165783+thelittlefireman@users.noreply.github.com Co-authored-by: thelittlefireman 5165783+thelittlefireman@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55983695 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11623",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11623"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "79326e62ecc4a5d82e44ef35",
       "discovered_at": "2026-10-28T01:42:05Z",
       "kind": "local-ai",
@@ -3485,23 +3499,9 @@
       "summary": "model: add Beam (Reflection) ( #30670 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56841237 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11701",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11701"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "0400448115dbe0ee87bb492d",
-      "discovered_at": "2026-10-16T18:41:03Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-16T18:01:20Z",
-      "search_score": 7,
-      "source_name": "llama.cpp Releases",
-      "summary": "common: honor HTTP_PROXY/HTTPS_PROXY env vars in http client ( #21752 ) common: honor HTTP_PROXY/HTTPS_PROXY env vars in http client common_http_client() was ignoring standard proxy env vars, causing downloads via -hf and similar flags to fail silently in environments behind an HTTP proxy (corporate networks, air-gapped infra, etc.). Checks HTTPS_PROXY/https_proxy for https:// URLs and HTTP_PROXY/http_proxy for http:// URLs, in that order. If a proxy URL is set and parseable, passes it to httplib's set_proxy() and set_proxy_basic_auth() as appropriate. Malformed proxy URLs are silently ignored so existing callers aren't affected. Fixes #21694 common: drop misleading comment about generic proxy fallback The comment referenced a 'generic one' that doesn't exist in the code \u2014 both HTTP_PROXY and HTTPS_PROXY are scheme-specific. Reviewer noted the mismatch. Addresses review feedback from @ServeurpersoCom . common : warn when the proxy URL from the environment is malformed common : honor NO_PROXY when selecting the http proxy ci : retrigger checks (test-thread-safety flake) common : bypass the proxy for loopback destinations llama cli talks to its spawned server on 127.0.0.1 through common_http_client, so with HTTP_PROXY set and no NO_PROXY the health polling went to the corporate proxy, which rejects loopback targets, and the wait loop never exits (\"Loading model...\" hangs forever). A remote proxy can never reach the client machine's own loopback, so these destinations are now always contacted directly, before NO_PROXY is consulted: localhost, *.localhost, 127.0.0.0/8, ::1 and 0.0.0.0. Similar to Go's net/http. Proxy handling for downloads and remote --server-base endpoints is unchanged. Signed-off-by: texasich 101962694+texasich@users.noreply.github.com docs: move proxy tip from README to server docs per review: the top level README stays lean; the proxy howto now lives with the server docs under Usage Signed-off-by: texasich 101962694+texasich@users.noreply.github.com Signed-off-by: texasich 101962694+texasich@users.noreply.github.com Co-authored-by: texasich texasich@users.noreply.github.com Co-authored-by: texasich texasich@gmail.com Co-authored-by: marecabo 23156476+marecabo@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56756047 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11699",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11699"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-28T19:53:12Z",
+  "updated_at": "2026-10-28T23:56:04Z",
   "version": 2
 }

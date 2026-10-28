@@ -1,20 +1,25 @@
 {
   "last_run": {
-    "at": "2026-10-28T19:53:12Z",
+    "at": "2026-10-28T23:56:04Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 12,
+    "prefiltered": 2,
+    "queued": 7,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 139,
+  "runs": 140,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31882"
+    },
+    "002a48ec774cc7a0f7a7dd1f": {
+      "first_seen": "2026-10-28T23:55:43Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc1"
     },
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -852,6 +857,12 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.09045"
     },
+    "1b154ea43af2f865be681d86": {
+      "first_seen": "2026-10-28T23:55:35Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q3-2026/"
+    },
     "1b443933b4482fd489fd4fe5": {
       "first_seen": "2026-10-12T09:24:00Z",
       "status": "queued",
@@ -1012,6 +1023,11 @@
       "first_seen": "2026-10-03T00:45:57Z",
       "status": "too_old",
       "url": "https://github.com/huggingface/diffusers/releases/tag/v0.39.0"
+    },
+    "1e7cf4e0713c1d74c104aa8f": {
+      "first_seen": "2026-10-28T23:55:43Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11970"
     },
     "1e8b991416e8869feffd5695": {
       "first_seen": "2026-10-21T16:06:04Z",
@@ -2118,6 +2134,11 @@
       "first_seen": "2026-10-27T06:24:40Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.33052"
+    },
+    "4188f17ee65e78dfbd27ad90": {
+      "first_seen": "2026-10-28T23:55:43Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11971"
     },
     "41ba1ce2339fc3afad478eac": {
       "first_seen": "2026-10-22T13:02:17Z",
@@ -5294,6 +5315,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11562"
     },
+    "a395c7da350b5086cc15f6b6": {
+      "first_seen": "2026-10-28T23:55:34Z",
+      "status": "queued",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
+    },
     "a39c9d6948b0d138d34de3f3": {
       "first_seen": "2026-10-21T05:49:22Z",
       "status": "queued",
@@ -5685,6 +5711,11 @@
       "first_seen": "2026-10-27T06:24:39Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31704"
+    },
+    "afe2b1f709f1676eed45edce": {
+      "first_seen": "2026-10-28T23:55:53Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.6"
     },
     "aff938afa23326fcd0937d3a": {
       "first_seen": "2026-10-05T09:14:07Z",
@@ -7048,6 +7079,12 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11906"
     },
+    "da27cb2db053180e35655404": {
+      "first_seen": "2026-10-28T23:55:35Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/"
+    },
     "da92b80397690dde35e85c39": {
       "first_seen": "2026-10-19T04:18:13Z",
       "status": "queued",
@@ -7229,6 +7266,11 @@
       "first_seen": "2026-10-19T21:22:48Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11739"
+    },
+    "dfa6644e14706b90dbf32c57": {
+      "first_seen": "2026-10-28T23:55:53Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.7"
     },
     "dfb6e6be45662091eab87f1e": {
       "first_seen": "2026-10-21T16:05:39Z",
@@ -8118,6 +8160,11 @@
       "first_seen": "2026-10-15T05:40:28Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11641"
+    },
+    "f9fdd453543028293b64ef43": {
+      "first_seen": "2026-10-28T23:55:43Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11972"
     },
     "fa45708d3db66482b785a49c": {
       "first_seen": "2026-10-03T00:45:59Z",

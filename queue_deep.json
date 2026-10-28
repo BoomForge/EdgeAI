@@ -408,6 +408,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "658c10b87fbc153446c34bb0",
+      "discovered_at": "2026-10-28T08:23:13Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-10-28T08:23:13Z",
+      "search_score": 37,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 27 Oct 2026 \ud83d\udd14 New article published Announcing Artificial Analysis Intelligence Index v5 Index v5 features 2 new benchmarks and 3 upgrades. For the first time, the majority of the Index is built on private datasets Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0 New to the Intelligence Index: \u27a4 FrontierCode 2.0: Cognition\u2019s private benchmark of real-world coding tasks, graded on whether a repository maintainer would merge the agent\u2019s change \u27a4 Terminal-Bench-Science: 70 agentic scientific research tasks, run in a terminal environment Upgraded: \u27a4 HLE-Diamond (replacing Humanity\u2019s Last Exam): a refined 1,000-question version of Humanity\u2019s Last Exam, split evenly between reasoning and knowledge questions \u27a4 AA-Omniscience v1.1: an updated dataset with saturated questions and all public set questions removed, new questions added, and ambiguous or erroneous questions revised \u27a4 CritPt v2 (Hard Subset): a private 40-question hard subset of CritPt v2, revised by the CritPt authors and run with a code-execution tool Staying in the Index: AA-Briefcase, AutomationBench-AA, GDP.pdf and Terminal-Bench 4.0 Removed from the Index: GDPval-AA v2, SciCode and AA-LCR Modal performance results now available DeepSeek V4.1 Flash 1017 (Max) SambaNova performance results now available MiniMax-M3.1-Flash 26 Oct 2026 \ud83d\udd14 New article published GPT-6.1 Terra pushes the cost efficiency frontier OpenAI has released GPT-6.1 Terra, pushing the cost efficiency frontier. It is the first Terra-class model since GPT-5.6, and is more intelligent for less than a third of the cost \ud83d\udd14 New article published Code2Video-AA: how well do AI models design videos in code? Artificial Analysis' implementation of HeyGen's Code2Video Bench, evaluating how well models create short product and brand videos from 114 design briefs using HyperFrames HTML. New language model evaluation results available GPT-6.1 Terra (Non-reasoning) Intelligence Index: 30 New language model evaluation results available GPT-6.1 Terra (Low) Intelligence Index: 29 New language model evaluation results available GPT-6.1 Terra (Medium) Intelligence Index: 38 New language model evaluation results available GPT-6.1 Terra (High) Intelligence Index: 42 New language model evaluation results available GPT-6.1 Terra (Xhigh) Intelligence Index: 45 New language model evaluation results available GPT-6.1 Terra (Max) Intelligence Index: 51 OpenAI performance results now available GPT-6.1 Terra (Non-reasoning) GPT-6.1 Terra (Low) GPT-6.1 Terra (Medium) GPT-6.1 Terra (High) GPT-6.1 Terra (Xhigh) GPT-6.1 Terra (Max) 23 Oct 2026 \ud83d\udd14 New article published Kimi K3.1 Pro launches at 4th on the Intelligence Index and will lead open weights models Kimi K3.1 Pro launches at 4th on the Artificial Analysis Intelligence Index and will lead open weights models New language model evaluation results available Kimi K3.1 Pro Intelligence Index: 46 New language model evaluation results available Nemotron 3.5 Bolt E4B 4GB (Reasoning) Inco performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax-M3.1-Flash MiniMax-M3.1-Flash Nebius performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax-M3.1-Flash Modular performance results now available MiniMax-M3.1-Flash SiliconFlow performance results now available MiniMax-M3.1-Flash Fireworks performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash (Non-reasoning) Wafer performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash 1017 (Max) Together AI performance results now available MiniMax-M3.1-Flash Parasail performance results now available MiniMax-M3.1-Flash GMI performance results now available MiniMax-M3.1-Flash Novita performance results now available MiniMax-M3.1-Flash DigitalOcean performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash 1017 (Max) Kimi performance results now available Kimi K3.1 Pro Kimi K3.1 Pro 22 Oct 2026 New language model evaluation results available Ling 3.1 Flash 1019 Intelligence Index: 29 InclusionAI performance results now available Ling 3.1 Flash 1019 21 Oct 2026 LithosAI performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DigitalOcean performance results now available Beam 1.0 Makora performance results now available DeepSeek V4.1 Flash 1017 (Max) 20 Oct 2026 GMI performance results now available DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available DeepSeek V4.1 Flash 1017 (Max) 19 Oct 2026 \ud83d\udd14 New article published HealthBench and Heal",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-823618d5296e14a524f7"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "0982b0d31b705956abb0dcd1",
       "discovered_at": "2026-10-19T05:06:00Z",
       "kind": "independent",
@@ -909,20 +923,6 @@
       "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We\u2019re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I called this one last December , when Anthropic first declared skills to be an \"open standard\": I wouldn't be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to \" Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body \". Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills",
       "title": "Donating Agent Skills to the Agentic AI Foundation",
       "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "4d282b1c56dbd0c8d49a3369",
-      "discovered_at": "2026-10-14T07:31:59Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 14, 2026",
-      "search_score": 19,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch An agent with swag Oct 14, 2026 @NousResearch Hermes Agent is yours Oct 11, 2026 @NousResearch Wild MISSINGNO. appeared! A coding and agentic reasoning model that is highly token efficient, free for a limited time on Nous Portal Try it out in your Hermes Agent today Oct 10, 2026 @NousResearch Slight Correction: Step 5 Preview's final score on Hermes Index has been updated to 32.83, slightly behind GPT-6 Luna (33.89) and GLM 5.3 Flash (34.95) Learn more @ portal.nousresearch.com/bench Oct 9, 2026 @NousResearch Step 5 Preview from @StepFun_ai is free on Nous Portal for the next week 600B total / 27B active MoE, 1M context, with vision Step 5 Preview scored 33.89 on Hermes Index, the same score as GPT-6 Luna Oct 9, 2026 @NousResearch Hemres Agnet Oct 9, 2026 @NousResearch Hermes Agent is now live (and featured) in the @Microsoft Store for seamless one-click install. More updates for the Windows ecosystem coming soon! Oct 8, 2026 @NousResearch asus.com/blog/asus-proa\u2026 Oct 8, 2026 @NousResearch Advancing our mission to deliver ubiquitous powerful agents to everyone, Hermes Agent is on the new ASUS ProArt RTX Spark PCs: MuseTree and ComfyUI integrations plus local model support on up to 128 GB of unified memory. A complete creative stack that runs on your own machine. x.com/ASUS/status/21\u2026 Oct 8, 2026 @NousResearch Oct 8, 2026",
-      "title": "@NousResearch An agent with swag Oct 14, 2026",
-      "url": "https://x.com/NousResearch/status/2110209866996252729"
     },
     {
       "bootstrap": false,
@@ -2564,6 +2564,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "883ed7c8b73484c64a712254",
+      "discovered_at": "2026-10-28T08:23:12Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-25T04:30:16-07:00",
+      "search_score": 7,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Hold \u2325Space, flick, and an AI agent does the dev chore Discussion | Link",
+      "title": "Zest",
+      "url": "https://www.producthunt.com/products/zest-6"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "be773f113ad6fd84eed160c0",
       "discovered_at": "2026-10-25T10:01:09Z",
       "kind": "signal",
@@ -2802,6 +2816,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "1897925dbdda805e4c10e1ce",
+      "discovered_at": "2026-10-28T08:23:12Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-27T10:20:52-07:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Six 2B-class models for phones, laptops and robots Discussion | Link",
+      "title": "LFM3 by Liquid AI",
+      "url": "https://www.producthunt.com/products/lfm2"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "0401dd5d09d4fe38b58b68d7",
+      "discovered_at": "2026-10-28T08:23:12Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-26T09:38:07-07:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Open-source, on device alternative to Claude and ChatGPT Discussion | Link",
+      "title": "Hob",
+      "url": "https://www.producthunt.com/products/hob-3"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "3e1e6e34703c813e2412b9da",
       "discovered_at": "2026-10-26T17:40:15Z",
       "kind": "signal",
@@ -2869,6 +2911,34 @@
       "summary": "The world's most powerful agents, with the UX they deserve Discussion | Link",
       "title": "Craft Agents",
       "url": "https://www.producthunt.com/products/craft-agents"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "70cb93cbb6c0b3547f5bdd50",
+      "discovered_at": "2026-10-28T08:23:12Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-27T17:45:35-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Check if AI agents can use your website Discussion | Link",
+      "title": "Dedica",
+      "url": "https://www.producthunt.com/products/dedica"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "44e50d3caaed1d38598f99d6",
+      "discovered_at": "2026-10-28T08:23:12Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-27T09:11:14-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Skills to build games with Claude. Free multiplayer hosting. Discussion | Link",
+      "title": "Our Silly Games",
+      "url": "https://www.producthunt.com/products/our-silly-games"
     },
     {
       "bootstrap": false,
@@ -3065,6 +3135,20 @@
       "summary": "Krea's AI image model: 2K edits in under 8 seconds Discussion | Link",
       "title": "Krea 3",
       "url": "https://www.producthunt.com/products/krea"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "6c09a5e29d2f6772c8560354",
+      "discovered_at": "2026-10-28T08:23:12Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-27T02:15:28-07:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "The Mac app for the coding agents you already use Discussion | Link",
+      "title": "Yardlet",
+      "url": "https://www.producthunt.com/products/yardlet-2"
     },
     {
       "bootstrap": false,
@@ -3348,6 +3432,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-28T01:49:10Z",
+  "updated_at": "2026-10-28T08:23:17Z",
   "version": 2
 }

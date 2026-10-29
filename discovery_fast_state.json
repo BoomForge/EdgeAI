@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-29T17:32:20Z",
+    "at": "2026-10-29T22:00:48Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 11,
+    "prefiltered": 0,
+    "queued": 6,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 143,
+  "runs": 144,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -217,6 +217,11 @@
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.14149"
+    },
+    "09599579b5b9218fce7c9e00": {
+      "first_seen": "2026-10-29T22:00:42Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.3"
     },
     "09a60dbc62fcadcf67255242": {
       "first_seen": "2026-10-15T05:40:21Z",
@@ -2236,6 +2241,11 @@
       "status": "too_old",
       "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.1.dev"
     },
+    "427c3156a62caeb103d1a705": {
+      "first_seen": "2026-10-29T22:00:42Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.2"
+    },
     "428574c612f6e9a407d1feb8": {
       "first_seen": "2026-10-08T07:31:26Z",
       "status": "queued",
@@ -2460,6 +2470,11 @@
       "first_seen": "2026-10-03T00:46:20Z",
       "status": "too_old",
       "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.4.0b1"
+    },
+    "4a32d2fe895871688c404872": {
+      "first_seen": "2026-10-29T22:00:22Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11988"
     },
     "4a76d87bd59fbcc1278206f3": {
       "first_seen": "2026-10-23T04:34:35Z",
@@ -4869,6 +4884,11 @@
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fllms%2Fv0.0.90"
     },
+    "9349f418e7bc7ab45091d36c": {
+      "first_seen": "2026-10-29T22:00:14Z",
+      "status": "queued",
+      "url": "https://openai.com/index/updated-model-spec"
+    },
     "93629456a54f2a24f45d3801": {
       "first_seen": "2026-10-13T01:26:56Z",
       "status": "queued",
@@ -7140,6 +7160,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11847"
     },
+    "d948735545c20cf3072195db": {
+      "first_seen": "2026-10-29T22:00:14Z",
+      "status": "queued",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence"
+    },
     "d953821332fcd27a1c6f7c6b": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -7619,6 +7644,11 @@
       "first_seen": "2026-10-06T19:03:32Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
+    },
+    "e6f05dec0997e5fdc23ee02f": {
+      "first_seen": "2026-10-29T22:00:22Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11989"
     },
     "e6f511c21193605dc6212849": {
       "first_seen": "2026-10-12T09:23:59Z",

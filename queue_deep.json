@@ -828,6 +828,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "3c58363126cc522922ad0d71",
+      "discovered_at": "2026-10-29T13:31:54Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "",
+      "search_score": 2,
+      "source_name": "Sakana AI Blog",
+      "summary": "Intelligence Report: SNS\u306eAI\u5206\u6790\u304b\u3089\u307f\u308b\u7c73\u4e2d\u9593\u9078\u6319",
+      "title": "Intelligence Report: SNS\u306eAI\u5206\u6790\u304b\u3089\u307f\u308b\u7c73\u4e2d\u9593\u9078\u6319",
+      "url": "https://sakana.ai/us-midterms-analysis/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "2e6c7d5b62b02c1a6c3993f3",
       "discovered_at": "2026-10-15T14:58:06Z",
       "kind": "primary",
@@ -1553,20 +1567,6 @@
       "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check\u2014automated or human\u2014is the right one to catch it?\" Asking that question also changed when review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague. Now, review runs continuously, more like spellcheck while you write. Most changes have been reviewed and fixed by Claude at least once before a human is asked to look. This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny. \u2014 Addy Osmani, Morgan Westlee Lunt, and Qing Wang , How the Claude Code team does code review Tags: anthropic , claude , ai , claude-code , llms , addy-osmani , coding-agents , generative-ai , agentic-engineering , code-review",
       "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
       "url": "https://simonwillison.net/2026/Oct/16/code-review/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "782d5b0065aab2f93bad1890",
-      "discovered_at": "2026-10-15T14:58:02Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-15T13:04:03+00:00",
-      "search_score": 11,
-      "source_name": "Simon Willison Everything",
-      "summary": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from \" people with knowledge of the matter \". Key things I learned from the article: Q1 revenue (Jan/Feb/Mar) was \"about $4.8bn\" Q2 (Apr/May/Jun) was $11.5bn Q3 (Jul/Aug/Sep) was $16.8bn In Q3: $1.70 in revenue for every $1 spent on \"computing power\" Adjusted operating margins (excluding stock-based compensation) were 11% This point about distillation is worth quoting in full (highlight mine): The start-up has also clamped down on \u201cdistillation\u201d \u2014 a controversial practice whereby rival AI labs train their models on the outputs of more advanced ones. When rival companies \u201cdistil\u201d their models from Anthropic\u2019s models, that involves heavy usage and spending. Anthropic told investors on Wednesday distillation accounted for 5 per cent to 7 per cent of revenue and that they had cut it back \u201cmaterially\u201d in the third quarter of the year, said four people with direct knowledge of the matter. Napkin maths says that if distillation was 5% of their Q2 revenue (before they cut it back in Q3) then unnamed \"other labs\" spent over half a billion dollars distilling Anthropic's models in that quarter! Tags: ai , generative-ai , llms , anthropic",
-      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
-      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
     },
     {
       "bootstrap": false,
@@ -2648,6 +2648,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "0b3e7ad5951291266db5d6d2",
+      "discovered_at": "2026-10-29T13:31:50Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-26T06:58:42-07:00",
+      "search_score": 9,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "New AI agent, 1,650+ apps, Skills and smart model routing Discussion | Link",
+      "title": "Intrascope 2.0",
+      "url": "https://www.producthunt.com/products/intrascope-app"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "ebb2facf6c17761b5fd3bd1a",
+      "discovered_at": "2026-10-29T13:31:50Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-28T10:27:14-07:00",
+      "search_score": 8,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Google's next frontier model Discussion | Link",
+      "title": "Gemini 4 Carbon",
+      "url": "https://www.producthunt.com/products/gemini-4-carbon"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "76a940fe4a3b3c0bc456adf0",
       "discovered_at": "2026-10-22T07:30:04Z",
       "kind": "signal",
@@ -2970,6 +2998,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "7f62040b7839cc06f4fef05f",
+      "discovered_at": "2026-10-29T13:31:50Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-27T10:03:15-07:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Better data. Smarter robots. Repeat. Discussion | Link",
+      "title": "Voxel51 Multimodal",
+      "url": "https://www.producthunt.com/products/voxel51"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "0401dd5d09d4fe38b58b68d7",
       "discovered_at": "2026-10-28T08:23:12Z",
       "kind": "signal",
@@ -3040,6 +3082,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "902ef6036dced0f250f729a0",
+      "discovered_at": "2026-10-29T13:31:50Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-28T04:27:28-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Team up Claude Code, Codex and Grok on one canvas Discussion | Link",
+      "title": "MAO",
+      "url": "https://www.producthunt.com/products/mao-multi-agentic-orchestration-tool"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "70cb93cbb6c0b3547f5bdd50",
       "discovered_at": "2026-10-28T08:23:12Z",
       "kind": "signal",
@@ -3051,6 +3107,20 @@
       "summary": "Check if AI agents can use your website Discussion | Link",
       "title": "Dedica",
       "url": "https://www.producthunt.com/products/dedica"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "655eb37500b3925a90315941",
+      "discovered_at": "2026-10-29T13:31:50Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-27T13:41:59-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "You don't need an AI SRE. Give your agent Radar. Discussion | Link",
+      "title": "Radar",
+      "url": "https://www.producthunt.com/products/radar-7"
     },
     {
       "bootstrap": false,
@@ -3264,6 +3334,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "6a3c107674b90b014ba6b99d",
+      "discovered_at": "2026-10-29T13:31:50Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-28T11:26:21-07:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "The easiest way to automate anything Discussion | Link",
+      "title": "IFTTT.ai",
+      "url": "https://www.producthunt.com/products/ifttt"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "6c09a5e29d2f6772c8560354",
       "discovered_at": "2026-10-28T08:23:12Z",
       "kind": "signal",
@@ -3415,37 +3499,9 @@
       "summary": "Sampler to create early 2000 Neural Synthesis Discussion | Link",
       "title": "2G",
       "url": "https://www.producthunt.com/products/2g"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "a00826147dcbb65b836f4713",
-      "discovered_at": "2026-10-24T11:25:53Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-23T06:28:40-07:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Local AI for dictation, meetings, background tasks and more Discussion | Link",
-      "title": "sideOS.ai",
-      "url": "https://www.producthunt.com/products/sideos-ai"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "f7fda8171297815a5553f115",
-      "discovered_at": "2026-10-23T10:24:14Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-22T23:03:38-07:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "See your launch as you build it Discussion | Link",
-      "title": "Product Hunt Visual Launch Editor",
-      "url": "https://www.producthunt.com/products/producthunt"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-29T06:22:38Z",
+  "updated_at": "2026-10-29T13:31:55Z",
   "version": 2
 }

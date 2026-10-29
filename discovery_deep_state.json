@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-29T06:22:38Z",
+    "at": "2026-10-29T13:31:55Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 1,
+    "prefiltered": 9,
+    "queued": 7,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 5,
     "warnings": 0
   },
-  "runs": 140,
+  "runs": 141,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -172,6 +172,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/n8n-chat-ui-2"
     },
+    "06cef07de21f81874be1b593": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/floot"
+    },
     "0749e18eb169d7317ef37e04": {
       "first_seen": "2026-10-11T09:11:21Z",
       "search_score": 0,
@@ -279,6 +285,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/kugelaudio"
+    },
+    "0b3e7ad5951291266db5d6d2": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/intrascope-app"
     },
     "0b8b56dba928bd682afd58ba": {
       "first_seen": "2026-10-04T17:06:51Z",
@@ -395,6 +406,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/shogunai"
     },
+    "10236739887ba8a9b984efe8": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/confetti-5"
+    },
     "1040f15dec51655d9da5e598": {
       "first_seen": "2026-10-08T01:53:48Z",
       "status": "queued",
@@ -504,6 +521,11 @@
       "first_seen": "2026-10-11T09:11:21Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/kooler-2"
+    },
+    "13f6715dee2d2ebe145c350e": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/topmessage"
     },
     "141d2b205446e61244d572d9": {
       "first_seen": "2026-10-13T18:14:20Z",
@@ -904,6 +926,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/notikeep"
     },
+    "22dbd5504c7c127899461588": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/outreachguy"
+    },
     "23178e6a594364e04f6a76d3": {
       "first_seen": "2026-10-15T22:14:55Z",
       "status": "queued",
@@ -1046,6 +1073,12 @@
       "first_seen": "2026-10-09T14:44:12Z",
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/your-next-chatgpt-answer-might-come-with-buttons-10-09-2026"
+    },
+    "28ca2f21fbc63707f520a97e": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/kin-6"
     },
     "28dc3a5873d788c5b9ec4649": {
       "first_seen": "2026-10-07T09:23:03Z",
@@ -1534,6 +1567,11 @@
       "status": "queued",
       "url": "https://mistral.ai/news/mistral-large-4/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "3c58363126cc522922ad0d71": {
+      "first_seen": "2026-10-29T13:31:54Z",
+      "status": "queued",
+      "url": "https://sakana.ai/us-midterms-analysis/"
+    },
     "3c89e2e323a44324f8a7d00c": {
       "first_seen": "2026-10-22T07:30:04Z",
       "search_score": 1,
@@ -1803,6 +1841,12 @@
       "first_seen": "2026-10-21T23:32:24Z",
       "status": "queued",
       "url": "https://mistral.ai/news/voxtral-3/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "4800b69e29fe5e1c7e2ad209": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/notch-metrics"
     },
     "4816346755f9c4545560ad0b": {
       "first_seen": "2026-10-07T09:23:03Z",
@@ -2597,6 +2641,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/ghost-core"
     },
+    "655eb37500b3925a90315941": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/radar-7"
+    },
     "65882ee49dd3bdda47b9f4a2": {
       "first_seen": "2026-10-21T20:18:30Z",
       "status": "queued",
@@ -2673,6 +2722,11 @@
       "first_seen": "2026-10-05T18:53:48Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/"
+    },
+    "6a3c107674b90b014ba6b99d": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/ifttt"
     },
     "6a6845b2475c467c6e3f4e57": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -3115,6 +3169,12 @@
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/your-chatgpt-can-now-work-while-youre-away-10-02-2026"
     },
+    "7a52250ac7f55f5e0df32914": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/arco-4"
+    },
     "7a7e3fdce7c17ca7f3ecf920": {
       "first_seen": "2026-10-28T15:20:01Z",
       "status": "too_old",
@@ -3225,6 +3285,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/crosswalk"
     },
+    "7e640f6994d5f60f67f087d3": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/enclave-2"
+    },
     "7e757af485340b5175ace169": {
       "first_seen": "2026-10-24T11:25:53Z",
       "search_score": 0,
@@ -3266,6 +3332,11 @@
       "first_seen": "2026-10-28T15:20:02Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
+    },
+    "7f62040b7839cc06f4fef05f": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/voxel51"
     },
     "7f638f8a41665051a1bf6b08": {
       "first_seen": "2026-10-08T16:25:55Z",
@@ -3522,6 +3593,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/tabsh"
     },
+    "8808b745112e3883a7c349ba": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/scape-4"
+    },
     "883ed7c8b73484c64a712254": {
       "first_seen": "2026-10-28T08:23:12Z",
       "status": "queued",
@@ -3701,6 +3777,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/12/python-3-15/"
     },
+    "902ef6036dced0f250f729a0": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/mao-multi-agentic-orchestration-tool"
+    },
     "905dc6245d43b31ec40ee091": {
       "first_seen": "2026-10-07T16:48:32Z",
       "search_score": 0,
@@ -3752,6 +3833,12 @@
       "first_seen": "2026-10-21T23:32:25Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/supercmo-ai"
+    },
+    "9220d05373e0560f0f50f1a5": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/empacer"
     },
     "92d32bba66440a83e682427f": {
       "first_seen": "2026-10-19T17:12:32Z",
@@ -3861,6 +3948,12 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
       "url": "https://www.kimi.com/en/products/kimi-work"
+    },
+    "9792fbb896fe9c609a4d8fd9": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/storelocale"
     },
     "97b1175a9af0f2e4574e8674": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -4208,6 +4301,11 @@
       "first_seen": "2026-10-08T21:27:35Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/offstage"
+    },
+    "a6054229054fd448f5759a57": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/viggle-ai"
     },
     "a6217278f0a8b1134ac59df9": {
       "first_seen": "2026-10-28T20:28:26Z",
@@ -5082,6 +5180,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/meta-ai"
     },
+    "c8fda061ae8e72055669bb24": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/gologin"
+    },
     "c95ddbc579654aa65129e4e7": {
       "first_seen": "2026-10-21T20:18:30Z",
       "status": "queued",
@@ -5873,6 +5976,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/walkai-talkai"
     },
+    "ebb2facf6c17761b5fd3bd1a": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/gemini-4-carbon"
+    },
     "ec01d0cbd7fba1364c429a3b": {
       "first_seen": "2026-10-05T09:33:48Z",
       "search_score": 0,
@@ -5899,6 +6007,12 @@
       "first_seen": "2026-10-08T21:27:35Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/8/carson-gross/"
+    },
+    "ed1ee031cdb3547cba0d7014": {
+      "first_seen": "2026-10-29T13:31:50Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/suno"
     },
     "ed32cd489cb393b4ea9cbdec": {
       "first_seen": "2026-10-11T02:16:02Z",

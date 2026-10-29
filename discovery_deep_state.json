@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-29T19:17:22Z",
+    "at": "2026-10-29T23:29:45Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 4,
-    "queued": 8,
+    "prefiltered": 0,
+    "queued": 9,
     "sources_ok": 15,
     "too_old": 1,
     "warnings": 0
   },
-  "runs": 142,
+  "runs": 143,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -719,6 +719,11 @@
       "first_seen": "2026-10-06T23:21:34Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107592260682391925"
+    },
+    "1a66cc989d57a93d1572757e": {
+      "first_seen": "2026-10-29T23:29:45Z",
+      "status": "queued",
+      "url": "https://bfl.ai/open-weights"
     },
     "1a6c2f85d9e601ca12e1b7a0": {
       "first_seen": "2026-10-09T01:22:23Z",
@@ -1925,6 +1930,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/phonable"
     },
+    "49d99f09e516b736e5fe7e5f": {
+      "first_seen": "2026-10-29T23:29:41Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits/"
+    },
     "49ed414931058e2ec90de080": {
       "first_seen": "2026-10-07T21:57:48Z",
       "status": "too_old",
@@ -1997,6 +2007,11 @@
       "first_seen": "2026-10-27T12:46:49Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/savor-3"
+    },
+    "4d023e89b5eeb279009c1798": {
+      "first_seen": "2026-10-29T23:29:40Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "4d0b2f3a3cb8e6a4c5c0a101": {
       "first_seen": "2026-10-26T11:34:46Z",
@@ -2274,6 +2289,11 @@
       "status": "queued",
       "url": "https://sakana.ai/qd-rec/"
     },
+    "573619c5eac5583810b68de7": {
+      "first_seen": "2026-10-29T23:29:40Z",
+      "status": "queued",
+      "url": "https://venturebeat.com/technology/mistral-large-4-le-chonk-arrives-as-the-top-open-model-outside-china-with-improved-coding-performance-and-63-lower-cost-per-task?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "573e14965f6f6511c475beb1": {
       "first_seen": "2026-10-11T09:11:21Z",
       "status": "too_old",
@@ -2498,6 +2518,11 @@
       "first_seen": "2026-10-14T18:00:57Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/t-scriptor"
+    },
+    "5fefdade098f9bb7fef7ecbe": {
+      "first_seen": "2026-10-29T23:29:40Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/chatinbox-2"
     },
     "603d4f0592f632a4812d62a6": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -2917,6 +2942,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/kernelai"
     },
+    "70f208402007233aa8a8af60": {
+      "first_seen": "2026-10-29T23:29:45Z",
+      "status": "queued",
+      "url": "https://bfl.ai/commercial-weights"
+    },
     "70f4599cdca4bb9f636405aa": {
       "first_seen": "2026-10-16T05:09:14Z",
       "status": "too_old",
@@ -3300,6 +3330,11 @@
       "first_seen": "2026-10-13T10:55:50Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/xiryn"
+    },
+    "7ddf0d3de558cc05d76b4ae1": {
+      "first_seen": "2026-10-29T23:29:40Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/flatbread"
     },
     "7e2bd70a99cf3d9441f7abf9": {
       "first_seen": "2026-10-10T11:25:14Z",
@@ -4933,6 +4968,11 @@
       "status": "queued",
       "url": "https://www.anthropic.com/engineering/redesigning-source-control?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "bd215f87afc1a3e6ebb89613": {
+      "first_seen": "2026-10-29T23:29:40Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "bd2b3c6a95f6304023ad4797": {
       "first_seen": "2026-10-09T07:47:51Z",
       "search_score": 1,
@@ -4995,6 +5035,11 @@
       "first_seen": "2026-10-07T21:57:53Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107880428111806730"
+    },
+    "bf1cadaf8658bca5634bcf42": {
+      "first_seen": "2026-10-29T23:29:41Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-06280a8951ae94fc18e3"
     },
     "bf54f36d6ecbf3a8efe39831": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -5452,6 +5497,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
+    },
+    "d3c1e8e05891aa549f280f83": {
+      "first_seen": "2026-10-29T23:29:40Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "d3c330129f3f42fba56ac1fe": {
       "first_seen": "2026-10-05T09:33:48Z",

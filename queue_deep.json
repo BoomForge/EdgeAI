@@ -310,6 +310,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "bf1cadaf8658bca5634bcf42",
+      "discovered_at": "2026-10-29T23:29:41Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-10-29T23:29:41Z",
+      "search_score": 49,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 29 Oct 2026 New language model evaluation results available Mistral Large 4 (Medium) Intelligence Index: 23 New language model evaluation results available Mistral Large 4 (High) Intelligence Index: 26 Systalyze performance results now available GLM-5.3 (Low) GLM-5.3 (Max) Mistral performance results now available Mistral Large 4 (Medium) Mistral Large 4 (High) 28 Oct 2026 \ud83d\udd14 New article published Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5 Google\u2019s Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5, and second only to Claude Opus 5.5 on the Artificial Analysis Coding Agent Index \ud83d\udd14 New article published GitHub Copilot Fusion orchestrates Anthropic and OpenAI models to balance performance and cost itHub has released Copilot Fusion in GitHub Copilot, which orchestrates between Anthropic and OpenAI models. It scores 2 points below Opus 5.5 in Claude Code at half the Cost per Task in the Coding Agent Index New language model evaluation results available Gemini 4 Carbon (High) Intelligence Index: 59 Google performance results now available Gemini 4 Carbon (High) Bitdeer AI performance results now available DeepSeek V4.1 Flash 1017 (Max) 27 Oct 2026 \ud83d\udd14 New article published Announcing Artificial Analysis Intelligence Index v5 Index v5 features 2 new benchmarks and 3 upgrades. For the first time, the majority of the Index is built on private datasets Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0 New to the Intelligence Index: \u27a4 FrontierCode 2.0: Cognition\u2019s private benchmark of real-world coding tasks, graded on whether a repository maintainer would merge the agent\u2019s change \u27a4 Terminal-Bench-Science: 70 agentic scientific research tasks, run in a terminal environment Upgraded: \u27a4 HLE-Diamond (replacing Humanity\u2019s Last Exam): a refined 1,000-question version of Humanity\u2019s Last Exam, split evenly between reasoning and knowledge questions \u27a4 AA-Omniscience v1.1: an updated dataset with saturated questions and all public set questions removed, new questions added, and ambiguous or erroneous questions revised \u27a4 CritPt v2 (Hard Subset): a private 40-question hard subset of CritPt v2, revised by the CritPt authors and run with a code-execution tool Staying in the Index: AA-Briefcase, AutomationBench-AA, GDP.pdf and Terminal-Bench 4.0 Removed from the Index: GDPval-AA v2, SciCode and AA-LCR Modal performance results now available DeepSeek V4.1 Flash 1017 (Max) SambaNova performance results now available MiniMax-M3.1-Flash 26 Oct 2026 \ud83d\udd14 New article published GPT-6.1 Terra pushes the cost efficiency frontier OpenAI has released GPT-6.1 Terra, pushing the cost efficiency frontier. It is the first Terra-class model since GPT-5.6, and is more intelligent for less than a third of the cost \ud83d\udd14 New article published Code2Video-AA: how well do AI models design videos in code? Artificial Analysis' implementation of HeyGen's Code2Video Bench, evaluating how well models create short product and brand videos from 114 design briefs using HyperFrames HTML. New language model evaluation results available GPT-6.1 Terra (Non-reasoning) Intelligence Index: 30 New language model evaluation results available GPT-6.1 Terra (Low) Intelligence Index: 29 New language model evaluation results available GPT-6.1 Terra (Medium) Intelligence Index: 38 New language model evaluation results available GPT-6.1 Terra (High) Intelligence Index: 42 New language model evaluation results available GPT-6.1 Terra (Xhigh) Intelligence Index: 45 New language model evaluation results available GPT-6.1 Terra (Max) Intelligence Index: 51 OpenAI performance results now available GPT-6.1 Terra (Non-reasoning) GPT-6.1 Terra (Low) GPT-6.1 Terra (Medium) GPT-6.1 Terra (High) GPT-6.1 Terra (Xhigh) GPT-6.1 Terra (Max) 23 Oct 2026 \ud83d\udd14 New article published Kimi K3.1 Pro launches at 4th on the Intelligence Index and will lead open weights models Kimi K3.1 Pro launches at 4th on the Artificial Analysis Intelligence Index and will lead open weights models New language model evaluation results available Kimi K3.1 Pro Intelligence Index: 46 New language model evaluation results available Nemotron 3.5 Bolt E4B 4GB (Reasoning) Inco performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax-M3.1-Flash MiniMax-M3.1-Flash Nebius performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax-M3.1-Flash Modular performance results now available MiniMax-M3.1-Flash SiliconFlow performance results now available MiniMax-M3.1-Flash Fireworks performance results now available MiniMax-M3.1-Flash DeepSeek V",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-06280a8951ae94fc18e3"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "5486cba2072ec96e90cd807f",
       "discovered_at": "2026-10-29T19:17:18Z",
       "kind": "independent",
@@ -646,20 +660,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "acb4d46b14ee21b8f01ee718",
-      "discovered_at": "2026-10-15T22:14:56Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-10-15T22:14:56Z",
-      "search_score": 34,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 15 Oct 2026 \ud83d\udd14 New article published NVIDIA Releases Nemotron 3.5 Super VL and Nemotron 3.5 Bolt 74B A9B Nvidia\u2019s Nemotron 3.5 Super VL is now the leading US open weight model, scoring 26 on the Artificial Analysis Intelligence Index New language model evaluation results available Muse Spark Open (Xhigh) Intelligence Index: 39 New language model evaluation results available Nemotron 3.5 Super VL Intelligence Index: 26 New language model evaluation results available Nemotron 3.5 Bolt 74B-A9B Intelligence Index: 21 Fireworks performance results now available Muse Spark Open (Xhigh) Baseten performance results now available Muse Spark Open (Xhigh) Nebius performance results now available Muse Spark Open (Xhigh) Together AI performance results now available Muse Spark Open (Xhigh) 13 Oct 2026 \ud83d\udd14 New article published Artificial Analysis Decision Index v1.0 The Artificial Analysis Decision Index benchmarks decision models, a new category of models that answer structured decisions in a single call with a probability for each option. Version 1.0 combines four evaluations across classification, tool calling, knowledge, hallucination, and reasoning. Google performance results now available Gemini 4 Argon (High) Gemini 4 Argon (High) OpenAI performance results now available GPT-6 Luna (Max) 12 Oct 2026 \ud83d\udd14 New article published Muse Wonder and Muse Wonder Full: a material jump in intelligence over previous Meta models Meta has released Muse Wonder and Muse Wonder Full, achieving Artificial Analysis Intelligence Index v4.3 scores of 52 and 56 at max reasoning effort - each a material gain over Muse Spark 1.3 (max) at 48, with a release gap of only 6 weeks \ud83d\udd14 New article published Announcing FrontierCode on Artificial Analysis: can AI models write code maintainers would merge? Cognition's FrontierCode 1.1 tests whether AI models make code changes that maintainers of real open source repositories would merge. Leading models still fail more than 40% of the time. \ud83d\udd14 New article published Announcing AA-3D: a benchmark for AI models building interactive 3D experiences AA-3D is a new benchmark of how well AI models build interactive 3D experiences. Each model turns a written brief into a working three.js scene in an offline sandbox, and our recruited panel compares the scenes in blind pairwise votes. New language model evaluation results available Muse Wonder Full (Max) Intelligence Index: 56 New language model evaluation results available Muse Wonder (Max) Intelligence Index: 52 Meta performance results now available Muse Wonder (Max) OpenAI performance results now available GPT-6 Astra (Max) GPT-6 Astra (Max) GPT-6.1 Sol (Max) GPT-6 Astra (Max) GPT-6.1 Sol (Max) GPT-6.1 Sol (Max) New Speech to Text model evaluation results available Zoom Scribe V2 Pro Zoom performance results now available Zoom Scribe V2 Pro 09 Oct 2026 SpaceXAI performance results now available Grok 3 Databricks performance results now available DeepSeek V4 Flash 0731 (Max) Baseten performance results now available DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4.1 Flash (Max) 08 Oct 2026 \ud83d\udd14 New article published Introducing trusted-access models to the Artificial Analysis Cyber Index GPT-6 Sol (Daybreak Blue) now leads the Cyber Index \ud83d\udd14 New article published Announcing Harvey LAB-AA v1.1: adding hallucination checks to raise the bar for agentic legal work Harvey LAB-AA v1.1 adds hallucination auditing with a new Hallucination-Gated All-Pass Rate headline metric, a three-judge grading panel, and Harvey's latest private dataset with improved tasks and criteria. New language model evaluation results available GPT-6 Sol (Daybreak Blue, max) Makora performance results now available MiMo-V2.6-Flash OpenAI performance results now available GPT-6 Sol (Daybreak Blue, max) 07 Oct 2026 \ud83d\udd14 New article published Anthropic has released Claude Haiku 5.5 Claude Haiku 5.5 scores 43 on the Artificial Analysis Intelligence Index, up 26 points one year after the last Haiku release New language model evaluation results available Claude Haiku 5.5 (High) Intelligence Index: 38 New language model evaluation results available Claude Haiku 5.5 (Low) Intelligence Index: 29 New language model evaluation results available Claude Haiku 5.5 (Medium) Intelligence Index: 34 New language model evaluation results available Claude Haiku 5.5 (Max) Intelligence Index: 43 New language model evaluation results available Claude Haiku 5.5 (Xhigh) Intelligence Index: 41 LithosAI performance results now available GLM-5.3-Flash Nebius performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Anthropic performance results",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-f8641d0af7ac05430409"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "61c29b6f97246c3b30895a84",
       "discovered_at": "2026-10-16T10:03:13Z",
       "kind": "independent",
@@ -744,6 +744,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "1a66cc989d57a93d1572757e",
+      "discovered_at": "2026-10-29T23:29:45Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "",
+      "search_score": 15,
+      "source_name": "Black Forest Labs Blog",
+      "summary": "Customize frontier models Open weights licensing Hugging Face GitHub",
+      "title": "Open weights licensing",
+      "url": "https://bfl.ai/open-weights"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "168c75ff3ed8568a3b7658f4",
       "discovered_at": "2026-10-29T06:22:36Z",
       "kind": "primary",
@@ -755,6 +769,20 @@
       "summary": "Sakana API Platform\u3001\u30a8\u30f3\u30bf\u30fc\u30d7\u30e9\u30a4\u30ba\u5411\u3051\u306b\u30a2\u30fc\u30ea\u30fc\u30a2\u30af\u30bb\u30b9\u30d7\u30ed\u30b0\u30e9\u30e0\u3092\u958b\u59cb",
       "title": "Sakana API Platform\u3001\u30a8\u30f3\u30bf\u30fc\u30d7\u30e9\u30a4\u30ba\u5411\u3051\u306b\u30a2\u30fc\u30ea\u30fc\u30a2\u30af\u30bb\u30b9\u30d7\u30ed\u30b0\u30e9\u30e0\u3092\u958b\u59cb",
       "url": "https://sakana.ai/api-platform-earlyaccess/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "70f208402007233aa8a8af60",
+      "discovered_at": "2026-10-29T23:29:45Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "",
+      "search_score": 12,
+      "source_name": "Black Forest Labs Blog",
+      "summary": "Customize frontier models Open weights licensing Hugging Face GitHub",
+      "title": "Customize frontier models",
+      "url": "https://bfl.ai/commercial-weights"
     },
     {
       "bootstrap": false,
@@ -951,6 +979,20 @@
       "summary": "Liquid AI Launches LFM3: Open-Weight Multimodal 2B Model Family for Edge Devices liquid.ai \u00b7 Show TLDR",
       "title": "Liquid AI Launches LFM3: Open-Weight Multimodal 2B Model Family for Edge Devices liquid.ai \u00b7 Show TLDR",
       "url": "https://www.liquid.ai/blog/lfm3?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "49d99f09e516b736e5fe7e5f",
+      "discovered_at": "2026-10-29T23:29:41Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-29T22:48:29+00:00",
+      "search_score": 17,
+      "source_name": "Simon Willison Everything",
+      "summary": "API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API. OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations. I maintain subscriptions with both companies, so this is great news for me! I may even ship some public-facing demos now that the credits are already covered by my existing subscriptions. Tags: ai , openai , generative-ai , llms , anthropic , llm-pricing",
+      "title": "API credits benefit for eligible ChatGPT subscriptions",
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits/"
     },
     {
       "bootstrap": false,
@@ -1584,6 +1626,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "573619c5eac5583810b68de7",
+      "discovered_at": "2026-10-29T23:29:40Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 10,
+      "source_name": "FutureTools AI News",
+      "summary": "Mistral Large 4 tops open models outside China with 63% cost cut and stronger coding venturebeat.com \u00b7 Show TLDR",
+      "title": "Mistral Large 4 tops open models outside China with 63% cost cut and stronger coding venturebeat.com \u00b7 Show TLDR",
+      "url": "https://venturebeat.com/technology/mistral-large-4-le-chonk-arrives-as-the-top-open-model-outside-china-with-improved-coding-performance-and-63-lower-cost-per-task?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "e9a7a10b5a66f3aae2c27a45",
       "discovered_at": "2026-10-28T20:28:27Z",
       "kind": "independent",
@@ -1609,20 +1665,6 @@
       "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account. Example usage: uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage Outputs: First I consider the prompt, then I decide what to say.\n{\n  \"prompt\": \"hi there\",\n  \"system\": \"\",\n  \"attachments\": [],\n  \"stream\": true,\n  \"previous\": []\n}\nToken usage: 2 input, 24 output Tags: llm",
       "title": "llm-echo 0.5",
       "url": "https://simonwillison.net/2026/Oct/18/llm-echo/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "23178e6a594364e04f6a76d3",
-      "discovered_at": "2026-10-15T22:14:55Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-15T19:47:52+00:00",
-      "search_score": 9,
-      "source_name": "Simon Willison Everything",
-      "summary": "Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work! Build a two player competitive pong like game where two players use their phones close to each other and the game state is sent via audio noises which the web microphone API can interpret - but add graphical and gameplay twists to make it a lot more fun and intertwine than pong Claude Opus 5.5 Extra in Claude Code . Tags: game-design , ai , generative-ai , llms , claude-code",
-      "title": "Chirp Pong",
-      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/"
     },
     {
       "bootstrap": false,
@@ -2522,6 +2564,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "d3c1e8e05891aa549f280f83",
+      "discovered_at": "2026-10-29T23:29:40Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "Reddit Shifts to Logged-In Experience as AI Search Kills Open-Web Traffic techcrunch.com \u00b7 Show TLDR",
+      "title": "Reddit Shifts to Logged-In Experience as AI Search Kills Open-Web Traffic techcrunch.com \u00b7 Show TLDR",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "4d023e89b5eeb279009c1798",
+      "discovered_at": "2026-10-29T23:29:40Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "Meta Launches Style Sketch AI Fashion App with Instagram Closet Integration techcrunch.com \u00b7 Show TLDR",
+      "title": "Meta Launches Style Sketch AI Fashion App with Instagram Closet Integration techcrunch.com \u00b7 Show TLDR",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "4257f838c0d22be21be39c1c",
       "discovered_at": "2026-10-21T01:03:21Z",
       "kind": "independent",
@@ -2603,6 +2673,20 @@
       "summary": "Chrome's Enhanced Autofill Now Pulls Gmail Data to Simplify Form Filling blog.google \u00b7 Show TLDR",
       "title": "Chrome's Enhanced Autofill Now Pulls Gmail Data to Simplify Form Filling blog.google \u00b7 Show TLDR",
       "url": "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "bd215f87afc1a3e6ebb89613",
+      "discovered_at": "2026-10-29T23:29:40Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 0,
+      "source_name": "FutureTools AI News",
+      "summary": "Granola Adds Dictation Feature to Meeting Notetaker App, Rivaling Wispr techcrunch.com \u00b7 Show TLDR",
+      "title": "Granola Adds Dictation Feature to Meeting Notetaker App, Rivaling Wispr techcrunch.com \u00b7 Show TLDR",
+      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -3306,6 +3390,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "7ddf0d3de558cc05d76b4ae1",
+      "discovered_at": "2026-10-29T23:29:40Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-28T16:47:45-07:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Share the whole agent run, not a screenshot Discussion | Link",
+      "title": "Flatbread",
+      "url": "https://www.producthunt.com/products/flatbread"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "6a3c107674b90b014ba6b99d",
       "discovered_at": "2026-10-29T13:31:50Z",
       "kind": "signal",
@@ -3401,79 +3499,9 @@
       "summary": "Explore every abliterated model Discussion | Link",
       "title": "AllModels",
       "url": "https://www.producthunt.com/products/allmodels-io"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "109ed8473a0ee20eb059c6f2",
-      "discovered_at": "2026-10-26T11:34:46Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-25T15:59:42-07:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "The humanized AI Copilot for your entire Job search Discussion | Link",
-      "title": "Jobmate AI",
-      "url": "https://www.producthunt.com/products/jobmate-ai-3"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "85cdc70e6cac784e6ae3e1e5",
-      "discovered_at": "2026-10-26T11:34:46Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-25T14:30:48-07:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Queue agent tasks in parallel and review each result Discussion | Link",
-      "title": "VibeiDE",
-      "url": "https://www.producthunt.com/products/vibeide"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "88021b834dc97a9c853f1b8c",
-      "discovered_at": "2026-10-26T11:34:46Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-25T02:18:55-07:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Work with agents with an IDE in your browser tab Discussion | Link",
-      "title": "tabsh",
-      "url": "https://www.producthunt.com/products/tabsh"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "33aa528b7cafa35534b800b3",
-      "discovered_at": "2026-10-25T10:01:09Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-24T22:39:16-07:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Shared workspace for humans and agents Discussion | Link",
-      "title": "AgentGrid.io",
-      "url": "https://www.producthunt.com/products/agentgrid-io"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "86fc6aab17638a8e2b417370",
-      "discovered_at": "2026-10-26T11:34:46Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-24T12:44:28-07:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Sampler to create early 2000 Neural Synthesis Discussion | Link",
-      "title": "2G",
-      "url": "https://www.producthunt.com/products/2g"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-29T19:17:22Z",
+  "updated_at": "2026-10-29T23:29:45Z",
   "version": 2
 }

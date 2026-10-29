@@ -394,20 +394,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "4e31d07c8e885469dec4faf4",
-      "discovered_at": "2026-10-14T21:37:23Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-10-14T21:37:23Z",
-      "search_score": 40,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 13 Oct 2026 \ud83d\udd14 New article published Artificial Analysis Decision Index v1.0 The Artificial Analysis Decision Index benchmarks decision models, a new category of models that answer structured decisions in a single call with a probability for each option. Version 1.0 combines four evaluations across classification, tool calling, knowledge, hallucination, and reasoning. Google performance results now available Gemini 4 Argon (High) Gemini 4 Argon (High) OpenAI performance results now available GPT-6 Luna (Max) 12 Oct 2026 \ud83d\udd14 New article published Muse Wonder and Muse Wonder Full: a material jump in intelligence over previous Meta models Meta has released Muse Wonder and Muse Wonder Full, achieving Artificial Analysis Intelligence Index v4.3 scores of 52 and 56 at max reasoning effort - each a material gain over Muse Spark 1.3 (max) at 48, with a release gap of only 6 weeks \ud83d\udd14 New article published Announcing FrontierCode on Artificial Analysis: can AI models write code maintainers would merge? Cognition's FrontierCode 1.1 tests whether AI models make code changes that maintainers of real open source repositories would merge. Leading models still fail more than 40% of the time. \ud83d\udd14 New article published Announcing AA-3D: a benchmark for AI models building interactive 3D experiences AA-3D is a new benchmark of how well AI models build interactive 3D experiences. Each model turns a written brief into a working three.js scene in an offline sandbox, and our recruited panel compares the scenes in blind pairwise votes. New language model evaluation results available Muse Wonder Full (Max) Intelligence Index: 56 New language model evaluation results available Muse Wonder (Max) Intelligence Index: 52 Meta performance results now available Muse Wonder (Max) OpenAI performance results now available GPT-6 Astra (Max) GPT-6 Astra (Max) GPT-6.1 Sol (Max) GPT-6 Astra (Max) GPT-6.1 Sol (Max) GPT-6.1 Sol (Max) New Speech to Text model evaluation results available Zoom Scribe V2 Pro Zoom performance results now available Zoom Scribe V2 Pro 09 Oct 2026 SpaceXAI performance results now available Grok 3 Databricks performance results now available DeepSeek V4 Flash 0731 (Max) Baseten performance results now available DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4.1 Flash (Max) 08 Oct 2026 \ud83d\udd14 New article published Introducing trusted-access models to the Artificial Analysis Cyber Index GPT-6 Sol (Daybreak Blue) now leads the Cyber Index \ud83d\udd14 New article published Announcing Harvey LAB-AA v1.1: adding hallucination checks to raise the bar for agentic legal work Harvey LAB-AA v1.1 adds hallucination auditing with a new Hallucination-Gated All-Pass Rate headline metric, a three-judge grading panel, and Harvey's latest private dataset with improved tasks and criteria. New language model evaluation results available GPT-6 Sol (Daybreak Blue, max) Makora performance results now available MiMo-V2.6-Flash OpenAI performance results now available GPT-6 Sol (Daybreak Blue, max) 07 Oct 2026 \ud83d\udd14 New article published Anthropic has released Claude Haiku 5.5 Claude Haiku 5.5 scores 43 on the Artificial Analysis Intelligence Index, up 26 points one year after the last Haiku release New language model evaluation results available Claude Haiku 5.5 (High) Intelligence Index: 38 New language model evaluation results available Claude Haiku 5.5 (Low) Intelligence Index: 29 New language model evaluation results available Claude Haiku 5.5 (Medium) Intelligence Index: 34 New language model evaluation results available Claude Haiku 5.5 (Max) Intelligence Index: 43 New language model evaluation results available Claude Haiku 5.5 (Xhigh) Intelligence Index: 41 LithosAI performance results now available GLM-5.3-Flash Nebius performance results now available Qwen3.8 27B (Non-reasoning) Qwen3.8 27B (Xhigh) Anthropic performance results now available Claude Haiku 5.5 (Low) Claude Haiku 5.5 (Xhigh) Claude Haiku 5.5 (Medium) Claude Haiku 5.5 (Max) Claude Haiku 5.5 (High) 06 Oct 2026 \ud83d\udd14 New article published Mistral has released Mistral Large 4, making France home to the most intelligent model outside the US and China Mistral has released Mistral Large 4, scoring 38 on the Artificial Analysis Intelligence Index; France is back to having the most intelligent model from outside the US and China New language model evaluation results available Mistral Large 4 Preview Intelligence Index: 38 Microsoft Azure performance results now available GPT-6 Luna (High) Google performance results now available Claude Opus 5.5 (Max, Default Fallback) Inco performance results now available Kimi K3 (Max) GMI performance results now ",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-9b612a4cb28c5cef2e3c"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "658c10b87fbc153446c34bb0",
       "discovered_at": "2026-10-28T08:23:13Z",
       "kind": "independent",
@@ -1066,20 +1052,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "62e56e6557bbca262668ab74",
-      "discovered_at": "2026-10-14T21:37:22Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 14,
-      "source_name": "FutureTools AI News",
-      "summary": "xAI Launches Grok Voice 3.0, Claims World's Most Intelligent Speech-to-Speech Model x.ai \u00b7 Show TLDR",
-      "title": "xAI Launches Grok Voice 3.0, Claims World's Most Intelligent Speech-to-Speech Model x.ai \u00b7 Show TLDR",
-      "url": "https://x.ai/news/grok-voice-3?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "12069dbe170b04bd498373b6",
       "discovered_at": "2026-10-15T14:58:06Z",
       "kind": "primary-signal",
@@ -1220,6 +1192,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "da9c62c52f6c35e6916b0724",
+      "discovered_at": "2026-10-29T00:27:44Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-10-28T23:23:21+00:00",
+      "search_score": 13,
+      "source_name": "Simon Willison Everything",
+      "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. In general, models that are bigger will (a) be more performant / reliable, (b) cost more per token, and (c) have better recall of esoteric facts. As you note, our models are ordered: Luna < Terra < Sol < Astra [ ... ] These days, version number signifies a few things at once: the order of release, the relationship to other releases, and the magnitude of improvement. So something like 6.1 would indicate it was launched after 5.6, may share some similarities to other 6.1 models in terms of training data / personality (which is why it's not 5.7), and isn't a giant enough leap to merit the headlines and expectations that would come with a 7. \u2014 Ted Sanders , explaining OpenAI's model naming conventions Tags: generative-ai , gpt , openai , ai , llms , ted-sanders",
+      "title": "Quoting Ted Sanders",
+      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "4d1d649a4ab59a9940eac48d",
       "discovered_at": "2026-10-16T00:36:12Z",
       "kind": "primary-signal",
@@ -1259,48 +1245,6 @@
       "summary": "@NousResearch > How plans work All plans give you access to every model. Your choice of model and the size of your tasks affect how quickly you use your allowance. Daily and weekly limits apply, along with a monthly allowance. You can see how much you've used and when each limit resets on the Usage page. More expensive models have an additional monthly limit; which models count depends on your plan. If you reach it, you can keep using other models within your remaining allowance. If you use up your included usage, you can switch to an available free model, wait for your allowance to reset, or continue with purchased pay-as-you-go credits. > FAQS How much more usage do Super and Ultra include? Super gives you substantially more included usage than Plus, and Ultra more again. Each plan card above lists its included Cloud agent size. How much work you can do depends on the models you choose and the size of your tasks. What counts toward usage? Model and included tool usage in Hermes Agent count toward your allowance when you sign in with your Nous account. Hosting for one Cloud agent is included as well. API-key requests and additional Cloud agents use pay-as-you-go credits. When does my usage reset? Daily usage resets after 24 hours, and weekly usage after seven days, starting when you first use each window. Your monthly allowance and large-model allowance reset with your billing period. Your Usage page shows the exact reset times. These limits apply together: a daily reset won't restore included usage if you've reached your weekly or monthly limit. What happens when I reach a limit? You can wait for the reset or switch to an available free model. Turn on Keep going on credits to continue using paid models with your pay-as-you-go balance. Leave it off and Hermes won't spend those credits when your included usage runs out. If you reach only the large-model limit, other models remain available within your remaining allowance. What happens to my existing subscription? When you switch, unused subscription credits carry over as pay-as-you-go credits, up to one month of your current plan's credits. Switching to a plan at the same price takes effect immediately with nothing to pay that day. Upgrades charge the price difference; downgrades take effect at the end of your billing period. Once you switch, you can't return to a legacy paid plan. Oct 27, 2026 @NousResearch We've revamped Hermes Agent subscriptions. Every new plan now includes a cloud agent out of the box, and usage has daily and weekly limits instead of one monthly block of credits. Subscribers can switch to the new plans any time at portal.nousresearch.com/billing Oct 27, 2026 @NousResearch Join us at @pangram HQ in NYC for an anti-slop hackathon! x.com/pangram/status\u2026 Oct 26, 2026 @NousResearch With the new Advanced Delegation modes plugin, Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up. The right model or profile for every job. hermes-agent.nousresearch.com/docs/plugins/a\u2026 Oct 26, 2026 @NousResearch Oct 26, 2026 @NousResearch Great time to use the Unbroker skill! x.com/shl0ms/status/\u2026 Oct 26, 2026 @NousResearch Please be careful about downloading third-party apps. The official mobile apps are not in app stores yet, and apps that closely mirror Hermes branding are typically fraudulent and not legitimate community projects. Oct 25, 2026 @NousResearch Oct 25, 2026 @NousResearch Hermes Agent gives you control x.com/yacinemtb/stat\u2026 Oct 24, 2026 @NousResearch See you next week in NYC! x.com/nousresearch/s\u2026 Oct 23, 2026",
       "title": "@NousResearch We've revamped Hermes Agent subscriptions. Every new plan now includes a cloud agent out of the box, and usage has daily and weekly limits instead of one monthly block of credits. Subscribers can switch to the new plans any ti",
       "url": "https://x.com/NousResearch/status/2115120531611787323"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "e26c69d1b48ec35984aba35b",
-      "discovered_at": "2026-10-14T21:37:22Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 12,
-      "source_name": "FutureTools AI News",
-      "summary": "Anthropic Strengthens Claude's Election Safeguards Ahead of 2026 US Midterms anthropic.com \u00b7 Show TLDR",
-      "title": "Anthropic Strengthens Claude's Election Safeguards Ahead of 2026 US Midterms anthropic.com \u00b7 Show TLDR",
-      "url": "https://www.anthropic.com/news/2026-us-midterms?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "407333463c66ba349e682c91",
-      "discovered_at": "2026-10-14T21:37:27Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 14, 2026",
-      "search_score": 12,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch It's time to connect \ud83c\udf10 x.com/sidbing/status\u2026 Oct 14, 2026 @NousResearch Word on the street x.com/kev_esh/status\u2026 Oct 14, 2026 @NousResearch Full Release Notes: github.com/NousResearch/h\u2026 Oct 14, 2026 @NousResearch Hermes Agent v0.22.0: The Threshold Release Changelog below Oct 14, 2026 @NousResearch An agent with swag Oct 14, 2026 @NousResearch Hermes Agent is yours Oct 11, 2026 @NousResearch Wild MISSINGNO. appeared! A coding and agentic reasoning model that is highly token efficient, free for a limited time on Nous Portal Try it out in your Hermes Agent today Oct 10, 2026 @NousResearch Slight Correction: Step 5 Preview's final score on Hermes Index has been updated to 32.83, slightly behind GPT-6 Luna (33.89) and GLM 5.3 Flash (34.95) Learn more @ portal.nousresearch.com/bench Oct 9, 2026 @NousResearch Step 5 Preview from @StepFun_ai is free on Nous Portal for the next week 600B total / 27B active MoE, 1M context, with vision Step 5 Preview scored 33.89 on Hermes Index, the same score as GPT-6 Luna Oct 9, 2026 @NousResearch Hemres Agnet Oct 9, 2026",
-      "title": "@NousResearch It's time to connect \ud83c\udf10 x.com/sidbing/status\u2026 Oct 14, 2026",
-      "url": "https://x.com/NousResearch/status/2110470076595835353"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "e22b90d283cba6d2df508749",
-      "discovered_at": "2026-10-14T21:37:27Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 14, 2026",
-      "search_score": 12,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch It's time to connect \ud83c\udf10 x.com/sidbing/status\u2026 Oct 14, 2026 @NousResearch Word on the street x.com/kev_esh/status\u2026 Oct 14, 2026 @NousResearch Full Release Notes: github.com/NousResearch/h\u2026 Oct 14, 2026 @NousResearch Hermes Agent v0.22.0: The Threshold Release Changelog below Oct 14, 2026 @NousResearch An agent with swag Oct 14, 2026 @NousResearch Hermes Agent is yours Oct 11, 2026 @NousResearch Wild MISSINGNO. appeared! A coding and agentic reasoning model that is highly token efficient, free for a limited time on Nous Portal Try it out in your Hermes Agent today Oct 10, 2026 @NousResearch Slight Correction: Step 5 Preview's final score on Hermes Index has been updated to 32.83, slightly behind GPT-6 Luna (33.89) and GLM 5.3 Flash (34.95) Learn more @ portal.nousresearch.com/bench Oct 9, 2026 @NousResearch Step 5 Preview from @StepFun_ai is free on Nous Portal for the next week 600B total / 27B active MoE, 1M context, with vision Step 5 Preview scored 33.89 on Hermes Index, the same score as GPT-6 Luna Oct 9, 2026 @NousResearch Hemres Agnet Oct 9, 2026",
-      "title": "@NousResearch Word on the street x.com/kev_esh/status\u2026 Oct 14, 2026",
-      "url": "https://x.com/NousResearch/status/2110438287399698522"
     },
     {
       "bootstrap": false,
@@ -2186,6 +2130,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "ef5c31d33cced4d53e4f523b",
+      "discovered_at": "2026-10-29T00:27:43Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "SpAItial Launches Echo-3 World Model to Turn iPhone Captures into 3D Environments spaitial.ai \u00b7 Show TLDR",
+      "title": "SpAItial Launches Echo-3 World Model to Turn iPhone Captures into 3D Environments spaitial.ai \u00b7 Show TLDR",
+      "url": "https://spaitial.ai/blog/echo-3-release?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "ae7b31dc246e27601c985358",
       "discovered_at": "2026-10-19T00:11:45Z",
       "kind": "independent",
@@ -2578,6 +2536,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "6f7a845deb5495d0aff90924",
+      "discovered_at": "2026-10-29T00:27:43Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 2,
+      "source_name": "FutureTools AI News",
+      "summary": "Google Expands AI Mode Ads to 10 New Countries Including Canada and India blog.google \u00b7 Show TLDR",
+      "title": "Google Expands AI Mode Ads to 10 New Countries Including Canada and India blog.google \u00b7 Show TLDR",
+      "url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "4257f838c0d22be21be39c1c",
       "discovered_at": "2026-10-21T01:03:21Z",
       "kind": "independent",
@@ -2925,20 +2897,6 @@
       "summary": "Run WhatsApp, Instagram & web chat from ChatGPT or Claude Discussion | Link",
       "title": "Intelli for ChatGPT & Claude",
       "url": "https://www.producthunt.com/products/intelli"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "85de25504b4d92d69daf9d75",
-      "discovered_at": "2026-10-17T08:44:04Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-14T14:15:16-07:00",
-      "search_score": 6,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Talk to Claude Code right from your MacBook notch Discussion | Link",
-      "title": "CrewTower Mod for Claude Code",
-      "url": "https://www.producthunt.com/products/crew-tower"
     },
     {
       "bootstrap": false,
@@ -3502,6 +3460,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-28T20:28:31Z",
+  "updated_at": "2026-10-29T00:27:48Z",
   "version": 2
 }

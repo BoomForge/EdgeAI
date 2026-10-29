@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-28T20:28:31Z",
+    "at": "2026-10-29T00:27:48Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 15,
+    "prefiltered": 0,
+    "queued": 3,
     "sources_ok": 15,
     "too_old": 1,
     "warnings": 0
   },
-  "runs": 138,
+  "runs": 139,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -2795,6 +2795,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/chime-sms-categorized-on-device"
     },
+    "6f7a845deb5495d0aff90924": {
+      "first_seen": "2026-10-29T00:27:43Z",
+      "status": "queued",
+      "url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "6fb08d1499db4b2d0b2c3702": {
       "first_seen": "2026-10-10T11:25:13Z",
       "search_score": 0,
@@ -2948,6 +2953,11 @@
       "first_seen": "2026-10-11T09:11:21Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/kodlo"
+    },
+    "764b4d74269fdfeb97f2ec7f": {
+      "first_seen": "2026-10-29T00:27:44Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/tonko"
     },
     "767d277bfa1d3e61b6f4b6c8": {
       "first_seen": "2026-10-08T16:25:55Z",
@@ -5444,6 +5454,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/praex"
     },
+    "da9c62c52f6c35e6916b0724": {
+      "first_seen": "2026-10-29T00:27:44Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/"
+    },
     "db2198007a214d5a15101a72": {
       "first_seen": "2026-10-11T09:11:21Z",
       "status": "too_old",
@@ -5942,6 +5957,11 @@
       "first_seen": "2026-10-15T09:50:31Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/navige"
+    },
+    "ef5c31d33cced4d53e4f523b": {
+      "first_seen": "2026-10-29T00:27:43Z",
+      "status": "queued",
+      "url": "https://spaitial.ai/blog/echo-3-release?utm_source=futuretools.io&utm_medium=newspage"
     },
     "ef8dc3e0756d057ef38462cf": {
       "first_seen": "2026-10-08T08:53:54Z",

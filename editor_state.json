@@ -62,7 +62,7 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-28T23:38:32Z",
+    "at": "2026-10-29T02:56:09Z",
     "eligible": 71,
     "evaluated": 5,
     "mode": "live",
@@ -2064,6 +2064,20 @@
       "status": "ignored",
       "story_key": "stability-ai-board-of-directors-page",
       "url": "https://stability.ai/board-of-directors"
+    },
+    "40518120130bdf47a4cce7ff": {
+      "at": "2026-10-29T02:56:01Z",
+      "bootstrap": false,
+      "score": 95,
+      "status": "published",
+      "story_key": "anthropic-claude-discovers-rce-vulnerabilities-browsers-os",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude?utm_source=futuretools.io&utm_medium=newspage"
     },
     "40554e21f87e8f4beef1396f": {
       "at": "2026-10-09T17:07:50Z",
@@ -4252,6 +4266,20 @@
       "story_key": "artificial-analysis-changelog-updates-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-9e4133004a6812b634ce"
     },
+    "8b8d11c5c80d0e4dca5f164e": {
+      "at": "2026-10-29T02:56:09Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "nous-research-revamps-hermes-agent-subscriptions-cloud-agent",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2115120531611787323"
+    },
     "8c177b37ece0d145f22fb5f2": {
       "at": "2026-10-24T21:45:02Z",
       "bootstrap": false,
@@ -5013,6 +5041,14 @@
       "at": "2026-10-11T22:31:31Z",
       "status": "expired",
       "url": "https://www.anthropic.com/news/anthropic-cyber-mission?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "a395c7da350b5086cc15f6b6": {
+      "at": "2026-10-29T02:55:55Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "openai-servicenow-partnership-expansion-2026",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
     },
     "a3cf20eae0fce76e913abe7e": {
       "at": "2026-10-03T05:49:31Z",
@@ -6519,6 +6555,14 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/praex"
     },
+    "da9c62c52f6c35e6916b0724": {
+      "at": "2026-10-29T02:56:03Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "ted-sanders-openai-model-naming-quote-simon-willison",
+      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/"
+    },
     "db7b9e6fe248e3146f87743a": {
       "at": "2026-10-09T03:09:42Z",
       "bootstrap": false,
@@ -7385,6 +7429,14 @@
       },
       "url": "https://x.com/NousResearch/status/2113375941431009526"
     },
+    "f5d7354b2c1d5922c45c4fcf": {
+      "at": "2026-10-29T02:55:57Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "nous-research-social-engineer-skill-nouscon-rsvp",
+      "url": "https://x.com/NousResearch/status/2115479933900460268"
+    },
     "f5edbd3b23d95b4ae1e66c01": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -7713,6 +7765,27 @@
         "reason": "The development appears real, but some details are still arriving or remain incomplete.",
         "score": 81,
         "source": "Simon Willison Everything"
+      }
+    },
+    "anthropic-claude-discovers-rce-vulnerabilities-browsers-os": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-claude-discovers-rce-vulnerabilities-browsers-os.jpg",
+      "last_updated": "2026-10-29T02:56:01Z",
+      "post_id": "6309232478968143339",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-discloses-frontier-model-used.html",
+      "score": 95,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "source_urls": [
+        "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Discloses Frontier Model Used to Find Critical RCE Exploits in Chrome, Safari, Android, Windows, and Linux",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "anthropic-claude-duet-proactive-agent": {
@@ -10543,6 +10616,27 @@
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 88,
+        "source": "Nous Research Announcements"
+      }
+    },
+    "nous-research-revamps-hermes-agent-subscriptions-cloud-agent": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-revamps-hermes-agent-subscriptions-cloud-agent.jpg",
+      "last_updated": "2026-10-29T02:56:09Z",
+      "post_id": "8021719175234050030",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/nous-research-revamps-hermes-agent_0284977366.html",
+      "score": 82,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115120386769555456/img/FSQOC07UtgDUDjVn?format=webp&name=large",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2115120531611787323"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Revamps Hermes Agent Subscriptions with Bundled Cloud Agents and Metered Limits",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
         "source": "Nous Research Announcements"
       }
     },

@@ -2158,20 +2158,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "94eadcab22c41e356a1d9bf1",
-      "discovered_at": "2026-10-16T00:44:38Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
-      "search_score": 4,
-      "source_name": "OpenAI News",
-      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "url": "https://openai.com/index/sullivan-cromwell"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "c44dc9ed271ff418b14ac5c9",
       "discovered_at": "2026-10-27T22:24:24Z",
       "kind": "official",
@@ -3110,6 +3096,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "ea8f2dedf20d8e4b5295a047",
+      "discovered_at": "2026-10-29T04:59:08Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-29T02:31:23Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "Hexagon: IM2COL improvement - block based HVX parallelization ( #31050 ) hexagon: IM2COL over multiple threads with output-col blocks Assisted-by: Claude Opus 5.5 hex-im2col: fix padding handling hex-im2col: loop unroll common cases Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61099121 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11976",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11976"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "6747d723bcd58ba07990e6b0",
       "discovered_at": "2026-10-28T01:42:05Z",
       "kind": "local-ai",
@@ -3362,6 +3362,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "75ead2ddb1ad56a77a1767ea",
+      "discovered_at": "2026-10-29T04:59:08Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-29T04:45:38Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "ggml-openvino: slice view inputs of SCALE ( #31334 ) SCALE now accepts a src0 view with arbitrary row strides. translate_scale used the raw input, and on the dynamic path a VIEW translates to its whole source tensor, so a strided view input scaled the entire source. The model output then had the source's size, and copying it back overran the result buffer, which crashes test-backend-ops on the SCALE view cases. Slice the input with process_view_input_new, as the other translators do. Reject an in-place SCALE on a non-contiguous view: its result is copied back densely and would land in the wrong elements. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61135487 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11977",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11977"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "79326e62ecc4a5d82e44ef35",
       "discovered_at": "2026-10-28T01:42:05Z",
       "kind": "local-ai",
@@ -3485,23 +3499,9 @@
       "summary": "server: add --connect, allow p2p access to server outside LAN ( #28277 ) init wip wire it up make it clear that it's experimental add props.connect_code nits fix windows build server: do not advertise a connect code without the tunnel --connect-code on its own had no effect other than being served in /props, so the Web UI showed a remote access code that no tunnel was serving. Clear it when --connect is off, and say so once at startup. The teardown comment claimed that terminate() closes the child stdout. It does not: the log thread leaves fgets() only once every writer of that pipe is gone, so a descendant of llama-connect would block the join forever. Describe the real contract instead. Also restore the --reasoning-preserve default in the generated docs. Update tools/connect/CMakeLists.txt Co-authored-by: Adrien Gallou\u00ebt angt@huggingface.co server: dial llama-connect on the bound port and a reachable host Pass ctx_http.port so --port 0 and the GCP override work, pick the dial host from --host (wildcards map to loopback, IPv6 is bracketed) and refuse --connect when only unix sockets are bound. Co-authored-by: Pascal admin@serveurperso.com Co-authored-by: Adrien Gallou\u00ebt angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57580475 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11744",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11744"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "73c05de96ed57d2467556098",
-      "discovered_at": "2026-10-17T00:13:03Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-16T23:24:32Z",
-      "search_score": 7,
-      "source_name": "llama.cpp Releases",
-      "summary": "model: add Beam (Reflection) ( #30670 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56841237 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11701",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11701"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-28T23:56:04Z",
+  "updated_at": "2026-10-29T04:59:33Z",
   "version": 2
 }

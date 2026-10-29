@@ -62,9 +62,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-29T02:56:09Z",
-    "eligible": 71,
-    "evaluated": 5,
+    "at": "2026-10-29T09:51:42Z",
+    "eligible": 67,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -669,6 +669,20 @@
       "story_key": "llamacpp-release-b11828",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11828"
     },
+    "168c75ff3ed8568a3b7658f4": {
+      "at": "2026-10-29T09:51:15Z",
+      "bootstrap": false,
+      "score": 86,
+      "status": "published",
+      "story_key": "sakana-api-platform-enterprise-early-access",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
+        "source": "Sakana AI Blog"
+      },
+      "url": "https://sakana.ai/api-platform-earlyaccess/"
+    },
     "16a30527ab41fa506f92501c": {
       "at": "2026-10-23T19:34:52Z",
       "status": "expired",
@@ -1126,6 +1140,11 @@
       "story_key": "artificial-analysis-changelog-updates-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-2d844e62959301f0e262"
     },
+    "23ed2fd509d712248592a95c": {
+      "at": "2026-10-29T09:51:01Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/allmodels-io"
+    },
     "2413f51d9fd0e84982a2e97f": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -1348,6 +1367,11 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-updates-october-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-0c571b26db3fe2459e7c"
+    },
+    "2ca7d41d10979cb66e73ffb7": {
+      "at": "2026-10-29T09:51:01Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11890"
     },
     "2cc234a0974badebe317f780": {
       "at": "2026-10-24T19:28:10Z",
@@ -5099,6 +5123,20 @@
       "status": "expired",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.0-dev.1"
     },
+    "a5a97d006e75101f0a4a4922": {
+      "at": "2026-10-29T09:51:42Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "anthropic-claude-for-legal-artifacts-connectors",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "a5c557c6cf82b734ecf0f1c7": {
       "at": "2026-10-04T11:20:52Z",
       "status": "expired",
@@ -6779,6 +6817,14 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/21/panache/"
     },
+    "e1a6c815842fc51802b59507": {
+      "at": "2026-10-29T09:51:27Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "llamacpp-b11928-minicpm-ocr-jev",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11928"
+    },
     "e1f52aa5c9ca591760756c0c": {
       "at": "2026-10-11T18:49:43Z",
       "status": "expired",
@@ -7827,6 +7873,27 @@
         "label": "Reasonable",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
         "score": 62,
+        "source": "FutureTools AI News"
+      }
+    },
+    "anthropic-claude-for-legal-artifacts-connectors": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-claude-for-legal-artifacts-connectors.jpg",
+      "last_updated": "2026-10-29T09:51:42Z",
+      "post_id": "7114228007664987868",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-expands-claude-for-legal-with.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work/opengraph-image/og",
+      "source_urls": [
+        "https://claude.com/resources/articles/introducing-artifacts-for-legal-work?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Expands Claude for Legal with Interactive Artifacts and 60+ Connectors",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
         "source": "FutureTools AI News"
       }
     },
@@ -12469,6 +12536,27 @@
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 93,
+        "source": "Sakana AI Blog"
+      }
+    },
+    "sakana-api-platform-enterprise-early-access": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/sakana-api-platform-enterprise-early-access.jpg",
+      "last_updated": "2026-10-29T09:51:15Z",
+      "post_id": "312427839778285494",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/sakana-ai-launches-enterprise-api.html",
+      "score": 86,
+      "source_image_source": "Sakana AI Blog",
+      "source_image_url": "https://sakana.ai/assets/home/sakana_ogp.png",
+      "source_urls": [
+        "https://sakana.ai/api-platform-earlyaccess/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Sakana AI Launches Enterprise API Platform and Early Access Program",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 95,
         "source": "Sakana AI Blog"
       }
     },

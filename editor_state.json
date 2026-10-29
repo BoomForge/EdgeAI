@@ -62,8 +62,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-29T09:51:42Z",
-    "eligible": 67,
+    "at": "2026-10-29T16:28:17Z",
+    "eligible": 68,
     "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
@@ -370,6 +370,11 @@
       "story_key": "llamacpp-b11679-k-pool-input-views",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11679"
     },
+    "0b3e7ad5951291266db5d6d2": {
+      "at": "2026-10-29T16:27:11Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/intrascope-app"
+    },
     "0b684c52f721825fe71d17ba": {
       "at": "2026-10-19T14:37:42Z",
       "bootstrap": false,
@@ -516,6 +521,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00422"
+    },
+    "10d57e44ea333786f408e93e": {
+      "at": "2026-10-29T16:27:11Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11899"
     },
     "10e556402d45283b9552e036": {
       "at": "2026-10-10T01:19:14Z",
@@ -1932,6 +1942,14 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11445"
     },
+    "3c58363126cc522922ad0d71": {
+      "at": "2026-10-29T16:27:32Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "sakana-ai-us-midterms-narrative-analysis",
+      "url": "https://sakana.ai/us-midterms-analysis/"
+    },
     "3c7ad66c425f89b091210eaf": {
       "at": "2026-10-07T13:59:34Z",
       "status": "expired",
@@ -3177,6 +3195,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00009"
     },
+    "6748773ad13d989a528248b7": {
+      "at": "2026-10-29T16:27:11Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11900"
+    },
     "6774446985c5093f5ba19079": {
       "at": "2026-10-24T23:47:33Z",
       "bootstrap": false,
@@ -3896,6 +3919,20 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/rill-3"
     },
+    "7fe67dc45aa88bd115b334f4": {
+      "at": "2026-10-29T16:27:57Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "anthropic-claude-drug-discovery-partnerships-programs",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.anthropic.com/research/early-progress-drug-development?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "80045661ac99ba741eea6b22": {
       "at": "2026-10-05T15:56:52Z",
       "status": "expired",
@@ -4470,6 +4507,20 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+    },
+    "9078aa1bd544b4445eb62e23": {
+      "at": "2026-10-29T16:28:17Z",
+      "bootstrap": false,
+      "score": 90,
+      "status": "published",
+      "story_key": "openai-oracle-expanded-partnership-business-apps-ai-agents",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "90cc6f51408ea53226245800": {
       "at": "2026-10-16T22:03:28Z",
@@ -6445,6 +6496,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00010"
     },
+    "d5e5c47f2f1d8aa919b82f9c": {
+      "at": "2026-10-29T16:27:11Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/off-grid-ai"
+    },
     "d66945ef830bb2f2ad061770": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -6600,6 +6656,11 @@
       "status": "ignored",
       "story_key": "ted-sanders-openai-model-naming-quote-simon-willison",
       "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/"
+    },
+    "db71bb0ca35a812059311a36": {
+      "at": "2026-10-29T16:27:11Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/"
     },
     "db7b9e6fe248e3146f87743a": {
       "at": "2026-10-09T03:09:42Z",
@@ -7827,6 +7888,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Anthropic Discloses Frontier Model Used to Find Critical RCE Exploits in Chrome, Safari, Android, Windows, and Linux",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      }
+    },
+    "anthropic-claude-drug-discovery-partnerships-programs": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-claude-drug-discovery-partnerships-programs.jpg",
+      "last_updated": "2026-10-29T16:27:57Z",
+      "post_id": "2293862379396101576",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/anthropic-details-claudes-early.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6a50f5ba4c0931f8d2c411f26d860955c1efeae7-1200x630.jpg",
+      "source_urls": [
+        "https://www.anthropic.com/research/early-progress-drug-development?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Details Claude's Early Progress in Drug Discovery Across Six Biotech Partnerships",
       "trust": {
         "label": "Reasonable",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
@@ -11663,6 +11745,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "OpenAI News"
+      }
+    },
+    "openai-oracle-expanded-partnership-business-apps-ai-agents": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-oracle-expanded-partnership-business-apps-ai-agents.jpg",
+      "last_updated": "2026-10-29T16:28:17Z",
+      "post_id": "5455288439950287481",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-and-oracle-expand-partnership-to_01805381511.html",
+      "score": 90,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/2NtuSxL760WPfJi1wbdQwh/c651b8dac0f73296f731f9fbe7b827d9/openai-oracle-apps-chatgpt-blue-seo-image-1920x1080.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/oracle-apps-in-chatgpt/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI and Oracle Expand Partnership to Integrate Business Apps and AI Agents into ChatGPT",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "openai-oracle-partnership-expansion-chatgpt": {

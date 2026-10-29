@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-29T11:23:50Z",
+    "at": "2026-10-29T17:32:20Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 8,
+    "prefiltered": 1,
+    "queued": 11,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 142,
+  "runs": 143,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -384,6 +384,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11372"
     },
+    "0f01adb2acab0a67ba71c0b0": {
+      "first_seen": "2026-10-29T17:31:44Z",
+      "status": "queued",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
+    },
     "0f13c2d1e1b999c1db27117c": {
       "first_seen": "2026-10-03T05:43:25Z",
       "status": "queued",
@@ -535,10 +540,20 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11874"
     },
+    "123909754bc3a61b0023d74b": {
+      "first_seen": "2026-10-29T17:31:52Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11986"
+    },
     "125af853e4eeacede9b5e890": {
       "first_seen": "2026-10-21T00:55:30Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11766"
+    },
+    "128755116b8b9c05fe323feb": {
+      "first_seen": "2026-10-29T17:31:47Z",
+      "status": "queued",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.0"
     },
     "128b29d0b37072f03ad19c51": {
       "first_seen": "2026-10-12T09:24:00Z",
@@ -1216,6 +1231,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-clinical-study/"
     },
+    "250eb8ebad63e92c8005d971": {
+      "first_seen": "2026-10-29T17:31:52Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11983"
+    },
     "25296bd10ebb7ad2c6b8762e": {
       "first_seen": "2026-10-27T18:16:12Z",
       "status": "queued",
@@ -1532,6 +1552,12 @@
       "first_seen": "2026-10-17T04:40:15Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.0.95"
+    },
+    "2f7e4426274adf45669b6128": {
+      "first_seen": "2026-10-29T17:31:45Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/photos/halloween-tricks-2026/"
     },
     "2fbafa8be8d3a6c95283bc9c": {
       "first_seen": "2026-10-14T00:36:37Z",
@@ -2003,6 +2029,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12617"
     },
+    "3e1de06662103e34e2074f6c": {
+      "first_seen": "2026-10-29T17:31:52Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11984"
+    },
     "3e3a82382d4ba1a606c6c6c7": {
       "first_seen": "2026-10-03T11:19:29Z",
       "status": "queued",
@@ -2259,6 +2290,11 @@
       "first_seen": "2026-10-25T03:53:00Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11870"
+    },
+    "444f72b5fda1b13e88874f3f": {
+      "first_seen": "2026-10-29T17:31:45Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-ai-for-healthcare-professionals-certificate/"
     },
     "446280555baf13989bca7be5": {
       "first_seen": "2026-10-12T19:18:52Z",
@@ -3078,6 +3114,11 @@
       "first_seen": "2026-10-13T21:32:32Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11597"
+    },
+    "60134842d45d40231d44728d": {
+      "first_seen": "2026-10-29T17:31:45Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-access-textbooks/"
     },
     "6058573167da2c6de2ff82f4": {
       "first_seen": "2026-10-27T06:24:39Z",
@@ -5697,6 +5738,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.18945"
     },
+    "aeb0cc69547989372ef165be": {
+      "first_seen": "2026-10-29T17:31:45Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/update-resume-with-gemini/"
+    },
     "aee45a0b82ef5c8c797182e5": {
       "first_seen": "2026-10-14T19:29:32Z",
       "status": "queued",
@@ -7119,6 +7165,11 @@
       "status": "queued",
       "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
     },
+    "d9e57218237adad6574c6e24": {
+      "first_seen": "2026-10-29T17:31:45Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/"
+    },
     "da08d56823ef393396147260": {
       "first_seen": "2026-10-26T21:51:38Z",
       "status": "queued",
@@ -7599,6 +7650,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11567"
     },
+    "e772b09d20c0a3885d7d58a4": {
+      "first_seen": "2026-10-29T17:31:52Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11985"
+    },
     "e7820e428d97a4832fee409f": {
       "first_seen": "2026-10-21T05:49:01Z",
       "status": "queued",
@@ -7813,6 +7869,11 @@
       "first_seen": "2026-10-23T18:42:30Z",
       "status": "queued",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+    },
+    "ee9c906b643cb29df3334b05": {
+      "first_seen": "2026-10-29T17:31:45Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/impact-studies-uk-italy/"
     },
     "ef1f58208d029e7e21c219de": {
       "first_seen": "2026-10-07T09:14:07Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-29T04:59:33Z",
+    "at": "2026-10-29T11:23:50Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 6,
+    "queued": 8,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 141,
+  "runs": 142,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -132,6 +132,11 @@
       "first_seen": "2026-10-03T00:45:54Z",
       "status": "too_old",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0"
+    },
+    "0603acd173548429c78381bd": {
+      "first_seen": "2026-10-29T11:23:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11982"
     },
     "061338e668ed697490e5190c": {
       "first_seen": "2026-10-03T00:45:50Z",
@@ -1781,6 +1786,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11560"
     },
+    "380e9af4b6de23985b066913": {
+      "first_seen": "2026-10-29T11:23:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11978"
+    },
     "381da076c8f84d9c12b58c52": {
       "first_seen": "2026-10-03T00:45:50Z",
       "status": "queued",
@@ -1891,6 +1901,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/products-and-platforms/products/education/world-teachers-day-2026/"
+    },
+    "3b6828e3e93cf644113db63d": {
+      "first_seen": "2026-10-29T11:23:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11980"
     },
     "3b7dfb15ccd25789d7bec035": {
       "first_seen": "2026-10-08T07:31:45Z",
@@ -3608,6 +3623,11 @@
       "first_seen": "2026-10-22T07:18:23Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.28747"
+    },
+    "6dca85f696cdb99b504dcc67": {
+      "first_seen": "2026-10-29T11:23:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11981"
     },
     "6ddf0366087284b8f44162ac": {
       "first_seen": "2026-10-20T22:27:10Z",
@@ -6184,6 +6204,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08941"
     },
+    "bf42268542540e5c57558fbd": {
+      "first_seen": "2026-10-29T11:23:23Z",
+      "status": "queued",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.21.1"
+    },
     "bf6c1f5aeba5312508e129fe": {
       "first_seen": "2026-10-24T00:03:03Z",
       "status": "queued",
@@ -6650,6 +6675,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "too_old",
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.8.1"
+    },
+    "cd818b7e31c5d44f1028bdbe": {
+      "first_seen": "2026-10-29T11:23:38Z",
+      "status": "queued",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.5"
     },
     "cdb5f8d6f7a5dcfcb51be197": {
       "first_seen": "2026-10-13T08:25:18Z",
@@ -7196,6 +7226,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11751"
     },
+    "dd04e48f1b3ea63215de48ac": {
+      "first_seen": "2026-10-29T11:23:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11979"
+    },
     "dd2a6493f55037eee5a53d04": {
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
@@ -7703,6 +7738,11 @@
       "first_seen": "2026-10-04T17:01:25Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11391"
+    },
+    "ec65d8e77bae17f137dabaef": {
+      "first_seen": "2026-10-29T11:23:48Z",
+      "status": "queued",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.33"
     },
     "ecc4aea1f31562f6bbc3a59c": {
       "first_seen": "2026-10-09T06:41:17Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-30T15:07:24Z",
+    "at": "2026-10-30T19:57:34Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 10,
+    "prefiltered": 1,
+    "queued": 6,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 147,
+  "runs": 148,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -2331,6 +2331,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/health/google-ai-for-healthcare-professionals-certificate/"
     },
+    "44509cf95f443e0d4a192c40": {
+      "first_seen": "2026-10-30T19:57:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12017"
+    },
     "446280555baf13989bca7be5": {
       "first_seen": "2026-10-12T19:18:52Z",
       "status": "queued",
@@ -2410,6 +2415,11 @@
       "first_seen": "2026-10-12T09:24:08Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11561"
+    },
+    "46b9646d17c03bf417e37350": {
+      "first_seen": "2026-10-30T19:57:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12015"
     },
     "46bd62b49eedf861b7971ac6": {
       "first_seen": "2026-10-14T00:36:48Z",
@@ -4419,6 +4429,11 @@
       "status": "prefiltered",
       "url": "https://blog.google/products-and-platforms/products/google-health/google-health-partnership-athletes-creators/"
     },
+    "84abd1857de5dfd951d90dcf": {
+      "first_seen": "2026-10-30T19:57:06Z",
+      "status": "queued",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences"
+    },
     "84b0af420b0ddf8ebac94ed3": {
       "first_seen": "2026-10-22T07:18:23Z",
       "status": "queued",
@@ -4459,6 +4474,11 @@
       "first_seen": "2026-10-10T22:42:50Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11552"
+    },
+    "85f94c0fe8f02a81789bf108": {
+      "first_seen": "2026-10-30T19:57:06Z",
+      "status": "queued",
+      "url": "https://openai.com/index/credit-saison"
     },
     "860a4a91b7a69b77fe99ac49": {
       "first_seen": "2026-10-12T09:23:59Z",
@@ -5626,6 +5646,11 @@
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20665"
+    },
+    "a86d24c59c826150d16deb11": {
+      "first_seen": "2026-10-30T19:57:06Z",
+      "status": "queued",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens"
     },
     "a8ac830d507256c942102f31": {
       "first_seen": "2026-10-07T09:14:06Z",
@@ -7935,6 +7960,12 @@
       "status": "queued",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.33"
     },
+    "ec71bd9a606c703420b1addf": {
+      "first_seen": "2026-10-30T19:57:07Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/google-security-checkup/"
+    },
     "ecc4aea1f31562f6bbc3a59c": {
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
@@ -7979,6 +8010,11 @@
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08825"
+    },
+    "ed7605e93ca5a9598952a9e3": {
+      "first_seen": "2026-10-30T19:57:07Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/"
     },
     "eda0ac52e268cc7db2eee37a": {
       "first_seen": "2026-10-16T05:36:28Z",

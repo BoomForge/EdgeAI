@@ -2186,6 +2186,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "574dbaf7fc8731e405753fdd",
+      "discovered_at": "2026-10-30T23:31:22Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Fri, 30 Oct 2026 00:00:00 GMT",
+      "search_score": 4,
+      "source_name": "OpenAI News",
+      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "title": "Fair use benefits everyone",
+      "url": "https://openai.com/index/fair-use-benefits-everyone"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "a86d24c59c826150d16deb11",
       "discovered_at": "2026-10-30T19:57:06Z",
       "kind": "official",
@@ -3485,23 +3499,9 @@
       "summary": "vendor : update cpp-httplib to 0.64.0 ( #31400 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61801183 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12012",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12012"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "9387a338862cdb9ec5fa0206",
-      "discovered_at": "2026-10-30T15:07:01Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-30T12:48:32Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "opencl: add initial q2_0 support ( #31340 ) opencl: add q2_0 AOS mv Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Assisted-by: Codex opencl: add q2_0 SOA mv and tiled mm Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Assisted-by: Codex opencl: add q2_0 noshuffle gemm/gemv for adreno Assisted-by: Codex opencl: add q2_0 dp4a for adreno opencl: optimize q2_0 adreno decode and narrow batches Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61756463 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12005",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12005"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-30T19:57:34Z",
+  "updated_at": "2026-10-30T23:31:50Z",
   "version": 2
 }

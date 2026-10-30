@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-30T19:57:34Z",
+    "at": "2026-10-30T23:31:50Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 1,
-    "queued": 6,
+    "queued": 3,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 148,
+  "runs": 149,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -358,6 +358,11 @@
       "first_seen": "2026-10-06T19:03:40Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6"
+    },
+    "0db38ea2d79cf8b4fdb8e7fc": {
+      "first_seen": "2026-10-30T23:31:50Z",
+      "status": "queued",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.64.0"
     },
     "0db79d7f512e2a97d4c20629": {
       "first_seen": "2026-10-26T05:16:55Z",
@@ -1346,6 +1351,12 @@
       "first_seen": "2026-10-26T21:51:28Z",
       "status": "queued",
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work"
+    },
+    "278bd7295c7f41054c87a1f9": {
+      "first_seen": "2026-10-30T23:31:22Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge-on-shelves-now/"
     },
     "27a7527a54e29bd1beb4039a": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -2803,6 +2814,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/"
     },
+    "54ea9f3f13c35e5b4b769d0d": {
+      "first_seen": "2026-10-30T23:31:44Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/desktop-nightly-20261030214224"
+    },
     "55343430538830063dc618ba": {
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
@@ -2908,6 +2924,11 @@
       "first_seen": "2026-10-07T09:14:31Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fcore%2Fv0.0.91"
+    },
+    "574dbaf7fc8731e405753fdd": {
+      "first_seen": "2026-10-30T23:31:22Z",
+      "status": "queued",
+      "url": "https://openai.com/index/fair-use-benefits-everyone"
     },
     "57b475f8d8db01aa1ca7922d": {
       "first_seen": "2026-10-14T10:22:34Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-30T01:50:50Z",
+    "at": "2026-10-30T08:19:50Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 6,
+    "prefiltered": 0,
+    "queued": 5,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 145,
+  "runs": 146,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -705,6 +705,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11828"
     },
+    "1683f2ccf0f83b8267821638": {
+      "first_seen": "2026-10-30T08:19:26Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12002"
+    },
     "16ce5eb07728264c2c5f202e": {
       "first_seen": "2026-10-16T18:41:03Z",
       "status": "queued",
@@ -1310,6 +1315,11 @@
       "first_seen": "2026-10-24T13:24:11Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.3"
+    },
+    "26dd3fe37ddfd7db65097efc": {
+      "first_seen": "2026-10-30T08:19:38Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.109.0-dev.2"
     },
     "270eaf07b93973c26edc09e4": {
       "first_seen": "2026-10-27T06:24:39Z",
@@ -2738,6 +2748,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11718"
     },
+    "53fd94a06da8347a5803d5c7": {
+      "first_seen": "2026-10-30T08:19:26Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12001"
+    },
     "5404525725fe082cebc33e09": {
       "first_seen": "2026-10-03T00:45:57Z",
       "status": "too_old",
@@ -3961,6 +3976,11 @@
       "first_seen": "2026-10-28T14:30:31Z",
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1"
+    },
+    "75a20b079e3b9559a8e85738": {
+      "first_seen": "2026-10-30T08:19:22Z",
+      "status": "queued",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.1"
     },
     "75bb450ac9abb666c3e6b151": {
       "first_seen": "2026-10-15T19:14:58Z",
@@ -7463,6 +7483,11 @@
       "first_seen": "2026-10-07T09:14:31Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.91"
+    },
+    "e09f788c41d9c0e95bca332c": {
+      "first_seen": "2026-10-30T08:19:26Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12004"
     },
     "e0ae721a32ea3a299220ba2a": {
       "first_seen": "2026-10-27T12:40:00Z",

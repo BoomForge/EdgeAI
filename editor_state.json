@@ -62,8 +62,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-30T07:33:42Z",
-    "eligible": 70,
+    "at": "2026-10-30T14:36:15Z",
+    "eligible": 69,
     "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
@@ -193,6 +193,11 @@
       "at": "2026-10-24T23:47:18Z",
       "status": "expired",
       "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "03efaabc91c5a0ac5b1fa7bf": {
+      "at": "2026-10-30T14:35:29Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11930"
     },
     "0400448115dbe0ee87bb492d": {
       "at": "2026-10-18T04:56:03Z",
@@ -2418,6 +2423,20 @@
       "status": "expired",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.0"
     },
+    "49d99f09e516b736e5fe7e5f": {
+      "at": "2026-10-30T14:35:38Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "openai-api-credits-subscription-benefit",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
+      },
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits/"
+    },
     "4a5f898dc42901e71f0a0e30": {
       "at": "2026-10-16T06:10:14Z",
       "bootstrap": false,
@@ -3476,6 +3495,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.0.90"
+    },
+    "6c09a5e29d2f6772c8560354": {
+      "at": "2026-10-30T14:35:29Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/yardlet-2"
     },
     "6c883b8091f090772dce997b": {
       "at": "2026-10-05T15:56:52Z",
@@ -5268,6 +5292,20 @@
       "status": "expired",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.18.0"
     },
+    "a41c6b1e5e903c631014638b": {
+      "at": "2026-10-30T14:36:15Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "spawn-autonomous-agent-game-development",
+      "trust": {
+        "label": "Strong",
+        "reason": "The development appears real, but some details are still arriving or remain incomplete.",
+        "score": 83,
+        "source": "Simon Willison Everything"
+      },
+      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/"
+    },
     "a42770df59d96ec6c9be2d27": {
       "at": "2026-10-08T13:20:55Z",
       "status": "expired",
@@ -6337,6 +6375,14 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11418"
     },
+    "cb9ca3a61f3b320917664bdc": {
+      "at": "2026-10-30T14:35:55Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "nous-research-nouscon-2026-hype",
+      "url": "https://x.com/NousResearch/status/2115798012840579154"
+    },
     "cbc8926a28c802abf681f0b7": {
       "at": "2026-10-05T15:56:52Z",
       "status": "expired",
@@ -6430,6 +6476,11 @@
         "source": "FutureTools AI News"
       },
       "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "ce56c2f85b023448550285f1": {
+      "at": "2026-10-30T14:35:29Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11922"
     },
     "ce7a8790e53e0e8fbce51560": {
       "at": "2026-10-12T23:48:45Z",
@@ -7048,6 +7099,11 @@
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
       "url": "https://openai.com/index/atlassian-partnership/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "e0ae721a32ea3a299220ba2a": {
+      "at": "2026-10-30T14:35:29Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11926"
     },
     "e0bb18a9e834bf54bf2ef0c1": {
       "at": "2026-10-23T11:31:46Z",
@@ -11362,6 +11418,27 @@
         "source": "OpenAI News"
       }
     },
+    "openai-api-credits-subscription-benefit": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openai-api-credits-subscription-benefit.png",
+      "last_updated": "2026-10-30T14:35:38Z",
+      "post_id": "977548737244889881",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-introduces-api-credits-benefit.html",
+      "score": 82,
+      "source_image_source": "EdgeAI",
+      "source_image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/edgeai-newsroom-fallback.svg",
+      "source_urls": [
+        "https://simonwillison.net/2026/Oct/29/api-credits/"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces API Credits Benefit for High-Tier ChatGPT Subscribers",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
+      }
+    },
     "openai-aurora-image-models-gpt-image-3": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-aurora-image-models-gpt-image-3.jpg",
@@ -13143,6 +13220,27 @@
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 89,
+        "source": "Simon Willison Everything"
+      }
+    },
+    "spawn-autonomous-agent-game-development": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/spawn-autonomous-agent-game-development.png",
+      "last_updated": "2026-10-30T14:36:15Z",
+      "post_id": "6913175220015432330",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/spawn-mmo-demonstrates-autonomous.html",
+      "score": 82,
+      "source_image_source": "Simon Willison Everything",
+      "source_image_url": "https://static.simonwillison.net/static/2026-10-29/IMG_9406.webp",
+      "source_urls": [
+        "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/"
+      ],
+      "status": "DEVELOPING",
+      "title": "Spawn MMO demonstrates autonomous agentic coding and hourly production deployments",
+      "trust": {
+        "label": "Strong",
+        "reason": "The development appears real, but some details are still arriving or remain incomplete.",
+        "score": 83,
         "source": "Simon Willison Everything"
       }
     },

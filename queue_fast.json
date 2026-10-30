@@ -2760,6 +2760,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "b15bec59cff16399bd340ec4",
+      "discovered_at": "2026-10-30T15:07:01Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-30T13:54:18Z",
+      "search_score": 10,
+      "source_name": "llama.cpp Releases",
+      "summary": "kv-cache : keep rotation constants on the GPU ( #31073 ) kv-cache : keep rotation constants on the GPU Assisted-by: Codex tests : verify resident KV rotation buffers Assisted-by: Codex kv-cache : document remaining multi-device rotation work Assisted-by: Codex kv-cache : support per-layer rotation buffers Assisted-by: Codex kv-cache : fix hybrid SWA rotation inputs and mixed placement check Assisted-by: Codex models : use per-layer rotation in mistral-large4 and dflash tests: drop the rotation buffer tests Co-authored-by: Pascal admin@serveurperso.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61779531 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12007",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12007"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "d9382542407a53db42bdda13",
       "discovered_at": "2026-10-30T01:50:28Z",
       "kind": "local-ai",
@@ -2925,20 +2939,6 @@
       "summary": "tests: give the random model generator a per-tensor filler table ( #30674 ) tests: give the random model generator a per-tensor filler table Muse Spark makes test-llama-context fail on state_load, cp_h and cp_d on about six percent of the random seeds, with an NMSE of 1.0e-05 to 1.4e-05 against a threshold of 1.0e-05. The sliding window is what exposes it: a restored state keeps the window alone, so the attention of an SWA layer reduces over a different cell layout and the continuation is not bit exact. Every SWA model carries that, at 1e-08. Muse Spark carried it at 1e-05. The generator is what turns 1e-08 into 1e-05. A norm preserving residual gate holds alpha^2 + beta^2 == 1 and the conversion resolves both weights from one raw weight, while the generator draws every tensor on its own. The pair then scaled the stream and the branch independently, the stream lost an arbitrary factor at each layer, and the model became an amplifier. The weights the test ran on were not a Muse Spark. Per-tensor rules lived inside the write path, where a flag picked the values of a tensor inside each of the two branches that store them, so a new rule meant a new flag threaded through both. The file asks to be rid of that in a TODO of its own. Give each rule a filler, pick one from a table keyed on a substring of the tensor name, and keep a single write path behind it. Mamba moves into the table and Muse Spark joins it: the gate filler draws the raw weight once per block and resolves alpha and beta the way the conversion does. Over a thousand seeds on a CPU build the worst case drops from 1.36e-05 to 2.48e-06 and the median from 4.10e-06 to 5.48e-07, with no seed above the threshold. The other 131 models come out identical to the bit, since no other architecture carries these tensors. ctest is green on a CPU build and on a CUDA build. tests: draw every tensor filler from fill_normal The fillers repeated the generator and the distribution each time. The normal draw now takes its key and the other fillers transform its values, so the generator lives in one place. The generated models are identical to the bit. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56958015 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11712",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11712"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "d3ec8753d421d644d81f616d",
-      "discovered_at": "2026-10-16T10:06:04Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-16T09:02:53Z",
-      "search_score": 10,
-      "source_name": "llama.cpp Releases",
-      "summary": "tests : catch vanished rows in the fusion baseline ( #30618 ) tests : update the Metal fusion baseline Re-record the MTL fusion baseline with the current build: 276 rows over 131 dummy models. Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) tests : fail test-fusion when a baseline row stops matching The report was built from the counters the run produced, and the baseline was only ever used as a lookup table, so a fusion that stopped matching produced no row and was never compared. qwen4exp and mellum lost their fusions this way while the Fusion / metal job stayed green. Report a baseline row that the run does not reproduce as a regression. Scope the pass to the arches that were actually run so --model keeps working. Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) pi : never write inline comments unless the user asks Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) tests : keep the mellum dummy model softmax-gated mellum reads expert_gating_func from the GGUF since #30578 , while the fixture writes sigmoid for every MoE arch, so the Mellum dummy model stopped building the softmax MoE routing fusion. Write softmax for mellum, matching the arch default and the GGUFs that conversion/mellum.py produces. Re-record the MTL baseline: the routing row is back, 277 ok / 0 failed. Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) pi : use emoji in the AI stats disclosure Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) pi : list the disclosure model after the hardware Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) pi : use monochrome symbols in the AI stats disclosure Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) tests : add muse-spark to the Metal fusion baseline Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56596354 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11684",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11684"
     },
     {
       "bootstrap": false,
@@ -3292,6 +3292,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "6d508a898eb83dcd9a252964",
+      "discovered_at": "2026-10-30T15:07:01Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-30T14:10:18Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "gemma3n, gemma4 : create token_embd before the tied output ( #31394 ) The duplicated output looks up token_embd in its buffer context, so token_embd must exist first. With the old order a load where input and output share a buffer type (CPU-only, -ngl 0) held the table twice: gemma-4-E2B-it Q4_K_M, no mmap, CPU model buffer 3163.73 -> 2947.73 MiB. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61785118 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12008",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12008"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "75ead2ddb1ad56a77a1767ea",
       "discovered_at": "2026-10-29T04:59:08Z",
       "kind": "local-ai",
@@ -3432,6 +3446,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "53f056ac6a2e863fcb5e9c31",
+      "discovered_at": "2026-10-30T15:07:01Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-30T14:56:37Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "vendor : update cpp-httplib to 0.64.0 ( #31400 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61801183 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12012",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12012"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "9387a338862cdb9ec5fa0206",
+      "discovered_at": "2026-10-30T15:07:01Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-30T12:48:32Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "opencl: add initial q2_0 support ( #31340 ) opencl: add q2_0 AOS mv Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Assisted-by: Codex opencl: add q2_0 SOA mv and tiled mm Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Assisted-by: Codex opencl: add q2_0 noshuffle gemm/gemv for adreno Assisted-by: Codex opencl: add q2_0 dp4a for adreno opencl: optimize q2_0 adreno decode and narrow batches Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61756463 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12005",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12005"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "53fd94a06da8347a5803d5c7",
       "discovered_at": "2026-10-30T08:19:26Z",
       "kind": "local-ai",
@@ -3457,51 +3499,9 @@
       "summary": "llama : reuse the tensor staging buffer and skip the direct-io bounce buffer ( #31321 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61552516 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11997",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11997"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "1a415dd80bec84ddb128c35a",
-      "discovered_at": "2026-10-30T01:50:28Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-29T17:14:37Z",
-      "search_score": 4,
-      "source_name": "llama.cpp Releases",
-      "summary": "WIP OCP FP8 E4M3 support Fix python type-checker Materialize input_scales also for FP8 when converting Fix conversion of https://huggingface.co/RedHatAI/Qwen3.8-27B-NVFP4 Per row FP8 wrongly fell to NVFP4 conversion, as NVFP4 checked on dims alone. Also check on dtype for FP8 Need to reshape FP8 QKV projections scales in the same way that weights are reshaped Allow remaining FP8 tensors to be dequantized during conversion Allow tensor-strategy for FP8-only compressed-tensor ckpts Fix and test gguf-py behavior for FP8_E4M3 Disallow QKV-fusion for FP8 temporarily Fix conversion of fused qkvz & FP8 for Qwen3-Next Avoid fusing FP8 for --fuse-gate-up-exps as we may have different ws Emit warnings when not fusing FP8 during conversion More FP8 conversion fixes Add supported for strided copies to/from FP8 in CPU remove unneeded scratch buffer from FP8 cpu cpy/dup path add explanatory comments and TODOs Add dedicated encoder and decoder tests for FP8 Whitelist ggml_op_get_rows in metal instead of blacklisting required to fix failing CI, and white-listing should be more future-proof than adding FP8 to the black-list https://github.com/ggml-org/llama.cpp/actions/runs/38433916498/job/115422880633?pr=27512 Fix more conversion bugs Defer weight materialization during conversion Blacklist fp8 in metal backend instead of white-list Adjust indents Fix lint + execute tests Add fast CPU kernel for F8_E4M3 Conversion fixes Fix remaining gaps Enable tied weights with shared scales Make mandatory-F32 rules apply to FP8 during conversion Fix python type checks https://github.com/ggml-org/llama.cpp/actions/runs/39765670052/job/119780379595?pr=27512 Fix kaleidai unit-test failures https://github.com/ggml-org/llama.cpp/actions/runs/39765670125/job/119780383150 Relax numeric precision constraints for pre-check Leave fast-FP8 CPU on RISC-V for follow-up We already exclude arm from the fast-path Allow output scale tensors to be located in any gguf shard Move test_conversion_fp8.py test execution to behavior-check.yaml Apply batched suggestions from code review Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Move mixed compressed-tensor logic into dequant_fp8 + add unit-tests for it Install all requirements also on Windows for behavior-check Fixes https://github.com/ggml-org/llama.cpp/actions/runs/40535852590/job/122300758223?pr=27512 Unmap lazy tensors before clean-up in Windows Should fix https://github.com/ggml-org/llama.cpp/actions/runs/40539797824/job/122314782459?pr=27512 LF line endings https://github.com/ggml-org/llama.cpp/actions/runs/40539798168/job/122314791118?pr=27512 Extract FP8 tests from llama-arch to its own test-fixture See #27512 (comment) Update gguf-py/gguf/scripts/gguf_convert_endian.py Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co",
-      "title": "b12000: Quant: OCP FP8 E4M3 support (#27512)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12000"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "55743b4ddea9bce18585e8f3",
-      "discovered_at": "2026-10-30T01:50:27Z",
-      "kind": "open-source-creative",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-30T01:24:06Z",
-      "search_score": 3,
-      "source_name": "ComfyUI Releases",
-      "summary": "ComfyUI v0.43.2",
-      "title": "v0.43.2",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.2"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "3e1de06662103e34e2074f6c",
-      "discovered_at": "2026-10-29T17:31:52Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-29T08:10:25Z",
-      "search_score": 3,
-      "source_name": "llama.cpp Releases",
-      "summary": "Requested in the #31125 review. The cases duplicate coverage that is already in the file and add CI time. Test-only, nothing changes in the kernel, the docs or the CMake option. Assisted-by: Claude",
-      "title": "b11984: tests : remove duplicate FA test cases added in #31125 (#31357)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11984"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-30T08:19:50Z",
+  "updated_at": "2026-10-30T15:07:24Z",
   "version": 2
 }

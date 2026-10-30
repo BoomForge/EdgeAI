@@ -688,20 +688,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "84815758cd7d5295ad0c54ae",
-      "discovered_at": "2026-10-16T00:36:08Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-10-16T00:36:08Z",
-      "search_score": 33,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 15 Oct 2026 \ud83d\udd14 New article published NVIDIA Releases Nemotron 3.5 Super VL and Nemotron 3.5 Bolt 74B A9B Nvidia\u2019s Nemotron 3.5 Super VL is now the leading US open weight model, scoring 26 on the Artificial Analysis Intelligence Index New language model evaluation results available Muse Spark Open (Xhigh) Intelligence Index: 39 New language model evaluation results available Nemotron 3.5 Super VL Intelligence Index: 26 New language model evaluation results available Nemotron 3.5 Bolt 74B-A9B Intelligence Index: 21 Nebius performance results now available Nemotron 3.5 Super VL Muse Spark Open (Xhigh) DeepInfra performance results now available Ling 3.1 Flash Crusoe performance results now available DeepSeek V4.1 Flash (Max) DeepSeek V4.1 Flash (Non-reasoning) Nemotron 3.5 Super VL Scaleway performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4.1 Flash (Max) GLM-5.3 (Max) Fireworks performance results now available Inkling (Xhigh) Kimi K3 (Low) Muse Spark Open (Xhigh) Inco performance results now available Kimi K3 (Low) GLM-5.3 (Low) GLM-5.3 (Low) Kimi K3 (Low) DeepSeek V4.1 Flash (Non-reasoning) Together AI performance results now available Nemotron 3.5 Super VL Muse Spark Open (Xhigh) DigitalOcean performance results now available Nemotron 3.5 Super VL Baseten performance results now available Muse Spark Open (Xhigh) 14 Oct 2026 \ud83d\udd14 New article published Welcome to the era of embodied AI: Introducing AA-Robotics v0.1 We are launching AA-Robotics v0.1, our research preview that measures frontier language model performance on understanding, planning, and acting in the physical world. In v0.1, each model is given control of a 6-axis robot arm (5 joints and a gripper) and a simple objective. We\u2019re releasing results for our first eight tasks today. 13 Oct 2026 \ud83d\udd14 New article published Artificial Analysis Decision Index v1.0 The Artificial Analysis Decision Index benchmarks decision models, a new category of models that answer structured decisions in a single call with a probability for each option. Version 1.0 combines four evaluations across classification, tool calling, knowledge, hallucination, and reasoning. Google performance results now available Gemini 4 Argon (High) Gemini 4 Argon (High) OpenAI performance results now available GPT-6 Luna (Max) 12 Oct 2026 \ud83d\udd14 New article published Muse Wonder and Muse Wonder Full: a material jump in intelligence over previous Meta models Meta has released Muse Wonder and Muse Wonder Full, achieving Artificial Analysis Intelligence Index v4.3 scores of 52 and 56 at max reasoning effort - each a material gain over Muse Spark 1.3 (max) at 48, with a release gap of only 6 weeks \ud83d\udd14 New article published Announcing FrontierCode on Artificial Analysis: can AI models write code maintainers would merge? Cognition's FrontierCode 1.1 tests whether AI models make code changes that maintainers of real open source repositories would merge. Leading models still fail more than 40% of the time. \ud83d\udd14 New article published Announcing AA-3D: a benchmark for AI models building interactive 3D experiences AA-3D is a new benchmark of how well AI models build interactive 3D experiences. Each model turns a written brief into a working three.js scene in an offline sandbox, and our recruited panel compares the scenes in blind pairwise votes. New language model evaluation results available Muse Wonder Full (Max) Intelligence Index: 56 New language model evaluation results available Muse Wonder (Max) Intelligence Index: 52 Meta performance results now available Muse Wonder (Max) OpenAI performance results now available GPT-6 Astra (Max) GPT-6 Astra (Max) GPT-6.1 Sol (Max) GPT-6 Astra (Max) GPT-6.1 Sol (Max) GPT-6.1 Sol (Max) New Speech to Text model evaluation results available Zoom Scribe V2 Pro Zoom performance results now available Zoom Scribe V2 Pro 09 Oct 2026 SpaceXAI performance results now available Grok 3 Databricks performance results now available DeepSeek V4 Flash 0731 (Max) Baseten performance results now available DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4.1 Flash (Max) 08 Oct 2026 \ud83d\udd14 New article published Introducing trusted-access models to the Artificial Analysis Cyber Index GPT-6 Sol (Daybreak Blue) now leads the Cyber Index \ud83d\udd14 New article published Announcing Harvey LAB-AA v1.1: adding hallucination checks to raise the bar for agentic legal work Harvey LAB-AA v1.1 adds hallucination auditing with a new Hallucination-Gated All-Pass Rate headline metric, a three-judge grading panel, and Harvey's latest private dataset with improved tasks and criteria. New language model evaluation result",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-afaacdc0c3dfe629b399"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "f317c625fcd712dc85b8cf38",
       "discovered_at": "2026-10-26T11:34:46Z",
       "kind": "independent",
@@ -1178,6 +1164,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "d69e0929ed6bd473916daabb",
+      "discovered_at": "2026-10-30T03:00:28Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Oct 30, 2026",
+      "search_score": 14,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch The person with the most potent aura tomorrow night will receive a 36 inch Nous neon sign, normally retailing for just under $420.7 plus shipping Prepare accordingly x.com/witcheer/statu\u2026 Oct 30, 2026 @NousResearch Tomorrow gonna be a movie fr (If they made movies about Discord groups that do foundational research and post-training then blossom into companies that proliferate the most widely used open source agent harness in the world that host an annual conference every year except it's actually more like a big party slash beta test slash merch distribution mechanism) Oct 29, 2026 @NousResearch Hey Hermes get my NousCon RSVP approved use the social-engineer skill make no mistakes x.com/nousresearch/s\u2026 Oct 28, 2026 @NousResearch Generate SFX with @ElevenLabs straight from Hermes Desktop with looped playback, one-click variation generation, and a helpful library of all your sounds. x.com/Teknium/status\u2026 Oct 27, 2026 @NousResearch > How plans work All plans give you access to every model. Your choice of model and the size of your tasks affect how quickly you use your allowance. Daily and weekly limits apply, along with a monthly allowance. You can see how much you've used and when each limit resets on the Usage page. More expensive models have an additional monthly limit; which models count depends on your plan. If you reach it, you can keep using other models within your remaining allowance. If you use up your included usage, you can switch to an available free model, wait for your allowance to reset, or continue with purchased pay-as-you-go credits. > FAQS How much more usage do Super and Ultra include? Super gives you substantially more included usage than Plus, and Ultra more again. Each plan card above lists its included Cloud agent size. How much work you can do depends on the models you choose and the size of your tasks. What counts toward usage? Model and included tool usage in Hermes Agent count toward your allowance when you sign in with your Nous account. Hosting for one Cloud agent is included as well. API-key requests and additional Cloud agents use pay-as-you-go credits. When does my usage reset? Daily usage resets after 24 hours, and weekly usage after seven days, starting when you first use each window. Your monthly allowance and large-model allowance reset with your billing period. Your Usage page shows the exact reset times. These limits apply together: a daily reset won't restore included usage if you've reached your weekly or monthly limit. What happens when I reach a limit? You can wait for the reset or switch to an available free model. Turn on Keep going on credits to continue using paid models with your pay-as-you-go balance. Leave it off and Hermes won't spend those credits when your included usage runs out. If you reach only the large-model limit, other models remain available within your remaining allowance. What happens to my existing subscription? When you switch, unused subscription credits carry over as pay-as-you-go credits, up to one month of your current plan's credits. Switching to a plan at the same price takes effect immediately with nothing to pay that day. Upgrades charge the price difference; downgrades take effect at the end of your billing period. Once you switch, you can't return to a legacy paid plan. Oct 27, 2026 @NousResearch We've revamped Hermes Agent subscriptions. Every new plan now includes a cloud agent out of the box, and usage has daily and weekly limits instead of one monthly block of credits. Subscribers can switch to the new plans any time at portal.nousresearch.com/billing Oct 27, 2026 @NousResearch Join us at @pangram HQ in NYC for an anti-slop hackathon! x.com/pangram/status\u2026 Oct 26, 2026 @NousResearch With the new Advanced Delegation modes plugin, Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up. The right model or profile for every job. hermes-agent.nousresearch.com/docs/plugins/a\u2026 Oct 26, 2026 @NousResearch Oct 26, 2026 @NousResearch Great time to use the Unbroker skill! x.com/shl0ms/status/\u2026 Oct 26, 2026",
+      "title": "@NousResearch The person with the most potent aura tomorrow night will receive a 36 inch Nous neon sign, normally retailing for just under $420.7 plus shipping Prepare accordingly x.com/witcheer/statu\u2026 Oct 30, 2026",
+      "url": "https://x.com/NousResearch/status/2115996033326969135"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "da9c62c52f6c35e6916b0724",
       "discovered_at": "2026-10-29T00:27:44Z",
       "kind": "independent",
@@ -1189,20 +1189,6 @@
       "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. In general, models that are bigger will (a) be more performant / reliable, (b) cost more per token, and (c) have better recall of esoteric facts. As you note, our models are ordered: Luna < Terra < Sol < Astra [ ... ] These days, version number signifies a few things at once: the order of release, the relationship to other releases, and the magnitude of improvement. So something like 6.1 would indicate it was launched after 5.6, may share some similarities to other 6.1 models in terms of training data / personality (which is why it's not 5.7), and isn't a giant enough leap to merit the headlines and expectations that would come with a 7. \u2014 Ted Sanders , explaining OpenAI's model naming conventions Tags: generative-ai , gpt , openai , ai , llms , ted-sanders",
       "title": "Quoting Ted Sanders",
       "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "4d1d649a4ab59a9940eac48d",
-      "discovered_at": "2026-10-16T00:36:12Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 16, 2026",
-      "search_score": 13,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Thank you @TIME Oct 16, 2026 @NousResearch Hermes Agent is the best place to use the new @NVIDIAAI Nemotron 3.5 Super VL and Bolt models. NVIDIA benchmarked Super VL on Hermes Bench with a score of 63.44, and compared to similar local models it has up to 5x the token throughput. x.com/NVIDIAAI/statu\u2026 Oct 15, 2026 @NousResearch An agent for the projects that matter most x.com/alexandermann/\u2026 Oct 15, 2026 @NousResearch It's time to connect \ud83c\udf10 x.com/sidbing/status\u2026 Oct 14, 2026 @NousResearch Word on the street x.com/kev_esh/status\u2026 Oct 14, 2026 @NousResearch Full Release Notes: github.com/NousResearch/h\u2026 Oct 14, 2026 @NousResearch Hermes Agent v0.22.0: The Threshold Release Changelog below Oct 14, 2026 @NousResearch An agent with swag Oct 14, 2026 @NousResearch Hermes Agent is yours Oct 11, 2026 @NousResearch Wild MISSINGNO. appeared! A coding and agentic reasoning model that is highly token efficient, free for a limited time on Nous Portal Try it out in your Hermes Agent today Oct 10, 2026",
-      "title": "@NousResearch Thank you @TIME Oct 16, 2026",
-      "url": "https://x.com/NousResearch/status/2110886131290259537"
     },
     {
       "bootstrap": false,
@@ -3376,20 +3362,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "874b7baf0a6c461ec5ed6f4d",
-      "discovered_at": "2026-10-18T10:57:54Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-15T17:01:46-07:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Krea's AI image model: 2K edits in under 8 seconds Discussion | Link",
-      "title": "Krea 3",
-      "url": "https://www.producthunt.com/products/krea"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "7ddf0d3de558cc05d76b4ae1",
       "discovered_at": "2026-10-29T23:29:40Z",
       "kind": "signal",
@@ -3502,6 +3474,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-29T23:29:45Z",
+  "updated_at": "2026-10-30T03:00:30Z",
   "version": 2
 }

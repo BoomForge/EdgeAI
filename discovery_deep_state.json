@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-29T23:29:45Z",
+    "at": "2026-10-30T03:00:30Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 9,
+    "queued": 1,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 143,
+  "runs": 144,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -5560,6 +5560,11 @@
       "first_seen": "2026-10-27T12:46:49Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/off-grid-ai"
+    },
+    "d69e0929ed6bd473916daabb": {
+      "first_seen": "2026-10-30T03:00:28Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2115996033326969135"
     },
     "d716e08cd23c30890d3fdce6": {
       "first_seen": "2026-10-03T00:45:59Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-30T16:40:52Z",
+    "at": "2026-10-30T21:08:26Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 3,
+    "queued": 4,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 146,
+  "runs": 147,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -2390,6 +2390,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/thinking-orbs"
     },
+    "586b885751e7eb0450bea058": {
+      "first_seen": "2026-10-30T21:08:22Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-fe185384b0b8cd9fcf12"
+    },
     "590df63d3a724549f5f72ef7": {
       "first_seen": "2026-10-07T21:57:54Z",
       "status": "queued",
@@ -3536,6 +3541,11 @@
       "first_seen": "2026-10-15T09:50:31Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/buddy"
+    },
+    "826a5d8c45ab8646b5afc05b": {
+      "first_seen": "2026-10-30T21:08:21Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "82780810aba897ba13c1a821": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -5309,6 +5319,11 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-64185faeb906f7bf2de4"
     },
+    "c6ddd1df0055a2cbd09685d4": {
+      "first_seen": "2026-10-30T21:08:21Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "c6e30aab44ad97598838c4c3": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -6175,6 +6190,11 @@
       "first_seen": "2026-10-07T16:48:32Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/redlamp"
+    },
+    "ea6997666d92aa67534212f2": {
+      "first_seen": "2026-10-30T21:08:21Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai?utm_source=futuretools.io&utm_medium=newspage"
     },
     "ea9b2e623c829fe67956d1ee": {
       "first_seen": "2026-10-24T11:25:53Z",

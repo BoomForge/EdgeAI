@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-30T03:00:30Z",
+    "at": "2026-10-30T09:55:41Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 1,
+    "prefiltered": 9,
+    "queued": 4,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 6,
     "warnings": 0
   },
-  "runs": 144,
+  "runs": 145,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -213,6 +213,11 @@
       "first_seen": "2026-10-08T16:26:00Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2108202803449692620"
+    },
+    "07e30a57b1a2af912de91950": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/ilse"
     },
     "07ed550dd35ac918737ad4d0": {
       "first_seen": "2026-10-03T18:47:09Z",
@@ -458,6 +463,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/earnote"
     },
+    "116bb7920378646adb7f15e0": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/sitesolide"
+    },
     "12069dbe170b04bd498373b6": {
       "first_seen": "2026-10-15T14:58:06Z",
       "status": "queued",
@@ -603,6 +614,12 @@
       "first_seen": "2026-10-29T06:22:36Z",
       "status": "queued",
       "url": "https://sakana.ai/api-platform-earlyaccess/"
+    },
+    "1696bbf326508c5e95b4b5f4": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/kestrix"
     },
     "16a30527ab41fa506f92501c": {
       "first_seen": "2026-10-20T19:29:47Z",
@@ -1137,6 +1154,11 @@
       "status": "queued",
       "url": "https://hermes-agent.nousresearch.com/docs"
     },
+    "2aaeda817e62704d75d8b916": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/cluinn"
+    },
     "2b585f6f4d613dd795f19156": {
       "first_seen": "2026-10-08T08:53:54Z",
       "search_score": 0,
@@ -1368,6 +1390,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
     },
+    "34673b67a947aa6f3d84d8dd": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/sparkbots-ai-analyze-pages-and-pdfs"
+    },
     "3474825c1b905eaedb65db8e": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
@@ -1409,6 +1436,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/onedeploy"
+    },
+    "354e0113e3e0ce2ee12149bd": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/xwiki"
     },
     "355ec313c08f6be6410734c2": {
       "first_seen": "2026-10-05T18:53:52Z",
@@ -1498,6 +1530,12 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://runway.com/research/introducing-praxis-1"
+    },
+    "385ae8376cad7b1f6fcf8675": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/chopstick"
     },
     "388094ab494b46760bdb4bbb": {
       "first_seen": "2026-10-29T19:17:17Z",
@@ -2154,6 +2192,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/cleanslop"
     },
+    "534288042090c3e47547ff44": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/knocket-ai"
+    },
     "5348c60bd5e91500ff590f30": {
       "first_seen": "2026-10-07T16:48:32Z",
       "search_score": 0,
@@ -2418,6 +2461,11 @@
       "first_seen": "2026-10-15T09:50:31Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/withhuman"
+    },
+    "5c2aa7ee55f026662c4deb35": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/faylee"
     },
     "5c3d7c24b4602c4d2658f950": {
       "first_seen": "2026-10-20T22:43:54Z",
@@ -2712,6 +2760,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/dotverse"
+    },
+    "6607be108162782c971918e9": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/stereolift-live"
     },
     "661151aa1069640ab9cf2f1d": {
       "first_seen": "2026-10-23T15:23:24Z",
@@ -3790,6 +3843,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/adsnotch"
     },
+    "8dbe41d1b8828d9b6fdeb5d5": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/teable-4"
+    },
     "8dc761dbcef27687b8863a87": {
       "first_seen": "2026-10-06T00:46:23Z",
       "status": "queued",
@@ -3915,6 +3973,11 @@
       "first_seen": "2026-10-19T21:40:07Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2112260376469422586"
+    },
+    "9322e185e9660553dc4f6512": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/speakon"
     },
     "9330ae30d1053d8c5efb2029": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -4121,6 +4184,12 @@
       "first_seen": "2026-10-20T00:43:54Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-6476f9dbf1768d76318d"
+    },
+    "9b4510e6d8edd715910443eb": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/vaani-developer-platfrom"
     },
     "9b86f086e89170b2ff15802a": {
       "first_seen": "2026-10-17T08:44:04Z",
@@ -5309,6 +5378,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/boltbar"
     },
+    "cb2dfe93fb8302574b96024d": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/stepgrab"
+    },
     "cb4e8f9149af017628ccea38": {
       "first_seen": "2026-10-09T07:47:51Z",
       "search_score": 0,
@@ -5371,6 +5446,12 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://runway.com/research/how-real-time-video-generation-is-changing-online-interaction"
+    },
+    "ce381b568ffc4621db7fca15": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/norah-studio"
     },
     "ce3bef4c29f308650e3c9973": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -5540,6 +5621,12 @@
       "status": "queued",
       "url": "https://www.kimi.com/en/products/download"
     },
+    "d586a5e7cdfd5c0e54b766e1": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/axonnic"
+    },
     "d5a178a028e4b6fd4c0da3f0": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
@@ -5560,6 +5647,11 @@
       "first_seen": "2026-10-27T12:46:49Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/off-grid-ai"
+    },
+    "d655994c01a9f4bb3e99d796": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/fastbrowse"
     },
     "d69e0929ed6bd473916daabb": {
       "first_seen": "2026-10-30T03:00:28Z",
@@ -5913,6 +6005,12 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/proofsource"
+    },
+    "e2abf4ccdcb3c7472d4b096b": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/nocto"
     },
     "e2b8778ca5e92223312d656b": {
       "first_seen": "2026-10-05T18:53:47Z",
@@ -6523,6 +6621,12 @@
       "first_seen": "2026-10-18T10:57:54Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/pastekit-2"
+    },
+    "fad058fd1f8e52c9f1794700": {
+      "first_seen": "2026-10-30T09:55:37Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/isurge"
     },
     "fb3669bea1e8b6c8ae568746": {
       "first_seen": "2026-10-15T09:50:31Z",

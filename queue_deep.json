@@ -674,20 +674,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "4a5f898dc42901e71f0a0e30",
-      "discovered_at": "2026-10-16T05:09:15Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-10-16T05:09:15Z",
-      "search_score": 33,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 15 Oct 2026 \ud83d\udd14 New article published NVIDIA Releases Nemotron 3.5 Super VL and Nemotron 3.5 Bolt 74B A9B Nvidia\u2019s Nemotron 3.5 Super VL is now the leading US open weight model, scoring 26 on the Artificial Analysis Intelligence Index New language model evaluation results available Muse Spark Open (Xhigh) Intelligence Index: 39 New language model evaluation results available Nemotron 3.5 Super VL Intelligence Index: 26 New language model evaluation results available Nemotron 3.5 Bolt 74B-A9B Intelligence Index: 21 CoreWeave performance results now available Nemotron 3.5 Super VL Nebius performance results now available Nemotron 3.5 Super VL Muse Spark Open (Xhigh) DeepInfra performance results now available Ling 3.1 Flash Crusoe performance results now available DeepSeek V4.1 Flash (Max) DeepSeek V4.1 Flash (Non-reasoning) Nemotron 3.5 Super VL Scaleway performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4.1 Flash (Max) GLM-5.3 (Max) Fireworks performance results now available Inkling (Xhigh) Kimi K3 (Low) Muse Spark Open (Xhigh) Inco performance results now available Kimi K3 (Low) GLM-5.3 (Low) GLM-5.3 (Low) Kimi K3 (Low) DeepSeek V4.1 Flash (Non-reasoning) Together AI performance results now available Nemotron 3.5 Super VL Muse Spark Open (Xhigh) DigitalOcean performance results now available Nemotron 3.5 Super VL Baseten performance results now available Muse Spark Open (Xhigh) 14 Oct 2026 \ud83d\udd14 New article published Welcome to the era of embodied AI: Introducing AA-Robotics v0.1 We are launching AA-Robotics v0.1, our research preview that measures frontier language model performance on understanding, planning, and acting in the physical world. In v0.1, each model is given control of a 6-axis robot arm (5 joints and a gripper) and a simple objective. We\u2019re releasing results for our first eight tasks today. 13 Oct 2026 \ud83d\udd14 New article published Artificial Analysis Decision Index v1.0 The Artificial Analysis Decision Index benchmarks decision models, a new category of models that answer structured decisions in a single call with a probability for each option. Version 1.0 combines four evaluations across classification, tool calling, knowledge, hallucination, and reasoning. Google performance results now available Gemini 4 Argon (High) Gemini 4 Argon (High) OpenAI performance results now available GPT-6 Luna (Max) 12 Oct 2026 \ud83d\udd14 New article published Muse Wonder and Muse Wonder Full: a material jump in intelligence over previous Meta models Meta has released Muse Wonder and Muse Wonder Full, achieving Artificial Analysis Intelligence Index v4.3 scores of 52 and 56 at max reasoning effort - each a material gain over Muse Spark 1.3 (max) at 48, with a release gap of only 6 weeks \ud83d\udd14 New article published Announcing FrontierCode on Artificial Analysis: can AI models write code maintainers would merge? Cognition's FrontierCode 1.1 tests whether AI models make code changes that maintainers of real open source repositories would merge. Leading models still fail more than 40% of the time. \ud83d\udd14 New article published Announcing AA-3D: a benchmark for AI models building interactive 3D experiences AA-3D is a new benchmark of how well AI models build interactive 3D experiences. Each model turns a written brief into a working three.js scene in an offline sandbox, and our recruited panel compares the scenes in blind pairwise votes. New language model evaluation results available Muse Wonder Full (Max) Intelligence Index: 56 New language model evaluation results available Muse Wonder (Max) Intelligence Index: 52 Meta performance results now available Muse Wonder (Max) OpenAI performance results now available GPT-6 Astra (Max) GPT-6 Astra (Max) GPT-6.1 Sol (Max) GPT-6 Astra (Max) GPT-6.1 Sol (Max) GPT-6.1 Sol (Max) New Speech to Text model evaluation results available Zoom Scribe V2 Pro Zoom performance results now available Zoom Scribe V2 Pro 09 Oct 2026 SpaceXAI performance results now available Grok 3 Databricks performance results now available DeepSeek V4 Flash 0731 (Max) Baseten performance results now available DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4.1 Flash (Max) 08 Oct 2026 \ud83d\udd14 New article published Introducing trusted-access models to the Artificial Analysis Cyber Index GPT-6 Sol (Daybreak Blue) now leads the Cyber Index \ud83d\udd14 New article published Announcing Harvey LAB-AA v1.1: adding hallucination checks to raise the bar for agentic legal work Harvey LAB-AA v1.1 adds hallucination auditing with a new Hallucination-Gated All-Pass Rate headline metric, a three-judge grading panel, and Harvey's latest private dataset with",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-d1703deb31d3c6677c0d"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "f317c625fcd712dc85b8cf38",
       "discovered_at": "2026-10-26T11:34:46Z",
       "kind": "independent",
@@ -2746,6 +2732,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "07e30a57b1a2af912de91950",
+      "discovered_at": "2026-10-30T09:55:37Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-29T12:42:40-07:00",
+      "search_score": 7,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Point at your app and your AI agent changes the code Discussion | Link",
+      "title": "ilse",
+      "url": "https://www.producthunt.com/products/ilse"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "b8027b998a3859ca16466320",
       "discovered_at": "2026-10-27T12:46:49Z",
       "kind": "signal",
@@ -3026,6 +3026,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "9322e185e9660553dc4f6512",
+      "discovered_at": "2026-10-30T09:55:37Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-29T03:44:31-07:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Turn natural speech into real work for an agent to complete Discussion | Link",
+      "title": "SpeakON Agent",
+      "url": "https://www.producthunt.com/products/speakon"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "1897925dbdda805e4c10e1ce",
       "discovered_at": "2026-10-28T08:23:12Z",
       "kind": "signal",
@@ -3121,6 +3135,20 @@
       "summary": "Open models, built for agents. Discussion | Link",
       "title": "RunInfra",
       "url": "https://www.producthunt.com/products/runinfra"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "d655994c01a9f4bb3e99d796",
+      "discovered_at": "2026-10-30T09:55:37Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-28T20:25:09-07:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Fastest open source browser agent Discussion | Link",
+      "title": "fastbrowse",
+      "url": "https://www.producthunt.com/products/fastbrowse"
     },
     {
       "bootstrap": false,
@@ -3362,6 +3390,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "5c2aa7ee55f026662c4deb35",
+      "discovered_at": "2026-10-30T09:55:37Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-29T10:54:14-07:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Bug reports your coding agent can fix from one link Discussion | Link",
+      "title": "Faylee",
+      "url": "https://www.producthunt.com/products/faylee"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "7ddf0d3de558cc05d76b4ae1",
       "discovered_at": "2026-10-29T23:29:40Z",
       "kind": "signal",
@@ -3457,23 +3499,9 @@
       "summary": "Private AI on your phone and computer. Discussion | Link",
       "title": "Off Grid AI",
       "url": "https://www.producthunt.com/products/off-grid-ai"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "23ed2fd509d712248592a95c",
-      "discovered_at": "2026-10-26T11:34:46Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-25T22:15:29-07:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Explore every abliterated model Discussion | Link",
-      "title": "AllModels",
-      "url": "https://www.producthunt.com/products/allmodels-io"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-30T03:00:30Z",
+  "updated_at": "2026-10-30T09:55:41Z",
   "version": 2
 }

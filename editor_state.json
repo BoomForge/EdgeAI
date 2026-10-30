@@ -62,11 +62,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-30T19:44:58Z",
-    "eligible": 64,
-    "evaluated": 4,
+    "at": "2026-10-30T23:18:01Z",
+    "eligible": 59,
+    "evaluated": 2,
     "mode": "live",
-    "new_posts": 2,
+    "new_posts": 1,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -811,6 +811,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00047"
+    },
+    "185dd308c58bd95cfbc4a964": {
+      "at": "2026-10-30T23:17:50Z",
+      "status": "expired",
+      "url": "https://microsoft.ai/news/mai-cyber-1-1-flash/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "18751b3135b0ef1c82b7f5e5": {
       "at": "2026-10-09T17:07:50Z",
@@ -2763,6 +2768,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11514"
     },
+    "56f6cf04ba533a6005c58bec": {
+      "at": "2026-10-30T23:17:50Z",
+      "status": "expired",
+      "url": "https://openrouter.ai/rankings#edgeai-1be0ec74423f527dda58"
+    },
     "570fe3204556675e8dd927e7": {
       "at": "2026-10-09T17:08:00Z",
       "bootstrap": false,
@@ -2861,6 +2871,20 @@
         "source": "Sakana AI Blog"
       },
       "url": "https://sakana.ai/pc-alm/"
+    },
+    "586b885751e7eb0450bea058": {
+      "at": "2026-10-30T23:17:57Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "updated",
+      "story_key": "artificial-analysis-intelligence-index-v5-gemini-4-carbon",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-fe185384b0b8cd9fcf12"
     },
     "590df63d3a724549f5f72ef7": {
       "at": "2026-10-08T00:10:01Z",
@@ -3277,6 +3301,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11515"
     },
+    "655eb37500b3925a90315941": {
+      "at": "2026-10-30T23:17:50Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/radar-7"
+    },
     "65882ee49dd3bdda47b9f4a2": {
       "at": "2026-10-24T21:44:53Z",
       "status": "expired",
@@ -3607,6 +3636,11 @@
       "at": "2026-10-23T11:31:39Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/intelli"
+    },
+    "6fca76cd16ee82423d82d844": {
+      "at": "2026-10-30T23:17:50Z",
+      "status": "expired",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "7043036d10c7bf654f7b5126": {
       "at": "2026-10-17T20:31:21Z",
@@ -4268,6 +4302,20 @@
       "story_key": "artificial-analysis-changelog-snapshot-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-afaacdc0c3dfe629b399"
     },
+    "84abd1857de5dfd951d90dcf": {
+      "at": "2026-10-30T23:18:01Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "openai-shared-robots-txt-ai-training-preferences-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences"
+    },
     "853a0c249788523a4e15541f": {
       "at": "2026-10-10T01:19:22Z",
       "bootstrap": false,
@@ -4491,6 +4539,11 @@
       "at": "2026-10-07T19:56:51Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11393"
+    },
+    "8acaafaa437ceaceda80a67b": {
+      "at": "2026-10-30T23:17:50Z",
+      "status": "expired",
+      "url": "https://microsoft.ai/news/mai-image-2-7-debut/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "8add0cfb6a7ad18320e08467": {
       "at": "2026-10-05T07:01:46Z",
@@ -6610,6 +6663,11 @@
       "status": "expired",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.0"
     },
+    "d2a239d4a8c6e6c1aeaf7910": {
+      "at": "2026-10-30T23:17:50Z",
+      "status": "expired",
+      "url": "https://www.alibabacloud.com/blog/qwen-image-2-1-pro-and-turbo-apis-are-live-one-7b-model-to-generate-edit-and-cut-out_603679?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "d2b5b29b4c815525619915dc": {
       "at": "2026-10-05T22:35:34Z",
       "bootstrap": false,
@@ -7577,6 +7635,11 @@
       "status": "ignored",
       "story_key": "runway-enterprise-sales",
       "url": "https://runway.com/enterprise-contact"
+    },
+    "ef3b85f79100b92e24e403cc": {
+      "at": "2026-10-30T23:17:50Z",
+      "status": "expired",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "ef8dc3e0756d057ef38462cf": {
       "at": "2026-10-09T21:38:57Z",
@@ -8818,17 +8881,18 @@
     "artificial-analysis-intelligence-index-v5-gemini-4-carbon": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-intelligence-index-v5-gemini-4-carbon.jpg",
-      "last_updated": "2026-10-29T21:19:46Z",
+      "last_updated": "2026-10-30T23:17:57Z",
       "post_id": "5895428049479520523",
       "post_url": "https://edgeainews.blogspot.com/2026/10/artificial-analysis-launches.html",
       "score": 92,
       "source_image_source": "Artificial Analysis Changelog",
       "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
       "source_urls": [
-        "https://artificialanalysis.ai/changelog#edgeai-8c54249bddb152d4c7f2"
+        "https://artificialanalysis.ai/changelog#edgeai-8c54249bddb152d4c7f2",
+        "https://artificialanalysis.ai/changelog#edgeai-fe185384b0b8cd9fcf12"
       ],
       "status": "CONFIRMED",
-      "title": "Artificial Analysis Launches Intelligence Index v5 with Gemini 4 Carbon Claiming #1 Spot",
+      "title": "Artificial Analysis Updates Changelog with DeepSeek V4.1 Flash and Mistral Large 4 Evaluations",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
@@ -12401,6 +12465,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI Details Frontier Training Containment, High-Compute Red-Teaming, and Air-Gapped Research Policy",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-shared-robots-txt-ai-training-preferences-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-shared-robots-txt-ai-training-preferences-2026.jpg",
+      "last_updated": "2026-10-30T23:18:01Z",
+      "post_id": "8543649422925304789",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-announces-support-for-shared.html",
+      "score": 85,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/4fvNR0KxKmPYu4fRXtEgKp/4a522ef61a6f983b0b65ad39c2a71e4c/websites-toeexpress-ai-training-preferences-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/helping-websites-express-ai-training-preferences"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Announces Support for Shared Robots.txt Signal for AI Training Preferences",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

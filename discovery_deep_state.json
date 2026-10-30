@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-30T09:55:41Z",
+    "at": "2026-10-30T16:40:52Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 9,
-    "queued": 4,
+    "prefiltered": 0,
+    "queued": 3,
     "sources_ok": 15,
-    "too_old": 6,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 145,
+  "runs": 146,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -3686,6 +3686,11 @@
       "status": "queued",
       "url": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "87a723fc5e52567f80085e63": {
+      "first_seen": "2026-10-30T16:40:48Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-a71ea192a9b885c51d27"
+    },
     "87af6f0ccbf918deb0cd9bd5": {
       "first_seen": "2026-10-22T07:30:04Z",
       "status": "too_old",
@@ -6246,6 +6251,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/privos"
     },
+    "edb7366353cc5e746afeee90": {
+      "first_seen": "2026-10-30T16:40:48Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/how-we-used-gemini-4-argon-to-turn-a-sketch-into-a-playable-game"
+    },
     "ede267779ebde8af6a4078b3": {
       "first_seen": "2026-10-18T10:57:54Z",
       "status": "too_old",
@@ -6520,6 +6530,11 @@
       "first_seen": "2026-10-25T10:01:09Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/openstatus-2"
+    },
+    "f72df97946b46859156ccb6c": {
+      "first_seen": "2026-10-30T16:40:51Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2116152083145482670"
     },
     "f7595b9269d08c84dbe392da": {
       "first_seen": "2026-10-20T00:43:52Z",

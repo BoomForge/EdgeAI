@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-29T22:00:48Z",
+    "at": "2026-10-30T01:50:50Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
+    "prefiltered": 1,
     "queued": 6,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 144,
+  "runs": 145,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -831,6 +831,11 @@
       "first_seen": "2026-10-28T01:42:05Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11946"
+    },
+    "1a415dd80bec84ddb128c35a": {
+      "first_seen": "2026-10-30T01:50:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12000"
     },
     "1a543055a02f9816518cc039": {
       "first_seen": "2026-10-23T09:33:43Z",
@@ -1832,6 +1837,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11556"
     },
+    "383355db37c4680a3a438ecd": {
+      "first_seen": "2026-10-30T01:50:32Z",
+      "status": "queued",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.23"
+    },
     "3840606c6c2631b0141fdf60": {
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
@@ -2779,6 +2789,11 @@
       "status": "prefiltered",
       "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-search-data/"
     },
+    "55743b4ddea9bce18585e8f3": {
+      "first_seen": "2026-10-30T01:50:27Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.2"
+    },
     "558f2daa7fae0987d8946872": {
       "first_seen": "2026-10-21T05:49:00Z",
       "status": "queued",
@@ -3462,6 +3477,11 @@
       "first_seen": "2026-10-28T19:52:37Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    },
+    "684555a3270c71ead40bec5f": {
+      "first_seen": "2026-10-30T01:50:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11996"
     },
     "6846386ee35eb87e2aa20282": {
       "first_seen": "2026-10-18T13:50:19Z",
@@ -7160,6 +7180,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11847"
     },
+    "d9382542407a53db42bdda13": {
+      "first_seen": "2026-10-30T01:50:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11998"
+    },
     "d948735545c20cf3072195db": {
       "first_seen": "2026-10-29T22:00:14Z",
       "status": "queued",
@@ -7825,6 +7850,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11391"
     },
+    "ec5258f1002411eb7a7a42a0": {
+      "first_seen": "2026-10-30T01:50:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11997"
+    },
     "ec65d8e77bae17f137dabaef": {
       "first_seen": "2026-10-29T11:23:48Z",
       "status": "queued",
@@ -8452,6 +8482,12 @@
       "first_seen": "2026-10-03T00:46:18Z",
       "status": "too_old",
       "url": "https://github.com/microsoft/autogen/releases/tag/python-v0.7.1"
+    },
+    "ff479ec2b2cda02d75e4277d": {
+      "first_seen": "2026-10-30T01:50:22Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/colorado-impact-hackathon/"
     },
     "ff68e260eb779e7779d72ecd": {
       "first_seen": "2026-10-28T19:52:37Z",

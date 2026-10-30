@@ -2088,20 +2088,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "9e63539289a31c8631b61e2d",
-      "discovered_at": "2026-10-16T21:43:45Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
-      "search_score": 6,
-      "source_name": "OpenAI News",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10\u00d7 growth in agent creation.",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "d948735545c20cf3072195db",
       "discovered_at": "2026-10-29T22:00:14Z",
       "kind": "official",
@@ -2365,20 +2351,6 @@
       "summary": "An independent Schlotzsky\u2019s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
       "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
       "url": "https://openai.com/index/ted-taylor-restaurant"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "b6756c0a180ee554226c332b",
-      "discovered_at": "2026-10-17T08:48:33Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
-      "search_score": 0,
-      "source_name": "OpenAI News",
-      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "url": "https://openai.com/index/benefit-street-partners"
     },
     {
       "bootstrap": false,
@@ -2799,6 +2771,20 @@
       "summary": "model : Granite switch decision 256 options ( #30693 ) feat(convert): Attempt to come up with 256 single-token, semantic option markers Each switch model needs to identify a collection of single-token option markers that can be mapped to their respective logits for the output probability distribution. The simple upper/lower/numbers set only yields 66 unique markers, but the model can support up to 255. The challenge is that which combinations of characters result in single-token markers is model- specific, so we do a discovery exercise at conversion time by looking through the specific model's vocab for single-token sequences of 1+ plain letter strings (eg A , AA , BB , etc). Branch: GraniteSwitchDecisionFullOptions AI-usage: none Signed-off-by: Gabe Goodhart ghart@us.ibm.com docs: Note granite-switch with 256 option markers Branch: GraniteSwitchDecisionFullOptions AI-usage: none Signed-off-by: Gabe Goodhart ghart@us.ibm.com style: Remove extra newline Branch: GraniteSwitchDecisionFullOptions AI-usage: none Signed-off-by: Gabe Goodhart ghart@us.ibm.com feat(convert): Use the computed labels in the template so c++ side is source of truth Branch: GraniteSwitchDecisionFullOptions AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.ibm.com feat: Use LEV case for GRANITE_SWITCH w/ computed labels Branch: GraniteSwitchDecisionFullOptions AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.ibm.com docs: Consolidate g-s into 255 bucket Branch: GraniteSwitchDecisionFullOptions AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56911978 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11707",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11707"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "d9382542407a53db42bdda13",
+      "discovered_at": "2026-10-30T01:50:28Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-30T01:15:06Z",
+      "search_score": 10,
+      "source_name": "llama.cpp Releases",
+      "summary": "model: mistral le chonk ( #31376 ) llama: extend DSA and sdpark to new model fix ci Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61557038 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11998",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11998"
     },
     {
       "bootstrap": false,
@@ -3320,20 +3306,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "e48eb6d06c650a2077e98021",
-      "discovered_at": "2026-10-16T00:45:08Z",
-      "kind": "agents",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-15T23:37:58Z",
-      "search_score": 8,
-      "source_name": "browser-use Releases",
-      "summary": "Add OpenAI browser tools backed by Browser Use Actor. Import BrowserUse from browser_use.integrations.openai . Install browser-use[openai-tools] to enable OpenAI Python 3.31+. Use local browsers, Browser Use Cloud, or an existing connected BrowserSession. Support the 18 default browser tools and six optional actions. Preserve borrowed browser ownership and check Cloud browser cleanup. Preserve URL and timeout settings across OpenAI 2.x and 3.x model wrappers. OpenAI 3.x uses httpx2. For custom HTTP clients, use OpenAI's DefaultAsyncHttpxClient. This integration does not yet provide uploads, downloads, scoped reads, console/network diagnostics, or Bash. Validation: 35 integration/model tests passed, two skipped; OpenAI 2.26 compatibility: 15 passed, one skipped. All pull-request checks passed. Live Cloud navigation and element-reference click tests passed with provider-confirmed cleanup. Implementation: #6086 Cloud tests: https://github.com/browser-use/new-eval-platform/actions/runs/38824343560",
-      "title": "0.13.12: OpenAI browser tools",
-      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.12"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "75ead2ddb1ad56a77a1767ea",
       "discovered_at": "2026-10-29T04:59:08Z",
       "kind": "local-ai",
@@ -3474,6 +3446,48 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "ec5258f1002411eb7a7a42a0",
+      "discovered_at": "2026-10-30T01:50:28Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-30T00:54:56Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "llama : reuse the tensor staging buffer and skip the direct-io bounce buffer ( #31321 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61552516 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b11997",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11997"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "1a415dd80bec84ddb128c35a",
+      "discovered_at": "2026-10-30T01:50:28Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-29T17:14:37Z",
+      "search_score": 4,
+      "source_name": "llama.cpp Releases",
+      "summary": "WIP OCP FP8 E4M3 support Fix python type-checker Materialize input_scales also for FP8 when converting Fix conversion of https://huggingface.co/RedHatAI/Qwen3.8-27B-NVFP4 Per row FP8 wrongly fell to NVFP4 conversion, as NVFP4 checked on dims alone. Also check on dtype for FP8 Need to reshape FP8 QKV projections scales in the same way that weights are reshaped Allow remaining FP8 tensors to be dequantized during conversion Allow tensor-strategy for FP8-only compressed-tensor ckpts Fix and test gguf-py behavior for FP8_E4M3 Disallow QKV-fusion for FP8 temporarily Fix conversion of fused qkvz & FP8 for Qwen3-Next Avoid fusing FP8 for --fuse-gate-up-exps as we may have different ws Emit warnings when not fusing FP8 during conversion More FP8 conversion fixes Add supported for strided copies to/from FP8 in CPU remove unneeded scratch buffer from FP8 cpu cpy/dup path add explanatory comments and TODOs Add dedicated encoder and decoder tests for FP8 Whitelist ggml_op_get_rows in metal instead of blacklisting required to fix failing CI, and white-listing should be more future-proof than adding FP8 to the black-list https://github.com/ggml-org/llama.cpp/actions/runs/38433916498/job/115422880633?pr=27512 Fix more conversion bugs Defer weight materialization during conversion Blacklist fp8 in metal backend instead of white-list Adjust indents Fix lint + execute tests Add fast CPU kernel for F8_E4M3 Conversion fixes Fix remaining gaps Enable tied weights with shared scales Make mandatory-F32 rules apply to FP8 during conversion Fix python type checks https://github.com/ggml-org/llama.cpp/actions/runs/39765670052/job/119780379595?pr=27512 Fix kaleidai unit-test failures https://github.com/ggml-org/llama.cpp/actions/runs/39765670125/job/119780383150 Relax numeric precision constraints for pre-check Leave fast-FP8 CPU on RISC-V for follow-up We already exclude arm from the fast-path Allow output scale tensors to be located in any gguf shard Move test_conversion_fp8.py test execution to behavior-check.yaml Apply batched suggestions from code review Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Move mixed compressed-tensor logic into dequant_fp8 + add unit-tests for it Install all requirements also on Windows for behavior-check Fixes https://github.com/ggml-org/llama.cpp/actions/runs/40535852590/job/122300758223?pr=27512 Unmap lazy tensors before clean-up in Windows Should fix https://github.com/ggml-org/llama.cpp/actions/runs/40539797824/job/122314782459?pr=27512 LF line endings https://github.com/ggml-org/llama.cpp/actions/runs/40539798168/job/122314791118?pr=27512 Extract FP8 tests from llama-arch to its own test-fixture See #27512 (comment) Update gguf-py/gguf/scripts/gguf_convert_endian.py Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co",
+      "title": "b12000: Quant: OCP FP8 E4M3 support (#27512)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12000"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "55743b4ddea9bce18585e8f3",
+      "discovered_at": "2026-10-30T01:50:27Z",
+      "kind": "open-source-creative",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-10-30T01:24:06Z",
+      "search_score": 3,
+      "source_name": "ComfyUI Releases",
+      "summary": "ComfyUI v0.43.2",
+      "title": "v0.43.2",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.2"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "3e1de06662103e34e2074f6c",
       "discovered_at": "2026-10-29T17:31:52Z",
       "kind": "local-ai",
@@ -3485,23 +3499,9 @@
       "summary": "Requested in the #31125 review. The cases duplicate coverage that is already in the file and add CI time. Test-only, nothing changes in the kernel, the docs or the CMake option. Assisted-by: Claude",
       "title": "b11984: tests : remove duplicate FA test cases added in #31125 (#31357)",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11984"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "e6f05dec0997e5fdc23ee02f",
-      "discovered_at": "2026-10-29T22:00:22Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-29T08:14:11Z",
-      "search_score": 0,
-      "source_name": "llama.cpp Releases",
-      "summary": "HIP/CUDA: enable sparse attn on CDNA Use __ballot for __ballot_sync on old ROCm versions Ignore new large head fattn mma variant",
-      "title": "b11989: HIP/CUDA: enable sparse attn on CDNA (#31259)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11989"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-10-29T22:00:48Z",
+  "updated_at": "2026-10-30T01:50:50Z",
   "version": 2
 }

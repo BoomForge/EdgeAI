@@ -62,9 +62,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-30T14:36:15Z",
-    "eligible": 69,
-    "evaluated": 3,
+    "at": "2026-10-30T19:44:58Z",
+    "eligible": 64,
+    "evaluated": 4,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -677,6 +677,11 @@
       "status": "expired",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.51.0"
     },
+    "1445b894808d974c625bc87d": {
+      "at": "2026-10-30T19:44:46Z",
+      "status": "expired",
+      "url": "https://newsletter.futurepedia.io/p/claude-can-now-build-a-dashboard-that-updates-itself-10-27-2026"
+    },
     "14916a2490f688da9ae768f0": {
       "at": "2026-10-11T18:49:43Z",
       "status": "expired",
@@ -816,6 +821,11 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-voice?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "1897925dbdda805e4c10e1ce": {
+      "at": "2026-10-30T19:44:46Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/lfm2"
     },
     "18e6bcadb8843f12b88e8597": {
       "at": "2026-10-28T23:38:26Z",
@@ -1872,6 +1882,20 @@
       },
       "url": "https://runway.com/research/introducing-praxis-1"
     },
+    "388094ab494b46760bdb4bbb": {
+      "at": "2026-10-30T19:44:58Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "openai-updated-model-spec-5-core-values",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://openai.com/index/updated-model-spec/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "38c445fba78be444f32b8e42": {
       "at": "2026-10-16T18:54:59Z",
       "status": "expired",
@@ -2309,6 +2333,11 @@
       "status": "ignored",
       "story_key": "black-forest-labs-about-page",
       "url": "https://bfl.ai/about"
+    },
+    "44e50d3caaed1d38598f99d6": {
+      "at": "2026-10-30T19:44:46Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/our-silly-games"
     },
     "452814709e1615f5b494d051": {
       "at": "2026-10-26T11:01:43Z",
@@ -4044,6 +4073,11 @@
       },
       "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
     },
+    "7f62040b7839cc06f4fef05f": {
+      "at": "2026-10-30T19:44:46Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/voxel51"
+    },
     "7fa30abfca2c7ff1033a152c": {
       "at": "2026-10-21T00:10:29Z",
       "bootstrap": false,
@@ -4180,6 +4214,11 @@
       "status": "ignored",
       "story_key": "llama-cpp-b11680-hexagon-updates",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11680"
+    },
+    "8333c89d9d7c203a0369214c": {
+      "at": "2026-10-30T19:44:46Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/"
     },
     "833bda6d1c7777e35dda0b14": {
       "at": "2026-10-16T06:10:22Z",
@@ -4342,6 +4381,20 @@
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
       "url": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "87a723fc5e52567f80085e63": {
+      "at": "2026-10-30T19:44:50Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "artificial-analysis-intelligence-index-v5-and-new-model-evaluations",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-a71ea192a9b885c51d27"
     },
     "87e209af624212491c44f946": {
       "at": "2026-10-05T15:57:08Z",
@@ -6729,6 +6782,14 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00025"
     },
+    "d69e0929ed6bd473916daabb": {
+      "at": "2026-10-30T19:44:54Z",
+      "bootstrap": false,
+      "score": 30,
+      "status": "ignored",
+      "story_key": "nous-research-neon-sign-giveaway",
+      "url": "https://x.com/NousResearch/status/2115996033326969135"
+    },
     "d6b9f5e651b1891e950e0096": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -7857,6 +7918,14 @@
       },
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0"
     },
+    "f72df97946b46859156ccb6c": {
+      "at": "2026-10-30T19:44:53Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "nous-research-nouscon-2026",
+      "url": "https://x.com/NousResearch/status/2116152083145482670"
+    },
     "f7595b9269d08c84dbe392da": {
       "at": "2026-10-20T07:30:12Z",
       "bootstrap": false,
@@ -8039,6 +8108,11 @@
         "source": "FutureTools AI News"
       },
       "url": "https://www.anthropic.com/research/investigating-unintended-model-actions?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "fe6c8212a1cce378584e2e9a": {
+      "at": "2026-10-30T19:44:46Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11934"
     },
     "fedef723b1959221b5c5a68b": {
       "at": "2026-10-23T01:00:32Z",
@@ -8713,6 +8787,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Artificial Analysis Launches Cyber Index with OpenAI's GPT-6 Sol Leading Enterprise Defense Evaluation",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
+    "artificial-analysis-intelligence-index-v5-and-new-model-evaluations": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-intelligence-index-v5-and-new-model-evaluations.jpg",
+      "last_updated": "2026-10-30T19:44:50Z",
+      "post_id": "5103141835273532434",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/artificial-analysis-launches_01592885644.html",
+      "score": 88,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-a71ea192a9b885c51d27"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Launches Intelligence Index v5 Alongside New Frontier Model Evaluations",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
@@ -12395,6 +12490,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "OpenAI News"
+      }
+    },
+    "openai-updated-model-spec-5-core-values": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openai-updated-model-spec-5-core-values.png",
+      "last_updated": "2026-10-30T19:44:58Z",
+      "post_id": "649920148284945234",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-updates-model-spec-with-5-core.html",
+      "score": 85,
+      "source_image_source": "EdgeAI",
+      "source_image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/edgeai-newsroom-fallback.svg",
+      "source_urls": [
+        "https://openai.com/index/updated-model-spec/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Updates Model Spec With 5 Core Values to Guide AI Behavior",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "openai-updated-model-spec-october-2026": {

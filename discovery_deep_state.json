@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-31T12:57:59Z",
+    "at": "2026-10-31T17:41:14Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 5,
-    "queued": 7,
+    "prefiltered": 1,
+    "queued": 0,
     "sources_ok": 15,
-    "too_old": 7,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 150,
+  "runs": 151,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -5408,6 +5408,12 @@
       "status": "queued",
       "url": "https://elevenlabs.io/blog/introducing-music-v2"
     },
+    "c64f78c0cd9ff654c3ef1eae": {
+      "first_seen": "2026-10-31T17:41:09Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/awaitio"
+    },
     "c68c09911d8d7e6536d6ff08": {
       "first_seen": "2026-10-23T00:13:06Z",
       "status": "queued",
@@ -5672,6 +5678,11 @@
       "first_seen": "2026-10-08T01:53:48Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107975473229918360"
+    },
+    "d1e4fc753882c19d032ee5b7": {
+      "first_seen": "2026-10-31T17:41:09Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/knucklebop"
     },
     "d1e512dab3854dc0079a0149": {
       "first_seen": "2026-10-07T02:36:56Z",

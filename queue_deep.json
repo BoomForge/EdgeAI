@@ -2116,20 +2116,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "c706b8884b6bc82406c5b770",
-      "discovered_at": "2026-10-18T05:50:47Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-17T13:16:49+00:00",
-      "search_score": 4,
-      "source_name": "Simon Willison Everything",
-      "summary": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek",
-      "title": "web-edit 0.1a2",
-      "url": "https://simonwillison.net/2026/Oct/17/web-edit/"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "06699af95cca22f84eccf11b",
       "discovered_at": "2026-10-28T20:28:26Z",
       "kind": "signal",
@@ -3502,6 +3488,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-10-31T12:57:59Z",
+  "updated_at": "2026-10-31T17:41:14Z",
   "version": 2
 }

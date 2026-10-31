@@ -62,12 +62,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-31T02:39:10Z",
-    "eligible": 53,
-    "evaluated": 2,
+    "at": "2026-10-31T08:57:16Z",
+    "eligible": 56,
+    "evaluated": 5,
     "mode": "live",
-    "new_posts": 2,
-    "publish_actions": 2,
+    "new_posts": 1,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -731,6 +731,14 @@
       "status": "ignored",
       "story_key": "llamacpp-release-b11828",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11828"
+    },
+    "1683f2ccf0f83b8267821638": {
+      "at": "2026-10-31T08:57:14Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b12002-batched-tensor-copy",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12002"
     },
     "168c75ff3ed8568a3b7658f4": {
       "at": "2026-10-29T09:51:15Z",
@@ -2278,6 +2286,14 @@
       "status": "expired",
       "url": "https://portal.nousresearch.com/cloud"
     },
+    "41322113f01bdfbabda154e7": {
+      "at": "2026-10-31T08:57:08Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "nous-research-october-2026-recap",
+      "url": "https://x.com/NousResearch/status/2116402350680420626"
+    },
     "41625591abfe53de1f2e0694": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -2989,6 +3005,14 @@
         "source": "Simon Willison Everything"
       },
       "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/"
+    },
+    "5b54c8b32918ef98ebf957e2": {
+      "at": "2026-10-31T08:57:16Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "llamacpp-b12019-routine-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12019"
     },
     "5c2906c99bce192f35f89c35": {
       "at": "2026-10-10T07:33:39Z",
@@ -4401,6 +4425,14 @@
       "at": "2026-10-17T22:34:49Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/crew-tower"
+    },
+    "85f94c0fe8f02a81789bf108": {
+      "at": "2026-10-31T08:57:06Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "openai-credit-saison-chatgpt-enterprise-case-study",
+      "url": "https://openai.com/index/credit-saison"
     },
     "86745252420db89333393bf9": {
       "at": "2026-10-05T22:35:25Z",
@@ -6423,6 +6455,20 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38219"
+    },
+    "c6ddd1df0055a2cbd09685d4": {
+      "at": "2026-10-31T08:57:13Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "doordash-ai-agent-orders-q3-2026",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "c6df618ecceffebff6e3e3e2": {
       "at": "2026-10-10T13:59:33Z",
@@ -9613,6 +9659,27 @@
       ],
       "status": "CONFIRMED",
       "title": "DeepSeek Launches V4.1-Flash-1017 with RL-Powered Coding and Open-Source Weights",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      }
+    },
+    "doordash-ai-agent-orders-q3-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/doordash-ai-agent-orders-q3-2026.jpg",
+      "last_updated": "2026-10-31T08:57:13Z",
+      "post_id": "7459004629716090148",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/doordash-reports-only-several-hundred.html",
+      "score": 82,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1232015093.jpg?resize=1200,800",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "DoorDash Reports Only 'Several Hundred' AI Agent Orders Against 3 Million Daily Deliveries",
       "trust": {
         "label": "Reasonable",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",

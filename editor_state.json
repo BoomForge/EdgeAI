@@ -62,12 +62,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-31T19:27:36Z",
-    "eligible": 50,
-    "evaluated": 4,
+    "at": "2026-10-31T22:42:08Z",
+    "eligible": 37,
+    "evaluated": 5,
     "mode": "live",
-    "new_posts": 2,
-    "publish_actions": 2,
+    "new_posts": 1,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -263,10 +263,29 @@
       "story_key": "openai-americas-sbdc-small-business-partnership",
       "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
     },
+    "06699af95cca22f84eccf11b": {
+      "at": "2026-10-31T22:41:57Z",
+      "status": "expired",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "073a7f531b0d61699fba6957": {
       "at": "2026-10-05T22:35:25Z",
       "status": "expired",
       "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.43"
+    },
+    "075bedb59aa65277e6f3d594": {
+      "at": "2026-10-31T22:42:01Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "gemini-app-inline-file-editing-docs-spreadsheets",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "0774b1f3d1a85ad1b7dd6b91": {
       "at": "2026-10-22T10:26:44Z",
@@ -1254,6 +1273,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00012"
     },
+    "2470103ec24de37bc8a60001": {
+      "at": "2026-10-31T22:41:57Z",
+      "status": "expired",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "24da2b7e99224f26ab55331f": {
       "at": "2026-10-11T07:07:51Z",
       "bootstrap": false,
@@ -1999,6 +2023,14 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11381"
     },
+    "3b6828e3e93cf644113db63d": {
+      "at": "2026-10-31T22:42:03Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "llama-cpp-sycl-dpas-flash-attention",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11980"
+    },
     "3b73f4822ea0b3c87593c1f4": {
       "at": "2026-10-03T04:44:14Z",
       "bootstrap": true,
@@ -2480,6 +2512,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1"
+    },
+    "48cef287f1df3693668d704e": {
+      "at": "2026-10-31T22:41:57Z",
+      "status": "expired",
+      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "48dbc11a26c33e597fb890d1": {
       "at": "2026-10-11T00:57:14Z",
@@ -3676,6 +3713,14 @@
       "status": "expired",
       "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "6d508a898eb83dcd9a252964": {
+      "at": "2026-10-31T22:42:06Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "llamacpp-b12008-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12008"
+    },
     "6d642c53db62ecac4b0b4b6c": {
       "at": "2026-10-11T07:07:40Z",
       "status": "expired",
@@ -3959,6 +4004,14 @@
         "source": "Hugging Face Transformers Releases"
       },
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.0"
+    },
+    "75ead2ddb1ad56a77a1767ea": {
+      "at": "2026-10-31T22:42:08Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llama-cpp-b11977-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11977"
     },
     "7613bbebfcfc0377de3b6fb6": {
       "at": "2026-10-19T23:52:39Z",
@@ -4460,6 +4513,11 @@
       "at": "2026-10-17T22:34:49Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/crew-tower"
+    },
+    "85ee538edffbff66fe347823": {
+      "at": "2026-10-31T22:41:57Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/immersive-explorations-student-hub/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "85f94c0fe8f02a81789bf108": {
       "at": "2026-10-31T08:57:06Z",
@@ -4967,6 +5025,11 @@
       "status": "ignored",
       "story_key": "llamacpp-b11557-rpc-logging-update",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11557"
+    },
+    "9432d5bf37fbe23e8ef2ef85": {
+      "at": "2026-10-31T22:41:57Z",
+      "status": "expired",
+      "url": "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "94eadcab22c41e356a1d9bf1": {
       "at": "2026-10-16T01:19:19Z",
@@ -5594,6 +5657,11 @@
       "story_key": "openai-teachers-day-study-mode-portuguese",
       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions"
     },
+    "a6217278f0a8b1134ac59df9": {
+      "at": "2026-10-31T22:41:57Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "a71c5ae2a139be813758bc08": {
       "at": "2026-10-31T15:17:29Z",
       "bootstrap": false,
@@ -5759,6 +5827,11 @@
       "status": "ignored",
       "story_key": "llamacpp-b11707-granite-switch",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11707"
+    },
+    "ac0fa92fff55b540304bdda0": {
+      "at": "2026-10-31T22:41:57Z",
+      "status": "expired",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "ac41f4531fca042f6f8aec42": {
       "at": "2026-10-05T07:01:46Z",
@@ -7593,6 +7666,11 @@
       },
       "url": "https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "e55265af33923ffb0e86d403": {
+      "at": "2026-10-31T22:41:57Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "e5bcb2cb64abc07d062a2970": {
       "at": "2026-10-18T00:26:51Z",
       "bootstrap": false,
@@ -7731,6 +7809,14 @@
       "at": "2026-10-03T14:57:13Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.4.0"
+    },
+    "ea8f2dedf20d8e4b5295a047": {
+      "at": "2026-10-31T22:42:04Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11976-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11976"
     },
     "ea92da5c121ecb4527027c2b": {
       "at": "2026-10-21T22:17:52Z",
@@ -8078,6 +8164,11 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-updates-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-3f60d53becd0c25f66c1"
+    },
+    "f524cbb159f9c93c3143e9ed": {
+      "at": "2026-10-31T22:41:57Z",
+      "status": "expired",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world?utm_source=futuretools.io&utm_medium=newspage"
     },
     "f57c46bf1463a1b4ffd18591": {
       "at": "2026-10-07T19:56:51Z",
@@ -10014,6 +10105,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 91,
         "source": "Simon Willison Everything"
+      }
+    },
+    "gemini-app-inline-file-editing-docs-spreadsheets": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/gemini-app-inline-file-editing-docs-spreadsheets.jpg",
+      "last_updated": "2026-10-31T22:42:01Z",
+      "post_id": "6067976150077317753",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/gemini-app-adds-in-chat-generation.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/fileGen2.0-thumbnail-resize.max-1440x810.png",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Gemini App Adds In-Chat Generation, Preview, and Direct Editing for Documents, PDFs, and Spreadsheets",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "google-gemini-4-argon": {

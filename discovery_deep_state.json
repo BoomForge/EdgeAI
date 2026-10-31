@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-30T21:08:26Z",
+    "at": "2026-10-31T00:48:13Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 4,
+    "queued": 3,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 147,
+  "runs": 148,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -117,6 +117,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://portal.nousresearch.com/"
+    },
+    "050e5c2e4a55398eb3f82370": {
+      "first_seen": "2026-10-31T00:48:07Z",
+      "status": "queued",
+      "url": "https://www.seroundtable.com/google-ai-training-control-42430.html?utm_source=futuretools.io&utm_medium=newspage"
     },
     "0529548a3e43aded8444ddee": {
       "first_seen": "2026-10-07T09:23:03Z",
@@ -1609,6 +1614,11 @@
       "first_seen": "2026-10-03T00:46:02Z",
       "status": "queued",
       "url": "https://qwenlm.github.io/blog/qwen3guard/"
+    },
+    "3b8361d079acb9cc9e2ee8bd": {
+      "first_seen": "2026-10-31T00:48:08Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/30/nesformer/"
     },
     "3c10e85f161e3d1d1b6983cc": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -5524,6 +5534,11 @@
       "first_seen": "2026-10-25T05:23:22Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2114169327968469133"
+    },
+    "d01baf0ae89ac1fa2386bda0": {
+      "first_seen": "2026-10-31T00:48:07Z",
+      "status": "queued",
+      "url": "https://openai.com/index/fair-use-benefits-everyone/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "d09fd65332f82cfcb2b3597b": {
       "first_seen": "2026-10-13T10:55:50Z",

@@ -62,11 +62,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-30T23:18:01Z",
-    "eligible": 59,
+    "at": "2026-10-31T02:39:10Z",
+    "eligible": 53,
     "evaluated": 2,
     "mode": "live",
-    "new_posts": 1,
+    "new_posts": 2,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -1048,6 +1048,11 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/"
     },
+    "1d810bfe409cd0323759ff72": {
+      "at": "2026-10-31T02:39:02Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11945"
+    },
     "1dbe22633003a2af4fddcdba": {
       "at": "2026-10-20T02:11:02Z",
       "bootstrap": false,
@@ -1906,6 +1911,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11588"
     },
+    "391b2a19b716d7dde3fba439": {
+      "at": "2026-10-31T02:39:02Z",
+      "status": "expired",
+      "url": "https://openrouter.ai/rankings#edgeai-019226d06ff2b072c0b5"
+    },
     "39a2c26df5548ff5b1c5ffa0": {
       "at": "2026-10-23T06:00:00Z",
       "bootstrap": false,
@@ -2374,6 +2384,11 @@
       },
       "url": "https://x.com/NousResearch/status/2113010017645244623"
     },
+    "459fa697a2c152c84a58eeb8": {
+      "at": "2026-10-31T02:39:02Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11938"
+    },
     "45d6a2b79938283a07ca47b3": {
       "at": "2026-10-09T10:27:41Z",
       "bootstrap": false,
@@ -2824,6 +2839,20 @@
         "source": "Nous Research Announcements"
       },
       "url": "https://x.com/NousResearch/status/2107592258216206497"
+    },
+    "574dbaf7fc8731e405753fdd": {
+      "at": "2026-10-31T02:39:06Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "openai-fair-use-court-briefs-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/fair-use-benefits-everyone"
     },
     "57c07d00a31145ec21b39186": {
       "at": "2026-10-20T21:33:47Z",
@@ -3362,6 +3391,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00009"
     },
+    "6747d723bcd58ba07990e6b0": {
+      "at": "2026-10-31T02:39:02Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11940"
+    },
     "6748773ad13d989a528248b7": {
       "at": "2026-10-29T16:27:11Z",
       "status": "expired",
@@ -3663,6 +3697,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/opencharm"
     },
+    "70cb93cbb6c0b3547f5bdd50": {
+      "at": "2026-10-31T02:39:02Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/dedica"
+    },
     "70f208402007233aa8a8af60": {
       "at": "2026-10-30T01:15:59Z",
       "bootstrap": false,
@@ -3937,6 +3976,11 @@
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
       "url": "https://openrouter.ai/rankings#edgeai-eb975ed2c7e8867d6111"
+    },
+    "79326e62ecc4a5d82e44ef35": {
+      "at": "2026-10-31T02:39:02Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11944"
     },
     "79496cdb25d507d2bc6e03cf": {
       "at": "2026-10-08T23:51:05Z",
@@ -5525,6 +5569,20 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-updates-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-9306a718d8b1bf40a8c0"
+    },
+    "a86d24c59c826150d16deb11": {
+      "at": "2026-10-31T02:39:10Z",
+      "bootstrap": false,
+      "score": 86,
+      "status": "published",
+      "story_key": "openai-community-safety-report-teen-protections-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens"
     },
     "a8b8c31de898145e14c82e5a": {
       "at": "2026-10-14T23:30:26Z",
@@ -7486,6 +7544,11 @@
       "at": "2026-10-23T05:59:56Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/lugh-xtudio"
+    },
+    "e8c798b49e967c6df9450800": {
+      "at": "2026-10-31T02:39:02Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11941"
     },
     "e8e969fb649a6a4765a72a84": {
       "at": "2026-10-24T05:47:37Z",
@@ -11766,6 +11829,27 @@
         "source": "OpenAI News"
       }
     },
+    "openai-community-safety-report-teen-protections-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-community-safety-report-teen-protections-2026.jpg",
+      "last_updated": "2026-10-31T02:39:10Z",
+      "post_id": "4236653246757436791",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-announces-community-safety.html",
+      "score": 86,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/4Bjdb6r2RnzPzTHsby9gGq/d1b04269dc8a4df875d201341fe6d254/51GTG8rZQTzq9iEcTVFvUi--seo-v003.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/community-safety-report-and-new-protections-for-teens"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Announces Community Safety Report and New Teen Protections for ChatGPT",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
     "openai-daybreak-sentinelone-malware-analysis": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-daybreak-sentinelone-malware-analysis.jpg",
@@ -11936,6 +12020,27 @@
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-fair-use-court-briefs-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-fair-use-court-briefs-2026.jpg",
+      "last_updated": "2026-10-31T02:39:06Z",
+      "post_id": "7509319587058371530",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-publishes-amicus-brief-excerpts.html",
+      "score": 82,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/40dN0khAbqCa0KpP5e4879/5d3e710f50e44711bc40ca55c175726a/fair-use-benefits-everyone-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/fair-use-benefits-everyone"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Publishes Amicus Brief Excerpts Highlighting Legal Defense for AI Training Under Fair Use",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
         "source": "OpenAI News"
       }
     },

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-31T19:23:23Z",
+    "at": "2026-10-31T22:38:13Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 3,
+    "queued": 2,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 153,
+  "runs": 154,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -2497,6 +2497,11 @@
       "status": "too_old",
       "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.3.0"
     },
+    "473df08063638ec9e75d955e": {
+      "first_seen": "2026-10-31T22:37:49Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12024"
+    },
     "47e7af736bb5157b7b07b06e": {
       "first_seen": "2026-10-27T06:24:39Z",
       "status": "queued",
@@ -2521,6 +2526,11 @@
       "first_seen": "2026-10-20T15:11:37Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11755"
+    },
+    "487491ce55e4cfbc6c7eb46e": {
+      "first_seen": "2026-10-31T22:37:49Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12025"
     },
     "488f7e0cba92c726474e4da7": {
       "first_seen": "2026-10-16T05:36:35Z",

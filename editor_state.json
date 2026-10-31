@@ -62,12 +62,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-31T15:17:29Z",
-    "eligible": 55,
-    "evaluated": 5,
+    "at": "2026-10-31T19:27:36Z",
+    "eligible": 50,
+    "evaluated": 4,
     "mode": "live",
-    "new_posts": 1,
-    "publish_actions": 1,
+    "new_posts": 2,
+    "publish_actions": 2,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -2017,6 +2017,20 @@
       "at": "2026-10-11T07:07:40Z",
       "status": "expired",
       "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.45"
+    },
+    "3b8361d079acb9cc9e2ee8bd": {
+      "at": "2026-10-31T19:27:33Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "dbreunig-nesformer-qwen3-5-4b-nes-emulator",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
+      },
+      "url": "https://simonwillison.net/2026/Oct/30/nesformer/"
     },
     "3bc52993114bf83f7f7db85e": {
       "at": "2026-10-08T13:20:55Z",
@@ -5828,6 +5842,11 @@
       "story_key": "llm-tools-datasette-0-1-1",
       "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/"
     },
+    "ae7be6fb4f6d788b65362e27": {
+      "at": "2026-10-31T19:27:25Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11965"
+    },
     "ae8cc1ad843ebfe5fc666522": {
       "at": "2026-10-19T23:52:40Z",
       "bootstrap": false,
@@ -6779,6 +6798,20 @@
       },
       "url": "https://x.com/NousResearch/status/2114169327968469133"
     },
+    "d01baf0ae89ac1fa2386bda0": {
+      "at": "2026-10-31T19:27:36Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "openai-fair-use-court-briefs-nyt-lawsuit",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://openai.com/index/fair-use-benefits-everyone/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "d01ebd3c72db89b95dfc9a57": {
       "at": "2026-10-10T18:31:36Z",
       "status": "expired",
@@ -7206,6 +7239,14 @@
       "status": "ignored",
       "story_key": "nous-research-unbroker-skill-hermes-agent",
       "url": "https://x.com/NousResearch/status/2114530795868373035"
+    },
+    "dd04e48f1b3ea63215de48ac": {
+      "at": "2026-10-31T19:27:27Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "llamacpp-b11979-sycl-vectorization",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11979"
     },
     "dd052aeea45239ae007e7bd2": {
       "at": "2026-10-03T04:46:58Z",
@@ -7681,6 +7722,11 @@
       },
       "url": "https://artificialanalysis.ai/changelog#edgeai-fbc099ea16b6dac2e560"
     },
+    "e9a7a10b5a66f3aae2c27a45": {
+      "at": "2026-10-31T19:27:25Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/"
+    },
     "e9ede36adeaed46d0feaf80e": {
       "at": "2026-10-03T14:57:13Z",
       "status": "expired",
@@ -7731,6 +7777,11 @@
         "source": "ComfyUI Releases"
       },
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.0"
+    },
+    "ebb2facf6c17761b5fd3bd1a": {
+      "at": "2026-10-31T19:27:25Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/gemini-4-carbon"
     },
     "ebb413cc5359756bf9234b81": {
       "at": "2026-10-07T06:34:14Z",
@@ -8285,6 +8336,14 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/qwen-image-edit/"
+    },
+    "f9fdd453543028293b64ef43": {
+      "at": "2026-10-31T19:27:29Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "llamacpp-b11972-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11972"
     },
     "fa45708d3db66482b785a49c": {
       "at": "2026-10-06T02:32:14Z",
@@ -9699,6 +9758,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 81,
         "source": "ComfyUI Releases"
+      }
+    },
+    "dbreunig-nesformer-qwen3-5-4b-nes-emulator": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/dbreunig-nesformer-qwen3-5-4b-nes-emulator.png",
+      "last_updated": "2026-10-31T19:27:33Z",
+      "post_id": "427677756789326869",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/developer-bakes-working-nes-6502-cpu.html",
+      "score": 85,
+      "source_image_source": "EdgeAI",
+      "source_image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/edgeai-newsroom-fallback.svg",
+      "source_urls": [
+        "https://simonwillison.net/2026/Oct/30/nesformer/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Developer Bakes Working NES 6502 CPU Emulator Into Qwen3.5-4B Model Weights",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
       }
     },
     "deepseek-v4-1-flash-1017-rl-coding-open-source": {
@@ -12165,6 +12245,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 94,
         "source": "OpenAI News"
+      }
+    },
+    "openai-fair-use-court-briefs-nyt-lawsuit": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-fair-use-court-briefs-nyt-lawsuit.jpg",
+      "last_updated": "2026-10-31T19:27:36Z",
+      "post_id": "7549779002840085707",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-highlights-amicus-briefs.html",
+      "score": 82,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/40dN0khAbqCa0KpP5e4879/5d3e710f50e44711bc40ca55c175726a/fair-use-benefits-everyone-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/fair-use-benefits-everyone/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Highlights Amicus Briefs Supporting Fair Use in NYT Copyright Lawsuit",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
       }
     },
     "openai-fired-safety-researchers-open-letter": {

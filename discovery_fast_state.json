@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-30T23:31:50Z",
+    "at": "2026-10-31T02:42:49Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 3,
+    "prefiltered": 0,
+    "queued": 1,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 149,
+  "runs": 150,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -4933,6 +4933,11 @@
       "first_seen": "2026-10-22T07:18:23Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.28977"
+    },
+    "9200df5baf557a246abba9f1": {
+      "first_seen": "2026-10-31T02:42:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12018"
     },
     "9211d3bdcf0f051d19d2d8d9": {
       "first_seen": "2026-10-03T00:45:52Z",

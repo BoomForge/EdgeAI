@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-31T15:11:48Z",
+    "at": "2026-10-31T19:23:23Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 0,
+    "queued": 3,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 152,
+  "runs": 153,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -669,6 +669,11 @@
       "first_seen": "2026-10-08T07:31:26Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11485"
+    },
+    "1425814562bfef646e9be65f": {
+      "first_seen": "2026-10-31T19:22:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12023"
     },
     "1441ff2ab9fdc9be50b63e1f": {
       "first_seen": "2026-10-03T00:46:21Z",
@@ -2053,6 +2058,11 @@
       "first_seen": "2026-10-27T06:24:40Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.33057"
+    },
+    "3c8b5950ac5e09ec0c754e4a": {
+      "first_seen": "2026-10-31T19:22:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12022"
     },
     "3c8d7bec4403e1832356f931": {
       "first_seen": "2026-10-18T17:09:49Z",
@@ -7043,6 +7053,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2609.38203"
+    },
+    "d080c6ac1d8d84161418018b": {
+      "first_seen": "2026-10-31T19:22:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12021"
     },
     "d0840b9daa9097a44dcda9e3": {
       "first_seen": "2026-10-03T00:46:05Z",

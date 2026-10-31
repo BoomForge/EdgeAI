@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-10-31T20:41:59Z",
+    "at": "2026-10-31T23:48:33Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 0,
+    "queued": 1,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 152,
+  "runs": 153,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -4457,6 +4457,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://bfl.ai/models/flux-tools"
+    },
+    "a181817ce8345f3ad63c0dce": {
+      "first_seen": "2026-10-31T23:48:28Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/"
     },
     "a1c3614f9f04bf282d6eb487": {
       "first_seen": "2026-10-19T10:44:24Z",

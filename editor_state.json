@@ -62,8 +62,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-10-31T08:57:16Z",
-    "eligible": 56,
+    "at": "2026-10-31T15:17:29Z",
+    "eligible": 55,
     "evaluated": 5,
     "mode": "live",
     "new_posts": 1,
@@ -1490,6 +1490,11 @@
       "story_key": "llamacpp-b11803-flint-model",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11803"
     },
+    "2cf23206607f40daee574c46": {
+      "at": "2026-10-31T15:17:18Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/"
+    },
     "2d1ba5f9cd87f735ba5c106b": {
       "at": "2026-10-08T13:20:55Z",
       "status": "expired",
@@ -2502,6 +2507,14 @@
       },
       "url": "https://simonwillison.net/2026/Oct/29/api-credits/"
     },
+    "4a32d2fe895871688c404872": {
+      "at": "2026-10-31T15:17:24Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11988-limite-support",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11988"
+    },
     "4a5f898dc42901e71f0a0e30": {
       "at": "2026-10-16T06:10:14Z",
       "bootstrap": false,
@@ -2841,6 +2854,14 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00126"
+    },
+    "573619c5eac5583810b68de7": {
+      "at": "2026-10-31T15:17:23Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "mistral-large-4-venturebeat",
+      "url": "https://venturebeat.com/technology/mistral-large-4-le-chonk-arrives-as-the-top-open-model-outside-china-with-improved-coding-performance-and-63-lower-cost-per-task?utm_source=futuretools.io&utm_medium=newspage"
     },
     "573f30c6a916bb5e735b4a6b": {
       "at": "2026-10-08T13:21:23Z",
@@ -4828,6 +4849,11 @@
       },
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
     },
+    "902ef6036dced0f250f729a0": {
+      "at": "2026-10-31T15:17:18Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/mao-multi-agentic-orchestration-tool"
+    },
     "9078aa1bd544b4445eb62e23": {
       "at": "2026-10-29T16:28:17Z",
       "bootstrap": false,
@@ -5554,6 +5580,20 @@
       "story_key": "openai-teachers-day-study-mode-portuguese",
       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions"
     },
+    "a71c5ae2a139be813758bc08": {
+      "at": "2026-10-31T15:17:29Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-layered-monitoring-system-frontier-model-misalignment",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "a71ec5cbee250906eb18bc41": {
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
@@ -5872,6 +5912,14 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
+    },
+    "b15bec59cff16399bd340ec4": {
+      "at": "2026-10-31T15:17:20Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "llamacpp-b12007-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12007"
     },
     "b23a71d2dca41cfabb3715eb": {
       "at": "2026-10-06T02:32:14Z",
@@ -7062,6 +7110,14 @@
       "status": "ignored",
       "story_key": "llamacpp-b11847-hip-fix",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11847"
+    },
+    "d9382542407a53db42bdda13": {
+      "at": "2026-10-31T15:17:21Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b11998-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11998"
     },
     "d948735545c20cf3072195db": {
       "at": "2026-10-30T07:33:37Z",
@@ -12369,6 +12425,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "OpenAI News"
+      }
+    },
+    "openai-layered-monitoring-system-frontier-model-misalignment": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-layered-monitoring-system-frontier-model-misalignment.jpg",
+      "last_updated": "2026-10-31T15:17:29Z",
+      "post_id": "4196659279341476766",
+      "post_url": "https://edgeainews.blogspot.com/2026/10/openai-deploys-layered-monitoring.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/5gtjUYZjCpVMAAv0AbX0Cs/510ae35e592775228a8ef7b7f0911237/how-we-detect-frontier-model-misalignment-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/how-we-detect-frontier-model-misalignment/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Deploys Layered Monitoring System to Catch Frontier Model Misalignment",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "openai-low-resource-programming-languages-multilangbench": {

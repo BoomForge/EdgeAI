@@ -62,12 +62,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-01T07:58:56Z",
-    "eligible": 25,
+    "at": "2026-11-01T15:02:27Z",
+    "eligible": 22,
     "evaluated": 5,
     "mode": "live",
-    "new_posts": 0,
-    "publish_actions": 0,
+    "new_posts": 1,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -2441,6 +2441,14 @@
       "at": "2026-10-30T19:44:46Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/our-silly-games"
+    },
+    "4523764d8b03449e5e0ae8ce": {
+      "at": "2026-11-01T15:02:27Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b12029-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12029"
     },
     "452814709e1615f5b494d051": {
       "at": "2026-10-26T11:01:43Z",
@@ -5065,6 +5073,11 @@
       "story_key": "nous-research-dolores-park-meetup",
       "url": "https://x.com/NousResearch/status/2112260376469422586"
     },
+    "9322e185e9660553dc4f6512": {
+      "at": "2026-11-01T15:01:55Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/speakon"
+    },
     "9330ae30d1053d8c5efb2029": {
       "at": "2026-10-13T03:56:46Z",
       "bootstrap": false,
@@ -5148,6 +5161,11 @@
       "at": "2026-10-23T15:52:04Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/realtime-max-mini"
+    },
+    "95cafd4597e819bbe57ba74c": {
+      "at": "2026-11-01T15:01:55Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/"
     },
     "95dedf578de78f3ec264f66e": {
       "at": "2026-10-21T18:59:08Z",
@@ -5817,6 +5835,14 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens"
+    },
+    "a8925f4efcefde3be94aab20": {
+      "at": "2026-11-01T15:02:04Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b12027-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12027"
     },
     "a8b8c31de898145e14c82e5a": {
       "at": "2026-10-14T23:30:26Z",
@@ -7933,6 +7959,14 @@
       },
       "url": "https://openai.com/index/building-chatgpt-ad-stack"
     },
+    "ead7839c97ed82a0c3152162": {
+      "at": "2026-11-01T15:02:06Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b12032-routine-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12032"
+    },
     "eb5388f6b69cd3b42046c2ed": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -8016,6 +8050,20 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2609.38197"
+    },
+    "ee089bed34253d92bb05313f": {
+      "at": "2026-11-01T15:02:18Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "llama-cpp-b12031-opencl-iq3-adreno",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
+      },
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12031"
     },
     "ee4c22366ef7e7abd786b0a4": {
       "at": "2026-10-23T19:35:05Z",
@@ -8167,6 +8215,14 @@
         "source": "FutureTools AI News"
       },
       "url": "https://api-docs.deepseek.com/news/news261017/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "f222e592011d6aae0495cb86": {
+      "at": "2026-11-01T15:02:20Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "llamacpp-b12030-hexagon-dma-fix",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12030"
     },
     "f230893cf53ac02df16742a3": {
       "at": "2026-10-08T23:51:05Z",
@@ -10714,6 +10770,27 @@
       ],
       "status": "CONFIRMED",
       "title": "llama.cpp Release b11879 Introduces CUDA Kernel Fusion for FFN and GLU Operations",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
+      }
+    },
+    "llama-cpp-b12031-opencl-iq3-adreno": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/llama-cpp-b12031-opencl-iq3-adreno.png",
+      "last_updated": "2026-11-01T15:02:18Z",
+      "post_id": "2709298298705395961",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/llamacpp-release-b12031-adds-opencl-iq3.html",
+      "score": 82,
+      "source_image_source": "llama.cpp Releases",
+      "source_image_url": "https://opengraph.githubassets.com/a5a35f95a7390ee52df499fe27bc955b3efe96821a001009bd1e97e847c0e5f8/ggml-org/llama.cpp/releases/tag/b12031",
+      "source_urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12031"
+      ],
+      "status": "CONFIRMED",
+      "title": "llama.cpp Release b12031 Adds OpenCL IQ3 Quantization Support for Adreno GPUs",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

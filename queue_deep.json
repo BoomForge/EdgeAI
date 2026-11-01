@@ -2914,6 +2914,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "da32c1eb28451e49ed9f8fc3",
+      "discovered_at": "2026-11-01T13:14:08Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-29T14:38:31-07:00",
+      "search_score": 6,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Claude + ChatGPT limits on your Mac, iPhone, iPad and Watch Discussion | Link",
+      "title": "Usage for Claude + ChatGPT 4.0",
+      "url": "https://www.producthunt.com/products/usage-for-claude"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "5a6540f611150615aecd2bc6",
       "discovered_at": "2026-10-22T07:30:04Z",
       "kind": "signal",
@@ -3065,6 +3079,20 @@
       "summary": "The coding agent that runs on its own AI models Discussion | Link",
       "title": "Praex",
       "url": "https://www.producthunt.com/products/praex"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "079d3d0b66d1cbca47620df4",
+      "discovered_at": "2026-11-01T13:14:08Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-10-31T11:08:19-07:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "open-source multiplayer AI for teams' coding agents Discussion | Link",
+      "title": "agentmash",
+      "url": "https://www.producthunt.com/products/agentmash"
     },
     {
       "bootstrap": false,
@@ -3446,48 +3474,34 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "5c2aa7ee55f026662c4deb35",
-      "discovered_at": "2026-10-30T09:55:37Z",
+      "candidate_id": "ffe45d4a1971a1f43863954d",
+      "discovered_at": "2026-11-01T13:14:08Z",
       "kind": "signal",
       "lane": "deep",
       "priority": 3,
-      "published": "2026-10-29T10:54:14-07:00",
+      "published": "2026-10-30T00:01:40-07:00",
       "search_score": 2,
       "source_name": "Product Hunt Main Feed",
-      "summary": "Bug reports your coding agent can fix from one link Discussion | Link",
-      "title": "Faylee",
-      "url": "https://www.producthunt.com/products/faylee"
+      "summary": "Build agent for your customers, run workflows, analyzed. Discussion | Link",
+      "title": "Embage",
+      "url": "https://www.producthunt.com/products/embage"
     },
     {
       "bootstrap": false,
-      "candidate_id": "480ae10d98c6d0529cfb56ef",
-      "discovered_at": "2026-10-31T12:57:54Z",
+      "candidate_id": "cc8eaf3858c34e1ebe4fb6d0",
+      "discovered_at": "2026-11-01T13:14:08Z",
       "kind": "signal",
       "lane": "deep",
       "priority": 3,
-      "published": "2026-10-29T10:41:03-07:00",
+      "published": "2026-10-29T23:24:13-07:00",
       "search_score": 2,
       "source_name": "Product Hunt Main Feed",
-      "summary": "Turn your new tab into an AI-powered workspace Discussion | Link",
-      "title": "BaseTab AI",
-      "url": "https://www.producthunt.com/products/basetab-ai"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "7ddf0d3de558cc05d76b4ae1",
-      "discovered_at": "2026-10-29T23:29:40Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-28T16:47:45-07:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Share the whole agent run, not a screenshot Discussion | Link",
-      "title": "Flatbread",
-      "url": "https://www.producthunt.com/products/flatbread"
+      "summary": "Your coding agent, in the notch Discussion | Link",
+      "title": "Termy",
+      "url": "https://www.producthunt.com/products/termy-6ded6eb5-533c-4df5-a4f6-94b97ed8ca62"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-01T05:55:25Z",
+  "updated_at": "2026-11-01T13:14:12Z",
   "version": 2
 }

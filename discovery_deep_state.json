@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-01T05:55:25Z",
+    "at": "2026-11-01T13:14:12Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 1,
+    "prefiltered": 6,
+    "queued": 5,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 8,
     "warnings": 0
   },
-  "runs": 154,
+  "runs": 155,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -213,6 +213,11 @@
       "first_seen": "2026-10-13T23:00:42Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-20d470951bb41b38113b"
+    },
+    "079d3d0b66d1cbca47620df4": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/agentmash"
     },
     "07dffacc5be464373897633e": {
       "first_seen": "2026-10-08T16:26:00Z",
@@ -432,6 +437,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2108005475895701712"
     },
+    "10569ba3aeac595da9715d84": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/click-6"
+    },
     "106dbca835aa2a7088b7ac94": {
       "first_seen": "2026-10-10T16:21:13Z",
       "status": "too_old",
@@ -505,6 +515,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/kishi-notch"
+    },
+    "12a19b2e82c614ad6032d1ab": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/cutcat"
     },
     "12aa44c67aba2f4c93212dfa": {
       "first_seen": "2026-10-13T10:55:50Z",
@@ -641,6 +656,11 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-3e1c72d550f22f51a99c"
     },
+    "16fcb58d07664047845acd92": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/riverside-fm"
+    },
     "1716c6d9d7e9eae3344aad7c": {
       "first_seen": "2026-10-26T21:56:06Z",
       "status": "queued",
@@ -772,6 +792,12 @@
       "first_seen": "2026-10-21T23:32:24Z",
       "status": "queued",
       "url": "https://claude.com/resources/articles/claude-duet?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "1af1728363afbbad0c523527": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/chorin-ora-et-labora"
     },
     "1af55907a2b2a8303774f9c2": {
       "first_seen": "2026-10-07T09:23:03Z",
@@ -1755,6 +1781,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/contextgem"
     },
+    "3f8abf82bd643f9564db08c6": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/raah-dev"
+    },
     "3fd780cf9f0f9d8af472aa01": {
       "first_seen": "2026-10-08T21:27:35Z",
       "status": "queued",
@@ -1894,6 +1925,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/9/ttok/"
     },
+    "4535162ca16f5421aa1df900": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/fluent-ai-writing-assistant-for-macos"
+    },
     "459f7fe9529784462447ea3c": {
       "first_seen": "2026-10-21T23:32:29Z",
       "status": "queued",
@@ -1931,6 +1968,11 @@
       "first_seen": "2026-10-13T18:14:14Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "47c7ef486223137ed7f5460a": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/clawsgo-science"
     },
     "47ec2c4c7bbe63ed9357c9ad": {
       "first_seen": "2026-10-21T23:32:24Z",
@@ -2564,6 +2606,11 @@
       "first_seen": "2026-10-08T21:27:34Z",
       "status": "queued",
       "url": "https://www.anthropic.com/news/2026-usage-policy-update?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "5d5e56128b033eab4f507e98": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/ideogram"
     },
     "5db9ed4d8d0e1704c4859b53": {
       "first_seen": "2026-10-08T21:27:35Z",
@@ -3330,6 +3377,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/scumble"
     },
+    "792c5a233382f0eccc01be59": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/screen-studio"
+    },
     "792f7d6a7277183232fe1363": {
       "first_seen": "2026-10-13T10:55:50Z",
       "status": "too_old",
@@ -3639,6 +3692,12 @@
       "first_seen": "2026-10-19T21:40:03Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/point-and-yap"
+    },
+    "82c5053453c051334ef38288": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/hamdori"
     },
     "8333c89d9d7c203a0369214c": {
       "first_seen": "2026-10-27T22:30:10Z",
@@ -4211,6 +4270,12 @@
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/acyclic"
+    },
+    "98394ea4805a314ba3c211df": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/beebranch"
     },
     "98759ec285d8c46ec5f9aeee": {
       "first_seen": "2026-10-16T23:59:21Z",
@@ -4958,6 +5023,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/etchv"
     },
+    "b4cc1a6a5dc7c0f117653f32": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/ernd"
+    },
     "b4f88cf2625bf543c420feee": {
       "first_seen": "2026-10-06T00:46:20Z",
       "status": "queued",
@@ -5344,6 +5415,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/concierge-by-juniors-ai"
     },
+    "c2ae6a56502c150863ca27a8": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/yuzu-sync"
+    },
     "c2b44c28b03b2b1f118db5e9": {
       "first_seen": "2026-10-23T10:24:14Z",
       "search_score": 1,
@@ -5556,6 +5632,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/"
     },
+    "cc8eaf3858c34e1ebe4fb6d0": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/termy-6ded6eb5-533c-4df5-a4f6-94b97ed8ca62"
+    },
     "ccad0e2700f01b639f503de2": {
       "first_seen": "2026-10-16T18:46:44Z",
       "search_score": 0,
@@ -5698,6 +5779,11 @@
       "first_seen": "2026-10-07T02:36:56Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/"
+    },
+    "d24154a2b9444302738c2434": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/modelpeers"
     },
     "d250ea60eb830f6a3685182e": {
       "first_seen": "2026-10-19T17:12:31Z",
@@ -5908,6 +5994,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/reset-alerts"
     },
+    "da32c1eb28451e49ed9f8fc3": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/usage-for-claude"
+    },
     "da4be82071d1150698fcb2dd": {
       "first_seen": "2026-10-25T10:01:09Z",
       "status": "too_old",
@@ -6058,6 +6149,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/dailyhub-a-quiet-workspace-for-your-day"
+    },
+    "debd5bc5a36b18d25880da4d": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/magpie-14"
     },
     "df04c3f89de2f4ce146157ef": {
       "first_seen": "2026-10-23T10:24:14Z",
@@ -6871,6 +6967,11 @@
       "first_seen": "2026-10-16T18:46:59Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2111130300638273550"
+    },
+    "ffe45d4a1971a1f43863954d": {
+      "first_seen": "2026-11-01T13:14:08Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/embage"
     }
   },
   "version": 2

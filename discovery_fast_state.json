@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-01T01:27:40Z",
+    "at": "2026-11-01T08:08:36Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 0,
+    "queued": 6,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 155,
+  "runs": 156,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -2411,6 +2411,11 @@
       "first_seen": "2026-10-21T05:49:00Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.26937"
+    },
+    "4523764d8b03449e5e0ae8ce": {
+      "first_seen": "2026-11-01T08:08:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12029"
     },
     "45457a9fbb94c90033c1db48": {
       "first_seen": "2026-10-14T10:22:27Z",
@@ -5632,6 +5637,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.30293"
     },
+    "a4cbe3ac092595fda9e3f5cd": {
+      "first_seen": "2026-11-01T08:08:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12028"
+    },
     "a4d56d187e5a9c78f5a64f22": {
       "first_seen": "2026-10-15T15:06:59Z",
       "search_score": 0,
@@ -5742,6 +5752,11 @@
       "first_seen": "2026-10-30T19:57:06Z",
       "status": "queued",
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens"
+    },
+    "a8925f4efcefde3be94aab20": {
+      "first_seen": "2026-11-01T08:08:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12027"
     },
     "a8ac830d507256c942102f31": {
       "first_seen": "2026-10-07T09:14:06Z",
@@ -7981,6 +7996,11 @@
       "status": "queued",
       "url": "https://openai.com/index/building-chatgpt-ad-stack"
     },
+    "ead7839c97ed82a0c3152162": {
+      "first_seen": "2026-11-01T08:08:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12032"
+    },
     "eaf3ddcfa2f2b6accff54d95": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "too_old",
@@ -8132,6 +8152,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2609.38197"
     },
+    "ee089bed34253d92bb05313f": {
+      "first_seen": "2026-11-01T08:08:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12031"
+    },
     "ee4c22366ef7e7abd786b0a4": {
       "first_seen": "2026-10-23T18:42:30Z",
       "status": "queued",
@@ -8277,6 +8302,11 @@
       "first_seen": "2026-10-17T12:47:08Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11709"
+    },
+    "f222e592011d6aae0495cb86": {
+      "first_seen": "2026-11-01T08:08:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12030"
     },
     "f2255dc9b461260a8ef0b0f6": {
       "first_seen": "2026-10-09T19:20:42Z",

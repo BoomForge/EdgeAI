@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-01T19:47:33Z",
+    "at": "2026-11-01T23:25:49Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 0,
+    "queued": 1,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 158,
+  "runs": 159,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -493,6 +493,11 @@
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08829"
+    },
+    "1109ea2dd595a1659c6c66f2": {
+      "first_seen": "2026-11-01T23:25:46Z",
+      "status": "queued",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.34"
     },
     "1131c79da1510707cee09823": {
       "first_seen": "2026-10-26T21:51:38Z",

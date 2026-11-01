@@ -2158,6 +2158,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "b72dc720cf78e3932741fade",
+      "discovered_at": "2026-11-01T18:29:34Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-01T16:49:04+00:00",
+      "search_score": 3,
+      "source_name": "Simon Willison Everything",
+      "summary": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion\u2014the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...] In the age of LLMs, what can maintainers do to ensure correct software and accurate documentation? Having done that work, how can they demonstrate its quality to users? \u2014 Kyle Kingsbury , Jepsen results for ParticleDB 1.1.4 Tags: kyle-kingsbury , llms , ai , generative-ai , ai-misuse",
+      "title": "Quoting Kyle Kingsbury",
+      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "2cf23206607f40daee574c46",
       "discovered_at": "2026-10-28T15:20:02Z",
       "kind": "independent",
@@ -3485,23 +3499,9 @@
       "summary": "Build agent for your customers, run workflows, analyzed. Discussion | Link",
       "title": "Embage",
       "url": "https://www.producthunt.com/products/embage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "cc8eaf3858c34e1ebe4fb6d0",
-      "discovered_at": "2026-11-01T13:14:08Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-29T23:24:13-07:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Your coding agent, in the notch Discussion | Link",
-      "title": "Termy",
-      "url": "https://www.producthunt.com/products/termy-6ded6eb5-533c-4df5-a4f6-94b97ed8ca62"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-01T13:14:12Z",
+  "updated_at": "2026-11-01T18:29:39Z",
   "version": 2
 }

@@ -62,12 +62,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-01T15:02:27Z",
-    "eligible": 22,
-    "evaluated": 5,
+    "at": "2026-11-01T19:36:57Z",
+    "eligible": 17,
+    "evaluated": 4,
     "mode": "live",
-    "new_posts": 1,
-    "publish_actions": 1,
+    "new_posts": 2,
+    "publish_actions": 2,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -244,6 +244,20 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://portal.nousresearch.com/"
+    },
+    "050e5c2e4a55398eb3f82370": {
+      "at": "2026-11-01T19:36:57Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "google-adopts-ietf-aipref-standard-robots-txt",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.seroundtable.com/google-ai-training-control-42430.html?utm_source=futuretools.io&utm_medium=newspage"
     },
     "0519b8fa6d0c3743abd360f7": {
       "at": "2026-10-05T07:01:46Z",
@@ -5618,6 +5632,20 @@
       },
       "url": "https://bfl.ai/models/flux-tools"
     },
+    "a181817ce8345f3ad63c0dce": {
+      "at": "2026-11-01T19:36:49Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "parameter-labs-chatgpt-account-takeover-exploit-html-previews",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
+      },
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/"
+    },
     "a1a40a257a9ec90ed710bd71": {
       "at": "2026-10-30T01:15:50Z",
       "status": "expired",
@@ -5722,6 +5750,14 @@
       "at": "2026-10-24T21:44:53Z",
       "status": "expired",
       "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "a4cbe3ac092595fda9e3f5cd": {
+      "at": "2026-11-01T19:36:45Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b12028-gemma-4",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12028"
     },
     "a52615d03b6849c8c0ea3f2e": {
       "at": "2026-10-03T10:41:09Z",
@@ -6222,6 +6258,14 @@
       "at": "2026-10-08T00:09:43Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11399"
+    },
+    "b72dc720cf78e3932741fade": {
+      "at": "2026-11-01T19:36:50Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "kyle-kingsbury-llm-trust-quote-simon-willison",
+      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/"
     },
     "b778f0165434de015b1547ec": {
       "at": "2026-10-03T05:49:31Z",
@@ -10311,6 +10355,27 @@
         "source": "FutureTools AI News"
       }
     },
+    "google-adopts-ietf-aipref-standard-robots-txt": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/google-adopts-ietf-aipref-standard-robots-txt.jpg",
+      "last_updated": "2026-11-01T19:36:57Z",
+      "post_id": "2810648232715674486",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/google-announces-intent-to-support-ietf.html",
+      "score": 85,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://images.seroundtable.com/google-web-pages-eoYd2U4x.jpg",
+      "source_urls": [
+        "https://www.seroundtable.com/google-ai-training-control-42430.html?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Google Announces Intent to Support IETF AIPREF Standard for Unified AI Training Controls in Robots.txt",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      }
+    },
     "google-gemini-4-argon": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/google-gemini-4-argon.jpg",
@@ -13346,6 +13411,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 83,
         "source": "OpenRouter Rankings"
+      }
+    },
+    "parameter-labs-chatgpt-account-takeover-exploit-html-previews": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/parameter-labs-chatgpt-account-takeover-exploit-html-previews.png",
+      "last_updated": "2026-11-01T19:36:49Z",
+      "post_id": "723622543926687291",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/complex-exploit-chain-demonstrates.html",
+      "score": 92,
+      "source_image_source": "EdgeAI",
+      "source_image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/edgeai-newsroom-fallback.svg",
+      "source_urls": [
+        "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Complex Exploit Chain Demonstrates Account Takeover Vulnerability in ChatGPT HTML Previews",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
       }
     },
     "php2shell-ai-discovered-vulnerability-2026": {

@@ -3460,20 +3460,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "a000a761e1c361c70f66f6de",
-      "discovered_at": "2026-10-19T10:44:24Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-18T12:13:45-07:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Run AI agents on one Mac and use its windows on another Discussion | Link",
-      "title": "Beam.win",
-      "url": "https://www.producthunt.com/products/beam-win"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "1b9191dd943341eadd7639a3",
       "discovered_at": "2026-10-31T12:57:54Z",
       "kind": "signal",
@@ -3502,6 +3488,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-01T18:29:39Z",
+  "updated_at": "2026-11-01T22:28:28Z",
   "version": 2
 }

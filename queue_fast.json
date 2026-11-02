@@ -3012,20 +3012,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "e51e7ef628a3ce1797f6ac65",
-      "discovered_at": "2026-10-19T04:18:20Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-19T02:09:04Z",
-      "search_score": 9,
-      "source_name": "llama.cpp Releases",
-      "summary": "hexagon: FLASH_ATTN_EXT improvements for longer context and SWA models ( #30731 ) hex-fa: support for masked block skipping to reduce DMA fetching hex-fa: finetuning the hmx->hvx crossover thresholds (boosting gemma-4) hex-fa: update hmx gate to account for mdev.count Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57234765 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11723",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11723"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "a8925f4efcefde3be94aab20",
       "discovered_at": "2026-11-01T08:08:12Z",
       "kind": "local-ai",
@@ -3502,6 +3488,6 @@
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-01T23:25:49Z",
+  "updated_at": "2026-11-02T02:44:22Z",
   "version": 2
 }

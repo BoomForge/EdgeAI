@@ -7,6 +7,11 @@
     "target": 30
   },
   "errors": {
+    "08cf327d10198da472d15741": {
+      "at": "2026-11-02T09:49:22Z",
+      "count": 1,
+      "last_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=25)"
+    },
     "2ca7d41d10979cb66e73ffb7": {
       "at": "2026-10-26T17:20:29Z",
       "count": 1,
@@ -62,11 +67,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-02T02:26:16Z",
-    "eligible": 8,
-    "evaluated": 5,
+    "at": "2026-11-02T09:49:55Z",
+    "eligible": 7,
+    "evaluated": 4,
     "mode": "live",
-    "new_posts": 1,
+    "new_posts": 0,
     "publish_actions": 1,
     "quota_paused": false
   },
@@ -403,6 +408,20 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-updates-october-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-06ab581d51bdb6005221"
+    },
+    "09d9685ecd507e1e1b780e67": {
+      "at": "2026-11-02T09:48:41Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "updated",
+      "story_key": "artificial-analysis-intelligence-index-v5-gemini-4-carbon",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-7a16fa14a486ca6a399e"
     },
     "0a28c215b5c05aea6d5cda4b": {
       "at": "2026-10-03T04:46:24Z",
@@ -3040,6 +3059,14 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/fair-use-benefits-everyone"
+    },
+    "577d545cafe0557e54ea13b7": {
+      "at": "2026-11-02T09:48:57Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "minimax-m3-and-m31-flash-releases",
+      "url": "https://www.minimax.io/m-plan"
     },
     "5781633f6b4d7fc8b1b64b8e": {
       "at": "2026-11-01T01:30:32Z",
@@ -6410,6 +6437,14 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11440"
     },
+    "ba7f5487aabd0bf68c238432": {
+      "at": "2026-11-02T09:49:55Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "ac-bridge-claude-code-notifications",
+      "url": "https://www.producthunt.com/products/ac-bridge"
+    },
     "baaecd55ff1b9309669cdf67": {
       "at": "2026-10-17T12:29:59Z",
       "bootstrap": false,
@@ -6428,6 +6463,14 @@
       "at": "2026-10-24T17:01:31Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8"
+    },
+    "bb4a775fef8bb56a45095040": {
+      "at": "2026-11-02T09:49:38Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "friday-work-product-hunt",
+      "url": "https://www.producthunt.com/products/friday-work"
     },
     "bc04e68ea0738a77a4404dd8": {
       "at": "2026-10-11T18:49:43Z",
@@ -9501,18 +9544,19 @@
     "artificial-analysis-intelligence-index-v5-gemini-4-carbon": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-intelligence-index-v5-gemini-4-carbon.jpg",
-      "last_updated": "2026-10-30T23:17:57Z",
+      "last_updated": "2026-11-02T09:48:41Z",
       "post_id": "5895428049479520523",
       "post_url": "https://edgeainews.blogspot.com/2026/10/artificial-analysis-launches.html",
-      "score": 92,
+      "score": 82,
       "source_image_source": "Artificial Analysis Changelog",
       "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
       "source_urls": [
         "https://artificialanalysis.ai/changelog#edgeai-8c54249bddb152d4c7f2",
-        "https://artificialanalysis.ai/changelog#edgeai-fe185384b0b8cd9fcf12"
+        "https://artificialanalysis.ai/changelog#edgeai-fe185384b0b8cd9fcf12",
+        "https://artificialanalysis.ai/changelog#edgeai-7a16fa14a486ca6a399e"
       ],
       "status": "CONFIRMED",
-      "title": "Artificial Analysis Updates Changelog with DeepSeek V4.1 Flash and Mistral Large 4 Evaluations",
+      "title": "Artificial Analysis Updates Changelog with Nanbeige4.3-33B, Gemini 4 Carbon, and DeepSeek Evaluations",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

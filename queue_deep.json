@@ -394,20 +394,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "4ed8d6fe63542c3a355d2338",
-      "discovered_at": "2026-10-19T17:12:35Z",
-      "kind": "primary",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-10-19",
-      "search_score": 42,
-      "source_name": "MiniMax Research",
-      "summary": "AI M3.1 Flash 2026-10-19 MiniMax M3.1 Flash: Redefining Agent Performance and Cost Today, we officially roll out MiniMax M3.1 Flash. As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly three times faster and reducing usage costs by 70%. Read More MiniMax Music 3.0 Music Generation 2026-08-13 MiniMax Music 3.0: Next-Generation Open-Weights, Production-Ready & Versatile Music Model Today, we are introducing MiniMax Music 3.0, our next-generation music generation model. Given a creative concept and optional lyrics, the model composes, arranges, performs, and produces a complete s Read More AI H3 2026-07-31 MiniMax H3: An Open Model Breaking the Boundaries Between Tasks and Modalities Today, we're officially launching MiniMax H3, a general-purpose omni-modal generation model. H3 can jointly understand multimodal contexts spanning text, images, video, and audio. It generates video with native stereo audio at up to 2K resolution and 15 seconds in length. Read More AI M3 2026-06-09 MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Evolutionary Search In the M3 release post, we reported the performance of the M3 model on two international mathematical olympiad benchmarks: IMO 2025 and USAMO 2026. With the MaxProof framework, M3 exceeded the human gold-medal threshold on both. This article further elaborates on our technical path toward advancing mathematical proof capabilities, including base model enhancement, verifier alignment, refinement capability building, and the design of the test-time scaling framework MaxProof. Read More AI M3 2026-06-01 MiniMax M3: Frontier Coding, 1M Context, Native Multimodality \u2014 All in One Model M3 reaches frontier capability on coding and agentic tasks, introduces the brand-new MSA (MiniMax Sparse Attention) supporting up to 1M context, and is a natively multimodal model. It is the only domestic model combining all three Frontier essentials and will be the only open-source one in this class. Read More AI Agent 2026-05-27 MiniMax Agent Team: Built for Long-Running Tasks and Continuous Evolution Today we are introducing the overall upgrade of MiniMax Agent. We have given the upgraded Agent a new name: Mavis \u2014 MiniMax as a Jarvis, your AI butler. Read More AI LLM 2026-05-26 Why Can't the MiniMax LLM Say \"Ma Jiaqi\"? Internal Investigation of Sparse Token Forgetting The MiniMax M2 series has attracted widespread attention from the developer community. This article presents our internal investigation into the sparse token forgetting phenomenon. Read More AI LLM 2026-03-18 MiniMax M2.7: Early Echoes of Self-Evolution M2.7 is MiniMax's first model deeply participating in its own evolution, excelling at software engineering, professional work, and entertainment with native Agent Teams and self-evolving capabilities. Read More AI RL 2026-02-14 Forge: Scalable Agent RL Framework and Algorithm Scaling reinforcement learning for real-world agents runs into a three-way conflict: system throughput, training stability, and agent flexibility all pull in different directions, and that tension has Read More M2.5 Model Release 2026-02-12 MiniMax M2.5: Built for Real-World Productivity. MiniMax M2.5: Built for Real-World Productivity. Read More AI Role-Play 2026-01-27 A Deep Dive into the MiniMax-M2-her Worlds to Dream, Stories to Live. How we built a Role-Play Agent for the production usage. This year marks our third year optimizing Role-Play in Talkie / Xingye. Three years is long enough for a pro Read More AI Coding 2025-12-23 MiniMax M2.1: Significantly Enhanced Multi-Language Programming, Built for Real-World Complex Tasks MiniMax M2.1 delivers industry-leading multi-language programming capabilities across Rust, Java, Go, C++, TypeScript and more, with enhanced mobile development, aesthetic web design, concise responses, and robust Agent framework generalization. Read More AI Agent 2025-10-27 MiniMax M2 & Agent: Ingenious in Simplicity MiniMax launches and open-sources M2, an agent-first model delivering top-tier coding, tool use, and deep search at 8% of Claude Sonnet's price with 2x speed. Free API and Agent product available. Read More",
-      "title": "AI M3 2026-06-09 MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Evolutionary Search In the M3 release post, we reported the performance of the M3 model on two international mathematical olympiad benchmarks: IMO 2025 an",
-      "url": "https://www.minimax.io/blog/minimax-maxproof-math-proof-evolution"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "c107d73a22627786c3dfb1b0",
       "discovered_at": "2026-10-20T10:21:01Z",
       "kind": "independent",
@@ -741,6 +727,20 @@
       "summary": "Taking Japan-Born AI Products to the World: An Interview with Sakana AI\u2019s VP of GTM",
       "title": "Taking Japan-Born AI Products to the World: An Interview with Sakana AI\u2019s VP of GTM",
       "url": "https://sakana.ai/vp-of-gtm-interview/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "1b7c18b213578bca545e72fe",
+      "discovered_at": "2026-11-02T01:54:09Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "",
+      "search_score": 8,
+      "source_name": "Sakana AI Blog",
+      "summary": "\u3010\u958b\u50ac\u30ec\u30dd\u30fc\u30c8\u3011Sakana AI\u30b7\u30f3\u30dd\u30b8\u30a6\u30e0\uff1aJ\u00fcrgen Schmidhuber\u304c\u8a9e\u308bAI\u306e\u3053\u308c\u307e\u3067\u3068\u3053\u308c\u304b\u3089\u3001\u65e5\u672c\u304b\u3089\u6311\u3080\u8a00\u8a9e\u30e2\u30c7\u30eb\u30fb\u4e16\u754c\u30e2\u30c7\u30eb\u30fbPhysical AI",
+      "title": "\u3010\u958b\u50ac\u30ec\u30dd\u30fc\u30c8\u3011Sakana AI\u30b7\u30f3\u30dd\u30b8\u30a6\u30e0\uff1aJ\u00fcrgen Schmidhuber\u304c\u8a9e\u308bAI\u306e\u3053\u308c\u307e\u3067\u3068\u3053\u308c\u304b\u3089\u3001\u65e5\u672c\u304b\u3089\u6311\u3080\u8a00\u8a9e\u30e2\u30c7\u30eb\u30fb\u4e16\u754c\u30e2\u30c7\u30eb\u30fbPhysical AI",
+      "url": "https://sakana.ai/symposium-2026/"
     },
     {
       "bootstrap": false,
@@ -1598,20 +1598,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "9d2417f40cde50f04449dce6",
-      "discovered_at": "2026-10-19T00:11:45Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-18T23:16:16+00:00",
-      "search_score": 9,
-      "source_name": "Simon Willison Everything",
-      "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account. Example usage: uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage Outputs: First I consider the prompt, then I decide what to say.\n{\n  \"prompt\": \"hi there\",\n  \"system\": \"\",\n  \"attachments\": [],\n  \"stream\": true,\n  \"previous\": []\n}\nToken usage: 2 input, 24 output Tags: llm",
-      "title": "llm-echo 0.5",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "391b2a19b716d7dde3fba439",
       "discovered_at": "2026-10-28T01:49:06Z",
       "kind": "independent-signal",
@@ -1763,20 +1749,6 @@
       "summary": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to four human players can join (any spare slots use AI) Claude Opus 4.5 added a new map called \"Compass Rose\" and modified the WebSockets multiplayer network code to support up to four players for that map, joining via share links or QR codes. The new teams use robots themed in purple and green, joining the existing blue and red designs. You can preview those colors in the updated model browser . Here's a replay link to watch a four way AI battle with the \"Goliath Armada\" mutator turned on, where each side starts with four giant Goliath mech units. Tags: game-design , projects , claude",
       "title": "battledrones v14: Compass Rose, a four player map",
       "url": "https://simonwillison.net/2026/Oct/24/battledrones/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "6b1b5569c129608c1b4b3a8d",
-      "discovered_at": "2026-10-19T00:11:50Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 18, 2026",
-      "search_score": 7,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Let\u2019s see your Nous fit pics Oct 18, 2026 @NousResearch Motion. Oct 16, 2026 @NousResearch Editor's Note: This tweet was intended as satire by our social intern, who did not expect it to be taken seriously. Hermes was not selected for the list as we do not do paid PR placements; we think it is a wonderful invention and perhaps TIME will see fit to recognize it eventually. Oct 16, 2026 @NousResearch Another in-depth review from @zacbowden for @WindowsCentral: windowscentral.com/hardware/nvidi\u2026 Oct 16, 2026 @NousResearch Watch the full video for more coverage on the hardware, security, and demos. youtube.com/watch?v=sjuisA\u2026 Oct 16, 2026 @NousResearch Hermes Agent is a launch partner for @nvidia's RTX Spark across the new generation of laptops. Pick it in the built-in @Windows agent setup flow, run the new generative onboarding, and get straight to work locally or in the cloud. Linus is impressed! Oct 16, 2026 @NousResearch Thank you @TIME Oct 16, 2026 @NousResearch Hermes Agent is the best place to use the new @NVIDIAAI Nemotron 3.5 Super VL and Bolt models. NVIDIA benchmarked Super VL on Hermes Bench with a score of 63.44, and compared to similar local models it has up to 5x the token throughput. x.com/NVIDIAAI/statu\u2026 Oct 15, 2026 @NousResearch An agent for the projects that matter most x.com/alexandermann/\u2026 Oct 15, 2026 @NousResearch It's time to connect \ud83c\udf10 x.com/sidbing/status\u2026 Oct 14, 2026",
-      "title": "@NousResearch Let\u2019s see your Nous fit pics Oct 18, 2026",
-      "url": "https://x.com/NousResearch/status/2111969779128950802"
     },
     {
       "bootstrap": false,
@@ -2113,20 +2085,6 @@
       "summary": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we're special that way. \u2014 Ben Hylak Tags: model-context-protocol , ai",
       "title": "Quoting Ben Hylak",
       "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "ae7b31dc246e27601c985358",
-      "discovered_at": "2026-10-19T00:11:45Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-18T23:43:09+00:00",
-      "search_score": 5,
-      "source_name": "Simon Willison Everything",
-      "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used https without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm",
-      "title": "llm-tools-datasette 0.1.1",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/"
     },
     {
       "bootstrap": false,
@@ -2603,6 +2561,20 @@
       "summary": "eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. Any software that bundles a list of trusted certificates needs to be updated. This site is tracking software updates via this GitHub repository - Linux distros need to update their ca-certificates packages. In Python world uv 0.13.4 and pip 26.2.2 and certifi 2026.10.19 have been released with upgraded certificate lists. Tags: encryption , https , pip , python , security , uv",
       "title": "eMudhra Intermediate CA Compromise",
       "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "215d5e6ee0fa4f77b5ab55fe",
+      "discovered_at": "2026-11-02T01:54:06Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-01T23:24:22+00:00",
+      "search_score": 0,
+      "source_name": "Simon Willison Everything",
+      "summary": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a library dependency to lock versions for anything else that uses it. Running uv run pytest etc tends to leave uv.lock files lying around, which are listed in .gitignore and so do not get committed to my repositories. But... sometimes that uv.lock pins a version of a dependency that doesn't yet have a Python 3.15 wheel. An example from earlier today: error: Failed to build `watchfiles==1.1.1`\n  cause: Call to `maturin.build_wheel` failed\n\nerror: the configured Python interpreter version (3.15) is newer\nthan PyO3's maximum supported version (3.14) Deleting that file and running uv run pytest again usually fixes the problem. Tags: uv , til , python",
+      "title": "If in doubt, delete the uv.lock file",
+      "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/"
     },
     {
       "bootstrap": false,
@@ -3488,6 +3460,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-01T22:28:28Z",
+  "updated_at": "2026-11-02T01:54:10Z",
   "version": 2
 }

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-01T22:28:28Z",
+    "at": "2026-11-02T01:54:10Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 0,
+    "queued": 2,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 157,
+  "runs": 158,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -815,6 +815,11 @@
       "status": "queued",
       "url": "https://elevenlabs.io/blog/category/impact"
     },
+    "1b7c18b213578bca545e72fe": {
+      "first_seen": "2026-11-02T01:54:09Z",
+      "status": "queued",
+      "url": "https://sakana.ai/symposium-2026/"
+    },
     "1b874cff9e7ed3b86a592916": {
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
@@ -988,6 +993,11 @@
       "first_seen": "2026-10-16T10:03:10Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/hintly-for-google-meet"
+    },
+    "215d5e6ee0fa4f77b5ab55fe": {
+      "first_seen": "2026-11-02T01:54:06Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/"
     },
     "221b145950af7f1f5f3ecc9a": {
       "first_seen": "2026-10-07T21:57:47Z",

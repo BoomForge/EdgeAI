@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-02T01:54:10Z",
+    "at": "2026-11-02T09:24:22Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 2,
+    "prefiltered": 4,
+    "queued": 5,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 11,
     "warnings": 0
   },
-  "runs": 158,
+  "runs": 159,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -249,6 +249,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/make0-brain"
     },
+    "08cf327d10198da472d15741": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/agent-inbox"
+    },
     "08d60f9b0262fb44795a02ff": {
       "first_seen": "2026-10-14T21:37:22Z",
       "status": "queued",
@@ -278,6 +283,11 @@
       "first_seen": "2026-10-14T21:37:22Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/pancake-6"
+    },
+    "09d9685ecd507e1e1b780e67": {
+      "first_seen": "2026-11-02T09:24:18Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-7a16fa14a486ca6a399e"
     },
     "0a28c215b5c05aea6d5cda4b": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -735,6 +745,11 @@
       "first_seen": "2026-10-31T12:57:54Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/telemetry-dev"
+    },
+    "194d1a1903f0ede8587bbf37": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/looper-3"
     },
     "195086faf712f2609593e186": {
       "first_seen": "2026-10-16T18:46:48Z",
@@ -1904,6 +1919,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/codync"
     },
+    "4304b429312d41f51887e823": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/hyperresearch"
+    },
     "4450675c6f099b0044872c16": {
       "first_seen": "2026-10-03T00:46:00Z",
       "search_score": 0,
@@ -2456,6 +2477,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107592258216206497"
     },
+    "577d545cafe0557e54ea13b7": {
+      "first_seen": "2026-11-02T09:24:21Z",
+      "status": "queued",
+      "url": "https://www.minimax.io/m-plan"
+    },
     "5781633f6b4d7fc8b1b64b8e": {
       "first_seen": "2026-10-29T19:17:17Z",
       "status": "queued",
@@ -2638,6 +2664,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/xtracticle"
+    },
+    "5e6f234487318c4a4d4763c4": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/unleashx"
     },
     "5e79c8c00535511a8c21416a": {
       "first_seen": "2026-10-18T10:57:54Z",
@@ -4131,6 +4162,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/empacer"
     },
+    "9266e31e2d6f6241060e39ab": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/help-381"
+    },
     "92d32bba66440a83e682427f": {
       "first_seen": "2026-10-19T17:12:32Z",
       "status": "queued",
@@ -4182,6 +4219,11 @@
       "first_seen": "2026-10-15T05:00:27Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/table-canon-ttrpg-campaign-memory"
+    },
+    "949aece8fc2a867ab362f088": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/linkly-ai-clipper"
     },
     "94faac851ec30f0548ab99a4": {
       "first_seen": "2026-10-15T00:08:36Z",
@@ -4244,6 +4286,12 @@
       "first_seen": "2026-10-19T17:12:31Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/gleap"
+    },
+    "972fcf3bdd8a38e11b028b3b": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/widgeteer"
     },
     "97397d7fa75c50842dda10c0": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -4351,6 +4399,11 @@
       "first_seen": "2026-10-21T20:18:30Z",
       "status": "queued",
       "url": "https://openai.com/index/building-chatgpt-ad-stack/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "9ad9e54fb4b5d0690b03ea05": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/asymptotelabs"
     },
     "9ae5172fcb83662214274ffd": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -4579,6 +4632,11 @@
       "first_seen": "2026-10-08T21:27:34Z",
       "status": "queued",
       "url": "https://www.anthropic.com/news/anthropic-cyber-mission?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "a353c06f11bdc6af40364445": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/diff-tour"
     },
     "a3a77eccfdf8ff450a462bff": {
       "first_seen": "2026-10-07T16:48:32Z",
@@ -4834,6 +4892,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/mrraudit"
     },
+    "ad7f2844a27aaa25c9715889": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/hera-6"
+    },
     "adabeb1c4fba292590344eea": {
       "first_seen": "2026-10-19T10:44:24Z",
       "status": "too_old",
@@ -4986,6 +5049,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/staycharted"
+    },
+    "b2a1acf1c6b0cd38c1fc0dfc": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/gretabyquestera"
     },
     "b2d3f46531c091e023f06bd0": {
       "first_seen": "2026-10-22T07:30:05Z",
@@ -5225,6 +5293,11 @@
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/tiden"
+    },
+    "bb4a775fef8bb56a45095040": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/friday-work"
     },
     "bb95438e7a5883c8cd30a13f": {
       "first_seen": "2026-10-15T22:14:54Z",
@@ -5852,6 +5925,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2106497770236387496"
     },
+    "d49547c0f76ccdf6f827f573": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/cedric"
+    },
     "d4ad3c1e60f2313205dba64a": {
       "first_seen": "2026-10-05T09:33:48Z",
       "search_score": 0,
@@ -5914,6 +5992,12 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/chatgpt-just-learned-to-use-your-computer-09-11-2026"
+    },
+    "d73dc7e3ee8de21f7570a7aa": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/xmind"
     },
     "d78c809701169b7e2e2c2fbf": {
       "first_seen": "2026-10-08T21:27:34Z",
@@ -6248,6 +6332,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/snapset"
     },
+    "e140e65d7c8dbd073410f2c5": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/display-dev"
+    },
     "e194f1ea6d18e65bd29bb9d3": {
       "first_seen": "2026-10-10T11:25:14Z",
       "status": "queued",
@@ -6356,6 +6445,11 @@
       "first_seen": "2026-10-18T10:57:54Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/gravity-notes-for-mac"
+    },
+    "e6d250947032efc40b7f590a": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/clayzo"
     },
     "e70bc32f2eb563dd5c6c7e59": {
       "first_seen": "2026-10-20T15:17:17Z",
@@ -6468,6 +6562,11 @@
       "first_seen": "2026-10-19T10:44:24Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/walkai-talkai"
+    },
+    "eba9f3563352bd3d9bd8561d": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/curiouslm"
     },
     "ebb2facf6c17761b5fd3bd1a": {
       "first_seen": "2026-10-29T13:31:50Z",
@@ -6855,6 +6954,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/lloyal"
+    },
+    "f8bb4e9aab587de92d4ce1e0": {
+      "first_seen": "2026-11-02T09:24:17Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/redu-cloud"
     },
     "f8dc1af72bf3748663dd3289": {
       "first_seen": "2026-10-13T18:14:15Z",

@@ -62,12 +62,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-01T23:08:21Z",
-    "eligible": 10,
-    "evaluated": 2,
+    "at": "2026-11-02T02:26:16Z",
+    "eligible": 8,
+    "evaluated": 5,
     "mode": "live",
-    "new_posts": 2,
-    "publish_actions": 2,
+    "new_posts": 1,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -347,6 +347,14 @@
         "source": "Artificial Analysis Changelog"
       },
       "url": "https://artificialanalysis.ai/changelog#edgeai-20d470951bb41b38113b"
+    },
+    "079d3d0b66d1cbca47620df4": {
+      "at": "2026-11-02T02:26:16Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "agentmash-multiplayer-ai-coding-agents",
+      "url": "https://www.producthunt.com/products/agentmash"
     },
     "07dffacc5be464373897633e": {
       "at": "2026-10-10T13:59:41Z",
@@ -1031,6 +1039,20 @@
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc1"
     },
+    "1b7c18b213578bca545e72fe": {
+      "at": "2026-11-02T02:26:10Z",
+      "bootstrap": false,
+      "score": 90,
+      "status": "published",
+      "story_key": "sakana-ai-symposium-sawara-pre-training-juergen-schmidhuber",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Sakana AI Blog"
+      },
+      "url": "https://sakana.ai/symposium-2026/"
+    },
     "1b9196bd3c1c733977797db3": {
       "at": "2026-10-14T20:52:46Z",
       "bootstrap": false,
@@ -1241,6 +1263,14 @@
       "at": "2026-10-23T19:34:52Z",
       "status": "expired",
       "url": "https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "215d5e6ee0fa4f77b5ab55fe": {
+      "at": "2026-11-02T02:26:12Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "simon-willison-uv-lock-python-315-til",
+      "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/"
     },
     "2167384f51e2a4466793a69c": {
       "at": "2026-10-04T00:07:42Z",
@@ -2682,6 +2712,11 @@
       "at": "2026-10-10T13:59:33Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11469"
+    },
+    "4d023e89b5eeb279009c1798": {
+      "at": "2026-11-02T02:26:06Z",
+      "status": "expired",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "4d1d649a4ab59a9940eac48d": {
       "at": "2026-10-17T12:29:56Z",
@@ -6409,6 +6444,11 @@
       "status": "expired",
       "url": "https://www.anthropic.com/engineering/redesigning-source-control?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "bd215f87afc1a3e6ebb89613": {
+      "at": "2026-11-02T02:26:06Z",
+      "status": "expired",
+      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "bd44c26270a40ce1808d339f": {
       "at": "2026-10-30T01:15:50Z",
       "status": "expired",
@@ -8059,6 +8099,14 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00003"
     },
+    "eb5fe0db374fd74e95498e19": {
+      "at": "2026-11-02T02:26:13Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "pluto-door-ssh-client-ai-agent",
+      "url": "https://www.producthunt.com/products/pluto-door"
+    },
     "eb65d41fa5052fb7185089cb": {
       "at": "2026-10-19T14:37:55Z",
       "bootstrap": false,
@@ -8132,6 +8180,14 @@
       "at": "2026-10-23T11:31:39Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/privos"
+    },
+    "edb7366353cc5e746afeee90": {
+      "at": "2026-11-02T02:26:15Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "futurepedia-newsletter-gemini-4-argon",
+      "url": "https://newsletter.futurepedia.io/p/how-we-used-gemini-4-argon-to-turn-a-sketch-into-a-playable-game"
     },
     "edfff1af226cc0177e5e0c11": {
       "at": "2026-10-05T07:01:46Z",
@@ -14096,6 +14152,27 @@
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 93,
+        "source": "Sakana AI Blog"
+      }
+    },
+    "sakana-ai-symposium-sawara-pre-training-juergen-schmidhuber": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/sakana-ai-symposium-sawara-pre-training-juergen-schmidhuber.jpg",
+      "last_updated": "2026-11-02T02:26:10Z",
+      "post_id": "6170630533433590796",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/sakana-ai-announces-in-house-pre.html",
+      "score": 90,
+      "source_image_source": "Sakana AI Blog",
+      "source_image_url": "https://sakana.ai/assets/home/sakana_ogp.png",
+      "source_urls": [
+        "https://sakana.ai/symposium-2026/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Sakana AI Announces In-House Pre-trained Language Model Series 'Sawara' Led by J\u00fcrgen Schmidhuber and Takuya Akiba",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
         "source": "Sakana AI Blog"
       }
     },

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-02T10:43:13Z",
+    "at": "2026-11-02T20:31:00Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 39,
+    "prefiltered": 1,
+    "queued": 16,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 161,
+  "runs": 162,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -338,6 +338,11 @@
       "first_seen": "2026-10-19T10:02:48Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11727"
+    },
+    "0ce62f77c11c71b3afdc72d0": {
+      "first_seen": "2026-11-02T20:30:55Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.8"
     },
     "0ce91db369e58780fbe769e8": {
       "first_seen": "2026-10-09T13:48:02Z",
@@ -2317,6 +2322,11 @@
       "status": "too_old",
       "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.3.1"
     },
+    "4094d4340f9e66f9e2fcbdf5": {
+      "first_seen": "2026-11-02T20:30:31Z",
+      "status": "queued",
+      "url": "https://openai.com/index/qodo-codex-plugin"
+    },
     "40a44871ce5df89b9d11d192": {
       "first_seen": "2026-10-08T20:34:39Z",
       "status": "queued",
@@ -2336,6 +2346,11 @@
       "first_seen": "2026-10-27T06:24:40Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.33052"
+    },
+    "4177dd396b829115cf745a48": {
+      "first_seen": "2026-11-02T20:30:37Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12052"
     },
     "4188f17ee65e78dfbd27ad90": {
       "first_seen": "2026-10-28T23:55:43Z",
@@ -2894,6 +2909,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc0"
     },
+    "52d6630a95f44fa24c5e7c14": {
+      "first_seen": "2026-11-02T20:30:55Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.8"
+    },
     "5343bc19b8a2ab68996a01cd": {
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
@@ -3019,6 +3039,11 @@
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.19026"
+    },
+    "56cf24bb086363d88bd0595d": {
+      "first_seen": "2026-11-02T20:30:37Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12054"
     },
     "56d1091895f50d346043db88": {
       "first_seen": "2026-10-28T07:28:01Z",
@@ -3146,6 +3171,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.26944"
     },
+    "5a014341bc3fc0f1d8b6431c": {
+      "first_seen": "2026-11-02T20:30:31Z",
+      "status": "queued",
+      "url": "https://openai.com/index/lifeval"
+    },
     "5a12e63bd486b58edf031728": {
       "first_seen": "2026-10-09T19:20:42Z",
       "status": "queued",
@@ -3245,6 +3275,11 @@
       "first_seen": "2026-10-17T04:39:57Z",
       "status": "queued",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.3"
+    },
+    "5d33ed0c66ace544e65f6063": {
+      "first_seen": "2026-11-02T20:30:31Z",
+      "status": "queued",
+      "url": "https://openai.com/index/grid-protectors-program"
     },
     "5d5404cef74e92304a29d638": {
       "first_seen": "2026-10-27T06:24:40Z",
@@ -4569,6 +4604,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11680"
     },
+    "830fe9b0c5a6869927d6c6d5": {
+      "first_seen": "2026-11-02T20:30:37Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12050"
+    },
     "833bda6d1c7777e35dda0b14": {
       "first_seen": "2026-10-16T05:36:48Z",
       "status": "queued",
@@ -5295,6 +5335,11 @@
       "first_seen": "2026-10-05T09:14:06Z",
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/education/making-ai-training-available-to-uk-and-ireland-educators/"
+    },
+    "95f6837c3f322fa4e390f9b1": {
+      "first_seen": "2026-11-02T20:30:37Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12059"
     },
     "960b79ede6c466dc76b014b8": {
       "first_seen": "2026-10-17T00:13:04Z",
@@ -6636,6 +6681,11 @@
       "status": "queued",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.19.0"
     },
+    "bf0fbce642a49c99be139904": {
+      "first_seen": "2026-11-02T20:30:55Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.4"
+    },
     "bf1a189b85c837584069025f": {
       "first_seen": "2026-10-03T00:46:10Z",
       "status": "queued",
@@ -6751,6 +6801,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.27402"
     },
+    "c24e75dbd6cdc0177696bc51": {
+      "first_seen": "2026-11-02T20:30:37Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12051"
+    },
     "c26c57bf683993802e07573a": {
       "first_seen": "2026-10-27T06:24:39Z",
       "status": "queued",
@@ -6845,6 +6900,11 @@
       "first_seen": "2026-10-27T22:24:24Z",
       "status": "queued",
       "url": "https://openai.com/index/check-point-daybreak"
+    },
+    "c45a0b6d7de18ac55a144d19": {
+      "first_seen": "2026-11-02T20:30:31Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/"
     },
     "c4e7f4822788cff1eac8ec7b": {
       "first_seen": "2026-10-30T15:07:01Z",
@@ -7495,6 +7555,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11476"
     },
+    "d742fce73aa702c361a67c39": {
+      "first_seen": "2026-11-02T20:30:37Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12053"
+    },
     "d761228baa4bd20e28fb9a7b": {
       "first_seen": "2026-10-08T07:31:17Z",
       "status": "queued",
@@ -7818,6 +7883,11 @@
       "first_seen": "2026-10-28T23:55:53Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.7"
+    },
+    "dfaa79cef4bf1b4e8883c522": {
+      "first_seen": "2026-11-02T20:30:55Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.9"
     },
     "dfb6e6be45662091eab87f1e": {
       "first_seen": "2026-10-21T16:05:39Z",
@@ -8185,6 +8255,12 @@
       "first_seen": "2026-10-26T05:16:26Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31683"
+    },
+    "ea6b0eff7b6240a80d1acd07": {
+      "first_seen": "2026-11-02T20:30:31Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/messages/updated-icons-messages-phone-contacts/"
     },
     "ea8f2dedf20d8e4b5295a047": {
       "first_seen": "2026-10-29T04:59:08Z",
@@ -8594,6 +8670,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc1"
     },
+    "f4d75608ed6a6285defc1c7a": {
+      "first_seen": "2026-11-02T20:30:37Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12058"
+    },
     "f4e9f0c4306128e81c614da9": {
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
@@ -8688,6 +8769,11 @@
       "first_seen": "2026-10-27T06:24:40Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.33516"
+    },
+    "f6ccb3c8a19a054180092ffe": {
+      "first_seen": "2026-11-02T20:30:37Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12057"
     },
     "f6cdbe2f16bc3202303a74d5": {
       "first_seen": "2026-10-22T07:18:23Z",

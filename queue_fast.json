@@ -3404,6 +3404,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "2c0d25407f7cdc15def32aa1",
+      "discovered_at": "2026-11-02T10:42:49Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-02T08:06:05Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "webgpu : fix CI by keeping scratch alloc sizes monotonic in batch length ( #31422 ) webgpu: keep scratch alloc sizes monotonic in the batch length The flash attention vec path and the MMVQ path append a scratch area after dst, but get_alloc_size only accounted for it when the current batch takes that path. The size was therefore not monotonic in the batch length: a graph reserved at n_ubatch (tiled path, no scratch) or at one token did not cover batches of 2 to 19 query rows, and GGML_SCHED_NO_REALLOC builds aborted on an unexpected reallocation. Pass the row count to both path predicates and size the scratch with the row count clamped to the longest batch the short path serves. nit: align the mmvq pipeline key with clang-format 22 webgpu: address review @yomaytk , name the mat-vec row threshold Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62542460 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12034",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12034"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "ead7839c97ed82a0c3152162",
       "discovered_at": "2026-11-01T08:08:12Z",
       "kind": "local-ai",
@@ -3488,6 +3502,6 @@
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-02T02:44:22Z",
+  "updated_at": "2026-11-02T10:43:13Z",
   "version": 2
 }

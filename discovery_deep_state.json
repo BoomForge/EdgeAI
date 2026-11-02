@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-02T09:24:22Z",
+    "at": "2026-11-02T19:41:23Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 4,
-    "queued": 5,
+    "prefiltered": 0,
+    "queued": 10,
     "sources_ok": 15,
-    "too_old": 11,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 159,
+  "runs": 160,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -1122,6 +1122,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/composio"
     },
+    "26903e1b81ab4fabf81d6c6a": {
+      "first_seen": "2026-11-02T19:41:18Z",
+      "status": "queued",
+      "url": "https://www.hume.ai/blog/introducing-hume-audio-decision-api?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "26b38e61c6e185d1b3ceb9cf": {
       "first_seen": "2026-10-11T02:16:04Z",
       "status": "queued",
@@ -2093,6 +2098,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/29/api-credits/"
     },
+    "49e2291f6b91d9b746fa5949": {
+      "first_seen": "2026-11-02T19:41:18Z",
+      "status": "queued",
+      "url": "https://openai.com/index/grid-protectors-program/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "49ed414931058e2ec90de080": {
       "first_seen": "2026-10-07T21:57:48Z",
       "status": "too_old",
@@ -2911,6 +2921,11 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-823618d5296e14a524f7"
     },
+    "658f85f6e107dc2557621365": {
+      "first_seen": "2026-11-02T19:41:18Z",
+      "status": "queued",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "65bd16e6892c3ea7abcda39c": {
       "first_seen": "2026-10-28T20:28:26Z",
       "search_score": 0,
@@ -3498,6 +3513,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/9/matthew-green/"
     },
+    "7ba3be711094f3858b26563a": {
+      "first_seen": "2026-11-02T19:41:19Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-139adb59a183891ef2dc"
+    },
     "7ba6fe6e3c6997f136b7d72c": {
       "first_seen": "2026-10-26T21:56:06Z",
       "status": "queued",
@@ -3612,6 +3632,11 @@
       "first_seen": "2026-10-08T01:53:41Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/zavi"
+    },
+    "7ebc23179e88c2b0a2f1ee01": {
+      "first_seen": "2026-11-02T19:41:18Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "7f13ecabdb2b75e7b27a40f3": {
       "first_seen": "2026-10-10T11:25:13Z",
@@ -4036,6 +4061,11 @@
       "status": "queued",
       "url": "https://qwenlm.github.io/blog/gspo/"
     },
+    "8d5dfbf72c843b77b2f7a5cb": {
+      "first_seen": "2026-11-02T19:41:18Z",
+      "status": "queued",
+      "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "8d6e3476b487afeace9878ed": {
       "first_seen": "2026-10-10T11:25:13Z",
       "status": "too_old",
@@ -4168,6 +4198,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/help-381"
     },
+    "92c3509bbd776105299c2b38": {
+      "first_seen": "2026-11-02T19:41:22Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2117326444669857941"
+    },
     "92d32bba66440a83e682427f": {
       "first_seen": "2026-10-19T17:12:32Z",
       "status": "queued",
@@ -4192,6 +4227,11 @@
       "first_seen": "2026-10-13T23:00:39Z",
       "status": "queued",
       "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "93776c9c2a6b392fe84f2651": {
+      "first_seen": "2026-11-02T19:41:19Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
     },
     "9385229e1d2dd122bb5438df": {
       "first_seen": "2026-10-22T13:13:50Z",
@@ -4490,6 +4530,11 @@
       "first_seen": "2026-10-23T22:40:12Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
+    },
+    "9e1197735071d89f0a0f78df": {
+      "first_seen": "2026-11-02T19:41:18Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "9e70ac413cc2b4ef34897427": {
       "first_seen": "2026-10-29T19:17:17Z",
@@ -6678,6 +6723,11 @@
       "first_seen": "2026-10-29T00:27:43Z",
       "status": "queued",
       "url": "https://spaitial.ai/blog/echo-3-release?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "ef8106219f047718b6abb818": {
+      "first_seen": "2026-11-02T19:41:22Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2117326554934251541"
     },
     "ef8dc3e0756d057ef38462cf": {
       "first_seen": "2026-10-08T08:53:54Z",

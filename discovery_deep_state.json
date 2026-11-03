@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-03T09:27:35Z",
+    "at": "2026-11-03T17:17:21Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 8,
+    "prefiltered": 3,
     "queued": 6,
     "sources_ok": 15,
-    "too_old": 8,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 162,
+  "runs": 163,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -273,6 +273,12 @@
       "first_seen": "2026-10-23T22:40:13Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-c7eae0eb152b854a394f"
+    },
+    "094b160cddd64a62bc183985": {
+      "first_seen": "2026-11-03T17:17:15Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/powerships"
     },
     "09622c6b726761f41ce23ac3": {
       "first_seen": "2026-10-15T19:05:42Z",
@@ -1324,6 +1330,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/blooio-imessages-api-that-scales"
     },
+    "2e602e83661d9f259eeecff3": {
+      "first_seen": "2026-11-03T17:17:15Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/infino-ai"
+    },
     "2e6c7d5b62b02c1a6c3993f3": {
       "first_seen": "2026-10-15T14:58:06Z",
       "status": "queued",
@@ -1943,6 +1954,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/"
     },
+    "4276d0de32c6d3e20a4ab7da": {
+      "first_seen": "2026-11-03T17:17:15Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/sun-ai"
+    },
     "42a2d2c0b055494d2d6b36ad": {
       "first_seen": "2026-10-03T00:46:00Z",
       "search_score": 1,
@@ -2538,6 +2554,11 @@
       "first_seen": "2026-10-09T19:51:22Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/murmur-15"
+    },
+    "579fe7b90f4d27e96fa7cb4d": {
+      "first_seen": "2026-11-03T17:17:15Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/magical-core-image-classifier"
     },
     "57c07d00a31145ec21b39186": {
       "first_seen": "2026-10-20T19:29:47Z",
@@ -3382,6 +3403,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/tonko"
     },
+    "7653e03d457a4bdb1ac7bd75": {
+      "first_seen": "2026-11-03T17:17:15Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/claude-can-now-build-places-you-can-walk-through-11-03-2026"
+    },
     "767d277bfa1d3e61b6f4b6c8": {
       "first_seen": "2026-10-08T16:25:55Z",
       "status": "queued",
@@ -3486,6 +3512,12 @@
       "first_seen": "2026-10-06T19:44:12Z",
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-eb975ed2c7e8867d6111"
+    },
+    "78b8d82f10badb84fe9f4ec2": {
+      "first_seen": "2026-11-03T17:17:15Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/vinsage"
     },
     "78e7e1f106f1a5291f072447": {
       "first_seen": "2026-10-14T07:31:56Z",
@@ -3918,6 +3950,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/codemind-2"
     },
+    "864d6628b37dd237ab24a9b0": {
+      "first_seen": "2026-11-03T17:17:19Z",
+      "status": "queued",
+      "url": "https://www.minimax.io"
+    },
     "864da0dd032d55cc47ea2c53": {
       "first_seen": "2026-11-03T01:51:10Z",
       "status": "queued",
@@ -4062,6 +4099,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/letra-3"
+    },
+    "8a23f1017e93a9785d56cb23": {
+      "first_seen": "2026-11-03T17:17:15Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/beaquaro-studio"
     },
     "8a3406e6a76a97fc77fa230c": {
       "first_seen": "2026-10-08T21:27:34Z",
@@ -5940,6 +5983,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/cursor-remote-lite"
     },
+    "cfbb8fc0cf015fc1ce7a7381": {
+      "first_seen": "2026-11-03T17:17:15Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/wavefunction"
+    },
     "cfe4955cd22f709a4db34062": {
       "first_seen": "2026-10-27T12:46:49Z",
       "status": "too_old",
@@ -6923,6 +6971,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/fini-2"
+    },
+    "f1a111e72742f0df3d871707": {
+      "first_seen": "2026-11-03T17:17:16Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
     },
     "f1d166af23c4ca249234391d": {
       "first_seen": "2026-10-16T23:59:23Z",

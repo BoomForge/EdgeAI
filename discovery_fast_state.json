@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-02T20:31:00Z",
+    "at": "2026-11-03T02:39:12Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 16,
+    "prefiltered": 0,
+    "queued": 7,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 162,
+  "runs": 163,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1427,6 +1427,11 @@
       "status": "queued",
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work"
     },
+    "277870ffc8d71544c0465c13": {
+      "first_seen": "2026-11-03T02:38:36Z",
+      "status": "queued",
+      "url": "https://openai.com/index/scaling-git-at-openai"
+    },
     "278bd7295c7f41054c87a1f9": {
       "first_seen": "2026-10-30T23:31:22Z",
       "search_score": 1,
@@ -1826,6 +1831,11 @@
       "first_seen": "2026-10-28T07:28:01Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.35925"
+    },
+    "33e35f149af7ffc4d3be91cd": {
+      "first_seen": "2026-11-03T02:38:44Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12063"
     },
     "33e9d331a372cba4ad1b951f": {
       "first_seen": "2026-10-03T00:45:50Z",
@@ -4629,6 +4639,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20638"
     },
+    "83a03f0fcab95978acdfa496": {
+      "first_seen": "2026-11-03T02:39:12Z",
+      "status": "queued",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.65.0"
+    },
     "83a753b4160cba93855aa436": {
       "first_seen": "2026-10-17T20:57:14Z",
       "status": "queued",
@@ -5279,6 +5294,11 @@
       "first_seen": "2026-10-21T20:14:08Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11799"
+    },
+    "945f879ef3a469b4aebe760c": {
+      "first_seen": "2026-11-03T02:38:36Z",
+      "status": "queued",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai"
     },
     "94bd19d048ee866b06ef5242": {
       "first_seen": "2026-10-03T00:46:14Z",
@@ -6831,6 +6851,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11516"
     },
+    "c34c1c12b0b44125ca6e6274": {
+      "first_seen": "2026-11-03T02:38:44Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12060"
+    },
     "c35b3ef79c92279b18ef069a": {
       "first_seen": "2026-10-23T04:34:33Z",
       "status": "queued",
@@ -7348,6 +7373,11 @@
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20851"
+    },
+    "d12853f6724947c696e58430": {
+      "first_seen": "2026-11-03T02:38:44Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12061"
     },
     "d1805e3f2f0da44c46b2b874": {
       "first_seen": "2026-10-21T05:49:09Z",
@@ -8613,6 +8643,11 @@
       "first_seen": "2026-10-21T20:14:08Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11798"
+    },
+    "f3123bdeed841684f4be5d5f": {
+      "first_seen": "2026-11-03T02:38:45Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0"
     },
     "f32712b46e4edc8d4c0a0e12": {
       "first_seen": "2026-10-22T13:02:09Z",

@@ -72,9 +72,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-03T16:39:02Z",
-    "eligible": 31,
-    "evaluated": 2,
+    "at": "2026-11-03T22:04:18Z",
+    "eligible": 38,
+    "evaluated": 4,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -2436,6 +2436,20 @@
       },
       "url": "https://x.com/NousResearch/status/2110470076595835353"
     },
+    "4094d4340f9e66f9e2fcbdf5": {
+      "at": "2026-11-03T22:04:18Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "qodo-codex-plugin-context-ai-code-review",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/qodo-codex-plugin"
+    },
     "409f9f30a8b878bdb8ec19d3": {
       "at": "2026-10-23T19:34:52Z",
       "status": "expired",
@@ -4771,6 +4785,14 @@
       "story_key": "openai-credit-saison-chatgpt-enterprise-case-study",
       "url": "https://openai.com/index/credit-saison"
     },
+    "864d6628b37dd237ab24a9b0": {
+      "at": "2026-11-03T22:04:09Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "minimax-code-and-model-updates",
+      "url": "https://www.minimax.io"
+    },
     "864da0dd032d55cc47ea2c53": {
       "at": "2026-11-03T01:52:01Z",
       "bootstrap": false,
@@ -6578,6 +6600,20 @@
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11424"
+    },
+    "bca108e4c77bd86b238b884f": {
+      "at": "2026-11-03T22:04:14Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "openai-security-bug-bounty-payout-increase-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
     },
     "bd173e559ba5d0f1c24750dd": {
       "at": "2026-10-16T18:54:59Z",
@@ -8898,6 +8934,14 @@
       "status": "ignored",
       "story_key": "kimi-k3-and-agent-tools-launch",
       "url": "https://www.kimi.com/"
+    },
+    "fc87a45dcfbf03d417250555": {
+      "at": "2026-11-03T22:04:10Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "openai-heimstaden-property-management-ai",
+      "url": "https://openai.com/index/heimstaden"
     },
     "fd1458eaf49fedff2cc99214": {
       "at": "2026-10-11T07:07:40Z",
@@ -13549,6 +13593,27 @@
         "source": "OpenAI News"
       }
     },
+    "openai-security-bug-bounty-payout-increase-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-security-bug-bounty-payout-increase-2026.jpg",
+      "last_updated": "2026-11-03T22:04:14Z",
+      "post_id": "4298835381327516989",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-quadruples-base-payouts-and-adds.html",
+      "score": 82,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/6YGqAlQzlUWYvYNTeDnfcM/e5455b9d34b33916246eadda9c1b0959/rewarding-defenders-with-bigger-bug-bounties-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Quadruples Base Payouts and Adds Bonuses in Security Bug Bounty Revamp",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      }
+    },
     "openai-security-sprint-hardening-cathedral": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-security-sprint-hardening-cathedral.jpg",
@@ -13820,6 +13885,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
         "score": 62,
         "source": "FutureTools AI News"
+      }
+    },
+    "qodo-codex-plugin-context-ai-code-review": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/qodo-codex-plugin-context-ai-code-review.jpg",
+      "last_updated": "2026-11-03T22:04:18Z",
+      "post_id": "6133769769239293074",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/qodo-integrates-organizational-context.html",
+      "score": 88,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/388S4jJRtLn7LVaUJU9lUc/662cc99212751754f89d370e4b8901aa/qodo-codex-frosted-acrylic-seo-image-1920x1080.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/qodo-codex-plugin"
+      ],
+      "status": "CONFIRMED",
+      "title": "Qodo Integrates Organizational Context and Code Review into Codex",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
       }
     },
     "qwen-gspo-reinforcement-learning-algorithm": {

@@ -2116,6 +2116,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "de959bab941149a96f431c49",
+      "discovered_at": "2026-11-03T09:27:30Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-03T05:28:59+00:00",
+      "search_score": 5,
+      "source_name": "Simon Willison Everything",
+      "summary": "I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for $100+/month subscriptions What I'm using right now My software releases My September newsletter can now be seen here , as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+      "title": "October sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "95cafd4597e819bbe57ba74c",
       "discovered_at": "2026-10-29T19:17:18Z",
       "kind": "independent",
@@ -2606,6 +2620,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "dcf65f4aed7f78c16de0aee4",
+      "discovered_at": "2026-11-03T09:27:30Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-03T05:32:25+00:00",
+      "search_score": 0,
+      "source_name": "Simon Willison Everything",
+      "summary": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference them against ADS-B data to find the exact location of the video based on their speed, distance, and gaps between different flights. Via Lobste.rs Tags: privacy , youtube",
+      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "215d5e6ee0fa4f77b5ab55fe",
       "discovered_at": "2026-11-02T01:54:06Z",
       "kind": "independent",
@@ -2760,6 +2788,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "1056649914dce7d500de1004",
+      "discovered_at": "2026-11-03T09:27:30Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-02T08:16:17-08:00",
+      "search_score": 7,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Show your AI agent the problem with a visual frame Discussion | Link",
+      "title": "Scrawl",
+      "url": "https://www.producthunt.com/products/scrawl-2"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "eb5fe0db374fd74e95498e19",
       "discovered_at": "2026-10-31T12:57:54Z",
       "kind": "signal",
@@ -2886,20 +2928,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "74eecc752e5f1b65d14fce26",
-      "discovered_at": "2026-10-21T01:03:21Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-19T19:46:24-07:00",
-      "search_score": 7,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Memory-rich AI inference without HBM Discussion | Link",
-      "title": "Intel\u00ae GPU D-series",
-      "url": "https://www.producthunt.com/products/intel"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "da32c1eb28451e49ed9f8fc3",
       "discovered_at": "2026-11-01T13:14:08Z",
       "kind": "signal",
@@ -2953,20 +2981,6 @@
       "summary": "Open-source skills that turn your Claude into an AI CMO Discussion | Link",
       "title": "SuperCMO AI",
       "url": "https://www.producthunt.com/products/supercmo-ai"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "6efe1c62f251acf7b3947e2d",
-      "discovered_at": "2026-10-21T16:08:20Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-20T00:04:54-07:00",
-      "search_score": 6,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Run WhatsApp, Instagram & web chat from ChatGPT or Claude Discussion | Link",
-      "title": "Intelli for ChatGPT & Claude",
-      "url": "https://www.producthunt.com/products/intelli"
     },
     {
       "bootstrap": false,
@@ -3180,6 +3194,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "6fc54f3d18a92db59ad91946",
+      "discovered_at": "2026-11-03T09:27:30Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-02T02:33:33-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Real inboxes for AI agents, with trust built in Discussion | Link",
+      "title": "MachineMail",
+      "url": "https://www.producthunt.com/products/machinemail"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "bb4a775fef8bb56a45095040",
       "discovered_at": "2026-11-02T09:24:17Z",
       "kind": "signal",
@@ -3387,9 +3415,37 @@
       "summary": "An open-source personal agent that gets you things done Discussion | Link",
       "title": "Bits",
       "url": "https://www.producthunt.com/products/bits-4"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "eafc1a922e5c78b5a255ce41",
+      "discovered_at": "2026-11-03T09:27:30Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-02T16:12:59-08:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "One terminal for every coding agent, on Windows Discussion | Link",
+      "title": "nana",
+      "url": "https://www.producthunt.com/products/nana-2"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "a3c350550088af99d69885f2",
+      "discovered_at": "2026-11-03T09:27:30Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-02T01:03:18-08:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Give your coding agents a boss. Answer it from your phone. Discussion | Link",
+      "title": "asklog",
+      "url": "https://www.producthunt.com/products/asklog"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-03T01:51:14Z",
+  "updated_at": "2026-11-03T09:27:35Z",
   "version": 2
 }

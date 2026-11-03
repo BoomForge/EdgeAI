@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-03T17:55:07Z",
+    "at": "2026-11-03T23:01:12Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 15,
+    "prefiltered": 0,
+    "queued": 10,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 165,
+  "runs": 166,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -56,6 +56,11 @@
       "first_seen": "2026-10-07T09:14:06Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06927"
+    },
+    "019edb616369c3322f4c44a5": {
+      "first_seen": "2026-11-03T23:00:43Z",
+      "status": "queued",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer"
     },
     "01a8993b1c92c6cac2721379": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1064,6 +1069,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11632"
     },
+    "1c7922c2bfca155b55102e4c": {
+      "first_seen": "2026-11-03T23:00:50Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12080"
+    },
     "1c80b3847e5e582872f28009": {
       "first_seen": "2026-10-08T14:56:24Z",
       "status": "queued",
@@ -1350,6 +1360,11 @@
       "first_seen": "2026-10-27T18:16:12Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1"
+    },
+    "25493a43cba550c7fe81484a": {
+      "first_seen": "2026-11-03T23:00:43Z",
+      "status": "queued",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
     },
     "2553159a4f32c9968b59109d": {
       "first_seen": "2026-10-03T05:43:34Z",
@@ -1892,6 +1907,11 @@
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20860"
+    },
+    "34e7d62615202d0de65fe802": {
+      "first_seen": "2026-11-03T23:00:43Z",
+      "status": "queued",
+      "url": "https://openai.com/index/cisco-cyber"
     },
     "355833f9e84fa7f506afa81a": {
       "first_seen": "2026-10-16T05:36:28Z",
@@ -4620,6 +4640,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02663"
     },
+    "80280d018e3ec10ec887bb9e": {
+      "first_seen": "2026-11-03T23:00:49Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.44.0"
+    },
     "8058f573609a95397178d0e2": {
       "first_seen": "2026-10-03T00:46:09Z",
       "status": "too_old",
@@ -5486,6 +5511,11 @@
       "first_seen": "2026-10-03T22:01:59Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11380"
+    },
+    "9700c07623d0788d582591ff": {
+      "first_seen": "2026-11-03T23:00:50Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12079"
     },
     "9732b2763df5a67ab9455b82": {
       "first_seen": "2026-10-17T00:12:54Z",
@@ -6370,6 +6400,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11968"
     },
+    "b0b07d38d260ae924303a7e5": {
+      "first_seen": "2026-11-03T23:01:09Z",
+      "status": "queued",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.35"
+    },
     "b0c812cbc916a282e408cbdb": {
       "first_seen": "2026-10-24T21:41:08Z",
       "status": "queued",
@@ -6983,6 +7018,11 @@
       "first_seen": "2026-10-12T19:18:33Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11569"
+    },
+    "c2fb38ee8177687467b1ea82": {
+      "first_seen": "2026-11-03T23:00:50Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0"
     },
     "c30dcdffc231ce954d07b0f9": {
       "first_seen": "2026-10-09T06:41:25Z",
@@ -8138,6 +8178,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.26946"
     },
+    "e154fee02c7c32910ffc3dc9": {
+      "first_seen": "2026-11-03T23:00:50Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12083"
+    },
     "e19c9e6ee550c24438cc92ab": {
       "first_seen": "2026-10-05T18:34:46Z",
       "status": "queued",
@@ -8690,6 +8735,11 @@
       "first_seen": "2026-10-03T00:46:15Z",
       "status": "too_old",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.9"
+    },
+    "f036c36fad00b553f63182de": {
+      "first_seen": "2026-11-03T23:00:50Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12081"
     },
     "f04b23208c735a6d015510cf": {
       "first_seen": "2026-10-28T19:52:45Z",

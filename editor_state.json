@@ -67,11 +67,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-03T01:52:08Z",
-    "eligible": 24,
-    "evaluated": 2,
+    "at": "2026-11-03T08:40:43Z",
+    "eligible": 25,
+    "evaluated": 3,
     "mode": "live",
-    "new_posts": 1,
+    "new_posts": 2,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -1443,6 +1443,20 @@
       "at": "2026-10-11T00:57:13Z",
       "status": "expired",
       "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "277870ffc8d71544c0465c13": {
+      "at": "2026-11-03T08:40:39Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-pando-git-backend-scaling",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/scaling-git-at-openai"
     },
     "27a7527a54e29bd1beb4039a": {
       "at": "2026-10-05T07:01:46Z",
@@ -3271,6 +3285,20 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11364"
+    },
+    "5d33ed0c66ace544e65f6063": {
+      "at": "2026-11-03T08:40:43Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "openai-grid-protectors-program",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/grid-protectors-program"
     },
     "5e4b58556368ff151236a2bd": {
       "at": "2026-10-24T01:10:11Z",
@@ -5232,6 +5260,14 @@
       "at": "2026-10-31T22:41:57Z",
       "status": "expired",
       "url": "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "945f879ef3a469b4aebe760c": {
+      "at": "2026-11-03T08:40:34Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "openai-appoints-dan-driscoll-national-security",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai"
     },
     "94eadcab22c41e356a1d9bf1": {
       "at": "2026-10-16T01:19:19Z",
@@ -13060,6 +13096,27 @@
         "source": "Artificial Analysis Changelog"
       }
     },
+    "openai-grid-protectors-program": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-grid-protectors-program.jpg",
+      "last_updated": "2026-11-03T08:40:43Z",
+      "post_id": "5586536962619433702",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-launches-grid-protectors-program.html",
+      "score": 82,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/0147SbQFof5ozkgFJTdG0j/1daae8bb107fb504ef83be52e10e550f/introducing-the-grid-protectors-program-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/grid-protectors-program"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Launches Grid Protectors Program to Manage Data Center Energy Demand",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
     "openai-habitat-azure-cosmos-db-scaling": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-habitat-azure-cosmos-db-scaling.jpg",
@@ -13263,6 +13320,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI and Oracle expand partnership to integrate enterprise apps and AI agents into ChatGPT",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-pando-git-backend-scaling": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-pando-git-backend-scaling.jpg",
+      "last_updated": "2026-11-03T08:40:39Z",
+      "post_id": "4197145277873323788",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-details-pando-git-compatible.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/CMZECnCACxZO52Dqy7SnB/d7451310a4c165a396517dc7387b9b71/scaling-git-at-openai-seo-card.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/scaling-git-at-openai"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Details 'Pando': A Git-Compatible Backend Built for Agent-Scale Development",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

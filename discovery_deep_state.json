@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-03T17:17:21Z",
+    "at": "2026-11-03T22:28:20Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 6,
+    "prefiltered": 1,
+    "queued": 11,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 163,
+  "runs": 164,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -238,6 +238,11 @@
       "first_seen": "2026-10-03T18:47:09Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/prefer-2"
+    },
+    "083497c77c319f0c4b6fea7a": {
+      "first_seen": "2026-11-03T22:28:19Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2117696344756252822"
     },
     "08913be196df8938b291d515": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -487,6 +492,11 @@
       "first_seen": "2026-10-15T19:05:43Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/audimate"
+    },
+    "10e349d8f2cba5c5ae170ab1": {
+      "first_seen": "2026-11-03T22:28:16Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-b3e236e2de4febbcbea5"
     },
     "10e556402d45283b9552e036": {
       "first_seen": "2026-10-06T23:21:29Z",
@@ -4083,6 +4093,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/capybara-court"
     },
+    "8939ad723874e03bbef5c5ca": {
+      "first_seen": "2026-11-03T22:28:15Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "8976af8b058523370d1e9d5e": {
       "first_seen": "2026-10-20T10:21:00Z",
       "status": "too_old",
@@ -4162,6 +4177,12 @@
       "first_seen": "2026-10-13T18:14:14Z",
       "status": "queued",
       "url": "https://x.ai/news/x-subscription?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "8c3475b4c4e46013f666d8aa": {
+      "first_seen": "2026-11-03T22:28:15Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/corvo-3"
     },
     "8c4fdd7bfd39c840b63b29dd": {
       "first_seen": "2026-10-18T10:57:54Z",
@@ -4697,6 +4718,11 @@
       "status": "queued",
       "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "9f36e77d73f4156fe2ce238e": {
+      "first_seen": "2026-11-03T22:28:15Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-2026/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "9f8b3ec7b4c977a08ab2b829": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -4764,6 +4790,11 @@
       "first_seen": "2026-10-19T10:44:24Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/starkomand"
+    },
+    "a16bc2ebde575d756b4a25b0": {
+      "first_seen": "2026-11-03T22:28:15Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/research/provable-inference?utm_source=futuretools.io&utm_medium=newspage"
     },
     "a1785a44f4858e2b1ea21cf1": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -5302,6 +5333,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/gemini-1-5-pro"
     },
+    "b5a1bea7aa5cbfbd77f0b6f5": {
+      "first_seen": "2026-11-03T22:28:15Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/testera-3"
+    },
     "b602f0b5117800795a759ada": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -5498,6 +5534,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/bonds-2"
+    },
+    "bc4da9820f8f9a3ee754c372": {
+      "first_seen": "2026-11-03T22:28:15Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta?utm_source=futuretools.io&utm_medium=newspage"
     },
     "bd173e559ba5d0f1c24750dd": {
       "first_seen": "2026-10-13T18:14:14Z",
@@ -5806,6 +5847,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://stability.ai/license"
+    },
+    "c7b727c3e6014b13744034e0": {
+      "first_seen": "2026-11-03T22:28:15Z",
+      "status": "queued",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "c7ccacb02f5cd6df29d9d6a6": {
       "first_seen": "2026-10-03T05:50:29Z",
@@ -6651,6 +6697,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/exa-ai"
     },
+    "e5daca498299eff6a1c89c3f": {
+      "first_seen": "2026-11-03T22:28:15Z",
+      "status": "queued",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "e5e29b8c46bed49a08dcf72c": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
@@ -7033,6 +7084,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/remocn-studio"
     },
+    "f2d88e01bfdb30bb95b4f3c8": {
+      "first_seen": "2026-11-03T22:28:15Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/one-roof"
+    },
     "f2f981f084bc55ddee87fe79": {
       "first_seen": "2026-10-17T08:44:04Z",
       "search_score": 0,
@@ -7058,6 +7114,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://sakana.ai/schmidhuber/"
+    },
+    "f4aab44afe3f1629fbe99b54": {
+      "first_seen": "2026-11-03T22:28:15Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations?utm_source=futuretools.io&utm_medium=newspage"
     },
     "f4c384acde8e9fca0eac3202": {
       "first_seen": "2026-10-27T12:46:49Z",

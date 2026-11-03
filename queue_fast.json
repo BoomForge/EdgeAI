@@ -1948,6 +1948,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "0d297090385ad5a7245151aa",
+      "discovered_at": "2026-11-03T10:03:35Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Mon, 02 Nov 2026 18:00:00 GMT",
+      "search_score": 7,
+      "source_name": "OpenAI News",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "945f879ef3a469b4aebe760c",
       "discovered_at": "2026-11-03T02:38:36Z",
       "kind": "official",
@@ -2214,6 +2228,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "bca108e4c77bd86b238b884f",
+      "discovered_at": "2026-11-03T10:03:35Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Mon, 02 Nov 2026 18:00:00 GMT",
+      "search_score": 4,
+      "source_name": "OpenAI News",
+      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "5a014341bc3fc0f1d8b6431c",
       "discovered_at": "2026-11-02T20:30:31Z",
       "kind": "official",
@@ -2354,20 +2382,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "aa8847d44cbae3328f3c5cbb",
-      "discovered_at": "2026-10-21T05:48:59Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Tue, 20 Oct 2026 07:00:00 GMT",
-      "search_score": 2,
-      "source_name": "OpenAI News",
-      "summary": "Terminal X\u2019s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund\u2019s mandate with GPT-6.1 Sol.",
-      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-      "url": "https://openai.com/index/terminal-x"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "e2ed7680c50ae3f074e04f96",
       "discovered_at": "2026-10-28T19:52:36Z",
       "kind": "official",
@@ -2421,20 +2435,6 @@
       "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
       "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "1725d137aa3debc0d8ae9b76",
-      "discovered_at": "2026-10-20T19:22:35Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Tue, 20 Oct 2026 10:00:00 GMT",
-      "search_score": 0,
-      "source_name": "OpenAI News",
-      "summary": "An independent Schlotzsky\u2019s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "url": "https://openai.com/index/ted-taylor-restaurant"
     },
     {
       "bootstrap": false,
@@ -2603,6 +2603,20 @@
       "summary": "Speech Ollama can now generate speech with Phonon on Apple Silicon. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint. ollama run phonon \" Hello from Ollama. \" d3 decision models d3 brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with probabilities. The family includes 2B, 4B, 9B, and 27B sizes. ollama run d3 \" A customer says their card was charged twice. \" --ask \" Is this a billing issue? \" Flint on Linux and Windows Flint now runs on Linux and Windows as well as macOS. Other improvements Streaming OpenAI Responses and Anthropic Messages requests now report generation failures instead of ending silently after partial output. ollama launch now passes cloud models' context lengths and capabilities to coding tools, fixing incorrect context and compaction settings. Anthropic-compatible web search now uses the model's supported thinking setting in follow-up requests, preventing avoidable failures. Full Changelog : v0.40.8...v0.40.9",
       "title": "v0.40.9",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc3"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "b53d42e9c538fd7656efa2b9",
+      "discovered_at": "2026-11-03T10:03:42Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-03T06:57:31Z",
+      "search_score": 16,
+      "source_name": "Ollama Releases",
+      "summary": "What's Changed ollama launch claude now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap Cloud web search responses on /api/chat are now decoded correctly, including compressed responses OpenAI-compatible endpoints no longer override a model's packaged sampler defaults \u2014 clients that send no temperature / top_p get the model's own values instead of 1.0, matching /api/chat /v1/responses now preserves readable input content, including prior assistant refusals, instead of flattening it Ollama's app can now retry ChatGPT disconnect failures instead of leaving the connection in a broken state ollama launch codex verifies ChatGPT routing before configuring, and reports a clear error when routing is unavailable Faster top-k sampling on MLX for large vocabularies Full Changelog : v0.40.13...v0.40.14",
+      "title": "v0.40.14",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14"
     },
     {
       "bootstrap": false,
@@ -2967,6 +2981,20 @@
       "summary": "server : pass id_slot through the Anthropic /v1/messages conversion ( #28554 ) server : pass id_slot through the Anthropic /v1/messages conversion server_chat_convert_anthropic_to_oai copies a small whitelist of common params from the Anthropic request into the internal OAI-style body and left id_slot out. Every other completion endpoint honours id_slot; a proxy that pins a session to the slot holding its KV cache needs the same on /v1/messages, or it silently falls back to automatic slot selection and, on hybrid/recurrent models, pays a full re-prefill. Adds a test asserting a request with id_slot set is served by that slot, observed via GET /slots. server : shorten comments rm test Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57810098 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11756",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11756"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "419393c3c0a3cbc48abd5b79",
+      "discovered_at": "2026-11-03T10:03:41Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-03T05:45:56Z",
+      "search_score": 9,
+      "source_name": "llama.cpp Releases",
+      "summary": "hexagon: tiled hvx permute ( #31446 ) hexagon: add tiled HVX transpose path for permuted CONT/CPY Permuted copies where dst dim 0 is strided in src, but some other src dim is contiguous, used to fall back to HTP_COPY_KERNEL_RESHAPE. That issues one DMA descriptor per element. The channel-first <-> channel-last permutes around per-channel norms (e.g. [W,H,T,C] <-> [C,W,H,T] in video VAEs) ht this path, and these copies ran at about 45 MB/s. Add HTP_COPY_KERNEL_TRANSPOSE for same-type, same-shape f32/f16 copies into a contiguous dst. Host: drop extent-1 dims and merge dims that stay adjacent in src into a canonical view, stored in the kernel params. There are no minimum size limits. the copy is treated as a 2D transpose between dst dim 0 and the contiguous src dim, batched over the remaining dims. tiles are sized to 64 KB per buffer and halved until they fit in session VTCM. blkk is capped so the halfword vgather offsets fit in 16 bits. Kernel, per tile: 2D DMA of blk0 strided src rows (blkk contiguous elements each) into VTCM vgather transpose in 32x32 (f32) or 64x64 (f16) blocks 2D DMA of blkk contiguous rows out to dst Staged and transposed buffers are double-buffered, so the next tile's input DMA overlaps the current transpose and output DMA. Tiles are split across threads and mdev sessions. Small dims: packed mode: when dim k follows dim 0 and dim 0 divides the HVX lanes (f32: 2/4/8/16, f16: 2/4/.../32), one vgather writes several whole dst rows, and each tile goes out as one contiguous DMA. when the contiguous src dim fits in one vector, it is staged exactly and the tile is made long along dim 0. All other copies select the same kernels as before. Tests: add test_cont cases for perms {1,2,3,0} and {3,0,1,2}, f32 and f16, at various sizes. hexagon: cpy transpose cleanups fix vgather halfword offset comments: offsets are unsigned 16-bit, caps are kept lower for speed set packed directly in the packed case add dim_k == 3 CONT tests (full reversal) Assisted-by: Claude Opus 5.5 hexagon: use cpy transpose path for ne[0] == 1 permutes drop the nb[0] check in the transpose solver: size-1 dims are skipped, and the canonical tp.nb[0] check covers packed dim 0 try the transpose path before SAMESHAPE_SAMETYPE, which did one DMA per element for these add ne[0] == 1 permute CPY tests Assisted-by: Claude Opus 5.5 hex-cpy: further improve cpy Bring in improvements from aizip branch/PR. Cleanup kparams and replace divs with fastdiv. Co-authored-by: Yiwei Shao yiwei@aizip.ai hex-cpy: avoid vtcm bank conflicts hex-cpy: trim down the comments cpy-test: trim down new tests that cover permute scenarios Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Co-authored-by: Yiwei Shao yiwei@aizip.ai Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62970114 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12064",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12064"
     },
     {
       "bootstrap": false,
@@ -3471,37 +3499,9 @@
       "summary": "server: cap shared decision prefixes at the first output ( #30710 ) Limit the shared prefix to the first required output position of the parent and each child task. This keeps decision output embeddings available in the final batch when questions share option tokens. Fixes #30482 Signed-off-by: aiqubits aiqubits@hotmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62175271 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12023",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12023"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "e772b09d20c0a3885d7d58a4",
-      "discovered_at": "2026-10-29T17:31:52Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-29T17:13:28Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "metal : faster MXFP4 mat-vec, full threadgroups for unary/binary/GLU ( #31075 ) metal : faster MXFP4 mat-vec kernel Decode the fp4 values with the fp16 bit trick instead of a threadgroup lookup table, and load the packed nibbles as aligned 32-bit words. The kernel no longer uses threadgroup memory. metal : launch contiguous unary and binary ops with full threadgroups The contiguous unary path and the row-broadcast binary path used one thread per threadgroup. Use up to 256 threads per threadgroup and bound-check the tail. metal : split GLU rows across threadgroups A GLU row ran on one threadgroup, so single-row decode used a single threadgroup for the whole op. Split each row over threadgroups of up to 256 threads. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61399679 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11985",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11985"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "33e35f149af7ffc4d3be91cd",
-      "discovered_at": "2026-11-03T02:38:44Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-03T01:42:00Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "dflash: copy hidden features via device copies ( #31506 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62913415 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12063",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12063"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-03T02:39:12Z",
+  "updated_at": "2026-11-03T10:04:07Z",
   "version": 2
 }

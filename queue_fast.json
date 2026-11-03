@@ -2102,6 +2102,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "fc87a45dcfbf03d417250555",
+      "discovered_at": "2026-11-03T17:54:32Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Tue, 03 Nov 2026 08:00:00 GMT",
+      "search_score": 5,
+      "source_name": "OpenAI News",
+      "summary": "Discover how Heimstaden uses OpenAI\u2019s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "5d33ed0c66ace544e65f6063",
       "discovered_at": "2026-11-02T20:30:31Z",
       "kind": "official",
@@ -2802,6 +2816,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "f45cdd5f95812c0b2860ff0f",
+      "discovered_at": "2026-11-03T17:54:39Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-03T15:21:17Z",
+      "search_score": 10,
+      "source_name": "llama.cpp Releases",
+      "summary": "vulkan: fix out-of-bounds NVFP4 UE4M3 scale lookup ( #31079 ) vulkan : fix out-of-bounds NVFP4 UE4M3 scale lookup On the non-OCP path, ue4m3_fp32_lut has 128 entries and is indexed with the raw scale byte. ggml_validate_row_data accepts every byte and ggml_ue4m3_to_fp32 ignores bit 7, so a byte >= 0x80 reads past the shared array. Vulkan robustness does not cover shared memory. Size the table, both init loops, and the two host shared-memory budgets to 256 entries. ue4m3_to_fp32_build() already masks the exponent and treats only 0 and 0x7F as special, so entries 128-255 match the CPU. A 256-entry table keeps 0xFF distinct from 0x7F: the CPU decodes 0xFF as a non-zero value and 0x7F as zero. Each NVFP4 pipeline uses 512 more bytes of shared memory. ggml_fp32_to_ue4m3 never sets bit 7, so models quantized by llama.cpp are unaffected. Assisted-by: Claude Assisted-by: Codex vulkan : fix out-of-bounds NVFP4 UE4M3 scale lookup Assisted-by: Codex Co-authored-by: Dongsheng Luo 7137760+flyingdoog@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63166059 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12073",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12073"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "5b54c8b32918ef98ebf957e2",
       "discovered_at": "2026-10-31T08:54:21Z",
       "kind": "local-ai",
@@ -2967,20 +2995,6 @@
       "summary": "server: add realtime transcription API ( #30636 ) server: add realtime transcription API drop transcription_sessions proxy ws add docs server: let the API key middleware guard the websocket httplib runs the pre-routing handler before the websocket upgrade, so the API key middleware answers 401 at handshake like any other route. This covers the router proxy, whose children run keyless, and accepts the same key forms as HTTP (Bearer, raw key, X-Api-Key). server: keep realtime slots out of the prompt loop A realtime slot waiting for audio is GENERATING with nothing to decode, so it fell through the prompt loop and took slot_batched. A request on a higher slot then failed can_batch_with on the task type and starved for the whole session. Realtime slots have no prompt: the loop sets them up once and always leaves them. server: start the realtime session once its slot is live The audio stream was created in the prompt loop, which skips a slot that cannot batch with the one generating, and session.created went out before the task was posted: early appends failed and the reader quit, leaving the socket open and the slot held until the HTTP timeout. The slot now sets up its stream at launch and signals it with the begin result, session.created waits for it, and a reader that stops closes the socket so the session ends with it. server: name the committed item in input_audio_buffer.committed Per the Realtime spec, item_id is the item made from the committed audio and previous_item_id the one committed before it, null for the first. committed now comes before the transcript that completes that item, and both go out with the item switch under one lock, so a delta cannot land between them. server: use the GA transcription session shape The session object follows the GA Realtime schema: type transcription, with the input format, transcription model, turn detection and noise reduction under audio.input. The rate stays the model sample rate, which is what the client must send for now. Co-authored-by: Pascal admin@serveurperso.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58060985 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11780",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11780"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "e3ebda66e40d24b73dd045e6",
-      "discovered_at": "2026-10-20T15:11:37Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-20T13:52:00Z",
-      "search_score": 10,
-      "source_name": "llama.cpp Releases",
-      "summary": "server : pass id_slot through the Anthropic /v1/messages conversion ( #28554 ) server : pass id_slot through the Anthropic /v1/messages conversion server_chat_convert_anthropic_to_oai copies a small whitelist of common params from the Anthropic request into the internal OAI-style body and left id_slot out. Every other completion endpoint honours id_slot; a proxy that pins a session to the slot holding its KV cache needs the same on /v1/messages, or it silently falls back to automatic slot selection and, on hybrid/recurrent models, pays a full re-prefill. Adds a test asserting a request with id_slot set is served by that slot, observed via GET /slots. server : shorten comments rm test Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57810098 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11756",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11756"
     },
     {
       "bootstrap": false,
@@ -3320,6 +3334,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "8ea075c86dbcdcf840cab883",
+      "discovered_at": "2026-11-03T17:54:39Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-03T17:54:20Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "meta: support GLM-5.3 next sm tensor ( #30499 ) meta: support GLM-5.3 next sm tensor glm5-next : cont q_absorbed for -sm tensor with non-unified KV meta : keep GGML_OP_ARANGE in ggml.h order glm5-next : split MLA heads in pairs for -sm tensor The MLA cache has a single KV head, so the heads on a device are its GQA ratio. The HIP tile FA kernel for D=512 needs an even GQA ratio; with 3 devices the 16 heads of the test model were split 5/5/6 and it aborted. meta : keep the split for views inside one slab of the split axis With a non-unified KV cache, build_attn_mha splits q into streams with a view. For a permuted q, e.g. the absorbed query of glm5-next, that view aborted with \"view of permuted tensor not implemented\". The split is now kept if every other dim of the source and the view stays inside one slab of the split axis. The per-device strides are only rescaled above it. From tetherto#353 . Co-authored-by: Pratik Narola pratik.narola@tether.io glm5-next : drop the q_absorbed cont The meta backend can now split the per-stream view of the permuted q, so the cont is not needed for -sm tensor with a non-unified KV cache. With the cont, the q of flash attention was not contiguous, and when FA ran on the CPU (WebGPU) the meta get_tensor aborted. Co-authored-by: Pratik Narola pratik.narola@tether.io Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63228377 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12077",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12077"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "8a2f9a05df6cb8f2bec88a56",
+      "discovered_at": "2026-11-03T17:54:39Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-03T15:03:32Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "llama : drop the redundant cnv from llm_attn_mask ( #31558 ) The dspark block mask is now derived at input-fill time: llm_attn_mask::block_uniform fills every token of a sequence with the mask row of its first token, so the graph-level reshape/repeat in dflash is gone and cnv always aliases raw. Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (Mac Studio, M5 Ultra, 256GB) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63157892 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12072",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12072"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "c34c1c12b0b44125ca6e6274",
       "discovered_at": "2026-11-03T02:38:44Z",
       "kind": "local-ai",
@@ -3457,51 +3499,9 @@
       "summary": "model : drop the redundant precision overrides in the Kolibri-1 router ( #30865 ) model : drop the redundant precision overrides in the Kolibri-1 router Follow-up to the review in #30673 : the router matmul works with the default precision, so both ggml_prec_set_* calls can go away. Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) cont : fix comment Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Co-authored-by: Sigbj\u00f8rn Skj\u00e6ret sigbjorn.skjaeret@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57996105 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11765",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11765"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "df1d6ce7caa4eee397d5bcfc",
-      "discovered_at": "2026-10-21T00:55:30Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-20T23:01:45Z",
-      "search_score": 7,
-      "source_name": "llama.cpp Releases",
-      "summary": "opencl: add several gemm variants for small batches and some fixes ( #30850 ) opencl: fix OOB read in mul_mv_mxfp4_f32_flat opencl: remove large-N guard that forces CPU weight placement this condition claims that large batch produces incorrect results on adreno and cannot be reproduced model loader uses N512 to probe op support, resulting in cpu fallback thus this condition does not seem necessary opencl: cap num of subgroups by workgroup size for q4_0 mc3 Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: add small batch variant for q4_k dp4a GEMM Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: add a narrow variant of mul_mm_f16_f32_l4_lm Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: add a one subgroup variant for gemv_noshuffle_q1_0_f32 for big M Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57990792 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11763",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11763"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "d742fce73aa702c361a67c39",
-      "discovered_at": "2026-11-02T20:30:37Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-02T18:27:59Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "ggml : use vm_allocate instead of posix_memalign on all Apple platforms ( #31437 ) ggml : use vm_allocate instead of posix_memalign on iOS ggml : use vm_allocate on all Apple platforms, run test-host-buffer-release by default Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62768489 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12053",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12053"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "1425814562bfef646e9be65f",
-      "discovered_at": "2026-10-31T19:22:56Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-31T19:22:28Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "server: cap shared decision prefixes at the first output ( #30710 ) Limit the shared prefix to the first required output position of the parent and each child task. This keeps decision output embeddings available in the final batch when questions share option tokens. Fixes #30482 Signed-off-by: aiqubits aiqubits@hotmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62175271 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12023",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12023"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-03T10:04:07Z",
+  "updated_at": "2026-11-03T17:55:07Z",
   "version": 2
 }

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-03T10:04:07Z",
+    "at": "2026-11-03T17:55:07Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
+    "prefiltered": 1,
     "queued": 15,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 164,
+  "runs": 165,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -533,6 +533,11 @@
       "first_seen": "2026-10-26T21:51:38Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11905"
+    },
+    "11401edf31e0b15a6a550195": {
+      "first_seen": "2026-11-03T17:54:32Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-2026/"
     },
     "1143b1c433b3a84fd0cad4ea": {
       "first_seen": "2026-10-13T21:32:25Z",
@@ -1593,6 +1598,11 @@
       "first_seen": "2026-10-03T18:43:36Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11379"
+    },
+    "2c40d50c479c727a8f8e9264": {
+      "first_seen": "2026-11-03T17:54:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12075"
     },
     "2c5c1a302baa91ba3f0ddfed": {
       "first_seen": "2026-10-14T05:22:46Z",
@@ -2909,6 +2919,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.19052"
     },
+    "4fdaae4f267f78b814f1b196": {
+      "first_seen": "2026-11-03T17:54:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12071"
+    },
     "5036f5960e5c005d77fbc3e8": {
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
@@ -2988,6 +3003,11 @@
       "first_seen": "2026-10-30T15:07:01Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12012"
+    },
+    "53fab47ac12743633f1ef8c7": {
+      "first_seen": "2026-11-03T17:54:57Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.914-beta"
     },
     "53fd94a06da8347a5803d5c7": {
       "first_seen": "2026-10-30T08:19:26Z",
@@ -3921,6 +3941,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40723"
     },
+    "6b8f491b6846644099729a46": {
+      "first_seen": "2026-11-03T17:54:32Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/google-ai-educator-series-global-expansion-november-2026/"
+    },
     "6ba153ebd7df699500541486": {
       "first_seen": "2026-10-23T04:34:35Z",
       "status": "queued",
@@ -4254,6 +4279,11 @@
       "status": "queued",
       "url": "https://openai.com/index/openai-cut-incident-investigation"
     },
+    "7442731f0202b0d381df6f0b": {
+      "first_seen": "2026-11-03T17:54:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12076"
+    },
     "74655899d2c02f414ae48235": {
       "first_seen": "2026-10-23T04:34:33Z",
       "status": "queued",
@@ -4524,6 +4554,11 @@
       "first_seen": "2026-10-03T00:45:54Z",
       "status": "too_old",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1"
+    },
+    "7e52a6acfd99b02c3f1f907e": {
+      "first_seen": "2026-11-03T17:54:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12074"
     },
     "7e62098a86592332aadb0b0e": {
       "first_seen": "2026-10-05T09:14:07Z",
@@ -4942,6 +4977,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11571"
     },
+    "8a2f9a05df6cb8f2bec88a56": {
+      "first_seen": "2026-11-03T17:54:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12072"
+    },
     "8a5bbea3d5273e7fa87dc594": {
       "first_seen": "2026-10-19T16:55:53Z",
       "search_score": 0,
@@ -4972,6 +5012,11 @@
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22474"
+    },
+    "8bc47e2b314460fe30c9ab30": {
+      "first_seen": "2026-11-03T17:54:32Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/"
     },
     "8bf6776408f8d7ad49ace439": {
       "first_seen": "2026-10-25T13:40:54Z",
@@ -5113,6 +5158,11 @@
       "first_seen": "2026-10-06T19:03:39Z",
       "status": "queued",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.1"
+    },
+    "8ea075c86dbcdcf840cab883": {
+      "first_seen": "2026-11-03T17:54:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12077"
     },
     "8eaa8bd3569d741177a89da0": {
       "first_seen": "2026-10-06T19:03:32Z",
@@ -5646,6 +5696,11 @@
       "first_seen": "2026-10-03T15:10:00Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11375"
+    },
+    "9d2b5d14cfa7c1e972880225": {
+      "first_seen": "2026-11-03T17:54:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12078"
     },
     "9d5298e46a58a148185eb393": {
       "first_seen": "2026-10-18T05:33:04Z",
@@ -6339,6 +6394,12 @@
       "first_seen": "2026-10-30T15:07:01Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12007"
+    },
+    "b1acee54f67377df7c225332": {
+      "first_seen": "2026-11-03T17:54:32Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/education/guided-learning-uk-japan/"
     },
     "b1d7eb2dedce5839f5898b83": {
       "first_seen": "2026-10-26T17:27:08Z",
@@ -8067,6 +8128,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.0-rc.1"
     },
+    "e0f30097ee56763488a5c137": {
+      "first_seen": "2026-11-03T17:54:51Z",
+      "status": "queued",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.0"
+    },
     "e1437283004c66696fa991ce": {
       "first_seen": "2026-10-21T05:49:01Z",
       "status": "queued",
@@ -8782,6 +8848,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12545"
     },
+    "f45cdd5f95812c0b2860ff0f": {
+      "first_seen": "2026-11-03T17:54:39Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12073"
+    },
     "f4613aa777a13aa7e1cdd0be": {
       "first_seen": "2026-10-12T09:24:08Z",
       "status": "queued",
@@ -8947,6 +9018,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11524"
     },
+    "f841ee71fc6c0a36efad1a6b": {
+      "first_seen": "2026-11-03T17:54:32Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/education/google-org-funding-ai-education/"
+    },
     "f87baa38b03278bfed1e7313": {
       "first_seen": "2026-10-03T00:46:16Z",
       "status": "queued",
@@ -9087,6 +9163,11 @@
       "first_seen": "2026-10-26T05:16:26Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31747"
+    },
+    "fc87a45dcfbf03d417250555": {
+      "first_seen": "2026-11-03T17:54:32Z",
+      "status": "queued",
+      "url": "https://openai.com/index/heimstaden"
     },
     "fcdd244b5c2b02a79bd242ee": {
       "first_seen": "2026-10-28T07:28:01Z",

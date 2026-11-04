@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "at": "2026-11-03T23:01:12Z",
+    "at": "2026-11-04T02:58:57Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
@@ -9,7 +9,7 @@
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 166,
+  "runs": 167,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1837,6 +1837,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11435"
     },
+    "3278c320ebbcc2bbd635ea92": {
+      "first_seen": "2026-11-04T02:58:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12092"
+    },
     "32b179101ee9f44a55efc046": {
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
@@ -3603,6 +3608,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.19015"
     },
+    "6371c9c0ccef63e7d957a9fd": {
+      "first_seen": "2026-11-04T02:58:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12094"
+    },
     "6376692708a589e10b25236a": {
       "first_seen": "2026-10-11T14:10:34Z",
       "status": "queued",
@@ -3991,6 +4001,11 @@
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.0.90"
+    },
+    "6c14b0a962d49aec82fcf212": {
+      "first_seen": "2026-11-04T02:58:43Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.109.0-rc.1"
     },
     "6c5e6a6d85af5893fe93cf06": {
       "first_seen": "2026-10-28T07:28:00Z",
@@ -4962,6 +4977,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.09043"
     },
+    "882614252e809bfa28613b93": {
+      "first_seen": "2026-11-04T02:58:51Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1"
+    },
     "88c587e6e9d24a892bb61836": {
       "first_seen": "2026-10-03T00:46:15Z",
       "status": "too_old",
@@ -5707,6 +5727,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11436"
     },
+    "9c3d074f77fc20b6b7612ce2": {
+      "first_seen": "2026-11-04T02:58:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12095"
+    },
     "9c402a4cbad33e5829e588bb": {
       "first_seen": "2026-10-23T09:33:52Z",
       "status": "queued",
@@ -6158,6 +6183,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10613"
+    },
+    "a99aff008959721d049876b7": {
+      "first_seen": "2026-11-04T02:58:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12091"
     },
     "a99f90fb6f06f340525f581a": {
       "first_seen": "2026-11-02T10:42:42Z",
@@ -7586,6 +7616,11 @@
       "first_seen": "2026-10-26T05:16:55Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.2.0"
+    },
+    "d296a1f29c757ffe7bd8379d": {
+      "first_seen": "2026-11-04T02:58:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12096"
     },
     "d2ace7e9d2436a978a3a613d": {
       "first_seen": "2026-10-20T22:27:11Z",
@@ -9048,6 +9083,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11801"
     },
+    "f7c11ca5a1337415c1450573": {
+      "first_seen": "2026-11-04T02:58:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12090"
+    },
     "f7c337fb9f6ab659f03706a5": {
       "first_seen": "2026-10-27T06:24:40Z",
       "status": "queued",
@@ -9224,6 +9264,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.35904"
     },
+    "fcec1b84be933ab3ab3589c7": {
+      "first_seen": "2026-11-04T02:58:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12089"
+    },
     "fd1458eaf49fedff2cc99214": {
       "first_seen": "2026-10-08T07:31:26Z",
       "status": "queued",
@@ -9295,6 +9340,11 @@
       "first_seen": "2026-10-08T20:34:18Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2-rc0"
+    },
+    "ffbb69a7f635e1ce55f6c2fb": {
+      "first_seen": "2026-11-04T02:58:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12088"
     }
   },
   "version": 2

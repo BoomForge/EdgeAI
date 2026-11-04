@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-04T17:58:25Z",
+    "at": "2026-11-04T23:37:20Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 3,
-    "queued": 3,
+    "queued": 9,
     "sources_ok": 15,
-    "too_old": 3,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 167,
+  "runs": 168,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -661,6 +661,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/the-brains"
+    },
+    "15feac62aac65d3b8bb9bb8f": {
+      "first_seen": "2026-11-04T23:37:15Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6?utm_source=futuretools.io&utm_medium=newspage"
     },
     "16278565d50915517bc1148d": {
       "first_seen": "2026-10-06T19:44:11Z",
@@ -1325,6 +1330,11 @@
       "first_seen": "2026-10-09T07:47:55Z",
       "status": "queued",
       "url": "https://sakana.ai/namazu-aillis/"
+    },
+    "2bcc8012448b802d9ff4e9d9": {
+      "first_seen": "2026-11-04T23:37:19Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2118058453415371119"
     },
     "2c8b555f89725b795ac88b8d": {
       "first_seen": "2026-10-08T01:53:43Z",
@@ -3004,6 +3014,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/"
     },
+    "624418539b9b48e61629c828": {
+      "first_seen": "2026-11-04T23:37:16Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/cardpointers"
+    },
     "625404ae9894067d0d54ba47": {
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
@@ -3064,6 +3079,11 @@
       "first_seen": "2026-10-25T14:20:37Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2114340383044063552"
+    },
+    "641e62a0a3e7e6ec8ebc1647": {
+      "first_seen": "2026-11-04T23:37:15Z",
+      "status": "queued",
+      "url": "https://openai.com/index/openai-to-acquire-pierre/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "643740d8b1d776507524544b": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -3228,6 +3248,11 @@
       "first_seen": "2026-10-19T00:11:50Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2111969779128950802"
+    },
+    "6b1c4708310c50a052ce3a27": {
+      "first_seen": "2026-11-04T23:37:16Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/"
     },
     "6b1f2736c991cd73b3cebbd2": {
       "first_seen": "2026-10-11T09:11:21Z",
@@ -3985,6 +4010,11 @@
       "first_seen": "2026-10-15T09:50:31Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/buddy"
+    },
+    "8265b69742e725bac3ffed26": {
+      "first_seen": "2026-11-04T23:37:16Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/"
     },
     "826a5d8c45ab8646b5afc05b": {
       "first_seen": "2026-10-30T21:08:21Z",
@@ -5215,6 +5245,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/winq"
     },
+    "aac81467646f1d039bd25b6e": {
+      "first_seen": "2026-11-04T23:37:16Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/3/llm/"
+    },
     "aacb450843f1933715a67952": {
       "first_seen": "2026-10-21T11:41:37Z",
       "search_score": 0,
@@ -5231,6 +5266,11 @@
       "first_seen": "2026-10-12T15:14:38Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/milepost-2"
+    },
+    "abbb96cf14716a168d8896a4": {
+      "first_seen": "2026-11-04T23:37:16Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/"
     },
     "ac0fa92fff55b540304bdda0": {
       "first_seen": "2026-10-28T20:28:26Z",
@@ -5504,6 +5544,11 @@
       "first_seen": "2026-10-21T23:32:26Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-44a0d5d393794d6503c5"
+    },
+    "b6681799df52c801f796834f": {
+      "first_seen": "2026-11-04T23:37:16Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/krev"
     },
     "b66f552a070814a0c663b095": {
       "first_seen": "2026-10-24T11:25:53Z",
@@ -5926,6 +5971,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/"
     },
+    "c4ec31c82cda551ded42d793": {
+      "first_seen": "2026-11-04T23:37:16Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/sendu"
+    },
     "c531f4496aa96e6f9ff854a8": {
       "first_seen": "2026-10-14T01:51:45Z",
       "search_score": 0,
@@ -5973,6 +6024,11 @@
       "first_seen": "2026-10-07T21:57:49Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-64185faeb906f7bf2de4"
+    },
+    "c6c4d490acced20fcc39b8ca": {
+      "first_seen": "2026-11-04T23:37:15Z",
+      "status": "queued",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "c6ddd1df0055a2cbd09685d4": {
       "first_seen": "2026-10-30T21:08:21Z",
@@ -6945,6 +7001,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/boss-console"
     },
+    "e929f8b20a65e23a7ca379f2": {
+      "first_seen": "2026-11-04T23:37:19Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2118094256438936062"
+    },
     "e9a128e279ff480986fb87f4": {
       "first_seen": "2026-10-08T16:25:56Z",
       "status": "queued",
@@ -7163,6 +7224,12 @@
       "first_seen": "2026-10-20T10:21:00Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/call4me"
+    },
+    "f0a48276fa17edbe440ff236": {
+      "first_seen": "2026-11-04T23:37:16Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/pasteguard-2"
     },
     "f0bdd2caa8622824124d94f0": {
       "first_seen": "2026-10-14T21:37:22Z",
@@ -7486,6 +7553,12 @@
       "first_seen": "2026-11-03T01:51:09Z",
       "status": "queued",
       "url": "https://x.ai/news/data-bot?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "fa465a15dcff511349e187dd": {
+      "first_seen": "2026-11-04T23:37:16Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/datashake-hub"
     },
     "fa485dcd4907aa629fd00118": {
       "first_seen": "2026-10-13T18:14:15Z",

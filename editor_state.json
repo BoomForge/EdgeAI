@@ -72,8 +72,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-04T17:36:32Z",
-    "eligible": 58,
+    "at": "2026-11-04T22:55:04Z",
+    "eligible": 65,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
@@ -1153,6 +1153,20 @@
         "source": "Kimi Research"
       },
       "url": "https://www.kimi.com/code"
+    },
+    "1be4fdd8e6ca80f0ec012771": {
+      "at": "2026-11-04T22:55:00Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-acquires-pierre-computer-company",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/openai-to-acquire-pierre"
     },
     "1c948c95b065977a6cda6fea": {
       "at": "2026-10-23T01:00:40Z",
@@ -5966,6 +5980,20 @@
       "at": "2026-10-11T22:31:31Z",
       "status": "expired",
       "url": "https://www.anthropic.com/news/anthropic-cyber-mission?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "a3433e936d2c04bfa7722c64": {
+      "at": "2026-11-04T22:55:04Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-daybreak-red-aws-govcloud",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud"
     },
     "a395c7da350b5086cc15f6b6": {
       "at": "2026-10-29T02:55:55Z",
@@ -12745,6 +12773,27 @@
         "source": "OpenAI News"
       }
     },
+    "openai-acquires-pierre-computer-company": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-acquires-pierre-computer-company.jpg",
+      "last_updated": "2026-11-04T22:55:00Z",
+      "post_id": "9118274819377376579",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-announces-acquisition-of-pierre.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/5lDkYRSw86lFyHulgkyVVr/5b20bd6b90c3d87c33b780884b48123a/openai-to-acquire-pierre-computer-company-inc-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/openai-to-acquire-pierre"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI announces acquisition of Pierre Computer Company to expand Codex developer tools",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
     "openai-amp-agents-gpt6-astra-gpt-live-1": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-amp-agents-gpt6-astra-gpt-live-1.jpg",
@@ -12969,6 +13018,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI Announces Community Safety Report and New Teen Protections for ChatGPT",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-daybreak-red-aws-govcloud": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-daybreak-red-aws-govcloud.jpg",
+      "last_updated": "2026-11-04T22:55:04Z",
+      "post_id": "5875322111462059275",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-launches-daybreak-red-with-gpt.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/5kxMZV1Js4071yUAa9rsyx/2ac76c7318411b493ec032afb3d7aaf9/daybreak-red-aws-govcloud-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/daybreak-red-aws-govcloud"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Launches Daybreak Red with GPT-5.6 Cyber in AWS GovCloud",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-04T02:39:07Z",
+    "at": "2026-11-04T09:57:45Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 1,
+    "prefiltered": 8,
+    "queued": 6,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 6,
     "warnings": 0
   },
-  "runs": 165,
+  "runs": 166,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -834,6 +834,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/paddock-2"
     },
+    "1a82fe8ce05a972f7476fa5b": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-4670fc8077c43ca98e03"
+    },
     "1ab262daeec5747ab5941548": {
       "first_seen": "2026-10-03T05:50:29Z",
       "search_score": 0,
@@ -1035,6 +1040,12 @@
       "status": "queued",
       "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "20870a547c339b47e3a89a37": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/sonari"
+    },
     "209851e1d08aff94d5326a2f": {
       "first_seen": "2026-10-20T19:29:47Z",
       "status": "queued",
@@ -1231,6 +1242,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/kin-6"
     },
+    "28d5a3c6eeefd6a4dd80d649": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/country-filter-for-x-2"
+    },
     "28dc3a5873d788c5b9ec4649": {
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
@@ -1313,6 +1330,12 @@
       "first_seen": "2026-10-26T21:56:09Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2114780096204857522"
+    },
+    "2cc373a8f31ec7003c2d9983": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/freeport-markets"
     },
     "2cf23206607f40daee574c46": {
       "first_seen": "2026-10-28T15:20:02Z",
@@ -1451,6 +1474,16 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/tonefold"
+    },
+    "312c3ce9935fa29fddf8838a": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/fileai-ai-ocr"
+    },
+    "3148b2fd1bf3e5ee55252648": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/render"
     },
     "315ca018630361ad01a8cc39": {
       "first_seen": "2026-10-06T14:08:51Z",
@@ -1785,6 +1818,12 @@
       "first_seen": "2026-10-08T21:27:36Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-989879af9de3ff049b6e"
+    },
+    "3ced6d0f0e19d8baa6585956": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/virelo"
     },
     "3d4362e82edd89613db72579": {
       "first_seen": "2026-10-16T14:48:14Z",
@@ -2396,6 +2435,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/openseo"
     },
+    "5226e12e1f5077abad9f7ddc": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/hashference"
+    },
     "52d2852bd491dd26fd15351b": {
       "first_seen": "2026-10-22T13:13:50Z",
       "status": "queued",
@@ -2504,6 +2548,12 @@
       "first_seen": "2026-10-09T19:51:22Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/ambiguous-workspace"
+    },
+    "55c94afa2925d0dce91afe8c": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/rungle"
     },
     "55cb68d4cf228ab90a3f463d": {
       "first_seen": "2026-10-15T09:50:31Z",
@@ -2754,6 +2804,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/simple-workout-log"
     },
+    "5dc58f1368427b045d6c3718": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/fedora-linux-45"
+    },
     "5e4b58556368ff151236a2bd": {
       "first_seen": "2026-10-23T15:23:24Z",
       "status": "queued",
@@ -2863,6 +2919,11 @@
       "first_seen": "2026-10-21T20:18:31Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/21/php-security-release/"
+    },
+    "60e4a5b8e3e99d2e5a7f3f22": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/qualitylayer"
     },
     "6138ec733e3c4420aa012e01": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -3235,6 +3296,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/github-copilot-fusion"
     },
+    "6eeda1cd87695026e8044995": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/mellow-kids"
+    },
     "6efe1c62f251acf7b3947e2d": {
       "first_seen": "2026-10-21T16:08:20Z",
       "status": "queued",
@@ -3593,6 +3659,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/aster-by-asterwise"
     },
+    "79d9e19054ea6c735fffa6f9": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/wanaka-studio"
+    },
     "79e6dbdf917e9f8f37b2b77d": {
       "first_seen": "2026-10-20T00:43:52Z",
       "status": "queued",
@@ -3683,6 +3754,12 @@
       "status": "queued",
       "url": "https://www.theinformation.com/newsletters/ai-agenda/openais-plan-revive-sora?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "7cc26f101b7ab8927c6626f7": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/deployed-yet"
+    },
     "7cdd3998b104904d0a861e13": {
       "first_seen": "2026-10-23T10:24:14Z",
       "status": "too_old",
@@ -3734,6 +3811,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/enclave-2"
+    },
+    "7e74bfdf1b9745b42880c8db": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/resum"
     },
     "7e757af485340b5175ace169": {
       "first_seen": "2026-10-24T11:25:53Z",
@@ -4503,6 +4585,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/widgeteer"
+    },
+    "973017d145cf3a198b746bb1": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/openmail"
     },
     "97397d7fa75c50842dda10c0": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -6266,6 +6353,11 @@
       "status": "queued",
       "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "d7a8acd6d85f37f3be017868": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/kosa8"
+    },
     "d7ac39314bf8d75df82ea649": {
       "first_seen": "2026-10-22T07:30:04Z",
       "status": "too_old",
@@ -6951,6 +7043,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/opencouncil"
     },
+    "eed9413221e9a4e221be128c": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/prelulu"
+    },
     "eef4d318a704a567a93440f1": {
       "first_seen": "2026-10-03T00:45:59Z",
       "search_score": 0,
@@ -7230,6 +7327,12 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2116152083145482670"
     },
+    "f72f1f636fab957f8c0b5f71": {
+      "first_seen": "2026-11-04T09:57:41Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tellpip"
+    },
     "f7595b9269d08c84dbe392da": {
       "first_seen": "2026-10-20T00:43:52Z",
       "status": "queued",
@@ -7325,6 +7428,11 @@
       "first_seen": "2026-10-03T00:46:02Z",
       "status": "queued",
       "url": "https://qwenlm.github.io/blog/qwen-image-edit/"
+    },
+    "f9b2eb9a019f51aebb2c4572": {
+      "first_seen": "2026-11-04T09:57:44Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2117848456404545779"
     },
     "fa3c1fe4e6a36de5ad2f2484": {
       "first_seen": "2026-11-03T01:51:09Z",

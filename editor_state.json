@@ -72,8 +72,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-04T09:40:32Z",
-    "eligible": 47,
+    "at": "2026-11-04T17:36:32Z",
+    "eligible": 58,
     "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
@@ -405,6 +405,11 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://www.shopify.com/news/introducing-canvas?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "08cf327d10198da472d15741": {
+      "at": "2026-11-04T17:35:42Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/agent-inbox"
     },
     "094171d39ea0a0a02c6af419": {
       "at": "2026-10-24T01:10:15Z",
@@ -1061,6 +1066,20 @@
       "at": "2026-10-30T07:33:31Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/paddock-2"
+    },
+    "1a82fe8ce05a972f7476fa5b": {
+      "at": "2026-11-04T17:36:02Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "artificial-analysis-performance-benchmarking-v3-intelligence-index-v5",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-4670fc8077c43ca98e03"
     },
     "1a83a48f2b9d2005f2db82f3": {
       "at": "2026-10-08T23:51:05Z",
@@ -5231,6 +5250,20 @@
         "source": "Artificial Analysis Changelog"
       },
       "url": "https://artificialanalysis.ai/changelog#edgeai-c2f97c056df2001a7108"
+    },
+    "8fbbc27028afdfad518c4152": {
+      "at": "2026-11-04T17:36:32Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "llm-0-37-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 89,
+        "source": "Simon Willison Everything"
+      },
+      "url": "https://simonwillison.net/2026/Nov/2/llm/"
     },
     "8fd6c3da352d70f0842c07c7": {
       "at": "2026-10-13T03:56:51Z",
@@ -9867,6 +9900,27 @@
         "source": "Artificial Analysis Changelog"
       }
     },
+    "artificial-analysis-performance-benchmarking-v3-intelligence-index-v5": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-performance-benchmarking-v3-intelligence-index-v5.jpg",
+      "last_updated": "2026-11-04T17:36:02Z",
+      "post_id": "1268170827451337617",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/artificial-analysis-launches_08458801.html",
+      "score": 82,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-4670fc8077c43ca98e03"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Launches Performance Benchmarking v3.0.0 and Intelligence Index v5.0",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
     "asana-browser-agent-gpt-6-sol-optimization": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/asana-browser-agent-gpt-6-sol-optimization.jpg",
@@ -11454,6 +11508,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 86,
         "source": "llama.cpp Releases"
+      }
+    },
+    "llm-0-37-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/llm-0-37-release.png",
+      "last_updated": "2026-11-04T17:36:32Z",
+      "post_id": "4906511527336729480",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/simon-willison-releases-llm-037-with.html",
+      "score": 82,
+      "source_image_source": "EdgeAI",
+      "source_image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/edgeai-newsroom-fallback.svg",
+      "source_urls": [
+        "https://simonwillison.net/2026/Nov/2/llm/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Simon Willison Releases LLM 0.37 with New Default Models and Multimodal Embedding Support",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 89,
+        "source": "Simon Willison Everything"
       }
     },
     "llm-openai-decisions-plugin-simon-willison": {

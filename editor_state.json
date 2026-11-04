@@ -72,8 +72,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-03T22:04:18Z",
-    "eligible": 38,
+    "at": "2026-11-04T02:16:01Z",
+    "eligible": 48,
     "evaluated": 4,
     "mode": "live",
     "new_posts": 2,
@@ -150,6 +150,14 @@
       "at": "2026-10-04T05:44:56Z",
       "status": "expired",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.101.4"
+    },
+    "019edb616369c3322f4c44a5": {
+      "at": "2026-11-04T02:15:57Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "openai-appoints-jill-hazelbaker-chief-corporate-affairs-officer",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer"
     },
     "0206483d9c649ba8189e5e82": {
       "at": "2026-10-08T23:51:05Z",
@@ -634,6 +642,20 @@
       "at": "2026-10-29T16:27:11Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11899"
+    },
+    "10e349d8f2cba5c5ae170ab1": {
+      "at": "2026-11-04T02:15:55Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "artificial-analysis-intelligence-index-v5-and-gemini-4-carbon",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-b3e236e2de4febbcbea5"
     },
     "10e556402d45283b9552e036": {
       "at": "2026-10-10T01:19:14Z",
@@ -1400,6 +1422,20 @@
       },
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1"
     },
+    "25493a43cba550c7fe81484a": {
+      "at": "2026-11-04T02:16:01Z",
+      "bootstrap": false,
+      "score": 91,
+      "status": "published",
+      "story_key": "openai-accelerating-engineering-physical-world-gpt6-astra",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
+    },
     "2553159a4f32c9968b59109d": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -1895,6 +1931,14 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://runway.com/news/company-news/introducing-runway-ads?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "34e7d62615202d0de65fe802": {
+      "at": "2026-11-04T02:15:56Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "openai-cisco-security-collaboration",
+      "url": "https://openai.com/index/cisco-cyber"
     },
     "352fd1a742a2b25bda6bc124": {
       "at": "2026-10-07T19:56:51Z",
@@ -9682,6 +9726,27 @@
         "source": "Artificial Analysis Changelog"
       }
     },
+    "artificial-analysis-intelligence-index-v5-and-gemini-4-carbon": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-intelligence-index-v5-and-gemini-4-carbon.jpg",
+      "last_updated": "2026-11-04T02:15:55Z",
+      "post_id": "4420650972019996189",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/artificial-analysis-launches_01197461540.html",
+      "score": 88,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-b3e236e2de4febbcbea5"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Launches Intelligence Index v5 Featuring Gemini 4 Carbon and New Benchmarks",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
     "artificial-analysis-intelligence-index-v5-and-new-model-evaluations": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-intelligence-index-v5-and-new-model-evaluations.jpg",
@@ -12486,6 +12551,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 88,
         "source": "Ollama Releases"
+      }
+    },
+    "openai-accelerating-engineering-physical-world-gpt6-astra": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-accelerating-engineering-physical-world-gpt6-astra.jpg",
+      "last_updated": "2026-11-04T02:16:01Z",
+      "post_id": "3357032756891596063",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-details-ai-driven-engineering.html",
+      "score": 91,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/3NAeFNOstkEE0aSxayt8NT/cedb470d8c0bcd7e6a2ca828c1db136c/accelerating-engineering-physical-world-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/accelerating-engineering-for-the-physical-world"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Details AI-Driven Engineering for Physical Hardware, CAD, and Manufacturing",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
       }
     },
     "openai-acquires-orchestra-bio-drug-development": {

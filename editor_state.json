@@ -72,9 +72,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-04T02:16:01Z",
-    "eligible": 48,
-    "evaluated": 4,
+    "at": "2026-11-04T09:40:32Z",
+    "eligible": 47,
+    "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -4918,6 +4918,20 @@
       "status": "expired",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "8776bfc87cf75f00d6c59cd2": {
+      "at": "2026-11-04T09:40:32Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "anthropic-claude-api-message-threads-beta",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://claude.com/resources/articles/message-threads?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "877b43298145aa6e8df2db60": {
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
@@ -7277,6 +7291,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11599"
     },
+    "cfbb8fc0cf015fc1ce7a7381": {
+      "at": "2026-11-04T09:40:23Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/wavefunction"
+    },
     "d0103d243f213f75b5c2ce44": {
       "at": "2026-10-25T06:58:15Z",
       "bootstrap": false,
@@ -8515,6 +8534,20 @@
       "story_key": "llamacpp-b11549-slot-save-path-env",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11549"
     },
+    "f1a111e72742f0df3d871707": {
+      "at": "2026-11-04T09:40:27Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "weight-space-programming-qwen-llm-weights",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
+      },
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+    },
     "f1a5d21d344faf86a500d54a": {
       "at": "2026-10-17T15:50:39Z",
       "bootstrap": false,
@@ -9108,6 +9141,27 @@
         "reason": "The development appears real, but some details are still arriving or remain incomplete.",
         "score": 81,
         "source": "Simon Willison Everything"
+      }
+    },
+    "anthropic-claude-api-message-threads-beta": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-claude-api-message-threads-beta.jpg",
+      "last_updated": "2026-11-04T09:40:32Z",
+      "post_id": "7561873224886278006",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/anthropic-launches-message-threads-beta.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://claude.com/resources/articles/message-threads/opengraph-image/og",
+      "source_urls": [
+        "https://claude.com/resources/articles/message-threads?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Launches Message Threads Beta for Claude API to Cut Agent Latency",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "anthropic-claude-discovers-rce-vulnerabilities-browsers-os": {
@@ -14936,6 +14990,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
         "score": 64,
         "source": "FutureTools AI News"
+      }
+    },
+    "weight-space-programming-qwen-llm-weights": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/weight-space-programming-qwen-llm-weights.png",
+      "last_updated": "2026-11-04T09:40:27Z",
+      "post_id": "7091685614666317284",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/local-qwen-model-demonstrates-native.html",
+      "score": 82,
+      "source_image_source": "EdgeAI",
+      "source_image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/edgeai-newsroom-fallback.svg",
+      "source_urls": [
+        "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Local Qwen Model Demonstrates Native Interpretation of Raw Neural Network Weights",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
       }
     },
     "xai-grok-voice-3-release": {

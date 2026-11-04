@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-04T10:39:44Z",
+    "at": "2026-11-04T18:14:35Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 1,
-    "queued": 21,
+    "queued": 12,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 168,
+  "runs": 169,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1068,6 +1068,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10722"
+    },
+    "1be4fdd8e6ca80f0ec012771": {
+      "first_seen": "2026-11-04T18:14:02Z",
+      "status": "queued",
+      "url": "https://openai.com/index/openai-to-acquire-pierre"
     },
     "1c060e6401dc3614d2f9a1af": {
       "first_seen": "2026-10-22T13:02:17Z",
@@ -2792,6 +2797,11 @@
       "status": "too_old",
       "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.4.0b1"
     },
+    "4a2d84d32c3ea23afcc1ddca": {
+      "first_seen": "2026-11-04T18:14:30Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.5"
+    },
     "4a32d2fe895871688c404872": {
       "first_seen": "2026-10-29T22:00:22Z",
       "status": "queued",
@@ -3712,6 +3722,12 @@
       "first_seen": "2026-10-14T19:29:44Z",
       "status": "queued",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.1"
+    },
+    "640ef482dab7f909ee752fc8": {
+      "first_seen": "2026-11-04T18:14:03Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/devices/googlebook/henry-cavill-mustache-protocol-video-game/"
     },
     "646703daec5b98f231fee1b4": {
       "first_seen": "2026-10-04T12:33:55Z",
@@ -4690,6 +4706,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11731"
     },
+    "7ef0cc3466090054e33279ca": {
+      "first_seen": "2026-11-04T18:14:30Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.4"
+    },
     "7f137713c675bb7ba7aee844": {
       "first_seen": "2026-10-23T04:34:34Z",
       "status": "queued",
@@ -4879,6 +4900,11 @@
       "first_seen": "2026-10-26T21:51:38Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11908"
+    },
+    "84437d19b97cb6bc1701b676": {
+      "first_seen": "2026-11-04T18:14:30Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.10"
     },
     "846fae8d241f69fb74914fb1": {
       "first_seen": "2026-10-23T18:43:04Z",
@@ -5767,6 +5793,11 @@
       "status": "queued",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21"
     },
+    "9b4a16ecc1cff8543c693181": {
+      "first_seen": "2026-11-04T18:14:09Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12111"
+    },
     "9b4bd2346d7dcf4fa28d44a2": {
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
@@ -5871,6 +5902,11 @@
       "first_seen": "2026-10-27T06:24:40Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.33055"
+    },
+    "9dccbf755eee5d2d6d841d2c": {
+      "first_seen": "2026-11-04T18:14:09Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0"
     },
     "9de27cffa1f4262df9dc4672": {
       "first_seen": "2026-10-05T09:14:07Z",
@@ -6057,6 +6093,11 @@
       "first_seen": "2026-10-20T05:16:36Z",
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.8"
+    },
+    "a3433e936d2c04bfa7722c64": {
+      "first_seen": "2026-11-04T18:14:02Z",
+      "status": "queued",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud"
     },
     "a390f1821d8ae660facddf9b": {
       "first_seen": "2026-10-12T09:24:08Z",
@@ -6707,6 +6748,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11399"
     },
+    "b7080cb7a26189677c4f8522": {
+      "first_seen": "2026-11-04T18:14:09Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12109"
+    },
     "b7125d170eabfe20953c633d": {
       "first_seen": "2026-10-03T00:45:57Z",
       "status": "too_old",
@@ -7114,6 +7160,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.27402"
     },
+    "c226ab478139e5c78f05edaa": {
+      "first_seen": "2026-11-04T18:14:27Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.915-beta"
+    },
     "c24e75dbd6cdc0177696bc51": {
       "first_seen": "2026-11-02T20:30:37Z",
       "status": "queued",
@@ -7358,6 +7409,11 @@
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22430"
+    },
+    "c7602fd30663d21b988fdea1": {
+      "first_seen": "2026-11-04T18:14:03Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/health/evaluating-health-ai-at-scale/"
     },
     "c7b942d9db5dedfd4257151a": {
       "first_seen": "2026-10-22T13:02:17Z",
@@ -8737,6 +8793,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10829"
     },
+    "ed0410e4df19aef3b017a7cf": {
+      "first_seen": "2026-11-04T18:14:30Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.9"
+    },
     "ed0e38dfc7378c4e97ccf15c": {
       "first_seen": "2026-10-15T19:15:04Z",
       "status": "queued",
@@ -9208,6 +9269,11 @@
       "first_seen": "2026-10-16T10:06:04Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11682"
+    },
+    "f7ff1d3af8b569ff53e61508": {
+      "first_seen": "2026-11-04T18:14:09Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12110"
     },
     "f81e09a34a93804752fa7e79": {
       "first_seen": "2026-10-16T05:36:29Z",

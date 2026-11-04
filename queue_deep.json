@@ -2326,17 +2326,31 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "e0e7f9f0f4ba064a212b5a0e",
-      "discovered_at": "2026-10-21T20:18:31Z",
-      "kind": "independent",
+      "candidate_id": "a02276a4c93026a81a029cfa",
+      "discovered_at": "2026-11-04T17:58:24Z",
+      "kind": "primary-signal",
       "lane": "deep",
       "priority": 2,
-      "published": "2026-10-21T16:25:16+00:00",
+      "published": "Nov 4, 2026",
       "search_score": 3,
-      "source_name": "Simon Willison Everything",
-      "summary": "Panache \u2014 RTS Belle \u00c9poque pour mobile Well this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork which reskins the game to take place in steampunk 1900s France and adds an animated intro! Panache est un jeu de strat\u00e9gie en temps r\u00e9el pour mobile et navigateur, dans la France de la Belle \u00c9poque (vers 1900) : dirigeables, Fardiers \u00e0 vapeur, Creusot cuirass\u00e9s, automates en k\u00e9pi, Gargantua la forteresse marchante \u2014 et beaucoup de panache. You can play Panache here - it's worth clicking that link just to experience the new intro video. So far it's mostly just aesthetic updates as opposed to gameplay changes. The music has had a French twist added to it as well. The new steampunk models are so cool! Here's a page with the original Battle Drones models and that same page with the new Panache alternatives . This is a comparison of the original and the new design for the Goliath: Via @Meffysto69 Tags: game-design , open-source",
-      "title": "Panache \u2014 RTS Belle \u00c9poque pour mobile",
-      "url": "https://simonwillison.net/2026/Oct/21/panache/"
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch Nov 4, 2026 @NousResearch Congrats @Wronglebowsk \ud83e\udd20 Nov 4, 2026 @NousResearch Would you rock this Nov 4, 2026 @NousResearch Thank you to everyone who traveled from across the world to NousCon 2026. We loved spending time with the people who make the Hermes community great. As you all know, we released the Hermes Mobile beta at the event, and as anticipated it filled up quickly. We are working tirelessly to free up more room in the beta, and to get the app production ready for wider release. The feedback has been incredible so far, and we are excited to share it with the world soon. In the meantime, please join the waitlist at https://t.co/Oszcqj0vfO Nov 3, 2026 @NousResearch github.com/NousResearch/h\u2026 Nov 2, 2026 @NousResearch > hermes migrate grok-bot x.com/elonmusk/statu\u2026 Nov 2, 2026 @NousResearch That was crazy Oct 31, 2026 @NousResearch Happy NousCon day to all who observe Oct 30, 2026 @NousResearch The person with the most potent aura tomorrow night will receive a 36 inch Nous neon sign, normally retailing for just under $420.7 plus shipping Prepare accordingly x.com/witcheer/statu\u2026 Oct 30, 2026 @NousResearch Tomorrow gonna be a movie fr (If they made movies about Discord groups that do foundational research and post-training then blossom into companies that proliferate the most widely used open source agent harness in the world that host an annual conference every year except it's actually more like a big party slash beta test slash merch distribution mechanism) Oct 29, 2026",
+      "title": "@NousResearch Nov 4, 2026",
+      "url": "https://x.com/NousResearch/status/2117998375912222908"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "782945bbeed9f0c36cdb9b9f",
+      "discovered_at": "2026-11-04T17:58:24Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Nov 4, 2026",
+      "search_score": 3,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch Nov 4, 2026 @NousResearch Congrats @Wronglebowsk \ud83e\udd20 Nov 4, 2026 @NousResearch Would you rock this Nov 4, 2026 @NousResearch Thank you to everyone who traveled from across the world to NousCon 2026. We loved spending time with the people who make the Hermes community great. As you all know, we released the Hermes Mobile beta at the event, and as anticipated it filled up quickly. We are working tirelessly to free up more room in the beta, and to get the app production ready for wider release. The feedback has been incredible so far, and we are excited to share it with the world soon. In the meantime, please join the waitlist at https://t.co/Oszcqj0vfO Nov 3, 2026 @NousResearch github.com/NousResearch/h\u2026 Nov 2, 2026 @NousResearch > hermes migrate grok-bot x.com/elonmusk/statu\u2026 Nov 2, 2026 @NousResearch That was crazy Oct 31, 2026 @NousResearch Happy NousCon day to all who observe Oct 30, 2026 @NousResearch The person with the most potent aura tomorrow night will receive a 36 inch Nous neon sign, normally retailing for just under $420.7 plus shipping Prepare accordingly x.com/witcheer/statu\u2026 Oct 30, 2026 @NousResearch Tomorrow gonna be a movie fr (If they made movies about Discord groups that do foundational research and post-training then blossom into companies that proliferate the most widely used open source agent harness in the world that host an annual conference every year except it's actually more like a big party slash beta test slash merch distribution mechanism) Oct 29, 2026",
+      "title": "@NousResearch Congrats @Wronglebowsk \ud83e\udd20 Nov 4, 2026",
+      "url": "https://x.com/NousResearch/status/2117995883279028431"
     },
     {
       "bootstrap": false,
@@ -2914,20 +2928,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "5a6540f611150615aecd2bc6",
-      "discovered_at": "2026-10-22T07:30:04Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-21T07:36:07-07:00",
-      "search_score": 6,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Turn live speech into translated audio as people talk Discussion | Link",
-      "title": "ElevenLabs Realtime Translation",
-      "url": "https://www.producthunt.com/products/elevenlabs-realtime-translation"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "a770c4b21acb29e5260ad5da",
       "discovered_at": "2026-10-23T15:23:24Z",
       "kind": "signal",
@@ -3446,6 +3446,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "091c2debdffc2146f173dc63",
+      "discovered_at": "2026-11-04T17:58:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-02T23:57:55-08:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Your free personal agent for job search Discussion | Link",
+      "title": "Hira",
+      "url": "https://www.producthunt.com/products/hira"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "f2d88e01bfdb30bb95b4f3c8",
       "discovered_at": "2026-11-03T22:28:15Z",
       "kind": "signal",
@@ -3488,6 +3502,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-04T09:57:45Z",
+  "updated_at": "2026-11-04T17:58:25Z",
   "version": 2
 }

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-04T18:14:35Z",
+    "at": "2026-11-04T23:46:32Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 12,
+    "prefiltered": 0,
+    "queued": 7,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 169,
+  "runs": 170,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -649,6 +649,11 @@
       "first_seen": "2026-10-12T19:18:33Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11568"
+    },
+    "131fed317e6702dc4e58f5b9": {
+      "first_seen": "2026-11-04T23:46:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12114"
     },
     "1322a304a3c5e6527676eef5": {
       "first_seen": "2026-10-09T06:41:16Z",
@@ -1876,6 +1881,11 @@
       "first_seen": "2026-11-04T02:58:30Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12092"
+    },
+    "32842112ca9593c18d41060a": {
+      "first_seen": "2026-11-04T23:46:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12116"
     },
     "32b179101ee9f44a55efc046": {
       "first_seen": "2026-10-15T05:40:20Z",
@@ -5673,6 +5683,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.33180"
     },
+    "981785a01550309d0739d8f0": {
+      "first_seen": "2026-11-04T23:45:55Z",
+      "status": "queued",
+      "url": "https://openai.com/index/devrev-enterprise-self-service"
+    },
     "9823b5a89ae5522f0d751c53": {
       "first_seen": "2026-10-14T05:22:39Z",
       "status": "queued",
@@ -5847,6 +5862,11 @@
       "first_seen": "2026-10-23T09:33:52Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11835"
+    },
+    "9c71789b7bdcc8e46c6b6443": {
+      "first_seen": "2026-11-04T23:46:26Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.2"
     },
     "9c7ae20136849e67c3cce762": {
       "first_seen": "2026-10-19T04:18:14Z",
@@ -6083,6 +6103,16 @@
       "first_seen": "2026-10-15T00:51:10Z",
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc1"
+    },
+    "a2784e68c43eebe2671430a9": {
+      "first_seen": "2026-11-04T23:46:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12119"
+    },
+    "a2ae22ce36f2f505101d8362": {
+      "first_seen": "2026-11-04T23:46:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12118"
     },
     "a2e40b2ea6e99ae4c657a891": {
       "first_seen": "2026-10-15T15:07:09Z",
@@ -9405,6 +9435,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/crisis-resilience-white-paper/"
+    },
+    "fbaa86a829ad59fd10c58d01": {
+      "first_seen": "2026-11-04T23:45:55Z",
+      "status": "queued",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
     },
     "fbadabad4df2c3de0a690dae": {
       "first_seen": "2026-10-23T18:42:30Z",

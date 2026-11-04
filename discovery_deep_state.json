@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-03T22:28:20Z",
+    "at": "2026-11-04T02:39:07Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 11,
+    "prefiltered": 2,
+    "queued": 1,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 164,
+  "runs": 165,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -41,6 +41,12 @@
       "first_seen": "2026-10-13T18:14:15Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/mausbot"
+    },
+    "019b212b31a70e113ef1e7cb": {
+      "first_seen": "2026-11-04T02:39:02Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/brink-2"
     },
     "01c254528fc546b15a08d997": {
       "first_seen": "2026-11-03T09:27:30Z",
@@ -2222,6 +2228,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/orbit-app-blocker"
     },
+    "4c9dfa0d7de279f58d226f18": {
+      "first_seen": "2026-11-04T02:39:02Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/iq-code"
+    },
     "4cbabd98657885edf602078e": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -2372,6 +2383,12 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/mylens-ai"
+    },
+    "513679df7787e6d1f9d34e01": {
+      "first_seen": "2026-11-04T02:39:02Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/akema"
     },
     "51e9644687d4622bc1d41619": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -3155,6 +3172,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/teclo"
+    },
+    "6bb0aafb3602587af83dba94": {
+      "first_seen": "2026-11-04T02:39:02Z",
+      "status": "queued",
+      "url": "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "6c09a5e29d2f6772c8560354": {
       "first_seen": "2026-10-28T08:23:12Z",
@@ -6487,6 +6509,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://www.minimax.io/"
+    },
+    "de2d52757a17226820d4da63": {
+      "first_seen": "2026-11-04T02:39:02Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/hookdeck"
     },
     "de56fb996b09bd2941430391": {
       "first_seen": "2026-10-26T21:56:06Z",

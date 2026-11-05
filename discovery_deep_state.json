@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-05T11:39:19Z",
+    "at": "2026-11-05T19:03:57Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 6,
-    "queued": 11,
+    "prefiltered": 3,
+    "queued": 5,
     "sources_ok": 15,
-    "too_old": 5,
+    "too_old": 3,
     "warnings": 0
   },
-  "runs": 170,
+  "runs": 171,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -170,6 +170,11 @@
       "first_seen": "2026-10-08T16:25:55Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/chickytutor"
+    },
+    "0638a05f43fe1ff64b629501": {
+      "first_seen": "2026-11-05T19:03:52Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/maritime"
     },
     "06467367b73cf993c62983bc": {
       "first_seen": "2026-10-18T10:57:54Z",
@@ -484,6 +489,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/confetti-5"
     },
+    "10334bf248af0ca1b29d1b94": {
+      "first_seen": "2026-11-05T19:03:52Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/rerun-2"
+    },
     "1040f15dec51655d9da5e598": {
       "first_seen": "2026-10-08T01:53:48Z",
       "status": "queued",
@@ -649,6 +660,11 @@
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/supoclip"
+    },
+    "14833faf5f6a3e626806806f": {
+      "first_seen": "2026-11-05T19:03:52Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/zerg"
     },
     "149b2ecbd81a390e88c475fb": {
       "first_seen": "2026-11-05T11:39:14Z",
@@ -943,6 +959,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/kling-4-0-4"
     },
+    "1c50a99dbb5387de5b360f8d": {
+      "first_seen": "2026-11-05T19:03:52Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/easy-peasy-ai"
+    },
     "1c9a400580e4588c0fe128dd": {
       "first_seen": "2026-10-16T18:46:59Z",
       "status": "queued",
@@ -1087,6 +1108,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/kiwi-7"
     },
+    "2117bd7d075391acbf141225": {
+      "first_seen": "2026-11-05T19:03:52Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/backlane-2"
+    },
     "211d4417958e3cbf833ac7f7": {
       "first_seen": "2026-10-16T10:03:10Z",
       "status": "too_old",
@@ -1214,6 +1240,12 @@
       "first_seen": "2026-11-02T19:41:18Z",
       "status": "queued",
       "url": "https://www.hume.ai/blog/introducing-hume-audio-decision-api?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "26b0544a167a45024e25fb46": {
+      "first_seen": "2026-11-05T19:03:52Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/scrollsnacks"
     },
     "26b38e61c6e185d1b3ceb9cf": {
       "first_seen": "2026-10-11T02:16:04Z",
@@ -2777,6 +2809,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/helio-7"
     },
+    "59dcd3ce4688ebfd5ca3e104": {
+      "first_seen": "2026-11-05T19:03:52Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/pushary"
+    },
     "5a6224417127badb83133732": {
       "first_seen": "2026-10-04T12:47:33Z",
       "search_score": 0,
@@ -2966,6 +3003,12 @@
       "first_seen": "2026-10-14T18:00:57Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/t-scriptor"
+    },
+    "5fe64830020c0518857481f3": {
+      "first_seen": "2026-11-05T19:03:52Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/dearcameo"
     },
     "5fefdade098f9bb7fef7ecbe": {
       "first_seen": "2026-10-29T23:29:40Z",
@@ -3634,6 +3677,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/speechshield"
+    },
+    "76d96ad270232567da5f98cd": {
+      "first_seen": "2026-11-05T19:03:52Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-6969372226afa432a689"
     },
     "7703ddeda66cd51a102ab3f7": {
       "first_seen": "2026-10-07T16:48:32Z",
@@ -4420,6 +4468,11 @@
       "first_seen": "2026-10-18T10:57:54Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/inbox-zero-2"
+    },
+    "8c820f8973aca87eda4ae361": {
+      "first_seen": "2026-11-05T19:03:51Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "8c8d770fd47419f05c82fa78": {
       "first_seen": "2026-10-08T16:25:55Z",
@@ -7770,6 +7823,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/recall-for-mac"
+    },
+    "ff14400f2913b0a2ac034ce7": {
+      "first_seen": "2026-11-05T19:03:52Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/5/paul-ford/"
     },
     "ff2c216b20103980ddbe972d": {
       "first_seen": "2026-10-20T15:17:17Z",

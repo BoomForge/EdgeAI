@@ -380,6 +380,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "b94367ab759e3322d52af6d3",
+      "discovered_at": "2026-11-05T11:39:14Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-11-05T11:39:14Z",
+      "search_score": 42,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 04 Nov 2026 New language model evaluation results available Muse Wonder (High) Intelligence Index: 41 New language model evaluation results available Tencent Hy4 Intelligence Index: 35 Meta performance results now available Muse Wonder (High) 03 Nov 2026 Artificial Analysis Performance Benchmarking methodology Artificial Analysis Performance Benchmarking v3.0.0 Time per Task is the new headline for comparing models. Output Speed now covers the whole request, including the wait for the first token, and averages single-request and multi-turn agentic workloads. Token counts come from each provider's API. Failures on the endpoint's side count against it, and every endpoint shows an Endpoint Error Rate. Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0.1 Incorporated grading robustness improvements from the CritPt authors and regraded all models on CritPt v2. 02 Nov 2026 New language model evaluation results available Gemini 4 Carbon (Low) Intelligence Index: 54 New language model evaluation results available Nanbeige4.3-33B Intelligence Index: 20 Google performance results now available Gemini 4 Carbon (Low) 01 Nov 2026 New language model evaluation results available Gemini 4 Carbon (Medium) Intelligence Index: 58 New language model evaluation results available DeepSeek V4.1 Flash 1017 (High) Intelligence Index: 29 Google performance results now available Gemini 4 Carbon (Medium) DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (High) 30 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Non-reasoning) Intelligence Index: 19 DeepInfra performance results now available Nemotron 3.5 Super VL SiliconFlow performance results now available Qwen3.8 27B (Xhigh) Qwen3.8 27B (Non-reasoning) GMI performance results now available Step 3.7 Flash DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) Inco performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) 29 Oct 2026 New language model evaluation results available Mistral Large 4 (Medium) Intelligence Index: 23 New language model evaluation results available Mistral Large 4 (High) Intelligence Index: 26 Mistral performance results now available Mistral Large 4 (Medium) Mistral Large 4 (High) 28 Oct 2026 \ud83d\udd14 New article published Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5 Google\u2019s Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5, and second only to Claude Opus 5.5 on the Artificial Analysis Coding Agent Index \ud83d\udd14 New article published GitHub Copilot Fusion orchestrates Anthropic and OpenAI models to balance performance and cost itHub has released Copilot Fusion in GitHub Copilot, which orchestrates between Anthropic and OpenAI models. It scores 2 points below Opus 5.5 in Claude Code at half the Cost per Task in the Coding Agent Index New language model evaluation results available Gemini 4 Carbon (High) Intelligence Index: 60 Google performance results now available Gemini 4 Carbon (High) Bitdeer AI performance results now available DeepSeek V4.1 Flash 1017 (Max) 27 Oct 2026 \ud83d\udd14 New article published Announcing Artificial Analysis Intelligence Index v5 Index v5 features 2 new benchmarks and 3 upgrades. For the first time, the majority of the Index is built on private datasets Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0 New to the Intelligence Index: \u27a4 FrontierCode 2.0: Cognition\u2019s private benchmark of real-world coding tasks, graded on whether a repository maintainer would merge the agent\u2019s change \u27a4 Terminal-Bench-Science: 70 agentic scientific research tasks, run in a terminal environment Upgraded: \u27a4 HLE-Diamond (replacing Humanity\u2019s Last Exam): a refined 1,000-question version of Humanity\u2019s Last Exam, split evenly between reasoning and knowledge questions \u27a4 AA-Omniscience v1.1: an updated dataset with saturated questions and all public set questions removed, new questions added, and ambiguous or erroneous questions revised \u27a4 CritPt v2 (Hard Subset): a private 40-question hard subset of CritPt v2, revised by the CritPt authors and run with a code-execution tool Staying in the Index: AA-Briefcase, AutomationBench-AA, GDP.pdf and Terminal-Bench 4.0 Removed from the Index: GDPval-AA v2, SciCode and AA-LCR Modal performance results now available DeepSeek V4.1 Flash 1017 (Max) SambaNova performance results now available MiniMax-M3.1-Flash 26 Oct 2026 \ud83d\udd14 New article published GPT-6.1 Terra pushes the cost efficiency frontier OpenAI has released GPT-6.1 Terra, pus",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-40dbb5c4158f98fb608e"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "0eb05ac6b2079a94115747a4",
       "discovered_at": "2026-11-05T03:46:59Z",
       "kind": "independent",
@@ -573,20 +587,6 @@
       "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 22 Oct 2026 New language model evaluation results available Ling 3.1 Flash 1019 Intelligence Index: 44 InclusionAI performance results now available Ling 3.1 Flash 1019 21 Oct 2026 LithosAI performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DigitalOcean performance results now available Beam 1.0 Makora performance results now available DeepSeek V4.1 Flash 1017 (Max) 20 Oct 2026 GMI performance results now available DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available DeepSeek V4.1 Flash 1017 (Max) 19 Oct 2026 \ud83d\udd14 New article published HealthBench and HealthBench Professional: Evaluating models in realistic health conversations We\u2019re launching leaderboards for HealthBench and HealthBench Professional, two benchmarks evaluating how AI models respond in realistic health conversations New language model evaluation results available MiniMax-M3.1-Flash Intelligence Index: 43 SiliconFlow performance results now available DeepSeek V4.1 Flash 1017 (Max) Together AI performance results now available DeepSeek V4.1 Flash 1017 (Max) Novita performance results now available DeepSeek V4.1 Flash 1017 (Max) Systalyze performance results now available GLM-5.2 (Non-reasoning) GLM-5.2 (Max) DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available Nemotron 3.5 Lightning Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax performance results now available MiniMax-M3.1-Flash 18 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Max) Intelligence Index: 45 Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available DeepSeek V4.1 Flash 1017 (Max) Parasail performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepInfra performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (Max) 16 Oct 2026 \ud83d\udd14 New article published Reflection has released Beam, their first model launch Reflection\u2019s first model, Beam, scores 30 on the Artificial Analysis Intelligence Index, placing it #2 among US open weights models New language model evaluation results available Beam 1.0 Intelligence Index: 30 Together AI performance results now available Beam 1.0 PrimaLabs performance results now available DeepSeek V4.1 Flash (Max) DeepSeek V4.1 Flash (Non-reasoning) Nemotron 3.5 Super VL Nebius performance results now available Beam 1.0 CoreWeave performance results now available Beam 1.0 Baseten performance results now available Beam 1.0 Nemotron 3.5 Super VL Makora performance results now available Muse Spark Open (Xhigh) 15 Oct 2026 \ud83d\udd14 New article published NVIDIA Releases Nemotron 3.5 Super VL and Nemotron 3.5 Bolt 74B A9B Nvidia\u2019s Nemotron 3.5 Super VL is now the leading US open weight model, scoring 26 on the Artificial Analysis Intelligence Index New language model evaluation results available Solar Pro 4 New language model evaluation results available Muse Spark Open (Xhigh) Intelligence Index: 39 New language model evaluation results available Nemotron 3.5 Super VL Intelligence Index: 26 New language model evaluation results available Nemotron 3.5 Bolt 74B-A9B Intelligence Index: 21 Upstage performance results now available Solar Pro 4 CoreWeave performance results now available Nemotron 3.5 Super VL Nebius performance results now available Nemotron 3.5 Super VL Muse Spark Open (Xhigh) DeepInfra performance results now available Ling 3.1 Flash Crusoe performance results now available DeepSeek V4.1 Flash (Max) DeepSeek V4.1 Flash (Non-reasoning) Nemotron 3.5 Super VL Scaleway performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4.1 Flash (Max) GLM-5.3 (Max) Fireworks performance results now available Inkling (Xhigh) Kimi K3 (Low) Muse Spark Open (Xhigh) Inco performance results now available Kimi K3 (Low) GLM-5.3 (Low) GLM-5.3 (Low) Kimi K3 (Low) DeepSeek V4.1 Flash (Non-reasoning) Together AI performance results now available Nemotron 3.5 Super VL Muse Spark Open (Xhigh) DigitalOcean performance results now available Nemotron 3.5 Super VL Baseten performance results now available Muse Spark Open (Xhigh) 14 Oct 2026 \ud83d\udd14 New article published Welcome to the era of embodied AI: Introducing AA-Robotics v0.1 We are launching AA-Robotics v0.1, our research preview that measures frontier language model performance on understanding, planning, and acting in the physical world. In v0.1, each model is given control of a 6",
       "title": "Artificial Analysis benchmark changelog changed",
       "url": "https://artificialanalysis.ai/changelog#edgeai-65aa51faeb60ecd10e3a"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "b2d3f46531c091e023f06bd0",
-      "discovered_at": "2026-10-22T07:30:05Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-10-22T07:30:05Z",
-      "search_score": 34,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 21 Oct 2026 LithosAI performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DigitalOcean performance results now available Beam 1.0 Makora performance results now available DeepSeek V4.1 Flash 1017 (Max) 20 Oct 2026 GMI performance results now available DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available DeepSeek V4.1 Flash 1017 (Max) 19 Oct 2026 \ud83d\udd14 New article published HealthBench and HealthBench Professional: Evaluating models in realistic health conversations We\u2019re launching leaderboards for HealthBench and HealthBench Professional, two benchmarks evaluating how AI models respond in realistic health conversations New language model evaluation results available MiniMax-M3.1-Flash Intelligence Index: 43 SiliconFlow performance results now available DeepSeek V4.1 Flash 1017 (Max) Together AI performance results now available DeepSeek V4.1 Flash 1017 (Max) Novita performance results now available DeepSeek V4.1 Flash 1017 (Max) Systalyze performance results now available GLM-5.2 (Non-reasoning) GLM-5.2 (Max) DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available Nemotron 3.5 Lightning Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax performance results now available MiniMax-M3.1-Flash 18 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Max) Intelligence Index: 45 Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available DeepSeek V4.1 Flash 1017 (Max) Parasail performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepInfra performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (Max) 16 Oct 2026 \ud83d\udd14 New article published Reflection has released Beam, their first model launch Reflection\u2019s first model, Beam, scores 30 on the Artificial Analysis Intelligence Index, placing it #2 among US open weights models New language model evaluation results available Beam 1.0 Intelligence Index: 30 Together AI performance results now available Beam 1.0 PrimaLabs performance results now available DeepSeek V4.1 Flash (Max) DeepSeek V4.1 Flash (Non-reasoning) Nemotron 3.5 Super VL Nebius performance results now available Beam 1.0 CoreWeave performance results now available Beam 1.0 Baseten performance results now available Beam 1.0 Nemotron 3.5 Super VL Makora performance results now available Muse Spark Open (Xhigh) 15 Oct 2026 \ud83d\udd14 New article published NVIDIA Releases Nemotron 3.5 Super VL and Nemotron 3.5 Bolt 74B A9B Nvidia\u2019s Nemotron 3.5 Super VL is now the leading US open weight model, scoring 26 on the Artificial Analysis Intelligence Index New language model evaluation results available Solar Pro 4 New language model evaluation results available Muse Spark Open (Xhigh) Intelligence Index: 39 New language model evaluation results available Nemotron 3.5 Super VL Intelligence Index: 26 New language model evaluation results available Nemotron 3.5 Bolt 74B-A9B Intelligence Index: 21 Upstage performance results now available Solar Pro 4 CoreWeave performance results now available Nemotron 3.5 Super VL Nebius performance results now available Nemotron 3.5 Super VL Muse Spark Open (Xhigh) DeepInfra performance results now available Ling 3.1 Flash Crusoe performance results now available DeepSeek V4.1 Flash (Max) DeepSeek V4.1 Flash (Non-reasoning) Nemotron 3.5 Super VL Scaleway performance results now available GLM-5.3 (Low) DeepSeek V4.1 Flash (Non-reasoning) DeepSeek V4.1 Flash (Max) GLM-5.3 (Max) Fireworks performance results now available Inkling (Xhigh) Kimi K3 (Low) Muse Spark Open (Xhigh) Inco performance results now available Kimi K3 (Low) GLM-5.3 (Low) GLM-5.3 (Low) Kimi K3 (Low) DeepSeek V4.1 Flash (Non-reasoning) Together AI performance results now available Nemotron 3.5 Super VL Muse Spark Open (Xhigh) DigitalOcean performance results now available Nemotron 3.5 Super VL Baseten performance results now available Muse Spark Open (Xhigh) 14 Oct 2026 \ud83d\udd14 New article published Welcome to the era of embodied AI: Introducing AA-Robotics v0.1 We are launching AA-Robotics v0.1, our research preview that measures frontier language model performance on understanding, planning, and acting in the physical world. In v0.1, each model is given control of a 6-axis robot arm (5 joints and a gripper) and a simple objective. We\u2019re releasing results for our first eight tasks today. 13 Oct 2026 \ud83d\udd14 New article published Artificial ",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-67d4c3c8f5a0608779fd"
     },
     {
       "bootstrap": false,
@@ -1413,6 +1413,34 @@
       "summary": "OpenAI Updates Model Spec With 5 Core Values to Guide More Capable AI Systems openai.com \u00b7 Show TLDR",
       "title": "OpenAI Updates Model Spec With 5 Core Values to Guide More Capable AI Systems openai.com \u00b7 Show TLDR",
       "url": "https://openai.com/index/updated-model-spec/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "323ec171f8d23570a78d8aa0",
+      "discovered_at": "2026-11-05T11:39:13Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 12,
+      "source_name": "FutureTools AI News",
+      "summary": "OpenAI Launches Images 2.6 With GIF Support, 50% Faster Generation, and New API Tools openai.com \u00b7 Show TLDR",
+      "title": "OpenAI Launches Images 2.6 With GIF Support, 50% Faster Generation, and New API Tools openai.com \u00b7 Show TLDR",
+      "url": "https://openai.com/index/introducing-images-2-6/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "37316f7252bd003ca18047e0",
+      "discovered_at": "2026-11-05T11:39:13Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 12,
+      "source_name": "FutureTools AI News",
+      "summary": "Anthropic's Claude Maps First 3D Prokaryotic Vault Particle Structure in Biology Breakthrough anthropic.com \u00b7 Show TLDR",
+      "title": "Anthropic's Claude Maps First 3D Prokaryotic Vault Particle Structure in Biology Breakthrough anthropic.com \u00b7 Show TLDR",
+      "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -3082,6 +3110,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "111971c9cfb19b8bae1731d8",
+      "discovered_at": "2026-11-05T11:39:14Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-04T20:54:13-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "macOS app that reviews GitHub PRs w/ your local Claude Code Discussion | Link",
+      "title": "CC Auto Review",
+      "url": "https://www.producthunt.com/products/cc-auto-review"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "f21312dca875ee16a845d5ea",
+      "discovered_at": "2026-11-05T11:39:14Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-04T16:10:10-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Send + receive texts in the US and Canada with a simple API Discussion | Link",
+      "title": "TextKit",
+      "url": "https://www.producthunt.com/products/textkit-2"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "7e74bfdf1b9745b42880c8db",
       "discovered_at": "2026-11-04T09:57:41Z",
       "kind": "signal",
@@ -3093,6 +3149,20 @@
       "summary": "API and SDK for live conversations Discussion | Link",
       "title": "Resum",
       "url": "https://www.producthunt.com/products/resum"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "8de088a234cac03ac63b9928",
+      "discovered_at": "2026-11-05T11:39:14Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-02T03:41:56-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Pricing and Billing Infrastructure for AI Agents Discussion | Link",
+      "title": "Clocknext",
+      "url": "https://www.producthunt.com/products/clocknext"
     },
     {
       "bootstrap": false,
@@ -3320,17 +3390,45 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "3ee45ea26cb0c275b19aeb05",
-      "discovered_at": "2026-10-23T10:24:14Z",
+      "candidate_id": "d124fd46f2c2cd1827755219",
+      "discovered_at": "2026-11-05T11:39:14Z",
       "kind": "signal",
       "lane": "deep",
       "priority": 3,
-      "published": "2026-10-22T02:49:27-07:00",
-      "search_score": 3,
+      "published": "2026-11-04T11:46:10-08:00",
+      "search_score": 2,
       "source_name": "Product Hunt Main Feed",
-      "summary": "A pet for every Claude Code session Discussion | Link",
-      "title": "Bloblings",
-      "url": "https://www.producthunt.com/products/bloblings"
+      "summary": "Mail for you and your agents, on your Cloudflare domain Discussion | Link",
+      "title": "FounderMail",
+      "url": "https://www.producthunt.com/products/foundermail-2"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "671806f4b5bbbe1699595e03",
+      "discovered_at": "2026-11-05T11:39:14Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-04T00:07:42-08:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Tencent\u2019s flagship model learns to see and use a computer Discussion | Link",
+      "title": "Tencent Hy4",
+      "url": "https://www.producthunt.com/products/hunyuan-a13b"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "6a35e186e536d3f3b11fa855",
+      "discovered_at": "2026-11-05T11:39:14Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-03T03:42:12-08:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "A pattern design tool for the LLM era ('paper' for patterns) Discussion | Link",
+      "title": "Seamcult",
+      "url": "https://www.producthunt.com/products/seamcult"
     },
     {
       "bootstrap": false,
@@ -3362,6 +3460,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "a9a598aa933e3603375e447e",
+      "discovered_at": "2026-11-05T11:39:14Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-02T22:04:34-08:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Your new workspace with mail, calendar and tasks built in Discussion | Link",
+      "title": "Stitch.ai",
+      "url": "https://www.producthunt.com/products/stitch-ai"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "f2d88e01bfdb30bb95b4f3c8",
       "discovered_at": "2026-11-03T22:28:15Z",
       "kind": "signal",
@@ -3387,23 +3499,9 @@
       "summary": "One terminal for every coding agent, on Windows Discussion | Link",
       "title": "nana",
       "url": "https://www.producthunt.com/products/nana-2"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "a3c350550088af99d69885f2",
-      "discovered_at": "2026-11-03T09:27:30Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-11-02T01:03:18-08:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Give your coding agents a boss. Answer it from your phone. Discussion | Link",
-      "title": "asklog",
-      "url": "https://www.producthunt.com/products/asklog"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-05T03:47:03Z",
+  "updated_at": "2026-11-05T11:39:19Z",
   "version": 2
 }

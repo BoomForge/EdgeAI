@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-05T14:20:18Z",
+    "at": "2026-11-05T21:08:31Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 7,
+    "prefiltered": 1,
+    "queued": 10,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 172,
+  "runs": 173,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -790,6 +790,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31734"
     },
+    "14e90e72d3401ddf817f6448": {
+      "first_seen": "2026-11-05T21:07:57Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber"
+    },
     "1506904bb8bf0601ee4fac21": {
       "first_seen": "2026-10-24T21:41:08Z",
       "status": "queued",
@@ -1532,6 +1537,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00040"
+    },
+    "27b87d65d3f99406683fa7dd": {
+      "first_seen": "2026-11-05T21:07:57Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
     },
     "27c6d4d54b8e5e0bff643540": {
       "first_seen": "2026-10-16T14:55:30Z",
@@ -2521,6 +2531,12 @@
       "first_seen": "2026-11-02T20:30:37Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12052"
+    },
+    "4180f416c105d02a25cf84ca": {
+      "first_seen": "2026-11-05T21:07:57Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/"
     },
     "4188f17ee65e78dfbd27ad90": {
       "first_seen": "2026-10-28T23:55:43Z",
@@ -3738,6 +3754,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.18948"
     },
+    "621c192f7fa4e3aca2bfabed": {
+      "first_seen": "2026-11-05T21:08:05Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12131"
+    },
     "62362b61aafe4fbf5c262679": {
       "first_seen": "2026-10-27T06:24:39Z",
       "status": "queued",
@@ -4267,6 +4288,11 @@
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.14118"
+    },
+    "6d3308b82137f8a08781188b": {
+      "first_seen": "2026-11-05T21:07:57Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/"
     },
     "6d508a898eb83dcd9a252964": {
       "first_seen": "2026-10-30T15:07:01Z",
@@ -5313,6 +5339,11 @@
       "first_seen": "2026-10-04T17:01:25Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11393"
+    },
+    "8ac57ef1710543415afd216f": {
+      "first_seen": "2026-11-05T21:08:05Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12129"
     },
     "8add0cfb6a7ad18320e08467": {
       "first_seen": "2026-10-03T00:46:14Z",
@@ -7188,6 +7219,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02260"
     },
+    "bc4273d3cbe4d08aadfb154f": {
+      "first_seen": "2026-11-05T21:08:05Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12135"
+    },
     "bc4c2a88886f6b040e64fd0d": {
       "first_seen": "2026-10-21T05:49:01Z",
       "status": "queued",
@@ -7554,6 +7590,11 @@
       "first_seen": "2026-10-22T21:20:27Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11824"
+    },
+    "c5395290644325a76caa39b1": {
+      "first_seen": "2026-11-05T21:07:57Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/"
     },
     "c53da03e3d9faada131a8bfb": {
       "first_seen": "2026-10-21T05:49:01Z",
@@ -7922,6 +7963,11 @@
       "status": "too_old",
       "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.2.dev"
     },
+    "ceac84bcd934c70b9c87e78f": {
+      "first_seen": "2026-11-05T21:08:05Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12134"
+    },
     "ceb3576a6bbdd8c15087e27a": {
       "first_seen": "2026-10-03T00:45:50Z",
       "status": "queued",
@@ -7951,6 +7997,11 @@
       "first_seen": "2026-10-03T00:46:15Z",
       "status": "too_old",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.5"
+    },
+    "cf464a6817300eaaa519a016": {
+      "first_seen": "2026-11-05T21:08:05Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12130"
     },
     "cfa14935e06b790ed18d220c": {
       "first_seen": "2026-10-13T21:32:32Z",
@@ -8578,6 +8629,11 @@
       "first_seen": "2026-10-19T21:22:48Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11739"
+    },
+    "df8d497a774b19cda46ff3ae": {
+      "first_seen": "2026-11-05T21:08:05Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12132"
     },
     "dfa6644e14706b90dbf32c57": {
       "first_seen": "2026-10-28T23:55:53Z",

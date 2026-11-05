@@ -2074,20 +2074,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "eda525050cea8fce4b138233",
-      "discovered_at": "2026-10-22T17:55:59Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Thu, 22 Oct 2026 00:00:00 GMT",
-      "search_score": 6,
-      "source_name": "OpenAI News",
-      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "url": "https://openai.com/index/uber-chatgpt-work-rollout"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "fc87a45dcfbf03d417250555",
       "discovered_at": "2026-11-03T17:54:32Z",
       "kind": "official",
@@ -2183,6 +2169,20 @@
       "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics\u2014and how researchers can verify and build on them.",
       "title": "Working with academic communities to build scientific understanding",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "295354ff422b0d4db922748e",
+      "discovered_at": "2026-11-05T05:49:58Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Wed, 04 Nov 2026 00:00:00 GMT",
+      "search_score": 4,
+      "source_name": "OpenAI News",
+      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "title": "Introducing Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6"
     },
     {
       "bootstrap": false,
@@ -3376,6 +3376,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "09e3cea0c582801caee061be",
+      "discovered_at": "2026-11-05T05:50:06Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-05T03:03:33Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "llama : fix on-device state copy sizes for quantized KV caches ( #30541 ) llama : fix on-device state copy sizes for quantized KV caches The on-device sequence state copies (LLAMA_STATE_SEQ_FLAGS_ON_DEVICE) computed their element count as size / ggml_element_size(). For a quantized type such as q8_0 or q4_0 that is the number of blocks, not elements, so only part of each range was copied: the restored state was wrong, or the copy crashed. Compute the count as size / ggml_type_size() * ggml_blck_size() for the save, the restore and the copy between differently chunked ranges, and assert that each range covers whole blocks. llama : drop the one-line comments llama : drop the redundant cast in the state copy size Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63869663 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12121",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12121"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "a2784e68c43eebe2671430a9",
       "discovered_at": "2026-11-04T23:46:03Z",
       "kind": "local-ai",
@@ -3485,23 +3499,9 @@
       "summary": "mtmd: accurate support for qwen3-vl video prompt format ( #31619 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63416358 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12098",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12098"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "6371c9c0ccef63e7d957a9fd",
-      "discovered_at": "2026-11-04T02:58:30Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-04T02:44:12Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "hexagon: faster TOP_K for the backend sampler ( #31279 ) hexagon: faster TOP_K for the backend sampler (skip tiles, then block scan) Skip the bitonic sort for tiles whose max cannot reach the running k-th best value, then replace the tile sort with top_k_scan(): reject 256-float blocks with one HVX max-reduce and insert only surviving elements into a sorted k-entry list. Used for k in 2..64 and rows wider than 1024, in both the single-row and multi-row paths. Ties keep the first-seen index. NaN is treated as -INF. hex-top-k: eliminate scalar reads from vtcm Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63400302 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12094",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12094"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-04T23:46:32Z",
+  "updated_at": "2026-11-05T05:50:29Z",
   "version": 2
 }

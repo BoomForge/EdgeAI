@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-04T23:37:20Z",
+    "at": "2026-11-05T03:47:03Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 9,
+    "prefiltered": 1,
+    "queued": 4,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 168,
+  "runs": 169,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -451,6 +451,11 @@
       "first_seen": "2026-10-06T23:21:30Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/le-chonk/"
+    },
+    "0eb05ac6b2079a94115747a4": {
+      "first_seen": "2026-11-05T03:46:59Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-3277b007c832cbacb9e7"
     },
     "0ef9150d64f8dd2ccc3f6ea9": {
       "first_seen": "2026-10-24T11:25:53Z",
@@ -2173,6 +2178,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/buffer-3"
     },
+    "48950ef873e3e535734f15fb": {
+      "first_seen": "2026-11-05T03:47:02Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2118166187666210823"
+    },
     "48a441aad2874ff04361d13a": {
       "first_seen": "2026-10-17T08:44:04Z",
       "status": "too_old",
@@ -2361,6 +2371,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/koi-2"
+    },
+    "4ecf88872512aca21eb4e8ee": {
+      "first_seen": "2026-11-05T03:47:02Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2118166186030518472"
     },
     "4ed8d6fe63542c3a355d2338": {
       "first_seen": "2026-10-19T17:12:35Z",
@@ -4513,6 +4528,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/help-381"
     },
+    "92bfb82f903c3fc9f543d4fb": {
+      "first_seen": "2026-11-05T03:46:58Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/trackedge-2"
+    },
     "92c3509bbd776105299c2b38": {
       "first_seen": "2026-11-02T19:41:22Z",
       "status": "queued",
@@ -5109,6 +5130,11 @@
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/legacyfixer"
+    },
+    "a68194e3fdd4077c8c92c488": {
+      "first_seen": "2026-11-05T03:47:02Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2118136505046904891"
     },
     "a68939cd6af8d342f7d35861": {
       "first_seen": "2026-10-23T10:24:14Z",

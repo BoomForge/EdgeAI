@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-05T05:50:29Z",
+    "at": "2026-11-05T14:20:18Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 51,
+    "queued": 7,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 171,
+  "runs": 172,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1471,6 +1471,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11575"
     },
+    "25fa4dd18ec78a48a9233cc0": {
+      "first_seen": "2026-11-05T14:19:43Z",
+      "status": "queued",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
+    },
     "262e31703e1026a9f4c8bbc7": {
       "first_seen": "2026-10-15T10:18:29Z",
       "status": "queued",
@@ -2532,6 +2537,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11813"
     },
+    "41c2fe1f57c665f0c0b5cb5e": {
+      "first_seen": "2026-11-05T14:19:51Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12125"
+    },
     "41e12843f2c4fc0abb992355": {
       "first_seen": "2026-10-11T14:10:43Z",
       "status": "queued",
@@ -2852,6 +2862,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40926"
     },
+    "498ac4c49c7505e652f34ecc": {
+      "first_seen": "2026-11-05T14:19:51Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12126"
+    },
     "49b5951c067cceb3477399d1": {
       "first_seen": "2026-10-04T00:30:29Z",
       "status": "queued",
@@ -3108,6 +3123,11 @@
       "first_seen": "2026-10-11T18:59:53Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11558"
+    },
+    "50b61ef26666b0b1c2378d6b": {
+      "first_seen": "2026-11-05T14:19:43Z",
+      "status": "queued",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/national-veterans-small-business-week-2026/"
     },
     "50cf62209b129a401a7b59bc": {
       "first_seen": "2026-10-23T04:34:33Z",
@@ -4035,6 +4055,11 @@
       "first_seen": "2026-10-26T21:51:38Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11910"
+    },
+    "686daebd7e65234561ed8808": {
+      "first_seen": "2026-11-05T14:19:51Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12128"
     },
     "687e9c8e75efa984655b68da": {
       "first_seen": "2026-10-03T00:46:13Z",
@@ -8109,6 +8134,11 @@
       "status": "prefiltered",
       "url": "https://blog.google/products-and-platforms/platforms/google-play/play-fest/"
     },
+    "d4f098cfc94de0dc19df68c0": {
+      "first_seen": "2026-11-05T14:19:51Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12127"
+    },
     "d5177fa05e26326e9c45761c": {
       "first_seen": "2026-10-21T05:49:01Z",
       "status": "queued",
@@ -8745,6 +8775,11 @@
       "first_seen": "2026-10-10T08:59:32Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11540"
+    },
+    "e486f2b8d7b9e9f496a22f8e": {
+      "first_seen": "2026-11-05T14:19:51Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12123"
     },
     "e48eb6d06c650a2077e98021": {
       "first_seen": "2026-10-16T00:45:08Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-05T21:08:31Z",
+    "at": "2026-11-06T01:39:17Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 10,
+    "prefiltered": 0,
+    "queued": 13,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 173,
+  "runs": 174,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -333,6 +333,11 @@
       "first_seen": "2026-11-02T10:42:42Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40847"
+    },
+    "0bde2464f9ca70de3c39e509": {
+      "first_seen": "2026-11-06T01:38:46Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12141"
     },
     "0be4f86c9f0221271a17a6da": {
       "first_seen": "2026-10-18T09:53:06Z",
@@ -1719,6 +1724,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11405"
     },
+    "2d1d326185a62641bed05bf7": {
+      "first_seen": "2026-11-06T01:38:37Z",
+      "status": "queued",
+      "url": "https://openai.com/ads/customers/flipsnack"
+    },
     "2d3b0e3ef8aed1f1aafb048f": {
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "too_old",
@@ -1814,6 +1824,11 @@
       "first_seen": "2026-10-21T05:49:00Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.26924"
+    },
+    "2fcc08164988cd2284a8decf": {
+      "first_seen": "2026-11-06T01:38:46Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12138"
     },
     "302a957140f0715792b6425e": {
       "first_seen": "2026-11-03T10:03:35Z",
@@ -3210,6 +3225,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11718"
     },
+    "53eff4b4e1cfd4521d9907e4": {
+      "first_seen": "2026-11-06T01:38:47Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15"
+    },
     "53f056ac6a2e863fcb5e9c31": {
       "first_seen": "2026-10-30T15:07:01Z",
       "status": "queued",
@@ -4575,6 +4595,11 @@
       "first_seen": "2026-11-03T17:54:39Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12076"
+    },
+    "745f8c669fa35e8b840a0560": {
+      "first_seen": "2026-11-06T01:38:46Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12136"
     },
     "74655899d2c02f414ae48235": {
       "first_seen": "2026-10-23T04:34:33Z",
@@ -6546,6 +6571,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.30162"
     },
+    "a8e215d1c3fca63aee0ffd81": {
+      "first_seen": "2026-11-06T01:38:37Z",
+      "status": "queued",
+      "url": "https://openai.com/index/franklin-templeton"
+    },
     "a9294cc43c2b4cdfa4041cd4": {
       "first_seen": "2026-10-08T07:31:17Z",
       "status": "queued",
@@ -7204,6 +7234,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.05512"
     },
+    "bbd492caba72ca544b8bac32": {
+      "first_seen": "2026-11-06T01:38:37Z",
+      "status": "queued",
+      "url": "https://openai.com/index/cultfit-builds-with-codex"
+    },
     "bc04e68ea0738a77a4404dd8": {
       "first_seen": "2026-10-08T20:34:17Z",
       "status": "queued",
@@ -7218,6 +7253,11 @@
       "first_seen": "2026-10-05T09:14:06Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02260"
+    },
+    "bc1643b3a14e522412ce8fb7": {
+      "first_seen": "2026-11-06T01:39:03Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.1"
     },
     "bc4273d3cbe4d08aadfb154f": {
       "first_seen": "2026-11-05T21:08:05Z",
@@ -7877,6 +7917,11 @@
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/education/teacher-stories-gemini-middle-school/"
     },
+    "cd1c20ddb9bf6bb62e2f807d": {
+      "first_seen": "2026-11-06T01:38:46Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12140"
+    },
     "cd37e28fc8a53d4d1ce768d5": {
       "first_seen": "2026-10-15T05:40:28Z",
       "status": "queued",
@@ -8477,10 +8522,20 @@
       "status": "queued",
       "url": "https://openai.com/index/oracle"
     },
+    "db9792e954d447010915e606": {
+      "first_seen": "2026-11-06T01:38:37Z",
+      "status": "queued",
+      "url": "https://openai.com/index/merge-builds-with-openai"
+    },
     "dbe76cd2643cea628620f51d": {
       "first_seen": "2026-10-24T04:26:18Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11850"
+    },
+    "dbe9554da67aea58adfeeb4f": {
+      "first_seen": "2026-11-06T01:38:47Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc2"
     },
     "dc072a92c6c9bda084e3a556": {
       "first_seen": "2026-10-09T06:41:16Z",
@@ -8512,6 +8567,11 @@
       "first_seen": "2026-10-16T05:36:48Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.0.94"
+    },
+    "dcc9028e84e8faeb34c01468": {
+      "first_seen": "2026-11-06T01:39:11Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.2"
     },
     "dcea53a7a39a72006cba2e3f": {
       "first_seen": "2026-10-20T10:10:22Z",
@@ -8901,6 +8961,11 @@
       "first_seen": "2026-10-16T14:55:30Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11693"
+    },
+    "e6276a951fd4cf5fa69b377a": {
+      "first_seen": "2026-11-06T01:38:46Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12137"
     },
     "e630fdd4ef926151f40bdf60": {
       "first_seen": "2026-10-07T09:14:06Z",

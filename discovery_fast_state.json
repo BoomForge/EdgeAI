@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-06T08:29:48Z",
+    "at": "2026-11-06T16:15:58Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 54,
+    "queued": 10,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 175,
+  "runs": 176,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -313,6 +313,11 @@
       "first_seen": "2026-10-19T04:18:13Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22400"
+    },
+    "0b0e7840be3e83c66ec321a0": {
+      "first_seen": "2026-11-06T16:15:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12175"
     },
     "0b35ed262d926d1b4d717d12": {
       "first_seen": "2026-11-06T08:29:14Z",
@@ -1652,6 +1657,11 @@
       "first_seen": "2026-10-04T17:01:25Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2"
+    },
+    "2981ad57d7aae8872fd41ea6": {
+      "first_seen": "2026-11-06T16:15:50Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.916-beta"
     },
     "29aeea54e2a42ca8ca758e01": {
       "first_seen": "2026-10-21T05:49:00Z",
@@ -3235,6 +3245,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11539"
     },
+    "516fb7bbef5404ab55884d20": {
+      "first_seen": "2026-11-06T16:15:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12171"
+    },
     "51ddba2e3e4c402c871902fd": {
       "first_seen": "2026-10-11T14:10:34Z",
       "status": "queued",
@@ -3259,6 +3274,11 @@
       "first_seen": "2026-11-02T20:30:55Z",
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.8"
+    },
+    "52eea199a12f8937c8cad9e9": {
+      "first_seen": "2026-11-06T16:15:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12170"
     },
     "5343bc19b8a2ab68996a01cd": {
       "first_seen": "2026-10-16T05:36:28Z",
@@ -5394,6 +5414,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.28855"
     },
+    "878fd3793321c4bbb74aacf6": {
+      "first_seen": "2026-11-06T16:15:25Z",
+      "status": "queued",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.2"
+    },
     "879223c03da5c67bbbc7e733": {
       "first_seen": "2026-10-10T15:11:44Z",
       "status": "queued",
@@ -6912,6 +6937,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11777"
     },
+    "ae36f1e272fb7ba5a8b914d5": {
+      "first_seen": "2026-11-06T16:15:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12174"
+    },
     "ae48e1f386f597e7a12f7144": {
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
@@ -7093,6 +7123,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blind-sweep-ultrasounds-ai/"
     },
+    "b2c0e929055c03a01dd9f605": {
+      "first_seen": "2026-11-06T16:15:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12173"
+    },
     "b2c29e9f62affee1bcab1c48": {
       "first_seen": "2026-10-14T00:36:35Z",
       "status": "queued",
@@ -7132,6 +7167,11 @@
       "first_seen": "2026-10-13T21:32:32Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11598"
+    },
+    "b313e079c92ff6736cd4168f": {
+      "first_seen": "2026-11-06T16:15:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12176"
     },
     "b38ba77c73719f59f0b858e8": {
       "first_seen": "2026-10-25T13:40:54Z",
@@ -8314,6 +8354,11 @@
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.1rc0"
     },
+    "d0deb19e02b594b7c7db0c5b": {
+      "first_seen": "2026-11-06T16:15:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12169"
+    },
     "d0fbbabfd8a6288336042761": {
       "first_seen": "2026-10-27T06:24:39Z",
       "status": "queued",
@@ -8934,6 +8979,11 @@
       "first_seen": "2026-11-02T20:30:55Z",
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.9"
+    },
+    "dfaac0a0a5b4884c84869933": {
+      "first_seen": "2026-11-06T16:15:30Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12172"
     },
     "dfb6e6be45662091eab87f1e": {
       "first_seen": "2026-10-21T16:05:39Z",

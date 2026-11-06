@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-05T19:03:57Z",
+    "at": "2026-11-06T00:11:05Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 5,
+    "prefiltered": 1,
+    "queued": 11,
     "sources_ok": 15,
-    "too_old": 3,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 171,
+  "runs": 172,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -850,6 +850,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/rolefit"
     },
+    "19b3d03f25a3e039bee87d08": {
+      "first_seen": "2026-11-06T00:11:01Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-db42942592aac63c8f3b"
+    },
     "19fa17b0500ad2a7a0dbccb3": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -1320,6 +1325,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2106138356937810069"
     },
+    "290d6a832bd3f43d5a9888b3": {
+      "first_seen": "2026-11-06T00:11:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/cosyra"
+    },
     "293212af1428ad79e0113bfd": {
       "first_seen": "2026-10-13T10:55:50Z",
       "status": "too_old",
@@ -1430,6 +1440,11 @@
       "first_seen": "2026-10-11T23:51:14Z",
       "status": "queued",
       "url": "https://sakana.ai/mass/"
+    },
+    "2e3fa0644c7b77d2a935ce71": {
+      "first_seen": "2026-11-06T00:11:00Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "2e49f16bbbee584a97f49f76": {
       "first_seen": "2026-10-21T11:41:37Z",
@@ -2167,6 +2182,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2113010017645244623"
     },
+    "46149d7e66ded280dc425e7b": {
+      "first_seen": "2026-11-06T00:11:04Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2118479744979079669"
+    },
     "464b242e08c88b0c2a1c797a": {
       "first_seen": "2026-10-21T11:41:37Z",
       "search_score": 1,
@@ -2308,6 +2328,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/flowo-2"
     },
+    "4a53e27db39ccb6f9a070e23": {
+      "first_seen": "2026-11-06T00:11:00Z",
+      "status": "queued",
+      "url": "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "4a5f898dc42901e71f0a0e30": {
       "first_seen": "2026-10-16T05:09:15Z",
       "status": "queued",
@@ -2423,6 +2448,11 @@
       "first_seen": "2026-10-13T18:14:14Z",
       "status": "queued",
       "url": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "4e1329ae281a601fa9d6ce4a": {
+      "first_seen": "2026-11-06T00:11:04Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2118479748263534898"
     },
     "4e31d07c8e885469dec4faf4": {
       "first_seen": "2026-10-14T21:37:23Z",
@@ -3133,6 +3163,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/figma"
     },
+    "629342dabbd020b03af0f913": {
+      "first_seen": "2026-11-06T00:11:00Z",
+      "status": "queued",
+      "url": "https://runway.com/news/research/real-time-video-at-batch-size-one?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "62c509640c5df97d86096bb9": {
       "first_seen": "2026-10-07T02:36:56Z",
       "status": "queued",
@@ -3631,6 +3666,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/salience"
     },
+    "74d0d69a7d0c67c3071ea5c1": {
+      "first_seen": "2026-11-06T00:11:00Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "74eecc752e5f1b65d14fce26": {
       "first_seen": "2026-10-21T01:03:21Z",
       "status": "queued",
@@ -3951,6 +3991,11 @@
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/corespeed"
+    },
+    "7d126062b5b1bbedbeb11551": {
+      "first_seen": "2026-11-06T00:11:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/okapi-2"
     },
     "7db4974c11ebd58e1ae24279": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -4954,6 +4999,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/smooth-recorder"
     },
+    "9c862cba234d3e3571ef3a1c": {
+      "first_seen": "2026-11-06T00:11:04Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2118445476320260559"
+    },
     "9c986258d51d03b4399fee35": {
       "first_seen": "2026-10-27T12:46:49Z",
       "status": "too_old",
@@ -5474,6 +5524,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://suno.com/blog/introducing-speech-beta?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "adf1ca9d7f32236413d7467c": {
+      "first_seen": "2026-11-06T00:11:00Z",
+      "status": "queued",
+      "url": "https://tech.yahoo.com/transportation/articles/almost-no-one-uses-ai-215601578.html?utm_source=futuretools.io&utm_medium=newspage"
     },
     "ae5cd00a09a429d2c09d4ed3": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -6256,6 +6311,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/hemmed"
+    },
+    "c8c24b89c3a192599e393f54": {
+      "first_seen": "2026-11-06T00:11:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tao-browser"
     },
     "c8e0ffff3a63e885e8eb93c0": {
       "first_seen": "2026-10-13T10:55:50Z",
@@ -7251,6 +7312,11 @@
       "first_seen": "2026-10-19T10:44:24Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/walkai-talkai"
+    },
+    "eb7105a1b093829186c852c9": {
+      "first_seen": "2026-11-06T00:11:00Z",
+      "status": "queued",
+      "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude?utm_source=futuretools.io&utm_medium=newspage"
     },
     "eba9f3563352bd3d9bd8561d": {
       "first_seen": "2026-11-02T09:24:17Z",

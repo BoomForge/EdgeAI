@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-06T00:11:05Z",
+    "at": "2026-11-06T07:11:44Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 11,
+    "prefiltered": 0,
+    "queued": 2,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 3,
     "warnings": 0
   },
-  "runs": 172,
+  "runs": 173,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -808,6 +808,11 @@
       "first_seen": "2026-10-28T08:23:12Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/lfm2"
+    },
+    "18ac8f37b592e681bac210a0": {
+      "first_seen": "2026-11-06T07:11:39Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/vibeconferencing"
     },
     "18b660db4a2876e6e1a5faf0": {
       "first_seen": "2026-10-15T14:58:02Z",
@@ -5031,6 +5036,11 @@
       "status": "queued",
       "url": "https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "9df3690531ba025df30aee96": {
+      "first_seen": "2026-11-06T07:11:40Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-24d23dfe4a9a74ebcb55"
+    },
     "9e0308113d32ae3fc5365520": {
       "first_seen": "2026-10-23T22:40:12Z",
       "status": "queued",
@@ -6519,6 +6529,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/river-writer"
     },
+    "d15bb5f95cf6d30ab35ce988": {
+      "first_seen": "2026-11-06T07:11:43Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2118590391331279266"
+    },
     "d1608caf25486f9e641dbeef": {
       "first_seen": "2026-10-16T14:48:14Z",
       "status": "too_old",
@@ -6743,6 +6758,11 @@
       "status": "queued",
       "url": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "d88f9f1a5eb9b1a15a1600b8": {
+      "first_seen": "2026-11-06T07:11:39Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/rainbrand"
+    },
     "d8ab4d76c879b4b86ad16d02": {
       "first_seen": "2026-10-04T23:29:38Z",
       "search_score": 1,
@@ -6872,6 +6892,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/halo-11"
+    },
+    "dc652d4453568630303bae3b": {
+      "first_seen": "2026-11-06T07:11:39Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/keel-7"
     },
     "dc94f0ad092e5a022204f6b3": {
       "first_seen": "2026-10-07T16:48:32Z",

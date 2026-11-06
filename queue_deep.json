@@ -506,6 +506,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "9df3690531ba025df30aee96",
+      "discovered_at": "2026-11-06T07:11:40Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-11-06T07:11:40Z",
+      "search_score": 38,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 05 Nov 2026 \ud83d\udd14 New article published Thinking Machines Inkling 2 Small: the highest scoring open weights model outside of China pending weights release Thinking Machines has released Inkling 2 Small, scoring 31 on the Artificial Analysis Intelligence Index - their plan to release its weights would make it the highest-scoring open weights model developed outside China based on current rankings \ud83d\udd14 New article published Nanbeige has released Nanbeige4.3-33B scoring 20 on the Intelligence Index Nanbeige has released Nanbeige4.3-33B, an open weights model matching Qwen3.8 27B (xhigh) at 20 on the Artificial Analysis Intelligence Index v5 with stronger terminal use but weaker knowledge Artificial Analysis Endpoint Accuracy Index methodology Artificial Analysis Endpoint Accuracy Index v1.1 Upgraded AA-LCR-25 to AA-LCR v1.1 and increased repeats from 10 to 25, tightening confidence intervals. Expanded coverage to six open weights models with GLM-5.3 Flash and Muse Spark Open. New language model evaluation results available Inkling 2 Small Intelligence Index: 31 CoreWeave performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Non-reasoning) Modular performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) Modal performance results now available Kimi K3.1 Pro Inco performance results now available Kimi K3.1 Pro SiliconFlow performance results now available Kimi K3.1 Pro Systalyze performance results now available Kimi K3.1 Pro PrimaLabs performance results now available Kimi K3.1 Pro DeepInfra performance results now available Kimi K3.1 Pro Wafer performance results now available Kimi K3.1 Pro LithosAI performance results now available Kimi K3.1 Pro Parasail performance results now available Kimi K3.1 Pro Fireworks performance results now available Kimi K3.1 Pro Baseten performance results now available Kimi K3.1 Pro Nebius performance results now available Kimi K3.1 Pro Together AI performance results now available Kimi K3.1 Pro Thinking Machines performance results now available Inkling 2 Small Mistral performance results now available Mistral Large 4 (High) Mistral Large 4 (Medium) Tencent performance results now available Tencent Hy4 Nunchux performance results now available MiniMax H3 (768p) LTX-2.3 Fast 04 Nov 2026 New language model evaluation results available Muse Wonder (High) Intelligence Index: 41 New language model evaluation results available Tencent Hy4 Intelligence Index: 35 Meta performance results now available Muse Wonder (High) 03 Nov 2026 Artificial Analysis Performance Benchmarking methodology Artificial Analysis Performance Benchmarking v3.0.0 Time per Task is the new headline for comparing models. Output Speed now covers the whole request, including the wait for the first token, and averages single-request and multi-turn agentic workloads. Token counts come from each provider's API. Failures on the endpoint's side count against it, and every endpoint shows an Endpoint Error Rate. Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0.1 Incorporated grading robustness improvements from the CritPt authors and regraded all models on CritPt v2. 02 Nov 2026 New language model evaluation results available Gemini 4 Carbon (Low) Intelligence Index: 54 New language model evaluation results available Nanbeige4.3-33B Intelligence Index: 20 Google performance results now available Gemini 4 Carbon (Low) 01 Nov 2026 New language model evaluation results available Gemini 4 Carbon (Medium) Intelligence Index: 58 New language model evaluation results available DeepSeek V4.1 Flash 1017 (High) Intelligence Index: 29 Google performance results now available Gemini 4 Carbon (Medium) DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (High) 30 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Non-reasoning) Intelligence Index: 19 DeepInfra performance results now available Nemotron 3.5 Super VL SiliconFlow performance results now available Qwen3.8 27B (Xhigh) Qwen3.8 27B (Non-reasoning) GMI performance results now available Step 3.7 Flash DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) Inco performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) 29 Oct 2026 New language model evaluation results available Mistral Large 4 (Medium) Intelligence Index: 23 New language model evaluation results available Mistral Large 4 (High) Intelligence Index: 26 28 Oct 2026 \ud83d\udd14 New article published Gemini 4 Carbon is the new #1 on the Artificial Ana",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-24d23dfe4a9a74ebcb55"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "658c10b87fbc153446c34bb0",
       "discovered_at": "2026-10-28T08:23:13Z",
       "kind": "independent",
@@ -699,20 +713,6 @@
       "summary": "Log in MiniMax Code API Platform",
       "title": "Log in MiniMax Code API Platform",
       "url": "https://www.minimax.io"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "c68c09911d8d7e6536d6ff08",
-      "discovered_at": "2026-10-23T00:13:06Z",
-      "kind": "primary",
-      "lane": "deep",
-      "priority": 1,
-      "published": "",
-      "search_score": 8,
-      "source_name": "Sakana AI Blog",
-      "summary": "\u30aa\u30f3\u30c8\u30ed\u30b8\u30fc\u3092\u57fa\u76e4\u306b\u3001\u610f\u601d\u6c7a\u5b9a\u30fb\u5b9f\u884c\u3092\u652f\u63f4\u3059\u308bAI\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u300cSakana Aquarium\u300d",
-      "title": "\u30aa\u30f3\u30c8\u30ed\u30b8\u30fc\u3092\u57fa\u76e4\u306b\u3001\u610f\u601d\u6c7a\u5b9a\u30fb\u5b9f\u884c\u3092\u652f\u63f4\u3059\u308bAI\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u300cSakana Aquarium\u300d",
-      "url": "https://sakana.ai/aquarium-release/"
     },
     {
       "bootstrap": false,
@@ -1189,34 +1189,6 @@
       "summary": "@NousResearch > How plans work All plans give you access to every model. Your choice of model and the size of your tasks affect how quickly you use your allowance. Daily and weekly limits apply, along with a monthly allowance. You can see how much you've used and when each limit resets on the Usage page. More expensive models have an additional monthly limit; which models count depends on your plan. If you reach it, you can keep using other models within your remaining allowance. If you use up your included usage, you can switch to an available free model, wait for your allowance to reset, or continue with purchased pay-as-you-go credits. > FAQS How much more usage do Super and Ultra include? Super gives you substantially more included usage than Plus, and Ultra more again. Each plan card above lists its included Cloud agent size. How much work you can do depends on the models you choose and the size of your tasks. What counts toward usage? Model and included tool usage in Hermes Agent count toward your allowance when you sign in with your Nous account. Hosting for one Cloud agent is included as well. API-key requests and additional Cloud agents use pay-as-you-go credits. When does my usage reset? Daily usage resets after 24 hours, and weekly usage after seven days, starting when you first use each window. Your monthly allowance and large-model allowance reset with your billing period. Your Usage page shows the exact reset times. These limits apply together: a daily reset won't restore included usage if you've reached your weekly or monthly limit. What happens when I reach a limit? You can wait for the reset or switch to an available free model. Turn on Keep going on credits to continue using paid models with your pay-as-you-go balance. Leave it off and Hermes won't spend those credits when your included usage runs out. If you reach only the large-model limit, other models remain available within your remaining allowance. What happens to my existing subscription? When you switch, unused subscription credits carry over as pay-as-you-go credits, up to one month of your current plan's credits. Switching to a plan at the same price takes effect immediately with nothing to pay that day. Upgrades charge the price difference; downgrades take effect at the end of your billing period. Once you switch, you can't return to a legacy paid plan. Oct 27, 2026 @NousResearch We've revamped Hermes Agent subscriptions. Every new plan now includes a cloud agent out of the box, and usage has daily and weekly limits instead of one monthly block of credits. Subscribers can switch to the new plans any time at portal.nousresearch.com/billing Oct 27, 2026 @NousResearch Join us at @pangram HQ in NYC for an anti-slop hackathon! x.com/pangram/status\u2026 Oct 26, 2026 @NousResearch With the new Advanced Delegation modes plugin, Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up. The right model or profile for every job. hermes-agent.nousresearch.com/docs/plugins/a\u2026 Oct 26, 2026 @NousResearch Oct 26, 2026 @NousResearch Great time to use the Unbroker skill! x.com/shl0ms/status/\u2026 Oct 26, 2026 @NousResearch Please be careful about downloading third-party apps. The official mobile apps are not in app stores yet, and apps that closely mirror Hermes branding are typically fraudulent and not legitimate community projects. Oct 25, 2026 @NousResearch Oct 25, 2026 @NousResearch Hermes Agent gives you control x.com/yacinemtb/stat\u2026 Oct 24, 2026 @NousResearch See you next week in NYC! x.com/nousresearch/s\u2026 Oct 23, 2026",
       "title": "@NousResearch We've revamped Hermes Agent subscriptions. Every new plan now includes a cloud agent out of the box, and usage has daily and weekly limits instead of one monthly block of credits. Subscribers can switch to the new plans any ti",
       "url": "https://x.com/NousResearch/status/2115120531611787323"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "9f11a45ca27b4f2df7b9db57",
-      "discovered_at": "2026-10-23T00:13:01Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 12,
-      "source_name": "FutureTools AI News",
-      "summary": "Claude Platform Now Generally Available on Google Cloud with Full API Feature Parity claude.com \u00b7 Show TLDR",
-      "title": "Claude Platform Now Generally Available on Google Cloud with Full API Feature Parity claude.com \u00b7 Show TLDR",
-      "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "a967a5ebab93d9c091d23839",
-      "discovered_at": "2026-10-23T00:13:07Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 22, 2026",
-      "search_score": 12,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Your team and your Hermes can now share a computer. The new @trycua Spaces plugin gives Hermes its own Linux, macOS, or Windows Space on hardware you already own. Anyone on your team can open it, watch live, step in, and hand it back while Hermes keeps working. https://t.co/nVs7sCmspk Oct 22, 2026 @NousResearch Meshy is offering Hermes users a month of Pro, which includes API access and 1,000 credits, for $1. After you subscribe and install the plugin, create a key at meshy.ai/developers/keys and paste it into Settings > Plugins > Meshy in Hermes Desktop. meshy.ai/pricing?utm_me\u2026 x.com/NousResearch/s\u2026 Oct 22, 2026 @NousResearch Our CEO @dillonrolnick sat down with @eastdakota, CEO of @Cloudflare, for a wide-ranging conversation about agents, the future of the internet, and the fight for digital sovereignty. Thanks to the @usv team for hosting! x.com/mattcynamon/st\u2026 Oct 22, 2026 @NousResearch Hermes Agent now has an official plugin for @MeshyAI. Ask Hermes to make a 70m poly treasure chest for Godot, or to turn a photo of a mug into a model you can print, and it does the job through Meshy's MCP server. In Hermes Desktop the models render in chat, rigged characters animate inline, and a gallery stores every model and prompt. On messaging apps, Hermes sends a short preview video so you can create on the go. https://t.co/QlxZUDEBn3 Oct 22, 2026 @NousResearch Jensen closed his GTC Berlin 2026 keynote with this Hermes Agent demo as the finale. He introduced it by saying the way to build an agent is to ask an agent to build it for you, so he installed and set up a customized Hermes in one prompt. Then he used Hermes, running on @nvidia RTX Spark, to create a simulated training environment for the @huggingface Microduck. Hermes planned an obstacle course with Nemotron and had GPT-6 Astra build it using FreeCAD, Omniverse libraries, Blender, Newton, and Isaac Lab. Hermes trained thousands of simulated ducks on that course until the validated policy was ready to run on the real robot in the physical world. At Nous, we believe open source is a practical tool as much as a philosophical ideal. It gives users the ability to build powerful, complex workflows chaining numerous local+cloud models, devices, and tools themselves instead of waiting for a company to enable them. Oct 21, 2026 @NousResearch Krea 3 from @krea_ai is now available in Nous Portal Fast mode does 2k edits in under 8 seconds, and Ultra is a higher quality tier outperforming Nano Banana Pro It supports precise controls: draw a box to create a bounded editing region leaving the rest of an image unchanged, or specify a hex code to apply precise color https://t.co/uomohWX1dw Oct 21, 2026 @NousResearch Look for Nightwing in Dolores Park this Friday for a chance to grab the sold out Rebellion shirt and hang out with fellow Hermes heads x.com/yaboilyrical/s\u2026 Oct 19, 2026 @NousResearch Let\u2019s see your Nous fit pics Oct 18, 2026 @NousResearch Motion. Oct 16, 2026 @NousResearch Editor's Note: This tweet was intended as satire by our social intern, who did not expect it to be taken seriously. Hermes was not selected for the list as we do not do paid PR placements; we think it is a wonderful invention and perhaps TIME will see fit to recognize it eventually. Oct 16, 2026",
-      "title": "@NousResearch Your team and your Hermes can now share a computer. The new @trycua Spaces plugin gives Hermes its own Linux, macOS, or Windows Space on hardware you already own. Anyone on your team can open it, watch live, step in, and hand ",
-      "url": "https://x.com/NousResearch/status/2113391397760041329"
     },
     {
       "bootstrap": false,
@@ -1805,6 +1777,20 @@
       "summary": "@NousResearch Full release notes: github.com/NousResearch/h\u2026 Nov 5, 2026 @NousResearch Hermes Agent v0.23.0: The Hearth Release Highlights: - Desktop in a browser tab - One gateway for every conversation - /Rewind - Group Chats with automatic routing - Spend limits for paid tools - Lighter and faster and more Changelog below Nov 5, 2026 @NousResearch Unfuck your hardware with Hermes x.com/0xdippo/status\u2026 Nov 5, 2026 @NousResearch hermes-agent.nousresearch.com/docs/user-guid\u2026 Nov 5, 2026 @NousResearch Wow Nov 5, 2026 @NousResearch Hy4, the new model from @TencentHunyuan, is 80% off in Nous Portal for one week. It adds image input and computer use, and Tencent trained it for game development in Unity, Unreal and Godot and for editing Word, Excel and PowerPoint files. Try it today at https://t.co/uomohWXz34 Nov 5, 2026 @NousResearch The Hermes Agent Plugin Hackathon starts now! It runs for 7 days, with $20,000 in cash prizes and more. Plugins are the most powerful way to extend Hermes Agent, and we want this hackathon to show what they can do. A plugin can change anything from the model Hermes runs on, where it stores its memory, where it runs commands, which messaging apps it works in and what Hermes Desktop shows. Plugins in the marketplace already let Hermes do things like control a phone or turn a photo into a printable 3D model. Every kind of plugin is eligible, so build whatever functionality you want Hermes to have. We'll list accepted entries in the new Hermes Marketplace, where every Hermes user can install them. Prizes 1st: $10,000 + neon sign + merch + $1,000 creds 2nd: $5,000 + neon sign + merch + $1,000 creds 3rd: $2,500 + neon sign + merch + $1,000 creds 4th: $1,500 + merch + $500 creds 5th: $1,000 + merch + $500 creds Runners up (x5): merch + $250 creds Submissions are due 5PM EST on Nov 11th. To enter: 1. Open a pull request that adds your plugin to the Hermes plugin catalog: https://t.co/mXvYukJ0mZ 2. Post a demo video on X and tag @NousResearch 3. Submit both links through the form: https://t.co/jlduHHW3dr Your entry is the plugin itself. Judges score it on usefulness, reliability, polish and creativity, and they favor plugins that do more than a prompt or a skill could. Keep the demo under 90 seconds and show the plugin working. The developer guide shows how to build and test a plugin: https://t.co/FVGjSgjNoV When submissions close, we'll open a thread for every entry in the Nous Research Discord, so you can browse all the plugins and talk to the people who built them. You can submit the form as soon as your pull request is open. The catalog checks run once a maintainer starts them, and we review entries every few days. If you have any questions stop by the Nous Research Discord: https://t.co/qxek9haYeb GLHF! Nov 4, 2026 @NousResearch Plugins, connectors, and skills for Hermes Agent are now unified in a single marketplace so you can easily browse and extend your Hermes experience in a few clicks. The new Hermes Marketplace has everything your agent needs: hermes-agent.nousresearch.com/marketplace Nov 4, 2026 @NousResearch Nov 4, 2026 @NousResearch Congrats @Wronglebowsk \ud83e\udd20 Nov 4, 2026",
       "title": "@NousResearch Unfuck your hardware with Hermes x.com/0xdippo/status\u2026 Nov 5, 2026",
       "url": "https://x.com/NousResearch/status/2118445476320260559"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "d15bb5f95cf6d30ab35ce988",
+      "discovered_at": "2026-11-06T07:11:43Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Nov 6, 2026",
+      "search_score": 8,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch That's hilarious but you should probably try Hermes which doesn't do that x.com/liamzebedee/st\u2026 Nov 6, 2026 @NousResearch Full release notes: github.com/NousResearch/h\u2026 Nov 5, 2026 @NousResearch Hermes Agent v0.23.0: The Hearth Release Highlights: - Desktop in a browser tab - One gateway for every conversation - /Rewind - Group Chats with automatic routing - Spend limits for paid tools - Lighter and faster and more Changelog below Nov 5, 2026 @NousResearch Unfuck your hardware with Hermes x.com/0xdippo/status\u2026 Nov 5, 2026 @NousResearch hermes-agent.nousresearch.com/docs/user-guid\u2026 Nov 5, 2026 @NousResearch Wow Nov 5, 2026 @NousResearch Hy4, the new model from @TencentHunyuan, is 80% off in Nous Portal for one week. It adds image input and computer use, and Tencent trained it for game development in Unity, Unreal and Godot and for editing Word, Excel and PowerPoint files. Try it today at https://t.co/uomohWXz34 Nov 5, 2026 @NousResearch The Hermes Agent Plugin Hackathon starts now! It runs for 7 days, with $20,000 in cash prizes and more. Plugins are the most powerful way to extend Hermes Agent, and we want this hackathon to show what they can do. A plugin can change anything from the model Hermes runs on, where it stores its memory, where it runs commands, which messaging apps it works in and what Hermes Desktop shows. Plugins in the marketplace already let Hermes do things like control a phone or turn a photo into a printable 3D model. Every kind of plugin is eligible, so build whatever functionality you want Hermes to have. We'll list accepted entries in the new Hermes Marketplace, where every Hermes user can install them. Prizes 1st: $10,000 + neon sign + merch + $1,000 creds 2nd: $5,000 + neon sign + merch + $1,000 creds 3rd: $2,500 + neon sign + merch + $1,000 creds 4th: $1,500 + merch + $500 creds 5th: $1,000 + merch + $500 creds Runners up (x5): merch + $250 creds Submissions are due 5PM EST on Nov 11th. To enter: 1. Open a pull request that adds your plugin to the Hermes plugin catalog: https://t.co/mXvYukJ0mZ 2. Post a demo video on X and tag @NousResearch 3. Submit both links through the form: https://t.co/jlduHHW3dr Your entry is the plugin itself. Judges score it on usefulness, reliability, polish and creativity, and they favor plugins that do more than a prompt or a skill could. Keep the demo under 90 seconds and show the plugin working. The developer guide shows how to build and test a plugin: https://t.co/FVGjSgjNoV When submissions close, we'll open a thread for every entry in the Nous Research Discord, so you can browse all the plugins and talk to the people who built them. You can submit the form as soon as your pull request is open. The catalog checks run once a maintainer starts them, and we review entries every few days. If you have any questions stop by the Nous Research Discord: https://t.co/qxek9haYeb GLHF! Nov 4, 2026 @NousResearch Plugins, connectors, and skills for Hermes Agent are now unified in a single marketplace so you can easily browse and extend your Hermes experience in a few clicks. The new Hermes Marketplace has everything your agent needs: hermes-agent.nousresearch.com/marketplace Nov 4, 2026 @NousResearch Nov 4, 2026",
+      "title": "@NousResearch That's hilarious but you should probably try Hermes which doesn't do that x.com/liamzebedee/st\u2026 Nov 6, 2026",
+      "url": "https://x.com/NousResearch/status/2118590391331279266"
     },
     {
       "bootstrap": false,
@@ -2844,20 +2830,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "f01e1d1f7f1967bc58c6859a",
-      "discovered_at": "2026-10-23T10:24:14Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-22T21:03:20-07:00",
-      "search_score": 7,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Live rankings of the tools AI agents use most Discussion | Link",
-      "title": "Agent Hunt",
-      "url": "https://www.producthunt.com/products/monid"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "4276d0de32c6d3e20a4ab7da",
       "discovered_at": "2026-11-03T17:17:15Z",
       "kind": "signal",
@@ -3376,20 +3348,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "3f465524e152c3fd7e95efe5",
-      "discovered_at": "2026-10-23T10:24:14Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-22T21:32:57-07:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Watch AI agents code in 3D and hand off the work Discussion | Link",
-      "title": "Termi Protocol",
-      "url": "https://www.producthunt.com/products/termi-protocol"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "d124fd46f2c2cd1827755219",
       "discovered_at": "2026-11-05T11:39:14Z",
       "kind": "signal",
@@ -3502,6 +3460,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-06T00:11:05Z",
+  "updated_at": "2026-11-06T07:11:44Z",
   "version": 2
 }

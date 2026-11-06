@@ -1,16 +1,21 @@
 {
   "last_run": {
-    "at": "2026-11-06T15:17:34Z",
+    "at": "2026-11-06T20:59:34Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 11,
-    "queued": 3,
+    "prefiltered": 4,
+    "queued": 12,
     "sources_ok": 15,
     "too_old": 5,
     "warnings": 0
   },
-  "runs": 174,
+  "runs": 175,
   "seen": {
+    "0098b34dc3539f64cae9a57d": {
+      "first_seen": "2026-11-06T20:59:28Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
       "status": "queued",
@@ -561,6 +566,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/sitesolide"
+    },
+    "1192ef5ce2087cd4def4e0eb": {
+      "first_seen": "2026-11-06T20:59:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/magic-wonders"
     },
     "12069dbe170b04bd498373b6": {
       "first_seen": "2026-10-15T14:58:06Z",
@@ -1419,6 +1430,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/freeport-markets"
     },
+    "2ce1ec27ffe13414082020f2": {
+      "first_seen": "2026-11-06T20:59:29Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/meadow-3"
+    },
     "2cf23206607f40daee574c46": {
       "first_seen": "2026-10-28T15:20:02Z",
       "status": "queued",
@@ -1550,6 +1566,11 @@
       "first_seen": "2026-10-09T14:44:13Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
+    },
+    "306e06ae82be07a417a266e3": {
+      "first_seen": "2026-11-06T20:59:28Z",
+      "status": "queued",
+      "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "30796f46de906be3bc43937d": {
       "first_seen": "2026-10-06T23:21:31Z",
@@ -2402,6 +2423,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/mo-5"
     },
+    "4b476e2bddcb4a17c5c2308d": {
+      "first_seen": "2026-11-06T20:59:29Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/one-claude-chat-now-runs-all-your-other-chats-11-06-2026"
+    },
     "4ba5ed876417eddb55c73101": {
       "first_seen": "2026-10-10T11:25:13Z",
       "search_score": 1,
@@ -2487,6 +2513,11 @@
       "status": "queued",
       "url": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "4d6b64fa304367a394456487": {
+      "first_seen": "2026-11-06T20:59:28Z",
+      "status": "queued",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "4e1329ae281a601fa9d6ce4a": {
       "first_seen": "2026-11-06T00:11:04Z",
       "status": "queued",
@@ -2528,6 +2559,11 @@
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/banger-mail"
+    },
+    "4eface99299d2fbabced817d": {
+      "first_seen": "2026-11-06T20:59:28Z",
+      "status": "queued",
+      "url": "https://youtu.be/IrAHINf0M6E?utm_source=futuretools.io&utm_medium=newspage"
     },
     "4f6ee6fb52ce253ad03c145a": {
       "first_seen": "2026-10-09T01:22:21Z",
@@ -2975,6 +3011,12 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107671544818200968"
     },
+    "5cf4f8de3c65bd5293686acf": {
+      "first_seen": "2026-11-06T20:59:29Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/chronos-db"
+    },
     "5d0e03925a09a55df82ef680": {
       "first_seen": "2026-10-08T21:27:34Z",
       "status": "queued",
@@ -3082,6 +3124,11 @@
       "first_seen": "2026-10-29T23:29:40Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/chatinbox-2"
+    },
+    "6035ed65aa99b621fe6e7b7e": {
+      "first_seen": "2026-11-06T20:59:28Z",
+      "status": "queued",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "603d4f0592f632a4812d62a6": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -3205,6 +3252,11 @@
       "first_seen": "2026-11-06T00:11:00Z",
       "status": "queued",
       "url": "https://runway.com/news/research/real-time-video-at-batch-size-one?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "62bd754a55fd308cf76982b2": {
+      "first_seen": "2026-11-06T20:59:29Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/native-tasks-for-obsidian"
     },
     "62c509640c5df97d86096bb9": {
       "first_seen": "2026-10-07T02:36:56Z",
@@ -3704,6 +3756,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/de-stash"
     },
+    "749015666cfd7ba5e159890b": {
+      "first_seen": "2026-11-06T20:59:29Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/safegrd"
+    },
     "74b96067421614bb6e730a78": {
       "first_seen": "2026-10-17T08:44:04Z",
       "search_score": 0,
@@ -3736,6 +3793,11 @@
       "first_seen": "2026-10-14T21:37:22Z",
       "status": "queued",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "75c7495da2b47f2d3f189d4c": {
+      "first_seen": "2026-11-06T20:59:32Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2118734093105946792"
     },
     "75de0ca6002a41d945c681c9": {
       "first_seen": "2026-10-11T09:11:21Z",
@@ -4873,6 +4935,11 @@
       "status": "queued",
       "url": "https://openai.com/index/gpt-6-for-everyone/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "96bb3227b67292ecb14ab376": {
+      "first_seen": "2026-11-06T20:59:29Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/releasebeam"
+    },
     "96cdb1775a6734d344b6a96c": {
       "first_seen": "2026-10-19T17:12:31Z",
       "status": "too_old",
@@ -5197,6 +5264,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/kilo"
     },
+    "a0dd342f75b2e25f02985126": {
+      "first_seen": "2026-11-06T20:59:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/shipnoted"
+    },
     "a0e46d52d014793bcba104b1": {
       "first_seen": "2026-10-19T10:44:24Z",
       "search_score": 0,
@@ -5293,6 +5366,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/asklog"
     },
+    "a3db3ca999602c56ae53e6c5": {
+      "first_seen": "2026-11-06T20:59:28Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "a41c6b1e5e903c631014638b": {
       "first_seen": "2026-10-29T19:17:18Z",
       "status": "queued",
@@ -5322,6 +5400,11 @@
       "first_seen": "2026-10-21T20:18:30Z",
       "status": "queued",
       "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "a5424bacc393e719eb5b6ab4": {
+      "first_seen": "2026-11-06T20:59:29Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/alysis-code"
     },
     "a56a5684d29c63e96acf899b": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -6279,6 +6362,11 @@
       "status": "queued",
       "url": "https://microsoft.ai/news/building-medical-superintelligence/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "c4179f55310568ba5109203c": {
+      "first_seen": "2026-11-06T20:59:29Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/translucent-ai"
+    },
     "c46e83ffe9fcac6056ab89b2": {
       "first_seen": "2026-10-10T11:25:13Z",
       "status": "too_old",
@@ -6691,6 +6779,11 @@
       "status": "queued",
       "url": "https://reflection.ai/blog/introducing-beam?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "d3245ce325c05994db19364b": {
+      "first_seen": "2026-11-06T20:59:32Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2118774793872769342"
+    },
     "d3b185d971abc0ead80775d6": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -6960,6 +7053,11 @@
       "first_seen": "2026-10-27T01:27:26Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/"
+    },
+    "db8aad7567ee0d78097e3d53": {
+      "first_seen": "2026-11-06T20:59:29Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/"
     },
     "db8ebfc77c69dd24459ca5f9": {
       "first_seen": "2026-10-06T19:44:10Z",
@@ -7720,6 +7818,12 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-a2f70f3b9d12b19cc962"
     },
+    "f334544f51e564d96ea65e74": {
+      "first_seen": "2026-11-06T20:59:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/textwhisk"
+    },
     "f39d26586a9bbbb17ae8bee8": {
       "first_seen": "2026-10-07T21:57:50Z",
       "status": "queued",
@@ -7887,6 +7991,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://newsletter.futurepedia.io/p/googles-nano-banana-2-1-can-put-you-anywhere-10-10-2026"
+    },
+    "f8fbac86abfa7d1a8fba6e78": {
+      "first_seen": "2026-11-06T20:59:28Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs?utm_source=futuretools.io&utm_medium=newspage"
     },
     "f9009280ad2c5f81dc12ea09": {
       "first_seen": "2026-10-05T09:33:48Z",

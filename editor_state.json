@@ -37,6 +37,11 @@
       "count": 1,
       "last_error": "503 Server Error: Service Unavailable for url: https://www.googleapis.com/blogger/v3/blogs/2342065040356029552/posts"
     },
+    "a8e215d1c3fca63aee0ffd81": {
+      "at": "2026-11-06T14:39:07Z",
+      "count": 1,
+      "last_error": "Expecting property name enclosed in double quotes: line 6 column 3 (char 128)"
+    },
     "bca108e4c77bd86b238b884f": {
       "at": "2026-11-03T16:38:58Z",
       "count": 1,
@@ -72,8 +77,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-06T06:33:38Z",
-    "eligible": 83,
+    "at": "2026-11-06T14:39:11Z",
+    "eligible": 78,
     "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
@@ -410,6 +415,11 @@
       "at": "2026-11-04T17:35:42Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/agent-inbox"
+    },
+    "091c2debdffc2146f173dc63": {
+      "at": "2026-11-06T14:38:58Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/hira"
     },
     "094171d39ea0a0a02c6af419": {
       "at": "2026-10-24T01:10:15Z",
@@ -1529,6 +1539,20 @@
       "at": "2026-10-28T23:38:18Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/whoiscooking"
+    },
+    "25fa4dd18ec78a48a9233cc0": {
+      "at": "2026-11-06T14:39:11Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "openai-national-community-compact-compute-campus-policy-blueprint",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
     },
     "262e31703e1026a9f4c8bbc7": {
       "at": "2026-10-18T09:31:10Z",
@@ -3580,6 +3604,11 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/21/php-security-release/"
     },
+    "60e4a5b8e3e99d2e5a7f3f22": {
+      "at": "2026-11-06T14:38:58Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/qualitylayer"
+    },
     "6138ec733e3c4420aa012e01": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -3967,6 +3996,11 @@
       "at": "2026-10-08T00:09:43Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/"
+    },
+    "6a35e186e536d3f3b11fa855": {
+      "at": "2026-11-06T14:38:58Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/seamcult"
     },
     "6a68d2a0f478d498b02bda57": {
       "at": "2026-10-11T13:58:22Z",
@@ -4654,6 +4688,11 @@
       "status": "ignored",
       "story_key": "fanatics-openai-shop-the-look",
       "url": "https://openai.com/index/fanatics-streamline-fan-experience"
+    },
+    "7e74bfdf1b9745b42880c8db": {
+      "at": "2026-11-06T14:38:58Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/resum"
     },
     "7e9aff605a4e7ea56674e155": {
       "at": "2026-10-06T02:32:14Z",
@@ -5859,6 +5898,20 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00125"
     },
+    "9df3690531ba025df30aee96": {
+      "at": "2026-11-06T14:39:04Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "thinking-machines-inkling-2-small-open-weights",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-24d23dfe4a9a74ebcb55"
+    },
     "9dff434834cceb7d87aac076": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -6669,6 +6722,11 @@
       "status": "ignored",
       "story_key": "llama-cpp-minicpm-v-4-7-support",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11551"
+    },
+    "b53d42e9c538fd7656efa2b9": {
+      "at": "2026-11-06T14:38:58Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14"
     },
     "b5a1bea7aa5cbfbd77f0b6f5": {
       "at": "2026-11-06T00:09:40Z",
@@ -7991,6 +8049,14 @@
       "status": "ignored",
       "story_key": "openai-oracle-case-study-chatgpt-codex",
       "url": "https://openai.com/index/oracle"
+    },
+    "db9792e954d447010915e606": {
+      "at": "2026-11-06T14:39:05Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "openai-customer-spotlight-merge-2026",
+      "url": "https://openai.com/index/merge-builds-with-openai"
     },
     "dbe76cd2643cea628620f51d": {
       "at": "2026-10-24T23:47:27Z",
@@ -13931,6 +13997,27 @@
         "source": "OpenAI News"
       }
     },
+    "openai-national-community-compact-compute-campus-policy-blueprint": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-national-community-compact-compute-campus-policy-blueprint.jpg",
+      "last_updated": "2026-11-06T14:39:11Z",
+      "post_id": "6133579659316793924",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-introduces-national-community.html",
+      "score": 82,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/3tfG1ium2HchPnPJartCV6/bd2d0a4c101b0a41440cc45adefa35cd/setting-a-new-standard-for-responsible-ai-infrastructure-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces National Community Compact and Compute Campus Policy Blueprint",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      }
+    },
     "openai-oracle-expanded-partnership-business-apps-ai-agents": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-oracle-expanded-partnership-business-apps-ai-agents.jpg",
@@ -15356,6 +15443,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 94,
         "source": "OpenAI News"
+      }
+    },
+    "thinking-machines-inkling-2-small-open-weights": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/thinking-machines-inkling-2-small-open-weights.png",
+      "last_updated": "2026-11-06T14:39:04Z",
+      "post_id": "5470863171072772655",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/thinking-machines-introduces-inkling-2.html",
+      "score": 82,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-24d23dfe4a9a74ebcb55"
+      ],
+      "status": "CONFIRMED",
+      "title": "Thinking Machines Introduces Inkling 2 Small as High-Scoring Open Weights Model",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
       }
     },
     "uber-chatgpt-work-openai-rollout": {

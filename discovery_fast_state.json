@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-06T16:15:58Z",
+    "at": "2026-11-06T21:37:40Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 10,
+    "queued": 5,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 176,
+  "runs": 177,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -51,6 +51,11 @@
       "first_seen": "2026-10-28T07:28:01Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.33030"
+    },
+    "01809a964fe30087f06bf5cc": {
+      "first_seen": "2026-11-06T21:37:07Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.44.2"
     },
     "0187c1ea444100fc48e8ae46": {
       "first_seen": "2026-10-03T00:46:10Z",
@@ -1642,6 +1647,11 @@
       "first_seen": "2026-10-27T22:24:44Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.5"
+    },
+    "291f6c31a7cabb41f26f7934": {
+      "first_seen": "2026-11-06T21:37:09Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12179"
     },
     "295354ff422b0d4db922748e": {
       "first_seen": "2026-11-05T05:49:58Z",
@@ -3747,6 +3757,11 @@
       "first_seen": "2026-10-08T14:56:24Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.2"
+    },
+    "5f721228af3682c2417b4131": {
+      "first_seen": "2026-11-06T21:37:01Z",
+      "status": "queued",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
     },
     "5f77088f23d78981a7e807c4": {
       "first_seen": "2026-10-26T00:30:19Z",
@@ -6450,6 +6465,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20682"
     },
+    "a0a44ed09dc9a1089b4e099f": {
+      "first_seen": "2026-11-06T21:37:01Z",
+      "status": "queued",
+      "url": "https://openai.com/index/partnering-with-hacktron"
+    },
     "a0e5f3129cf7b80a3faf2634": {
       "first_seen": "2026-10-07T09:14:06Z",
       "status": "queued",
@@ -8852,6 +8872,11 @@
       "first_seen": "2026-10-29T11:23:28Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11979"
+    },
+    "dd1266c7ee42e16d36eb8cb0": {
+      "first_seen": "2026-11-06T21:37:09Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12177"
     },
     "dd1cb4a5f7daf3efde88515a": {
       "first_seen": "2026-11-02T10:42:42Z",

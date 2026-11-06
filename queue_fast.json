@@ -1850,6 +1850,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "5f721228af3682c2417b4131",
+      "discovered_at": "2026-11-06T21:37:01Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Fri, 06 Nov 2026 00:00:00 GMT",
+      "search_score": 12,
+      "source_name": "OpenAI News",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "14e90e72d3401ddf817f6448",
       "discovered_at": "2026-11-05T21:07:57Z",
       "kind": "official",
@@ -1931,6 +1945,20 @@
       "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
       "title": "How Cisco defends at machine speed with OpenAI",
       "url": "https://openai.com/index/cisco-cyber"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "a0a44ed09dc9a1089b4e099f",
+      "discovered_at": "2026-11-06T21:37:01Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Fri, 06 Nov 2026 08:00:00 GMT",
+      "search_score": 7,
+      "source_name": "OpenAI News",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI\u2019s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron"
     },
     {
       "bootstrap": false,
@@ -2281,20 +2309,6 @@
       "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
       "title": "ChatGPT\u2019s expanding world of work",
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "ee4c22366ef7e7abd786b0a4",
-      "discovered_at": "2026-10-23T18:42:30Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Fri, 23 Oct 2026 17:00:00 GMT",
-      "search_score": 3,
-      "source_name": "OpenAI News",
-      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12\u00d7 faster reads for ChatGPT.",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
     },
     {
       "bootstrap": false,
@@ -2900,6 +2914,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "291f6c31a7cabb41f26f7934",
+      "discovered_at": "2026-11-06T21:37:09Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-06T20:47:14Z",
+      "search_score": 9,
+      "source_name": "llama.cpp Releases",
+      "summary": "hexagon: conv_2d optimizations and support for conv_3d ( #31814 ) hexagon: Generalization of CONV_2D implementation for CONV_3D New op HTP_OP_CONV_3D is wired through htp-ops.h, main.c (shares op_conv_2d) and the op remap in htp-kparams.cpp. conv_3d runs on the existing HMX tiled (implicit GEMM) conv2d path. KD and KH are folded into one virtual kernel row (KD KH), and output rows are counted as N OD*OH. htp_kparams_solve_conv3d checks the conv_3d layout and calls the tiled solver htp_kparams_conv2d_tiled, which takes an is3d flag. The tiled kernel takes the sizes and strides that differ between conv_2d and conv_3d from a struct htp_conv_geom. Only the input stage unfolds depth. 256-entry DMA queue can no longer overflow Assisted-by: Claude Code hexagon: modify checking to eliminate divide-by-zero hazards hexagon: conv2d tiled: compute the conv_3d unfold divisors on the host The KH and OH fastdiv values used to unfold conv_3d kh into (kd, kh) and oh into (od, oh) were built per op on the device, each with a 64-bit divide. Pass them in the kernel params instead; they fit in the space the window variant already reserves, so the struct size does not change. Assisted-by: Claude Code hexagon : preserve fold scheduling in conv2d for small size hexagon : support arbitrary positive conv2d strides Support positive horizontal strides for WHCN and CWHN inputs. Preserve load/shuffle paths for strides 1/2 and use gather for larger strides. hexagon : improve conv2d tile size selection Prefer the largest feasible output-channel block and derive spatial chunk capacity from VTCM usage. Compare capacity and thread-aligned candidates using per-thread work and chunk overhead. Co-authored-by: Yiwei Shao yiwei@aizip.ai hex-conv: fix compiler warning Co-authored-by: Yiwei Shao yiwei@aizip.ai Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64659147 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12179",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12179"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "419393c3c0a3cbc48abd5b79",
       "discovered_at": "2026-11-03T10:03:41Z",
       "kind": "local-ai",
@@ -2981,6 +3009,20 @@
       "summary": "tests : add speculative rejection draft sampling test ( #30213 ) tests : add speculative rejection draft sampling test This commit adds a test for speculative rejection sampling test that excercises the speculative rejection sampling mechanism in common/speculative.cpp. The motivation for this is have a test that verifies that the speculative draft models emitts tokens that  match the target models distribution. So when rejection sampling occurs it should still produce the same probability distribution as if we directly sampled from the target model. Running the test: $ ctest --test-dir build -R \" ^test-speculative-rejection-sampling$ \" \\ --n_trials 5000 -V This will generate two models, one target and one draft model. For subsequent runs use the \"fixture exclude any\" option to avoid recreating the models: $ ctest --test-dir build-cpu-debug -R \\ \"^test-speculative-rejection-sampling$\" \\ -FA \"^speculative-models$\" --n_trails 5000 -V remove draft model Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59423747 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11856",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11856"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "dd1266c7ee42e16d36eb8cb0",
+      "discovered_at": "2026-11-06T21:37:09Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-06T17:13:20Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "cli : fix crash on invalid UTF-8 in prompt or files ( #31563 ) Assisted-by: Claude Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64587236 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12177",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12177"
     },
     {
       "bootstrap": false,
@@ -3390,20 +3432,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "8c177b37ece0d145f22fb5f2",
-      "discovered_at": "2026-10-23T18:42:39Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-23T17:17:19Z",
-      "search_score": 7,
-      "source_name": "Ollama Releases",
-      "summary": "NVIDIA Nemotron 3.5 Bolt E4B Nemotron 3.5 Bolt E4B is NVIDIA\u2019s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window. The model includes a DFlash draft for speculative decoding. ollama run nemotron-3.5-bolt:e4b Full Changelog : v0.40.9...v0.40.10",
-      "title": "v0.40.10",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "45e25a0dd29630696c6ee344",
       "discovered_at": "2026-11-06T08:29:21Z",
       "kind": "local-ai",
@@ -3471,37 +3499,9 @@
       "summary": "vulkan: detect ReBAR support, avoid BAR allocations if unavailable ( #31658 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64522096 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12171",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12171"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "52eea199a12f8937c8cad9e9",
-      "discovered_at": "2026-11-06T16:15:30Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-06T13:55:04Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "moe-cache : LRFU/MQ-like hybrid cache, ClassLRU ( #31233 ) moe-cache : LRFU/MQ-inspired hybrid cache make the clock advance by N tokens: use the real token count (ne[1] is always 1, ids have n_expert_used entries per token) sel is a RESHAPE node, the orig input is in src[0], so sel->src[0]->ne[1] is the count c for the class index, last_use for last use time explain the roles of these compute the key once use the key directly instead of re-reading show how the score is computed from the age remove the branch and clarify exp2 and log2 relationship reword the header comment and elaborate on unused slots and sorting not a copy, not just skip std::array maybe Revert \"std::array maybe\" This reverts commit 7649b1f . half life it is add key and iteration helpers extract decayed_crf bump classes to 8, document the formula, display the cache size in token worth count assert the computed number of classes matches the half life Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64511780 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12170",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12170"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "2fcc08164988cd2284a8decf",
-      "discovered_at": "2026-11-06T01:38:46Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-05T22:12:12Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "metal : use mul_mm for 32 <= K < 64 ( #30982 ) metal : use mul_mm for 32 <= K < 64 metal : add bf16 x bf16 mul mat kernel Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64248274 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12138",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12138"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-06T16:15:58Z",
+  "updated_at": "2026-11-06T21:37:40Z",
   "version": 2
 }

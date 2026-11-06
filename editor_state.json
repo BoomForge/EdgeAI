@@ -72,11 +72,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-06T00:09:53Z",
-    "eligible": 80,
-    "evaluated": 2,
+    "at": "2026-11-06T06:33:38Z",
+    "eligible": 83,
+    "evaluated": 3,
     "mode": "live",
-    "new_posts": 1,
+    "new_posts": 2,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -596,6 +596,14 @@
       },
       "url": "https://simonwillison.net/2026/Oct/6/le-chonk/"
     },
+    "0eb05ac6b2079a94115747a4": {
+      "at": "2026-11-06T06:33:35Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-updates",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-3277b007c832cbacb9e7"
+    },
     "0ec64ac228dd9330f06ff5cc": {
       "at": "2026-10-06T16:08:03Z",
       "status": "expired",
@@ -811,6 +819,20 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11511"
     },
+    "14e90e72d3401ddf817f6448": {
+      "at": "2026-11-06T06:33:38Z",
+      "bootstrap": false,
+      "score": 95,
+      "status": "published",
+      "story_key": "openai-gpt-6-cyber",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/introducing-gpt-6-cyber"
+    },
     "155c7b54b4cbd80e144fcf46": {
       "at": "2026-10-15T16:54:18Z",
       "bootstrap": false,
@@ -1009,6 +1031,20 @@
       "at": "2026-10-09T03:09:32Z",
       "status": "expired",
       "url": "https://www.thedeepview.com/articles/runway-ceo-sees-a-much-bigger-future-for-video-ai?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "19b3d03f25a3e039bee87d08": {
+      "at": "2026-11-06T06:33:33Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "artificial-analysis-changelog-nov-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-db42942592aac63c8f3b"
     },
     "19fa17b0500ad2a7a0dbccb3": {
       "at": "2026-10-03T04:46:32Z",
@@ -1501,6 +1537,11 @@
       "status": "ignored",
       "story_key": "llamacpp-b11643-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11643"
+    },
+    "26886ff83d11fb05cc7e95ea": {
+      "at": "2026-11-06T06:33:30Z",
+      "status": "expired",
+      "url": "https://runway.com/news/developers/runway-dev-plugins-for-coding-agents?utm_source=futuretools.io&utm_medium=newspage"
     },
     "26903e1b81ab4fabf81d6c6a": {
       "at": "2026-11-06T00:09:40Z",
@@ -2577,6 +2618,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/"
+    },
+    "419393c3c0a3cbc48abd5b79": {
+      "at": "2026-11-06T06:33:30Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12064"
     },
     "41aaed3a7ec03d9596bf1d41": {
       "at": "2026-10-03T18:39:57Z",
@@ -6316,6 +6362,11 @@
       },
       "url": "https://stability.ai/news-updates/sharing-a-new-way-to-work-with-stable-audio"
     },
+    "a9a598aa933e3603375e447e": {
+      "at": "2026-11-06T06:33:30Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/stitch-ai"
+    },
     "a9c488820a62ac4adcd9d66c": {
       "at": "2026-10-27T18:22:40Z",
       "bootstrap": false,
@@ -7963,6 +8014,11 @@
       "story_key": "nous-research-unbroker-skill-hermes-agent",
       "url": "https://x.com/NousResearch/status/2114530795868373035"
     },
+    "dcf65f4aed7f78c16de0aee4": {
+      "at": "2026-11-06T06:33:30Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/"
+    },
     "dd04e48f1b3ea63215de48ac": {
       "at": "2026-10-31T19:27:27Z",
       "bootstrap": false,
@@ -8047,6 +8103,11 @@
       "at": "2026-10-29T21:19:42Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/26/jason-koebler/"
+    },
+    "de959bab941149a96f431c49": {
+      "at": "2026-11-06T06:33:30Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/"
     },
     "de9db6f384cbc788775550a9": {
       "at": "2026-10-21T22:17:48Z",
@@ -8835,6 +8896,16 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/sellio-2"
     },
+    "f2d88e01bfdb30bb95b4f3c8": {
+      "at": "2026-11-06T06:33:30Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/one-roof"
+    },
+    "f3123bdeed841684f4be5d5f": {
+      "at": "2026-11-06T06:33:30Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0"
+    },
     "f317c625fcd712dc85b8cf38": {
       "at": "2026-10-26T21:46:01Z",
       "bootstrap": false,
@@ -9177,6 +9248,11 @@
       "status": "ignored",
       "story_key": "llamacpp-b11972-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11972"
+    },
+    "fa3c1fe4e6a36de5ad2f2484": {
+      "at": "2026-11-06T06:33:30Z",
+      "status": "expired",
+      "url": "https://x.ai/news/data-bot?utm_source=futuretools.io&utm_medium=newspage"
     },
     "fa45708d3db66482b785a49c": {
       "at": "2026-10-06T02:32:14Z",
@@ -9824,6 +9900,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Artificial Analysis Updates Changelog with Muse Wonder and Zoom Scribe V2 Pro Evaluations",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
+    "artificial-analysis-changelog-nov-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-nov-2026.jpg",
+      "last_updated": "2026-11-06T06:33:33Z",
+      "post_id": "598990693715320388",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/artificial-analysis-updates-benchmark.html",
+      "score": 85,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-db42942592aac63c8f3b"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Updates Benchmark Methodologies and Adds Recent Model Evaluations",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
@@ -13512,6 +13609,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "Artificial Analysis Changelog"
+      }
+    },
+    "openai-gpt-6-cyber": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-gpt-6-cyber.jpg",
+      "last_updated": "2026-11-06T06:33:38Z",
+      "post_id": "2862470628913881907",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-introduces-gpt-6-cyber-for.html",
+      "score": 95,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/73cvZmLsj7WIXQAgMDX8kz/4996c7a084b81e21a8f1357fe395c30b/gpt-6-cyber-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/introducing-gpt-6-cyber"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces GPT-6 Cyber for Advanced Automated Security Research",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
       }
     },
     "openai-gpt-6-intelligent-ui": {

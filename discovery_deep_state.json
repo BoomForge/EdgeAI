@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-06T07:11:44Z",
+    "at": "2026-11-06T15:17:34Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 2,
+    "prefiltered": 11,
+    "queued": 3,
     "sources_ok": 15,
-    "too_old": 3,
+    "too_old": 5,
     "warnings": 0
   },
-  "runs": 173,
+  "runs": 174,
   "seen": {
     "009b2e4d3edeb64c5098744c": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -1435,6 +1435,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/diagramly-2"
     },
+    "2d695732e4a595816c9f85ab": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/axel-3"
+    },
     "2d794a3707c457579b8f2c85": {
       "first_seen": "2026-10-23T10:24:14Z",
       "search_score": 0,
@@ -1619,6 +1624,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/zcad-ai"
     },
+    "32da18236359cdad3ae873dc": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/meshia"
+    },
     "3360920a5dc85c27087b9112": {
       "first_seen": "2026-10-21T11:41:37Z",
       "status": "too_old",
@@ -1796,6 +1806,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/calenteri"
     },
+    "383cd7146e894ed6d335895f": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/postmypace"
+    },
     "383db0675a7385f76bd3e59c": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -1964,6 +1980,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/playad"
     },
+    "3e13b4ed65e692177c15afef": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/supplyzpro-the-conversational-erp"
+    },
     "3e14fe748856c48f68ca88f5": {
       "first_seen": "2026-10-14T18:00:57Z",
       "search_score": 0,
@@ -2082,6 +2103,12 @@
       "first_seen": "2026-10-08T16:25:55Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/isle-notch"
+    },
+    "41255b61e1f9956d40ac867f": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/openroster"
     },
     "4131b6c07892f0629e8543a9": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -2208,6 +2235,12 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/globestudio"
+    },
+    "4736954850b46e4f99e708f5": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/kodivo"
     },
     "4739cfb54ab725fc7a23d516": {
       "first_seen": "2026-10-16T21:47:28Z",
@@ -3430,6 +3463,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/teclo"
     },
+    "6ba64f4bb7ff5cf6a3876eb7": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/plainmail"
+    },
     "6bb0aafb3602587af83dba94": {
       "first_seen": "2026-11-04T02:39:02Z",
       "status": "queued",
@@ -3670,6 +3709,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/salience"
+    },
+    "74c5d395e24e21459693e3a5": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/cursor-craft"
     },
     "74d0d69a7d0c67c3071ea5c1": {
       "first_seen": "2026-11-06T00:11:00Z",
@@ -4016,6 +4061,12 @@
       "first_seen": "2026-10-29T23:29:40Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/flatbread"
+    },
+    "7dec6c4755d03ec98c7c7795": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/vakilat"
     },
     "7e2bd70a99cf3d9441f7abf9": {
       "first_seen": "2026-10-10T11:25:14Z",
@@ -5360,6 +5411,12 @@
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-1e6c65588e43ac9e658e"
     },
+    "a841acebf3dd13cf6ba6f961": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/moatly-2"
+    },
     "a8426dcdf9a2dd0dc3f668f9": {
       "first_seen": "2026-10-09T19:51:23Z",
       "status": "queued",
@@ -5545,6 +5602,12 @@
       "status": "queued",
       "url": "https://elevenlabs.io/blog/category/customer-stories"
     },
+    "ae62e35ad53213f68cc17ece": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/pwned-coffee"
+    },
     "ae7b31dc246e27601c985358": {
       "first_seen": "2026-10-19T00:11:45Z",
       "status": "queued",
@@ -5683,6 +5746,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/gretabyquestera"
     },
+    "b2ab31cd0bc5e7d4b5cbf565": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/rankfender"
+    },
     "b2d3f46531c091e023f06bd0": {
       "first_seen": "2026-10-22T07:30:05Z",
       "status": "queued",
@@ -5799,6 +5867,12 @@
       "first_seen": "2026-11-01T18:29:34Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/"
+    },
+    "b739ab5f1085c9125a2077a5": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/macdupl-run-every-acc-in-its-own-app"
     },
     "b76d609ea42e4e7f1852f066": {
       "first_seen": "2026-10-20T10:21:00Z",
@@ -6094,6 +6168,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/busabase"
     },
+    "c053bb346e1775139295732d": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/tobira-ai"
+    },
     "c06c3bb88911c2b1b93c4061": {
       "first_seen": "2026-10-16T14:48:16Z",
       "status": "queued",
@@ -6338,6 +6417,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/gologin"
     },
+    "c950dc177f5da82b2fb934d3": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/crystl-multitasking-terminal"
+    },
     "c95ddbc579654aa65129e4e7": {
       "first_seen": "2026-10-21T20:18:30Z",
       "status": "queued",
@@ -6454,6 +6538,12 @@
       "first_seen": "2026-10-22T21:35:20Z",
       "status": "queued",
       "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "ce4773ccd76de14d1301f79b": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/pauta"
     },
     "cedba4053a6c1e5a270aedde": {
       "first_seen": "2026-10-07T09:23:03Z",
@@ -7206,6 +7296,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/gemini-4-argon"
     },
+    "e61ff85816176ba8f05f13c7": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/wonder-dev-view"
+    },
     "e670f629a3bc9b889156e837": {
       "first_seen": "2026-10-18T10:57:54Z",
       "status": "too_old",
@@ -7835,6 +7930,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2117848456404545779"
     },
+    "fa259b2a432e7e0252d555e1": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/royak"
+    },
     "fa3c1fe4e6a36de5ad2f2484": {
       "first_seen": "2026-11-03T01:51:09Z",
       "status": "queued",
@@ -7929,6 +8029,12 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://microsoft.ai/models/mai-voice-2-1/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "ff8dc2e52af16145a8921799": {
+      "first_seen": "2026-11-06T15:17:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/datastripes"
     },
     "ffac842e9f5df66048d20e96": {
       "first_seen": "2026-10-16T18:46:59Z",

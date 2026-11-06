@@ -3082,6 +3082,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "c950dc177f5da82b2fb934d3",
+      "discovered_at": "2026-11-06T15:17:29Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-05T18:44:33-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "multitasking terminal for AI coding agents, built for macOS Discussion | Link",
+      "title": "crystl",
+      "url": "https://www.producthunt.com/products/crystl-multitasking-terminal"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "b2ab31cd0bc5e7d4b5cbf565",
+      "discovered_at": "2026-11-06T15:17:29Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-05T06:05:15-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "The SEO/GEO operating system, built for people and AI agents Discussion | Link",
+      "title": "Rankfender v3.0",
+      "url": "https://www.producthunt.com/products/rankfender"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "111971c9cfb19b8bae1731d8",
       "discovered_at": "2026-11-05T11:39:14Z",
       "kind": "signal",
@@ -3390,6 +3418,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "2d695732e4a595816c9f85ab",
+      "discovered_at": "2026-11-06T15:17:29Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-03T14:39:14-08:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Agent orchestration in the terminal, designed for Rex Discussion | Link",
+      "title": "axel.md",
+      "url": "https://www.producthunt.com/products/axel-3"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "6a35e186e536d3f3b11fa855",
       "discovered_at": "2026-11-05T11:39:14Z",
       "kind": "signal",
@@ -3460,6 +3502,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-06T07:11:44Z",
+  "updated_at": "2026-11-06T15:17:34Z",
   "version": 2
 }

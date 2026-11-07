@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-07T07:03:47Z",
+    "at": "2026-11-07T13:56:51Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 3,
-    "queued": 1,
+    "queued": 2,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 11,
     "warnings": 0
   },
-  "runs": 177,
+  "runs": 178,
   "seen": {
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",
@@ -1128,6 +1128,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/sonari"
     },
+    "2093c4b9fa325c17a595b64b": {
+      "first_seen": "2026-11-07T13:56:47Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/standflow"
+    },
     "209851e1d08aff94d5326a2f": {
       "first_seen": "2026-10-20T19:29:47Z",
       "status": "queued",
@@ -1175,6 +1180,11 @@
       "first_seen": "2026-10-29T13:31:50Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/outreachguy"
+    },
+    "22e3c28af786f3201cedfbfd": {
+      "first_seen": "2026-11-07T13:56:47Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/deal-pilot"
     },
     "23178e6a594364e04f6a76d3": {
       "first_seen": "2026-10-15T22:14:55Z",
@@ -1242,6 +1252,11 @@
       "first_seen": "2026-10-11T09:11:21Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/mepersona"
+    },
+    "2532c0e94a4d8733fb347dbd": {
+      "first_seen": "2026-11-07T13:56:47Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/clarifierai-rewrite-text-2"
     },
     "25699d15b38305675ec53cee": {
       "first_seen": "2026-10-08T16:25:55Z",
@@ -2414,6 +2429,12 @@
       "status": "queued",
       "url": "https://openai.com/index/grid-protectors-program/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "49e9b0e5bd03672c6d70de30": {
+      "first_seen": "2026-11-07T13:56:47Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/the-writer-s-quarter"
+    },
     "49ed414931058e2ec90de080": {
       "first_seen": "2026-10-07T21:57:48Z",
       "status": "too_old",
@@ -3113,6 +3134,11 @@
       "status": "queued",
       "url": "https://sakana.ai/percept-lens/"
     },
+    "5efc9f9fc0506d14c5d4c34c": {
+      "first_seen": "2026-11-07T13:56:47Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/fleeep"
+    },
     "5f19b672939574e1454c4994": {
       "first_seen": "2026-10-06T14:08:54Z",
       "status": "queued",
@@ -3123,6 +3149,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/opusclip"
+    },
+    "5f893e4c2783d9d33b522297": {
+      "first_seen": "2026-11-07T13:56:47Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/livereview"
     },
     "5fa35c3ea57cc876c21df92f": {
       "first_seen": "2026-10-10T16:21:13Z",
@@ -3171,6 +3202,12 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "6046f59ed280d04ab2c3b03d": {
+      "first_seen": "2026-11-07T13:56:47Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/sequence-tool"
     },
     "6047c33594457ef3e3a675a4": {
       "first_seen": "2026-10-21T11:41:37Z",
@@ -3222,6 +3259,11 @@
       "first_seen": "2026-10-07T21:57:48Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/cinch-reminders-tasks"
+    },
+    "61776baf44109c4f86a2d9ff": {
+      "first_seen": "2026-11-07T13:56:47Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/duly-life-organizer"
     },
     "618500f23bf844c1615e1ae3": {
       "first_seen": "2026-10-17T04:18:29Z",
@@ -3720,6 +3762,12 @@
       "status": "queued",
       "url": "https://bfl.ai/models/flux-3-video"
     },
+    "722ef3bb8d0cdb826e2a12de": {
+      "first_seen": "2026-11-07T13:56:47Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/capnot"
+    },
     "72369d10b115056982748797": {
       "first_seen": "2026-10-27T06:46:44Z",
       "status": "queued",
@@ -3867,6 +3915,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/semwright"
     },
+    "76a85a6758f83530ca7d893d": {
+      "first_seen": "2026-11-07T13:56:47Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/dino-kids"
+    },
     "76a940fe4a3b3c0bc456adf0": {
       "first_seen": "2026-10-22T07:30:04Z",
       "status": "queued",
@@ -3982,6 +4035,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/vinsage"
+    },
+    "78d845e61e870bb013fc0e2c": {
+      "first_seen": "2026-11-07T13:56:47Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/quest-d8e9c4e8-cc0d-4b07-baee-e3dbf712c279"
     },
     "78e7e1f106f1a5291f072447": {
       "first_seen": "2026-10-14T07:31:56Z",
@@ -4769,6 +4827,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Nov/2/llm/"
     },
+    "8fc51d713b2fcbf6eff73f40": {
+      "first_seen": "2026-11-07T13:56:47Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/seam-2"
+    },
     "8fec8cb58680ebd297ae6766": {
       "first_seen": "2026-10-28T15:20:01Z",
       "status": "too_old",
@@ -5051,6 +5114,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/grablo-spot"
+    },
+    "987a491f9106be92987d0169": {
+      "first_seen": "2026-11-07T13:56:47Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/superlogical"
     },
     "9883533b07155eec428ab626": {
       "first_seen": "2026-10-16T18:46:44Z",
@@ -5728,6 +5796,11 @@
       "status": "queued",
       "url": "https://tech.yahoo.com/transportation/articles/almost-no-one-uses-ai-215601578.html?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "ae18504f0f1bdaed636bd076": {
+      "first_seen": "2026-11-07T13:56:47Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/instagram"
+    },
     "ae5cd00a09a429d2c09d4ed3": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -6361,6 +6434,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/stage-9"
+    },
+    "c21d1253e672e3d16a427391": {
+      "first_seen": "2026-11-07T13:56:47Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/pacertrip"
     },
     "c2499710b8c1841e3c65677b": {
       "first_seen": "2026-10-14T07:31:56Z",
@@ -7624,6 +7702,11 @@
       "first_seen": "2026-10-29T13:31:50Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/gemini-4-carbon"
+    },
+    "ebfdb4247c3f515295b4a597": {
+      "first_seen": "2026-11-07T13:56:47Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/kayet"
     },
     "ec01d0cbd7fba1364c429a3b": {
       "first_seen": "2026-10-05T09:33:48Z",

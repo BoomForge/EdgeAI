@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-07T01:12:07Z",
+    "at": "2026-11-07T07:18:50Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 3,
+    "queued": 4,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 178,
+  "runs": 179,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -4981,6 +4981,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11840"
     },
+    "7c7c9a66192dd2459a2353be": {
+      "first_seen": "2026-11-07T07:18:21Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12183"
+    },
     "7cb522fa07995fb5ac193fa2": {
       "first_seen": "2026-10-27T12:39:57Z",
       "status": "queued",
@@ -6183,6 +6188,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00093"
+    },
+    "996d2d025300eca7182a1e42": {
+      "first_seen": "2026-11-07T07:18:37Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.110.0-dev.1"
     },
     "9985e460a026dfaedcef42ca": {
       "first_seen": "2026-11-06T08:29:14Z",
@@ -7615,6 +7625,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02224"
+    },
+    "be9ad6039ce240215d1139a9": {
+      "first_seen": "2026-11-07T07:18:21Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12182"
     },
     "beb274ef00cc9345c9b0dbac": {
       "first_seen": "2026-10-06T19:03:35Z",
@@ -9316,6 +9331,11 @@
       "first_seen": "2026-10-06T19:03:32Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
+    },
+    "e6e670af27177e898de6ee16": {
+      "first_seen": "2026-11-07T07:18:47Z",
+      "status": "queued",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.37"
     },
     "e6f05dec0997e5fdc23ee02f": {
       "first_seen": "2026-10-29T22:00:22Z",

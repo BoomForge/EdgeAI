@@ -1850,20 +1850,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "d1879513a33727bd29220105",
-      "discovered_at": "2026-10-24T14:47:04Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-24T03:59:57+00:00",
-      "search_score": 7,
-      "source_name": "Simon Willison Everything",
-      "summary": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to four human players can join (any spare slots use AI) Claude Opus 4.5 added a new map called \"Compass Rose\" and modified the WebSockets multiplayer network code to support up to four players for that map, joining via share links or QR codes. The new teams use robots themed in purple and green, joining the existing blue and red designs. You can preview those colors in the updated model browser . Here's a replay link to watch a four way AI battle with the \"Goliath Armada\" mutator turned on, where each side starts with four giant Goliath mech units. Tags: game-design , projects , claude",
-      "title": "battledrones v14: Compass Rose, a four player map",
-      "url": "https://simonwillison.net/2026/Oct/24/battledrones/"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "8333c89d9d7c203a0369214c",
       "discovered_at": "2026-10-27T22:30:10Z",
       "kind": "independent",
@@ -2816,6 +2802,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "17c36ca30ca95309b2a895c3",
+      "discovered_at": "2026-11-07T07:03:43Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-05T09:51:26-08:00",
+      "search_score": 7,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Free on device dictation for any Mac app and AI agent Discussion | Link",
+      "title": "Kivo",
+      "url": "https://www.producthunt.com/products/kivo-4"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "1056649914dce7d500de1004",
       "discovered_at": "2026-11-03T09:27:30Z",
       "kind": "signal",
@@ -2911,20 +2911,6 @@
       "summary": "Hold \u2325Space, flick, and an AI agent does the dev chore Discussion | Link",
       "title": "Zest",
       "url": "https://www.producthunt.com/products/zest-6"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "be773f113ad6fd84eed160c0",
-      "discovered_at": "2026-10-25T10:01:09Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-23T19:40:27-07:00",
-      "search_score": 7,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "One local AI server for all your Windows apps Discussion | Link",
-      "title": "Llama Windows",
-      "url": "https://www.producthunt.com/products/llama-windows"
     },
     {
       "bootstrap": false,
@@ -3502,6 +3488,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-07T00:52:32Z",
+  "updated_at": "2026-11-07T07:03:47Z",
   "version": 2
 }

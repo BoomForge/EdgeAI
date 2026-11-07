@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-07T00:52:32Z",
+    "at": "2026-11-07T07:03:47Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 4,
-    "queued": 9,
+    "prefiltered": 3,
+    "queued": 1,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 176,
+  "runs": 177,
   "seen": {
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",
@@ -780,6 +780,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/extrovert"
     },
+    "17c36ca30ca95309b2a895c3": {
+      "first_seen": "2026-11-07T07:03:43Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/kivo-4"
+    },
     "17e8a03b253a57bc28ac2220": {
       "first_seen": "2026-10-26T11:34:46Z",
       "status": "queued",
@@ -1216,6 +1221,12 @@
       "first_seen": "2026-10-28T20:28:26Z",
       "status": "queued",
       "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "24b85554b69f505b9ddfa50a": {
+      "first_seen": "2026-11-07T07:03:43Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/wisp-9"
     },
     "24da2b7e99224f26ab55331f": {
       "first_seen": "2026-10-09T19:51:27Z",
@@ -6070,6 +6081,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/tori-japanese-listening-srs"
     },
+    "b931f57d34c6e94f1361e7b1": {
+      "first_seen": "2026-11-07T07:03:43Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/turnstone"
+    },
     "b94367ab759e3322d52af6d3": {
       "first_seen": "2026-11-05T11:39:14Z",
       "status": "queued",
@@ -6409,6 +6425,12 @@
       "status": "queued",
       "url": "https://www.anthropic.com/research/components-of-agent-memory?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "c46bbbf0a082f7a26c70f0ae": {
+      "first_seen": "2026-11-07T07:03:43Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/audiocentral"
+    },
     "c46e83ffe9fcac6056ab89b2": {
       "first_seen": "2026-10-10T11:25:13Z",
       "status": "too_old",
@@ -6615,6 +6637,11 @@
       "first_seen": "2026-10-18T05:50:47Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/"
+    },
+    "cc730ee1c2a7fd07b6a4e86c": {
+      "first_seen": "2026-11-07T07:03:43Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/chalk-546d9cf8-cdc3-4b80-9b88-f441167c8f6e"
     },
     "cc777f0c4e05f76558d853f4": {
       "first_seen": "2026-11-07T00:52:28Z",
@@ -7771,6 +7798,12 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/maccam"
+    },
+    "f0f52524eb719187bf1ccece": {
+      "first_seen": "2026-11-07T07:03:43Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/buildferry"
     },
     "f14bb5812968562be4736ddd": {
       "first_seen": "2026-10-04T20:10:47Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-07T13:56:51Z",
+    "at": "2026-11-07T18:43:21Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 2,
+    "prefiltered": 1,
+    "queued": 1,
     "sources_ok": 15,
-    "too_old": 11,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 178,
+  "runs": 179,
   "seen": {
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",
@@ -1351,6 +1351,12 @@
       "status": "queued",
       "url": "https://runway.com/research/rna-sessions"
     },
+    "28949f9df8748f824efa1c9d": {
+      "first_seen": "2026-11-07T18:43:16Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/switchy"
+    },
     "28a9ca860108bf2d15699545": {
       "first_seen": "2026-10-09T14:44:12Z",
       "status": "queued",
@@ -1842,6 +1848,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://runway.com/news/research"
+    },
+    "36e55298252d2c9d74a26883": {
+      "first_seen": "2026-11-07T18:43:16Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/google-omni-1-2-flash"
     },
     "37316f7252bd003ca18047e0": {
       "first_seen": "2026-11-05T11:39:13Z",

@@ -2718,6 +2718,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "e1833b6ba9cd6bab261dadb1",
+      "discovered_at": "2026-11-07T01:11:44Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-06T23:24:23Z",
+      "search_score": 11,
+      "source_name": "llama.cpp Releases",
+      "summary": "model: add Kimi-K3.1-Pro text model ( #31779 ) model: add Kimi-K3.1-Pro text model K3 with the full-attention MLA layers replaced by DSA: on this checkpoint 24 of the 93 layers carry a lightning indexer (32 heads x 128, top_k 2048, no rope). The KDA (linear-attention) layers and the rest of the K3 skeleton - cross-layer residuals, latent MoE, situ, MLA output gate, full-rank KDA gate - are unchanged, so this reuses the K3 graph and converter and adds the indexer. Indexer: the selection is an additive mask over the whole cache, not a gather of the top-k rows, so it reuses the existing sparse flash attention path; off that path the mask stays correct but still costs a kq over the cache the indexer key LayerNorm takes its eps from the model's rms_norm_eps, because dsa_config declares no eps of its own Graph and cache: new arch with four indexer tensors per DSA layer, and a hybrid memory that keeps a K-only MLA cache for those layers, recurrent state for the KDA layers, and the indexer key cache the graph node budget shares the K3 entry Conversion: KimiK31Model(KimiK3Model), picked by KimiK31ForConditionalGeneration dsa_config becomes attention.indexer.{head_count,key_length,top_k,types} plus the indexer LayerNorm eps; the layer list is 1-indexed like linear_attn_config's, and the converter asserts that it covers exactly the full-attention layers the routed experts stay MXFP4 and are repacked as in K3, not dequantized the vision tower and mm_projector are skipped: text only for now the arch key follows the checkpoint's own model_type (\"kimi_k31\") and the loader registers KimiK31ForConditionalGeneration; the release name carries a -Pro suffix that nothing in the config or the tensor names uses Quantisation: the indexer's q_b, k and proj are kept out of the quant overrides, since the top-k selection is sensitive to their precision. Verified on an 8-layer slice against the HF checkpoint: 38 tensors checked exactly, the indexer metadata against the config, and the selection against full attention - identical PPL at top_k beyond the context length, divergent once top_k is forced below it. Arch test fixture and the full arch suite pass. converter: avoid clutter in the k3 base narrow comment to match model update metal fusion expectations restore sync with PR 31733 refactoring Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64707271 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12180",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12180"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "e8c798b49e967c6df9450800",
       "discovered_at": "2026-10-28T01:42:05Z",
       "kind": "local-ai",
@@ -3485,23 +3499,9 @@
       "summary": "opencl:  support repeat for f16, i32, i16, bf16 ( #31782 ) opencl: add f16 repeat Assisted-by: Codex opencl: support repeat for i32, i16, bf16 Assisted-by: Codex opencl: update ops Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64540216 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12173",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12173"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "516fb7bbef5404ab55884d20",
-      "discovered_at": "2026-11-06T16:15:30Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-06T14:23:02Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "vulkan: detect ReBAR support, avoid BAR allocations if unavailable ( #31658 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64522096 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12171",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12171"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-06T21:37:40Z",
+  "updated_at": "2026-11-07T01:12:07Z",
   "version": 2
 }

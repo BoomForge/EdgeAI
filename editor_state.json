@@ -77,12 +77,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-07T06:24:03Z",
-    "eligible": 73,
-    "evaluated": 2,
+    "at": "2026-11-07T13:25:06Z",
+    "eligible": 67,
+    "evaluated": 5,
     "mode": "live",
     "new_posts": 1,
-    "publish_actions": 2,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -118,6 +118,11 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/sentinelone"
+    },
+    "0063dd3333becdad1ac068c6": {
+      "at": "2026-11-07T13:24:58Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12100"
     },
     "00795a5db0aa8849a50cc2d5": {
       "at": "2026-10-08T00:09:43Z",
@@ -1431,6 +1436,11 @@
       "story_key": "simon-willison-uv-lock-python-315-til",
       "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/"
     },
+    "215d7b2106130be3c7015db6": {
+      "at": "2026-11-07T13:24:58Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12101"
+    },
     "2167384f51e2a4466793a69c": {
       "at": "2026-10-04T00:07:42Z",
       "status": "expired",
@@ -1806,6 +1816,14 @@
       "at": "2026-10-08T13:20:55Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11405"
+    },
+    "2d1d326185a62641bed05bf7": {
+      "at": "2026-11-07T13:25:06Z",
+      "bootstrap": false,
+      "score": 40,
+      "status": "ignored",
+      "story_key": "openai-flipsnack-chatgpt-ads-customer-case-study",
+      "url": "https://openai.com/ads/customers/flipsnack"
     },
     "2d709db6f0def6fba375931e": {
       "at": "2026-10-05T07:01:46Z",
@@ -3685,6 +3703,14 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/qwen-mt/"
+    },
+    "616c68177b707eae60eb2b7e": {
+      "at": "2026-11-07T13:25:04Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "openai-australian-universities-partnership",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates"
     },
     "619069d4546663731f73800d": {
       "at": "2026-10-07T06:34:08Z",
@@ -5991,6 +6017,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00125"
     },
+    "9dccbf755eee5d2d6d841d2c": {
+      "at": "2026-11-07T13:24:58Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0"
+    },
     "9df3690531ba025df30aee96": {
       "at": "2026-11-06T14:39:04Z",
       "bootstrap": false,
@@ -6176,6 +6207,20 @@
         "source": "LocalAI Releases"
       },
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.12.0"
+    },
+    "a0a44ed09dc9a1089b4e099f": {
+      "at": "2026-11-07T13:25:01Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "openai-hacktron-security-partnership",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/partnering-with-hacktron"
     },
     "a0fc53049f812f1dd1c7f6cb": {
       "at": "2026-10-06T02:32:14Z",
@@ -6484,6 +6529,14 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/third-moment-research"
+    },
+    "a8e215d1c3fca63aee0ffd81": {
+      "at": "2026-11-07T13:25:02Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "franklin-templeton-openai-investment-research",
+      "url": "https://openai.com/index/franklin-templeton"
     },
     "a919ba35a5e056c2278ba024": {
       "at": "2026-10-10T01:19:14Z",
@@ -7029,6 +7082,14 @@
       "status": "ignored",
       "story_key": "friday-work-product-hunt",
       "url": "https://www.producthunt.com/products/friday-work"
+    },
+    "bbd492caba72ca544b8bac32": {
+      "at": "2026-11-07T13:25:05Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "cult-fit-codex-openai-case-study",
+      "url": "https://openai.com/index/cultfit-builds-with-codex"
     },
     "bc04e68ea0738a77a4404dd8": {
       "at": "2026-10-11T18:49:43Z",
@@ -9445,6 +9506,11 @@
       },
       "url": "https://qwenlm.github.io/blog/qwen-image-edit/"
     },
+    "f9b2eb9a019f51aebb2c4572": {
+      "at": "2026-11-07T13:24:58Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2117848456404545779"
+    },
     "f9fdd453543028293b64ef43": {
       "at": "2026-10-31T19:27:29Z",
       "bootstrap": false,
@@ -9467,6 +9533,11 @@
       "at": "2026-10-30T01:15:50Z",
       "status": "expired",
       "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "fbaa86a829ad59fd10c58d01": {
+      "at": "2026-11-07T13:24:58Z",
+      "status": "expired",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
     },
     "fc152ff68513727f347182c9": {
       "at": "2026-10-03T04:52:19Z",
@@ -13996,6 +14067,27 @@
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-hacktron-security-partnership": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-hacktron-security-partnership.jpg",
+      "last_updated": "2026-11-07T13:25:01Z",
+      "post_id": "6234078757306171658",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-partners-with-hacktron-to.html",
+      "score": 82,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/6567aD1rFerr0QBajJ0uig/50339d375097da8d96ce12e925130276/partnering-with-hacktron-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/partnering-with-hacktron"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Partners with Hacktron to Strengthen System Vulnerability Testing",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
         "source": "OpenAI News"
       }
     },

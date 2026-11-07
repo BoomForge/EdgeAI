@@ -2942,6 +2942,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "15811ccb0e51d72e4df42f7a",
+      "discovered_at": "2026-11-07T18:51:42Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-07T16:20:58Z",
+      "search_score": 9,
+      "source_name": "llama.cpp Releases",
+      "summary": "moe-cache : compute part of the misses on the CPU --moe-cache-cpu-share F computes a share F of the MoE cache misses on the CPU from the host experts instead of uploading them. The graph builds the expert FFN twice: on the device from the cache slots, where the misses left to the CPU read zero slots, and on the CPU from the host experts, where the experts computed on the device have id -1. The two results are added before the down bias. ggml-cpu: MUL_MAT_ID skips negative ids and writes zero rows sched: the copy callback is called for all the inputs of a split, and before the host sync when there are no events the slot lookup callback reads the inputs of the CPU part together with the selected experts, so the CPU part does not wait for the device, and its result is copied back asynchronously each token uses distinct zero slots, mul_mat_id does not support an expert selected twice by a token LLAMA_MOE_CACHE_TRACE writes the selected experts of each lookup, for a simulator of the cache scripts : add moe-cache-tune.py to pick the MoE cache arguments The script wraps a llama-server command: it starts the server at two cache sizes and three CPU shares, fits the upload and CPU speeds of the machine, and replays the routing of the runs through a copy of the cache logic to predict other sizes and shares. It prints the recommended --moe-cache-mib and --moe-cache-cpu-share. docs/moe-cache.md describes the MoE cache arguments and the script. add am17an as codeowner for MoE cache moe-cache : upload all the misses until the cache is full With a high --moe-cache-cpu-share, few misses are uploaded, so an empty cache fills slowly and more misses than needed go to the CPU. The CPU share now starts once all the slots of a cache group hold an expert. moe-cache-tune.py replays the same rule. add backend sync for async transfer queue moe-cache : let the scheduler copy the results of the CPU part Fix MSVC compilation remove sync change llama-graph : extract the CPU share condition into can_cpu_share llama-graph : make llm_graph_params::moe_cache const The graph construction no longer updates the MoE cache directly: the CPU parts of the layers are accumulated in the graph result and applied to the cache in llama_context::process_ubatch, after the graph inputs are set and before the graph is computed. Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (Mac Studio, M5 Ultra, 256GB) scripts : replay the ClassLRU policy in moe-cache-tune.py moe-cache : pick CPU misses by CRF instead of random ( #31853 ) moe-cache : remove the backend logic of the CPU part from the graph The CPU part reads the host experts, so the scheduler places it on the CPU without set_tensor_backend. The cache gives no CPU map for batches that a device would offload. Graphs with a CPU part look up their own slot map, so the graph does not register the part with the cache. ggml-backend : the inputs of the next split that are already computed are copied to host memory before the current split runs, so a CPU split does not wait for the device split before it. This replaces the stash of the cache, and the copy callback is again called for host weights only. llama-graph : return the MoE cache slots and CPU ids in a struct The scheduler prefetch no longer checks that the next split runs on another backend: the inputs of a split are never on its own backend, so the input loop already skips that case. Co-authored-by: Gaurav Garg gaugarg@nvidia.com Co-authored-by: Georgi Gerganov ggerganov@gmail.com Co-authored-by: Alexey Kopytko alexey@kopytko.com",
+      "title": "b12191: llama_moe_cache: run missed experts on CPU, add tuning script (#30966)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12191"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "291f6c31a7cabb41f26f7934",
       "discovered_at": "2026-11-06T21:37:09Z",
       "kind": "local-ai",
@@ -3023,20 +3037,6 @@
       "summary": "tests : fix multi-seq split replay and partial-state cases for trained models ( #31216 ) tests : fix multi-seq split replay against trained models The rollback snapshot is captured by the graph that decoded the rolled-back tail, while the reference context decodes the same prefix with different batch shapes. The two states differ in the last bits and trained models amplify the difference with every replayed token. Compare only the first replayed token of each seq, then restore the rollback state into the reference context before the seq-1-only tail. Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) tests : require bit-exact seq-1 isolation in split replay The seq state save is not always bit-lossless - SWA-masked cells are not saved - so reload the restored state back into the rollback context. That way both contexts enter the seq-1-only tail with byte-identical memory, including the cell layout, and the tail logits must match bit-exact. Also assert that the restored state round-trips bit-identical. Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) tests : drop the n_swa partial-state check from ps The check keys off llama_model_n_swa(), which returns 0 for dsv4 even though its raw KV cache has a 128-cell sliding window. The partial state grows with the tokens there by design, so the flatness check is wrong. Keep the partial <= full invariant. Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60276548 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11922",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11922"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "664553e7007c199f396852d8",
-      "discovered_at": "2026-10-24T16:57:11Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-24T15:10:27Z",
-      "search_score": 9,
-      "source_name": "llama.cpp Releases",
-      "summary": "tests : add speculative rejection draft sampling test ( #30213 ) tests : add speculative rejection draft sampling test This commit adds a test for speculative rejection sampling test that excercises the speculative rejection sampling mechanism in common/speculative.cpp. The motivation for this is have a test that verifies that the speculative draft models emitts tokens that  match the target models distribution. So when rejection sampling occurs it should still produce the same probability distribution as if we directly sampled from the target model. Running the test: $ ctest --test-dir build -R \" ^test-speculative-rejection-sampling$ \" \\ --n_trials 5000 -V This will generate two models, one target and one draft model. For subsequent runs use the \"fixture exclude any\" option to avoid recreating the models: $ ctest --test-dir build-cpu-debug -R \\ \"^test-speculative-rejection-sampling$\" \\ -FA \"^speculative-models$\" --n_trails 5000 -V remove draft model Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59423747 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11856",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11856"
     },
     {
       "bootstrap": false,
@@ -3502,6 +3502,6 @@
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-07T14:10:01Z",
+  "updated_at": "2026-11-07T18:52:09Z",
   "version": 2
 }

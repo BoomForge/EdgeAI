@@ -2634,20 +2634,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "b961263fdf3fde56106f3df8",
-      "discovered_at": "2026-10-24T19:19:11Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-24T19:17:22Z",
-      "search_score": 14,
-      "source_name": "llama.cpp Releases",
-      "summary": "minimax-m3 : forward quant scales to the graph (fixes #31063 ) ( #31097 ) The generic scale pass in llama-model.cpp loads the per-expert NVFP4 scale2 tensors (ffn_{up,gate,down}_exps_s) and the per-tensor MXFP8 scales for the dense FFN and the shared expert, but minimax-m3.cpp never forwarded any of them to the graph. build_moe_ffn() defaults these to nullptr, so build_lora_mm_id() skipped its w_s branch entirely and the routed-expert weights came out global_scale times too large, swamping the residual (reported G ~= 15123 for M3.1 Flash) and producing token soup. Forward all scale tensors at the three call sites, matching the pattern used by flint and the other NVFP4-capable MoE models. Co-authored-by: origin-labs-ai origin-labs-ai@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59462199 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11861",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11861"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "c24e75dbd6cdc0177696bc51",
       "discovered_at": "2026-11-02T20:30:37Z",
       "kind": "local-ai",
@@ -3250,6 +3236,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "d7b816006b5bc16a0dfef5cf",
+      "discovered_at": "2026-11-07T22:32:56Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-07T21:31:27Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "mtmd: support MageVL-Cowork model ( #31819 ) mtmd: support MageVL-Cowork model mtmd: keep magevl rope_freqs at model level and check its shape The rope factors are shared by every layer, so they live in clip_model instead of a pointer copied into each clip_layer. The loader now checks that v.rope_freqs is F32 with d_head elements and that d_head splits into the 4:6:6 pairs the graph expects. Co-authored-by: Pascal admin@serveurperso.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64922655 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12192",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12192"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "0b0e7840be3e83c66ec321a0",
       "discovered_at": "2026-11-06T16:15:30Z",
       "kind": "local-ai",
@@ -3502,6 +3502,6 @@
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-07T18:52:09Z",
+  "updated_at": "2026-11-07T22:33:21Z",
   "version": 2
 }

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-06T20:59:34Z",
+    "at": "2026-11-07T00:52:32Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 4,
-    "queued": 12,
+    "queued": 9,
     "sources_ok": 15,
-    "too_old": 5,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 175,
+  "runs": 176,
   "seen": {
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",
@@ -1045,6 +1045,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/cue-by-manus"
     },
+    "1e66ea4a20748205023e9b2d": {
+      "first_seen": "2026-11-07T00:52:31Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2118830173004902641"
+    },
     "1eb9694d7827865d4e95ff08": {
       "first_seen": "2026-10-10T20:14:07Z",
       "status": "queued",
@@ -1133,6 +1138,12 @@
       "first_seen": "2026-11-05T19:03:52Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/backlane-2"
+    },
+    "211b9a958972347a159f5846": {
+      "first_seen": "2026-11-07T00:52:28Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/mmory"
     },
     "211d4417958e3cbf833ac7f7": {
       "first_seen": "2026-10-16T10:03:10Z",
@@ -1700,6 +1711,11 @@
       "status": "queued",
       "url": "https://runway.com/news/company-news/introducing-runway-ads?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "34ffee2a68364326be2acab1": {
+      "first_seen": "2026-11-07T00:52:31Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2118840606504218775"
+    },
     "3519f9f5b46fb1b6e9b65251": {
       "first_seen": "2026-10-20T19:29:47Z",
       "status": "too_old",
@@ -2240,6 +2256,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2118479744979079669"
     },
+    "4624234e5492900d5c7977dd": {
+      "first_seen": "2026-11-07T00:52:28Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "464b242e08c88b0c2a1c797a": {
       "first_seen": "2026-10-21T11:41:37Z",
       "search_score": 1,
@@ -2641,6 +2662,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/akema"
+    },
+    "518bd4488f845065a30ec394": {
+      "first_seen": "2026-11-07T00:52:28Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-b8d5b32175f1b291afc5"
     },
     "51e9644687d4622bc1d41619": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -3621,6 +3647,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/maybloc"
     },
+    "6fc2c093a8b232ab098cf5d2": {
+      "first_seen": "2026-11-07T00:52:28Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/codiclens-local-ai-powerd-mac-launcher"
+    },
     "6fc54f3d18a92db59ad91946": {
       "first_seen": "2026-11-03T09:27:30Z",
       "status": "queued",
@@ -3692,6 +3724,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/pixrater"
+    },
+    "726765b819d9994866c5de3e": {
+      "first_seen": "2026-11-07T00:52:28Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/koltrix"
     },
     "7285d7b661f41f6ff0755320": {
       "first_seen": "2026-10-07T21:57:54Z",
@@ -6367,6 +6404,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/translucent-ai"
     },
+    "c41d94ae93ae479c7e9cd1cd": {
+      "first_seen": "2026-11-07T00:52:28Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "c46e83ffe9fcac6056ab89b2": {
       "first_seen": "2026-10-10T11:25:13Z",
       "status": "too_old",
@@ -6573,6 +6615,11 @@
       "first_seen": "2026-10-18T05:50:47Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/"
+    },
+    "cc777f0c4e05f76558d853f4": {
+      "first_seen": "2026-11-07T00:52:28Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/pressure"
     },
     "cc8eaf3858c34e1ebe4fb6d0": {
       "first_seen": "2026-11-01T13:14:08Z",
@@ -6804,6 +6851,11 @@
       "first_seen": "2026-10-06T00:46:21Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/"
+    },
+    "d46a988bab4ad48294b1ba5b": {
+      "first_seen": "2026-11-07T00:52:28Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/orgsync-2"
     },
     "d475dd0535cf07b7b7724188": {
       "first_seen": "2026-10-03T21:50:36Z",
@@ -7673,6 +7725,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/atticus"
     },
+    "efd89e2a9a93b103d34b1633": {
+      "first_seen": "2026-11-07T00:52:28Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/any-video-to-text"
+    },
     "f01e1d1f7f1967bc58c6859a": {
       "first_seen": "2026-10-23T10:24:14Z",
       "status": "queued",
@@ -8077,6 +8134,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/lleverage"
     },
+    "fb3fb9d61b6f4bfcac631e4f": {
+      "first_seen": "2026-11-07T00:52:31Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2118822925445050435"
+    },
     "fb59312dc3838390dade1008": {
       "first_seen": "2026-10-26T21:56:06Z",
       "status": "queued",
@@ -8097,6 +8159,12 @@
       "first_seen": "2026-10-15T14:58:02Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/chatway"
+    },
+    "fd5e8951848acab71951f134": {
+      "first_seen": "2026-11-07T00:52:28Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tracex"
     },
     "fdc555784f18363338e2980b": {
       "first_seen": "2026-10-14T01:51:45Z",
@@ -8160,6 +8228,12 @@
       "first_seen": "2026-11-01T13:14:08Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/embage"
+    },
+    "ffebf445336dc59be3a6e703": {
+      "first_seen": "2026-11-07T00:52:28Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/enhanced-for-todoist"
     }
   },
   "version": 2

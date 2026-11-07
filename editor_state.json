@@ -77,11 +77,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-06T14:39:11Z",
-    "eligible": 78,
-    "evaluated": 3,
+    "at": "2026-11-07T06:24:03Z",
+    "eligible": 73,
+    "evaluated": 2,
     "mode": "live",
-    "new_posts": 2,
+    "new_posts": 1,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -398,6 +398,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/ilse"
     },
+    "083497c77c319f0c4b6fea7a": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2117696344756252822"
+    },
     "086ef25257c10bd98a8e5547": {
       "at": "2026-10-25T12:32:23Z",
       "bootstrap": false,
@@ -655,6 +660,11 @@
       "at": "2026-11-06T00:09:40Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/scrawl-2"
+    },
+    "10974bd60c066098092638c8": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12097"
     },
     "109ed8473a0ee20eb059c6f2": {
       "at": "2026-10-28T23:38:18Z",
@@ -1408,6 +1418,11 @@
       "status": "expired",
       "url": "https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "2117bd7d075391acbf141225": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/backlane-2"
+    },
     "215d5e6ee0fa4f77b5ab55fe": {
       "at": "2026-11-02T02:26:12Z",
       "bootstrap": false,
@@ -1665,6 +1680,16 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2106138356937810069"
+    },
+    "290d6a832bd3f43d5a9888b3": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/cosyra"
+    },
+    "295354ff422b0d4db922748e": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://openai.com/index/introducing-images-2-6"
     },
     "297411d31fdaf1eb6d49d8ca": {
       "at": "2026-10-07T19:56:51Z",
@@ -3101,6 +3126,20 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11539"
     },
+    "518bd4488f845065a30ec394": {
+      "at": "2026-11-07T06:23:59Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "updated",
+      "story_key": "artificial-analysis-changelog-nov-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-b8d5b32175f1b291afc5"
+    },
     "51ddba2e3e4c402c871902fd": {
       "at": "2026-10-12T01:40:21Z",
       "bootstrap": false,
@@ -3108,6 +3147,11 @@
       "status": "ignored",
       "story_key": "llamacpp-b11555-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11555"
+    },
+    "5226e12e1f5077abad9f7ddc": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/hashference"
     },
     "52d2852bd491dd26fd15351b": {
       "at": "2026-10-25T06:58:10Z",
@@ -3569,6 +3613,20 @@
       "at": "2026-10-07T19:56:51Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11392"
+    },
+    "5f721228af3682c2417b4131": {
+      "at": "2026-11-07T06:24:03Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-biobasicsbench-wet-lab-science-ai-agents",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
     },
     "5fa5077c586be6aa58321c41": {
       "at": "2026-10-24T13:39:34Z",
@@ -4081,6 +4139,11 @@
       },
       "url": "https://sakana.ai/sail/"
     },
+    "6bb0aafb3602587af83dba94": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "6be58c975f8f03a7c33c0b06": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -4437,6 +4500,11 @@
       "status": "ignored",
       "story_key": "huggingface-transformers-v5-20-2-patch",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2"
+    },
+    "7653e03d457a4bdb1ac7bd75": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://newsletter.futurepedia.io/p/claude-can-now-build-places-you-can-walk-through-11-03-2026"
     },
     "76744d828500bda5b632e17e": {
       "at": "2026-10-24T17:01:31Z",
@@ -4825,6 +4893,11 @@
       },
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.0"
     },
+    "8265b69742e725bac3ffed26": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/"
+    },
     "826a5d8c45ab8646b5afc05b": {
       "at": "2026-11-01T01:30:27Z",
       "bootstrap": false,
@@ -5187,6 +5260,11 @@
       },
       "url": "https://openai.com/index/decisions-api"
     },
+    "8939ad723874e03bbef5c5ca": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "89c32091399dabfa1a90ef3e": {
       "at": "2026-10-13T11:42:22Z",
       "status": "expired",
@@ -5199,6 +5277,11 @@
       "status": "ignored",
       "story_key": "llamacpp-b11571-minor-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11571"
+    },
+    "8a2f9a05df6cb8f2bec88a56": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12072"
     },
     "8a3406e6a76a97fc77fa230c": {
       "at": "2026-10-11T07:07:56Z",
@@ -5380,6 +5463,11 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/page/2/"
+    },
+    "8ea075c86dbcdcf840cab883": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12077"
     },
     "8eb6001a836a6e50b8fb133e": {
       "at": "2026-10-27T00:53:37Z",
@@ -5711,6 +5799,11 @@
       },
       "url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729"
     },
+    "981785a01550309d0739d8f0": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://openai.com/index/devrev-enterprise-self-service"
+    },
     "9906482f0e9c75da96c7d515": {
       "at": "2026-10-05T15:56:52Z",
       "status": "expired",
@@ -5988,6 +6081,11 @@
       },
       "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "9f36e77d73f4156fe2ce238e": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-2026/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "9f94445088fd7296d301f6fc": {
       "at": "2026-10-09T10:27:28Z",
       "status": "expired",
@@ -6091,6 +6189,11 @@
       "status": "ignored",
       "story_key": "starkomand-ai-coding-agents-canvas",
       "url": "https://www.producthunt.com/products/starkomand"
+    },
+    "a16bc2ebde575d756b4a25b0": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://www.anthropic.com/research/provable-inference?utm_source=futuretools.io&utm_medium=newspage"
     },
     "a1785a44f4858e2b1ea21cf1": {
       "at": "2026-10-04T15:54:51Z",
@@ -6454,6 +6557,16 @@
       "status": "ignored",
       "story_key": "openai-terminal-x-gpt-6-1",
       "url": "https://openai.com/index/terminal-x"
+    },
+    "aac81467646f1d039bd25b6e": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/3/llm/"
+    },
+    "abbb96cf14716a168d8896a4": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/"
     },
     "abcb23b0cf18257657450f25": {
       "at": "2026-10-17T17:58:32Z",
@@ -6922,6 +7035,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11512"
     },
+    "bc4da9820f8f9a3ee754c372": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "bc6c0cd8ad5e57b3edd3160a": {
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
@@ -7361,6 +7479,11 @@
       "status": "ignored",
       "story_key": "stability-ai-self-hosted-license-policy",
       "url": "https://stability.ai/license"
+    },
+    "c7b727c3e6014b13744034e0": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "c84785b7885bca32a7cbe6b5": {
       "at": "2026-10-03T04:46:31Z",
@@ -8469,6 +8592,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/exa-ai"
     },
+    "e5daca498299eff6a1c89c3f": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "e5f8df0d727db32b0276a182": {
       "at": "2026-10-10T18:31:36Z",
       "status": "expired",
@@ -9001,6 +9129,11 @@
       "status": "expired",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.7"
     },
+    "f45cdd5f95812c0b2860ff0f": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12073"
+    },
     "f4613aa777a13aa7e1cdd0be": {
       "at": "2026-10-12T17:49:35Z",
       "bootstrap": false,
@@ -9030,6 +9163,11 @@
         "source": "Sakana AI Blog"
       },
       "url": "https://sakana.ai/schmidhuber/"
+    },
+    "f4aab44afe3f1629fbe99b54": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations?utm_source=futuretools.io&utm_medium=newspage"
     },
     "f4dc19249c65501d190c52a2": {
       "at": "2026-10-09T21:38:57Z",
@@ -9346,6 +9484,11 @@
       "story_key": "openai-heimstaden-property-management-ai",
       "url": "https://openai.com/index/heimstaden"
     },
+    "fcec1b84be933ab3ab3589c7": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12089"
+    },
     "fd1458eaf49fedff2cc99214": {
       "at": "2026-10-11T07:07:40Z",
       "status": "expired",
@@ -9403,6 +9546,11 @@
       "at": "2026-10-11T18:49:43Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2-rc0"
+    },
+    "ffbb69a7f635e1ce55f6c2fb": {
+      "at": "2026-11-07T06:23:46Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12088"
     }
   },
   "stories": {
@@ -9976,17 +10124,18 @@
     "artificial-analysis-changelog-nov-2026": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-nov-2026.jpg",
-      "last_updated": "2026-11-06T06:33:33Z",
+      "last_updated": "2026-11-07T06:23:59Z",
       "post_id": "598990693715320388",
       "post_url": "https://edgeainews.blogspot.com/2026/11/artificial-analysis-updates-benchmark.html",
-      "score": 85,
+      "score": 82,
       "source_image_source": "Artificial Analysis Changelog",
       "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
       "source_urls": [
-        "https://artificialanalysis.ai/changelog#edgeai-db42942592aac63c8f3b"
+        "https://artificialanalysis.ai/changelog#edgeai-db42942592aac63c8f3b",
+        "https://artificialanalysis.ai/changelog#edgeai-b8d5b32175f1b291afc5"
       ],
       "status": "CONFIRMED",
-      "title": "Artificial Analysis Updates Benchmark Methodologies and Adds Recent Model Evaluations",
+      "title": "Artificial Analysis Integrates Modal, Scaleway, and Fireworks Results in Latest Changelog Update",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
@@ -13184,6 +13333,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
         "score": 62,
         "source": "FutureTools AI News"
+      }
+    },
+    "openai-biobasicsbench-wet-lab-science-ai-agents": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-biobasicsbench-wet-lab-science-ai-agents.jpg",
+      "last_updated": "2026-11-07T06:24:03Z",
+      "post_id": "5680693648981545327",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-introduces-biobasicsbench-to_0305135316.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/3lNbSQIg31Dg9aBrUjuQMI/131fea8d534499ca30f7a9f880269d74/biobasicsbench-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces BioBasicsBench to Measure AI Agent Performance in Wet-Lab Science",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
       }
     },
     "openai-block-defense-factory-security": {

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-07T07:18:50Z",
+    "at": "2026-11-07T14:10:01Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 4,
+    "queued": 7,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 179,
+  "runs": 180,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1308,6 +1308,11 @@
       "first_seen": "2026-10-17T12:47:08Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11710"
+    },
+    "20016e67a5bee634ee1cd932": {
+      "first_seen": "2026-11-07T14:09:34Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12186"
     },
     "200a5d3dd39c6bfb7a201928": {
       "first_seen": "2026-10-14T10:22:27Z",
@@ -4419,6 +4424,11 @@
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6"
     },
+    "6cbc2f330377945c63cc6631": {
+      "first_seen": "2026-11-07T14:09:34Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12185"
+    },
     "6cd8ea8a7d3bd22f6f20d08d": {
       "first_seen": "2026-10-14T00:36:35Z",
       "status": "queued",
@@ -4538,6 +4548,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10600"
+    },
+    "6fe71b143c8b4bc498413948": {
+      "first_seen": "2026-11-07T14:09:34Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12189"
     },
     "7004e1cb49483ba000fede3e": {
       "first_seen": "2026-10-23T04:34:41Z",
@@ -5847,6 +5862,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06977"
     },
+    "90a7eabbf5e1b72897e07252": {
+      "first_seen": "2026-11-07T14:09:34Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12190"
+    },
     "90d359b06e094ba879adefc6": {
       "first_seen": "2026-10-27T01:17:41Z",
       "status": "queued",
@@ -6490,6 +6510,11 @@
       "status": "queued",
       "url": "https://openai.com/index/partnering-with-hacktron"
     },
+    "a0ad5cd24fa018ee6ebd4a89": {
+      "first_seen": "2026-11-07T14:09:34Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12188"
+    },
     "a0e5f3129cf7b80a3faf2634": {
       "first_seen": "2026-10-07T09:14:06Z",
       "status": "queued",
@@ -6504,6 +6529,11 @@
       "first_seen": "2026-10-31T08:54:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.37809"
+    },
+    "a1446be86e0a821ce9f9a7e8": {
+      "first_seen": "2026-11-07T14:09:34Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12187"
     },
     "a15f3cfea2ff585b9622227b": {
       "first_seen": "2026-10-09T19:21:06Z",
@@ -7650,6 +7680,11 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "too_old",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.16"
+    },
+    "bf2f0bd38fa9eab72b04d3cb": {
+      "first_seen": "2026-11-07T14:09:34Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12184"
     },
     "bf418cf179e03081ef7980af": {
       "first_seen": "2026-10-08T07:31:18Z",

@@ -3250,20 +3250,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "5999e957f142fc2da964d70d",
-      "discovered_at": "2026-10-24T09:06:36Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-24T07:25:34Z",
-      "search_score": 8,
-      "source_name": "llama.cpp Releases",
-      "summary": "mtmd : lfm2 resize matches torchvision ( #30943 ) mtmd : lfm2 bilinear resize matches torchvision Lfm2VlImageProcessor and d1-omni vision.py resize uint8 images with torchvision (antialias=True). That is Pillow's algorithm, except that the weights are int16 with as many fractional bits as the largest weight allows, where Pillow uses 22 bits. The Pillow port was 1-2 levels off on about 1% of the values of the d1-omni and LFM2.5-VL crops. RESIZE_ALGO_BILINEAR_TORCH rounds the weights of the Pillow port to that precision and scales them back to 22 bits, which gives the output of torchvision with the same passes, and \"bilinear\" maps to it for LFM2 and d1-omni. Other models keep the Pillow algorithms. mtmd : lfm2 bicubic resize matches torchvision Lfm2VlImageProcessor resizes with torchvision for the bicubic checkpoints too (d1-3B, LFM2-VL), so \"bicubic\" maps to RESIZE_ALGO_BICUBIC_TORCH for LFM2: the Pillow bicubic filter (a = -0.5, as torchvision with antialias) with the int16 weights of torchvision. The Pillow port was 1-2 levels off on about 0.25% of the values of the d1-3B crops. use bitfield, add hparams setter Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59362598 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11851",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11851"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "0b0e7840be3e83c66ec321a0",
       "discovered_at": "2026-11-06T16:15:30Z",
       "kind": "local-ai",
@@ -3488,20 +3474,34 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "ae36f1e272fb7ba5a8b914d5",
-      "discovered_at": "2026-11-06T16:15:30Z",
+      "candidate_id": "6fe71b143c8b4bc498413948",
+      "discovered_at": "2026-11-07T14:09:34Z",
       "kind": "local-ai",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-11-06T15:50:01Z",
+      "published": "2026-11-07T12:19:19Z",
       "search_score": 5,
       "source_name": "llama.cpp Releases",
-      "summary": "cmake : generate RC file directly without win-app.rc.in ( #31718 ) Signed-off-by: Adrien Gallou\u00ebt angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64553678 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12174",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12174"
+      "summary": "metal : fix GROUP_NORM for ne03 > 1 and non-contiguous inputs ( #31852 ) The kernel_group_norm_f32 kernel and its host dispatch ignored the batch dimension (ne03) of the source tensor: only ngrp threadgroups were dispatched and each normalized the flat range [tgpig gs, (tgpig+1) gs) with gs = ne00 ne01 ceil(ne02/ngrp). For tensors with ne03 > 1, all but the first ne00 ne01 ne02 elements were left unwritten (exposed by the new GROUP_NORM test with ne=[3,1,1,65537], num_groups=1). Dispatch one threadgroup per (group, i03) pair (ngrp in x, ne03 in z, same work distribution as the Vulkan backend) and compute per-batch statistics, matching the CPU reference. Also clamp the group element count for the last group when ne02 is not divisible by ngrp and use int64_t indexing. The kernel now only requires ggml_is_contiguous_rows(op->src[0]) instead of full contiguity: it addresses src0 and dst with their own strides (nb03 and the dst strides are added to the kernel args - dst can be a strided view of src0 with ggml_group_norm_inplace) and falls back from the flat fast path to a strided path that decodes the linear element index when rows or channels are padded. The flat/strided selection is done on the host in ggml_metal_library_get_pipeline_group_norm and compiled into one of two specialized pipeline variants via a FC_group_norm_flat function constant, so the dead path is eliminated at pipeline creation. GROUP_NORM support is also gated on F32 src and dst in supports_op - the kernel only implements f32 and an f16 input would silently be read as f32. Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (Mac Studio, M5 Ultra, 256GB) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64836151 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12189",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12189"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "a0ad5cd24fa018ee6ebd4a89",
+      "discovered_at": "2026-11-07T14:09:34Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-07T12:02:12Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "server: visit parent slots before child slots ( #30779 ) server: visit parent slots before child slots A parent slot wakes its waiting child slots once it finishes the shared prompt prefix, while slots are visited in id order. When a child task lands on a lower slot id than its parent, the child is visited before the parent wakes it and waits an extra batch to process its suffix. Non-child slots are now visited before active child slots, so every child woken by its parent joins the same batch. server: check systemone test events through test tags The systemone tests matched free-form debug messages, including the formatted f_keep value of the prompt cache. The server now emits TEST_TAG_WAIT_PARENT_SLOT when a child slot waits for its parent, TEST_TAG_PROMPT_CACHE_RESTORE on every prompt cache restore and TEST_TAG_PROMPT_CACHE_FULL_RESTORE when the whole cached prompt is a prefix of the new one, compared on token counts. Co-authored-by: Pascal admin@serveurperso.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64833265 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12188",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12188"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-07T07:18:50Z",
+  "updated_at": "2026-11-07T14:10:01Z",
   "version": 2
 }

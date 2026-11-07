@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-07T18:43:21Z",
+    "at": "2026-11-07T22:22:10Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 1,
+    "prefiltered": 0,
+    "queued": 0,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 179,
+  "runs": 180,
   "seen": {
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",
@@ -4909,6 +4909,11 @@
       "first_seen": "2026-10-21T23:32:25Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/supercmo-ai"
+    },
+    "91d422a2a350b2f8e9d7c3ea": {
+      "first_seen": "2026-11-07T22:22:07Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/sendoff-2"
     },
     "9220d05373e0560f0f50f1a5": {
       "first_seen": "2026-10-29T13:31:50Z",

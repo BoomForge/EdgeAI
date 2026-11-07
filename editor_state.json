@@ -77,11 +77,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-07T18:11:02Z",
+    "at": "2026-11-07T21:47:24Z",
     "eligible": 60,
-    "evaluated": 2,
+    "evaluated": 3,
     "mode": "live",
-    "new_posts": 2,
+    "new_posts": 1,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -2095,6 +2095,20 @@
       "status": "ignored",
       "story_key": "openai-cisco-security-collaboration",
       "url": "https://openai.com/index/cisco-cyber"
+    },
+    "34ffee2a68364326be2acab1": {
+      "at": "2026-11-07T21:47:24Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "updated",
+      "story_key": "nous-research-arete-27b",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2118840606504218775"
     },
     "352fd1a742a2b25bda6bc124": {
       "at": "2026-10-07T19:56:51Z",
@@ -7415,6 +7429,20 @@
       },
       "url": "https://openai.com/index/oracle-apps-in-chatgpt"
     },
+    "c41d94ae93ae479c7e9cd1cd": {
+      "at": "2026-11-07T21:46:57Z",
+      "bootstrap": false,
+      "score": 86,
+      "status": "published",
+      "story_key": "anthropic-components-of-agent-memory-dreaming",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.anthropic.com/research/components-of-agent-memory?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "c4321ef7d75de25fc04a4646": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -7925,6 +7953,14 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00064"
+    },
+    "d3245ce325c05994db19364b": {
+      "at": "2026-11-07T21:47:06Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "nous-research-portal-models-hermes-agent",
+      "url": "https://x.com/NousResearch/status/2118774793872769342"
     },
     "d35bb6a301795f82b359a0bb": {
       "at": "2026-10-06T02:32:14Z",
@@ -9918,6 +9954,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Anthropic reveals Claude successfully optimized quantum circuits beyond published benchmarks",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 64,
+        "source": "FutureTools AI News"
+      }
+    },
+    "anthropic-components-of-agent-memory-dreaming": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-components-of-agent-memory-dreaming.jpg",
+      "last_updated": "2026-11-07T21:46:57Z",
+      "post_id": "7005235676170592657",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/anthropic-details-how-agent-dreaming.html",
+      "score": 86,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg",
+      "source_urls": [
+        "https://www.anthropic.com/research/components-of-agent-memory?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Details How Agent 'Dreaming' and Memory Management Improve Long-Horizon Tasks",
       "trust": {
         "label": "Reasonable",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
@@ -12635,14 +12692,15 @@
     "nous-research-arete-27b": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-arete-27b.jpg",
-      "last_updated": "2026-11-07T18:11:02Z",
+      "last_updated": "2026-11-07T21:47:24Z",
       "post_id": "4049497624055621545",
       "post_url": "https://edgeainews.blogspot.com/2026/11/nous-research-releases-arete-27b-post.html",
-      "score": 91,
+      "score": 88,
       "source_image_source": "Nous Research Announcements",
-      "source_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118807764206030848/img/KpxiYJQdym7LZmYg?format=webp&name=large",
+      "source_image_url": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_400x400.jpg",
       "source_urls": [
-        "https://x.com/NousResearch/status/2118822925445050435"
+        "https://x.com/NousResearch/status/2118822925445050435",
+        "https://x.com/NousResearch/status/2118840606504218775"
       ],
       "status": "CONFIRMED",
       "title": "Nous Research Releases Arete-27B: Post-Training Qwen3.8 to Align with Western Values",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-08T08:45:28Z",
+    "at": "2026-11-08T15:51:57Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 5,
+    "queued": 9,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 184,
+  "runs": 185,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -660,6 +660,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0"
     },
+    "1228507ec8203815c9319cdf": {
+      "first_seen": "2026-11-08T15:51:45Z",
+      "status": "queued",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.2"
+    },
     "122cce26ca27407f3f8853c0": {
       "first_seen": "2026-10-24T21:41:08Z",
       "status": "queued",
@@ -754,6 +759,11 @@
       "first_seen": "2026-10-08T07:31:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08816"
+    },
+    "13cd00d76df5acec5f77c62f": {
+      "first_seen": "2026-11-08T15:51:35Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12206"
     },
     "13d109f5467363c930ba93d5": {
       "first_seen": "2026-10-17T04:40:00Z",
@@ -1531,6 +1541,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.27010"
     },
+    "25e9cd1f4fb4d09dac60d8a7": {
+      "first_seen": "2026-11-08T15:51:35Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12205"
+    },
     "25edaba25daa25115b0a9534": {
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
@@ -2283,6 +2298,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11719"
     },
+    "3a23f7f560d629a2629ab245": {
+      "first_seen": "2026-11-08T15:51:35Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12208"
+    },
     "3a390cc255a4c02502111933": {
       "first_seen": "2026-10-03T15:10:00Z",
       "status": "queued",
@@ -2992,6 +3012,11 @@
       "first_seen": "2026-11-02T10:42:42Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40926"
+    },
+    "4978d21247862747aac1f9eb": {
+      "first_seen": "2026-11-08T15:51:35Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12204"
     },
     "498ac4c49c7505e652f34ecc": {
       "first_seen": "2026-11-05T14:19:51Z",
@@ -5696,6 +5721,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11865"
     },
+    "8d14df2b9c9c78ee5ccd421c": {
+      "first_seen": "2026-11-08T15:51:45Z",
+      "status": "queued",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.1"
+    },
     "8d16a40561216b34498a99ef": {
       "first_seen": "2026-10-21T11:25:13Z",
       "status": "queued",
@@ -6634,6 +6664,11 @@
       "first_seen": "2026-10-15T00:51:10Z",
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc1"
+    },
+    "a27835272556018e8978e98e": {
+      "first_seen": "2026-11-08T15:51:35Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12203"
     },
     "a2784e68c43eebe2671430a9": {
       "first_seen": "2026-11-04T23:46:03Z",
@@ -8252,6 +8287,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40917"
     },
+    "cbc7205436091f5445b55df1": {
+      "first_seen": "2026-11-08T15:51:35Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12207"
+    },
     "cbc8926a28c802abf681f0b7": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -9012,6 +9052,11 @@
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22380"
+    },
+    "dd62241e50583cf676341264": {
+      "first_seen": "2026-11-08T15:51:35Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12209"
     },
     "dd6669033ccdf16934af21a3": {
       "first_seen": "2026-10-15T22:27:27Z",

@@ -3026,6 +3026,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "3a23f7f560d629a2629ab245",
+      "discovered_at": "2026-11-08T15:51:35Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-08T15:50:22Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "ggml : update CUDA/Metal radix Top-K to make tied selections deterministic ( #31084 ) ggml : fix for the radix TOP_K thread timing bug make the key an ordered 64-bit pair a rewrite without shift-skip logic fix casts warp-contiguous layout reduce the scope removing vulkan+metal changes turn it off for Metal/ROCm, note about cub::DeviceTopK fix the hip build skip Vulkan as well popc lambda from fattn do block_cols math in int64_t make it allowlist bc SYCL looks non deterministic too ggml : make Metal radix Top-K tied selections deterministic The radix top-k kernel gathered the selected indices with atomic counters, so the order of the tied candidates at the threshold (and, with more ties than remaining slots, the subset itself) depended on the thread scheduling. Replace the two atomic compaction loops with a deterministic scheme: count the elements above and tied with the threshold in contiguous per-thread chunks, rank them with a simdgroup scan and a serial scan over the (now unused) radix histogram, and write each kept element exactly once in column order. The output is now byte-identical across runs. This is also faster than the atomic version: the strided atomic loops become contiguous passes, reducing top-k times by ~20-45% on M5 Ultra, with tie-heavy shapes within a few percent. Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (Mac Studio, M5 Ultra, 256GB) tests : enable deterministic top-k check on Metal, add radix-path tie cases Metal now produces deterministic tied selections for the radix top-k path, so the determinism self-check runs for the MTL backend as well. Add eval cases covering the radix path (ncols > 2048) with more ties at the threshold than remaining slots, and tie-heavy perf cases to monitor the cost of the deterministic tie handling. Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (Mac Studio, M5 Ultra, 256GB) ggml : use coalesced accesses in the Metal radix Top-K compaction The deterministic compaction walked contiguous per-thread chunks with scalar sequential loads, which the memory system of the M2 Ultra can not overlap well: the radix Top-K times regressed by ~1.5-2.4x on the large-ncols shapes. Give each warp a contiguous chunk of the row instead and let the lanes interleave within it with stride 32, so every access is fully coalesced. The lanes write their kept elements at lane-major ranks, which is deterministic, and only a tie overflow falls back to a per-step cross-lane ranking to keep the lowest tied indices in column order. Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (Mac Studio, M5 Ultra, 256GB) tests : remove the extra top-k tie and perf cases The radix-path eval and tie-heavy perf cases were added to validate and benchmark the Metal deterministic tie handling. Keep only the enabling of the determinism self-check for the MTL backend. Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (Mac Studio, M5 Ultra, 256GB) metal: scan the radix bins and warp totals with a simdgroup The radix top-k selected the threshold bucket with a serial scan of the 256 bins by thread 0 in each of the 4 passes, and ranked the warps of the compaction with two serial scans by thread 0. The first simdgroup now does both: each lane sums 8 bins, an exclusive prefix sum and a ballot find the lane that reaches the k-th value, and the warp totals get their exclusive bases from simd_prefix_exclusive_sum. tests: enable the deterministic top-k check on ROCm HIP has no cub::DeviceTopK, so every row goes through the radix or bitonic path, which break ties in the same way in each run. The check covers all tie cases on ROCm, including the 1 and 2 row ones that CUDA skips. cuda: remove the redundant radix top-k counter reset Address review from ORippler. top_k_radix_init already zeroes greater_count for each chunk of rows and top_k_radix_select keeps it, so the reset kernel before the gather is one launch with no effect. Co-authored-by: Georgi Gerganov ggerganov@gmail.com Co-authored-by: Pascal admin@serveurperso.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65072510 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12208",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12208"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "cbc7205436091f5445b55df1",
+      "discovered_at": "2026-11-08T15:51:35Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-08T14:24:56Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "ggml-cuda : add d_state=64 fast path to SSM_SCAN kernel ( #31818 ) Zamba2 and similar architectures use a state size of 64 in their recurrent-scan step, which fell outside the GPU kernel's existing fast paths (96, 128, 256). Every scan step was falling back to CPU, bottlenecking generation to 6-7 tok/s against the 50-70 tok/s band other architectures achieve on the same hardware. Add a 4th template instantiation for d_state=64, following the existing pattern; no change to the underlying math. Verified against the existing CPU-reference correctness harness with 3 new test cases built from Zamba2's real hyperparameters (28/28 passing). Measured ~35% throughput improvement (11 -> 15.1 tok/s) on Zamba2-7B- Instruct. Full parity with other architectures not yet reached - a separate, unrelated fraction of scan calls (~28%) still falls back to CPU for a cause not yet diagnosed. Assisted-by: Claude Sonnet 5 Co-authored-by: Sargentmajord 331229907+sargentmajord@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65059042 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12207",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12207"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "0b717a320f4e841d61c0eff9",
       "discovered_at": "2026-11-08T08:45:03Z",
       "kind": "local-ai",
@@ -3219,34 +3247,6 @@
       "summary": "llama : respect no_alloc in all memory caches ( #31087 ) llama : respect no_alloc in memory caches Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) llama : TODO: move no_alloc out of llama_hparams Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) llama : TODO: move no_alloc out of llama_hparams Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59652302 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11881",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11881"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "cdda228c6f4088bb0e0b8dcf",
-      "discovered_at": "2026-10-25T17:13:48Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-25T15:19:39Z",
-      "search_score": 8,
-      "source_name": "llama.cpp Releases",
-      "summary": "ggml-cuda: fuse qwen MRoPE + set-rows ( #31025 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59638191 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11878",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11878"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "1f632b2b5ecfc3029c9c2b40",
-      "discovered_at": "2026-10-25T17:13:48Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-25T14:31:00Z",
-      "search_score": 8,
-      "source_name": "llama.cpp Releases",
-      "summary": "vulkan : one warp tile per subgroup in the small matmul tiles ( #30106 ) WM of the small tiles was 32, or 8 for 8-wide subgroups, whatever the tile's BLOCK_SIZE and WARP. With 16-wide subgroups (Mali) the second subgroup of a workgroup wrote into the next tile's columns. With 8-wide subgroups some _id tiles left rows uncomputed. Derive WM so there is one warp tile per subgroup. Tested on my Pixel 9 Android phone. Before the change there were 20 MUL_MAT and 6 MUL_MAT_ID failures. After the change they all pass. Fixes #28637 Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59631087 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11876",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11876"
     },
     {
       "bootstrap": false,
@@ -3502,6 +3502,6 @@
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-08T08:45:28Z",
+  "updated_at": "2026-11-08T15:51:57Z",
   "version": 2
 }

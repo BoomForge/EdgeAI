@@ -77,9 +77,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-08T07:16:08Z",
-    "eligible": 46,
-    "evaluated": 2,
+    "at": "2026-11-08T14:25:49Z",
+    "eligible": 42,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -2050,6 +2050,11 @@
       },
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
     },
+    "323ec171f8d23570a78d8aa0": {
+      "at": "2026-11-08T14:25:40Z",
+      "status": "expired",
+      "url": "https://openai.com/index/introducing-images-2-6/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "323fd1087f594a308741cd5a": {
       "at": "2026-10-05T15:56:56Z",
       "bootstrap": true,
@@ -2236,6 +2241,11 @@
       "status": "ignored",
       "story_key": "runway-research-news-index",
       "url": "https://runway.com/news/research"
+    },
+    "37316f7252bd003ca18047e0": {
+      "at": "2026-11-08T14:25:40Z",
+      "status": "expired",
+      "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude?utm_source=futuretools.io&utm_medium=newspage"
     },
     "3762ff1d2e3077743459b4a4": {
       "at": "2026-10-03T05:49:31Z",
@@ -2753,6 +2763,11 @@
       },
       "url": "https://elevenlabs.io/blog/introducing-scribe-v2"
     },
+    "41c2fe1f57c665f0c0b5cb5e": {
+      "at": "2026-11-08T14:25:40Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12125"
+    },
     "420734bb3fbbefb9aa82f403": {
       "at": "2026-10-11T07:07:40Z",
       "status": "expired",
@@ -2871,6 +2886,14 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/legalon-halves-codex-costs"
+    },
+    "4624234e5492900d5c7977dd": {
+      "at": "2026-11-08T14:25:46Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "anthropic-ai-for-science-grantees-scientific-models",
+      "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models?utm_source=futuretools.io&utm_medium=newspage"
     },
     "4651fd8a89a23438c2bcbae7": {
       "at": "2026-10-05T22:35:25Z",
@@ -3067,6 +3090,20 @@
       "status": "ignored",
       "story_key": "nous-research-agent-swag-update",
       "url": "https://x.com/NousResearch/status/2110209866996252729"
+    },
+    "4d6b64fa304367a394456487": {
+      "at": "2026-11-08T14:25:49Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-biobasicsbench-wet-lab-science",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "4d8e460dfcbc5c4a0a978fbb": {
       "at": "2026-10-24T13:39:23Z",
@@ -6817,6 +6854,20 @@
       "status": "expired",
       "url": "https://suno.com/blog/introducing-speech-beta?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "adf1ca9d7f32236413d7467c": {
+      "at": "2026-11-08T14:25:44Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "uber-ai-agent-ride-bookings-q3",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://tech.yahoo.com/transportation/articles/almost-no-one-uses-ai-215601578.html?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "ae2593ff9e1d94bc04c9ac7f": {
       "at": "2026-10-21T14:43:23Z",
       "bootstrap": false,
@@ -6961,6 +7012,11 @@
       "at": "2026-10-04T00:07:42Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/"
+    },
+    "b2ab31cd0bc5e7d4b5cbf565": {
+      "at": "2026-11-08T14:25:40Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/rankfender"
     },
     "b2d3f46531c091e023f06bd0": {
       "at": "2026-10-22T10:26:38Z",
@@ -13708,6 +13764,27 @@
         "source": "FutureTools AI News"
       }
     },
+    "openai-biobasicsbench-wet-lab-science": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-biobasicsbench-wet-lab-science.jpg",
+      "last_updated": "2026-11-08T14:25:49Z",
+      "post_id": "1794847872325836505",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-introduces-biobasicsbench-to_0240628847.html",
+      "score": 92,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/3lNbSQIg31Dg9aBrUjuQMI/131fea8d534499ca30f7a9f880269d74/biobasicsbench-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces BioBasicsBench to Evaluate AI Agents on Wet-Lab Science Tasks",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      }
+    },
     "openai-biobasicsbench-wet-lab-science-ai-agents": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-biobasicsbench-wet-lab-science-ai-agents.jpg",
@@ -16049,6 +16126,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "Artificial Analysis Changelog"
+      }
+    },
+    "uber-ai-agent-ride-bookings-q3": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/uber-ai-agent-ride-bookings-q3.jpg",
+      "last_updated": "2026-11-08T14:25:44Z",
+      "post_id": "3324120632424458538",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/uber-reports-minimal-ai-agent-adoption.html",
+      "score": 82,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://s.yimg.com/lo/mysterio/api/2e5511c5259b0eb76f56cae5abf6010830ee4a40b536ef9a0f1da7ebe8c35c4c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftechcrunch_finance_785%2F585391926e8e6b3e3747590b513e84b7",
+      "source_urls": [
+        "https://tech.yahoo.com/transportation/articles/almost-no-one-uses-ai-215601578.html?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Uber Reports Minimal AI Agent Adoption With Just Four Ride Bookings During Peak Week",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "uber-chatgpt-work-openai-rollout": {

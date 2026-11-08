@@ -77,11 +77,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-08T18:57:40Z",
+    "at": "2026-11-08T22:49:52Z",
     "eligible": 36,
-    "evaluated": 3,
+    "evaluated": 2,
     "mode": "live",
-    "new_posts": 2,
+    "new_posts": 1,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -4653,6 +4653,11 @@
       "story_key": "openai-codex-ultrafast-internal-workflow",
       "url": "https://openai.com/index/openai-cut-incident-investigation"
     },
+    "745f8c669fa35e8b840a0560": {
+      "at": "2026-11-08T22:49:40Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12136"
+    },
     "74eecc752e5f1b65d14fce26": {
       "at": "2026-10-23T05:59:56Z",
       "status": "expired",
@@ -5475,6 +5480,20 @@
       "at": "2026-10-13T11:42:22Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11541"
+    },
+    "89cef414203809a35b95790e": {
+      "at": "2026-11-08T22:49:44Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "nous-research-hermes-agent-security-plugin",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2119501961984917611"
     },
     "8a29c0194e2bf02960ef4ab3": {
       "at": "2026-10-13T03:56:49Z",
@@ -8727,6 +8746,20 @@
         "source": "FutureTools AI News"
       },
       "url": "https://openai.com/index/openai-models-google-cloud/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "e0d14fc5df089a2198a18afa": {
+      "at": "2026-11-08T22:49:52Z",
+      "bootstrap": false,
+      "score": 86,
+      "status": "updated",
+      "story_key": "nous-research-hermes-agent-security-plugin",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      },
+      "url": "https://x.com/NousResearch/status/2119501958981857543"
     },
     "e0e7f9f0f4ba064a212b5a0e": {
       "at": "2026-10-24T17:01:31Z",
@@ -13164,6 +13197,28 @@
       ],
       "status": "CONFIRMED",
       "title": "Nous Research Releases Hermes Agent with Multi-Platform Availability",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Nous Research Announcements"
+      }
+    },
+    "nous-research-hermes-agent-security-plugin": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/nous-research-hermes-agent-security-plugin.jpg",
+      "last_updated": "2026-11-08T22:49:52Z",
+      "post_id": "6560758925127784840",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/nous-research-launches-official.html",
+      "score": 86,
+      "source_image_source": "Nous Research Announcements",
+      "source_image_url": "https://pbs.twimg.com/amplify_video_thumb/2119501177792376832/img/kd1t8r7sAPh7U_Wd?format=webp&name=large",
+      "source_urls": [
+        "https://x.com/NousResearch/status/2119501961984917611",
+        "https://x.com/NousResearch/status/2119501958981857543"
+      ],
+      "status": "CONFIRMED",
+      "title": "Nous Research Launches Official Security Plugin for Hermes Agent",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

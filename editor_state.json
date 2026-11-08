@@ -77,8 +77,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-08T14:25:49Z",
-    "eligible": 42,
+    "at": "2026-11-08T18:57:40Z",
+    "eligible": 36,
     "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
@@ -982,6 +982,11 @@
         "source": "MiniMax Research"
       },
       "url": "https://www.minimax.io/models/text"
+    },
+    "17c36ca30ca95309b2a895c3": {
+      "at": "2026-11-08T18:57:30Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/kivo-4"
     },
     "17e8a03b253a57bc28ac2220": {
       "at": "2026-10-26T17:20:47Z",
@@ -2242,6 +2247,11 @@
       "story_key": "runway-research-news-index",
       "url": "https://runway.com/news/research"
     },
+    "36e55298252d2c9d74a26883": {
+      "at": "2026-11-08T18:57:30Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/google-omni-1-2-flash"
+    },
     "37316f7252bd003ca18047e0": {
       "at": "2026-11-08T14:25:40Z",
       "status": "expired",
@@ -2793,6 +2803,14 @@
       "status": "expired",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.0"
     },
+    "43c01c269a5f9df068ecebce": {
+      "at": "2026-11-08T18:57:36Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "llamacpp-b12202-precision-update",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12202"
+    },
     "442074384a52ee966c8cf342": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -2886,6 +2904,11 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/legalon-halves-codex-costs"
+    },
+    "45e25a0dd29630696c6ee344": {
+      "at": "2026-11-08T18:57:30Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12156"
     },
     "4624234e5492900d5c7977dd": {
       "at": "2026-11-08T14:25:46Z",
@@ -4024,6 +4047,11 @@
       "at": "2026-10-06T09:19:44Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11368"
+    },
+    "6512eeef7312d9df2524ad69": {
+      "at": "2026-11-08T18:57:30Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12154"
     },
     "651eb83950e5fc77f990aaa6": {
       "at": "2026-10-12T17:49:23Z",
@@ -5543,6 +5571,20 @@
       "at": "2026-10-07T13:59:34Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11389"
+    },
+    "8c820f8973aca87eda4ae361": {
+      "at": "2026-11-08T18:57:34Z",
+      "bootstrap": false,
+      "score": 95,
+      "status": "published",
+      "story_key": "openai-gpt-6-cyber-release",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://openai.com/index/introducing-gpt-6-cyber/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "8cc5380fb99a93aeaaf4c1c6": {
       "at": "2026-10-05T07:01:46Z",
@@ -8691,6 +8733,20 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/21/panache/"
     },
+    "e1833b6ba9cd6bab261dadb1": {
+      "at": "2026-11-08T18:57:40Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "llamacpp-kimi-k31-pro-support",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "llama.cpp Releases"
+      },
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12180"
+    },
     "e1a6c815842fc51802b59507": {
       "at": "2026-10-29T09:51:27Z",
       "bootstrap": false,
@@ -9853,6 +9909,11 @@
       "at": "2026-10-23T01:00:32Z",
       "status": "expired",
       "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "ff14400f2913b0a2ac034ce7": {
+      "at": "2026-11-08T18:57:30Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/5/paul-ford/"
     },
     "ff3192a07212d5fdc5524862": {
       "at": "2026-10-06T02:32:14Z",
@@ -12317,6 +12378,27 @@
         "source": "llama.cpp Releases"
       }
     },
+    "llamacpp-kimi-k31-pro-support": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/llamacpp-kimi-k31-pro-support.png",
+      "last_updated": "2026-11-08T18:57:40Z",
+      "post_id": "6621964842403045395",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/llamacpp-adds-support-for-kimi-k31-pro.html",
+      "score": 85,
+      "source_image_source": "llama.cpp Releases",
+      "source_image_url": "https://opengraph.githubassets.com/53d43fb36e6db48b3678357fe784de358dbd6ee03c8d8b8ab550391362526bb9/ggml-org/llama.cpp/releases/tag/b12180",
+      "source_urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12180"
+      ],
+      "status": "CONFIRMED",
+      "title": "llama.cpp Adds Support for Kimi-K3.1-Pro Text Model with Dynamic Sparse Attention",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "llama.cpp Releases"
+      }
+    },
     "llamacpp-kolibri1-aleph-alpha-support": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/llamacpp-kolibri1-aleph-alpha-support.jpg",
@@ -14316,6 +14398,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "OpenAI News"
+      }
+    },
+    "openai-gpt-6-cyber-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-gpt-6-cyber-release.jpg",
+      "last_updated": "2026-11-08T18:57:34Z",
+      "post_id": "6969092608078988006",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-introduces-gpt-6-cyber-advanced.html",
+      "score": 95,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/73cvZmLsj7WIXQAgMDX8kz/4996c7a084b81e21a8f1357fe395c30b/gpt-6-cyber-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/introducing-gpt-6-cyber/?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces GPT-6 Cyber: Advanced Cybersecurity Agent with Enhanced Scope Controls",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
       }
     },
     "openai-gpt-6-intelligent-ui": {

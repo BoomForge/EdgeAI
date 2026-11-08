@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-08T19:40:58Z",
+    "at": "2026-11-08T23:12:09Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 2,
+    "prefiltered": 0,
+    "queued": 1,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 184,
+  "runs": 185,
   "seen": {
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",
@@ -5724,6 +5724,11 @@
       "first_seen": "2026-10-26T11:34:46Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/flipcorder"
+    },
+    "a86fe963d82ab9637cc7f4a0": {
+      "first_seen": "2026-11-08T23:12:04Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/"
     },
     "a905e2dc78e0acc5e245fd13": {
       "first_seen": "2026-10-26T11:34:46Z",

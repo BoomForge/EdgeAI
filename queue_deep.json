@@ -2284,6 +2284,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "a86fe963d82ab9637cc7f4a0",
+      "discovered_at": "2026-11-08T23:12:04Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-08T22:26:00+00:00",
+      "search_score": 3,
+      "source_name": "Simon Willison Everything",
+      "summary": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted. I fired up regular Claude chat (Opus 5.5) and prompted : I'm thinking about a SQLite custom function 'parse_number(value)' that strips ',', '$', '\u00a3' and '%', handles a leading '-', and returns 'NULL' for anything it can\u2019t parse Explore the difference between building this as a SQLite extension in C v.s. in Rust - I want to compare performance and code complexity and size of the resulting .so (or whatever) file This gave me a solid starting point - the Rust extension was 321 KB (using Rusqlite ) and 298 KB (using sqlite-loadable-rs ), while the C extension was 14 KB. But the Rust extension was faster! Turns out that's because the Rust equivalent of C's strtod is \"twice as fast\". So I prompted: Try writing your own C function for parsing text into a decimal number that catches up to or beats the Rust implementation And it did: Net cost per row over 2 million rows, lower is better: first C new C rusqlite sqlite-loadable Mixed data 67 ns 19 ns 46 ns 41 ns Integers only 25 ns 16 ns 36 ns 32 ns Decimals only 106 ns 18 ns 55 ns 47 ns Finally, I had it rewrite the prototype as a research report to match the others in simonw/research by prompting this: Clone simonw/research from GitHub and turn your above investigation into a research report as seen in that repository - you can give me a zip file to download that contains your new folder Here's the resulting report . Tags: c , research , sqlite , rust , claude",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "8265b69742e725bac3ffed26",
       "discovered_at": "2026-11-04T23:37:16Z",
       "kind": "independent",
@@ -2886,20 +2900,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "25e762d6cfe77966d2df61fe",
-      "discovered_at": "2026-10-26T17:40:15Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-25T14:45:54-07:00",
-      "search_score": 7,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "See which AI agent is heating your Mac and cool it down. Discussion | Link",
-      "title": "WhoIsCooking",
-      "url": "https://www.producthunt.com/products/whoiscooking"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "4276d0de32c6d3e20a4ab7da",
       "discovered_at": "2026-11-03T17:17:15Z",
       "kind": "signal",
@@ -3149,20 +3149,6 @@
       "summary": "Open-source, on device alternative to Claude and ChatGPT Discussion | Link",
       "title": "Hob",
       "url": "https://www.producthunt.com/products/hob-3"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "3e1e6e34703c813e2412b9da",
-      "discovered_at": "2026-10-26T17:40:15Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-25T15:53:07-07:00",
-      "search_score": 4,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Open source alternative to Git for AI coding agents Discussion | Link",
-      "title": "AVP",
-      "url": "https://www.producthunt.com/products/avp"
     },
     {
       "bootstrap": false,
@@ -3460,20 +3446,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "17e8a03b253a57bc28ac2220",
-      "discovered_at": "2026-10-26T11:34:46Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-25T12:55:39-07:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Run a team of AI coding agents from one Mac window Discussion | Link",
-      "title": "ManyAgents",
-      "url": "https://www.producthunt.com/products/manyagents"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "987a491f9106be92987d0169",
       "discovered_at": "2026-11-07T13:56:47Z",
       "kind": "signal",
@@ -3488,6 +3460,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-08T19:40:58Z",
+  "updated_at": "2026-11-08T23:12:09Z",
   "version": 2
 }

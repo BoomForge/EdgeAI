@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-08T15:51:57Z",
+    "at": "2026-11-08T20:18:10Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 9,
+    "queued": 3,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 185,
+  "runs": 186,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1428,6 +1428,11 @@
       "first_seen": "2026-10-08T07:31:45Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.0.92"
+    },
+    "236591bf2d70335444a28227": {
+      "first_seen": "2026-11-08T20:17:47Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12210"
     },
     "2382ac28ae22d4673adebf69": {
       "first_seen": "2026-10-28T14:30:29Z",
@@ -4508,6 +4513,11 @@
       "first_seen": "2026-11-05T21:07:57Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/"
+    },
+    "6d3fea39f0d5a6a62af7a81e": {
+      "first_seen": "2026-11-08T20:18:08Z",
+      "status": "queued",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.38"
     },
     "6d508a898eb83dcd9a252964": {
       "first_seen": "2026-10-30T15:07:01Z",
@@ -10466,6 +10476,11 @@
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20657"
+    },
+    "feda129748a8f5951e360ec9": {
+      "first_seen": "2026-11-08T20:17:47Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12211"
     },
     "ff045850a73945a39f4dc371": {
       "first_seen": "2026-10-03T00:46:18Z",

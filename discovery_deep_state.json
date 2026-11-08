@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-08T15:07:00Z",
+    "at": "2026-11-08T19:40:58Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 0,
+    "prefiltered": 1,
+    "queued": 2,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 183,
+  "runs": 184,
   "seen": {
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",
@@ -1582,6 +1582,12 @@
       "first_seen": "2026-10-21T16:08:20Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/nimbalyst-wiki"
+    },
+    "2fac68a665996a722dec192f": {
+      "first_seen": "2026-11-08T19:40:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/zigzag-browser"
     },
     "2fb4385b08a9c761a7bfcaea": {
       "first_seen": "2026-10-19T10:44:24Z",
@@ -4731,6 +4737,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/throxy-yc-p25"
     },
+    "89cef414203809a35b95790e": {
+      "first_seen": "2026-11-08T19:40:56Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2119501961984917611"
+    },
     "89d4d034d86a1c4859ddef00": {
       "first_seen": "2026-10-10T11:25:13Z",
       "search_score": 0,
@@ -7503,6 +7514,11 @@
       "first_seen": "2026-10-21T20:18:30Z",
       "status": "queued",
       "url": "https://openai.com/index/openai-models-google-cloud/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "e0d14fc5df089a2198a18afa": {
+      "first_seen": "2026-11-08T19:40:56Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2119501958981857543"
     },
     "e0e7f9f0f4ba064a212b5a0e": {
       "first_seen": "2026-10-21T20:18:31Z",

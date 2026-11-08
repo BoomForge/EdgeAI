@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-08T08:01:57Z",
+    "at": "2026-11-08T15:07:00Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 2,
+    "prefiltered": 0,
+    "queued": 0,
     "sources_ok": 15,
-    "too_old": 10,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 182,
+  "runs": 183,
   "seen": {
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",

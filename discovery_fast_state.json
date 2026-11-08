@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-08T01:49:18Z",
+    "at": "2026-11-08T08:45:28Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 6,
+    "queued": 5,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 183,
+  "runs": 184,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -333,6 +333,11 @@
       "first_seen": "2026-10-19T10:02:48Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11724"
+    },
+    "0b717a320f4e841d61c0eff9": {
+      "first_seen": "2026-11-08T08:45:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12200"
     },
     "0b73660e31921f56d41dc746": {
       "first_seen": "2026-10-31T08:54:14Z",
@@ -2732,6 +2737,11 @@
       "first_seen": "2026-10-27T06:24:39Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.33112"
+    },
+    "43c01c269a5f9df068ecebce": {
+      "first_seen": "2026-11-08T08:45:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12202"
     },
     "440cf8eaec9bd58c6c202bc8": {
       "first_seen": "2026-10-22T07:18:23Z",
@@ -5575,6 +5585,11 @@
       "status": "prefiltered",
       "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/brazil-silvopasture/"
     },
+    "8a7d33bfc7c40711ee689357": {
+      "first_seen": "2026-11-08T08:45:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12201"
+    },
     "8aacdfb29bf9c89067eb33f4": {
       "first_seen": "2026-10-04T17:01:25Z",
       "status": "queued",
@@ -8318,6 +8333,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11878"
     },
+    "cde9dce98116aa88032ab910": {
+      "first_seen": "2026-11-08T08:45:17Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.110.0-dev.2"
+    },
     "cdec551026cbc0789c854deb": {
       "first_seen": "2026-10-10T19:21:11Z",
       "status": "queued",
@@ -9945,6 +9965,11 @@
       "first_seen": "2026-10-07T09:14:06Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06919"
+    },
+    "f36bb13f76af3d64c63e7ca3": {
+      "first_seen": "2026-11-08T08:45:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12199"
     },
     "f3881ffb51f5cdaacce8ff76": {
       "first_seen": "2026-10-16T21:44:13Z",

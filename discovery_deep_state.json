@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-08T01:43:02Z",
+    "at": "2026-11-08T08:01:57Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 1,
+    "prefiltered": 3,
+    "queued": 2,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 10,
     "warnings": 0
   },
-  "runs": 181,
+  "runs": 182,
   "seen": {
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",
@@ -1678,6 +1678,11 @@
       "status": "queued",
       "url": "https://www.kimi.com/en/products/"
     },
+    "3284885f8635e52b45272e93": {
+      "first_seen": "2026-11-08T08:01:52Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/archie-3"
+    },
     "32b1b407a33f8067297c2e92": {
       "first_seen": "2026-10-14T21:37:22Z",
       "status": "queued",
@@ -1732,6 +1737,11 @@
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/thanor-ai"
+    },
+    "3482f07c54e407e35fa6f12f": {
+      "first_seen": "2026-11-08T08:01:52Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/memorias-3"
     },
     "34c28f35d971685bdb2ffdeb": {
       "first_seen": "2026-10-10T00:00:13Z",
@@ -1959,6 +1969,11 @@
       "first_seen": "2026-10-05T18:53:47Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/pilot5-ai"
+    },
+    "39de0f039e0424c1c8914b53": {
+      "first_seen": "2026-11-08T08:01:52Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/tilde-for-mac"
     },
     "3a20bf18f0b6fecfeee21db7": {
       "first_seen": "2026-10-16T10:03:10Z",
@@ -2749,6 +2764,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/lea-by-leanaios"
     },
+    "53fc8d7d6a6c5b77f7b7d107": {
+      "first_seen": "2026-11-08T08:01:52Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/agent-clan"
+    },
     "540274e07e8b13fc72fc2c9d": {
       "first_seen": "2026-10-19T17:12:31Z",
       "status": "too_old",
@@ -3467,6 +3487,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2111243538440810641"
     },
+    "66475354452ec8925ac1a36d": {
+      "first_seen": "2026-11-08T08:01:52Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/axl-2"
+    },
     "6676883e07115b3ec1aaa9de": {
       "first_seen": "2026-10-08T08:53:54Z",
       "status": "queued",
@@ -3507,6 +3532,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/coding-wrapped"
     },
+    "6898ce9533d4ba677f8b050a": {
+      "first_seen": "2026-11-08T08:01:52Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/keypause"
+    },
     "68d23b417efc93d186b8ce73": {
       "first_seen": "2026-10-27T12:46:49Z",
       "status": "too_old",
@@ -3536,6 +3566,11 @@
       "first_seen": "2026-11-05T11:39:14Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/seamcult"
+    },
+    "6a37951c337c325b1ffa3ba4": {
+      "first_seen": "2026-11-08T08:01:52Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/notchisland-2"
     },
     "6a3c107674b90b014ba6b99d": {
       "first_seen": "2026-10-29T13:31:50Z",
@@ -3567,6 +3602,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/dereference-the-100x-ide"
+    },
+    "6b1535dc5d7ee4ee2b02bda1": {
+      "first_seen": "2026-11-08T08:01:52Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/textly-capture-copy-paste"
     },
     "6b1b5569c129608c1b4b3a8d": {
       "first_seen": "2026-10-19T00:11:50Z",
@@ -3642,6 +3682,12 @@
       "status": "queued",
       "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "6d9209c837433b0b456c5344": {
+      "first_seen": "2026-11-08T08:01:52Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/marble-by-world-labs"
+    },
     "6dc1f68b02963da8f1899e0d": {
       "first_seen": "2026-10-20T19:29:47Z",
       "status": "queued",
@@ -3667,6 +3713,11 @@
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/spira-ai"
+    },
+    "6edb45d8a426efafde0b799e": {
+      "first_seen": "2026-11-08T08:01:52Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/hacker-noon"
     },
     "6edfe28706e8795ef6ffa407": {
       "first_seen": "2026-10-31T12:57:54Z",
@@ -4479,6 +4530,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/odyssey-3"
     },
+    "8522519b3a5356032adfbe72": {
+      "first_seen": "2026-11-08T08:01:52Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/nomac"
+    },
     "853a0c249788523a4e15541f": {
       "first_seen": "2026-10-08T16:26:00Z",
       "status": "queued",
@@ -4662,6 +4718,12 @@
       "first_seen": "2026-10-20T10:21:00Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/jotform"
+    },
+    "897c0cc51563a1afa1afa36c": {
+      "first_seen": "2026-11-08T08:01:52Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/notch-11"
     },
     "8996468e36a2d2c954074691": {
       "first_seen": "2026-10-28T08:23:12Z",
@@ -5573,6 +5635,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "a62b86360695487edd872c82": {
+      "first_seen": "2026-11-08T08:01:52Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/tinker-2"
+    },
     "a632e53275506c174a83c5ec": {
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "too_old",
@@ -6267,6 +6334,11 @@
       "first_seen": "2026-11-03T22:28:15Z",
       "status": "queued",
       "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "bc86c249c209828b2c69e0b4": {
+      "first_seen": "2026-11-08T08:01:52Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/sagecraft"
     },
     "bd173e559ba5d0f1c24750dd": {
       "first_seen": "2026-10-13T18:14:14Z",
@@ -7206,6 +7278,12 @@
       "first_seen": "2026-10-29T00:27:44Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/"
+    },
+    "dadb00611d08235053096ed3": {
+      "first_seen": "2026-11-08T08:01:52Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/zigzag-3"
     },
     "db2198007a214d5a15101a72": {
       "first_seen": "2026-10-11T09:11:21Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-07T22:22:10Z",
+    "at": "2026-11-08T01:43:02Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 0,
+    "queued": 1,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 180,
+  "runs": 181,
   "seen": {
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",
@@ -8312,6 +8312,11 @@
       "first_seen": "2026-10-12T22:33:10Z",
       "status": "queued",
       "url": "https://www.anthropic.com/research/investigating-unintended-model-actions?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "fe1f6a98c50b61102525fdc5": {
+      "first_seen": "2026-11-08T01:42:58Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/"
     },
     "fedef723b1959221b5c5a68b": {
       "first_seen": "2026-10-20T00:43:52Z",

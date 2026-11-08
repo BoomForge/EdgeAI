@@ -77,11 +77,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-08T00:56:08Z",
-    "eligible": 51,
+    "at": "2026-11-08T07:16:08Z",
+    "eligible": 46,
     "evaluated": 2,
     "mode": "live",
-    "new_posts": 1,
+    "new_posts": 2,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -704,6 +704,11 @@
       "at": "2026-10-10T01:19:14Z",
       "status": "expired",
       "url": "https://www.anthropic.com/news/cyber-verification-program?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "111971c9cfb19b8bae1731d8": {
+      "at": "2026-11-08T07:15:58Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/cc-auto-review"
     },
     "1165aefccbfb0d903d04ce6c": {
       "at": "2026-10-04T15:54:52Z",
@@ -2918,6 +2923,11 @@
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1"
     },
+    "48950ef873e3e535734f15fb": {
+      "at": "2026-11-08T07:15:58Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2118166187666210823"
+    },
     "48cef287f1df3693668d704e": {
       "at": "2026-10-31T22:41:57Z",
       "status": "expired",
@@ -3108,6 +3118,11 @@
       "at": "2026-10-09T03:09:32Z",
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2107210064549343358"
+    },
+    "4ecf88872512aca21eb4e8ee": {
+      "at": "2026-11-08T07:15:58Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2118166186030518472"
     },
     "4ed713dd821837ee62f373d4": {
       "at": "2026-10-19T23:52:42Z",
@@ -3816,6 +3831,20 @@
       "at": "2026-10-09T17:07:50Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/figma"
+    },
+    "629342dabbd020b03af0f913": {
+      "at": "2026-11-08T07:16:08Z",
+      "bootstrap": false,
+      "score": 91,
+      "status": "published",
+      "story_key": "runway-characters-57b-video-model-h100-optimization",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://runway.com/news/research/real-time-video-at-batch-size-one?utm_source=futuretools.io&utm_medium=newspage"
     },
     "62bd2b4c042758daf6fae090": {
       "at": "2026-10-13T11:42:25Z",
@@ -6522,6 +6551,11 @@
       "at": "2026-10-31T22:41:57Z",
       "status": "expired",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "a68194e3fdd4077c8c92c488": {
+      "at": "2026-11-08T07:15:58Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2118136505046904891"
     },
     "a71c5ae2a139be813758bc08": {
       "at": "2026-10-31T15:17:29Z",
@@ -9580,6 +9614,20 @@
       },
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
     },
+    "f8fbac86abfa7d1a8fba6e78": {
+      "at": "2026-11-08T07:16:03Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "anthropic-project-eve-claude-mmorpg-trading-research",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      },
+      "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "f9009280ad2c5f81dc12ea09": {
       "at": "2026-10-06T20:56:42Z",
       "status": "expired",
@@ -10164,6 +10212,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Anthropic Launches OSS Scanner to Provide Free AI Vulnerability Detection for Open-Source Projects",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
+        "source": "FutureTools AI News"
+      }
+    },
+    "anthropic-project-eve-claude-mmorpg-trading-research": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/anthropic-project-eve-claude-mmorpg-trading-research.jpg",
+      "last_updated": "2026-11-08T07:16:03Z",
+      "post_id": "8553890099364959408",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/anthropic-evaluates-frontier-ai-models.html",
+      "score": 88,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/3412bc3ca96f5ba0b24b3d2284c81a70b0e574df-1668x1238.png",
+      "source_urls": [
+        "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Anthropic Evaluates Frontier AI Models on Economic Decision-Making and Teamwork in EVE Online",
       "trust": {
         "label": "Reasonable",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
@@ -15249,6 +15318,27 @@
         "label": "Reasonable",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
         "score": 64,
+        "source": "FutureTools AI News"
+      }
+    },
+    "runway-characters-57b-video-model-h100-optimization": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/runway-characters-57b-video-model-h100-optimization.jpg",
+      "last_updated": "2026-11-08T07:16:08Z",
+      "post_id": "7031414183625661268",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/runway-cuts-gpu-requirements-for-real.html",
+      "score": 91,
+      "source_image_source": "FutureTools AI News",
+      "source_image_url": "https://d3phaj0sisr2ct.cloudfront.net/site/images/sanity/2026/11/real-time-video-at-batch-size-one-1600x1067-1-94330d13-965f-4a1b-be54-f7c7d2326aa7.png",
+      "source_urls": [
+        "https://runway.com/news/research/real-time-video-at-batch-size-one?utm_source=futuretools.io&utm_medium=newspage"
+      ],
+      "status": "CONFIRMED",
+      "title": "Runway Cuts GPU Requirements for Real-Time 57B Video Diffusion Model to Four H100s",
+      "trust": {
+        "label": "Reasonable",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
+        "score": 62,
         "source": "FutureTools AI News"
       }
     },

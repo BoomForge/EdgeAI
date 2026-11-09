@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-08T23:12:09Z",
+    "at": "2026-11-09T02:53:50Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 1,
+    "queued": 2,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 185,
+  "runs": 186,
   "seen": {
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",
@@ -1456,6 +1456,11 @@
       "first_seen": "2026-11-04T23:37:19Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2118058453415371119"
+    },
+    "2c3ec9e6307c0cffaae731b6": {
+      "first_seen": "2026-11-09T02:53:49Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2119573404990771238"
     },
     "2c8b555f89725b795ac88b8d": {
       "first_seen": "2026-10-08T01:53:43Z",
@@ -7264,6 +7269,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/reset-alerts"
+    },
+    "da2b601c5cef9c0514f783c5": {
+      "first_seen": "2026-11-09T02:53:46Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-4b86cdf0058ec0dd4b41"
     },
     "da32c1eb28451e49ed9f8fc3": {
       "first_seen": "2026-11-01T13:14:08Z",

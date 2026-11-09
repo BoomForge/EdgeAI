@@ -506,6 +506,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "da2b601c5cef9c0514f783c5",
+      "discovered_at": "2026-11-09T02:53:46Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-11-09T02:53:46Z",
+      "search_score": 38,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 08 Nov 2026 \ud83d\udd14 New article published Introducing the Artificial Analysis Decision Index v2 Introducing the Artificial Analysis Decision Index v2: a new proprietary evaluation, updated benchmarks, and a headline metric that rewards model calibration 06 Nov 2026 Modal performance results now available Muse Spark Open (Xhigh) GLM-5.3 (Low) DeepSeek V4.1 Flash 1017 (Non-reasoning) Systalyze performance results now available Muse Spark Open (Xhigh) Scaleway performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available GLM-5.3 (Max) Bitdeer AI performance results now available Nemotron 3.5 Super VL 05 Nov 2026 \ud83d\udd14 New article published Thinking Machines Inkling 2 Small: the highest scoring open weights model outside of China pending weights release Thinking Machines has released Inkling 2 Small, scoring 31 on the Artificial Analysis Intelligence Index - their plan to release its weights would make it the highest-scoring open weights model developed outside China based on current rankings \ud83d\udd14 New article published Nanbeige has released Nanbeige4.3-33B scoring 20 on the Intelligence Index Nanbeige has released Nanbeige4.3-33B, an open weights model matching Qwen3.8 27B (xhigh) at 20 on the Artificial Analysis Intelligence Index v5 with stronger terminal use but weaker knowledge Artificial Analysis Endpoint Accuracy Index methodology Artificial Analysis Endpoint Accuracy Index v1.1 Upgraded AA-LCR-25 to AA-LCR v1.1 and increased repeats from 10 to 25, tightening confidence intervals. Expanded coverage to six open weights models with GLM-5.3 Flash and Muse Spark Open. New language model evaluation results available Inkling 2 Small Intelligence Index: 31 CoreWeave performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Non-reasoning) Modular performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) Modal performance results now available Kimi K3.1 Pro Inco performance results now available Kimi K3.1 Pro SiliconFlow performance results now available Kimi K3.1 Pro Systalyze performance results now available Kimi K3.1 Pro PrimaLabs performance results now available Kimi K3.1 Pro DeepInfra performance results now available Kimi K3.1 Pro Wafer performance results now available Kimi K3.1 Pro LithosAI performance results now available Kimi K3.1 Pro Parasail performance results now available Kimi K3.1 Pro Fireworks performance results now available Kimi K3.1 Pro Baseten performance results now available Kimi K3.1 Pro Nebius performance results now available Kimi K3.1 Pro Together AI performance results now available Kimi K3.1 Pro Thinking Machines performance results now available Inkling 2 Small Mistral performance results now available Mistral Large 4 (High) Mistral Large 4 (Medium) Tencent performance results now available Tencent Hy4 Nunchux performance results now available MiniMax H3 (768p) LTX-2.3 Fast 04 Nov 2026 New language model evaluation results available Muse Wonder (High) Intelligence Index: 41 New language model evaluation results available Tencent Hy4 Intelligence Index: 35 Meta performance results now available Muse Wonder (High) 03 Nov 2026 Artificial Analysis Performance Benchmarking methodology Artificial Analysis Performance Benchmarking v3.0.0 Time per Task is the new headline for comparing models. Output Speed now covers the whole request, including the wait for the first token, and averages single-request and multi-turn agentic workloads. Token counts come from each provider's API. Failures on the endpoint's side count against it, and every endpoint shows an Endpoint Error Rate. Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0.1 Incorporated grading robustness improvements from the CritPt authors and regraded all models on CritPt v2. 02 Nov 2026 New language model evaluation results available Gemini 4 Carbon (Low) Intelligence Index: 54 New language model evaluation results available Nanbeige4.3-33B Intelligence Index: 20 Google performance results now available Gemini 4 Carbon (Low) 01 Nov 2026 New language model evaluation results available Gemini 4 Carbon (Medium) Intelligence Index: 58 New language model evaluation results available DeepSeek V4.1 Flash 1017 (High) Intelligence Index: 29 Google performance results now available Gemini 4 Carbon (Medium) DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (High) 30 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Non-reasoning) In",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-4b86cdf0058ec0dd4b41"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "518bd4488f845065a30ec394",
       "discovered_at": "2026-11-07T00:52:28Z",
       "kind": "independent",
@@ -783,6 +797,20 @@
       "summary": "Anthropic's Claude API Adds Message Threads Beta to Cut Agent Latency by 35% claude.com \u00b7 Show TLDR",
       "title": "Anthropic's Claude API Adds Message Threads Beta to Cut Agent Latency by 35% claude.com \u00b7 Show TLDR",
       "url": "https://claude.com/resources/articles/message-threads?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "2c3ec9e6307c0cffaae731b6",
+      "discovered_at": "2026-11-09T02:53:49Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Nov 8, 2026",
+      "search_score": 19,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch Using an agent that can change its models or code at any time without telling you is like building on quicksand Nov 8, 2026 @NousResearch hermes-agent.nousresearch.com/marketplace/he\u2026 Nov 8, 2026 @NousResearch Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s. Hermes first maps what an attacker could reach and which inputs it trusts. It splits the code across parallel subagents, checks every candidate finding against the code, and traces whether an attacker can actually exploit it. Turn on test confirmation and Hermes writes a small reproduction for each finding and runs it in a temporary copy of the repo. Each report records the evidence and the findings Hermes ruled out, and exports to SARIF for your existing tools. Run it from chat, the CLI, or the Security page in Hermes Desktop. Nov 8, 2026 @NousResearch Eval: huggingface.co/datasets/NousR\u2026 Weights: huggingface.co/NousResearch/A\u2026 Training data: huggingface.co/datasets/NousR\u2026 Nov 6, 2026 @NousResearch nousresearch.com/arete Nov 6, 2026 @NousResearch Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values. Chinese open models are currently the strongest available, but they ship with state-aligned behavior in the weights. We built an 803-prompt eval across seven value categories, including freedom of expression, democracy, and privacy, and measured how often a model adopts China\u2019s party line. After fine-tuning on roughly 53 million tokens, Arete-27B's propaganda rate fell from 22% to 1%, in line with the Western models we tested. Its Hermes Bench score shows no significant performance tradeoffs. The values in an open model are one fine-tune away. Our eval, weights, and training data are available now along with the full blog post: https://t.co/iAOANQTVZ6 Nov 6, 2026 @NousResearch Get more out of your Hermes Bots with free and discounted models exclusive to portal.nousresearch.com Nov 6, 2026 @NousResearch LongCat-2.5, the new multimodal model from @Meituan_LongCat, is free in Nous Portal for one week. Try it free today at portal.nousresearch.com x.com/Meituan_LongCa\u2026 Nov 6, 2026 @NousResearch That's hilarious but you should probably try Hermes which doesn't do that x.com/liamzebedee/st\u2026 Nov 6, 2026 @NousResearch Full release notes: github.com/NousResearch/h\u2026 Nov 5, 2026",
+      "title": "@NousResearch Using an agent that can change its models or code at any time without telling you is like building on quicksand Nov 8, 2026",
+      "url": "https://x.com/NousResearch/status/2119573404990771238"
     },
     {
       "bootstrap": false,
@@ -3460,6 +3488,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-08T23:12:09Z",
+  "updated_at": "2026-11-09T02:53:50Z",
   "version": 2
 }

@@ -506,6 +506,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "bf6da13584ba9ae5becee303",
+      "discovered_at": "2026-11-09T21:33:41Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-11-09T21:33:41Z",
+      "search_score": 41,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 09 Nov 2026 \ud83d\udd14 New article published Meta's Muse Ember is the cheapest model scoring 36 on the Intelligence Index Meta's newest model Muse Ember scores 36 on the Artificial Analysis Intelligence Index, matching Claude Haiku 5.5 (max) at a third of the Cost per Task New language model evaluation results available Claude Fable 5.2 (Max, Default Fallback) Intelligence Index: 65 New language model evaluation results available Claude Fable 5.2 (Low, Default Fallback) Intelligence Index: 54 New language model evaluation results available Claude Fable 5.2 (Medium, Default Fallback) Intelligence Index: 56 New language model evaluation results available Claude Fable 5.2 (High, Default Fallback) Intelligence Index: 62 New language model evaluation results available Claude Fable 5.2 (Xhigh, Default Fallback) Intelligence Index: 62 New language model evaluation results available Muse Ember (Xhigh) Intelligence Index: 34 New language model evaluation results available Muse Ember (Max) Intelligence Index: 36 Anthropic performance results now available Claude Fable 5.2 (Xhigh, Default Fallback) Claude Fable 5.2 (Medium, Default Fallback) Claude Fable 5.2 (Low, Default Fallback) Claude Fable 5.2 (High, Default Fallback) Claude Fable 5.2 (Max, Default Fallback) Meta performance results now available Muse Ember (Xhigh) Muse Ember (Max) 08 Nov 2026 \ud83d\udd14 New article published Introducing the Artificial Analysis Decision Index v2 Introducing the Artificial Analysis Decision Index v2: a new proprietary evaluation, updated benchmarks, and a headline metric that rewards model calibration New language model evaluation results available Agnes 2.5 Pro Theta Intelligence Index: 24 Agnes AI performance results now available Agnes 2.5 Pro Theta 06 Nov 2026 Modal performance results now available Muse Spark Open (Xhigh) GLM-5.3 (Low) DeepSeek V4.1 Flash 1017 (Non-reasoning) Systalyze performance results now available Muse Spark Open (Xhigh) Scaleway performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available GLM-5.3 (Max) Bitdeer AI performance results now available Nemotron 3.5 Super VL 05 Nov 2026 \ud83d\udd14 New article published Thinking Machines Inkling 2 Small: the highest scoring open weights model outside of China pending weights release Thinking Machines has released Inkling 2 Small, scoring 31 on the Artificial Analysis Intelligence Index - their plan to release its weights would make it the highest-scoring open weights model developed outside China based on current rankings \ud83d\udd14 New article published Nanbeige has released Nanbeige4.3-33B scoring 20 on the Intelligence Index Nanbeige has released Nanbeige4.3-33B, an open weights model matching Qwen3.8 27B (xhigh) at 20 on the Artificial Analysis Intelligence Index v5 with stronger terminal use but weaker knowledge Artificial Analysis Endpoint Accuracy Index methodology Artificial Analysis Endpoint Accuracy Index v1.1 Upgraded AA-LCR-25 to AA-LCR v1.1 and increased repeats from 10 to 25, tightening confidence intervals. Expanded coverage to six open weights models with GLM-5.3 Flash and Muse Spark Open. New language model evaluation results available Inkling 2 Small Intelligence Index: 31 CoreWeave performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Non-reasoning) Modular performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) Modal performance results now available Kimi K3.1 Pro Inco performance results now available Kimi K3.1 Pro SiliconFlow performance results now available Kimi K3.1 Pro Systalyze performance results now available Kimi K3.1 Pro PrimaLabs performance results now available Kimi K3.1 Pro DeepInfra performance results now available Kimi K3.1 Pro Wafer performance results now available Kimi K3.1 Pro LithosAI performance results now available Kimi K3.1 Pro Parasail performance results now available Kimi K3.1 Pro Fireworks performance results now available Kimi K3.1 Pro Baseten performance results now available Kimi K3.1 Pro Nebius performance results now available Kimi K3.1 Pro Together AI performance results now available Kimi K3.1 Pro Thinking Machines performance results now available Inkling 2 Small Mistral performance results now available Mistral Large 4 (High) Mistral Large 4 (Medium) Tencent performance results now available Tencent Hy4 Nunchux performance results now available MiniMax H3 (768p) LTX-2.3 Fast 04 Nov 2026 New language model evaluation results available Muse Wonder (High) Intelligence Index: 41 New language model evaluati",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-a14b951bc99b0430c75b"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "00f6e0cc22611c11ae4c3240",
       "discovered_at": "2026-11-09T11:23:01Z",
       "kind": "independent",
@@ -629,20 +643,6 @@
       "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 26 Oct 2026 \ud83d\udd14 New article published GPT-6.1 Terra pushes the cost efficiency frontier OpenAI has released GPT-6.1 Terra, pushing the cost efficiency frontier. It is the first Terra-class model since GPT-5.6, and is more intelligent for less than a third of the cost New language model evaluation results available GPT-6.1 Terra (Non-reasoning) Intelligence Index: 33 New language model evaluation results available GPT-6.1 Terra (Low) Intelligence Index: 36 New language model evaluation results available GPT-6.1 Terra (Medium) Intelligence Index: 41 New language model evaluation results available GPT-6.1 Terra (High) Intelligence Index: 44 New language model evaluation results available GPT-6.1 Terra (Xhigh) Intelligence Index: 45 New language model evaluation results available GPT-6.1 Terra (Max) Intelligence Index: 48 OpenAI performance results now available GPT-6.1 Terra (Non-reasoning) GPT-6.1 Terra (Low) GPT-6.1 Terra (Medium) GPT-6.1 Terra (High) GPT-6.1 Terra (Xhigh) GPT-6.1 Terra (Max) 23 Oct 2026 \ud83d\udd14 New article published Kimi K3.1 Pro launches at 4th on the Intelligence Index and will lead open weights models Kimi K3.1 Pro launches at 4th on the Artificial Analysis Intelligence Index and will lead open weights models New language model evaluation results available Kimi K3.1 Pro Intelligence Index: 55 New language model evaluation results available Nemotron 3.5 Bolt E4B 4GB (Reasoning) Inco performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax-M3.1-Flash MiniMax-M3.1-Flash Nebius performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax-M3.1-Flash Modular performance results now available MiniMax-M3.1-Flash SiliconFlow performance results now available MiniMax-M3.1-Flash Fireworks performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash (Non-reasoning) Wafer performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash 1017 (Max) Together AI performance results now available MiniMax-M3.1-Flash Parasail performance results now available MiniMax-M3.1-Flash GMI performance results now available MiniMax-M3.1-Flash Novita performance results now available MiniMax-M3.1-Flash DigitalOcean performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash 1017 (Max) Kimi performance results now available Kimi K3.1 Pro Kimi K3.1 Pro 22 Oct 2026 New language model evaluation results available Ling 3.1 Flash 1019 Intelligence Index: 44 InclusionAI performance results now available Ling 3.1 Flash 1019 21 Oct 2026 LithosAI performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DigitalOcean performance results now available Beam 1.0 Makora performance results now available DeepSeek V4.1 Flash 1017 (Max) 20 Oct 2026 GMI performance results now available DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available DeepSeek V4.1 Flash 1017 (Max) 19 Oct 2026 \ud83d\udd14 New article published HealthBench and HealthBench Professional: Evaluating models in realistic health conversations We\u2019re launching leaderboards for HealthBench and HealthBench Professional, two benchmarks evaluating how AI models respond in realistic health conversations New language model evaluation results available MiniMax-M3.1-Flash Intelligence Index: 43 SiliconFlow performance results now available DeepSeek V4.1 Flash 1017 (Max) Together AI performance results now available DeepSeek V4.1 Flash 1017 (Max) Novita performance results now available DeepSeek V4.1 Flash 1017 (Max) Systalyze performance results now available GLM-5.2 (Non-reasoning) GLM-5.2 (Max) DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available Nemotron 3.5 Lightning Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax performance results now available MiniMax-M3.1-Flash 18 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Max) Intelligence Index: 45 Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available DeepSeek V4.1 Flash 1017 (Max) Parasail performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepInfra performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (Max) 16 Oct 2026 \ud83d\udd14 New article published Reflection has released Beam, their first model launch Reflection\u2019s first model, Beam, scores 30 on the Artificial Analysis Intelligence Index, placing it #2 among US open weights models New language model evaluation results a",
       "title": "Artificial Analysis benchmark changelog changed",
       "url": "https://artificialanalysis.ai/changelog#edgeai-da66332dc8a97bd94699"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "f317c625fcd712dc85b8cf38",
-      "discovered_at": "2026-10-26T11:34:46Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-10-26T11:34:46Z",
-      "search_score": 32,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 23 Oct 2026 \ud83d\udd14 New article published Kimi K3.1 Pro launches at 4th on the Intelligence Index and will lead open weights models Kimi K3.1 Pro launches at 4th on the Artificial Analysis Intelligence Index and will lead open weights models New language model evaluation results available Kimi K3.1 Pro Intelligence Index: 55 New language model evaluation results available Nemotron 3.5 Bolt E4B 4GB (Reasoning) Inco performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax-M3.1-Flash MiniMax-M3.1-Flash Nebius performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax-M3.1-Flash Modular performance results now available MiniMax-M3.1-Flash SiliconFlow performance results now available MiniMax-M3.1-Flash Fireworks performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash (Non-reasoning) Wafer performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash 1017 (Max) Together AI performance results now available MiniMax-M3.1-Flash Parasail performance results now available MiniMax-M3.1-Flash GMI performance results now available MiniMax-M3.1-Flash Novita performance results now available MiniMax-M3.1-Flash DigitalOcean performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash 1017 (Max) Kimi performance results now available Kimi K3.1 Pro Kimi K3.1 Pro 22 Oct 2026 New language model evaluation results available Ling 3.1 Flash 1019 Intelligence Index: 44 InclusionAI performance results now available Ling 3.1 Flash 1019 21 Oct 2026 LithosAI performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DigitalOcean performance results now available Beam 1.0 Makora performance results now available DeepSeek V4.1 Flash 1017 (Max) 20 Oct 2026 GMI performance results now available DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available DeepSeek V4.1 Flash 1017 (Max) 19 Oct 2026 \ud83d\udd14 New article published HealthBench and HealthBench Professional: Evaluating models in realistic health conversations We\u2019re launching leaderboards for HealthBench and HealthBench Professional, two benchmarks evaluating how AI models respond in realistic health conversations New language model evaluation results available MiniMax-M3.1-Flash Intelligence Index: 43 SiliconFlow performance results now available DeepSeek V4.1 Flash 1017 (Max) Together AI performance results now available DeepSeek V4.1 Flash 1017 (Max) Novita performance results now available DeepSeek V4.1 Flash 1017 (Max) Systalyze performance results now available GLM-5.2 (Non-reasoning) GLM-5.2 (Max) DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available Nemotron 3.5 Lightning Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax performance results now available MiniMax-M3.1-Flash 18 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Max) Intelligence Index: 45 Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available DeepSeek V4.1 Flash 1017 (Max) Parasail performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepInfra performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (Max) 16 Oct 2026 \ud83d\udd14 New article published Reflection has released Beam, their first model launch Reflection\u2019s first model, Beam, scores 30 on the Artificial Analysis Intelligence Index, placing it #2 among US open weights models New language model evaluation results available Beam 1.0 Intelligence Index: 30 Together AI performance results now available Beam 1.0 PrimaLabs performance results now available DeepSeek V4.1 Flash (Max) DeepSeek V4.1 Flash (Non-reasoning) Nemotron 3.5 Super VL Nebius performance results now available Beam 1.0 CoreWeave performance results now available Beam 1.0 Baseten performance results now available Beam 1.0 Nemotron 3.5 Super VL Makora performance results now available Muse Spark Open (Xhigh) 15 Oct 2026 \ud83d\udd14 New article published NVIDIA Releases Nemotron 3.5 Super VL and Nemotron 3.5 Bolt 74B A9B Nvidia\u2019s Nemotron 3.5 Super VL is now the leading US open weight model, scoring 26 on the Artificial Analysis Intelligence Index New language model evaluation results available Solar Pro 4 Intelligence Index: 27 New language model evaluation results available Muse Spark Open (Xhigh) Intelligence Index: 39 New language model evaluation results available Nemotron 3.5 Super VL Intelligence Index: 26 New language model evaluation result",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-a2f70f3b9d12b19cc962"
     },
     {
       "bootstrap": false,
@@ -797,6 +797,20 @@
       "summary": "@NousResearch Get more out of your Hermes Bots with free and discounted models exclusive to portal.nousresearch.com Nov 6, 2026 @NousResearch LongCat-2.5, the new multimodal model from @Meituan_LongCat, is free in Nous Portal for one week. Try it free today at portal.nousresearch.com x.com/Meituan_LongCa\u2026 Nov 6, 2026 @NousResearch That's hilarious but you should probably try Hermes which doesn't do that x.com/liamzebedee/st\u2026 Nov 6, 2026 @NousResearch Full release notes: github.com/NousResearch/h\u2026 Nov 5, 2026 @NousResearch Hermes Agent v0.23.0: The Hearth Release Highlights: - Desktop in a browser tab - One gateway for every conversation - /Rewind - Group Chats with automatic routing - Spend limits for paid tools - Lighter and faster and more Changelog below Nov 5, 2026 @NousResearch Unfuck your hardware with Hermes x.com/0xdippo/status\u2026 Nov 5, 2026 @NousResearch hermes-agent.nousresearch.com/docs/user-guid\u2026 Nov 5, 2026 @NousResearch Wow Nov 5, 2026 @NousResearch Hy4, the new model from @TencentHunyuan, is 80% off in Nous Portal for one week. It adds image input and computer use, and Tencent trained it for game development in Unity, Unreal and Godot and for editing Word, Excel and PowerPoint files. Try it today at https://t.co/uomohWXz34 Nov 5, 2026 @NousResearch The Hermes Agent Plugin Hackathon starts now! It runs for 7 days, with $20,000 in cash prizes and more. Plugins are the most powerful way to extend Hermes Agent, and we want this hackathon to show what they can do. A plugin can change anything from the model Hermes runs on, where it stores its memory, where it runs commands, which messaging apps it works in and what Hermes Desktop shows. Plugins in the marketplace already let Hermes do things like control a phone or turn a photo into a printable 3D model. Every kind of plugin is eligible, so build whatever functionality you want Hermes to have. We'll list accepted entries in the new Hermes Marketplace, where every Hermes user can install them. Prizes 1st: $10,000 + neon sign + merch + $1,000 creds 2nd: $5,000 + neon sign + merch + $1,000 creds 3rd: $2,500 + neon sign + merch + $1,000 creds 4th: $1,500 + merch + $500 creds 5th: $1,000 + merch + $500 creds Runners up (x5): merch + $250 creds Submissions are due 5PM EST on Nov 11th. To enter: 1. Open a pull request that adds your plugin to the Hermes plugin catalog: https://t.co/mXvYukJ0mZ 2. Post a demo video on X and tag @NousResearch 3. Submit both links through the form: https://t.co/jlduHHW3dr Your entry is the plugin itself. Judges score it on usefulness, reliability, polish and creativity, and they favor plugins that do more than a prompt or a skill could. Keep the demo under 90 seconds and show the plugin working. The developer guide shows how to build and test a plugin: https://t.co/FVGjSgjNoV When submissions close, we'll open a thread for every entry in the Nous Research Discord, so you can browse all the plugins and talk to the people who built them. You can submit the form as soon as your pull request is open. The catalog checks run once a maintainer starts them, and we review entries every few days. If you have any questions stop by the Nous Research Discord: https://t.co/qxek9haYeb GLHF! Nov 4, 2026",
       "title": "@NousResearch LongCat-2.5, the new multimodal model from @Meituan_LongCat, is free in Nous Portal for one week. Try it free today at portal.nousresearch.com x.com/Meituan_LongCa\u2026 Nov 6, 2026",
       "url": "https://x.com/NousResearch/status/2118734093105946792"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "cfe3cc0b4d0b634e68194b58",
+      "discovered_at": "2026-11-09T21:33:43Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Nov 9, 2026",
+      "search_score": 24,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch Hermes Cloud agents now open in a browser tab with the exact same interface as Hermes Desktop. https://t.co/4Vw3XJgFwn To launch a personal agent, pick a name and a model in Nous Portal. We host it for you and it runs 24/7 in its own container, so it can handle scheduled jobs and answer you on any channel while your laptop is closed. Chats, Group Chats, plugins and settings in the Webapp work the same way they do when you run Hermes on your own computer. Open your agent from Nous Portal on your phone or any computer, or connect Hermes Desktop to it and continue the same chats there. Plus, Super, and Ultra plans each include one Cloud agent out of the box. Using Hermes from anywhere has never been easier. Nov 9, 2026 @NousResearch Using an agent that can change its models or code at any time without telling you is like building on quicksand Nov 8, 2026 @NousResearch hermes-agent.nousresearch.com/marketplace/he\u2026 Nov 8, 2026 @NousResearch Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s. Hermes first maps what an attacker could reach and which inputs it trusts. It splits the code across parallel subagents, checks every candidate finding against the code, and traces whether an attacker can actually exploit it. Turn on test confirmation and Hermes writes a small reproduction for each finding and runs it in a temporary copy of the repo. Each report records the evidence and the findings Hermes ruled out, and exports to SARIF for your existing tools. Run it from chat, the CLI, or the Security page in Hermes Desktop. Nov 8, 2026 @NousResearch Eval: huggingface.co/datasets/NousR\u2026 Weights: huggingface.co/NousResearch/A\u2026 Training data: huggingface.co/datasets/NousR\u2026 Nov 6, 2026 @NousResearch nousresearch.com/arete Nov 6, 2026 @NousResearch Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values. Chinese open models are currently the strongest available, but they ship with state-aligned behavior in the weights. We built an 803-prompt eval across seven value categories, including freedom of expression, democracy, and privacy, and measured how often a model adopts China\u2019s party line. After fine-tuning on roughly 53 million tokens, Arete-27B's propaganda rate fell from 22% to 1%, in line with the Western models we tested. Its Hermes Bench score shows no significant performance tradeoffs. The values in an open model are one fine-tune away. Our eval, weights, and training data are available now along with the full blog post: https://t.co/iAOANQTVZ6 Nov 6, 2026 @NousResearch Get more out of your Hermes Bots with free and discounted models exclusive to portal.nousresearch.com Nov 6, 2026 @NousResearch LongCat-2.5, the new multimodal model from @Meituan_LongCat, is free in Nous Portal for one week. Try it free today at portal.nousresearch.com x.com/Meituan_LongCa\u2026 Nov 6, 2026 @NousResearch That's hilarious but you should probably try Hermes which doesn't do that x.com/liamzebedee/st\u2026 Nov 6, 2026",
+      "title": "@NousResearch Hermes Cloud agents now open in a browser tab with the exact same interface as Hermes Desktop. https://t.co/4Vw3XJgFwn To launch a personal agent, pick a name and a model in Nous Portal. We host it for you and it runs 24/7 in ",
+      "url": "https://x.com/NousResearch/status/2119851439904510217"
     },
     {
       "bootstrap": false,
@@ -1038,6 +1052,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "56a6eb8a0a23c6afc6e401f1",
+      "discovered_at": "2026-11-09T21:33:40Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 16,
+      "source_name": "FutureTools AI News",
+      "summary": "Anthropic Launches Claude Fable 5.2 & Mythos 5.2 With Major Coding and Reasoning Gains anthropic.com \u00b7 Show TLDR",
+      "title": "Anthropic Launches Claude Fable 5.2 & Mythos 5.2 With Major Coding and Reasoning Gains anthropic.com \u00b7 Show TLDR",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "93776c9c2a6b392fe84f2651",
       "discovered_at": "2026-11-02T19:41:19Z",
       "kind": "independent",
@@ -1077,20 +1105,6 @@
       "summary": "@NousResearch Eval: huggingface.co/datasets/NousR\u2026 Weights: huggingface.co/NousResearch/A\u2026 Training data: huggingface.co/datasets/NousR\u2026 Nov 6, 2026 @NousResearch nousresearch.com/arete Nov 6, 2026 @NousResearch Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values. Chinese open models are currently the strongest available, but they ship with state-aligned behavior in the weights. We built an 803-prompt eval across seven value categories, including freedom of expression, democracy, and privacy, and measured how often a model adopts China\u2019s party line. After fine-tuning on roughly 53 million tokens, Arete-27B's propaganda rate fell from 22% to 1%, in line with the Western models we tested. Its Hermes Bench score shows no significant performance tradeoffs. The values in an open model are one fine-tune away. Our eval, weights, and training data are available now along with the full blog post: https://t.co/iAOANQTVZ6 Nov 6, 2026 @NousResearch Get more out of your Hermes Bots with free and discounted models exclusive to portal.nousresearch.com Nov 6, 2026 @NousResearch LongCat-2.5, the new multimodal model from @Meituan_LongCat, is free in Nous Portal for one week. Try it free today at portal.nousresearch.com x.com/Meituan_LongCa\u2026 Nov 6, 2026 @NousResearch That's hilarious but you should probably try Hermes which doesn't do that x.com/liamzebedee/st\u2026 Nov 6, 2026 @NousResearch Full release notes: github.com/NousResearch/h\u2026 Nov 5, 2026 @NousResearch Hermes Agent v0.23.0: The Hearth Release Highlights: - Desktop in a browser tab - One gateway for every conversation - /Rewind - Group Chats with automatic routing - Spend limits for paid tools - Lighter and faster and more Changelog below Nov 5, 2026 @NousResearch Unfuck your hardware with Hermes x.com/0xdippo/status\u2026 Nov 5, 2026 @NousResearch hermes-agent.nousresearch.com/docs/user-guid\u2026 Nov 5, 2026",
       "title": "@NousResearch nousresearch.com/arete Nov 6, 2026",
       "url": "https://x.com/NousResearch/status/2118830173004902641"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "f686d07c1e559dffea4025a0",
-      "discovered_at": "2026-10-26T17:40:20Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 26, 2026",
-      "search_score": 14,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch With the new Advanced Delegation modes plugin, Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up. The right model or profile for every job. hermes-agent.nousresearch.com/docs/plugins/a\u2026 Oct 26, 2026 @NousResearch Oct 26, 2026 @NousResearch Great time to use the Unbroker skill! x.com/shl0ms/status/\u2026 Oct 26, 2026 @NousResearch Please be careful about downloading third-party apps. The official mobile apps are not in app stores yet, and apps that closely mirror Hermes branding are typically fraudulent and not legitimate community projects. Oct 25, 2026 @NousResearch Oct 25, 2026 @NousResearch Hermes Agent gives you control x.com/yacinemtb/stat\u2026 Oct 24, 2026 @NousResearch See you next week in NYC! x.com/nousresearch/s\u2026 Oct 23, 2026 @NousResearch Your team and your Hermes can now share a computer. The new @trycua Spaces plugin gives Hermes its own Linux, macOS, or Windows Space on hardware you already own. Anyone on your team can open it, watch live, step in, and hand it back while Hermes keeps working. https://t.co/nVs7sCmspk Oct 22, 2026 @NousResearch Meshy is offering Hermes users a month of Pro, which includes API access and 1,000 credits, for $1. After you subscribe and install the plugin, create a key at meshy.ai/developers/keys and paste it into Settings > Plugins > Meshy in Hermes Desktop. meshy.ai/pricing?utm_me\u2026 x.com/NousResearch/s\u2026 Oct 22, 2026 @NousResearch Our CEO @dillonrolnick sat down with @eastdakota, CEO of @Cloudflare, for a wide-ranging conversation about agents, the future of the internet, and the fight for digital sovereignty. Thanks to the @usv team for hosting! x.com/mattcynamon/st\u2026 Oct 22, 2026",
-      "title": "@NousResearch With the new Advanced Delegation modes plugin, Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up. The right model or profile for every job. hermes-agent.nousresearch",
-      "url": "https://x.com/NousResearch/status/2114753914939863260"
     },
     {
       "bootstrap": false,
@@ -1486,20 +1500,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "ba1d377f69ab9ac9fdc93d09",
-      "discovered_at": "2026-10-26T17:40:20Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 26, 2026",
-      "search_score": 10,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch With the new Advanced Delegation modes plugin, Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up. The right model or profile for every job. hermes-agent.nousresearch.com/docs/plugins/a\u2026 Oct 26, 2026 @NousResearch Oct 26, 2026 @NousResearch Great time to use the Unbroker skill! x.com/shl0ms/status/\u2026 Oct 26, 2026 @NousResearch Please be careful about downloading third-party apps. The official mobile apps are not in app stores yet, and apps that closely mirror Hermes branding are typically fraudulent and not legitimate community projects. Oct 25, 2026 @NousResearch Oct 25, 2026 @NousResearch Hermes Agent gives you control x.com/yacinemtb/stat\u2026 Oct 24, 2026 @NousResearch See you next week in NYC! x.com/nousresearch/s\u2026 Oct 23, 2026 @NousResearch Your team and your Hermes can now share a computer. The new @trycua Spaces plugin gives Hermes its own Linux, macOS, or Windows Space on hardware you already own. Anyone on your team can open it, watch live, step in, and hand it back while Hermes keeps working. https://t.co/nVs7sCmspk Oct 22, 2026 @NousResearch Meshy is offering Hermes users a month of Pro, which includes API access and 1,000 credits, for $1. After you subscribe and install the plugin, create a key at meshy.ai/developers/keys and paste it into Settings > Plugins > Meshy in Hermes Desktop. meshy.ai/pricing?utm_me\u2026 x.com/NousResearch/s\u2026 Oct 22, 2026 @NousResearch Our CEO @dillonrolnick sat down with @eastdakota, CEO of @Cloudflare, for a wide-ranging conversation about agents, the future of the internet, and the fight for digital sovereignty. Thanks to the @usv team for hosting! x.com/mattcynamon/st\u2026 Oct 22, 2026",
-      "title": "@NousResearch Oct 26, 2026",
-      "url": "https://x.com/NousResearch/status/2114743313685176544"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "a71c5ae2a139be813758bc08",
       "discovered_at": "2026-10-29T19:17:17Z",
       "kind": "signal",
@@ -1878,6 +1878,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "eb1abaa856dddb582463b1f1",
+      "discovered_at": "2026-11-09T21:33:40Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 8,
+      "source_name": "FutureTools AI News",
+      "summary": "Google Maps Platform Now Available in AI Studio With Free No-Credit-Card API Access developers.googleblog.com \u00b7 Show TLDR",
+      "title": "Google Maps Platform Now Available in AI Studio With Free No-Credit-Card API Access developers.googleblog.com \u00b7 Show TLDR",
+      "url": "https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "7c2e6b695922eea984fdeab2",
+      "discovered_at": "2026-11-09T21:33:40Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 8,
+      "source_name": "FutureTools AI News",
+      "summary": "ElevenLabs Launches ElevenAgents Campaign Manager for AI-Powered Outbound Calls elevenlabs.io \u00b7 Show TLDR",
+      "title": "ElevenLabs Launches ElevenAgents Campaign Manager for AI-Powered Outbound Calls elevenlabs.io \u00b7 Show TLDR",
+      "url": "https://elevenlabs.io/blog/elevenagents-campaign-manager?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "5963f0ac8271398585a3f280",
       "discovered_at": "2026-11-09T11:23:00Z",
       "kind": "independent",
@@ -1903,34 +1931,6 @@
       "summary": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NES emulator working on it, and then went a step further and deployed an emulator for both the Game Boy and the Game Boy Color. Which means, if you can obtain the ROM, you can run The Legend of Zelda: Link's Awakening on your conference badge! A neat feature of the badge is that you can turn it upside down and then use game controller touch buttons that are built into the badge body. Tags: games , github , hardware-hacking , ai , generative-ai , llms , gemini , steve-francia",
       "title": "Game Boy Color on My Conference Badge",
       "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "de56fb996b09bd2941430391",
-      "discovered_at": "2026-10-26T21:56:06Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-26T19:00:25+00:00",
-      "search_score": 6,
-      "source_name": "Simon Willison Everything",
-      "summary": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they have discovered something journalistically notable and that 404 Media, specifically, can help them. \u2014 Jason Koebler , ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems Tags: jason-koebler , openai , journalism , ai , llms , ai-ethics , ai-misuse , generative-ai , chatgpt , 404-media",
-      "title": "Quoting Jason Koebler",
-      "url": "https://simonwillison.net/2026/Oct/26/jason-koebler/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "b8742f8aa2b36a661caf6169",
-      "discovered_at": "2026-10-26T17:40:15Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 6,
-      "source_name": "FutureTools AI News",
-      "summary": "Anthropic Files S-1 with SEC, Plans Nasdaq IPO Under Symbol \"ANT anthropic.com \u00b7 Show TLDR",
-      "title": "Anthropic Files S-1 with SEC, Plans Nasdaq IPO Under Symbol \"ANT anthropic.com \u00b7 Show TLDR",
-      "url": "https://www.anthropic.com/news/s1-sec?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2228,6 +2228,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "7da16fb58ab2d3e1fea6cf10",
+      "discovered_at": "2026-11-09T21:33:40Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "ChatGPT Enterprise Launches on AWS Marketplace for Simplified Enterprise Procurement openai.com \u00b7 Show TLDR",
+      "title": "ChatGPT Enterprise Launches on AWS Marketplace for Simplified Enterprise Procurement openai.com \u00b7 Show TLDR",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "db8aad7567ee0d78097e3d53",
       "discovered_at": "2026-11-06T20:59:29Z",
       "kind": "independent",
@@ -2396,20 +2410,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "db71bb0ca35a812059311a36",
-      "discovered_at": "2026-10-27T01:27:26Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-26T16:15:00+00:00",
-      "search_score": 3,
-      "source_name": "Simon Willison Everything",
-      "summary": "Research: webframe: evaluated as a scraper and a sandbox webframe is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden headless web view and outputs console.log() to standard output and any exceptions to standard error. It's written in Go on top of the glaze library, which provides access to a system browser (\"WKWebView on macOS, WebKitGTK on Linux, WebView2 on Windows\") so it doesn't need to bundle its own browser engine. It reminds me of my own shot-scraper javascript tool, albeit in a much smaller package that doesn't depend on Playwright. I had Claude Opus 5.5 put it through its paces and prepare a research report for me. Here's the prompt I used: Explore https://github.com/tractordev/webframe try running it and put it though its paces, build a few exploratory prototypes, then evaluate it as a potential sandboxing tool and as a tool for scraping web pages using the same patterns encouraged by the \"shot-scraper JavaScript\" command (see simonw/shot-scraper on GitHub, docs directory) Tags: browsers , go , javascript , jeff-lindsay , shot-scraper",
-      "title": "webframe: evaluated as a scraper and a sandbox",
-      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "a02276a4c93026a81a029cfa",
       "discovered_at": "2026-11-04T17:58:24Z",
       "kind": "primary-signal",
@@ -2435,34 +2435,6 @@
       "summary": "@NousResearch Nov 4, 2026 @NousResearch Congrats @Wronglebowsk \ud83e\udd20 Nov 4, 2026 @NousResearch Would you rock this Nov 4, 2026 @NousResearch Thank you to everyone who traveled from across the world to NousCon 2026. We loved spending time with the people who make the Hermes community great. As you all know, we released the Hermes Mobile beta at the event, and as anticipated it filled up quickly. We are working tirelessly to free up more room in the beta, and to get the app production ready for wider release. The feedback has been incredible so far, and we are excited to share it with the world soon. In the meantime, please join the waitlist at https://t.co/Oszcqj0vfO Nov 3, 2026 @NousResearch github.com/NousResearch/h\u2026 Nov 2, 2026 @NousResearch > hermes migrate grok-bot x.com/elonmusk/statu\u2026 Nov 2, 2026 @NousResearch That was crazy Oct 31, 2026 @NousResearch Happy NousCon day to all who observe Oct 30, 2026 @NousResearch The person with the most potent aura tomorrow night will receive a 36 inch Nous neon sign, normally retailing for just under $420.7 plus shipping Prepare accordingly x.com/witcheer/statu\u2026 Oct 30, 2026 @NousResearch Tomorrow gonna be a movie fr (If they made movies about Discord groups that do foundational research and post-training then blossom into companies that proliferate the most widely used open source agent harness in the world that host an annual conference every year except it's actually more like a big party slash beta test slash merch distribution mechanism) Oct 29, 2026",
       "title": "@NousResearch Congrats @Wronglebowsk \ud83e\udd20 Nov 4, 2026",
       "url": "https://x.com/NousResearch/status/2117995883279028431"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "1261b387692fef6ca9f0ac5e",
-      "discovered_at": "2026-10-26T17:40:15Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 2,
-      "source_name": "FutureTools AI News",
-      "summary": "Google Launches \"Polar Peaks\" AI Quest Teaching Students Brain Mapping & Neuroscience blog.google \u00b7 Show TLDR",
-      "title": "Google Launches \"Polar Peaks\" AI Quest Teaching Students Brain Mapping & Neuroscience blog.google \u00b7 Show TLDR",
-      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "4969031d951b71c9edf39b46",
-      "discovered_at": "2026-10-26T17:40:15Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 2,
-      "source_name": "FutureTools AI News",
-      "summary": "r/opensource Bans All AI-Related Projects, Requires 3+ Contributors and 1-Year History reddit.com \u00b7 Show TLDR",
-      "title": "r/opensource Bans All AI-Related Projects, Requires 3+ Contributors and 1-Year History reddit.com \u00b7 Show TLDR",
-      "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai/?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2844,6 +2816,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "f920427e7b9c37b597f61690",
+      "discovered_at": "2026-11-09T21:33:40Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 0,
+      "source_name": "FutureTools AI News",
+      "summary": "NVIDIA CEO Jensen Huang Admits Infidelity as Board Launches National Security Investigation nvidia.com \u00b7 Show TLDR",
+      "title": "NVIDIA CEO Jensen Huang Admits Infidelity as Board Launches National Security Investigation nvidia.com \u00b7 Show TLDR",
+      "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "cb210e1bfd7e397053a30246",
+      "discovered_at": "2026-11-09T21:33:40Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 0,
+      "source_name": "FutureTools AI News",
+      "summary": "Nvidia's Jensen Huang Had Romantic Ties to Alleged Chinese MSS Spy, US Believes ft.com Paywalled \u00b7 Show TLDR",
+      "title": "Nvidia's Jensen Huang Had Romantic Ties to Alleged Chinese MSS Spy, US Believes ft.com Paywalled \u00b7 Show TLDR",
+      "url": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "53fc8d7d6a6c5b77f7b7d107",
       "discovered_at": "2026-11-08T08:01:52Z",
       "kind": "signal",
@@ -2855,20 +2855,6 @@
       "summary": "Command your Claude Code and Codex agents with gestures Discussion | Link",
       "title": "Agent Clan",
       "url": "https://www.producthunt.com/products/agent-clan"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "0b3e7ad5951291266db5d6d2",
-      "discovered_at": "2026-10-29T13:31:50Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-26T06:58:42-07:00",
-      "search_score": 9,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "New AI agent, 1,650+ apps, Skills and smart model routing Discussion | Link",
-      "title": "Intrascope 2.0",
-      "url": "https://www.producthunt.com/products/intrascope-app"
     },
     {
       "bootstrap": false,
@@ -2967,20 +2953,6 @@
       "summary": "Click any UI bug on localhost. Your AI agent fixes it. Discussion | Link",
       "title": "PulseDev",
       "url": "https://www.producthunt.com/products/pulsedev"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "d84f30af7d5d46557d6d59c7",
-      "discovered_at": "2026-10-27T12:46:49Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-26T13:06:22-07:00",
-      "search_score": 7,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Hand your financial admin to your AI agent Discussion | Link",
-      "title": "Nuvio 5.0",
-      "url": "https://www.producthunt.com/products/nuvio"
     },
     {
       "bootstrap": false,
@@ -3219,20 +3191,6 @@
       "summary": "Better data. Smarter robots. Repeat. Discussion | Link",
       "title": "Voxel51 Multimodal",
       "url": "https://www.producthunt.com/products/voxel51"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "0401dd5d09d4fe38b58b68d7",
-      "discovered_at": "2026-10-28T08:23:12Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-26T09:38:07-07:00",
-      "search_score": 4,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Open-source, on device alternative to Claude and ChatGPT Discussion | Link",
-      "title": "Hob",
-      "url": "https://www.producthunt.com/products/hob-3"
     },
     {
       "bootstrap": false,
@@ -3499,9 +3457,23 @@
       "summary": "Check if AI agents can use your website Discussion | Link",
       "title": "Dedica",
       "url": "https://www.producthunt.com/products/dedica"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "5b5342279aed01a5a7bf76a8",
+      "discovered_at": "2026-11-09T21:33:40Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-07T08:27:33-08:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Secure and share your personal data with AI tools. Discussion | Link",
+      "title": "Egoist AI Passport",
+      "url": "https://www.producthunt.com/products/egoist-ai-passport"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-09T11:23:05Z",
+  "updated_at": "2026-11-09T21:33:44Z",
   "version": 2
 }

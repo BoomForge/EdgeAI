@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-09T11:23:05Z",
+    "at": "2026-11-09T21:33:44Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 7,
-    "queued": 5,
+    "prefiltered": 1,
+    "queued": 9,
     "sources_ok": 15,
-    "too_old": 12,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 187,
+  "runs": 188,
   "seen": {
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",
@@ -1226,6 +1226,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/fswitcher"
+    },
+    "234896ff290542c0a73b3722": {
+      "first_seen": "2026-11-09T21:33:40Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/cue-voice-keyboard"
     },
     "23b886bef1cf374a04a163f9": {
       "first_seen": "2026-10-09T07:47:52Z",
@@ -2951,6 +2957,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/nock-2"
     },
+    "56a6eb8a0a23c6afc6e401f1": {
+      "first_seen": "2026-11-09T21:33:40Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "56df3be0422e0863012d9566": {
       "first_seen": "2026-10-10T11:25:13Z",
       "status": "too_old",
@@ -3116,6 +3127,11 @@
       "first_seen": "2026-10-15T19:05:42Z",
       "status": "queued",
       "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "5b5342279aed01a5a7bf76a8": {
+      "first_seen": "2026-11-09T21:33:40Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/egoist-ai-passport"
     },
     "5b8ee58e3c5f60e84d27c235": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -4303,6 +4319,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/notchpit"
     },
+    "7c2e6b695922eea984fdeab2": {
+      "first_seen": "2026-11-09T21:33:40Z",
+      "status": "queued",
+      "url": "https://elevenlabs.io/blog/elevenagents-campaign-manager?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "7c363a9f000ae8a44318f09f": {
       "first_seen": "2026-10-27T18:23:54Z",
       "status": "queued",
@@ -4349,6 +4370,11 @@
       "first_seen": "2026-11-06T00:11:00Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/okapi-2"
+    },
+    "7da16fb58ab2d3e1fea6cf10": {
+      "first_seen": "2026-11-09T21:33:40Z",
+      "status": "queued",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "7db4974c11ebd58e1ae24279": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -6527,6 +6553,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/pomerado"
     },
+    "bf6da13584ba9ae5becee303": {
+      "first_seen": "2026-11-09T21:33:41Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-a14b951bc99b0430c75b"
+    },
     "bf81a86bdbb1e23bc30a36a9": {
       "first_seen": "2026-10-07T02:36:55Z",
       "status": "too_old",
@@ -6877,6 +6908,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/boltbar"
     },
+    "cb210e1bfd7e397053a30246": {
+      "first_seen": "2026-11-09T21:33:40Z",
+      "status": "queued",
+      "url": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "cb2dfe93fb8302574b96024d": {
       "first_seen": "2026-10-30T09:55:37Z",
       "search_score": 0,
@@ -7024,6 +7060,11 @@
       "first_seen": "2026-11-09T11:23:00Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Nov/9/details-summary/"
+    },
+    "cfe3cc0b4d0b634e68194b58": {
+      "first_seen": "2026-11-09T21:33:43Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2119851439904510217"
     },
     "cfe4955cd22f709a4db34062": {
       "first_seen": "2026-10-27T12:46:49Z",
@@ -7904,6 +7945,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/nana-2"
     },
+    "eb1abaa856dddb582463b1f1": {
+      "first_seen": "2026-11-09T21:33:40Z",
+      "status": "queued",
+      "url": "https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "eb333a2d7512ce898ff99eac": {
       "first_seen": "2026-10-22T07:30:04Z",
       "status": "too_old",
@@ -8420,6 +8466,11 @@
       "first_seen": "2026-10-15T09:50:31Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/talanoa-2"
+    },
+    "f920427e7b9c37b597f61690": {
+      "first_seen": "2026-11-09T21:33:40Z",
+      "status": "queued",
+      "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company?utm_source=futuretools.io&utm_medium=newspage"
     },
     "f92d3babf75023b63f271b2e": {
       "first_seen": "2026-10-15T05:00:27Z",

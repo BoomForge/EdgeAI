@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-09T02:53:50Z",
+    "at": "2026-11-09T11:23:05Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 2,
+    "prefiltered": 7,
+    "queued": 5,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 12,
     "warnings": 0
   },
-  "runs": 186,
+  "runs": 187,
   "seen": {
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",
@@ -26,6 +26,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/backdrop"
+    },
+    "00f6e0cc22611c11ae4c3240": {
+      "first_seen": "2026-11-09T11:23:01Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-8a9b7216253725afc1ae"
     },
     "00fe22e92cb030d385660f8f": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -72,6 +77,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://elevenlabs.io/blog/eleven-v4"
+    },
+    "02a83ec8e080f21833c50715": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/watchflows"
     },
     "02eca8b590f2b78dd2414766": {
       "first_seen": "2026-10-21T20:18:30Z",
@@ -647,6 +657,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/kooler-2"
     },
+    "13f04efd84195f429eada367": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/calmly-script"
+    },
     "13f6715dee2d2ebe145c350e": {
       "first_seen": "2026-10-29T13:31:50Z",
       "status": "too_old",
@@ -1004,6 +1019,11 @@
       "first_seen": "2026-10-15T09:50:31Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/dreamscale-labs"
+    },
+    "1cffe806e46ef2ed6fda194c": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/flic-cue"
     },
     "1d00dfe21278d2e6b0949ff5": {
       "first_seen": "2026-10-12T15:14:38Z",
@@ -1704,6 +1724,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/zcad-ai"
     },
+    "32cf753613ff7d62a7e893b7": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/7/hn-50407316/"
+    },
     "32da18236359cdad3ae873dc": {
       "first_seen": "2026-11-06T15:17:29Z",
       "status": "too_old",
@@ -1991,10 +2016,21 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/harness-by-autonomous"
     },
+    "3ab36cae034414424f99747c": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/github"
+    },
     "3ae01dd0a209187b6545ad44": {
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/famrelay"
+    },
+    "3b144701f1e5458b6b4c85a6": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/panda-video"
     },
     "3b573e0f859d9797b2cfc3ab": {
       "first_seen": "2026-10-20T10:21:00Z",
@@ -2137,6 +2173,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/contextgem"
     },
+    "3f6ad937605d2e0f4f20eead": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/arcjet"
+    },
     "3f8abf82bd643f9564db08c6": {
       "first_seen": "2026-11-01T13:14:08Z",
       "status": "too_old",
@@ -2203,6 +2244,11 @@
       "first_seen": "2026-10-08T16:25:55Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/isle-notch"
+    },
+    "4104450b512f4e78f61ce3a5": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "status": "too_old",
+      "url": "https://simonwillison.net/2026/Nov/3/hn-50354278/"
     },
     "41255b61e1f9956d40ac867f": {
       "first_seen": "2026-11-06T15:17:29Z",
@@ -2790,6 +2836,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/"
     },
+    "545a6906e2f866e2cbfca194": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/appwrite"
+    },
     "546ee585b64064600c6b9739": {
       "first_seen": "2026-10-19T17:12:31Z",
       "status": "queued",
@@ -3008,6 +3060,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/wattmate"
     },
+    "5963f0ac8271398585a3f280": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/"
+    },
     "5984d25b2ab1bfd68c20c541": {
       "first_seen": "2026-10-26T11:34:46Z",
       "status": "too_old",
@@ -3095,6 +3152,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/switch-lab"
+    },
+    "5c6f4d3660384412e60db208": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/databox"
     },
     "5c98b69c446552546ce6d49c": {
       "first_seen": "2026-10-13T10:55:50Z",
@@ -4519,6 +4581,11 @@
       "first_seen": "2026-10-22T21:35:20Z",
       "status": "queued",
       "url": "https://openai.com/index/decisions-api/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "83f553b295efd3003a35144f": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/agent-powered-geo-by-dageno"
     },
     "841ee1c059d03c53236d2c27": {
       "first_seen": "2026-11-03T09:27:30Z",
@@ -5952,6 +6019,11 @@
       "status": "queued",
       "url": "https://runway.com/research/introducing-runway-gen-4.5"
     },
+    "afa5d6eca38aa347b35a2220": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/cardboard-3"
+    },
     "afb57b23b0892f028d1184ff": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "queued",
@@ -6006,6 +6078,12 @@
       "first_seen": "2026-10-05T18:53:48Z",
       "status": "too_old",
       "url": "https://simonwillison.net/2026/Oct/1/pwasm/"
+    },
+    "b15450a002b60d578692c037": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/north-5"
     },
     "b16ce43b6230ac3b7ed6f521": {
       "first_seen": "2026-10-03T15:15:03Z",
@@ -6592,6 +6670,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/harness-104"
     },
+    "c395b6fa6e5f136f6c1e8733": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/terse-durable-actors"
+    },
     "c39be7b7ef76e252eff5eeb7": {
       "first_seen": "2026-10-27T12:46:49Z",
       "status": "too_old",
@@ -6611,6 +6694,12 @@
       "first_seen": "2026-11-07T00:52:28Z",
       "status": "queued",
       "url": "https://www.anthropic.com/research/components-of-agent-memory?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "c43683633304318e441d3a48": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/clipspal"
     },
     "c46bbbf0a082f7a26c70f0ae": {
       "first_seen": "2026-11-07T07:03:43Z",
@@ -6856,6 +6945,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/notra-3"
     },
+    "ccd33b7c67eb3eea79191fd8": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/if-you-read-this"
+    },
     "ccf00074d984add5493dbead": {
       "first_seen": "2026-10-09T07:47:51Z",
       "search_score": 0,
@@ -6925,6 +7020,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/wavefunction"
     },
+    "cfd192eda4f22e6c6e731ed7": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/"
+    },
     "cfe4955cd22f709a4db34062": {
       "first_seen": "2026-10-27T12:46:49Z",
       "status": "too_old",
@@ -6935,6 +7035,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/simo-3"
+    },
+    "cfe8e6b2e2d3a0222ae7e4e5": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/pawse-ai"
     },
     "d0103d243f213f75b5c2ce44": {
       "first_seen": "2026-10-25T05:23:22Z",
@@ -7483,6 +7588,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/bambu-lab-h3c"
     },
+    "e001b07f22b2cbd775049f8c": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/higgsfield"
+    },
     "e01699418682ed5521b2c47a": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -7929,6 +8040,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/pickle-sensei-dink-coach"
     },
+    "ef1bb88f93cdc7e9e54093ad": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/vygr"
+    },
     "ef3b85f79100b92e24e403cc": {
       "first_seen": "2026-10-27T22:30:09Z",
       "status": "queued",
@@ -8342,6 +8458,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/royak"
     },
+    "fa2f5e4ba4df827682f19bc9": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/skuttr"
+    },
     "fa3c1fe4e6a36de5ad2f2484": {
       "first_seen": "2026-11-03T01:51:09Z",
       "status": "queued",
@@ -8416,6 +8538,11 @@
       "first_seen": "2026-10-22T13:13:50Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/kalender-sync"
+    },
+    "fe0a3aa9e4a1aef831e8f058": {
+      "first_seen": "2026-11-09T11:23:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/hounddog-ai-static-code-scanner-2"
     },
     "fe1f2f0ee9507d19b02640e1": {
       "first_seen": "2026-10-12T22:33:10Z",

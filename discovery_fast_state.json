@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-08T23:48:18Z",
+    "at": "2026-11-09T05:26:22Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 0,
+    "queued": 24,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 187,
+  "runs": 188,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -152,6 +152,11 @@
       "first_seen": "2026-10-03T00:45:50Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/"
+    },
+    "05ba636b561533f28a0d76ea": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08833"
     },
     "05e49555d6885421fdc12949": {
       "first_seen": "2026-10-03T00:45:54Z",
@@ -383,6 +388,11 @@
       "first_seen": "2026-11-02T10:42:42Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40966"
+    },
+    "0c1cae3db16d1e8c0cfd6759": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08505"
     },
     "0c709df81efddcad76734304": {
       "first_seen": "2026-10-20T22:27:10Z",
@@ -704,6 +714,11 @@
       "first_seen": "2026-10-22T07:18:23Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.28693"
+    },
+    "12cd4e1837f040ae377322d2": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08578"
     },
     "130a6ee92052ca3b5899c826": {
       "first_seen": "2026-10-12T19:18:33Z",
@@ -1526,6 +1541,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40728"
     },
+    "25a562d39f0af4246d659903": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08541"
+    },
     "25b0ab25e0a380fbf4bda66f": {
       "first_seen": "2026-10-16T14:55:41Z",
       "status": "queued",
@@ -1622,6 +1642,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge-on-shelves-now/"
+    },
+    "2794a3243a2e83c361980899": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08538"
     },
     "27a7527a54e29bd1beb4039a": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -1789,6 +1814,11 @@
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/v4.1.23"
     },
+    "2bbcbe3ac203ce7622b5f823": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08649"
+    },
     "2c0d25407f7cdc15def32aa1": {
       "first_seen": "2026-11-02T10:42:49Z",
       "status": "queued",
@@ -1898,6 +1928,11 @@
       "first_seen": "2026-10-08T14:56:12Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11500"
+    },
+    "2ecf47a2ef797241402d4453": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08561"
     },
     "2f00b868c6925064dbefd66b": {
       "first_seen": "2026-10-14T22:37:19Z",
@@ -2298,6 +2333,11 @@
       "status": "queued",
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.11.0"
     },
+    "39ffeccec83e6a89a32cb1ca": {
+      "first_seen": "2026-11-09T05:26:09Z",
+      "status": "queued",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.3"
+    },
     "3a009819ab2b072c059c7c97": {
       "first_seen": "2026-10-18T09:52:51Z",
       "status": "queued",
@@ -2327,6 +2367,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10615"
+    },
+    "3aa6adfb5b802cd658d85bf8": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08784"
     },
     "3ad6c9bd8091181b75763a69": {
       "first_seen": "2026-10-03T22:01:59Z",
@@ -2465,6 +2510,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.0"
     },
+    "3d9ef9569268b12b49105716": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08645"
+    },
     "3dce2ac03e5d2d4c1b174454": {
       "first_seen": "2026-10-12T09:23:59Z",
       "status": "queued",
@@ -2499,6 +2549,11 @@
       "first_seen": "2026-10-08T07:31:45Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.92"
+    },
+    "3edce4511948e151954bcf76": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08794"
     },
     "3ef310cbc0f6a8c1b6759b24": {
       "first_seen": "2026-10-22T07:18:23Z",
@@ -3335,6 +3390,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/"
     },
+    "52a99d3301da8910d2827b80": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08651"
+    },
     "52c93fcf6b24dbf372a96565": {
       "first_seen": "2026-10-16T21:43:55Z",
       "status": "queued",
@@ -3485,6 +3545,11 @@
       "first_seen": "2026-11-05T05:50:00Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.05562"
+    },
+    "56afa021fe40ac6bd98b2b85": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08639"
     },
     "56c3e617dcc3857375b28b82": {
       "first_seen": "2026-10-14T22:37:10Z",
@@ -4246,6 +4311,11 @@
       "first_seen": "2026-10-28T19:52:37Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    },
+    "6830993edfe1adf8def39d1b": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08610"
     },
     "684555a3270c71ead40bec5f": {
       "first_seen": "2026-10-30T01:50:28Z",
@@ -5292,6 +5362,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12050"
     },
+    "833124248916cfb2704b549e": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08780"
+    },
     "833bda6d1c7777e35dda0b14": {
       "first_seen": "2026-10-16T05:36:48Z",
       "status": "queued",
@@ -5488,6 +5563,11 @@
       "first_seen": "2026-10-21T05:49:09Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7"
+    },
+    "86f9c103a896d630dbe524c5": {
+      "first_seen": "2026-11-09T05:26:20Z",
+      "status": "queued",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.39"
     },
     "872457bb1f6a4e1ad755dbb7": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -6239,6 +6319,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22457"
     },
+    "98b383551c6aa28d0bbdfcac": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08631"
+    },
     "98ed6b0091ba15d1f4d616c1": {
       "first_seen": "2026-10-16T05:36:45Z",
       "status": "queued",
@@ -6704,6 +6789,11 @@
       "first_seen": "2026-11-04T18:14:02Z",
       "status": "queued",
       "url": "https://openai.com/index/daybreak-red-aws-govcloud"
+    },
+    "a3436413128f94bd44919ae3": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08555"
     },
     "a390f1821d8ae660facddf9b": {
       "first_seen": "2026-10-12T09:24:08Z",
@@ -7378,6 +7468,11 @@
       "first_seen": "2026-10-10T19:21:11Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11551"
+    },
+    "b5395ffbf42558a3da739e1b": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08643"
     },
     "b53d42e9c538fd7656efa2b9": {
       "first_seen": "2026-11-03T10:03:42Z",
@@ -8217,6 +8312,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.14005"
     },
+    "ca1bf0e04d9efe6e4c9c5c55": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08730"
+    },
     "ca1e9b27c57e709059a075d0": {
       "first_seen": "2026-10-21T23:26:57Z",
       "status": "queued",
@@ -8559,6 +8659,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12061"
     },
+    "d128f984dce6db5546229830": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08711"
+    },
     "d1805e3f2f0da44c46b2b874": {
       "first_seen": "2026-10-21T05:49:09Z",
       "status": "queued",
@@ -8850,6 +8955,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "too_old",
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.8.0"
+    },
+    "d8cab921c6e1cd15651cfc81": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08683"
     },
     "d8e1fb9d8f652d1699ad446e": {
       "first_seen": "2026-10-22T07:18:23Z",
@@ -9320,6 +9430,11 @@
       "first_seen": "2026-10-24T09:06:36Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11854"
+    },
+    "e2aa06bb3ae656219b7888fc": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08778"
     },
     "e2b600cde6cb4a781c94aba5": {
       "first_seen": "2026-10-07T09:14:31Z",
@@ -10380,6 +10495,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02251"
+    },
+    "fb7bea545f01a49129498f6e": {
+      "first_seen": "2026-11-09T05:25:55Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.08704"
     },
     "fb9b71b9aeee89562a94ea6a": {
       "first_seen": "2026-10-15T19:14:53Z",

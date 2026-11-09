@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-09T05:26:22Z",
+    "at": "2026-11-09T14:19:47Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 24,
+    "prefiltered": 1,
+    "queued": 9,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 188,
+  "runs": 189,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -51,6 +51,11 @@
       "first_seen": "2026-10-28T07:28:01Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.33030"
+    },
+    "016ba8533bb9699e8b512010": {
+      "first_seen": "2026-11-09T14:19:20Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12213"
     },
     "01809a964fe30087f06bf5cc": {
       "first_seen": "2026-11-06T21:37:07Z",
@@ -1264,6 +1269,11 @@
       "status": "queued",
       "url": "https://openai.com/index/low-resource-programming-languages"
     },
+    "1dc4889f48ea994fba6bc87f": {
+      "first_seen": "2026-11-09T14:19:20Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12220"
+    },
     "1dc67391a9e2cf42818e7b9f": {
       "first_seen": "2026-10-08T14:56:24Z",
       "status": "queued",
@@ -2162,6 +2172,11 @@
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20860"
+    },
+    "34b676d5827d19005fdcbcbf": {
+      "first_seen": "2026-11-09T14:19:20Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12219"
     },
     "34e7d62615202d0de65fe802": {
       "first_seen": "2026-11-03T23:00:43Z",
@@ -4049,6 +4064,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc0"
     },
+    "62cba07321a0571c690234a8": {
+      "first_seen": "2026-11-09T14:19:20Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12221"
+    },
     "62e8e20e7391685c56366edf": {
       "first_seen": "2026-10-28T07:28:01Z",
       "status": "queued",
@@ -4785,6 +4805,11 @@
       "first_seen": "2026-10-03T00:46:21Z",
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.49.0"
+    },
+    "7242616aff88183617ba8df2": {
+      "first_seen": "2026-11-09T14:19:20Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12214"
     },
     "7244c29cc7dd8333243d151c": {
       "first_seen": "2026-10-21T16:05:49Z",
@@ -5759,6 +5784,12 @@
       "first_seen": "2026-10-26T05:16:26Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31808"
+    },
+    "8c61bcf695b625dd50671d19": {
+      "first_seen": "2026-11-09T14:19:13Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/shopping/holiday-100-gift-guide-2026/"
     },
     "8c69d8b194f3a59980d12712": {
       "first_seen": "2026-10-21T05:49:00Z",
@@ -7226,6 +7257,11 @@
       "first_seen": "2026-10-29T17:31:45Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/update-resume-with-gemini/"
+    },
+    "aecd57586d6d2fc7d706c040": {
+      "first_seen": "2026-11-09T14:19:20Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12223"
     },
     "aed6b05c79d200ebc7e6647d": {
       "first_seen": "2026-10-30T15:07:15Z",
@@ -8905,6 +8941,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31810"
     },
+    "d777aa3a0b01afdcbec0b58a": {
+      "first_seen": "2026-11-09T14:19:20Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12224"
+    },
     "d77e0f3435d490169f9e767f": {
       "first_seen": "2026-10-24T09:06:47Z",
       "status": "queued",
@@ -9512,6 +9553,11 @@
       "status": "queued",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.12"
     },
+    "e4b2875426bca7aa4027a58e": {
+      "first_seen": "2026-11-09T14:19:20Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12212"
+    },
     "e4c34a60fa6e9314307b8b1a": {
       "first_seen": "2026-10-25T17:13:48Z",
       "status": "queued",
@@ -9706,6 +9752,11 @@
       "first_seen": "2026-10-06T23:06:53Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11454"
+    },
+    "e9950a58c8925934c58a1e8f": {
+      "first_seen": "2026-11-09T14:19:13Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
     },
     "e9ad1bdc518b3917e6423641": {
       "first_seen": "2026-11-05T05:50:00Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-09T14:19:47Z",
+    "at": "2026-11-09T23:28:48Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 9,
+    "prefiltered": 0,
+    "queued": 19,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 189,
+  "runs": 190,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -102,6 +102,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/products-and-platforms/products/education/media-teacher-gemini/"
+    },
+    "02e9abf47eaf3fa01f98fe0d": {
+      "first_seen": "2026-11-09T23:28:15Z",
+      "status": "queued",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak"
     },
     "0319d22252bba2ff75bd49e0": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -303,6 +308,11 @@
       "first_seen": "2026-10-24T09:06:47Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.8"
+    },
+    "0a48e8b402019bba9a02ea8c": {
+      "first_seen": "2026-11-09T23:28:43Z",
+      "status": "queued",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.0rc4"
     },
     "0a4f535604978bdcd4afecf7": {
       "first_seen": "2026-10-28T07:28:01Z",
@@ -639,6 +649,11 @@
       "first_seen": "2026-10-07T09:14:26Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.0-dev.1"
+    },
+    "1181fc08955c170d41e5db2e": {
+      "first_seen": "2026-11-09T23:28:24Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12236"
     },
     "1188e82b717fca5d5ef2e0a6": {
       "first_seen": "2026-10-13T16:26:01Z",
@@ -1814,6 +1829,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02253"
     },
+    "2b7cd53c26380bca28073f5e": {
+      "first_seen": "2026-11-09T23:28:43Z",
+      "status": "queued",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.0rc2"
+    },
     "2ba72ff428da09b4ded1458c": {
       "first_seen": "2026-10-07T09:14:06Z",
       "status": "queued",
@@ -1918,6 +1938,11 @@
       "first_seen": "2026-10-31T08:54:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.37720"
+    },
+    "2e34e84f0999c607fcd02663": {
+      "first_seen": "2026-11-09T23:28:15Z",
+      "status": "queued",
+      "url": "https://openai.com/index/kuken"
     },
     "2e63afff050cbe1ca9580a30": {
       "first_seen": "2026-10-20T19:22:56Z",
@@ -2233,6 +2258,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11397"
     },
+    "36cab5f07224ae958d99389e": {
+      "first_seen": "2026-11-09T23:28:43Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.3"
+    },
     "372301cd6ac8a8908391a22c": {
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
@@ -2402,6 +2432,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "too_old",
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.7.0"
+    },
+    "3b1d5ce5ab684c5cd44a56ac": {
+      "first_seen": "2026-11-09T23:28:24Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12228"
     },
     "3b44381c0318cdccb4d00be7": {
       "first_seen": "2026-10-05T18:34:46Z",
@@ -3771,6 +3806,11 @@
       "first_seen": "2026-10-31T08:54:21Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12019"
+    },
+    "5bcbb602a5dce00ac99e5530": {
+      "first_seen": "2026-11-09T23:28:24Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12229"
     },
     "5bd44e1c0c6e2cd959a21cfc": {
       "first_seen": "2026-10-20T19:22:56Z",
@@ -5402,6 +5442,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11621"
     },
+    "83634d874acf4ccd18644241": {
+      "first_seen": "2026-11-09T23:28:24Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12237"
+    },
     "836ad8a0cd9c59a8342ef10a": {
       "first_seen": "2026-10-05T09:14:16Z",
       "status": "queued",
@@ -6219,6 +6264,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11846"
     },
+    "952d2516af2e905436adea3b": {
+      "first_seen": "2026-11-09T23:28:15Z",
+      "status": "queued",
+      "url": "https://openai.com/index/control-room"
+    },
     "958f93db13edac304e970c19": {
       "first_seen": "2026-10-27T18:16:02Z",
       "search_score": 0,
@@ -6614,6 +6664,11 @@
       "first_seen": "2026-10-16T21:43:45Z",
       "status": "queued",
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin"
+    },
+    "9e6aebddb26b309846fc1ea9": {
+      "first_seen": "2026-11-09T23:28:24Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16"
     },
     "9e6d9d48a65776be86374aa9": {
       "first_seen": "2026-10-06T23:06:53Z",
@@ -7495,6 +7550,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40884"
     },
+    "b4d8f0d95858a10823b3c77a": {
+      "first_seen": "2026-11-09T23:28:24Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12227"
+    },
     "b4da1ec3989a392021c572dc": {
       "first_seen": "2026-10-21T11:25:25Z",
       "status": "queued",
@@ -7952,6 +8012,11 @@
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/platforms/android/android-earthquake-alerts-expansion-2026/"
     },
+    "c08eb761a64ea2a85d6ef036": {
+      "first_seen": "2026-11-09T23:28:24Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12230"
+    },
     "c0b047b9a3aad00af5fdc729": {
       "first_seen": "2026-10-27T06:24:40Z",
       "status": "queued",
@@ -8091,6 +8156,11 @@
       "first_seen": "2026-10-27T01:17:41Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0"
+    },
+    "c3e714b03075093f4990bf66": {
+      "first_seen": "2026-11-09T23:28:24Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12232"
     },
     "c3e9e5c56aa9ee3582d063b8": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -8393,6 +8463,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.05411"
     },
+    "caa9073cefb43725f1a58e80": {
+      "first_seen": "2026-11-09T23:28:15Z",
+      "status": "queued",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+    },
     "cab1410e9440e33b0fc6a245": {
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
@@ -8618,6 +8693,11 @@
       "first_seen": "2026-10-13T21:32:32Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11599"
+    },
+    "cfd5d9b75dc8bfdeb2bda339": {
+      "first_seen": "2026-11-09T23:28:24Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12233"
     },
     "d01ebd3c72db89b95dfc9a57": {
       "first_seen": "2026-10-07T16:39:04Z",
@@ -9508,6 +9588,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40713"
     },
+    "e372c61ba3f0e7a42fe501ed": {
+      "first_seen": "2026-11-09T23:28:36Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.4"
+    },
     "e38e6ce4316c7aae5019ab33": {
       "first_seen": "2026-10-26T05:16:26Z",
       "status": "queued",
@@ -9717,6 +9802,11 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "too_old",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.15.post1"
+    },
+    "e85e3f3ffe1e843f80b88790": {
+      "first_seen": "2026-11-09T23:28:24Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0"
     },
     "e86f5a64d3658262312f7e06": {
       "first_seen": "2026-10-15T15:07:09Z",
@@ -10577,6 +10667,11 @@
       "first_seen": "2026-10-22T13:02:17Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11814"
+    },
+    "fc2fe6c60421902de6e8136d": {
+      "first_seen": "2026-11-09T23:28:15Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-google-maps-platform-ai-studio/"
     },
     "fc3118d0cb024e5843f5231f": {
       "first_seen": "2026-10-15T05:40:20Z",

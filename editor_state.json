@@ -77,11 +77,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-08T22:49:52Z",
-    "eligible": 36,
-    "evaluated": 2,
+    "at": "2026-11-09T02:05:00Z",
+    "eligible": 26,
+    "evaluated": 4,
     "mode": "live",
-    "new_posts": 1,
+    "new_posts": 2,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -884,6 +884,20 @@
       "status": "ignored",
       "story_key": "quick-study-simon-willison-claude-opus",
       "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/"
+    },
+    "15811ccb0e51d72e4df42f7a": {
+      "at": "2026-11-09T02:04:54Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "llama-cpp-b12191-moe-cache-cpu-offload",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "llama.cpp Releases"
+      },
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12191"
     },
     "158b80486d5284b98b132f73": {
       "at": "2026-10-30T01:15:50Z",
@@ -1725,6 +1739,14 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/cosyra"
     },
+    "291f6c31a7cabb41f26f7934": {
+      "at": "2026-11-09T02:04:56Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b12179-hexagon-conv3d",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12179"
+    },
     "295354ff422b0d4db922748e": {
       "at": "2026-11-07T06:23:46Z",
       "status": "expired",
@@ -1911,6 +1933,11 @@
       "at": "2026-10-11T07:07:40Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11490"
+    },
+    "2e3fa0644c7b77d2a935ce71": {
+      "at": "2026-11-09T02:04:49Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "2e602e83661d9f259eeecff3": {
       "at": "2026-11-06T00:09:40Z",
@@ -2389,6 +2416,20 @@
         "source": "LocalAI Releases"
       },
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.11.0"
+    },
+    "3a23f7f560d629a2629ab245": {
+      "at": "2026-11-09T02:05:00Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "llama-cpp-b12208-deterministic-radix-topk",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
+      },
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12208"
     },
     "3a390cc255a4c02502111933": {
       "at": "2026-10-06T16:08:03Z",
@@ -2910,6 +2951,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12156"
     },
+    "46149d7e66ded280dc425e7b": {
+      "at": "2026-11-09T02:04:49Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2118479744979079669"
+    },
     "4624234e5492900d5c7977dd": {
       "at": "2026-11-08T14:25:46Z",
       "bootstrap": false,
@@ -3031,6 +3077,11 @@
       "status": "ignored",
       "story_key": "llamacpp-b11988-limite-support",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11988"
+    },
+    "4a53e27db39ccb6f9a070e23": {
+      "at": "2026-11-09T02:04:49Z",
+      "status": "expired",
+      "url": "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "4a5f898dc42901e71f0a0e30": {
       "at": "2026-10-16T06:10:14Z",
@@ -3157,6 +3208,11 @@
         "source": "Hugging Face Diffusers Releases"
       },
       "url": "https://github.com/huggingface/diffusers/releases/tag/v0.42.0"
+    },
+    "4e1329ae281a601fa9d6ce4a": {
+      "at": "2026-11-09T02:04:49Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2118479748263534898"
     },
     "4e31d07c8e885469dec4faf4": {
       "at": "2026-10-14T23:30:22Z",
@@ -4657,6 +4713,11 @@
       "at": "2026-11-08T22:49:40Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12136"
+    },
+    "74d0d69a7d0c67c3071ea5c1": {
+      "at": "2026-11-09T02:04:49Z",
+      "status": "expired",
+      "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "74eecc752e5f1b65d14fce26": {
       "at": "2026-10-23T05:59:56Z",
@@ -6202,6 +6263,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11436"
     },
+    "9c862cba234d3e3571ef3a1c": {
+      "at": "2026-11-09T02:04:49Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2118445476320260559"
+    },
     "9cf469a02c5a0aefacdc35d7": {
       "at": "2026-10-06T16:08:03Z",
       "status": "expired",
@@ -6929,6 +6995,11 @@
       },
       "url": "https://tech.yahoo.com/transportation/articles/almost-no-one-uses-ai-215601578.html?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "ae18504f0f1bdaed636bd076": {
+      "at": "2026-11-09T02:04:49Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/instagram"
+    },
     "ae2593ff9e1d94bc04c9ac7f": {
       "at": "2026-10-21T14:43:23Z",
       "bootstrap": false,
@@ -7453,6 +7524,14 @@
       },
       "url": "https://x.com/NousResearch/status/2107880428111806730"
     },
+    "be9ad6039ce240215d1139a9": {
+      "at": "2026-11-09T02:04:50Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "llamacpp-b12182-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12182"
+    },
     "beb274ef00cc9345c9b0dbac": {
       "at": "2026-10-09T17:07:50Z",
       "status": "expired",
@@ -7934,6 +8013,11 @@
         "source": "Artificial Analysis Changelog"
       },
       "url": "https://artificialanalysis.ai/changelog#edgeai-4bfc27b875b671c5d270"
+    },
+    "cd1c20ddb9bf6bb62e2f807d": {
+      "at": "2026-11-09T02:04:49Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12140"
     },
     "cd9267d452079c2353cb8ed2": {
       "at": "2026-10-04T00:07:49Z",
@@ -9155,6 +9239,11 @@
       "status": "ignored",
       "story_key": "producthunt-walkai-talkai",
       "url": "https://www.producthunt.com/products/walkai-talkai"
+    },
+    "eb7105a1b093829186c852c9": {
+      "at": "2026-11-09T02:04:49Z",
+      "status": "expired",
+      "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude?utm_source=futuretools.io&utm_medium=newspage"
     },
     "eba0c9f2e14140d209a9a356": {
       "at": "2026-10-10T13:59:33Z",
@@ -12278,6 +12367,48 @@
       ],
       "status": "CONFIRMED",
       "title": "llama.cpp Release b12031 Adds OpenCL IQ3 Quantization Support for Adreno GPUs",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "llama.cpp Releases"
+      }
+    },
+    "llama-cpp-b12191-moe-cache-cpu-offload": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/llama-cpp-b12191-moe-cache-cpu-offload.jpg",
+      "last_updated": "2026-11-09T02:04:54Z",
+      "post_id": "8952907095563234495",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/llamacpp-update-b12191-introduces.html",
+      "score": 82,
+      "source_image_source": "llama.cpp Releases",
+      "source_image_url": "https://opengraph.githubassets.com/2e7ccc62aaf2e3a551d9216fe2a26fe3930ab018725b969fe5bb479df946f0c2/ggml-org/llama.cpp/releases/tag/b12191",
+      "source_urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12191"
+      ],
+      "status": "CONFIRMED",
+      "title": "llama.cpp Update b12191 Introduces Hybrid CPU Offloading for Mixture-of-Experts Caching",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "llama.cpp Releases"
+      }
+    },
+    "llama-cpp-b12208-deterministic-radix-topk": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/llama-cpp-b12208-deterministic-radix-topk.png",
+      "last_updated": "2026-11-09T02:05:00Z",
+      "post_id": "1573924622908639038",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/llamacpp-release-b12208-introduces.html",
+      "score": 82,
+      "source_image_source": "llama.cpp Releases",
+      "source_image_url": "https://opengraph.githubassets.com/77fac20e1537ff752c0f3446c7777af273649beff18b5d3fd372251a7b41bf2b/ggml-org/llama.cpp/releases/tag/b12208",
+      "source_urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12208"
+      ],
+      "status": "CONFIRMED",
+      "title": "llama.cpp Release b12208 Introduces Deterministic Radix Top-K for CUDA and Metal",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

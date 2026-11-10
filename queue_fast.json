@@ -1836,20 +1836,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "1e3ebf94e41ebe19793bfa16",
-      "discovered_at": "2026-10-28T01:41:58Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Tue, 27 Oct 2026 15:00:00 GMT",
-      "search_score": 15,
-      "source_name": "OpenAI News",
-      "summary": "GPT-6 Astra tops Retell\u2019s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-      "title": "Retell uses OpenAI models to help power 100M monthly calls",
-      "url": "https://openai.com/index/retell-ai"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "5f721228af3682c2417b4131",
       "discovered_at": "2026-11-06T21:37:01Z",
       "kind": "official",
@@ -2116,6 +2102,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "f3fc54cd1d78c100d666a9c2",
+      "discovered_at": "2026-11-10T20:29:49Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Tue, 10 Nov 2026 07:00:00 GMT",
+      "search_score": 5,
+      "source_name": "OpenAI News",
+      "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "title": "Work at the Frontier: AI\u2019s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "25fa4dd18ec78a48a9233cc0",
       "discovered_at": "2026-11-05T14:19:43Z",
       "kind": "official",
@@ -2295,6 +2295,20 @@
       "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
       "title": "Community safety report and new protections for teens",
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "991ad48e8559b2fefa9ff7bc",
+      "discovered_at": "2026-11-10T20:29:49Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Tue, 10 Nov 2026 10:00:00 GMT",
+      "search_score": 2,
+      "source_name": "OpenAI News",
+      "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+      "title": "Introducing Businesses in ChatGPT",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt"
     },
     {
       "bootstrap": false,
@@ -2550,17 +2564,17 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "25296bd10ebb7ad2c6b8762e",
-      "discovered_at": "2026-10-27T18:16:12Z",
+      "candidate_id": "dac6751e4b3871feec9d0a08",
+      "discovered_at": "2026-11-10T20:29:56Z",
       "kind": "local-ai",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-10-27T17:16:47Z",
-      "search_score": 19,
-      "source_name": "Ollama Releases",
-      "summary": "Liquid AI LFM3 LFM3 is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes: lfm3 : a 1.7B text model with a 256K-token context window lfm3-vl : adds image understanding lfm3-audio : speech recognition, translation, and text-to-speech in 18 languages lfm3-omni : text, images, and audio in one model ollama run lfm3 d1 decision models Liquid AI's d1 models now come in a 2B size, built on LFM3. d1 makes decisions about text and images, and d1-omni adds audio. ollama run d1:2b \" I was charged twice for order 4417. \" --ask \" Is this a billing issue? \" Note: lfm3 and d1 2b are supported on Apple hardware in rc1.  Support for Linux/Windows coming soon. What's Changed Faster prompt processing on Apple silicon for Gemma 4, Flint and Laguna models Speculative decoding now supports DFlash2 draft models on MLX Gemma 4 keeps more detail in small images ollama launch now works with OpenCode v2 Fixed tool-only assistant turns from Kimi CLI Updated MLX and llama.cpp Full Changelog : v0.40.11...v0.40.12",
-      "title": "v0.40.12",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1"
+      "published": "2026-11-10T17:17:04Z",
+      "search_score": 16,
+      "source_name": "llama.cpp Releases",
+      "summary": "vulkan: add tiled-transpose concat shader for Qwen models ( #30591 ) vulkan: tiled transpose for dim-0 concat with a transposed source The delta-net conv-state path does ggml_transpose() straight into a dim-0 ggml_concat(), so the generic concat kernel reads src1 with the transposed stride, one element per thread, and neighbouring lanes land on different cache lines. Stage a 32x32 tile through shared memory instead, which keeps both the load and the store coalesced. 33 columns pads away the bank conflicts. Gated narrowly: dim 0, 2D, unquantized 4-byte elements, contiguous src0/dst rows, and src1 actually transposed. Everything else falls through to the existing kernel. Qwen3.6-35B-A3B on gfx1151/RADV, 30 gated-delta-net layers: the CONCAT op goes 11877 us -> 957 us, and pp2048 at ub2048 goes 1224 -> 1628 t/s. Generated text is unchanged. The approach follows the tiled transposed concat Gaetan Puleo wrote for the HIP backend in his Strix Halo fork. Co-Authored-By: Claude Opus 5 noreply@anthropic.com enable by default, add smaller shader sizes clean up comments improve shader Add non-contiguous concat tests Co-authored-by: ravel7524 58877666+ravel7524@users.noreply.github.com handle x or y axis overflow Co-authored-by: Nathan Wilson nath.flagman151@passmail.com Co-authored-by: Claude Opus 5 noreply@anthropic.com Co-authored-by: ravel7524 58877666+ravel7524@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65912251 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12250",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12250"
     },
     {
       "bootstrap": false,
@@ -2634,6 +2648,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "6d99531d45b580bdaecc93c6",
+      "discovered_at": "2026-11-10T20:29:56Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-10T07:42:25Z",
+      "search_score": 12,
+      "source_name": "llama.cpp Releases",
+      "summary": "sycl: Add device-side MoE scheduler Assisted-by: Codex Add width-heuristic override bit and Q2_K and Q3_K types Assisted-by: Codex tests: cover skipped MUL_MAT_ID slots on the device MoE schedule Assisted-by: Claude Opus 5.5 sycl: keep graphs on for lazily reordered MUL_MAT and reject BN=64 combos on the device MoE schedule The graph check disabled SYCL graphs until every MUL_MAT weight with a reorder extra was reordered, which never happens for some (dense MXFP4, the fused GLU plain path), so graphs stayed off and the check reran on every compute. Upstream already reorders those during recording with the async memory extension, so only MUL_MAT_ID weights are reordered ahead of recording now. ggml_sycl_grouped_dequant_gemm_device_supported() accepted any XMX combo, but the device schedule only runs with BN == GGML_SYCL_FG_BN, so a 32x64 combo (GGML_SYCL_XMX_GATHER_SHAPES=4 or 8) made the graph check pass and the compute fall back to the host sync path while recording. Assisted-by: Claude Opus 5.5 sycl: keep the ggml_sycl_mul_mat_id_needs_sync name for the graph check Assisted-by: Claude Opus 5.5 fix: stop erroneously reordering host-offloaded tensors With -ncmoe, prompt processing offloads the CPU-resident expert matmuls to the GPU: the scheduler uploads the experts into a copy in the compute buffer before every run. init_tensor gave that copy a reorder record, so the MUL_MAT_ID gather path reordered every offloaded expert tensor on every ubatch, and the next upload overwrote the result. Qwen3-30B-A3B Q4_K_M, 1x B60, llama-perplexity -c 4096 -ub 2048 -ncmoe 48, 8 chunks, on master ac8e169 : master                        116 s, PPL 7.739 master XMX_GATHER_TYPES=0      67 s, PPL 7.738 with this change               67 s, PPL 7.729 Refs #31262 Assisted-by: Claude Opus 5.5 Remove SYCL-specific test comments Co-authored-by: Georgi Gerganov ggerganov@gmail.com sycl : name the MUL_MAT_ID path predicates after what they decide ggml_sycl_mul_mat_id_mmvq_ok -> ggml_sycl_mul_mat_id_should_use_mmvq ggml_sycl_mul_mat_id_mmvq_shape_ok -> ggml_sycl_mul_mat_id_mmvq_eligible ggml_sycl_mul_mat_id_grouped_shape_ok -> ggml_sycl_mul_mat_id_device_sched_eligible node_is_device_local -> graph_node_is_in_local_device ggml_sycl_gg_rows -> ggml_sycl_grouped_gemm_rows ggml_sycl_gg_tile -> ggml_sycl_grouped_gemm_tile (from #29245 , renamed to match) \"eligible\" is a necessary condition; the type and width checks follow elsewhere. \"should_use\" means the path runs. No functional change. Assisted-by: Claude Opus 5.5 sycl : reorder Q3_K MoE experts and load them as vectors in the grouped GEMM Assisted-by: Claude Opus 5.5 Co-authored-by: cwriter cwriter@localhost Co-authored-by: Claude noreply@anthropic.com Co-authored-by: Georgi Gerganov ggerganov@gmail.com",
+      "title": "b12251: sycl: Add device-side MoE scheduler (#30156)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12251"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "fcec1b84be933ab3ab3589c7",
       "discovered_at": "2026-11-04T02:58:30Z",
       "kind": "local-ai",
@@ -2659,20 +2687,6 @@
       "summary": "ggml : add generic batched tensor copy API Assisted-by: pi:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) llama : use batched tensor copy API in context io Assisted-by: pi:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) ggml : add batched tensor copy API Assisted-by: pi:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) llama : batch device io tensor copies Assisted-by: pi:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) ggml : add CUDA support for batched tensor APIs Assisted-by: pi:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) ggml : remove async tensor_n APIs and add null buffer hooks Assisted-by: pi:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) ggml : fix batched tensor 2D detection Assisted-by: pi:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) ggml : group batched tensor operations by buffer type Assisted-by: pi:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) cont : minor indentantion cont : const correctness tests : add mock buffer type tests for batched tensor API Restructure test-backend-tensor to run a unified test set on each backend buffer type and on an ad-hoc mock buffer type. The mock set exercises the dispatch logic in ggml_backend_tensor_{set,get,copy}_n: hook invocation, per-tensor fallback, cpy_tensor_n all-or-nothing, and buft grouping. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) cont : add TODO",
       "title": "b12002: ggml : add batched tensor copy API (#30881)",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12002"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "fe6c8212a1cce378584e2e9a",
-      "discovered_at": "2026-10-27T18:16:11Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-27T15:53:42Z",
-      "search_score": 12,
-      "source_name": "llama.cpp Releases",
-      "summary": "tests : speed up tensor data generation and model saving ( #31145 ) tests : speed up tensor data generation and model saving Refactor save_models to create only the model, not a llama_context, which is not needed for saving. Replace the slow std::normal_distribution draw with a splitmix64 + box-muller normal generator. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) tests : use a shared pool of normal draws for tensor data Generate a pool of normal draws once with std::mt19937 and std::normal_distribution, then have every tensor copy a cyclic slice of it instead of running a per-tensor box-muller. The name-keyed slice selection keeps the draw deterministic. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) tests : log the size of saved models Report the produced file size in bytes and MB after each save. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) tests : simplify the model save log Put the model name, target and size on one line per saved model. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60447535 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11934",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11934"
     },
     {
       "bootstrap": false,
@@ -2942,20 +2956,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "03efaabc91c5a0ac5b1fa7bf",
-      "discovered_at": "2026-10-27T18:16:11Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-27T13:46:24Z",
-      "search_score": 9,
-      "source_name": "llama.cpp Releases",
-      "summary": "server: add router device memory margin parameter for dynamic unloading ( #21231 ) server: add --models-memory-max parameter to allow dynamically unloading models when they exceed a memory size threshold estimate with to-be-loaded model size included use no_alloc to get memory requirements for model load only set model memory_mb if not previously calculated use memory margin instead of total size limit, apply to each device separately add server memory debug logging move llama_context_device_memory function to llama-ext.h fix model count exceeded check improve memory_per_device map naming improve variable naming, fix style also strip models memory margin from child processes cont : clean-up replace device memory map with buft memory map. Use llama_get_memory_breakdown extract duplicated check into helper function move model memory estimation to subprocess precompute name->buft map, map GPU host types to CPU buft cleanup unused variable remove duplicated init calls adapt to upstream changes wip common_memory_reports internface SERVER_ROLE_MEASURE server-models-sched fix build server : fix memory accounting of measure children and claim spin A measure child runs no_alloc, so the free memory it reports does not include its estimate: subtracting self there erased the memory held by other processes, down to zero with --fit on, and the next load could overshoot the margin. Subtract self only for instance reports. A queued load only checked --models-max before claiming, so when the memory margin blocked it behind a busy model, load() threw and the waiter retried in a tight loop. Refuse the claim while the limits are exceeded and no idle model can be unloaded, so the waiter sleeps on the condition variable until one goes idle. Co-authored-by: Xuan Son Nguyen son@huggingface.co Co-authored-by: Pascal admin@serveurperso.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60393615 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11930",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11930"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "bb82ada884c5f2aabff4af5a",
       "discovered_at": "2026-11-10T04:47:35Z",
       "kind": "local-ai",
@@ -3163,6 +3163,20 @@
       "summary": "common : support deferred tools and tool_reference content parts ( #31256 ) common : support deferred tools and tool_reference content parts Assisted-by: Claude Opus 5.5 common : credit the deferred tools co-author Co-authored-by: Aldehir Rojas 765227+aldehir@users.noreply.github.com Assisted-by: Claude Opus 5.5 tests : fix the type check of the deferred tools test Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60626465 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11940",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11940"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "57a41162ec1b7dc97179496a",
+      "discovered_at": "2026-11-10T20:29:56Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-10T19:16:00Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "model : stop renaming the recurrent cache tensors in plamo2 ( #31984 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65957268 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12255",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12255"
     },
     {
       "bootstrap": false,
@@ -3460,48 +3474,34 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "772c2ab05d6efdca6105b533",
-      "discovered_at": "2026-11-10T13:19:12Z",
+      "candidate_id": "5ea8bad62f62ec5ec2ecd7a6",
+      "discovered_at": "2026-11-10T20:29:56Z",
       "kind": "local-ai",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-11-10T13:14:30Z",
+      "published": "2026-11-10T18:59:04Z",
       "search_score": 5,
       "source_name": "llama.cpp Releases",
-      "summary": "vulkan: cap scalar flash attention at 8 rows for large heads on Qualcomm ( #30829 ) With head sizes above 128 and KV >= 1024, scalar flash attention uses 16 rows per workgroup. On the Qualcomm Adreno driver this variant spills registers to scratch memory (264 bytes per invocation on the X1-85, none at 8 rows) and runs about 40x slower. The largest test-backend-ops case then becomes a single dispatch of several seconds, past the Windows GPU timeout, and the test never completes on the X1 Elite. Use at most 8 rows per workgroup on Qualcomm when hsk or hsv > 128. Smaller heads keep 16 rows, which is faster for them on the X2 Elite. Adreno X1-85, FLASH_ATTN_EXT hsk=256 kv=4096: nb=64 711 ms -> 17 ms, nb=512 no result -> 125 ms; test-backend-ops completes. Adreno X2-90: Gemma 4 E4B pp512 at depth 4096 with flash attention 81-90 -> 117 t/s. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65813913 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12246",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12246"
+      "summary": "common/json-schema : fix allOf with plain types (e.g. integer) generating an empty object grammar ( #31834 ) common/json-schema : fix allOf with plain types (e.g. integer) generating an empty object grammar Fix empty range error and incorporated bot review feedback Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65951567 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12254",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12254"
     },
     {
       "bootstrap": false,
-      "candidate_id": "d646da872e9561cd891cfb43",
-      "discovered_at": "2026-11-10T13:19:12Z",
+      "candidate_id": "cce7cf307f9148a10183c9ef",
+      "discovered_at": "2026-11-10T20:29:56Z",
       "kind": "local-ai",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-11-10T07:28:33Z",
+      "published": "2026-11-10T18:40:45Z",
       "search_score": 5,
       "source_name": "llama.cpp Releases",
-      "summary": "ci: update oneAPI 2026.2, oneDNN 2026.1 and Level Zero SDK 1.34.0 ( #31540 ) Co-authored-by: Neo Zhang zhang.jianyu@outlook.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65697404 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12244",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12244"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "06617ae742f7cff7ed3d455b",
-      "discovered_at": "2026-11-10T13:19:12Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-10T06:52:20Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "sycl: un-gate oneDNN fused SDPA for Alchemist at head_dim=64 ( #31574 ) Co-authored-by: Titaniumtown titaniumtown@proton.me Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65688285 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12243",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12243"
+      "summary": "common : escape control characters in tool argument strings ( #31937 ) normalize_quotes_to_json copies raw control characters verbatim while converting pythonic tool arguments to JSON, so calls like python(code='ab') produce invalid JSON in the arguments returned to clients; replaying that history then fails hard. Escape C0 control characters inside quoted strings via escape_json_string_inner. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65944688 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12253",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12253"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-10T13:19:40Z",
+  "updated_at": "2026-11-10T20:30:19Z",
   "version": 2
 }

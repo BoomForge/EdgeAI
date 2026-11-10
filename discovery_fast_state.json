@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-10T13:19:40Z",
+    "at": "2026-11-10T20:30:19Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 9,
+    "prefiltered": 2,
+    "queued": 23,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 192,
+  "runs": 193,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -383,6 +383,11 @@
       "first_seen": "2026-11-02T10:42:43Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40832"
+    },
+    "0bb116f4895a4ed5bfe23002": {
+      "first_seen": "2026-11-10T20:30:14Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.10"
     },
     "0bd4807c4cdaac12fd532073": {
       "first_seen": "2026-10-10T08:59:32Z",
@@ -979,6 +984,11 @@
       "first_seen": "2026-10-20T19:22:35Z",
       "status": "queued",
       "url": "https://openai.com/index/ted-taylor-restaurant"
+    },
+    "172ae3f5f4b569c4d80c5e9b": {
+      "first_seen": "2026-11-10T20:29:49Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/"
     },
     "172d052d12dca60340fc85e7": {
       "first_seen": "2026-10-03T00:46:17Z",
@@ -2839,6 +2849,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.0-rc.1"
     },
+    "41f7c5adb3edf09297653a68": {
+      "first_seen": "2026-11-10T20:30:17Z",
+      "status": "queued",
+      "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.5.0"
+    },
     "420734bb3fbbefb9aa82f403": {
       "first_seen": "2026-10-08T07:31:26Z",
       "status": "queued",
@@ -2963,6 +2978,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02320"
+    },
+    "44e868de1087e91d5a553499": {
+      "first_seen": "2026-11-10T20:29:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12252"
     },
     "4501706684331e525ea0a487": {
       "first_seen": "2026-10-27T18:16:11Z",
@@ -3476,6 +3496,12 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11539"
     },
+    "514112b3503896d0525c5997": {
+      "first_seen": "2026-11-10T20:29:49Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/step-by-step-workouts-watch/"
+    },
     "516fb7bbef5404ab55884d20": {
       "first_seen": "2026-11-06T16:15:30Z",
       "status": "queued",
@@ -3722,6 +3748,11 @@
       "status": "queued",
       "url": "https://openai.com/index/fair-use-benefits-everyone"
     },
+    "57a41162ec1b7dc97179496a": {
+      "first_seen": "2026-11-10T20:29:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12255"
+    },
     "57b475f8d8db01aa1ca7922d": {
       "first_seen": "2026-10-14T10:22:34Z",
       "status": "queued",
@@ -3798,6 +3829,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11851"
     },
+    "59a8a5dd3afc5312ddaeaf7c": {
+      "first_seen": "2026-11-10T20:29:49Z",
+      "status": "queued",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
+    },
     "59d33d46139f560fc0ef97c1": {
       "first_seen": "2026-10-21T05:49:01Z",
       "status": "queued",
@@ -3822,6 +3858,11 @@
       "first_seen": "2026-10-08T14:56:03Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/"
+    },
+    "5a6fbe40782600575ecdf3d5": {
+      "first_seen": "2026-11-10T20:30:09Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.11"
     },
     "5a9041d41ad0b95106e213b7": {
       "first_seen": "2026-10-03T00:46:03Z",
@@ -3929,6 +3970,11 @@
       "status": "queued",
       "url": "https://openai.com/index/grid-protectors-program"
     },
+    "5d3f1a46c035f064c1e8ec45": {
+      "first_seen": "2026-11-10T20:29:49Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+    },
     "5d5404cef74e92304a29d638": {
       "first_seen": "2026-10-27T06:24:40Z",
       "status": "queued",
@@ -3958,6 +4004,11 @@
       "first_seen": "2026-10-26T21:51:38Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11904"
+    },
+    "5ea8bad62f62ec5ec2ecd7a6": {
+      "first_seen": "2026-11-10T20:29:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12254"
     },
     "5ecef1cb5a88bbe83d49551c": {
       "first_seen": "2026-10-16T05:36:28Z",
@@ -4734,6 +4785,11 @@
       "first_seen": "2026-10-28T07:28:00Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.35942"
+    },
+    "6d99531d45b580bdaecc93c6": {
+      "first_seen": "2026-11-10T20:29:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12251"
     },
     "6db52bdf2abb107e5fc0e65c": {
       "first_seen": "2026-10-22T07:18:23Z",
@@ -5735,6 +5791,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11574"
     },
+    "875de747c34621d4cdca461f": {
+      "first_seen": "2026-11-10T20:29:49Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/registry/new-google-domains-eat-fly-here/"
+    },
     "8772b3ec26c768e9c19b24b9": {
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
@@ -6501,6 +6562,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.0-dev.2"
     },
+    "991ad48e8559b2fefa9ff7bc": {
+      "first_seen": "2026-11-10T20:29:49Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt"
+    },
     "99349eeb1d4542ebd7aeab30": {
       "first_seen": "2026-10-15T15:07:09Z",
       "status": "queued",
@@ -6761,6 +6827,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06914"
     },
+    "9e92f6476e72e227c7590a5b": {
+      "first_seen": "2026-11-10T20:29:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12249"
+    },
     "9ea04f0fa810f50b8774110e": {
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
@@ -6827,6 +6898,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00031"
     },
+    "a048f57672acc8d3d9df8041": {
+      "first_seen": "2026-11-10T20:29:49Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/google-fi-wireless/super-network/"
+    },
     "a097ef0d441a7216b7cd0e23": {
       "first_seen": "2026-10-07T21:34:03Z",
       "status": "queued",
@@ -6866,6 +6942,11 @@
       "first_seen": "2026-10-31T08:54:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.37809"
+    },
+    "a133aa02f1ca92e69078eda0": {
+      "first_seen": "2026-11-10T20:30:09Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.9"
     },
     "a1446be86e0a821ce9f9a7e8": {
       "first_seen": "2026-11-07T14:09:34Z",
@@ -6936,6 +7017,11 @@
       "first_seen": "2026-11-04T23:46:03Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12119"
+    },
+    "a2840211d2512175dde22cff": {
+      "first_seen": "2026-11-10T20:29:49Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/"
     },
     "a2ae22ce36f2f505101d8362": {
       "first_seen": "2026-11-04T23:46:03Z",
@@ -8088,6 +8174,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.33133"
     },
+    "c0101f36ad82bf9132fd32eb": {
+      "first_seen": "2026-11-10T20:29:49Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/"
+    },
     "c07a67b182a2b19fe525b92a": {
       "first_seen": "2026-10-03T00:45:54Z",
       "status": "too_old",
@@ -8634,6 +8725,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20631"
     },
+    "cce7cf307f9148a10183c9ef": {
+      "first_seen": "2026-11-10T20:29:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12253"
+    },
     "cd0e05b27e96e3cea4ef6d9c": {
       "first_seen": "2026-10-05T18:34:46Z",
       "status": "queued",
@@ -8775,6 +8871,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12130"
     },
+    "cf8b9347f5dc368988f94668": {
+      "first_seen": "2026-11-10T20:29:55Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0"
+    },
     "cfa14935e06b790ed18d220c": {
       "first_seen": "2026-10-13T21:32:32Z",
       "status": "queued",
@@ -8905,6 +9006,11 @@
       "first_seen": "2026-10-05T18:34:46Z",
       "status": "queued",
       "url": "https://openai.com/index/eu-text-provenance"
+    },
+    "d2cb458382e2b59123ed538f": {
+      "first_seen": "2026-11-10T20:29:49Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/"
     },
     "d2d14a92fbc8343aa3aabef2": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -9253,6 +9359,11 @@
       "first_seen": "2026-10-27T22:24:54Z",
       "status": "queued",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.31"
+    },
+    "dac6751e4b3871feec9d0a08": {
+      "first_seen": "2026-11-10T20:29:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12250"
     },
     "dadf4d481b4da1e53106a4eb": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -9970,6 +10081,12 @@
       "status": "queued",
       "url": "https://openai.com/index/building-chatgpt-ad-stack"
     },
+    "ea9fcf04ae27df22f89a96a1": {
+      "first_seen": "2026-11-10T20:29:49Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/james-beard-foundation/"
+    },
     "ead7839c97ed82a0c3152162": {
       "first_seen": "2026-11-01T08:08:12Z",
       "status": "queued",
@@ -10272,6 +10389,11 @@
       "status": "queued",
       "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/impact-challenge-ai-science-recipients/"
     },
+    "f0e35a5b9983adee52f87753": {
+      "first_seen": "2026-11-10T20:29:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12257"
+    },
     "f0eaec654f7f1f43621c2bdd": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -10397,6 +10519,11 @@
       "first_seen": "2026-10-03T00:46:21Z",
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.7"
+    },
+    "f3fc54cd1d78c100d666a9c2": {
+      "first_seen": "2026-11-10T20:29:49Z",
+      "status": "queued",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work"
     },
     "f3fc66063b988d6f6e279ef8": {
       "first_seen": "2026-10-10T08:59:32Z",

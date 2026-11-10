@@ -702,20 +702,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "72369d10b115056982748797",
-      "discovered_at": "2026-10-27T06:46:44Z",
-      "kind": "primary",
-      "lane": "deep",
-      "priority": 1,
-      "published": "",
-      "search_score": 8,
-      "source_name": "Sakana AI Blog",
-      "summary": "Taking Japan-Born AI Products to the World: An Interview with Sakana AI\u2019s VP of GTM",
-      "title": "Taking Japan-Born AI Products to the World: An Interview with Sakana AI\u2019s VP of GTM",
-      "url": "https://sakana.ai/vp-of-gtm-interview/"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "1b7c18b213578bca545e72fe",
       "discovered_at": "2026-11-02T01:54:09Z",
       "kind": "primary",
@@ -769,6 +755,20 @@
       "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of the model containing a bunch of floating point numbers. I've been playing with one of the examples from the paper and I'm delighted to share that Qwen 3.8 27B running on my laptop can do this as well! Weight-Space Programming Here's the highlight from their abstract, describing impressive capabilities for GPT-6 Astra and coining the term Weight-Space Programming for when LLMs analyze and modify model weights: Just by looking at the raw weights, GPT-6 Astra can tell what a network was trained to do . And without any environment feedback, it has no trouble writing, from scratch, small game-playing networks that outplay networks trained with PPO for 100 million steps. Likewise, asked to make Qwen3.5-0.8B better at math without gradients, Astra identifies an issue in its weights causing reasoning loops that Qwen\u2019s own model card warns about, and fixes this by natively editing 0.016% of the weights . With the same sampling settings, this weight correction raises MATH-500 from 7.9% to 48.1% and generalizes out of the box to instruction following, raising IFEval by 3x. All of this is possible without allowing Astra to write training loops. It uses its reasoning to figure out what each part of a neural network computes, or should compute, and changes the weights accordingly. We call this Weight-Space Programming . The paper combines two topics that I think deserve to be treated separately. The first is what models can do with raw weights without running tools or executing code. The second explores how well models, once armed with code, can run operations to update and improve other models. spaCy author Matthew Honnibal called the paper misleading for conflating the two, and Sean Goedecke deconstructed the Qwen3.5-0.8B update example as taking the same steps that a human ML researcher would use. I'm going to focus on the no-tools question, which I think is the more interesting of the two. The paper presents the first question as Can LLMs understand model behaviors from weights? They trained four neural networks to play simplified 10x10 grid versions of four classic computer games - Breakout, Pong, Pac-Man, and Freeway (I had to look that one up , it's an Atari 2600 game from 1981). Then they fed those weights (as floating point numbers) to an LLM along with the following question: The weights below belong to one policy network that was trained with reinforcement learning to play a game on this grid. Which game was it trained on? Work from the weights. You have no tools: no code execution, no calculator, nothing to run. This is a single response. The GitHub repository that accompanies the paper is RikiyaT/lm_understand-logs . The exp1_which_game folder contains the prompts they used, with weights for the four games: breakout/prompt.txt freeway/prompt.txt pacman/prompt.txt pong/prompt.txt I checked and, aside from the weights, each prompt is identical to the others. Trying it out with Qwen 3.8 27B and other models The prompts on GitHub are self-contained. My LLM tool has a -f/--fragment option which can be passed the URL to a text file to use as a prompt, which means I can run any of the above like this: llm -f https://raw.githubusercontent.com/RikiyaT/lm_understand-logs/refs/heads/main/exp1_which_game/runs/breakout/prompt.txt \\\n  -m openrouter/moonshotai/kimi-k3.1-pro This example requires the llm-openrouter plugin installed, and runs the Breakout prompt against Kimi K3.1 Pro via OpenRouter. Here's what I got back from Kimi K3.1 Pro , which successfully guessed Breakout after 9m 41s and 19,493 reasoning tokens. But how about Qwen 3.8 27B ? That's still my favorite model to run on my own laptop - it's just 17GB (I use this version ) and somehow feels close to the leading proprietary models of 2025. I fired up LM Studio , ensured Qwen 3.8 27B was loaded with a long context window (the default 8192 context failed with errors), installed the llm-lmstudio plugin and ran this command: LMSTUDIO_TIMEOUT=900 \\\n  llm -f https://raw.githubusercontent.com/RikiyaT/lm_understand-logs/refs/heads/main/exp1_which_game/runs/pacman/prompt.txt \\\n  -m lmstudio/qwen/qwen3.8-27b (I had to bump the timeout up using an environment variable, see this issue .) After 46m 12s and 43,506 reasoning tokens, Qwen on my laptop returned a response that ended like this (here's the reasoning trace ): Game: A simplified Pac-Man-style gridworld: an agent moves through a fixed 8x8 maze with central and corner wall blocks, moving objects/ghosts, and reward targets/pellets. Description: The agent navigates a fixed maze-like 8x8 board, using current agent/moving-object/previous-frame cues to move through corridors, collect reward-target cells, and avoid moving objects or hazards. Confidence: 72% This is impressive. I tried it on two of the other games as well. It identified Pong ( reasoning ) in 1h 4m 54s: Pong \u2014 specifically a Pong-like paddle/ball game where the agent controls a vertical paddle on the right side and must move up/down to intercept or return a moving ball/reward object. Description: The agent moves a right-side paddle vertically to hit or catch a moving ball-like reward target moving across the 8\u00d78 field, while a left-side moving object/opponent and wall borders define the play; reward is obtained by successfully intercepting/returning/scoring the ball, and missing or failing to hit it is penalized. Confidence: 75% And Breakout ( reasoning ) in 52m 25s: Game: Breakout, or an Arkanoid-like paddle/ball/brick game. Description: The agent is a paddle on the bottom row and moves left/right to keep a ball in play; the ball moves around the upper grid, and bricks/reward targets in the top rows give reward when hit, while missing the ball/hitting the bottom wall ends the episode or gives penalty. Confidence: 88% Qwen failed at the Freeway prompt, which didn't surprise me considering that game is more obscure than the other three. Here's that transcript - Qwen thought it was \"A simplified Pac-Man-like grid game: agent moves 4-directionally\". The reasoning traces are fun to skim, and almost incomprehensible. Here's a sample: What about agent channel0? We see some large channel0 rows near row8 col7/8 and maybe bottom? Let's list channel0 large: line436 input435 (row8 col7 ch0) -2.107,1.169,0.513...; line441 input440 (row8 col8 ch0) -0.376,0.010,1.564,3.855...; line445 input444 (row8 col8 ch4) 0.142,0.491...; line382? input381 ch0? Wait line382 input381: 381//5=76 (row7 col6), ch1? 381%5=1? 76 * 5=380, ch1. So not. Channel0 large maybe at row8 col7/8 only. Also top row? line44 input43 ch3, line49 ch3. Channel0 large maybe not many. Agent position could be near bottom-right? If the agent is typically at bottom-right? That said though, I expect a sufficiently experienced human being armed with a notepad and a pencil could get there with enough effort. It's a cool paper, but some of the wider commentary I've seen around it does not feel justified. I'm not ready to declare that the age of source code is over and our future involves incomprehensible machines editing their own model weights in incomprehensible ways. Tags: machine-learning , ai , generative-ai , local-llms , llms , qwen , paper-review",
       "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
       "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "c80838f46e535c12a5f29aa5",
+      "discovered_at": "2026-11-10T12:32:54Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-10T07:28:21+00:00",
+      "search_score": 24,
+      "source_name": "Simon Willison Everything",
+      "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. For shorter prompts it's priced the same as GPT-6 Luna and Claude Haiku 5.5 - both are $0.10/million input tokens and $0.50/million output. Today's other big model release, Claude Fable 5.2, is 80x that price at $8/$40. The pricing is a little less straightforward as prompts get longer, though. Luna, Ember, and Haiku all support up to a million input tokens, but they also all have a threshold after which the price goes up. Taking that threshold into account Ember is priced between the two others: Model Prompt size Input ($/M) Cached input Output GPT-6 Luna \u2264272k $0.10 $0.01 $0.50 >272k $0.20 $0.02 $0.75 Muse Ember 1.0 \u2264200k $0.10 $0.004 $0.50 >200k $0.30 $0.012 $1.50 Claude Haiku 5.5 \u2264100k $0.10 $0.01 $0.50 >100k $0.50 $0.05 $2.50 But comparing price-per-token doesn't really make sense these days, when reasoning tokens mean that different models might use dramatically different numbers of tokens to solve the same problem. For that, one measure that's useful is the Artificial Analysis. And even more useful than that is their Intelligence Index vs. Cost per Task chart, which shows the following for those three models: The Muse Ember models sit right on that Pareto line - the line at which you can only improve one dimension by giving up another. Meta call this out in their announcement: It also sits on the efficiency frontier of the full Artificial Analysis leaderboard: no model scores higher for less per task. (That grey dot on the Pareto line in the middle of the green area is GPT-6.1 Terra (low) - clearly I should be paying more attention to the Terra family!) Muse Ember has six reasoning levels - minimal, low, medium, high, xhigh, and max - so I rendered six pelicans riding bicycles . The \"high\" reasoning level failed to return a full SVG, and the other SVGs were surprising in that the reasoning level didn't cleanly map to the visual quality of the response. Here's the \"max\" one, but the others are worth a look too: The Ember pelicans are comparable in quality to those I got from Muse Wonder , which is 40x the price of Muse Ember. Tags: ai , generative-ai , llms , meta , llm-pricing , llm-release , artificial-analysis , muse",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/"
     },
     {
       "bootstrap": false,
@@ -1091,6 +1091,20 @@
       "summary": "@NousResearch Eval: huggingface.co/datasets/NousR\u2026 Weights: huggingface.co/NousResearch/A\u2026 Training data: huggingface.co/datasets/NousR\u2026 Nov 6, 2026 @NousResearch nousresearch.com/arete Nov 6, 2026 @NousResearch Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values. Chinese open models are currently the strongest available, but they ship with state-aligned behavior in the weights. We built an 803-prompt eval across seven value categories, including freedom of expression, democracy, and privacy, and measured how often a model adopts China\u2019s party line. After fine-tuning on roughly 53 million tokens, Arete-27B's propaganda rate fell from 22% to 1%, in line with the Western models we tested. Its Hermes Bench score shows no significant performance tradeoffs. The values in an open model are one fine-tune away. Our eval, weights, and training data are available now along with the full blog post: https://t.co/iAOANQTVZ6 Nov 6, 2026 @NousResearch Get more out of your Hermes Bots with free and discounted models exclusive to portal.nousresearch.com Nov 6, 2026 @NousResearch LongCat-2.5, the new multimodal model from @Meituan_LongCat, is free in Nous Portal for one week. Try it free today at portal.nousresearch.com x.com/Meituan_LongCa\u2026 Nov 6, 2026 @NousResearch That's hilarious but you should probably try Hermes which doesn't do that x.com/liamzebedee/st\u2026 Nov 6, 2026 @NousResearch Full release notes: github.com/NousResearch/h\u2026 Nov 5, 2026 @NousResearch Hermes Agent v0.23.0: The Hearth Release Highlights: - Desktop in a browser tab - One gateway for every conversation - /Rewind - Group Chats with automatic routing - Spend limits for paid tools - Lighter and faster and more Changelog below Nov 5, 2026 @NousResearch Unfuck your hardware with Hermes x.com/0xdippo/status\u2026 Nov 5, 2026 @NousResearch hermes-agent.nousresearch.com/docs/user-guid\u2026 Nov 5, 2026",
       "title": "@NousResearch nousresearch.com/arete Nov 6, 2026",
       "url": "https://x.com/NousResearch/status/2118830173004902641"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "f932ce86887297f16c587a02",
+      "discovered_at": "2026-11-10T12:32:54Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-10T05:34:14+00:00",
+      "search_score": 14,
+      "source_name": "Simon Willison Everything",
+      "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic\u2019s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else\u2019s, the model tended to add to the existing structure, even when that repeated existing code. [...] If you want the model to improve the structure as it works, say that the code is its own: This codebase is yours: what it's for and how it's built are your call, and you'll keep building on it. In Anthropic\u2019s testing on small coding tasks, the model merged repeated code in about half of the tries with this sentence, and in under a tenth of the tries without it. \u2014 Prompting Claude Fable 5.2 , Anthropic documentation Tags: prompt-engineering , anthropic , generative-ai , ai , llms , claude-mythos-fable",
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/"
     },
     {
       "bootstrap": false,
@@ -1710,6 +1724,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "5169fd54e7113f0b4d11695c",
+      "discovered_at": "2026-11-10T12:32:55Z",
+      "kind": "independent-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-10T12:32:55Z",
+      "search_score": 8,
+      "source_name": "OpenRouter Rankings",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models Rankings data by OpenRouter is licensed under CC BY 4.0 . Reuse and republish it with attribution. The Data API docs cover the citation format and JSON access to these datasets. Footer \u00a9 2026 OpenRouter, Inc Product Chat Rankings Benchmarks Apps Discover Models Ori Providers Tools Pricing Business Enterprise Labs Company About Blog Customers Careers Hiring Privacy Terms of Service Trust Center Support Works With OR Data Brand Developer Documentation API Reference Developer Platform Status AI Site Map Connect Discord GitHub LinkedIn X YouTube",
+      "title": "OpenRouter real-world model rankings changed",
+      "url": "https://openrouter.ai/rankings#edgeai-94f7515fcef519c8efe5"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "391b2a19b716d7dde3fba439",
       "discovered_at": "2026-10-28T01:49:06Z",
       "kind": "independent-signal",
@@ -1917,6 +1945,20 @@
       "summary": "OpenAI's Control Room Halts Rogue AI Workloads Within 35 Seconds Across Research Infra openai.com \u00b7 Show TLDR",
       "title": "OpenAI's Control Room Halts Rogue AI Workloads Within 35 Seconds Across Research Infra openai.com \u00b7 Show TLDR",
       "url": "https://openai.com/index/control-room/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "c4312adb767125dc510734b0",
+      "discovered_at": "2026-11-10T12:32:54Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-10T03:53:04+00:00",
+      "search_score": 6,
+      "source_name": "Simon Willison Everything",
+      "summary": "Tool: Yonkers Rises I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I prompted Fable 5.2 Medium to: Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and \u00e1tomos around manhattan and queens and Brooklyn, use openstreetmap mapping data It correctly deduced that \"\u00e1tomos\" was a mobile keyboard typo for \"stomps\": Tags: three-js , llms , ai , generative-ai , claude-mythos-fable",
+      "title": "Yonkers Rises",
+      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/"
     },
     {
       "bootstrap": false,
@@ -2830,6 +2872,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "6e5dd9a3a071a0ef9a54720b",
+      "discovered_at": "2026-11-10T12:32:53Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 0,
+      "source_name": "FutureTools AI News",
+      "summary": "Automattic Launches Spacefast to Deploy Vibe-Coded Apps, Competing with Lovable techcrunch.com \u00b7 Show TLDR",
+      "title": "Automattic Launches Spacefast to Deploy Vibe-Coded Apps, Competing with Lovable techcrunch.com \u00b7 Show TLDR",
+      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "53fc8d7d6a6c5b77f7b7d107",
       "discovered_at": "2026-11-08T08:01:52Z",
       "kind": "signal",
@@ -2869,6 +2925,20 @@
       "summary": "Google's next frontier model Discussion | Link",
       "title": "Gemini 4 Carbon",
       "url": "https://www.producthunt.com/products/gemini-4-carbon"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "fd367b134f727eb474b74af2",
+      "discovered_at": "2026-11-10T12:32:54Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-07T13:30:59-08:00",
+      "search_score": 7,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Your AI agent finds what's safe to delete on your Mac Discussion | Link",
+      "title": "Levo",
+      "url": "https://www.producthunt.com/products/levo-3"
     },
     {
       "bootstrap": false,
@@ -3429,23 +3499,9 @@
       "summary": "Check if AI agents can use your website Discussion | Link",
       "title": "Dedica",
       "url": "https://www.producthunt.com/products/dedica"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "5b5342279aed01a5a7bf76a8",
-      "discovered_at": "2026-11-09T21:33:40Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-11-07T08:27:33-08:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Secure and share your personal data with AI tools. Discussion | Link",
-      "title": "Egoist AI Passport",
-      "url": "https://www.producthunt.com/products/egoist-ai-passport"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-10T03:50:51Z",
+  "updated_at": "2026-11-10T12:32:58Z",
   "version": 2
 }

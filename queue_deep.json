@@ -618,20 +618,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "2bbf27d88bc8b18ad05b0d21",
-      "discovered_at": "2026-10-27T18:23:50Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-10-27T18:23:50Z",
-      "search_score": 35,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 27 Oct 2026 SambaNova performance results now available MiniMax-M3.1-Flash 26 Oct 2026 \ud83d\udd14 New article published GPT-6.1 Terra pushes the cost efficiency frontier OpenAI has released GPT-6.1 Terra, pushing the cost efficiency frontier. It is the first Terra-class model since GPT-5.6, and is more intelligent for less than a third of the cost \ud83d\udd14 New article published Code2Video-AA: how well do AI models design videos in code? Artificial Analysis' implementation of HeyGen's Code2Video Bench, evaluating how well models create short product and brand videos from 114 design briefs using HyperFrames HTML. New language model evaluation results available GPT-6.1 Terra (Non-reasoning) Intelligence Index: 33 New language model evaluation results available GPT-6.1 Terra (Low) Intelligence Index: 36 New language model evaluation results available GPT-6.1 Terra (Medium) Intelligence Index: 41 New language model evaluation results available GPT-6.1 Terra (High) Intelligence Index: 44 New language model evaluation results available GPT-6.1 Terra (Xhigh) Intelligence Index: 45 New language model evaluation results available GPT-6.1 Terra (Max) Intelligence Index: 48 OpenAI performance results now available GPT-6.1 Terra (Non-reasoning) GPT-6.1 Terra (Low) GPT-6.1 Terra (Medium) GPT-6.1 Terra (High) GPT-6.1 Terra (Xhigh) GPT-6.1 Terra (Max) 23 Oct 2026 \ud83d\udd14 New article published Kimi K3.1 Pro launches at 4th on the Intelligence Index and will lead open weights models Kimi K3.1 Pro launches at 4th on the Artificial Analysis Intelligence Index and will lead open weights models New language model evaluation results available Kimi K3.1 Pro Intelligence Index: 55 New language model evaluation results available Nemotron 3.5 Bolt E4B 4GB (Reasoning) Inco performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax-M3.1-Flash MiniMax-M3.1-Flash Nebius performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax-M3.1-Flash Modular performance results now available MiniMax-M3.1-Flash SiliconFlow performance results now available MiniMax-M3.1-Flash Fireworks performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash (Non-reasoning) Wafer performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash 1017 (Max) Together AI performance results now available MiniMax-M3.1-Flash Parasail performance results now available MiniMax-M3.1-Flash GMI performance results now available MiniMax-M3.1-Flash Novita performance results now available MiniMax-M3.1-Flash DigitalOcean performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash 1017 (Max) Kimi performance results now available Kimi K3.1 Pro Kimi K3.1 Pro 22 Oct 2026 New language model evaluation results available Ling 3.1 Flash 1019 Intelligence Index: 44 InclusionAI performance results now available Ling 3.1 Flash 1019 21 Oct 2026 LithosAI performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DigitalOcean performance results now available Beam 1.0 Makora performance results now available DeepSeek V4.1 Flash 1017 (Max) 20 Oct 2026 GMI performance results now available DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available DeepSeek V4.1 Flash 1017 (Max) 19 Oct 2026 \ud83d\udd14 New article published HealthBench and HealthBench Professional: Evaluating models in realistic health conversations We\u2019re launching leaderboards for HealthBench and HealthBench Professional, two benchmarks evaluating how AI models respond in realistic health conversations New language model evaluation results available MiniMax-M3.1-Flash Intelligence Index: 43 SiliconFlow performance results now available DeepSeek V4.1 Flash 1017 (Max) Together AI performance results now available DeepSeek V4.1 Flash 1017 (Max) Novita performance results now available DeepSeek V4.1 Flash 1017 (Max) Systalyze performance results now available GLM-5.2 (Non-reasoning) GLM-5.2 (Max) DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available Nemotron 3.5 Lightning Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax performance results now available MiniMax-M3.1-Flash 18 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Max) Intelligence Index: 45 Baseten performance results now available DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available DeepSeek V4.1 Flash 1017 (Max) Parasail performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepInfra performance results now available DeepSeek V4.1 Flash 1017 (Max)",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-3d60ad9bbbc575b3e33d"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "577d545cafe0557e54ea13b7",
       "discovered_at": "2026-11-02T09:24:21Z",
       "kind": "primary",
@@ -713,6 +699,20 @@
       "summary": "\u3010\u958b\u50ac\u30ec\u30dd\u30fc\u30c8\u3011Sakana AI\u30b7\u30f3\u30dd\u30b8\u30a6\u30e0\uff1aJ\u00fcrgen Schmidhuber\u304c\u8a9e\u308bAI\u306e\u3053\u308c\u307e\u3067\u3068\u3053\u308c\u304b\u3089\u3001\u65e5\u672c\u304b\u3089\u6311\u3080\u8a00\u8a9e\u30e2\u30c7\u30eb\u30fb\u4e16\u754c\u30e2\u30c7\u30eb\u30fbPhysical AI",
       "title": "\u3010\u958b\u50ac\u30ec\u30dd\u30fc\u30c8\u3011Sakana AI\u30b7\u30f3\u30dd\u30b8\u30a6\u30e0\uff1aJ\u00fcrgen Schmidhuber\u304c\u8a9e\u308bAI\u306e\u3053\u308c\u307e\u3067\u3068\u3053\u308c\u304b\u3089\u3001\u65e5\u672c\u304b\u3089\u6311\u3080\u8a00\u8a9e\u30e2\u30c7\u30eb\u30fb\u4e16\u754c\u30e2\u30c7\u30eb\u30fbPhysical AI",
       "url": "https://sakana.ai/symposium-2026/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "0e365028518c38e91ece0fda",
+      "discovered_at": "2026-11-10T20:02:33Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "",
+      "search_score": 6,
+      "source_name": "MiniMax Research",
+      "summary": "Video & Image MiniMax H3 MiniMax H3 Image",
+      "title": "MiniMax H3 Image",
+      "url": "https://www.minimax.io/blog/minimax-h3-image"
     },
     {
       "bootstrap": false,
@@ -1304,6 +1304,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "42e1714619e50bc087118082",
+      "discovered_at": "2026-11-10T20:02:29Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 14,
+      "source_name": "FutureTools AI News",
+      "summary": "OpenAI Launches \"Businesses in ChatGPT\" Beta with Business Hub and AI Agents openai.com \u00b7 Show TLDR",
+      "title": "OpenAI Launches \"Businesses in ChatGPT\" Beta with Business Hub and AI Agents openai.com \u00b7 Show TLDR",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "da9c62c52f6c35e6916b0724",
       "discovered_at": "2026-10-29T00:27:44Z",
       "kind": "independent",
@@ -1315,34 +1329,6 @@
       "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. In general, models that are bigger will (a) be more performant / reliable, (b) cost more per token, and (c) have better recall of esoteric facts. As you note, our models are ordered: Luna < Terra < Sol < Astra [ ... ] These days, version number signifies a few things at once: the order of release, the relationship to other releases, and the magnitude of improvement. So something like 6.1 would indicate it was launched after 5.6, may share some similarities to other 6.1 models in terms of training data / personality (which is why it's not 5.7), and isn't a giant enough leap to merit the headlines and expectations that would come with a 7. \u2014 Ted Sanders , explaining OpenAI's model naming conventions Tags: generative-ai , gpt , openai , ai , llms , ted-sanders",
       "title": "Quoting Ted Sanders",
       "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "7c363a9f000ae8a44318f09f",
-      "discovered_at": "2026-10-27T18:23:54Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 27, 2026",
-      "search_score": 13,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch > How plans work All plans give you access to every model. Your choice of model and the size of your tasks affect how quickly you use your allowance. Daily and weekly limits apply, along with a monthly allowance. You can see how much you've used and when each limit resets on the Usage page. More expensive models have an additional monthly limit; which models count depends on your plan. If you reach it, you can keep using other models within your remaining allowance. If you use up your included usage, you can switch to an available free model, wait for your allowance to reset, or continue with purchased pay-as-you-go credits. > FAQS How much more usage do Super and Ultra include? Super gives you substantially more included usage than Plus, and Ultra more again. Each plan card above lists its included Cloud agent size. How much work you can do depends on the models you choose and the size of your tasks. What counts toward usage? Model and included tool usage in Hermes Agent count toward your allowance when you sign in with your Nous account. Hosting for one Cloud agent is included as well. API-key requests and additional Cloud agents use pay-as-you-go credits. When does my usage reset? Daily usage resets after 24 hours, and weekly usage after seven days, starting when you first use each window. Your monthly allowance and large-model allowance reset with your billing period. Your Usage page shows the exact reset times. These limits apply together: a daily reset won't restore included usage if you've reached your weekly or monthly limit. What happens when I reach a limit? You can wait for the reset or switch to an available free model. Turn on Keep going on credits to continue using paid models with your pay-as-you-go balance. Leave it off and Hermes won't spend those credits when your included usage runs out. If you reach only the large-model limit, other models remain available within your remaining allowance. What happens to my existing subscription? When you switch, unused subscription credits carry over as pay-as-you-go credits, up to one month of your current plan's credits. Switching to a plan at the same price takes effect immediately with nothing to pay that day. Upgrades charge the price difference; downgrades take effect at the end of your billing period. Once you switch, you can't return to a legacy paid plan. Oct 27, 2026 @NousResearch We've revamped Hermes Agent subscriptions. Every new plan now includes a cloud agent out of the box, and usage has daily and weekly limits instead of one monthly block of credits. Subscribers can switch to the new plans any time at portal.nousresearch.com/billing Oct 27, 2026 @NousResearch Join us at @pangram HQ in NYC for an anti-slop hackathon! x.com/pangram/status\u2026 Oct 26, 2026 @NousResearch With the new Advanced Delegation modes plugin, Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up. The right model or profile for every job. hermes-agent.nousresearch.com/docs/plugins/a\u2026 Oct 26, 2026 @NousResearch Oct 26, 2026 @NousResearch Great time to use the Unbroker skill! x.com/shl0ms/status/\u2026 Oct 26, 2026 @NousResearch Please be careful about downloading third-party apps. The official mobile apps are not in app stores yet, and apps that closely mirror Hermes branding are typically fraudulent and not legitimate community projects. Oct 25, 2026 @NousResearch Oct 25, 2026 @NousResearch Hermes Agent gives you control x.com/yacinemtb/stat\u2026 Oct 24, 2026 @NousResearch See you next week in NYC! x.com/nousresearch/s\u2026 Oct 23, 2026",
-      "title": "@NousResearch > How plans work All plans give you access to every model. Your choice of model and the size of your tasks affect how quickly you use your allowance. Daily and weekly limits apply, along with a monthly allowance. You can see h",
-      "url": "https://x.com/NousResearch/status/2115131295319662938"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "8b8d11c5c80d0e4dca5f164e",
-      "discovered_at": "2026-10-27T18:23:54Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 27, 2026",
-      "search_score": 13,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch > How plans work All plans give you access to every model. Your choice of model and the size of your tasks affect how quickly you use your allowance. Daily and weekly limits apply, along with a monthly allowance. You can see how much you've used and when each limit resets on the Usage page. More expensive models have an additional monthly limit; which models count depends on your plan. If you reach it, you can keep using other models within your remaining allowance. If you use up your included usage, you can switch to an available free model, wait for your allowance to reset, or continue with purchased pay-as-you-go credits. > FAQS How much more usage do Super and Ultra include? Super gives you substantially more included usage than Plus, and Ultra more again. Each plan card above lists its included Cloud agent size. How much work you can do depends on the models you choose and the size of your tasks. What counts toward usage? Model and included tool usage in Hermes Agent count toward your allowance when you sign in with your Nous account. Hosting for one Cloud agent is included as well. API-key requests and additional Cloud agents use pay-as-you-go credits. When does my usage reset? Daily usage resets after 24 hours, and weekly usage after seven days, starting when you first use each window. Your monthly allowance and large-model allowance reset with your billing period. Your Usage page shows the exact reset times. These limits apply together: a daily reset won't restore included usage if you've reached your weekly or monthly limit. What happens when I reach a limit? You can wait for the reset or switch to an available free model. Turn on Keep going on credits to continue using paid models with your pay-as-you-go balance. Leave it off and Hermes won't spend those credits when your included usage runs out. If you reach only the large-model limit, other models remain available within your remaining allowance. What happens to my existing subscription? When you switch, unused subscription credits carry over as pay-as-you-go credits, up to one month of your current plan's credits. Switching to a plan at the same price takes effect immediately with nothing to pay that day. Upgrades charge the price difference; downgrades take effect at the end of your billing period. Once you switch, you can't return to a legacy paid plan. Oct 27, 2026 @NousResearch We've revamped Hermes Agent subscriptions. Every new plan now includes a cloud agent out of the box, and usage has daily and weekly limits instead of one monthly block of credits. Subscribers can switch to the new plans any time at portal.nousresearch.com/billing Oct 27, 2026 @NousResearch Join us at @pangram HQ in NYC for an anti-slop hackathon! x.com/pangram/status\u2026 Oct 26, 2026 @NousResearch With the new Advanced Delegation modes plugin, Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up. The right model or profile for every job. hermes-agent.nousresearch.com/docs/plugins/a\u2026 Oct 26, 2026 @NousResearch Oct 26, 2026 @NousResearch Great time to use the Unbroker skill! x.com/shl0ms/status/\u2026 Oct 26, 2026 @NousResearch Please be careful about downloading third-party apps. The official mobile apps are not in app stores yet, and apps that closely mirror Hermes branding are typically fraudulent and not legitimate community projects. Oct 25, 2026 @NousResearch Oct 25, 2026 @NousResearch Hermes Agent gives you control x.com/yacinemtb/stat\u2026 Oct 24, 2026 @NousResearch See you next week in NYC! x.com/nousresearch/s\u2026 Oct 23, 2026",
-      "title": "@NousResearch We've revamped Hermes Agent subscriptions. Every new plan now includes a cloud agent out of the box, and usage has daily and weekly limits instead of one monthly block of credits. Subscribers can switch to the new plans any ti",
-      "url": "https://x.com/NousResearch/status/2115120531611787323"
     },
     {
       "bootstrap": false,
@@ -1525,6 +1511,20 @@
       "summary": "@NousResearch With Hermes it's all yours to conquer Nov 10, 2026 @NousResearch Try Fable 5.2 in Hermes Agent x.com/Kshitijjkapoor\u2026 Nov 9, 2026 @NousResearch Hermes Cloud agents now open in a browser tab with the exact same interface as Hermes Desktop. https://t.co/4Vw3XJgFwn To launch a personal agent, pick a name and a model in Nous Portal. We host it for you and it runs 24/7 in its own container, so it can handle scheduled jobs and answer you on any channel while your laptop is closed. Chats, Group Chats, plugins and settings in the Webapp work the same way they do when you run Hermes on your own computer. Open your agent from Nous Portal on your phone or any computer, or connect Hermes Desktop to it and continue the same chats there. Plus, Super, and Ultra plans each include one Cloud agent out of the box. Using Hermes from anywhere has never been easier. Nov 9, 2026 @NousResearch Using an agent that can change its models or code at any time without telling you is like building on quicksand Nov 8, 2026 @NousResearch hermes-agent.nousresearch.com/marketplace/he\u2026 Nov 8, 2026 @NousResearch Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s. Hermes first maps what an attacker could reach and which inputs it trusts. It splits the code across parallel subagents, checks every candidate finding against the code, and traces whether an attacker can actually exploit it. Turn on test confirmation and Hermes writes a small reproduction for each finding and runs it in a temporary copy of the repo. Each report records the evidence and the findings Hermes ruled out, and exports to SARIF for your existing tools. Run it from chat, the CLI, or the Security page in Hermes Desktop. Nov 8, 2026 @NousResearch Eval: huggingface.co/datasets/NousR\u2026 Weights: huggingface.co/NousResearch/A\u2026 Training data: huggingface.co/datasets/NousR\u2026 Nov 6, 2026 @NousResearch nousresearch.com/arete Nov 6, 2026 @NousResearch Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values. Chinese open models are currently the strongest available, but they ship with state-aligned behavior in the weights. We built an 803-prompt eval across seven value categories, including freedom of expression, democracy, and privacy, and measured how often a model adopts China\u2019s party line. After fine-tuning on roughly 53 million tokens, Arete-27B's propaganda rate fell from 22% to 1%, in line with the Western models we tested. Its Hermes Bench score shows no significant performance tradeoffs. The values in an open model are one fine-tune away. Our eval, weights, and training data are available now along with the full blog post: https://t.co/iAOANQTVZ6 Nov 6, 2026 @NousResearch Get more out of your Hermes Bots with free and discounted models exclusive to portal.nousresearch.com Nov 6, 2026",
       "title": "@NousResearch With Hermes it's all yours to conquer Nov 10, 2026",
       "url": "https://x.com/NousResearch/status/2119954753002062274"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "51192354fb71acd3df82a498",
+      "discovered_at": "2026-11-10T20:02:33Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Nov 10, 2026",
+      "search_score": 11,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch The Sign in with ChatGPT flow in Nous Portal now supports your ChatGPT Business plan x.com/OpenAIDevs/sta\u2026 Nov 10, 2026 @NousResearch With Hermes it's all yours to conquer Nov 10, 2026 @NousResearch Try Fable 5.2 in Hermes Agent x.com/Kshitijjkapoor\u2026 Nov 9, 2026 @NousResearch Hermes Cloud agents now open in a browser tab with the exact same interface as Hermes Desktop. https://t.co/4Vw3XJgFwn To launch a personal agent, pick a name and a model in Nous Portal. We host it for you and it runs 24/7 in its own container, so it can handle scheduled jobs and answer you on any channel while your laptop is closed. Chats, Group Chats, plugins and settings in the Webapp work the same way they do when you run Hermes on your own computer. Open your agent from Nous Portal on your phone or any computer, or connect Hermes Desktop to it and continue the same chats there. Plus, Super, and Ultra plans each include one Cloud agent out of the box. Using Hermes from anywhere has never been easier. Nov 9, 2026 @NousResearch Using an agent that can change its models or code at any time without telling you is like building on quicksand Nov 8, 2026 @NousResearch hermes-agent.nousresearch.com/marketplace/he\u2026 Nov 8, 2026 @NousResearch Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s. Hermes first maps what an attacker could reach and which inputs it trusts. It splits the code across parallel subagents, checks every candidate finding against the code, and traces whether an attacker can actually exploit it. Turn on test confirmation and Hermes writes a small reproduction for each finding and runs it in a temporary copy of the repo. Each report records the evidence and the findings Hermes ruled out, and exports to SARIF for your existing tools. Run it from chat, the CLI, or the Security page in Hermes Desktop. Nov 8, 2026 @NousResearch Eval: huggingface.co/datasets/NousR\u2026 Weights: huggingface.co/NousResearch/A\u2026 Training data: huggingface.co/datasets/NousR\u2026 Nov 6, 2026 @NousResearch nousresearch.com/arete Nov 6, 2026 @NousResearch Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values. Chinese open models are currently the strongest available, but they ship with state-aligned behavior in the weights. We built an 803-prompt eval across seven value categories, including freedom of expression, democracy, and privacy, and measured how often a model adopts China\u2019s party line. After fine-tuning on roughly 53 million tokens, Arete-27B's propaganda rate fell from 22% to 1%, in line with the Western models we tested. Its Hermes Bench score shows no significant performance tradeoffs. The values in an open model are one fine-tune away. Our eval, weights, and training data are available now along with the full blog post: https://t.co/iAOANQTVZ6 Nov 6, 2026",
+      "title": "@NousResearch The Sign in with ChatGPT flow in Nous Portal now supports your ChatGPT Business plan x.com/OpenAIDevs/sta\u2026 Nov 10, 2026",
+      "url": "https://x.com/NousResearch/status/2120215605123178671"
     },
     {
       "bootstrap": false,
@@ -1976,20 +1976,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "8333c89d9d7c203a0369214c",
-      "discovered_at": "2026-10-27T22:30:10Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-27T19:34:18+00:00",
-      "search_score": 6,
-      "source_name": "Simon Willison Everything",
-      "summary": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NES emulator working on it, and then went a step further and deployed an emulator for both the Game Boy and the Game Boy Color. Which means, if you can obtain the ROM, you can run The Legend of Zelda: Link's Awakening on your conference badge! A neat feature of the badge is that you can turn it upside down and then use game controller touch buttons that are built into the badge body. Tags: games , github , hardware-hacking , ai , generative-ai , llms , gemini , steve-francia",
-      "title": "Game Boy Color on My Conference Badge",
-      "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "6fca76cd16ee82423d82d844",
       "discovered_at": "2026-10-27T22:30:09Z",
       "kind": "signal",
@@ -2284,6 +2270,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "75246809fe714d5da0ed6099",
+      "discovered_at": "2026-11-10T20:02:29Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "Anthropic Launches IPO Roadshow, Targets Nasdaq Under \"ANT\" at $70\u2013$78/Share anthropic.com \u00b7 Show TLDR",
+      "title": "Anthropic Launches IPO Roadshow, Targets Nasdaq Under \"ANT\" at $70\u2013$78/Share anthropic.com \u00b7 Show TLDR",
+      "url": "https://www.anthropic.com/news/roadshow-launch?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "bb8aa0bc50a92df76069cf7f",
+      "discovered_at": "2026-11-10T20:02:29Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "Google Launches Gemini 4 Carbon With Frontier Cybersecurity and Agentic Capabilities blog.google \u00b7 Show TLDR",
+      "title": "Google Launches Gemini 4 Carbon With Frontier Cybersecurity and Agentic Capabilities blog.google \u00b7 Show TLDR",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "db8aad7567ee0d78097e3d53",
       "discovered_at": "2026-11-06T20:59:29Z",
       "kind": "independent",
@@ -2393,6 +2407,20 @@
       "summary": "42AI Exits Stealth With $62.5M to Build Behavioral World Model Predicting Human Decisions techcrunch.com \u00b7 Show TLDR",
       "title": "42AI Exits Stealth With $62.5M to Build Behavioral World Model Predicting Human Decisions techcrunch.com \u00b7 Show TLDR",
       "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "93378a8278cc49a633a869f3",
+      "discovered_at": "2026-11-10T20:02:29Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 4,
+      "source_name": "FutureTools AI News",
+      "summary": "NVIDIA Alpamayo 2 Edge Brings Real-Time AV Reasoning to DRIVE AGX Thor Onboard Systems developer.nvidia.com \u00b7 Show TLDR",
+      "title": "NVIDIA Alpamayo 2 Edge Brings Real-Time AV Reasoning to DRIVE AGX Thor Onboard Systems developer.nvidia.com \u00b7 Show TLDR",
+      "url": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits/?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2886,6 +2914,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "fb1c28bbf7a9b2bc862fa7a6",
+      "discovered_at": "2026-11-10T20:02:29Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 0,
+      "source_name": "FutureTools AI News",
+      "summary": "Nvidia CEO's Ties to Alleged Chinese Spy Facilitated $7.5B in Chip Sales to China theinformation.com Paywalled \u00b7 Show TLDR",
+      "title": "Nvidia CEO's Ties to Alleged Chinese Spy Facilitated $7.5B in Chip Sales to China theinformation.com Paywalled \u00b7 Show TLDR",
+      "url": "https://www.theinformation.com/articles/jensen-huangs-yearslong-ties-alice-huang-enabled-nvidia-chip-sales-china?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "53fc8d7d6a6c5b77f7b7d107",
       "discovered_at": "2026-11-08T08:01:52Z",
       "kind": "signal",
@@ -3026,20 +3068,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "1445b894808d974c625bc87d",
-      "discovered_at": "2026-10-27T18:23:50Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "Oct 27, 2026",
-      "search_score": 6,
-      "source_name": "Futurepedia Newsletter Archive",
-      "summary": "Oct 27, 2026 \u2022 3 min read Claude Can Now Build a Dashboard That Updates Itself Here's how to point it at your Gmail, Slack & calendar, then share one live page Saj at Futurepedia",
-      "title": "Oct 27, 2026 \u2022 3 min read Claude Can Now Build a Dashboard That Updates Itself Here's how to point it at your Gmail, Slack & calendar, then share one live page Saj at Futurepedia",
-      "url": "https://newsletter.futurepedia.io/p/claude-can-now-build-a-dashboard-that-updates-itself-10-27-2026"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "edb7366353cc5e746afeee90",
       "discovered_at": "2026-10-30T16:40:48Z",
       "kind": "signal",
@@ -3082,6 +3110,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "67329443544fec0f924177ec",
+      "discovered_at": "2026-11-10T20:02:30Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "Nov 10, 2026",
+      "search_score": 6,
+      "source_name": "Futurepedia Newsletter Archive",
+      "summary": "Nov 10, 2026 \u2022 3 min read Claude Can Build Your Whole Website From One Prompt Here's the full step-by-step, from one pasted prompt to a live site on your own domain Saj at Futurepedia",
+      "title": "Nov 10, 2026 \u2022 3 min read Claude Can Build Your Whole Website From One Prompt Here's the full step-by-step, from one pasted prompt to a live site on your own domain Saj at Futurepedia",
+      "url": "https://newsletter.futurepedia.io/p/claude-can-build-your-whole-website-from-one-prompt-11-10-2026"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "5226e12e1f5077abad9f7ddc",
       "discovered_at": "2026-11-04T09:57:41Z",
       "kind": "signal",
@@ -3121,6 +3163,20 @@
       "summary": "LLM observability for AI agents Discussion | Link",
       "title": "telemetry.dev",
       "url": "https://www.producthunt.com/products/telemetry-dev"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "40b43a9b49b56f93a4e47049",
+      "discovered_at": "2026-11-10T20:02:30Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-09T17:26:14-08:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Open-source voice AI agents with no platform fee Discussion | Link",
+      "title": "openring",
+      "url": "https://www.producthunt.com/products/openring"
     },
     {
       "bootstrap": false,
@@ -3208,31 +3264,31 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "1897925dbdda805e4c10e1ce",
-      "discovered_at": "2026-10-28T08:23:12Z",
+      "candidate_id": "3463d67124d3957d891be8b9",
+      "discovered_at": "2026-11-10T20:02:30Z",
       "kind": "signal",
       "lane": "deep",
       "priority": 3,
-      "published": "2026-10-27T10:20:52-07:00",
-      "search_score": 4,
+      "published": "2026-11-09T09:34:57-08:00",
+      "search_score": 3,
       "source_name": "Product Hunt Main Feed",
-      "summary": "Six 2B-class models for phones, laptops and robots Discussion | Link",
-      "title": "LFM3 by Liquid AI",
-      "url": "https://www.producthunt.com/products/lfm2"
+      "summary": "A canvas of real terminals for your AI coding agents Discussion | Link",
+      "title": "OpenVibe",
+      "url": "https://www.producthunt.com/products/openvibe-2"
     },
     {
       "bootstrap": false,
-      "candidate_id": "7f62040b7839cc06f4fef05f",
-      "discovered_at": "2026-10-29T13:31:50Z",
+      "candidate_id": "29281bab309c6322ca0f4cfa",
+      "discovered_at": "2026-11-10T20:02:30Z",
       "kind": "signal",
       "lane": "deep",
       "priority": 3,
-      "published": "2026-10-27T10:03:15-07:00",
-      "search_score": 4,
+      "published": "2026-11-09T09:01:49-08:00",
+      "search_score": 3,
       "source_name": "Product Hunt Main Feed",
-      "summary": "Better data. Smarter robots. Repeat. Discussion | Link",
-      "title": "Voxel51 Multimodal",
-      "url": "https://www.producthunt.com/products/voxel51"
+      "summary": "AI-native IDE: agents code with human review Discussion | Link",
+      "title": "ZUS",
+      "url": "https://www.producthunt.com/products/zus-2"
     },
     {
       "bootstrap": false,
@@ -3443,65 +3499,9 @@
       "summary": "Your smart lights show when Claude Code or Codex needs you. Discussion | Link",
       "title": "AC Bridge",
       "url": "https://www.producthunt.com/products/ac-bridge"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "a06f45b33b682519fc6ceafe",
-      "discovered_at": "2026-10-31T12:57:54Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-29T14:07:32-07:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "The autonomous backend for AI coding agents Discussion | Link",
-      "title": "Backenly",
-      "url": "https://www.producthunt.com/products/backenly-2"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "d655994c01a9f4bb3e99d796",
-      "discovered_at": "2026-10-30T09:55:37Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-28T20:25:09-07:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Fastest open source browser agent Discussion | Link",
-      "title": "fastbrowse",
-      "url": "https://www.producthunt.com/products/fastbrowse"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "902ef6036dced0f250f729a0",
-      "discovered_at": "2026-10-29T13:31:50Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-28T04:27:28-07:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Team up Claude Code, Codex and Grok on one canvas Discussion | Link",
-      "title": "MAO",
-      "url": "https://www.producthunt.com/products/mao-multi-agentic-orchestration-tool"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "70cb93cbb6c0b3547f5bdd50",
-      "discovered_at": "2026-10-28T08:23:12Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-27T17:45:35-07:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Check if AI agents can use your website Discussion | Link",
-      "title": "Dedica",
-      "url": "https://www.producthunt.com/products/dedica"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-10T12:32:58Z",
+  "updated_at": "2026-11-10T20:02:34Z",
   "version": 2
 }

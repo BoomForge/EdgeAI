@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-10T12:32:58Z",
+    "at": "2026-11-10T20:02:34Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 4,
-    "queued": 8,
+    "prefiltered": 3,
+    "queued": 11,
     "sources_ok": 15,
-    "too_old": 11,
+    "too_old": 4,
     "warnings": 0
   },
-  "runs": 190,
+  "runs": 191,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -471,6 +471,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/autochart-eu"
     },
+    "0e365028518c38e91ece0fda": {
+      "first_seen": "2026-11-10T20:02:33Z",
+      "status": "queued",
+      "url": "https://www.minimax.io/blog/minimax-h3-image"
+    },
     "0e4a30e4b64d3de41be903f8": {
       "first_seen": "2026-10-03T11:34:52Z",
       "search_score": 0,
@@ -758,6 +763,11 @@
       "first_seen": "2026-10-28T08:23:12Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/airposture-2"
+    },
+    "167cc413823dbe795355b009": {
+      "first_seen": "2026-11-10T20:02:30Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/apptraction"
     },
     "168c75ff3ed8568a3b7658f4": {
       "first_seen": "2026-10-29T06:22:36Z",
@@ -1435,6 +1445,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/cosyra"
     },
+    "29281bab309c6322ca0f4cfa": {
+      "first_seen": "2026-11-10T20:02:30Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/zus-2"
+    },
     "293212af1428ad79e0113bfd": {
       "first_seen": "2026-10-13T10:55:50Z",
       "status": "too_old",
@@ -1795,6 +1810,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
     },
+    "3463d67124d3957d891be8b9": {
+      "first_seen": "2026-11-10T20:02:30Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/openvibe-2"
+    },
     "34673b67a947aa6f3d84d8dd": {
       "first_seen": "2026-10-30T09:55:37Z",
       "status": "too_old",
@@ -2121,6 +2141,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/virelo"
     },
+    "3d392d3de54d7234bf467cb0": {
+      "first_seen": "2026-11-10T20:02:30Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/ownkube"
+    },
     "3d4362e82edd89613db72579": {
       "first_seen": "2026-10-16T14:48:14Z",
       "status": "queued",
@@ -2275,6 +2300,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/toad-4"
     },
+    "40b43a9b49b56f93a4e47049": {
+      "first_seen": "2026-11-10T20:02:30Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/openring"
+    },
     "40b751b710ffdfe179ad0616": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -2357,6 +2387,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/codync"
+    },
+    "42e1714619e50bc087118082": {
+      "first_seen": "2026-11-10T20:02:29Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "4304b429312d41f51887e823": {
       "first_seen": "2026-11-02T09:24:17Z",
@@ -2817,6 +2852,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/brnch"
     },
+    "51192354fb71acd3df82a498": {
+      "first_seen": "2026-11-10T20:02:33Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2120215605123178671"
+    },
     "511954a6d0270d3681f880b9": {
       "first_seen": "2026-10-18T10:57:54Z",
       "search_score": 1,
@@ -3116,6 +3156,12 @@
       "first_seen": "2026-11-03T09:27:30Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/scalekit"
+    },
+    "58f5506bcaae7280daf8c3f7": {
+      "first_seen": "2026-11-10T20:02:30Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/daytwo-2"
     },
     "590df63d3a724549f5f72ef7": {
       "first_seen": "2026-10-07T21:57:54Z",
@@ -3662,6 +3708,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/hunyuan-a13b"
     },
+    "67329443544fec0f924177ec": {
+      "first_seen": "2026-11-10T20:02:30Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/claude-can-build-your-whole-website-from-one-prompt-11-10-2026"
+    },
     "6774446985c5093f5ba19079": {
       "first_seen": "2026-10-23T22:40:12Z",
       "status": "queued",
@@ -4111,6 +4162,11 @@
       "first_seen": "2026-10-21T01:03:21Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/intel"
+    },
+    "75246809fe714d5da0ed6099": {
+      "first_seen": "2026-11-10T20:02:29Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/news/roadshow-launch?utm_source=futuretools.io&utm_medium=newspage"
     },
     "75ad735f3b00fa737990acd0": {
       "first_seen": "2026-10-16T14:48:14Z",
@@ -4954,6 +5010,11 @@
       "status": "queued",
       "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "8a6239e23f7f708c6af7ca8b": {
+      "first_seen": "2026-11-10T20:02:30Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/kata-send"
+    },
     "8acaafaa437ceaceda80a67b": {
       "first_seen": "2026-10-27T22:30:09Z",
       "status": "queued",
@@ -5005,6 +5066,12 @@
       "first_seen": "2026-10-13T18:14:14Z",
       "status": "queued",
       "url": "https://x.ai/news/x-subscription?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "8bca0043d43397955cf523a7": {
+      "first_seen": "2026-11-10T20:02:30Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/ember-117"
     },
     "8c3475b4c4e46013f666d8aa": {
       "first_seen": "2026-11-03T22:28:15Z",
@@ -5236,6 +5303,11 @@
       "status": "queued",
       "url": "https://www.anthropic.com/research/self-replicating-ai?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "93378a8278cc49a633a869f3": {
+      "first_seen": "2026-11-10T20:02:29Z",
+      "status": "queued",
+      "url": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "9363f381f0ec11aa1f233a0a": {
       "first_seen": "2026-10-13T23:00:39Z",
       "status": "queued",
@@ -5370,6 +5442,11 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
       "url": "https://www.kimi.com/en/products/kimi-work"
+    },
+    "976043cb834ea8927e657cd8": {
+      "first_seen": "2026-11-10T20:02:30Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/operum"
     },
     "9792fbb896fe9c609a4d8fd9": {
       "first_seen": "2026-10-29T13:31:50Z",
@@ -5510,6 +5587,12 @@
       "first_seen": "2026-10-08T16:26:00Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2108201390493544680"
+    },
+    "9bbbac9e689aac5f445f6e81": {
+      "first_seen": "2026-11-10T20:02:30Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tokens-by-ui-colors"
     },
     "9bbec82be200718e269f3286": {
       "first_seen": "2026-10-22T18:07:11Z",
@@ -6556,6 +6639,11 @@
       "first_seen": "2026-11-02T09:24:17Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/friday-work"
+    },
+    "bb8aa0bc50a92df76069cf7f": {
+      "first_seen": "2026-11-10T20:02:29Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "bb95438e7a5883c8cd30a13f": {
       "first_seen": "2026-10-15T22:14:54Z",
@@ -8695,6 +8783,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/isurge"
+    },
+    "fb1c28bbf7a9b2bc862fa7a6": {
+      "first_seen": "2026-11-10T20:02:29Z",
+      "status": "queued",
+      "url": "https://www.theinformation.com/articles/jensen-huangs-yearslong-ties-alice-huang-enabled-nvidia-chip-sales-china?utm_source=futuretools.io&utm_medium=newspage"
     },
     "fb3669bea1e8b6c8ae568746": {
       "first_seen": "2026-10-15T09:50:31Z",

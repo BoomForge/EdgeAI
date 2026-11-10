@@ -77,9 +77,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-09T02:05:00Z",
-    "eligible": 26,
-    "evaluated": 4,
+    "at": "2026-11-10T02:43:21Z",
+    "eligible": 40,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -129,6 +129,11 @@
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc3"
     },
+    "0098b34dc3539f64cae9a57d": {
+      "at": "2026-11-10T02:43:14Z",
+      "status": "expired",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "009b2e4d3edeb64c5098744c": {
       "at": "2026-10-13T03:56:54Z",
       "bootstrap": false,
@@ -142,6 +147,20 @@
         "source": "FutureTools AI News"
       },
       "url": "https://research.meta.ai/blog/muse-wonder?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "00f6e0cc22611c11ae4c3240": {
+      "at": "2026-11-10T02:43:18Z",
+      "bootstrap": false,
+      "score": 91,
+      "status": "published",
+      "story_key": "artificial-analysis-decision-index-v2-and-meta-muse-ember",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-8a9b7216253725afc1ae"
     },
     "0108f5a0b1758cecc286938e": {
       "at": "2026-10-03T00:58:43Z",
@@ -482,6 +501,11 @@
       "status": "ignored",
       "story_key": "llamacpp-b11679-k-pool-input-views",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11679"
+    },
+    "0b0e7840be3e83c66ec321a0": {
+      "at": "2026-11-10T02:43:14Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12175"
     },
     "0b3e7ad5951291266db5d6d2": {
       "at": "2026-10-29T16:27:11Z",
@@ -2040,6 +2064,11 @@
       },
       "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
     },
+    "306e06ae82be07a417a266e3": {
+      "at": "2026-11-10T02:43:14Z",
+      "status": "expired",
+      "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "30796f46de906be3bc43937d": {
       "at": "2026-10-07T06:34:10Z",
       "bootstrap": false,
@@ -2665,6 +2694,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/contextgem"
     },
+    "3f6ad937605d2e0f4f20eead": {
+      "at": "2026-11-10T02:43:14Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/arcjet"
+    },
     "3fbcb9b67843708734726082": {
       "at": "2026-10-16T22:03:17Z",
       "status": "expired",
@@ -3105,6 +3139,11 @@
       "story_key": "artificial-analysis-changelog-update-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-856ac3142a80b7c1453c"
     },
+    "4b476e2bddcb4a17c5c2308d": {
+      "at": "2026-11-10T02:43:14Z",
+      "status": "expired",
+      "url": "https://newsletter.futurepedia.io/p/one-claude-chat-now-runs-all-your-other-chats-11-06-2026"
+    },
     "4b5ea087cc8a8e8ba85e3e54": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -3261,6 +3300,11 @@
         "source": "MiniMax Research"
       },
       "url": "https://www.minimax.io/blog/minimax-maxproof-math-proof-evolution"
+    },
+    "4eface99299d2fbabced817d": {
+      "at": "2026-11-10T02:43:14Z",
+      "status": "expired",
+      "url": "https://youtu.be/IrAHINf0M6E?utm_source=futuretools.io&utm_medium=newspage"
     },
     "4f36a48fa9096d65b0260699": {
       "at": "2026-10-04T11:20:52Z",
@@ -3852,6 +3896,11 @@
       "at": "2026-10-16T22:03:17Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11597"
+    },
+    "6035ed65aa99b621fe6e7b7e": {
+      "at": "2026-11-10T02:43:14Z",
+      "status": "expired",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "603d4f0592f632a4812d62a6": {
       "at": "2026-10-06T02:32:14Z",
@@ -6618,6 +6667,11 @@
       "status": "expired",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.4"
     },
+    "a3db3ca999602c56ae53e6c5": {
+      "at": "2026-11-10T02:43:14Z",
+      "status": "expired",
+      "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "a3f2477a7a4c17f88579ed96": {
       "at": "2026-10-03T18:39:51Z",
       "status": "expired",
@@ -7564,6 +7618,14 @@
       "story_key": "elevenlabs-v4-resources-feed",
       "url": "https://elevenlabs.io/blog/category/resources"
     },
+    "bf6da13584ba9ae5becee303": {
+      "at": "2026-11-10T02:43:15Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "artificial-analysis-changelog-updates",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-a14b951bc99b0430c75b"
+    },
     "bfd5c674822307695b5ce33d": {
       "at": "2026-10-11T22:31:31Z",
       "status": "expired",
@@ -7914,6 +7976,11 @@
       },
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11781"
     },
+    "c950dc177f5da82b2fb934d3": {
+      "at": "2026-11-10T02:43:14Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/crystl-multitasking-terminal"
+    },
     "c95ddbc579654aa65129e4e7": {
       "at": "2026-10-24T21:44:53Z",
       "status": "expired",
@@ -8153,6 +8220,11 @@
       "at": "2026-11-06T00:09:40Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12061"
+    },
+    "d15bb5f95cf6d30ab35ce988": {
+      "at": "2026-11-10T02:43:14Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2118590391331279266"
     },
     "d1879513a33727bd29220105": {
       "at": "2026-10-24T21:44:58Z",
@@ -8553,6 +8625,20 @@
       },
       "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
     },
+    "da2b601c5cef9c0514f783c5": {
+      "at": "2026-11-10T02:43:21Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "artificial-analysis-changelog-meta-muse-ember",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-4b86cdf0058ec0dd4b41"
+    },
     "da32c1eb28451e49ed9f8fc3": {
       "at": "2026-11-01T23:08:13Z",
       "status": "expired",
@@ -8591,6 +8677,11 @@
       "status": "ignored",
       "story_key": "openai-oracle-case-study-chatgpt-codex",
       "url": "https://openai.com/index/oracle"
+    },
+    "db8aad7567ee0d78097e3d53": {
+      "at": "2026-11-10T02:43:14Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/"
     },
     "db9792e954d447010915e606": {
       "at": "2026-11-06T14:39:05Z",
@@ -8642,6 +8733,11 @@
       "status": "ignored",
       "story_key": "sakana-ai-product-team-culture-2026",
       "url": "https://sakana.ai/inside-product-team/"
+    },
+    "dd1266c7ee42e16d36eb8cb0": {
+      "at": "2026-11-10T02:43:14Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12177"
     },
     "dd4da1359b61535ba4332bd0": {
       "at": "2026-10-06T02:32:14Z",
@@ -8757,6 +8853,11 @@
         "source": "Kimi Research"
       },
       "url": "https://www.kimi.com/en/business"
+    },
+    "dfaac0a0a5b4884c84869933": {
+      "at": "2026-11-10T02:43:14Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12172"
     },
     "dfe8f4ca2517538c6c73eb91": {
       "at": "2026-10-28T19:45:53Z",
@@ -10605,6 +10706,27 @@
         "source": "Artificial Analysis Changelog"
       }
     },
+    "artificial-analysis-changelog-meta-muse-ember": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-meta-muse-ember.jpg",
+      "last_updated": "2026-11-10T02:43:21Z",
+      "post_id": "6805289223005724837",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/artificial-analysis-changelog-meta-muse.html",
+      "score": 82,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-4b86cdf0058ec0dd4b41"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Changelog: Meta Muse Ember Scores 36 on Intelligence Index",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
     "artificial-analysis-changelog-meta-muse-wonder-anthropic-claude-haiku-55": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-meta-muse-wonder-anthropic-claude-haiku-55.jpg",
@@ -10816,6 +10938,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Artificial Analysis Launches Cyber Index with OpenAI's GPT-6 Sol Leading Enterprise Defense Evaluation",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
+    "artificial-analysis-decision-index-v2-and-meta-muse-ember": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-decision-index-v2-and-meta-muse-ember.jpg",
+      "last_updated": "2026-11-10T02:43:18Z",
+      "post_id": "2220078154034940203",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/artificial-analysis-launches-decision_0489568302.html",
+      "score": 91,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-8a9b7216253725afc1ae"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Launches Decision Index v2 as Meta Muse Ember Joins Rankings",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

@@ -1920,20 +1920,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "c417f8e3d39d0b893c07541b",
-      "discovered_at": "2026-10-27T18:16:01Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Tue, 27 Oct 2026 07:00:00 GMT",
-      "search_score": 9,
-      "source_name": "OpenAI News",
-      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "34e7d62615202d0de65fe802",
       "discovered_at": "2026-11-03T23:00:43Z",
       "kind": "official",
@@ -2099,6 +2085,34 @@
       "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
       "title": "Scaling Git at OpenAI",
       "url": "https://openai.com/index/scaling-git-at-openai"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "0f0020abcf733229d29f4d40",
+      "discovered_at": "2026-11-10T13:19:05Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Tue, 10 Nov 2026 12:00:00 GMT",
+      "search_score": 5,
+      "source_name": "OpenAI News",
+      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "69d4d9d74efa01629a6c751d",
+      "discovered_at": "2026-11-10T13:19:05Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Tue, 10 Nov 2026 09:00:00 GMT",
+      "search_score": 5,
+      "source_name": "OpenAI News",
+      "summary": "New ThinkYoung research and lessons from OpenAI\u2019s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "title": "Closing the AI guidance gap in education",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education"
     },
     {
       "bootstrap": false,
@@ -2620,20 +2634,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "e1a6c815842fc51802b59507",
-      "discovered_at": "2026-10-27T12:40:00Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-27T12:33:51Z",
-      "search_score": 13,
-      "source_name": "llama.cpp Releases",
-      "summary": "model: Add MiniCPM-OCR-Jev ( #30980 ) model : add MiniCPM-OCR-Jev support The model is a Qwen3.5-VL trunk with a value head read at the last token: it scores an OCR text against an image rendered from it, it does not generate. Add the openbmb-minicpm-ocr-jev decision type, served by POST /v1/systemone. The class scores are the pooled output of the sequence, read with last pooling, so the conversion turns score.weight into cls.output and sets embedding_length_out. The checkpoint has no LM head, so text generation is rejected instead of using the output weights duplicated from the token embeddings. The task is fixed, so its prompt is entirely in the systemone template, the same way h2o-lightning keeps its default there. The processor of the checkpoint allows up to 16384 merged tokens per image, more than the Qwen-VL default of mtmd, so the mmproj keeps the image budget of the preprocessor config. The checkpoint declares MiniCPMOCRForSequenceClassification in its config.json, as other models do. Signed-off-by: tc-mb tianchi_cai@icloud.com fix code Signed-off-by: tc-mb tianchi_cai@icloud.com use gguf meta classifier_output_labels remove redudant code changes Signed-off-by: tc-mb tianchi_cai@icloud.com Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60366505 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11928",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11928"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "fcec1b84be933ab3ab3589c7",
       "discovered_at": "2026-11-04T02:58:30Z",
       "kind": "local-ai",
@@ -2956,20 +2956,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "ce56c2f85b023448550285f1",
-      "discovered_at": "2026-10-27T12:40:00Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-27T08:21:35Z",
-      "search_score": 9,
-      "source_name": "llama.cpp Releases",
-      "summary": "tests : fix multi-seq split replay and partial-state cases for trained models ( #31216 ) tests : fix multi-seq split replay against trained models The rollback snapshot is captured by the graph that decoded the rolled-back tail, while the reference context decodes the same prefix with different batch shapes. The two states differ in the last bits and trained models amplify the difference with every replayed token. Compare only the first replayed token of each seq, then restore the rollback state into the reference context before the seq-1-only tail. Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) tests : require bit-exact seq-1 isolation in split replay The seq state save is not always bit-lossless - SWA-masked cells are not saved - so reload the restored state back into the rollback context. That way both contexts enter the seq-1-only tail with byte-identical memory, including the cell layout, and the tail logits must match bit-exact. Also assert that the restored state round-trips bit-identical. Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) tests : drop the n_swa partial-state check from ps The check keys off llama_model_n_swa(), which returns 0 for dsv4 even though its raw KV cache has a 128-cell sliding window. The partial state grows with the tokens there by design, so the flatness check is wrong. Keep the partial <= full invariant. Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60276548 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11922",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11922"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "bb82ada884c5f2aabff4af5a",
       "discovered_at": "2026-11-10T04:47:35Z",
       "kind": "local-ai",
@@ -3177,20 +3163,6 @@
       "summary": "common : support deferred tools and tool_reference content parts ( #31256 ) common : support deferred tools and tool_reference content parts Assisted-by: Claude Opus 5.5 common : credit the deferred tools co-author Co-authored-by: Aldehir Rojas 765227+aldehir@users.noreply.github.com Assisted-by: Claude Opus 5.5 tests : fix the type check of the deferred tools test Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60626465 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11940",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11940"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "e0ae721a32ea3a299220ba2a",
-      "discovered_at": "2026-10-27T12:40:00Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-27T10:32:27Z",
-      "search_score": 8,
-      "source_name": "llama.cpp Releases",
-      "summary": "glm5-next : QSA without kq_mask (+ DSA) ( #31009 ) glm5-next : QSA without kq_mask DSA: dsa top-k mask change tested with layers 0,3 of DeepSeek-V3.2 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60323739 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11926",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11926"
     },
     {
       "bootstrap": false,
@@ -3418,6 +3390,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "48736fbb40628ce34844976f",
+      "discovered_at": "2026-11-10T13:19:12Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-10T06:55:46Z",
+      "search_score": 6,
+      "source_name": "llama.cpp Releases",
+      "summary": "On a device without mmap support, --lazy-mode auto resolved to off even with --load-mode mmap, so llama_prefetch_rows never ran and the rows of the large tensors faulted in one page at a time. Resolve it to off only when mmap is off; the default iGPU load path is unchanged. Fixes #31943",
+      "title": "b12245: llama : apply the iGPU lazy-mode fallback only when mmap is off (#31957)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12245"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "e4b2875426bca7aa4027a58e",
       "discovered_at": "2026-11-09T14:19:20Z",
       "kind": "local-ai",
@@ -3474,34 +3460,48 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "1c41e3aea7e41ea137eaaaa9",
-      "discovered_at": "2026-11-10T04:47:35Z",
+      "candidate_id": "772c2ab05d6efdca6105b533",
+      "discovered_at": "2026-11-10T13:19:12Z",
       "kind": "local-ai",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-11-10T02:04:48Z",
+      "published": "2026-11-10T13:14:30Z",
       "search_score": 5,
       "source_name": "llama.cpp Releases",
-      "summary": "chat : don't use lazy grammar when response_format is set with tools ( #31956 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65619172 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12242",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12242"
+      "summary": "vulkan: cap scalar flash attention at 8 rows for large heads on Qualcomm ( #30829 ) With head sizes above 128 and KV >= 1024, scalar flash attention uses 16 rows per workgroup. On the Qualcomm Adreno driver this variant spills registers to scratch memory (264 bytes per invocation on the X1-85, none at 8 rows) and runs about 40x slower. The largest test-backend-ops case then becomes a single dispatch of several seconds, past the Windows GPU timeout, and the test never completes on the X1 Elite. Use at most 8 rows per workgroup on Qualcomm when hsk or hsv > 128. Smaller heads keep 16 rows, which is faster for them on the X2 Elite. Adreno X1-85, FLASH_ATTN_EXT hsk=256 kv=4096: nb=64 711 ms -> 17 ms, nb=512 no result -> 125 ms; test-backend-ops completes. Adreno X2-90: Gemma 4 E4B pp512 at depth 4096 with flash attention 81-90 -> 117 t/s. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65813913 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12246",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12246"
     },
     {
       "bootstrap": false,
-      "candidate_id": "1f5965246ab60eaf1af6d51b",
-      "discovered_at": "2026-11-10T04:47:35Z",
+      "candidate_id": "d646da872e9561cd891cfb43",
+      "discovered_at": "2026-11-10T13:19:12Z",
       "kind": "local-ai",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-11-10T01:47:57Z",
+      "published": "2026-11-10T07:28:33Z",
       "search_score": 5,
       "source_name": "llama.cpp Releases",
-      "summary": "hexagon: fix 64-bit FastRPC handle truncation on close ( #30952 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65614982 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12241",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12241"
+      "summary": "ci: update oneAPI 2026.2, oneDNN 2026.1 and Level Zero SDK 1.34.0 ( #31540 ) Co-authored-by: Neo Zhang zhang.jianyu@outlook.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65697404 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12244",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12244"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "06617ae742f7cff7ed3d455b",
+      "discovered_at": "2026-11-10T13:19:12Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-10T06:52:20Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "sycl: un-gate oneDNN fused SDPA for Alchemist at head_dim=64 ( #31574 ) Co-authored-by: Titaniumtown titaniumtown@proton.me Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65688285 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12243",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12243"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-10T04:48:01Z",
+  "updated_at": "2026-11-10T13:19:40Z",
   "version": 2
 }

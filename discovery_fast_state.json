@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-10T04:48:01Z",
+    "at": "2026-11-10T13:19:40Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
+    "prefiltered": 1,
     "queued": 9,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 191,
+  "runs": 192,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -192,6 +192,11 @@
       "first_seen": "2026-10-21T05:49:01Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.26935"
+    },
+    "06617ae742f7cff7ed3d455b": {
+      "first_seen": "2026-11-10T13:19:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12243"
     },
     "06626b16aeac5f04666bf3d2": {
       "first_seen": "2026-11-02T10:42:43Z",
@@ -528,6 +533,11 @@
       "first_seen": "2026-10-03T15:10:00Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11372"
+    },
+    "0f0020abcf733229d29f4d40": {
+      "first_seen": "2026-11-10T13:19:05Z",
+      "status": "queued",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
     },
     "0f01adb2acab0a67ba71c0b0": {
       "first_seen": "2026-10-29T17:31:44Z",
@@ -1479,6 +1489,11 @@
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fllms%2Fv0.0.93"
     },
+    "23262dff91a6f199fda0fda8": {
+      "first_seen": "2026-11-10T13:19:33Z",
+      "status": "queued",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.1"
+    },
     "23519c33061b4d3a8332fad0": {
       "first_seen": "2026-10-04T17:01:25Z",
       "status": "queued",
@@ -2136,6 +2151,12 @@
       "first_seen": "2026-10-06T06:32:53Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11435"
+    },
+    "3259a4129a1b4d33881144fb": {
+      "first_seen": "2026-11-10T13:19:06Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/waze/garmin-safety-cyclists/"
     },
     "3278c320ebbcc2bbd635ea92": {
       "first_seen": "2026-11-04T02:58:30Z",
@@ -3102,6 +3123,11 @@
       "first_seen": "2026-10-20T15:11:37Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11755"
+    },
+    "48736fbb40628ce34844976f": {
+      "first_seen": "2026-11-10T13:19:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12245"
     },
     "487491ce55e4cfbc6c7eb46e": {
       "first_seen": "2026-10-31T22:37:49Z",
@@ -4497,6 +4523,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2609.38198"
     },
+    "69d4d9d74efa01629a6c751d": {
+      "first_seen": "2026-11-10T13:19:05Z",
+      "status": "queued",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education"
+    },
     "6a003248b4f8068f700dba62": {
       "first_seen": "2026-11-06T08:29:14Z",
       "status": "queued",
@@ -4906,6 +4937,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40905"
     },
+    "728eb75070a008e94d1ca9ff": {
+      "first_seen": "2026-11-10T13:19:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12247"
+    },
     "72a731f967f209c7ab3a63b8": {
       "first_seen": "2026-10-21T00:55:30Z",
       "status": "queued",
@@ -5075,6 +5111,11 @@
       "first_seen": "2026-10-07T21:34:37Z",
       "status": "queued",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.24"
+    },
+    "772c2ab05d6efdca6105b533": {
+      "first_seen": "2026-11-10T13:19:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12246"
     },
     "773f0e0194392daf5614bf08": {
       "first_seen": "2026-10-21T11:25:13Z",
@@ -9006,6 +9047,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
     },
+    "d646da872e9561cd891cfb43": {
+      "first_seen": "2026-11-10T13:19:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12244"
+    },
     "d64c9cda602b1cef4368d29e": {
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
@@ -10144,6 +10190,11 @@
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22509"
+    },
+    "ef83b8dc18b1604dec2efe92": {
+      "first_seen": "2026-11-10T13:19:06Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/"
     },
     "efb0e73fb923584ab288ce5a": {
       "first_seen": "2026-10-12T09:23:59Z",

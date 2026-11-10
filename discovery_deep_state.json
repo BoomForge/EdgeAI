@@ -1,16 +1,21 @@
 {
   "last_run": {
-    "at": "2026-11-09T21:33:44Z",
+    "at": "2026-11-10T03:50:51Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 9,
+    "prefiltered": 0,
+    "queued": 8,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 188,
+  "runs": 189,
   "seen": {
+    "002fac6d4add8ed47e48eaad": {
+      "first_seen": "2026-11-10T03:50:46Z",
+      "status": "queued",
+      "url": "https://openai.com/index/control-room/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",
       "status": "queued",
@@ -1965,6 +1970,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/doyt"
     },
+    "38d188a0de75defdc0d60b8b": {
+      "first_seen": "2026-11-10T03:50:50Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2119954753002062274"
+    },
     "38e462d6d4450c6c878cbb44": {
       "first_seen": "2026-10-16T14:48:14Z",
       "status": "too_old",
@@ -2203,6 +2213,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://stability.ai/board-of-directors"
+    },
+    "4049d3df2d4a44420a3e5b8b": {
+      "first_seen": "2026-11-10T03:50:50Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2119927476784607697"
     },
     "40518120130bdf47a4cce7ff": {
       "first_seen": "2026-10-27T22:30:09Z",
@@ -3080,6 +3095,11 @@
       "first_seen": "2026-10-26T11:34:46Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/helio-7"
+    },
+    "59a66381377f784b02a95465": {
+      "first_seen": "2026-11-10T03:50:46Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/kikumap"
     },
     "59dcd3ce4688ebfd5ca3e104": {
       "first_seen": "2026-11-05T19:03:52Z",
@@ -4455,6 +4475,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/tapnoise"
     },
+    "7f1b990e1416f271ac0fa633": {
+      "first_seen": "2026-11-10T03:50:46Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/cozyzip"
+    },
     "7f251a2320ab82b5ad20e1f3": {
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "queued",
@@ -4694,6 +4719,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/never-boring-ai"
+    },
+    "86b4ba3155e4ca0c3b2ffc22": {
+      "first_seen": "2026-11-10T03:50:46Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/"
     },
     "86b8179cced7412149368eaf": {
       "first_seen": "2026-10-29T19:17:17Z",
@@ -5123,6 +5153,11 @@
       "first_seen": "2026-10-30T09:55:37Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/speakon"
+    },
+    "9322fafacaf8c5b5aaa70703": {
+      "first_seen": "2026-11-10T03:50:46Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/research/claude-electronics-design?utm_source=futuretools.io&utm_medium=newspage"
     },
     "9330ae30d1053d8c5efb2029": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -6189,6 +6224,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/upsolve-ai"
     },
+    "b393410123c9d586fcd110d8": {
+      "first_seen": "2026-11-10T03:50:46Z",
+      "status": "queued",
+      "url": "https://dev.meta.ai/resources/blog/build-with-muse-ember?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "b3ddf621cd927d255750a3ef": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
@@ -7211,6 +7251,11 @@
       "first_seen": "2026-10-06T00:46:21Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/"
+    },
+    "d4410be473a272347654bd4d": {
+      "first_seen": "2026-11-10T03:50:47Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-1efcd13a4260924ab23a"
     },
     "d46a988bab4ad48294b1ba5b": {
       "first_seen": "2026-11-07T00:52:28Z",
@@ -8647,6 +8692,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/prism-40"
+    },
+    "ffd0277ad7cd64c27c62df16": {
+      "first_seen": "2026-11-10T03:50:46Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/"
     },
     "ffe45d4a1971a1f43863954d": {
       "first_seen": "2026-11-01T13:14:08Z",

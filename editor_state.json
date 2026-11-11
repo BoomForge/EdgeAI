@@ -77,9 +77,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-10T02:43:21Z",
-    "eligible": 40,
-    "evaluated": 3,
+    "at": "2026-11-11T10:47:48Z",
+    "eligible": 85,
+    "evaluated": 2,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -104,6 +104,20 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics"
+    },
+    "0043f87fdd684e2cab69888b": {
+      "at": "2026-11-11T10:47:48Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "published",
+      "story_key": "artificial-analysis-multimodal-knowledge-agent-mka-benchmark",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-f7b88976523975b98895"
     },
     "004cd593adabcd24c97d9e96": {
       "at": "2026-10-14T23:30:29Z",
@@ -519,6 +533,11 @@
       "status": "ignored",
       "story_key": "llamacpp-b11724-patch-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11724"
+    },
+    "0b717a320f4e841d61c0eff9": {
+      "at": "2026-11-11T10:47:37Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12200"
     },
     "0be66981e5a9848bfc3141a4": {
       "at": "2026-10-05T07:01:46Z",
@@ -2134,6 +2153,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12116"
     },
+    "32cf753613ff7d62a7e893b7": {
+      "at": "2026-11-11T10:47:37Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/7/hn-50407316/"
+    },
     "338ea65b29ca83a891bd3fe8": {
       "at": "2026-10-03T21:49:26Z",
       "status": "expired",
@@ -3407,6 +3431,11 @@
         "source": "Ollama Releases"
       },
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15"
+    },
+    "53fc8d7d6a6c5b77f7b7d107": {
+      "at": "2026-11-11T10:47:37Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/agent-clan"
     },
     "5433d48c0a4a7162778ef899": {
       "at": "2026-11-01T07:58:49Z",
@@ -5632,6 +5661,11 @@
       },
       "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "8a7d33bfc7c40711ee689357": {
+      "at": "2026-11-11T10:47:37Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12201"
+    },
     "8aacdfb29bf9c89067eb33f4": {
       "at": "2026-10-07T19:56:51Z",
       "status": "expired",
@@ -6958,6 +6992,20 @@
       "at": "2026-11-07T06:23:46Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Nov/3/llm/"
+    },
+    "ab720214fb87521370cc88b5": {
+      "at": "2026-11-11T10:47:43Z",
+      "bootstrap": false,
+      "score": 86,
+      "status": "published",
+      "story_key": "artificial-analysis-changelog-google-deepmind-mka-benchmark-nov-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-f2a8b5f0f7360a70e566"
     },
     "abbb96cf14716a168d8896a4": {
       "at": "2026-11-07T06:23:46Z",
@@ -8502,6 +8550,11 @@
       "at": "2026-11-06T00:09:40Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/kosa8"
+    },
+    "d7b816006b5bc16a0dfef5cf": {
+      "at": "2026-11-11T10:47:37Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12192"
     },
     "d7cfcc46f736c325047d8294": {
       "at": "2026-10-03T04:52:42Z",
@@ -10095,6 +10148,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11486"
     },
+    "fd367b134f727eb474b74af2": {
+      "at": "2026-11-11T10:47:37Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/levo-3"
+    },
     "fdc555784f18363338e2980b": {
       "at": "2026-10-14T17:28:23Z",
       "bootstrap": false,
@@ -10122,6 +10180,11 @@
         "source": "FutureTools AI News"
       },
       "url": "https://www.anthropic.com/research/investigating-unintended-model-actions?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "fe1f6a98c50b61102525fdc5": {
+      "at": "2026-11-11T10:47:37Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/"
     },
     "fe6c8212a1cce378584e2e9a": {
       "at": "2026-10-30T19:44:46Z",
@@ -10664,6 +10727,27 @@
         "source": "Artificial Analysis Changelog"
       }
     },
+    "artificial-analysis-changelog-google-deepmind-mka-benchmark-nov-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-google-deepmind-mka-benchmark-nov-2026.jpg",
+      "last_updated": "2026-11-11T10:47:43Z",
+      "post_id": "5293081034811875497",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/artificial-analysis-integrates-google.html",
+      "score": 86,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-f2a8b5f0f7360a70e566"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Integrates Google DeepMind MKA Benchmark and Updates Endpoint Accuracy Index v1.1",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
     "artificial-analysis-changelog-healthbench-and-recent-evaluations": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-healthbench-and-recent-evaluations.jpg",
@@ -11068,6 +11152,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Artificial Analysis Launches Intelligence Index v5 Featuring Private Datasets and New Coding Benchmarks",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
+    "artificial-analysis-multimodal-knowledge-agent-mka-benchmark": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-multimodal-knowledge-agent-mka-benchmark.jpg",
+      "last_updated": "2026-11-11T10:47:48Z",
+      "post_id": "7134147689010160664",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/artificial-analysis-and-google-deepmind.html",
+      "score": 85,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-f7b88976523975b98895"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis and Google DeepMind Launch Multimodal Knowledge Agent (MKA) Benchmark",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

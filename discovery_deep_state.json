@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-11T15:31:33Z",
+    "at": "2026-11-11T22:19:00Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 9,
-    "queued": 7,
+    "prefiltered": 1,
+    "queued": 4,
     "sources_ok": 15,
-    "too_old": 5,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 194,
+  "runs": 195,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -355,6 +355,11 @@
       "first_seen": "2026-11-02T09:24:18Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-7a16fa14a486ca6a399e"
+    },
+    "09ff813956f26f99df3f1e0a": {
+      "first_seen": "2026-11-11T22:18:56Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/skillbox-5"
     },
     "0a28c215b5c05aea6d5cda4b": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -2489,6 +2494,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2113010017645244623"
     },
+    "460872e68e9eeabbb2b493e0": {
+      "first_seen": "2026-11-11T22:18:56Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/11/llm/"
+    },
     "46149d7e66ded280dc425e7b": {
       "first_seen": "2026-11-06T00:11:04Z",
       "status": "queued",
@@ -2578,6 +2588,11 @@
       "first_seen": "2026-10-12T15:14:38Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/excaliclaw"
+    },
+    "485ec329c8b74027b381458d": {
+      "first_seen": "2026-11-11T22:18:56Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/"
     },
     "48621235051afa239607b1b6": {
       "first_seen": "2026-10-10T20:14:03Z",
@@ -3100,6 +3115,12 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/"
+    },
+    "5655713d85bb27420244d7a9": {
+      "first_seen": "2026-11-11T22:18:56Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/stablebar"
     },
     "566736f2419c7c28e46fed4a": {
       "first_seen": "2026-10-19T10:44:24Z",
@@ -5163,6 +5184,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/specreel"
     },
+    "8ba32157965a133a881c6f43": {
+      "first_seen": "2026-11-11T22:18:56Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/11/tools-tags/"
+    },
     "8bc3d6a6800df1cc369bf4cd": {
       "first_seen": "2026-10-13T18:14:14Z",
       "status": "queued",
@@ -5518,6 +5544,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/review-2"
+    },
+    "967141e571a3a88a0b6520bf": {
+      "first_seen": "2026-11-11T22:18:56Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/"
     },
     "96818dd28b2103951763bae9": {
       "first_seen": "2026-10-31T12:57:54Z",

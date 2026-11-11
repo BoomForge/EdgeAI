@@ -1,20 +1,25 @@
 {
   "last_run": {
-    "at": "2026-11-10T20:02:34Z",
+    "at": "2026-11-11T00:37:35Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 11,
+    "prefiltered": 2,
+    "queued": 13,
     "sources_ok": 15,
-    "too_old": 4,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 191,
+  "runs": 192,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
       "status": "queued",
       "url": "https://openai.com/index/control-room/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "0043f87fdd684e2cab69888b": {
+      "first_seen": "2026-11-11T00:37:31Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-f7b88976523975b98895"
     },
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",
@@ -1492,6 +1497,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/cluinn"
     },
+    "2af8f71f756556cba7b5e194": {
+      "first_seen": "2026-11-11T00:37:31Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/kumiko-2"
+    },
     "2b585f6f4d613dd795f19156": {
       "first_seen": "2026-10-08T08:53:54Z",
       "search_score": 0,
@@ -1701,6 +1712,11 @@
       "first_seen": "2026-10-22T07:30:04Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/doneas"
+    },
+    "30c410c7643334c58c198e97": {
+      "first_seen": "2026-11-11T00:37:34Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2120284141509881879"
     },
     "30d7f6182a51f14db0d05c06": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -2219,6 +2235,11 @@
       "status": "queued",
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "3eb2084344f372f23072fe37": {
+      "first_seen": "2026-11-11T00:37:31Z",
+      "status": "queued",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "3ec219ad3cb7053dc15eb71c": {
       "first_seen": "2026-10-20T00:43:52Z",
       "status": "queued",
@@ -2572,6 +2593,11 @@
       "first_seen": "2026-10-26T17:40:15Z",
       "status": "queued",
       "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "498416fd21efac76353b1cbd": {
+      "first_seen": "2026-11-11T00:37:31Z",
+      "status": "queued",
+      "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors?utm_source=futuretools.io&utm_medium=newspage"
     },
     "49afd859905d7e770d7c03a5": {
       "first_seen": "2026-10-16T21:47:28Z",
@@ -5255,6 +5281,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/sendoff-2"
     },
+    "9207c497bfa17f890168ab8a": {
+      "first_seen": "2026-11-11T00:37:31Z",
+      "status": "queued",
+      "url": "https://news.adobe.com/news/2026/11/adobe-transforms-creative-cloud-tools?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "9220d05373e0560f0f50f1a5": {
       "first_seen": "2026-10-29T13:31:50Z",
       "search_score": 0,
@@ -5323,6 +5354,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/dadan"
+    },
+    "94079a847d2966732870b59a": {
+      "first_seen": "2026-11-11T00:37:31Z",
+      "status": "queued",
+      "url": "https://claude.com/resources/articles/interactive-connectors-full-tool?utm_source=futuretools.io&utm_medium=newspage"
     },
     "9432d5bf37fbe23e8ef2ef85": {
       "first_seen": "2026-10-28T20:28:26Z",
@@ -5818,6 +5854,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/hark-3"
     },
+    "a2324ea2b6d0b1eac9795e0f": {
+      "first_seen": "2026-11-11T00:37:31Z",
+      "status": "queued",
+      "url": "https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "a286ccfbec858524d381aa54": {
       "first_seen": "2026-10-20T00:43:53Z",
       "status": "queued",
@@ -5837,6 +5878,11 @@
       "first_seen": "2026-10-11T02:16:02Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/10/python-actions/"
+    },
+    "a2f34a971cdefc3dac696a4e": {
+      "first_seen": "2026-11-11T00:37:31Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/cloakpane"
     },
     "a3323ce37a6dcf1415e1b97e": {
       "first_seen": "2026-10-08T21:27:34Z",
@@ -6432,6 +6478,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/testera-3"
     },
+    "b5eade4484bcd776916099d4": {
+      "first_seen": "2026-11-11T00:37:31Z",
+      "status": "queued",
+      "url": "https://news.adobe.com/news/2026/11/adobe-firefly-expands?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "b602f0b5117800795a759ada": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -6743,6 +6794,11 @@
       "first_seen": "2026-10-07T21:57:53Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107880428111806730"
+    },
+    "bedc4fd400bdc2c46c8abf9c": {
+      "first_seen": "2026-11-11T00:37:31Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "bf1cadaf8658bca5634bcf42": {
       "first_seen": "2026-10-29T23:29:41Z",
@@ -7112,6 +7168,11 @@
       "status": "queued",
       "url": "https://bfl.ai/licensing"
     },
+    "ca4849704c3f4a9c98f19e1d": {
+      "first_seen": "2026-11-11T00:37:31Z",
+      "status": "queued",
+      "url": "https://www.googlecloudpresscorner.com/2026-11-10-Google-Cloud-Launches-Gemini-for-Healthcare?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "ca7a54426803b87d0360be86": {
       "first_seen": "2026-10-22T07:30:04Z",
       "search_score": 0,
@@ -7376,6 +7437,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/chromeping"
     },
+    "d2371d7a10fb2e41ee915232": {
+      "first_seen": "2026-11-11T00:37:34Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2120271539006222576"
+    },
     "d24154a2b9444302738c2434": {
       "first_seen": "2026-11-01T13:14:08Z",
       "status": "too_old",
@@ -7511,6 +7577,11 @@
       "first_seen": "2026-10-27T12:46:49Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/off-grid-ai"
+    },
+    "d616d43725fb6728597a0b54": {
+      "first_seen": "2026-11-11T00:37:31Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/clive"
     },
     "d655994c01a9f4bb3e99d796": {
       "first_seen": "2026-10-30T09:55:37Z",
@@ -8039,6 +8110,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "e5607ea9b345667894ace36b": {
+      "first_seen": "2026-11-11T00:37:31Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+    },
     "e59aabed7f24eafb16dff249": {
       "first_seen": "2026-10-25T10:01:09Z",
       "search_score": 1,
@@ -8378,6 +8454,12 @@
       "first_seen": "2026-11-03T09:27:30Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/easein-health"
+    },
+    "f08d82e9c2ecdefe9076dd04": {
+      "first_seen": "2026-11-11T00:37:31Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/quotedpart"
     },
     "f0939d8c42a5916b0cbe4dd2": {
       "first_seen": "2026-10-15T09:50:31Z",

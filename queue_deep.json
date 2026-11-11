@@ -408,6 +408,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "ab720214fb87521370cc88b5",
+      "discovered_at": "2026-11-11T07:15:34Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-11-11T07:15:34Z",
+      "search_score": 42,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 10 Nov 2026 \ud83d\udd14 New article published Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files We\u2019ve partnered with Google DeepMind to launch their Multimodal Knowledge Agent (MKA) evaluation, a new benchmark for agentic knowledge work over complex visual files DigitalOcean performance results now available Kimi K3.1 Pro 09 Nov 2026 \ud83d\udd14 New article published Endpoint Accuracy Index v1.1: Tighter long context intervals and expanded model coverage We are launching the Artificial Analysis Endpoint Accuracy Index v1.1, a minor version upgrade alongside new coverage for GLM-5.3 Flash and Muse Spark Open. \ud83d\udd14 New article published Meta's Muse Ember is the cheapest model scoring 36 on the Intelligence Index Meta's newest model Muse Ember scores 36 on the Artificial Analysis Intelligence Index, matching Claude Haiku 5.5 (max) at a third of the Cost per Task New language model evaluation results available Claude Fable 5.2 (Max, Default Fallback) Intelligence Index: 65 New language model evaluation results available Claude Fable 5.2 (Low, Default Fallback) Intelligence Index: 54 New language model evaluation results available Claude Fable 5.2 (Medium, Default Fallback) Intelligence Index: 56 New language model evaluation results available Claude Fable 5.2 (High, Default Fallback) Intelligence Index: 62 New language model evaluation results available Claude Fable 5.2 (Xhigh, Default Fallback) Intelligence Index: 62 New language model evaluation results available Muse Ember (Xhigh) Intelligence Index: 34 New language model evaluation results available Muse Ember (Max) Intelligence Index: 36 Inco performance results now available Kimi K3.1 Pro Amazon Bedrock performance results now available Kimi K3.1 Pro Zyphra performance results now available GLM-5.3-Flash Anthropic performance results now available Claude Fable 5.2 (Xhigh, Default Fallback) Claude Fable 5.2 (Medium, Default Fallback) Claude Fable 5.2 (Low, Default Fallback) Claude Fable 5.2 (High, Default Fallback) Claude Fable 5.2 (Max, Default Fallback) Meta performance results now available Muse Ember (Xhigh) Muse Ember (Max) 08 Nov 2026 \ud83d\udd14 New article published Introducing the Artificial Analysis Decision Index v2 Introducing the Artificial Analysis Decision Index v2: a new proprietary evaluation, updated benchmarks, and a headline metric that rewards model calibration New language model evaluation results available Agnes 2.5 Pro Theta Intelligence Index: 24 Agnes AI performance results now available Agnes 2.5 Pro Theta 06 Nov 2026 Modal performance results now available Muse Spark Open (Xhigh) GLM-5.3 (Low) DeepSeek V4.1 Flash 1017 (Non-reasoning) Systalyze performance results now available Muse Spark Open (Xhigh) Scaleway performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available GLM-5.3 (Max) Bitdeer AI performance results now available Nemotron 3.5 Super VL 05 Nov 2026 \ud83d\udd14 New article published Thinking Machines Inkling 2 Small: the highest scoring open weights model outside of China pending weights release Thinking Machines has released Inkling 2 Small, scoring 31 on the Artificial Analysis Intelligence Index - their plan to release its weights would make it the highest-scoring open weights model developed outside China based on current rankings \ud83d\udd14 New article published Nanbeige has released Nanbeige4.3-33B scoring 20 on the Intelligence Index Nanbeige has released Nanbeige4.3-33B, an open weights model matching Qwen3.8 27B (xhigh) at 20 on the Artificial Analysis Intelligence Index v5 with stronger terminal use but weaker knowledge Artificial Analysis Endpoint Accuracy Index methodology Artificial Analysis Endpoint Accuracy Index v1.1 Upgraded AA-LCR-25 to AA-LCR v1.1 and increased repeats from 10 to 25, tightening confidence intervals. Expanded coverage to six open weights models with GLM-5.3 Flash and Muse Spark Open. New language model evaluation results available Inkling 2 Small Intelligence Index: 31 CoreWeave performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Non-reasoning) Modular performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) Modal performance results now available Kimi K3.1 Pro Inco performance results now available Kimi K3.1 Pro SiliconFlow performance results now available Kimi K3.1 Pro Systalyze performance results now available Kimi K3.1 Pro PrimaLabs performance results now available Kimi K3.1 Pro DeepInfra performance results now available Kimi K3.1 Pro ",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-f2a8b5f0f7360a70e566"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "0043f87fdd684e2cab69888b",
       "discovered_at": "2026-11-11T00:37:31Z",
       "kind": "independent",
@@ -965,20 +979,6 @@
       "summary": "API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API. OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations. I maintain subscriptions with both companies, so this is great news for me! I may even ship some public-facing demos now that the credits are already covered by my existing subscriptions. Tags: ai , openai , generative-ai , llms , anthropic , llm-pricing",
       "title": "API credits benefit for eligible ChatGPT subscriptions",
       "url": "https://simonwillison.net/2026/Oct/29/api-credits/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "0bf7019bc2b233e19e59f6db",
-      "discovered_at": "2026-10-28T01:49:08Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 27, 2026",
-      "search_score": 17,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Generate SFX with @ElevenLabs straight from Hermes Desktop with looped playback, one-click variation generation, and a helpful library of all your sounds. x.com/Teknium/status\u2026 Oct 27, 2026 @NousResearch > How plans work All plans give you access to every model. Your choice of model and the size of your tasks affect how quickly you use your allowance. Daily and weekly limits apply, along with a monthly allowance. You can see how much you've used and when each limit resets on the Usage page. More expensive models have an additional monthly limit; which models count depends on your plan. If you reach it, you can keep using other models within your remaining allowance. If you use up your included usage, you can switch to an available free model, wait for your allowance to reset, or continue with purchased pay-as-you-go credits. > FAQS How much more usage do Super and Ultra include? Super gives you substantially more included usage than Plus, and Ultra more again. Each plan card above lists its included Cloud agent size. How much work you can do depends on the models you choose and the size of your tasks. What counts toward usage? Model and included tool usage in Hermes Agent count toward your allowance when you sign in with your Nous account. Hosting for one Cloud agent is included as well. API-key requests and additional Cloud agents use pay-as-you-go credits. When does my usage reset? Daily usage resets after 24 hours, and weekly usage after seven days, starting when you first use each window. Your monthly allowance and large-model allowance reset with your billing period. Your Usage page shows the exact reset times. These limits apply together: a daily reset won't restore included usage if you've reached your weekly or monthly limit. What happens when I reach a limit? You can wait for the reset or switch to an available free model. Turn on Keep going on credits to continue using paid models with your pay-as-you-go balance. Leave it off and Hermes won't spend those credits when your included usage runs out. If you reach only the large-model limit, other models remain available within your remaining allowance. What happens to my existing subscription? When you switch, unused subscription credits carry over as pay-as-you-go credits, up to one month of your current plan's credits. Switching to a plan at the same price takes effect immediately with nothing to pay that day. Upgrades charge the price difference; downgrades take effect at the end of your billing period. Once you switch, you can't return to a legacy paid plan. Oct 27, 2026 @NousResearch We've revamped Hermes Agent subscriptions. Every new plan now includes a cloud agent out of the box, and usage has daily and weekly limits instead of one monthly block of credits. Subscribers can switch to the new plans any time at portal.nousresearch.com/billing Oct 27, 2026 @NousResearch Join us at @pangram HQ in NYC for an anti-slop hackathon! x.com/pangram/status\u2026 Oct 26, 2026 @NousResearch With the new Advanced Delegation modes plugin, Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up. The right model or profile for every job. hermes-agent.nousresearch.com/docs/plugins/a\u2026 Oct 26, 2026 @NousResearch Oct 26, 2026 @NousResearch Great time to use the Unbroker skill! x.com/shl0ms/status/\u2026 Oct 26, 2026 @NousResearch Please be careful about downloading third-party apps. The official mobile apps are not in app stores yet, and apps that closely mirror Hermes branding are typically fraudulent and not legitimate community projects. Oct 25, 2026 @NousResearch Oct 25, 2026 @NousResearch Hermes Agent gives you control x.com/yacinemtb/stat\u2026 Oct 24, 2026",
-      "title": "@NousResearch Generate SFX with @ElevenLabs straight from Hermes Desktop with looped playback, one-click variation generation, and a helpful library of all your sounds. x.com/Teknium/status\u2026 Oct 27, 2026",
-      "url": "https://x.com/NousResearch/status/2115220372228612579"
     },
     {
       "bootstrap": false,
@@ -1738,6 +1738,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "e304e836ef011046d393ab70",
+      "discovered_at": "2026-11-11T07:15:37Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Nov 11, 2026",
+      "search_score": 9,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch We are on Instagram now btw tap in instagram.com/nous_research Nov 11, 2026 @NousResearch Unshackle yourself Nov 10, 2026 @NousResearch 24 hours left to submit your plugin. We've received hundreds of awesome submissions and the judges are excited to review them all! x.com/NousResearch/s\u2026 Nov 10, 2026 @NousResearch The Sign in with ChatGPT flow in Nous Portal now supports your ChatGPT Business plan x.com/OpenAIDevs/sta\u2026 Nov 10, 2026 @NousResearch With Hermes it's all yours to conquer Nov 10, 2026 @NousResearch Try Fable 5.2 in Hermes Agent x.com/Kshitijjkapoor\u2026 Nov 9, 2026 @NousResearch Hermes Cloud agents now open in a browser tab with the exact same interface as Hermes Desktop. https://t.co/4Vw3XJgFwn To launch a personal agent, pick a name and a model in Nous Portal. We host it for you and it runs 24/7 in its own container, so it can handle scheduled jobs and answer you on any channel while your laptop is closed. Chats, Group Chats, plugins and settings in the Webapp work the same way they do when you run Hermes on your own computer. Open your agent from Nous Portal on your phone or any computer, or connect Hermes Desktop to it and continue the same chats there. Plus, Super, and Ultra plans each include one Cloud agent out of the box. Using Hermes from anywhere has never been easier. Nov 9, 2026 @NousResearch Using an agent that can change its models or code at any time without telling you is like building on quicksand Nov 8, 2026 @NousResearch hermes-agent.nousresearch.com/marketplace/he\u2026 Nov 8, 2026 @NousResearch Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s. Hermes first maps what an attacker could reach and which inputs it trusts. It splits the code across parallel subagents, checks every candidate finding against the code, and traces whether an attacker can actually exploit it. Turn on test confirmation and Hermes writes a small reproduction for each finding and runs it in a temporary copy of the repo. Each report records the evidence and the findings Hermes ruled out, and exports to SARIF for your existing tools. Run it from chat, the CLI, or the Security page in Hermes Desktop. Nov 8, 2026",
+      "title": "@NousResearch We are on Instagram now btw tap in instagram.com/nous_research Nov 11, 2026",
+      "url": "https://x.com/NousResearch/status/2120376651339157739"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "24dec2063a7d26d2297a75dd",
+      "discovered_at": "2026-11-11T07:15:35Z",
+      "kind": "independent-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-11T07:15:35Z",
+      "search_score": 8,
+      "source_name": "OpenRouter Rankings",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models Rankings data by OpenRouter is licensed under CC BY 4.0 . Reuse and republish it with attribution. The Data API docs cover the citation format and JSON access to these datasets. Footer \u00a9 2026 OpenRouter, Inc Product Chat Ori Labs Pricing Business Enterprise Explore Rankings Models Apps Providers Benchmarks Tools Discover Works With OR Company About Blog Customers Careers Hiring Privacy Terms of Service Trust Center Support Data Brand Developer Documentation API Reference Developer Platform Status AI Site Map Connect Discord GitHub LinkedIn X YouTube",
+      "title": "OpenRouter real-world model rankings changed",
+      "url": "https://openrouter.ai/rankings#edgeai-9a8e5cceef7f7cc93b57"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "5169fd54e7113f0b4d11695c",
       "discovered_at": "2026-11-10T12:32:55Z",
       "kind": "independent-signal",
@@ -1749,20 +1777,6 @@
       "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models Rankings data by OpenRouter is licensed under CC BY 4.0 . Reuse and republish it with attribution. The Data API docs cover the citation format and JSON access to these datasets. Footer \u00a9 2026 OpenRouter, Inc Product Chat Rankings Benchmarks Apps Discover Models Ori Providers Tools Pricing Business Enterprise Labs Company About Blog Customers Careers Hiring Privacy Terms of Service Trust Center Support Works With OR Data Brand Developer Documentation API Reference Developer Platform Status AI Site Map Connect Discord GitHub LinkedIn X YouTube",
       "title": "OpenRouter real-world model rankings changed",
       "url": "https://openrouter.ai/rankings#edgeai-94f7515fcef519c8efe5"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "391b2a19b716d7dde3fba439",
-      "discovered_at": "2026-10-28T01:49:06Z",
-      "kind": "independent-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-28T01:49:06Z",
-      "search_score": 8,
-      "source_name": "OpenRouter Rankings",
-      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models Rankings data by OpenRouter is licensed under CC BY 4.0 . Reuse and republish it with attribution. The Data API docs cover the citation format and JSON access to these datasets. Footer \u00a9 2026 OpenRouter, Inc Product Chat Rankings Benchmarks Apps Discover Models Ori Collections Providers Tools Pricing Business Enterprise Labs Company About Blog Customers Careers Hiring Privacy Terms of Service Trust Center Support Works With OR Data Brand Developer Documentation API Reference Developer Platform Status AI Site Map Connect Discord GitHub LinkedIn X YouTube",
-      "title": "OpenRouter real-world model rankings changed",
-      "url": "https://openrouter.ai/rankings#edgeai-019226d06ff2b072c0b5"
     },
     {
       "bootstrap": false,
@@ -3485,23 +3499,9 @@
       "summary": "Real inboxes for AI agents, with trust built in Discussion | Link",
       "title": "MachineMail",
       "url": "https://www.producthunt.com/products/machinemail"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "d7a8acd6d85f37f3be017868",
-      "discovered_at": "2026-11-04T09:57:41Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-11-01T20:15:55-08:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Air-gapped microVM sandboxes for enterprise AI agents Discussion | Link",
-      "title": "kosa8",
-      "url": "https://www.producthunt.com/products/kosa8"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-11T00:37:35Z",
+  "updated_at": "2026-11-11T07:15:38Z",
   "version": 2
 }

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-11T00:37:35Z",
+    "at": "2026-11-11T07:15:38Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 2,
-    "queued": 13,
+    "queued": 3,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 192,
+  "runs": 193,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -1299,6 +1299,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2108645938403405896"
     },
+    "24dec2063a7d26d2297a75dd": {
+      "first_seen": "2026-11-11T07:15:35Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-9a8e5cceef7f7cc93b57"
+    },
     "24fb3ce9224c485c3ae25f5f": {
       "first_seen": "2026-10-10T11:25:13Z",
       "status": "too_old",
@@ -1586,6 +1591,12 @@
       "first_seen": "2026-10-11T23:51:14Z",
       "status": "queued",
       "url": "https://sakana.ai/mass/"
+    },
+    "2e271490ec920f2922bb5452": {
+      "first_seen": "2026-11-11T07:15:34Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/moreframe"
     },
     "2e3fa0644c7b77d2a935ce71": {
       "first_seen": "2026-11-06T00:11:00Z",
@@ -3819,6 +3830,11 @@
       "status": "queued",
       "url": "https://www.anthropic.com/news/genesis-mission-commitment?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "6a9821dea752d9a205702232": {
+      "first_seen": "2026-11-11T07:15:34Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/nadhif"
+    },
     "6ab217ca008d834febacb741": {
       "first_seen": "2026-10-22T21:35:20Z",
       "status": "queued",
@@ -4759,6 +4775,11 @@
       "first_seen": "2026-10-27T22:30:10Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/"
+    },
+    "83604a16458256c6aa31d137": {
+      "first_seen": "2026-11-11T07:15:34Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/coffee-9"
     },
     "8377f36fc7180b09f8c22d6b": {
       "first_seen": "2026-10-25T10:01:09Z",
@@ -6178,6 +6199,11 @@
       "first_seen": "2026-10-12T15:14:38Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/milepost-2"
+    },
+    "ab720214fb87521370cc88b5": {
+      "first_seen": "2026-11-11T07:15:34Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-f2a8b5f0f7360a70e566"
     },
     "abbb96cf14716a168d8896a4": {
       "first_seen": "2026-11-04T23:37:16Z",
@@ -8063,6 +8089,11 @@
       "status": "queued",
       "url": "https://openai.com/index/eu-text-provenance/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "e304e836ef011046d393ab70": {
+      "first_seen": "2026-11-11T07:15:37Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2120376651339157739"
+    },
     "e33385be6adbba61c61abc3f": {
       "first_seen": "2026-10-09T14:44:15Z",
       "status": "queued",
@@ -8114,6 +8145,12 @@
       "first_seen": "2026-11-11T00:37:31Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+    },
+    "e56a684e1425ac5036709261": {
+      "first_seen": "2026-11-11T07:15:34Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/appubot"
     },
     "e59aabed7f24eafb16dff249": {
       "first_seen": "2026-10-25T10:01:09Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-11T15:37:45Z",
+    "at": "2026-11-11T22:16:11Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 3,
+    "prefiltered": 5,
+    "queued": 15,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 196,
+  "runs": 197,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -92,6 +92,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11559"
     },
+    "023548b283108ac69dcccb2c": {
+      "first_seen": "2026-11-11T22:15:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12290"
+    },
     "02493be90c00105c1bde3a33": {
       "first_seen": "2026-11-05T05:49:59Z",
       "status": "queued",
@@ -158,6 +163,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12285"
     },
+    "050c32e913023aae805d5851": {
+      "first_seen": "2026-11-11T22:16:04Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.917-beta"
+    },
     "0519b8fa6d0c3743abd360f7": {
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
@@ -172,6 +182,11 @@
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06938"
+    },
+    "057e45a7c27faeda4ed58eee": {
+      "first_seen": "2026-11-11T22:15:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12292"
     },
     "058f1d37f378336cfe6debf0": {
       "first_seen": "2026-10-03T00:45:50Z",
@@ -553,6 +568,11 @@
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08871"
+    },
+    "0ea250058aace78cdff5205a": {
+      "first_seen": "2026-11-11T22:15:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12300"
     },
     "0eb44be10929e638f52e02cd": {
       "first_seen": "2026-10-09T06:41:27Z",
@@ -1166,6 +1186,11 @@
       "first_seen": "2026-10-30T01:50:28Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12000"
+    },
+    "1a4a403240a353f836c1dc28": {
+      "first_seen": "2026-11-11T22:15:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12293"
     },
     "1a543055a02f9816518cc039": {
       "first_seen": "2026-10-23T09:33:43Z",
@@ -2033,6 +2058,11 @@
       "first_seen": "2026-10-03T00:46:09Z",
       "status": "too_old",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.2"
+    },
+    "2d59c4721b45ec2bc91c682e": {
+      "first_seen": "2026-11-11T22:15:49Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12287"
     },
     "2d709db6f0def6fba375931e": {
       "first_seen": "2026-10-03T00:46:14Z",
@@ -3667,6 +3697,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12170"
     },
+    "53160b19c31958fbc9b2ccdf": {
+      "first_seen": "2026-11-11T22:15:49Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12286"
+    },
     "5343bc19b8a2ab68996a01cd": {
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
@@ -3782,6 +3817,11 @@
       "first_seen": "2026-10-21T05:49:00Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.26950"
+    },
+    "55ff14dc4213127df72a8039": {
+      "first_seen": "2026-11-11T22:15:42Z",
+      "status": "queued",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri"
     },
     "56056f5930b4c10692471a97": {
       "first_seen": "2026-10-10T15:11:44Z",
@@ -4866,6 +4906,12 @@
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.0.90"
     },
+    "6bff68700e54fc502af21daf": {
+      "first_seen": "2026-11-11T22:15:42Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/veterans-day-2026/"
+    },
     "6c14b0a962d49aec82fcf212": {
       "first_seen": "2026-11-04T02:58:43Z",
       "status": "queued",
@@ -5112,6 +5158,11 @@
       "first_seen": "2026-11-06T08:29:45Z",
       "status": "queued",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.36"
+    },
+    "7182813ba072c10763c47c4a": {
+      "first_seen": "2026-11-11T22:15:49Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12289"
     },
     "719562720cae8e5476dec3cf": {
       "first_seen": "2026-11-02T10:42:43Z",
@@ -7073,6 +7124,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.109.0-dev.1"
     },
+    "9ebaee35fc0c942120133cd2": {
+      "first_seen": "2026-11-11T22:16:07Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.1.0"
+    },
     "9edf7f9e06fbe155638975ed": {
       "first_seen": "2026-10-06T06:32:54Z",
       "status": "queued",
@@ -7238,6 +7294,12 @@
       "first_seen": "2026-10-10T15:11:44Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11545"
+    },
+    "a251867faf0e96de5381cb2e": {
+      "first_seen": "2026-11-11T22:15:42Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/devices/googlebook/henry-cavill-googlebook-mustache-protocol/"
     },
     "a264c4af5885aa0a7df14add": {
       "first_seen": "2026-10-15T00:51:10Z",
@@ -7520,6 +7582,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10613"
     },
+    "a96fee1314f5d929f433e575": {
+      "first_seen": "2026-11-11T22:15:50Z",
+      "status": "queued",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc1"
+    },
     "a99aff008959721d049876b7": {
       "first_seen": "2026-11-04T02:58:30Z",
       "status": "queued",
@@ -7580,6 +7647,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10616"
+    },
+    "ab896b3f94b1c56b7c0b6b90": {
+      "first_seen": "2026-11-11T22:15:42Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/"
     },
     "abcb23b0cf18257657450f25": {
       "first_seen": "2026-10-17T08:48:41Z",
@@ -8339,6 +8411,12 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.26915"
     },
+    "bd91a5e650d44fc89e48083b": {
+      "first_seen": "2026-11-11T22:15:42Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cybersecurity-2027/"
+    },
     "bdc0c47bb06abc625d61c147": {
       "first_seen": "2026-10-20T19:22:35Z",
       "status": "queued",
@@ -8430,6 +8508,12 @@
       "status": "queued",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.21.1"
     },
+    "bf467d9aa9cc13b12be7ac06": {
+      "first_seen": "2026-11-11T22:15:42Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/professional-agentic-architect/"
+    },
     "bf6c1f5aeba5312508e129fe": {
       "first_seen": "2026-10-24T00:03:03Z",
       "status": "queued",
@@ -8454,6 +8538,11 @@
       "first_seen": "2026-11-10T20:29:49Z",
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/"
+    },
+    "c06fca3b9549fb95708df0f2": {
+      "first_seen": "2026-11-11T22:15:42Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
     },
     "c07a67b182a2b19fe525b92a": {
       "first_seen": "2026-10-03T00:45:54Z",
@@ -8584,6 +8673,11 @@
       "first_seen": "2026-10-09T06:41:25Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11516"
+    },
+    "c330de1fdfea7e7b04a66e89": {
+      "first_seen": "2026-11-11T22:16:07Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0"
     },
     "c34c1c12b0b44125ca6e6274": {
       "first_seen": "2026-11-03T02:38:44Z",
@@ -10316,6 +10410,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.26909"
     },
+    "e78ec32e40cf6daa5db9b1e7": {
+      "first_seen": "2026-11-11T22:15:48Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12291"
+    },
     "e78f5cd66e2b7cd223e4c85d": {
       "first_seen": "2026-10-21T05:49:00Z",
       "status": "queued",
@@ -10417,6 +10516,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/james-beard-foundation/"
+    },
+    "eac4d84ef949975e755c40f9": {
+      "first_seen": "2026-11-11T22:15:42Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/"
     },
     "ead7839c97ed82a0c3152162": {
       "first_seen": "2026-11-01T08:08:12Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-11T07:15:38Z",
+    "at": "2026-11-11T15:31:33Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 3,
+    "prefiltered": 9,
+    "queued": 7,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 5,
     "warnings": 0
   },
-  "runs": 193,
+  "runs": 194,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -418,6 +418,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/capitol-alpha-machine"
+    },
+    "0c0fb21993e7807035a55194": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/padrail"
     },
     "0c30926095c0d9d91fe3d640": {
       "first_seen": "2026-10-07T21:57:48Z",
@@ -1598,6 +1604,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/moreframe"
     },
+    "2e38eebea7b3f1398dcaf714": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/seedream-4-0"
+    },
     "2e3fa0644c7b77d2a935ce71": {
       "first_seen": "2026-11-06T00:11:00Z",
       "status": "queued",
@@ -2374,6 +2385,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2116402350680420626"
     },
+    "4159103a9ba7d00b190d7e48": {
+      "first_seen": "2026-11-11T15:31:33Z",
+      "status": "queued",
+      "url": "https://runway.com/research/praxis-1-video-pretraining-to-robot-control"
+    },
     "41625591abfe53de1f2e0694": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -2927,6 +2943,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/hashference"
     },
+    "52ab33647bb2e35f8aedc33b": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/earlybird-5"
+    },
     "52d152ce9d1e31b292ee7fcf": {
       "first_seen": "2026-11-10T12:32:54Z",
       "search_score": 0,
@@ -3282,6 +3304,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/clair-3"
     },
+    "5ba8151d05802b851751f6c9": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/reddit"
+    },
     "5bdd7f773ac8e958ad2e26f3": {
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "queued",
@@ -3429,6 +3457,11 @@
       "first_seen": "2026-10-21T20:18:36Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2112950316018647125"
+    },
+    "5fc8ae5627c023a4f20bf81d": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/mitra-5"
     },
     "5fd5d3c0289bee35e91c5aed": {
       "first_seen": "2026-10-15T09:50:31Z",
@@ -3820,6 +3853,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/ifttt"
     },
+    "6a5eef82b3071802b6bd4455": {
+      "first_seen": "2026-11-11T15:31:32Z",
+      "status": "queued",
+      "url": "https://sakana.ai/michael-tom/"
+    },
     "6a6845b2475c467c6e3f4e57": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -3957,6 +3995,12 @@
       "status": "queued",
       "url": "https://newsroom.spotify.com/2026-10-20/prioritizing-human-artistry/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "6dd622aaf505906c40039a00": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/nizima-action-by-live2d"
+    },
     "6de49000ac019aa847053cb3": {
       "first_seen": "2026-10-18T10:57:54Z",
       "search_score": 0,
@@ -3977,6 +4021,11 @@
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/spira-ai"
+    },
+    "6e96a802abbc1d38b48b3319": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
     },
     "6edb45d8a426efafde0b799e": {
       "first_seen": "2026-11-08T08:01:52Z",
@@ -4166,6 +4215,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/open-for-sales"
+    },
+    "741945986230ccf0b51eead9": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/elevenlabs"
     },
     "74580c76c4b983efd6274c97": {
       "first_seen": "2026-10-14T13:07:10Z",
@@ -5297,6 +5351,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/supercmo-ai"
     },
+    "91ba365c5e4cd74fcc8b898b": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/rigspark"
+    },
     "91d422a2a350b2f8e9d7c3ea": {
       "first_seen": "2026-11-07T22:22:07Z",
       "status": "too_old",
@@ -5575,6 +5635,12 @@
       "search_score": -1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/toby-5"
+    },
+    "99a678b2c40a832d5f13c7ad": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/subscriptrack"
     },
     "99ed192118002ed42ded74aa": {
       "first_seen": "2026-10-13T10:55:50Z",
@@ -6630,6 +6696,11 @@
       "status": "queued",
       "url": "https://www.anthropic.com/news/s1-sec?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "b8b27f39e23991166dc08453": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/relaytoai"
+    },
     "b8e89bc0c52f51cc31d07020": {
       "first_seen": "2026-10-25T10:01:09Z",
       "status": "too_old",
@@ -6934,6 +7005,11 @@
       "first_seen": "2026-10-27T01:27:26Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+    },
+    "c1a27575d6ef613117ed8d0d": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/stiro"
     },
     "c21a731587b9df7d6cdf942e": {
       "first_seen": "2026-10-20T10:21:00Z",
@@ -7305,6 +7381,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://runway.com/research/how-real-time-video-generation-is-changing-online-interaction"
+    },
+    "cdbb275ae6e5ca393f16efeb": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/n8n-io"
     },
     "ce381b568ffc4621db7fca15": {
       "first_seen": "2026-10-30T09:55:37Z",
@@ -7963,6 +8044,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/bambu-lab-h3c"
     },
+    "dfad0a94841c3520f87715d4": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/kippy-ai"
+    },
     "e001b07f22b2cbd775049f8c": {
       "first_seen": "2026-11-09T11:23:00Z",
       "search_score": 0,
@@ -8289,6 +8375,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/byter"
+    },
+    "ead9a516b10b42d1ddd59209": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/mister-blocks"
     },
     "eafc1a922e5c78b5a255ce41": {
       "first_seen": "2026-11-03T09:27:30Z",
@@ -8823,6 +8915,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/talanoa-2"
     },
+    "f916492bfd5797f4bdb74848": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/call-e"
+    },
     "f920427e7b9c37b597f61690": {
       "first_seen": "2026-11-09T21:33:40Z",
       "status": "queued",
@@ -8844,6 +8941,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/tiny-little-office"
     },
+    "f973af01074595e0694ab279": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/valin"
+    },
     "f98c2c9dbf1b43116fb88718": {
       "first_seen": "2026-10-19T10:44:24Z",
       "search_score": 0,
@@ -8864,6 +8967,12 @@
       "first_seen": "2026-11-04T09:57:44Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2117848456404545779"
+    },
+    "fa1e0193207164e24389a829": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/shot-video"
     },
     "fa259b2a432e7e0252d555e1": {
       "first_seen": "2026-11-06T15:17:29Z",
@@ -8923,6 +9032,11 @@
       "first_seen": "2026-10-26T21:56:06Z",
       "status": "queued",
       "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "fbc9829159ad3a0322208fd4": {
+      "first_seen": "2026-11-11T15:31:28Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/scroogefrog-ai-antifraud"
     },
     "fc152ff68513727f347182c9": {
       "first_seen": "2026-10-03T00:46:03Z",

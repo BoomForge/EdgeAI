@@ -618,20 +618,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "658c10b87fbc153446c34bb0",
-      "discovered_at": "2026-10-28T08:23:13Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-10-28T08:23:13Z",
-      "search_score": 37,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 27 Oct 2026 \ud83d\udd14 New article published Announcing Artificial Analysis Intelligence Index v5 Index v5 features 2 new benchmarks and 3 upgrades. For the first time, the majority of the Index is built on private datasets Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0 New to the Intelligence Index: \u27a4 FrontierCode 2.0: Cognition\u2019s private benchmark of real-world coding tasks, graded on whether a repository maintainer would merge the agent\u2019s change \u27a4 Terminal-Bench-Science: 70 agentic scientific research tasks, run in a terminal environment Upgraded: \u27a4 HLE-Diamond (replacing Humanity\u2019s Last Exam): a refined 1,000-question version of Humanity\u2019s Last Exam, split evenly between reasoning and knowledge questions \u27a4 AA-Omniscience v1.1: an updated dataset with saturated questions and all public set questions removed, new questions added, and ambiguous or erroneous questions revised \u27a4 CritPt v2 (Hard Subset): a private 40-question hard subset of CritPt v2, revised by the CritPt authors and run with a code-execution tool Staying in the Index: AA-Briefcase, AutomationBench-AA, GDP.pdf and Terminal-Bench 4.0 Removed from the Index: GDPval-AA v2, SciCode and AA-LCR Modal performance results now available DeepSeek V4.1 Flash 1017 (Max) SambaNova performance results now available MiniMax-M3.1-Flash 26 Oct 2026 \ud83d\udd14 New article published GPT-6.1 Terra pushes the cost efficiency frontier OpenAI has released GPT-6.1 Terra, pushing the cost efficiency frontier. It is the first Terra-class model since GPT-5.6, and is more intelligent for less than a third of the cost \ud83d\udd14 New article published Code2Video-AA: how well do AI models design videos in code? Artificial Analysis' implementation of HeyGen's Code2Video Bench, evaluating how well models create short product and brand videos from 114 design briefs using HyperFrames HTML. New language model evaluation results available GPT-6.1 Terra (Non-reasoning) Intelligence Index: 30 New language model evaluation results available GPT-6.1 Terra (Low) Intelligence Index: 29 New language model evaluation results available GPT-6.1 Terra (Medium) Intelligence Index: 38 New language model evaluation results available GPT-6.1 Terra (High) Intelligence Index: 42 New language model evaluation results available GPT-6.1 Terra (Xhigh) Intelligence Index: 45 New language model evaluation results available GPT-6.1 Terra (Max) Intelligence Index: 51 OpenAI performance results now available GPT-6.1 Terra (Non-reasoning) GPT-6.1 Terra (Low) GPT-6.1 Terra (Medium) GPT-6.1 Terra (High) GPT-6.1 Terra (Xhigh) GPT-6.1 Terra (Max) 23 Oct 2026 \ud83d\udd14 New article published Kimi K3.1 Pro launches at 4th on the Intelligence Index and will lead open weights models Kimi K3.1 Pro launches at 4th on the Artificial Analysis Intelligence Index and will lead open weights models New language model evaluation results available Kimi K3.1 Pro Intelligence Index: 46 New language model evaluation results available Nemotron 3.5 Bolt E4B 4GB (Reasoning) Inco performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax-M3.1-Flash MiniMax-M3.1-Flash Nebius performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax-M3.1-Flash Modular performance results now available MiniMax-M3.1-Flash SiliconFlow performance results now available MiniMax-M3.1-Flash Fireworks performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash (Non-reasoning) Wafer performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash 1017 (Max) Together AI performance results now available MiniMax-M3.1-Flash Parasail performance results now available MiniMax-M3.1-Flash GMI performance results now available MiniMax-M3.1-Flash Novita performance results now available MiniMax-M3.1-Flash DigitalOcean performance results now available MiniMax-M3.1-Flash DeepSeek V4.1 Flash 1017 (Max) Kimi performance results now available Kimi K3.1 Pro Kimi K3.1 Pro 22 Oct 2026 New language model evaluation results available Ling 3.1 Flash 1019 Intelligence Index: 29 InclusionAI performance results now available Ling 3.1 Flash 1019 21 Oct 2026 LithosAI performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Max) DigitalOcean performance results now available Beam 1.0 Makora performance results now available DeepSeek V4.1 Flash 1017 (Max) 20 Oct 2026 GMI performance results now available DeepSeek V4.1 Flash 1017 (Max) PrimaLabs performance results now available DeepSeek V4.1 Flash 1017 (Max) 19 Oct 2026 \ud83d\udd14 New article published HealthBench and Heal",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-823618d5296e14a524f7"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "577d545cafe0557e54ea13b7",
       "discovered_at": "2026-11-02T09:24:21Z",
       "kind": "primary",
@@ -716,6 +702,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "6a5eef82b3071802b6bd4455",
+      "discovered_at": "2026-11-11T15:31:32Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "",
+      "search_score": 8,
+      "source_name": "Sakana AI Blog",
+      "summary": "\u30de\u30a4\u30b1\u30eb\u30fb\u30ed\u30b8\u30e3\u30fc\u30b9\u7c73\u9000\u5f79\u6d77\u8ecd\u5927\u5c06\u3001\u30c8\u30e0\u30fb\u30e2\u30e9\u30f3\u5143CIA\u652f\u5c40\u9577\u304cSakana AI\u306e\u30b7\u30cb\u30a2\u30a2\u30c9\u30d0\u30a4\u30b6\u30fc\u306b\u5c31\u4efb",
+      "title": "\u30de\u30a4\u30b1\u30eb\u30fb\u30ed\u30b8\u30e3\u30fc\u30b9\u7c73\u9000\u5f79\u6d77\u8ecd\u5927\u5c06\u3001\u30c8\u30e0\u30fb\u30e2\u30e9\u30f3\u5143CIA\u652f\u5c40\u9577\u304cSakana AI\u306e\u30b7\u30cb\u30a2\u30a2\u30c9\u30d0\u30a4\u30b6\u30fc\u306b\u5c31\u4efb",
+      "url": "https://sakana.ai/michael-tom/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "0e365028518c38e91ece0fda",
       "discovered_at": "2026-11-10T20:02:33Z",
       "kind": "primary",
@@ -741,6 +741,20 @@
       "summary": "Intelligence Report: SNS\u306eAI\u5206\u6790\u304b\u3089\u307f\u308b\u7c73\u4e2d\u9593\u9078\u6319",
       "title": "Intelligence Report: SNS\u306eAI\u5206\u6790\u304b\u3089\u307f\u308b\u7c73\u4e2d\u9593\u9078\u6319",
       "url": "https://sakana.ai/us-midterms-analysis/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "4159103a9ba7d00b190d7e48",
+      "discovered_at": "2026-11-11T15:31:33Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "",
+      "search_score": 1,
+      "source_name": "Runway Research",
+      "summary": "Praxis-1: From Video Pretraining to Robot Control Introducing Praxis-1 Introducing GWM Worlds 2",
+      "title": "Praxis-1: From Video Pretraining to Robot Control",
+      "url": "https://runway.com/research/praxis-1-video-pretraining-to-robot-control"
     },
     {
       "bootstrap": false,
@@ -828,6 +842,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "6e96a802abbc1d38b48b3319",
+      "discovered_at": "2026-11-11T15:31:28Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-11T15:11:59+00:00",
+      "search_score": 20,
+      "source_name": "Simon Willison Everything",
+      "summary": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs. I'm not sure why there's no official video transcript, but here's one that I extracted using MacWhisper. Highlights below: We train and serve Claude now across all four major chip families. That's only possible because early on we made an unconventional bet on a multi-chip strategy. At the time, many people thought that running AI models on different chips wasn't worth the effort. Each chip needs its own tailored software stack and inference stack, which is expensive and difficult to build. We've now been doing it for years, and we've gotten incredibly good at it. [...] As an example, this year, we started working with AMD GPUs for the first time. In the past, bringing on a new chip platform took dozens of engineers months of work This time, we had Mythos try it out. It got Claude running on AMD in just three days, with basically no human intervention . Claude ported or wrote almost 100% of the kernels. [...] The second driver of our compute advantage is our rate of discovery of compute multipliers. We focus on total effective compute, which is the multiplicative product of physical capacity times the compute multipliers that we discover. Each one we discover makes our pool of total effective compute bigger. For example, say you need 100 units of compute to train a model of a certain intelligence. A 4x compute multiplier means you can use 25 units of compute to train the exact same model. Or you can use those hundred physical units to train an even more intelligent model that would have previously required 400 units. Compute multipliers create a competitive advantage for us that's hard to replicate. They build on each other. Each new multiplier we discover has a positive effect on the multipliers before it. They stack. We believe that this can accelerate even further as we approach recursive self-improvement. Claude will be able to discover compute multipliers entirely by itself , allowing the number of compute multipliers to grow faster and faster. We got a hint at Anthropic's multi-chip strategy last September in their postmortem of three recent issues , where they described bugs that affected just their TPU deployments. Tags: ai , generative-ai , llms , anthropic , gpus , claude-mythos-fable , recursive-self-improvement",
+      "title": "Anthropic's IPO roadshow video",
+      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "e5607ea9b345667894ace36b",
       "discovered_at": "2026-11-11T00:37:31Z",
       "kind": "independent",
@@ -895,20 +923,6 @@
       "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure additional models that use OpenAI-compatible endpoints. I switched the default model (if you have not set your own default) to gpt-6-luna - half the price of the previous default, gpt-5.6-luna . LLM's support for embeddings now accepts that different binary content may have different content-type - necessary for models like Gemini Embedding 2 , which can embed text, audio, images, and video. A lot of open source maintainers complain about a flood of AI-assisted PRs. LLM is my project that has been most affected by this and, to be honest, I'm not finding it to be a problem. That's mainly because I have Opus 5.5 or GPT-6 Astra help me with triage to spot the most useful fixes! This release includes fixes from 12 authors - almost all AI-assisted - and the burden of reviewing them wasn't nearly as great as I expected. I really see them as bug reports with attached examples - sometimes I land them, sometimes I implement my own fix. So thanks to 0d00ciallo0721 , ac1982 , Allen Flux , Bian Yuhan , Bishop Kammeraad , Chen Yufeiyang , Christopher Krah , Ethan Stoner , Jiachen Xie , Olamide Faniyan , Sharat Chandra Sai Boddu , nosmile99 for helping out with (or spending tokens on) this release! Tags: open-source , projects , ai , annotated-release-notes , generative-ai , llms , embeddings , llm",
       "title": "llm 0.37",
       "url": "https://simonwillison.net/2026/Nov/2/llm/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "7f577f4b01c6fc58e5ce0f31",
-      "discovered_at": "2026-10-28T15:20:02Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-28T13:55:15+00:00",
-      "search_score": 18,
-      "source_name": "Simon Willison Everything",
-      "summary": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October 2026, and this time it's for vibe coding computer games . Tree Appreciator Emberwick Battle Drones Pumpkin Farmer, aka Quarter Sun Cove Four times as insulting What happens if someone actually puts the work in? You should build a game! Claude Opus 5.5 in particular exhibits meaningful improvements in several areas needed to build a compelling game: 3D modeling Music generation (see Scrimshaw Jukebox ) Game design (!) That last one is particularly important. Models have been able to create something that looks like a game for quite a while now, as seen in my previous experiments . The challenge has been getting to a game that's actually fun to play . Game design is a deep subject area. I won't pretend to be well versed in it - I know enough to have respect for it as a craft. Creating a novel, compelling gameplay loop which challenges players at the right level and provides a satisfying learning curve is a fine art. I didn't think the models could do it. Then I tried telling Claude Opus 5.5 to \"Make it a LOT more fun\"... and it did . In the past few weeks I've vibe coded (in the classic sense of the term - no looking at the code at all) four games that I've genuinely enjoyed playing. I attended Foo Camp in Berkeley over the weekend and met several people who were having similar experiences. Building games that play well is shockingly easy now. The new challenge is coming up with concepts for games that are novel and delightful and that wouldn't exist without AI assistance. I haven't done an exhaustive study, but my current impression is that GPT-6 Astra isn't quite there yet. It can absolutely build a game, but its sense of fun doesn't match that of Opus 5.5. I expect OpenAI will get there by the end of the year. Here are the four game projects that have convinced me that the models are now capable of producing fun games with very little guidance. All four are built in HTML and JavaScript and run entirely in the browser. Tree Appreciator The smallest game I found to be genuinely delightful is Tree Appreciator . I used the regular Claude chat interface for this - it didn't even need Claude Code. I built this on a whim while we were driving along Skyline Boulevard looking at trees. My prompt was: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both fun and beautiful. I've found that telling models to use three.js works really well. Claude doesn't have its own image generation model but is capable of building full-color 3D models that look and feel excellent. This game required no iteration or follow-up prompting at all - I got the game in a single shot. It gave me back a charming little mobile-friendly spot-the-difference game. You can play that here . Here's the chat transcript that built it. It's pleasingly relaxing. The graphics are fun, and collecting trees that you have completed in a \"herbarium\" provides a nice, cosy sense of accomplishment. Emberwick This was a more ambitious project that I again built using regular Claude chat. I started out by building an experimental prototype of an engine for a top-down fantasy RPG: Build a demo game engine three.js which is a top down (but at an angle) RPG - the player gets to move through the world with one or two companions. Create a fantasy village setting that demonstrates walking around outside and then shows how when the player enters a building the wall between the player and the camera goes transparent so the user can see what is happening Add some NPCs and plenty of furniture and different types of building some with an upstairs - be creative, make it look great Here's that first version . It worked really well! I was inspired to increase my ambitions: Make it not so flat - the buildings are great but the landscape itself is completely flat at the moment, fix that Add basements to two of the buildings with a tunnel system joining them below the village Add the start of a rocky mountain on one side of the village containing a cave with a sleeping troll Here's that version . When that produced a good result, I decided to push it all the way: Now turn this into an actual game - quadruple the size of the playable area, introduce fun game mechanics, add a plot that isn't too cliche, some twists, a magic system, make it really good We're back to prompts like \"make it really good\" here! Asking for a plot that \"isn't too cliche\" seemed to work too - it's a bit clich\u00e9, but still novel enough that I enjoyed following the story. Unlike Tree Appreciator, this took quite a bit of additional playtesting and prompting to get to a finished version. This was mainly due to gameplay problems - things like a character not being in the right place to complete a quest because a different story element had caused them to move to another location. Here's that final game . It has a full story that takes about 15 minutes to play through. There's even an experimental level editor if you want to drop in your own houses, furniture, and landscape features. Once it was all working (and I'd iterated through some gameplay bugs), I played it through from start to finish and found myself emotionally affected by the ending! I'm somewhat embarrassed by this, because everything in this game - the graphics, the plot, the characters, the music, the dialog - came from the model. My creative input was pretty much just \"it's a fantasy village and there's a troll asleep in a cave\". Here's the full shared Claude chat in which I built this game. I also fed that same initial sequence of prompts through ChatGPT GPT-6 Pro. Here's the transcript and the finished game for comparison. It looks great, but I don't think it plays nearly as well. Battle Drones This is by far my most successful project, which I wrote about last week . It's a Command & Conquer-style Real-Time Strategy game where two robot armies (or four as of Saturday ) build units, harvest scrap, and battle over territory. This is also the project that convinced me that Opus 5.5 knows what \"fun\" is. The first versions were built back in July using Claude Fable 5. It got me to a workable 2D Command & Conquer-style game, but it wasn't great to play. I prompted Opus 5.5 to \"Make it a LOT more fun\" and then later to \"Port this game to three.js\" and the game was transformed. There's a blow-by-blow account (prompts included) in my write-up . Today, Battle Drones has 2-4 player multiplayer (via a vibe coded WebSockets relay server), medals, replays, seven maps, a random map generator, and a set of \"mutators\" that add variants of the rules. It also lets different LLMs play against each other, using a mode where the game advances five seconds and then pauses to give different models time to interpret the new game state and line up their next set of commands. Here's a replay of Claude Haiku 5.5 vs. GPT-6 Luna : Battle Drones is a particularly good example of Opus 5.5's ability to create 3D models. This page lets you browse all of the models in the game . I released Battle Drones under the Apache 2.0 License last Tuesday. On Wednesday Gabriel Turpin released Panache ( screenshots here ), a fork of Battle Drones that reimagined the game for steampunk 1900s Belle \u00c9poque France, with new models and music and an animated intro sequence. Open source at work! Pumpkin Farmer, aka Quarter Sun Cove I live in Half Moon Bay, California , home of the annual Half Moon Bay Art and Pumpkin Festival , which includes a giant pumpkin weigh-off competition. I decided to try building a game that wasn't just a cheap imitation of something that already existed, so I set out to create a game about farming pumpkins, growing giant pumpkins, and handling the rush of the October pumpkin season. I called it \"Quarter Sun Cove\". I'm still iterating on this project, but it's shaping up quite nicely. It's a cosy farming simulator where you spend the year tending to your giant pumpkin and planting out regular-sized pumpkins for sale in October, then sell pumpkins during pumpkin season and enter your giant pumpkin in the weigh-off. Every character in it is a (vegetarian) animal. The mayor of the town is a pelican. You can be a pelican, skunk, raccoon, possum, beaver, coyote, fox, owl, sea otter, or harbor seal. Those species all later show up (accompanied by their children) to buy pumpkins from you. It's absurdly cute. You can play the latest version here . I'm not convinced by the game mechanics yet - it's actually quite complicated: you have to decide when to plant pumpkins such that they will become ripe at the weekends in October with the most visitors. Here's the initial brainstorming session , which resulted in this spec file . Then I had Opus 5.5 Ultracode burn millions of tokens and nearly two days building it. I told Claude to \"surprise and delight the user frequently\" and the result is so many little details and easter eggs. There are mischievous raccoons, an elephant seal that runs the weigh-off, harbor seals that roll their pumpkins back into the ocean, a wandering goat, and superstitions about growing giant pumpkins that sometimes come true. This isn't my best game yet - it's not as fun to play as Battle Drones - but it represents the kind of game I want more of: weird, fun, uniquely personal - something that wouldn't have been built in the before-times. Four times as insulting If you are offended by AI-generated art, AI-generated music, AI-generated writing, and AI-generated code, I have bad news for you: vibe coded games combine all of those at once . The wider games community already has an aversion to AI-generated assets in games. This has been a growing issue over the past few years as tools like Midjourney have enabled developers to generate assets for their projects. This IGN story covering complaints about slop in Valve's Steam Next Fest is a good recent example. We now have games where everything - code, assets, dialog, and even the game design itself - can be outsourced to the models. And the results don't suck! Building a computer game used to be one of the most challenging projects in all of software development, combining a diverse range of skills and requiring intense focus and effort over many months or even years. And now here I am spitting out a playable multiplayer RTS by prompting on my phone! I expect that, as we've already seen with programming, this will result in a split. Some players will refuse to have anything to do with games that were built in this way. Others may embrace this as opening up game development to a much wider audience. I lean in that direction! I certainly won't be entering any of my vibe coded games in traditional game jams or competitions - I don't feel like I've earned that right. We'll likely see new avenues emerge for vibe game developers to compare their projects. What happens if someone actually puts the work in? The thing I find both exciting and shameful about this is that I have got interesting results from so little creative input . The projects I've described here are loosely ordered by how much effort I've put into them. Not a single project represents more than four hours of my work (plus many more hours of Claude Code churning away by itself). Now imagine what could be achieved by anyone who takes this seriously, invests significant creative time, applies better taste in game design, and then playtests and iterates on the result until it's as good as they can make it. I want to see games that wouldn't have existed without these new tools. You should build a game! Building games in this way is so much fun . It's the perfect application for vibe coding because it's so low stakes: how much damage can you cause with a bug in a personal vibe coded game project? (OK, you can do some damage... my attempt at audio-based multiplayer gave my wife Natalie a nasty headache !) All of my games so far have been HTML and JavaScript using static hosting (generally GitHub Pages or Cloudflare Pages). Modern browsers - including mobile browsers - are incredibly capable. Frontier models already know libraries like three.js and Phaser . I'm finding these mobile web games to be indistinguishable from the native experience, at least for the kinds of games I'm trying to build. I suggest starting with a prompt like this: Build a mobile-friendly three.js game where... This works on both chatgpt.com and claude.ai - you don't even need to fire up a full coding agent. As one last example, here's \"Build a mobile-friendly three.js game where a mouse has to hide from a cat\" by Claude Opus 5.5 Extra and by GPT-6 Extra High . Switch to Codex or Claude Code once your project passes the proof-of-concept phase. And if the game isn't fun enough, add this: Make it a LOT more fun Tags: game-design , games , ai , generative-ai , chatgpt , llms , claude , vibe-coding , claude-code",
-      "title": "The October inflection point for vibe game development",
-      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
     },
     {
       "bootstrap": false,
@@ -2550,20 +2564,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "2cf23206607f40daee574c46",
-      "discovered_at": "2026-10-28T15:20:02Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-28T10:09:07+00:00",
-      "search_score": 3,
-      "source_name": "Simon Willison Everything",
-      "summary": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we are asking for. \u2014 Terk Terkowitz , An update from Amazon engineering leadership on the role of the developer in the age of AI Tags: amazon , generative-ai , agentic-engineering , ai , llms",
-      "title": "Quoting Terk Terkowitz",
-      "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "a02276a4c93026a81a029cfa",
       "discovered_at": "2026-11-04T17:58:24Z",
       "kind": "primary-signal",
@@ -3082,6 +3082,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "741945986230ccf0b51eead9",
+      "discovered_at": "2026-11-11T15:31:28Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-10T10:18:20-08:00",
+      "search_score": 6,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Speech to text with 27% fewer errors in 90+ languages Discussion | Link",
+      "title": "Scribe v3 by ElevenLabs",
+      "url": "https://www.producthunt.com/products/elevenlabs"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "4276d0de32c6d3e20a4ab7da",
       "discovered_at": "2026-11-03T17:17:15Z",
       "kind": "signal",
@@ -3306,6 +3320,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "5fc8ae5627c023a4f20bf81d",
+      "discovered_at": "2026-11-11T15:31:28Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-10T10:52:46-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Give your AI agents access to your personal phone line Discussion | Link",
+      "title": "Mitra MCP",
+      "url": "https://www.producthunt.com/products/mitra-5"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "cdbb275ae6e5ca393f16efeb",
+      "discovered_at": "2026-11-11T15:31:28Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-10T05:38:19-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Open source personal agent with its own computer Discussion | Link",
+      "title": "Nod by n8n",
+      "url": "https://www.producthunt.com/products/n8n-io"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "d616d43725fb6728597a0b54",
       "discovered_at": "2026-11-11T00:37:31Z",
       "kind": "signal",
@@ -3345,6 +3387,20 @@
       "summary": "AI-native IDE: agents code with human review Discussion | Link",
       "title": "ZUS",
       "url": "https://www.producthunt.com/products/zus-2"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "2e38eebea7b3f1398dcaf714",
+      "discovered_at": "2026-11-11T15:31:28Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-09T05:57:21-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "ByteDance's AI image model built for 100-round editing Discussion | Link",
+      "title": "Seedream 5.5 by ByteDance",
+      "url": "https://www.producthunt.com/products/seedream-4-0"
     },
     {
       "bootstrap": false,
@@ -3443,65 +3499,9 @@
       "summary": "Launch and steer agents on your machines from your phone Discussion | Link",
       "title": "Cosyra",
       "url": "https://www.producthunt.com/products/cosyra"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "2117bd7d075391acbf141225",
-      "discovered_at": "2026-11-05T19:03:52Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-11-03T08:06:19-08:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Manage marketplaces in ChatGPT and Claude via MCP Discussion | Link",
-      "title": "backlane",
-      "url": "https://www.producthunt.com/products/backlane-2"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "7e74bfdf1b9745b42880c8db",
-      "discovered_at": "2026-11-04T09:57:41Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-11-03T01:29:19-08:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "API and SDK for live conversations Discussion | Link",
-      "title": "Resum",
-      "url": "https://www.producthunt.com/products/resum"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "8de088a234cac03ac63b9928",
-      "discovered_at": "2026-11-05T11:39:14Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-11-02T03:41:56-08:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Pricing and Billing Infrastructure for AI Agents Discussion | Link",
-      "title": "Clocknext",
-      "url": "https://www.producthunt.com/products/clocknext"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "6fc54f3d18a92db59ad91946",
-      "discovered_at": "2026-11-03T09:27:30Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-11-02T02:33:33-08:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Real inboxes for AI agents, with trust built in Discussion | Link",
-      "title": "MachineMail",
-      "url": "https://www.producthunt.com/products/machinemail"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-11T07:15:38Z",
+  "updated_at": "2026-11-11T15:31:33Z",
   "version": 2
 }

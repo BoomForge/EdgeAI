@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-11T07:36:23Z",
+    "at": "2026-11-11T15:37:45Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 57,
+    "prefiltered": 1,
+    "queued": 3,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 195,
+  "runs": 196,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -152,6 +152,11 @@
       "first_seen": "2026-10-09T06:41:16Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10541"
+    },
+    "05064262ca929f3c6421a46b": {
+      "first_seen": "2026-11-11T15:37:21Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12285"
     },
     "0519b8fa6d0c3743abd360f7": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -6314,6 +6319,12 @@
       "status": "queued",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.1"
     },
+    "8e8e851f9ac38a1986e4da16": {
+      "first_seen": "2026-11-11T15:37:14Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/"
+    },
     "8ea075c86dbcdcf840cab883": {
       "first_seen": "2026-11-03T17:54:39Z",
       "status": "queued",
@@ -7800,6 +7811,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11968"
     },
+    "b021b1fd455a0df8f939e1c9": {
+      "first_seen": "2026-11-11T15:37:21Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12284"
+    },
     "b0b07d38d260ae924303a7e5": {
       "first_seen": "2026-11-03T23:01:09Z",
       "status": "queued",
@@ -8051,6 +8067,11 @@
       "first_seen": "2026-11-06T08:29:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.07069"
+    },
+    "b748887c6b0f3420662b3d88": {
+      "first_seen": "2026-11-11T15:37:39Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0"
     },
     "b7765a43c46af2b6224a77ef": {
       "first_seen": "2026-10-22T07:18:23Z",

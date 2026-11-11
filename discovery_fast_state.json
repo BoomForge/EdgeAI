@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-10T20:30:19Z",
+    "at": "2026-11-11T00:54:30Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 23,
+    "prefiltered": 0,
+    "queued": 12,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 193,
+  "runs": 194,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -208,10 +208,20 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08792"
     },
+    "06caa1015b4111713a1554c1": {
+      "first_seen": "2026-11-11T00:54:08Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12259"
+    },
     "06cf1e386b2c99c38010597d": {
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.19011"
+    },
+    "06d352acd60d86478ae9d49c": {
+      "first_seen": "2026-11-11T00:54:08Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12261"
     },
     "06ddb8cf927dc963cba5835a": {
       "first_seen": "2026-10-05T09:14:07Z",
@@ -333,6 +343,11 @@
       "first_seen": "2026-10-16T05:36:35Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11679"
+    },
+    "0a718a22e077191f5baa49a2": {
+      "first_seen": "2026-11-11T00:54:20Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.110.0-rc.1"
     },
     "0a87ba260f515b8c572b062a": {
       "first_seen": "2026-10-05T18:34:46Z",
@@ -674,6 +689,11 @@
       "first_seen": "2026-11-09T23:28:24Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12236"
+    },
+    "118295c90711bc89ec4d66c7": {
+      "first_seen": "2026-11-11T00:54:20Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.5"
     },
     "1188e82b717fca5d5ef2e0a6": {
       "first_seen": "2026-10-13T16:26:01Z",
@@ -2929,6 +2949,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22426"
     },
+    "4350d6c8381ac30fb0b681b7": {
+      "first_seen": "2026-11-11T00:54:30Z",
+      "status": "queued",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.67.0"
+    },
     "43b68f3d614400681e9b782c": {
       "first_seen": "2026-10-27T06:24:39Z",
       "status": "queued",
@@ -4110,6 +4135,11 @@
       "status": "queued",
       "url": "https://openai.com/index/devday-2026-recap"
     },
+    "60786b016c122ab8631cd3a0": {
+      "first_seen": "2026-11-11T00:54:09Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0"
+    },
     "6086b5558984ba0fd6081259": {
       "first_seen": "2026-11-05T05:50:00Z",
       "status": "queued",
@@ -4372,6 +4402,11 @@
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06962"
+    },
+    "65b96c238445cdedc96b3e82": {
+      "first_seen": "2026-11-11T00:54:02Z",
+      "status": "queued",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless"
     },
     "65cf245591aca8f20d74430c": {
       "first_seen": "2026-10-08T20:34:17Z",
@@ -4885,6 +4920,11 @@
       "first_seen": "2026-10-17T04:39:58Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11703"
+    },
+    "70514c376f7a48d9986880ab": {
+      "first_seen": "2026-11-11T00:54:08Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12263"
     },
     "7070b65bc1783e04cf991421": {
       "first_seen": "2026-10-23T04:34:34Z",
@@ -6622,6 +6662,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08817"
     },
+    "99f6aeac949b58917f976025": {
+      "first_seen": "2026-11-11T00:54:08Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12262"
+    },
     "9a08319930f205b1eef726ec": {
       "first_seen": "2026-10-05T18:34:59Z",
       "status": "queued",
@@ -7962,6 +8007,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20632"
     },
+    "bb29e95a09533f38f7b8d770": {
+      "first_seen": "2026-11-11T00:54:07Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.1"
+    },
     "bb2b3186d4540cfed2289111": {
       "first_seen": "2026-10-28T07:28:08Z",
       "status": "queued",
@@ -8383,6 +8433,11 @@
       "first_seen": "2026-10-26T17:27:18Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11901"
+    },
+    "c43f1d8c9336e615579d40e3": {
+      "first_seen": "2026-11-11T00:54:08Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12260"
     },
     "c44dc9ed271ff418b14ac5c9": {
       "first_seen": "2026-10-27T22:24:24Z",
@@ -10182,6 +10237,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10829"
+    },
+    "ecddf41113fc23ccd83b0871": {
+      "first_seen": "2026-11-11T00:54:25Z",
+      "status": "queued",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.2rc1"
     },
     "ed0410e4df19aef3b017a7cf": {
       "first_seen": "2026-11-04T18:14:30Z",

@@ -646,20 +646,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "168c75ff3ed8568a3b7658f4",
-      "discovered_at": "2026-10-29T06:22:36Z",
-      "kind": "primary",
-      "lane": "deep",
-      "priority": 1,
-      "published": "",
-      "search_score": 12,
-      "source_name": "Sakana AI Blog",
-      "summary": "Sakana API Platform\u3001\u30a8\u30f3\u30bf\u30fc\u30d7\u30e9\u30a4\u30ba\u5411\u3051\u306b\u30a2\u30fc\u30ea\u30fc\u30a2\u30af\u30bb\u30b9\u30d7\u30ed\u30b0\u30e9\u30e0\u3092\u958b\u59cb",
-      "title": "Sakana API Platform\u3001\u30a8\u30f3\u30bf\u30fc\u30d7\u30e9\u30a4\u30ba\u5411\u3051\u306b\u30a2\u30fc\u30ea\u30fc\u30a2\u30af\u30bb\u30b9\u30d7\u30ed\u30b0\u30e9\u30e0\u3092\u958b\u59cb",
-      "url": "https://sakana.ai/api-platform-earlyaccess/"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "70f208402007233aa8a8af60",
       "discovered_at": "2026-10-29T23:29:45Z",
       "kind": "primary",
@@ -2914,6 +2900,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "f2d733ba12de3aa8d927c893",
+      "discovered_at": "2026-11-12T11:41:10Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-10T08:51:51-08:00",
+      "search_score": 7,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Find out how your AI agent fails. Before your users do. Discussion | Link",
+      "title": "three.dev",
+      "url": "https://www.producthunt.com/products/three-dev"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "fd367b134f727eb474b74af2",
       "discovered_at": "2026-11-10T12:32:54Z",
       "kind": "signal",
@@ -2981,6 +2981,20 @@
       "summary": "Point at your app and your AI agent changes the code Discussion | Link",
       "title": "ilse",
       "url": "https://www.producthunt.com/products/ilse"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "875b1578b97ec40ee1f4e4e9",
+      "discovered_at": "2026-11-12T11:41:10Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-11T05:19:50-08:00",
+      "search_score": 6,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "AI voice agents that call your customers for you Discussion | Link",
+      "title": "Insight7 Voice AI Agents",
+      "url": "https://www.producthunt.com/products/insight7"
     },
     {
       "bootstrap": false,
@@ -3110,20 +3124,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "6edfe28706e8795ef6ffa407",
-      "discovered_at": "2026-10-31T12:57:54Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-28T22:39:35-07:00",
-      "search_score": 5,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "GitHub's AI coding agent that picks and combines models Discussion | Link",
-      "title": "GitHub Copilot Fusion",
-      "url": "https://www.producthunt.com/products/github-copilot-fusion"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "40b43a9b49b56f93a4e47049",
       "discovered_at": "2026-11-10T20:02:30Z",
       "kind": "signal",
@@ -3208,20 +3208,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "9322e185e9660553dc4f6512",
-      "discovered_at": "2026-10-30T09:55:37Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-10-29T03:44:31-07:00",
-      "search_score": 4,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Turn natural speech into real work for an agent to complete Discussion | Link",
-      "title": "SpeakON Agent",
-      "url": "https://www.producthunt.com/products/speakon"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "5fc8ae5627c023a4f20bf81d",
       "discovered_at": "2026-11-11T15:31:28Z",
       "kind": "signal",
@@ -3261,6 +3247,20 @@
       "summary": "Let Claude and other AIs set your iPhone alarms Discussion | Link",
       "title": "Clive",
       "url": "https://www.producthunt.com/products/clive"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "b4cd854bf93930bedc30bd35",
+      "discovered_at": "2026-11-12T11:41:10Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-09T14:40:16-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Give your AI agents a place to build, run, and ship Discussion | Link",
+      "title": "Spacefast by Automattic",
+      "url": "https://www.producthunt.com/products/spacefast-by-automattic"
     },
     {
       "bootstrap": false,
@@ -3401,9 +3401,65 @@
       "summary": "Launch and steer agents on your machines from your phone Discussion | Link",
       "title": "Cosyra",
       "url": "https://www.producthunt.com/products/cosyra"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "e7acbd2e802004610ec1d659",
+      "discovered_at": "2026-11-12T11:41:10Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-11T12:10:27-08:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Lease abstraction, wired to your model. Discussion | Link",
+      "title": "LeaseWire",
+      "url": "https://www.producthunt.com/products/leasewire"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "72a7189fa6944863483e284b",
+      "discovered_at": "2026-11-12T11:41:10Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-11T09:23:51-08:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Room to build on your Mac, even with 20 agents at once Discussion | Link",
+      "title": "Sluice",
+      "url": "https://www.producthunt.com/products/sluice-2"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "142c49ca744a45299430ed77",
+      "discovered_at": "2026-11-12T11:41:10Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-11T00:31:32-08:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Long-term memory for agents, across every harness Discussion | Link",
+      "title": "Harness Memory",
+      "url": "https://www.producthunt.com/products/epsilla"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "4b2816a1ecc32e3e19110742",
+      "discovered_at": "2026-11-12T11:41:10Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-10T10:55:39-08:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Create and edit faster with AI across Adobe apps Discussion | Link",
+      "title": "Adobe AI Assistant",
+      "url": "https://www.producthunt.com/products/adobe-ai-assistant"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-12T03:16:02Z",
+  "updated_at": "2026-11-12T11:41:15Z",
   "version": 2
 }

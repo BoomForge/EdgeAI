@@ -2438,20 +2438,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "85f94c0fe8f02a81789bf108",
-      "discovered_at": "2026-10-30T19:57:06Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Thu, 29 Oct 2026 00:00:00 GMT",
-      "search_score": 0,
-      "source_name": "OpenAI News",
-      "summary": "Credit Saison\u2019s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
-      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-      "url": "https://openai.com/index/credit-saison"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "ac94b61a25ade5edbf713f08",
       "discovered_at": "2026-11-11T07:35:48Z",
       "kind": "official",
@@ -2676,6 +2662,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "fbcf4a4810c3f155950daca5",
+      "discovered_at": "2026-11-12T03:08:35Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-11T17:58:39Z",
+      "search_score": 11,
+      "source_name": "llama.cpp Releases",
+      "summary": "Allocate gf_res_reserve and both gf_res_prev entries once in the llama_context constructor. Add llm_graph_result::set_max_nodes() and reset the existing instances in sched_reserve() instead of recreating them. get_gf_res_prev() now only selects the arena for the current batch. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB)",
+      "title": "b12304: llama : reuse graph result instances across scheduler reserves (#32089)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12304"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "aecd57586d6d2fc7d706c040",
       "discovered_at": "2026-11-09T14:19:20Z",
       "kind": "local-ai",
@@ -2813,20 +2813,6 @@
       "summary": "sycl : vectorize reordered-layout dequantization stores (Q4_0, K-quants, IQ3, MXFP4) ( #30976 ) sycl : widen reordered q4_0 dequantization stores The reordered-layout Q4_0 conversion kernel processed one qs byte per work-item with two scalar stores, strided 16 elements apart. Give it the same treatment the Q8_0 kernel got in #30775 : a flat sycl::range<1> launch with four qs bytes (8 outputs) per work-item inside one 32-element block and two vec<dst_t,4> stores. Same float math and rounding as the scalar kernel; output is bit-identical. The existing k % QK4_0 == 0 assert guarantees whole 32-element blocks, so the k/8 launch covers every row exactly. The now-unreferenced scalar reorder kernel is removed. Arc Pro B70, primed prefill (prefill after decode on a reorder-installed tensor): +6.4% to +7.3% pp512/pp2048 on Q4_0 models (tested up to 27B dense); fresh-layout prefill and decode unchanged; PPL within run noise. sycl : vectorize reordered q4_K dequantization stores The reordered-layout Q4_K conversion kernel already loads its quantized inputs through sycl::vec but writes the dequantized results with scalar stores. Build the results in a vec<dst_t,n> register and emit two vector stores instead. Same per-element math; output is bit-identical. Arc Pro B70, primed prefill (prefill after decode on a reorder-installed tensor): +14.7% to +15.3% pp512/pp2048 on Q4_K-dominant models (tested up to 27B dense); fresh-layout prefill, decode and PPL unchanged. sycl : remap reordered q5_K dequantization to vec4 loads/stores The reordered-layout Q5_K conversion kernel gave each thread only four outputs fed by scalar ql/qh byte loads plus a local-memory scale broadcast, so the stores were never its bottleneck: widening the stores alone measured within noise on mixed-quant models and +0.5% on a q5_K-dominant model. Re-decompose to 32 threads per block, each consuming four consecutive ql and qh bytes and emitting two aligned vec<dst_t,4> stores; a 4-element run shares one scale pair, so the per-element math and the output are identical. Arc Pro B70, primed prefill on a q5_K-dominant 27B model: +3.6% pp512/pp2048 over the scalar kernel; fresh-layout prefill, decode and PPL unchanged. The GET_ROWS reorder path moves to the same 32-thread decomposition. sycl : remap reordered q6_K dequantization to vec4 stores The reordered-layout Q6_K conversion kernel wrote four scalars per thread, strided 32 elements apart, each pair of neighbors sharing neither instruction stream nor store transaction. Re-decompose the same 64-thread work-group so each thread emits one aligned vec<dst_t,4>: a 4-element run shares one 16-element scale group, one ql nibble source and one qh bit pair, so the per-element math and the output are identical to the scalar kernel. Arc Pro B70, primed prefill: +28.7% pp512/pp2048 on a Q6_K 27B model; fresh-layout prefill, decode and PPL unchanged. sycl : vectorize reordered q3_K dequantization stores Each thread of the reordered-layout Q3_K conversion kernel already computes four consecutive outputs; build them in a vec<dst_t,4> register and emit one vector store instead of four scalars. Same per-element math; output is bit-identical. Arc Pro B70, primed prefill: +16.8% pp512/pp2048 on a Q3_K-dominant 27B model; fresh-layout prefill, decode and PPL unchanged. sycl : vectorize reordered iq3_xxs/iq3_s dequantization stores Both reordered-layout IQ3 conversion kernels write eight contiguous outputs per thread as scalar stores (four from each grid lookup). Build two vec<dst_t,4> registers and emit two vector stores. Same per-element math; output is bit-identical. Arc Pro B70, primed prefill: +20.3% to +21.1% pp512/pp2048 on IQ3_XXS- and IQ3_S-dominant 27B models; fresh-layout prefill, decode and PPL unchanged. sycl : remap reordered q2_K dequantization to vec4 stores Re-decompose the reordered-layout Q2_K conversion kernel the same way as Q6_K: one aligned vec<dst_t,4> per thread instead of four scalars strided 32 apart. A 4-element run shares one scale byte and one 2-bit lane, so the per-element math and the output are identical to the scalar kernel. Arc Pro B70, primed prefill: +13.1% pp512/pp2048 on a Q2_K-dominant 27B model; fresh-layout prefill, decode and PPL unchanged. sycl : widen reordered mxfp4 dequantization stores Give the reordered-layout MXFP4 conversion kernel the same flat sycl::range<1> launch as Q4_0: four qs bytes (8 outputs) per work-item inside one 32-element block and two vec<dst_t,4> stores. Same LUT lookups and per-block scale; output is bit-identical. The k % QK_MXFP4 == 0 assert guarantees whole blocks, so the k/8 launch covers every row exactly. The old scalar kernel is removed. The reordered layout for MXFP4 is installed on the MoE expert path (reorder_qw_mxfp4_moe); dense MXFP4 tensors keep the normal layout. Arc Pro B70, MXFP4 MoE 20B model: +57% pp2048 / +61% pp512 prefill (primed and fresh alike), decode unchanged, PPL within the model's run-to-run noise. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61167328 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11979",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11979"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "f9fdd453543028293b64ef43",
-      "discovered_at": "2026-10-28T23:55:43Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-28T22:53:53Z",
-      "search_score": 10,
-      "source_name": "llama.cpp Releases",
-      "summary": "common, mtmd: bound control vector layer indices and M-RoPE position loops ( #31336 ) common: bound control vector layer indices by the model layer count A direction tensor layer index is parsed from the tensor name with no upper bound, and the buffer size and write offset are computed in int. A large index overflows both, so the accumulation writes before the start of the buffer. Pass the model layer count to the loader, reject indices above it like the existing zero index check, and compute the sizes in size_t. mtmd: fill M-RoPE positions by whole merge tiles The position loops of the Qwen-VL, GLM, PaddleOCR and Qwen2.5-VL encoders hardcode a 2x2 merge inside a stride of n_merge, so a patch grid that is not a multiple of the merge writes past the positions buffer. Iterate over whole merge tiles with n_merge inner steps, which bounds the writes by the patch count and gives the same positions on aligned grids. PaddleOCR also requires a merge aligned image at graph build, as the Qwen-VL family already does. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61041957 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11972",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11972"
     },
     {
       "bootstrap": false,
@@ -3124,17 +3110,17 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "ea8f2dedf20d8e4b5295a047",
-      "discovered_at": "2026-10-29T04:59:08Z",
+      "candidate_id": "e68459d0678d211187c2c834",
+      "discovered_at": "2026-11-12T03:08:35Z",
       "kind": "local-ai",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-10-29T02:31:23Z",
-      "search_score": 8,
+      "published": "2026-11-12T02:26:37Z",
+      "search_score": 7,
       "source_name": "llama.cpp Releases",
-      "summary": "Hexagon: IM2COL improvement - block based HVX parallelization ( #31050 ) hexagon: IM2COL over multiple threads with output-col blocks Assisted-by: Claude Opus 5.5 hex-im2col: fix padding handling hex-im2col: loop unroll common cases Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61099121 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11976",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11976"
+      "summary": "chat: allow TTS model to provide custom text normalizer via jinja ( #32053 ) chat: allow TTS model to provide custom text normalizer via jinja rm tts_norm_is_reserved_name Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66510183 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12302",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12302"
     },
     {
       "bootstrap": false,
@@ -3474,6 +3460,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "9ba9aacff7fcbd298df755d4",
+      "discovered_at": "2026-11-12T03:08:35Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-12T02:59:05Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "jinja : support chained comparisons and argument unpacking ( #32072 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66518918 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12303",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12303"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "057e45a7c27faeda4ed58eee",
       "discovered_at": "2026-11-11T22:15:48Z",
       "kind": "local-ai",
@@ -3502,6 +3502,6 @@
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-11T22:16:11Z",
+  "updated_at": "2026-11-12T03:09:00Z",
   "version": 2
 }

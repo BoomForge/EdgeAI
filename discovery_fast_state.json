@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-12T11:30:03Z",
+    "at": "2026-11-12T19:07:41Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 12,
+    "prefiltered": 4,
+    "queued": 13,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 199,
+  "runs": 200,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -162,6 +162,11 @@
       "first_seen": "2026-10-09T06:41:16Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10541"
+    },
+    "04ce7d8114ff91aaec506613": {
+      "first_seen": "2026-11-12T19:07:15Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12321"
     },
     "05064262ca929f3c6421a46b": {
       "first_seen": "2026-11-11T15:37:21Z",
@@ -563,6 +568,11 @@
       "first_seen": "2026-10-20T00:28:13Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11744"
+    },
+    "0e4894e65e90d0a39d8831b5": {
+      "first_seen": "2026-11-12T19:07:15Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12320"
     },
     "0e656cd0c22ece8396e37727": {
       "first_seen": "2026-10-06T06:32:50Z",
@@ -1344,6 +1354,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11815"
     },
+    "1c0ba4a23c7739f76863c78c": {
+      "first_seen": "2026-11-12T19:07:07Z",
+      "status": "queued",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/saving-giant-kelp-australia/"
+    },
     "1c1a3f1456bf64f46e92913f": {
       "first_seen": "2026-10-22T13:02:17Z",
       "status": "queued",
@@ -1358,6 +1373,11 @@
       "first_seen": "2026-11-10T04:47:35Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12242"
+    },
+    "1c6e913a4c75ac8479a4b633": {
+      "first_seen": "2026-11-12T19:07:15Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12319"
     },
     "1c7922c2bfca155b55102e4c": {
       "first_seen": "2026-11-03T23:00:50Z",
@@ -4972,6 +4992,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.36146"
     },
+    "6c692ff74ed43d907daacbcc": {
+      "first_seen": "2026-11-12T19:07:35Z",
+      "status": "queued",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.3"
+    },
     "6c883b8091f090772dce997b": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -5594,6 +5619,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20693"
     },
+    "7b9f63f2b0ab42a718e694a5": {
+      "first_seen": "2026-11-12T19:07:15Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12322"
+    },
     "7bf864fb84afee764bd9474e": {
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
@@ -5784,6 +5814,11 @@
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.07074"
+    },
+    "80edea19d5fdcf288e5967e3": {
+      "first_seen": "2026-11-12T19:07:07Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
     },
     "8173ca240a6bbf48e33edcd4": {
       "first_seen": "2026-10-05T18:34:59Z",
@@ -5976,6 +6011,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-uso-docuseries-service-members/"
+    },
+    "84df5c1f19d3ea1579225c94": {
+      "first_seen": "2026-11-12T19:07:38Z",
+      "status": "queued",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.41"
     },
     "854a452f65cee3d5c1022dc8": {
       "first_seen": "2026-11-01T15:16:49Z",
@@ -8130,6 +8170,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.3"
     },
+    "b4df4a94fa37905468ccf706": {
+      "first_seen": "2026-11-12T19:07:07Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/"
+    },
     "b50f3a47067c5ec9935b1f5c": {
       "first_seen": "2026-10-10T19:21:11Z",
       "status": "queued",
@@ -8501,6 +8546,12 @@
       "first_seen": "2026-10-03T05:43:25Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00053"
+    },
+    "be046b96466f08a2d3a180cb": {
+      "first_seen": "2026-11-12T19:07:07Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/intelligent-eyewear-privacy-protections/"
     },
     "be23a3f6c27fbe895a84081e": {
       "first_seen": "2026-10-12T09:23:59Z",
@@ -9643,6 +9694,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
     },
+    "d62c3821f231d8f2a41a9398": {
+      "first_seen": "2026-11-12T19:07:07Z",
+      "status": "queued",
+      "url": "https://blog.google/products/ads-commerce/invalid-traffic-overview-google-ads/"
+    },
     "d646da872e9561cd891cfb43": {
       "first_seen": "2026-11-10T13:19:12Z",
       "status": "queued",
@@ -9940,6 +9996,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.14186"
     },
+    "dc9088dd5da06760aa782eaf": {
+      "first_seen": "2026-11-12T19:07:07Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/"
+    },
     "dca430555350319789fecbd6": {
       "first_seen": "2026-10-26T05:16:55Z",
       "status": "queued",
@@ -10010,6 +10071,12 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02349"
+    },
+    "dd9d2f50d8fb7559e706f770": {
+      "first_seen": "2026-11-12T19:07:07Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/phd-fellows-2026/"
     },
     "ddaccaed883695c8ff80980a": {
       "first_seen": "2026-10-03T00:45:58Z",
@@ -10980,6 +11047,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11549"
     },
+    "f19cddd04797ae7d9ed5d0a1": {
+      "first_seen": "2026-11-12T19:07:07Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
+    },
     "f1a5d21d344faf86a500d54a": {
       "first_seen": "2026-10-17T12:47:08Z",
       "status": "queued",
@@ -11246,6 +11318,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00006"
     },
+    "f6e9a3b13d6f1fdcbd96ebc7": {
+      "first_seen": "2026-11-12T19:07:15Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12323"
+    },
     "f6ebe2c120b7f357d957334b": {
       "first_seen": "2026-10-27T12:40:00Z",
       "status": "queued",
@@ -11390,6 +11467,12 @@
       "first_seen": "2026-10-16T10:06:04Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11690"
+    },
+    "fa93928aa123f6bcefbdf247": {
+      "first_seen": "2026-11-12T19:07:07Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/energy-impact-program-west-virginia/"
     },
     "fada9b8ec938f910e1ba76ed": {
       "first_seen": "2026-10-11T01:16:52Z",
@@ -11546,6 +11629,12 @@
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20657"
+    },
+    "feb34ac37e8e9bbc9efead9f": {
+      "first_seen": "2026-11-12T19:07:07Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/"
     },
     "feda129748a8f5951e360ec9": {
       "first_seen": "2026-11-08T20:17:47Z",

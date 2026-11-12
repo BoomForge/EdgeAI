@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-12T11:41:15Z",
+    "at": "2026-11-12T19:12:19Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 9,
-    "queued": 7,
+    "prefiltered": 1,
+    "queued": 10,
     "sources_ok": 15,
     "too_old": 4,
     "warnings": 0
   },
-  "runs": 197,
+  "runs": 198,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -912,6 +912,12 @@
       "first_seen": "2026-10-15T14:58:02Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/fwrd"
+    },
+    "18b99f8d8b99f8f1a4e4264e": {
+      "first_seen": "2026-11-12T19:12:15Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/skysoon"
     },
     "18e6bcadb8843f12b88e8597": {
       "first_seen": "2026-10-28T20:28:31Z",
@@ -1831,6 +1837,11 @@
       "status": "queued",
       "url": "https://www.kimi.com/en/products/"
     },
+    "326391c1aa0825e8819be630": {
+      "first_seen": "2026-11-12T19:12:18Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2120938486073029114"
+    },
     "3284885f8635e52b45272e93": {
       "first_seen": "2026-11-08T08:01:52Z",
       "status": "too_old",
@@ -2454,6 +2465,11 @@
       "status": "queued",
       "url": "https://elevenlabs.io/blog/introducing-scribe-v2"
     },
+    "41bb5ff170bf58a4704b27fc": {
+      "first_seen": "2026-11-12T19:12:14Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "41d099216188ee8aa5c2e2bc": {
       "first_seen": "2026-10-24T11:25:53Z",
       "status": "too_old",
@@ -2580,6 +2596,11 @@
       "first_seen": "2026-10-16T21:47:28Z",
       "status": "queued",
       "url": "https://www.anthropic.com/research/ecdsa-curve-origins?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "478f01b39dc8430bd4ef55d6": {
+      "first_seen": "2026-11-12T19:12:15Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/toki-ai"
     },
     "47bac31787a17a8cb62fb290": {
       "first_seen": "2026-10-20T15:17:17Z",
@@ -3787,6 +3808,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
     },
+    "651d064776b4a22f28dc4baa": {
+      "first_seen": "2026-11-12T19:12:15Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/gnista"
+    },
     "6529892c1d836cf6d246db1b": {
       "first_seen": "2026-10-11T09:11:21Z",
       "status": "too_old",
@@ -4076,6 +4102,11 @@
       "status": "queued",
       "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "6d71bdd325a5316e532257b8": {
+      "first_seen": "2026-11-12T19:12:14Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "6d9209c837433b0b456c5344": {
       "first_seen": "2026-11-08T08:01:52Z",
       "search_score": 0,
@@ -4313,6 +4344,11 @@
       "first_seen": "2026-11-03T09:27:30Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network"
+    },
+    "73693a9bcef30a0a3f7f0262": {
+      "first_seen": "2026-11-12T19:12:15Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/foxpit"
     },
     "73a96a860aa56cb1085532d8": {
       "first_seen": "2026-10-14T18:00:57Z",
@@ -4633,6 +4669,11 @@
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/dailyhelm"
+    },
+    "7aca77871e73965c8eef7537": {
+      "first_seen": "2026-11-12T19:12:15Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/plurai"
     },
     "7ae4a01b1d5bad0acc13dcb4": {
       "first_seen": "2026-10-19T10:44:24Z",
@@ -5449,6 +5490,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/sente-2"
     },
+    "909ffb9792d19deff7d3fc94": {
+      "first_seen": "2026-11-12T19:12:14Z",
+      "status": "queued",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "90a1bc8cad6a3638db45743c": {
       "first_seen": "2026-10-28T08:23:12Z",
       "status": "too_old",
@@ -5958,6 +6004,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/marv-3"
     },
+    "9eca058caebf2ec5866c00e1": {
+      "first_seen": "2026-11-12T19:12:14Z",
+      "status": "queued",
+      "url": "https://openai.com/index/children-first-declaration/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "9f1171688a7dc78272dd5059": {
       "first_seen": "2026-11-05T11:39:14Z",
       "search_score": 0,
@@ -6084,6 +6135,11 @@
       "first_seen": "2026-11-11T00:37:31Z",
       "status": "queued",
       "url": "https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "a24a631ae3cbf73862987482": {
+      "first_seen": "2026-11-12T19:12:15Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/neura-4"
     },
     "a286ccfbec858524d381aa54": {
       "first_seen": "2026-10-20T00:43:53Z",
@@ -6295,6 +6351,11 @@
       "first_seen": "2026-11-08T23:12:04Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/"
+    },
+    "a8ee01770e9bade538a658b3": {
+      "first_seen": "2026-11-12T19:12:15Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/klang"
     },
     "a905e2dc78e0acc5e245fd13": {
       "first_seen": "2026-10-26T11:34:46Z",
@@ -7298,6 +7359,11 @@
       "first_seen": "2026-10-27T12:46:49Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/coachare"
+    },
+    "c5c362309c892a98ab7aeb89": {
+      "first_seen": "2026-11-12T19:12:14Z",
+      "status": "queued",
+      "url": "https://runway.com/news/company-news/praxis-1-is-now-available?utm_source=futuretools.io&utm_medium=newspage"
     },
     "c60a9161b5323a4fb36813db": {
       "first_seen": "2026-10-22T07:30:04Z",
@@ -8372,6 +8438,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/baby-desk"
     },
+    "e4408667075c66c4ee0efdf7": {
+      "first_seen": "2026-11-12T19:12:15Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-ae5db2b0087b973b6903"
+    },
     "e47b399eb3be487eb6702724": {
       "first_seen": "2026-10-20T15:17:17Z",
       "status": "queued",
@@ -8671,6 +8742,11 @@
       "first_seen": "2026-10-18T10:57:54Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/tower"
+    },
+    "ee562a93a718db9bfa8f8f53": {
+      "first_seen": "2026-11-12T19:12:14Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "ee6bb2a4f1c515eca7c7cb27": {
       "first_seen": "2026-10-08T08:53:54Z",

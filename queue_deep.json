@@ -394,6 +394,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "e4408667075c66c4ee0efdf7",
+      "discovered_at": "2026-11-12T19:12:15Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-11-12T19:12:15Z",
+      "search_score": 45,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 12 Nov 2026 New language model evaluation results available Gemini 4 Hydrogen (Low) Intelligence Index: 27 New language model evaluation results available Gemini 4 Hydrogen (Medium) Intelligence Index: 41 New language model evaluation results available Gemini 4 Hydrogen (High) Intelligence Index: 51 New language model evaluation results available Gemini 4 Hydrogen (Xhigh) Intelligence Index: 54 Google performance results now available Gemini 4 Hydrogen (Low) Gemini 4 Hydrogen (Medium) Gemini 4 Hydrogen (High) Gemini 4 Hydrogen (Xhigh) 11 Nov 2026 New language model evaluation results available JT-4.1 Flash 236B A21B Intelligence Index: 19 Databricks performance results now available Kimi K3.1 Pro SambaNova performance results now available GLM-5.3 (Low) GLM-5.3 (Max) 10 Nov 2026 \ud83d\udd14 New article published Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files We\u2019ve partnered with Google DeepMind to launch their Multimodal Knowledge Agent (MKA) evaluation, a new benchmark for agentic knowledge work over complex visual files DigitalOcean performance results now available Kimi K3.1 Pro 09 Nov 2026 \ud83d\udd14 New article published Endpoint Accuracy Index v1.1: Tighter long context intervals and expanded model coverage We are launching the Artificial Analysis Endpoint Accuracy Index v1.1, a minor version upgrade alongside new coverage for GLM-5.3 Flash and Muse Spark Open. \ud83d\udd14 New article published Meta's Muse Ember is the cheapest model scoring 36 on the Intelligence Index Meta's newest model Muse Ember scores 36 on the Artificial Analysis Intelligence Index, matching Claude Haiku 5.5 (max) at a third of the Cost per Task New language model evaluation results available Claude Fable 5.2 (Max, Default Fallback) Intelligence Index: 65 New language model evaluation results available Claude Fable 5.2 (Low, Default Fallback) Intelligence Index: 54 New language model evaluation results available Claude Fable 5.2 (Medium, Default Fallback) Intelligence Index: 56 New language model evaluation results available Claude Fable 5.2 (High, Default Fallback) Intelligence Index: 62 New language model evaluation results available Claude Fable 5.2 (Xhigh, Default Fallback) Intelligence Index: 62 New language model evaluation results available Muse Ember (Xhigh) Intelligence Index: 34 New language model evaluation results available Muse Ember (Max) Intelligence Index: 36 Inco performance results now available Kimi K3.1 Pro Amazon Bedrock performance results now available Kimi K3.1 Pro Zyphra performance results now available GLM-5.3-Flash Anthropic performance results now available Claude Fable 5.2 (Xhigh, Default Fallback) Claude Fable 5.2 (Medium, Default Fallback) Claude Fable 5.2 (Low, Default Fallback) Claude Fable 5.2 (High, Default Fallback) Claude Fable 5.2 (Max, Default Fallback) Meta performance results now available Muse Ember (Xhigh) Muse Ember (Max) 08 Nov 2026 \ud83d\udd14 New article published Introducing the Artificial Analysis Decision Index v2 Introducing the Artificial Analysis Decision Index v2: a new proprietary evaluation, updated benchmarks, and a headline metric that rewards model calibration New language model evaluation results available Agnes 2.5 Pro Theta Intelligence Index: 24 Agnes AI performance results now available Agnes 2.5 Pro Theta 06 Nov 2026 \ud83d\udd14 New article published VIALS-AA: different paths to scientific image reasoning Independent VIALS-AA results, interactive agent traces, and an analysis of how models inspect scientific images. Modal performance results now available Muse Spark Open (Xhigh) GLM-5.3 (Low) DeepSeek V4.1 Flash 1017 (Non-reasoning) Systalyze performance results now available Muse Spark Open (Xhigh) Scaleway performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available GLM-5.3 (Max) Bitdeer AI performance results now available Nemotron 3.5 Super VL 05 Nov 2026 \ud83d\udd14 New article published Thinking Machines Inkling 2 Small: the highest scoring open weights model outside of China pending weights release Thinking Machines has released Inkling 2 Small, scoring 31 on the Artificial Analysis Intelligence Index - their plan to release its weights would make it the highest-scoring open weights model developed outside China based on current rankings \ud83d\udd14 New article published Nanbeige has released Nanbeige4.3-33B scoring 20 on the Intelligence Index Nanbeige has released Nanbeige4.3-33B, an open weights model matching Qwen3.8 27B (xhigh) at 20 on the Artificial Analysis Intelligence Index v5 with stronger terminal use bu",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-ae5db2b0087b973b6903"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "d83ce1592a98de747e2b6161",
       "discovered_at": "2026-11-12T03:15:57Z",
       "kind": "independent",
@@ -716,20 +730,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "3c58363126cc522922ad0d71",
-      "discovered_at": "2026-10-29T13:31:54Z",
-      "kind": "primary",
-      "lane": "deep",
-      "priority": 1,
-      "published": "",
-      "search_score": 2,
-      "source_name": "Sakana AI Blog",
-      "summary": "Intelligence Report: SNS\u306eAI\u5206\u6790\u304b\u3089\u307f\u308b\u7c73\u4e2d\u9593\u9078\u6319",
-      "title": "Intelligence Report: SNS\u306eAI\u5206\u6790\u304b\u3089\u307f\u308b\u7c73\u4e2d\u9593\u9078\u6319",
-      "url": "https://sakana.ai/us-midterms-analysis/"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "4159103a9ba7d00b190d7e48",
       "discovered_at": "2026-11-11T15:31:33Z",
       "kind": "primary",
@@ -825,6 +825,20 @@
       "summary": "Anthropic's Claude API Adds Message Threads Beta to Cut Agent Latency by 35% claude.com \u00b7 Show TLDR",
       "title": "Anthropic's Claude API Adds Message Threads Beta to Cut Agent Latency by 35% claude.com \u00b7 Show TLDR",
       "url": "https://claude.com/resources/articles/message-threads?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "c5c362309c892a98ab7aeb89",
+      "discovered_at": "2026-11-12T19:12:14Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 22,
+      "source_name": "FutureTools AI News",
+      "summary": "Runway Releases Praxis-1 Open-Weight Robotics Model Under Apache 2.0 runway.com \u00b7 Show TLDR",
+      "title": "Runway Releases Praxis-1 Open-Weight Robotics Model Under Apache 2.0 runway.com \u00b7 Show TLDR",
+      "url": "https://runway.com/news/company-news/praxis-1-is-now-available?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -1021,20 +1035,6 @@
       "summary": "@NousResearch hermes-agent.nousresearch.com/marketplace/he\u2026 Nov 8, 2026 @NousResearch Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s. Hermes first maps what an attacker could reach and which inputs it trusts. It splits the code across parallel subagents, checks every candidate finding against the code, and traces whether an attacker can actually exploit it. Turn on test confirmation and Hermes writes a small reproduction for each finding and runs it in a temporary copy of the repo. Each report records the evidence and the findings Hermes ruled out, and exports to SARIF for your existing tools. Run it from chat, the CLI, or the Security page in Hermes Desktop. Nov 8, 2026 @NousResearch Eval: huggingface.co/datasets/NousR\u2026 Weights: huggingface.co/NousResearch/A\u2026 Training data: huggingface.co/datasets/NousR\u2026 Nov 6, 2026 @NousResearch nousresearch.com/arete Nov 6, 2026 @NousResearch Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values. Chinese open models are currently the strongest available, but they ship with state-aligned behavior in the weights. We built an 803-prompt eval across seven value categories, including freedom of expression, democracy, and privacy, and measured how often a model adopts China\u2019s party line. After fine-tuning on roughly 53 million tokens, Arete-27B's propaganda rate fell from 22% to 1%, in line with the Western models we tested. Its Hermes Bench score shows no significant performance tradeoffs. The values in an open model are one fine-tune away. Our eval, weights, and training data are available now along with the full blog post: https://t.co/iAOANQTVZ6 Nov 6, 2026 @NousResearch Get more out of your Hermes Bots with free and discounted models exclusive to portal.nousresearch.com Nov 6, 2026 @NousResearch LongCat-2.5, the new multimodal model from @Meituan_LongCat, is free in Nous Portal for one week. Try it free today at portal.nousresearch.com x.com/Meituan_LongCa\u2026 Nov 6, 2026 @NousResearch That's hilarious but you should probably try Hermes which doesn't do that x.com/liamzebedee/st\u2026 Nov 6, 2026 @NousResearch Full release notes: github.com/NousResearch/h\u2026 Nov 5, 2026 @NousResearch Hermes Agent v0.23.0: The Hearth Release Highlights: - Desktop in a browser tab - One gateway for every conversation - /Rewind - Group Chats with automatic routing - Spend limits for paid tools - Lighter and faster and more Changelog below Nov 5, 2026",
       "title": "@NousResearch Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s. Hermes first maps what an attacker could reach and which inputs it trusts. It splits the code across parallel subage",
       "url": "https://x.com/NousResearch/status/2119501958981857543"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "a41c6b1e5e903c631014638b",
-      "discovered_at": "2026-10-29T19:17:18Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-29T17:00:26+00:00",
-      "search_score": 16,
-      "source_name": "Simon Willison Everything",
-      "summary": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer gaming environment where players can use prompts (to the in-game agent, Savi) to modify the game world. I fired it up on my phone for a few minutes and was able to prompt a castle into existence, then a dragon, then ride the dragon to fly around that castle. By Jacob's telling, Spawn is now being developed autonomously by a swarm of Fable-powered agents costing over $3 million in tokens per month (\"we spend 30x payroll on AI tokens\"). Our agents change the live code directly and ship to production hourly, so they read every error, bug report and metric themselves. About 60% of our work starts from a production error, a Savi bug report (Savi is the AI you build games with in Spawn), something odd in our logs, or a feature request. Savi files bugs herself. When a user hits one, or Savi hits one in the product, she files it. It goes straight to an agent that decides whether it's a real bug to fix, something we won't fix, or intentional design that needs a decision. Usually it becomes a change, delivered to that user within an hour, with a message in the same chat. This is continuous deployment turned up to 11: A loop this tight only works if it never stops, so we treat an hour without a ship as a SEV-0, our most severe kind of incident. Unshipped changes pile up, and every problem already in production lasts longer. The feedback slows down too. An agent can only keep a few hours of work in its head, so shipping faster than that actually helps it stay coherent. [...] We can roll back a broken change in 30 seconds, exactly where it's broken and nowhere else. When a monitor or a log alert fires, it starts or wakes an agent that owns the incident, and we break things on purpose to test that those recovery paths work. My eyebrows raised at least a dozen times reading this. I have trouble imagining this style of development working on software with higher stakes for when something goes wrong, but for a game this appears to be working surprisingly well. Jacob says that Fable 5 (and then 5.1) was the model that made this level of autonomy possible. Opus 5.5 doesn't quite hack it for them, and when they tried GPT-6 Astra to apply fixes from a security review everything stopped working: Every feature had been disabled and marked to be turned on again once the security fixes were done. Astra had gone through our whole product and made the insecure things secure by turning them off. These kinds of extreme experiments are why I'm excited about game development as a substrate for exploring the edges of what today's coding agents can do. Tags: game-design , ai , generative-ai , llms , claude , coding-agents , agentic-engineering , claude-mythos-fable",
-      "title": "Building a multiplayer game world with autonomous Fable-class models",
-      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/"
     },
     {
       "bootstrap": false,
@@ -1752,6 +1752,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "326391c1aa0825e8819be630",
+      "discovered_at": "2026-11-12T19:12:18Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Nov 12, 2026",
+      "search_score": 9,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch Nov 12, 2026 @NousResearch Submissions for the Hermes Agent Plugin Hackathon closed at 5PM EST, and we received nearly 1,000 entries. Thank you to everyone who built and submitted them! Our judges are working on sorting through submissions to narrow down the top 10 now. Winners will be emailed directly, and we will announce them here in about a week. Nov 12, 2026 @NousResearch We are on Instagram now btw tap in instagram.com/nous_research Nov 11, 2026 @NousResearch Unshackle yourself Nov 10, 2026 @NousResearch 24 hours left to submit your plugin. We've received hundreds of awesome submissions and the judges are excited to review them all! x.com/NousResearch/s\u2026 Nov 10, 2026 @NousResearch The Sign in with ChatGPT flow in Nous Portal now supports your ChatGPT Business plan x.com/OpenAIDevs/sta\u2026 Nov 10, 2026 @NousResearch With Hermes it's all yours to conquer Nov 10, 2026 @NousResearch Try Fable 5.2 in Hermes Agent x.com/Kshitijjkapoor\u2026 Nov 9, 2026 @NousResearch Hermes Cloud agents now open in a browser tab with the exact same interface as Hermes Desktop. https://t.co/4Vw3XJgFwn To launch a personal agent, pick a name and a model in Nous Portal. We host it for you and it runs 24/7 in its own container, so it can handle scheduled jobs and answer you on any channel while your laptop is closed. Chats, Group Chats, plugins and settings in the Webapp work the same way they do when you run Hermes on your own computer. Open your agent from Nous Portal on your phone or any computer, or connect Hermes Desktop to it and continue the same chats there. Plus, Super, and Ultra plans each include one Cloud agent out of the box. Using Hermes from anywhere has never been easier. Nov 9, 2026 @NousResearch Using an agent that can change its models or code at any time without telling you is like building on quicksand Nov 8, 2026",
+      "title": "@NousResearch Nov 12, 2026",
+      "url": "https://x.com/NousResearch/status/2120938486073029114"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "967141e571a3a88a0b6520bf",
       "discovered_at": "2026-11-11T22:18:56Z",
       "kind": "independent",
@@ -1973,6 +1987,34 @@
       "summary": "Gemini Intelligence Expands to Motorola Signature 27, Pixel 10 With New AI Features blog.google \u00b7 Show TLDR",
       "title": "Gemini Intelligence Expands to Motorola Signature 27, Pixel 10 With New AI Features blog.google \u00b7 Show TLDR",
       "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "41bb5ff170bf58a4704b27fc",
+      "discovered_at": "2026-11-12T19:12:14Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 8,
+      "source_name": "FutureTools AI News",
+      "summary": "Google's Gemini-Powered Smart Glasses From Warby Parker & Gentle Monster Now Available blog.google \u00b7 Show TLDR",
+      "title": "Google's Gemini-Powered Smart Glasses From Warby Parker & Gentle Monster Now Available blog.google \u00b7 Show TLDR",
+      "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "9eca058caebf2ec5866c00e1",
+      "discovered_at": "2026-11-12T19:12:14Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 8,
+      "source_name": "FutureTools AI News",
+      "summary": "OpenAI Pledges $2M to Research Coalition for Children's AI Safety openai.com \u00b7 Show TLDR",
+      "title": "OpenAI Pledges $2M to Research Coalition for Children's AI Safety openai.com \u00b7 Show TLDR",
+      "url": "https://openai.com/index/children-first-declaration/?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2298,6 +2340,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "6d71bdd325a5316e532257b8",
+      "discovered_at": "2026-11-12T19:12:14Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "Google Launches Gemini 4 Hydrogen for Cost-Efficient Agentic Coding & Debugging blog.google \u00b7 Show TLDR",
+      "title": "Google Launches Gemini 4 Hydrogen for Cost-Efficient Agentic Coding & Debugging blog.google \u00b7 Show TLDR",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "ee562a93a718db9bfa8f8f53",
+      "discovered_at": "2026-11-12T19:12:14Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "Google Launches Gemini 4 Hydrogen for Fast Agentic Workflows at $1.50/M Tokens blog.google \u00b7 Show TLDR",
+      "title": "Google Launches Gemini 4 Hydrogen for Fast Agentic Workflows at $1.50/M Tokens blog.google \u00b7 Show TLDR",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "db8aad7567ee0d78097e3d53",
       "discovered_at": "2026-11-06T20:59:29Z",
       "kind": "independent",
@@ -2351,20 +2421,6 @@
       "summary": "I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for $100+/month subscriptions What I'm using right now My software releases My September newsletter can now be seen here , as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
       "title": "October sponsors-only newsletter",
       "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "95cafd4597e819bbe57ba74c",
-      "discovered_at": "2026-10-29T19:17:18Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-10-29T14:06:27+00:00",
-      "search_score": 5,
-      "source_name": "Simon Willison Everything",
-      "summary": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we're special that way. \u2014 Ben Hylak Tags: model-context-protocol , ai",
-      "title": "Quoting Ben Hylak",
-      "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/"
     },
     {
       "bootstrap": false,
@@ -2872,6 +2928,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "909ffb9792d19deff7d3fc94",
+      "discovered_at": "2026-11-12T19:12:14Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 0,
+      "source_name": "FutureTools AI News",
+      "summary": "NVIDIA CEO Jensen Huang Resigns Immediately, Board Announces Transition nvidianews.nvidia.com \u00b7 Show TLDR",
+      "title": "NVIDIA CEO Jensen Huang Resigns Immediately, Board Announces Transition nvidianews.nvidia.com \u00b7 Show TLDR",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "53fc8d7d6a6c5b77f7b7d107",
       "discovered_at": "2026-11-08T08:01:52Z",
       "kind": "signal",
@@ -3121,6 +3191,20 @@
       "summary": "Fund 45+ top AI models using your idle CPU/GPU compute Discussion | Link",
       "title": "Hashference",
       "url": "https://www.producthunt.com/products/hashference"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "73693a9bcef30a0a3f7f0262",
+      "discovered_at": "2026-11-12T19:12:15Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-11T12:10:39-08:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Run Claude Code, Codex & OpenCode as one AI team Discussion | Link",
+      "title": "Foxpit",
+      "url": "https://www.producthunt.com/products/foxpit"
     },
     {
       "bootstrap": false,
@@ -3415,51 +3499,9 @@
       "summary": "Lease abstraction, wired to your model. Discussion | Link",
       "title": "LeaseWire",
       "url": "https://www.producthunt.com/products/leasewire"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "72a7189fa6944863483e284b",
-      "discovered_at": "2026-11-12T11:41:10Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-11-11T09:23:51-08:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Room to build on your Mac, even with 20 agents at once Discussion | Link",
-      "title": "Sluice",
-      "url": "https://www.producthunt.com/products/sluice-2"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "142c49ca744a45299430ed77",
-      "discovered_at": "2026-11-12T11:41:10Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-11-11T00:31:32-08:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Long-term memory for agents, across every harness Discussion | Link",
-      "title": "Harness Memory",
-      "url": "https://www.producthunt.com/products/epsilla"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "4b2816a1ecc32e3e19110742",
-      "discovered_at": "2026-11-12T11:41:10Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-11-10T10:55:39-08:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Create and edit faster with AI across Adobe apps Discussion | Link",
-      "title": "Adobe AI Assistant",
-      "url": "https://www.producthunt.com/products/adobe-ai-assistant"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-12T11:41:15Z",
+  "updated_at": "2026-11-12T19:12:19Z",
   "version": 2
 }

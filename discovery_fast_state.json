@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-12T03:09:00Z",
+    "at": "2026-11-12T11:30:03Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 10,
+    "queued": 12,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 198,
+  "runs": 199,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1030,6 +1030,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11700"
     },
+    "16d1d30dcd8fe22bce6b4e5c": {
+      "first_seen": "2026-11-12T11:29:33Z",
+      "status": "queued",
+      "url": "https://github.com/huggingface/diffusers/releases/tag/v0.43.0"
+    },
     "16fa486175267a6e498c4109": {
       "first_seen": "2026-10-30T15:07:01Z",
       "status": "queued",
@@ -1137,6 +1142,11 @@
       "status": "too_old",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.18"
     },
+    "18e5accf6b65985fe25b3689": {
+      "first_seen": "2026-11-12T11:29:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12316"
+    },
     "19057d9eb86de06f3fdd0945": {
       "first_seen": "2026-10-23T04:34:35Z",
       "status": "queued",
@@ -1201,6 +1211,11 @@
       "first_seen": "2026-10-23T09:33:43Z",
       "status": "queued",
       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+    },
+    "1a5562cc7b1dbfd1aee1fe14": {
+      "first_seen": "2026-11-12T11:29:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12318"
     },
     "1a62646ffec9690f1e299bab": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -2469,6 +2484,11 @@
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0"
     },
+    "3782b7dce7469680137bb8f3": {
+      "first_seen": "2026-11-12T11:29:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12307"
+    },
     "37acfe428526cde8f1d9fac5": {
       "first_seen": "2026-10-08T01:18:14Z",
       "status": "queued",
@@ -3348,6 +3368,11 @@
       "first_seen": "2026-11-02T10:42:42Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40926"
+    },
+    "4922ca6fb0dd92994c349853": {
+      "first_seen": "2026-11-12T11:29:28Z",
+      "status": "queued",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex"
     },
     "4978d21247862747aac1f9eb": {
       "first_seen": "2026-11-08T15:51:35Z",
@@ -6092,6 +6117,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11548"
     },
+    "87a3878007143ca4caf901ce": {
+      "first_seen": "2026-11-12T11:29:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12311"
+    },
     "87e7e4268fe7dbb2aeb57c9d": {
       "first_seen": "2026-11-03T10:03:35Z",
       "status": "queued",
@@ -7868,6 +7898,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.05538"
     },
+    "af12aa70388a5d91d6384b0a": {
+      "first_seen": "2026-11-12T11:29:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12308"
+    },
     "af41e11c1664671d783ba3ef": {
       "first_seen": "2026-10-12T19:18:52Z",
       "status": "queued",
@@ -8124,6 +8159,11 @@
       "first_seen": "2026-10-21T23:26:41Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11802"
+    },
+    "b66712bf9359025c88a34966": {
+      "first_seen": "2026-11-12T11:29:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12317"
     },
     "b66fa642e082d66ad7ace6aa": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -9020,6 +9060,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.14005"
     },
+    "c9f5f3a02381584b240e9d38": {
+      "first_seen": "2026-11-12T11:29:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12314"
+    },
     "ca1bf0e04d9efe6e4c9c5c55": {
       "first_seen": "2026-11-09T05:25:55Z",
       "status": "queued",
@@ -9693,6 +9738,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12192"
     },
+    "d7c1da8cb7dc41da688b7a99": {
+      "first_seen": "2026-11-12T11:29:28Z",
+      "status": "queued",
+      "url": "https://openai.com/index/children-first-declaration"
+    },
     "d7c6a5f741dd5526b1472d6f": {
       "first_seen": "2026-10-21T05:49:09Z",
       "status": "queued",
@@ -10235,6 +10285,11 @@
       "status": "queued",
       "url": "https://openai.com/index/the-future-of-the-firm"
     },
+    "e303c0d1aac8c0b88b554d6d": {
+      "first_seen": "2026-11-12T11:29:38Z",
+      "status": "queued",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc2"
+    },
     "e323537da08c7bd7fe316efd": {
       "first_seen": "2026-11-05T05:49:59Z",
       "status": "queued",
@@ -10479,6 +10534,11 @@
       "first_seen": "2026-11-09T23:28:24Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0"
+    },
+    "e86320a8813bf8b24362b0f1": {
+      "first_seen": "2026-11-12T11:29:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12306"
     },
     "e86f5a64d3658262312f7e06": {
       "first_seen": "2026-10-15T15:07:09Z",

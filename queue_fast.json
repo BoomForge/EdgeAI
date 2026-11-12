@@ -1906,20 +1906,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "0f01adb2acab0a67ba71c0b0",
-      "discovered_at": "2026-10-29T17:31:44Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Thu, 29 Oct 2026 09:00:00 GMT",
-      "search_score": 9,
-      "source_name": "OpenAI News",
-      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "title": "How we detect frontier model misalignment",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "34e7d62615202d0de65fe802",
       "discovered_at": "2026-11-03T23:00:43Z",
       "kind": "official",
@@ -2088,6 +2074,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "d7c1da8cb7dc41da688b7a99",
+      "discovered_at": "2026-11-12T11:29:28Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Thu, 12 Nov 2026 00:00:00 GMT",
+      "search_score": 5,
+      "source_name": "OpenAI News",
+      "summary": "OpenAI commits $2 million to research on AI and children\u2019s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "title": "Supporting research on AI and children\u2019s safety",
+      "url": "https://openai.com/index/children-first-declaration"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "0f0020abcf733229d29f4d40",
       "discovered_at": "2026-11-10T13:19:05Z",
       "kind": "official",
@@ -2183,20 +2183,6 @@
       "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
       "title": "Making it easier for websites to express AI training preferences",
       "url": "https://openai.com/index/helping-websites-express-ai-training-preferences"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "d948735545c20cf3072195db",
-      "discovered_at": "2026-10-29T22:00:14Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Thu, 29 Oct 2026 07:00:00 GMT",
-      "search_score": 5,
-      "source_name": "OpenAI News",
-      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-      "title": "How Ropes & Gray is developing AI for transactional diligence",
-      "url": "https://openai.com/index/ropes-gray-ai-diligence"
     },
     {
       "bootstrap": false,
@@ -2396,6 +2382,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "4922ca6fb0dd92994c349853",
+      "discovered_at": "2026-11-12T11:29:28Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Thu, 12 Nov 2026 09:30:00 GMT",
+      "search_score": 0,
+      "source_name": "OpenAI News",
+      "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "bbd492caba72ca544b8bac32",
       "discovered_at": "2026-11-06T01:38:37Z",
       "kind": "official",
@@ -2449,6 +2449,20 @@
       "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
       "title": "ChatGPT Plus for veterans and servicemembers",
       "url": "https://openai.com/index/chatgpt-plus-for-veterans"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "16d1d30dcd8fe22bce6b4e5c",
+      "discovered_at": "2026-11-12T11:29:33Z",
+      "kind": "open-source-creative",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-12T06:38:33Z",
+      "search_score": 38,
+      "source_name": "Hugging Face Diffusers Releases",
+      "summary": "Tip This release adds five modular model integrations for image generation, editing, video with audio, speech-driven animation, and world simulation. It also improves attention backends, tensor parallelism, LoRA handling, and checkpoint saving. MiniMax-H3-Image MiniMax-H3-Image supports text-to-image generation and editing with one or more reference images. The integration includes a dedicated image transformer and autoencoder, with a fixed six-step sampling schedule and distilled guidance. A separate prompt-enhancement workflow expands short requests and suggests an aspect ratio. Load it through ModularPipeline.from_pretrained(...) , then call load_components(...) . The MiniMax-H3-Image documentation covers reference-image prompts, output sizes, prompt enhancement, and component offloading. Pika H3 Flex Pika H3 Flex builds on MiniMax-H3 to generate video and synchronized stereo audio in six steps. It supports text prompts, first and/or last frames, and multimodal references through separate modular workflows. The integration includes LoRA adapter loading and a guide to sharing already-loaded MiniMax-H3 components between the two pipelines. See the Pika H3 Flex documentation for workflow selection, adapter loading, and component reuse. P-H3-Image P-H3-Image from Pruna AI brings text-to-image generation and instruction-based editing with up to eight input images. Its modular pipeline includes a prompt upsampler that turns requests into detailed generation or editing prompts, an image autoencoder, and a text connector. The checkpoint uses eight sampling steps with distilled guidance. See the P-H3-Image documentation for image sizing, reference-image editing, prompt upsampling, and offloading. Thanks to @nifleisch for the integration in #15171 . Kandinsky S2V 1.0 Kandinsky S2V 1.0 animates a person from a reference image and a speech recording, including full-body movement aligned with the speech. It generates video in five-second chunks, carrying FramePack memory between chunks. The supplied speech provides the soundtrack; the model generates the video. The modular integration supports Lite and Pro checkpoints, including distilled variants that use PiflowScheduler with a default of 16 steps. See the Kandinsky S2V documentation for audio preparation, checkpoint settings, and memory requirements. Thanks to @nvsm for the integration in #15164 . PAN 2 PAN 2 simulates scenes from prompts describing actions and camera movements over time. This release integrates its 29B generative simulator through text-to-video and image-to-video modular workflows. Context parallelism and FirstBlockCache, MagCache, and TaylorSeer caching are supported. Prompt and video safety checks are enabled by default and require the separate pan2-guardrail package. See the PAN 2 documentation for loading, guardrails, and distributed inference. The integration covers the simulator; the separate reasoning model that writes its prompts is linked from the model documentation. Thanks to @wu-qing-157 for the integration in #15202 . Other highlights MiniMax-H3 tensor parallelism: shard the transformer across devices, including its large modulation projections. Replicated parameters also retain their intended dtype during tensor-parallel loading. See: #14609 , #15147 . AMD attention support: the new aiter_sage_hub backend brings a Hub-hosted SageAttention kernel to RDNA4 gfx1201 GPUs, with native SDPA fallback for unsupported input shapes. See #15060 . Attention backend fixes: choosing a backend on one model no longer changes the backend of unrelated models. Individual attention modules now check requirements and download Hub kernels when selecting a backend, and the FlashAttention-2 integration works with newer Hub kernel versions. See #14335 , #15000 . LoRA fixes: component-weight dictionaries now broadcast correctly across multiple adapters, and Kohya text-encoder LoRAs retain their per-module alpha values. Adapter-weight documentation and type hints also clarify supported formats. See: #15128 , #15157 . Checkpoint saving: save_pretrained() preserves other variants' shards and removes obsolete indexes when replacing a sharded checkpoint with a single-file checkpoint. See #14844 . Modular caching: stateful cache hooks reset after each pipeline call, including calls that raise an exception, so subsequent generations start with fresh cache state. See #15212 . Training examples: fix gradient clipping in the text-to-image LoRA and SDXL LCM LoRA scripts, update FLUX quantized embedding preparation for current Transformers, and remove expired deprecation blocks that crashed training with --revision . See: #15184 , #15144 , #15118 . Documentation: reorganized distributed-inference guides, updated AWS Trainium examples for native TorchNeuron, and corrected Cosmos3 FP8 checkpoint locations. See: #15172 , #15138 , #15236 . Deprecations and compatibility Dependency checks: availability checks now enforce supported dependency versions. An installed package below the supported minimum is treated as unavailable, with an upgrade message. For example, the existing minimums of torch>=2.6 and transformers>=4.41.2 are now enforced by these checks. ( #15148 ) Relocated model components: latent upscalers and condition embedders move under diffusers.models . Existing checkpoints remain loadable, while old pipeline-module imports are deprecated for removal in 1.0.0. Use public imports such as from diffusers import LTX2TextConnectors . See: #15111 . Modular input defaults: explicitly passing None preserves that value. Omitted inputs receive the default of the first block that reads them. An InputParam declared both required and with a non- None default is treated as optional and emits a warning. See: #15135 , #14521 . Training behavior: --max_grad_norm now takes effect in the affected LoRA examples. Runs with gradients above the clipping threshold can therefore behave differently from earlier versions. See: #15184 . Component loading: repository configuration no longer causes arbitrary component-library imports. Custom component modules outside the supported library set must already be imported by the caller, and modular custom-block loading checks remote-code trust before processing requirements. See: 3076605 . Thanks to everyone who contributed code, documentation, reviews, and issue reports! All commits Remove expired non_ema_revision deprecation blocks from training examples by @A-Raphie in #15118 . Extend CLI compile and attention-backend tests to other devices by @sywangyi in #15039 . Fix shared LoRA component weight broadcasting by @gorkadabo1 in #15128 . [agent docs] prefer named arguments over nested dicts by @yiyixuxu in #15129 . when an InputParam is both required and has a default: set required = False and warn by @yiyixuxu in #14521 . Restrict repository-specified component imports and check custom-block trust before requirements by @LinZiyuu , with @DN6 , in 3076605 . Fix the Marigold intrinsics integration test by @sywangyi in #15086 . [core] move latent upscalers and condition embedders out of pipelines by @sayakpaul in #15111 . [CI] Use HF Trusted Publisher OIDC tokens by @DN6 in #15106 . [docs] AWS Trainium: rewrite guide for native TorchNeuron support by @JingyaHuang in #15138 . Add aiter_sage_hub attention backend for AMD RDNA4 (gfx1201) by @Shan2L in #15060 . fix: scope save_pretrained shard cleanup to the saved variant (avoid deleting another variant's shards) by @AloysJehwin in #14844 . Pika h3 flex by @yiyixuxu in #15150 . [docs] Pika H3 Flex: add a section on reusing minimax h3 components by @yiyixuxu in #15153 . [components manager] when a component is registered again: warn -> debug by @yiyixuxu in #15152 . Fix/flux lora quantization compute embeddings by @kahlun in #15144 . Add Kandinsky S2V 1.0 (speech-to-video) as a modular pipeline by @nvsm in #15164 . Add P-H3-Image by @nifleisch in #15171 . Fix attention backend leaking across models by @raghulchandramouli in #14335 . Docs: build English only, other languages are machine-translated by @mishig25 in #15149 . [core] download hub kernel in AttentionModuleMixin.set_attention_backend by @deep1blue in #15075 . [docs] Fix 22 dead external links in docs/source/en by @mlzerotoheroyoutube in #15174 . Clarify LoRA adapter weight documentation and type hints by @gorkadabo1 in #15157 . Fix replicated parameter dtypes during tensor-parallel loading by @yzhautouskay in #15147 . [examples] Fix gradient clipping in train_text_to_image_lora.py and train_lcm_distill_lora_sdxl.py by @gorkemgul in #15184 . [feat] Tensor parallelism for MiniMax-H3 by @JingyaHuang in #14609 . Fix stale links to moved and renamed files by @sarankumar1325 in #15151 . agents: add a section on _tp_plan in modeling reference. by @sayakpaul in #15194 . Style changes by @sayakpaul in #15198 . [docs/CI] contribution guide update, adding a context item on issue template, update issue-link reminder by @yiyixuxu in #15179 . Replace the remaining forum links with GitHub Discussions by @yiyixuxu in #15200 . [modular] fill a missing input from the first block that reads it, keep a passed None by @yiyixuxu in #15135 . Pin hf-doc-builder to 0.6.0 by @yiyixuxu in #15201 . [ci]: solve protobuf problem for the training e examples problem. by @sayakpaul in #15206 . Reset stateful cache hooks after every ModularPipeline call by @yiyixuxu in #15212 . [docs] discourage cross repo references for modular repos. by @sayakpaul in #15081 . [Modular] Add PAN 2 by @wu-qing-157 in #15202 . fix: prefer latest flash attn2 by @drbh in #15000 . MiniMax H3 Image by @sayakpaul in #15230 . [docs] Distributed inference by @stevhliu in #15172 . Update dead Kaggle Cats vs Dogs download URL in create_dataset doc by @Hisernberg in #15231 . Bump doc-builder to render math in docstring descriptions by @mishig25 in #15223 . Fix the PAN 2 context-parallelism documentation link by @yiyixuxu in #15238 . Document Cosmos3 Nano, Super, and Edge FP8 as standalone repos by @ConstBob in #15236 . [core] Enforce minimum supported versions in availability checks by @DN6 in #15148 . fix: derive text-encoder alpha_pattern keys from the LoRA module name by @akhil9tiet in #14972 . [chore] remove smoke test file. by @sayakpaul in #15160 . [chore] update return type annotations for models. by @sayakpaul in #15089 . post release 0.42.0. by @sayakpaul in #15243 . Release: v0.43.0-release by @sayakpaul ( release commit ). Significant community contributions @nifleisch : P-H3-Image generation, editing, and prompt upsampling. ( #15171 ) @nvsm : Kandinsky S2V 1.0 speech-driven video generation. ( #15164 ) @wu-qing-157 : PAN 2 modular video generation and world simulation. ( #15202 ) @Shan2L : AMD RDNA4 SageAttention backend. ( #15060 ) @raghulchandramouli , @deep1blue , and @drbh : attention backend isolation, Hub kernel loading, and FlashAttention-2 compatibility. ( #14335 , #15075 , #15000 ) @gorkadabo1 and @akhil9tiet : LoRA weight broadcasting, documentation, and text-encoder alpha handling. ( #15128 , #15157 , #14972 ) @AloysJehwin and @yzhautouskay : checkpoint variant preservation and tensor-parallel loading precision. ( #14844 , #15147 ) @gorkemgul , @kahlun , and @A-Raphie : gradient clipping, quantized embedding preparation, and training startup fixes. ( #15184 , #15144 , #15118 ) Thanks to our issue reporters These authors opened issues resolved by PRs merged into this release. Thank you for helping improve Diffusers! @andre-menutole : text-encoder LoRA alpha handling \u2014 #14970 \u2192 #14972 . @gorkadabo1 : LoRA weight broadcasting and documentation \u2014 #15127 \u2192 #15128 ; #15146 \u2192 #15157 . @gorkemgul : ineffective gradient clipping \u2014 #15178 \u2192 #15184 . @kahlun : FLUX quantized embedding preparation \u2014 #15145 \u2192 #15144 . @Marius-Graml : missing Hub kernel downloads \u2014 #13284 \u2192 #15075 . @Pdevadiga45 : checkpoint variant shards being deleted \u2014 #14719 \u2192 #14844 . @pratikgx : broken documentation links \u2014 #14886 \u2192 #15174 . @SeverinVisionary : training crashes with --revision \u2014 #15115 \u2192 #15118 . @Shan2L : RDNA4 SageAttention support \u2014 #15014 \u2192 #15060 . Full changelog: v0.42.0 to the v0.43.0 release commit",
+      "title": "Diffusers 0.43.0: MiniMax-H3-Image, Pika H3 Flex, P-H3-Image, Kandinsky S2V, and PAN 2",
+      "url": "https://github.com/huggingface/diffusers/releases/tag/v0.43.0"
     },
     {
       "bootstrap": false,
@@ -2603,6 +2617,20 @@
       "summary": "What's Changed openai: forward truncation option in responses requests by @marlonferreira1800-hue in #19501 openai: return an empty array for /v1/models when no models are installed by @liangliang205 in #19539 llama.cpp: version bump b12177 by @dhiltgen in #19576 README: add Quock to Mobile community integrations by @matteocelani in #19361 windows: add CUDA 13.5 and SM 103 for ARM64 by @dhiltgen in #19580 MLX: make Qwen3.8 Flash Next memory efficient by @dhiltgen in #18078 launch: fix Claude Code routing and retired model errors by @hoyyeva in #19587 Add ripple preview support to the MLX runner by @pdevine in #19592 New Contributors @marlonferreira1800-hue made their first contribution in #19501 @liangliang205 made their first contribution in #19539 Full Changelog : v0.40.15...v0.40.16-rc0",
       "title": "v0.40.16",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "87a3878007143ca4caf901ce",
+      "discovered_at": "2026-11-12T11:29:36Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-12T05:06:19Z",
+      "search_score": 13,
+      "source_name": "llama.cpp Releases",
+      "summary": "ui: keep downloads in Discover during search and fix their progress with a draft ( #31467 ) ui : keep downloads in Discover sidebar during search, sort base-org repos first Show the sticky Downloading section regardless of an active search query Order search results so repos published by their base model's org lead Assisted-by: Claude (Opus 5.5 Medium) server : throttle download progress per file Files of a download run in parallel threads, but progress updates were throttled with one shared timer. A small draft sidecar reports far more often than the main weights, so it took nearly every slot and the main file's updates, including the first one carrying its total size, were dropped until the draft finished. The UI then showed the draft's progress first and restarted from 0% for the model. Throttle each file on its own and always pass a file's first update. Assisted-by: Claude (Opus 5.5 Medium) ui: list a downloading repo once and match base orgs case-insensitively A search hit that is downloading already shows under Downloading, so the results leave it out. Base model orgs compare without case, as the hub treats them. Assisted-by: Claude (Opus 5.5 Medium) server : tell clients a download stopped on request When a client paused or cancelled a download, every other client following /models/sse got a bare download_failed and could not tell it from an error, so the web UI showed \"Download failed\" for a pause made in the Llama app. A stop asked for through unload or delete now fails with {\"stopped\": true}. Deleting a paused download, which has no instance left, now sends model_remove as deleting a running one does, so other clients drop its row. Assisted-by: Claude (Opus 5.5 Medium) ui : follow downloads other clients start, pause or cancel A download another client started (e.g. the Llama app) already showed up from the feed; it now also picks up the sidecars the list reports for it. A stop another client asked for reads as a pause instead of a failure, and a removal clears the download row even when the list does not carry it yet. Assisted-by: Claude (Opus 5.5 Medium) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66547949 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12311",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12311"
     },
     {
       "bootstrap": false,
@@ -2802,20 +2830,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "dd04e48f1b3ea63215de48ac",
-      "discovered_at": "2026-10-29T11:23:28Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-29T06:48:48Z",
-      "search_score": 10,
-      "source_name": "llama.cpp Releases",
-      "summary": "sycl : vectorize reordered-layout dequantization stores (Q4_0, K-quants, IQ3, MXFP4) ( #30976 ) sycl : widen reordered q4_0 dequantization stores The reordered-layout Q4_0 conversion kernel processed one qs byte per work-item with two scalar stores, strided 16 elements apart. Give it the same treatment the Q8_0 kernel got in #30775 : a flat sycl::range<1> launch with four qs bytes (8 outputs) per work-item inside one 32-element block and two vec<dst_t,4> stores. Same float math and rounding as the scalar kernel; output is bit-identical. The existing k % QK4_0 == 0 assert guarantees whole 32-element blocks, so the k/8 launch covers every row exactly. The now-unreferenced scalar reorder kernel is removed. Arc Pro B70, primed prefill (prefill after decode on a reorder-installed tensor): +6.4% to +7.3% pp512/pp2048 on Q4_0 models (tested up to 27B dense); fresh-layout prefill and decode unchanged; PPL within run noise. sycl : vectorize reordered q4_K dequantization stores The reordered-layout Q4_K conversion kernel already loads its quantized inputs through sycl::vec but writes the dequantized results with scalar stores. Build the results in a vec<dst_t,n> register and emit two vector stores instead. Same per-element math; output is bit-identical. Arc Pro B70, primed prefill (prefill after decode on a reorder-installed tensor): +14.7% to +15.3% pp512/pp2048 on Q4_K-dominant models (tested up to 27B dense); fresh-layout prefill, decode and PPL unchanged. sycl : remap reordered q5_K dequantization to vec4 loads/stores The reordered-layout Q5_K conversion kernel gave each thread only four outputs fed by scalar ql/qh byte loads plus a local-memory scale broadcast, so the stores were never its bottleneck: widening the stores alone measured within noise on mixed-quant models and +0.5% on a q5_K-dominant model. Re-decompose to 32 threads per block, each consuming four consecutive ql and qh bytes and emitting two aligned vec<dst_t,4> stores; a 4-element run shares one scale pair, so the per-element math and the output are identical. Arc Pro B70, primed prefill on a q5_K-dominant 27B model: +3.6% pp512/pp2048 over the scalar kernel; fresh-layout prefill, decode and PPL unchanged. The GET_ROWS reorder path moves to the same 32-thread decomposition. sycl : remap reordered q6_K dequantization to vec4 stores The reordered-layout Q6_K conversion kernel wrote four scalars per thread, strided 32 elements apart, each pair of neighbors sharing neither instruction stream nor store transaction. Re-decompose the same 64-thread work-group so each thread emits one aligned vec<dst_t,4>: a 4-element run shares one 16-element scale group, one ql nibble source and one qh bit pair, so the per-element math and the output are identical to the scalar kernel. Arc Pro B70, primed prefill: +28.7% pp512/pp2048 on a Q6_K 27B model; fresh-layout prefill, decode and PPL unchanged. sycl : vectorize reordered q3_K dequantization stores Each thread of the reordered-layout Q3_K conversion kernel already computes four consecutive outputs; build them in a vec<dst_t,4> register and emit one vector store instead of four scalars. Same per-element math; output is bit-identical. Arc Pro B70, primed prefill: +16.8% pp512/pp2048 on a Q3_K-dominant 27B model; fresh-layout prefill, decode and PPL unchanged. sycl : vectorize reordered iq3_xxs/iq3_s dequantization stores Both reordered-layout IQ3 conversion kernels write eight contiguous outputs per thread as scalar stores (four from each grid lookup). Build two vec<dst_t,4> registers and emit two vector stores. Same per-element math; output is bit-identical. Arc Pro B70, primed prefill: +20.3% to +21.1% pp512/pp2048 on IQ3_XXS- and IQ3_S-dominant 27B models; fresh-layout prefill, decode and PPL unchanged. sycl : remap reordered q2_K dequantization to vec4 stores Re-decompose the reordered-layout Q2_K conversion kernel the same way as Q6_K: one aligned vec<dst_t,4> per thread instead of four scalars strided 32 apart. A 4-element run shares one scale byte and one 2-bit lane, so the per-element math and the output are identical to the scalar kernel. Arc Pro B70, primed prefill: +13.1% pp512/pp2048 on a Q2_K-dominant 27B model; fresh-layout prefill, decode and PPL unchanged. sycl : widen reordered mxfp4 dequantization stores Give the reordered-layout MXFP4 conversion kernel the same flat sycl::range<1> launch as Q4_0: four qs bytes (8 outputs) per work-item inside one 32-element block and two vec<dst_t,4> stores. Same LUT lookups and per-block scale; output is bit-identical. The k % QK_MXFP4 == 0 assert guarantees whole blocks, so the k/8 launch covers every row exactly. The old scalar kernel is removed. The reordered layout for MXFP4 is installed on the MoE expert path (reorder_qw_mxfp4_moe); dense MXFP4 tensors keep the normal layout. Arc Pro B70, MXFP4 MoE 20B model: +57% pp2048 / +61% pp512 prefill (primed and fresh alike), decode unchanged, PPL within the model's run-to-run noise. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61167328 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11979",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11979"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "0ea250058aace78cdff5205a",
       "discovered_at": "2026-11-11T22:15:48Z",
       "kind": "local-ai",
@@ -2897,6 +2911,34 @@
       "summary": "What's Changed ci: pin buildx to workaround deadlock by @dhiltgen in #19373 openai: preserve readable Responses input content by @hoyyeva in #19192 mlx: sort long top-k rows in chunks by @dhiltgen in #19392 app: make ChatGPT disconnect failures retryable by @hoyyeva in #19336 launch: use model output limits for Claude Code by @ParthSareen in #19410 openai: don't override model sampler defaults by @dhiltgen in #19432 launch: check ChatGPT routing before configuring by @hoyyeva in #19470 server: decode cloud web search responses by @ParthSareen in #19476 Full Changelog : v0.40.13...v0.40.14-rc0",
       "title": "v0.40.14",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "c9f5f3a02381584b240e9d38",
+      "discovered_at": "2026-11-12T11:29:36Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-12T05:27:01Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "opencl: add decomposed FA for Adreno ( #32046 ) opencl: add decomposed FA Assisted-by: Claude Opus 5.5 Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com opencl: build FA MQ kernel on first FA call so allows warmup to early build neccessary kernels Assisted-by: Claude Opus 5.5 opencl: handle inf for fully masked row opencl: refine condition for using fa decomp opencl: support dp4a for PV mm Assisted-by: Codex opencl: add direct PV for FA decomp to avoid V transpose for small batch Assisted-by: Codex opencl: enable direct pv by default opencl: expand X2E decomposed FA to smaller heads and batches Lower the default head dimension threshold from 256 to 128 on X2E. Allow DK64 with P8, no attention sinks, GQA >= 2 and n_kv >= max(1024, 2*n_q). Allow P8 with V transpose for 2-31 queries when direct PV is unavailable, DK >= 128 and n_kv >= 1024. Assisted-by: Codex opencl: adjust format Co-authored-by: Li He lih@qti.qualcomm.com Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66552799 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12314",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12314"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "e86320a8813bf8b24362b0f1",
+      "discovered_at": "2026-11-12T11:29:36Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-12T03:50:19Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "vulkan: support batched tensor copy API ( #31418 ) vulkan: support batched tensor copy API allocate staging buffer only for copies that actually need it Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66530328 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12306",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12306"
     },
     {
       "bootstrap": false,
@@ -3096,17 +3138,17 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "3b6828e3e93cf644113db63d",
-      "discovered_at": "2026-10-29T11:23:28Z",
+      "candidate_id": "af12aa70388a5d91d6384b0a",
+      "discovered_at": "2026-11-12T11:29:36Z",
       "kind": "local-ai",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-10-29T07:14:26Z",
-      "search_score": 8,
+      "published": "2026-11-12T04:35:45Z",
+      "search_score": 7,
       "source_name": "llama.cpp Releases",
-      "summary": "[SYCL] add DPAS flash attention kernel for quantized KV cache ( #31125 ) sycl : add DPAS flash attention kernel for quantized KV cache Decode and small batches (1 to 31 query tokens) now run flash attention straight on q4_0 and q8_0 KV blocks, instead of scalar dequant or converting the whole cache to f16 per call. Q.K uses s8 x s4 and s8 x s8 DPAS on XMX, V.P stays f16. dpas.s4.s8 is inline vISA since joint_matrix has no s4. Covers head sizes 64 to 512, GQA up to 32 and attention sinks. Prompts stay on the existing kernels. GGML_SYCL_FA_DPAS=0 turns it off. B580, Llama 3.1 8B Q4_K_M, q4_0 KV, tg128: 31.3 to 54.2 t/s at 16K context. FLASH_ATTN_EXT 4582/4584, same 2 failures as master. Assisted-by: Claude sycl : 192 head dropped, Wildcat Lake added to docs Assisted-by: Claude sycl : stricter checks from review Assisted-by: Claude [SYCL] : rename XMX macro, add GGML_SYCL_SUPPORT_XMX option, document DPAS Assisted-by: Claude Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61175196 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11980",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11980"
+      "summary": "ci: move test models to ggml-org-dev ( #32096 ) ci: move test models to ggml-org-dev fix test spec Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66540743 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12308",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12308"
     },
     {
       "bootstrap": false,
@@ -3362,20 +3404,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "75ead2ddb1ad56a77a1767ea",
-      "discovered_at": "2026-10-29T04:59:08Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-29T04:45:38Z",
-      "search_score": 7,
-      "source_name": "llama.cpp Releases",
-      "summary": "ggml-openvino: slice view inputs of SCALE ( #31334 ) SCALE now accepts a src0 view with arbitrary row strides. translate_scale used the raw input, and on the dynamic path a VIEW translates to its whole source tensor, so a strided view input scaled the entire source. The model output then had the source's size, and copying it back overran the result buffer, which crashes test-backend-ops on the SCALE view cases. Slice the input with process_view_input_new, as the other translators do. Reject an in-place SCALE on a non-contiguous view: its result is copied back densely and would land in the wrong elements. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61135487 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11977",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11977"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "ecddf41113fc23ccd83b0871",
       "discovered_at": "2026-11-11T00:54:25Z",
       "kind": "agents",
@@ -3460,48 +3488,20 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "9ba9aacff7fcbd298df755d4",
-      "discovered_at": "2026-11-12T03:08:35Z",
+      "candidate_id": "b66712bf9359025c88a34966",
+      "discovered_at": "2026-11-12T11:29:36Z",
       "kind": "local-ai",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-11-12T02:59:05Z",
+      "published": "2026-11-12T07:02:04Z",
       "search_score": 5,
       "source_name": "llama.cpp Releases",
-      "summary": "jinja : support chained comparisons and argument unpacking ( #32072 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66518918 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12303",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12303"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "057e45a7c27faeda4ed58eee",
-      "discovered_at": "2026-11-11T22:15:48Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-11T20:19:56Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "webgpu: add PAD_REFLECT_1D support ( #31877 ) webgpu : add PAD_REFLECT_1D support webgpu: remove redundant PAD_REFLECT_1D contiguity check tests: simplify PAD_REFLECT_1D setup Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66423627 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12292",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12292"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "e78ec32e40cf6daa5db9b1e7",
-      "discovered_at": "2026-11-11T22:15:48Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-11T19:57:03Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "vulkan: allow dequantized KV optimization with CM2 ( #31526 ) additional FA test cases Assisted-by: Codex vulkan: allow dequantized KV optimization with CM2 Enable the KV dequantization optimization with coopmat2, guarded by a heuristic based on query tokens*GQA ratio. While doing this we saw very large speedups for certain head sizes, and it was because those head sizes were incorrectly treated as unaligned. So also fix those to be treated as aligned, which should help for when the dequant optimization doesn't apply. gqa uses nbq2 for the stride, so we need to check that value for alignment tests : use VARS_TO_STR18 for flash attention Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66417308 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12291",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12291"
+      "summary": "opencl: add bin kernel kernel_gemm_noshuffle_q4_0_f32_32b_trans_ila_a7_bin ( #30947 ) opencl: add A7 Q4_0 non-MoE binary kernel opencl: refactor Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66575588 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12317",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12317"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-12T03:09:00Z",
+  "updated_at": "2026-11-12T11:30:03Z",
   "version": 2
 }

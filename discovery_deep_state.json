@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-11T22:19:00Z",
+    "at": "2026-11-12T03:16:02Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 1,
-    "queued": 4,
+    "queued": 9,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 195,
+  "runs": 196,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -1157,6 +1157,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/"
     },
+    "1fe1ee1240975f0e03bb4fb6": {
+      "first_seen": "2026-11-12T03:15:57Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "1ffe44b88032d87cbe87c539": {
       "first_seen": "2026-10-15T09:50:31Z",
       "search_score": 1,
@@ -2301,6 +2306,11 @@
       "first_seen": "2026-10-08T21:27:35Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/judged-systems"
+    },
+    "400ccc2bb634a1a8f3d96878": {
+      "first_seen": "2026-11-12T03:15:57Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/minimax"
     },
     "4044d2a790a1a3671627278f": {
       "first_seen": "2026-11-05T11:39:14Z",
@@ -3758,6 +3768,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/dotverse"
     },
+    "65ed3aaa19481013a49b42cb": {
+      "first_seen": "2026-11-12T03:15:57Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "6607be108162782c971918e9": {
       "first_seen": "2026-10-30T09:55:37Z",
       "status": "too_old",
@@ -3823,6 +3838,11 @@
       "first_seen": "2026-10-31T12:57:54Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/coding-wrapped"
+    },
+    "6857efec209352a5d0398934": {
+      "first_seen": "2026-11-12T03:15:57Z",
+      "status": "queued",
+      "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html?utm_source=futuretools.io&utm_medium=newspage"
     },
     "6898ce9533d4ba677f8b050a": {
       "first_seen": "2026-11-08T08:01:52Z",
@@ -4158,6 +4178,12 @@
       "status": "queued",
       "url": "https://bfl.ai/models/flux-3-video"
     },
+    "720ebb0d14528ca9b368e30b": {
+      "first_seen": "2026-11-12T03:15:57Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/xolace"
+    },
     "722ef3bb8d0cdb826e2a12de": {
       "first_seen": "2026-11-07T13:56:47Z",
       "search_score": 0,
@@ -4430,6 +4456,11 @@
       "first_seen": "2026-10-08T21:27:34Z",
       "status": "queued",
       "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "785f901df4669f48d6611d9d": {
+      "first_seen": "2026-11-12T03:15:57Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "788c0a497542431958d6f48b": {
       "first_seen": "2026-10-06T19:44:12Z",
@@ -6481,6 +6512,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/feelmymac"
     },
+    "b17a3a1d1c7c97e247db6f61": {
+      "first_seen": "2026-11-12T03:15:57Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "b18be54c6dfc2304070bd52c": {
       "first_seen": "2026-10-17T08:44:04Z",
       "status": "too_old",
@@ -6649,6 +6685,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/pinku"
+    },
+    "b6e29cbfc8168355030196ae": {
+      "first_seen": "2026-11-12T03:15:57Z",
+      "status": "queued",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "b72dc720cf78e3932741fade": {
       "first_seen": "2026-11-01T18:29:34Z",
@@ -7783,6 +7824,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107874963382538469"
     },
+    "d83ce1592a98de747e2b6161": {
+      "first_seen": "2026-11-12T03:15:57Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-fcf18743f0c3ecbe1f7e"
+    },
     "d84f30af7d5d46557d6d59c7": {
       "first_seen": "2026-10-27T12:46:49Z",
       "status": "queued",
@@ -7855,6 +7901,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/reset-alerts"
+    },
+    "da025025ba482d2ed5ce602a": {
+      "first_seen": "2026-11-12T03:16:00Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2120715518243987685"
     },
     "da2b601c5cef9c0514f783c5": {
       "first_seen": "2026-11-09T02:53:46Z",

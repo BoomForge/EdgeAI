@@ -77,9 +77,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-11T10:47:48Z",
-    "eligible": 85,
-    "evaluated": 2,
+    "at": "2026-11-12T00:35:17Z",
+    "eligible": 97,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -2055,6 +2055,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/nimbalyst-wiki"
     },
+    "3007fcee676fa59fcd8726a8": {
+      "at": "2026-11-12T00:35:08Z",
+      "status": "expired",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc0"
+    },
     "30524c47438f129e3b693188": {
       "at": "2026-10-17T04:50:07Z",
       "bootstrap": false,
@@ -2363,6 +2368,20 @@
       "status": "ignored",
       "story_key": "llamacpp-b11721-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11721"
+    },
+    "37e4452e64c861cffe83ba46": {
+      "at": "2026-11-12T00:35:17Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "cogent-openai-cyber-defense-factories",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/cogent-security"
     },
     "381da076c8f84d9c12b58c52": {
       "at": "2026-10-03T18:39:51Z",
@@ -5945,6 +5964,14 @@
       },
       "url": "https://openai.com/index/oracle-apps-in-chatgpt/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "9092d5eb66f29547408d30e0": {
+      "at": "2026-11-12T00:35:13Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "openai-singapore-airlines-deployment",
+      "url": "https://openai.com/index/singapore-airlines-travel-work"
+    },
     "90cc6f51408ea53226245800": {
       "at": "2026-10-16T22:03:28Z",
       "bootstrap": false,
@@ -6884,6 +6911,11 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens"
+    },
+    "a86fe963d82ab9637cc7f4a0": {
+      "at": "2026-11-12T00:35:08Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/"
     },
     "a8925f4efcefde3be94aab20": {
       "at": "2026-11-01T15:02:04Z",
@@ -8084,6 +8116,11 @@
       "story_key": "nous-research-nouscon-2026-hype",
       "url": "https://x.com/NousResearch/status/2115798012840579154"
     },
+    "cbc7205436091f5445b55df1": {
+      "at": "2026-11-12T00:35:08Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12207"
+    },
     "cbc8926a28c802abf681f0b7": {
       "at": "2026-10-05T15:56:52Z",
       "status": "expired",
@@ -8406,6 +8443,20 @@
       "at": "2026-10-09T03:09:32Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/"
+    },
+    "d4410be473a272347654bd4d": {
+      "at": "2026-11-12T00:35:12Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "artificial-analysis-mka-benchmark-and-endpoint-accuracy-v1-1",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-1efcd13a4260924ab23a"
     },
     "d46a988bab4ad48294b1ba5b": {
       "at": "2026-11-07T18:10:52Z",
@@ -11159,6 +11210,27 @@
         "source": "Artificial Analysis Changelog"
       }
     },
+    "artificial-analysis-mka-benchmark-and-endpoint-accuracy-v1-1": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-mka-benchmark-and-endpoint-accuracy-v1-1.jpg",
+      "last_updated": "2026-11-12T00:35:12Z",
+      "post_id": "7985859845550695465",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/artificial-analysis-launches-multimodal_01886758502.html",
+      "score": 82,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-1efcd13a4260924ab23a"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Launches Multimodal Knowledge Agent Benchmark with Google DeepMind and Upgrades Endpoint Accuracy Index",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
     "artificial-analysis-multimodal-knowledge-agent-mka-benchmark": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-multimodal-knowledge-agent-mka-benchmark.jpg",
@@ -11751,6 +11823,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 88,
         "source": "Cline Releases"
+      }
+    },
+    "cogent-openai-cyber-defense-factories": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/cogent-openai-cyber-defense-factories.jpg",
+      "last_updated": "2026-11-12T00:35:17Z",
+      "post_id": "415067762290634967",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/cogent-and-openai-partner-on-autonomous.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/6yvbDz3WNgZACuqR1Bllrv/eea6d3b2ec1cf6115a5738c06073259b/cogent-security-social-sienna.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/cogent-security"
+      ],
+      "status": "CONFIRMED",
+      "title": "Cogent and OpenAI Partner on Autonomous Enterprise Cyber Defense Factories",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
       }
     },
     "comfyui-v0-40-0-release": {

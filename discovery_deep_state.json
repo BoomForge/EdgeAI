@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-12T19:12:19Z",
+    "at": "2026-11-13T00:38:32Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 1,
-    "queued": 10,
+    "queued": 4,
     "sources_ok": 15,
-    "too_old": 4,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 198,
+  "runs": 199,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -827,6 +827,11 @@
       "first_seen": "2026-10-16T10:03:10Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/parallax-5"
+    },
+    "16cc02b20e34141409492bad": {
+      "first_seen": "2026-11-13T00:38:28Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-23d6fc803612b3ba7d50"
     },
     "16e337b96c2a78400914d310": {
       "first_seen": "2026-10-17T04:18:30Z",
@@ -3395,6 +3400,11 @@
       "first_seen": "2026-11-09T21:33:40Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/egoist-ai-passport"
+    },
+    "5b86eed0286e0e3b833c14ec": {
+      "first_seen": "2026-11-13T00:38:28Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/"
     },
     "5b8ee58e3c5f60e84d27c235": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -6326,6 +6336,11 @@
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-1e6c65588e43ac9e658e"
     },
+    "a7af1b25656fe844c38b28aa": {
+      "first_seen": "2026-11-13T00:38:28Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/crossfade"
+    },
     "a841acebf3dd13cf6ba6f961": {
       "first_seen": "2026-11-06T15:17:29Z",
       "search_score": 0,
@@ -8826,6 +8841,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/any-video-to-text"
     },
+    "efeb8597e0e5869ab2b9b20b": {
+      "first_seen": "2026-11-13T00:38:27Z",
+      "status": "queued",
+      "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "f01e1d1f7f1967bc58c6859a": {
       "first_seen": "2026-10-23T10:24:14Z",
       "status": "queued",
@@ -8835,6 +8855,12 @@
       "first_seen": "2026-10-22T01:57:55Z",
       "status": "queued",
       "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "f05d61475cb32c0fc6d8e302": {
+      "first_seen": "2026-11-13T00:38:28Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/hoy-for-mac"
     },
     "f077f36f0fde57a1b5e7a17d": {
       "first_seen": "2026-11-03T09:27:30Z",

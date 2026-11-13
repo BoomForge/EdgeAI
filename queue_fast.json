@@ -1836,6 +1836,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "67672a694e389b29af5588bf",
+      "discovered_at": "2026-11-13T00:34:00Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Thu, 12 Nov 2026 20:00:00 GMT",
+      "search_score": 12,
+      "source_name": "OpenAI News",
+      "summary": "Built primarily on OpenAI models, Amplitude\u2019s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "title": "How Amplitude ships product improvements in 1\u20132 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "5f721228af3682c2417b4131",
       "discovered_at": "2026-11-06T21:37:01Z",
       "kind": "official",
@@ -2214,20 +2228,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "574dbaf7fc8731e405753fdd",
-      "discovered_at": "2026-10-30T23:31:22Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Fri, 30 Oct 2026 00:00:00 GMT",
-      "search_score": 4,
-      "source_name": "OpenAI News",
-      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
-      "title": "Fair use benefits everyone",
-      "url": "https://openai.com/index/fair-use-benefits-everyone"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "fbaa86a829ad59fd10c58d01",
       "discovered_at": "2026-11-04T23:45:55Z",
       "kind": "official",
@@ -2365,6 +2365,20 @@
       "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "title": "Qodo builds context into AI code review with Codex",
       "url": "https://openai.com/index/qodo-codex-plugin"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "b9840fd67063a36a400d5e1d",
+      "discovered_at": "2026-11-13T00:34:00Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Thu, 12 Nov 2026 12:00:00 GMT",
+      "search_score": 0,
+      "source_name": "OpenAI News",
+      "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer\u2019s output by 50% and ChatGPT simplifying daily work.",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola"
     },
     {
       "bootstrap": false,
@@ -2771,20 +2785,6 @@
       "summary": "model: mistral le chonk ( #31376 ) llama: extend DSA and sdpark to new model fix ci Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61557038 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b11998",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11998"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "4a32d2fe895871688c404872",
-      "discovered_at": "2026-10-29T22:00:22Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-29T20:57:09Z",
-      "search_score": 10,
-      "source_name": "llama.cpp Releases",
-      "summary": "model : Support Limite 1B - Violetto ( #29433 ) gguf-py : add Limite arch Assisted-by: Claude Opus 5.5 Signed-off-by: Giuseppe Scrivano giuseppe@scrivano.org convert : add Limite support Assisted-by: Claude Opus 5.5 Signed-off-by: Giuseppe Scrivano giuseppe@scrivano.org llama : add Limite support Assisted-by: Claude Opus 5.5 Signed-off-by: Giuseppe Scrivano giuseppe@scrivano.org Signed-off-by: Giuseppe Scrivano giuseppe@scrivano.org Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61482602 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b11988",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11988"
     },
     {
       "bootstrap": false,
@@ -3460,48 +3460,48 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "7b9f63f2b0ab42a718e694a5",
-      "discovered_at": "2026-11-12T19:07:15Z",
+      "candidate_id": "479fbc38c33364d1ec83c205",
+      "discovered_at": "2026-11-13T00:34:06Z",
       "kind": "local-ai",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-11-12T19:03:31Z",
+      "published": "2026-11-12T22:26:10Z",
       "search_score": 5,
       "source_name": "llama.cpp Releases",
-      "summary": "llama : avoid touching unused graph metadata pages ( #32043 ) Each graph result reserves metadata for max_nodes, but many graphs use only a fraction of that capacity.  The vector resize initializes the whole reserve and makes otherwise unused pages resident.  Allocate the reserve with new uint8_t[] instead. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66845951 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12322",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12322"
+      "summary": "CUDA: Optimize prefil via fuse of w_s scale in epilogue MMQ for nvfp4 checkpoints ( #26048 ) ggml-cuda: Apply NVFP4 weight scale in MMQ write-back ggml-cuda: Fuse mul_mat(_id) + scale into MMQ ggml-cuda: Tests for the fused scale ggml-cuda: reuse existing graph to test fusion in mmq epiloque ggml-cuda: rename test_mul_mat_vec_fusion to test_mul_mat_fusion for consistency ggml-cuda: refine comments for clarity on MMQ dispatch and fusion checks in mul_mat functions ggml-cuda: refactor fusion checks for mul_mat operations and remove unused function Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66922334 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12329",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12329"
     },
     {
       "bootstrap": false,
-      "candidate_id": "04ce7d8114ff91aaec506613",
-      "discovered_at": "2026-11-12T19:07:15Z",
+      "candidate_id": "d97c9ce2ae1eb5e86758fb5f",
+      "discovered_at": "2026-11-13T00:34:06Z",
       "kind": "local-ai",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-11-12T18:21:31Z",
+      "published": "2026-11-12T21:24:43Z",
       "search_score": 5,
       "source_name": "llama.cpp Releases",
-      "summary": "sycl: make oneDNN FA cache thread-safe and memoize runtime failures ( #31138 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66830789 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12321",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12321"
+      "summary": "ggml-backend : prefetch only inputs computed by earlier splits ( #32100 ) ggml-backend : prefetch only inputs computed by earlier splits The copy callback of a split runs after the prefetch and can write tensors that a later split reads, e.g. the MoE cache uploads missed experts into its bank. A prefetch of such a tensor reads it before the write. llama : skip the MoE cache when its device cannot run the cached mul_mat_id Otherwise the scheduler runs the matmul on another backend and copies the whole bank every ubatch. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66899037 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12328",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12328"
     },
     {
       "bootstrap": false,
-      "candidate_id": "0e4894e65e90d0a39d8831b5",
-      "discovered_at": "2026-11-12T19:07:15Z",
+      "candidate_id": "4260969ab2bce236d4b02f87",
+      "discovered_at": "2026-11-13T00:34:06Z",
       "kind": "local-ai",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-11-12T17:49:17Z",
+      "published": "2026-11-12T21:03:27Z",
       "search_score": 5,
       "source_name": "llama.cpp Releases",
-      "summary": "sycl : fix AOT for more than 4GB ( #31873 ) fix aot for >4g garbage output issue; add --aot in build script correct the aot flag support no-xmx build, update the code for no-xmx building, rename nossl to no-ssl Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66816265 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12320",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12320"
+      "summary": "ggml : dispatch SpacemiT Q4_1 32x256 through the HP kernel ( #31929 ) The 32x256 pack already keeps a separate uint8 zero point. Complete the M1 path and use the same HP kernel as Q4_0. Assisted-by: Codex Signed-off-by: gitGurugu 2049447146@qq.com Signed-off-by: Wang Yang yangwang@iscas.ac.cn Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66892038 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12327",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12327"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-12T19:07:41Z",
+  "updated_at": "2026-11-13T00:34:26Z",
   "version": 2
 }

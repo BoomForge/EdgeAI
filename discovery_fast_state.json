@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-12T19:07:41Z",
+    "at": "2026-11-13T00:34:26Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 4,
-    "queued": 13,
+    "prefiltered": 1,
+    "queued": 12,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 200,
+  "runs": 201,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -212,6 +212,11 @@
       "first_seen": "2026-10-03T00:45:54Z",
       "status": "too_old",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0"
+    },
+    "060168416610737110b7917f": {
+      "first_seen": "2026-11-13T00:34:17Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.7"
     },
     "0603acd173548429c78381bd": {
       "first_seen": "2026-10-29T11:23:28Z",
@@ -839,6 +844,11 @@
       "first_seen": "2026-10-12T19:18:33Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11568"
+    },
+    "131ef63629fca6a81278223f": {
+      "first_seen": "2026-11-13T00:34:06Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12331"
     },
     "131fed317e6702dc4e58f5b9": {
       "first_seen": "2026-11-04T23:46:03Z",
@@ -3069,6 +3079,11 @@
       "status": "too_old",
       "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.1.dev"
     },
+    "4260969ab2bce236d4b02f87": {
+      "first_seen": "2026-11-13T00:34:06Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12327"
+    },
     "427c3156a62caeb103d1a705": {
       "first_seen": "2026-10-29T22:00:42Z",
       "status": "queued",
@@ -3303,6 +3318,11 @@
       "first_seen": "2026-11-06T08:29:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.07065"
+    },
+    "479fbc38c33364d1ec83c205": {
+      "first_seen": "2026-11-13T00:34:06Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12329"
     },
     "47e7af736bb5157b7b07b06e": {
       "first_seen": "2026-10-27T06:24:39Z",
@@ -4235,6 +4255,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20681"
     },
+    "5d9cdcd85d81f9fa4aa36eba": {
+      "first_seen": "2026-11-13T00:34:06Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12330"
+    },
     "5db63836ea0cc2dd4a3a4218": {
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
@@ -4723,6 +4748,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11900"
     },
+    "67672a694e389b29af5588bf": {
+      "first_seen": "2026-11-13T00:34:00Z",
+      "status": "queued",
+      "url": "https://openai.com/business/customer-stories/amplitude"
+    },
     "67c44c74430c7c20f6d96ea8": {
       "first_seen": "2026-10-26T21:51:38Z",
       "status": "queued",
@@ -4996,6 +5026,11 @@
       "first_seen": "2026-11-12T19:07:35Z",
       "status": "queued",
       "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.3"
+    },
+    "6c6cde720116becdfe9eee67": {
+      "first_seen": "2026-11-13T00:34:06Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12324"
     },
     "6c883b8091f090772dce997b": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -5494,6 +5529,12 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11449"
     },
+    "77ce22269d7fa4ed6e1bfced": {
+      "first_seen": "2026-11-13T00:34:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/new-google-flow-tools/"
+    },
     "77ee249104a767fada118447": {
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
@@ -5769,6 +5810,11 @@
       "first_seen": "2026-10-08T07:31:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08827"
+    },
+    "7faee375039f7ade7b79ab3b": {
+      "first_seen": "2026-11-13T00:34:05Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.3"
     },
     "7faf2ce1755c89b2e2a71121": {
       "first_seen": "2026-11-02T10:42:42Z",
@@ -6454,6 +6500,11 @@
       "first_seen": "2026-11-02T10:42:42Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40747"
+    },
+    "8e799f91ef274be06adc8c6f": {
+      "first_seen": "2026-11-13T00:34:06Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12336"
     },
     "8e7bdd03010036f87da34ebd": {
       "first_seen": "2026-10-03T00:46:03Z",
@@ -8350,6 +8401,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11861"
     },
+    "b9840fd67063a36a400d5e1d": {
+      "first_seen": "2026-11-13T00:34:00Z",
+      "status": "queued",
+      "url": "https://openai.com/business/customer-stories/gondola"
+    },
     "b9972c54becd0c3d958a401b": {
       "first_seen": "2026-10-03T00:45:58Z",
       "status": "queued",
@@ -9869,6 +9925,11 @@
       "first_seen": "2026-10-27T06:24:40Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.33119"
+    },
+    "d97c9ce2ae1eb5e86758fb5f": {
+      "first_seen": "2026-11-13T00:34:06Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12328"
     },
     "d9be917439ae8646ae20a7b6": {
       "first_seen": "2026-10-13T21:32:32Z",
@@ -11662,6 +11723,11 @@
       "first_seen": "2026-10-03T00:46:21Z",
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.50.0"
+    },
+    "ffb21679c900a5eaf797c303": {
+      "first_seen": "2026-11-13T00:34:06Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12332"
     },
     "ffbada98cace5f62be30cc7a": {
       "first_seen": "2026-10-08T20:34:18Z",

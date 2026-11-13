@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-13T15:37:12Z",
+    "at": "2026-11-13T21:40:50Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 8,
-    "queued": 6,
+    "prefiltered": 0,
+    "queued": 8,
     "sources_ok": 15,
-    "too_old": 6,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 201,
+  "runs": 202,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -1148,6 +1148,11 @@
       "first_seen": "2026-10-11T09:11:21Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/foley"
+    },
+    "1dee3ad71d1bf8c3cc1140e9": {
+      "first_seen": "2026-11-13T21:40:47Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "1e07eed3568eeac1c1495f37": {
       "first_seen": "2026-10-06T00:46:26Z",
@@ -3612,6 +3617,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/opusclip"
     },
+    "5f5491bf67ae3d8141240503": {
+      "first_seen": "2026-11-13T21:40:47Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "5f893e4c2783d9d33b522297": {
       "first_seen": "2026-11-07T13:56:47Z",
       "status": "too_old",
@@ -3823,6 +3833,11 @@
       "first_seen": "2026-10-14T21:37:22Z",
       "status": "queued",
       "url": "https://x.ai/news/grok-voice-3?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "6306346d6160f583db835ae9": {
+      "first_seen": "2026-11-13T21:40:47Z",
+      "status": "queued",
+      "url": "https://claude.com/resources/articles/building-always-on-agents?utm_source=futuretools.io&utm_medium=newspage"
     },
     "637b19621e90d68905988d73": {
       "first_seen": "2026-10-04T00:34:30Z",
@@ -6252,6 +6267,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/10/python-actions/"
     },
+    "a2ecccd9deebef44fe0dd188": {
+      "first_seen": "2026-11-13T21:40:48Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-3900a479a63a53c832ee"
+    },
     "a2f34a971cdefc3dac696a4e": {
       "first_seen": "2026-11-11T00:37:31Z",
       "status": "too_old",
@@ -7423,6 +7443,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/clipspal"
     },
+    "c453d1fff9b79ec2073c7f04": {
+      "first_seen": "2026-11-13T21:40:48Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-6c9d2f9518f866c320fb"
+    },
     "c46bbbf0a082f7a26c70f0ae": {
       "first_seen": "2026-11-07T07:03:43Z",
       "search_score": 0,
@@ -8023,6 +8048,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/off-grid-ai"
     },
+    "d5f790226281cc8dde386f89": {
+      "first_seen": "2026-11-13T21:40:50Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2121348238100062408"
+    },
     "d616d43725fb6728597a0b54": {
       "first_seen": "2026-11-11T00:37:31Z",
       "status": "queued",
@@ -8380,6 +8410,11 @@
       "first_seen": "2026-10-23T10:24:14Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/ovren"
+    },
+    "df257b33d8f4f3c26de00cf0": {
+      "first_seen": "2026-11-13T21:40:50Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2121328727766220904"
     },
     "df2b3a652849a416deb89641": {
       "first_seen": "2026-10-03T00:46:03Z",
@@ -9117,6 +9152,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/emochi-2"
+    },
+    "f3088a6a94e4dd3182606126": {
+      "first_seen": "2026-11-13T21:40:47Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "f317c625fcd712dc85b8cf38": {
       "first_seen": "2026-10-26T11:34:46Z",

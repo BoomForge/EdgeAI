@@ -310,34 +310,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "586b885751e7eb0450bea058",
-      "discovered_at": "2026-10-30T21:08:22Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-10-30T21:08:22Z",
-      "search_score": 49,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 30 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Non-reasoning) Intelligence Index: 19 DeepInfra performance results now available Nemotron 3.5 Super VL SiliconFlow performance results now available Qwen3.8 27B (Xhigh) Qwen3.8 27B (Non-reasoning) Databricks performance results now available DeepSeek V4 Pro 0813 (Max) GMI performance results now available Step 3.7 Flash DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) Inco performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) 29 Oct 2026 New language model evaluation results available Mistral Large 4 (Medium) Intelligence Index: 23 New language model evaluation results available Mistral Large 4 (High) Intelligence Index: 26 Systalyze performance results now available GLM-5.3 (Low) GLM-5.3 (Max) Mistral performance results now available Mistral Large 4 (Medium) Mistral Large 4 (High) 28 Oct 2026 \ud83d\udd14 New article published Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5 Google\u2019s Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5, and second only to Claude Opus 5.5 on the Artificial Analysis Coding Agent Index \ud83d\udd14 New article published GitHub Copilot Fusion orchestrates Anthropic and OpenAI models to balance performance and cost itHub has released Copilot Fusion in GitHub Copilot, which orchestrates between Anthropic and OpenAI models. It scores 2 points below Opus 5.5 in Claude Code at half the Cost per Task in the Coding Agent Index New language model evaluation results available Gemini 4 Carbon (High) Intelligence Index: 59 Google performance results now available Gemini 4 Carbon (High) Bitdeer AI performance results now available DeepSeek V4.1 Flash 1017 (Max) 27 Oct 2026 \ud83d\udd14 New article published Announcing Artificial Analysis Intelligence Index v5 Index v5 features 2 new benchmarks and 3 upgrades. For the first time, the majority of the Index is built on private datasets Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0 New to the Intelligence Index: \u27a4 FrontierCode 2.0: Cognition\u2019s private benchmark of real-world coding tasks, graded on whether a repository maintainer would merge the agent\u2019s change \u27a4 Terminal-Bench-Science: 70 agentic scientific research tasks, run in a terminal environment Upgraded: \u27a4 HLE-Diamond (replacing Humanity\u2019s Last Exam): a refined 1,000-question version of Humanity\u2019s Last Exam, split evenly between reasoning and knowledge questions \u27a4 AA-Omniscience v1.1: an updated dataset with saturated questions and all public set questions removed, new questions added, and ambiguous or erroneous questions revised \u27a4 CritPt v2 (Hard Subset): a private 40-question hard subset of CritPt v2, revised by the CritPt authors and run with a code-execution tool Staying in the Index: AA-Briefcase, AutomationBench-AA, GDP.pdf and Terminal-Bench 4.0 Removed from the Index: GDPval-AA v2, SciCode and AA-LCR Modal performance results now available DeepSeek V4.1 Flash 1017 (Max) SambaNova performance results now available MiniMax-M3.1-Flash 26 Oct 2026 \ud83d\udd14 New article published GPT-6.1 Terra pushes the cost efficiency frontier OpenAI has released GPT-6.1 Terra, pushing the cost efficiency frontier. It is the first Terra-class model since GPT-5.6, and is more intelligent for less than a third of the cost \ud83d\udd14 New article published Code2Video-AA: how well do AI models design videos in code? Artificial Analysis' implementation of HeyGen's Code2Video Bench, evaluating how well models create short product and brand videos from 114 design briefs using HyperFrames HTML. New language model evaluation results available GPT-6.1 Terra (Non-reasoning) Intelligence Index: 30 New language model evaluation results available GPT-6.1 Terra (Low) Intelligence Index: 29 New language model evaluation results available GPT-6.1 Terra (Medium) Intelligence Index: 38 New language model evaluation results available GPT-6.1 Terra (High) Intelligence Index: 42 New language model evaluation results available GPT-6.1 Terra (Xhigh) Intelligence Index: 45 New language model evaluation results available GPT-6.1 Terra (Max) Intelligence Index: 51 OpenAI performance results now available GPT-6.1 Terra (Non-reasoning) GPT-6.1 Terra (Low) GPT-6.1 Terra (Medium) GPT-6.1 Terra (High) GPT-6.1 Terra (Xhigh) GPT-6.1 Terra (Max) 23 Oct 2026 \ud83d\udd14 New article published Kimi K3.1 Pro launches at 4th on the Intelligence Index and will lead open weights models Kimi K3.1 Pro launches at 4th on the Artificial Analysis Intelligence Index and will lead open weights mod",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-fe185384b0b8cd9fcf12"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "87a723fc5e52567f80085e63",
-      "discovered_at": "2026-10-30T16:40:48Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-10-30T16:40:48Z",
-      "search_score": 49,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 30 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Non-reasoning) Intelligence Index: 19 DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) Inco performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) 29 Oct 2026 New language model evaluation results available Mistral Large 4 (Medium) Intelligence Index: 23 New language model evaluation results available Mistral Large 4 (High) Intelligence Index: 26 Systalyze performance results now available GLM-5.3 (Low) GLM-5.3 (Max) Mistral performance results now available Mistral Large 4 (Medium) Mistral Large 4 (High) 28 Oct 2026 \ud83d\udd14 New article published Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5 Google\u2019s Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5, and second only to Claude Opus 5.5 on the Artificial Analysis Coding Agent Index \ud83d\udd14 New article published GitHub Copilot Fusion orchestrates Anthropic and OpenAI models to balance performance and cost itHub has released Copilot Fusion in GitHub Copilot, which orchestrates between Anthropic and OpenAI models. It scores 2 points below Opus 5.5 in Claude Code at half the Cost per Task in the Coding Agent Index New language model evaluation results available Gemini 4 Carbon (High) Intelligence Index: 59 Google performance results now available Gemini 4 Carbon (High) Bitdeer AI performance results now available DeepSeek V4.1 Flash 1017 (Max) 27 Oct 2026 \ud83d\udd14 New article published Announcing Artificial Analysis Intelligence Index v5 Index v5 features 2 new benchmarks and 3 upgrades. For the first time, the majority of the Index is built on private datasets Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0 New to the Intelligence Index: \u27a4 FrontierCode 2.0: Cognition\u2019s private benchmark of real-world coding tasks, graded on whether a repository maintainer would merge the agent\u2019s change \u27a4 Terminal-Bench-Science: 70 agentic scientific research tasks, run in a terminal environment Upgraded: \u27a4 HLE-Diamond (replacing Humanity\u2019s Last Exam): a refined 1,000-question version of Humanity\u2019s Last Exam, split evenly between reasoning and knowledge questions \u27a4 AA-Omniscience v1.1: an updated dataset with saturated questions and all public set questions removed, new questions added, and ambiguous or erroneous questions revised \u27a4 CritPt v2 (Hard Subset): a private 40-question hard subset of CritPt v2, revised by the CritPt authors and run with a code-execution tool Staying in the Index: AA-Briefcase, AutomationBench-AA, GDP.pdf and Terminal-Bench 4.0 Removed from the Index: GDPval-AA v2, SciCode and AA-LCR Modal performance results now available DeepSeek V4.1 Flash 1017 (Max) SambaNova performance results now available MiniMax-M3.1-Flash 26 Oct 2026 \ud83d\udd14 New article published GPT-6.1 Terra pushes the cost efficiency frontier OpenAI has released GPT-6.1 Terra, pushing the cost efficiency frontier. It is the first Terra-class model since GPT-5.6, and is more intelligent for less than a third of the cost \ud83d\udd14 New article published Code2Video-AA: how well do AI models design videos in code? Artificial Analysis' implementation of HeyGen's Code2Video Bench, evaluating how well models create short product and brand videos from 114 design briefs using HyperFrames HTML. New language model evaluation results available GPT-6.1 Terra (Non-reasoning) Intelligence Index: 30 New language model evaluation results available GPT-6.1 Terra (Low) Intelligence Index: 29 New language model evaluation results available GPT-6.1 Terra (Medium) Intelligence Index: 38 New language model evaluation results available GPT-6.1 Terra (High) Intelligence Index: 42 New language model evaluation results available GPT-6.1 Terra (Xhigh) Intelligence Index: 45 New language model evaluation results available GPT-6.1 Terra (Max) Intelligence Index: 51 OpenAI performance results now available GPT-6.1 Terra (Non-reasoning) GPT-6.1 Terra (Low) GPT-6.1 Terra (Medium) GPT-6.1 Terra (High) GPT-6.1 Terra (Xhigh) GPT-6.1 Terra (Max) 23 Oct 2026 \ud83d\udd14 New article published Kimi K3.1 Pro launches at 4th on the Intelligence Index and will lead open weights models Kimi K3.1 Pro launches at 4th on the Artificial Analysis Intelligence Index and will lead open weights models New language model evaluation results available Kimi K3.1 Pro Intelligence Index: 46 New language model evaluation results available Nemotron 3.5 Bolt E4B 4GB (Reasoning) Inco performance results now available DeepSeek V4.1 Flash 1017 (Max) MiniMax-M3.1-Flash MiniMax-M3.1-Flash Ne",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-a71ea192a9b885c51d27"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "19b3d03f25a3e039bee87d08",
       "discovered_at": "2026-11-06T00:11:01Z",
       "kind": "independent",
@@ -363,6 +335,20 @@
       "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 05 Nov 2026 \ud83d\udd14 New article published Nanbeige has released Nanbeige4.3-33B scoring 20 on the Intelligence Index Nanbeige has released Nanbeige4.3-33B, an open weights model matching Qwen3.8 27B (xhigh) at 20 on the Artificial Analysis Intelligence Index v5 with stronger terminal use but weaker knowledge Tencent performance results now available Tencent Hy4 Nunchux performance results now available MiniMax H3 (768p) LTX-2.3 Fast 04 Nov 2026 New language model evaluation results available Muse Wonder (High) Intelligence Index: 41 New language model evaluation results available Tencent Hy4 Intelligence Index: 35 Meta performance results now available Muse Wonder (High) 03 Nov 2026 Artificial Analysis Performance Benchmarking methodology Artificial Analysis Performance Benchmarking v3.0.0 Time per Task is the new headline for comparing models. Output Speed now covers the whole request, including the wait for the first token, and averages single-request and multi-turn agentic workloads. Token counts come from each provider's API. Failures on the endpoint's side count against it, and every endpoint shows an Endpoint Error Rate. Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0.1 Incorporated grading robustness improvements from the CritPt authors and regraded all models on CritPt v2. 02 Nov 2026 New language model evaluation results available Gemini 4 Carbon (Low) Intelligence Index: 54 New language model evaluation results available Nanbeige4.3-33B Intelligence Index: 20 Google performance results now available Gemini 4 Carbon (Low) 01 Nov 2026 New language model evaluation results available Gemini 4 Carbon (Medium) Intelligence Index: 58 New language model evaluation results available DeepSeek V4.1 Flash 1017 (High) Intelligence Index: 29 Google performance results now available Gemini 4 Carbon (Medium) DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (High) 30 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Non-reasoning) Intelligence Index: 19 DeepInfra performance results now available Nemotron 3.5 Super VL SiliconFlow performance results now available Qwen3.8 27B (Xhigh) Qwen3.8 27B (Non-reasoning) GMI performance results now available Step 3.7 Flash DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) Inco performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) 29 Oct 2026 New language model evaluation results available Mistral Large 4 (Medium) Intelligence Index: 23 New language model evaluation results available Mistral Large 4 (High) Intelligence Index: 26 Mistral performance results now available Mistral Large 4 (Medium) Mistral Large 4 (High) 28 Oct 2026 \ud83d\udd14 New article published Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5 Google\u2019s Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5, and second only to Claude Opus 5.5 on the Artificial Analysis Coding Agent Index \ud83d\udd14 New article published GitHub Copilot Fusion orchestrates Anthropic and OpenAI models to balance performance and cost itHub has released Copilot Fusion in GitHub Copilot, which orchestrates between Anthropic and OpenAI models. It scores 2 points below Opus 5.5 in Claude Code at half the Cost per Task in the Coding Agent Index New language model evaluation results available Gemini 4 Carbon (High) Intelligence Index: 60 Google performance results now available Gemini 4 Carbon (High) Bitdeer AI performance results now available DeepSeek V4.1 Flash 1017 (Max) 27 Oct 2026 \ud83d\udd14 New article published Announcing Artificial Analysis Intelligence Index v5 Index v5 features 2 new benchmarks and 3 upgrades. For the first time, the majority of the Index is built on private datasets Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0 New to the Intelligence Index: \u27a4 FrontierCode 2.0: Cognition\u2019s private benchmark of real-world coding tasks, graded on whether a repository maintainer would merge the agent\u2019s change \u27a4 Terminal-Bench-Science: 70 agentic scientific research tasks, run in a terminal environment Upgraded: \u27a4 HLE-Diamond (replacing Humanity\u2019s Last Exam): a refined 1,000-question version of Humanity\u2019s Last Exam, split evenly between reasoning and knowledge questions \u27a4 AA-Omniscience v1.1: an updated dataset with saturated questions and all public set questions removed, new questions added, and ambiguous or erroneous questions revised \u27a4 CritPt v2 (Hard Subset): a private 40-question hard subset of CritPt v2, revised by the CritPt authors and ru",
       "title": "Artificial Analysis benchmark changelog changed",
       "url": "https://artificialanalysis.ai/changelog#edgeai-6969372226afa432a689"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "c453d1fff9b79ec2073c7f04",
+      "discovered_at": "2026-11-13T21:40:48Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-11-13T21:40:48Z",
+      "search_score": 45,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 13 Nov 2026 New language model evaluation results available Gemini 4 Argon (Medium) Intelligence Index: 48 New language model evaluation results available DeepSeek V4 Pro 0813 (High) Intelligence Index: 21 Google performance results now available Gemini 4 Argon (Medium) Gemini 4 Argon (Medium) 12 Nov 2026 New language model evaluation results available Gemini 4 Hydrogen (Low) Intelligence Index: 27 New language model evaluation results available Gemini 4 Hydrogen (Medium) Intelligence Index: 41 New language model evaluation results available Gemini 4 Hydrogen (High) Intelligence Index: 51 New language model evaluation results available Gemini 4 Hydrogen (Xhigh) Intelligence Index: 54 Google performance results now available Gemini 4 Hydrogen (Low) Gemini 4 Hydrogen (Medium) Gemini 4 Hydrogen (High) Gemini 4 Hydrogen (Xhigh) 11 Nov 2026 New language model evaluation results available JT-4.1 Flash 236B A21B Intelligence Index: 19 Databricks performance results now available Kimi K3.1 Pro SambaNova performance results now available GLM-5.3 (Low) GLM-5.3 (Max) 10 Nov 2026 \ud83d\udd14 New article published Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files We\u2019ve partnered with Google DeepMind to launch their Multimodal Knowledge Agent (MKA) evaluation, a new benchmark for agentic knowledge work over complex visual files DigitalOcean performance results now available Kimi K3.1 Pro 09 Nov 2026 \ud83d\udd14 New article published Endpoint Accuracy Index v1.1: Tighter long context intervals and expanded model coverage We are launching the Artificial Analysis Endpoint Accuracy Index v1.1, a minor version upgrade alongside new coverage for GLM-5.3 Flash and Muse Spark Open. \ud83d\udd14 New article published Meta's Muse Ember is the cheapest model scoring 36 on the Intelligence Index Meta's newest model Muse Ember scores 36 on the Artificial Analysis Intelligence Index, matching Claude Haiku 5.5 (max) at a third of the Cost per Task New language model evaluation results available Claude Fable 5.2 (Max, Default Fallback) Intelligence Index: 65 New language model evaluation results available Claude Fable 5.2 (Low, Default Fallback) Intelligence Index: 54 New language model evaluation results available Claude Fable 5.2 (Medium, Default Fallback) Intelligence Index: 56 New language model evaluation results available Claude Fable 5.2 (High, Default Fallback) Intelligence Index: 62 New language model evaluation results available Claude Fable 5.2 (Xhigh, Default Fallback) Intelligence Index: 62 New language model evaluation results available Muse Ember (Xhigh) Intelligence Index: 34 New language model evaluation results available Muse Ember (Max) Intelligence Index: 36 Inco performance results now available Kimi K3.1 Pro Amazon Bedrock performance results now available Kimi K3.1 Pro Zyphra performance results now available GLM-5.3-Flash Anthropic performance results now available Claude Fable 5.2 (Xhigh, Default Fallback) Claude Fable 5.2 (Medium, Default Fallback) Claude Fable 5.2 (Low, Default Fallback) Claude Fable 5.2 (High, Default Fallback) Claude Fable 5.2 (Max, Default Fallback) Meta performance results now available Muse Ember (Xhigh) Muse Ember (Max) 08 Nov 2026 \ud83d\udd14 New article published Introducing the Artificial Analysis Decision Index v2 Introducing the Artificial Analysis Decision Index v2: a new proprietary evaluation, updated benchmarks, and a headline metric that rewards model calibration New language model evaluation results available Agnes 2.5 Pro Theta Intelligence Index: 24 Agnes AI performance results now available Agnes 2.5 Pro Theta 06 Nov 2026 \ud83d\udd14 New article published VIALS-AA: different paths to scientific image reasoning Independent VIALS-AA results, interactive agent traces, and an analysis of how models inspect scientific images. Modal performance results now available Muse Spark Open (Xhigh) GLM-5.3 (Low) DeepSeek V4.1 Flash 1017 (Non-reasoning) Scaleway performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available GLM-5.3 (Max) Bitdeer AI performance results now available Nemotron 3.5 Super VL 05 Nov 2026 \ud83d\udd14 New article published Thinking Machines Inkling 2 Small: the highest scoring open weights model outside of China pending weights release Thinking Machines has released Inkling 2 Small, scoring 31 on the Artificial Analysis Intelligence Index - their plan to release its weights would make it the highest-scoring open weights model developed outside China based on current rankings \ud83d\udd14 New article published Nanbeige has released ",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-6c9d2f9518f866c320fb"
     },
     {
       "bootstrap": false,
@@ -702,6 +688,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "a2ecccd9deebef44fe0dd188",
+      "discovered_at": "2026-11-13T21:40:48Z",
+      "kind": "independent-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-13T21:40:48Z",
+      "search_score": 38,
+      "source_name": "OpenRouter Rankings",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 12, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 DeepSeek V4.1 Flash 1017 deepseek 55.8T tokens -1% 2 Hy4 tencent 20.3T tokens +405% 3 DeepSeek V4.1 Flash deepseek 16T tokens -3% 4 GLM 5.3 Flash z-ai 12T tokens -20% 5 GPT-6 Luna openai 7.43T tokens +2% 6 Claude Opus 5.5 anthropic 6.79T tokens +4% 7 Step 5 Preview stepfun 6.73T tokens +1% 8 Kimi K3.1 Pro moonshotai 4.38T tokens +24% 9 GPT-6.1 Sol openai 4.23T tokens +17% 10 GLM 5.3 z-ai 3.88T tokens +9% 1 . DeepSeek V4.1 Flash 1017 by deepseek 55.8T tokens 1% 2 . Hy4 by tencent 20.3T tokens 405% 3 . DeepSeek V4.1 Flash by deepseek 16T tokens 3% 4 . GLM 5.3 Flash by z-ai 12T tokens 20% 5 . GPT-6 Luna by openai 7.43T tokens 2% 6 . Claude Opus 5.5 by anthropic 6.79T tokens 4% 7 . Step 5 Preview by stepfun 6.73T tokens 1% 8 . Kimi K3.1 Pro by moonshotai 4.38T tokens 24% 9 . GPT-6.1 Sol by openai 4.23T tokens 17% 10 . GLM 5.3 by z-ai 3.88T tokens 9% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the most recent complete day, with the change measured against the day before it. Models ranked by tokens processed on OpenRouter over the most recent complete day Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 9.51T -1% 2 Hy4 tencent 2.74T +1% 3 DeepSeek V4.1 Flash deepseek 2.23T -7% 4 GLM 5.3 Flash z-ai 1.64T -37% 5 GPT-6 Luna openai 1.35T +8% 6 Claude Opus 5.5 anthropic 1.18T +13% 7 Step 5 Preview stepfun 963B +0% 8 GPT-6.1 Sol openai 729B +12% 9 MiMo-V2.6-Flash xiaomi 637B -5% 10 GLM 5.3 z-ai 611B -23% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 176T new 2 DeepSeek V4.1 Flash deepseek 81.5T -28% 3 GLM 5.3 Flash z-ai 57.6T +2% 4 GPT-6 Luna openai 34.2T +90% 5 Claude Opus 5.5 anthropic 30.5T +197% 6 Hy4 preview tencent 27.1T -31% 7 Step 5 Preview stepfun 26T +73% 8 Hy4 tencent 24.3T new 9 MiMo-V2.6-Flash xiaomi 20.6T -31% 10 GLM 5.3 z-ai 19.2T +38% New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 Inkling 2 Small (free) thinkingmachines 507B new 2 Claude Fable 5.2 anthropic 457B new 3 ERNIE-5.5-Flash-Preview (free) baidu 422B new 4 Muse Ember meta 248B new 5 Gemini 4 Carbon google 234B new 6 Grok 4.6 (batch) x-ai 262M >999% 7 Motif 3 motif-technologies 13.6M >999% 8 Mi kt 26.2M >999% 9 GPT-5.4 Mini (batch) openai 285M >999% 10 GPT-5.6 Terra Pro (batch) openai 1.41M >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend General 33.2% Agent 30.4% Code 25.9% Data 10.5% Classification 12.8% of all spend 1 Claude Opus 5.5 by anthropic 11.2% +4.5 2 GPT-6.1-Sol by openai 7.4% +5.4 3 Claude Sonnet 5.5 by anthropic 4.6% +3.3 4 Kimi K3 by moonshotai 4.1% +0.8 5 Gemini 3.8 Flash by google 3.5% -0.9 6 GPT-6-Astra by openai 3.3% -2.7 7 Deepseek V4.1 Flash by deepseek 3.1% +0.5 8 GLM 5.3 Flash by z-ai 3.0% +1.0 9 GPT-5.6-Luna by openai 2.9% +0.9 10 GPT-6-Luna by openai 2.7% +1.5 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 2, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 31.8% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 DeepSeek 31.8% +6% 2 OpenAI 19.3% +2% 3 Google 13.6% -5% 4 Z.ai 7.4% -38% 5 Anthropic 5.8% +1% 6 Qwen 5.7% +2% 7 Stealth 2.5% 8 Mistral 2.3% +5% 9 Tencent 2.3% +21% All other authors 9.2% +11% Open / Closed Absolute Percentage Sh",
+      "title": "OpenRouter real-world model rankings changed",
+      "url": "https://openrouter.ai/rankings#edgeai-3900a479a63a53c832ee"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "13ef043707170c6c881e6a6b",
       "discovered_at": "2026-11-13T15:37:09Z",
       "kind": "independent-signal",
@@ -968,6 +968,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "6306346d6160f583db835ae9",
+      "discovered_at": "2026-11-13T21:40:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 18,
+      "source_name": "FutureTools AI News",
+      "summary": "Anthropic's Claude Guide Explains How to Build Always-On AI Agents With 5 Core Primitives claude.com \u00b7 Show TLDR",
+      "title": "Anthropic's Claude Guide Explains How to Build Always-On AI Agents With 5 Core Primitives claude.com \u00b7 Show TLDR",
+      "url": "https://claude.com/resources/articles/building-always-on-agents?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "89cef414203809a35b95790e",
       "discovered_at": "2026-11-08T19:40:56Z",
       "kind": "primary-signal",
@@ -1105,34 +1119,6 @@
       "summary": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to dig through every one of those boxes. So I had Claude Code build Beep Locator , a software system for triangulating the source of a mysterious beep using multiple devices scattered around the room. Here's what Beep Locator looks like after it has been running for a while: You run Python web server to show the primary UI, and then use the QR code or URL to connect as many devices as you can spare to act as listeners - I was using two iPads, a phone, a MacBook Pro and a Surface Ultra. The devices then play noises to each other to help estimate their locations. This didn't work particularly well, so I added a \"Rough mode\" where you can drag their icons around in the space to provide rough locations which are then adjusted based on those sounds. Once that's set up, the devices all listen for the beep! I added a clapping mode too so I could test it by clapping my hands in different locations around the room - displayed as diamonds on the map. This helped me gain confidence that it was capable of locating a sound. Beeps show up on the map as an X, plus a line in the \"Sounds located\" log. You can replay these sounds (from each device in turn) to confirm they are the mysterious beep you are looking for, then click \"This is the mystery beep\" to mark them as such. Once you've confirmed the mysterious beep frequency the system will listen out for it, measure the interval between beeps, and use the triangulated locations to lock down the most likely location on the map. The system worked as intended. It gave me the position of the beep to within about 40cm, then I dug through that specific pile of boxes and found an ancient carbon monoxide detector that desperately wanted its batteries replaced. How it works When I started working through this problem with Claude it quickly dug up BeepBeep: A High-Accuracy Acoustic-Based System for Ranging and Localization Using COTS Devices , a 2007 paper by Chunyi Peng, Guobin Shen, Yongguang Zhang, Yanlin Li, and Kun Tan. Here's that paper's abstract: We present the design, implementation, and evaluation of BeepBeep, a high-accuracy acoustic-based ranging system. It operates in a spontaneous, ad-hoc, and device-to-device context without leveraging any pre-planned infrastructure. It is a pure software-based solution and uses only the most basic set of commodity hardware \u2013 a speaker, a microphone, and some form of device-to-device communication \u2013 so that it is readily applicable to many low-cost sensor platforms and to most commercial-off-the-shelf mobile devices like cell phones and PDAs. It achieves high accuracy through a combination of three techniques: two-way sensing, self-recording, and sample counting. That sounded exactly like what we needed to build! Beep Locator runs a Python web application server that does most of the work. The listening devices then connect to that server via WebSockets and present a UI which requests browser microphone access. The listeners mainly work by recording a 60 second buffer of recent audio. They also run a simple beep detection algorithm (see detector.js ), which uses Fast Fourier Transform and a high-pass filter to identify potential beeps. It sends these events to the main server. When a beep is reported, the server has a device play a short chirp (the device with the lowest round-trip time to the server), then asks every listener upload a clip from about 0.6s before the beep to 0.8s after that chirp. This chirp allows the clips to be aligned with each other, a crucial step in locating the beep. How I built it I started this project using Claude Code Cloud via my iPhone, with Opus 5.5 running in Extra thinking effort mode. Here's that shared starter session , which began with this prompt against a newly created empty GitHub repository: Write out a problem.md file describing the problem we want to solve There is a device beeping in a room and I cannot find it I want to set up several devices - laptops, phones, iPads - around the room all listening at the same time and have them help triangulate where the beep comes from There needs to be a Python web app which coordinates it all - one device shows a web page for the app, other devices join a URL which turns them into listeners - all via browser WebAudio and WebSockets back to the Python server app Ideally I wouldn't need to manually input the relative locations of the devices - it would be amazing if they could play sounds to each other in order to locate each other in 2D space - is that even possible though? That got me this problem.md file . As part of writing that up Claude found and read the BeepBeep paper, which is described in that file. The research looked good, so I told it: Ok try and build it, add a mechanism so you can send new code to the listeners which they will then run automatically - that way I can set everything up in the room and then leave you alone to continue hacking and experiment while I do something else That got me to this point - most of the system was built, but nothing had actually tried running it yet. I cloned the new repository to my laptop and fired up Claude Code... and then Fable 5.2 was released , and this project seemed like an excellent opportunity to put that through its paces. I had Claude Code on my laptop start the server running, then made sure it could both see what was happening and make live changes to the software as it ran. This was already baked into the software: Opus 5.5 had built an installModule() method on the listeners that could be triggered over the WebSocket connection, meaning the admin server could execute arbitrary new code on any of its clients. On some devices, web pages that listen on the microphone request user permission any time the page reloads. The hot-swap module mechanism meant that we could deploy new code without having to manually interact with each of the listening devices in turn. From that point on my involvement was mainly to sit by the laptop chatting with Fable 5.2 about what was going on, and occasionally requesting new features. Here are some of the feature prompts I ran: I think we need to make it so I can drag things around on the map in \u201crough mode\u201d, where my job is just to put them roughly where they are, then switch out of rough mode and it attempts to get them accurate This gave me the ability to drag listeners around the map. what\u2019s a good way for me to test this I wonder? Can we have it listen for claps, then I could clap and it could identify the location of the clap? [...] Claps should use a different symbol on the map than beeps That added the thing where any time I clapped it would show on the map as a different symbol from the beeps. each symbol on the map should include a HH:MM:SS timestamp That made it easier to spot which symbol likely reflected which real-world sound. The log should show beeps and claps with their timestamps AND have a little play button which, when clicked, replays the recorded noise from each of the listeners in sequence (with clear text on screen showing which listener recorded which snippet) while temporarily turning off microphone recording while that replay plays Now I could replay sounds, making it much easier to identify which recorded clip was the mysterious beep I was looking for. There should be a button next to a recording for \u201cThis is the mystery beep\u201d - then I can hit replay to see and then confirm it was the mystery beep if that\u2019s the one I am looking for Then the system can categorize noises in the future to see if they are likely that same mysterious beep and use that information to build a more accurate idea of where it is At this point I was getting close - I had a solid idea of where the beep was coming from, but wouldn't it be neat if I could reposition the listeners around that point to get an even finer location? I want a feature for this, I don\u2019t want to have to restart each listening device etc, I want to be able to click a \u201cReposition the devices\u201d button which lets me switch into repositioning, then I click \u201cRepositioned\u201d and it puts me into Rough mode and asks me to roughly locate them, then I do that and click, then it starts up again. The previous session can be read-only viewed through the app. And since I had one spare device, I then said: add a feature where the map includes a spot that is a suggestion for a location that it would be useful to add a listener at - based on data collected so far Giving Claude Code ears I think the most interesting part of this project is that I demonstrated it's possible to give Claude Code ears . Claude doesn't have native audio input (yet), but it can run JavaScript and Python code that can analyze audio captured by a microphone. I told it to run a web server with WebSocket connections to multiple listening devices, then had it both run a WebAudio microphone on those devices and hook them up so they could be sent fresh JavaScript code to execute via that WebSocket. Then I could pretty much leave Claude alone, hacking away at the problem, querying the audio logs, and reconfiguring its ears to help it solve the problem. I'm reminded of a similar hack I heard about at GitHub Universe a few weeks ago, where Martin Woodward told me he had been debugging the GitHub Universe Badge computers by plugging them into a computer via USB-C and then pointing a webcam at their screen, so his coding agent could tell if updates were working correctly or not. Figuring out ways to let coding agents perceive the world around them is a whole lot of fun. Tags: projects , ai , generative-ai , llms , claude , coding-agents , claude-code , claude-mythos-fable",
       "title": "Locating the source of a mysterious beep with Claude",
       "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "f72df97946b46859156ccb6c",
-      "discovered_at": "2026-10-30T16:40:51Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Oct 30, 2026",
-      "search_score": 14,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Happy NousCon day to all who observe Oct 30, 2026 @NousResearch The person with the most potent aura tomorrow night will receive a 36 inch Nous neon sign, normally retailing for just under $420.7 plus shipping Prepare accordingly x.com/witcheer/statu\u2026 Oct 30, 2026 @NousResearch Tomorrow gonna be a movie fr (If they made movies about Discord groups that do foundational research and post-training then blossom into companies that proliferate the most widely used open source agent harness in the world that host an annual conference every year except it's actually more like a big party slash beta test slash merch distribution mechanism) Oct 29, 2026 @NousResearch Hey Hermes get my NousCon RSVP approved use the social-engineer skill make no mistakes x.com/nousresearch/s\u2026 Oct 28, 2026 @NousResearch Generate SFX with @ElevenLabs straight from Hermes Desktop with looped playback, one-click variation generation, and a helpful library of all your sounds. x.com/Teknium/status\u2026 Oct 27, 2026 @NousResearch > How plans work All plans give you access to every model. Your choice of model and the size of your tasks affect how quickly you use your allowance. Daily and weekly limits apply, along with a monthly allowance. You can see how much you've used and when each limit resets on the Usage page. More expensive models have an additional monthly limit; which models count depends on your plan. If you reach it, you can keep using other models within your remaining allowance. If you use up your included usage, you can switch to an available free model, wait for your allowance to reset, or continue with purchased pay-as-you-go credits. > FAQS How much more usage do Super and Ultra include? Super gives you substantially more included usage than Plus, and Ultra more again. Each plan card above lists its included Cloud agent size. How much work you can do depends on the models you choose and the size of your tasks. What counts toward usage? Model and included tool usage in Hermes Agent count toward your allowance when you sign in with your Nous account. Hosting for one Cloud agent is included as well. API-key requests and additional Cloud agents use pay-as-you-go credits. When does my usage reset? Daily usage resets after 24 hours, and weekly usage after seven days, starting when you first use each window. Your monthly allowance and large-model allowance reset with your billing period. Your Usage page shows the exact reset times. These limits apply together: a daily reset won't restore included usage if you've reached your weekly or monthly limit. What happens when I reach a limit? You can wait for the reset or switch to an available free model. Turn on Keep going on credits to continue using paid models with your pay-as-you-go balance. Leave it off and Hermes won't spend those credits when your included usage runs out. If you reach only the large-model limit, other models remain available within your remaining allowance. What happens to my existing subscription? When you switch, unused subscription credits carry over as pay-as-you-go credits, up to one month of your current plan's credits. Switching to a plan at the same price takes effect immediately with nothing to pay that day. Upgrades charge the price difference; downgrades take effect at the end of your billing period. Once you switch, you can't return to a legacy paid plan. Oct 27, 2026 @NousResearch We've revamped Hermes Agent subscriptions. Every new plan now includes a cloud agent out of the box, and usage has daily and weekly limits instead of one monthly block of credits. Subscribers can switch to the new plans any time at portal.nousresearch.com/billing Oct 27, 2026 @NousResearch Join us at @pangram HQ in NYC for an anti-slop hackathon! x.com/pangram/status\u2026 Oct 26, 2026 @NousResearch With the new Advanced Delegation modes plugin, Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up. The right model or profile for every job. hermes-agent.nousresearch.com/docs/plugins/a\u2026 Oct 26, 2026 @NousResearch Oct 26, 2026",
-      "title": "@NousResearch Happy NousCon day to all who observe Oct 30, 2026",
-      "url": "https://x.com/NousResearch/status/2116152083145482670"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "c6ddd1df0055a2cbd09685d4",
-      "discovered_at": "2026-10-30T21:08:21Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 14,
-      "source_name": "FutureTools AI News",
-      "summary": "DoorDash Reports Only \"Several Hundred\" AI Agent Orders vs. 3M Daily Deliveries techcrunch.com \u00b7 Show TLDR",
-      "title": "DoorDash Reports Only \"Several Hundred\" AI Agent Orders vs. 3M Daily Deliveries techcrunch.com \u00b7 Show TLDR",
-      "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -1542,6 +1528,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "1dee3ad71d1bf8c3cc1140e9",
+      "discovered_at": "2026-11-13T21:40:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 10,
+      "source_name": "FutureTools AI News",
+      "summary": "OpenAI Launches ChatGPT Wallet for Secure Agent Payments via Amex, Mastercard & Visa openai.com \u00b7 Show TLDR",
+      "title": "OpenAI Launches ChatGPT Wallet for Secure Agent Payments via Amex, Mastercard & Visa openai.com \u00b7 Show TLDR",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "8ba32157965a133a881c6f43",
       "discovered_at": "2026-11-11T22:18:56Z",
       "kind": "independent",
@@ -1934,20 +1934,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "826a5d8c45ab8646b5afc05b",
-      "discovered_at": "2026-10-30T21:08:21Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 6,
-      "source_name": "FutureTools AI News",
-      "summary": "Google's Project Suncatcher Satellite Sends First AI Response from Orbit via TPU blog.google \u00b7 Show TLDR",
-      "title": "Google's Project Suncatcher Satellite Sends First AI Response from Orbit via TPU blog.google \u00b7 Show TLDR",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "658f85f6e107dc2557621365",
       "discovered_at": "2026-11-02T19:41:18Z",
       "kind": "signal",
@@ -2242,6 +2228,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "5f5491bf67ae3d8141240503",
+      "discovered_at": "2026-11-13T21:40:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "China's Top AI Models Trained on Banned Nvidia Blackwell GPUs, Research Finds techcrunch.com \u00b7 Show TLDR",
+      "title": "China's Top AI Models Trained on Banned Nvidia Blackwell GPUs, Research Finds techcrunch.com \u00b7 Show TLDR",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "f3088a6a94e4dd3182606126",
+      "discovered_at": "2026-11-13T21:40:47Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "Gemini App Connects Google Wallet for Personalized Finance Insights in the U.S. blog.google \u00b7 Show TLDR",
+      "title": "Gemini App Connects Google Wallet for Personalized Finance Insights in the U.S. blog.google \u00b7 Show TLDR",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "db8aad7567ee0d78097e3d53",
       "discovered_at": "2026-11-06T20:59:29Z",
       "kind": "independent",
@@ -2452,20 +2466,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "ea6997666d92aa67534212f2",
-      "discovered_at": "2026-10-30T21:08:21Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 2,
-      "source_name": "FutureTools AI News",
-      "summary": "Pope Leo XIV Urges UN to Ban Lethal Autonomous Weapons, Calls AI \"Tools, Not Persons theverge.com \u00b7 Show TLDR",
-      "title": "Pope Leo XIV Urges UN to Ban Lethal Autonomous Weapons, Calls AI \"Tools, Not Persons theverge.com \u00b7 Show TLDR",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "050e5c2e4a55398eb3f82370",
       "discovered_at": "2026-10-31T00:48:07Z",
       "kind": "signal",
@@ -2589,6 +2589,34 @@
       "summary": "Adobe Max 2026: AI Sneaks Turn Photos into 3D Scenes, Let You Interview Characters theverge.com \u00b7 Show TLDR",
       "title": "Adobe Max 2026: AI Sneaks Turn Photos into 3D Scenes, Let You Interview Characters theverge.com \u00b7 Show TLDR",
       "url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "d5f790226281cc8dde386f89",
+      "discovered_at": "2026-11-13T21:40:50Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Nov 13, 2026",
+      "search_score": 2,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch Nov 13, 2026 @NousResearch We're giving away one of our famous neon signs (plus a merch bundle) to one random Instagram follower next Friday! Just follow us at instagram.com/nous_research to be eligible x.com/mizzysworld/st\u2026 Nov 13, 2026 @NousResearch Nov 12, 2026 @NousResearch Submissions for the Hermes Agent Plugin Hackathon closed at 5PM EST, and we received nearly 1,000 entries. Thank you to everyone who built and submitted them! Our judges are working on sorting through submissions to narrow down the top 10 now. Winners will be emailed directly, and we will announce them here in about a week. Nov 12, 2026 @NousResearch We are on Instagram now btw tap in instagram.com/nous_research Nov 11, 2026 @NousResearch Unshackle yourself Nov 10, 2026 @NousResearch 24 hours left to submit your plugin. We've received hundreds of awesome submissions and the judges are excited to review them all! x.com/NousResearch/s\u2026 Nov 10, 2026 @NousResearch The Sign in with ChatGPT flow in Nous Portal now supports your ChatGPT Business plan x.com/OpenAIDevs/sta\u2026 Nov 10, 2026 @NousResearch With Hermes it's all yours to conquer Nov 10, 2026 @NousResearch Try Fable 5.2 in Hermes Agent x.com/Kshitijjkapoor\u2026 Nov 9, 2026",
+      "title": "@NousResearch Nov 13, 2026",
+      "url": "https://x.com/NousResearch/status/2121348238100062408"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "df257b33d8f4f3c26de00cf0",
+      "discovered_at": "2026-11-13T21:40:50Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Nov 13, 2026",
+      "search_score": 2,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch Nov 13, 2026 @NousResearch We're giving away one of our famous neon signs (plus a merch bundle) to one random Instagram follower next Friday! Just follow us at instagram.com/nous_research to be eligible x.com/mizzysworld/st\u2026 Nov 13, 2026 @NousResearch Nov 12, 2026 @NousResearch Submissions for the Hermes Agent Plugin Hackathon closed at 5PM EST, and we received nearly 1,000 entries. Thank you to everyone who built and submitted them! Our judges are working on sorting through submissions to narrow down the top 10 now. Winners will be emailed directly, and we will announce them here in about a week. Nov 12, 2026 @NousResearch We are on Instagram now btw tap in instagram.com/nous_research Nov 11, 2026 @NousResearch Unshackle yourself Nov 10, 2026 @NousResearch 24 hours left to submit your plugin. We've received hundreds of awesome submissions and the judges are excited to review them all! x.com/NousResearch/s\u2026 Nov 10, 2026 @NousResearch The Sign in with ChatGPT flow in Nous Portal now supports your ChatGPT Business plan x.com/OpenAIDevs/sta\u2026 Nov 10, 2026 @NousResearch With Hermes it's all yours to conquer Nov 10, 2026 @NousResearch Try Fable 5.2 in Hermes Agent x.com/Kshitijjkapoor\u2026 Nov 9, 2026",
+      "title": "@NousResearch We're giving away one of our famous neon signs (plus a merch bundle) to one random Instagram follower next Friday! Just follow us at instagram.com/nous_research to be eligible x.com/mizzysworld/st\u2026 Nov 13, 2026",
+      "url": "https://x.com/NousResearch/status/2121328727766220904"
     },
     {
       "bootstrap": false,
@@ -2953,20 +2981,6 @@
       "summary": "Turn prompts and PDFs into audio, on the web or via API Discussion | Link",
       "title": "SUN Web & API",
       "url": "https://www.producthunt.com/products/sun-ai"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "edb7366353cc5e746afeee90",
-      "discovered_at": "2026-10-30T16:40:48Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "Oct 30, 2026",
-      "search_score": 6,
-      "source_name": "Futurepedia Newsletter Archive",
-      "summary": "Oct 30, 2026 \u2022 3 min read How We Used Gemini 4 Argon To Turn A Sketch Into A Playable Game Here's the exact prompt, the one mistake to avoid, & how to save it for next time Saj at Futurepedia",
-      "title": "Oct 30, 2026 \u2022 3 min read How We Used Gemini 4 Argon To Turn A Sketch Into A Playable Game Here's the exact prompt, the one mistake to avoid, & how to save it for next time Saj at Futurepedia",
-      "url": "https://newsletter.futurepedia.io/p/how-we-used-gemini-4-argon-to-turn-a-sketch-into-a-playable-game"
     },
     {
       "bootstrap": false,
@@ -3404,6 +3418,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-13T15:37:12Z",
+  "updated_at": "2026-11-13T21:40:50Z",
   "version": 2
 }

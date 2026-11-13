@@ -77,11 +77,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-12T07:47:20Z",
-    "eligible": 103,
+    "at": "2026-11-13T02:48:27Z",
+    "eligible": 97,
     "evaluated": 2,
     "mode": "live",
-    "new_posts": 1,
+    "new_posts": 2,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -225,6 +225,11 @@
         "source": "ElevenLabs Research"
       },
       "url": "https://elevenlabs.io/blog/eleven-v4"
+    },
+    "02e9abf47eaf3fa01f98fe0d": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak"
     },
     "0319d22252bba2ff75bd49e0": {
       "at": "2026-10-05T07:01:46Z",
@@ -507,6 +512,11 @@
         "source": "Sakana AI Blog"
       },
       "url": "https://sakana.ai/frontier-intelligence-group/"
+    },
+    "0a48e8b402019bba9a02ea8c": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.0rc4"
     },
     "0a6bc5106f21c99b2b3a521b": {
       "at": "2026-10-18T13:29:12Z",
@@ -830,6 +840,11 @@
       },
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.0"
     },
+    "1289b7080840aa271b8ea6fd": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.0rc5"
+    },
     "1330b3896a02c463c4e8e350": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -997,6 +1012,20 @@
       "status": "expired",
       "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "16cc02b20e34141409492bad": {
+      "at": "2026-11-13T02:48:20Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "artificial-analysis-changelog-gemini-4-hydrogen-evaluations",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-23d6fc803612b3ba7d50"
+    },
     "16ce5eb07728264c2c5f202e": {
       "at": "2026-10-17T12:29:54Z",
       "bootstrap": false,
@@ -1128,6 +1157,11 @@
       "at": "2026-10-09T03:09:32Z",
       "status": "expired",
       "url": "https://www.thedeepview.com/articles/runway-ceo-sees-a-much-bigger-future-for-video-ai?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "198f6dafafe934973466b461": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12239"
     },
     "19b3d03f25a3e039bee87d08": {
       "at": "2026-11-06T06:33:33Z",
@@ -1790,6 +1824,11 @@
       "story_key": "llamacpp-b12179-hexagon-conv3d",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12179"
     },
+    "29281bab309c6322ca0f4cfa": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/zus-2"
+    },
     "295354ff422b0d4db922748e": {
       "at": "2026-11-07T06:23:46Z",
       "status": "expired",
@@ -1839,6 +1878,11 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://hermes-agent.nousresearch.com/docs"
+    },
+    "2b7cd53c26380bca28073f5e": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.0rc2"
     },
     "2bb707084df4189268093b76": {
       "at": "2026-10-07T13:59:47Z",
@@ -1981,6 +2025,16 @@
       "at": "2026-10-11T07:07:40Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11490"
+    },
+    "2e34e84f0999c607fcd02663": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://openai.com/index/kuken"
+    },
+    "2e38eebea7b3f1398dcaf714": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/seedream-4-0"
     },
     "2e3fa0644c7b77d2a935ce71": {
       "at": "2026-11-09T02:04:49Z",
@@ -2203,6 +2257,11 @@
       "at": "2026-10-07T06:34:08Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+    },
+    "3463d67124d3957d891be8b9": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/openvibe-2"
     },
     "3474825c1b905eaedb65db8e": {
       "at": "2026-10-04T00:07:42Z",
@@ -2845,6 +2904,11 @@
       "at": "2026-10-23T19:34:52Z",
       "status": "expired",
       "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "40b43a9b49b56f93a4e47049": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/openring"
     },
     "40b751b710ffdfe179ad0616": {
       "at": "2026-10-04T15:54:53Z",
@@ -3537,6 +3601,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00515"
     },
+    "56a6eb8a0a23c6afc6e401f1": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "56c3e617dcc3857375b28b82": {
       "at": "2026-10-17T20:31:16Z",
       "status": "expired",
@@ -3811,6 +3880,11 @@
       "story_key": "llamacpp-b12019-routine-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12019"
     },
+    "5bcbb602a5dce00ac99e5530": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12229"
+    },
     "5c2906c99bce192f35f89c35": {
       "at": "2026-10-10T07:33:39Z",
       "status": "expired",
@@ -3823,6 +3897,11 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-updates-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-1911f5d0599358d77a3c"
+    },
+    "5c437da0f67e8dde956efb56": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.0"
     },
     "5ceda9b354e942def1661823": {
       "at": "2026-10-10T07:33:51Z",
@@ -5047,6 +5126,11 @@
       "status": "expired",
       "url": "https://runway.com/news/company-news/introducing-runway-app-studio?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "7c2e6b695922eea984fdeab2": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://elevenlabs.io/blog/elevenagents-campaign-manager?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "7c363a9f000ae8a44318f09f": {
       "at": "2026-10-28T14:23:07Z",
       "bootstrap": false,
@@ -5112,6 +5196,11 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
+    },
+    "7da16fb58ab2d3e1fea6cf10": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "7da99f40f855b50457e2a875": {
       "at": "2026-10-16T01:19:24Z",
@@ -5498,6 +5587,11 @@
       "at": "2026-10-04T11:20:52Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/never-boring-ai"
+    },
+    "86b4ba3155e4ca0c3b2ffc22": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/"
     },
     "86c976194a1349e0941fe5f5": {
       "at": "2026-10-05T07:01:46Z",
@@ -6142,6 +6236,11 @@
       "at": "2026-10-25T06:58:10Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/resend"
+    },
+    "952d2516af2e905436adea3b": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://openai.com/index/control-room"
     },
     "956586a3d2805e1ad30b7153": {
       "at": "2026-10-23T15:52:04Z",
@@ -7203,6 +7302,11 @@
       "story_key": "nous-research-hermes-agent-updates",
       "url": "https://x.com/NousResearch/status/2114029282892595467"
     },
+    "aecd57586d6d2fc7d706c040": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12223"
+    },
     "af0bc63417beb8c2d29ba736": {
       "at": "2026-10-07T13:59:34Z",
       "status": "expired",
@@ -7346,6 +7450,11 @@
       "at": "2026-10-04T11:20:52Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/moxie-2"
+    },
+    "b4cd854bf93930bedc30bd35": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/spacefast-by-automattic"
     },
     "b4f88cf2625bf543c420feee": {
       "at": "2026-10-09T03:09:32Z",
@@ -7553,6 +7662,11 @@
       "status": "ignored",
       "story_key": "friday-work-product-hunt",
       "url": "https://www.producthunt.com/products/friday-work"
+    },
+    "bb82ada884c5f2aabff4af5a": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12240"
     },
     "bbd492caba72ca544b8bac32": {
       "at": "2026-11-07T13:25:05Z",
@@ -7840,6 +7954,11 @@
       },
       "url": "https://openai.com/index/practical-guide-building-gpt-6"
     },
+    "c3e714b03075093f4990bf66": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12232"
+    },
     "c3e9e5c56aa9ee3582d063b8": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -8117,10 +8236,20 @@
       "story_key": "llama-cpp-b11821-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11821"
     },
+    "caa9073cefb43725f1a58e80": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+    },
     "cb0a640f808b77e77b1219c5": {
       "at": "2026-10-05T15:56:52Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11346"
+    },
+    "cb210e1bfd7e397053a30246": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?utm_source=futuretools.io&utm_medium=newspage"
     },
     "cb72e5d0c728ffb026664314": {
       "at": "2026-10-07T19:56:51Z",
@@ -8283,6 +8412,16 @@
       "at": "2026-11-12T07:47:01Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Nov/9/details-summary/"
+    },
+    "cfd5d9b75dc8bfdeb2bda339": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12233"
+    },
+    "cfe3cc0b4d0b634e68194b58": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2119851439904510217"
     },
     "d0103d243f213f75b5c2ce44": {
       "at": "2026-10-25T06:58:15Z",
@@ -8578,6 +8717,11 @@
       "at": "2026-10-29T16:27:11Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/off-grid-ai"
+    },
+    "d616d43725fb6728597a0b54": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/clive"
     },
     "d655994c01a9f4bb3e99d796": {
       "at": "2026-11-01T07:58:48Z",
@@ -9210,6 +9354,20 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11748"
     },
+    "e4408667075c66c4ee0efdf7": {
+      "at": "2026-11-13T02:48:27Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "artificial-analysis-changelog-update-nov-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-ae5db2b0087b973b6903"
+    },
     "e447cf92d70f23df27463fc5": {
       "at": "2026-10-13T03:56:43Z",
       "status": "expired",
@@ -9238,6 +9396,11 @@
         "source": "browser-use Releases"
       },
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.12"
+    },
+    "e4b2875426bca7aa4027a58e": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12212"
     },
     "e51e7ef628a3ce1797f6ac65": {
       "at": "2026-10-19T06:57:17Z",
@@ -9361,6 +9524,11 @@
       },
       "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
     },
+    "e85e3f3ffe1e843f80b88790": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0"
+    },
     "e8a95e9b22df9875a5142cea": {
       "at": "2026-10-17T17:58:33Z",
       "bootstrap": false,
@@ -9466,6 +9634,11 @@
       "status": "ignored",
       "story_key": "llamacpp-b12032-routine-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12032"
+    },
+    "eb1abaa856dddb582463b1f1": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "eb5388f6b69cd3b42046c2ed": {
       "at": "2026-10-05T07:01:46Z",
@@ -10128,6 +10301,11 @@
       "status": "expired",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.815-beta"
     },
+    "f920427e7b9c37b597f61690": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "f94dbedb777bca1e7dcc5ceb": {
       "at": "2026-10-21T04:40:29Z",
       "bootstrap": false,
@@ -10314,6 +10492,11 @@
       "at": "2026-11-07T06:23:46Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12088"
+    },
+    "ffd0277ad7cd64c27c62df16": {
+      "at": "2026-11-13T02:48:14Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/"
     }
   },
   "stories": {
@@ -10821,6 +11004,27 @@
         "source": "Artificial Analysis Changelog"
       }
     },
+    "artificial-analysis-changelog-gemini-4-hydrogen-evaluations": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-gemini-4-hydrogen-evaluations.jpg",
+      "last_updated": "2026-11-13T02:48:20Z",
+      "post_id": "4403544194826882041",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/artificial-analysis-adds-gemini-4.html",
+      "score": 82,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-23d6fc803612b3ba7d50"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis adds Gemini 4 Hydrogen evaluations and new benchmark updates",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
     "artificial-analysis-changelog-google-deepmind-mka-benchmark-nov-2026": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-google-deepmind-mka-benchmark-nov-2026.jpg",
@@ -11032,6 +11236,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Artificial Analysis Changelog: Reflection Beam, Meta Muse Wonder, and New Benchmark Indices",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
+    "artificial-analysis-changelog-update-nov-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-update-nov-2026.jpg",
+      "last_updated": "2026-11-13T02:48:27Z",
+      "post_id": "1970664977972361151",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/artificial-analysis-updates-benchmarks.html",
+      "score": 82,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-ae5db2b0087b973b6903"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Updates Benchmarks with Gemini 4 Hydrogen and New Multimodal Evaluations",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

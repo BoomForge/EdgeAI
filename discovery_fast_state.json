@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-13T00:34:26Z",
+    "at": "2026-11-13T07:17:21Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 12,
-    "sources_ok": 31,
+    "prefiltered": 0,
+    "queued": 8,
+    "sources_ok": 30,
     "too_old": 0,
-    "warnings": 0
+    "warnings": 1
   },
-  "runs": 201,
+  "runs": 202,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -433,6 +433,11 @@
       "first_seen": "2026-10-08T20:34:36Z",
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.905-beta"
+    },
+    "0b8bd2205b5463cff202dc54": {
+      "first_seen": "2026-11-13T07:16:50Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12343"
     },
     "0b9f313cee9cd361d32a936d": {
       "first_seen": "2026-11-02T10:42:43Z",
@@ -1227,6 +1232,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12293"
     },
+    "1a51f6d11fbb39a9a064382f": {
+      "first_seen": "2026-11-13T07:16:50Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12347"
+    },
     "1a543055a02f9816518cc039": {
       "first_seen": "2026-10-23T09:33:43Z",
       "status": "queued",
@@ -1503,6 +1513,11 @@
       "first_seen": "2026-10-21T16:06:04Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.107.0"
+    },
+    "1e8c63de863d919480301be5": {
+      "first_seen": "2026-11-13T07:16:50Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12344"
     },
     "1ec4f862b4e05ead9705f5c9": {
       "first_seen": "2026-10-26T05:16:55Z",
@@ -1977,6 +1992,11 @@
       "first_seen": "2026-10-21T05:49:00Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.26868"
+    },
+    "29be2a893c2a3e88f87dbfe4": {
+      "first_seen": "2026-11-13T07:17:03Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.111.0-dev.1"
     },
     "2a12f28d7d122abde1663483": {
       "first_seen": "2026-10-06T19:03:40Z",
@@ -5289,6 +5309,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.19108"
     },
+    "71df4556246b41e320268b74": {
+      "first_seen": "2026-11-13T07:16:50Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12340"
+    },
     "71e2f6baf18406044321358e": {
       "first_seen": "2026-10-19T16:56:03Z",
       "status": "queued",
@@ -7779,6 +7804,11 @@
       "status": "prefiltered",
       "url": "https://blog.google/products/ads-commerce/financial-services-verification-united-states-canada/"
     },
+    "aab1ff0bb51dba16c07f1595": {
+      "first_seen": "2026-11-13T07:16:50Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12352"
+    },
     "aaca4ea26d928402aed6d16a": {
       "first_seen": "2026-10-06T19:03:40Z",
       "status": "queued",
@@ -7898,6 +7928,11 @@
       "first_seen": "2026-10-28T14:30:29Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11960"
+    },
+    "ae24a77e8b7ecf07eadf121b": {
+      "first_seen": "2026-11-13T07:16:50Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12345"
     },
     "ae2593ff9e1d94bc04c9ac7f": {
       "first_seen": "2026-10-21T05:49:09Z",
@@ -11564,6 +11599,11 @@
       "first_seen": "2026-10-28T19:53:06Z",
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.1"
+    },
+    "fb47e4e25c67806c88ccfd1e": {
+      "first_seen": "2026-11-13T07:16:50Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12342"
     },
     "fb49e20ce2251b9bdff1cb06": {
       "first_seen": "2026-10-19T04:18:14Z",

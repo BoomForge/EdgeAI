@@ -1,20 +1,25 @@
 {
   "last_run": {
-    "at": "2026-11-13T07:24:18Z",
+    "at": "2026-11-13T15:37:12Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 0,
+    "prefiltered": 8,
+    "queued": 6,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 6,
     "warnings": 0
   },
-  "runs": 200,
+  "runs": 201,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
       "status": "queued",
       "url": "https://openai.com/index/control-room/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "0039a7a91bc279e2a2a9b7fd": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/willo-2"
     },
     "0043f87fdd684e2cab69888b": {
       "first_seen": "2026-11-11T00:37:31Z",
@@ -93,6 +98,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/watchflows"
     },
+    "02e8ec0c2ffd76d89d05d4ef": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/replicate-10"
+    },
     "02eca8b590f2b78dd2414766": {
       "first_seen": "2026-10-21T20:18:30Z",
       "status": "too_old",
@@ -148,6 +158,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://runway.com/research/introducing-gwm-worlds-2"
+    },
+    "04601f93b9b9d69cf8346d93": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/galaxy"
     },
     "04ffbf1e02c2570faffddc3b": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -704,6 +719,11 @@
       "first_seen": "2026-10-11T09:11:21Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/kooler-2"
+    },
+    "13ef043707170c6c881e6a6b": {
+      "first_seen": "2026-11-13T15:37:09Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-42cf3e1fe8b40322b474"
     },
     "13f04efd84195f429eada367": {
       "first_seen": "2026-11-09T11:23:00Z",
@@ -1374,6 +1394,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/clarifierai-rewrite-text-2"
     },
+    "2547bd37d6ce9b913922c0c5": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/gatrends"
+    },
     "255cb0603ec1b38086e8b204": {
       "first_seen": "2026-11-10T12:32:54Z",
       "status": "queued",
@@ -1710,6 +1735,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/openship-2"
     },
+    "2f17e2ad11763003920941b2": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/pocket-studio-for-supabase"
+    },
     "2f1b5ca58d8805cbe859509b": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -1989,6 +2020,11 @@
       "first_seen": "2026-10-17T08:44:04Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/step-3-5-flash"
+    },
+    "3588bf6219d4b241cfacad64": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/burnstate"
     },
     "358ed0b5ea36ab70412359b3": {
       "first_seen": "2026-10-28T20:28:26Z",
@@ -2465,6 +2501,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/microsoft-decision-1"
     },
+    "41769033a9c99e91dfdaa946": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/expo"
+    },
     "41aaed3a7ec03d9596bf1d41": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -2517,11 +2558,23 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/hyperresearch"
     },
+    "43b95b3ff902f1231aa03f88": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/whoop"
+    },
     "4450675c6f099b0044872c16": {
       "first_seen": "2026-10-03T00:46:00Z",
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/shiphq"
+    },
+    "4468f526b92b6e7033b0b77b": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://newsletter.futurepedia.io/p/chatgpt-can-now-make-gifs-from-your-photos-11-13-2026"
     },
     "44a995e3e5a09201313731f5": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -2669,6 +2722,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/buffer-3"
     },
+    "4887a96d2b7591990cfb0b39": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/aven-app-agent"
+    },
     "48950ef873e3e535734f15fb": {
       "first_seen": "2026-11-05T03:47:02Z",
       "status": "queued",
@@ -2809,6 +2867,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://ideogram.ai/models/4.5/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "4bf61703e3df7593f7aa60fb": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/gemini-6"
     },
     "4c30b4b05fcb88bec2dc3e39": {
       "first_seen": "2026-10-07T16:48:32Z",
@@ -4165,6 +4228,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
     },
+    "6ed6092618baa4eb3e01dc98": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/ganella"
+    },
     "6edb45d8a426efafde0b799e": {
       "first_seen": "2026-11-08T08:01:52Z",
       "status": "too_old",
@@ -5005,6 +5074,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/"
     },
+    "834bdd0d90a12cf4539741c7": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/trainn"
+    },
     "83604a16458256c6aa31d137": {
       "first_seen": "2026-11-11T07:15:34Z",
       "status": "too_old",
@@ -5139,6 +5214,12 @@
       "first_seen": "2026-10-26T11:34:46Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/2g"
+    },
+    "86fda79db374ccb5dce1da89": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/stockrip"
     },
     "86ff7f2dddf61ef77746aae1": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -6931,6 +7012,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/relaytoai"
     },
+    "b8d86989eeeb50b2cc154d24": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/qorqbot"
+    },
     "b8e89bc0c52f51cc31d07020": {
       "first_seen": "2026-10-25T10:01:09Z",
       "status": "too_old",
@@ -7436,6 +7522,11 @@
       "first_seen": "2026-10-21T11:41:37Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/agent-pets"
+    },
+    "c7a6a931449fea1c54930e00": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/templify"
     },
     "c7b0200c3990590eaf3a7f26": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -8801,6 +8892,12 @@
       "status": "prefiltered",
       "url": "https://newsletter.futurepedia.io/p/chatgpt-reads-the-fine-print-so-you-dont-have-to-09-29-2026"
     },
+    "ef05560750ad4629967429b8": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/paxper"
+    },
     "ef19d24fbcfe049a546138c3": {
       "first_seen": "2026-10-11T15:53:31Z",
       "status": "too_old",
@@ -8856,6 +8953,12 @@
       "first_seen": "2026-10-23T10:24:14Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/monid"
+    },
+    "f0293ebba85001b601338d3d": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/hoverine"
     },
     "f046fa1f0c2a4483a15cbd04": {
       "first_seen": "2026-10-22T01:57:55Z",
@@ -9393,6 +9496,11 @@
       "first_seen": "2026-11-08T01:42:58Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/"
+    },
+    "fe899c89d90760eecdc47b9e": {
+      "first_seen": "2026-11-13T15:37:08Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/kairos-18"
     },
     "fedef723b1959221b5c5a68b": {
       "first_seen": "2026-10-20T00:43:52Z",

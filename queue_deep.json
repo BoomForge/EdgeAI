@@ -702,6 +702,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "13ef043707170c6c881e6a6b",
+      "discovered_at": "2026-11-13T15:37:09Z",
+      "kind": "independent-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-13T15:37:09Z",
+      "search_score": 38,
+      "source_name": "OpenRouter Rankings",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 12, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 DeepSeek V4.1 Flash 1017 deepseek 55.8T tokens -1% 2 Hy4 tencent 20.3T tokens +405% 3 DeepSeek V4.1 Flash deepseek 16T tokens -3% 4 GLM 5.3 Flash z-ai 12T tokens -20% 5 GPT-6 Luna openai 7.43T tokens +2% 6 Claude Opus 5.5 anthropic 6.79T tokens +4% 7 Step 5 Preview stepfun 6.73T tokens +1% 8 Kimi K3.1 Pro moonshotai 4.38T tokens +24% 9 GPT-6.1 Sol openai 4.23T tokens +17% 10 GLM 5.3 z-ai 3.88T tokens +9% 1 . DeepSeek V4.1 Flash 1017 by deepseek 55.8T tokens 1% 2 . Hy4 by tencent 20.3T tokens 405% 3 . DeepSeek V4.1 Flash by deepseek 16T tokens 3% 4 . GLM 5.3 Flash by z-ai 12T tokens 20% 5 . GPT-6 Luna by openai 7.43T tokens 2% 6 . Claude Opus 5.5 by anthropic 6.79T tokens 4% 7 . Step 5 Preview by stepfun 6.73T tokens 1% 8 . Kimi K3.1 Pro by moonshotai 4.38T tokens 24% 9 . GPT-6.1 Sol by openai 4.23T tokens 17% 10 . GLM 5.3 by z-ai 3.88T tokens 9% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the most recent complete day, with the change measured against the day before it. Models ranked by tokens processed on OpenRouter over the most recent complete day Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 9.51T -1% 2 Hy4 tencent 2.74T +1% 3 DeepSeek V4.1 Flash deepseek 2.23T -7% 4 GLM 5.3 Flash z-ai 1.64T -37% 5 GPT-6 Luna openai 1.35T +8% 6 Claude Opus 5.5 anthropic 1.18T +13% 7 Step 5 Preview stepfun 963B +0% 8 GPT-6.1 Sol openai 729B +12% 9 MiMo-V2.6-Flash xiaomi 637B -5% 10 GLM 5.3 z-ai 611B -23% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 176T new 2 DeepSeek V4.1 Flash deepseek 81.5T -28% 3 GLM 5.3 Flash z-ai 57.6T +2% 4 GPT-6 Luna openai 34.2T +90% 5 Claude Opus 5.5 anthropic 30.5T +197% 6 Hy4 preview tencent 27.1T -31% 7 Step 5 Preview stepfun 26T +73% 8 Hy4 tencent 24.3T new 9 MiMo-V2.6-Flash xiaomi 20.6T -31% 10 GLM 5.3 z-ai 19.2T +38% New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 Inkling 2 Small (free) thinkingmachines 507B new 2 Claude Fable 5.2 anthropic 457B new 3 ERNIE-5.5-Flash-Preview (free) baidu 422B new 4 Muse Ember meta 248B new 5 Gemini 4 Carbon google 234B new 6 Grok 4.6 (batch) x-ai 262M >999% 7 Motif 3 motif-technologies 13.6M >999% 8 Mi kt 26.2M >999% 9 GPT-5.4 Mini (batch) openai 285M >999% 10 GPT-5.6 Terra Pro (batch) openai 1.41M >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend General 33.2% Agent 30.4% Code 25.9% Data 10.5% Classification 12.8% of all spend 1 Claude Opus 5.5 by anthropic 11.2% +4.5 2 GPT-6.1-Sol by openai 7.4% +5.4 3 Claude Sonnet 5.5 by anthropic 4.6% +3.3 4 Kimi K3 by moonshotai 4.1% +0.8 5 Gemini 3.8 Flash by google 3.5% -0.9 6 GPT-6-Astra by openai 3.3% -2.7 7 Deepseek V4.1 Flash by deepseek 3.1% +0.5 8 GLM 5.3 Flash by z-ai 3.0% +1.0 9 GPT-5.6-Luna by openai 2.9% +0.9 10 GPT-6-Luna by openai 2.7% +1.5 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 2, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 31.8% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 DeepSeek 31.8% +6% 2 OpenAI 19.3% +2% 3 Google 13.6% -5% 4 Z.ai 7.4% -38% 5 Anthropic 5.8% +1% 6 Qwen 5.7% +2% 7 Stealth 2.5% 8 Mistral 2.3% +5% 9 Tencent 2.3% +21% All other authors 9.2% +11% Open / Closed Absolute Percentage Sh",
+      "title": "OpenRouter real-world model rankings changed",
+      "url": "https://openrouter.ai/rankings#edgeai-42cf3e1fe8b40322b474"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "f1a111e72742f0df3d871707",
       "discovered_at": "2026-11-03T17:17:16Z",
       "kind": "independent",
@@ -2872,6 +2886,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "4bf61703e3df7593f7aa60fb",
+      "discovered_at": "2026-11-13T15:37:08Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-12T10:37:12-08:00",
+      "search_score": 6,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Fast agentic development for coders Discussion | Link",
+      "title": "Gemini 4 Hydrogen",
+      "url": "https://www.producthunt.com/products/gemini-6"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "875b1578b97ec40ee1f4e4e9",
       "discovered_at": "2026-11-12T11:41:10Z",
       "kind": "signal",
@@ -2984,6 +3012,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "4887a96d2b7591990cfb0b39",
+      "discovered_at": "2026-11-13T15:37:08Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-11T14:12:11-08:00",
+      "search_score": 5,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "AI that guides users through your app Discussion | Link",
+      "title": "Aven App Agent",
+      "url": "https://www.producthunt.com/products/aven-app-agent"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "5226e12e1f5077abad9f7ddc",
       "discovered_at": "2026-11-04T09:57:41Z",
       "kind": "signal",
@@ -3093,6 +3135,34 @@
       "summary": "open-source multiplayer AI for teams' coding agents Discussion | Link",
       "title": "agentmash",
       "url": "https://www.producthunt.com/products/agentmash"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "02e8ec0c2ffd76d89d05d4ef",
+      "discovered_at": "2026-11-13T15:37:08Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-12T18:06:54-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Turn Webflow/Framer app into a Claude/Codex project for free Discussion | Link",
+      "title": "Replicate",
+      "url": "https://www.producthunt.com/products/replicate-10"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "2547bd37d6ce9b913922c0c5",
+      "discovered_at": "2026-11-13T15:37:08Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-12T10:54:12-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Spike alerts for your keywords in Telegram, Claude, ChatGPT Discussion | Link",
+      "title": "GAtrends",
+      "url": "https://www.producthunt.com/products/gatrends"
     },
     {
       "bootstrap": false,
@@ -3292,6 +3362,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "41769033a9c99e91dfdaa946",
+      "discovered_at": "2026-11-13T15:37:08Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-12T10:34:18-08:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Cloud simulators built for agents Discussion | Link",
+      "title": "Expo Simulators",
+      "url": "https://www.producthunt.com/products/expo"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "a7af1b25656fe844c38b28aa",
       "discovered_at": "2026-11-13T00:38:28Z",
       "kind": "signal",
@@ -3320,6 +3404,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-13T07:24:18Z",
+  "updated_at": "2026-11-13T15:37:12Z",
   "version": 2
 }

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-13T00:38:32Z",
+    "at": "2026-11-13T07:24:18Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 1,
-    "queued": 4,
+    "queued": 0,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 199,
+  "runs": 200,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -7774,6 +7774,12 @@
       "first_seen": "2026-10-07T02:36:56Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/"
+    },
+    "d208deb4e933b32b560d804b": {
+      "first_seen": "2026-11-13T07:24:13Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/didit-3"
     },
     "d22d8333ab5df8b6d2220e38": {
       "first_seen": "2026-11-03T09:27:30Z",

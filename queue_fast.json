@@ -2172,6 +2172,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "7d4d71d056da02862d0b2ec1",
+      "discovered_at": "2026-11-13T21:36:38Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Fri, 13 Nov 2026 15:00:00 GMT",
+      "search_score": 4,
+      "source_name": "OpenAI News",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "295354ff422b0d4db922748e",
       "discovered_at": "2026-11-05T05:49:58Z",
       "kind": "official",
@@ -2858,6 +2872,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "7f27431530e73d34fe6855a9",
+      "discovered_at": "2026-11-13T21:36:45Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-13T19:15:47Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "vulkan: add TOP_K_MASK ( #31544 ) vulkan: add TOP_K_MASK Assisted-by: Claude Opus 5.5 vulkan: fix the TOP_K_MASK barrier and use the common offset helper Assisted-by: Claude Opus 5.5 vulkan: declare ggml_vk_top_k_mask in the common header Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67310514 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12365",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12365"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "382e0ae87406bb5911a4e41d",
+      "discovered_at": "2026-11-13T21:36:45Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-13T18:01:58Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "grammar : optimize matching with left factoring ( #29557 ) grammar : limit the number of alternatives grammar : introduce an AST for grammar parsing grammar : revert AST refactor and alternatives limit This reverts commits: 84f3b57 393a707 grammar: optimize big grammar matching by using left-factorization grammar : preserve character class boundaries during left factoring grammar : prevent infinite expansion during left factoring grammar : use ASCII characters in comments grammar : test empty suffixes after left factoring grammar : deduplicate left factoring logic grammar : add comments grammar : use number parameters and clarify RSS output grammar : clarify character class test names grammar : remove performance benchmark grammar : share immutable rules Co-authored-by: Piotr Wilkin piotr.wilkin@syndatis.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67284755 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12362",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12362"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "1c6e913a4c75ac8479a4b633",
       "discovered_at": "2026-11-12T19:07:15Z",
       "kind": "local-ai",
@@ -3093,6 +3135,20 @@
       "summary": "llama : enable tensor split for LFM3 ( #31431 ) Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62271899 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12027",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12027"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "1e72703cecbee0815c0b4107",
+      "discovered_at": "2026-11-13T21:36:45Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-13T18:57:06Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "spec : Warn when --spec-draft-p-min is used with probabilistic draft sampling ( #31294 ) spec : skip p_min for sampled MTP and DFlash2 drafts Under rejection sampling the acceptance at a position is 1 - TV(p, q), which the draft's top probability does not tell, so the p_min cutoff dropped draft tokens the target would have accepted. Skip it when MTP or DFlash2 samples the draft. draft-simple keeps it: each extra draft token costs a full draft model pass. spec : replace the sampled-draft p_min skip with a warning p_min behaves as on master again for every drafter and sampling mode. Instead, log a warning when --spec-draft-p-min > 0 is used with --spec-draft-sampling probabilistic, suggesting p_min 0: under rejection sampling the draft's top probability does not tell how much of the draft the target accepts. The cut is not skipped because with MTP at long drafts it can still pay off. spec : warn about p_min only for drafters that use it The n-gram drafters ignore p_min, and DSpark uses it as the cutoff of its confidence head, so the warning is skipped when only these are configured. Co-authored-by: Pranesh Gonegandla pgonegandla@nvidia.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67303781 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12364",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12364"
     },
     {
       "bootstrap": false,
@@ -3443,65 +3499,9 @@
       "summary": "common : fix -hf tag matching inside longer quant names ( #31620 ) common : fix -hf tag matching inside longer quant names \":F16\" picked a BF16 file when the repo had both, since \"BF16\" contains \"F16\". The same applied to \":Q4_XS\" vs \"IQ4_XS\". The tag now has to start at a token boundary in the path. Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (Mac Studio, M5 Ultra, 256GB) common : accept underscore as -hf tag boundary Some repos separate the quant with an underscore, e.g. stepfun-ai/Step-3.5-Flash-GGUF-Q4_K_S ships step3p5_flash_Q4_K_S-00001-of-00012.gguf, which :Q4_K_S no longer matched. Add _ to the token boundary and pin the tag and default lookup cases. Co-authored-by: Pascal admin@serveurperso.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63478879 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12100",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12100"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "f795016d9dcfed5854c58045",
-      "discovered_at": "2026-11-13T15:30:22Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-13T10:24:22Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "examples : remove explict version from test-cmake ( #32191 ) This commit removes the llama version test-cmake and instead uses the version that is supplied by CMAKE_PREFIX_PATH. The motivation for this is to avoid issues when bumping major versions. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67120335 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12359",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12359"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "780153f65f1136384f43fca1",
-      "discovered_at": "2026-11-13T15:30:22Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-13T10:05:49Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "CUDA: split the PAD_REFLECT_1D grid to stay within the HIP grid limit ( #32179 ) The kernel launches one block per row and 256-wide tile, so the {2, 16777217} test case asks for 16777217 blocks of 256 threads. HIP refuses a grid dimension above 2^32 threads and the ROCm jobs fail with \"invalid configuration argument\". The host now launches the grid in chunks of at most UINT32_MAX / 256 blocks and passes the chunk offset to the kernel. Real sizes fit in a single chunk and keep their timings. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67114504 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12360",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12360"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "ae24a77e8b7ecf07eadf121b",
-      "discovered_at": "2026-11-13T07:16:50Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-13T06:37:27Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "hexagon: add Q5_0 and Q5_1 support ( #32094 ) hexagon: add q5_0 and q5_1 support hex-mm: dedicated q5_0 kernels Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67050302 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12345",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12345"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "1e8c63de863d919480301be5",
-      "discovered_at": "2026-11-13T07:16:50Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-13T06:05:14Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "server : cancel MCP tool calls on client disconnect or timeout ( #32025 ) server : cancel MCP tool calls on client disconnect or timeout server : shorten MCP cancellation tests and fix a type-check error Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67042801 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12344",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12344"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-13T15:30:45Z",
+  "updated_at": "2026-11-13T21:37:15Z",
   "version": 2
 }

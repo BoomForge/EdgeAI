@@ -702,6 +702,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "2eb617c2efecd7a6f89428eb",
+      "discovered_at": "2026-11-14T15:46:09Z",
+      "kind": "independent-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-14T15:46:09Z",
+      "search_score": 41,
+      "source_name": "OpenRouter Rankings",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 13, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 DeepSeek V4.1 Flash 1017 deepseek 56.9T tokens +1% 2 Hy4 tencent 19.8T tokens +181% 3 DeepSeek V4.1 Flash deepseek 15.8T tokens -8% 4 GLM 5.3 Flash z-ai 11.8T tokens -16% 5 GPT-6 Luna openai 7.53T tokens +4% 6 Claude Opus 5.5 anthropic 6.99T tokens +6% 7 Step 5 Preview stepfun 6.57T tokens -4% 8 Kimi K3.1 Pro moonshotai 4.32T tokens +23% 9 GPT-6.1 Sol openai 4.11T tokens +9% 10 MiMo-V2.6-Flash xiaomi 3.85T tokens +61% 1 . DeepSeek V4.1 Flash 1017 by deepseek 56.9T tokens 1% 2 . Hy4 by tencent 19.8T tokens 181% 3 . DeepSeek V4.1 Flash by deepseek 15.8T tokens 8% 4 . GLM 5.3 Flash by z-ai 11.8T tokens 16% 5 . GPT-6 Luna by openai 7.53T tokens 4% 6 . Claude Opus 5.5 by anthropic 6.99T tokens 6% 7 . Step 5 Preview by stepfun 6.57T tokens 4% 8 . Kimi K3.1 Pro by moonshotai 4.32T tokens 23% 9 . GPT-6.1 Sol by openai 4.11T tokens 9% 10 . MiMo-V2.6-Flash by xiaomi 3.85T tokens 61% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the most recent complete day, with the change measured against the day before it. Models ranked by tokens processed on OpenRouter over the most recent complete day Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 8.98T -6% 2 Hy4 tencent 2.62T -4% 3 DeepSeek V4.1 Flash deepseek 2.39T +7% 4 GLM 5.3 Flash z-ai 1.54T -6% 5 Claude Opus 5.5 anthropic 1.25T +6% 6 GPT-6 Luna openai 1.25T -7% 7 Step 5 Preview stepfun 959B 0% 8 MiMo-V2.6-Flash xiaomi 603B -5% 9 GPT-6.1 Sol openai 546B -25% 10 GLM 5.3 z-ai 517B -15% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 185T new 2 DeepSeek V4.1 Flash deepseek 79.4T -32% 3 GLM 5.3 Flash z-ai 57.4T +2% 4 GPT-6 Luna openai 34.4T +80% 5 Claude Opus 5.5 anthropic 30.9T +176% 6 Hy4 tencent 26.9T new 7 Hy4 preview tencent 26T -32% 8 Step 5 Preview stepfun 23.2T +24% 9 MiMo-V2.6-Flash xiaomi 19.7T -37% 10 GLM 5.3 z-ai 19T +32% New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 ERNIE-5.5-Flash-Preview (free) baidu 920B new 2 Inkling 2 Small (free) thinkingmachines 712B new 3 Claude Fable 5.2 anthropic 658B new 4 Muse Ember meta 361B new 5 Gemini 4 Carbon google 354B new 6 MiniMax M3 (batch) minimax 445M >999% 7 Qwen3.8 27B (batch) qwen 37.6M >999% 8 Motif 3 motif-technologies 18.8M >999% 9 Mi kt 659M >999% 10 GPT-5.6 Terra Pro (batch) openai 1.42M >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend General 33.4% Agent 30.3% Code 25.8% Data 10.4% Classification 12.9% of all spend 1 Claude Opus 5.5 by anthropic 11.0% +3.9 2 GPT-6.1-Sol by openai 7.2% +4.8 3 Claude Sonnet 5.5 by anthropic 4.9% +3.4 4 Kimi K3 by moonshotai 4.1% +0.9 5 Gemini 3.8 Flash by google 3.5% -0.9 6 GPT-6-Astra by openai 3.3% -2.7 7 Deepseek V4.1 Flash by deepseek 3.1% +0.5 8 GLM 5.3 Flash by z-ai 3.0% +1.0 9 GPT-5.6-Luna by openai 3.0% +1.1 10 GPT-6-Luna by openai 2.8% +1.6 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 2, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 31.8% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 DeepSeek 31.8% +6% 2 OpenAI 19.3% +2% 3 Google 13.6% -5% 4 Z.ai 7.4% -38% 5 Anthropic 5.8% +1% 6 Qwen 5.7% +2% 7 Stealth 2.5% 8 Mistral 2.3% +5% 9 Tencent 2.3% +21% All other authors 9.2% +11% Open / Clos",
+      "title": "OpenRouter real-world model rankings changed",
+      "url": "https://openrouter.ai/rankings#edgeai-4317f6c2a9714c1007c7"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "9fe296239d4ad9b38a118951",
       "discovered_at": "2026-11-14T08:55:06Z",
       "kind": "independent-signal",
@@ -3418,6 +3432,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "5c64dcf67565843d82547648",
+      "discovered_at": "2026-11-14T15:46:08Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-11T13:48:12-08:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Let your agent build analytics with 25% fewer errors Discussion | Link",
+      "title": "Dex Semantics",
+      "url": "https://www.producthunt.com/products/dex-by-exmergo"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "e7acbd2e802004610ec1d659",
       "discovered_at": "2026-11-12T11:41:10Z",
       "kind": "signal",
@@ -3432,6 +3460,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-14T08:55:09Z",
+  "updated_at": "2026-11-14T15:46:13Z",
   "version": 2
 }

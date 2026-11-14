@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-14T08:55:09Z",
+    "at": "2026-11-14T15:46:13Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 7,
+    "prefiltered": 1,
     "queued": 2,
     "sources_ok": 15,
-    "too_old": 12,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 204,
+  "runs": 205,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -1777,6 +1777,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/blade-4"
     },
+    "2eb617c2efecd7a6f89428eb": {
+      "first_seen": "2026-11-14T15:46:09Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-4317f6c2a9714c1007c7"
+    },
     "2eded73c1a58a8ad57ea20a4": {
       "first_seen": "2026-10-22T18:07:07Z",
       "status": "queued",
@@ -2594,6 +2599,12 @@
       "first_seen": "2026-10-21T01:03:21Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/"
+    },
+    "425a3b9649c6266b0f6563d3": {
+      "first_seen": "2026-11-14T15:46:08Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tacie"
     },
     "4276d0de32c6d3e20a4ab7da": {
       "first_seen": "2026-11-03T17:17:15Z",
@@ -3589,6 +3600,11 @@
       "first_seen": "2026-10-15T14:58:02Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/kerno"
+    },
+    "5c64dcf67565843d82547648": {
+      "first_seen": "2026-11-14T15:46:08Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/dex-by-exmergo"
     },
     "5c6b2c270d4980ae0bf9b9db": {
       "first_seen": "2026-10-19T10:44:24Z",
@@ -4719,6 +4735,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/new-windows-search"
+    },
+    "77e0db40da6fb26f0f06ce4f": {
+      "first_seen": "2026-11-14T15:46:08Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/horef-rings"
     },
     "7809a973bebe33cbe286e509": {
       "first_seen": "2026-10-23T10:24:14Z",
@@ -8184,6 +8205,11 @@
       "first_seen": "2026-10-30T03:00:28Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2115996033326969135"
+    },
+    "d6ebee241bd6e9e91bf2f03c": {
+      "first_seen": "2026-11-14T15:46:08Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/expert-chase-deleted-1107920"
     },
     "d716e08cd23c30890d3fdce6": {
       "first_seen": "2026-10-03T00:45:59Z",

@@ -3180,6 +3180,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "466c1914d1235393f2938ece",
+      "discovered_at": "2026-11-14T23:58:55Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-14T22:32:19Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "The thought channel is normally closed with <channel|>, but the model may open it and go straight to a tool call without closing it. Stop the reasoning at <channel|> OR <|tool_call>, so an unclosed thought does not swallow the following tool call. Fixes: #32231 Assisted-by: Qwen 3.8 27b",
+      "title": "b12388: chat : allow Gemma4 tool call during thought (#32232)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12388"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "57fe5263f2b1e3a2a59951f2",
       "discovered_at": "2026-11-14T20:05:03Z",
       "kind": "local-ai",
@@ -3485,23 +3499,9 @@
       "summary": "Release candidate for 1.0.2. Install it explicitly: pip install 'browser-use==1.0.2rc1' . Plain installs still get 1.0.1. --cli-mcp with Chrome remote debugging off now drives its own Chromium and tells the model how to get your Chrome (toggle at chrome://inspect, restart the server). CLI and --cli-mcp CDP calls wait 20 s; a page frozen by a JS dialog fails fast with a clear error. Windows: open() in browser_exec code defaults to UTF-8. Feedback: report_issue in the agent, browser-use feedback , and the browser_feedback MCP tool. PR: #6376",
       "title": "1.0.2rc1: release candidate for 1.0.2",
       "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.2rc1"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "48736fbb40628ce34844976f",
-      "discovered_at": "2026-11-10T13:19:12Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-10T06:55:46Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "On a device without mmap support, --lazy-mode auto resolved to off even with --load-mode mmap, so llama_prefetch_rows never ran and the rows of the large tensors faulted in one page at a time. Resolve it to off only when mmap is off; the default iGPU load path is unchanged. Fixes #31943",
-      "title": "b12245: llama : apply the iGPU lazy-mode fallback only when mmap is off (#31957)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12245"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-14T20:05:23Z",
+  "updated_at": "2026-11-14T23:59:17Z",
   "version": 2
 }

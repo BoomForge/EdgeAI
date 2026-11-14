@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "at": "2026-11-14T20:05:23Z",
+    "at": "2026-11-14T23:59:17Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
@@ -9,7 +9,7 @@
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 208,
+  "runs": 209,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -2594,6 +2594,11 @@
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0"
     },
+    "3764fd5c2b056895db4b8550": {
+      "first_seen": "2026-11-14T23:59:06Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.107.0-rc.4"
+    },
     "3782b7dce7469680137bb8f3": {
       "first_seen": "2026-11-12T11:29:36Z",
       "status": "queued",
@@ -3363,6 +3368,11 @@
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08833"
+    },
+    "466c1914d1235393f2938ece": {
+      "first_seen": "2026-11-14T23:58:55Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12388"
     },
     "466fd99a808e83e2c0d42df5": {
       "first_seen": "2026-10-13T16:26:22Z",
@@ -11940,6 +11950,11 @@
       "first_seen": "2026-10-26T00:30:19Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11888"
+    },
+    "fe2d022b775c8438edd528bf": {
+      "first_seen": "2026-11-14T23:59:06Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.9"
     },
     "fe3326f4dbcaa51b1783e46b": {
       "first_seen": "2026-10-18T09:53:06Z",

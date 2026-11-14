@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-14T01:51:57Z",
+    "at": "2026-11-14T08:55:09Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 4,
+    "prefiltered": 7,
+    "queued": 2,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 12,
     "warnings": 0
   },
-  "runs": 203,
+  "runs": 204,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -488,6 +488,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/deskcord-chat"
     },
+    "0c95a77285a54420d0a528cd": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/replay-11"
+    },
     "0cd5369b05bfa7ce1c287b8a": {
       "first_seen": "2026-10-06T23:21:30Z",
       "status": "too_old",
@@ -518,6 +523,12 @@
       "first_seen": "2026-11-10T20:02:33Z",
       "status": "queued",
       "url": "https://www.minimax.io/blog/minimax-h3-image"
+    },
+    "0e3c83b7772f27505da25c10": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/anyonehiring-today"
     },
     "0e4a30e4b64d3de41be903f8": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -749,6 +760,11 @@
       "first_seen": "2026-10-27T18:23:50Z",
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/claude-can-now-build-a-dashboard-that-updates-itself-10-27-2026"
+    },
+    "14543bdc557cfd76687593b0": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/kokonutui"
     },
     "1464945db0ba3868d024d3d9": {
       "first_seen": "2026-10-20T22:43:53Z",
@@ -1109,6 +1125,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/control-my-mac"
     },
+    "1cafc4ef12c584222da40497": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/gemini-robotics-2-5"
+    },
     "1ceb380969d9142f1a267526": {
       "first_seen": "2026-10-15T09:50:31Z",
       "status": "queued",
@@ -1158,6 +1179,11 @@
       "first_seen": "2026-10-06T00:46:26Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107268339232116804"
+    },
+    "1e3d0642ff6feb54de4062cf": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/captureflow"
     },
     "1e4837e1cf2b547a42969edf": {
       "first_seen": "2026-10-06T14:08:51Z",
@@ -1261,6 +1287,11 @@
       "first_seen": "2026-10-20T19:29:47Z",
       "status": "queued",
       "url": "https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "20b26252a2f3ea330ff90094": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/hiringnow"
     },
     "2116d4596fb7c5e8aea60392": {
       "first_seen": "2026-10-26T11:34:46Z",
@@ -1486,6 +1517,12 @@
       "first_seen": "2026-10-06T19:44:10Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/ari-helper"
+    },
+    "2731ab873f9a3770050e0bda": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/restoration-scope"
     },
     "2762645003ffee6788cf55f0": {
       "first_seen": "2026-10-10T05:44:59Z",
@@ -2537,6 +2574,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/many-displays"
     },
+    "41f8ff0b26930dff7cb094b8": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/default-tamer"
+    },
     "423cd4e96b171d29f543e506": {
       "first_seen": "2026-10-17T08:44:04Z",
       "status": "too_old",
@@ -2764,6 +2807,11 @@
       "status": "queued",
       "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "48d0d26dcdd8d798faf1c851": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/vb-notes"
+    },
     "494aab68a3420fb5d1cec372": {
       "first_seen": "2026-10-28T08:23:12Z",
       "status": "too_old",
@@ -2899,6 +2947,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/orbit-app-blocker"
     },
+    "4c90859b874a6dff41f793de": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/codemesh-2"
+    },
     "4c9dfa0d7de279f58d226f18": {
       "first_seen": "2026-11-04T02:39:02Z",
       "status": "too_old",
@@ -2913,6 +2967,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://www.minimax.io/news/minimax-speech-28"
+    },
+    "4cca49ae5f66c587713b0b0a": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/screengo"
     },
     "4ce6ae2c14b56bb250a184a9": {
       "first_seen": "2026-10-27T12:46:49Z",
@@ -4000,6 +4059,12 @@
       "status": "queued",
       "url": "https://finance.yahoo.com/markets/article/sylvester-stallone-on-ai-in-hollywood-it-makes-things-so-much-easier-160000411.html?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "66fcf717b9baf2170af6d784": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/dynamic-edge"
+    },
     "671806f4b5bbbe1699595e03": {
       "first_seen": "2026-11-05T11:39:14Z",
       "status": "queued",
@@ -4358,6 +4423,11 @@
       "first_seen": "2026-10-16T05:09:14Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/saidtrace"
+    },
+    "71033b495826d320d0fb9e83": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/drops-4"
     },
     "712a8be153b2900da91e9bed": {
       "first_seen": "2026-10-16T14:48:14Z",
@@ -5476,6 +5546,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/ember-117"
     },
+    "8bf0bd1d603c70db0a1b326c": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/project-nexus-2"
+    },
     "8c3475b4c4e46013f666d8aa": {
       "first_seen": "2026-11-03T22:28:15Z",
       "search_score": 0,
@@ -5548,6 +5623,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/studyquest"
+    },
+    "8e5f1a443ad4e7eeeede1de0": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/inread-app"
     },
     "8edf310cbf9c0577d1442636": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -6173,6 +6254,11 @@
       "status": "queued",
       "url": "https://claude.com/resources/articles/dashboards-and-motion?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "9fe296239d4ad9b38a118951": {
+      "first_seen": "2026-11-14T08:55:06Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-c096975e07b208c5be2a"
+    },
     "a000a761e1c361c70f66f6de": {
       "first_seen": "2026-10-19T10:44:24Z",
       "status": "queued",
@@ -6225,6 +6311,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://portal.nousresearch.com/login"
+    },
+    "a11475a9ac256e01e2e73eaf": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/antelog"
     },
     "a1333e0b35da945b6a10af25": {
       "first_seen": "2026-10-19T10:44:24Z",
@@ -7196,6 +7287,11 @@
       "first_seen": "2026-10-26T21:56:06Z",
       "status": "queued",
       "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "bd76f0430bd8141711243cbe": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/freeflow-dictation"
     },
     "bd9fac1bbd7dd13140f79c16": {
       "first_seen": "2026-10-13T10:55:50Z",
@@ -8254,6 +8350,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/praex"
     },
+    "da9843d4b54175646cc57c45": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/uber"
+    },
     "da9c62c52f6c35e6916b0724": {
       "first_seen": "2026-10-29T00:27:44Z",
       "status": "queued",
@@ -8688,6 +8789,12 @@
       "first_seen": "2026-11-06T15:17:29Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/wonder-dev-view"
+    },
+    "e6352826c18f229c3468235c": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/thunder-3"
     },
     "e670f629a3bc9b889156e837": {
       "first_seen": "2026-10-18T10:57:54Z",
@@ -9136,6 +9243,11 @@
       "first_seen": "2026-10-09T01:22:22Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/8/ttok/"
+    },
+    "f24b942c6ae91c25b5463614": {
+      "first_seen": "2026-11-14T08:55:05Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/valutorio"
     },
     "f257f43eb0e9b8f362354530": {
       "first_seen": "2026-10-20T10:21:00Z",

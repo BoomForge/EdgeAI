@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-14T15:39:36Z",
+    "at": "2026-11-14T20:05:23Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 7,
+    "queued": 3,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 207,
+  "runs": 208,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -4133,6 +4133,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11612"
     },
+    "57b75d7a14ce204a8b53a50c": {
+      "first_seen": "2026-11-14T20:05:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12387"
+    },
     "57c3309db5bedcdec4e0532a": {
       "first_seen": "2026-10-14T19:28:58Z",
       "status": "queued",
@@ -4152,6 +4157,11 @@
       "first_seen": "2026-10-03T00:46:16Z",
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.5"
+    },
+    "57fe5263f2b1e3a2a59951f2": {
+      "first_seen": "2026-11-14T20:05:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12385"
     },
     "5808d465124b29362afd1b2f": {
       "first_seen": "2026-11-11T07:35:50Z",
@@ -9858,6 +9868,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00064"
+    },
+    "d34b418885403b50c7960409": {
+      "first_seen": "2026-11-14T20:05:03Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12386"
     },
     "d35bb6a301795f82b359a0bb": {
       "first_seen": "2026-10-03T00:45:59Z",

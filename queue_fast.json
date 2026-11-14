@@ -3180,6 +3180,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "57fe5263f2b1e3a2a59951f2",
+      "discovered_at": "2026-11-14T20:05:03Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-14T18:52:59Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "qwen2vl : apply FFN weight scales ( #32241 ) The qwen2vl graph passed NULL for the ffn_up/gate/down scales, so the per-tensor NVFP4 scales loaded by the generic pass were never applied and the model produced garbage (PPL ~1e6 on CUDA, NaN on CPU). Pass the scales to build_ffn like qwen2 does. Fixes #32101 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67603309 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12385",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12385"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "1e72703cecbee0815c0b4107",
       "discovered_at": "2026-11-13T21:36:45Z",
       "kind": "local-ai",
@@ -3485,23 +3499,9 @@
       "summary": "On a device without mmap support, --lazy-mode auto resolved to off even with --load-mode mmap, so llama_prefetch_rows never ran and the rows of the large tensors faulted in one page at a time. Resolve it to off only when mmap is off; the default iGPU load path is unchanged. Fixes #31943",
       "title": "b12245: llama : apply the iGPU lazy-mode fallback only when mmap is off (#31957)",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12245"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "e4b2875426bca7aa4027a58e",
-      "discovered_at": "2026-11-09T14:19:20Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-09T08:52:49Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "ggml-zdnn: fix release binary not detecting backend lib ( #31905 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65269046 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12212",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12212"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-14T15:39:36Z",
+  "updated_at": "2026-11-14T20:05:23Z",
   "version": 2
 }

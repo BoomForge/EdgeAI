@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-14T15:46:13Z",
+    "at": "2026-11-14T20:10:34Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 1,
-    "queued": 2,
+    "queued": 1,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 205,
+  "runs": 206,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -688,6 +688,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/kishi-notch"
+    },
+    "129a98e63ea07556bc1ebd75": {
+      "first_seen": "2026-11-14T20:10:31Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/blender"
     },
     "12a19b2e82c614ad6032d1ab": {
       "first_seen": "2026-11-01T13:14:08Z",
@@ -2131,6 +2137,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://runway.com/news/research"
+    },
+    "36d79c045bf9db06c31a4dc4": {
+      "first_seen": "2026-11-14T20:10:31Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/aboard-sign"
     },
     "36e55298252d2c9d74a26883": {
       "first_seen": "2026-11-07T18:43:16Z",
@@ -9638,6 +9649,11 @@
       "first_seen": "2026-10-26T21:56:06Z",
       "status": "queued",
       "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "fb8a7cc212b2738e7f041146": {
+      "first_seen": "2026-11-14T20:10:32Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-fbf849b866b229ed63cb"
     },
     "fbc9829159ad3a0322208fd4": {
       "first_seen": "2026-11-11T15:31:28Z",

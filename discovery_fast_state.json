@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-13T21:37:15Z",
+    "at": "2026-11-14T01:46:08Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 15,
-    "sources_ok": 31,
+    "queued": 7,
+    "sources_ok": 30,
     "too_old": 0,
-    "warnings": 0
+    "warnings": 1
   },
-  "runs": 204,
+  "runs": 205,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -277,6 +277,11 @@
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.43"
+    },
+    "07543f4ab00099db27204a69": {
+      "first_seen": "2026-11-14T01:46:06Z",
+      "status": "queued",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.26"
     },
     "07b0a504cffc9ba025499190": {
       "first_seen": "2026-11-05T05:49:59Z",
@@ -653,6 +658,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02437"
+    },
+    "1068e0d69d96ed6e02fb5f9d": {
+      "first_seen": "2026-11-14T01:45:59Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.10"
     },
     "109261365670d3352ab7b526": {
       "first_seen": "2026-10-31T08:54:23Z",
@@ -1734,6 +1744,11 @@
       "first_seen": "2026-10-17T22:56:57Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0"
+    },
+    "24af44a01ab954fad24eedc5": {
+      "first_seen": "2026-11-14T01:45:51Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12370"
     },
     "24cac0c3f1e5b35df27cc447": {
       "first_seen": "2026-10-21T05:49:01Z",
@@ -3660,6 +3675,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11581"
     },
+    "4ddb39c4e5cd32844435d464": {
+      "first_seen": "2026-11-14T01:45:51Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12373"
+    },
     "4de3942809da23ad6b221095": {
       "first_seen": "2026-10-03T00:46:13Z",
       "status": "too_old",
@@ -5276,6 +5296,11 @@
       "first_seen": "2026-11-11T00:54:08Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12263"
+    },
+    "7064518bd21d7e8516fc66df": {
+      "first_seen": "2026-11-14T01:45:51Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12368"
     },
     "7070b65bc1783e04cf991421": {
       "first_seen": "2026-10-23T04:34:34Z",
@@ -7847,6 +7872,11 @@
       "first_seen": "2026-11-04T02:58:30Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12091"
+    },
+    "a99dfdd20d85acbbb850aa77": {
+      "first_seen": "2026-11-14T01:45:45Z",
+      "status": "queued",
+      "url": "https://openai.com/business/customer-stories/shield"
     },
     "a99f90fb6f06f340525f581a": {
       "first_seen": "2026-11-02T10:42:42Z",
@@ -11883,6 +11913,11 @@
       "first_seen": "2026-11-04T02:58:30Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12088"
+    },
+    "ffe340fabfacc017f80d2079": {
+      "first_seen": "2026-11-14T01:45:51Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12374"
     }
   },
   "version": 2

@@ -77,8 +77,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-14T16:41:07Z",
-    "eligible": 61,
+    "at": "2026-11-14T20:58:13Z",
+    "eligible": 53,
     "evaluated": 4,
     "mode": "live",
     "new_posts": 2,
@@ -891,6 +891,14 @@
       "story_key": "vllm-v0-32-0rc3-bugfix",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3"
     },
+    "13ef043707170c6c881e6a6b": {
+      "at": "2026-11-14T20:58:04Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "openrouter-model-rankings-november-2026",
+      "url": "https://openrouter.ai/rankings#edgeai-42cf3e1fe8b40322b474"
+    },
     "13fc07cf0aa925c672839a5f": {
       "at": "2026-10-08T13:20:55Z",
       "status": "expired",
@@ -1058,6 +1066,20 @@
       "status": "ignored",
       "story_key": "llamacpp-b11700-granite-switch",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11700"
+    },
+    "16d1d30dcd8fe22bce6b4e5c": {
+      "at": "2026-11-14T20:58:08Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "huggingface-diffusers-0-43-0-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Hugging Face Diffusers Releases"
+      },
+      "url": "https://github.com/huggingface/diffusers/releases/tag/v0.43.0"
     },
     "16e337b96c2a78400914d310": {
       "at": "2026-10-17T04:50:02Z",
@@ -3199,6 +3221,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12156"
     },
+    "460872e68e9eeabbb2b493e0": {
+      "at": "2026-11-14T20:58:01Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/11/llm/"
+    },
     "46149d7e66ded280dc425e7b": {
       "at": "2026-11-09T02:04:49Z",
       "status": "expired",
@@ -4961,6 +4988,11 @@
       "status": "expired",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.0-rc.2"
     },
+    "7182813ba072c10763c47c4a": {
+      "at": "2026-11-14T20:58:01Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12289"
+    },
     "71ea610267dd1d6faf68d153": {
       "at": "2026-10-04T05:45:07Z",
       "bootstrap": true,
@@ -5036,6 +5068,11 @@
       "at": "2026-10-24T23:47:18Z",
       "status": "expired",
       "url": "https://news.zoom.com/zoomtopia-2026-security/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "73693a9bcef30a0a3f7f0262": {
+      "at": "2026-11-14T20:58:01Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/foxpit"
     },
     "73adbc32b729a69f60721831": {
       "at": "2026-10-24T19:28:08Z",
@@ -6080,6 +6117,11 @@
         "source": "Nous Research Announcements"
       },
       "url": "https://x.com/NousResearch/status/2115120531611787323"
+    },
+    "8ba32157965a133a881c6f43": {
+      "at": "2026-11-14T20:58:01Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/11/tools-tags/"
     },
     "8c177b37ece0d145f22fb5f2": {
       "at": "2026-10-24T21:45:02Z",
@@ -7992,6 +8034,20 @@
       "status": "ignored",
       "story_key": "friday-work-product-hunt",
       "url": "https://www.producthunt.com/products/friday-work"
+    },
+    "bb4deecac7ca31683d3e8c8d": {
+      "at": "2026-11-14T20:58:13Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "llama-cpp-v1-0-0-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "llama.cpp Releases"
+      },
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"
     },
     "bb82ada884c5f2aabff4af5a": {
       "at": "2026-11-13T02:48:14Z",
@@ -9913,6 +9969,11 @@
       "story_key": "llamacpp-b11985-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11985"
     },
+    "e7acbd2e802004610ec1d659": {
+      "at": "2026-11-14T20:58:01Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/leasewire"
+    },
     "e800acacef7840a119826a49": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -10827,10 +10888,23 @@
       "status": "expired",
       "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "fb8a7cc212b2738e7f041146": {
+      "at": "2026-11-14T20:58:03Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "openrouter-rankings-november-2026",
+      "url": "https://openrouter.ai/rankings#edgeai-fbf849b866b229ed63cb"
+    },
     "fbaa86a829ad59fd10c58d01": {
       "at": "2026-11-07T13:24:58Z",
       "status": "expired",
       "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
+    },
+    "fbcf4a4810c3f155950daca5": {
+      "at": "2026-11-14T20:58:01Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12304"
     },
     "fc152ff68513727f347182c9": {
       "at": "2026-10-03T04:52:19Z",
@@ -13124,6 +13198,27 @@
         "source": "Hugging Face Diffusers Releases"
       }
     },
+    "huggingface-diffusers-0-43-0-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/huggingface-diffusers-0-43-0-release.jpg",
+      "last_updated": "2026-11-14T20:58:08Z",
+      "post_id": "3336924559613665664",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/hugging-face-diffusers-0430-adds.html",
+      "score": 82,
+      "source_image_source": "Hugging Face Diffusers Releases",
+      "source_image_url": "https://opengraph.githubassets.com/0b2a9bde91efe7d4fe131d864affc118ef559665e905f24588b4206903b5bb1b/huggingface/diffusers/releases/tag/v0.43.0",
+      "source_urls": [
+        "https://github.com/huggingface/diffusers/releases/tag/v0.43.0"
+      ],
+      "status": "CONFIRMED",
+      "title": "Hugging Face Diffusers 0.43.0 Adds Modular Integrations for MiniMax-H3, Pika H3 Flex, and PAN 2",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Hugging Face Diffusers Releases"
+      }
+    },
     "huggingface-transformers-v5-20-0-release": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/huggingface-transformers-v5-20-0-release.png",
@@ -13566,6 +13661,27 @@
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 88,
+        "source": "llama.cpp Releases"
+      }
+    },
+    "llama-cpp-v1-0-0-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/llama-cpp-v1-0-0-release.png",
+      "last_updated": "2026-11-14T20:58:13Z",
+      "post_id": "7823438707964215646",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/llamacpp-v100-released-with-fp8-kv.html",
+      "score": 92,
+      "source_image_source": "llama.cpp Releases",
+      "source_image_url": "https://opengraph.githubassets.com/4e4cf25f46f7a65e0337da90f500ac9e36ecea64b31712d343cdf5f1265a7415/ggml-org/llama.cpp/releases/tag/v1.0.0",
+      "source_urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"
+      ],
+      "status": "CONFIRMED",
+      "title": "llama.cpp v1.0.0 Released with FP8 KV Caches, MoE Expert Caching, and Expanded Model Support",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
         "source": "llama.cpp Releases"
       }
     },

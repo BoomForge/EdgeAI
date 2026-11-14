@@ -2788,20 +2788,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "5b54c8b32918ef98ebf957e2",
-      "discovered_at": "2026-10-31T08:54:21Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-10-31T05:23:25Z",
-      "search_score": 10,
-      "source_name": "llama.cpp Releases",
-      "summary": "chat : strip the think block in the qwen3-coder with reasoning_format none ( #31380 ) chat : accept the think block in the qwen3-coder response format with reasoning_format none Assisted-by: Claude Opus 5.5 chat : define both qwen3-coder think block variants up front Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62045373 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12019",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12019"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "0ea250058aace78cdff5205a",
       "discovered_at": "2026-11-11T22:15:48Z",
       "kind": "local-ai",
@@ -2883,6 +2869,20 @@
       "summary": "What's Changed ci: pin buildx to workaround deadlock by @dhiltgen in #19373 openai: preserve readable Responses input content by @hoyyeva in #19192 mlx: sort long top-k rows in chunks by @dhiltgen in #19392 app: make ChatGPT disconnect failures retryable by @hoyyeva in #19336 launch: use model output limits for Claude Code by @ParthSareen in #19410 openai: don't override model sampler defaults by @dhiltgen in #19432 launch: check ChatGPT routing before configuring by @hoyyeva in #19470 server: decode cloud web search responses by @ParthSareen in #19476 Full Changelog : v0.40.13...v0.40.14-rc0",
       "title": "v0.40.14",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "87c810ff304f1480f5f946ff",
+      "discovered_at": "2026-11-14T08:45:17Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-14T04:18:14Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "chat : remove mistral workaround ( #32230 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67449481 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12375",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12375"
     },
     {
       "bootstrap": false,
@@ -3502,6 +3502,6 @@
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-14T01:46:08Z",
+  "updated_at": "2026-11-14T08:45:43Z",
   "version": 2
 }

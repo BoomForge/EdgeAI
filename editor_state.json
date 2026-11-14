@@ -77,9 +77,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-14T03:08:45Z",
-    "eligible": 69,
-    "evaluated": 3,
+    "at": "2026-11-14T10:14:43Z",
+    "eligible": 66,
+    "evaluated": 5,
     "mode": "live",
     "new_posts": 2,
     "publish_actions": 2,
@@ -1671,6 +1671,11 @@
       "story_key": "nous-research-step-5-preview-hermes-index-correction",
       "url": "https://x.com/NousResearch/status/2108645938403405896"
     },
+    "24dec2063a7d26d2297a75dd": {
+      "at": "2026-11-14T10:14:31Z",
+      "status": "expired",
+      "url": "https://openrouter.ai/rankings#edgeai-9a8e5cceef7f7cc93b57"
+    },
     "25296bd10ebb7ad2c6b8762e": {
       "at": "2026-10-28T01:33:49Z",
       "bootstrap": false,
@@ -2995,6 +3000,20 @@
       "story_key": "nous-research-october-2026-recap",
       "url": "https://x.com/NousResearch/status/2116402350680420626"
     },
+    "4159103a9ba7d00b190d7e48": {
+      "at": "2026-11-14T10:14:37Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "runway-praxis-1-video-pretraining-robot-control",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Runway Research"
+      },
+      "url": "https://runway.com/research/praxis-1-video-pretraining-to-robot-control"
+    },
     "41625591abfe53de1f2e0694": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -3255,6 +3274,14 @@
       "status": "ignored",
       "story_key": "llamacpp-b11742-hybrid-dna-tokenizer",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11742"
+    },
+    "4922ca6fb0dd92994c349853": {
+      "at": "2026-11-14T10:14:39Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "openai-customer-story-holiday-extras-codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex"
     },
     "4969031d951b71c9edf39b46": {
       "at": "2026-10-29T21:19:42Z",
@@ -4432,6 +4459,14 @@
       "at": "2026-11-06T00:09:40Z",
       "status": "expired",
       "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "65b96c238445cdedc96b3e82": {
+      "at": "2026-11-14T10:14:32Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "openai-gilbert-tobin-case-study",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless"
     },
     "65cf245591aca8f20d74430c": {
       "at": "2026-10-11T18:49:43Z",
@@ -6971,6 +7006,20 @@
       "status": "expired",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.14"
     },
+    "a1c4ce12170e4f18f3a7e401": {
+      "at": "2026-11-14T10:14:43Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "huggingface-transformers-v5-23-0-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
+        "source": "Hugging Face Transformers Releases"
+      },
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.23.0"
+    },
     "a1e4bf9dfd259e4a8a1b912a": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -7378,6 +7427,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.2"
+    },
+    "ac94b61a25ade5edbf713f08": {
+      "at": "2026-11-14T10:14:31Z",
+      "status": "expired",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans"
     },
     "acb4d46b14ee21b8f01ee718": {
       "at": "2026-10-15T23:11:19Z",
@@ -7797,6 +7851,14 @@
       "status": "ignored",
       "story_key": "llamacpp-b11861-minimax-m3-quant-fix",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11861"
+    },
+    "b9840fd67063a36a400d5e1d": {
+      "at": "2026-11-14T10:14:38Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "openai-customer-story-gondola-codex",
+      "url": "https://openai.com/business/customer-stories/gondola"
     },
     "b984a5c544e6313764ddbb1c": {
       "at": "2026-10-19T20:15:23Z",
@@ -9598,6 +9660,11 @@
       "status": "ignored",
       "story_key": "openai-future-of-the-firm-essay",
       "url": "https://openai.com/index/the-future-of-the-firm"
+    },
+    "e304e836ef011046d393ab70": {
+      "at": "2026-11-14T10:14:31Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2120376651339157739"
     },
     "e33385be6adbba61c61abc3f": {
       "at": "2026-10-09T17:07:56Z",
@@ -13053,6 +13120,27 @@
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 86,
+        "source": "Hugging Face Transformers Releases"
+      }
+    },
+    "huggingface-transformers-v5-23-0-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/huggingface-transformers-v5-23-0-release.png",
+      "last_updated": "2026-11-14T10:14:43Z",
+      "post_id": "4635671597112193955",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/hugging-face-transformers-v5230.html",
+      "score": 88,
+      "source_image_source": "Hugging Face Transformers Releases",
+      "source_image_url": "https://opengraph.githubassets.com/699ef0870ca09fce9c1983340479cdc31f6fd0fd0df610f179f6129b26b92eae/huggingface/transformers/releases/tag/v5.23.0",
+      "source_urls": [
+        "https://github.com/huggingface/transformers/releases/tag/v5.23.0"
+      ],
+      "status": "CONFIRMED",
+      "title": "Hugging Face Transformers v5.23.0 Introduces Unified Export API, Liquid AI LFM3 Support, and New Model Architectures",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 88,
         "source": "Hugging Face Transformers Releases"
       }
     },
@@ -16832,6 +16920,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Runway Announces Praxis-1 Open-Weight World Action Model for Robotics",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Runway Research"
+      }
+    },
+    "runway-praxis-1-video-pretraining-robot-control": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/runway-praxis-1-video-pretraining-robot-control.jpg",
+      "last_updated": "2026-11-14T10:14:37Z",
+      "post_id": "8267876165425196096",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/runway-releases-praxis-1-turning-video.html",
+      "score": 92,
+      "source_image_source": "Runway Research",
+      "source_image_url": "https://d3phaj0sisr2ct.cloudfront.net/site/assets/praxis-1-from-video-pretraining-to-robot-control_1600x1067.webp",
+      "source_urls": [
+        "https://runway.com/research/praxis-1-video-pretraining-to-robot-control"
+      ],
+      "status": "CONFIRMED",
+      "title": "Runway Releases Praxis-1, Turning Video Pretraining Into Open-Weight Robot Control",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-13T21:40:50Z",
+    "at": "2026-11-14T01:51:57Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 8,
+    "prefiltered": 1,
+    "queued": 4,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 202,
+  "runs": 203,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -1347,6 +1347,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/allmodels-io"
     },
+    "23fc0725fa82da0d63e0620c": {
+      "first_seen": "2026-11-14T01:51:53Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-389e4a8ba15c2211a157"
+    },
     "24089a8016c84891608f0945": {
       "first_seen": "2026-10-08T08:53:54Z",
       "status": "too_old",
@@ -1378,6 +1383,12 @@
       "first_seen": "2026-10-09T19:51:27Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2108645938403405896"
+    },
+    "24da6b7b9b9cb6eecc811c6a": {
+      "first_seen": "2026-11-14T01:51:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/de-volt"
     },
     "24dec2063a7d26d2297a75dd": {
       "first_seen": "2026-11-11T07:15:35Z",
@@ -2893,6 +2904,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/iq-code"
     },
+    "4cb58a6ed2a63999aea770e1": {
+      "first_seen": "2026-11-14T01:51:53Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/"
+    },
     "4cbabd98657885edf602078e": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -3504,6 +3520,11 @@
       "first_seen": "2026-10-20T22:43:54Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-1911f5d0599358d77a3c"
+    },
+    "5c48952aa6bb2ac49ef9bd0f": {
+      "first_seen": "2026-11-14T01:51:54Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-4b3ea1b3b419ece764d8"
     },
     "5c50cc48a2b9d4162c05e7fb": {
       "first_seen": "2026-10-15T14:58:02Z",
@@ -8505,6 +8526,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/portlivo"
+    },
+    "e1058067669e2b5f7fa97923": {
+      "first_seen": "2026-11-14T01:51:53Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/"
     },
     "e13c3fccf40401a6444aa71d": {
       "first_seen": "2026-10-04T12:47:33Z",

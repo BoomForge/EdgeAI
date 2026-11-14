@@ -77,8 +77,8 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-13T22:55:13Z",
-    "eligible": 80,
+    "at": "2026-11-14T03:08:45Z",
+    "eligible": 69,
     "evaluated": 3,
     "mode": "live",
     "new_posts": 2,
@@ -1639,6 +1639,20 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/allmodels-io"
     },
+    "23fc0725fa82da0d63e0620c": {
+      "at": "2026-11-14T03:08:40Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "artificial-analysis-changelog-november-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-389e4a8ba15c2211a157"
+    },
     "2413f51d9fd0e84982a2e97f": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -2184,6 +2198,11 @@
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0"
+    },
+    "30c410c7643334c58c198e97": {
+      "at": "2026-11-14T03:08:34Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2120284141509881879"
     },
     "30fb05944a5e18201187df4e": {
       "at": "2026-10-08T23:51:05Z",
@@ -2779,6 +2798,11 @@
       "status": "expired",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.0.90"
     },
+    "3eb2084344f372f23072fe37": {
+      "at": "2026-11-14T03:08:34Z",
+      "status": "expired",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "3ec219ad3cb7053dc15eb71c": {
       "at": "2026-10-23T01:00:32Z",
       "status": "expired",
@@ -3237,6 +3261,11 @@
       "status": "expired",
       "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "498416fd21efac76353b1cbd": {
+      "at": "2026-11-14T03:08:34Z",
+      "status": "expired",
+      "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "49b5951c067cceb3477399d1": {
       "at": "2026-10-07T06:34:08Z",
       "status": "expired",
@@ -3645,6 +3674,11 @@
       "at": "2026-10-12T01:40:15Z",
       "status": "expired",
       "url": "https://updates.midjourney.com/testing-thinking-mode/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "55ff14dc4213127df72a8039": {
+      "at": "2026-11-14T03:08:34Z",
+      "status": "expired",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri"
     },
     "56224676afd39a97cbcee0d6": {
       "at": "2026-10-10T07:33:39Z",
@@ -5291,6 +5325,20 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00083"
     },
+    "7d4d71d056da02862d0b2ec1": {
+      "at": "2026-11-14T03:08:45Z",
+      "bootstrap": false,
+      "score": 95,
+      "status": "published",
+      "story_key": "openai-introducing-chatgpt-wallet",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/introducing-chatgpt-wallet"
+    },
     "7d972df501d01ba1f64ace9f": {
       "at": "2026-10-27T12:34:22Z",
       "bootstrap": false,
@@ -6222,6 +6270,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/supercmo-ai"
     },
+    "9207c497bfa17f890168ab8a": {
+      "at": "2026-11-14T03:08:34Z",
+      "status": "expired",
+      "url": "https://news.adobe.com/news/2026/11/adobe-transforms-creative-cloud-tools?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "9211d3bdcf0f051d19d2d8d9": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -6308,6 +6361,11 @@
       "status": "ignored",
       "story_key": "llamacpp-b11557-rpc-logging-update",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11557"
+    },
+    "94079a847d2966732870b59a": {
+      "at": "2026-11-14T03:08:34Z",
+      "status": "expired",
+      "url": "https://claude.com/resources/articles/interactive-connectors-full-tool?utm_source=futuretools.io&utm_medium=newspage"
     },
     "9432d5bf37fbe23e8ef2ef85": {
       "at": "2026-10-31T22:41:57Z",
@@ -6923,6 +6981,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11455"
     },
+    "a2324ea2b6d0b1eac9795e0f": {
+      "at": "2026-11-14T03:08:34Z",
+      "status": "expired",
+      "url": "https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "a286ccfbec858524d381aa54": {
       "at": "2026-10-23T01:00:32Z",
       "status": "expired",
@@ -7211,6 +7274,14 @@
         "source": "Nous Research Announcements"
       },
       "url": "https://x.com/NousResearch/status/2113391397760041329"
+    },
+    "a99dfdd20d85acbbb850aa77": {
+      "at": "2026-11-14T03:08:41Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "shield-it-customer-story-gpt6-astra",
+      "url": "https://openai.com/business/customer-stories/shield"
     },
     "a99e7c73be3208be7c0aeb2b": {
       "at": "2026-10-04T19:33:59Z",
@@ -7607,6 +7678,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/testera-3"
     },
+    "b5eade4484bcd776916099d4": {
+      "at": "2026-11-14T03:08:34Z",
+      "status": "expired",
+      "url": "https://news.adobe.com/news/2026/11/adobe-firefly-expands?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "b602f0b5117800795a759ada": {
       "at": "2026-10-04T11:21:03Z",
       "bootstrap": true,
@@ -7941,6 +8017,11 @@
       "at": "2026-10-09T17:07:50Z",
       "status": "expired",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.19.0"
+    },
+    "bedc4fd400bdc2c46c8abf9c": {
+      "at": "2026-11-14T03:08:34Z",
+      "status": "expired",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "bf1a189b85c837584069025f": {
       "at": "2026-10-03T05:49:31Z",
@@ -8380,6 +8461,11 @@
       },
       "url": "https://bfl.ai/licensing"
     },
+    "ca4849704c3f4a9c98f19e1d": {
+      "at": "2026-11-14T03:08:34Z",
+      "status": "expired",
+      "url": "https://www.googlecloudpresscorner.com/2026-11-10-Google-Cloud-Launches-Gemini-for-Healthcare?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "ca6fadec58b05b0576c2acf4": {
       "at": "2026-10-08T00:09:43Z",
       "status": "expired",
@@ -8667,6 +8753,11 @@
       "status": "expired",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.0"
     },
+    "d2371d7a10fb2e41ee915232": {
+      "at": "2026-11-14T03:08:34Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2120271539006222576"
+    },
     "d2a239d4a8c6e6c1aeaf7910": {
       "at": "2026-10-30T23:17:50Z",
       "status": "expired",
@@ -8907,6 +8998,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+    },
+    "d6c970fd1c8aa78c53326084": {
+      "at": "2026-11-14T03:08:34Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12274"
     },
     "d716e08cd23c30890d3fdce6": {
       "at": "2026-10-06T02:32:14Z",
@@ -9888,6 +9984,11 @@
       "at": "2026-10-07T19:56:51Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11391"
+    },
+    "ecddf41113fc23ccd83b0871": {
+      "at": "2026-11-14T03:08:34Z",
+      "status": "expired",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.2rc1"
     },
     "ed14048bb9127b900e68489f": {
       "at": "2026-10-11T22:31:31Z",
@@ -11415,6 +11516,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Artificial Analysis Changelog: Gemini 4 Carbon Takes #1 Spot, MKA Benchmark Launched",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
+    "artificial-analysis-changelog-november-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-november-2026.jpg",
+      "last_updated": "2026-11-14T03:08:40Z",
+      "post_id": "3366158352995911683",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/artificial-analysis-updates-benchmark_01195040061.html",
+      "score": 82,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-389e4a8ba15c2211a157"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Updates Benchmark Changelog: New Gemini 4, Claude Fable 5.2, and Meta Muse Data",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
@@ -15636,6 +15758,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
         "score": 64,
         "source": "FutureTools AI News"
+      }
+    },
+    "openai-introducing-chatgpt-wallet": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-introducing-chatgpt-wallet.jpg",
+      "last_updated": "2026-11-14T03:08:45Z",
+      "post_id": "2308384456729243776",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-introduces-chatgpt-wallet-for.html",
+      "score": 95,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/2xTvIZkcQhKk3VNFioQ4CR/4efb84a6adbddb41311f6b18158fad8b/introducing-chatgpt-wallet-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/introducing-chatgpt-wallet"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces ChatGPT Wallet for Secure Agentic Commerce",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
       }
     },
     "openai-ironclad-computer-use-agents": {

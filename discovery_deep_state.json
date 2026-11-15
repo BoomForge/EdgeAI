@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-15T00:05:39Z",
+    "at": "2026-11-15T06:23:53Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 1,
+    "queued": 3,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 207,
+  "runs": 208,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -3106,6 +3106,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/flexchords"
+    },
+    "4f7f1f7fcbbee0ff7587fce5": {
+      "first_seen": "2026-11-15T06:23:49Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/"
     },
     "4fc41f3374cfeb413163c846": {
       "first_seen": "2026-10-22T07:30:04Z",
@@ -6659,6 +6664,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/wu"
     },
+    "a9e65291a2c9e9c29b372e26": {
+      "first_seen": "2026-11-15T06:23:50Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-6b8fc4b4458dcf0719ec"
+    },
     "a9e6bc4a9623476fa2b050dd": {
       "first_seen": "2026-10-14T01:51:45Z",
       "search_score": 0,
@@ -8918,6 +8928,11 @@
       "first_seen": "2026-11-04T23:37:19Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2118094256438936062"
+    },
+    "e9477865501b0215260c38f8": {
+      "first_seen": "2026-11-15T06:23:49Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/"
     },
     "e9a128e279ff480986fb87f4": {
       "first_seen": "2026-10-08T16:25:56Z",

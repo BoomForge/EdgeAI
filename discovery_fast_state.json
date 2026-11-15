@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-15T19:28:21Z",
+    "at": "2026-11-15T23:31:13Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 9,
+    "queued": 11,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 212,
+  "runs": 213,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -498,6 +498,11 @@
       "first_seen": "2026-11-09T05:25:55Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.08505"
+    },
+    "0c6540c722ae53b1e1b3a1e4": {
+      "first_seen": "2026-11-15T23:30:53Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12424"
     },
     "0c709df81efddcad76734304": {
       "first_seen": "2026-10-20T22:27:10Z",
@@ -2264,6 +2269,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31880"
     },
+    "2e8f421d2ee2a3dfd36bfcc5": {
+      "first_seen": "2026-11-15T23:30:46Z",
+      "status": "queued",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model"
+    },
     "2eafb85fadef752a571fd7b2": {
       "first_seen": "2026-10-08T14:56:12Z",
       "status": "queued",
@@ -2477,6 +2487,11 @@
       "first_seen": "2026-10-03T00:46:09Z",
       "status": "queued",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.4"
+    },
+    "33b95c2112c46efd09554302": {
+      "first_seen": "2026-11-15T23:30:46Z",
+      "status": "queued",
+      "url": "https://openai.com/index/our-new-blog-for-science"
     },
     "33c195b291b747a6aa4d40dc": {
       "first_seen": "2026-10-23T04:34:34Z",
@@ -4989,6 +5004,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.08610"
     },
+    "683a552668f141c7ca6f484e": {
+      "first_seen": "2026-11-15T23:31:08Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0"
+    },
     "684555a3270c71ead40bec5f": {
       "first_seen": "2026-10-30T01:50:28Z",
       "status": "queued",
@@ -6323,6 +6343,11 @@
       "status": "queued",
       "url": "https://openai.com/index/pollo-ai"
     },
+    "855a448e2acdcbb2d657e11a": {
+      "first_seen": "2026-11-15T23:30:53Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12425"
+    },
     "85760e02a097442bc9f0a4a0": {
       "first_seen": "2026-11-04T10:39:14Z",
       "status": "queued",
@@ -7048,6 +7073,11 @@
       "first_seen": "2026-10-26T05:16:26Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31685"
+    },
+    "945180e094f8cb96aded8e11": {
+      "first_seen": "2026-11-15T23:30:53Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12426"
     },
     "945ba015726b3f326c93c17b": {
       "first_seen": "2026-10-21T20:14:08Z",
@@ -7787,6 +7817,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.08555"
     },
+    "a3688622e36a4d17c2e38fd3": {
+      "first_seen": "2026-11-15T23:30:53Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12423"
+    },
     "a390f1821d8ae660facddf9b": {
       "first_seen": "2026-10-12T09:24:08Z",
       "status": "queued",
@@ -8148,6 +8183,11 @@
       "first_seen": "2026-10-22T07:18:23Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.28703"
+    },
+    "abfd04562e9d50fb9c81f408": {
+      "first_seen": "2026-11-15T23:30:53Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12427"
     },
     "ac2dba7d51e93c7bd65504e7": {
       "first_seen": "2026-10-26T11:16:07Z",
@@ -9190,6 +9230,11 @@
       "first_seen": "2026-10-12T19:18:33Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11569"
+    },
+    "c2de3dd4b16d325ea192c982": {
+      "first_seen": "2026-11-15T23:31:08Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0"
     },
     "c2fb38ee8177687467b1ea82": {
       "first_seen": "2026-11-03T23:00:50Z",
@@ -11272,6 +11317,11 @@
       "status": "queued",
       "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.2rc1"
     },
+    "ecfc2ce5483dc89204d86e6b": {
+      "first_seen": "2026-11-15T23:31:08Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.0"
+    },
     "ed0410e4df19aef3b017a7cf": {
       "first_seen": "2026-11-04T18:14:30Z",
       "status": "queued",
@@ -11873,6 +11923,11 @@
       "first_seen": "2026-11-05T05:49:59Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.05390"
+    },
+    "f860fa769f3e646a81698c0e": {
+      "first_seen": "2026-11-15T23:31:08Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.0"
     },
     "f87baa38b03278bfed1e7313": {
       "first_seen": "2026-10-03T00:46:16Z",

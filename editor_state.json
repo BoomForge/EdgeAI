@@ -77,11 +77,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-15T00:59:46Z",
-    "eligible": 47,
+    "at": "2026-11-15T07:48:24Z",
+    "eligible": 36,
     "evaluated": 2,
     "mode": "live",
-    "new_posts": 2,
+    "new_posts": 1,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -1542,6 +1542,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/"
+    },
+    "1fe1ee1240975f0e03bb4fb6": {
+      "at": "2026-11-15T07:48:11Z",
+      "status": "expired",
+      "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability?utm_source=futuretools.io&utm_medium=newspage"
     },
     "200a5d3dd39c6bfb7a201928": {
       "at": "2026-10-14T12:28:27Z",
@@ -4542,6 +4547,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11509"
     },
+    "65ed3aaa19481013a49b42cb": {
+      "at": "2026-11-15T07:48:11Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "661f64ddb5f472a2675ed75a": {
       "at": "2026-10-07T19:56:55Z",
       "bootstrap": false,
@@ -4661,6 +4671,11 @@
       "status": "ignored",
       "story_key": "vllm-v0-32-1rc0-release",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.1rc0"
+    },
+    "6857efec209352a5d0398934": {
+      "at": "2026-11-15T07:48:11Z",
+      "status": "expired",
+      "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html?utm_source=futuretools.io&utm_medium=newspage"
     },
     "68cbabc2cd02fa79182c91c3": {
       "at": "2026-10-03T18:39:51Z",
@@ -5316,6 +5331,11 @@
       },
       "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "785f901df4669f48d6611d9d": {
+      "at": "2026-11-15T07:48:11Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "788c0a497542431958d6f48b": {
       "at": "2026-10-09T21:38:57Z",
       "status": "expired",
@@ -5948,6 +5968,11 @@
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
       "url": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "87a3878007143ca4caf901ce": {
+      "at": "2026-11-15T07:48:11Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12311"
     },
     "87a723fc5e52567f80085e63": {
       "at": "2026-10-30T19:44:50Z",
@@ -7355,6 +7380,11 @@
       "story_key": "openrouter-rankings-october-2026",
       "url": "https://openrouter.ai/rankings#edgeai-1e6c65588e43ac9e658e"
     },
+    "a7af1b25656fe844c38b28aa": {
+      "at": "2026-11-15T07:48:11Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/crossfade"
+    },
     "a7f933faaa0f4d4ad3a14c35": {
       "at": "2026-10-14T12:28:32Z",
       "bootstrap": false,
@@ -7499,6 +7529,20 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/greptile-code-review-codex-astra"
+    },
+    "a9e65291a2c9e9c29b372e26": {
+      "at": "2026-11-15T07:48:19Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "updated",
+      "story_key": "openrouter-rankings-nov-2026",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 83,
+        "source": "OpenRouter Rankings"
+      },
+      "url": "https://openrouter.ai/rankings#edgeai-6b8fc4b4458dcf0719ec"
     },
     "aa2d93de1ae70902a23c7bf5": {
       "at": "2026-10-05T07:01:46Z",
@@ -7695,6 +7739,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11387"
     },
+    "af12aa70388a5d91d6384b0a": {
+      "at": "2026-11-15T07:48:11Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12308"
+    },
     "af2fbd93182d5c01937faf5a": {
       "at": "2026-10-04T19:34:01Z",
       "bootstrap": true,
@@ -7771,6 +7820,11 @@
       "status": "ignored",
       "story_key": "llamacpp-b12007-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12007"
+    },
+    "b17a3a1d1c7c97e247db6f61": {
+      "at": "2026-11-15T07:48:11Z",
+      "status": "expired",
+      "url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai?utm_source=futuretools.io&utm_medium=newspage"
     },
     "b23a71d2dca41cfabb3715eb": {
       "at": "2026-10-06T02:32:14Z",
@@ -7900,6 +7954,11 @@
       "status": "ignored",
       "story_key": "openai-benefit-street-partners-codex",
       "url": "https://openai.com/index/benefit-street-partners"
+    },
+    "b6e29cbfc8168355030196ae": {
+      "at": "2026-11-15T07:48:11Z",
+      "status": "expired",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "b6f6539d97ae14e80d20aead": {
       "at": "2026-10-08T00:09:43Z",
@@ -8677,6 +8736,11 @@
       "status": "expired",
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "c9f5f3a02381584b240e9d38": {
+      "at": "2026-11-15T07:48:11Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12314"
+    },
     "c9fca9e521cbe2a9fefa9d0a": {
       "at": "2026-10-03T04:48:48Z",
       "bootstrap": true,
@@ -9418,6 +9482,11 @@
       },
       "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
     },
+    "da025025ba482d2ed5ce602a": {
+      "at": "2026-11-15T07:48:11Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2120715518243987685"
+    },
     "da2b601c5cef9c0514f783c5": {
       "at": "2026-11-10T02:43:21Z",
       "bootstrap": false,
@@ -9977,6 +10046,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11477"
     },
+    "e68459d0678d211187c2c834": {
+      "at": "2026-11-15T07:48:11Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12302"
+    },
     "e70bc32f2eb563dd5c6c7e59": {
       "at": "2026-10-22T19:22:03Z",
       "status": "expired",
@@ -10051,6 +10125,11 @@
       "status": "expired",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0"
     },
+    "e86320a8813bf8b24362b0f1": {
+      "at": "2026-11-15T07:48:11Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12306"
+    },
     "e8a95e9b22df9875a5142cea": {
       "at": "2026-10-17T17:58:33Z",
       "bootstrap": false,
@@ -10083,6 +10162,20 @@
       "at": "2026-11-08T00:55:52Z",
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2118094256438936062"
+    },
+    "e9477865501b0215260c38f8": {
+      "at": "2026-11-15T07:48:24Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "datasette-llm-0-1a11-openai-compatible-endpoints",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
+      },
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/"
     },
     "e98c5a8376b2281ced83f67c": {
       "at": "2026-10-09T21:38:57Z",
@@ -12778,6 +12871,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 81,
         "source": "ComfyUI Releases"
+      }
+    },
+    "datasette-llm-0-1a11-openai-compatible-endpoints": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/datasette-llm-0-1a11-openai-compatible-endpoints.jpg",
+      "last_updated": "2026-11-15T07:48:24Z",
+      "post_id": "5350861401708697365",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/datasette-llm-01a11-adds-openai.html",
+      "score": 82,
+      "source_image_source": "Simon Willison Everything",
+      "source_image_url": "https://static.simonwillison.net/static/2026/lmstudio-datasette-agent.webp",
+      "source_urls": [
+        "https://simonwillison.net/2026/Nov/14/datasette-llm/"
+      ],
+      "status": "CONFIRMED",
+      "title": "datasette-llm 0.1a11 Adds OpenAI-Compatible Endpoint Support for Local and Remote Models",
+      "trust": {
+        "label": "Verified",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 91,
+        "source": "Simon Willison Everything"
       }
     },
     "dbreunig-nesformer-qwen3-5-4b-nes-emulator": {
@@ -16687,18 +16801,19 @@
     },
     "openrouter-rankings-nov-2026": {
       "image_source": "EdgeAI editorial artwork",
-      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openrouter-rankings-nov-2026.png",
-      "last_updated": "2026-11-15T00:59:43Z",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openrouter-rankings-nov-2026.jpg",
+      "last_updated": "2026-11-15T07:48:19Z",
       "post_id": "1656617069732955586",
       "post_url": "https://edgeainews.blogspot.com/2026/11/openrouter-usage-data-shows-deepseek.html",
       "score": 82,
       "source_image_source": "OpenRouter Rankings",
       "source_image_url": "https://openrouter.ai/dynamic-og?pathname=rankings&title=LLM+Rankings&description=LLM+rankings+and+AI+leaderboard+by+real-world+usage%2C+ranked+by+tokens+processed+through+the+OpenRouter+API.+See+which+AI+models+developers+actually+use.&v=2",
       "source_urls": [
-        "https://openrouter.ai/rankings#edgeai-39cc7df5863c008628ad"
+        "https://openrouter.ai/rankings#edgeai-39cc7df5863c008628ad",
+        "https://openrouter.ai/rankings#edgeai-6b8fc4b4458dcf0719ec"
       ],
       "status": "CONFIRMED",
-      "title": "OpenRouter Usage Data Shows DeepSeek Capturing Nearly Third of Requests as New Models Climb Leaderboards",
+      "title": "OpenRouter Usage Data Updates: DeepSeek Leads Request Share as New Flash Models Gain Traction",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

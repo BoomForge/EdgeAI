@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "at": "2026-11-15T19:54:55Z",
+    "at": "2026-11-15T23:56:50Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
@@ -9,7 +9,7 @@
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 210,
+  "runs": 211,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -6516,6 +6516,11 @@
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/heygen"
+    },
+    "a43771cc30e1e43f31d5d055": {
+      "first_seen": "2026-11-15T23:56:46Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-8cbf939f25e4d8885e97"
     },
     "a453c4ad1ff40833bc74eb48": {
       "first_seen": "2026-10-03T00:46:05Z",

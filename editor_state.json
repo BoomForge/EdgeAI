@@ -77,11 +77,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-15T07:48:24Z",
-    "eligible": 36,
-    "evaluated": 2,
+    "at": "2026-11-15T20:21:54Z",
+    "eligible": 27,
+    "evaluated": 3,
     "mode": "live",
-    "new_posts": 1,
+    "new_posts": 2,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -1246,6 +1246,11 @@
       },
       "url": "https://x.com/NousResearch/status/2107592260682391925"
     },
+    "1a51f6d11fbb39a9a064382f": {
+      "at": "2026-11-15T20:21:41Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12347"
+    },
     "1a543055a02f9816518cc039": {
       "at": "2026-10-23T11:31:42Z",
       "bootstrap": false,
@@ -1387,6 +1392,11 @@
       },
       "url": "https://openai.com/index/openai-to-acquire-pierre"
     },
+    "1c6e913a4c75ac8479a4b633": {
+      "at": "2026-11-15T20:21:41Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12319"
+    },
     "1c948c95b065977a6cda6fea": {
       "at": "2026-10-23T01:00:40Z",
       "bootstrap": false,
@@ -1400,6 +1410,11 @@
         "source": "Ollama Releases"
       },
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc3"
+    },
+    "1cafc4ef12c584222da40497": {
+      "at": "2026-11-15T20:21:41Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/gemini-robotics-2-5"
     },
     "1cf8eba545fec9e5493fa779": {
       "at": "2026-10-18T09:31:07Z",
@@ -1721,6 +1736,11 @@
         "source": "Ollama Releases"
       },
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1"
+    },
+    "2547bd37d6ce9b913922c0c5": {
+      "at": "2026-11-15T20:21:41Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/gatrends"
     },
     "25493a43cba550c7fe81484a": {
       "at": "2026-11-04T02:16:01Z",
@@ -2301,6 +2321,11 @@
       "at": "2026-10-09T10:27:28Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11435"
+    },
+    "326391c1aa0825e8819be630": {
+      "at": "2026-11-15T20:21:41Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2120938486073029114"
     },
     "32842112ca9593c18d41060a": {
       "at": "2026-11-08T00:55:52Z",
@@ -3065,6 +3090,11 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/"
     },
+    "41769033a9c99e91dfdaa946": {
+      "at": "2026-11-15T20:21:41Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/expo"
+    },
     "419393c3c0a3cbc48abd5b79": {
       "at": "2026-11-06T06:33:30Z",
       "status": "expired",
@@ -3083,6 +3113,11 @@
         "source": "ElevenLabs Research"
       },
       "url": "https://elevenlabs.io/blog/introducing-scribe-v2"
+    },
+    "41bb5ff170bf58a4704b27fc": {
+      "at": "2026-11-15T20:21:41Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "41c2fe1f57c665f0c0b5cb5e": {
       "at": "2026-11-08T14:25:40Z",
@@ -3428,6 +3463,11 @@
       "status": "expired",
       "url": "https://ideogram.ai/models/4.5/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "4bf61703e3df7593f7aa60fb": {
+      "at": "2026-11-15T20:21:41Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/gemini-6"
+    },
     "4c13f8e2c7d9b1ec15096dcd": {
       "at": "2026-10-11T18:49:43Z",
       "status": "expired",
@@ -3758,6 +3798,20 @@
       "status": "expired",
       "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "5500019e475bf359bba75dbe": {
+      "at": "2026-11-15T20:21:45Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "openrouter-rankings-november-2026-usage-shift",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 83,
+        "source": "OpenRouter Rankings"
+      },
+      "url": "https://openrouter.ai/rankings#edgeai-ff9ad93dbc2ae4711179"
+    },
     "551d9f15e55d0a5c767736bf": {
       "at": "2026-10-12T01:40:15Z",
       "status": "expired",
@@ -4061,6 +4115,20 @@
       "status": "ignored",
       "story_key": "llamacpp-b12019-routine-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12019"
+    },
+    "5b86eed0286e0e3b833c14ec": {
+      "at": "2026-11-15T20:21:54Z",
+      "bootstrap": false,
+      "score": 91,
+      "status": "published",
+      "story_key": "google-gemini-4-hydrogen-carbon-argon-release-pricing",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 89,
+        "source": "Simon Willison Everything"
+      },
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/"
     },
     "5bcbb602a5dce00ac99e5530": {
       "at": "2026-11-13T02:48:14Z",
@@ -4874,6 +4942,11 @@
       "at": "2026-10-11T07:07:40Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11489"
+    },
+    "6d71bdd325a5316e532257b8": {
+      "at": "2026-11-15T20:21:41Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "6d99531d45b580bdaecc93c6": {
       "at": "2026-11-13T22:55:05Z",
@@ -6400,6 +6473,11 @@
       "story_key": "openai-singapore-airlines-deployment",
       "url": "https://openai.com/index/singapore-airlines-travel-work"
     },
+    "909ffb9792d19deff7d3fc94": {
+      "at": "2026-11-15T20:21:41Z",
+      "status": "expired",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "90cc6f51408ea53226245800": {
       "at": "2026-10-16T22:03:28Z",
       "bootstrap": false,
@@ -6944,6 +7022,11 @@
         "source": "Artificial Analysis Changelog"
       },
       "url": "https://artificialanalysis.ai/changelog#edgeai-cfd1f3e35b55f8fc6689"
+    },
+    "9eca058caebf2ec5866c00e1": {
+      "at": "2026-11-15T20:21:41Z",
+      "status": "expired",
+      "url": "https://openai.com/index/children-first-declaration/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "9edf7f9e06fbe155638975ed": {
       "at": "2026-10-09T03:09:32Z",
@@ -8006,6 +8089,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11443"
     },
+    "b86c3b944ed17c516642af22": {
+      "at": "2026-11-15T20:21:41Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/pixel-office-3"
+    },
     "b8742f8aa2b36a661caf6169": {
       "at": "2026-10-29T21:19:42Z",
       "status": "expired",
@@ -8442,6 +8530,14 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/practical-guide-building-gpt-6"
+    },
+    "c39b0199f18551723c6d3928": {
+      "at": "2026-11-15T20:21:50Z",
+      "bootstrap": false,
+      "score": 65,
+      "status": "ignored_update",
+      "story_key": "openrouter-rankings-november-2026",
+      "url": "https://openrouter.ai/rankings#edgeai-fc33839487a9136dda84"
     },
     "c3e714b03075093f4990bf66": {
       "at": "2026-11-13T02:48:14Z",
@@ -10392,6 +10488,11 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+    },
+    "ee562a93a718db9bfa8f8f53": {
+      "at": "2026-11-15T20:21:41Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "eeae4eda09cfd9e36977a75c": {
       "at": "2026-10-03T05:49:36Z",
@@ -13232,6 +13333,27 @@
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score. This item originated from a discovery source, which lowers confidence until primary evidence is available.",
         "score": 62,
         "source": "FutureTools AI News"
+      }
+    },
+    "google-gemini-4-hydrogen-carbon-argon-release-pricing": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/google-gemini-4-hydrogen-carbon-argon-release-pricing.png",
+      "last_updated": "2026-11-15T20:21:54Z",
+      "post_id": "1956645451409639166",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/google-launches-gemini-4-family.html",
+      "score": 91,
+      "source_image_source": "Simon Willison Everything",
+      "source_image_url": "https://static.simonwillison.net/static/2026/gemini-4-card.jpg",
+      "source_urls": [
+        "https://simonwillison.net/2026/Nov/12/llm-gemini/"
+      ],
+      "status": "CONFIRMED",
+      "title": "Google Launches Gemini 4 Family Featuring Carbon, Argon, and Hydrogen Models",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 89,
+        "source": "Simon Willison Everything"
       }
     },
     "google-gemini-business-hub-smb-tools": {
@@ -16835,6 +16957,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenRouter Usage Data Show DeepSeek V4.1 Flash Leading Token Volume as New Agent Tools Gain Traction",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 83,
+        "source": "OpenRouter Rankings"
+      }
+    },
+    "openrouter-rankings-november-2026-usage-shift": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openrouter-rankings-november-2026-usage-shift.png",
+      "last_updated": "2026-11-15T20:21:45Z",
+      "post_id": "2560507549412427448",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openrouter-usage-data-highlights_01870227015.html",
+      "score": 82,
+      "source_image_source": "OpenRouter Rankings",
+      "source_image_url": "https://openrouter.ai/dynamic-og?pathname=rankings&title=LLM+Rankings&description=LLM+rankings+and+AI+leaderboard+by+real-world+usage%2C+ranked+by+tokens+processed+through+the+OpenRouter+API.+See+which+AI+models+developers+actually+use.&v=2",
+      "source_urls": [
+        "https://openrouter.ai/rankings#edgeai-ff9ad93dbc2ae4711179"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenRouter Usage Data Highlights DeepSeek Lead and Rising Agent Activity",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

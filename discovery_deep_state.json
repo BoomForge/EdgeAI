@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-15T06:23:53Z",
+    "at": "2026-11-15T14:14:03Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
+    "prefiltered": 6,
     "queued": 3,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 6,
     "warnings": 0
   },
-  "runs": 208,
+  "runs": 209,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -117,6 +117,11 @@
       "first_seen": "2026-10-21T23:32:24Z",
       "status": "queued",
       "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "039c669b1bb9326a0fc87fcb": {
+      "first_seen": "2026-11-15T14:13:58Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/frevana-2"
     },
     "03dc4194d234185480299628": {
       "first_seen": "2026-10-13T10:55:50Z",
@@ -791,6 +796,11 @@
       "first_seen": "2026-11-05T11:39:14Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/glasshand"
+    },
+    "14aed4e213a5574205f9e8a6": {
+      "first_seen": "2026-11-15T14:13:58Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/tulvo"
     },
     "155c7b54b4cbd80e144fcf46": {
       "first_seen": "2026-10-15T14:58:06Z",
@@ -2437,6 +2447,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/bloblings"
     },
+    "3f3bbfd852cb0acfa9900115": {
+      "first_seen": "2026-11-15T14:13:58Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/privacyboard"
+    },
     "3f465524e152c3fd7e95efe5": {
       "first_seen": "2026-10-23T10:24:14Z",
       "status": "queued",
@@ -2638,6 +2654,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/hyperresearch"
+    },
+    "439c143d44947b8130c46fe0": {
+      "first_seen": "2026-11-15T14:13:58Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/byteask-cloud-agents"
     },
     "43b95b3ff902f1231aa03f88": {
       "first_seen": "2026-11-13T15:37:08Z",
@@ -3587,6 +3608,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/reddit"
     },
+    "5bcfb981b23c66fb52ba5e50": {
+      "first_seen": "2026-11-15T14:13:58Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/huntmonitor"
+    },
     "5bdd7f773ac8e958ad2e26f3": {
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "queued",
@@ -3702,6 +3729,11 @@
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/art4"
+    },
+    "5ec99272562d9f68f927b31c": {
+      "first_seen": "2026-11-15T14:13:58Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/collecto-rs"
     },
     "5ee30d117f6cf7759e8ac7ff": {
       "first_seen": "2026-10-03T05:50:29Z",
@@ -4808,6 +4840,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/elocuenti"
     },
+    "79076ba598eb8818f2cec6b0": {
+      "first_seen": "2026-11-15T14:13:58Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/perit-marketplace"
+    },
     "790a0d8121f5c08ed89e857d": {
       "first_seen": "2026-10-06T14:08:51Z",
       "status": "queued",
@@ -5544,6 +5582,12 @@
       "first_seen": "2026-10-15T19:05:42Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/safety-security/circle-to-search-android-text-message-scams/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "8b569281b02c0a98e23f77b3": {
+      "first_seen": "2026-11-15T14:13:58Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/rakazo"
     },
     "8b5eb31ac4f18cae3fbfecf9": {
       "first_seen": "2026-10-17T08:44:04Z",
@@ -7181,6 +7225,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/toolaby"
     },
+    "b86c3b944ed17c516642af22": {
+      "first_seen": "2026-11-15T14:13:58Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/pixel-office-3"
+    },
     "b8742f8aa2b36a661caf6169": {
       "first_seen": "2026-10-26T17:40:15Z",
       "status": "queued",
@@ -7576,6 +7625,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/terse-durable-actors"
     },
+    "c39b0199f18551723c6d3928": {
+      "first_seen": "2026-11-15T14:13:59Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-fc33839487a9136dda84"
+    },
     "c39be7b7ef76e252eff5eeb7": {
       "first_seen": "2026-10-27T12:46:49Z",
       "status": "too_old",
@@ -7628,6 +7682,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/"
     },
+    "c4990196051d5dc2827f78e9": {
+      "first_seen": "2026-11-15T14:13:58Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/talyn"
+    },
     "c4ec31c82cda551ded42d793": {
       "first_seen": "2026-11-04T23:37:16Z",
       "search_score": 0,
@@ -7644,6 +7703,11 @@
       "first_seen": "2026-10-09T07:47:51Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/agentsdr"
+    },
+    "c5b70ad9b674e540b2611659": {
+      "first_seen": "2026-11-15T14:13:58Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/twobucket"
     },
     "c5bca5c7ae5da88b7dbfb55f": {
       "first_seen": "2026-10-27T12:46:49Z",
@@ -8226,6 +8290,11 @@
       "first_seen": "2026-10-30T09:55:37Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/fastbrowse"
+    },
+    "d682ab4a9c8b474f249d76b5": {
+      "first_seen": "2026-11-15T14:13:58Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/spiik"
     },
     "d69e0929ed6bd473916daabb": {
       "first_seen": "2026-10-30T03:00:28Z",
@@ -9494,6 +9563,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/dashrendr"
     },
+    "f7ede8c3a65a19fd969f8e74": {
+      "first_seen": "2026-11-15T14:13:58Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/emayler"
+    },
     "f7fda8171297815a5553f115": {
       "first_seen": "2026-10-23T10:24:14Z",
       "status": "queued",
@@ -9648,6 +9723,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/isurge"
+    },
+    "fb091be4a141775fffd09239": {
+      "first_seen": "2026-11-15T14:13:58Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/remindly-6"
     },
     "fb1c28bbf7a9b2bc862fa7a6": {
       "first_seen": "2026-11-10T20:02:29Z",

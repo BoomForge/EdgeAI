@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-14T23:59:17Z",
+    "at": "2026-11-15T05:47:16Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 3,
+    "queued": 11,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 209,
+  "runs": 210,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1943,6 +1943,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
     },
+    "27c1d4390ac1abb00958fb6d": {
+      "first_seen": "2026-11-15T05:46:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12393"
+    },
     "27c6d4d54b8e5e0bff643540": {
       "first_seen": "2026-10-16T14:55:30Z",
       "status": "queued",
@@ -3806,6 +3811,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12071"
     },
+    "4fe49f32efc53d1642f7a2e1": {
+      "first_seen": "2026-11-15T05:47:07Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.110.0-rc.3"
+    },
     "50275e9e70731dd5cc15563d": {
       "first_seen": "2026-11-12T03:09:00Z",
       "status": "queued",
@@ -3926,6 +3936,16 @@
       "first_seen": "2026-10-14T00:36:35Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11609"
+    },
+    "535d15b75fc388f937310581": {
+      "first_seen": "2026-11-15T05:46:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12397"
+    },
+    "536fdced49760cdbb51a58eb": {
+      "first_seen": "2026-11-15T05:46:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12407"
     },
     "53ef1840b857a00e1fa9f08a": {
       "first_seen": "2026-10-18T05:33:04Z",
@@ -4177,6 +4197,11 @@
       "first_seen": "2026-11-11T07:35:50Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.13228"
+    },
+    "580a03cdc84373885d79c997": {
+      "first_seen": "2026-11-15T05:46:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12395"
     },
     "585d8ccf0f7fdd2482fb52e7": {
       "first_seen": "2026-10-21T05:49:01Z",
@@ -6161,6 +6186,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11685"
     },
+    "83eeaa1b79289e4571f79130": {
+      "first_seen": "2026-11-15T05:46:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12394"
+    },
     "83fae39fd1ea431a06d57889": {
       "first_seen": "2026-10-28T19:52:45Z",
       "status": "queued",
@@ -6180,6 +6210,11 @@
       "first_seen": "2026-11-12T03:08:48Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.9"
+    },
+    "842f516a45a249d31901cf08": {
+      "first_seen": "2026-11-15T05:47:07Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.111.0-dev.3"
     },
     "843eb345c8a66c727a11ac68": {
       "first_seen": "2026-10-07T21:34:26Z",
@@ -7119,6 +7154,11 @@
       "first_seen": "2026-10-07T21:34:26Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.1"
+    },
+    "9826855b554edd436b4540d5": {
+      "first_seen": "2026-11-15T05:47:07Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.111.0-dev.4"
     },
     "984067f85ba968311275c636": {
       "first_seen": "2026-10-15T05:40:20Z",
@@ -9537,6 +9577,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11642"
     },
+    "cc4516b37e549b6cb88aa86d": {
+      "first_seen": "2026-11-15T05:46:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12391"
+    },
     "cc7118bcbdf6cec52c018402": {
       "first_seen": "2026-11-11T07:35:50Z",
       "status": "queued",
@@ -9779,6 +9824,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08876"
     },
+    "d09b308505d7995e640e23f6": {
+      "first_seen": "2026-11-15T05:46:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12390"
+    },
     "d0a8eada7cef3cd1cd98f4ed": {
       "first_seen": "2026-10-26T05:16:26Z",
       "status": "queued",
@@ -9878,6 +9928,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00064"
+    },
+    "d31f75a44c657682d693a575": {
+      "first_seen": "2026-11-15T05:46:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12396"
     },
     "d34b418885403b50c7960409": {
       "first_seen": "2026-11-14T20:05:03Z",

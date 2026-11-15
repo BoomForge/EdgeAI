@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-15T13:41:18Z",
+    "at": "2026-11-15T19:28:21Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 8,
+    "queued": 9,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 211,
+  "runs": 212,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -20,6 +20,11 @@
       "first_seen": "2026-10-28T23:55:43Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc1"
+    },
+    "0036110339d67454672ff49c": {
+      "first_seen": "2026-11-15T19:27:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12422"
     },
     "00427e47df5ef3064509e152": {
       "first_seen": "2026-10-06T23:06:44Z",
@@ -583,6 +588,11 @@
       "first_seen": "2026-11-08T01:48:52Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12193"
+    },
+    "0e0c418dc1251a5fe35dbdff": {
+      "first_seen": "2026-11-15T19:27:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12415"
     },
     "0e1db53b0026ae7a0a2d7e6d": {
       "first_seen": "2026-10-20T00:28:13Z",
@@ -1608,6 +1618,11 @@
       "first_seen": "2026-10-17T12:47:08Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11710"
+    },
+    "1ff848dff5136fe198f49626": {
+      "first_seen": "2026-11-15T19:27:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12418"
     },
     "20016e67a5bee634ee1cd932": {
       "first_seen": "2026-11-07T14:09:34Z",
@@ -5297,6 +5312,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.28747"
     },
+    "6dbca9e88271ca48fdfb54b7": {
+      "first_seen": "2026-11-15T19:27:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12421"
+    },
     "6dca85f696cdb99b504dcc67": {
       "first_seen": "2026-10-29T11:23:28Z",
       "status": "queued",
@@ -6382,6 +6402,11 @@
       "first_seen": "2026-10-21T05:49:09Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7"
+    },
+    "86e51c515335ad9445b88535": {
+      "first_seen": "2026-11-15T19:28:16Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.1"
     },
     "86f9c103a896d630dbe524c5": {
       "first_seen": "2026-11-09T05:26:20Z",
@@ -8003,6 +8028,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11932"
     },
+    "a96426a983f65bf22bed952c": {
+      "first_seen": "2026-11-15T19:27:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12416"
+    },
     "a96dde8c7e248443f7487f01": {
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
@@ -8871,6 +8901,11 @@
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.19071"
+    },
+    "bc999bebf3ec509604217bb5": {
+      "first_seen": "2026-11-15T19:27:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12419"
     },
     "bca108e4c77bd86b238b884f": {
       "first_seen": "2026-11-03T10:03:35Z",
@@ -10019,6 +10054,11 @@
       "status": "too_old",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1"
     },
+    "d4dd293567378d2d33d6eebd": {
+      "first_seen": "2026-11-15T19:27:59Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12420"
+    },
     "d4eadc6264742490b3b97c71": {
       "first_seen": "2026-10-03T00:46:16Z",
       "status": "queued",
@@ -11120,6 +11160,11 @@
       "first_seen": "2026-11-01T08:08:12Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12032"
+    },
+    "eae32330265b922139eb3812": {
+      "first_seen": "2026-11-15T19:27:58Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.4"
     },
     "eaf3ddcfa2f2b6accff54d95": {
       "first_seen": "2026-10-03T00:46:05Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-15T05:47:16Z",
+    "at": "2026-11-15T13:41:18Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 11,
+    "queued": 8,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 210,
+  "runs": 211,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1448,6 +1448,11 @@
       "first_seen": "2026-10-19T16:56:03Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11737"
+    },
+    "1cbc833d0e4d154b9e7ffb8a": {
+      "first_seen": "2026-11-15T13:40:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12412"
     },
     "1ce9c5a561d19543dbbddec9": {
       "first_seen": "2026-10-27T12:40:00Z",
@@ -3234,6 +3239,11 @@
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.67.0"
     },
+    "43ab29f4d5cb615001019ef2": {
+      "first_seen": "2026-11-15T13:40:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12408"
+    },
     "43b68f3d614400681e9b782c": {
       "first_seen": "2026-10-27T06:24:39Z",
       "status": "queued",
@@ -4016,6 +4026,11 @@
       "first_seen": "2026-10-30T23:31:44Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/desktop-nightly-20261030214224"
+    },
+    "54f22941f753b29474a9a20c": {
+      "first_seen": "2026-11-15T13:40:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12410"
     },
     "55343430538830063dc618ba": {
       "first_seen": "2026-10-08T07:31:18Z",
@@ -6131,6 +6146,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12050"
     },
+    "831f4d5eb09bd985959e83dc": {
+      "first_seen": "2026-11-15T13:40:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12411"
+    },
     "833124248916cfb2704b549e": {
       "first_seen": "2026-11-09T05:25:55Z",
       "status": "queued",
@@ -7485,6 +7505,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11453"
     },
+    "9e80738c65b218fbe0b9fc9c": {
+      "first_seen": "2026-11-15T13:40:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12409"
+    },
     "9e90f3b0496f4064b4ab3d5d": {
       "first_seen": "2026-10-07T09:14:06Z",
       "status": "queued",
@@ -7882,6 +7907,11 @@
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22515"
+    },
+    "a7429a581a4190c46c08d4c5": {
+      "first_seen": "2026-11-15T13:41:04Z",
+      "status": "queued",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master"
     },
     "a75390adc4db4398d5bca0ca": {
       "first_seen": "2026-10-21T05:49:00Z",
@@ -9703,6 +9733,11 @@
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/desktop-nightly-20261104233655"
     },
+    "ce5013197147c8660b0f058e": {
+      "first_seen": "2026-11-15T13:40:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12414"
+    },
     "ce56c2f85b023448550285f1": {
       "first_seen": "2026-10-27T12:40:00Z",
       "status": "queued",
@@ -10498,6 +10533,11 @@
       "first_seen": "2026-10-21T16:05:39Z",
       "status": "queued",
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+    },
+    "dec28e7e21f35774df84f099": {
+      "first_seen": "2026-11-15T13:40:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12413"
     },
     "dec45192904d8250c4004df0": {
       "first_seen": "2026-10-08T20:34:09Z",

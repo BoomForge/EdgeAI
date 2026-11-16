@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-16T11:44:19Z",
+    "at": "2026-11-16T21:48:02Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 53,
+    "prefiltered": 5,
+    "queued": 22,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 215,
+  "runs": 216,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -223,6 +223,11 @@
       "status": "too_old",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0"
     },
+    "05fe485b609dbaed5cc73c2e": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/"
+    },
     "060168416610737110b7917f": {
       "first_seen": "2026-11-13T00:34:17Z",
       "status": "queued",
@@ -257,6 +262,11 @@
       "first_seen": "2026-10-08T07:31:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08792"
+    },
+    "06b77d408489d463550b76b1": {
+      "first_seen": "2026-11-16T21:47:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12444"
     },
     "06caa1015b4111713a1554c1": {
       "first_seen": "2026-11-11T00:54:08Z",
@@ -1287,6 +1297,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20761"
     },
+    "1a2dc027f61b14759bb18abd": {
+      "first_seen": "2026-11-16T21:47:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12443"
+    },
     "1a39657ce4fa82382e6400d4": {
       "first_seen": "2026-10-28T01:42:05Z",
       "status": "queued",
@@ -1361,6 +1376,11 @@
       "first_seen": "2026-10-20T15:11:37Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11757"
+    },
+    "1accc93f0c1b22e94ad543c3": {
+      "first_seen": "2026-11-16T21:47:54Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.918-beta"
     },
     "1ad68fd246afaeafc9d9255e": {
       "first_seen": "2026-10-08T07:31:18Z",
@@ -1544,6 +1564,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11945"
     },
+    "1d891614ecffa637cf78bcb1": {
+      "first_seen": "2026-11-16T21:47:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12447"
+    },
     "1dbe22633003a2af4fddcdba": {
       "first_seen": "2026-10-20T00:28:04Z",
       "status": "queued",
@@ -1725,6 +1750,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.13219"
     },
+    "21b4758ab52123ac78ffa3db": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "status": "queued",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams"
+    },
     "21cf97a31169335770f5cab4": {
       "first_seen": "2026-11-07T01:11:56Z",
       "status": "queued",
@@ -1739,6 +1769,11 @@
       "first_seen": "2026-11-16T11:43:50Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.17472"
+    },
+    "21e886491b30cfff0403f0b9": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "status": "queued",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare"
     },
     "222f5929fe32403709284bc1": {
       "first_seen": "2026-10-05T09:14:07Z",
@@ -2289,6 +2324,11 @@
       "first_seen": "2026-10-27T06:24:47Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11918"
+    },
+    "2d7a5d6b20fff3cd431e56c6": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "status": "queued",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
     },
     "2d7f90284b95f6fe7941fe4e": {
       "first_seen": "2026-10-03T00:45:51Z",
@@ -3010,6 +3050,11 @@
       "first_seen": "2026-11-02T10:42:43Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40692"
+    },
+    "3d4aeac88b69acfaa9cd944c": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "status": "queued",
+      "url": "https://openai.com/business/customer-stories/holiday-extras-dots"
     },
     "3d4f03cc82948ccccc141e93": {
       "first_seen": "2026-10-14T15:16:26Z",
@@ -3967,6 +4012,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.110.0-rc.3"
     },
+    "4fe7a1d3cccec0b0cd08d944": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gtig-ai-threat-tracker-q4-2026/"
+    },
     "50275e9e70731dd5cc15563d": {
       "first_seen": "2026-11-12T03:09:00Z",
       "status": "queued",
@@ -4550,6 +4600,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.12981"
     },
+    "5cdbb0432c2d7f9c119479f2": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/"
+    },
     "5d023c2a1961329c95c3c90e": {
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
@@ -4755,6 +4810,11 @@
       "first_seen": "2026-11-05T05:50:00Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.05403"
+    },
+    "60f3c7381bc61eae5e3d002a": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "status": "queued",
+      "url": "https://openai.com/index/the-kings-trust-and-openai"
     },
     "6109ff708803585f7b4061a4": {
       "first_seen": "2026-10-03T00:45:57Z",
@@ -5084,6 +5144,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.33007"
     },
+    "66c26f89d499749cc55b21a0": {
+      "first_seen": "2026-11-16T21:47:38Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1"
+    },
     "66ce92e5e68cbdb18eafdb5b": {
       "first_seen": "2026-10-03T05:43:25Z",
       "status": "queued",
@@ -5397,6 +5462,11 @@
       "first_seen": "2026-11-13T00:34:06Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12324"
+    },
+    "6c84a24e87d5256d5c1bac10": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/training-performance-benchmarks-tpus/"
     },
     "6c883b8091f090772dce997b": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -6402,6 +6472,12 @@
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0"
     },
+    "83b8e4ac14a30e6ce9a608ee": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/maps/holiday-thanksgiving-travel-trends-2026/"
+    },
     "83c757b36ce8c8329be2986c": {
       "first_seen": "2026-10-12T19:18:33Z",
       "status": "queued",
@@ -6663,6 +6739,11 @@
       "first_seen": "2026-11-03T10:03:35Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40883"
+    },
+    "87eab1f4addd37d69d730db9": {
+      "first_seen": "2026-11-16T21:47:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12438"
     },
     "87f2acc3c33b27130de6c099": {
       "first_seen": "2026-10-09T06:41:17Z",
@@ -7831,6 +7912,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12158"
     },
+    "9fe6d2ae73e55f52b8078f18": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "status": "queued",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments"
+    },
     "9ff0bcb58d0a1990dee6fd95": {
       "first_seen": "2026-10-12T09:24:00Z",
       "status": "queued",
@@ -8520,6 +8606,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11965"
     },
+    "ae7d7f2d28f88874fb124695": {
+      "first_seen": "2026-11-16T21:47:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12445"
+    },
     "ae8cc1ad843ebfe5fc666522": {
       "first_seen": "2026-10-19T21:22:48Z",
       "status": "queued",
@@ -8584,6 +8675,11 @@
       "first_seen": "2026-10-12T19:18:52Z",
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.10"
+    },
+    "af74a8027d34006dc873943f": {
+      "first_seen": "2026-11-16T21:47:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12442"
     },
     "af7a6ec1d32da74998cce1fd": {
       "first_seen": "2026-11-11T07:35:50Z",
@@ -8760,6 +8856,12 @@
       "first_seen": "2026-11-06T16:15:30Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12176"
+    },
+    "b3643525470dc0d8db53f957": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/search/holiday-prep-search-2026/"
     },
     "b38ba77c73719f59f0b858e8": {
       "first_seen": "2026-10-25T13:40:54Z",
@@ -9501,6 +9603,11 @@
       "first_seen": "2026-10-23T04:34:33Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.28686"
+    },
+    "c36f7f8681e6b1314e30d0c6": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "status": "queued",
+      "url": "https://blog.google/products/publisher-connections/new-google-admob-tools/"
     },
     "c37ae89eeb136ded26fa13e9": {
       "first_seen": "2026-10-26T05:16:55Z",
@@ -10382,6 +10489,12 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12127"
     },
+    "d50f3589ad0577a43ce6c735": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-is-coming-to-europe/"
+    },
     "d5177fa05e26326e9c45761c": {
       "first_seen": "2026-10-21T05:49:01Z",
       "status": "queued",
@@ -10597,6 +10710,11 @@
       "first_seen": "2026-10-24T04:26:18Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11847"
+    },
+    "d91fd06de7b8771ee8ad78bb": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "status": "queued",
+      "url": "https://openai.com/index/science-at-the-frontier"
     },
     "d9382542407a53db42bdda13": {
       "first_seen": "2026-10-30T01:50:28Z",
@@ -10820,6 +10938,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12209"
     },
+    "dd659f011024f04f24b0b918": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "status": "queued",
+      "url": "https://openai.com/index/strengthening-online-child-safety"
+    },
     "dd6669033ccdf16934af21a3": {
       "first_seen": "2026-10-15T22:27:27Z",
       "status": "queued",
@@ -10958,6 +11081,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/waze/waze-the-cat-in-the-hat/"
+    },
+    "dfc32ad6652396f06f7a9375": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/"
     },
     "dfdb0f5667e9b7c113f3d9b1": {
       "first_seen": "2026-10-09T06:41:17Z",
@@ -11900,6 +12029,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0"
     },
+    "f32591813a96388e9853ccba": {
+      "first_seen": "2026-11-16T21:47:38Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12441"
+    },
     "f32712b46e4edc8d4c0a0e12": {
       "first_seen": "2026-10-22T13:02:09Z",
       "search_score": 0,
@@ -12175,6 +12309,12 @@
       "first_seen": "2026-10-16T10:06:04Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11682"
+    },
+    "f7dbf1f3ab9e55e408769c37": {
+      "first_seen": "2026-11-16T21:47:31Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/shopping/black-friday-cyber-monday-shopping-tips-2026/"
     },
     "f7ff1d3af8b569ff53e61508": {
       "first_seen": "2026-11-04T18:14:09Z",

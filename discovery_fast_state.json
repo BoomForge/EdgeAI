@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-15T23:31:13Z",
+    "at": "2026-11-16T03:06:40Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 11,
+    "queued": 2,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 213,
+  "runs": 214,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1785,6 +1785,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0"
     },
+    "244bc6a7baca1b2fec964c28": {
+      "first_seen": "2026-11-16T03:06:35Z",
+      "status": "queued",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.6"
+    },
     "24af44a01ab954fad24eedc5": {
       "first_seen": "2026-11-14T01:45:51Z",
       "status": "queued",
@@ -2421,6 +2426,11 @@
       "first_seen": "2026-10-21T05:49:00Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.26887"
+    },
+    "322b635678d5442ac7e37b4a": {
+      "first_seen": "2026-11-16T03:06:19Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12428"
     },
     "32300cb27ee8e889c800b417": {
       "first_seen": "2026-10-12T09:24:00Z",

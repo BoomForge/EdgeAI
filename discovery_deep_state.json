@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-16T06:18:22Z",
+    "at": "2026-11-16T16:16:43Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 8,
+    "prefiltered": 6,
+    "queued": 6,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 7,
     "warnings": 0
   },
-  "runs": 212,
+  "runs": 213,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -295,6 +295,12 @@
       "first_seen": "2026-11-01T13:14:08Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/agentmash"
+    },
+    "07afe5eaa5493f462c798cd4": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/punchcutter"
     },
     "07dffacc5be464373897633e": {
       "first_seen": "2026-10-08T16:26:00Z",
@@ -849,6 +855,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/dotmd-3"
     },
+    "164ff2e912f3fc3813005830": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/chatgpt"
+    },
     "16664f89bddb74894b31a820": {
       "first_seen": "2026-10-15T09:50:31Z",
       "status": "too_old",
@@ -1165,6 +1176,11 @@
       "first_seen": "2026-10-12T15:14:38Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/understory-notes"
+    },
+    "1d2110b64a76376788fca39e": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/zoom"
     },
     "1d28ebd782e70d3cc523800e": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -1618,6 +1634,11 @@
       "first_seen": "2026-10-13T10:55:50Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/genchi"
+    },
+    "293c3dcea91d7d29176c298a": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/pine-drama-studio"
     },
     "293d47966afcddeabb5541fb": {
       "first_seen": "2026-11-16T06:18:18Z",
@@ -2252,6 +2273,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/clips-by-plastic"
     },
+    "39398d083ec15310347d670b": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/blomma"
+    },
     "395ffc3e9f574d449ffebf3b": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -2299,6 +2326,12 @@
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/famrelay"
+    },
+    "3b1054e5c740888f56c5b7ad": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/papyras"
     },
     "3b144701f1e5458b6b4c85a6": {
       "first_seen": "2026-11-09T11:23:00Z",
@@ -2772,6 +2805,12 @@
       "status": "queued",
       "url": "https://www.anthropic.com/research/ecdsa-curve-origins?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "4768d0a0e6fcb14056b4e6dd": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/trusty-csv"
+    },
     "478f01b39dc8430bd4ef55d6": {
       "first_seen": "2026-11-12T19:12:15Z",
       "status": "too_old",
@@ -3228,6 +3267,11 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-b8d5b32175f1b291afc5"
     },
+    "51963416ec3a337541475559": {
+      "first_seen": "2026-11-16T16:16:39Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-a3cd0f3d202b95485502"
+    },
     "51e9644687d4622bc1d41619": {
       "first_seen": "2026-10-08T08:53:54Z",
       "search_score": 1,
@@ -3354,6 +3398,11 @@
       "first_seen": "2026-10-13T10:55:50Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/fina"
+    },
+    "551b3f8b06d4a249ce29ccb2": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/stateweave"
     },
     "551d9f15e55d0a5c767736bf": {
       "first_seen": "2026-10-09T01:22:21Z",
@@ -4413,6 +4462,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
     },
+    "6ebf6d390583b6d31e4e1d9e": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/notebook-to-notes"
+    },
     "6ed6092618baa4eb3e01dc98": {
       "first_seen": "2026-11-13T15:37:08Z",
       "search_score": 0,
@@ -4523,6 +4578,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://sakana.ai/world-models-royal-society-issue/"
+    },
+    "7176a68ea14b730b32ab978a": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/pharen-hub"
     },
     "7177bbd870c7ddb8e8536412": {
       "first_seen": "2026-10-31T12:57:54Z",
@@ -5228,6 +5288,11 @@
       "first_seen": "2026-10-13T03:13:29Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/12/web-edit/"
+    },
+    "81a0a504b3c3ef56f6bd0490": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/degla-ai"
     },
     "81dba6fe40f7c0eb3a32cc16": {
       "first_seen": "2026-11-16T06:18:18Z",
@@ -6716,6 +6781,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/"
     },
+    "a93fe2026663ae7f78a95d76": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/cal"
+    },
     "a965ad1e1f7a1bf383469c95": {
       "first_seen": "2026-11-15T00:05:36Z",
       "status": "queued",
@@ -7455,6 +7526,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/infinite-drive"
     },
+    "bdf22b0180712426ae2c6d34": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/offiai"
+    },
     "bdfd46eaf2cae139ef0717a4": {
       "first_seen": "2026-10-14T18:01:02Z",
       "status": "queued",
@@ -7654,6 +7730,11 @@
       "first_seen": "2026-10-26T21:56:06Z",
       "status": "queued",
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "c2f6e088536b8cb2d36ace12": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/findy-3"
     },
     "c338cc27b47c37b92288f512": {
       "first_seen": "2026-10-20T15:17:17Z",
@@ -8454,6 +8535,11 @@
       "status": "queued",
       "url": "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models"
     },
+    "d8fbfa161e9eaa8c76dba326": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/openframe-3"
+    },
     "d908fca1662779833a79a997": {
       "first_seen": "2026-11-05T11:39:14Z",
       "status": "too_old",
@@ -8862,6 +8948,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/yogurt"
     },
+    "e2e908adea265af5fa78ec8a": {
+      "first_seen": "2026-11-16T16:16:42Z",
+      "status": "queued",
+      "url": "https://sakana.ai/jfinbench/"
+    },
     "e304e836ef011046d393ab70": {
       "first_seen": "2026-11-11T07:15:37Z",
       "status": "queued",
@@ -9099,6 +9190,11 @@
       "first_seen": "2026-11-09T21:33:40Z",
       "status": "queued",
       "url": "https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "eb2651937ed27e6e98285f0b": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/sumsung"
     },
     "eb333a2d7512ce898ff99eac": {
       "first_seen": "2026-10-22T07:30:04Z",
@@ -9729,6 +9825,11 @@
       "first_seen": "2026-11-04T09:57:44Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2117848456404545779"
+    },
+    "f9dade833f70dc2a057836f0": {
+      "first_seen": "2026-11-16T16:16:38Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/freebuff-2"
     },
     "fa1e0193207164e24389a829": {
       "first_seen": "2026-11-11T15:31:28Z",

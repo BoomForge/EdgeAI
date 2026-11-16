@@ -1934,6 +1934,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "ff7833693fa2a06713dc923a",
+      "discovered_at": "2026-11-16T11:43:49Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Mon, 16 Nov 2026 09:00:00 GMT",
+      "search_score": 7,
+      "source_name": "OpenAI News",
+      "summary": "LVMH\u2019s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "title": "LVMH\u2019s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "952d2516af2e905436adea3b",
       "discovered_at": "2026-11-09T23:28:15Z",
       "kind": "official",
@@ -2239,20 +2253,6 @@
       "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
       "title": "Rewarding defenders with bigger bug bounties",
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "5a014341bc3fc0f1d8b6431c",
-      "discovered_at": "2026-11-02T20:30:31Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Mon, 02 Nov 2026 09:00:00 GMT",
-      "search_score": 4,
-      "source_name": "OpenAI News",
-      "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
-      "title": "LifeVal",
-      "url": "https://openai.com/index/lifeval"
     },
     {
       "bootstrap": false,
@@ -3208,6 +3208,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "d151f1ade931c65656c4683d",
+      "discovered_at": "2026-11-16T11:43:56Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-16T09:24:51Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "server: answer reasoning_effort levels the template rejects with 400 ( #32332 ) The reasoning effort probe already renders every candidate level, but it dropped the ones the template raises on, so a request with such a level (e.g. max on Qwen3.8) reached the template and came back as a 500 on /v1/chat/completions, /v1/responses and /v1/messages. Keep the raising levels in reasoning_effort_rejected and reject them in oaicompat_chat_params_parse with an invalid_argument, which the server answers with a 400 listing the supported levels. Aliases and levels a template ignores are not rejected, so high on Qwen3.8 still renders as xhigh. Also trim the output_config.effort test to a single level. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68044159 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12431",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12431"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "855a448e2acdcbb2d657e11a",
       "discovered_at": "2026-11-15T23:30:53Z",
       "kind": "local-ai",
@@ -3485,23 +3499,9 @@
       "summary": "model, mtmd: drama-3 tts support ( #31613 ) model, mtmd: drama-3 tts support clean up mtmd: drama3 helper stops at the codebook tower limit Co-authored-by: Pascal admin@serveurperso.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63780976 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12116",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12116"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "322b635678d5442ac7e37b4a",
-      "discovered_at": "2026-11-16T03:06:19Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-16T00:17:10Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "jinja: add 4 missing features ( #32352 ) jinja: add 4 missing features apply suggestion Co-authored-by: Aldehir Rojas hello@alde.dev fix error msg Co-authored-by: Aldehir Rojas hello@alde.dev Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67916336 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12428",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12428"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-16T03:06:40Z",
+  "updated_at": "2026-11-16T11:44:19Z",
   "version": 2
 }

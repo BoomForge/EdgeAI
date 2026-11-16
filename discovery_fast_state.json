@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-16T03:06:40Z",
+    "at": "2026-11-16T11:44:19Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 2,
+    "prefiltered": 2,
+    "queued": 53,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 214,
+  "runs": 215,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -56,6 +56,11 @@
       "first_seen": "2026-10-28T07:28:01Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.33030"
+    },
+    "01243d038aa368358e9e5a38": {
+      "first_seen": "2026-11-16T11:43:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12432"
     },
     "016ba8533bb9699e8b512010": {
       "first_seen": "2026-11-09T14:19:20Z",
@@ -389,6 +394,11 @@
       "status": "queued",
       "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.0rc4"
     },
+    "0a4f448f2a71c1de2d81811a": {
+      "first_seen": "2026-11-16T11:43:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12433"
+    },
     "0a4f535604978bdcd4afecf7": {
       "first_seen": "2026-10-28T07:28:01Z",
       "status": "queued",
@@ -479,6 +489,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12141"
     },
+    "0be19cb9fd7facbb724127f3": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17503"
+    },
     "0be4f86c9f0221271a17a6da": {
       "first_seen": "2026-10-18T09:53:06Z",
       "status": "queued",
@@ -518,6 +533,11 @@
       "first_seen": "2026-10-09T19:20:42Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11531"
+    },
+    "0cbca077d8cb8dd17fc706d8": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17460"
     },
     "0ce49673993106aa9c7c9763": {
       "first_seen": "2026-10-19T10:02:48Z",
@@ -633,6 +653,11 @@
       "first_seen": "2026-10-03T15:10:00Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11372"
+    },
+    "0ede3a276ab0763f677b5b0b": {
+      "first_seen": "2026-11-16T11:43:49Z",
+      "status": "queued",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/what-teenagers-really-think-about-online-safety-and-ai/"
     },
     "0f0020abcf733229d29f4d40": {
       "first_seen": "2026-11-10T13:19:05Z",
@@ -869,6 +894,11 @@
       "first_seen": "2026-10-22T07:18:23Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.28693"
+    },
+    "12aad75270e342b25ded34ce": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17695"
     },
     "12cd4e1837f040ae377322d2": {
       "first_seen": "2026-11-09T05:25:55Z",
@@ -1312,6 +1342,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06898"
     },
+    "1a95542d46c479e42593ca33": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17573"
+    },
     "1aab6efabbe27417e2d827f0": {
       "first_seen": "2026-10-28T01:42:23Z",
       "status": "queued",
@@ -1574,6 +1609,11 @@
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.2.0"
     },
+    "1ed045c587c0fd1541d58e91": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17971"
+    },
     "1ee054f8306049bbc177567c": {
       "first_seen": "2026-10-16T05:36:33Z",
       "status": "queued",
@@ -1583,6 +1623,12 @@
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22514"
+    },
+    "1f23847ee94ced5c5d37028f": {
+      "first_seen": "2026-11-16T11:43:49Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/listening-to-teens-on-online-safety/"
     },
     "1f3dc93fdcc8618bf863ae4a": {
       "first_seen": "2026-10-23T04:34:34Z",
@@ -1689,6 +1735,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12894"
     },
+    "21e30472518104d328cdd04d": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17472"
+    },
     "222f5929fe32403709284bc1": {
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
@@ -1779,6 +1830,11 @@
       "first_seen": "2026-10-28T07:28:01Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.36178"
+    },
+    "243053897d73d83a763107c6": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17463"
     },
     "2434881791854a653a123034": {
       "first_seen": "2026-10-17T22:56:57Z",
@@ -1946,6 +2002,11 @@
       "first_seen": "2026-10-26T21:51:28Z",
       "status": "queued",
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work"
+    },
+    "27419fb9b25b2aed5d031137": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17589"
     },
     "277870ffc8d71544c0465c13": {
       "first_seen": "2026-11-03T02:38:36Z",
@@ -2163,6 +2224,11 @@
       "first_seen": "2026-11-11T07:35:50Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.12969"
+    },
+    "2c28b61551a2855a43533fec": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17481"
     },
     "2c315a1352cc7df2a101db49": {
       "first_seen": "2026-10-03T18:43:36Z",
@@ -2488,6 +2554,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.05381"
     },
+    "336a6a8c433b2fc0f5bb2be9": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17686"
+    },
     "338ea65b29ca83a891bd3fe8": {
       "first_seen": "2026-10-03T00:45:58Z",
       "status": "queued",
@@ -2704,6 +2775,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02382"
     },
+    "389827c6d3becbb6e2c1c851": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17461"
+    },
     "38b821a66d33dbe7ea016fac": {
       "first_seen": "2026-10-15T05:40:21Z",
       "status": "queued",
@@ -2823,6 +2899,11 @@
       "first_seen": "2026-11-09T23:28:24Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12228"
+    },
+    "3b1e79756c2af5172757ee61": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17464"
     },
     "3b44381c0318cdccb4d00be7": {
       "first_seen": "2026-10-05T18:34:46Z",
@@ -3394,6 +3475,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.14115"
     },
+    "45cbac4ccc3183fde0536a37": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17459"
+    },
     "45d6a2b79938283a07ca47b3": {
       "first_seen": "2026-10-09T00:38:25Z",
       "status": "queued",
@@ -3473,6 +3559,11 @@
       "first_seen": "2026-10-31T22:37:49Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12024"
+    },
+    "4756719697cbc8d91441f282": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17438"
     },
     "4781fe6b2e595b40c6f1cd4f": {
       "first_seen": "2026-11-06T08:29:14Z",
@@ -3635,6 +3726,11 @@
       "status": "prefiltered",
       "url": "https://blog.google/products/ads-commerce/demand-gen-drop-october-2026/"
     },
+    "4ac66f0ceceacb1604f99a9c": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17671"
+    },
     "4b185b4114ecd186618d067d": {
       "first_seen": "2026-10-23T04:34:42Z",
       "status": "queued",
@@ -3764,6 +3860,11 @@
       "first_seen": "2026-10-22T13:02:17Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11812"
+    },
+    "4d968f6e78ed32c47ee65da5": {
+      "first_seen": "2026-11-16T11:43:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12435"
     },
     "4dadc7afdfda6c937b172d62": {
       "first_seen": "2026-10-21T05:49:00Z",
@@ -3957,6 +4058,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc0"
     },
+    "52d33fc412ff4ea4ab7a581a": {
+      "first_seen": "2026-11-16T11:43:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12430"
+    },
     "52d6630a95f44fa24c5e7c14": {
       "first_seen": "2026-11-02T20:30:55Z",
       "status": "queued",
@@ -4051,6 +4157,11 @@
       "first_seen": "2026-11-11T07:35:50Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.12975"
+    },
+    "54bf1f9f1cbd6a1799e8140c": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17629"
     },
     "54c40d4f8a721b37dcf1d6dc": {
       "first_seen": "2026-11-06T08:29:14Z",
@@ -4263,6 +4374,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.26898"
     },
+    "586c8d98eed3672407972f62": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17390"
+    },
     "588b5e83217720e44e256b01": {
       "first_seen": "2026-10-12T09:24:00Z",
       "status": "queued",
@@ -4384,6 +4500,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12019"
     },
+    "5b66b471dda6a30666311ba5": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17339"
+    },
     "5bcbb602a5dce00ac99e5530": {
       "first_seen": "2026-11-09T23:28:24Z",
       "status": "queued",
@@ -4418,6 +4539,11 @@
       "first_seen": "2026-10-22T07:18:23Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.28800"
+    },
+    "5cc536aed4b9c93361471046": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17341"
     },
     "5ccbdd91da0df07ba7386b3c": {
       "first_seen": "2026-11-11T07:35:50Z",
@@ -4475,6 +4601,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12330"
     },
+    "5da9a95de14e592d935b175e": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17495"
+    },
     "5db63836ea0cc2dd4a3a4218": {
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
@@ -4489,6 +4620,11 @@
       "first_seen": "2026-10-12T09:23:59Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12598"
+    },
+    "5e6e10331c4927ab919f10a9": {
+      "first_seen": "2026-11-16T11:43:51Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17395"
     },
     "5e742d363152cad5a3c39241": {
       "first_seen": "2026-10-26T21:51:38Z",
@@ -4609,6 +4745,11 @@
       "first_seen": "2026-11-05T05:50:00Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.05543"
+    },
+    "608ff44b77f1e9b2664fb95a": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17398"
     },
     "60cd81702cb0d89e197f325a": {
       "first_seen": "2026-11-05T05:50:00Z",
@@ -5604,6 +5745,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.2"
     },
+    "732714e7e6ffa514ace7b986": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17462"
+    },
     "73a1503565fd9c8047e8dc60": {
       "first_seen": "2026-10-21T05:49:00Z",
       "status": "queued",
@@ -5763,6 +5909,11 @@
       "first_seen": "2026-10-21T11:25:13Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11792"
+    },
+    "779981c7cacf901a2d499aec": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17400"
     },
     "77c569ee3623683d5b804985": {
       "first_seen": "2026-10-06T19:03:40Z",
@@ -6195,6 +6346,11 @@
       "first_seen": "2026-11-02T20:30:37Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12050"
+    },
+    "831014337f28ecd6faf96793": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17585"
     },
     "831f4d5eb09bd985959e83dc": {
       "first_seen": "2026-11-15T13:40:57Z",
@@ -6918,6 +7074,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-science-ai-flu-forecasts/"
     },
+    "8ff4e5f5ba569f03161a946c": {
+      "first_seen": "2026-11-16T11:43:51Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17554"
+    },
     "9020b27c9f19ba74ce25ee50": {
       "first_seen": "2026-10-27T06:24:40Z",
       "status": "queued",
@@ -6962,6 +7123,11 @@
       "first_seen": "2026-10-27T01:17:41Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11912"
+    },
+    "90eb69d0f58041e56af3852c": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17547"
     },
     "913f8566e8adb0f7b4070605": {
       "first_seen": "2026-10-27T12:40:02Z",
@@ -7170,6 +7336,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc1"
     },
+    "963bbe19ff67ab4441c4be69": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17515"
+    },
     "964c13ba54cd144f67878c09": {
       "first_seen": "2026-11-05T05:50:06Z",
       "status": "queued",
@@ -7245,6 +7416,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.111.0-dev.4"
     },
+    "983869a411e6500922d26fc1": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.18164"
+    },
     "984067f85ba968311275c636": {
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
@@ -7259,6 +7435,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02254"
+    },
+    "9892f483392e1af648aeab45": {
+      "first_seen": "2026-11-16T11:43:51Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17534"
     },
     "98aa9d8219b7f717a5338dfc": {
       "first_seen": "2026-10-19T04:18:14Z",
@@ -7344,6 +7525,11 @@
       "first_seen": "2026-10-08T07:31:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08817"
+    },
+    "99c1510809acafe4d6e00a2b": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17586"
     },
     "99f6aeac949b58917f976025": {
       "first_seen": "2026-11-11T00:54:08Z",
@@ -7584,6 +7770,11 @@
       "first_seen": "2026-11-10T20:29:56Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12249"
+    },
+    "9e9e21e450871d508d6e5fd5": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17469"
     },
     "9ea04f0fa810f50b8774110e": {
       "first_seen": "2026-10-07T09:14:07Z",
@@ -7881,6 +8072,11 @@
       "first_seen": "2026-10-23T04:34:34Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.30293"
+    },
+    "a4c280613bf190a62e8668c8": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17754"
     },
     "a4cbe3ac092595fda9e3f5cd": {
       "first_seen": "2026-11-01T08:08:12Z",
@@ -8184,6 +8380,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11707"
     },
+    "abdab22d415d60e6d00c7031": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.18095"
+    },
     "abdb707b0a55aeaa8cbd0126": {
       "first_seen": "2026-11-05T05:49:59Z",
       "status": "queued",
@@ -8449,6 +8650,11 @@
       "status": "too_old",
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.19"
     },
+    "b1080a5a1409832adf51fb28": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17412"
+    },
     "b1215e1aefc04c61e203617a": {
       "first_seen": "2026-10-21T16:05:39Z",
       "status": "queued",
@@ -8565,6 +8771,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11619"
     },
+    "b3fc674c3d84fc157dac03b3": {
+      "first_seen": "2026-11-16T11:43:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12429"
+    },
     "b43ac9894b2f08d94db766cb": {
       "first_seen": "2026-10-14T22:37:21Z",
       "status": "queued",
@@ -8635,6 +8846,11 @@
       "first_seen": "2026-10-22T17:56:24Z",
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.0"
+    },
+    "b5ad9238006e35fdab0f763f": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17505"
     },
     "b64a64ebcbf24722e01cfde4": {
       "first_seen": "2026-10-21T23:26:41Z",
@@ -9019,6 +9235,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11747"
     },
+    "be63adcf754cd68e9e15e554": {
+      "first_seen": "2026-11-16T11:43:51Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17377"
+    },
     "be69b6e013180f12cd52ef0c": {
       "first_seen": "2026-10-15T10:18:30Z",
       "status": "queued",
@@ -9091,6 +9312,11 @@
       "status": "prefiltered",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/professional-agentic-architect/"
     },
+    "bf6ba6cbf1979bff4e351deb": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17563"
+    },
     "bf6c1f5aeba5312508e129fe": {
       "first_seen": "2026-10-24T00:03:03Z",
       "status": "queued",
@@ -9150,6 +9376,11 @@
       "first_seen": "2026-10-23T04:34:34Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.30158"
+    },
+    "c0fb3abdbf393ee063b314a4": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17501"
     },
     "c11c748e3403dedaf0128484": {
       "first_seen": "2026-10-07T09:14:31Z",
@@ -9291,6 +9522,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0"
     },
+    "c3d744f9ee59091f54c20b39": {
+      "first_seen": "2026-11-16T11:43:51Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17393"
+    },
     "c3e714b03075093f4990bf66": {
       "first_seen": "2026-11-09T23:28:24Z",
       "status": "queued",
@@ -9360,6 +9596,12 @@
       "first_seen": "2026-11-02T20:30:31Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/"
+    },
+    "c47f47b287d1511a6be8f5de": {
+      "first_seen": "2026-11-16T11:43:49Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/helping-teens-navigate-online-news-and-information/"
     },
     "c4c326f056f4c7d6cb175a9b": {
       "first_seen": "2026-11-11T07:35:50Z",
@@ -9536,6 +9778,11 @@
       "first_seen": "2026-10-03T05:43:25Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00050"
+    },
+    "c876496118766282bf936d94": {
+      "first_seen": "2026-11-16T11:43:58Z",
+      "status": "queued",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0"
     },
     "c89c726031442963aa88da79": {
       "first_seen": "2026-10-05T09:14:07Z",
@@ -9988,6 +10235,11 @@
       "first_seen": "2026-11-09T05:25:55Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.08711"
+    },
+    "d151f1ade931c65656c4683d": {
+      "first_seen": "2026-11-16T11:43:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12431"
     },
     "d1805e3f2f0da44c46b2b874": {
       "first_seen": "2026-10-21T05:49:09Z",
@@ -11023,6 +11275,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12302"
     },
+    "e6b637328ef2109d9e898dbc": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17340"
+    },
     "e6b9156abe518911efc1189c": {
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
@@ -11739,6 +11996,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11573"
     },
+    "f50e63d8425077c4b471e590": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17524"
+    },
     "f5158b5c51ab256ed67c101e": {
       "first_seen": "2026-11-06T08:29:14Z",
       "status": "queued",
@@ -11793,6 +12055,11 @@
       "first_seen": "2026-10-03T00:46:13Z",
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.901-beta"
+    },
+    "f5dc4cd120b45659518fb591": {
+      "first_seen": "2026-11-16T11:43:50Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.17338"
     },
     "f5e3a385b6f3a020ce0f857e": {
       "first_seen": "2026-10-28T07:28:01Z",
@@ -12096,6 +12363,11 @@
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-builders/"
     },
+    "fbadea49c730880f6dde4079": {
+      "first_seen": "2026-11-16T11:43:56Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12436"
+    },
     "fbcf4a4810c3f155950daca5": {
       "first_seen": "2026-11-12T03:08:35Z",
       "status": "queued",
@@ -12218,6 +12490,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/"
+    },
+    "ff7833693fa2a06713dc923a": {
+      "first_seen": "2026-11-16T11:43:49Z",
+      "status": "queued",
+      "url": "https://openai.com/index/lvmh-media-division-partnership"
     },
     "ff94713669a843bf34098765": {
       "first_seen": "2026-10-03T00:46:21Z",

@@ -77,11 +77,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-16T00:11:17Z",
-    "eligible": 29,
-    "evaluated": 4,
+    "at": "2026-11-16T16:16:44Z",
+    "eligible": 34,
+    "evaluated": 3,
     "mode": "live",
-    "new_posts": 2,
+    "new_posts": 1,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -230,6 +230,11 @@
         "source": "ElevenLabs Research"
       },
       "url": "https://elevenlabs.io/blog/eleven-v4"
+    },
+    "02e8ec0c2ffd76d89d05d4ef": {
+      "at": "2026-11-16T16:16:32Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/replicate-10"
     },
     "02e9abf47eaf3fa01f98fe0d": {
       "at": "2026-11-13T02:48:14Z",
@@ -1919,6 +1924,20 @@
       "at": "2026-11-13T02:48:14Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/zus-2"
+    },
+    "293d47966afcddeabb5541fb": {
+      "at": "2026-11-16T16:16:36Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "artificial-analysis-changelog-updates-november-2026",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-635fb1f2438a960c3f69"
     },
     "295354ff422b0d4db922748e": {
       "at": "2026-11-07T06:23:46Z",
@@ -9235,6 +9254,20 @@
       },
       "url": "https://www.liquid.ai/blog/lfm3?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "d3060d89af73e54ef7bccdb5": {
+      "at": "2026-11-16T16:16:44Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "updated",
+      "story_key": "openrouter-rankings-nov-2026",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 83,
+        "source": "OpenRouter Rankings"
+      },
+      "url": "https://openrouter.ai/rankings#edgeai-3c6642c72d07263f6fc3"
+    },
     "d30951486cef96799b23ba80": {
       "at": "2026-10-06T16:08:39Z",
       "bootstrap": false,
@@ -10566,6 +10599,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/vocera"
     },
+    "efeb8597e0e5869ab2b9b20b": {
+      "at": "2026-11-16T16:16:32Z",
+      "status": "expired",
+      "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "eff7b109e5ada0968b399ef2": {
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
@@ -11275,6 +11313,14 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://microsoft.ai/models/mai-voice-2-1/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "ff7833693fa2a06713dc923a": {
+      "at": "2026-11-16T16:16:37Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "lvmh-media-division-openai-partnership",
+      "url": "https://openai.com/index/lvmh-media-division-partnership"
     },
     "ff94713669a843bf34098765": {
       "at": "2026-10-03T05:49:31Z",
@@ -12140,6 +12186,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Artificial Analysis Changelog Expands with New Benchmarks for Muse Wonder, Claude Haiku 5.5, and Nemotron 3.5",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
+    "artificial-analysis-changelog-updates-november-2026": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-updates-november-2026.jpg",
+      "last_updated": "2026-11-16T16:16:36Z",
+      "post_id": "7154143815540334262",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/artificial-analysis-updates-benchmark_01250193997.html",
+      "score": 82,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-635fb1f2438a960c3f69"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Updates Benchmark Suite with Multimodal Knowledge Agent and Endpoint Accuracy v1.1",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
@@ -17010,7 +17077,7 @@
     "openrouter-rankings-nov-2026": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openrouter-rankings-nov-2026.jpg",
-      "last_updated": "2026-11-15T07:48:19Z",
+      "last_updated": "2026-11-16T16:16:44Z",
       "post_id": "1656617069732955586",
       "post_url": "https://edgeainews.blogspot.com/2026/11/openrouter-usage-data-shows-deepseek.html",
       "score": 82,
@@ -17018,10 +17085,11 @@
       "source_image_url": "https://openrouter.ai/dynamic-og?pathname=rankings&title=LLM+Rankings&description=LLM+rankings+and+AI+leaderboard+by+real-world+usage%2C+ranked+by+tokens+processed+through+the+OpenRouter+API.+See+which+AI+models+developers+actually+use.&v=2",
       "source_urls": [
         "https://openrouter.ai/rankings#edgeai-39cc7df5863c008628ad",
-        "https://openrouter.ai/rankings#edgeai-6b8fc4b4458dcf0719ec"
+        "https://openrouter.ai/rankings#edgeai-6b8fc4b4458dcf0719ec",
+        "https://openrouter.ai/rankings#edgeai-3c6642c72d07263f6fc3"
       ],
       "status": "CONFIRMED",
-      "title": "OpenRouter Usage Data Updates: DeepSeek Leads Request Share as New Flash Models Gain Traction",
+      "title": "OpenRouter Usage Data Updates: DeepSeek and Flash Variants Drive Mid-November 2026 Developer Traffic",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

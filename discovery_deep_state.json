@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-15T23:56:50Z",
+    "at": "2026-11-16T06:18:22Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 1,
+    "queued": 8,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 211,
+  "runs": 212,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -56,6 +56,11 @@
       "first_seen": "2026-10-03T00:46:01Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-955ba114b67aea6e882c"
+    },
+    "0139ca5c534e35bb8a1d3a99": {
+      "first_seen": "2026-11-16T06:18:18Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/"
     },
     "01619fc955cc4a4bfbd33fc3": {
       "first_seen": "2026-10-23T10:24:14Z",
@@ -1614,6 +1619,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/genchi"
     },
+    "293d47966afcddeabb5541fb": {
+      "first_seen": "2026-11-16T06:18:18Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-635fb1f2438a960c3f69"
+    },
     "29e2961ad01fe1426761c81e": {
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
@@ -2326,6 +2336,11 @@
       "first_seen": "2026-10-06T19:44:10Z",
       "status": "queued",
       "url": "https://mistral.ai/news/mistral-large-4/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "3c506afcbc50208331080207": {
+      "first_seen": "2026-11-16T06:18:18Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/"
     },
     "3c58363126cc522922ad0d71": {
       "first_seen": "2026-10-29T13:31:54Z",
@@ -4814,6 +4829,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/movo-ai"
     },
+    "785556550f342c383b00eac2": {
+      "first_seen": "2026-11-16T06:18:17Z",
+      "status": "queued",
+      "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "785ae5d61ec0075f6154b90e": {
       "first_seen": "2026-10-08T21:27:34Z",
       "status": "queued",
@@ -5208,6 +5228,11 @@
       "first_seen": "2026-10-13T03:13:29Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/12/web-edit/"
+    },
+    "81dba6fe40f7c0eb3a32cc16": {
+      "first_seen": "2026-11-16T06:18:18Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/"
     },
     "820aacb33cc2fe6ca5e65112": {
       "first_seen": "2026-11-12T11:41:10Z",
@@ -6318,6 +6343,11 @@
       "first_seen": "2026-11-03T22:28:15Z",
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-2026/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "9f458effb436880f96cc8c0a": {
+      "first_seen": "2026-11-16T06:18:18Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/"
     },
     "9f8b3ec7b4c977a08ab2b829": {
       "first_seen": "2026-10-03T11:34:52Z",
@@ -8181,6 +8211,11 @@
       "status": "queued",
       "url": "https://www.liquid.ai/blog/lfm3?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "d3060d89af73e54ef7bccdb5": {
+      "first_seen": "2026-11-16T06:18:18Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-3c6642c72d07263f6fc3"
+    },
     "d30951486cef96799b23ba80": {
       "first_seen": "2026-10-06T00:46:20Z",
       "status": "queued",
@@ -8221,6 +8256,11 @@
       "first_seen": "2026-11-07T00:52:28Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/orgsync-2"
+    },
+    "d47427f5a2b9c3b358fac05b": {
+      "first_seen": "2026-11-16T06:18:18Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/"
     },
     "d475dd0535cf07b7b7724188": {
       "first_seen": "2026-10-03T21:50:36Z",

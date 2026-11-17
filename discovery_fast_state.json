@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-16T21:48:02Z",
+    "at": "2026-11-17T04:22:46Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 5,
-    "queued": 22,
+    "prefiltered": 0,
+    "queued": 10,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 216,
+  "runs": 217,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -178,6 +178,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12321"
     },
+    "04ecdddb59500e6a6e6a7e27": {
+      "first_seen": "2026-11-17T04:22:26Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.5"
+    },
     "05064262ca929f3c6421a46b": {
       "first_seen": "2026-11-11T15:37:21Z",
       "status": "queued",
@@ -302,6 +307,11 @@
       "first_seen": "2026-11-14T01:46:06Z",
       "status": "queued",
       "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.26"
+    },
+    "07ad340d516d5c74cf114df9": {
+      "first_seen": "2026-11-17T04:22:27Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12464"
     },
     "07b0a504cffc9ba025499190": {
       "first_seen": "2026-11-05T05:49:59Z",
@@ -3077,6 +3087,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.08645"
     },
+    "3da80bd5f3881c7099bf21b7": {
+      "first_seen": "2026-11-17T04:22:27Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12449"
+    },
     "3dce2ac03e5d2d4c1b174454": {
       "first_seen": "2026-10-12T09:23:59Z",
       "status": "queued",
@@ -3299,6 +3314,11 @@
       "first_seen": "2026-10-22T13:02:17Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11813"
+    },
+    "41bd99c275642dbe333e102b": {
+      "first_seen": "2026-11-17T04:22:27Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12448"
     },
     "41c2fe1f57c665f0c0b5cb5e": {
       "first_seen": "2026-11-05T14:19:51Z",
@@ -3714,6 +3734,11 @@
       "first_seen": "2026-11-14T08:45:09Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.14766"
+    },
+    "496033c2e7e0cae01f5ded6e": {
+      "first_seen": "2026-11-17T04:22:27Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12451"
     },
     "4978d21247862747aac1f9eb": {
       "first_seen": "2026-11-08T15:51:35Z",
@@ -8400,6 +8425,11 @@
       "status": "queued",
       "url": "https://openai.com/index/greptile-code-review-codex-astra"
     },
+    "a9fd2e1fd1a889be157e17e3": {
+      "first_seen": "2026-11-17T04:22:46Z",
+      "status": "queued",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.69.0"
+    },
     "aa178b575bb249be9aef3b15": {
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
@@ -8455,6 +8485,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10616"
+    },
+    "ab5bb7f913814fd758cd0da5": {
+      "first_seen": "2026-11-17T04:22:27Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12452"
     },
     "ab896b3f94b1c56b7c0b6b90": {
       "first_seen": "2026-11-11T22:15:42Z",
@@ -9153,6 +9188,11 @@
       "first_seen": "2026-10-06T13:36:39Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11440"
+    },
+    "ba3017b268cc58fb5960cf01": {
+      "first_seen": "2026-11-17T04:22:27Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12455"
     },
     "ba63583808d70cbbc5e9d640": {
       "first_seen": "2026-10-09T06:41:16Z",
@@ -10802,6 +10842,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31695"
     },
+    "db09ed93754679a1c660e55d": {
+      "first_seen": "2026-11-17T04:22:27Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12453"
+    },
     "db1777bc52884b113d89b6a7": {
       "first_seen": "2026-10-29T04:59:01Z",
       "status": "queued",
@@ -10897,6 +10942,11 @@
       "first_seen": "2026-10-16T05:36:48Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.0.94"
+    },
+    "dcc57936e34a58b3a4f39c06": {
+      "first_seen": "2026-11-17T04:22:37Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.10"
     },
     "dcc9028e84e8faeb34c01468": {
       "first_seen": "2026-11-06T01:39:11Z",

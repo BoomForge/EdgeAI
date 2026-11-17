@@ -2060,20 +2060,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "019edb616369c3322f4c44a5",
-      "discovered_at": "2026-11-03T23:00:43Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Tue, 03 Nov 2026 00:00:00 GMT",
-      "search_score": 6,
-      "source_name": "OpenAI News",
-      "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company\u2019s global communications and corporate positioning.",
-      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
-      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "9fe6d2ae73e55f52b8078f18",
       "discovered_at": "2026-11-16T21:47:31Z",
       "kind": "official",
@@ -2662,20 +2648,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "d12853f6724947c696e58430",
-      "discovered_at": "2026-11-03T02:38:44Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-02T23:21:48Z",
-      "search_score": 15,
-      "source_name": "llama.cpp Releases",
-      "summary": "mtmd: Pocket tts - support for voices without voice cloning ( #31429 ) feat: support PocketTTS voices with no voice cloning The kyutai/pocket-tts-without-voice-cloning weights ship predefined voices as the backbone KV state after the voice prompt. The converter turns each state back into the prompt embeddings and stores them in the mmproj (voice.), the zeroed voice encoder is left out, and the \"voice\" field of /tts and --tts-voice select one of them. A speaker reference is rejected when the model has no voice encoder. Assisted-by: Claude Fable 5.1 convert : pocket-tts voices never fail the conversion, log the drift of the state The voice states shipped by Kyutai are not always the ones the pack's weights give for the prompt: italian, german and spanish match within the bf16 rounding, english_2026-04 is 2% off and french 20% (its layer 0 state comes from other weights), while the reference loads them as is and they still sound like the same voice. The converter now re-prompts the backbone with the recovered embeddings, compares the whole state and logs the distance per voice, warning above 5%. A state that does not belong to the weights at all is skipped, so the packs of kyutai/pocket-tts convert too. Assisted-by: Claude Fable 5.1 mtmd : list the predefined voices, expose them in GET /props mtmd_gen_audio_info gains n_voices and mtmd_gen_audio_voice_name() the names, with the voices worded as a feature of any audio generation model. The server lists them under \"voices\" in /props when the model ships some. Assisted-by: Claude Fable 5.1 server : an unknown voice is a bad request A model with predefined voices answers 400 naming the voice instead of 500 \"failed to process TTS prompt\". A model without them ignores \"voice\" with a warning, as the other audio generation models do. Assisted-by: Claude Fable 5.1 refactor api fix conversion small renaming fix lint tts : a model with predefined voices speaks with the first one by default Without a voice prompt such a model only produces near silence. When neither a voice nor a speaker reference is given, llama-tts and the server now take the first predefined voice and say so in the log, as the LFM3-Audio template does with its default voice. Assisted-by: Claude Fable 5.1 mtmd : one comment per voice accessor, converter states the rule only The clip.h comment described clip_gen_get_voice but sat above all three functions; the converter comment quoted the drift measured per pack, which goes stale with the next upload of the weights. Assisted-by: Claude Fable 5.1 clean up redundant code and comments mtmd: match the LFM3-Audio voice name case-insensitively The tts chat template lowers the voice name, so Male speaks with the male voice; the voice lookup lowers it the same way and names the bitmap after the canonical voice. Co-authored-by: Xuan Son Nguyen son@huggingface.co Co-authored-by: Pascal admin@serveurperso.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62875624 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.4 DLLs Windows arm64 (CUDA 13) - CUDA 13.4 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12061",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12061"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "1a51f6d11fbb39a9a064382f",
       "discovered_at": "2026-11-13T07:16:50Z",
       "kind": "local-ai",
@@ -2956,17 +2928,31 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "f3123bdeed841684f4be5d5f",
-      "discovered_at": "2026-11-03T02:38:45Z",
+      "candidate_id": "ab5bb7f913814fd758cd0da5",
+      "discovered_at": "2026-11-17T04:22:27Z",
       "kind": "local-ai",
       "lane": "fast",
       "priority": 2,
-      "published": "2026-11-03T01:40:40Z",
-      "search_score": 9,
-      "source_name": "Ollama Releases",
-      "summary": "What's Changed ci: pin buildx to workaround deadlock by @dhiltgen in #19373 openai: preserve readable Responses input content by @hoyyeva in #19192 mlx: sort long top-k rows in chunks by @dhiltgen in #19392 app: make ChatGPT disconnect failures retryable by @hoyyeva in #19336 launch: use model output limits for Claude Code by @ParthSareen in #19410 openai: don't override model sampler defaults by @dhiltgen in #19432 launch: check ChatGPT routing before configuring by @hoyyeva in #19470 server: decode cloud web search responses by @ParthSareen in #19476 Full Changelog : v0.40.13...v0.40.14-rc0",
-      "title": "v0.40.14",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0"
+      "published": "2026-11-17T04:03:02Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "mtmd: support fish audio s2 ( #32330 ) add fisk-audio-s2 support add voice cloning cont merge master nits nits clean up nits use new batch api Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68449752 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12452",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12452"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "496033c2e7e0cae01f5ded6e",
+      "discovered_at": "2026-11-17T04:22:27Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-17T03:38:36Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "ui: move the web UI to ui/apps/chat and call it Llama Chat ( #32032 ) ui: move tools/ui to ui/apps/chat The chat app moves to its own root folder, ui/apps/chat, as the first step of splitting the UI into one library (ui/lib) and the apps built on it (ui/apps). The code is unchanged; every path that pointed at tools/ui now points at ui/apps/chat: CMake adds it from tools/, and the Dockerfiles, the Nix package, the workflows, the labeler, CODEOWNERS, .editorconfig, the git hooks, the dev and demo scripts and the docs follow it. Assisted-by: Claude (Opus 5.5 Medium) ui: name Llama Chat's package @ggml-org/llama-chat It was still called llama-ui, the name of the library that now sits beside it in ui/lib (@ggml-org/llama-ui). The package stays private; the app's display name and the llama-ui.zip build artifact are unchanged. Assisted-by: Claude (Opus 5.5 Medium) ui: call the built-in web UI Llama Chat in docs, help text and comments The app in tools/ui is Llama Chat; Llama UI is the component library it is built from. Prose that said \"Web UI\", \"web UI\" or \"WebUI\" for the app now names it: the READMEs, SECURITY.md, the --ui help text, the CMake option description, one server log line, code comments and the Storybook intro. Names that others depend on are unchanged: the deprecated --webui flag aliases, the LLAMA_*_WEBUI CMake and environment names, the webui_settings field, the storage migration keys and the Nix attributes. Assisted-by: Claude (Opus 5.5 Medium) ui: name tools/ui as a former path of Llama Chat in the code-review skill Changes under the old tools/ui path, as well as tools/server/webui, still get the Llama Chat checklist. Assisted-by: Claude (Opus 5.5 Medium) ui: name Llama Chat's path in the security policy's exclusions Llama Chat no longer lives under tools/server/, so the exclusion listed under it now names ui/apps/chat. What is covered stays the same. Assisted-by: Claude (Opus 5.5 Medium) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68443440 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12451",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12451"
     },
     {
       "bootstrap": false,
@@ -3499,9 +3485,23 @@
       "summary": "mtmd: support MageVL-Cowork model ( #31819 ) mtmd: support MageVL-Cowork model mtmd: keep magevl rope_freqs at model level and check its shape The rope factors are shared by every layer, so they live in clip_model instead of a pointer copied into each clip_layer. The loader now checks that v.rope_freqs is F32 with d_head elements and that d_head splits into the 4:6:6 pairs the graph expects. Co-authored-by: Pascal admin@serveurperso.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64922655 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12192",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12192"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "db09ed93754679a1c660e55d",
+      "discovered_at": "2026-11-17T04:22:27Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-17T04:19:53Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "MMVQ: Tune ne11 Gate for RDNA3_5 ( #32308 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68453642 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12453",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12453"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-16T21:48:02Z",
+  "updated_at": "2026-11-17T04:22:46Z",
   "version": 2
 }

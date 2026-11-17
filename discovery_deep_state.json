@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-16T16:16:43Z",
+    "at": "2026-11-17T00:23:48Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 6,
-    "queued": 6,
+    "prefiltered": 3,
+    "queued": 15,
     "sources_ok": 15,
-    "too_old": 7,
+    "too_old": 5,
     "warnings": 0
   },
-  "runs": 213,
+  "runs": 214,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -173,6 +173,11 @@
       "first_seen": "2026-11-13T15:37:08Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/galaxy"
+    },
+    "04d4b812e951d0f454da5a50": {
+      "first_seen": "2026-11-17T00:23:43Z",
+      "status": "queued",
+      "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "04ffbf1e02c2570faffddc3b": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -666,6 +671,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/sitesolide"
+    },
+    "1190125068388c56d42d5110": {
+      "first_seen": "2026-11-17T00:23:44Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/agentwatch-ai-traffic-tracker"
     },
     "1192ef5ce2087cd4def4e0eb": {
       "first_seen": "2026-11-06T20:59:29Z",
@@ -1672,6 +1682,12 @@
       "status": "queued",
       "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "2a82b6a0fdb1acb1ad5047ef": {
+      "first_seen": "2026-11-17T00:23:44Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/glifa"
+    },
     "2a8e5b2eeed733baf988d7ff": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -1807,6 +1823,11 @@
       "first_seen": "2026-10-15T14:58:06Z",
       "status": "queued",
       "url": "https://bfl.ai/models/flux-3-image-klein"
+    },
+    "2e7c463ec9b99c3e5ffdc2f1": {
+      "first_seen": "2026-11-17T00:23:43Z",
+      "status": "queued",
+      "url": "https://www.wsj.com/business/autos/tesla-opens-sales-of-autonomous-cybercab-for-select-customers-8d2feae3?utm_source=futuretools.io&utm_medium=newspage"
     },
     "2e7e9c41607a282bc3bf2845": {
       "first_seen": "2026-10-16T21:47:28Z",
@@ -2226,6 +2247,11 @@
       "status": "queued",
       "url": "https://runway.com/research/introducing-praxis-1"
     },
+    "385719ee315c507688d901a3": {
+      "first_seen": "2026-11-17T00:23:47Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2122411675412463689"
+    },
     "385ae8376cad7b1f6fcf8675": {
       "first_seen": "2026-10-30T09:55:37Z",
       "search_score": 0,
@@ -2495,6 +2521,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/bloblings"
     },
+    "3f101269b4ec4bea4bbf3355": {
+      "first_seen": "2026-11-17T00:23:44Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/lexicad"
+    },
     "3f3bbfd852cb0acfa9900115": {
       "first_seen": "2026-11-15T14:13:58Z",
       "search_score": 0,
@@ -2597,6 +2629,11 @@
       "first_seen": "2026-10-08T16:25:55Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/isle-notch"
+    },
+    "40e80e1ce89664d39e4d6693": {
+      "first_seen": "2026-11-17T00:23:43Z",
+      "status": "queued",
+      "url": "https://openai.com/index/science-at-the-frontier/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "4104450b512f4e78f61ce3a5": {
       "first_seen": "2026-11-09T11:23:00Z",
@@ -2925,6 +2962,11 @@
       "status": "queued",
       "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "496dc73a8d779a37b5e7e16b": {
+      "first_seen": "2026-11-17T00:23:43Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "498416fd21efac76353b1cbd": {
       "first_seen": "2026-11-11T00:37:31Z",
       "status": "queued",
@@ -3132,6 +3174,12 @@
       "first_seen": "2026-10-06T00:46:26Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107210064549343358"
+    },
+    "4e3bd0a8765cc070efc688eb": {
+      "first_seen": "2026-11-17T00:23:44Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/lingomic"
     },
     "4e8a43958f16f0b47961d68e": {
       "first_seen": "2026-10-21T20:18:30Z",
@@ -3378,6 +3426,11 @@
       "first_seen": "2026-10-26T11:34:46Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/pdf-accessibility-checker"
+    },
+    "54cf79ee79f78c9e08dd60f8": {
+      "first_seen": "2026-11-17T00:23:44Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/flamigo"
     },
     "54ed88bfa16aa334327fb5bf": {
       "first_seen": "2026-10-07T21:57:47Z",
@@ -4228,6 +4281,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/coding-wrapped"
     },
+    "684177c7474e1f2690e84f7e": {
+      "first_seen": "2026-11-17T00:23:44Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/docsy-4"
+    },
     "6857efec209352a5d0398934": {
       "first_seen": "2026-11-12T03:15:57Z",
       "status": "queued",
@@ -4699,6 +4757,11 @@
       "first_seen": "2026-11-11T15:31:28Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/elevenlabs"
+    },
+    "7456bc59b56e495288676aee": {
+      "first_seen": "2026-11-17T00:23:43Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "74580c76c4b983efd6274c97": {
       "first_seen": "2026-10-14T13:07:10Z",
@@ -5371,6 +5434,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/aperture-7"
+    },
+    "838edf7754ddc0bced08f352": {
+      "first_seen": "2026-11-17T00:23:43Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "839d6d597ccc5e11a4c36a32": {
       "first_seen": "2026-10-06T19:44:10Z",
@@ -6329,6 +6397,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/pocketwebtools"
     },
+    "9d019397c19237b4507d7763": {
+      "first_seen": "2026-11-17T00:23:47Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2122393723497590981"
+    },
     "9d2417f40cde50f04449dce6": {
       "first_seen": "2026-10-19T00:11:45Z",
       "status": "queued",
@@ -6403,6 +6476,11 @@
       "first_seen": "2026-10-23T00:13:01Z",
       "status": "queued",
       "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "9f25466b43ef885ae78d0649": {
+      "first_seen": "2026-11-17T00:23:47Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2122409173552087203"
     },
     "9f36e77d73f4156fe2ce238e": {
       "first_seen": "2026-11-03T22:28:15Z",
@@ -6751,6 +6829,11 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-9306a718d8b1bf40a8c0"
     },
+    "a84dd76bec819875746f5568": {
+      "first_seen": "2026-11-17T00:23:43Z",
+      "status": "queued",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "a8549a14c24fb0a2a31553a7": {
       "first_seen": "2026-10-19T10:44:24Z",
       "status": "too_old",
@@ -7053,6 +7136,11 @@
       "first_seen": "2026-10-09T01:22:21Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/agentguard-5"
+    },
+    "b0a69b95a60fcb9cf199f1c1": {
+      "first_seen": "2026-11-17T00:23:43Z",
+      "status": "queued",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "b0e351c9646e33c8af9e09c7": {
       "first_seen": "2026-10-07T09:23:03Z",
@@ -7971,6 +8059,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/liquid-inference"
     },
+    "c9e7c8a05fb5ec966d5830cd": {
+      "first_seen": "2026-11-17T00:23:44Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-63f736f8ba515c6b141f"
+    },
     "c9fca9e521cbe2a9fefa9d0a": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -8499,6 +8592,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/nuvio"
     },
+    "d86659296f5c5f68c3be8f88": {
+      "first_seen": "2026-11-17T00:23:43Z",
+      "status": "queued",
+      "url": "https://openai.com/index/strengthening-online-child-safety/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "d87ec52777a804f4dba4fc8e": {
       "first_seen": "2026-10-13T23:00:39Z",
       "status": "queued",
@@ -8974,6 +9072,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/baby-desk"
     },
+    "e3cbcf9d9e0f31056255bf38": {
+      "first_seen": "2026-11-17T00:23:43Z",
+      "status": "queued",
+      "url": "https://blog.google/products/publisher-connections/new-google-admob-tools/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "e4408667075c66c4ee0efdf7": {
       "first_seen": "2026-11-12T19:12:15Z",
       "status": "queued",
@@ -9058,6 +9161,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/thunder-3"
     },
+    "e664b5c1e5685295dc6ab7f5": {
+      "first_seen": "2026-11-17T00:23:44Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-24c66a09411c45572ee4"
+    },
     "e670f629a3bc9b889156e837": {
       "first_seen": "2026-10-18T10:57:54Z",
       "status": "too_old",
@@ -9077,6 +9185,11 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://www.minimax.io/models/text/m27"
+    },
+    "e75ecd8ff4cb06b397d3faf2": {
+      "first_seen": "2026-11-17T00:23:44Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/boost-space"
     },
     "e78574bc3f705c2e8a94f262": {
       "first_seen": "2026-10-19T17:12:31Z",
@@ -9746,6 +9859,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/lloyal"
+    },
+    "f86eec3e1d60e816999d0dc1": {
+      "first_seen": "2026-11-17T00:23:44Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/curates"
     },
     "f8bb4e9aab587de92d4ce1e0": {
       "first_seen": "2026-11-02T09:24:17Z",

@@ -506,20 +506,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "864da0dd032d55cc47ea2c53",
-      "discovered_at": "2026-11-03T01:51:10Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-11-03T01:51:10Z",
-      "search_score": 42,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 02 Nov 2026 New language model evaluation results available Gemini 4 Carbon (Low) Intelligence Index: 54 New language model evaluation results available Nanbeige4.3-33B Intelligence Index: 20 Google performance results now available Gemini 4 Carbon (Low) 01 Nov 2026 New language model evaluation results available Gemini 4 Carbon (Medium) Intelligence Index: 58 New language model evaluation results available DeepSeek V4.1 Flash 1017 (High) Intelligence Index: 29 Google performance results now available Gemini 4 Carbon (Medium) DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (High) 30 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Non-reasoning) Intelligence Index: 19 DeepInfra performance results now available Nemotron 3.5 Super VL SiliconFlow performance results now available Qwen3.8 27B (Xhigh) Qwen3.8 27B (Non-reasoning) GMI performance results now available Step 3.7 Flash DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) Inco performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) 29 Oct 2026 New language model evaluation results available Mistral Large 4 (Medium) Intelligence Index: 23 New language model evaluation results available Mistral Large 4 (High) Intelligence Index: 26 Systalyze performance results now available GLM-5.3 (Low) GLM-5.3 (Max) Mistral performance results now available Mistral Large 4 (Medium) Mistral Large 4 (High) 28 Oct 2026 \ud83d\udd14 New article published Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5 Google\u2019s Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5, and second only to Claude Opus 5.5 on the Artificial Analysis Coding Agent Index \ud83d\udd14 New article published GitHub Copilot Fusion orchestrates Anthropic and OpenAI models to balance performance and cost itHub has released Copilot Fusion in GitHub Copilot, which orchestrates between Anthropic and OpenAI models. It scores 2 points below Opus 5.5 in Claude Code at half the Cost per Task in the Coding Agent Index New language model evaluation results available Gemini 4 Carbon (High) Intelligence Index: 59 Google performance results now available Gemini 4 Carbon (High) Bitdeer AI performance results now available DeepSeek V4.1 Flash 1017 (Max) 27 Oct 2026 \ud83d\udd14 New article published Announcing Artificial Analysis Intelligence Index v5 Index v5 features 2 new benchmarks and 3 upgrades. For the first time, the majority of the Index is built on private datasets Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0 New to the Intelligence Index: \u27a4 FrontierCode 2.0: Cognition\u2019s private benchmark of real-world coding tasks, graded on whether a repository maintainer would merge the agent\u2019s change \u27a4 Terminal-Bench-Science: 70 agentic scientific research tasks, run in a terminal environment Upgraded: \u27a4 HLE-Diamond (replacing Humanity\u2019s Last Exam): a refined 1,000-question version of Humanity\u2019s Last Exam, split evenly between reasoning and knowledge questions \u27a4 AA-Omniscience v1.1: an updated dataset with saturated questions and all public set questions removed, new questions added, and ambiguous or erroneous questions revised \u27a4 CritPt v2 (Hard Subset): a private 40-question hard subset of CritPt v2, revised by the CritPt authors and run with a code-execution tool Staying in the Index: AA-Briefcase, AutomationBench-AA, GDP.pdf and Terminal-Bench 4.0 Removed from the Index: GDPval-AA v2, SciCode and AA-LCR Modal performance results now available DeepSeek V4.1 Flash 1017 (Max) SambaNova performance results now available MiniMax-M3.1-Flash 26 Oct 2026 \ud83d\udd14 New article published GPT-6.1 Terra pushes the cost efficiency frontier OpenAI has released GPT-6.1 Terra, pushing the cost efficiency frontier. It is the first Terra-class model since GPT-5.6, and is more intelligent for less than a third of the cost \ud83d\udd14 New article published Code2Video-AA: how well do AI models design videos in code? Artificial Analysis' implementation of HeyGen's Code2Video Bench, evaluating how well models create short product and brand videos from 114 design briefs using HyperFrames HTML. New language model evaluation results available GPT-6.1 Terra (Non-reasoning) Intelligence Index: 30 New language model evaluation results available GPT-6.1 Terra (Low) Intelligence Index: 29 New language model evaluation results available GPT-6.1 Terra (Medium) Intelligence Index: 38 New language model evaluation results available GPT-6.1 Terra (High) Intelligence Index: 42 New language model evaluation results available GPT-6.1 Te",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-dd47a80e2777e6874132"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "e664b5c1e5685295dc6ab7f5",
       "discovered_at": "2026-11-17T00:23:44Z",
       "kind": "independent",
@@ -856,6 +842,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "c312e16e4184671534485f17",
+      "discovered_at": "2026-11-17T08:20:03Z",
+      "kind": "independent-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-17T08:20:03Z",
+      "search_score": 38,
+      "source_name": "OpenRouter Rankings",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 16, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 DeepSeek V4.1 Flash 1017 deepseek 61.2T tokens +10% 2 Hy4 tencent 16T tokens +0% 3 DeepSeek V4.1 Flash deepseek 15.5T tokens -12% 4 GLM 5.3 Flash z-ai 11.8T tokens -3% 5 GPT-6 Luna openai 8.08T tokens +14% 6 Claude Opus 5.5 anthropic 7.37T tokens +9% 7 Step 5 Preview stepfun 6.36T tokens -11% 8 MiMo-V2.6-Flash xiaomi 4.16T tokens +63% 9 GLM 5.3 z-ai 3.74T tokens +5% 10 GPT-6.1 Sol openai 3.71T tokens -5% 1 . DeepSeek V4.1 Flash 1017 by deepseek 61.2T tokens 10% 2 . Hy4 by tencent 16T tokens 0% 3 . DeepSeek V4.1 Flash by deepseek 15.5T tokens 12% 4 . GLM 5.3 Flash by z-ai 11.8T tokens 3% 5 . GPT-6 Luna by openai 8.08T tokens 14% 6 . Claude Opus 5.5 by anthropic 7.37T tokens 9% 7 . Step 5 Preview by stepfun 6.36T tokens 11% 8 . MiMo-V2.6-Flash by xiaomi 4.16T tokens 63% 9 . GLM 5.3 by z-ai 3.74T tokens 5% 10 . GPT-6.1 Sol by openai 3.71T tokens 5% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the most recent complete day, with the change measured against the day before it. Models ranked by tokens processed on OpenRouter over the most recent complete day Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 9.13T +27% 2 DeepSeek V4.1 Flash deepseek 2.24T +18% 3 Hy4 flash tencent 1.88T new 4 GLM 5.3 Flash z-ai 1.41T +20% 5 Claude Opus 5.5 anthropic 1.33T +93% 6 GPT-6 Luna openai 1.24T +35% 7 Hy4 tencent 1.1T -43% 8 Step 5 Preview stepfun 913B +14% 9 MiMo-V2.6-Flash xiaomi 595B +19% 10 Nemotron 3 Ultra (free) nvidia 533B +18% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 209T >999% 2 DeepSeek V4.1 Flash deepseek 70.9T -43% 3 GLM 5.3 Flash z-ai 56.2T 0% 4 GPT-6 Luna openai 34.9T +61% 5 Hy4 tencent 32T new 6 Claude Opus 5.5 anthropic 30.9T +122% 7 Step 5 Preview stepfun 24.4T +20% 8 Hy4 preview tencent 22.6T -38% 9 GLM 5.3 z-ai 17.6T +14% 10 MiMo-V2.6-Flash xiaomi 17.2T -52% New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 ERNIE-5.5-Flash-Preview (free) baidu 2.47T new 2 Hy4 flash tencent 1.88T new 3 Gemini 4 Carbon google 1.02T new 4 Particle-1 (free) particle-ai 464B new 5 Gemini 4 Hydrogen google 225B new 6 Motif 3 motif-technologies 56.6M >999% 7 Inkling 2 Small thinkingmachines 225B >999% 8 Mi kt 700M >999% 9 GLM 5.2 (batch) z-ai 2.36M >999% 10 Claude Fable 5.2 (batch) anthropic 701M >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend Software 41.0% Data 18.9% Information 15.6% Assistance 6.8% Writing 6.8% Creative 6.4% Media 3.9% Retrieval 0.2% Implementation 16.0% of all spend 1 Claude Opus 5.5 by anthropic 25.6% +3.6 2 Kimi K3.1 Pro by moonshotai 7.9% +7.9 3 Claude Sonnet 5.5 by anthropic 6.7% +2.1 4 GPT-6.1-Sol by openai 5.7% +3.4 5 GPT-6-Astra by openai 5.1% -2.2 6 Deepseek V4.1 Flash by deepseek 4.6% +4.6 7 Kimi K3 by moonshotai 4.4% -1.5 8 GLM 5.3 by z-ai 4.3% -1.3 9 Claude Opus 5 by anthropic 2.5% -6.1 10 GLM 5.3 Flash by z-ai 2.4% 0.0 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 9, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 31.8% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 DeepSeek 31.8% +3% 2 OpenAI 19.0% +1% 3 Google 15.1% +14% 4 Z.ai 7.0% -3% 5 Anthropic 6.3% +11% 6 Qwen 6.2% +13% 7 Mistral 2.6% +13% 8 Tencent 2",
+      "title": "OpenRouter real-world model rankings changed",
+      "url": "https://openrouter.ai/rankings#edgeai-569301f8d8f875d73dc4"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "a2ecccd9deebef44fe0dd188",
       "discovered_at": "2026-11-13T21:40:48Z",
       "kind": "independent-signal",
@@ -965,20 +965,6 @@
       "summary": "@NousResearch Hermes Cloud agents now open in a browser tab with the exact same interface as Hermes Desktop. https://t.co/4Vw3XJgFwn To launch a personal agent, pick a name and a model in Nous Portal. We host it for you and it runs 24/7 in its own container, so it can handle scheduled jobs and answer you on any channel while your laptop is closed. Chats, Group Chats, plugins and settings in the Webapp work the same way they do when you run Hermes on your own computer. Open your agent from Nous Portal on your phone or any computer, or connect Hermes Desktop to it and continue the same chats there. Plus, Super, and Ultra plans each include one Cloud agent out of the box. Using Hermes from anywhere has never been easier. Nov 9, 2026 @NousResearch Using an agent that can change its models or code at any time without telling you is like building on quicksand Nov 8, 2026 @NousResearch hermes-agent.nousresearch.com/marketplace/he\u2026 Nov 8, 2026 @NousResearch Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s. Hermes first maps what an attacker could reach and which inputs it trusts. It splits the code across parallel subagents, checks every candidate finding against the code, and traces whether an attacker can actually exploit it. Turn on test confirmation and Hermes writes a small reproduction for each finding and runs it in a temporary copy of the repo. Each report records the evidence and the findings Hermes ruled out, and exports to SARIF for your existing tools. Run it from chat, the CLI, or the Security page in Hermes Desktop. Nov 8, 2026 @NousResearch Eval: huggingface.co/datasets/NousR\u2026 Weights: huggingface.co/NousResearch/A\u2026 Training data: huggingface.co/datasets/NousR\u2026 Nov 6, 2026 @NousResearch nousresearch.com/arete Nov 6, 2026 @NousResearch Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values. Chinese open models are currently the strongest available, but they ship with state-aligned behavior in the weights. We built an 803-prompt eval across seven value categories, including freedom of expression, democracy, and privacy, and measured how often a model adopts China\u2019s party line. After fine-tuning on roughly 53 million tokens, Arete-27B's propaganda rate fell from 22% to 1%, in line with the Western models we tested. Its Hermes Bench score shows no significant performance tradeoffs. The values in an open model are one fine-tune away. Our eval, weights, and training data are available now along with the full blog post: https://t.co/iAOANQTVZ6 Nov 6, 2026 @NousResearch Get more out of your Hermes Bots with free and discounted models exclusive to portal.nousresearch.com Nov 6, 2026 @NousResearch LongCat-2.5, the new multimodal model from @Meituan_LongCat, is free in Nous Portal for one week. Try it free today at portal.nousresearch.com x.com/Meituan_LongCa\u2026 Nov 6, 2026 @NousResearch That's hilarious but you should probably try Hermes which doesn't do that x.com/liamzebedee/st\u2026 Nov 6, 2026",
       "title": "@NousResearch Hermes Cloud agents now open in a browser tab with the exact same interface as Hermes Desktop. https://t.co/4Vw3XJgFwn To launch a personal agent, pick a name and a model in Nous Portal. We host it for you and it runs 24/7 in ",
       "url": "https://x.com/NousResearch/status/2119851439904510217"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "8776bfc87cf75f00d6c59cd2",
-      "discovered_at": "2026-11-03T01:51:09Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 22,
-      "source_name": "FutureTools AI News",
-      "summary": "Anthropic's Claude API Adds Message Threads Beta to Cut Agent Latency by 35% claude.com \u00b7 Show TLDR",
-      "title": "Anthropic's Claude API Adds Message Threads Beta to Cut Agent Latency by 35% claude.com \u00b7 Show TLDR",
-      "url": "https://claude.com/resources/articles/message-threads?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -1273,20 +1259,6 @@
       "summary": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to dig through every one of those boxes. So I had Claude Code build Beep Locator , a software system for triangulating the source of a mysterious beep using multiple devices scattered around the room. Here's what Beep Locator looks like after it has been running for a while: You run Python web server to show the primary UI, and then use the QR code or URL to connect as many devices as you can spare to act as listeners - I was using two iPads, a phone, a MacBook Pro and a Surface Ultra. The devices then play noises to each other to help estimate their locations. This didn't work particularly well, so I added a \"Rough mode\" where you can drag their icons around in the space to provide rough locations which are then adjusted based on those sounds. Once that's set up, the devices all listen for the beep! I added a clapping mode too so I could test it by clapping my hands in different locations around the room - displayed as diamonds on the map. This helped me gain confidence that it was capable of locating a sound. Beeps show up on the map as an X, plus a line in the \"Sounds located\" log. You can replay these sounds (from each device in turn) to confirm they are the mysterious beep you are looking for, then click \"This is the mystery beep\" to mark them as such. Once you've confirmed the mysterious beep frequency the system will listen out for it, measure the interval between beeps, and use the triangulated locations to lock down the most likely location on the map. The system worked as intended. It gave me the position of the beep to within about 40cm, then I dug through that specific pile of boxes and found an ancient carbon monoxide detector that desperately wanted its batteries replaced. How it works When I started working through this problem with Claude it quickly dug up BeepBeep: A High-Accuracy Acoustic-Based System for Ranging and Localization Using COTS Devices , a 2007 paper by Chunyi Peng, Guobin Shen, Yongguang Zhang, Yanlin Li, and Kun Tan. Here's that paper's abstract: We present the design, implementation, and evaluation of BeepBeep, a high-accuracy acoustic-based ranging system. It operates in a spontaneous, ad-hoc, and device-to-device context without leveraging any pre-planned infrastructure. It is a pure software-based solution and uses only the most basic set of commodity hardware \u2013 a speaker, a microphone, and some form of device-to-device communication \u2013 so that it is readily applicable to many low-cost sensor platforms and to most commercial-off-the-shelf mobile devices like cell phones and PDAs. It achieves high accuracy through a combination of three techniques: two-way sensing, self-recording, and sample counting. That sounded exactly like what we needed to build! Beep Locator runs a Python web application server that does most of the work. The listening devices then connect to that server via WebSockets and present a UI which requests browser microphone access. The listeners mainly work by recording a 60 second buffer of recent audio. They also run a simple beep detection algorithm (see detector.js ), which uses Fast Fourier Transform and a high-pass filter to identify potential beeps. It sends these events to the main server. When a beep is reported, the server has a device play a short chirp (the device with the lowest round-trip time to the server), then asks every listener upload a clip from about 0.6s before the beep to 0.8s after that chirp. This chirp allows the clips to be aligned with each other, a crucial step in locating the beep. How I built it I started this project using Claude Code Cloud via my iPhone, with Opus 5.5 running in Extra thinking effort mode. Here's that shared starter session , which began with this prompt against a newly created empty GitHub repository: Write out a problem.md file describing the problem we want to solve There is a device beeping in a room and I cannot find it I want to set up several devices - laptops, phones, iPads - around the room all listening at the same time and have them help triangulate where the beep comes from There needs to be a Python web app which coordinates it all - one device shows a web page for the app, other devices join a URL which turns them into listeners - all via browser WebAudio and WebSockets back to the Python server app Ideally I wouldn't need to manually input the relative locations of the devices - it would be amazing if they could play sounds to each other in order to locate each other in 2D space - is that even possible though? That got me this problem.md file . As part of writing that up Claude found and read the BeepBeep paper, which is described in that file. The research looked good, so I told it: Ok try and build it, add a mechanism so you can send new code to the listeners which they will then run automatically - that way I can set everything up in the room and then leave you alone to continue hacking and experiment while I do something else That got me to this point - most of the system was built, but nothing had actually tried running it yet. I cloned the new repository to my laptop and fired up Claude Code... and then Fable 5.2 was released , and this project seemed like an excellent opportunity to put that through its paces. I had Claude Code on my laptop start the server running, then made sure it could both see what was happening and make live changes to the software as it ran. This was already baked into the software: Opus 5.5 had built an installModule() method on the listeners that could be triggered over the WebSocket connection, meaning the admin server could execute arbitrary new code on any of its clients. On some devices, web pages that listen on the microphone request user permission any time the page reloads. The hot-swap module mechanism meant that we could deploy new code without having to manually interact with each of the listening devices in turn. From that point on my involvement was mainly to sit by the laptop chatting with Fable 5.2 about what was going on, and occasionally requesting new features. Here are some of the feature prompts I ran: I think we need to make it so I can drag things around on the map in \u201crough mode\u201d, where my job is just to put them roughly where they are, then switch out of rough mode and it attempts to get them accurate This gave me the ability to drag listeners around the map. what\u2019s a good way for me to test this I wonder? Can we have it listen for claps, then I could clap and it could identify the location of the clap? [...] Claps should use a different symbol on the map than beeps That added the thing where any time I clapped it would show on the map as a different symbol from the beeps. each symbol on the map should include a HH:MM:SS timestamp That made it easier to spot which symbol likely reflected which real-world sound. The log should show beeps and claps with their timestamps AND have a little play button which, when clicked, replays the recorded noise from each of the listeners in sequence (with clear text on screen showing which listener recorded which snippet) while temporarily turning off microphone recording while that replay plays Now I could replay sounds, making it much easier to identify which recorded clip was the mysterious beep I was looking for. There should be a button next to a recording for \u201cThis is the mystery beep\u201d - then I can hit replay to see and then confirm it was the mystery beep if that\u2019s the one I am looking for Then the system can categorize noises in the future to see if they are likely that same mysterious beep and use that information to build a more accurate idea of where it is At this point I was getting close - I had a solid idea of where the beep was coming from, but wouldn't it be neat if I could reposition the listeners around that point to get an even finer location? I want a feature for this, I don\u2019t want to have to restart each listening device etc, I want to be able to click a \u201cReposition the devices\u201d button which lets me switch into repositioning, then I click \u201cRepositioned\u201d and it puts me into Rough mode and asks me to roughly locate them, then I do that and click, then it starts up again. The previous session can be read-only viewed through the app. And since I had one spare device, I then said: add a feature where the map includes a spot that is a suggestion for a location that it would be useful to add a listener at - based on data collected so far Giving Claude Code ears I think the most interesting part of this project is that I demonstrated it's possible to give Claude Code ears . Claude doesn't have native audio input (yet), but it can run JavaScript and Python code that can analyze audio captured by a microphone. I told it to run a web server with WebSocket connections to multiple listening devices, then had it both run a WebAudio microphone on those devices and hook them up so they could be sent fresh JavaScript code to execute via that WebSocket. Then I could pretty much leave Claude alone, hacking away at the problem, querying the audio logs, and reconfiguring its ears to help it solve the problem. I'm reminded of a similar hack I heard about at GitHub Universe a few weeks ago, where Martin Woodward told me he had been debugging the GitHub Universe Badge computers by plugging them into a computer via USB-C and then pointing a webcam at their screen, so his coding agent could tell if updates were working correctly or not. Figuring out ways to let coding agents perceive the world around them is a whole lot of fun. Tags: projects , ai , generative-ai , llms , claude , coding-agents , claude-code , claude-mythos-fable",
       "title": "Locating the source of a mysterious beep with Claude",
       "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "26886ff83d11fb05cc7e95ea",
-      "discovered_at": "2026-11-03T01:51:09Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 14,
-      "source_name": "FutureTools AI News",
-      "summary": "Runway Dev Plugins Now Available for Claude Code, Codex, and Cursor runway.com \u00b7 Show TLDR",
-      "title": "Runway Dev Plugins Now Available for Claude Code, Codex, and Cursor runway.com \u00b7 Show TLDR",
-      "url": "https://runway.com/news/developers/runway-dev-plugins-for-coding-agents?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -1791,6 +1763,20 @@
       "summary": "@NousResearch Nov 12, 2026 @NousResearch Submissions for the Hermes Agent Plugin Hackathon closed at 5PM EST, and we received nearly 1,000 entries. Thank you to everyone who built and submitted them! Our judges are working on sorting through submissions to narrow down the top 10 now. Winners will be emailed directly, and we will announce them here in about a week. Nov 12, 2026 @NousResearch We are on Instagram now btw tap in instagram.com/nous_research Nov 11, 2026 @NousResearch Unshackle yourself Nov 10, 2026 @NousResearch 24 hours left to submit your plugin. We've received hundreds of awesome submissions and the judges are excited to review them all! x.com/NousResearch/s\u2026 Nov 10, 2026 @NousResearch The Sign in with ChatGPT flow in Nous Portal now supports your ChatGPT Business plan x.com/OpenAIDevs/sta\u2026 Nov 10, 2026 @NousResearch With Hermes it's all yours to conquer Nov 10, 2026 @NousResearch Try Fable 5.2 in Hermes Agent x.com/Kshitijjkapoor\u2026 Nov 9, 2026 @NousResearch Hermes Cloud agents now open in a browser tab with the exact same interface as Hermes Desktop. https://t.co/4Vw3XJgFwn To launch a personal agent, pick a name and a model in Nous Portal. We host it for you and it runs 24/7 in its own container, so it can handle scheduled jobs and answer you on any channel while your laptop is closed. Chats, Group Chats, plugins and settings in the Webapp work the same way they do when you run Hermes on your own computer. Open your agent from Nous Portal on your phone or any computer, or connect Hermes Desktop to it and continue the same chats there. Plus, Super, and Ultra plans each include one Cloud agent out of the box. Using Hermes from anywhere has never been easier. Nov 9, 2026 @NousResearch Using an agent that can change its models or code at any time without telling you is like building on quicksand Nov 8, 2026",
       "title": "@NousResearch Nov 12, 2026",
       "url": "https://x.com/NousResearch/status/2120938486073029114"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "a50437ccc021c623712f2923",
+      "discovered_at": "2026-11-17T08:20:02Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-16T23:57:26+00:00",
+      "search_score": 8,
+      "source_name": "Simon Willison Everything",
+      "summary": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: select json_object('a', (select json_array(1))) Returns this: {\"a\":[1]} But in 3.54.1 the same query returns this: {\"a\":\"[1]\"} According to D. Richard Hipp : That was a bug fix. Per the documentation, (SELECT json_array(...)) returns SQL text, not JSON. Hence the 3.54.1 behavior is correct and 3.54.0 was a bug. The workaround looks like this: select json_object('a', json((select json_array(1)))) Tags: llm , webassembly , sqlite , generative-ai , ai , llms , d-richard-hipp",
+      "title": "llm 0.37.3",
+      "url": "https://simonwillison.net/2026/Nov/16/llm/"
     },
     {
       "bootstrap": false,
@@ -2466,20 +2452,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "de959bab941149a96f431c49",
-      "discovered_at": "2026-11-03T09:27:30Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-11-03T05:28:59+00:00",
-      "search_score": 5,
-      "source_name": "Simon Willison Everything",
-      "summary": "I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for $100+/month subscriptions What I'm using right now My software releases My September newsletter can now be seen here , as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
-      "title": "October sponsors-only newsletter",
-      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "0139ca5c534e35bb8a1d3a99",
       "discovered_at": "2026-11-16T06:18:18Z",
       "kind": "independent",
@@ -2617,20 +2589,6 @@
       "summary": "@NousResearch Nov 4, 2026 @NousResearch Congrats @Wronglebowsk \ud83e\udd20 Nov 4, 2026 @NousResearch Would you rock this Nov 4, 2026 @NousResearch Thank you to everyone who traveled from across the world to NousCon 2026. We loved spending time with the people who make the Hermes community great. As you all know, we released the Hermes Mobile beta at the event, and as anticipated it filled up quickly. We are working tirelessly to free up more room in the beta, and to get the app production ready for wider release. The feedback has been incredible so far, and we are excited to share it with the world soon. In the meantime, please join the waitlist at https://t.co/Oszcqj0vfO Nov 3, 2026 @NousResearch github.com/NousResearch/h\u2026 Nov 2, 2026 @NousResearch > hermes migrate grok-bot x.com/elonmusk/statu\u2026 Nov 2, 2026 @NousResearch That was crazy Oct 31, 2026 @NousResearch Happy NousCon day to all who observe Oct 30, 2026 @NousResearch The person with the most potent aura tomorrow night will receive a 36 inch Nous neon sign, normally retailing for just under $420.7 plus shipping Prepare accordingly x.com/witcheer/statu\u2026 Oct 30, 2026 @NousResearch Tomorrow gonna be a movie fr (If they made movies about Discord groups that do foundational research and post-training then blossom into companies that proliferate the most widely used open source agent harness in the world that host an annual conference every year except it's actually more like a big party slash beta test slash merch distribution mechanism) Oct 29, 2026",
       "title": "@NousResearch Congrats @Wronglebowsk \ud83e\udd20 Nov 4, 2026",
       "url": "https://x.com/NousResearch/status/2117995883279028431"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "fa3c1fe4e6a36de5ad2f2484",
-      "discovered_at": "2026-11-03T01:51:09Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 2,
-      "source_name": "FutureTools AI News",
-      "summary": "Grok Bot's Data Bot Gives Every Team On-Demand Data Science Expertise x.ai \u00b7 Show TLDR",
-      "title": "Grok Bot's Data Bot Gives Every Team On-Demand Data Science Expertise x.ai \u00b7 Show TLDR",
-      "url": "https://x.ai/news/data-bot?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2872,6 +2830,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "38f599c774ee5c8eb26da526",
+      "discovered_at": "2026-11-17T08:20:02Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-17T06:16:26+00:00",
+      "search_score": 0,
+      "source_name": "Simon Willison Everything",
+      "summary": "A little copying is better than a little dependency. \u2014 Go Proverbs , via Tags: go , programming",
+      "title": "Quoting Go Proverbs",
+      "url": "https://simonwillison.net/2026/Nov/17/go-proverbs/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "fe1f6a98c50b61102525fdc5",
       "discovered_at": "2026-11-08T01:42:58Z",
       "kind": "independent",
@@ -2911,20 +2883,6 @@
       "summary": "The web browser is very, very, very powerful software for applications, and the cost of accessing that power is going down seemingly every day . \u2014 Paul Ford , The Web Is More Than Enough Tags: browsers , paul-ford , web-development",
       "title": "Quoting Paul Ford",
       "url": "https://simonwillison.net/2026/Nov/5/paul-ford/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "dcf65f4aed7f78c16de0aee4",
-      "discovered_at": "2026-11-03T09:27:30Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-11-03T05:32:25+00:00",
-      "search_score": 0,
-      "source_name": "Simon Willison Everything",
-      "summary": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference them against ADS-B data to find the exact location of the video based on their speed, distance, and gaps between different flights. Via Lobste.rs Tags: privacy , youtube",
-      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
-      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/"
     },
     {
       "bootstrap": false,
@@ -3051,6 +3009,20 @@
       "summary": "Tesla Begins Selling Autonomous Cybercab at $29,990 Amid Federal Safety Probe wsj.com Paywalled \u00b7 Show TLDR",
       "title": "Tesla Begins Selling Autonomous Cybercab at $29,990 Amid Federal Safety Probe wsj.com Paywalled \u00b7 Show TLDR",
       "url": "https://www.wsj.com/business/autos/tesla-opens-sales-of-autonomous-cybercab-for-select-customers-8d2feae3?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "715394e40e54708f10445529",
+      "discovered_at": "2026-11-17T08:20:02Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-16T16:38:25-08:00",
+      "search_score": 14,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Send your agent to meetings Discussion | Link",
+      "title": "Agents API by Recall.ai",
+      "url": "https://www.producthunt.com/products/recall-ai"
     },
     {
       "bootstrap": false,
@@ -3278,6 +3250,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "185a125024302bc39dd98bc7",
+      "discovered_at": "2026-11-17T08:20:02Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-16T19:18:14-08:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Let your agent take surveys for you Discussion | Link",
+      "title": "GatherHQ Agent Research",
+      "url": "https://www.producthunt.com/products/gatherhq-agent-research"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "93b725d4c6d793aba3cd4721",
+      "discovered_at": "2026-11-17T08:20:02Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-16T02:54:15-08:00",
+      "search_score": 4,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "The open-source platform for voice AI agents Discussion | Link",
+      "title": "Pinecall",
+      "url": "https://www.producthunt.com/products/pinecall"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "439c143d44947b8130c46fe0",
       "discovered_at": "2026-11-15T14:13:58Z",
       "kind": "signal",
@@ -3502,6 +3502,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-17T00:23:48Z",
+  "updated_at": "2026-11-17T08:20:06Z",
   "version": 2
 }

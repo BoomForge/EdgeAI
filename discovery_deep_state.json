@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-17T00:23:48Z",
+    "at": "2026-11-17T08:20:06Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 15,
+    "prefiltered": 8,
+    "queued": 7,
     "sources_ok": 15,
-    "too_old": 5,
+    "too_old": 7,
     "warnings": 0
   },
-  "runs": 214,
+  "runs": 215,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -113,6 +113,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/nativeship"
     },
+    "035105522fb584f97323aa66": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/trulata"
+    },
     "035f6f223ed7ad47ab68a054": {
       "first_seen": "2026-10-12T22:33:11Z",
       "status": "queued",
@@ -164,6 +169,11 @@
       "status": "queued",
       "url": "https://runway.com/research/introducing-runway-gwm-1"
     },
+    "0439a330878141dfd0ab5177": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/glass-page"
+    },
     "0441f5644303dad5b450ca71": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -173,6 +183,11 @@
       "first_seen": "2026-11-13T15:37:08Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/galaxy"
+    },
+    "046e0f6e1a6b5e882018bf91": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/continuo-4"
     },
     "04d4b812e951d0f454da5a50": {
       "first_seen": "2026-11-17T00:23:43Z",
@@ -394,6 +409,12 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-06ab581d51bdb6005221"
     },
+    "098687ff14631537819ce5de": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/clamor-2"
+    },
     "099e2a81bfcf5754e86e442c": {
       "first_seen": "2026-10-14T21:37:22Z",
       "status": "too_old",
@@ -581,6 +602,12 @@
       "first_seen": "2026-10-24T11:25:53Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/1password"
+    },
+    "0f64db6dcf2906f85b240939": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/vinc"
     },
     "0fb3fa4c48c08212c1ae6e15": {
       "first_seen": "2026-10-28T08:23:12Z",
@@ -783,6 +810,12 @@
       "status": "queued",
       "url": "https://runway.com/code-terms/enterprise-bonus-terms"
     },
+    "142a1f9295aedcd7016eac15": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/base-studio"
+    },
     "142c49ca744a45299430ed77": {
       "first_seen": "2026-11-12T11:41:10Z",
       "status": "queued",
@@ -965,6 +998,11 @@
       "first_seen": "2026-10-19T10:44:24Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/beam-13"
+    },
+    "185a125024302bc39dd98bc7": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/gatherhq-agent-research"
     },
     "185dd308c58bd95cfbc4a964": {
       "first_seen": "2026-10-27T22:30:09Z",
@@ -2284,6 +2322,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/neophyte"
     },
+    "38f599c774ee5c8eb26da526": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/17/go-proverbs/"
+    },
     "38f843636545fdad4cbae250": {
       "first_seen": "2026-10-31T12:57:54Z",
       "status": "too_old",
@@ -2630,6 +2673,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/isle-notch"
     },
+    "40e6b1aa9341a9075314d67d": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/creatify"
+    },
     "40e80e1ce89664d39e4d6693": {
       "first_seen": "2026-11-17T00:23:43Z",
       "status": "queued",
@@ -2777,6 +2825,11 @@
       "first_seen": "2026-10-28T08:23:12Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/our-silly-games"
+    },
+    "44fb6468c5a57f06c4e62614": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/onlinecompiler-io"
     },
     "452814709e1615f5b494d051": {
       "first_seen": "2026-10-26T05:28:20Z",
@@ -3347,6 +3400,11 @@
       "first_seen": "2026-10-22T13:13:50Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/cleanslop"
+    },
+    "5301c31d211b3bb067889457": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/infaiw"
     },
     "534288042090c3e47547ff44": {
       "first_seen": "2026-10-30T09:55:37Z",
@@ -4341,6 +4399,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/ifttt"
     },
+    "6a5e09f7d7ecf5a332e040cf": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/versine"
+    },
     "6a5eef82b3071802b6bd4455": {
       "first_seen": "2026-11-11T15:31:32Z",
       "status": "queued",
@@ -4631,6 +4694,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/skisso-design-on-the-live-product"
+    },
+    "715394e40e54708f10445529": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/recall-ai"
     },
     "7157c7d19069852befd5724a": {
       "first_seen": "2026-10-03T00:46:04Z",
@@ -5661,6 +5729,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/shedi"
     },
+    "888b50b571dc2d8e56f1c368": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/wispos"
+    },
     "88b68a1cf767a91706169022": {
       "first_seen": "2026-10-17T08:44:04Z",
       "status": "too_old",
@@ -6067,6 +6141,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/dadan"
+    },
+    "93b725d4c6d793aba3cd4721": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/pinecall"
     },
     "94079a847d2966732870b59a": {
       "first_seen": "2026-11-11T00:37:31Z",
@@ -6714,6 +6793,11 @@
       "first_seen": "2026-10-21T20:18:30Z",
       "status": "queued",
       "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "a50437ccc021c623712f2923": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/16/llm/"
     },
     "a5424bacc393e719eb5b6ab4": {
       "first_seen": "2026-11-06T20:59:29Z",
@@ -7526,6 +7610,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/tiden"
     },
+    "bb39a90c19368fea26247377": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/lampa-camera"
+    },
     "bb4a775fef8bb56a45095040": {
       "first_seen": "2026-11-02T09:24:17Z",
       "status": "queued",
@@ -7823,6 +7913,11 @@
       "first_seen": "2026-11-16T16:16:38Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/findy-3"
+    },
+    "c312e16e4184671534485f17": {
+      "first_seen": "2026-11-17T08:20:03Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-569301f8d8f875d73dc4"
     },
     "c338cc27b47c37b92288f512": {
       "first_seen": "2026-10-20T15:17:17Z",
@@ -8274,6 +8369,11 @@
       "first_seen": "2026-10-31T00:48:07Z",
       "status": "queued",
       "url": "https://openai.com/index/fair-use-benefits-everyone/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "d023656e70424d3512a24ca2": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/lasso-11"
     },
     "d09fd65332f82cfcb2b3597b": {
       "first_seen": "2026-10-13T10:55:50Z",
@@ -9092,6 +9192,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/1/matthew-green/"
     },
+    "e4b441716fe17ab1134d5743": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/extradock"
+    },
     "e4cc85288fe0cd562fc6a002": {
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
@@ -9408,6 +9514,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/tower"
     },
+    "ee0877ea0d988c2f86f8d1c2": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/retriever-4"
+    },
     "ee562a93a718db9bfa8f8f53": {
       "first_seen": "2026-11-12T19:12:14Z",
       "status": "queued",
@@ -9417,6 +9529,12 @@
       "first_seen": "2026-10-08T08:53:54Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/botbus"
+    },
+    "ee98816210a0da10e04e324a": {
+      "first_seen": "2026-11-17T08:20:02Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/glisstouch"
     },
     "eeae4eda09cfd9e36977a75c": {
       "first_seen": "2026-10-03T00:46:05Z",

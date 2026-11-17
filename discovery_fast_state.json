@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-17T13:40:57Z",
+    "at": "2026-11-17T21:54:44Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 10,
+    "prefiltered": 4,
+    "queued": 21,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 218,
+  "runs": 219,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -2169,6 +2169,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12179"
     },
+    "29339b7285f39e60785cdcde": {
+      "first_seen": "2026-11-17T21:54:12Z",
+      "status": "queued",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/ai-training-state-partnerships/"
+    },
     "295354ff422b0d4db922748e": {
       "first_seen": "2026-11-05T05:49:58Z",
       "status": "queued",
@@ -2375,6 +2380,11 @@
       "status": "queued",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.900-beta"
     },
+    "2defa3c9c385c010b5c802cc": {
+      "first_seen": "2026-11-17T21:54:19Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12478"
+    },
     "2df7efde6b87d44a5e2ee7c1": {
       "first_seen": "2026-10-08T14:56:12Z",
       "status": "queued",
@@ -2475,6 +2485,12 @@
       "first_seen": "2026-10-17T04:40:15Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.95"
+    },
+    "309df84199e9e12d8fe8dc60": {
+      "first_seen": "2026-11-17T21:54:12Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/topics/google-asia/google-play-best-2026/"
     },
     "30a028d33d452e4f44f01fa3": {
       "first_seen": "2026-10-06T19:03:40Z",
@@ -2624,6 +2640,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.05381"
     },
+    "333f66a80acada820d13e021": {
+      "first_seen": "2026-11-17T21:54:19Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12482"
+    },
     "336a6a8c433b2fc0f5bb2be9": {
       "first_seen": "2026-11-16T11:43:50Z",
       "status": "queued",
@@ -2694,6 +2715,11 @@
       "first_seen": "2026-11-09T14:19:20Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12219"
+    },
+    "34ca213a4103fe846f2603e1": {
+      "first_seen": "2026-11-17T21:54:35Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.919-beta"
     },
     "34e7d62615202d0de65fe802": {
       "first_seen": "2026-11-03T23:00:43Z",
@@ -2974,6 +3000,11 @@
       "first_seen": "2026-11-16T11:43:50Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.17464"
+    },
+    "3b3be741a87f5e2153e62660": {
+      "first_seen": "2026-11-17T21:54:12Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-openai-for-chile"
     },
     "3b44381c0318cdccb4d00be7": {
       "first_seen": "2026-10-05T18:34:46Z",
@@ -3344,6 +3375,11 @@
       "first_seen": "2026-11-05T14:19:51Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12125"
+    },
+    "41cc800b24b8f3f9c246f9c8": {
+      "first_seen": "2026-11-17T21:54:19Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12484"
     },
     "41e12843f2c4fc0abb992355": {
       "first_seen": "2026-10-11T14:10:43Z",
@@ -4790,6 +4826,11 @@
       "first_seen": "2026-10-26T00:30:19Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11889"
+    },
+    "5f851ae16c0d6a9b34f3557d": {
+      "first_seen": "2026-11-17T21:54:19Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12477"
     },
     "5f9cc4741ffa08d59cab4e5a": {
       "first_seen": "2026-10-19T04:18:13Z",
@@ -6417,6 +6458,12 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.30183"
     },
+    "81c76f0ec133272004ef79be": {
+      "first_seen": "2026-11-17T21:54:12Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/colonial-williamsburg-centennial/"
+    },
     "822cb602530fadaff99d5a0b": {
       "first_seen": "2026-10-06T00:19:20Z",
       "status": "queued",
@@ -6825,6 +6872,11 @@
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1"
     },
+    "889385642a21d0837ffef2bc": {
+      "first_seen": "2026-11-17T21:54:37Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.1"
+    },
     "88c587e6e9d24a892bb61836": {
       "first_seen": "2026-10-03T00:46:15Z",
       "status": "too_old",
@@ -6884,6 +6936,12 @@
       "first_seen": "2026-11-03T17:54:39Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12072"
+    },
+    "8a4e13d86b040a3849fddddf": {
+      "first_seen": "2026-11-17T21:54:12Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/workspace/vids-personal-avatars-no-cost/"
     },
     "8a5bbea3d5273e7fa87dc594": {
       "first_seen": "2026-10-19T16:55:53Z",
@@ -7173,6 +7231,11 @@
       "first_seen": "2026-10-27T06:24:40Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.33610"
+    },
+    "8f6af8c44a4a1bfb5de31585": {
+      "first_seen": "2026-11-17T21:54:12Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
     },
     "8f6bec0a27923dd2929527f2": {
       "first_seen": "2026-10-22T01:51:01Z",
@@ -7566,6 +7629,11 @@
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.19048"
+    },
+    "984b1b256996788c565d5aa2": {
+      "first_seen": "2026-11-17T21:54:30Z",
+      "status": "queued",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.4"
     },
     "9858a7c1f43126f8196689d0": {
       "first_seen": "2026-10-24T04:26:46Z",
@@ -7971,6 +8039,11 @@
       "first_seen": "2026-11-06T08:29:21Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12158"
+    },
+    "9fe1e561258d91c84a4b9a60": {
+      "first_seen": "2026-11-17T21:54:12Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/devices/google-nest/google-home-updates-november-2026/"
     },
     "9fe6d2ae73e55f52b8078f18": {
       "first_seen": "2026-11-16T21:47:31Z",
@@ -8475,6 +8548,11 @@
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc4"
     },
+    "aa57d2318fbd9f8e73212751": {
+      "first_seen": "2026-11-17T21:54:12Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/platforms/google-pay/wallet-available-ios-united-states/"
+    },
     "aa5ce212578215f70127442c": {
       "first_seen": "2026-11-06T08:29:14Z",
       "status": "queued",
@@ -8741,6 +8819,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12308"
     },
+    "af32992385ce2839bd1684f8": {
+      "first_seen": "2026-11-17T21:54:19Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12480"
+    },
     "af41e11c1664671d783ba3ef": {
       "first_seen": "2026-10-12T19:18:52Z",
       "status": "queued",
@@ -8953,6 +9036,16 @@
       "status": "queued",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.2"
     },
+    "b43ef08ac3ed4f7af6f4fa4f": {
+      "first_seen": "2026-11-17T21:54:12Z",
+      "status": "queued",
+      "url": "https://openai.com/index/astra-law-6-2"
+    },
+    "b451aff394adbb427d3a202a": {
+      "first_seen": "2026-11-17T21:54:12Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+    },
     "b46371496930d9dae1bee892": {
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
@@ -9013,6 +9106,11 @@
       "first_seen": "2026-11-03T10:03:42Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14"
+    },
+    "b56239a4da2ec66c9f404377": {
+      "first_seen": "2026-11-17T21:54:12Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-carbon-builders/"
     },
     "b57597e16e4df14ecb01f9d1": {
       "first_seen": "2026-11-05T05:49:59Z",
@@ -11131,6 +11229,11 @@
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.6.0"
     },
+    "def96065836376d050176a64": {
+      "first_seen": "2026-11-17T21:54:19Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12481"
+    },
     "df16325e0e515677727c0d1a": {
       "first_seen": "2026-10-28T07:28:01Z",
       "status": "queued",
@@ -11409,6 +11512,12 @@
       "status": "queued",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.12"
     },
+    "e4972e0860d96b6c6f884663": {
+      "first_seen": "2026-11-17T21:54:12Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/best-of-play-awards-2026/"
+    },
     "e4b2875426bca7aa4027a58e": {
       "first_seen": "2026-11-09T14:19:20Z",
       "status": "queued",
@@ -11419,10 +11528,20 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11880"
     },
+    "e4dfcc8c4cc7d973905e99cc": {
+      "first_seen": "2026-11-17T21:54:12Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/"
+    },
     "e4ec4a6694a6fb04a16685e7": {
       "first_seen": "2026-10-28T07:28:01Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.36192"
+    },
+    "e500f96befa0390c3494e27b": {
+      "first_seen": "2026-11-17T21:54:19Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12483"
     },
     "e513ec69bf8cf41b91265073": {
       "first_seen": "2026-10-22T07:18:23Z",
@@ -11663,6 +11782,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.4.0"
+    },
+    "ea3262b1861aaf6747cd0250": {
+      "first_seen": "2026-11-17T21:54:19Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12479"
     },
     "ea6625878e572d729a913e89": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -12369,6 +12493,11 @@
       "first_seen": "2026-10-27T12:40:00Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11923"
+    },
+    "f71df4eeea2a175ce56f254a": {
+      "first_seen": "2026-11-17T21:54:12Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2-technical-report/"
     },
     "f727b4e1831e7a08543a22d3": {
       "first_seen": "2026-10-15T19:15:03Z",

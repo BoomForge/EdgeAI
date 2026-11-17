@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-17T08:20:06Z",
+    "at": "2026-11-17T17:46:27Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 8,
-    "queued": 7,
+    "prefiltered": 2,
+    "queued": 3,
     "sources_ok": 15,
-    "too_old": 7,
+    "too_old": 6,
     "warnings": 0
   },
-  "runs": 215,
+  "runs": 216,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -698,6 +698,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/sitesolide"
+    },
+    "118ddd23e7708938309be590": {
+      "first_seen": "2026-11-17T17:46:23Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/ekline"
     },
     "1190125068388c56d42d5110": {
       "first_seen": "2026-11-17T00:23:44Z",
@@ -2072,6 +2077,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/animatica-autoposer-pro"
     },
+    "337476f5a344a31a82b9dd80": {
+      "first_seen": "2026-11-17T17:46:23Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/thebold"
+    },
     "33aa528b7cafa35534b800b3": {
       "first_seen": "2026-10-25T10:01:09Z",
       "status": "queued",
@@ -2141,6 +2151,11 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/thalia"
+    },
+    "35226828eb31dbe8f3e16afe": {
+      "first_seen": "2026-11-17T17:46:23Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/link-bio"
     },
     "352fd1a742a2b25bda6bc124": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -2866,6 +2881,12 @@
       "first_seen": "2026-11-07T00:52:28Z",
       "status": "queued",
       "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "46490c69d777bf7f2de061a5": {
+      "first_seen": "2026-11-17T17:46:23Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/superlog"
     },
     "464b242e08c88b0c2a1c797a": {
       "first_seen": "2026-10-21T11:41:37Z",
@@ -5371,6 +5392,11 @@
       "status": "queued",
       "url": "https://www.anthropic.com/research/early-progress-drug-development?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "7ffc12585078d9ca1b5197d8": {
+      "first_seen": "2026-11-17T17:46:23Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/rootkey-platform"
+    },
     "8021ac8155b7aa37da2475b8": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -6255,6 +6281,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/gleap"
     },
+    "97010aa81808376ce682efcc": {
+      "first_seen": "2026-11-17T17:46:23Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/3bcad"
+    },
     "972fcf3bdd8a38e11b028b3b": {
       "first_seen": "2026-11-02T09:24:17Z",
       "search_score": 0,
@@ -6511,6 +6542,11 @@
       "first_seen": "2026-11-02T19:41:18Z",
       "status": "queued",
       "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "9e24bec0316d82cc334b61d9": {
+      "first_seen": "2026-11-17T17:46:23Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/"
     },
     "9e3e7fc1c9a089c9ac0a9409": {
       "first_seen": "2026-11-03T09:27:30Z",
@@ -6897,6 +6933,11 @@
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-1e6c65588e43ac9e658e"
     },
+    "a79a09b7eee7bd4a78e9d00d": {
+      "first_seen": "2026-11-17T17:46:23Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-fa07864f398af211e328"
+    },
     "a7af1b25656fe844c38b28aa": {
       "first_seen": "2026-11-13T00:38:28Z",
       "status": "queued",
@@ -7078,6 +7119,12 @@
       "status": "queued",
       "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "ac6bb099251327e6230ed8e8": {
+      "first_seen": "2026-11-17T17:46:23Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/stencil-by-superhands"
+    },
     "acb4d46b14ee21b8f01ee718": {
       "first_seen": "2026-10-15T22:14:56Z",
       "status": "queued",
@@ -7155,6 +7202,11 @@
       "first_seen": "2026-10-24T17:40:31Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2114029282892595467"
+    },
+    "aee25b0177453f598121ecb3": {
+      "first_seen": "2026-11-17T17:46:23Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/why-every-claude-design-looks-the-same-11-17-2026"
     },
     "aeec7a15e81750556e62946a": {
       "first_seen": "2026-10-12T15:14:38Z",
@@ -8180,6 +8232,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/boltbar"
+    },
+    "caa395db87dca73efa0bbfde": {
+      "first_seen": "2026-11-17T17:46:23Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/rankspot"
     },
     "cb210e1bfd7e397053a30246": {
       "first_seen": "2026-11-09T21:33:40Z",

@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "at": "2026-11-17T04:22:46Z",
+    "at": "2026-11-17T13:40:57Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
@@ -9,7 +9,7 @@
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 217,
+  "runs": 218,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -654,6 +654,11 @@
       "status": "queued",
       "url": "https://github.com/huggingface/diffusers/releases/tag/v0.41.0"
     },
+    "0e7f690aa4ff229bd2e8f275": {
+      "first_seen": "2026-11-17T13:40:30Z",
+      "status": "queued",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai"
+    },
     "0e91bf2e5395f2ba5cfbc6a8": {
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
@@ -723,6 +728,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02437"
+    },
+    "103714b7634ac5b44a2c49d7": {
+      "first_seen": "2026-11-17T13:40:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12475"
     },
     "1068e0d69d96ed6e02fb5f9d": {
       "first_seen": "2026-11-14T01:45:59Z",
@@ -1145,6 +1155,11 @@
       "status": "queued",
       "url": "https://github.com/huggingface/diffusers/releases/tag/v0.43.0"
     },
+    "16dee00cdaaa92c0fc0004e3": {
+      "first_seen": "2026-11-17T13:40:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12468"
+    },
     "16fa486175267a6e498c4109": {
       "first_seen": "2026-10-30T15:07:01Z",
       "status": "queued",
@@ -1386,6 +1401,11 @@
       "first_seen": "2026-10-20T15:11:37Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11757"
+    },
+    "1abd8cdfe1078e331f230a77": {
+      "first_seen": "2026-11-17T13:40:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12469"
     },
     "1accc93f0c1b22e94ad543c3": {
       "first_seen": "2026-11-16T21:47:54Z",
@@ -3840,6 +3860,11 @@
       "first_seen": "2026-11-11T07:35:49Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.12936"
+    },
+    "4bea592884744b0da6f636f8": {
+      "first_seen": "2026-11-17T13:40:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12474"
     },
     "4bf8e91caed38e9b3afedd58": {
       "first_seen": "2026-10-28T19:52:37Z",
@@ -6417,6 +6442,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40893"
     },
+    "8298cf0591159058364426a0": {
+      "first_seen": "2026-11-17T13:40:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12470"
+    },
     "82bfd1f839387037303c5e40": {
       "first_seen": "2026-10-09T19:20:42Z",
       "status": "queued",
@@ -7375,6 +7405,11 @@
       "first_seen": "2026-10-03T00:46:14Z",
       "status": "too_old",
       "url": "https://github.com/continuedev/continue/releases/tag/v1.3.40-vscode"
+    },
+    "94d099d4117467aeab98171a": {
+      "first_seen": "2026-11-17T13:40:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12473"
     },
     "94eadcab22c41e356a1d9bf1": {
       "first_seen": "2026-10-16T00:44:38Z",
@@ -8959,6 +8994,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/"
     },
+    "b4faf8df08de0fcc37e0f8c0": {
+      "first_seen": "2026-11-17T13:40:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12466"
+    },
     "b50f3a47067c5ec9935b1f5c": {
       "first_seen": "2026-10-10T19:21:11Z",
       "status": "queued",
@@ -9088,6 +9128,11 @@
       "first_seen": "2026-10-07T09:14:06Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06971"
+    },
+    "b82b64ef90f76e66fb0003e7": {
+      "first_seen": "2026-11-17T13:40:30Z",
+      "status": "queued",
+      "url": "https://openai.com/business/customer-stories/revolut"
     },
     "b83cf3c7dbf297affe825f0f": {
       "first_seen": "2026-10-15T05:40:21Z",
@@ -9965,6 +10010,11 @@
       "first_seen": "2026-11-04T10:39:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.00319"
+    },
+    "c9cafda30fe00c259d779034": {
+      "first_seen": "2026-11-17T13:40:36Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12471"
     },
     "c9d380c0b10dcf2109ca4fbb": {
       "first_seen": "2026-10-15T05:40:19Z",

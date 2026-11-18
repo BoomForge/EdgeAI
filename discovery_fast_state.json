@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-18T12:14:51Z",
+    "at": "2026-11-18T20:41:59Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 52,
+    "prefiltered": 5,
+    "queued": 23,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 221,
+  "runs": 222,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -51,6 +51,11 @@
       "first_seen": "2026-10-04T23:17:50Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc3"
+    },
+    "00a064e6720eae62fd0b2612": {
+      "first_seen": "2026-11-18T20:41:26Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
     },
     "00f2dc4067e9328e4fd941bb": {
       "first_seen": "2026-10-28T07:28:01Z",
@@ -1276,6 +1281,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.00047"
     },
+    "184d931227f2504de1a33beb": {
+      "first_seen": "2026-11-18T20:41:26Z",
+      "status": "queued",
+      "url": "https://openai.com/index/the-silent-consensus"
+    },
     "18521ab849e45ccff746b9d7": {
       "first_seen": "2026-10-14T10:22:27Z",
       "status": "queued",
@@ -2184,6 +2194,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.33138"
     },
+    "285e2a7964b05cb3f9b5cd1e": {
+      "first_seen": "2026-11-18T20:41:53Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.2"
+    },
     "288f4630deaa03076086fb4a": {
       "first_seen": "2026-10-03T00:46:20Z",
       "status": "too_old",
@@ -2816,6 +2831,11 @@
       "status": "queued",
       "url": "https://openai.com/index/introducing-gpt-6-1-terra"
     },
+    "361479cc0a0b93ad5d296d54": {
+      "first_seen": "2026-11-18T20:41:26Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/"
+    },
     "36459f304a2d52e221d45bea": {
       "first_seen": "2026-11-14T08:45:09Z",
       "status": "queued",
@@ -3390,6 +3410,11 @@
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.0"
     },
+    "411c3a13a5d37b3ffb11e8b5": {
+      "first_seen": "2026-11-18T20:41:53Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.1"
+    },
     "41201ce1f215e4f9daf82d4e": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -3876,6 +3901,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12451"
     },
+    "496a41990f115206b0693d33": {
+      "first_seen": "2026-11-18T20:41:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12508"
+    },
     "4978d21247862747aac1f9eb": {
       "first_seen": "2026-11-08T15:51:35Z",
       "status": "queued",
@@ -4056,6 +4086,12 @@
       "first_seen": "2026-10-28T07:28:01Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.36184"
+    },
+    "4d5ea68368124bc34c0901de": {
+      "first_seen": "2026-11-18T20:41:26Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/cybersecurity-tips/"
     },
     "4d611d68a5a28f312281b92e": {
       "first_seen": "2026-10-05T09:14:06Z",
@@ -4293,6 +4329,11 @@
       "first_seen": "2026-11-06T16:15:30Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12170"
+    },
+    "52f6bc9a43b3606d3a017786": {
+      "first_seen": "2026-11-18T20:41:26Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
     },
     "53160b19c31958fbc9b2ccdf": {
       "first_seen": "2026-11-11T22:15:49Z",
@@ -5118,6 +5159,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12221"
     },
+    "62d98f6299497ee8ec32be8a": {
+      "first_seen": "2026-11-18T20:41:56Z",
+      "status": "queued",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.42"
+    },
     "62e8e20e7391685c56366edf": {
       "first_seen": "2026-10-28T07:28:01Z",
       "status": "queued",
@@ -5182,6 +5228,12 @@
       "first_seen": "2026-10-22T07:18:24Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.28810"
+    },
+    "63f8f522e5630737064b83c8": {
+      "first_seen": "2026-11-18T20:41:26Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-latin-america/google-for-mexico-2026-november/"
     },
     "6400feb681472530a689e8c5": {
       "first_seen": "2026-10-22T17:55:59Z",
@@ -5295,6 +5347,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.12976"
     },
+    "661a8f3992c265990a5ee1d3": {
+      "first_seen": "2026-11-18T20:41:53Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.1"
+    },
     "661f54c7e41cea3c06225c21": {
       "first_seen": "2026-11-05T05:50:00Z",
       "status": "queued",
@@ -5374,6 +5431,11 @@
       "first_seen": "2026-11-13T00:34:00Z",
       "status": "queued",
       "url": "https://openai.com/business/customer-stories/amplitude"
+    },
+    "67952d9a918d2536a7bf3b37": {
+      "first_seen": "2026-11-18T20:41:26Z",
+      "status": "queued",
+      "url": "https://openai.com/index/inside-the-codex-sandbox"
     },
     "67c44c74430c7c20f6d96ea8": {
       "first_seen": "2026-10-26T21:51:38Z",
@@ -5471,6 +5533,11 @@
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
     },
+    "68ddb817fe4001c0fc7b7140": {
+      "first_seen": "2026-11-18T20:41:26Z",
+      "status": "queued",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models"
+    },
     "69276eeb04775a448f3b0030": {
       "first_seen": "2026-10-27T06:24:39Z",
       "status": "queued",
@@ -5500,6 +5567,11 @@
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08864"
+    },
+    "698247bdce186ae6487527eb": {
+      "first_seen": "2026-11-18T20:41:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12512"
     },
     "699595b3b94d9b754c127512": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -5648,6 +5720,11 @@
       "first_seen": "2026-11-04T02:58:43Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.109.0-rc.1"
+    },
+    "6c53b3f8ec307738391a8d2c": {
+      "first_seen": "2026-11-18T20:41:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12521"
     },
     "6c58bb6023c9ba1233b5d698": {
       "first_seen": "2026-11-05T05:50:00Z",
@@ -6126,6 +6203,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
     },
+    "74e7247aa9b4db486a2fdf9b": {
+      "first_seen": "2026-11-18T20:41:53Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.1"
+    },
     "74ea1ed86ac90e23cde7c25a": {
       "first_seen": "2026-11-18T03:25:57Z",
       "status": "queued",
@@ -6583,6 +6665,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20637"
     },
+    "80aa973eaf9dc1545fe5d900": {
+      "first_seen": "2026-11-18T20:41:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12520"
+    },
     "80b2fec4b1002d8816f9f649": {
       "first_seen": "2026-10-03T00:45:51Z",
       "status": "queued",
@@ -6841,6 +6928,11 @@
       "first_seen": "2026-11-12T19:07:38Z",
       "status": "queued",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.41"
+    },
+    "85049c04d9c9dfd6ab123b7f": {
+      "first_seen": "2026-11-18T20:41:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12511"
     },
     "854a452f65cee3d5c1022dc8": {
       "first_seen": "2026-11-01T15:16:49Z",
@@ -7609,6 +7701,12 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.26899"
     },
+    "93762b1fdcd40305b53b0f13": {
+      "first_seen": "2026-11-18T20:41:26Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products/marketingplatform/360/google-marketing-platform-drop-november/"
+    },
     "9387a338862cdb9ec5fa0206": {
       "first_seen": "2026-10-30T15:07:01Z",
       "status": "queued",
@@ -7935,6 +8033,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08817"
     },
+    "99be0c0a7e074380d1a5d6cd": {
+      "first_seen": "2026-11-18T20:41:26Z",
+      "status": "queued",
+      "url": "https://openai.com/index/managing-frontier-ai-risk"
+    },
     "99c1510809acafe4d6e00a2b": {
       "first_seen": "2026-11-16T11:43:50Z",
       "status": "queued",
@@ -8004,6 +8107,11 @@
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08835"
+    },
+    "9b6c0cf2a5e205e7659f83e5": {
+      "first_seen": "2026-11-18T20:41:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12522"
     },
     "9b969da080efdf9fcad72596": {
       "first_seen": "2026-10-09T19:20:42Z",
@@ -9593,6 +9701,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10590"
     },
+    "ba879e98964ada398ba52609": {
+      "first_seen": "2026-11-18T20:41:53Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.11"
+    },
     "ba88264e96e28630fd7d5876": {
       "first_seen": "2026-11-18T12:14:24Z",
       "status": "queued",
@@ -10535,6 +10648,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.36183"
     },
+    "ccbb3634a8b3b5e09bf528e6": {
+      "first_seen": "2026-11-18T20:41:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12509"
+    },
     "ccc48caa46ec0b1214a46d73": {
       "first_seen": "2026-10-25T13:40:54Z",
       "status": "queued",
@@ -11123,6 +11241,12 @@
       "first_seen": "2026-10-26T05:16:26Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31835"
+    },
+    "d792e66a415df382b09adc6b": {
+      "first_seen": "2026-11-18T20:41:26Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/auction-google-play-las-vegas/"
     },
     "d79f9d5dd9f3ac78ec6ee6c1": {
       "first_seen": "2026-10-07T09:14:07Z",
@@ -12212,6 +12336,12 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11391"
     },
+    "ec4e8ad03939fb3f877a03ab": {
+      "first_seen": "2026-11-18T20:41:26Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-november-2026/"
+    },
     "ec5258f1002411eb7a7a42a0": {
       "first_seen": "2026-10-30T01:50:28Z",
       "status": "queued",
@@ -12232,6 +12362,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10829"
+    },
+    "ecd87eb5e7d3e866b7231a58": {
+      "first_seen": "2026-11-18T20:41:42Z",
+      "status": "queued",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v5.0.0"
     },
     "ecddf41113fc23ccd83b0871": {
       "first_seen": "2026-11-11T00:54:25Z",
@@ -12523,6 +12658,11 @@
       "first_seen": "2026-10-09T19:20:42Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11537"
+    },
+    "f23b5a090101aad23046052c": {
+      "first_seen": "2026-11-18T20:41:33Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12507"
     },
     "f2473d16efd64987246f3f2c": {
       "first_seen": "2026-11-05T05:50:00Z",
@@ -13132,6 +13272,11 @@
       "first_seen": "2026-10-08T07:31:26Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11486"
+    },
+    "fdd613686a9a59886466a90d": {
+      "first_seen": "2026-11-18T20:41:53Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.3"
     },
     "fdd7c1296f918924cf0359be": {
       "first_seen": "2026-10-19T04:18:14Z",

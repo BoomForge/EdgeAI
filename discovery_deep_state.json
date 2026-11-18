@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-18T00:02:26Z",
+    "at": "2026-11-18T07:17:52Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 16,
+    "prefiltered": 0,
+    "queued": 3,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 217,
+  "runs": 218,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -575,6 +575,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/autochart-eu"
+    },
+    "0de4c26c504964fc68cb353b": {
+      "first_seen": "2026-11-18T07:17:49Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-d2978c466fa9633237da"
     },
     "0e365028518c38e91ece0fda": {
       "first_seen": "2026-11-10T20:02:33Z",
@@ -2855,6 +2860,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://newsletter.futurepedia.io/p/chatgpt-can-now-make-gifs-from-your-photos-11-13-2026"
+    },
+    "4488965b81c05f5ae6ceb178": {
+      "first_seen": "2026-11-18T07:17:48Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-bed2ce5b0ba119413283"
     },
     "44a995e3e5a09201313731f5": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -7318,6 +7328,11 @@
       "first_seen": "2026-10-23T15:23:32Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2113638609794293773"
+    },
+    "b03654259335514b10c3de96": {
+      "first_seen": "2026-11-18T07:17:48Z",
+      "status": "queued",
+      "url": "https://www.perplexity.ai/hub/blog/orchestrator-one-api-for-reliable-inference?utm_source=futuretools.io&utm_medium=newspage"
     },
     "b0409510b16c111a8c50ecbd": {
       "first_seen": "2026-10-15T14:58:02Z",

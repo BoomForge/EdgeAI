@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-18T07:17:52Z",
+    "at": "2026-11-18T16:39:45Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 3,
+    "prefiltered": 6,
+    "queued": 7,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 8,
     "warnings": 0
   },
-  "runs": 218,
+  "runs": 219,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -667,6 +667,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/click-6"
     },
+    "1065e0fbd568bc87da78d7ea": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/ox212"
+    },
     "106dbca835aa2a7088b7ac94": {
       "first_seen": "2026-10-10T16:21:13Z",
       "status": "too_old",
@@ -901,6 +907,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/nani-2"
+    },
+    "15caba8c4a85216a5417bd6b": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/icons-2"
     },
     "15e2f60b6ff06a82e975d347": {
       "first_seen": "2026-10-21T16:08:20Z",
@@ -1655,6 +1666,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/karmaboard"
     },
+    "27f7b51e3bf8f5a8746a5cb2": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/"
+    },
     "2868f0eaf01a650f5954579d": {
       "first_seen": "2026-10-18T10:57:54Z",
       "status": "too_old",
@@ -1782,6 +1798,11 @@
       "first_seen": "2026-10-10T23:43:52Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/gitglow-2"
+    },
+    "2b925c76d0b9e931b373be91": {
+      "first_seen": "2026-11-18T16:39:41Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-5c035f28a1a9ece171af"
     },
     "2bbf27d88bc8b18ad05b0d21": {
       "first_seen": "2026-10-27T18:23:50Z",
@@ -3424,6 +3445,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/akema"
     },
+    "514d4c4e7609081ae6a69bff": {
+      "first_seen": "2026-11-18T16:39:41Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-9752f49be86fdd31c9a2"
+    },
     "5169fd54e7113f0b4d11695c": {
       "first_seen": "2026-11-10T12:32:55Z",
       "status": "queued",
@@ -4168,6 +4194,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/music-dawn"
+    },
+    "61f907d20216a26672d83cd7": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/kwatch"
     },
     "6218e0219f6856f2edb6a893": {
       "first_seen": "2026-10-06T19:44:11Z",
@@ -6289,6 +6321,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/resend"
     },
+    "95292312f91e5a747f254569": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/introzy"
+    },
     "9561e0b2102ff5b96763a074": {
       "first_seen": "2026-10-14T07:31:56Z",
       "search_score": 0,
@@ -6315,6 +6353,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/openbroca"
     },
+    "9632a0c11067a220c1cfbd16": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/qwen3"
+    },
     "963f327d7742bfcdecb503a6": {
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "too_old",
@@ -6335,6 +6378,11 @@
       "first_seen": "2026-11-11T22:18:56Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/"
+    },
+    "96722c17e947cea12c172ff4": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/happo-2"
     },
     "96818dd28b2103951763bae9": {
       "first_seen": "2026-10-31T12:57:54Z",
@@ -6434,6 +6482,12 @@
       "first_seen": "2026-10-16T18:46:44Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/muse-spark-open"
+    },
+    "98c8bd177fc65f03691d0a81": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/canfit"
     },
     "992103baab869f7b32d66923": {
       "first_seen": "2026-10-16T14:48:14Z",
@@ -6916,6 +6970,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Nov/16/llm/"
     },
+    "a51c9a55e91831dade15c885": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/s-space"
+    },
     "a5424bacc393e719eb5b6ab4": {
       "first_seen": "2026-11-06T20:59:29Z",
       "status": "too_old",
@@ -7298,6 +7357,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://runway.com/research/publications"
+    },
+    "af3d2337c2f27ea03c6f6718": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/dippr"
     },
     "af6d4b8ab88d1786c2f02d8b": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -8424,6 +8488,11 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-4bfc27b875b671c5d270"
     },
+    "cd8a0f126fa9fc21164d76a3": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/mermaid-chart"
+    },
     "cd9267d452079c2353cb8ed2": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -8704,6 +8773,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/cedric"
     },
+    "d4984a176d51d4412d31f4d7": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/soreqen-code"
+    },
     "d49d9e4f5cd766222b695b49": {
       "first_seen": "2026-11-04T17:58:20Z",
       "search_score": 0,
@@ -8782,6 +8856,11 @@
       "first_seen": "2026-10-30T03:00:28Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2115996033326969135"
+    },
+    "d6b88907cbdaa3084d0368cf": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/"
     },
     "d6ebee241bd6e9e91bf2f03c": {
       "first_seen": "2026-11-14T15:46:08Z",
@@ -8900,6 +8979,12 @@
       "first_seen": "2026-11-05T11:39:14Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/paws"
+    },
+    "d95d2be8709ba20e7ab98cab": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/orken"
     },
     "d960e64d06d5c7517347cd61": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -9130,6 +9215,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/dailyhub-a-quiet-workspace-for-your-day"
+    },
+    "de63363d67569acf977f0c41": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/toone"
     },
     "de959bab941149a96f431c49": {
       "first_seen": "2026-11-03T09:27:30Z",
@@ -9439,6 +9529,12 @@
       "first_seen": "2026-10-18T10:57:54Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/gravity-notes-for-mac"
+    },
+    "e67ca5d1254a691fafe86b2e": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/lepoly"
     },
     "e6d250947032efc40b7f590a": {
       "first_seen": "2026-11-02T09:24:17Z",
@@ -10235,6 +10331,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/freebuff-2"
     },
+    "f9faa59cd288f956ca8ee99a": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/waldo-by-wherobots"
+    },
     "fa1e0193207164e24389a829": {
       "first_seen": "2026-11-11T15:31:28Z",
       "search_score": 0,
@@ -10348,6 +10449,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/tracex"
     },
+    "fd8c265fc27c8ccba678e8ce": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/ody-ai-business-phone"
+    },
     "fdc555784f18363338e2980b": {
       "first_seen": "2026-10-14T01:51:45Z",
       "status": "queued",
@@ -10393,6 +10499,11 @@
       "first_seen": "2026-11-05T19:03:52Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Nov/5/paul-ford/"
+    },
+    "ff1d57c1e53b9a10a01f25d9": {
+      "first_seen": "2026-11-18T16:39:40Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/bluedot-2"
     },
     "ff2c216b20103980ddbe972d": {
       "first_seen": "2026-10-20T15:17:17Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-17T17:46:27Z",
+    "at": "2026-11-18T00:02:26Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 3,
+    "prefiltered": 1,
+    "queued": 16,
     "sources_ok": 15,
-    "too_old": 6,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 216,
+  "runs": 217,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -247,6 +247,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/chickytutor"
     },
+    "05f83a2f69cac11ece73d372": {
+      "first_seen": "2026-11-18T00:02:22Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/hako"
+    },
     "0638a05f43fe1ff64b629501": {
       "first_seen": "2026-11-05T19:03:52Z",
       "status": "too_old",
@@ -342,6 +347,11 @@
       "first_seen": "2026-10-03T18:47:09Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/prefer-2"
+    },
+    "07feb2f341c18ae9ed2302d8": {
+      "first_seen": "2026-11-18T00:02:21Z",
+      "status": "queued",
+      "url": "https://microsoft.ai/news/introducing-mai-image-2-7/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "083497c77c319f0c4b6fea7a": {
       "first_seen": "2026-11-03T22:28:19Z",
@@ -461,6 +471,11 @@
       "first_seen": "2026-10-29T13:31:50Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/intrascope-app"
+    },
+    "0b5f35342ecc69a52f0353df": {
+      "first_seen": "2026-11-18T00:02:22Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
     },
     "0b8b56dba928bd682afd58ba": {
       "first_seen": "2026-10-04T17:06:51Z",
@@ -1603,6 +1618,11 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-01385d29a6abea0cb221"
     },
+    "27140bd89f774aecde836f8f": {
+      "first_seen": "2026-11-18T00:02:21Z",
+      "status": "queued",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "271a8d37f09e7fec2947e57b": {
       "first_seen": "2026-10-06T19:44:10Z",
       "status": "too_old",
@@ -1777,6 +1797,11 @@
       "first_seen": "2026-11-09T02:53:49Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2119573404990771238"
+    },
+    "2c6da5dfbd719fd4752aa4aa": {
+      "first_seen": "2026-11-18T00:02:21Z",
+      "status": "queued",
+      "url": "https://openai.com/index/astra-law-6-2/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "2c8b555f89725b795ac88b8d": {
       "first_seen": "2026-10-08T01:53:43Z",
@@ -2031,6 +2056,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/loqui-2"
+    },
+    "3237918fdca0639698c66ded": {
+      "first_seen": "2026-11-18T00:02:21Z",
+      "status": "queued",
+      "url": "https://microsoft.ai/news/introducing-mai-realtime-1/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "323ec171f8d23570a78d8aa0": {
       "first_seen": "2026-11-05T11:39:13Z",
@@ -3076,6 +3106,11 @@
       "first_seen": "2026-10-07T21:57:48Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/flowo-2"
+    },
+    "49eea3107f4ac577bbcc4de6": {
+      "first_seen": "2026-11-18T00:02:21Z",
+      "status": "queued",
+      "url": "https://microsoft.ai/news/introducing-mai-licensed-weights/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "4a53e27db39ccb6f9a070e23": {
       "first_seen": "2026-11-06T00:11:00Z",
@@ -4225,6 +4260,11 @@
       "status": "queued",
       "url": "https://www.minimax.io/blog/minimax-h3"
     },
+    "643e81338a387fe1a0da457b": {
+      "first_seen": "2026-11-18T00:02:21Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "64d8f3ec2e2e4644fbbad8f0": {
       "first_seen": "2026-10-11T09:11:21Z",
       "status": "too_old",
@@ -4530,6 +4570,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/bluetooth-snes-controller"
     },
+    "6ca9b474ab61d2c066637922": {
+      "first_seen": "2026-11-18T00:02:22Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/inbox-hero-2"
+    },
     "6d260bee3dcaf035dcd328cb": {
       "first_seen": "2026-11-10T12:32:54Z",
       "search_score": 1,
@@ -4646,6 +4691,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/chime-sms-categorized-on-device"
+    },
+    "6f61250f1d7c0d451507a913": {
+      "first_seen": "2026-11-18T00:02:25Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2122778725548716082"
     },
     "6f7a845deb5495d0aff90924": {
       "first_seen": "2026-10-29T00:27:43Z",
@@ -4962,6 +5012,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/viibeo"
     },
+    "7737dc6aeb5bcb1ae0753552": {
+      "first_seen": "2026-11-18T00:02:21Z",
+      "status": "queued",
+      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "77520fb61be3d3d8c1667971": {
       "first_seen": "2026-10-22T07:30:04Z",
       "search_score": 0,
@@ -5267,6 +5322,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/okapi-2"
     },
+    "7d1b4e1a3317aaf61d434bba": {
+      "first_seen": "2026-11-18T00:02:21Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "7da16fb58ab2d3e1fea6cf10": {
       "first_seen": "2026-11-09T21:33:40Z",
       "status": "queued",
@@ -5549,6 +5609,11 @@
       "first_seen": "2026-11-09T11:23:00Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/agent-powered-geo-by-dageno"
+    },
+    "8405c0cfd55bf68d3b08ea2d": {
+      "first_seen": "2026-11-18T00:02:23Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-fa519ec7854ab8b81491"
     },
     "841ee1c059d03c53236d2c27": {
       "first_seen": "2026-11-03T09:27:30Z",
@@ -6658,6 +6723,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/backenly-2"
     },
+    "a080daec9a49e666489de68a": {
+      "first_seen": "2026-11-18T00:02:22Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/aws"
+    },
     "a089626e3410901f3f1c274c": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -7396,6 +7467,11 @@
       "first_seen": "2026-10-03T05:50:29Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/moxie-2"
+    },
+    "b4439a7527ca175b45e55871": {
+      "first_seen": "2026-11-18T00:02:22Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
     },
     "b4955263c590c8b42db08679": {
       "first_seen": "2026-10-16T14:48:14Z",
@@ -8221,6 +8297,11 @@
       "status": "queued",
       "url": "https://www.googlecloudpresscorner.com/2026-11-10-Google-Cloud-Launches-Gemini-for-Healthcare?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "ca728c43a92b92e2f842e568": {
+      "first_seen": "2026-11-18T00:02:21Z",
+      "status": "queued",
+      "url": "https://microsoft.ai/news/introducing-mai-cyber-2-flash/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "ca7a54426803b87d0360be86": {
       "first_seen": "2026-10-22T07:30:04Z",
       "search_score": 0,
@@ -8521,6 +8602,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/lookout-for-slack"
+    },
+    "d25871eeefb6d76b2a596ebf": {
+      "first_seen": "2026-11-18T00:02:21Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "d2a239d4a8c6e6c1aeaf7910": {
       "first_seen": "2026-10-27T22:30:09Z",
@@ -9324,6 +9410,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/thunder-3"
     },
+    "e63967d63f593546648659eb": {
+      "first_seen": "2026-11-18T00:02:22Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-2893e3e805aad49dbb6a"
+    },
     "e664b5c1e5685295dc6ab7f5": {
       "first_seen": "2026-11-17T00:23:44Z",
       "status": "queued",
@@ -9959,6 +10050,11 @@
       "first_seen": "2026-10-09T01:22:21Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/termaxa"
+    },
+    "f6bc592ff27b32b6d2d41326": {
+      "first_seen": "2026-11-18T00:02:21Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "f72a8550f935e17610d91403": {
       "first_seen": "2026-10-25T10:01:09Z",

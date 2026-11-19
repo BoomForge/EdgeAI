@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-18T23:10:04Z",
+    "at": "2026-11-19T04:24:10Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 19,
+    "prefiltered": 0,
+    "queued": 5,
     "sources_ok": 15,
-    "too_old": 4,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 220,
+  "runs": 221,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -112,6 +112,11 @@
       "first_seen": "2026-10-21T20:18:30Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/nativeship"
+    },
+    "033cad976a2a4fc328fab8d4": {
+      "first_seen": "2026-11-19T04:24:08Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2123209733112840367"
     },
     "035105522fb584f97323aa66": {
       "first_seen": "2026-11-17T08:20:02Z",
@@ -434,6 +439,11 @@
       "first_seen": "2026-11-02T09:24:18Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-7a16fa14a486ca6a399e"
+    },
+    "09ea4919be46afe663e04a0a": {
+      "first_seen": "2026-11-19T04:24:06Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-4e0e1f92fd6c13e5a423"
     },
     "09ff813956f26f99df3f1e0a": {
       "first_seen": "2026-11-11T22:18:56Z",
@@ -4083,6 +4093,11 @@
       "status": "queued",
       "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "5f73b59a3fca2b791eb9dfa7": {
+      "first_seen": "2026-11-19T04:24:05Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows/"
+    },
     "5f893e4c2783d9d33b522297": {
       "first_seen": "2026-11-07T13:56:47Z",
       "status": "too_old",
@@ -4900,6 +4915,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/xolace"
     },
+    "72106ff85534ef0d512358b4": {
+      "first_seen": "2026-11-19T04:24:04Z",
+      "status": "queued",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "722ef3bb8d0cdb826e2a12de": {
       "first_seen": "2026-11-07T13:56:47Z",
       "search_score": 0,
@@ -5301,6 +5321,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/your-chatgpt-can-now-work-while-youre-away-10-02-2026"
+    },
+    "79ff0c06b3065b996e30aee9": {
+      "first_seen": "2026-11-19T04:24:05Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/beacon-26"
     },
     "7a52250ac7f55f5e0df32914": {
       "first_seen": "2026-10-29T13:31:50Z",

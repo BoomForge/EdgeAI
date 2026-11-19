@@ -77,12 +77,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-19T12:56:35Z",
-    "eligible": 94,
-    "evaluated": 5,
+    "at": "2026-11-19T21:27:15Z",
+    "eligible": 91,
+    "evaluated": 4,
     "mode": "live",
-    "new_posts": 1,
-    "publish_actions": 1,
+    "new_posts": 2,
+    "publish_actions": 2,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -2150,6 +2150,11 @@
       "status": "expired",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fcore%2Fv0.0.90"
     },
+    "2d7a5d6b20fff3cd431e56c6": {
+      "at": "2026-11-19T21:27:04Z",
+      "status": "expired",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+    },
     "2d7f90284b95f6fe7941fe4e": {
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
@@ -2318,6 +2323,14 @@
       "at": "2026-11-12T00:35:08Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc0"
+    },
+    "3047d7657748ea760feb4367": {
+      "at": "2026-11-19T21:27:11Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "openai-chatgpt-for-sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales"
     },
     "30524c47438f129e3b693188": {
       "at": "2026-10-17T04:50:07Z",
@@ -3893,6 +3906,11 @@
       },
       "url": "https://artificialanalysis.ai/changelog#edgeai-b8d5b32175f1b291afc5"
     },
+    "51963416ec3a337541475559": {
+      "at": "2026-11-19T21:27:04Z",
+      "status": "expired",
+      "url": "https://openrouter.ai/rankings#edgeai-a3cd0f3d202b95485502"
+    },
     "51ddba2e3e4c402c871902fd": {
       "at": "2026-10-12T01:40:21Z",
       "bootstrap": false,
@@ -4895,6 +4913,11 @@
       "at": "2026-10-10T21:56:54Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/clippo-2"
+    },
+    "66c26f89d499749cc55b21a0": {
+      "at": "2026-11-19T21:27:04Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1"
     },
     "66ce92e5e68cbdb18eafdb5b": {
       "at": "2026-10-06T09:19:44Z",
@@ -6692,6 +6715,20 @@
       },
       "url": "https://artificialanalysis.ai/changelog#edgeai-c2f97c056df2001a7108"
     },
+    "8f6af8c44a4a1bfb5de31585": {
+      "at": "2026-11-19T21:27:08Z",
+      "bootstrap": false,
+      "score": 96,
+      "status": "published",
+      "story_key": "openai-gpt-6-2-astra-sol",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    },
     "8fbbc27028afdfad518c4152": {
       "at": "2026-11-04T17:36:32Z",
       "bootstrap": false,
@@ -6853,6 +6890,14 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fllms%2Fv0.0.90"
+    },
+    "9342dbf934e428aa00c16520": {
+      "at": "2026-11-19T21:27:05Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "openai-performance-factory-chatgpt-speed",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
     },
     "9349f418e7bc7ab45091d36c": {
       "at": "2026-10-30T07:33:35Z",
@@ -8302,6 +8347,20 @@
       "story_key": "kimi-ai-business-plans",
       "url": "https://www.kimi.com/membership/pricing?from=header_nav&tab=business"
     },
+    "b43ef08ac3ed4f7af6f4fa4f": {
+      "at": "2026-11-19T21:27:15Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "astra-for-law-openai-legal-intelligence",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/astra-law-6-2"
+    },
     "b443199b5957d8fbbf00d876": {
       "at": "2026-10-04T11:20:52Z",
       "status": "expired",
@@ -9352,6 +9411,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11538"
     },
+    "ce950f65fb08ac11efc215c8": {
+      "at": "2026-11-19T21:27:04Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/source-public-beta"
+    },
     "ceb3576a6bbdd8c15087e27a": {
       "at": "2026-10-04T19:33:52Z",
       "status": "expired",
@@ -10077,6 +10141,11 @@
       "status": "expired",
       "url": "https://updates.midjourney.com/alpha-changelog-10-1-26/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "dd659f011024f04f24b0b918": {
+      "at": "2026-11-19T21:27:04Z",
+      "status": "expired",
+      "url": "https://openai.com/index/strengthening-online-child-safety"
+    },
     "dd6669033ccdf16934af21a3": {
       "at": "2026-10-18T00:26:48Z",
       "bootstrap": false,
@@ -10365,6 +10434,11 @@
       "at": "2026-10-05T07:01:46Z",
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00061"
+    },
+    "e2e908adea265af5fa78ec8a": {
+      "at": "2026-11-19T21:27:04Z",
+      "status": "expired",
+      "url": "https://sakana.ai/jfinbench/"
     },
     "e2ed7680c50ae3f074e04f96": {
       "at": "2026-10-28T23:38:23Z",
@@ -12888,6 +12962,27 @@
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "astra-for-law-openai-legal-intelligence": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/astra-for-law-openai-legal-intelligence.png",
+      "last_updated": "2026-11-19T21:27:15Z",
+      "post_id": "1329145230566736350",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-introduces-astra-for-law.html",
+      "score": 82,
+      "source_image_source": "EdgeAI",
+      "source_image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/edgeai-newsroom-fallback.svg",
+      "source_urls": [
+        "https://openai.com/index/astra-law-6-2"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces Astra for Law, Targeting Legal Intelligence Benchmarks",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
         "source": "OpenAI News"
       }
     },
@@ -16627,6 +16722,27 @@
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
         "source": "Artificial Analysis Changelog"
+      }
+    },
+    "openai-gpt-6-2-astra-sol": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openai-gpt-6-2-astra-sol.png",
+      "last_updated": "2026-11-19T21:27:08Z",
+      "post_id": "3342884633724516477",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-introduces-gpt-62-astra-and-sol.html",
+      "score": 96,
+      "source_image_source": "EdgeAI",
+      "source_image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/edgeai-newsroom-fallback.svg",
+      "source_urls": [
+        "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces GPT-6.2 Astra and Sol with Advanced Coding and Computer Use",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
       }
     },
     "openai-gpt-6-cyber": {

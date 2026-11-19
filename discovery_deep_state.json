@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-19T04:24:10Z",
+    "at": "2026-11-19T13:44:52Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 5,
+    "prefiltered": 6,
+    "queued": 6,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 7,
     "warnings": 0
   },
-  "runs": 221,
+  "runs": 222,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -112,6 +112,11 @@
       "first_seen": "2026-10-21T20:18:30Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/nativeship"
+    },
+    "02f125d9c6cc44016cdd5863": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/"
     },
     "033cad976a2a4fc328fab8d4": {
       "first_seen": "2026-11-19T04:24:08Z",
@@ -460,6 +465,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/mudroom-3"
     },
+    "0acce46b9cbed8f4ebee3fd3": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/tecla-3"
+    },
     "0ad7064a4996ac268f3869e4": {
       "first_seen": "2026-10-12T15:14:38Z",
       "status": "queued",
@@ -661,6 +671,12 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/rerun-2"
+    },
+    "103d87222e12ec78e483f973": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/the-calm-creator-mastermind"
     },
     "1040f15dec51655d9da5e598": {
       "first_seen": "2026-10-08T01:53:48Z",
@@ -876,6 +892,11 @@
       "first_seen": "2026-10-27T18:23:50Z",
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/claude-can-now-build-a-dashboard-that-updates-itself-10-27-2026"
+    },
+    "144da295dfdb60fae76974a2": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/spellar"
     },
     "14543bdc557cfd76687593b0": {
       "first_seen": "2026-11-14T08:55:05Z",
@@ -2006,6 +2027,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
     },
+    "2f50bab6ba7bd88f9682d846": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/tabstack"
+    },
     "2f5855ec66718315fec2ed61": {
       "first_seen": "2026-10-12T22:33:11Z",
       "status": "queued",
@@ -2844,6 +2870,11 @@
       "first_seen": "2026-11-13T15:37:08Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/expo"
+    },
+    "4183c68ca5fb45d3a760b0c4": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/manufact"
     },
     "41aaed3a7ec03d9596bf1d41": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -4983,6 +5014,12 @@
       "status": "queued",
       "url": "https://news.zoom.com/zoomtopia-2026-security/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "72ea4b0d2196fd2e0cbd039e": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/play-that-back"
+    },
     "731a51f25e029f95b4b0ea43": {
       "first_seen": "2026-11-03T09:27:30Z",
       "status": "too_old",
@@ -5061,6 +5098,11 @@
       "first_seen": "2026-10-21T01:03:21Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/intel"
+    },
+    "7500f04cb301a6004357afcb": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/every-signal"
     },
     "75246809fe714d5da0ed6099": {
       "first_seen": "2026-11-10T20:02:29Z",
@@ -6422,6 +6464,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/introzy"
     },
+    "955224d6f6c8540ee0b59471": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/meilisearch-cloud"
+    },
     "9561e0b2102ff5b96763a074": {
       "first_seen": "2026-10-14T07:31:56Z",
       "search_score": 0,
@@ -6963,6 +7010,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/hark-3"
     },
+    "a20b656f70e9ebb5cda4487b": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/netlify"
+    },
     "a2324ea2b6d0b1eac9795e0f": {
       "first_seen": "2026-11-11T00:37:31Z",
       "status": "queued",
@@ -7389,6 +7441,11 @@
       "first_seen": "2026-10-06T19:44:10Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/customer-service-ai-for-etsy"
+    },
+    "ace451e7cdc24b5c4dd9aab9": {
+      "first_seen": "2026-11-19T13:44:49Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-ca45f465f24f871aeb32"
     },
     "ace58ee31866ab85a90642d9": {
       "first_seen": "2026-10-14T01:51:45Z",
@@ -8069,6 +8126,12 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2107880428111806730"
     },
+    "bec8d0aed9e76512193f43df": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/cleared-quit-nicotine"
+    },
     "bedc4fd400bdc2c46c8abf9c": {
       "first_seen": "2026-11-11T00:37:31Z",
       "status": "queued",
@@ -8292,6 +8355,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/"
     },
+    "c4362aaef5751f4218621763": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/ofintech-desk"
+    },
     "c43683633304318e441d3a48": {
       "first_seen": "2026-11-09T11:23:00Z",
       "search_score": 1,
@@ -8471,6 +8540,11 @@
       "first_seen": "2026-10-29T13:31:50Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/gologin"
+    },
+    "c92da980962cd9fd5a2a9fff": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/impractical"
     },
     "c950dc177f5da82b2fb934d3": {
       "first_seen": "2026-11-06T15:17:29Z",
@@ -8656,6 +8730,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/pauta"
     },
+    "ce950f65fb08ac11efc215c8": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/source-public-beta"
+    },
     "cedba4053a6c1e5a270aedde": {
       "first_seen": "2026-10-07T09:23:03Z",
       "search_score": 0,
@@ -8727,6 +8806,12 @@
       "first_seen": "2026-11-17T08:20:02Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/lasso-11"
+    },
+    "d04db712f9ee55718555c795": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/fieldwork-code"
     },
     "d09fd65332f82cfcb2b3597b": {
       "first_seen": "2026-10-13T10:55:50Z",
@@ -9079,6 +9164,11 @@
       "first_seen": "2026-11-06T07:11:39Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/rainbrand"
+    },
+    "d89f3b83f9a232a04f88a88c": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/stripo-email"
     },
     "d8ab4d76c879b4b86ad16d02": {
       "first_seen": "2026-10-04T23:29:38Z",
@@ -9618,6 +9708,12 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/appubot"
+    },
+    "e58c03f98d9a50c924904853": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/verse-engine-by-ctruh"
     },
     "e59aabed7f24eafb16dff249": {
       "first_seen": "2026-10-25T10:01:09Z",
@@ -10182,6 +10278,11 @@
       "first_seen": "2026-10-13T18:14:15Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/remocn-studio"
+    },
+    "f2c85aafbf6691f51c2f839c": {
+      "first_seen": "2026-11-19T13:44:48Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/rezora-io-ai-calling-assistant"
     },
     "f2d733ba12de3aa8d927c893": {
       "first_seen": "2026-11-12T11:41:10Z",

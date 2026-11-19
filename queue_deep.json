@@ -464,20 +464,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "b94367ab759e3322d52af6d3",
-      "discovered_at": "2026-11-05T11:39:14Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-11-05T11:39:14Z",
-      "search_score": 42,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 04 Nov 2026 New language model evaluation results available Muse Wonder (High) Intelligence Index: 41 New language model evaluation results available Tencent Hy4 Intelligence Index: 35 Meta performance results now available Muse Wonder (High) 03 Nov 2026 Artificial Analysis Performance Benchmarking methodology Artificial Analysis Performance Benchmarking v3.0.0 Time per Task is the new headline for comparing models. Output Speed now covers the whole request, including the wait for the first token, and averages single-request and multi-turn agentic workloads. Token counts come from each provider's API. Failures on the endpoint's side count against it, and every endpoint shows an Endpoint Error Rate. Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0.1 Incorporated grading robustness improvements from the CritPt authors and regraded all models on CritPt v2. 02 Nov 2026 New language model evaluation results available Gemini 4 Carbon (Low) Intelligence Index: 54 New language model evaluation results available Nanbeige4.3-33B Intelligence Index: 20 Google performance results now available Gemini 4 Carbon (Low) 01 Nov 2026 New language model evaluation results available Gemini 4 Carbon (Medium) Intelligence Index: 58 New language model evaluation results available DeepSeek V4.1 Flash 1017 (High) Intelligence Index: 29 Google performance results now available Gemini 4 Carbon (Medium) DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (High) 30 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Non-reasoning) Intelligence Index: 19 DeepInfra performance results now available Nemotron 3.5 Super VL SiliconFlow performance results now available Qwen3.8 27B (Xhigh) Qwen3.8 27B (Non-reasoning) GMI performance results now available Step 3.7 Flash DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) Inco performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) 29 Oct 2026 New language model evaluation results available Mistral Large 4 (Medium) Intelligence Index: 23 New language model evaluation results available Mistral Large 4 (High) Intelligence Index: 26 Mistral performance results now available Mistral Large 4 (Medium) Mistral Large 4 (High) 28 Oct 2026 \ud83d\udd14 New article published Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5 Google\u2019s Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5, and second only to Claude Opus 5.5 on the Artificial Analysis Coding Agent Index \ud83d\udd14 New article published GitHub Copilot Fusion orchestrates Anthropic and OpenAI models to balance performance and cost itHub has released Copilot Fusion in GitHub Copilot, which orchestrates between Anthropic and OpenAI models. It scores 2 points below Opus 5.5 in Claude Code at half the Cost per Task in the Coding Agent Index New language model evaluation results available Gemini 4 Carbon (High) Intelligence Index: 60 Google performance results now available Gemini 4 Carbon (High) Bitdeer AI performance results now available DeepSeek V4.1 Flash 1017 (Max) 27 Oct 2026 \ud83d\udd14 New article published Announcing Artificial Analysis Intelligence Index v5 Index v5 features 2 new benchmarks and 3 upgrades. For the first time, the majority of the Index is built on private datasets Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0 New to the Intelligence Index: \u27a4 FrontierCode 2.0: Cognition\u2019s private benchmark of real-world coding tasks, graded on whether a repository maintainer would merge the agent\u2019s change \u27a4 Terminal-Bench-Science: 70 agentic scientific research tasks, run in a terminal environment Upgraded: \u27a4 HLE-Diamond (replacing Humanity\u2019s Last Exam): a refined 1,000-question version of Humanity\u2019s Last Exam, split evenly between reasoning and knowledge questions \u27a4 AA-Omniscience v1.1: an updated dataset with saturated questions and all public set questions removed, new questions added, and ambiguous or erroneous questions revised \u27a4 CritPt v2 (Hard Subset): a private 40-question hard subset of CritPt v2, revised by the CritPt authors and run with a code-execution tool Staying in the Index: AA-Briefcase, AutomationBench-AA, GDP.pdf and Terminal-Bench 4.0 Removed from the Index: GDPval-AA v2, SciCode and AA-LCR Modal performance results now available DeepSeek V4.1 Flash 1017 (Max) SambaNova performance results now available MiniMax-M3.1-Flash 26 Oct 2026 \ud83d\udd14 New article published GPT-6.1 Terra pushes the cost efficiency frontier OpenAI has released GPT-6.1 Terra, pus",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-40dbb5c4158f98fb608e"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "e664b5c1e5685295dc6ab7f5",
       "discovered_at": "2026-11-17T00:23:44Z",
       "kind": "independent",
@@ -671,6 +657,20 @@
       "summary": "JFinBench: \u6700\u65b0\u306e\u91d1\u878d\u8cc7\u683c\u8a66\u9a13\u3092\u7528\u3044\u305f\u65e5\u672c\u8a9e\u91d1\u878d\u30d9\u30f3\u30c1\u30de\u30fc\u30af\u306e\u516c\u958b",
       "title": "JFinBench: \u6700\u65b0\u306e\u91d1\u878d\u8cc7\u683c\u8a66\u9a13\u3092\u7528\u3044\u305f\u65e5\u672c\u8a9e\u91d1\u878d\u30d9\u30f3\u30c1\u30de\u30fc\u30af\u306e\u516c\u958b",
       "url": "https://sakana.ai/jfinbench/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "ace451e7cdc24b5c4dd9aab9",
+      "discovered_at": "2026-11-19T13:44:49Z",
+      "kind": "independent-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-19T13:44:49Z",
+      "search_score": 41,
+      "source_name": "OpenRouter Rankings",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 18, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 DeepSeek V4.1 Flash 1017 deepseek 62.1T tokens +17% 2 Hy4 flash tencent 46.6T tokens new 3 DeepSeek V4.1 Flash deepseek 16T tokens -2% 4 Hy4 tencent 13T tokens -36% 5 GLM 5.3 Flash z-ai 10.9T tokens -9% 6 GPT-6 Luna openai 8.62T tokens +20% 7 Claude Opus 5.5 anthropic 7.63T tokens +15% 8 Step 5 Preview stepfun 6.39T tokens -7% 9 MiMo-V2.6-Flash xiaomi 4.05T tokens +25% 10 MiniMax M3.1 Flash minimax 3.67T tokens -4% 1 . DeepSeek V4.1 Flash 1017 by deepseek 62.1T tokens 17% 2 . Hy4 flash by tencent 46.6T tokens new 3 . DeepSeek V4.1 Flash by deepseek 16T tokens 2% 4 . Hy4 by tencent 13T tokens 36% 5 . GLM 5.3 Flash by z-ai 10.9T tokens 9% 6 . GPT-6 Luna by openai 8.62T tokens 20% 7 . Claude Opus 5.5 by anthropic 7.63T tokens 15% 8 . Step 5 Preview by stepfun 6.39T tokens 7% 9 . MiMo-V2.6-Flash by xiaomi 4.05T tokens 25% 10 . MiniMax M3.1 Flash by minimax 3.67T tokens 4% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the most recent complete day, with the change measured against the day before it. Models ranked by tokens processed on OpenRouter over the most recent complete day Rank Model Author Tokens Change 1 Hy4 flash tencent 23.8T +14% 2 DeepSeek V4.1 Flash 1017 deepseek 9.81T +4% 3 DeepSeek V4.1 Flash deepseek 2.5T -8% 4 GLM 5.3 Flash z-ai 1.92T +4% 5 GPT-6 Luna openai 1.48T +8% 6 Hy4 tencent 1.34T +20% 7 Claude Opus 5.5 anthropic 1.14T -10% 8 Step 5 Preview stepfun 781B -23% 9 Kimi K3.1 Pro moonshotai 683B +12% 10 MiMo-V2.6-Flash xiaomi 610B +2% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 222T >999% 2 DeepSeek V4.1 Flash deepseek 70.7T -43% 3 GLM 5.3 Flash z-ai 56.8T +4% 4 Hy4 flash tencent 46.6T new 5 GPT-6 Luna openai 36.2T +56% 6 Hy4 tencent 34.5T new 7 Claude Opus 5.5 anthropic 31.4T +99% 8 Step 5 Preview stepfun 26.2T +29% 9 Hy4 preview tencent 20.4T -42% 10 GLM 5.3 z-ai 17.5T +11% New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 Hy4 flash tencent 46.6T new 2 Particle-1 (free) particle-ai 849B new 3 Gemini 4 Hydrogen google 389B new 4 Qwen4 Max qwen 270B new 5 Ling 3.2 Flash (free) inclusionai 259B new 6 GLM 5.2 (batch) z-ai 2.36M >999% 7 Inkling 2 Small thinkingmachines 523B >999% 8 Pareto 26.10 Preview unbiased 170M >999% 9 DeepSeek V4.1 Flash 1017 (batch) deepseek 23.1B >999% 10 Simba 3.5 speechify 1.57M >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend Software 40.9% Data 18.9% Information 15.7% Assistance 6.8% Writing 6.8% Creative 6.2% Media 3.9% Retrieval 0.2% Implementation 16.0% of all spend 1 Claude Opus 5.5 by anthropic 24.5% +2.3 2 Kimi K3.1 Pro by moonshotai 8.5% +8.5 3 Claude Sonnet 5.5 by anthropic 6.7% +2.0 4 GPT-6.1-Sol by openai 5.8% +3.5 5 GPT-6-Astra by openai 4.9% -2.2 6 Deepseek V4.1 Flash by deepseek 4.7% +4.7 7 GLM 5.3 by z-ai 4.3% -1.2 8 Kimi K3 by moonshotai 3.9% -2.1 9 GLM 5.3 Flash by z-ai 2.4% -0.1 10 Gemini 4 Carbon by google 2.2% +2.2 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 9, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 31.8% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 DeepSeek 31.8% +3% 2 OpenAI 19.0% +1% 3 Google 15.1% +14% 4 Z.ai 7.0% -3% 5 Anthropic 6.3% +11% 6 Qwen 6.2% +13% 7 Mistral ",
+      "title": "OpenRouter real-world model rankings changed",
+      "url": "https://openrouter.ai/rankings#edgeai-ca45f465f24f871aeb32"
     },
     {
       "bootstrap": false,
@@ -1066,6 +1066,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "02f125d9c6cc44016cdd5863",
+      "discovered_at": "2026-11-19T13:44:48Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-18T23:59:20+00:00",
+      "search_score": 20,
+      "source_name": "Simon Willison Everything",
+      "summary": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was Hydrogen, Argon, and Carbon - where Argon and Carbon were the same price , and Hydrogen was 3/4 of that price now but will be 1/4 of that price when the other two double an 1st December once their initial discount pricing expires. The Neon announcement pretends that Argon doesn't exist. Here's their new image explaining the model line-up: So the lineup now, from most to least expensive, is Carbon, Neon, Hydrogen. Except Carbon is currently half price, so right now Neon ($3/million input, $15/million output) is the most expensive of the three - then Carbon ($2/$10), then Hydrogen ($1.50/$7.50). I guess this will make more sense when Carbon doubles to $4/$20 on December 1st. I ran some pelicans through the three reasoning levels for Neon - low, medium, high. I dropped Argon from my Gemini 4 comparison grid - here's the new Gemini 4 lineup, where the Neon pelicans do look better than Hydrogen and worse than Carbon: As I've done with several recent models , I also fired the following prompt against Gemini 4 Neon on \"extra\" effort level in Google Antigravity: Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data Here's the result . Tags: yonkers-rising , gemini , llm , pelican-riding-a-bicycle , ai , llms , llm-release , google , generative-ai",
+      "title": "llm-gemini 0.38",
+      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "6e96a802abbc1d38b48b3319",
       "discovered_at": "2026-11-11T15:31:28Z",
       "kind": "independent",
@@ -1455,34 +1469,6 @@
       "summary": "@NousResearch With Hermes it's all yours to conquer Nov 10, 2026 @NousResearch Try Fable 5.2 in Hermes Agent x.com/Kshitijjkapoor\u2026 Nov 9, 2026 @NousResearch Hermes Cloud agents now open in a browser tab with the exact same interface as Hermes Desktop. https://t.co/4Vw3XJgFwn To launch a personal agent, pick a name and a model in Nous Portal. We host it for you and it runs 24/7 in its own container, so it can handle scheduled jobs and answer you on any channel while your laptop is closed. Chats, Group Chats, plugins and settings in the Webapp work the same way they do when you run Hermes on your own computer. Open your agent from Nous Portal on your phone or any computer, or connect Hermes Desktop to it and continue the same chats there. Plus, Super, and Ultra plans each include one Cloud agent out of the box. Using Hermes from anywhere has never been easier. Nov 9, 2026 @NousResearch Using an agent that can change its models or code at any time without telling you is like building on quicksand Nov 8, 2026 @NousResearch hermes-agent.nousresearch.com/marketplace/he\u2026 Nov 8, 2026 @NousResearch Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s. Hermes first maps what an attacker could reach and which inputs it trusts. It splits the code across parallel subagents, checks every candidate finding against the code, and traces whether an attacker can actually exploit it. Turn on test confirmation and Hermes writes a small reproduction for each finding and runs it in a temporary copy of the repo. Each report records the evidence and the findings Hermes ruled out, and exports to SARIF for your existing tools. Run it from chat, the CLI, or the Security page in Hermes Desktop. Nov 8, 2026 @NousResearch Eval: huggingface.co/datasets/NousR\u2026 Weights: huggingface.co/NousResearch/A\u2026 Training data: huggingface.co/datasets/NousR\u2026 Nov 6, 2026 @NousResearch nousresearch.com/arete Nov 6, 2026 @NousResearch Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values. Chinese open models are currently the strongest available, but they ship with state-aligned behavior in the weights. We built an 803-prompt eval across seven value categories, including freedom of expression, democracy, and privacy, and measured how often a model adopts China\u2019s party line. After fine-tuning on roughly 53 million tokens, Arete-27B's propaganda rate fell from 22% to 1%, in line with the Western models we tested. Its Hermes Bench score shows no significant performance tradeoffs. The values in an open model are one fine-tune away. Our eval, weights, and training data are available now along with the full blog post: https://t.co/iAOANQTVZ6 Nov 6, 2026 @NousResearch Get more out of your Hermes Bots with free and discounted models exclusive to portal.nousresearch.com Nov 6, 2026",
       "title": "@NousResearch Try Fable 5.2 in Hermes Agent x.com/Kshitijjkapoor\u2026 Nov 9, 2026",
       "url": "https://x.com/NousResearch/status/2119927476784607697"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "323ec171f8d23570a78d8aa0",
-      "discovered_at": "2026-11-05T11:39:13Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 12,
-      "source_name": "FutureTools AI News",
-      "summary": "OpenAI Launches Images 2.6 With GIF Support, 50% Faster Generation, and New API Tools openai.com \u00b7 Show TLDR",
-      "title": "OpenAI Launches Images 2.6 With GIF Support, 50% Faster Generation, and New API Tools openai.com \u00b7 Show TLDR",
-      "url": "https://openai.com/index/introducing-images-2-6/?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "37316f7252bd003ca18047e0",
-      "discovered_at": "2026-11-05T11:39:13Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 12,
-      "source_name": "FutureTools AI News",
-      "summary": "Anthropic's Claude Maps First 3D Prokaryotic Vault Particle Structure in Biology Breakthrough anthropic.com \u00b7 Show TLDR",
-      "title": "Anthropic's Claude Maps First 3D Prokaryotic Vault Particle Structure in Biology Breakthrough anthropic.com \u00b7 Show TLDR",
-      "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -3306,6 +3292,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "0acce46b9cbed8f4ebee3fd3",
+      "discovered_at": "2026-11-19T13:44:48Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-18T19:05:34-08:00",
+      "search_score": 7,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "A proactive AI agent whose interface is a TODO list Discussion | Link",
+      "title": "Tecla",
+      "url": "https://www.producthunt.com/products/tecla-3"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "79ff0c06b3065b996e30aee9",
       "discovered_at": "2026-11-19T04:24:05Z",
       "kind": "signal",
@@ -3443,9 +3443,51 @@
       "summary": "Nov 6, 2026 \u2022 3 min read One Claude Chat Now Runs All Your Other Chats Here's how to set up your own control center, plus what it can & can't see Kevin at Futurepedia",
       "title": "Nov 6, 2026 \u2022 3 min read One Claude Chat Now Runs All Your Other Chats Here's how to set up your own control center, plus what it can & can't see Kevin at Futurepedia",
       "url": "https://newsletter.futurepedia.io/p/one-claude-chat-now-runs-all-your-other-chats-11-06-2026"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "f2c85aafbf6691f51c2f839c",
+      "discovered_at": "2026-11-19T13:44:48Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-18T15:23:32-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Shopify for AI voice agents: live in 10 minutes Discussion | Link",
+      "title": "Rezora IO",
+      "url": "https://www.producthunt.com/products/rezora-io-ai-calling-assistant"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "2f50bab6ba7bd88f9682d846",
+      "discovered_at": "2026-11-19T13:44:48Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-16T13:57:39-08:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Give your model the web without giving up your privacy Discussion | Link",
+      "title": "Tabstack by Mozilla",
+      "url": "https://www.producthunt.com/products/tabstack"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "ce950f65fb08ac11efc215c8",
+      "discovered_at": "2026-11-19T13:44:48Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-16T09:34:12-08:00",
+      "search_score": 2,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "The attribution data layer for your agents to drive pipeline Discussion | Link",
+      "title": "Source",
+      "url": "https://www.producthunt.com/products/source-public-beta"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-19T04:24:10Z",
+  "updated_at": "2026-11-19T13:44:52Z",
   "version": 2
 }

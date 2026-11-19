@@ -77,11 +77,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-18T23:10:15Z",
-    "eligible": 86,
+    "at": "2026-11-19T04:08:48Z",
+    "eligible": 95,
     "evaluated": 2,
     "mode": "live",
-    "new_posts": 2,
+    "new_posts": 1,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -188,6 +188,11 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-updates",
       "url": "https://artificialanalysis.ai/changelog#edgeai-955ba114b67aea6e882c"
+    },
+    "0139ca5c534e35bb8a1d3a99": {
+      "at": "2026-11-19T04:08:21Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/"
     },
     "01619fc955cc4a4bfbd33fc3": {
       "at": "2026-10-25T21:58:57Z",
@@ -1739,6 +1744,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00012"
     },
+    "244bc6a7baca1b2fec964c28": {
+      "at": "2026-11-19T04:08:21Z",
+      "status": "expired",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.6"
+    },
     "2470103ec24de37bc8a60001": {
       "at": "2026-10-31T22:41:57Z",
       "status": "expired",
@@ -2660,6 +2670,20 @@
       "story_key": "llamacpp-prism-bonsai-2-support",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11556"
     },
+    "3834fa6fdfdbd723964c9138": {
+      "at": "2026-11-19T04:08:48Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "updated",
+      "story_key": "artificial-analysis-changelog-gpt-62-gemini-4-neon",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-d027b95aecf1adbff524"
+    },
     "383db0675a7385f76bd3e59c": {
       "at": "2026-10-03T10:41:15Z",
       "bootstrap": true,
@@ -2883,6 +2907,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11445"
     },
+    "3c506afcbc50208331080207": {
+      "at": "2026-11-19T04:08:21Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/"
+    },
     "3c58363126cc522922ad0d71": {
       "at": "2026-10-29T16:27:32Z",
       "bootstrap": false,
@@ -2933,6 +2962,11 @@
         "source": "Artificial Analysis Changelog"
       },
       "url": "https://artificialanalysis.ai/changelog#edgeai-989879af9de3ff049b6e"
+    },
+    "3d4aeac88b69acfaa9cd944c": {
+      "at": "2026-11-19T04:08:21Z",
+      "status": "expired",
+      "url": "https://openai.com/business/customer-stories/holiday-extras-dots"
     },
     "3d8a5abd6a048d9c44217e9d": {
       "at": "2026-10-22T19:22:03Z",
@@ -3283,6 +3317,20 @@
         "source": "llama.cpp Releases"
       },
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11870"
+    },
+    "4488965b81c05f5ae6ceb178": {
+      "at": "2026-11-19T04:08:33Z",
+      "bootstrap": false,
+      "score": 88,
+      "status": "published",
+      "story_key": "artificial-analysis-changelog-gpt-6-2-gemini-4-neon",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-bed2ce5b0ba119413283"
     },
     "44a995e3e5a09201313731f5": {
       "at": "2026-10-05T07:02:18Z",
@@ -7250,6 +7298,11 @@
       "at": "2026-11-07T06:23:46Z",
       "status": "expired",
       "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-2026/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "9f458effb436880f96cc8c0a": {
+      "at": "2026-11-19T04:08:21Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/"
     },
     "9f94445088fd7296d301f6fc": {
       "at": "2026-10-09T10:27:28Z",
@@ -12134,20 +12187,42 @@
         "source": "Artificial Analysis Changelog"
       }
     },
-    "artificial-analysis-changelog-gpt-62-gemini-4-neon": {
+    "artificial-analysis-changelog-gpt-6-2-gemini-4-neon": {
       "image_source": "EdgeAI editorial artwork",
-      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-gpt-62-gemini-4-neon.jpg",
-      "last_updated": "2026-11-18T23:10:11Z",
-      "post_id": "1215663997469848072",
-      "post_url": "https://edgeainews.blogspot.com/2026/11/artificial-analysis-updates-gpt-62.html",
-      "score": 85,
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-gpt-6-2-gemini-4-neon.jpg",
+      "last_updated": "2026-11-19T04:08:33Z",
+      "post_id": "6732674398022590816",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/artificial-analysis-benchmarks-track.html",
+      "score": 88,
       "source_image_source": "Artificial Analysis Changelog",
       "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
       "source_urls": [
-        "https://artificialanalysis.ai/changelog#edgeai-2893e3e805aad49dbb6a"
+        "https://artificialanalysis.ai/changelog#edgeai-bed2ce5b0ba119413283"
       ],
       "status": "CONFIRMED",
-      "title": "Artificial Analysis Updates: GPT-6.2 Astra/Sol and Gemini 4 Neon Benchmarked",
+      "title": "Artificial Analysis Benchmarks Track GPT-6.2 Astra/Sol and Gemini 4 Neon Releases",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      }
+    },
+    "artificial-analysis-changelog-gpt-62-gemini-4-neon": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/artificial-analysis-changelog-gpt-62-gemini-4-neon.jpg",
+      "last_updated": "2026-11-19T04:08:48Z",
+      "post_id": "1215663997469848072",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/artificial-analysis-updates-gpt-62.html",
+      "score": 88,
+      "source_image_source": "Artificial Analysis Changelog",
+      "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+      "source_urls": [
+        "https://artificialanalysis.ai/changelog#edgeai-2893e3e805aad49dbb6a",
+        "https://artificialanalysis.ai/changelog#edgeai-d027b95aecf1adbff524"
+      ],
+      "status": "CONFIRMED",
+      "title": "Artificial Analysis Benchmarks GPT-6.2 Astra, Sol, and Gemini 4 Neon",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

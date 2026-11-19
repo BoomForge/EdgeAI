@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-18T20:41:59Z",
+    "at": "2026-11-19T02:00:24Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 5,
-    "queued": 23,
+    "prefiltered": 0,
+    "queued": 11,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 222,
+  "runs": 223,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -131,6 +131,11 @@
       "first_seen": "2026-11-12T03:08:48Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.109.1"
+    },
+    "0261bc915f3e3290ced8b946": {
+      "first_seen": "2026-11-19T02:00:00Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12528"
     },
     "02712f54e967f63bf8823941": {
       "first_seen": "2026-10-05T18:34:46Z",
@@ -4370,6 +4375,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12407"
     },
+    "53d809d7420a3923e8bad7c3": {
+      "first_seen": "2026-11-19T01:59:54Z",
+      "status": "queued",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life"
+    },
     "53ef1840b857a00e1fa9f08a": {
       "first_seen": "2026-10-18T05:33:04Z",
       "status": "queued",
@@ -4666,6 +4676,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31783"
     },
+    "58da586369f33999eb920dc2": {
+      "first_seen": "2026-11-19T01:59:54Z",
+      "status": "queued",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier"
+    },
     "58f76062de5535e2b7820539": {
       "first_seen": "2026-10-14T15:16:35Z",
       "status": "queued",
@@ -4952,6 +4967,11 @@
       "first_seen": "2026-10-04T17:01:25Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11392"
+    },
+    "5f52b8439779b93d10e80669": {
+      "first_seen": "2026-11-19T02:00:19Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.3"
     },
     "5f576791a98a9560d038c995": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -5312,6 +5332,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11715"
     },
+    "64f86253d337d99b1a5ac567": {
+      "first_seen": "2026-11-19T02:00:00Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0"
+    },
     "650a470be89f50277ccfc9b9": {
       "first_seen": "2026-10-03T05:43:34Z",
       "status": "queued",
@@ -5401,6 +5426,11 @@
       "first_seen": "2026-11-16T21:47:38Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1"
+    },
+    "66c66d66acf0b3386c961fab": {
+      "first_seen": "2026-11-19T02:00:00Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12530"
     },
     "66ce92e5e68cbdb18eafdb5b": {
       "first_seen": "2026-10-03T05:43:25Z",
@@ -7545,6 +7575,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.17554"
     },
+    "901555786a5628fa4c01eab7": {
+      "first_seen": "2026-11-19T02:00:00Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12525"
+    },
     "9020b27c9f19ba74ce25ee50": {
       "first_seen": "2026-10-27T06:24:40Z",
       "status": "queued",
@@ -8187,6 +8222,11 @@
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22459"
+    },
+    "9c92539b0dc61c42b2def84f": {
+      "first_seen": "2026-11-19T02:00:00Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12529"
     },
     "9cb4fd90a578a1f8ef4e15b4": {
       "first_seen": "2026-10-28T07:28:01Z",
@@ -9981,6 +10021,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.107.0-dev.1"
     },
+    "bfd65a217923bb7b5a064230": {
+      "first_seen": "2026-11-19T02:00:00Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12527"
+    },
     "bfe21a3270501dad5bc02b72": {
       "first_seen": "2026-10-21T05:49:01Z",
       "status": "queued",
@@ -10959,6 +11004,11 @@
       "first_seen": "2026-10-26T05:16:55Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.2.0"
+    },
+    "d28a5871994982fa35b2eb50": {
+      "first_seen": "2026-11-19T02:00:00Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12531"
     },
     "d296a1f29c757ffe7bd8379d": {
       "first_seen": "2026-11-04T02:58:30Z",
@@ -12834,6 +12884,11 @@
       "first_seen": "2026-10-05T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02529"
+    },
+    "f539fcdaf975fdb95a5bae09": {
+      "first_seen": "2026-11-19T01:59:54Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
     },
     "f53d319ee3b57efa3dc6a765": {
       "first_seen": "2026-10-19T04:18:14Z",

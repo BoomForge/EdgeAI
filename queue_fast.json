@@ -2032,17 +2032,17 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "a8e215d1c3fca63aee0ffd81",
-      "discovered_at": "2026-11-06T01:38:37Z",
+      "candidate_id": "58da586369f33999eb920dc2",
+      "discovered_at": "2026-11-19T01:59:54Z",
       "kind": "official",
       "lane": "fast",
       "priority": 1,
-      "published": "Thu, 05 Nov 2026 00:00:00 GMT",
-      "search_score": 7,
+      "published": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "search_score": 6,
       "source_name": "OpenAI News",
-      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
-      "title": "Franklin Templeton uses OpenAI to support investment research",
-      "url": "https://openai.com/index/franklin-templeton"
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier"
     },
     {
       "bootstrap": false,
@@ -2183,20 +2183,6 @@
       "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
       "title": "Work at the Frontier: AI\u2019s effect on freelance work",
       "url": "https://openai.com/index/ai-effect-on-freelance-work"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "25fa4dd18ec78a48a9233cc0",
-      "discovered_at": "2026-11-05T14:19:43Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Thu, 05 Nov 2026 02:00:00 GMT",
-      "search_score": 5,
-      "source_name": "OpenAI News",
-      "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-      "title": "Setting a new standard for responsible AI infrastructure",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
     },
     {
       "bootstrap": false,
@@ -2438,6 +2424,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "53d809d7420a3923e8bad7c3",
+      "discovered_at": "2026-11-19T01:59:54Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "search_score": 0,
+      "source_name": "OpenAI News",
+      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "title": "How Sumitomo Life\u2019s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "dd659f011024f04f24b0b918",
       "discovered_at": "2026-11-16T21:47:31Z",
       "kind": "official",
@@ -2505,20 +2505,6 @@
       "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "title": "Cult.fit builds operational muscle with Codex",
       "url": "https://openai.com/index/cultfit-builds-with-codex"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "2d1d326185a62641bed05bf7",
-      "discovered_at": "2026-11-06T01:38:37Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Thu, 05 Nov 2026 00:45:15 GMT",
-      "search_score": 0,
-      "source_name": "OpenAI News",
-      "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
-      "title": "Flipsnack grows product signups with conversion optimization",
-      "url": "https://openai.com/ads/customers/flipsnack"
     },
     {
       "bootstrap": false,
@@ -2631,6 +2617,20 @@
       "summary": "\u2212136,866 lines. 80% of the library deleted. We started over. The agent now writes Python in one persistent REPL, straight on Chrome DevTools Protocol. No DOM serializer, no action schema, nothing in between. Simplicity wins: it is now the state-of-the-art web agent . \u25cf task\n  \u2502\n  \u25cf model writes a cell          new_tab(url); bu.click(41); js(...)\n  \u2502\n  \u25cf REPL runs it on Chrome (CDP) \u2192 output back to the model\n  \u2502\n  \u2713 finish(result) Same models: up to 33 points higher, 2.7\u20135.2x cheaper, 2\u20133x faster. uv add ' browser-use==1.0.0 ' export BROWSER_USE_API_KEY=bu_... # cloud.browser-use.com/new-api-key from browser_use import Agent print ( Agent ( 'Find the number of stars of the browser-use repo' ). run_sync (). final_result ()) Pin with == . We ship fast from here. Upgrading from 0.x, benchmarks, everything that changed Need 0.x? pip install 'browser-use<1' What changes by default 0.x 1.0 Model ( llm=None ) required bu-fast on the Browser Use gateway Browser ( Browser() ) local Chromium a Browser Use Cloud browser; Browser('chromium') for a local one Key one per provider one Browser Use key ( BROWSER_USE_API_KEY , or browser-use login ) Mode ultrafast (accessibility-tree ids) on bu-fast / bu-ultrafast ; mode='default' opts out run() limits max_steps=500 max_steps=100 , timeout=1700 s Your own model: ChatOpenAI , ChatAnthropic , ChatGoogle , or any Pydantic AI model string ( llm='groq:llama-3.3-70b-versatile' ). Upgrading from 0.x Read MIGRATING.md first. It lists every 0.x option and its 1.0 answer. An option 1.0 cannot honor raises a TypeError naming it before any browser starts or anything is billed. No silent no-ops. 0.x tuning knobs 1.0 has no use for ( use_vision=True , flash_mode , max_failures , ...) warn once and are ignored. Every removed 0.x import (all module paths from 0.1 to 0.13, and every public name of a module 1.0 kept) raises an ImportError that names the replacement and links MIGRATING.md. except ImportError fallbacks still work. ActionResult(include_in_memory=...) warns and is ignored: every tool result stays in the conversation. Once configuration checks pass, run() does not raise: a rejected key or model, a browser that fails to start (cloud create 402/5xx/timeout) and failures inside the run all return status='error' with result.error , and a browser that did start is stopped. A missing key still raises before anything is created. Behavior changes to check Browser() is a cloud browser. Tasks on localhost or private IPs need Browser('chromium') (one warning says so). Browser(local=True) now means Browser('chromium') . Your own open Chrome is Browser('chrome') . Browser('chrome') attaches only to a browser whose live DevToolsActivePort is in your own profile dirs. It no longer attaches to whatever answers on 127.0.0.1:9222. run(max_steps=...) defaults to 100 (was 500). One step is one model request. is_successful() is None when the agent gave no verdict. Use r.is_done() and r.success is not False for the 0.x default. errors() returns only the error that ended the run. Recovered cell errors are in result.messages . result.partial is set only by checkpoint(..., partial=True) . To get one, name the flag in the task: \"after each page, save the titles with checkpoint('titles.json', titles, partial=True)\". result.cost_usd covers model and web search charges, not the cloud browser or its proxy. The workspace (default: a new temp dir browser-use-* ) is kept after the run. A workspace= path is used as given (made absolute, symlinks not resolved), so result.downloads[0].relative_to(workspace) works. prohibited_domains=['example.com'] also blocks its subdomains. With any domain rule set, every file: URL is blocked. BROWSER_USE_ALLOWED_DOMAINS is not read: Browser() raises while it is set. The 0.x gateway models ( bu-2-0 , bu-1-0 , bu-latest , ...) are rejected. BROWSER_USE_LLM_URL is not read: use ChatBrowserUse(base_url=...) . LangChain chat models raise TypeError . Azure reads AZURE_OPENAI_API_KEY (not AZURE_OPENAI_KEY ) and needs OPENAI_API_VERSION . browser-use --mcp prints a deprecation notice and serves the --cli-mcp tools ( browser_exec , browser_screenshot , browser_login ). browser-use init was removed. The bu and browser console scripts are gone (they broke uv tool install next to other tools). Use browser-use or browseruse . Extras aws , oci , video , examples , eval , core , openai-tools , cli-oci are gone (pip warns and installs without them). anthropic , google , mcp , cli , all still resolve; Anthropic, Google and MCP are core dependencies. Also new Typed results: Agent(task, output_model_schema=MyModel) then result.structured_output . Uploads and downloads on local and cloud browsers: inputs from workspace= , downloads in workspace/downloads and result.downloads . The agent uploads the file you named and never creates or overwrites it. Secrets: sensitive_data= typed with type_secret() and redacted from cell output, checkpoints, tool results and the result. Not a sandbox; see the trust model in MIGRATING.md. Domain restrictions ( allowed_domains , prohibited_domains , block_ip_addresses ) with the 0.x patterns, in every browser mode. Web search ( web_search=True ), billed per search to your Browser Use key and added to result.cost_usd . CLI and MCP: browser-use pipes Python to browser-harness; browser-use --cli-mcp runs the MCP server; browser-use skill install registers the agent skill. Docker: browseruse/browseruse:1.0.0 and ghcr.io/browser-use/browser-use:1.0.0 . Every image build is smoke-tested on amd64 and arm64 in CI, on pull requests too. Reliability Streamed Responses. Every OpenAI Responses request (the Browser Use gateway and api.openai.com) is streamed. A streamed turn gets 300 s to its first event, then runs while events flow, up to 930 s. Long bu-smart turns no longer end at 300 s. One transient retry. A failure reported inside HTTP 200 ( server_error , overloaded , request_timeout , upstream_stream_failed ) or a stream that ends before its final event is retried once per run, like a 429 or 5xx. Compaction. A Responses request over the context window compacts once and is sent again. Models with smaller windows (gpt-4o, 128k) compact before they overflow. A streamed compaction item is sent back exactly as a non-streamed response would carry it, and a 400 on it resends the request once without the item. Many agents in one process. An Agent raises a low soft open-file limit to min(hard limit, 10240) (macOS defaults to 256). A connection error now names its cause, e.g. ModelConnectionError: Connection error. (OSError: [Errno 24] Too many open files) . Proxied gpt-6-luna. ChatOpenAI('gpt-6-luna', base_url=...) gets reasoning_effort='none' on any host, so tools work behind a proxy. Pages with workers. wait_for_network_idle() no longer waits for Web Worker scripts and cross-site iframes, which ran it to its 10 s cap. Dialogs. A navigation held by a beforeunload prompt, or a screenshot with a JS dialog open, names the dialog within seconds. keep_alive. A run after a dead browser daemon continues in the agent's tab, not on about:blank . Benchmark BU Bench v2, 60 tasks x 3 reps, cloud browsers, 2026-11-09. agent score [95% CI] $/task s/task browser-use 1.0 ( mode='ultrafast' , the mode bu-fast uses) 62.5 [58.3, 66.5] 0.070 650 Browser Use Pi (e7007f2), same window 56.3 [50.2, 62.4] 0.082 743 An OpenAI outage hit this window. Pi lost 18 of 180 runs to provider errors, 1.0 lost 1 (its one retry recovered 13 of 14). So the raw gap overstates quality. With provider errors excluded, paired 1.0 minus Pi: score +1.1 [-3.2, +5.7] (no significant difference), cost -$0.013/task [-0.024, -0.004], time -114 s/task [-202, -31]. Same quality, cheaper and faster. Both arms ran gpt-6-luna on api.openai.com, judged by gpt-5.6-luna (xhigh). The default bu-fast model on the Browser Use gateway was not part of this run. 95% task-clustered bootstrap intervals. Known issues Every dependency is pinned exactly ( == ), and the lockfile is committed. This is a supply-chain policy: you get exactly the versions CI tested. The cost: a project that needs a different version of pydantic , pydantic-ai-slim , mcp , google-genai , pillow or another pinned package cannot install 1.0 next to it. Tell us which pin blocks you. google-genai stays below 3: 3.0.0 calls the Gemini API on v1, which rejects tools. This goes away once Pydantic AI supports it. Viewport emulation does not work on cloud browsers yet. Use Browser('chromium') for another viewport. Report problems at https://github.com/browser-use/browser-use/issues Full changelog: 0.13.14...1.0.0",
       "title": "browser-use 1.0: CDP is all you need",
       "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.0"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "64f86253d337d99b1a5ac567",
+      "discovered_at": "2026-11-19T02:00:00Z",
+      "kind": "open-source-creative",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-18T22:55:32Z",
+      "search_score": 29,
+      "source_name": "ComfyUI Releases",
+      "summary": "What's Changed [Partner Nodes] feat(LTX): add AlphaGen, SDR to HDR, Reframe and Upscale nodes by @bigcat88 in #17664 [Partner Nodes] feat(MiniMax): add MiniMax H3 Image node by @bigcat88 in #17661 Update workflow templates to v0.11.106 by @comfyui-wiki in #17668 Fix for some workflows not working properly. by @comfyanonymous in #17675 Conform Concatenate Video clips to the first clip's frame rate and audio (FRONT-3775) by @jtydhr88 in #17621 [Partner Nodes] feat(Wan): move Wan nodes to Comfy Router by @bigcat88 in #17639 [Partner Nodes] feat(Krea): move Krea nodes to Comfy Router by @bigcat88 in #17691 [Partner Nodes] chore(ByteDance): drop the Seedance 2.5 4k enterprise-only wording by @bigcat88 in #17699 Bump comfyui-frontend-package to 1.59.1 by @comfy-pr-bot in #17553 Remove directml support. by @comfyanonymous in #17711 [Partner Nodes] feat(Gemini-LLM): add Hydrogen/Argon and Carbon models by @bigcat88 in #17724 Update workflow templates to v0.11.107 by @comfyui-wiki in #17725 Support saving single channel PNG in the save image advanced node. by @comfyanonymous in #17727 Add new node to split image channels by @alexisrolland in #13548 [Partner Nodes] feat(HeyGen): add 1080p, 30s clips and auto duration to HeyGen Video 1.0 nodes by @bigcat88 in #17721 [Partner Nodes] fix(FishAudio): show Drama 3 full price in the badge by @bigcat88 in #17718 [Partner Nodes] chore(OpenRouter): remove retired Qwen3.6 Max Preview model by @bigcat88 in #17737 [Partner Nodes] feat(Luma): move Luma nodes to Comfy Router by @bigcat88 in #17714 [Partner Nodes] feat(Anthropic): add Claude Fable 5.2 to the Claude node by @bigcat88 in #17738 Fix some cases where apg affected output with cfg 1.0 by @comfyanonymous in #17741 Show Kling Avatar task IDs on polling timeout by @wei-hai in #17740 Show Topaz request IDs on polling timeout by @wei-hai in #17742 Add a mesh input to Create Camera Info to frame any mesh by @kijai in #17730 Support embedded tokenizers for vocabulary-pruned Qwen checkpoints by @rattus128 in #17633 Video Deflicker node and Faster RAFT optical flow implementation by @kijai in #17754 Don't hardcode video token id. by @comfyanonymous in #17759 Add warning if someone is not using cuda 13 on a GPU that support it. by @comfyanonymous in #17760 [Partner Nodes] feat(OpenRouter): add Meta Muse Wonder, Spark 1.3 and Ember models by @bigcat88 in #17744 [Partner Nodes] feat(ByteDance): add Seedance 2.5 Flash to the Seedance 2.5 nodes by @bigcat88 in #17764 Update workflow templates to v0.11.109 by @comfyui-wiki in #17765 feat: Support PAN2 (CORE-719) by @kijai in #17755 Make the cuda version warning yellow. by @comfyanonymous in #17769 [Partner Nodes] feat(Bria): add RMBG 3.0 to the Remove Image Background node by @bigcat88 in #17780 Fix dynamic VRAM buffer restore leaking a sampling schedule between models (CORE-716) by @chelsealong in #16491 Update workflow templates to v0.11.110 by @comfyui-wiki in #17783 Update embedded docs to v0.5.17 by @comfyui-wiki in #17761 Update AGENTS.md with more specific instructions. by @comfyanonymous in #17789 Support SenseNova thinking, interleaved generation, and self-correction (CORE-721) by @GACLove in #16032 Clean up previous PR. by @comfyanonymous in #17790 [Partner Nodes] fix(Google-Omni): download the generated video when Google marks its file as failed by @bigcat88 in #17785 Bump comfyui-frontend-package to 1.59.4 by @comfy-pr-bot in #17776 [Partner Nodes] feat(HeyGen): add HeyGen Avatar 6 nodes by @bigcat88 in #17793 [Partner Nodes] feat(Kling): add Kling 4.0 Image and Long Image nodes by @bigcat88 in #17797 Update workflow templates to v0.11.111 by @comfyui-wiki in #17801 Support Qwen3-1.7B in Generate Text by @synap5e in #17787 Fix dynamo. by @comfyanonymous in #17808 Add --force-output-rerun so output nodes write their files again on a cache hit by @christian-byrne in #17809 Speed up sensenova text generation. by @comfyanonymous in #17811 [Partner Nodes] feat: move more partner nodes to Comfy Router by @bigcat88 in #17794 [Partner Nodes] chore: remove retired Claude Sonnet 4.5 model and leftover Moonvalley code by @bigcat88 in #17819 [Partner Nodes] feat(Kling): add 4:3 and 3:4 aspect ratios to Kling 4.0 nodes by @bigcat88 in #17815 [Partner Nodes] chore(FishAudio): switch speech-to-text to transcribe-1-pro by @bigcat88 in #17828 Bump comfyui-frontend-package to 1.59.6 by @comfy-pr-bot in #17822 New Contributors @wei-hai made their first contribution in #17740 Full Changelog : v0.45.0...v0.46.0",
+      "title": "v0.46.0",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0"
     },
     {
       "bootstrap": false,
@@ -3334,6 +3334,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "bfd65a217923bb7b5a064230",
+      "discovered_at": "2026-11-19T02:00:00Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-18T22:59:51Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "model : limite: reject mudd configs that index past mudd_tap_idx on load ( #32562 ) n_mudd_taps comes from limite.mudd.tap_count, a scalar read separately from the length-checked tap_indices array. mudd_tap_idx is a fixed std::array<int32_t, 512> indexed at [i*n_taps] in both the tensor load and the graph build, so a crafted GGUF with n_layer * n_mudd_taps > 512 reads past the array. Reject that at hparams load; the one check covers both index sites. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69393968 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12527",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12527"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "0121825aedd3af196a50dbb4",
       "discovered_at": "2026-11-18T12:14:29Z",
       "kind": "local-ai",
@@ -3485,23 +3499,9 @@
       "summary": "ci: move test models to ggml-org-dev ( #32096 ) ci: move test models to ggml-org-dev fix test spec Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66540743 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12308",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12308"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "e68459d0678d211187c2c834",
-      "discovered_at": "2026-11-12T03:08:35Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-12T02:26:37Z",
-      "search_score": 7,
-      "source_name": "llama.cpp Releases",
-      "summary": "chat: allow TTS model to provide custom text normalizer via jinja ( #32053 ) chat: allow TTS model to provide custom text normalizer via jinja rm tts_norm_is_reserved_name Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66510183 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12302",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12302"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-18T20:41:59Z",
+  "updated_at": "2026-11-19T02:00:24Z",
   "version": 2
 }

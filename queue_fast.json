@@ -2004,6 +2004,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "9342dbf934e428aa00c16520",
+      "discovered_at": "2026-11-19T19:03:01Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Thu, 19 Nov 2026 08:00:00 GMT",
+      "search_score": 6,
+      "source_name": "OpenAI News",
+      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "title": "How OpenAI\u2019s Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "58da586369f33999eb920dc2",
       "discovered_at": "2026-11-19T01:59:54Z",
       "kind": "official",
@@ -2340,20 +2354,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "616c68177b707eae60eb2b7e",
-      "discovered_at": "2026-11-06T08:29:13Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Thu, 05 Nov 2026 17:00:00 GMT",
-      "search_score": 2,
-      "source_name": "OpenAI News",
-      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-      "title": "Australian universities are creating AI-native graduates",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "b43ef08ac3ed4f7af6f4fa4f",
       "discovered_at": "2026-11-17T21:54:12Z",
       "kind": "official",
@@ -2634,6 +2634,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "015e0ca1f0338d40a292aa8d",
+      "discovered_at": "2026-11-19T19:03:08Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-19T17:51:04Z",
+      "search_score": 17,
+      "source_name": "llama.cpp Releases",
+      "summary": "llama: fixes for Inkling 2 attention mask ( #32429 ) llama : give Inkling2 its own relative-position attention input The Inkling2 graph built its flash attention mask from the hybrid iswa input and passed it to build_attn through a new kq_mask argument. That argument let a caller pair its own dense mask with the kv_rows of llm_graph_input_attn_kv_iswa, whose mask follows the per-sequence cell lists whenever kv_rows is enabled. Add llm_graph_input_attn_rel_pos instead. It owns dense KQ masks and the query-to-cell distances, fills both from the same cells, and its build_attn overload adds the per-head bias to its own mask and never passes kv_rows. The iswa build_attn is back to its previous signature; its body moves to build_attn_iswa_impl, which both overloads call. Inkling2 now folds the per-query sink into the bias with and without flash attention, so build_attn_mha no longer needs the per-query sink path. Assisted-By: Claude Opus 5.5 noreply@anthropic.com inkling2 : make the expert weight scale and final logit softcap optional Load both keys as optional and skip them when they are zero, as other models do, instead of rejecting zero at load. Assisted-By: Claude Opus 5.5 noreply@anthropic.com llama : build kv_rows masks for the hybrid iswa memory llm_graph_input_mem_hybrid_iswa checked its masks with can_reuse_attn_mask, which expects kv_rows whenever they are enabled, but built them dense. With a unified cache and flash attention the check always failed, and hybrid iswa models (LFM2, LFM3, Inkling2) never reused a graph. Build the masks with build_attn_inp_attn_mask, like the plain iswa input. Assisted-By: Claude Opus 5.5 noreply@anthropic.com llama : make the relative-position input a hybrid iswa input Address review: llm_graph_input_mem_hybrid_iswa_rel derives from llm_graph_input_mem_hybrid_iswa and owns the attention and recurrent inputs, so Inkling2 builds one memory input instead of two. Its attention input is built with dense masks, can_reuse checks them as dense, and its build_attn asserts that the mask has no kv_rows (TODO: a kv_rows variant). build_attn_iswa_impl is now a static helper. Assisted-By: Claude Opus 5.5 noreply@anthropic.com llama : compose the hybrid iswa rel input, format inkling2 Address review: llm_graph_input_mem_hybrid_iswa_rel owns its attention and recurrent inputs like the other composite inputs instead of deriving from llm_graph_input_mem_hybrid_iswa. Format src/models/inkling2.cpp like the other model sources: grouped and aligned key and tensor loading, descriptive per-layer names, blank lines and section comments between the steps, and cb() names for the intermediate tensors. The graph is unchanged. Assisted-By: Claude Opus 5.5 noreply@anthropic.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69772952 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12549",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12549"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "dac6751e4b3871feec9d0a08",
       "discovered_at": "2026-11-10T20:29:56Z",
       "kind": "local-ai",
@@ -2715,6 +2729,20 @@
       "summary": "ui: keep downloads in Discover during search and fix their progress with a draft ( #31467 ) ui : keep downloads in Discover sidebar during search, sort base-org repos first Show the sticky Downloading section regardless of an active search query Order search results so repos published by their base model's org lead Assisted-by: Claude (Opus 5.5 Medium) server : throttle download progress per file Files of a download run in parallel threads, but progress updates were throttled with one shared timer. A small draft sidecar reports far more often than the main weights, so it took nearly every slot and the main file's updates, including the first one carrying its total size, were dropped until the draft finished. The UI then showed the draft's progress first and restarted from 0% for the model. Throttle each file on its own and always pass a file's first update. Assisted-by: Claude (Opus 5.5 Medium) ui: list a downloading repo once and match base orgs case-insensitively A search hit that is downloading already shows under Downloading, so the results leave it out. Base model orgs compare without case, as the hub treats them. Assisted-by: Claude (Opus 5.5 Medium) server : tell clients a download stopped on request When a client paused or cancelled a download, every other client following /models/sse got a bare download_failed and could not tell it from an error, so the web UI showed \"Download failed\" for a pause made in the Llama app. A stop asked for through unload or delete now fails with {\"stopped\": true}. Deleting a paused download, which has no instance left, now sends model_remove as deleting a running one does, so other clients drop its row. Assisted-by: Claude (Opus 5.5 Medium) ui : follow downloads other clients start, pause or cancel A download another client started (e.g. the Llama app) already showed up from the feed; it now also picks up the sidecars the list reports for it. A stop another client asked for reads as a pause instead of a failure, and a removal clears the download row even when the list does not carry it yet. Assisted-by: Claude (Opus 5.5 Medium) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66547949 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12311",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12311"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "04fce62ebfd91b4280bcb880",
+      "discovered_at": "2026-11-19T19:03:08Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-19T16:55:35Z",
+      "search_score": 12,
+      "source_name": "llama.cpp Releases",
+      "summary": "llama : remove redundant fields from llm_graph_params ( #32596 ) llm_graph_params no longer carries hparams, prec_policy and hdmd, since the model reference already provides them. llm_graph_context sources them from the model and keeps prec_policy as a reference. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69749431 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12546",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12546"
     },
     {
       "bootstrap": false,
@@ -2939,6 +2967,20 @@
       "summary": "hexagon: conv_2d optimizations and support for conv_3d ( #31814 ) hexagon: Generalization of CONV_2D implementation for CONV_3D New op HTP_OP_CONV_3D is wired through htp-ops.h, main.c (shares op_conv_2d) and the op remap in htp-kparams.cpp. conv_3d runs on the existing HMX tiled (implicit GEMM) conv2d path. KD and KH are folded into one virtual kernel row (KD KH), and output rows are counted as N OD*OH. htp_kparams_solve_conv3d checks the conv_3d layout and calls the tiled solver htp_kparams_conv2d_tiled, which takes an is3d flag. The tiled kernel takes the sizes and strides that differ between conv_2d and conv_3d from a struct htp_conv_geom. Only the input stage unfolds depth. 256-entry DMA queue can no longer overflow Assisted-by: Claude Code hexagon: modify checking to eliminate divide-by-zero hazards hexagon: conv2d tiled: compute the conv_3d unfold divisors on the host The KH and OH fastdiv values used to unfold conv_3d kh into (kd, kh) and oh into (od, oh) were built per op on the device, each with a 64-bit divide. Pass them in the kernel params instead; they fit in the space the window variant already reserves, so the struct size does not change. Assisted-by: Claude Code hexagon : preserve fold scheduling in conv2d for small size hexagon : support arbitrary positive conv2d strides Support positive horizontal strides for WHCN and CWHN inputs. Preserve load/shuffle paths for strides 1/2 and use gather for larger strides. hexagon : improve conv2d tile size selection Prefer the largest feasible output-channel block and derive spatial chunk capacity from VTCM usage. Compare capacity and thread-aligned candidates using per-thread work and chunk overhead. Co-authored-by: Yiwei Shao yiwei@aizip.ai hex-conv: fix compiler warning Co-authored-by: Yiwei Shao yiwei@aizip.ai Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64659147 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12179",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12179"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "e1452c59bed1e522d200ce3a",
+      "discovered_at": "2026-11-19T19:03:08Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-19T16:38:04Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "metal : CONV_2D tensor API for M5, split-K for all chips ( #32542 ) metal: add a tensor API conv_2d kernel and split long reductions The conv_2d matmul kernel runs on simdgroup matrices only, and gives each threadgroup the whole reduction of its output tile. On M5 this leaves the tensor cores unused, and convolutions with few output positions and a long reduction (IC * KW * KH in the thousands) run a handful of threadgroups on an otherwise idle GPU. Add kernel_conv_2d_mm_tensor for devices with the tensor API: like kernel_mul_mm, it gathers the patches of 64 output positions into threadgroup memory as the left operand and reads the kernel rows from device memory as the right operand. Devices without the tensor API keep the simdgroup kernel. Both kernels can now split the reduction until there are enough threadgroups: each split writes its partial sums to a buffer placed after the output, as flash attention does, and a small kernel adds them in a fixed order, so the result stays deterministic. CONV_2D is marked as an op whose allocation may exceed its output size. test-backend-ops -o CONV_2D passes, with and without GGML_METAL_TENSOR_DISABLE. CONV_2D, F16 kernel, us/run on an M5 Max: [19,19,256,16] k [4,4,256,4096]     19008 -> 5235 [16,16,128,8] k [3,3,128,512]         333 -> 124 [1536,1536,32,1] k [3,3,32,64]      12086 -> 6512 [33,1,1280,1] k [3,1,1280,1280] s2    659 -> 33 [2054,1,768,1] k [7,1,768,768]       3161 -> 699 metal: walk the conv_2d patches incrementally, size splits by output The patch gather of both conv_2d matmul kernels spent most of its time on address math: 64-bit multiplies, divisions and four bound checks per value. Walk the reduction index with 32-bit byte offsets inside the image, updated by additions, with one unsigned compare per bound; the host checks that an image fits. The tensor kernel no longer gathers the reduction indices past the end of its split. The number of splits now targets about 1M partial sums, with at least 3 reduction steps per split, instead of counting the tiles of one kernel. CONV_2D, F16 kernel, us/run on an M5 Max: [19,19,256,16] k [4,4,256,4096]     4998 -> 4512 [1536,1536,32,1] k [3,3,32,64]      6721 -> 5354 [4096,1,1024,1] k [7,1,1024,1024]   2701 -> 2236 [2054,1,768,1] k [7,1,768,768]      1050 -> 871 with GGML_METAL_TENSOR_DISABLE: [4096,1,1024,1] k [7,1,1024,1024]   9047 -> 8283 nit: share the CONV_2D simdgroup count between host and kernel kernel_conv_2d_mm and its pipeline both hardcoded 4 simdgroups per threadgroup. N_SG_CONV_2D in ggml-metal-impl.h now feeds the kernel constant and res.nsg, so the dispatch and the kernel cannot drift apart. metal: fall back to the generic conv_2d kernel for images past 4 GiB The matmul conv_2d kernels walk the patches with 32-bit byte offsets inside an image. Instead of asserting on nb13, compute the largest offset actually read from ne/nb, which also covers strided views of the input, and route images that do not fit to the generic kernel. cont : comments Co-authored-by: Georgi Gerganov ggerganov@gmail.com Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69742362 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12543",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12543"
     },
     {
       "bootstrap": false,
@@ -3457,51 +3499,9 @@
       "summary": "spec : Warn when --spec-draft-p-min is used with probabilistic draft sampling ( #31294 ) spec : skip p_min for sampled MTP and DFlash2 drafts Under rejection sampling the acceptance at a position is 1 - TV(p, q), which the draft's top probability does not tell, so the p_min cutoff dropped draft tokens the target would have accepted. Skip it when MTP or DFlash2 samples the draft. draft-simple keeps it: each extra draft token costs a full draft model pass. spec : replace the sampled-draft p_min skip with a warning p_min behaves as on master again for every drafter and sampling mode. Instead, log a warning when --spec-draft-p-min > 0 is used with --spec-draft-sampling probabilistic, suggesting p_min 0: under rejection sampling the draft's top probability does not tell how much of the draft the target accepts. The cut is not skipped because with MTP at long drafts it can still pay off. spec : warn about p_min only for drafters that use it The n-gram drafters ignore p_min, and DSpark uses it as the cutoff of its confidence head, so the warning is skipped when only these are configured. Co-authored-by: Pranesh Gonegandla pgonegandla@nvidia.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67303781 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12364",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12364"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "af12aa70388a5d91d6384b0a",
-      "discovered_at": "2026-11-12T11:29:36Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-12T04:35:45Z",
-      "search_score": 7,
-      "source_name": "llama.cpp Releases",
-      "summary": "ci: move test models to ggml-org-dev ( #32096 ) ci: move test models to ggml-org-dev fix test spec Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66540743 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12308",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12308"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "6cdcb1b54573b12fe5a686cf",
-      "discovered_at": "2026-11-19T10:09:05Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-19T04:49:50Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "opencl: allow adjusting KV padding in decomposed FA ( #32522 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69491345 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12532",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12532"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "898e84e6eee2a6b4992002ff",
-      "discovered_at": "2026-11-19T10:09:05Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-19T06:13:06Z",
-      "search_score": 0,
-      "source_name": "llama.cpp Releases",
-      "summary": "vulkan: use floating-point zero for storage-only FP16 in DIAG/TRI ( #3 \u2026",
-      "title": "b12534",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12534"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-19T10:09:29Z",
+  "updated_at": "2026-11-19T19:03:30Z",
   "version": 2
 }

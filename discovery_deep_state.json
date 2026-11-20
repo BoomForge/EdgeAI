@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-20T11:34:04Z",
+    "at": "2026-11-20T19:16:08Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 9,
-    "queued": 5,
+    "prefiltered": 5,
+    "queued": 4,
     "sources_ok": 15,
-    "too_old": 7,
+    "too_old": 4,
     "warnings": 0
   },
-  "runs": 225,
+  "runs": 226,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -2579,6 +2579,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/famrelay"
     },
+    "3b0d689c2d27ca23372fc82b": {
+      "first_seen": "2026-11-20T19:16:04Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/badya-ai-language-immersion"
+    },
     "3b1054e5c740888f56c5b7ad": {
       "first_seen": "2026-11-16T16:16:38Z",
       "search_score": 0,
@@ -4476,6 +4481,11 @@
       "status": "queued",
       "url": "https://openai.com/index/openai-to-acquire-pierre/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "64361307a813e983730b2f35": {
+      "first_seen": "2026-11-20T19:16:04Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/tinytldr"
+    },
     "643740d8b1d776507524544b": {
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
@@ -4977,6 +4987,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/kernelai"
     },
+    "70ef06d51c6e4378ba096743": {
+      "first_seen": "2026-11-20T19:16:04Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/greatai-review"
+    },
     "70f208402007233aa8a8af60": {
       "first_seen": "2026-10-29T23:29:45Z",
       "status": "queued",
@@ -5187,6 +5202,11 @@
       "first_seen": "2026-10-21T01:03:21Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/intel"
+    },
+    "74fe593783e61511586df192": {
+      "first_seen": "2026-11-20T19:16:05Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-618e893d9df740638477"
     },
     "7500f04cb301a6004357afcb": {
       "first_seen": "2026-11-19T13:44:48Z",
@@ -5830,6 +5850,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/hamdori"
     },
+    "82dffb7f4e46adc632e3f300": {
+      "first_seen": "2026-11-20T19:16:04Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/saparo"
+    },
     "8333c89d9d7c203a0369214c": {
       "first_seen": "2026-10-27T22:30:10Z",
       "status": "queued",
@@ -5980,6 +6006,12 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/whiteboard-5"
+    },
+    "86daf7cda29ec39908ce8ff7": {
+      "first_seen": "2026-11-20T19:16:04Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/inkrail"
     },
     "86fc6aab17638a8e2b417370": {
       "first_seen": "2026-10-26T11:34:46Z",
@@ -6464,6 +6496,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/help-381"
+    },
+    "928902c9c9419d9d60345440": {
+      "first_seen": "2026-11-20T19:16:04Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/turn-claude-into-your-personal-game-studio-11-20-2026"
     },
     "92bfb82f903c3fc9f543d4fb": {
       "first_seen": "2026-11-05T03:46:58Z",
@@ -7614,6 +7651,11 @@
       "first_seen": "2026-10-19T10:44:24Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/crawlforge-mcp"
+    },
+    "adc1c37f82fa842be02cc732": {
+      "first_seen": "2026-11-20T19:16:04Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/cup-of-sugar-2"
     },
     "adcefa2b9159833fd4bbe58b": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -8918,6 +8960,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/lofi-desk-focus-relax-beats"
+    },
+    "cef70f85c0bafe092c0da49d": {
+      "first_seen": "2026-11-20T19:16:04Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/zethos"
     },
     "cf3314df5d7b6a8ec423cd91": {
       "first_seen": "2026-10-16T18:46:59Z",
@@ -10300,6 +10348,11 @@
       "status": "queued",
       "url": "https://spaitial.ai/blog/echo-3-release?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "ef7d3fd7905effc446dc12f7": {
+      "first_seen": "2026-11-20T19:16:04Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/salus"
+    },
     "ef8106219f047718b6abb818": {
       "first_seen": "2026-11-02T19:41:22Z",
       "status": "queued",
@@ -10484,6 +10537,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/sellio-2"
     },
+    "f27b1f34ce20932cc3d093af": {
+      "first_seen": "2026-11-20T19:16:05Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
+    },
     "f2b6796307b5a8cddeca06cc": {
       "first_seen": "2026-10-13T18:14:15Z",
       "status": "too_old",
@@ -10514,6 +10572,12 @@
       "first_seen": "2026-11-13T21:40:47Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "f30ebdb9873b1c0a59908e6f": {
+      "first_seen": "2026-11-20T19:16:04Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tamekoshi"
     },
     "f317c625fcd712dc85b8cf38": {
       "first_seen": "2026-10-26T11:34:46Z",
@@ -10915,6 +10979,12 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/tracex"
+    },
+    "fd6b618ee45835a24aa8cab6": {
+      "first_seen": "2026-11-20T19:16:04Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/baby-s-day-in"
     },
     "fd8c265fc27c8ccba678e8ce": {
       "first_seen": "2026-11-18T16:39:40Z",

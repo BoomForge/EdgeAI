@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-20T17:17:51Z",
+    "at": "2026-11-20T23:11:39Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 10,
+    "prefiltered": 1,
+    "queued": 15,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 228,
+  "runs": 229,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -71,6 +71,11 @@
       "first_seen": "2026-11-16T11:43:56Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12432"
+    },
+    "012d18fbdfd0ae7fe5ca36db": {
+      "first_seen": "2026-11-20T23:11:33Z",
+      "status": "queued",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.8rc1"
     },
     "0154c5df13dbb3a18a5b7ae3": {
       "first_seen": "2026-11-18T12:14:24Z",
@@ -247,6 +252,16 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2609.38256"
+    },
+    "05214cf0f5cef0971bb41a6d": {
+      "first_seen": "2026-11-20T23:11:15Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12591"
+    },
+    "0530d700df86d67af87e3c59": {
+      "first_seen": "2026-11-20T23:11:14Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.2"
     },
     "054319838139f0cbb09c9c8e": {
       "first_seen": "2026-10-21T05:49:00Z",
@@ -1959,6 +1974,11 @@
       "first_seen": "2026-10-26T05:16:26Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31918"
+    },
+    "22fcd52b6890e94b0dc3242a": {
+      "first_seen": "2026-11-20T23:11:15Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12589"
     },
     "230c5f3b5b2a57fcc7b2982f": {
       "first_seen": "2026-10-13T16:26:22Z",
@@ -3753,6 +3773,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.12911"
     },
+    "43021bcadccac2477e403ca2": {
+      "first_seen": "2026-11-20T23:11:15Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12596"
+    },
     "43156df6a155c5b014eb8978": {
       "first_seen": "2026-11-18T03:25:57Z",
       "status": "queued",
@@ -5301,6 +5326,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-access-textbooks/"
     },
+    "602490eb844731e9b1566991": {
+      "first_seen": "2026-11-20T23:11:15Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12599"
+    },
     "6058573167da2c6de2ff82f4": {
       "first_seen": "2026-10-27T06:24:39Z",
       "status": "queued",
@@ -6748,6 +6778,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02425"
     },
+    "7ad44f990f0c53ef2e2a5377": {
+      "first_seen": "2026-11-20T23:11:07Z",
+      "status": "queued",
+      "url": "https://openai.com/index/combatting-adversarial-distillation"
+    },
     "7adf93211ed7d4e663a27a38": {
       "first_seen": "2026-11-06T08:29:21Z",
       "status": "queued",
@@ -6868,6 +6903,11 @@
       "first_seen": "2026-11-13T21:36:38Z",
       "status": "queued",
       "url": "https://openai.com/index/introducing-chatgpt-wallet"
+    },
+    "7d4f3143ca30d784710af643": {
+      "first_seen": "2026-11-20T23:11:15Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12590"
     },
     "7d532e0dd41c3aee3acc601f": {
       "first_seen": "2026-11-20T17:17:29Z",
@@ -7053,6 +7093,11 @@
       "first_seen": "2026-11-12T19:07:07Z",
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+    },
+    "8145fefb47ff1ca9fa5560e6": {
+      "first_seen": "2026-11-20T23:11:07Z",
+      "status": "queued",
+      "url": "https://openai.com/business/customer-stories/hebbia"
     },
     "8146a0d46967149d5fcef692": {
       "first_seen": "2026-11-20T08:40:14Z",
@@ -7337,6 +7382,12 @@
       "first_seen": "2026-11-15T23:30:53Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12425"
+    },
+    "8561578013c234ec1fedc318": {
+      "first_seen": "2026-11-20T23:11:07Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/search/connected-apps-holiday-errands/"
     },
     "85760e02a097442bc9f0a4a0": {
       "first_seen": "2026-11-04T10:39:14Z",
@@ -9161,6 +9212,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22655"
     },
+    "a5b28c19f65da116ade81ac3": {
+      "first_seen": "2026-11-20T23:11:31Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.921-beta"
+    },
     "a5bc32f779b6000a3ccfbb20": {
       "first_seen": "2026-10-09T06:41:18Z",
       "status": "queued",
@@ -9747,6 +9803,11 @@
       "first_seen": "2026-10-28T19:52:45Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11968"
+    },
+    "b01afd6d4fc5569220976c1c": {
+      "first_seen": "2026-11-20T23:11:15Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3"
     },
     "b021b1fd455a0df8f939e1c9": {
       "first_seen": "2026-11-11T15:37:21Z",
@@ -10398,6 +10459,11 @@
       "status": "queued",
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
     },
+    "bcc8aaece61f84753adf8d73": {
+      "first_seen": "2026-11-20T23:11:33Z",
+      "status": "queued",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.7"
+    },
     "bcdba6416cc1b3b1b3b9e1d5": {
       "first_seen": "2026-10-16T05:36:35Z",
       "status": "queued",
@@ -10646,6 +10712,11 @@
       "first_seen": "2026-10-23T00:01:57Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11829"
+    },
+    "c1a2af93db54bfcf7c217cb7": {
+      "first_seen": "2026-11-20T23:11:07Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-medchembench"
     },
     "c1efe94a438c78db4aca9c6d": {
       "first_seen": "2026-10-27T22:24:33Z",
@@ -10907,6 +10978,11 @@
       "first_seen": "2026-10-06T23:06:53Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11458"
+    },
+    "c558cb54b4c1334c66532676": {
+      "first_seen": "2026-11-20T23:11:15Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4"
     },
     "c59e46da12229872b831eba2": {
       "first_seen": "2026-10-19T04:18:20Z",
@@ -13695,6 +13771,11 @@
       "first_seen": "2026-10-27T12:40:00Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11923"
+    },
+    "f6f0e6d2cf56e8de8e346c09": {
+      "first_seen": "2026-11-20T23:11:15Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12597"
     },
     "f71df4eeea2a175ce56f254a": {
       "first_seen": "2026-11-17T21:54:12Z",

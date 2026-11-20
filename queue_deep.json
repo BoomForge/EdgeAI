@@ -310,20 +310,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "19b3d03f25a3e039bee87d08",
-      "discovered_at": "2026-11-06T00:11:01Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-11-06T00:11:01Z",
-      "search_score": 46,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 05 Nov 2026 \ud83d\udd14 New article published Thinking Machines Inkling 2 Small: the highest scoring open weights model outside of China pending weights release Thinking Machines has released Inkling 2 Small, scoring 31 on the Artificial Analysis Intelligence Index - their plan to release its weights would make it the highest-scoring open weights model developed outside China based on current rankings \ud83d\udd14 New article published Nanbeige has released Nanbeige4.3-33B scoring 20 on the Intelligence Index Nanbeige has released Nanbeige4.3-33B, an open weights model matching Qwen3.8 27B (xhigh) at 20 on the Artificial Analysis Intelligence Index v5 with stronger terminal use but weaker knowledge New language model evaluation results available Inkling 2 Small Intelligence Index: 31 Thinking Machines performance results now available Inkling 2 Small Mistral performance results now available Mistral Large 4 (High) Mistral Large 4 (Medium) Tencent performance results now available Tencent Hy4 Nunchux performance results now available MiniMax H3 (768p) LTX-2.3 Fast 04 Nov 2026 New language model evaluation results available Muse Wonder (High) Intelligence Index: 41 New language model evaluation results available Tencent Hy4 Intelligence Index: 35 Meta performance results now available Muse Wonder (High) 03 Nov 2026 Artificial Analysis Performance Benchmarking methodology Artificial Analysis Performance Benchmarking v3.0.0 Time per Task is the new headline for comparing models. Output Speed now covers the whole request, including the wait for the first token, and averages single-request and multi-turn agentic workloads. Token counts come from each provider's API. Failures on the endpoint's side count against it, and every endpoint shows an Endpoint Error Rate. Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0.1 Incorporated grading robustness improvements from the CritPt authors and regraded all models on CritPt v2. 02 Nov 2026 New language model evaluation results available Gemini 4 Carbon (Low) Intelligence Index: 54 New language model evaluation results available Nanbeige4.3-33B Intelligence Index: 20 Google performance results now available Gemini 4 Carbon (Low) 01 Nov 2026 New language model evaluation results available Gemini 4 Carbon (Medium) Intelligence Index: 58 New language model evaluation results available DeepSeek V4.1 Flash 1017 (High) Intelligence Index: 29 Google performance results now available Gemini 4 Carbon (Medium) DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (High) 30 Oct 2026 New language model evaluation results available DeepSeek V4.1 Flash 1017 (Non-reasoning) Intelligence Index: 19 DeepInfra performance results now available Nemotron 3.5 Super VL SiliconFlow performance results now available Qwen3.8 27B (Xhigh) Qwen3.8 27B (Non-reasoning) GMI performance results now available Step 3.7 Flash DeepSeek performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) Inco performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) 29 Oct 2026 New language model evaluation results available Mistral Large 4 (Medium) Intelligence Index: 23 New language model evaluation results available Mistral Large 4 (High) Intelligence Index: 26 28 Oct 2026 \ud83d\udd14 New article published Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5 Google\u2019s Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5, and second only to Claude Opus 5.5 on the Artificial Analysis Coding Agent Index \ud83d\udd14 New article published GitHub Copilot Fusion orchestrates Anthropic and OpenAI models to balance performance and cost itHub has released Copilot Fusion in GitHub Copilot, which orchestrates between Anthropic and OpenAI models. It scores 2 points below Opus 5.5 in Claude Code at half the Cost per Task in the Coding Agent Index New language model evaluation results available Gemini 4 Carbon (High) Intelligence Index: 60 Google performance results now available Gemini 4 Carbon (High) Bitdeer AI performance results now available DeepSeek V4.1 Flash 1017 (Max) 27 Oct 2026 \ud83d\udd14 New article published Announcing Artificial Analysis Intelligence Index v5 Index v5 features 2 new benchmarks and 3 upgrades. For the first time, the majority of the Index is built on private datasets Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0 New to the Intelligence Index: \u27a4 FrontierCode 2.0: Cognition\u2019s private benchmark of real-world coding tasks, graded on whether a repository maintainer would merge the agent\u2019s change \u27a4 Termina",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-db42942592aac63c8f3b"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "293d47966afcddeabb5541fb",
       "discovered_at": "2026-11-16T06:18:18Z",
       "kind": "independent",
@@ -587,6 +573,20 @@
       "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 18 Nov 2026 \ud83d\udd14 New article published Google continues to accelerate its release cadence with Gemini 4 Neon Google continues to accelerate its release cadence with Gemini 4 Neon, delivering a small Intelligence gain over Gemini 4 Carbon at a ~17% lower Cost per Task New language model evaluation results available Gemini 4 Neon (Low) Intelligence Index: 44 New language model evaluation results available Gemini 4 Neon (Medium) Intelligence Index: 55 New language model evaluation results available Gemini 4 Neon (High) Intelligence Index: 60 New language model evaluation results available Gemini 4 Neon (Xhigh) Intelligence Index: 61 New language model evaluation results available K2 Horizon 32B Intelligence Index: 14 Google performance results now available Gemini 4 Neon (Low) Gemini 4 Neon (Medium) Gemini 4 Neon (High) Gemini 4 Neon (Xhigh) 17 Nov 2026 \ud83d\udd14 New article published OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol OpenAI\u2019s release of GPT-6.2 Astra and GPT-6.2 Sol delivers the #2 model in the Artificial Analysis Intelligence Index and most of the Cost per Task Pareto frontier New language model evaluation results available JoyAI-VL-Preview Intelligence Index: 28 New language model evaluation results available Inkling (High) Intelligence Index: 11 New language model evaluation results available Inkling Small (High) Intelligence Index: 10 New language model evaluation results available LFM3-1.7B Intelligence Index: 6 New language model evaluation results available LFM3-VL-2B Intelligence Index: 2 New language model evaluation results available Astra for Law 6.2 (Max) New language model evaluation results available GPT-6.2 Astra (Max) Intelligence Index: 62 New language model evaluation results available GPT-6.2 Astra (Xhigh) Intelligence Index: 62 New language model evaluation results available GPT-6.2 Astra (High) Intelligence Index: 60 New language model evaluation results available GPT-6.2 Astra (Medium) Intelligence Index: 57 New language model evaluation results available GPT-6.2 Astra (Low) Intelligence Index: 46 New language model evaluation results available GPT-6.2 Sol (Max) Intelligence Index: 57 New language model evaluation results available GPT-6.2 Sol (Xhigh) Intelligence Index: 56 New language model evaluation results available GPT-6.2 Sol (High) Intelligence Index: 55 New language model evaluation results available GPT-6.2 Sol (Medium) Intelligence Index: 53 New language model evaluation results available GPT-6.2 Sol (Low) Intelligence Index: 41 Joy Future Academy performance results now available JoyAI-VL-Preview Thinking Machines performance results now available Inkling (High) Inkling Small (High) Liquid AI performance results now available LFM3-1.7B LFM3-VL-2B Makora performance results now available MiniMax-M3.1-Flash OpenAI performance results now available Astra for Law 6.2 (Max) GPT-6.2 Sol (Low) GPT-6.2 Sol (Medium) GPT-6.2 Sol (High) GPT-6.2 Sol (Xhigh) GPT-6.2 Astra (Max) GPT-6.2 Astra (Xhigh) GPT-6.2 Astra (High) GPT-6.2 Astra (Medium) GPT-6.2 Astra (Low) GPT-6.2 Sol (Max) 16 Nov 2026 Nebius performance results now available Inkling 2 Small DeepInfra performance results now available Inkling 2 Small Together AI performance results now available Inkling 2 Small 15 Nov 2026 New language model evaluation results available Qwen4 Max Intelligence Index: 43 Alibaba Cloud performance results now available Qwen4 Max 13 Nov 2026 New language model evaluation results available Gemini 4 Argon (Medium) Intelligence Index: 48 New language model evaluation results available DeepSeek V4 Pro 0813 (High) Intelligence Index: 21 Zyphra performance results now available GLM-5.3-Flash Fireworks performance results now available DeepSeek V4.1 Flash 1017 (Max) Google performance results now available Gemini 4 Argon (Medium) Gemini 4 Argon (Medium) 12 Nov 2026 New language model evaluation results available Gemini 4 Hydrogen (Low) Intelligence Index: 27 New language model evaluation results available Gemini 4 Hydrogen (Medium) Intelligence Index: 41 New language model evaluation results available Gemini 4 Hydrogen (High) Intelligence Index: 51 New language model evaluation results available Gemini 4 Hydrogen (Xhigh) Intelligence Index: 54 Google performance results now available Gemini 4 Hydrogen (Low) Gemini 4 Hydrogen (Medium) Gemini 4 Hydrogen (High) Gemini 4 Hydrogen (Xhigh) 11 Nov 2026 New language model evaluation results available JT-4.1 Flash 236B A21B Intelligence Index: 19 Databricks performance results now available Kimi K3.1 Pro SambaNova performance results now available GLM-",
       "title": "Artificial Analysis benchmark changelog changed",
       "url": "https://artificialanalysis.ai/changelog#edgeai-d027b95aecf1adbff524"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "dd67461f8d3ee8d414a9ed3b",
+      "discovered_at": "2026-11-20T03:06:08Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "",
+      "search_score": 10,
+      "source_name": "Sakana AI Blog",
+      "summary": "Introducing Sakana AI\u2019s Security Research Group",
+      "title": "Introducing Sakana AI\u2019s Security Research Group",
+      "url": "https://sakana.ai/security-research-group/"
     },
     {
       "bootstrap": false,
@@ -881,6 +881,20 @@
       "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 13, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 DeepSeek V4.1 Flash 1017 deepseek 56.9T tokens +1% 2 Hy4 tencent 19.8T tokens +181% 3 DeepSeek V4.1 Flash deepseek 15.8T tokens -8% 4 GLM 5.3 Flash z-ai 11.8T tokens -16% 5 GPT-6 Luna openai 7.53T tokens +4% 6 Claude Opus 5.5 anthropic 6.99T tokens +6% 7 Step 5 Preview stepfun 6.57T tokens -4% 8 Kimi K3.1 Pro moonshotai 4.32T tokens +23% 9 GPT-6.1 Sol openai 4.11T tokens +9% 10 MiMo-V2.6-Flash xiaomi 3.85T tokens +61% 1 . DeepSeek V4.1 Flash 1017 by deepseek 56.9T tokens 1% 2 . Hy4 by tencent 19.8T tokens 181% 3 . DeepSeek V4.1 Flash by deepseek 15.8T tokens 8% 4 . GLM 5.3 Flash by z-ai 11.8T tokens 16% 5 . GPT-6 Luna by openai 7.53T tokens 4% 6 . Claude Opus 5.5 by anthropic 6.99T tokens 6% 7 . Step 5 Preview by stepfun 6.57T tokens 4% 8 . Kimi K3.1 Pro by moonshotai 4.32T tokens 23% 9 . GPT-6.1 Sol by openai 4.11T tokens 9% 10 . MiMo-V2.6-Flash by xiaomi 3.85T tokens 61% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the most recent complete day, with the change measured against the day before it. Models ranked by tokens processed on OpenRouter over the most recent complete day Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 8.98T -6% 2 Hy4 tencent 2.62T -4% 3 DeepSeek V4.1 Flash deepseek 2.39T +7% 4 GLM 5.3 Flash z-ai 1.54T -6% 5 Claude Opus 5.5 anthropic 1.25T +6% 6 GPT-6 Luna openai 1.25T -7% 7 Step 5 Preview stepfun 959B 0% 8 MiMo-V2.6-Flash xiaomi 603B -5% 9 GPT-6.1 Sol openai 546B -25% 10 GLM 5.3 z-ai 517B -15% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 185T new 2 DeepSeek V4.1 Flash deepseek 79.4T -32% 3 GLM 5.3 Flash z-ai 57.4T +2% 4 GPT-6 Luna openai 34.4T +80% 5 Claude Opus 5.5 anthropic 30.9T +176% 6 Hy4 tencent 26.9T new 7 Hy4 preview tencent 26T -32% 8 Step 5 Preview stepfun 23.2T +24% 9 MiMo-V2.6-Flash xiaomi 19.7T -37% 10 GLM 5.3 z-ai 19T +32% New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 ERNIE-5.5-Flash-Preview (free) baidu 920B new 2 Inkling 2 Small (free) thinkingmachines 712B new 3 Claude Fable 5.2 anthropic 658B new 4 Muse Ember meta 361B new 5 Gemini 4 Carbon google 354B new 6 MiniMax M3 (batch) minimax 445M >999% 7 Qwen3.8 27B (batch) qwen 37.6M >999% 8 Motif 3 motif-technologies 18.8M >999% 9 Mi kt 659M >999% 10 GPT-5.6 Terra Pro (batch) openai 1.42M >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend General 33.4% Agent 30.3% Code 25.8% Data 10.4% Classification 12.9% of all spend 1 Claude Opus 5.5 by anthropic 11.0% +3.9 2 GPT-6.1-Sol by openai 7.2% +4.8 3 Claude Sonnet 5.5 by anthropic 4.9% +3.4 4 Kimi K3 by moonshotai 4.1% +0.9 5 Gemini 3.8 Flash by google 3.5% -0.9 6 GPT-6-Astra by openai 3.3% -2.7 7 Deepseek V4.1 Flash by deepseek 3.1% +0.5 8 GLM 5.3 Flash by z-ai 3.0% +1.0 9 GPT-5.6-Luna by openai 3.0% +1.1 10 GPT-6-Luna by openai 2.8% +1.6 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 2, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 31.8% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 DeepSeek 31.8% +6% 2 OpenAI 19.3% +2% 3 Google 13.6% -5% 4 Z.ai 7.4% -38% 5 Anthropic 5.8% +1% 6 Qwen 5.7% +2% 7 Stealth 2.5% 8 Mistral 2.3% +5% 9 Tencent 2.3% +21% All other authors 9.2% +11% Open / Clos",
       "title": "OpenRouter real-world model rankings changed",
       "url": "https://openrouter.ai/rankings#edgeai-4b3ea1b3b419ece764d8"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "62cbbd2b4bb6ccc9dea8d4f1",
+      "discovered_at": "2026-11-20T03:06:05Z",
+      "kind": "independent-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-20T03:06:05Z",
+      "search_score": 38,
+      "source_name": "OpenRouter Rankings",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 19, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 Hy4 flash tencent 69.3T tokens new 2 DeepSeek V4.1 Flash 1017 deepseek 62.2T tokens +12% 3 DeepSeek V4.1 Flash deepseek 16T tokens +0% 4 Hy4 tencent 11.7T tokens -42% 5 GLM 5.3 Flash z-ai 10.7T tokens -11% 6 GPT-6 Luna openai 8.86T tokens +19% 7 Claude Opus 5.5 anthropic 7.53T tokens +11% 8 Step 5 Preview stepfun 5.75T tokens -15% 9 MiMo-V2.6-Flash xiaomi 4.01T tokens +11% 10 MiniMax M3.1 Flash minimax 3.92T tokens +9% 1 . Hy4 flash by tencent 69.3T tokens new 2 . DeepSeek V4.1 Flash 1017 by deepseek 62.2T tokens 12% 3 . DeepSeek V4.1 Flash by deepseek 16T tokens 0% 4 . Hy4 by tencent 11.7T tokens 42% 5 . GLM 5.3 Flash by z-ai 10.7T tokens 11% 6 . GPT-6 Luna by openai 8.86T tokens 19% 7 . Claude Opus 5.5 by anthropic 7.53T tokens 11% 8 . Step 5 Preview by stepfun 5.75T tokens 15% 9 . MiMo-V2.6-Flash by xiaomi 4.01T tokens 11% 10 . MiniMax M3.1 Flash by minimax 3.92T tokens 9% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the most recent complete day, with the change measured against the day before it. Models ranked by tokens processed on OpenRouter over the most recent complete day Rank Model Author Tokens Change 1 Hy4 flash tencent 22.6T -5% 2 DeepSeek V4.1 Flash 1017 deepseek 9.58T -2% 3 DeepSeek V4.1 Flash deepseek 2.19T -12% 4 GPT-6 Luna openai 1.59T +7% 5 GLM 5.3 Flash z-ai 1.47T -24% 6 Hy4 tencent 1.44T +7% 7 Claude Opus 5.5 anthropic 1.08T -6% 8 MiniMax M3.1 Flash minimax 671B +20% 9 MiMo-V2.6-Flash xiaomi 604B -1% 10 Nemotron 3 Ultra (free) nvidia 542B +2% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 227T >999% 2 DeepSeek V4.1 Flash deepseek 70.1T -44% 3 Hy4 flash tencent 69.3T new 4 GLM 5.3 Flash z-ai 56.7T +6% 5 GPT-6 Luna openai 36.8T +52% 6 Hy4 tencent 35.9T new 7 Claude Opus 5.5 anthropic 31.2T +83% 8 Step 5 Preview stepfun 25.9T +24% 9 Hy4 preview tencent 19T -45% 10 MiniMax M3.1 Flash minimax 17.7T >999% New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 Hy4 flash tencent 69.3T new 2 Qwen4 Max qwen 793B new 3 GPT-6.2 Sol openai 286B new 4 Ling 3.2 Flash (free) inclusionai 284B new 5 Gemini 4 Neon google 138B new 6 GLM 5.2 (batch) z-ai 4.03M >999% 7 Particle-1 (free) particle-ai 947B >999% 8 Inkling 2 Small thinkingmachines 690B >999% 9 Decider V1.3 (free) perplexity 216B >999% 10 Claude Sonnet 4.6 (batch) anthropic 8.07M >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend Software 41.0% Data 18.8% Information 15.8% Writing 6.8% Assistance 6.7% Creative 6.1% Media 4.0% Retrieval 0.2% Implementation 15.9% of all spend 1 Claude Opus 5.5 by anthropic 23.7% +1.3 2 Kimi K3.1 Pro by moonshotai 8.6% +8.6 3 Claude Sonnet 5.5 by anthropic 6.4% +1.7 4 GPT-6.1-Sol by openai 5.8% +3.5 5 Deepseek V4.1 Flash by deepseek 4.8% +4.6 6 GPT-6-Astra by openai 4.5% -2.7 7 GLM 5.3 by z-ai 4.2% -1.3 8 Kimi K3 by moonshotai 3.6% -2.3 9 Gemini 4 Carbon by google 3.3% +3.3 10 Claude Fable 5.2 by anthropic 2.8% +2.8 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 9, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 31.8% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 DeepSeek 31.8% +3% 2 OpenAI 19.0% +1% 3 Google 15.1% +14% 4 Z.ai 7.0% -3% 5 Anthropic 6.3% +11% ",
+      "title": "OpenRouter real-world model rankings changed",
+      "url": "https://openrouter.ai/rankings#edgeai-4106ab1d93b0f55c8478"
     },
     {
       "bootstrap": false,
@@ -1416,34 +1430,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "629342dabbd020b03af0f913",
-      "discovered_at": "2026-11-06T00:11:00Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 14,
-      "source_name": "FutureTools AI News",
-      "summary": "Runway Halves GPU Cost for Real-Time 57B Video Model, Now Runs on 4 H100s runway.com \u00b7 Show TLDR",
-      "title": "Runway Halves GPU Cost for Real-Time 57B Video Model, Now Runs on 4 H100s runway.com \u00b7 Show TLDR",
-      "url": "https://runway.com/news/research/real-time-video-at-batch-size-one?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "adf1ca9d7f32236413d7467c",
-      "discovered_at": "2026-11-06T00:11:00Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 14,
-      "source_name": "FutureTools AI News",
-      "summary": "Uber Reports Only 4 AI Agent Ride Bookings During Its Busiest Week in Q3 tech.yahoo.com \u00b7 Show TLDR",
-      "title": "Uber Reports Only 4 AI Agent Ride Bookings During Its Busiest Week in Q3 tech.yahoo.com \u00b7 Show TLDR",
-      "url": "https://tech.yahoo.com/transportation/articles/almost-no-one-uses-ai-215601578.html?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "f8fbac86abfa7d1a8fba6e78",
       "discovered_at": "2026-11-06T20:59:28Z",
       "kind": "signal",
@@ -1668,20 +1654,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "46149d7e66ded280dc425e7b",
-      "discovered_at": "2026-11-06T00:11:04Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Nov 5, 2026",
-      "search_score": 11,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Full release notes: github.com/NousResearch/h\u2026 Nov 5, 2026 @NousResearch Hermes Agent v0.23.0: The Hearth Release Highlights: - Desktop in a browser tab - One gateway for every conversation - /Rewind - Group Chats with automatic routing - Spend limits for paid tools - Lighter and faster and more Changelog below Nov 5, 2026 @NousResearch Unfuck your hardware with Hermes x.com/0xdippo/status\u2026 Nov 5, 2026 @NousResearch hermes-agent.nousresearch.com/docs/user-guid\u2026 Nov 5, 2026 @NousResearch Wow Nov 5, 2026 @NousResearch Hy4, the new model from @TencentHunyuan, is 80% off in Nous Portal for one week. It adds image input and computer use, and Tencent trained it for game development in Unity, Unreal and Godot and for editing Word, Excel and PowerPoint files. Try it today at https://t.co/uomohWXz34 Nov 5, 2026 @NousResearch The Hermes Agent Plugin Hackathon starts now! It runs for 7 days, with $20,000 in cash prizes and more. Plugins are the most powerful way to extend Hermes Agent, and we want this hackathon to show what they can do. A plugin can change anything from the model Hermes runs on, where it stores its memory, where it runs commands, which messaging apps it works in and what Hermes Desktop shows. Plugins in the marketplace already let Hermes do things like control a phone or turn a photo into a printable 3D model. Every kind of plugin is eligible, so build whatever functionality you want Hermes to have. We'll list accepted entries in the new Hermes Marketplace, where every Hermes user can install them. Prizes 1st: $10,000 + neon sign + merch + $1,000 creds 2nd: $5,000 + neon sign + merch + $1,000 creds 3rd: $2,500 + neon sign + merch + $1,000 creds 4th: $1,500 + merch + $500 creds 5th: $1,000 + merch + $500 creds Runners up (x5): merch + $250 creds Submissions are due 5PM EST on Nov 11th. To enter: 1. Open a pull request that adds your plugin to the Hermes plugin catalog: https://t.co/mXvYukJ0mZ 2. Post a demo video on X and tag @NousResearch 3. Submit both links through the form: https://t.co/jlduHHW3dr Your entry is the plugin itself. Judges score it on usefulness, reliability, polish and creativity, and they favor plugins that do more than a prompt or a skill could. Keep the demo under 90 seconds and show the plugin working. The developer guide shows how to build and test a plugin: https://t.co/FVGjSgjNoV When submissions close, we'll open a thread for every entry in the Nous Research Discord, so you can browse all the plugins and talk to the people who built them. You can submit the form as soon as your pull request is open. The catalog checks run once a maintainer starts them, and we review entries every few days. If you have any questions stop by the Nous Research Discord: https://t.co/qxek9haYeb GLHF! Nov 4, 2026 @NousResearch Plugins, connectors, and skills for Hermes Agent are now unified in a single marketplace so you can easily browse and extend your Hermes experience in a few clicks. The new Hermes Marketplace has everything your agent needs: hermes-agent.nousresearch.com/marketplace Nov 4, 2026 @NousResearch Nov 4, 2026 @NousResearch Congrats @Wronglebowsk \ud83e\udd20 Nov 4, 2026",
-      "title": "@NousResearch Hermes Agent v0.23.0: The Hearth Release Highlights: - Desktop in a browser tab - One gateway for every conversation - /Rewind - Group Chats with automatic routing - Spend limits for paid tools - Lighter and faster and more Ch",
-      "url": "https://x.com/NousResearch/status/2118479744979079669"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "38d188a0de75defdc0d60b8b",
       "discovered_at": "2026-11-10T03:50:50Z",
       "kind": "primary-signal",
@@ -1721,6 +1693,20 @@
       "summary": "@NousResearch Submissions for the Hermes Agent Plugin Hackathon closed at 5PM EST, and we received nearly 1,000 entries. Thank you to everyone who built and submitted them! Our judges are working on sorting through submissions to narrow down the top 10 now. Winners will be emailed directly, and we will announce them here in about a week. Nov 12, 2026 @NousResearch We are on Instagram now btw tap in instagram.com/nous_research Nov 11, 2026 @NousResearch Unshackle yourself Nov 10, 2026 @NousResearch 24 hours left to submit your plugin. We've received hundreds of awesome submissions and the judges are excited to review them all! x.com/NousResearch/s\u2026 Nov 10, 2026 @NousResearch The Sign in with ChatGPT flow in Nous Portal now supports your ChatGPT Business plan x.com/OpenAIDevs/sta\u2026 Nov 10, 2026 @NousResearch With Hermes it's all yours to conquer Nov 10, 2026 @NousResearch Try Fable 5.2 in Hermes Agent x.com/Kshitijjkapoor\u2026 Nov 9, 2026 @NousResearch Hermes Cloud agents now open in a browser tab with the exact same interface as Hermes Desktop. https://t.co/4Vw3XJgFwn To launch a personal agent, pick a name and a model in Nous Portal. We host it for you and it runs 24/7 in its own container, so it can handle scheduled jobs and answer you on any channel while your laptop is closed. Chats, Group Chats, plugins and settings in the Webapp work the same way they do when you run Hermes on your own computer. Open your agent from Nous Portal on your phone or any computer, or connect Hermes Desktop to it and continue the same chats there. Plus, Super, and Ultra plans each include one Cloud agent out of the box. Using Hermes from anywhere has never been easier. Nov 9, 2026 @NousResearch Using an agent that can change its models or code at any time without telling you is like building on quicksand Nov 8, 2026 @NousResearch hermes-agent.nousresearch.com/marketplace/he\u2026 Nov 8, 2026",
       "title": "@NousResearch Submissions for the Hermes Agent Plugin Hackathon closed at 5PM EST, and we received nearly 1,000 entries. Thank you to everyone who built and submitted them! Our judges are working on sorting through submissions to narrow dow",
       "url": "https://x.com/NousResearch/status/2120715518243987685"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "478ea25aeed3c99796b0356a",
+      "discovered_at": "2026-11-20T03:06:05Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-20T02:49:57+00:00",
+      "search_score": 10,
+      "source_name": "Simon Willison Everything",
+      "summary": "Token fraud is here and it\u2019s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time. In this YouTube video (see also the accompanying Twitter post ) Claire describes the flood of token fraud she has seen from groups abusing the product's free trial, sometimes just to get free AI usage but often to resell tokens or run other commercial enterprises on top of the ChatPRD agent. I am funding a international Roblox and Fortnite map studio. They run a loop of free trials and promo codes and then tunnel to my agent and use it to build Roblox and Fortnite maps. Apparently one of the common prompts Claire saw running through her agent involved SVGs of pelicans riding bicycles! Presumably the token scammers are using that to help sniff the underlying models - different model families have a definite signature, and I've used it like this in the past to try and guess the identity of stealth preview models on platforms like OpenRouter. Claire is winding down her free trials entirely, which sadly looks like the right decision in the face of this abuse. Tags: youtube , ai , generative-ai , llms , pelican-riding-a-bicycle , ai-misuse",
+      "title": "Token fraud is here and it\u2019s BAD (YouTube)",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
     },
     {
       "bootstrap": false,
@@ -1822,20 +1808,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "4e1329ae281a601fa9d6ce4a",
-      "discovered_at": "2026-11-06T00:11:04Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Nov 5, 2026",
-      "search_score": 9,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Full release notes: github.com/NousResearch/h\u2026 Nov 5, 2026 @NousResearch Hermes Agent v0.23.0: The Hearth Release Highlights: - Desktop in a browser tab - One gateway for every conversation - /Rewind - Group Chats with automatic routing - Spend limits for paid tools - Lighter and faster and more Changelog below Nov 5, 2026 @NousResearch Unfuck your hardware with Hermes x.com/0xdippo/status\u2026 Nov 5, 2026 @NousResearch hermes-agent.nousresearch.com/docs/user-guid\u2026 Nov 5, 2026 @NousResearch Wow Nov 5, 2026 @NousResearch Hy4, the new model from @TencentHunyuan, is 80% off in Nous Portal for one week. It adds image input and computer use, and Tencent trained it for game development in Unity, Unreal and Godot and for editing Word, Excel and PowerPoint files. Try it today at https://t.co/uomohWXz34 Nov 5, 2026 @NousResearch The Hermes Agent Plugin Hackathon starts now! It runs for 7 days, with $20,000 in cash prizes and more. Plugins are the most powerful way to extend Hermes Agent, and we want this hackathon to show what they can do. A plugin can change anything from the model Hermes runs on, where it stores its memory, where it runs commands, which messaging apps it works in and what Hermes Desktop shows. Plugins in the marketplace already let Hermes do things like control a phone or turn a photo into a printable 3D model. Every kind of plugin is eligible, so build whatever functionality you want Hermes to have. We'll list accepted entries in the new Hermes Marketplace, where every Hermes user can install them. Prizes 1st: $10,000 + neon sign + merch + $1,000 creds 2nd: $5,000 + neon sign + merch + $1,000 creds 3rd: $2,500 + neon sign + merch + $1,000 creds 4th: $1,500 + merch + $500 creds 5th: $1,000 + merch + $500 creds Runners up (x5): merch + $250 creds Submissions are due 5PM EST on Nov 11th. To enter: 1. Open a pull request that adds your plugin to the Hermes plugin catalog: https://t.co/mXvYukJ0mZ 2. Post a demo video on X and tag @NousResearch 3. Submit both links through the form: https://t.co/jlduHHW3dr Your entry is the plugin itself. Judges score it on usefulness, reliability, polish and creativity, and they favor plugins that do more than a prompt or a skill could. Keep the demo under 90 seconds and show the plugin working. The developer guide shows how to build and test a plugin: https://t.co/FVGjSgjNoV When submissions close, we'll open a thread for every entry in the Nous Research Discord, so you can browse all the plugins and talk to the people who built them. You can submit the form as soon as your pull request is open. The catalog checks run once a maintainer starts them, and we review entries every few days. If you have any questions stop by the Nous Research Discord: https://t.co/qxek9haYeb GLHF! Nov 4, 2026 @NousResearch Plugins, connectors, and skills for Hermes Agent are now unified in a single marketplace so you can easily browse and extend your Hermes experience in a few clicks. The new Hermes Marketplace has everything your agent needs: hermes-agent.nousresearch.com/marketplace Nov 4, 2026 @NousResearch Nov 4, 2026 @NousResearch Congrats @Wronglebowsk \ud83e\udd20 Nov 4, 2026",
-      "title": "@NousResearch Full release notes: github.com/NousResearch/h\u2026 Nov 5, 2026",
-      "url": "https://x.com/NousResearch/status/2118479748263534898"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "30c410c7643334c58c198e97",
       "discovered_at": "2026-11-11T00:37:34Z",
       "kind": "primary-signal",
@@ -1892,6 +1864,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "e728b515780ba0f7489a9163",
+      "discovered_at": "2026-11-20T03:06:08Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Nov 20, 2026",
+      "search_score": 9,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch @Microsoft Get Hermes Agent Enterprise for Microsoft Teams marketplace.microsoft.com/en-hk/product/\u2026 Nov 20, 2026 @NousResearch We've partnered with @Microsoft to bring Hermes Agent to the enterprise. Hermes Enterprise now works inside Microsoft Teams, the Microsoft Store and Azure. In Teams, employees hand Hermes work like financial analysis, document drafts or inbox triage, and review the result in the same chat. Agent workloads run in isolated Azure Container Apps sandboxes. When someone finds a good way to do a recurring task, Hermes saves it as a skill. With Collective Wisdom, they can share that skill with their team after review, so the next person starts out with the best approach anyone has found to accomplish that task. The skills then grow along with the company. Companies with strict data residency or procurement rules can run Hermes Enterprise in their own Azure tenant. Our CTO Jeffrey Quesnelle presents how Hermes uses these sandboxes at Microsoft Ignite today, in session BRK448. Thanks to @M12vc and the @Azure Container Apps team. https://t.co/Du3BHHJ0YB Nov 19, 2026 @NousResearch Congrats to our winner @taylorgreathead (and runner up Sean Thomas Evans)! Nov 19, 2026 @NousResearch x.com/testingcatalog\u2026 Nov 18, 2026 @NousResearch Qwen4-Max, the new flagship model from Alibaba, is free in Nous Portal for 5 days in partnership with @inferact and @Alibaba_Qwen. It\u2019s built for long-horizon work, with native vision and 1M context. Try it today at https://t.co/uomohWX1dw Nov 18, 2026 @NousResearch Defending your sovereignty in turbulent times Nov 17, 2026 @NousResearch Hy4 flash, the new model from @TencentHunyuan, is free in Nous Portal for two weeks. It is built to be extremely cost-effective at everyday work tasks like documents, slides, and computer use. Try it today at portal.nousresearch.com x.com/TencentHunyuan\u2026 Nov 16, 2026 @NousResearch Get on their level at hermes-agent.nousresearch.com hermes-agent.nousresearch.com Nov 16, 2026 @NousResearch Nuns love Hermes Nov 16, 2026 @NousResearch Nov 13, 2026",
+      "title": "@NousResearch @Microsoft Get Hermes Agent Enterprise for Microsoft Teams marketplace.microsoft.com/en-hk/product/\u2026 Nov 20, 2026",
+      "url": "https://x.com/NousResearch/status/2123568429286191522"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "5bff97097bcbb0d091187f44",
+      "discovered_at": "2026-11-20T03:06:08Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Nov 20, 2026",
+      "search_score": 9,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch @Microsoft Get Hermes Agent Enterprise for Microsoft Teams marketplace.microsoft.com/en-hk/product/\u2026 Nov 20, 2026 @NousResearch We've partnered with @Microsoft to bring Hermes Agent to the enterprise. Hermes Enterprise now works inside Microsoft Teams, the Microsoft Store and Azure. In Teams, employees hand Hermes work like financial analysis, document drafts or inbox triage, and review the result in the same chat. Agent workloads run in isolated Azure Container Apps sandboxes. When someone finds a good way to do a recurring task, Hermes saves it as a skill. With Collective Wisdom, they can share that skill with their team after review, so the next person starts out with the best approach anyone has found to accomplish that task. The skills then grow along with the company. Companies with strict data residency or procurement rules can run Hermes Enterprise in their own Azure tenant. Our CTO Jeffrey Quesnelle presents how Hermes uses these sandboxes at Microsoft Ignite today, in session BRK448. Thanks to @M12vc and the @Azure Container Apps team. https://t.co/Du3BHHJ0YB Nov 19, 2026 @NousResearch Congrats to our winner @taylorgreathead (and runner up Sean Thomas Evans)! Nov 19, 2026 @NousResearch x.com/testingcatalog\u2026 Nov 18, 2026 @NousResearch Qwen4-Max, the new flagship model from Alibaba, is free in Nous Portal for 5 days in partnership with @inferact and @Alibaba_Qwen. It\u2019s built for long-horizon work, with native vision and 1M context. Try it today at https://t.co/uomohWX1dw Nov 18, 2026 @NousResearch Defending your sovereignty in turbulent times Nov 17, 2026 @NousResearch Hy4 flash, the new model from @TencentHunyuan, is free in Nous Portal for two weeks. It is built to be extremely cost-effective at everyday work tasks like documents, slides, and computer use. Try it today at portal.nousresearch.com x.com/TencentHunyuan\u2026 Nov 16, 2026 @NousResearch Get on their level at hermes-agent.nousresearch.com hermes-agent.nousresearch.com Nov 16, 2026 @NousResearch Nuns love Hermes Nov 16, 2026 @NousResearch Nov 13, 2026",
+      "title": "@NousResearch We've partnered with @Microsoft to bring Hermes Agent to the enterprise. Hermes Enterprise now works inside Microsoft Teams, the Microsoft Store and Azure. In Teams, employees hand Hermes work like financial analysis, document",
+      "url": "https://x.com/NousResearch/status/2123535954946257096"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "a50437ccc021c623712f2923",
       "discovered_at": "2026-11-17T08:20:02Z",
       "kind": "independent",
@@ -1945,20 +1945,6 @@
       "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models Rankings data by OpenRouter is licensed under CC BY 4.0 . Reuse and republish it with attribution. The Data API docs cover the citation format and JSON access to these datasets. Footer \u00a9 2026 OpenRouter, Inc Product Chat Rankings Benchmarks Apps Discover Models Ori Providers Tools Pricing Business Enterprise Labs Company About Blog Customers Careers Hiring Privacy Terms of Service Trust Center Support Works With OR Data Brand Developer Documentation API Reference Developer Platform Status AI Site Map Connect Discord GitHub LinkedIn X YouTube",
       "title": "OpenRouter real-world model rankings changed",
       "url": "https://openrouter.ai/rankings#edgeai-94f7515fcef519c8efe5"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "9c862cba234d3e3571ef3a1c",
-      "discovered_at": "2026-11-06T00:11:04Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Nov 5, 2026",
-      "search_score": 8,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Full release notes: github.com/NousResearch/h\u2026 Nov 5, 2026 @NousResearch Hermes Agent v0.23.0: The Hearth Release Highlights: - Desktop in a browser tab - One gateway for every conversation - /Rewind - Group Chats with automatic routing - Spend limits for paid tools - Lighter and faster and more Changelog below Nov 5, 2026 @NousResearch Unfuck your hardware with Hermes x.com/0xdippo/status\u2026 Nov 5, 2026 @NousResearch hermes-agent.nousresearch.com/docs/user-guid\u2026 Nov 5, 2026 @NousResearch Wow Nov 5, 2026 @NousResearch Hy4, the new model from @TencentHunyuan, is 80% off in Nous Portal for one week. It adds image input and computer use, and Tencent trained it for game development in Unity, Unreal and Godot and for editing Word, Excel and PowerPoint files. Try it today at https://t.co/uomohWXz34 Nov 5, 2026 @NousResearch The Hermes Agent Plugin Hackathon starts now! It runs for 7 days, with $20,000 in cash prizes and more. Plugins are the most powerful way to extend Hermes Agent, and we want this hackathon to show what they can do. A plugin can change anything from the model Hermes runs on, where it stores its memory, where it runs commands, which messaging apps it works in and what Hermes Desktop shows. Plugins in the marketplace already let Hermes do things like control a phone or turn a photo into a printable 3D model. Every kind of plugin is eligible, so build whatever functionality you want Hermes to have. We'll list accepted entries in the new Hermes Marketplace, where every Hermes user can install them. Prizes 1st: $10,000 + neon sign + merch + $1,000 creds 2nd: $5,000 + neon sign + merch + $1,000 creds 3rd: $2,500 + neon sign + merch + $1,000 creds 4th: $1,500 + merch + $500 creds 5th: $1,000 + merch + $500 creds Runners up (x5): merch + $250 creds Submissions are due 5PM EST on Nov 11th. To enter: 1. Open a pull request that adds your plugin to the Hermes plugin catalog: https://t.co/mXvYukJ0mZ 2. Post a demo video on X and tag @NousResearch 3. Submit both links through the form: https://t.co/jlduHHW3dr Your entry is the plugin itself. Judges score it on usefulness, reliability, polish and creativity, and they favor plugins that do more than a prompt or a skill could. Keep the demo under 90 seconds and show the plugin working. The developer guide shows how to build and test a plugin: https://t.co/FVGjSgjNoV When submissions close, we'll open a thread for every entry in the Nous Research Discord, so you can browse all the plugins and talk to the people who built them. You can submit the form as soon as your pull request is open. The catalog checks run once a maintainer starts them, and we review entries every few days. If you have any questions stop by the Nous Research Discord: https://t.co/qxek9haYeb GLHF! Nov 4, 2026 @NousResearch Plugins, connectors, and skills for Hermes Agent are now unified in a single marketplace so you can easily browse and extend your Hermes experience in a few clicks. The new Hermes Marketplace has everything your agent needs: hermes-agent.nousresearch.com/marketplace Nov 4, 2026 @NousResearch Nov 4, 2026 @NousResearch Congrats @Wronglebowsk \ud83e\udd20 Nov 4, 2026",
-      "title": "@NousResearch Unfuck your hardware with Hermes x.com/0xdippo/status\u2026 Nov 5, 2026",
-      "url": "https://x.com/NousResearch/status/2118445476320260559"
     },
     {
       "bootstrap": false,
@@ -2183,48 +2169,6 @@
       "summary": "My comment on The Web Is More Than Enough, by Paul Ford \u2014 Hacker News. OK, this comment convinced me to give that a shot. Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB) I just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to port that to Vanilla JS, in the same thread where it had built it, and got this: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (98KB) They aren't identical - you can see what Claude said about that in the transcript (I don't fully understand why it differed): https://claude.ai/share/e56d163e-2793-4677-aa11-191d5058b414 But yeah, it turns out Claude Opus 5.5 is perfectly capable of 3D modeling in Vanilla JS + WebGL without Three.js. In eyeballing the code I find the Three.js slightly easier to understand myself, but I rarely look at the code for these 3D projects so that isn't a particularly big deal. Tags: hacker-news , javascript , ai , generative-ai , llms , claude , three-js",
       "title": "The Web Is More Than Enough, by Paul Ford",
       "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "74d0d69a7d0c67c3071ea5c1",
-      "discovered_at": "2026-11-06T00:11:00Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 6,
-      "source_name": "FutureTools AI News",
-      "summary": "Google Vids adds free 15-sec AI video generation with Omni 1.2 Flash model blog.google \u00b7 Show TLDR",
-      "title": "Google Vids adds free 15-sec AI video generation with Omni 1.2 Flash model blog.google \u00b7 Show TLDR",
-      "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "eb7105a1b093829186c852c9",
-      "discovered_at": "2026-11-06T00:11:00Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 6,
-      "source_name": "FutureTools AI News",
-      "summary": "Claude Launches Personal Finance Feature to Answer Money Questions from Connected Bank Accounts claude.com \u00b7 Show TLDR",
-      "title": "Claude Launches Personal Finance Feature to Answer Money Questions from Connected Bank Accounts claude.com \u00b7 Show TLDR",
-      "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "2e3fa0644c7b77d2a935ce71",
-      "discovered_at": "2026-11-06T00:11:00Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 6,
-      "source_name": "FutureTools AI News",
-      "summary": "Google Gemini Omni 1.2 Flash Launches: 15-Second Videos, 30% Price Cut blog.google \u00b7 Show TLDR",
-      "title": "Google Gemini Omni 1.2 Flash Launches: 15-Second Videos, 30% Price Cut blog.google \u00b7 Show TLDR",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2785,20 +2729,6 @@
       "summary": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted. I fired up regular Claude chat (Opus 5.5) and prompted : I'm thinking about a SQLite custom function 'parse_number(value)' that strips ',', '$', '\u00a3' and '%', handles a leading '-', and returns 'NULL' for anything it can\u2019t parse Explore the difference between building this as a SQLite extension in C v.s. in Rust - I want to compare performance and code complexity and size of the resulting .so (or whatever) file This gave me a solid starting point - the Rust extension was 321 KB (using Rusqlite ) and 298 KB (using sqlite-loadable-rs ), while the C extension was 14 KB. But the Rust extension was faster! Turns out that's because the Rust equivalent of C's strtod is \"twice as fast\". So I prompted: Try writing your own C function for parsing text into a decimal number that catches up to or beats the Rust implementation And it did: Net cost per row over 2 million rows, lower is better: first C new C rusqlite sqlite-loadable Mixed data 67 ns 19 ns 46 ns 41 ns Integers only 25 ns 16 ns 36 ns 32 ns Decimals only 106 ns 18 ns 55 ns 47 ns Finally, I had it rewrite the prototype as a research report to match the others in simonw/research by prompting this: Clone simonw/research from GitHub and turn your above investigation into a research report as seen in that repository - you can give me a zip file to download that contains your new folder Here's the resulting report . Tags: c , research , sqlite , rust , claude",
       "title": "parse_number() as a SQLite extension: C vs Rust",
       "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "4a53e27db39ccb6f9a070e23",
-      "discovered_at": "2026-11-06T00:11:00Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 2,
-      "source_name": "FutureTools AI News",
-      "summary": "Meta Muse App Gains Real-Time Voice & Expressive Avatars for Natural AI Conversations about.fb.com \u00b7 Show TLDR",
-      "title": "Meta Muse App Gains Real-Time Voice & Expressive Avatars for Natural AI Conversations about.fb.com \u00b7 Show TLDR",
-      "url": "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -3499,9 +3429,23 @@
       "summary": "Bringing 4K image generation into the 10-second era Discussion | Link",
       "title": "MiniMax H3-Image",
       "url": "https://www.producthunt.com/products/minimax"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "23bcde033c74ade302d020eb",
+      "discovered_at": "2026-11-20T03:06:04Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-18T16:52:42-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "A team of specialized AI agents that manage paid ads for you Discussion | Link",
+      "title": "Adside",
+      "url": "https://www.producthunt.com/products/adside"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-19T21:52:29Z",
+  "updated_at": "2026-11-20T03:06:09Z",
   "version": 2
 }

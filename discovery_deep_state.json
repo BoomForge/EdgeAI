@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-19T21:52:29Z",
+    "at": "2026-11-20T03:06:09Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 11,
+    "prefiltered": 0,
+    "queued": 6,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 223,
+  "runs": 224,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -1550,6 +1550,11 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-2d844e62959301f0e262"
     },
+    "23bcde033c74ade302d020eb": {
+      "first_seen": "2026-11-20T03:06:04Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/adside"
+    },
     "23ed2fd509d712248592a95c": {
       "first_seen": "2026-10-26T11:34:46Z",
       "status": "queued",
@@ -2111,6 +2116,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/tonefold"
+    },
+    "30ecd685b7658627e65e1ec7": {
+      "first_seen": "2026-11-20T03:06:04Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/testsprite"
     },
     "312c3ce9935fa29fddf8838a": {
       "first_seen": "2026-11-04T09:57:41Z",
@@ -3080,6 +3090,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/trusty-csv"
     },
+    "478ea25aeed3c99796b0356a": {
+      "first_seen": "2026-11-20T03:06:05Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
+    },
     "478f01b39dc8430bd4ef55d6": {
       "first_seen": "2026-11-12T19:12:15Z",
       "status": "too_old",
@@ -3993,6 +4008,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/withhuman"
     },
+    "5bff97097bcbb0d091187f44": {
+      "first_seen": "2026-11-20T03:06:08Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2123535954946257096"
+    },
     "5c2aa7ee55f026662c4deb35": {
       "first_seen": "2026-10-30T09:55:37Z",
       "status": "queued",
@@ -4352,6 +4372,11 @@
       "first_seen": "2026-10-07T02:36:56Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/"
+    },
+    "62cbbd2b4bb6ccc9dea8d4f1": {
+      "first_seen": "2026-11-20T03:06:05Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-4106ab1d93b0f55c8478"
     },
     "62e0600a22caed7cff4b84fa": {
       "first_seen": "2026-10-25T10:01:09Z",
@@ -9456,6 +9481,11 @@
       "status": "queued",
       "url": "https://updates.midjourney.com/alpha-changelog-10-1-26/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "dd67461f8d3ee8d414a9ed3b": {
+      "first_seen": "2026-11-20T03:06:08Z",
+      "status": "queued",
+      "url": "https://sakana.ai/security-research-group/"
+    },
     "dd72c09ab1511030de239b7e": {
       "first_seen": "2026-10-07T21:57:48Z",
       "status": "queued",
@@ -9844,6 +9874,11 @@
       "first_seen": "2026-10-20T15:17:17Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/sorcerer"
+    },
+    "e728b515780ba0f7489a9163": {
+      "first_seen": "2026-11-20T03:06:08Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2123568429286191522"
     },
     "e74b0ca731164f12ce98355c": {
       "first_seen": "2026-10-03T00:46:04Z",

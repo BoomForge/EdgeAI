@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-20T03:06:09Z",
+    "at": "2026-11-20T11:34:04Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 6,
+    "prefiltered": 9,
+    "queued": 5,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 7,
     "warnings": 0
   },
-  "runs": 224,
+  "runs": 225,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -424,6 +424,11 @@
       "status": "queued",
       "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "0979040f4ea2e25de36f6ad5": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-45612fc689bdb495a0f1"
+    },
     "0982b0d31b705956abb0dcd1": {
       "first_seen": "2026-10-19T05:06:00Z",
       "status": "queued",
@@ -797,6 +802,11 @@
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "126453ed51f97a5f54988255": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/compassos-dev"
+    },
     "127639cc62d76a80ea31db16": {
       "first_seen": "2026-10-08T01:53:41Z",
       "search_score": 0,
@@ -1085,6 +1095,12 @@
       "first_seen": "2026-10-27T22:30:09Z",
       "status": "queued",
       "url": "https://microsoft.ai/news/mai-cyber-1-1-flash/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "185e37bc183cb7b9e1cfe15a": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/interview-coach-3"
     },
     "18751b3135b0ef1c82b7f5e5": {
       "first_seen": "2026-10-07T09:23:03Z",
@@ -1502,6 +1518,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/notikeep"
+    },
+    "2272c5743f8307de4273842d": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/memanto-by-moorcheh"
     },
     "22dbd5504c7c127899461588": {
       "first_seen": "2026-10-29T13:31:50Z",
@@ -1937,6 +1958,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/gerty"
+    },
+    "2ddc0288d75763a63856ab5a": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/scam-link-check"
     },
     "2e014338a53a0a15a7c0b5c9": {
       "first_seen": "2026-10-11T23:51:14Z",
@@ -2944,6 +2970,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/codync"
     },
+    "42de4dd2d95c45b80311fb8b": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/groundwork-6"
+    },
     "42e1714619e50bc087118082": {
       "first_seen": "2026-11-10T20:02:29Z",
       "status": "queued",
@@ -2965,6 +2996,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/whoop"
+    },
+    "440b1f4c12c3ab25bfb2d7cf": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/kuc-kuc"
     },
     "4450675c6f099b0044872c16": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -3929,6 +3965,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/pushary"
     },
+    "5a0f30440b00886a5351a9e1": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/pickfit"
+    },
     "5a6224417127badb83133732": {
       "first_seen": "2026-10-04T12:47:33Z",
       "search_score": 0,
@@ -4249,6 +4291,11 @@
       "first_seen": "2026-10-09T07:47:51Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/microsoft-surface-laptop-ultra"
+    },
+    "60c3338c1256e97cb83289b0": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/same-moon"
     },
     "60cdd6b596008249bf482a06": {
       "first_seen": "2026-10-21T20:18:31Z",
@@ -4864,6 +4911,12 @@
       "first_seen": "2026-10-23T10:24:14Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/inyon"
+    },
+    "6f19d985916b00074304f377": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tripps"
     },
     "6f6084433480be6ed79c0a4b": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -6025,6 +6078,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/zest-6"
     },
+    "8851536eb0e7e37956a536cb": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/veryfi"
+    },
     "8859dca49d075e7cb240bbcf": {
       "first_seen": "2026-10-20T10:21:00Z",
       "status": "queued",
@@ -6056,6 +6114,12 @@
       "first_seen": "2026-11-03T22:28:15Z",
       "status": "queued",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "896db294879f4f0d28426665": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/fack-d"
     },
     "8976af8b058523370d1e9d5e": {
       "first_seen": "2026-10-20T10:21:00Z",
@@ -7503,6 +7567,12 @@
       "status": "queued",
       "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "ac1d9e82ded8f675e2bc0a96": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/deep-waste"
+    },
     "ac6bb099251327e6230ed8e8": {
       "first_seen": "2026-11-17T17:46:23Z",
       "search_score": 0,
@@ -8103,6 +8173,11 @@
       "status": "queued",
       "url": "https://www.kimi.com/en/contact-sales?from=header_nav"
     },
+    "bbd1005f558181713a908e24": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/ffmpa-kids-news"
+    },
     "bc29303d439fd68612132da0": {
       "first_seen": "2026-10-21T16:08:20Z",
       "status": "too_old",
@@ -8123,6 +8198,11 @@
       "first_seen": "2026-11-08T08:01:52Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/sagecraft"
+    },
+    "bd0ffed6c3c64be386d3ac42": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/aiteam-space"
     },
     "bd173e559ba5d0f1c24750dd": {
       "first_seen": "2026-10-13T18:14:14Z",
@@ -8775,6 +8855,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/regunow"
     },
+    "ccf4958333b9d73849630023": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/netsieve"
+    },
     "cd171daba2bfd557d394614b": {
       "first_seen": "2026-10-27T01:27:26Z",
       "status": "queued",
@@ -8816,6 +8902,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/pauta"
+    },
+    "ce626300320bef118fc2c8a4": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/currents-4"
     },
     "ce950f65fb08ac11efc215c8": {
       "first_seen": "2026-11-19T13:44:48Z",
@@ -9586,6 +9677,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/cloudflare-clef"
     },
+    "e0286f9ee1a9c49568065228": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/dozy"
+    },
     "e028e7028f7c972526a9da13": {
       "first_seen": "2026-10-15T09:50:31Z",
       "status": "queued",
@@ -9971,6 +10068,11 @@
       "first_seen": "2026-10-28T20:28:27Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/"
+    },
+    "e9c82648affc6034de2fa055": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/interaone"
     },
     "e9fbe0e69000aec63c0cd9bc": {
       "first_seen": "2026-10-14T13:07:10Z",
@@ -10824,6 +10926,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
     },
+    "fdec6e17f0cba94de13570ec": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/samiksa"
+    },
     "fdfd6c8d602fed686f048a7b": {
       "first_seen": "2026-10-22T13:13:50Z",
       "status": "too_old",
@@ -10848,6 +10956,12 @@
       "first_seen": "2026-11-13T15:37:08Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/kairos-18"
+    },
+    "fe8be4e24c1289fc24c5ab3f": {
+      "first_seen": "2026-11-20T11:34:00Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/andromon"
     },
     "fedef723b1959221b5c5a68b": {
       "first_seen": "2026-10-20T00:43:52Z",

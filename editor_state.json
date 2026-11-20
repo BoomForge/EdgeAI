@@ -77,12 +77,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-20T10:19:34Z",
-    "eligible": 87,
-    "evaluated": 3,
+    "at": "2026-11-20T18:43:22Z",
+    "eligible": 90,
+    "evaluated": 5,
     "mode": "live",
-    "new_posts": 2,
-    "publish_actions": 2,
+    "new_posts": 1,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -1155,6 +1155,14 @@
       },
       "url": "https://www.minimax.io/models/text"
     },
+    "17b7a2b39f098895a2208f48": {
+      "at": "2026-11-20T18:43:17Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "openai-pr-scans-demo",
+      "url": "https://openai.com/business/learn/pr-scans-demo"
+    },
     "17c36ca30ca95309b2a895c3": {
       "at": "2026-11-08T18:57:30Z",
       "status": "expired",
@@ -2188,6 +2196,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.900-beta"
+    },
+    "2defa3c9c385c010b5c802cc": {
+      "at": "2026-11-20T18:43:15Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12478"
     },
     "2df7efde6b87d44a5e2ee7c1": {
       "at": "2026-10-11T13:58:22Z",
@@ -5001,6 +5014,20 @@
       },
       "url": "https://claude.com/resources/articles/unified-claude-enterprise?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "67952d9a918d2536a7bf3b37": {
+      "at": "2026-11-20T18:43:22Z",
+      "bootstrap": false,
+      "score": 91,
+      "status": "published",
+      "story_key": "openai-codex-sandbox-security-execution",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/inside-the-codex-sandbox"
+    },
     "679aa5ba7788168552bddeeb": {
       "at": "2026-10-21T00:10:22Z",
       "bootstrap": false,
@@ -5783,6 +5810,11 @@
       "status": "expired",
       "url": "https://newsletter.futurepedia.io/p/your-chatgpt-can-now-work-while-youre-away-10-02-2026"
     },
+    "79ff0c06b3065b996e30aee9": {
+      "at": "2026-11-20T18:43:15Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/beacon-26"
+    },
     "7af48a3cbaa19c506e59d2e9": {
       "at": "2026-10-03T04:46:51Z",
       "bootstrap": true,
@@ -6143,6 +6175,14 @@
         "source": "Hugging Face Transformers Releases"
       },
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.21"
+    },
+    "82fe289fe466dcc1d4f71a60": {
+      "at": "2026-11-20T18:43:18Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "openai-codex-security-plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo"
     },
     "8305d1a357e5243d7c9138d4": {
       "at": "2026-10-18T09:31:13Z",
@@ -7395,6 +7435,11 @@
       "status": "expired",
       "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "9e24bec0316d82cc334b61d9": {
+      "at": "2026-11-20T18:43:15Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/"
+    },
     "9e63539289a31c8631b61e2d": {
       "at": "2026-10-16T22:03:33Z",
       "bootstrap": false,
@@ -7904,6 +7949,11 @@
       "story_key": "openrouter-rankings-october-2026",
       "url": "https://openrouter.ai/rankings#edgeai-1e6c65588e43ac9e658e"
     },
+    "a79a09b7eee7bd4a78e9d00d": {
+      "at": "2026-11-20T18:43:15Z",
+      "status": "expired",
+      "url": "https://openrouter.ai/rankings#edgeai-fa07864f398af211e328"
+    },
     "a7af1b25656fe844c38b28aa": {
       "at": "2026-11-15T07:48:11Z",
       "status": "expired",
@@ -7954,6 +8004,14 @@
       "at": "2026-11-12T00:35:08Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/"
+    },
+    "a890a236270cc5e31862345b": {
+      "at": "2026-11-20T18:43:16Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "openai-deploying-daybreak-red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red"
     },
     "a8925f4efcefde3be94aab20": {
       "at": "2026-11-01T15:02:04Z",
@@ -10157,6 +10215,14 @@
         "source": "Artificial Analysis Changelog"
       },
       "url": "https://artificialanalysis.ai/changelog#edgeai-4b86cdf0058ec0dd4b41"
+    },
+    "da30645137037f0052cd70ab": {
+      "at": "2026-11-20T18:43:19Z",
+      "bootstrap": false,
+      "score": 45,
+      "status": "ignored",
+      "story_key": "openai-daybreak-blue-onboarding",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo"
     },
     "da32c1eb28451e49ed9f8fc3": {
       "at": "2026-11-01T23:08:13Z",
@@ -16519,6 +16585,27 @@
       ],
       "status": "CONFIRMED",
       "title": "Cloudflare Integrates OpenAI Daybreak and Codex for Automated Vulnerability Remediation",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-codex-sandbox-security-execution": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openai-codex-sandbox-security-execution.png",
+      "last_updated": "2026-11-20T18:43:22Z",
+      "post_id": "2773718434600291449",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-details-codex-sandbox.html",
+      "score": 91,
+      "source_image_source": "EdgeAI",
+      "source_image_url": "https://raw.githubusercontent.com/BoomForge/EdgeAI/main/assets/edgeai-newsroom-fallback.svg",
+      "source_urls": [
+        "https://openai.com/index/inside-the-codex-sandbox"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Details Codex Sandbox Architecture for Local Command Execution",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

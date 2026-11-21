@@ -77,11 +77,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-21T15:39:52Z",
-    "eligible": 78,
+    "at": "2026-11-21T21:14:15Z",
+    "eligible": 76,
     "evaluated": 2,
     "mode": "live",
-    "new_posts": 1,
+    "new_posts": 0,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -528,6 +528,20 @@
         "source": "Artificial Analysis Changelog"
       },
       "url": "https://artificialanalysis.ai/changelog#edgeai-7a16fa14a486ca6a399e"
+    },
+    "09ea4919be46afe663e04a0a": {
+      "at": "2026-11-21T21:14:08Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "updated",
+      "story_key": "openrouter-rankings-nov-2026",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 81,
+        "source": "OpenRouter Rankings"
+      },
+      "url": "https://openrouter.ai/rankings#edgeai-4e0e1f92fd6c13e5a423"
     },
     "0a28c215b5c05aea6d5cda4b": {
       "at": "2026-10-03T04:46:24Z",
@@ -1980,6 +1994,11 @@
       "story_key": "llamacpp-b11695-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11695"
     },
+    "27f7b51e3bf8f5a8746a5cb2": {
+      "at": "2026-11-21T21:14:02Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/"
+    },
     "286a4c7e0865f7007f87bccb": {
       "at": "2026-10-03T04:46:52Z",
       "bootstrap": true,
@@ -2098,6 +2117,11 @@
       "at": "2026-11-13T02:48:14Z",
       "status": "expired",
       "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.0rc2"
+    },
+    "2b925c76d0b9e931b373be91": {
+      "at": "2026-11-21T21:14:02Z",
+      "status": "expired",
+      "url": "https://openrouter.ai/rankings#edgeai-5c035f28a1a9ece171af"
     },
     "2bb707084df4189268093b76": {
       "at": "2026-10-07T13:59:47Z",
@@ -3385,6 +3409,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11487"
     },
+    "42de4dd2d95c45b80311fb8b": {
+      "at": "2026-11-21T21:14:02Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/groundwork-6"
+    },
     "42e1714619e50bc087118082": {
       "at": "2026-11-13T22:55:05Z",
       "status": "expired",
@@ -4634,6 +4663,20 @@
       "status": "expired",
       "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "5f65aeaf1be799102687be58": {
+      "at": "2026-11-21T21:14:15Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "updated",
+      "story_key": "openrouter-rankings-nov-2026",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 83,
+        "source": "OpenRouter Rankings"
+      },
+      "url": "https://openrouter.ai/rankings#edgeai-7f7f7675833034706899"
+    },
     "5f721228af3682c2417b4131": {
       "at": "2026-11-07T06:24:03Z",
       "bootstrap": false,
@@ -4647,6 +4690,11 @@
         "source": "OpenAI News"
       },
       "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+    },
+    "5f73b59a3fca2b791eb9dfa7": {
+      "at": "2026-11-21T21:14:02Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows/"
     },
     "5fa5077c586be6aa58321c41": {
       "at": "2026-10-24T13:39:34Z",
@@ -18224,7 +18272,7 @@
     "openrouter-rankings-nov-2026": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openrouter-rankings-nov-2026.jpg",
-      "last_updated": "2026-11-21T15:39:52Z",
+      "last_updated": "2026-11-21T21:14:15Z",
       "post_id": "1656617069732955586",
       "post_url": "https://edgeainews.blogspot.com/2026/11/openrouter-usage-data-shows-deepseek.html",
       "score": 82,
@@ -18234,14 +18282,16 @@
         "https://openrouter.ai/rankings#edgeai-39cc7df5863c008628ad",
         "https://openrouter.ai/rankings#edgeai-6b8fc4b4458dcf0719ec",
         "https://openrouter.ai/rankings#edgeai-3c6642c72d07263f6fc3",
-        "https://openrouter.ai/rankings#edgeai-ca45f465f24f871aeb32"
+        "https://openrouter.ai/rankings#edgeai-ca45f465f24f871aeb32",
+        "https://openrouter.ai/rankings#edgeai-4e0e1f92fd6c13e5a423",
+        "https://openrouter.ai/rankings#edgeai-7f7f7675833034706899"
       ],
       "status": "CONFIRMED",
       "title": "OpenRouter Usage Data Updates: DeepSeek and Flash Variants Drive Mid-November 2026 Developer Traffic",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
-        "score": 81,
+        "score": 83,
         "source": "OpenRouter Rankings"
       }
     },

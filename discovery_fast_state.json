@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-21T12:29:36Z",
+    "at": "2026-11-21T19:47:04Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 11,
+    "queued": 5,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 231,
+  "runs": 232,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -3521,6 +3521,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.30193"
     },
+    "3fa460bc4f9cde60c5c5eaf4": {
+      "first_seen": "2026-11-21T19:46:40Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12612"
+    },
     "3fa5960172bad1030cd32759": {
       "first_seen": "2026-10-23T21:42:04Z",
       "status": "queued",
@@ -3878,6 +3883,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/the-dalles-data-center-20-years/"
+    },
+    "44b9176363d30caf2df1fa9f": {
+      "first_seen": "2026-11-21T19:46:40Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12609"
     },
     "44e868de1087e91d5a553499": {
       "first_seen": "2026-11-10T20:29:56Z",
@@ -7614,6 +7624,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10563"
     },
+    "880359f1f5825e28b64743ae": {
+      "first_seen": "2026-11-21T19:46:40Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12614"
+    },
     "8824a722fbbd4c31d76b2acd": {
       "first_seen": "2026-10-03T05:43:25Z",
       "status": "queued",
@@ -8639,6 +8654,11 @@
       "status": "too_old",
       "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.21"
     },
+    "9a1e9002620f78c79d24d2f5": {
+      "first_seen": "2026-11-21T19:46:40Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12613"
+    },
     "9a36558982efec557aded5ce": {
       "first_seen": "2026-11-19T10:08:59Z",
       "status": "queued",
@@ -9341,6 +9361,11 @@
       "first_seen": "2026-10-12T09:23:59Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12520"
+    },
+    "a71165c2d2ae0a9ad5d1b5b6": {
+      "first_seen": "2026-11-21T19:46:40Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12611"
     },
     "a71c76ddaafd8e3272e53600": {
       "first_seen": "2026-10-19T04:18:14Z",

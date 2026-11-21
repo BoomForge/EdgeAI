@@ -77,12 +77,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-20T18:43:22Z",
-    "eligible": 90,
-    "evaluated": 5,
+    "at": "2026-11-21T00:20:03Z",
+    "eligible": 73,
+    "evaluated": 2,
     "mode": "live",
-    "new_posts": 1,
-    "publish_actions": 1,
+    "new_posts": 2,
+    "publish_actions": 2,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -466,6 +466,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/ilse"
     },
+    "07feb2f341c18ae9ed2302d8": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://microsoft.ai/news/introducing-mai-image-2-7/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "083497c77c319f0c4b6fea7a": {
       "at": "2026-11-07T06:23:46Z",
       "status": "expired",
@@ -560,6 +565,11 @@
       "at": "2026-10-29T16:27:11Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/intrascope-app"
+    },
+    "0b5f35342ecc69a52f0353df": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
     },
     "0b684c52f721825fe71d17ba": {
       "at": "2026-10-19T14:37:42Z",
@@ -1904,6 +1914,11 @@
       "story_key": "artificial-analysis-changelog-updates-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-01385d29a6abea0cb221"
     },
+    "27140bd89f774aecde836f8f": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "27334100e818b98514ff3198": {
       "at": "2026-10-27T06:13:58Z",
       "bootstrap": false,
@@ -2118,6 +2133,11 @@
       "at": "2026-11-12T07:47:01Z",
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2119573404990771238"
+    },
+    "2c6da5dfbd719fd4752aa4aa": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://openai.com/index/astra-law-6-2/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "2c8b555f89725b795ac88b8d": {
       "at": "2026-10-08T05:57:00Z",
@@ -2440,6 +2460,11 @@
       },
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
     },
+    "3237918fdca0639698c66ded": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://microsoft.ai/news/introducing-mai-realtime-1/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "323ec171f8d23570a78d8aa0": {
       "at": "2026-11-08T14:25:40Z",
       "status": "expired",
@@ -2472,6 +2497,11 @@
       "at": "2026-11-11T10:47:37Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Nov/7/hn-50407316/"
+    },
+    "333f66a80acada820d13e021": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12482"
     },
     "338ea65b29ca83a891bd3fe8": {
       "at": "2026-10-03T21:49:26Z",
@@ -3647,6 +3677,11 @@
       "at": "2026-11-06T00:09:40Z",
       "status": "expired",
       "url": "https://openai.com/index/grid-protectors-program/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "49eea3107f4ac577bbcc4de6": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://microsoft.ai/news/introducing-mai-licensed-weights/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "4a32d2fe895871688c404872": {
       "at": "2026-10-31T15:17:24Z",
@@ -4854,6 +4889,11 @@
       },
       "url": "https://www.minimax.io/blog/minimax-h3"
     },
+    "643e81338a387fe1a0da457b": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "646703daec5b98f231fee1b4": {
       "at": "2026-10-07T13:59:34Z",
       "status": "expired",
@@ -5369,6 +5409,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/intelli"
     },
+    "6f61250f1d7c0d451507a913": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2122778725548716082"
+    },
     "6f7a845deb5495d0aff90924": {
       "at": "2026-11-01T01:30:22Z",
       "status": "expired",
@@ -5708,6 +5753,11 @@
       },
       "url": "https://artificialanalysis.ai/changelog#edgeai-6969372226afa432a689"
     },
+    "7737dc6aeb5bcb1ae0753552": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "775cce2b8f031ba723e503c1": {
       "at": "2026-10-07T06:34:08Z",
       "status": "expired",
@@ -5815,6 +5865,20 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/beacon-26"
     },
+    "7ad44f990f0c53ef2e2a5377": {
+      "at": "2026-11-21T00:19:51Z",
+      "bootstrap": false,
+      "score": 91,
+      "status": "published",
+      "story_key": "openai-combatting-adversarial-distillation-gpt-6-2",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/combatting-adversarial-distillation"
+    },
     "7af48a3cbaa19c506e59d2e9": {
       "at": "2026-10-03T04:46:51Z",
       "bootstrap": true,
@@ -5903,6 +5967,11 @@
         "source": "Nous Research Announcements"
       },
       "url": "https://x.com/NousResearch/status/2109301268955181334"
+    },
+    "7d1b4e1a3317aaf61d434bba": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "7d41f56ee3543afc8dce0230": {
       "at": "2026-10-06T09:19:44Z",
@@ -6228,6 +6297,11 @@
         "source": "FutureTools AI News"
       },
       "url": "https://openai.com/index/decisions-api/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "8405c0cfd55bf68d3b08ea2d": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://openrouter.ai/rankings#edgeai-fa519ec7854ab8b81491"
     },
     "840978c2e6f28318fa694682": {
       "at": "2026-10-12T17:49:23Z",
@@ -8344,6 +8418,11 @@
       "story_key": "runway-research-publications",
       "url": "https://runway.com/research/publications"
     },
+    "af32992385ce2839bd1684f8": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12480"
+    },
     "af6d4b8ab88d1786c2f02d8b": {
       "at": "2026-10-05T22:35:25Z",
       "status": "expired",
@@ -8508,6 +8587,11 @@
       "at": "2026-10-04T11:20:52Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/moxie-2"
+    },
+    "b4439a7527ca175b45e55871": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
     },
     "b4cd854bf93930bedc30bd35": {
       "at": "2026-11-13T02:48:14Z",
@@ -9038,6 +9122,20 @@
       },
       "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
     },
+    "c1a2af93db54bfcf7c217cb7": {
+      "at": "2026-11-21T00:20:03Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-medchembench-drug-discovery-benchmark",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/introducing-medchembench"
+    },
     "c24e75dbd6cdc0177696bc51": {
       "at": "2026-11-06T00:09:40Z",
       "status": "expired",
@@ -9431,6 +9529,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11400"
     },
+    "ca728c43a92b92e2f842e568": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://microsoft.ai/news/introducing-mai-cyber-2-flash/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "caa2121350852b24ddb09ffb": {
       "at": "2026-10-25T12:32:20Z",
       "bootstrap": false,
@@ -9727,6 +9830,11 @@
       "at": "2026-11-14T03:08:34Z",
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2120271539006222576"
+    },
+    "d25871eeefb6d76b2a596ebf": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "d2a239d4a8c6e6c1aeaf7910": {
       "at": "2026-10-30T23:17:50Z",
@@ -10745,6 +10853,11 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12212"
     },
+    "e500f96befa0390c3494e27b": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12483"
+    },
     "e51e7ef628a3ce1797f6ac65": {
       "at": "2026-10-19T06:57:17Z",
       "bootstrap": false,
@@ -10995,6 +11108,11 @@
       "at": "2026-10-03T14:57:13Z",
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.4.0"
+    },
+    "ea3262b1861aaf6747cd0250": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12479"
     },
     "ea6997666d92aa67534212f2": {
       "at": "2026-11-01T23:08:17Z",
@@ -11603,6 +11721,11 @@
       "at": "2026-10-10T21:56:54Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/termaxa"
+    },
+    "f6bc592ff27b32b6d2d41326": {
+      "at": "2026-11-21T00:19:41Z",
+      "status": "expired",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "f6d4be82fdc69f2db07074bb": {
       "at": "2026-10-05T07:01:46Z",
@@ -16613,6 +16736,27 @@
         "source": "OpenAI News"
       }
     },
+    "openai-combatting-adversarial-distillation-gpt-6-2": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-combatting-adversarial-distillation-gpt-6-2.jpg",
+      "last_updated": "2026-11-21T00:19:51Z",
+      "post_id": "633187863530248445",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-details-multi-layered-defenses.html",
+      "score": 91,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/5SUtPGdssrttC7LfP1yoJ1/b6b000846ab3576c1735c29534ab20b0/combatting-adversarial-distillation-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/combatting-adversarial-distillation"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Details Multi-Layered Defenses Against Adversarial Distillation in GPT-6.2 Models",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
     "openai-community-safety-report-teen-protections-2026": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-community-safety-report-teen-protections-2026.jpg",
@@ -17337,6 +17481,27 @@
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-medchembench-drug-discovery-benchmark": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openai-medchembench-drug-discovery-benchmark.png",
+      "last_updated": "2026-11-21T00:20:03Z",
+      "post_id": "4189421316127819310",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-introduces-medchembench-to.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/37ZvKdwVigsgJ7G3FMr4Nb/12854063a79d19d63278704bf54e3010/introducing-medchembench-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/introducing-medchembench"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Introduces MedChemBench to Evaluate AI Reasoning in Early Drug Discovery",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
         "source": "OpenAI News"
       }
     },

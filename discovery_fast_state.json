@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-21T04:02:31Z",
+    "at": "2026-11-21T12:29:36Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 5,
+    "queued": 11,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 230,
+  "runs": 231,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -473,6 +473,11 @@
       "first_seen": "2026-10-24T09:06:47Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.8"
+    },
+    "0a40b9c8bdaa515359b7ec7d": {
+      "first_seen": "2026-11-21T12:29:19Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12608"
     },
     "0a48e8b402019bba9a02ea8c": {
       "first_seen": "2026-11-09T23:28:43Z",
@@ -4265,6 +4270,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.12936"
     },
+    "4bdb6d39f683fd8715294b62": {
+      "first_seen": "2026-11-21T12:29:15Z",
+      "status": "queued",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.0"
+    },
     "4bea592884744b0da6f636f8": {
       "first_seen": "2026-11-17T13:40:36Z",
       "status": "queued",
@@ -4329,6 +4339,11 @@
       "first_seen": "2026-10-07T16:39:04Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11469"
+    },
+    "4d363063de628e5da78243d2": {
+      "first_seen": "2026-11-21T12:29:30Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.2.1"
     },
     "4d3ec693be6f325b6a3f53ba": {
       "first_seen": "2026-10-03T00:46:07Z",
@@ -4578,6 +4593,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc0"
     },
+    "52d0ba5f6cdfe54d2f5a42d2": {
+      "first_seen": "2026-11-21T12:29:30Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.27"
+    },
     "52d33fc412ff4ea4ab7a581a": {
       "first_seen": "2026-11-16T11:43:56Z",
       "status": "queued",
@@ -4743,6 +4763,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-search-data/"
+    },
+    "556b8b8aaa393f0a6e5e9a0f": {
+      "first_seen": "2026-11-21T12:29:30Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fui%2Fv0.2.1"
     },
     "55743b4ddea9bce18585e8f3": {
       "first_seen": "2026-10-30T01:50:27Z",
@@ -6219,6 +6244,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11760"
     },
+    "6de322dbe3af2fd003fd6015": {
+      "first_seen": "2026-11-21T12:29:30Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.2.1"
+    },
     "6e0ba84ea28447b0d66b95c4": {
       "first_seen": "2026-10-03T00:46:13Z",
       "status": "queued",
@@ -6646,6 +6676,11 @@
       "first_seen": "2026-10-08T07:31:18Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08842"
+    },
+    "76e322d69b58ad44dbab7e9f": {
+      "first_seen": "2026-11-21T12:29:19Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12604"
     },
     "76ff5abfdfc45f0df903bb1d": {
       "first_seen": "2026-10-07T21:34:37Z",
@@ -7149,6 +7184,11 @@
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22425"
+    },
+    "826e4a032e9ba8734ec31538": {
+      "first_seen": "2026-11-21T12:29:19Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12606"
     },
     "827f3f96bd5a922375ad21c1": {
       "first_seen": "2026-11-04T10:39:44Z",
@@ -8160,6 +8200,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/arkansas-partnerships/"
+    },
+    "92f97425ec18957ea8504194": {
+      "first_seen": "2026-11-21T12:29:30Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fcore%2Fv0.2.1"
     },
     "930bbdaab8325f1ed16aa286": {
       "first_seen": "2026-10-25T17:13:48Z",
@@ -13923,6 +13968,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11903"
     },
+    "f927c23d4a9c1b2634b43571": {
+      "first_seen": "2026-11-21T12:29:19Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12603"
+    },
     "f94dbedb777bca1e7dcc5ceb": {
       "first_seen": "2026-10-21T00:55:30Z",
       "status": "queued",
@@ -14189,6 +14239,11 @@
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20657"
+    },
+    "fea56b037d481d0b1a85f53b": {
+      "first_seen": "2026-11-21T12:29:30Z",
+      "status": "queued",
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fllms%2Fv0.2.1"
     },
     "feb34ac37e8e9bbc9efead9f": {
       "first_seen": "2026-11-12T19:07:07Z",

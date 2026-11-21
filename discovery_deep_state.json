@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-20T19:16:08Z",
+    "at": "2026-11-21T00:54:33Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 5,
-    "queued": 4,
+    "prefiltered": 3,
+    "queued": 7,
     "sources_ok": 15,
-    "too_old": 4,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 226,
+  "runs": 227,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -782,6 +782,11 @@
       "status": "queued",
       "url": "https://www.anthropic.com/research/claude-black-hole-physics?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "11c33c6fbe49962a59eab370": {
+      "first_seen": "2026-11-21T00:54:32Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2123882459829875154"
+    },
     "12069dbe170b04bd498373b6": {
       "first_seen": "2026-10-15T14:58:06Z",
       "status": "queued",
@@ -1271,6 +1276,11 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
       "url": "https://www.kimi.com/code"
+    },
+    "1b97c6ce343bf9ab004220a5": {
+      "first_seen": "2026-11-21T00:54:32Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2123882454406545722"
     },
     "1bce75677ddfec1251f5a445": {
       "first_seen": "2026-10-06T14:08:51Z",
@@ -1820,6 +1830,12 @@
       "first_seen": "2026-11-16T06:18:18Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-635fb1f2438a960c3f69"
+    },
+    "29cd65cc53fea0c1f1245aac": {
+      "first_seen": "2026-11-21T00:54:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/vybe-4"
     },
     "29e2961ad01fe1426761c81e": {
       "first_seen": "2026-10-04T17:06:51Z",
@@ -2784,6 +2800,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/raah-dev"
     },
+    "3fc734fb8f6b93b2eaf70b4d": {
+      "first_seen": "2026-11-21T00:54:30Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-be4ade05043e6011c46f"
+    },
     "3fd780cf9f0f9d8af472aa01": {
       "first_seen": "2026-10-08T21:27:35Z",
       "status": "queued",
@@ -3474,6 +3495,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/lingomic"
     },
+    "4e4d483ae668aa1a1ccf5d8d": {
+      "first_seen": "2026-11-21T00:54:29Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/stormi"
+    },
     "4e8a43958f16f0b47961d68e": {
       "first_seen": "2026-10-21T20:18:30Z",
       "search_score": 0,
@@ -3538,6 +3565,11 @@
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/opengeni"
+    },
+    "4fedd29e16b3f16dc1131876": {
+      "first_seen": "2026-11-21T00:54:29Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/tensorviz"
     },
     "5028b0ad69dd29afacbc07a4": {
       "first_seen": "2026-11-03T09:27:30Z",
@@ -3655,6 +3687,11 @@
       "first_seen": "2026-10-30T09:55:37Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/knocket-ai"
+    },
+    "53477f4e1152d54534207283": {
+      "first_seen": "2026-11-21T00:54:30Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-48818bf33b6619e15890"
     },
     "5348c60bd5e91500ff590f30": {
       "first_seen": "2026-10-07T16:48:32Z",
@@ -4410,6 +4447,12 @@
       "status": "queued",
       "url": "https://runway.com/news/research/real-time-video-at-batch-size-one?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "6295e0549bd9db963ed6c801": {
+      "first_seen": "2026-11-21T00:54:29Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/lumyna-community-challenge"
+    },
     "62bd754a55fd308cf76982b2": {
       "first_seen": "2026-11-06T20:59:29Z",
       "status": "too_old",
@@ -5155,6 +5198,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/elevenlabs"
     },
+    "741ca5e40a3bf56f1638cd2b": {
+      "first_seen": "2026-11-21T00:54:32Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2123882457388970004"
+    },
     "7456bc59b56e495288676aee": {
       "first_seen": "2026-11-17T00:23:43Z",
       "status": "queued",
@@ -5777,6 +5825,11 @@
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/teachoo-2"
+    },
+    "8142c683fe915cee722cf3a5": {
+      "first_seen": "2026-11-21T00:54:29Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/storiara"
     },
     "81564953af2596613c95f372": {
       "first_seen": "2026-10-15T19:05:42Z",
@@ -8403,6 +8456,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/openpilot"
     },
+    "c00e45f5eca0278a7b603e68": {
+      "first_seen": "2026-11-21T00:54:29Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/mailpipe-2"
+    },
     "c027af4d74dc7dca138ac31e": {
       "first_seen": "2026-10-09T14:44:12Z",
       "status": "too_old",
@@ -8971,6 +9029,11 @@
       "first_seen": "2026-10-16T18:46:59Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2111130305780130131"
+    },
+    "cf3b0c6c1cbc2369e530af20": {
+      "first_seen": "2026-11-21T00:54:29Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/"
     },
     "cf5829efbae7aba1ede11e57": {
       "first_seen": "2026-10-17T08:44:04Z",

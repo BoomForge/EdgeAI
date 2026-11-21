@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-21T08:14:24Z",
+    "at": "2026-11-21T16:18:30Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 4,
-    "queued": 6,
+    "prefiltered": 1,
+    "queued": 4,
     "sources_ok": 15,
-    "too_old": 10,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 228,
+  "runs": 229,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -341,6 +341,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/punchcutter"
+    },
+    "07d3a6a4e8e8d0eb2ce33d70": {
+      "first_seen": "2026-11-21T16:18:25Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/stitch-loop"
     },
     "07dffacc5be464373897633e": {
       "first_seen": "2026-10-08T16:26:00Z",
@@ -1511,6 +1516,12 @@
       "first_seen": "2026-11-14T08:55:05Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/hiringnow"
+    },
+    "210179e9e09135ee7ae2d785": {
+      "first_seen": "2026-11-21T16:18:25Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/smorza"
     },
     "2116d4596fb7c5e8aea60392": {
       "first_seen": "2026-10-26T11:34:46Z",
@@ -4290,6 +4301,11 @@
       "status": "queued",
       "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "5f65aeaf1be799102687be58": {
+      "first_seen": "2026-11-21T16:18:25Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-7f7f7675833034706899"
+    },
     "5f73b59a3fca2b791eb9dfa7": {
       "first_seen": "2026-11-19T04:24:05Z",
       "status": "queued",
@@ -4724,6 +4740,11 @@
       "first_seen": "2026-10-31T12:57:54Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/winneradspy"
+    },
+    "68055c8173516fcf51e61505": {
+      "first_seen": "2026-11-21T16:18:25Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/gitroots"
     },
     "681badf43f416d0610958eeb": {
       "first_seen": "2026-10-31T12:57:54Z",
@@ -8670,6 +8691,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/harness-104"
     },
+    "c385acb6b2bcfc3bbddfa05d": {
+      "first_seen": "2026-11-21T16:18:25Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/loudflow"
+    },
     "c395b6fa6e5f136f6c1e8733": {
       "first_seen": "2026-11-09T11:23:00Z",
       "status": "too_old",
@@ -10747,6 +10773,11 @@
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-664b99d8d1508d59e241"
     },
+    "f44c1bcf7172fdcf2fb5d71f": {
+      "first_seen": "2026-11-21T16:18:25Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/supermailbox"
+    },
     "f46db7476e489b8b8d0c8a58": {
       "first_seen": "2026-10-16T18:46:44Z",
       "status": "too_old",
@@ -11057,6 +11088,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/isurge"
+    },
+    "fae90971b67cdf722fbe7aab": {
+      "first_seen": "2026-11-21T16:18:25Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/waitfeed-2"
     },
     "fb091be4a141775fffd09239": {
       "first_seen": "2026-11-15T14:13:58Z",

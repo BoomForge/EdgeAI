@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-20T23:11:39Z",
+    "at": "2026-11-21T04:02:31Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 15,
+    "prefiltered": 0,
+    "queued": 5,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 229,
+  "runs": 230,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -5015,6 +5015,11 @@
       "status": "queued",
       "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
     },
+    "59bbcb053d7477e1fc361558": {
+      "first_seen": "2026-11-21T04:02:23Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.14"
+    },
     "59d33d46139f560fc0ef97c1": {
       "first_seen": "2026-10-21T05:49:01Z",
       "status": "queued",
@@ -7014,6 +7019,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12365"
     },
+    "7f3a8fa0661bf306496b489c": {
+      "first_seen": "2026-11-21T04:02:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12600"
+    },
     "7f431ac58209fa26ac26c77e": {
       "first_seen": "2026-10-27T06:24:40Z",
       "status": "queued",
@@ -7478,6 +7488,11 @@
       "first_seen": "2026-11-15T19:28:16Z",
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.1"
+    },
+    "86f494e442acbcb0b84eaffd": {
+      "first_seen": "2026-11-21T04:02:12Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12602"
     },
     "86f9c103a896d630dbe524c5": {
       "first_seen": "2026-11-09T05:26:20Z",
@@ -9497,6 +9512,11 @@
       "first_seen": "2026-10-27T06:24:39Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31716"
+    },
+    "ab2c14a0d266a4c96cc2390a": {
+      "first_seen": "2026-11-21T04:02:13Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17"
     },
     "ab51e1a2b0a6831fd2927ae8": {
       "first_seen": "2026-10-09T06:41:17Z",
@@ -12824,6 +12844,11 @@
       "first_seen": "2026-11-12T03:08:35Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12302"
+    },
+    "e6a46f1a93c855bd6a32603b": {
+      "first_seen": "2026-11-21T04:02:25Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.922-beta"
     },
     "e6b637328ef2109d9e898dbc": {
       "first_seen": "2026-11-16T11:43:50Z",

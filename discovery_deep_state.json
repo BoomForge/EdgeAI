@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-21T16:18:30Z",
+    "at": "2026-11-21T21:48:15Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
+    "prefiltered": 0,
     "queued": 4,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 229,
+  "runs": 230,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -2611,6 +2611,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/tuck-6"
     },
+    "39d87825fbc8107880f8481e": {
+      "first_seen": "2026-11-21T21:48:10Z",
+      "status": "queued",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "39d9d32aec31bf39472f496d": {
       "first_seen": "2026-10-05T18:53:47Z",
       "status": "queued",
@@ -4920,6 +4925,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/yardlet-2"
     },
+    "6c0ec022b6fb08d7f69f6976": {
+      "first_seen": "2026-11-21T21:48:11Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-92a2544db13db67064ba"
+    },
     "6c9a3778997db3fc25b1b0b9": {
       "first_seen": "2026-10-27T12:46:49Z",
       "search_score": 0,
@@ -6363,6 +6373,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/rakazo"
+    },
+    "8b57b72566ad3c58d871696b": {
+      "first_seen": "2026-11-21T21:48:11Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/"
     },
     "8b5eb31ac4f18cae3fbfecf9": {
       "first_seen": "2026-10-17T08:44:04Z",
@@ -8133,6 +8148,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/nova-18"
+    },
+    "b6a505af75b8f1a4eaccd257": {
+      "first_seen": "2026-11-21T21:48:14Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2124241007780999196"
     },
     "b6b086af3102c6ee6b54dd57": {
       "first_seen": "2026-10-31T12:57:54Z",

@@ -870,6 +870,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "41d07b28b66728bfe4c9171c",
+      "discovered_at": "2026-11-21T08:14:21Z",
+      "kind": "independent-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-21T08:14:21Z",
+      "search_score": 38,
+      "source_name": "OpenRouter Rankings",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 20, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 DeepSeek V4.1 Flash 1017 deepseek 62.4T tokens +15% 2 DeepSeek V4.1 Flash deepseek 15.6T tokens -1% 3 GLM 5.3 Flash z-ai 10.8T tokens -9% 4 GPT-6 Luna openai 8.74T tokens +41% 5 Claude Opus 5.5 anthropic 7.25T tokens +54% 6 Step 5 Preview stepfun 4.8T tokens >999% 7 MiniMax M3.1 Flash minimax 4.11T tokens +404% 8 MiMo-V2.6-Flash xiaomi 3.91T tokens +363% 9 Nemotron 3 Ultra (free) nvidia 3.56T tokens +11% 10 Kimi K3.1 Pro moonshotai 3.54T tokens -18% 1 . DeepSeek V4.1 Flash 1017 by deepseek 62.4T tokens 15% 2 . DeepSeek V4.1 Flash by deepseek 15.6T tokens 1% 3 . GLM 5.3 Flash by z-ai 10.8T tokens 9% 4 . GPT-6 Luna by openai 8.74T tokens 41% 5 . Claude Opus 5.5 by anthropic 7.25T tokens 54% 6 . Step 5 Preview by stepfun 4.8T tokens >999% 7 . MiniMax M3.1 Flash by minimax 4.11T tokens 404% 8 . MiMo-V2.6-Flash by xiaomi 3.91T tokens 363% 9 . Nemotron 3 Ultra (free) by nvidia 3.56T tokens 11% 10 . Kimi K3.1 Pro by moonshotai 3.54T tokens 18% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the most recent complete day, with the change measured against the day before it. Models ranked by tokens processed on OpenRouter over the most recent complete day Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 9.15T -4% 2 DeepSeek V4.1 Flash deepseek 2.07T -5% 3 GLM 5.3 Flash z-ai 1.63T +11% 4 GPT-6 Luna openai 1.14T -29% 5 Claude Opus 5.5 anthropic 976B -9% 6 Hy4 tencent 821B >999% 7 MiniMax M3.1 Flash minimax 706B +5% 8 Nemotron 3 Ultra (free) nvidia 561B +4% 9 GLM 5.3 z-ai 561B +6% 10 MiMo-V2.6-Flash xiaomi 501B -17% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 218T >999% 2 DeepSeek V4.1 Flash deepseek 69.3T -42% 3 GLM 5.3 Flash z-ai 56.8T +12% 4 GPT-6 Luna openai 37T +71% 5 Claude Opus 5.5 anthropic 21.7T +41% 6 GLM 5.3 z-ai 17.2T +5% 7 GPT-6.1 Sol openai 15.3T +164% 8 Nemotron 3 Ultra (free) nvidia 14.9T -41% 9 DeepSeek V4 Flash 0731 deepseek 14.6T -39% 10 Kimi K3.1 Pro moonshotai 13.5T new New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 Qwen4 Max qwen 1.11T new 2 GPT-6.2 Sol openai 446B new 3 Hy4 flash tencent 417B new 4 Gemini 4 Neon google 281B new 5 GPT-6.2 Astra openai 112B new 6 Recraft V4.1 Flash V2 (free) recraft 1.31B >999% 7 Step 5 Preview stepfun 4.8T >999% 8 Recraft V4.1 Flash V2 recraft 223M >999% 9 Solar Mini 4 upstage 1.31T >999% 10 Ling 3.2 Flash inclusionai 29.3M >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend Software 40.7% Data 19.7% Information 15.4% Writing 6.7% Assistance 6.6% Creative 6.1% Media 4.1% Retrieval 0.2% Implementation 16.1% of all spend 1 Claude Opus 5.5 by anthropic 23.0% +0.4 2 Kimi K3.1 Pro by moonshotai 8.8% +8.8 3 Claude Sonnet 5.5 by anthropic 6.2% +1.4 4 GPT-6.1-Sol by openai 5.6% +3.3 5 Deepseek V4.1 Flash by deepseek 4.9% +4.7 6 Gemini 4 Carbon by google 4.3% +4.3 7 GLM 5.3 by z-ai 4.2% -1.2 8 GPT-6-Astra by openai 4.0% -3.3 9 Claude Fable 5.2 by anthropic 3.8% +3.8 10 Kimi K3 by moonshotai 3.3% -2.6 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 9, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 31.8% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 DeepSeek 31.8% +3% 2 OpenAI 19.0% +1% 3 Goog",
+      "title": "OpenRouter real-world model rankings changed",
+      "url": "https://openrouter.ai/rankings#edgeai-5bfe15c46e2b7b2d151a"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "3fc734fb8f6b93b2eaf70b4d",
       "discovered_at": "2026-11-21T00:54:30Z",
       "kind": "independent-signal",
@@ -1332,6 +1346,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "a1ca65dcc7ea7077dce1f30c",
+      "discovered_at": "2026-11-21T08:14:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 16,
+      "source_name": "FutureTools AI News",
+      "summary": "OpenAI's MedChemBench Tests AI Models on Drug Discovery Reasoning Tasks openai.com \u00b7 Show TLDR",
+      "title": "OpenAI's MedChemBench Tests AI Models on Drug Discovery Reasoning Tasks openai.com \u00b7 Show TLDR",
+      "url": "https://openai.com/index/introducing-medchembench/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "460872e68e9eeabbb2b493e0",
       "discovered_at": "2026-11-11T22:18:56Z",
       "kind": "independent",
@@ -1553,6 +1581,34 @@
       "summary": "@NousResearch x.com/testingcatalog\u2026 Nov 18, 2026 @NousResearch Qwen4-Max, the new flagship model from Alibaba, is free in Nous Portal for 5 days in partnership with @inferact and @Alibaba_Qwen. It\u2019s built for long-horizon work, with native vision and 1M context. Try it today at https://t.co/uomohWX1dw Nov 18, 2026 @NousResearch Defending your sovereignty in turbulent times Nov 17, 2026 @NousResearch Hy4 flash, the new model from @TencentHunyuan, is free in Nous Portal for two weeks. It is built to be extremely cost-effective at everyday work tasks like documents, slides, and computer use. Try it today at portal.nousresearch.com x.com/TencentHunyuan\u2026 Nov 16, 2026 @NousResearch Get on their level at hermes-agent.nousresearch.com hermes-agent.nousresearch.com Nov 16, 2026 @NousResearch Nuns love Hermes Nov 16, 2026 @NousResearch Nov 13, 2026 @NousResearch We're giving away one of our famous neon signs (plus a merch bundle) to one random Instagram follower next Friday! Just follow us at instagram.com/nous_research to be eligible x.com/mizzysworld/st\u2026 Nov 13, 2026 @NousResearch Nov 12, 2026 @NousResearch Submissions for the Hermes Agent Plugin Hackathon closed at 5PM EST, and we received nearly 1,000 entries. Thank you to everyone who built and submitted them! Our judges are working on sorting through submissions to narrow down the top 10 now. Winners will be emailed directly, and we will announce them here in about a week. Nov 12, 2026",
       "title": "@NousResearch Qwen4-Max, the new flagship model from Alibaba, is free in Nous Portal for 5 days in partnership with @inferact and @Alibaba_Qwen. It\u2019s built for long-horizon work, with native vision and 1M context. Try it today at https://t.",
       "url": "https://x.com/NousResearch/status/2123135537087181191"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "fca408f4a6c439e1c5ea4037",
+      "discovered_at": "2026-11-21T08:14:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 12,
+      "source_name": "FutureTools AI News",
+      "summary": "Anthropic Mathematician Claims Riemann Hypothesis Proof Using Claude theverge.com \u00b7 Show TLDR",
+      "title": "Anthropic Mathematician Claims Riemann Hypothesis Proof Using Claude theverge.com \u00b7 Show TLDR",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "462e29b2bbb20705c20e46fa",
+      "discovered_at": "2026-11-21T08:14:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 12,
+      "source_name": "FutureTools AI News",
+      "summary": "OpenAI Launches GPT-Live-1.1 API With Natural Accents & New Standby Mode community.openai.com \u00b7 Show TLDR",
+      "title": "OpenAI Launches GPT-Live-1.1 API With Natural Accents & New Standby Mode community.openai.com \u00b7 Show TLDR",
+      "url": "https://community.openai.com/t/gpt-live-1-1-has-arrived-in-the-api/1418537?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2421,6 +2477,20 @@
       "summary": "Anthropic IPO Debuts on Nasdaq at $111.50/Share, Valuing Company at $1.5T theverge.com \u00b7 Show TLDR",
       "title": "Anthropic IPO Debuts on Nasdaq at $111.50/Share, Valuing Company at $1.5T theverge.com \u00b7 Show TLDR",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "f62559a856cf7cbd2a3ef918",
+      "discovered_at": "2026-11-21T08:14:20Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "",
+      "search_score": 6,
+      "source_name": "FutureTools AI News",
+      "summary": "Anthropic IPO Closes at $83/Share, Raising ~$119.5B on Nasdaq Under \"ANT anthropic.com \u00b7 Show TLDR",
+      "title": "Anthropic IPO Closes at $83/Share, Raising ~$119.5B on Nasdaq Under \"ANT anthropic.com \u00b7 Show TLDR",
+      "url": "https://www.anthropic.com/news/ipo-close?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -3387,9 +3457,23 @@
       "summary": "Claude Code plans that re-runs never overwrite Discussion | Link",
       "title": "Groundwork",
       "url": "https://www.producthunt.com/products/groundwork-6"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "4e7b2d36efdcbfa087ddc2bd",
+      "discovered_at": "2026-11-21T08:14:21Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-18T07:19:01-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Omnichannel ad infrastructure for marketers and AI agents Discussion | Link",
+      "title": "Publicit",
+      "url": "https://www.producthunt.com/products/publicit"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-21T00:54:33Z",
+  "updated_at": "2026-11-21T08:14:24Z",
   "version": 2
 }

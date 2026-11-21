@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-21T00:54:33Z",
+    "at": "2026-11-21T08:14:24Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 7,
+    "prefiltered": 4,
+    "queued": 6,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 10,
     "warnings": 0
   },
-  "runs": 227,
+  "runs": 228,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -147,6 +147,11 @@
       "first_seen": "2026-10-13T10:55:50Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/articos"
+    },
+    "03dd730325427a94ce39dd25": {
+      "first_seen": "2026-11-21T08:14:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/glassmail"
     },
     "03e8a7a64a2ee8865a32c593": {
       "first_seen": "2026-10-12T15:14:38Z",
@@ -792,6 +797,17 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2110722045411549645"
     },
+    "123ef502092bbf8eec4e28a4": {
+      "first_seen": "2026-11-21T08:14:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/shipyard"
+    },
+    "124272402573f99d7a0a9695": {
+      "first_seen": "2026-11-21T08:14:21Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/backspin"
+    },
     "1244a96b60ce187188fe2460": {
       "first_seen": "2026-10-06T23:21:30Z",
       "status": "queued",
@@ -989,6 +1005,11 @@
       "first_seen": "2026-10-23T10:24:14Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/dotmd-3"
+    },
+    "1643650d9eddedc509fc6d07": {
+      "first_seen": "2026-11-21T08:14:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships"
     },
     "164ff2e912f3fc3813005830": {
       "first_seen": "2026-11-16T16:16:38Z",
@@ -1302,6 +1323,11 @@
       "first_seen": "2026-10-16T18:46:59Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2111153981825155420"
+    },
+    "1ca60ff875f63504f1c43846": {
+      "first_seen": "2026-11-21T08:14:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/anyprofile"
     },
     "1cae9baa075bdbaec4e8055a": {
       "first_seen": "2026-10-04T20:10:47Z",
@@ -1694,6 +1720,11 @@
       "first_seen": "2026-10-20T10:21:00Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/composio"
+    },
+    "266c7df492a7fab1f8208802": {
+      "first_seen": "2026-11-21T08:14:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/openvorld"
     },
     "26886ff83d11fb05cc7e95ea": {
       "first_seen": "2026-11-03T01:51:09Z",
@@ -2953,6 +2984,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "41d07b28b66728bfe4c9171c": {
+      "first_seen": "2026-11-21T08:14:21Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-5bfe15c46e2b7b2d151a"
+    },
     "41d099216188ee8aa5c2e2bc": {
       "first_seen": "2026-10-24T11:25:53Z",
       "status": "too_old",
@@ -3111,6 +3147,11 @@
       "first_seen": "2026-11-07T00:52:28Z",
       "status": "queued",
       "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "462e29b2bbb20705c20e46fa": {
+      "first_seen": "2026-11-21T08:14:20Z",
+      "status": "queued",
+      "url": "https://community.openai.com/t/gpt-live-1-1-has-arrived-in-the-api/1418537?utm_source=futuretools.io&utm_medium=newspage"
     },
     "46490c69d777bf7f2de061a5": {
       "first_seen": "2026-11-17T17:46:23Z",
@@ -3501,6 +3542,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/stormi"
     },
+    "4e7b2d36efdcbfa087ddc2bd": {
+      "first_seen": "2026-11-21T08:14:21Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/publicit"
+    },
     "4e8a43958f16f0b47961d68e": {
       "first_seen": "2026-10-21T20:18:30Z",
       "search_score": 0,
@@ -3807,6 +3853,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/nexupira"
+    },
+    "553d4be78cb2e0d1b35812f1": {
+      "first_seen": "2026-11-21T08:14:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/beat-watcher"
     },
     "557b922ed659604267526078": {
       "first_seen": "2026-10-12T15:14:38Z",
@@ -4482,6 +4533,11 @@
       "first_seen": "2026-10-14T21:37:22Z",
       "status": "queued",
       "url": "https://x.ai/news/grok-voice-3?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "62ee19f49d043a36a9aaec08": {
+      "first_seen": "2026-11-21T08:14:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/ai-context-flow"
     },
     "6306346d6160f583db835ae9": {
       "first_seen": "2026-11-13T21:40:47Z",
@@ -6178,6 +6234,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/shedi"
     },
+    "8885d01a75aa67aa3163ce4d": {
+      "first_seen": "2026-11-21T08:14:21Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/threadlore"
+    },
     "888b50b571dc2d8e56f1c368": {
       "first_seen": "2026-11-17T08:20:02Z",
       "search_score": 1,
@@ -7224,6 +7286,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/own-1-a-powerful-personal-ai-computer"
     },
+    "a1ca65dcc7ea7077dce1f30c": {
+      "first_seen": "2026-11-21T08:14:20Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-medchembench/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "a1f40c1d808a5628c37177a0": {
       "first_seen": "2026-10-08T16:25:55Z",
       "search_score": 1,
@@ -8092,6 +8159,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/tesla-roadster"
     },
+    "b7f1ef15c53bf55a4d484c9c": {
+      "first_seen": "2026-11-21T08:14:21Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/doddle-3"
+    },
     "b800392f061efc350c642d5c": {
       "first_seen": "2026-10-06T19:44:15Z",
       "status": "queued",
@@ -8232,6 +8305,11 @@
       "status": "queued",
       "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "bae57772675d5663574b10fc": {
+      "first_seen": "2026-11-21T08:14:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/prompt-puncher"
+    },
     "bb0f3a1f930d003d6c11780a": {
       "first_seen": "2026-10-14T07:31:56Z",
       "status": "too_old",
@@ -8308,6 +8386,11 @@
       "first_seen": "2026-10-29T23:29:40Z",
       "status": "queued",
       "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "bd22786f193fac42e028c563": {
+      "first_seen": "2026-11-21T08:14:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/codemany"
     },
     "bd2b3c6a95f6304023ad4797": {
       "first_seen": "2026-10-09T07:47:51Z",
@@ -10337,6 +10420,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/retriever-4"
     },
+    "ee206b13cdd19b8e9294868d": {
+      "first_seen": "2026-11-21T08:14:21Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/helpcard"
+    },
     "ee562a93a718db9bfa8f8f53": {
       "first_seen": "2026-11-12T19:12:14Z",
       "status": "queued",
@@ -10736,6 +10825,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/dots-7"
     },
+    "f62559a856cf7cbd2a3ef918": {
+      "first_seen": "2026-11-21T08:14:20Z",
+      "status": "queued",
+      "url": "https://www.anthropic.com/news/ipo-close?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "f686d07c1e559dffea4025a0": {
       "first_seen": "2026-10-26T17:40:20Z",
       "status": "queued",
@@ -11022,6 +11116,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/medium"
     },
+    "fca408f4a6c439e1c5ea4037": {
+      "first_seen": "2026-11-21T08:14:20Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "fcb408321ee506756d3f8d8e": {
       "first_seen": "2026-10-15T14:58:02Z",
       "status": "queued",
@@ -11126,6 +11225,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://microsoft.ai/models/mai-voice-2-1/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "ff6862974f406212b5304b8b": {
+      "first_seen": "2026-11-21T08:14:21Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/hollr-3"
     },
     "ff8dc2e52af16145a8921799": {
       "first_seen": "2026-11-06T15:17:29Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-22T01:43:30Z",
+    "at": "2026-11-22T08:54:15Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 2,
+    "prefiltered": 6,
+    "queued": 3,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 12,
     "warnings": 0
   },
-  "runs": 231,
+  "runs": 232,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -143,6 +143,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/frevana-2"
     },
+    "03b091af131380f6e68c787f": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/oovi"
+    },
     "03dc4194d234185480299628": {
       "first_seen": "2026-10-13T10:55:50Z",
       "status": "too_old",
@@ -266,6 +272,11 @@
       "first_seen": "2026-11-18T00:02:22Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/hako"
+    },
+    "06373233c9e769b4f9520f0f": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/wispim-online-teleprompter"
     },
     "0638a05f43fe1ff64b629501": {
       "first_seen": "2026-11-05T19:03:52Z",
@@ -1328,6 +1339,11 @@
       "first_seen": "2026-10-16T18:46:59Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2111153981825155420"
+    },
+    "1c9cd3c94af76c59e23cd7f2": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/yoroll"
     },
     "1ca60ff875f63504f1c43846": {
       "first_seen": "2026-11-21T08:14:21Z",
@@ -2758,6 +2774,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/playad"
     },
+    "3e05f4efa9a55e151aaa5f87": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/copy-haste"
+    },
     "3e13b4ed65e692177c15afef": {
       "first_seen": "2026-11-06T15:17:29Z",
       "status": "too_old",
@@ -3639,6 +3660,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/remote-gaze"
     },
+    "50576d926329aa09efa01639": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/meshlive"
+    },
     "5069205c8d56bd653de53693": {
       "first_seen": "2026-10-04T12:47:33Z",
       "search_score": 0,
@@ -3874,6 +3900,11 @@
       "first_seen": "2026-11-21T08:14:21Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/beat-watcher"
+    },
+    "556eceb640400224b7436b69": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/ulika"
     },
     "557b922ed659604267526078": {
       "first_seen": "2026-10-12T15:14:38Z",
@@ -4247,6 +4278,12 @@
       "first_seen": "2026-10-23T15:23:24Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/dots-phone"
+    },
+    "5e548699040500dad84b6eb5": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/mockreel"
     },
     "5e6e795ab4db508e57bb9a41": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -4632,6 +4669,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
     },
+    "64ea5082f943c5d49ef77ae9": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/daymaker"
+    },
     "651d064776b4a22f28dc4baa": {
       "first_seen": "2026-11-12T19:12:15Z",
       "status": "too_old",
@@ -5014,6 +5056,11 @@
       "first_seen": "2026-11-11T15:31:28Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+    },
+    "6ea79eccf72e259a5cd58072": {
+      "first_seen": "2026-11-22T08:54:11Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-e4e7d10db0c67f83c254"
     },
     "6ebf6d390583b6d31e4e1d9e": {
       "first_seen": "2026-11-16T16:16:38Z",
@@ -6464,6 +6511,11 @@
       "status": "queued",
       "url": "https://qwenlm.github.io/blog/gspo/"
     },
+    "8d2dca2c7be0b2ac149db0aa": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/webless"
+    },
     "8d5dfbf72c843b77b2f7a5cb": {
       "first_seen": "2026-11-02T19:41:18Z",
       "status": "queued",
@@ -6505,6 +6557,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/inread-app"
+    },
+    "8e7d3015a31c5e72d55de790": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/zapyso"
     },
     "8edf310cbf9c0577d1442636": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -7420,6 +7477,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/heygen"
     },
+    "a42888311f692e3090b24a94": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/slotify-2"
+    },
     "a43771cc30e1e43f31d5d055": {
       "first_seen": "2026-11-15T23:56:46Z",
       "status": "queued",
@@ -7695,6 +7757,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/tooljet"
+    },
+    "aa5c6626a6f9e4d003b2e9bd": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/creavit-studio"
     },
     "aa710bc139577e4ead1a417c": {
       "first_seen": "2026-10-10T05:45:00Z",
@@ -8002,6 +8070,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/singularity-2"
     },
+    "b277b2205d55d67e17898243": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/leapdeck"
+    },
     "b28db22be2dee5fac2e8c843": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -8181,6 +8254,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/macdupl-run-every-acc-in-its-own-app"
+    },
+    "b75669771b79733d5d75ed1c": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/omi-cli"
     },
     "b76d609ea42e4e7f1852f066": {
       "first_seen": "2026-10-20T10:21:00Z",
@@ -8942,6 +9020,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/impractical"
     },
+    "c94018de667dfa40b257c193": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/raccoon-kids"
+    },
     "c950dc177f5da82b2fb934d3": {
       "first_seen": "2026-11-06T15:17:29Z",
       "status": "queued",
@@ -8951,6 +9035,11 @@
       "first_seen": "2026-10-21T20:18:30Z",
       "status": "queued",
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "c9b8c95c84f6e027f289b4c7": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/squint"
     },
     "c9d9e5394f2cbbcab7e127a1": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -9443,6 +9532,12 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
       "url": "https://www.kimi.com/en/products/download"
+    },
+    "d51788bb18985ea840859165": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/resurf-2"
     },
     "d586a5e7cdfd5c0e54b766e1": {
       "first_seen": "2026-10-30T09:55:37Z",
@@ -10614,6 +10709,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/easein-health"
     },
+    "f07e2ee5f6e77e45c6332311": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/teaserkit"
+    },
     "f08d82e9c2ecdefe9076dd04": {
       "first_seen": "2026-11-11T00:37:31Z",
       "search_score": 1,
@@ -10693,6 +10793,12 @@
       "first_seen": "2026-10-08T08:53:55Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-dfce9a5c40dc0d0b3b1e"
+    },
+    "f1ee452a9503a7b184254efd": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/pushback-flight-tracker"
     },
     "f2079d17845cc47db2297145": {
       "first_seen": "2026-10-15T19:05:42Z",
@@ -11271,6 +11377,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/recall-for-mac"
+    },
+    "ff100fb8d3bd69df9fd2cddf": {
+      "first_seen": "2026-11-22T08:54:10Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/denotch"
     },
     "ff14400f2913b0a2ac034ce7": {
       "first_seen": "2026-11-05T19:03:52Z",

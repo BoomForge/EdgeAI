@@ -870,6 +870,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "6ea79eccf72e259a5cd58072",
+      "discovered_at": "2026-11-22T08:54:11Z",
+      "kind": "independent-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-22T08:54:11Z",
+      "search_score": 38,
+      "source_name": "OpenRouter Rankings",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 21, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 DeepSeek V4.1 Flash 1017 deepseek 63.3T tokens +15% 2 DeepSeek V4.1 Flash deepseek 15.3T tokens -2% 3 GLM 5.3 Flash z-ai 11.6T tokens -2% 4 GPT-6 Luna openai 8.51T tokens +34% 5 Claude Opus 5.5 anthropic 7.06T tokens +49% 6 Hy4 flash * tencent 6.51T tokens new 7 MiniMax M3.1 Flash minimax 4.2T tokens +442% 8 Kimi K3.1 Pro moonshotai 3.88T tokens -1% 9 Step 5 Preview stepfun 3.84T tokens >999% 10 MiMo-V2.6-Flash xiaomi 3.83T tokens +375% 1 . DeepSeek V4.1 Flash 1017 by deepseek 63.3T tokens 15% 2 . DeepSeek V4.1 Flash by deepseek 15.3T tokens 2% 3 . GLM 5.3 Flash by z-ai 11.6T tokens 2% 4 . GPT-6 Luna by openai 8.51T tokens 34% 5 . Claude Opus 5.5 by anthropic 7.06T tokens 49% 6 . Hy4 flash * by tencent 6.51T tokens new 7 . MiniMax M3.1 Flash by minimax 4.2T tokens 442% 8 . Kimi K3.1 Pro by moonshotai 3.88T tokens 1% 9 . Step 5 Preview by stepfun 3.84T tokens >999% 10 . MiMo-V2.6-Flash by xiaomi 3.83T tokens 375% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the most recent complete day, with the change measured against the day before it. Models ranked by tokens processed on OpenRouter over the most recent complete day Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 8.75T -4% 2 Hy4 flash tencent 6.1T >999% 3 GLM 5.3 Flash z-ai 2.18T +34% 4 DeepSeek V4.1 Flash deepseek 1.7T -18% 5 Kimi K3.1 Pro moonshotai 768B +67% 6 GPT-6 Luna openai 762B -33% 7 Nemotron 3 Ultra (free) nvidia 601B +7% 8 Claude Opus 5.5 anthropic 558B -43% 9 ERNIE-5.5-Flash-Preview (free) baidu 498B +1% 10 Muse Spark 1.3 Contributor meta 486B +8% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 222T +924% 2 DeepSeek V4.1 Flash deepseek 68.1T -43% 3 GLM 5.3 Flash z-ai 57.1T +15% 4 GPT-6 Luna openai 36.8T +63% 5 Claude Opus 5.5 anthropic 21T +28% 6 GLM 5.3 z-ai 16.6T -2% 7 GPT-6.1 Sol openai 15.1T +141% 8 Nemotron 3 Ultra (free) nvidia 14.6T -42% 9 DeepSeek V4 Flash 0731 deepseek 14.3T -39% 10 Kimi K3.1 Pro moonshotai 14.3T new New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 Hy4 flash tencent 6.51T new 2 Qwen4 Max qwen 1.27T new 3 GPT-6.2 Sol openai 578B new 4 Gemini 4 Neon google 392B new 5 GPT-6.2 Astra openai 140B new 6 Step 5 Preview stepfun 3.84T >999% 7 Solar Mini 4 upstage 1.25T >999% 8 Kimi K2 0711 moonshotai 32.8B >999% 9 Decider Flash V1.3 (free) perplexity 76.1B >999% 10 Kimi K3.1 Pro (batch) moonshotai 123M >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend Software 40.3% Data 20.3% Information 15.0% Writing 6.8% Assistance 6.5% Creative 6.2% Media 4.1% Retrieval 0.1% Implementation 16.0% of all spend 1 Claude Opus 5.5 by anthropic 22.3% -0.5 2 Kimi K3.1 Pro by moonshotai 10.0% +10.0 3 Claude Sonnet 5.5 by anthropic 5.9% +1.2 4 GPT-6.1-Sol by openai 5.5% +3.1 5 Deepseek V4.1 Flash by deepseek 5.1% +4.9 6 Claude Fable 5.2 by anthropic 4.7% +4.7 7 Gemini 4 Carbon by google 4.6% +4.6 8 GLM 5.3 by z-ai 3.9% -1.6 9 GPT-6-Astra by openai 3.7% -3.5 10 Kimi K3 by moonshotai 3.0% -2.9 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 9, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 31.8% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 DeepSeek 31.8% +3% 2 OpenAI ",
+      "title": "OpenRouter real-world model rankings changed",
+      "url": "https://openrouter.ai/rankings#edgeai-e4e7d10db0c67f83c254"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "d5ff353bc963495b5c0aec62",
       "discovered_at": "2026-11-22T01:43:27Z",
       "kind": "independent-signal",
@@ -3446,6 +3460,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "b75669771b79733d5d75ed1c",
+      "discovered_at": "2026-11-22T08:54:10Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-21T00:05:31-08:00",
+      "search_score": 5,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "An AI coding agent in your terminal, on 13 models Discussion | Link",
+      "title": "Omi CLI",
+      "url": "https://www.producthunt.com/products/omi-cli"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "e9c82648affc6034de2fa055",
       "discovered_at": "2026-11-20T11:34:00Z",
       "kind": "signal",
@@ -3471,37 +3499,9 @@
       "summary": "Path-level GitHub access for developers and AI agents Discussion | Link",
       "title": "gitroots",
       "url": "https://www.producthunt.com/products/gitroots"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "8851536eb0e7e37956a536cb",
-      "discovered_at": "2026-11-20T11:34:00Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-11-19T13:30:01-08:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "AI agents review and correct receipt and invoice data. Discussion | Link",
-      "title": "Veryfi Thinking Mode",
-      "url": "https://www.producthunt.com/products/veryfi"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "ce626300320bef118fc2c8a4",
-      "discovered_at": "2026-11-20T11:34:00Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-11-19T06:02:31-08:00",
-      "search_score": 3,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Currents for Claude & Codex to see all your tests Discussion | Link",
-      "title": "Currents",
-      "url": "https://www.producthunt.com/products/currents-4"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-22T01:43:30Z",
+  "updated_at": "2026-11-22T08:54:15Z",
   "version": 2
 }

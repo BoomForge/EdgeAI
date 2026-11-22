@@ -77,12 +77,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-21T21:14:15Z",
-    "eligible": 76,
-    "evaluated": 2,
+    "at": "2026-11-22T01:29:30Z",
+    "eligible": 60,
+    "evaluated": 5,
     "mode": "live",
     "new_posts": 0,
-    "publish_actions": 2,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -245,6 +245,11 @@
       "at": "2026-11-13T02:48:14Z",
       "status": "expired",
       "url": "https://openai.com/index/coderabbit-codex-daybreak"
+    },
+    "02f125d9c6cc44016cdd5863": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/"
     },
     "0319d22252bba2ff75bd49e0": {
       "at": "2026-10-05T07:01:46Z",
@@ -506,6 +511,20 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-update-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-c7eae0eb152b854a394f"
+    },
+    "0979040f4ea2e25de36f6ad5": {
+      "at": "2026-11-22T01:29:30Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "updated",
+      "story_key": "openrouter-rankings-nov-2026",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 81,
+        "source": "OpenRouter Rankings"
+      },
+      "url": "https://openrouter.ai/rankings#edgeai-45612fc689bdb495a0f1"
     },
     "0982b0d31b705956abb0dcd1": {
       "at": "2026-10-19T06:57:16Z",
@@ -863,6 +882,11 @@
       "status": "ignored",
       "story_key": "stability-ai-strategic-partnerships-page",
       "url": "https://stability.ai/strategic-partnerships"
+    },
+    "11a53a4842e884ce06986a17": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics?utm_source=futuretools.io&utm_medium=newspage"
     },
     "11ff01e8f3ddf634b9fa760d": {
       "at": "2026-10-07T06:34:08Z",
@@ -1657,6 +1681,11 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/"
     },
+    "1fbb8d10061930429231e9e1": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "1fe1ee1240975f0e03bb4fb6": {
       "at": "2026-11-15T07:48:11Z",
       "status": "expired",
@@ -1763,6 +1792,11 @@
       "story_key": "simon-willison-chirp-pong-experiment",
       "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/"
     },
+    "2319f115cd838f3a377ed3fc": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "231befe88d753d0247c6f00f": {
       "at": "2026-10-08T05:57:06Z",
       "bootstrap": false,
@@ -1789,6 +1823,11 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-updates-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-2d844e62959301f0e262"
+    },
+    "23bcde033c74ade302d020eb": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/adside"
     },
     "23ed2fd509d712248592a95c": {
       "at": "2026-10-29T09:51:01Z",
@@ -2465,10 +2504,20 @@
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2120284141509881879"
     },
+    "30c9bf0eca6e6c613f9d8199": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://www.nytimes.com/2026/11/18/technology/anthropic-ipo-pricing.html?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "30fb05944a5e18201187df4e": {
       "at": "2026-10-08T23:51:05Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11425"
+    },
+    "3130050cf2c2e50924d71346": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "3164e64241a7d8fc31b2daa2": {
       "at": "2026-10-11T22:31:31Z",
@@ -3196,6 +3245,14 @@
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11596"
     },
+    "3fc734fb8f6b93b2eaf70b4d": {
+      "at": "2026-11-22T01:29:18Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored_update",
+      "story_key": "openrouter-rankings-nov-2026",
+      "url": "https://openrouter.ai/rankings#edgeai-be4ade05043e6011c46f"
+    },
     "3fc9ff8585e35d9b18b26345": {
       "at": "2026-10-07T06:34:08Z",
       "status": "expired",
@@ -3388,6 +3445,14 @@
       "at": "2026-11-08T14:25:40Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12125"
+    },
+    "41d07b28b66728bfe4c9171c": {
+      "at": "2026-11-22T01:29:14Z",
+      "bootstrap": false,
+      "score": 65,
+      "status": "ignored_update",
+      "story_key": "openrouter-rankings-nov-2026",
+      "url": "https://openrouter.ai/rankings#edgeai-5bfe15c46e2b7b2d151a"
     },
     "420734bb3fbbefb9aa82f403": {
       "at": "2026-10-11T07:07:40Z",
@@ -4855,6 +4920,11 @@
       "story_key": "ollama-v0-40-4-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc0"
     },
+    "62c43b906ebe970fdfd1e035": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://openrouter.ai/rankings#edgeai-c8393b6340dfb8e225da"
+    },
     "62c509640c5df97d86096bb9": {
       "at": "2026-10-08T13:21:06Z",
       "bootstrap": false,
@@ -5002,6 +5072,11 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
+    },
+    "64f86253d337d99b1a5ac567": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0"
     },
     "650a470be89f50277ccfc9b9": {
       "at": "2026-10-06T09:19:44Z",
@@ -5260,6 +5335,11 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/"
     },
+    "6a32dd434b6cc11d7500ad33": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "6a35e186e536d3f3b11fa855": {
       "at": "2026-11-06T14:38:58Z",
       "status": "expired",
@@ -5377,6 +5457,14 @@
       "at": "2026-10-30T14:35:29Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/yardlet-2"
+    },
+    "6c0ec022b6fb08d7f69f6976": {
+      "at": "2026-11-22T01:29:10Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "openrouter-rankings-update-nov-2026",
+      "url": "https://openrouter.ai/rankings#edgeai-92a2544db13db67064ba"
     },
     "6c883b8091f090772dce997b": {
       "at": "2026-10-05T15:56:52Z",
@@ -5755,10 +5843,23 @@
       "status": "expired",
       "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "74dfc0664d3601e1fe29e3d3": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "74eecc752e5f1b65d14fce26": {
       "at": "2026-10-23T05:59:56Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/intel"
+    },
+    "74fe593783e61511586df192": {
+      "at": "2026-11-22T01:29:23Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored_update",
+      "story_key": "openrouter-rankings-nov-2026",
+      "url": "https://openrouter.ai/rankings#edgeai-618e893d9df740638477"
     },
     "75246809fe714d5da0ed6099": {
       "at": "2026-11-13T22:55:05Z",
@@ -7329,6 +7430,11 @@
       },
       "url": "https://www.kimi.com/en/products/kimi-work"
     },
+    "9766caeadd39068f493b7770": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2123145750833995878"
+    },
     "97b1175a9af0f2e4574e8674": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -7712,6 +7818,11 @@
       },
       "url": "https://x.com/NousResearch/status/2108638389045960958"
     },
+    "9fa8beb3b47752be5f1c15d3": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "9fb40bfab34a893d33422142": {
       "at": "2026-10-14T12:28:23Z",
       "status": "expired",
@@ -8085,6 +8196,11 @@
       "status": "expired",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "a6406b01e8f20547207188b7": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2123135537087181191"
+    },
     "a68194e3fdd4077c8c92c488": {
       "at": "2026-11-08T07:15:58Z",
       "status": "expired",
@@ -8121,6 +8237,11 @@
       "status": "ignored",
       "story_key": "claude-code-generated-explainer-videos-futurepedia",
       "url": "https://newsletter.futurepedia.io/p/claude-can-make-videos-without-a-video-generator-10-23-2026"
+    },
+    "a7880f8cf823f1238b0f0dcb": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://suno.com/blog/introducing-visuals?utm_source=futuretools.io&utm_medium=newspage"
     },
     "a78a7dd6f5101f71bfa84705": {
       "at": "2026-10-18T00:26:49Z",
@@ -9688,6 +9809,11 @@
       "status": "expired",
       "url": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "cb56f9518777e996fe472c35": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://openai.com/index/managing-frontier-ai-risk/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "cb72e5d0c728ffb026664314": {
       "at": "2026-10-07T19:56:51Z",
       "status": "expired",
@@ -10055,6 +10181,11 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11355"
+    },
+    "d3762cd2106c138f1eee0c03": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "d3b185d971abc0ead80775d6": {
       "at": "2026-10-03T05:49:31Z",
@@ -10765,6 +10896,11 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-2312c5a81a22778d97e0"
+    },
+    "e0965f4a7014550e3b1b7724": {
+      "at": "2026-11-22T01:29:09Z",
+      "status": "expired",
+      "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling?utm_source=futuretools.io&utm_medium=newspage"
     },
     "e09d2bada225487953eb13ef": {
       "at": "2026-10-09T21:38:57Z",
@@ -18272,7 +18408,7 @@
     "openrouter-rankings-nov-2026": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openrouter-rankings-nov-2026.jpg",
-      "last_updated": "2026-11-21T21:14:15Z",
+      "last_updated": "2026-11-22T01:29:30Z",
       "post_id": "1656617069732955586",
       "post_url": "https://edgeainews.blogspot.com/2026/11/openrouter-usage-data-shows-deepseek.html",
       "score": 82,
@@ -18284,14 +18420,15 @@
         "https://openrouter.ai/rankings#edgeai-3c6642c72d07263f6fc3",
         "https://openrouter.ai/rankings#edgeai-ca45f465f24f871aeb32",
         "https://openrouter.ai/rankings#edgeai-4e0e1f92fd6c13e5a423",
-        "https://openrouter.ai/rankings#edgeai-7f7f7675833034706899"
+        "https://openrouter.ai/rankings#edgeai-7f7f7675833034706899",
+        "https://openrouter.ai/rankings#edgeai-45612fc689bdb495a0f1"
       ],
       "status": "CONFIRMED",
       "title": "OpenRouter Usage Data Updates: DeepSeek and Flash Variants Drive Mid-November 2026 Developer Traffic",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
-        "score": 83,
+        "score": 81,
         "source": "OpenRouter Rankings"
       }
     },

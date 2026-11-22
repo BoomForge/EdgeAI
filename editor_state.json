@@ -77,11 +77,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-22T08:36:16Z",
-    "eligible": 54,
+    "at": "2026-11-22T22:09:37Z",
+    "eligible": 46,
     "evaluated": 2,
     "mode": "live",
-    "new_posts": 0,
+    "new_posts": 1,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -193,6 +193,11 @@
       "at": "2026-11-19T04:08:21Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Nov/15/datasette/"
+    },
+    "015e0ca1f0338d40a292aa8d": {
+      "at": "2026-11-22T22:09:24Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12549"
     },
     "01619fc955cc4a4bfbd33fc3": {
       "at": "2026-10-25T21:58:57Z",
@@ -335,6 +340,11 @@
       "at": "2026-11-20T10:19:23Z",
       "status": "expired",
       "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "04fce62ebfd91b4280bcb880": {
+      "at": "2026-11-22T22:09:24Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12546"
     },
     "04ffbf1e02c2570faffddc3b": {
       "at": "2026-10-06T02:32:14Z",
@@ -1349,6 +1359,20 @@
       "status": "ignored",
       "story_key": "black-forest-labs-contact-page",
       "url": "https://bfl.ai/contact"
+    },
+    "1a10f1676d46fc01a909d8ea": {
+      "at": "2026-11-22T22:09:37Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-perplexity-and-intelligence-jakub-pachocki",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/perplexity-and-intelligence"
     },
     "1a20b26310a65ef85250d8bd": {
       "at": "2026-10-08T05:57:31Z",
@@ -3568,6 +3592,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/our-silly-games"
     },
+    "4519b5502bcfc334c5396300": {
+      "at": "2026-11-22T22:09:24Z",
+      "status": "expired",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "4523764d8b03449e5e0ae8ce": {
       "at": "2026-11-01T15:02:27Z",
       "bootstrap": false,
@@ -5286,6 +5315,20 @@
       "story_key": "llamacpp-b11645-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11645"
     },
+    "67dd92561d015ce19a03f480": {
+      "at": "2026-11-22T22:09:34Z",
+      "bootstrap": false,
+      "score": 85,
+      "status": "updated",
+      "story_key": "openai-gpt-62-astra-sol-artificial-analysis",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "Artificial Analysis Changelog"
+      },
+      "url": "https://artificialanalysis.ai/changelog#edgeai-592a69aeb99356a2065a"
+    },
     "6823801d4a6c9058ddd90d9c": {
       "at": "2026-10-14T06:46:43Z",
       "bootstrap": false,
@@ -5899,6 +5942,11 @@
       "at": "2026-11-13T22:55:05Z",
       "status": "expired",
       "url": "https://www.anthropic.com/news/roadshow-launch?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "7580d329b8685f4855204607": {
+      "at": "2026-11-22T22:09:24Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "75bb450ac9abb666c3e6b151": {
       "at": "2026-10-15T20:18:57Z",
@@ -6981,6 +7029,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00018"
     },
+    "8d06d0c0faa09480bd962985": {
+      "at": "2026-11-22T22:09:24Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "8d16a40561216b34498a99ef": {
       "at": "2026-10-21T14:42:58Z",
       "bootstrap": false,
@@ -7373,6 +7426,11 @@
       "at": "2026-10-25T06:58:10Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/resend"
+    },
+    "9516ab27bf263c7a7cc1525d": {
+      "at": "2026-11-22T22:09:24Z",
+      "status": "expired",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq?utm_source=futuretools.io&utm_medium=newspage"
     },
     "952d2516af2e905436adea3b": {
       "at": "2026-11-13T02:48:14Z",
@@ -8164,6 +8222,11 @@
         "source": "Black Forest Labs Blog"
       },
       "url": "https://bfl.ai/blog/flux-3-action"
+    },
+    "a457925fbd609abe8fd65471": {
+      "at": "2026-11-22T22:09:24Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/"
     },
     "a459b56634dc5cb2f423a286": {
       "at": "2026-10-23T19:34:52Z",
@@ -10998,6 +11061,11 @@
       "status": "expired",
       "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/"
     },
+    "e1452c59bed1e522d200ce3a": {
+      "at": "2026-11-22T22:09:24Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12543"
+    },
     "e1833b6ba9cd6bab261dadb1": {
       "at": "2026-11-08T18:57:40Z",
       "bootstrap": false,
@@ -11240,6 +11308,11 @@
       "at": "2026-10-10T18:31:36Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11477"
+    },
+    "e62365a033f9c523bac13ce5": {
+      "at": "2026-11-22T22:09:24Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12552"
     },
     "e63967d63f593546648659eb": {
       "at": "2026-11-18T23:10:11Z",
@@ -11579,6 +11652,11 @@
       "at": "2026-10-04T15:54:47Z",
       "status": "expired",
       "url": "https://blog.google/products-and-platforms/products/search/coffee-tips-google-search/"
+    },
+    "ed6edf2be7f1c8f8e23b2b12": {
+      "at": "2026-11-22T22:09:24Z",
+      "status": "expired",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "eda525050cea8fce4b138233": {
       "at": "2026-10-22T19:22:15Z",
@@ -17663,17 +17741,18 @@
     "openai-gpt-62-astra-sol-artificial-analysis": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-gpt-62-astra-sol-artificial-analysis.jpg",
-      "last_updated": "2026-11-17T23:59:52Z",
+      "last_updated": "2026-11-22T22:09:34Z",
       "post_id": "8509239274061855633",
       "post_url": "https://edgeainews.blogspot.com/2026/11/openai-gpt-62-astra-and-sol-arrive-on.html",
-      "score": 92,
+      "score": 85,
       "source_image_source": "Artificial Analysis Changelog",
       "source_image_url": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
       "source_urls": [
-        "https://artificialanalysis.ai/changelog#edgeai-24c66a09411c45572ee4"
+        "https://artificialanalysis.ai/changelog#edgeai-24c66a09411c45572ee4",
+        "https://artificialanalysis.ai/changelog#edgeai-592a69aeb99356a2065a"
       ],
       "status": "CONFIRMED",
-      "title": "OpenAI GPT-6.2 Astra and Sol Arrive on Artificial Analysis Index, Securing #2 Position",
+      "title": "Artificial Analysis Changelog: LingSante-3.1-flash, DeepSeek V4.1 Flash, and Kimi K3.1 Pro Added to Benchmarks",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
@@ -18073,6 +18152,27 @@
       ],
       "status": "CONFIRMED",
       "title": "OpenAI Launches 'Patch the Planet' Framework as Frontier Models Discover Critical PHP Flaws",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-perplexity-and-intelligence-jakub-pachocki": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/openai-perplexity-and-intelligence-jakub-pachocki.png",
+      "last_updated": "2026-11-22T22:09:37Z",
+      "post_id": "8319084468982966497",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-chief-scientist-calls-for.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/perplexity-and-intelligence"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Chief Scientist Calls for Perplexity as an Industry-Wide Metric for Frontier AI Progress and Safety Limits",
       "trust": {
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-21T21:48:15Z",
+    "at": "2026-11-22T01:43:30Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 4,
+    "queued": 2,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 230,
+  "runs": 231,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -9476,6 +9476,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2121348238100062408"
     },
+    "d5ff353bc963495b5c0aec62": {
+      "first_seen": "2026-11-22T01:43:27Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-47e20019821ce9899e02"
+    },
     "d616d43725fb6728597a0b54": {
       "first_seen": "2026-11-11T00:37:31Z",
       "status": "queued",
@@ -9770,6 +9775,11 @@
       "first_seen": "2026-10-27T12:46:49Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/ninx-2"
+    },
+    "dc9b4a0c426ddc42fdcf787a": {
+      "first_seen": "2026-11-22T01:43:26Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/21/muru/"
     },
     "dcb8257201c7b1551d587d16": {
       "first_seen": "2026-10-26T05:28:25Z",

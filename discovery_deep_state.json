@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-22T08:54:15Z",
+    "at": "2026-11-22T17:05:42Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 6,
-    "queued": 3,
+    "prefiltered": 0,
+    "queued": 2,
     "sources_ok": 15,
-    "too_old": 12,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 232,
+  "runs": 233,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -2485,6 +2485,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/paw-paw"
     },
+    "36b92ab02d1c017176051b19": {
+      "first_seen": "2026-11-22T17:05:38Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/do-it-for-them-wallpaper-maker"
+    },
     "36bdd825e1b13d8b2bcea67a": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -4787,6 +4792,11 @@
       "first_seen": "2026-10-31T12:57:54Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/winneradspy"
+    },
+    "67dd92561d015ce19a03f480": {
+      "first_seen": "2026-11-22T17:05:38Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-592a69aeb99356a2065a"
     },
     "68055c8173516fcf51e61505": {
       "first_seen": "2026-11-21T16:18:25Z",
@@ -10681,6 +10691,11 @@
       "first_seen": "2026-11-13T00:38:27Z",
       "status": "queued",
       "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "eff8d177c07d78885a6f4d01": {
+      "first_seen": "2026-11-22T17:05:38Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-474285579837a6c058f1"
     },
     "f01e1d1f7f1967bc58c6859a": {
       "first_seen": "2026-10-23T10:24:14Z",

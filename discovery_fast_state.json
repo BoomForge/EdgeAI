@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-22T15:28:18Z",
+    "at": "2026-11-22T21:15:50Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 5,
+    "queued": 2,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 235,
+  "runs": 236,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1461,6 +1461,11 @@
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20761"
+    },
+    "1a10f1676d46fc01a909d8ea": {
+      "first_seen": "2026-11-22T21:15:15Z",
+      "status": "queued",
+      "url": "https://openai.com/index/perplexity-and-intelligence"
     },
     "1a2dc027f61b14759bb18abd": {
       "first_seen": "2026-11-16T21:47:38Z",
@@ -4998,6 +5003,11 @@
       "first_seen": "2026-11-16T11:43:50Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.17390"
+    },
+    "5872f2f48dd112b24691d217": {
+      "first_seen": "2026-11-22T21:15:22Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12635"
     },
     "588b5e83217720e44e256b01": {
       "first_seen": "2026-10-12T09:24:00Z",

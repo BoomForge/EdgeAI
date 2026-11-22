@@ -2270,6 +2270,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "1a10f1676d46fc01a909d8ea",
+      "discovered_at": "2026-11-22T21:15:15Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Sun, 22 Nov 2026 00:00:00 GMT",
+      "search_score": 3,
+      "source_name": "OpenAI News",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "21e886491b30cfff0403f0b9",
       "discovered_at": "2026-11-16T21:47:31Z",
       "kind": "official",
@@ -3485,23 +3499,9 @@
       "summary": "vulkan: support batched tensor copy API ( #31418 ) vulkan: support batched tensor copy API allocate staging buffer only for copies that actually need it Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66530328 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12306",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12306"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "7182813ba072c10763c47c4a",
-      "discovered_at": "2026-11-11T22:15:49Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-11T19:07:05Z",
-      "search_score": 8,
-      "source_name": "llama.cpp Releases",
-      "summary": "tests : use only the public ggml API ( #32077 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66402308 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12289",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12289"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-22T15:28:18Z",
+  "updated_at": "2026-11-22T21:15:50Z",
   "version": 2
 }

@@ -2984,20 +2984,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "43c01c269a5f9df068ecebce",
-      "discovered_at": "2026-11-08T08:45:03Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-08T08:14:24Z",
-      "search_score": 11,
-      "source_name": "llama.cpp Releases",
-      "summary": "llama, mtmd: follow the reference precision of ggml_prec_set_acc calls ( #31851 ) llama, mtmd: follow the reference precision of ggml_prec_set_acc calls Requests that the reference implementation does not keep in F32 move to GGML_PREC_BF16: the GLM4 family down and output projections, the MiMoVL vision matmuls and the Qwen3-TTS speaker encoder conv1d. The DeepSeek V4/V4.1 routers and the MiniMax-M3 indexer stay in F32 with a link to the reference line that computes them in F32. ggml: handle GGML_PREC_BF16 the same way as GGML_PREC_F32 in backends Backends that reject GGML_PREC_F32 on the src1 of MUL_MAT_ID now also reject GGML_PREC_BF16 (CUDA, Hexagon, OpenCL, WebGPU, Vulkan), and backends that accept GGML_PREC_F32 for flash attention now also accept GGML_PREC_BF16 with the same F32 accumulation (CPU, SpaceMIT, ET). Vulkan keeps the F32 transfer between devices for both. The CUDA cuBLAS path already handles GGML_PREC_BF16 and is unchanged. tests: cover GGML_PREC_BF16 in the flash attention tests The flash attention cases run with GGML_PREC_BF16 next to F32 and DEFAULT, and var_to_str prints bf16 so these cases keep their own name. llama: request GGML_PREC_BF16 for the KQ multiplication cont : add TODO in clip.cpp Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65013479 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12202",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12202"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "9dc988c26293515c48d2055e",
       "discovered_at": "2026-11-22T07:05:41Z",
       "kind": "local-ai",
@@ -3191,6 +3177,34 @@
       "summary": "What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx: support concurrent generation by @dhiltgen in #19197 llama.cpp: version bump b12257 by @dhiltgen in #19646 MLX, MLX-C: version bump by @dhiltgen in #19647 New Contributors @rpreslar4765 made their first contribution in #17163 Full Changelog : v0.40.16...v0.40.17-rc0",
       "title": "v0.40.17",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "a70beded45140cf8e953489c",
+      "discovered_at": "2026-11-22T15:27:57Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-22T11:19:04Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "Models like Llama 3.x emit tool calls as plain {\"name\": ...} JSON without a start marker, so with tool_choice=auto no grammar was produced at all. Use a pattern trigger on the opening of the call object instead. Assisted-by: Claude Code",
+      "title": "b12634: chat : trigger lazy grammar on bare JSON tool calls (#32497)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12634"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "cbaaaef49fc66d7b2f3a7106",
+      "discovered_at": "2026-11-22T15:27:57Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-22T08:47:04Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "opencl: add coopmat GEMM for Adreno 850 (Q4_0, Q5_0, Q8_0, Q4_K, Q5_K, Q6_K) ( #32686 ) opencl: add Q4_0 coopmat GEMM for Adreno 850 Assisted-by: Claude Opus 5.5 opencl: add Q5_0 coopmat GEMM for Adreno 850 opencl: add Q8_0 coopmat GEMM for Adreno 850 opencl: add Q4_K coopmat GEMM for Adreno 850 opencl: add Q5_K coopmat GEMM for Adreno 850 opencl: add Q6_K coopmat GEMM for Adreno 850 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70715548 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12629",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12629"
     },
     {
       "bootstrap": false,
@@ -3485,23 +3499,9 @@
       "summary": "tests : use only the public ggml API ( #32077 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66402308 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12289",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12289"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "06caa1015b4111713a1554c1",
-      "discovered_at": "2026-11-11T00:54:08Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-10T22:16:04Z",
-      "search_score": 8,
-      "source_name": "llama.cpp Releases",
-      "summary": "mtmd: add kimi K3.1 vision ( #31980 ) mtmd: support kimi k3.1 vision fix preproc (both k2.5 and k3.1) and projector mlp small renaming Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66024758 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12259",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12259"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-22T07:06:07Z",
+  "updated_at": "2026-11-22T15:28:18Z",
   "version": 2
 }

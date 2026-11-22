@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-22T07:06:07Z",
+    "at": "2026-11-22T15:28:18Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 9,
+    "queued": 5,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 234,
+  "runs": 235,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1179,6 +1179,11 @@
       "first_seen": "2026-11-04T10:39:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.00352"
+    },
+    "14cfa1d88e05a6aeddfedbee": {
+      "first_seen": "2026-11-22T15:27:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12632"
     },
     "14d7aaa807c61b4474e51567": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -9422,6 +9427,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12520"
     },
+    "a70beded45140cf8e953489c": {
+      "first_seen": "2026-11-22T15:27:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12634"
+    },
     "a71165c2d2ae0a9ad5d1b5b6": {
       "first_seen": "2026-11-21T19:46:40Z",
       "status": "queued",
@@ -11310,6 +11320,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc0"
     },
+    "c94ddbc22c9bf739b97403c3": {
+      "first_seen": "2026-11-22T15:27:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12631"
+    },
     "c960c69d82190b7c58347afe": {
       "first_seen": "2026-11-05T05:50:00Z",
       "status": "queued",
@@ -11434,6 +11449,11 @@
       "first_seen": "2026-10-20T05:16:36Z",
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.58.0"
+    },
+    "cbaaaef49fc66d7b2f3a7106": {
+      "first_seen": "2026-11-22T15:27:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12629"
     },
     "cbb3a6dde37222632a729e41": {
       "first_seen": "2026-11-03T10:03:35Z",
@@ -11620,6 +11640,11 @@
       "first_seen": "2026-10-03T00:46:13Z",
       "status": "too_old",
       "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.2.dev"
+    },
+    "ceaa620683d00f64cc4a1fda": {
+      "first_seen": "2026-11-22T15:27:57Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12633"
     },
     "ceac84bcd934c70b9c87e78f": {
       "first_seen": "2026-11-05T21:08:05Z",

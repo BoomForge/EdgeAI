@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-23T03:02:11Z",
+    "at": "2026-11-23T12:22:07Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 2,
+    "prefiltered": 9,
+    "queued": 3,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 6,
     "warnings": 0
   },
-  "runs": 235,
+  "runs": 236,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -25,6 +25,11 @@
       "first_seen": "2026-11-11T00:37:31Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-f7b88976523975b98895"
+    },
+    "004b7bbb9164a3b2e762370f": {
+      "first_seen": "2026-11-23T12:22:04Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-8199f5a5aa3a1a61f626"
     },
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",
@@ -1093,6 +1098,12 @@
       "status": "queued",
       "url": "https://openai.com/index/introducing-gpt-6-1-terra/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "17349a0e8ca5306833ca2e56": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/leantake"
+    },
     "176522a5ba3d9326fc5a26e6": {
       "first_seen": "2026-11-10T12:32:54Z",
       "status": "too_old",
@@ -1856,6 +1867,12 @@
       "first_seen": "2026-10-09T14:44:12Z",
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/your-next-chatgpt-answer-might-come-with-buttons-10-09-2026"
+    },
+    "28c041a051e3b2b0d99d1e48": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/omi-work"
     },
     "28ca2f21fbc63707f520a97e": {
       "first_seen": "2026-10-29T13:31:50Z",
@@ -3415,6 +3432,12 @@
       "status": "queued",
       "url": "https://microsoft.ai/news/introducing-mai-licensed-weights/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "49f7733717e51484a5f406a4": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/strict"
+    },
     "4a53e27db39ccb6f9a070e23": {
       "first_seen": "2026-11-06T00:11:00Z",
       "status": "queued",
@@ -3664,6 +3687,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/sponkly"
     },
+    "4fde267c0645ee1e6627597d": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/jot-15"
+    },
     "4fedba8b70d9334f487a5d2a": {
       "first_seen": "2026-10-05T09:33:48Z",
       "status": "too_old",
@@ -3673,6 +3702,11 @@
       "first_seen": "2026-11-21T00:54:29Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/tensorviz"
+    },
+    "50276045265b20cf6760328d": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/modem"
     },
     "5028b0ad69dd29afacbc07a4": {
       "first_seen": "2026-11-03T09:27:30Z",
@@ -3832,6 +3866,11 @@
       "first_seen": "2026-11-01T05:55:21Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/"
+    },
+    "545a09a6b32d789c4d5dc1c7": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/naturefunding-org"
     },
     "545a6906e2f866e2cbfca194": {
       "first_seen": "2026-11-09T11:23:00Z",
@@ -4234,6 +4273,12 @@
       "first_seen": "2026-10-15T14:58:02Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/kerno"
+    },
+    "5c5576629250233c0e3f9d7b": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/visitors"
     },
     "5c64dcf67565843d82547648": {
       "first_seen": "2026-11-14T15:46:08Z",
@@ -5040,6 +5085,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/marble-by-world-labs"
     },
+    "6dc11014a902698a73aac0ef": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/spikely"
+    },
     "6dc1f68b02963da8f1899e0d": {
       "first_seen": "2026-10-20T19:29:47Z",
       "status": "queued",
@@ -5822,6 +5873,11 @@
       "status": "queued",
       "url": "https://openai.com/index/introducing-chatgpt-for-sales/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "7d1ea8febde7fdc7f36108d3": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/journalistic-tech"
+    },
     "7da16fb58ab2d3e1fea6cf10": {
       "first_seen": "2026-11-09T21:33:40Z",
       "status": "queued",
@@ -6202,6 +6258,12 @@
       "first_seen": "2026-11-03T01:51:10Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-dd47a80e2777e6874132"
+    },
+    "866a00e4f22ca43e0c891624": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/chat-with-work"
     },
     "868c02b1661261d41601212f": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -6786,6 +6848,12 @@
       "status": "queued",
       "url": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "935e36f9d992c05dd86fdbdd": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/ashwa"
+    },
     "9363f381f0ec11aa1f233a0a": {
       "first_seen": "2026-10-13T23:00:39Z",
       "status": "queued",
@@ -7040,6 +7108,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/canfit"
+    },
+    "98fe4249c370c5dd6851bf6f": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/snowly-2"
     },
     "992103baab869f7b32d66923": {
       "first_seen": "2026-10-16T14:48:14Z",
@@ -7556,6 +7629,11 @@
       "first_seen": "2026-11-06T20:59:29Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/alysis-code"
+    },
+    "a5453c7565258aea5c7ef3b4": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/replit"
     },
     "a56a5684d29c63e96acf899b": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -9150,6 +9228,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2115798012840579154"
     },
+    "cbab95fe5c9c40846fbb116f": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/hydrilla"
+    },
     "cbaf9562bef45be7e7897094": {
       "first_seen": "2026-10-03T11:34:52Z",
       "status": "too_old",
@@ -9450,6 +9533,12 @@
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "d29185cf3f97a7b1d0240615": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/tesla"
+    },
     "d2a239d4a8c6e6c1aeaf7910": {
       "first_seen": "2026-10-27T22:30:09Z",
       "status": "queued",
@@ -9630,6 +9719,11 @@
       "first_seen": "2026-11-15T14:13:58Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/spiik"
+    },
+    "d692e4730a37fc1809cc0445": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/motionflare"
     },
     "d69e0929ed6bd473916daabb": {
       "first_seen": "2026-10-30T03:00:28Z",
@@ -10948,6 +11042,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/textwhisk"
+    },
+    "f3714508eb059c70be66a275": {
+      "first_seen": "2026-11-23T12:22:03Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/open-source-solana-wallet"
     },
     "f39d26586a9bbbb17ae8bee8": {
       "first_seen": "2026-10-07T21:57:50Z",

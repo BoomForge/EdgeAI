@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-23T10:29:23Z",
+    "at": "2026-11-23T22:13:56Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 51,
+    "prefiltered": 1,
+    "queued": 16,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 238,
+  "runs": 239,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -182,6 +182,11 @@
       "first_seen": "2026-10-03T00:45:52Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2609.38181"
+    },
+    "0335b321851d3c9723197d51": {
+      "first_seen": "2026-11-23T22:13:51Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-ollama%3D%3D1.2.0"
     },
     "03465724b88b0cc08e0a5ae9": {
       "first_seen": "2026-11-23T10:28:48Z",
@@ -864,6 +869,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.10"
     },
+    "10878202550bbbf922d1872a": {
+      "first_seen": "2026-11-23T22:13:28Z",
+      "status": "queued",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal"
+    },
     "109261365670d3352ab7b526": {
       "first_seen": "2026-10-31T08:54:23Z",
       "status": "queued",
@@ -1034,6 +1044,11 @@
       "first_seen": "2026-10-29T17:31:52Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11986"
+    },
+    "1259b534687dd8b3171199ff": {
+      "first_seen": "2026-11-23T22:13:28Z",
+      "status": "queued",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
     },
     "125af853e4eeacede9b5e890": {
       "first_seen": "2026-10-21T00:55:30Z",
@@ -1970,6 +1985,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10629"
     },
+    "2136e68d2ef62a42843379c0": {
+      "first_seen": "2026-11-23T22:13:51Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.2.0"
+    },
     "215d7b2106130be3c7015db6": {
       "first_seen": "2026-11-04T10:39:20Z",
       "status": "queued",
@@ -2202,6 +2222,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13"
     },
+    "2566fc35e31229f455b8bd0a": {
+      "first_seen": "2026-11-23T22:13:51Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-nomic%3D%3D1.1.0"
+    },
     "25733138e21858efa068f35a": {
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
@@ -2414,6 +2439,11 @@
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.5"
     },
+    "28cc1ec33c3bad07cdfd3e05": {
+      "first_seen": "2026-11-23T22:13:28Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders/"
+    },
     "28e14cad8781cc9edebb9107": {
       "first_seen": "2026-10-22T07:18:23Z",
       "status": "queued",
@@ -2493,6 +2523,11 @@
       "first_seen": "2026-10-03T00:46:09Z",
       "status": "too_old",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.3"
+    },
+    "2a9a03bf36f72493e2b7fc47": {
+      "first_seen": "2026-11-23T22:13:35Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12653"
     },
     "2ab2138aa785ddc02ddeb101": {
       "first_seen": "2026-10-12T09:24:00Z",
@@ -2960,6 +2995,11 @@
       "first_seen": "2026-10-14T00:36:35Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11607"
+    },
+    "33079c28b3e18d3a64a4d747": {
+      "first_seen": "2026-11-23T22:13:28Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/"
     },
     "3311a15a371be05b4ee5c0b6": {
       "first_seen": "2026-10-03T00:46:17Z",
@@ -3797,6 +3837,11 @@
       "first_seen": "2026-11-17T21:54:19Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12484"
+    },
+    "41decc9558d17eab0d100f16": {
+      "first_seen": "2026-11-23T22:13:28Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/photos/google-photo-tools-holiday-season-2026/"
     },
     "41e12843f2c4fc0abb992355": {
       "first_seen": "2026-10-11T14:10:43Z",
@@ -7149,6 +7194,11 @@
       "status": "queued",
       "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
     },
+    "7da76b9470cdd38d9e9b6a70": {
+      "first_seen": "2026-11-23T22:13:48Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.923-beta"
+    },
     "7da99f40f855b50457e2a875": {
       "first_seen": "2026-10-15T19:15:04Z",
       "status": "queued",
@@ -7298,6 +7348,11 @@
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20637"
+    },
+    "8079982904ab531b9cf0e7f8": {
+      "first_seen": "2026-11-23T22:13:51Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.5.0"
     },
     "80aa973eaf9dc1545fe5d900": {
       "first_seen": "2026-11-18T20:41:33Z",
@@ -7581,6 +7636,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/products-and-platforms/products/google-health/google-health-partnership-athletes-creators/"
+    },
+    "848257d8d5b2a85de5187fb0": {
+      "first_seen": "2026-11-23T22:13:28Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks/"
     },
     "84abd1857de5dfd951d90dcf": {
       "first_seen": "2026-10-30T19:57:06Z",
@@ -9023,6 +9083,11 @@
       "first_seen": "2026-11-20T08:40:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.25172"
+    },
+    "9cf1ea8eacb8cd7776b39e33": {
+      "first_seen": "2026-11-23T22:13:51Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.2.0"
     },
     "9cf469a02c5a0aefacdc35d7": {
       "first_seen": "2026-10-03T15:10:00Z",
@@ -11339,6 +11404,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4"
     },
+    "c56a9b81f11e6602776b3dbd": {
+      "first_seen": "2026-11-23T22:13:46Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.16"
+    },
     "c59e46da12229872b831eba2": {
       "first_seen": "2026-10-19T04:18:20Z",
       "status": "queued",
@@ -11504,6 +11574,11 @@
       "first_seen": "2026-10-15T19:15:01Z",
       "status": "queued",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.1"
+    },
+    "c8eaebd134c28ca82bbecbeb": {
+      "first_seen": "2026-11-23T22:13:51Z",
+      "status": "queued",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-qdrant%3D%3D1.2.0"
     },
     "c9022369197c2d05ce55ae10": {
       "first_seen": "2026-10-21T05:49:09Z",
@@ -12323,6 +12398,12 @@
       "first_seen": "2026-10-08T07:31:26Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11493"
+    },
+    "d6fdac3c20f42b84f4304f19": {
+      "first_seen": "2026-11-23T22:13:28Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
     },
     "d707eaabc88246adccb89aa9": {
       "first_seen": "2026-11-19T10:08:59Z",
@@ -14508,6 +14589,11 @@
       "first_seen": "2026-11-13T07:16:50Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12342"
+    },
+    "fb48ab0b87f6b3dbe6c8384a": {
+      "first_seen": "2026-11-23T22:13:35Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12655"
     },
     "fb49e20ce2251b9bdff1cb06": {
       "first_seen": "2026-10-19T04:18:14Z",

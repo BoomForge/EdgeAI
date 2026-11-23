@@ -1962,20 +1962,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "952d2516af2e905436adea3b",
-      "discovered_at": "2026-11-09T23:28:15Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Mon, 09 Nov 2026 13:00:00 GMT",
-      "search_score": 7,
-      "source_name": "OpenAI News",
-      "summary": "Learn how OpenAI\u2019s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "url": "https://openai.com/index/control-room"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "9342dbf934e428aa00c16520",
       "discovered_at": "2026-11-19T19:03:01Z",
       "kind": "official",
@@ -2130,6 +2116,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "10878202550bbbf922d1872a",
+      "discovered_at": "2026-11-23T22:13:28Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Mon, 23 Nov 2026 08:00:00 GMT",
+      "search_score": 4,
+      "source_name": "OpenAI News",
+      "summary": "Watch OpenAI\u2019s Stacey Wang and Craig Bruney, Mary O\u2019Carroll of LECG, and Cooley\u2019s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "title": "Connected intelligence for in-house legal",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "c1a2af93db54bfcf7c217cb7",
       "discovered_at": "2026-11-20T23:11:07Z",
       "kind": "official",
@@ -2242,6 +2242,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "1259b534687dd8b3171199ff",
+      "discovered_at": "2026-11-23T22:13:28Z",
+      "kind": "official",
+      "lane": "fast",
+      "priority": 1,
+      "published": "Mon, 23 Nov 2026 08:00:00 GMT",
+      "search_score": 3,
+      "source_name": "OpenAI News",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "1a10f1676d46fc01a909d8ea",
       "discovered_at": "2026-11-22T21:15:15Z",
       "kind": "official",
@@ -2323,20 +2337,6 @@
       "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
       "title": "Introducing Businesses in ChatGPT",
       "url": "https://openai.com/index/introducing-businesses-chatgpt"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "caa9073cefb43725f1a58e80",
-      "discovered_at": "2026-11-09T23:28:15Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Mon, 09 Nov 2026 19:00:00 GMT",
-      "search_score": 2,
-      "source_name": "OpenAI News",
-      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
     },
     {
       "bootstrap": false,
@@ -2606,34 +2606,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "0a48e8b402019bba9a02ea8c",
-      "discovered_at": "2026-11-09T23:28:43Z",
-      "kind": "agents",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-09T21:21:31Z",
-      "search_score": 33,
-      "source_name": "browser-use Releases",
-      "summary": "Release candidate (first one published; the version numbers 1.0.0rc1 to rc3 were unusable on PyPI). Install it explicitly. Plain pip install browser-use and uv add browser-use still give you 0.13.14 until 1.0.0 ships. Please report problems at https://github.com/browser-use/browser-use/issues and say you are on 1.0.0rc4. browser-use 1.0 replaces the engine. The agent no longer picks one action per step from a DOM dump. It writes Python in one persistent REPL with the browser-harness helpers and raw CDP, on Pydantic AI . The library went from 68,815 to 13,154 lines of Python. The 0.x surface you use most ( Agent , Browser , Tools , run() , final_result() ) still works. Install uv add --prerelease allow ' browser-use>=1.0.0rc4 ' export BROWSER_USE_API_KEY=bu_... # get one at https://cloud.browser-use.com/new-api-key or pip install --pre 'browser-use>=1.0.0rc4' . CLI only: uv tool install --prerelease allow 'browser-use>=1.0.0rc4' . Python 3.11 or newer. from browser_use import Agent result = Agent ( 'Find the number of stars of the browser-use repo' ). run_sync () print ( result . final_result ()) What changes by default 0.x 1.0 Model ( llm=None ) required bu-fast on the Browser Use gateway Browser ( Browser() ) local Chromium a Browser Use Cloud browser; Browser('chromium') for a local one Key one per provider one Browser Use key ( BROWSER_USE_API_KEY , or browser-use login ) Mode ultrafast (accessibility-tree ids) on bu-fast / bu-ultrafast ; mode='default' opts out run() limits max_steps=500 max_steps=100 , timeout=1700 s Your own model: ChatOpenAI , ChatAnthropic , ChatGoogle , or any Pydantic AI model string ( llm='groq:llama-3.3-70b-versatile' ). Upgrading from 0.x Read MIGRATING.md first. It lists every 0.x option and its 1.0 answer. Need 0.x? Pin it: pip install 'browser-use<1' . An option 1.0 cannot honor raises a TypeError naming it before any browser starts or anything is billed. No silent no-ops. 0.x tuning knobs 1.0 has no use for ( use_vision=True , flash_mode , max_failures , ...) warn once and are ignored. Every removed 0.x import (all module paths from 0.1 to 0.13, and every public name of a module 1.0 kept) raises an ImportError that names the replacement and links MIGRATING.md. except ImportError fallbacks still work. ActionResult(include_in_memory=...) warns and is ignored: every tool result stays in the conversation. Once configuration checks pass, run() does not raise: a rejected key or model, a browser that fails to start (cloud create 402/5xx/timeout) and failures inside the run all return status='error' with result.error , and a browser that did start is stopped. A missing key still raises before anything is created. Behavior changes to check Browser() is a cloud browser. Tasks on localhost or private IPs need Browser('chromium') (one warning says so). Browser(local=True) now means Browser('chromium') . Your own open Chrome is Browser('chrome') . run(max_steps=...) defaults to 100 (was 500). One step is one model request. is_successful() is None when the agent gave no verdict. Use r.is_done() and r.success is not False for the 0.x default. errors() returns only the error that ended the run. Recovered cell errors are in result.messages . result.partial is set only by checkpoint(..., partial=True) . To get one, name the flag in the task: \"after each page, save the titles with checkpoint('titles.json', titles, partial=True)\". result.cost_usd covers model and web search charges, not the cloud browser or its proxy. The workspace (default: a new temp dir browser-use-* ) is kept after the run. A workspace= path is used as given (made absolute, symlinks not resolved), so result.downloads[0].relative_to(workspace) works. prohibited_domains=['example.com'] also blocks its subdomains. BROWSER_USE_ALLOWED_DOMAINS is not read: Browser() raises while it is set. The 0.x gateway models ( bu-2-0 , bu-1-0 , bu-latest , ...) are rejected. BROWSER_USE_LLM_URL is not read: use ChatBrowserUse(base_url=...) . LangChain chat models raise TypeError . Azure reads AZURE_OPENAI_API_KEY (not AZURE_OPENAI_KEY ) and needs OPENAI_API_VERSION . browser-use --mcp prints a deprecation notice and serves the --cli-mcp tools ( browser_exec , browser_screenshot ). browser-use init was removed. The bu and browser console scripts are gone (they broke uv tool install next to other tools). Use browser-use or browseruse . Extras aws , oci , video , examples , eval , core , openai-tools , cli-oci are gone (pip warns and installs without them). anthropic , google , mcp , cli , all still resolve; Anthropic, Google and MCP are core dependencies. Also new Typed results: Agent(task, output_model_schema=MyModel) then result.structured_output . Uploads and downloads on local and cloud browsers: inputs from workspace= , downloads in workspace/downloads and result.downloads . The agent uploads the file you named and never creates or overwrites it. Secrets: sensitive_data= typed with type_secret() and redacted from cell output, checkpoints, tool results and the result. Not a sandbox; see the trust model in MIGRATING.md. Domain restrictions ( allowed_domains , prohibited_domains , block_ip_addresses ) with the 0.x patterns, in every browser mode. Web search ( web_search=True ), billed per search to your Browser Use key and added to result.cost_usd . CLI and MCP: browser-use pipes Python to browser-harness; browser-use --cli-mcp runs the MCP server; browser-use skill install registers the agent skill. Docker: no image for release candidates. Build one from the tag: git clone -b 1.0.0rc4 https://github.com/browser-use/browser-use && cd browser-use && docker build . -t browseruse . Every image build is smoke-tested on amd64 and arm64 in CI, on pull requests too. Reliability Streamed Responses. Every OpenAI Responses request (the Browser Use gateway and api.openai.com) is streamed. A streamed turn gets 300 s to its first event, then runs while events flow, up to 930 s. Long bu-smart turns no longer end at 300 s. One transient retry. A failure reported inside HTTP 200 ( server_error , overloaded , request_timeout , upstream_stream_failed ) or a stream that ends before its final event is retried once per run, like a 429 or 5xx. Compaction. A Responses request over the context window compacts once and is sent again. Models with smaller windows (gpt-4o, 128k) compact before they overflow. A streamed compaction item is sent back exactly as a non-streamed response would carry it, and a 400 on it resends the request once without the item. Many agents in one process. An Agent raises a low soft open-file limit to min(hard limit, 10240) (macOS defaults to 256). A connection error now names its cause, e.g. ModelConnectionError: Connection error. (OSError: [Errno 24] Too many open files) . Proxied gpt-6-luna. ChatOpenAI('gpt-6-luna', base_url=...) gets reasoning_effort='none' on any host, so tools work behind a proxy. Pages with workers. wait_for_network_idle() no longer waits for Web Worker scripts and cross-site iframes, which ran it to its 10 s cap. Dialogs. A navigation held by a beforeunload prompt, or a screenshot with a JS dialog open, names the dialog within seconds. keep_alive. A run after a dead browser daemon continues in the agent's tab, not on about:blank . Benchmark BU Bench v2, 60 tasks x 3 reps, cloud browsers, on this commit: agent score [95% CI] $/task s/task browser-use 1.0 (default, mode='ultrafast' ) 62.6 [58.2, 67.1] 0.071 585 browser-use 1.0, mode='default' 61.1 [56.5, 65.6] 0.073 675 Browser Use Pi (e7007f2), same window 61.3 [57.0, 65.4] 0.087 689 Paired, 1.0 default minus Pi: score +1.4 [-2.3, +5.0] (no significant difference), cost -$0.016/task [-0.027, -0.004] (18% cheaper), time -105 s/task [-167, -42] (15% faster). Every arm ran gpt-6-luna on api.openai.com, judged by gpt-5.6-luna (xhigh); 178 of 180 runs judged for the default arm, 180 for mode='default' , 179 for Pi. The default bu-fast model on the Browser Use gateway was not part of this run. 95% task-clustered bootstrap intervals. Telemetry The library and the CLI send anonymized usage telemetry: counts, model and helper names, exception classes, hostnames of visited pages. Never the task, results, code, typed text, secrets or page content. No feature flags. Turn it off with ANONYMIZED_TELEMETRY=false : no event, no background thread, no file written. Every field is listed in TELEMETRY.md Known issues Every dependency is pinned exactly ( == ), and the lockfile is committed. This is a supply-chain policy: you get exactly the versions CI tested. The cost: a project that needs a different version of pydantic , pydantic-ai-slim , mcp , google-genai , pillow or another pinned package cannot install 1.0 next to it. Tell us which pin blocks you. The docs at docs.browser-use.com still show plain uv add browser-use / pip install browser-use , which install 0.13.14 during the release candidate. Use the install lines above. A file downloaded in a second tab the agent opened makes Browser.stop() wait 300 s before it returns. The file itself is complete. Fixed in the next rc. CLI and MCP on a local Chromium: print(page_info()) right after new_tab(url) can fail with Cannot read properties of null . Call wait_for_load() in between. Agent runs recover on their own. Fixed in the next rc. google-genai is capped below 3: 3.0.0 calls the Gemini API on v1, which rejects tools. The cap goes away once Pydantic AI supports it. Viewport emulation does not work on cloud browsers yet. Use Browser('chromium') for another viewport. Full changelog: 0.13.14...1.0.0rc4",
-      "title": "1.0.0rc4: release candidate for browser-use 1.0",
-      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.0rc4"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "2b7cd53c26380bca28073f5e",
-      "discovered_at": "2026-11-09T23:28:43Z",
-      "kind": "agents",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-09T16:52:16Z",
-      "search_score": 33,
-      "source_name": "browser-use Releases",
-      "summary": "Release candidate (first one published; the 1.0.0rc1 version number was unusable on PyPI). Install it explicitly. Plain pip install browser-use and uv add browser-use still give you 0.13.14 until 1.0.0 ships. Please report problems at https://github.com/browser-use/browser-use/issues and say you are on 1.0.0rc2. browser-use 1.0 replaces the engine. The agent no longer picks one action per step from a DOM dump. It writes Python in one persistent REPL with the browser-harness helpers and raw CDP, on Pydantic AI . The library went from 68,815 to 13,154 lines of Python. The 0.x surface you use most ( Agent , Browser , Tools , run() , final_result() ) still works. Install uv add --prerelease allow ' browser-use>=1.0.0rc2 ' uv run browser-use login # one key: default model, cloud browser, CLI and MCP or pip install --pre 'browser-use>=1.0.0rc2' . CLI only: uv tool install --prerelease allow 'browser-use>=1.0.0rc2' . Python 3.11 or newer. from browser_use import Agent result = Agent ( 'Find the number of stars of the browser-use repo' ). run_sync () print ( result . final_result ()) What changes by default 0.x 1.0 Model ( llm=None ) required bu-fast on the Browser Use gateway Browser ( Browser() ) local Chromium a Browser Use Cloud browser; Browser('chromium') for a local one Key one per provider one Browser Use key ( browser-use login or BROWSER_USE_API_KEY ) Mode ultrafast (accessibility-tree ids) on bu-fast / bu-ultrafast ; mode='default' opts out run() limits max_steps=500 max_steps=100 , timeout=1700 s Your own model: ChatOpenAI , ChatAnthropic , ChatGoogle , or any Pydantic AI model string ( llm='groq:llama-3.3-70b-versatile' ). Upgrading from 0.x Read MIGRATING.md first. It lists every 0.x option and its 1.0 answer. Need 0.x? Pin it: pip install 'browser-use<1' . An option 1.0 cannot honor raises a TypeError naming it before any browser starts or anything is billed. No silent no-ops. 0.x tuning knobs 1.0 has no use for ( use_vision=True , flash_mode , max_failures , ...) warn once and are ignored. Every removed 0.x import (all module paths from 0.1 to 0.13, and every public name of a module 1.0 kept) raises an ImportError that names the replacement and links MIGRATING.md. except ImportError fallbacks still work. ActionResult(include_in_memory=...) warns and is ignored: every tool result stays in the conversation. Once configuration checks pass, run() does not raise: a rejected key or model, a browser that fails to start (cloud create 402/5xx/timeout) and failures inside the run all return status='error' with result.error , and a browser that did start is stopped. A missing key still raises before anything is created. Behavior changes to check Browser() is a cloud browser. Tasks on localhost or private IPs need Browser('chromium') (one warning says so). Browser(local=True) now means Browser('chromium') . Your own open Chrome is Browser('chrome') . run(max_steps=...) defaults to 100 (was 500). One step is one model request. is_successful() is None when the agent gave no verdict. Use r.is_done() and r.success is not False for the 0.x default. errors() returns only the error that ended the run. Recovered cell errors are in result.messages . result.partial is set only by checkpoint(..., partial=True) . To get one, name the flag in the task: \"after each page, save the titles with checkpoint('titles.json', titles, partial=True)\". result.cost_usd covers model and web search charges, not the cloud browser or its proxy. The workspace (default: a new temp dir browser-use-* ) is kept after the run. A workspace= path is used as given (made absolute, symlinks not resolved), so result.downloads[0].relative_to(workspace) works. prohibited_domains=['example.com'] also blocks its subdomains. BROWSER_USE_ALLOWED_DOMAINS is not read: Browser() raises while it is set. The 0.x gateway models ( bu-2-0 , bu-1-0 , bu-latest , ...) are rejected. BROWSER_USE_LLM_URL is not read: use ChatBrowserUse(base_url=...) . LangChain chat models raise TypeError . Azure reads AZURE_OPENAI_API_KEY (not AZURE_OPENAI_KEY ) and needs OPENAI_API_VERSION . browser-use --mcp prints a deprecation notice and serves the --cli-mcp tools ( browser_exec , browser_screenshot ). browser-use init was removed. The bu and browser console scripts are gone (they broke uv tool install next to other tools). Use browser-use or browseruse . Extras aws , oci , video , examples , eval , core , openai-tools , cli-oci are gone (pip warns and installs without them). anthropic , google , mcp , cli , all still resolve; Anthropic, Google and MCP are core dependencies. Also new Typed results: Agent(task, output_model_schema=MyModel) then result.structured_output . Uploads and downloads on local and cloud browsers: inputs from workspace= , downloads in workspace/downloads and result.downloads . The agent uploads the file you named and never creates or overwrites it. Secrets: sensitive_data= typed with type_secret() and redacted from cell output, checkpoints, tool results and the result. Not a sandbox; see the trust model in MIGRATING.md. Domain restrictions ( allowed_domains , prohibited_domains , block_ip_addresses ) with the 0.x patterns, in every browser mode. Web search ( web_search=True ), billed per search to your Browser Use key and added to result.cost_usd . CLI and MCP: browser-use pipes Python to browser-harness; browser-use --cli-mcp runs the MCP server; browser-use skill install registers the agent skill. Docker: no image for release candidates. Build one from the tag: git clone -b 1.0.0rc2 https://github.com/browser-use/browser-use && cd browser-use && docker build . -t browseruse . Every image build is smoke-tested on amd64 and arm64 in CI, on pull requests too. Reliability Streamed Responses. Every OpenAI Responses request (the Browser Use gateway and api.openai.com) is streamed. A streamed turn gets 300 s to its first event, then runs while events flow, up to 930 s. Long bu-smart turns no longer end at 300 s. One transient retry. A failure reported inside HTTP 200 ( server_error , overloaded , request_timeout , upstream_stream_failed ) or a stream that ends before its final event is retried once per run, like a 429 or 5xx. Compaction. A Responses request over the context window compacts once and is sent again. Models with smaller windows (gpt-4o, 128k) compact before they overflow. A streamed compaction item is sent back exactly as a non-streamed response would carry it, and a 400 on it resends the request once without the item. Many agents in one process. An Agent raises a low soft open-file limit to min(hard limit, 10240) (macOS defaults to 256). A connection error now names its cause, e.g. ModelConnectionError: Connection error. (OSError: [Errno 24] Too many open files) . Proxied gpt-6-luna. ChatOpenAI('gpt-6-luna', base_url=...) gets reasoning_effort='none' on any host, so tools work behind a proxy. Pages with workers. wait_for_network_idle() no longer waits for Web Worker scripts and cross-site iframes, which ran it to its 10 s cap. Dialogs. A navigation held by a beforeunload prompt, or a screenshot with a JS dialog open, names the dialog within seconds. keep_alive. A run after a dead browser daemon continues in the agent's tab, not on about:blank . Benchmark BU Bench v2, 60 tasks x 3 reps, cloud browsers, on this commit: agent score [95% CI] $/task s/task browser-use 1.0 (default, mode='ultrafast' ) 62.6 [58.2, 67.1] 0.071 585 browser-use 1.0, mode='default' 61.1 [56.5, 65.6] 0.073 675 Browser Use Pi (e7007f2), same window 61.3 [57.0, 65.4] 0.087 689 Paired, 1.0 default minus Pi: score +1.4 [-2.3, +5.0] (no significant difference), cost -$0.016/task [-0.027, -0.004] (18% cheaper), time -105 s/task [-167, -42] (15% faster). Every arm ran gpt-6-luna on api.openai.com, judged by gpt-5.6-luna (xhigh); 178 of 180 runs judged for the default arm, 180 for mode='default' , 179 for Pi. The default bu-fast model on the Browser Use gateway was not part of this run. 95% task-clustered bootstrap intervals. Telemetry The library and the CLI send anonymized usage telemetry: counts, model and helper names, exception classes, hostnames of visited pages. Never the task, results, code, typed text, secrets or page content. No feature flags. Turn it off with ANONYMIZED_TELEMETRY=false : no event, no background thread, no file written. Every field is listed in TELEMETRY.md Known issues Every dependency is pinned exactly ( == ), and the lockfile is committed. This is a supply-chain policy: you get exactly the versions CI tested. The cost: a project that needs a different version of pydantic , pydantic-ai-slim , mcp , google-genai , pillow or another pinned package cannot install 1.0 next to it. Tell us which pin blocks you. The README on PyPI and the docs at docs.browser-use.com still show plain uv add browser-use / pip install browser-use , which install 0.13.14 during the release candidate. Use the install lines above. Links to blob/main/MIGRATING.md and blob/main/TELEMETRY.md (on the PyPI page and in error and log messages) return 404 until 1.0 is merged to main. Read them on the tag: https://github.com/browser-use/browser-use/blob/1.0.0rc2/MIGRATING.md google-genai is capped below 3: 3.0.0 calls the Gemini API on v1, which rejects tools. The cap goes away once Pydantic AI supports it. Viewport emulation does not work on cloud browsers yet. Use Browser('chromium') for another viewport. Full changelog: 0.13.14...1.0.0rc2",
-      "title": "1.0.0rc2: release candidate for browser-use 1.0",
-      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.0rc2"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "5c437da0f67e8dde956efb56",
       "discovered_at": "2026-11-10T04:47:55Z",
       "kind": "agents",
@@ -2816,20 +2788,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "e85e3f3ffe1e843f80b88790",
-      "discovered_at": "2026-11-09T23:28:24Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-09T18:21:19Z",
-      "search_score": 14,
-      "source_name": "Ollama Releases",
-      "summary": "What's Changed openai: forward truncation option in responses requests by @marlonferreira1800-hue in #19501 openai: return an empty array for /v1/models when no models are installed by @liangliang205 in #19539 llama.cpp: version bump b12177 by @dhiltgen in #19576 README: add Quock to Mobile community integrations by @matteocelani in #19361 windows: add CUDA 13.5 and SM 103 for ARM64 by @dhiltgen in #19580 MLX: make Qwen3.8 Flash Next memory efficient by @dhiltgen in #18078 launch: fix Claude Code routing and retired model errors by @hoyyeva in #19587 Add ripple preview support to the MLX runner by @pdevine in #19592 New Contributors @marlonferreira1800-hue made their first contribution in #19501 @liangliang205 made their first contribution in #19539 Full Changelog : v0.40.15...v0.40.16-rc0",
-      "title": "v0.40.16",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "b96d8738b446b8e65c96c7db",
       "discovered_at": "2026-11-22T07:06:00Z",
       "kind": "agents",
@@ -2953,20 +2911,6 @@
       "summary": "Allocate gf_res_reserve and both gf_res_prev entries once in the llama_context constructor. Add llm_graph_result::set_max_nodes() and reset the existing instances in sched_reserve() instead of recreating them. get_gf_res_prev() now only selects the arena for the current batch. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB)",
       "title": "b12304: llama : reuse graph result instances across scheduler reserves (#32089)",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12304"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "aecd57586d6d2fc7d706c040",
-      "discovered_at": "2026-11-09T14:19:20Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-09T12:55:36Z",
-      "search_score": 11,
-      "source_name": "llama.cpp Releases",
-      "summary": "models : Attach Granite NVFP4 weight scales ( #31449 ) models : Attach Granite NVFP4 weight scales feat: Pass nvfp4 scales through build_ffn for all granite architectures Branch: granite-nvfp4-moe-scales AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.ibm.com Co-authored-by: Gabe Goodhart ghart@us.ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65350471 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12223",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12223"
     },
     {
       "bootstrap": false,
@@ -3499,9 +3443,65 @@
       "summary": "webgpu : add ROLL support ( #31887 ) webgpu : add ROLL support tests : keep ROLL cases portable across backends Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71003574 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12651",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12651"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "fb48ab0b87f6b3dbe6c8384a",
+      "discovered_at": "2026-11-23T22:13:35Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-23T11:30:24Z",
+      "search_score": 0,
+      "source_name": "llama.cpp Releases",
+      "summary": "cmake: treat kleidiai files as vendored Signed-off-by: Aaron Teo aaron.teo1@ibm.com cmake: use quotes and semicolon separators Signed-off-by: Aaron Teo aaron.teo1@ibm.com Signed-off-by: Aaron Teo aaron.teo1@ibm.com",
+      "title": "b12655: cmake: treat kleidiai files as vendored (#32605)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12655"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "2a9a03bf36f72493e2b7fc47",
+      "discovered_at": "2026-11-23T22:13:35Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-23T10:05:21Z",
+      "search_score": 0,
+      "source_name": "llama.cpp Releases",
+      "summary": "This commit updates the cmake check for MATH_LIBRARY and removes the DEFINED operator for the if() command. The motivation for this is that on windows if a parent project of ggml calls find_library(MATH_LIBRARY) this could return MATH_LIBRARY-NOTFOUND which will cause the if clause to be true. Removing the DEFINED operator will work as intended will evaluate to false, as specified by cmake if command docs: False if the constant is 0, OFF, NO, FALSE, N, IGNORE, NOTFOUND, the empty string, or ends in the suffix -NOTFOUND. This commit was originally opened in a PR against whisper.cpp, see link below. Refs: ggml-org/whisper.cpp#4168 Refs: https://cmake.org/cmake/help/latest/command/if.html#constant",
+      "title": "b12653: ggml : update cmake MATH_LIBRARY check (#32864)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12653"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "7da76b9470cdd38d9e9b6a70",
+      "discovered_at": "2026-11-23T22:13:48Z",
+      "kind": "training",
+      "lane": "fast",
+      "priority": 3,
+      "published": "2026-11-23T16:12:06Z",
+      "search_score": 23,
+      "source_name": "Unsloth Releases",
+      "summary": "Inkling 2 Mini runs up to 1.9x faster on all GPUs for decoding + RTX Spark improvements. Also new: faster GRPO and AsyncGRPO training, Qwen-Image-Flash and FastWan, a Knowledge page in Settings and audio, subtitle and image translation. Highlights Inkling 2 Mini on 8 to 12 GB GPUs up to 1.9x faster decoding guide Multi-GPU diffusion LoRA training about 2x the samples per second on two GPUs Qwen-Image-Flash + FastWan 4-step images about 14x faster than Qwen-Image, 3-step video up to 3x faster GRPO improvements AsyncGRPO 40% less time + 2x faster GRPO rollouts on Strix Halo** Better compaction Gracefully closes thinking and continues in the next message First-run welcome to set your name, theme and wallpaper Translate audio, subtitles and images with the translation drawn over the image Inkling 2 Mini On 8 GB and 12 GB GPUs, Auto now puts more of Inkling 2 Mini on the GPU, for up to 1.19x faster replies. When every expert fits on your GPUs, Inkling 2 processes prompts up to 1.9x faster. Speculative decoding for Inkling 2 now drafts 2 tokens by default, 1.15x to 1.19x faster than no draft model. Inkling 2 no longer runs out of memory mid-prompt on a load that started fine, and an out-of-memory reload now uses a smaller context. On Windows PCs with an integrated NVIDIA GPU, Inkling 2 Mini no longer loads mostly on the CPU. Better Inkling 2 support on RTX Spark N1X machines Training AsyncGRPO with fast_inference=True takes 29 to 40% less time per step, by passing the adapter to vLLM in memory instead of through files. AsyncGRPO now trains LoRA on Qwen3.5, Qwen3.6 and Qwen3-Next with tree packing (TRL 1.17 or newer). GRPO rollouts without vLLM take up to 40% less time per step with padded batches on L4. On AMD Strix Halo, GRPO rollouts run 2x faster on Linux and Windows. A LoRA adapter on lm_head now trains in SFT and GRPO instead of getting no gradient. With TRL 1.15 or newer, SFT evaluate() with compute_metrics and trainer.predict() no longer crash. MoE training with gradient checkpointing no longer leaks up to 14 GiB. Gemma 4 tool-calling datasets with JSON-string arguments now train in Gemma 4's own call format. Images + video Run nvidia/Qwen-Image-Flash, NVIDIA's 4-step Qwen-Image, about 14x faster per image than Qwen-Image at its defaults. Run FastWan2.2-TI2V-5B-FullAttn and FastWan2.1-T2V-1.3B in 3 steps, 2.5x to 3x and 5.9x faster end to end than their base models. Every Wan video model now shows live previews while it renders. With two NVIDIA GPUs, guidance-free video renders split each step across both cards, 1.2x to 1.33x faster on 2x T4. On Linux, diffusion LoRA training can use several identical NVIDIA GPUs with num_gpus , about 2x the samples per second on two T4s. On RTX 40-series, L4 and newer NVIDIA GPUs, Auto precision trains diffusion LoRAs on an fp8 base, 1.27x to 1.8x faster on Z-Image. FLUX.2 klein 9B-KV edits run 1.47x to 2.23x faster on their own pipeline. Z-Image base no longer renders black or as a cyan grid on Macs. Chat Settings > Knowledge lets you manage knowledge bases and see how much of each one is embedded. Each project can now keep its own set of MCP servers. Local thinking models no longer end a reply with only a thought and no answer when thinking fills the context. Chats with connected models keep generating when your phone sleeps or the tab is in the background. Auto-compact at in Settings > Connections is now a percent of each model's context window and can be set per model. On Ollama and Custom connections, /compact works again and Max Tokens can reach the model's context window. Deep Research now reads the page linked in your question and cites it. LFM2.5 tool calls now run instead of showing up as text. Desktop + Translate New accounts get a short welcome to set a name, avatar, theme and wallpaper. Translate now takes audio, SRT and VTT subtitle and video files, and Show on image draws the translation over a picture. One Windows installer now picks x64 or ARM64 for you, and the single-architecture installers warn on the wrong processor. Chat only installs on Macs now include MLX, so MLX models can chat. Thanks to our contributors: @danielhanchen , @shimmyshimmer , @oobabooga , @NilayYadav , @Imagineer99 , @debojyoti-dev , @SajjadPSavoji , @vineethsaivs , @Etherll , @taking-lying-flat , @Fahad090NP , @Aafimalek , @0z5a , @nigelhutch , @LeoBorcherding , @lonexreb , @hsusul , @DimitriChrysafis , @Lyxot , @wasimysaid , @JoshuaL3000",
+      "title": "Inkling 1.9x faster inference",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.923-beta"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "c56a9b81f11e6602776b3dbd",
+      "discovered_at": "2026-11-23T22:13:46Z",
+      "kind": "inference",
+      "lane": "fast",
+      "priority": 3,
+      "published": "2026-11-23T22:12:26Z",
+      "search_score": 21,
+      "source_name": "LiteLLM Releases",
+      "summary": "Verify Docker Image Signature cosign verify \\\n  --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \\\n  --certificate-oidc-issuer https://token.actions.githubusercontent.com \\\n  ghcr.io/berriai/litellm:v1.108.16 What's Changed fix(decisions): support the litellm_proxy provider ( #51611 , #53195 ) [lts/1.108.x] by @zoveki in #53196 test(otel): backport excluded services matrix fixes ( #51554 , #51759 ) [lts/1.108.x] by @yuneng-berri in #53399 test(auth): expect null error param for blocked keys ( #39540 ) [lts/1.108.x] by @yuneng-berri in #53401 fix(azure_ai): use the v1 chat path for Azure OpenAI resource bases on lts/1.108.x by @martenj4 in #53408 test(providers): cover ResetData in the internal params chat route matrix ( #53398 ) [lts/1.108.x] by @yuneng-berri in #53437 fix(streaming): read missing generic chunk fields with defaults on lts/1.108.x ( #43501 ) by @martenj4 in #53417 fix(bedrock): backport runtime endpoint routing for native chat and Responses to lts/1.108.x ( #50582 ) by @zoveki in #53414 fix(gemini): backport keeping thought images out of message.images to lts/1.108.x by @edvinsq in #53441 fix(sap): backport list-shaped reasoning_content handling to lts/1.108.x ( #52741 ) by @linhqm in #53458 fix(anthropic)!: backport #48373 to lts/1.108.x, send extra_body fields at the top level by @chaznm in #53411 fix(caching): prevent duplicate success logging on cache hits (lts/1.108.x) by @drewv19 in #53465 fix(anthropic): drop or reject sampling params under anthropic-version 2026-10-21 (lts) by @rhea-tk in #53395 feat(gradium): add text-to-speech support for /v1/audio/speech (lts/1.108.x) by @martenj4 in #53463 fix(gemini): send video_url content parts to Gemini instead of dropping them by @chaznm in #53420 fix(azure_ai)!: backport Foundry project and /openai/v1 chat routing to lts/1.108.x by @drewv19 in #53409 fix(cost-map): add count_tokens framing for grok-4.3 hosts and Azure grok-4-1-fast-non-reasoning by @martenj4 in #53443 fix(responses): backport #53410 tool call replay to lts/1.108.x by @owen-hj in #53584 fix(router): register a model_id Bedrock deployment after an ARN deployment for the same profile by @zoveki in #53462 fix(vertex_ai): pin const values on Gemini tool and response schemas (lts/1.108.x) by @owen-hj in #53415 fix(vertex_ai)!: send the caller's anthropic-version in the Vertex Claude /v1/messages body on lts/1.108.x by @drewv19 in #53590 fix(mistral): map tool call ids to Mistral's 9-char shape on Vertex AI and Bedrock for lts/1.108.x by @owen-hj in #53426 fix(gemini): replay each assistant image's thought signature on its own part by @izzybn in #53446 fix(sagemaker,bedrock): backport 502 on empty or cut AWS event streams to lts/1.108.x by @edvinsq in #53483 fix(bedrock): send tool_choice to Mistral Large 3 and Ministral 3 on Converse ( #53589 ) [lts/1.108.x] by @edvinsq in #53591 fix(vertex_ai): send service_tier to Vertex Gemini as tier headers ( #34959 ) [lts/1.108.x] by @martenj4 in #53428 feat(gnani): add native Prisma v2.5 and v3 REST transcription support on lts/1.108.x by @edvinsq in #53672 fix(streaming): give every choice of an n>1 chat stream its assistant role on lts/1.108.x by @owen-hj in #53592 fix(gemini): bill batch embeddings from usageMetadata so media inputs are not free by @edvinsq in #53679 fix(gemini): keep mid-conversation system messages in place so prompt caching survives (lts/1.108.x) by @izzybn in #53635 fix(responses): bill the provider-reported input on a cut bridged stream (lts/1.108.x) by @rhea-tk in #53419 feat(perplexity): add the Perplexity Orchestrator provider with cost tracking on lts/1.108.x by @ellisc42 in #53585 fix(bridges): backport #49960 audio output refusal to lts/1.108.x by @zoveki in #53745 fix(exceptions): keep the provider error body on e.response for SDK callers on lts/1.108.x by @drewv19 in #53743 fix(vertex_ai): answer a clear 400 for n > 1 with image modalities on Gemini chat to lts/1.108.x by @izzybn in #53752 feat(gemini): support gemini-decision-1 on /v1/decisions and /v1/systemone ( #51220 ) [lts/1.108.x] by @martenj4 in #53696 fix(vertex_ai): honor Gemini image size and imageConfig controls on generation and edits [lts/1.108.x] by @drewv19 in #53581 fix(mcp): backport the hosted MCP tool_choice and Bedrock batch drop_params fixes to lts/1.108.x by @izzybn in #53764 fix(mcp)!: backport gateway DCR opt-in to 1.108 LTS ( #53059 ) by @shrey-berri in #53180 fix(responses): encode ids on faked Responses streams by @ellisc42 in #53747 fix(vertex_ai): keep Gemini 3+ web search next to function tools (lts/1.108.x) by @rhea-tk in #53432 fix(guardrails): keep cache_control in /v1/messages guardrail translation for Claude and Gemini aliases (lts/1.108.x) by @drewv19 in #53832 chore: bump litellm to 1.108.16 on lts/1.108.x by @yuneng-berri in #53824 test(messages): drive the thinking signature retry with a foreign signed block (backport #53874 ) by @yuneng-berri in #53878 fix(router): keep DB-only deployments priced across price data reloads on lts/1.108.x by @yuneng-berri in #53870 Full Changelog : v1.108.15...v1.108.16",
+      "title": "v1.108.16",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.16"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-23T10:29:23Z",
+  "updated_at": "2026-11-23T22:13:56Z",
   "version": 2
 }

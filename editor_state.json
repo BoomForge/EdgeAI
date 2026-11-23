@@ -77,9 +77,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-22T22:09:37Z",
-    "eligible": 46,
-    "evaluated": 2,
+    "at": "2026-11-23T02:42:10Z",
+    "eligible": 48,
+    "evaluated": 5,
     "mode": "live",
     "new_posts": 1,
     "publish_actions": 2,
@@ -603,6 +603,20 @@
       "status": "ignored",
       "story_key": "llamacpp-b11679-k-pool-input-views",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11679"
+    },
+    "0a8c9037108910f0e3ce8427": {
+      "at": "2026-11-23T02:42:02Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "updated",
+      "story_key": "openrouter-rankings-november-2026",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 83,
+        "source": "OpenRouter Rankings"
+      },
+      "url": "https://openrouter.ai/rankings#edgeai-4dd63975216f1fcc96db"
     },
     "0acce46b9cbed8f4ebee3fd3": {
       "at": "2026-11-22T08:36:00Z",
@@ -1286,6 +1300,11 @@
       "at": "2026-10-30T19:44:46Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/lfm2"
+    },
+    "18ac63b52f1497df4f08b555": {
+      "at": "2026-11-23T02:41:51Z",
+      "status": "expired",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2"
     },
     "18e6bcadb8843f12b88e8597": {
       "at": "2026-10-28T23:38:26Z",
@@ -5609,6 +5628,20 @@
       "status": "expired",
       "url": "https://newsroom.spotify.com/2026-10-20/prioritizing-human-artistry/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "6de322dbe3af2fd003fd6015": {
+      "at": "2026-11-23T02:42:10Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "cline-sdk-v0-2-1-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Cline Releases"
+      },
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.2.1"
+    },
     "6deeaa575f7a1b1ab43704bd": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -5633,6 +5666,14 @@
       "at": "2026-11-14T16:40:33Z",
       "status": "expired",
       "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+    },
+    "6ea79eccf72e259a5cd58072": {
+      "at": "2026-11-23T02:42:05Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "openrouter-rankings-november-2026",
+      "url": "https://openrouter.ai/rankings#edgeai-e4e7d10db0c67f83c254"
     },
     "6edfe28706e8795ef6ffa407": {
       "at": "2026-11-01T07:58:48Z",
@@ -10350,6 +10391,14 @@
       "status": "expired",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc0"
     },
+    "d4c8378f002159ea163c46e1": {
+      "at": "2026-11-23T02:41:55Z",
+      "bootstrap": false,
+      "score": 65,
+      "status": "ignored_update",
+      "story_key": "artificial-analysis-changelog-gpt-6-2-gemini-4-neon",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-3381ed9e92db4111e41c"
+    },
     "d4dd293567378d2d33d6eebd": {
       "at": "2026-11-18T23:10:06Z",
       "status": "expired",
@@ -11760,6 +11809,14 @@
       "at": "2026-10-03T05:49:31Z",
       "status": "expired",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.814-beta"
+    },
+    "eff8d177c07d78885a6f4d01": {
+      "at": "2026-11-23T02:42:04Z",
+      "bootstrap": false,
+      "score": 65,
+      "status": "ignored",
+      "story_key": "openrouter-rankings-update-nov-2026",
+      "url": "https://openrouter.ai/rankings#edgeai-474285579837a6c058f1"
     },
     "f01e1d1f7f1967bc58c6859a": {
       "at": "2026-10-25T21:59:00Z",
@@ -14229,6 +14286,27 @@
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
         "score": 88,
+        "source": "Cline Releases"
+      }
+    },
+    "cline-sdk-v0-2-1-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/cline-sdk-v0-2-1-release.png",
+      "last_updated": "2026-11-23T02:42:10Z",
+      "post_id": "2385341574854546209",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/cline-releases-sdk-v021-with-expanded.html",
+      "score": 82,
+      "source_image_source": "Cline Releases",
+      "source_image_url": "https://opengraph.githubassets.com/98d206255326d0da1201a510b35d9929e496d190a32749b615d990a3d8625a81/cline/cline/releases/tag/sdk/sdk/v0.2.1",
+      "source_urls": [
+        "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.2.1"
+      ],
+      "status": "CONFIRMED",
+      "title": "Cline Releases SDK v0.2.1 with Expanded File Caps, UX Verification Subagents, and Major Model Catalog Refresh",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
         "source": "Cline Releases"
       }
     },
@@ -18610,7 +18688,7 @@
     "openrouter-rankings-november-2026": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openrouter-rankings-november-2026.jpg",
-      "last_updated": "2026-11-22T08:36:10Z",
+      "last_updated": "2026-11-23T02:42:02Z",
       "post_id": "5675369024103222766",
       "post_url": "https://edgeainews.blogspot.com/2026/11/openrouter-usage-data-show-deepseek-v41.html",
       "score": 82,
@@ -18618,10 +18696,11 @@
       "source_image_url": "https://openrouter.ai/dynamic-og?pathname=rankings&title=LLM+Rankings&description=LLM+rankings+and+AI+leaderboard+by+real-world+usage%2C+ranked+by+tokens+processed+through+the+OpenRouter+API.+See+which+AI+models+developers+actually+use.&v=2",
       "source_urls": [
         "https://openrouter.ai/rankings#edgeai-3900a479a63a53c832ee",
-        "https://openrouter.ai/rankings#edgeai-47e20019821ce9899e02"
+        "https://openrouter.ai/rankings#edgeai-47e20019821ce9899e02",
+        "https://openrouter.ai/rankings#edgeai-4dd63975216f1fcc96db"
       ],
       "status": "CONFIRMED",
-      "title": "OpenRouter Data Updates Show DeepSeek V4.1 Flash Expanding Volume Lead Alongside New Coding Agent Adoption",
+      "title": "OpenRouter Data Update: DeepSeek V4.1 Flash Crosses 65T Tokens as Agentic Tools Surge",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",

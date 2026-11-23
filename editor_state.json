@@ -77,9 +77,9 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-23T02:42:10Z",
-    "eligible": 48,
-    "evaluated": 5,
+    "at": "2026-11-23T11:21:14Z",
+    "eligible": 42,
+    "evaluated": 3,
     "mode": "live",
     "new_posts": 1,
     "publish_actions": 2,
@@ -3728,6 +3728,11 @@
       "story_key": "llamacpp-b12024-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12024"
     },
+    "478ea25aeed3c99796b0356a": {
+      "at": "2026-11-23T11:21:00Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
+    },
     "47c3437aa5d6b239339d11fd": {
       "at": "2026-10-16T18:54:59Z",
       "status": "expired",
@@ -3899,6 +3904,20 @@
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
       "url": "https://ideogram.ai/models/4.5/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "4bdb6d39f683fd8715294b62": {
+      "at": "2026-11-23T11:21:14Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "published",
+      "story_key": "huggingface-transformers-v5-24-0-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Hugging Face Transformers Releases"
+      },
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.0"
     },
     "4bf61703e3df7593f7aa60fb": {
       "at": "2026-11-15T20:21:41Z",
@@ -4183,6 +4202,14 @@
       "at": "2026-11-07T06:23:46Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/hashference"
+    },
+    "52d0ba5f6cdfe54d2f5a42d2": {
+      "at": "2026-11-23T11:21:09Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "cline-v4-1-27-release",
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.27"
     },
     "52d2852bd491dd26fd15351b": {
       "at": "2026-10-25T06:58:10Z",
@@ -4656,6 +4683,11 @@
       "at": "2026-11-13T02:48:14Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12229"
+    },
+    "5bff97097bcbb0d091187f44": {
+      "at": "2026-11-23T11:21:00Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2123535954946257096"
     },
     "5c2906c99bce192f35f89c35": {
       "at": "2026-10-10T07:33:39Z",
@@ -6697,6 +6729,20 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/vibeide"
     },
+    "85dda76639d13e384eb9afca": {
+      "at": "2026-11-23T11:21:07Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "updated",
+      "story_key": "openrouter-rankings-nov-2026",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 83,
+        "source": "OpenRouter Rankings"
+      },
+      "url": "https://openrouter.ai/rankings#edgeai-8e129703b8492e92dc4d"
+    },
     "85de25504b4d92d69daf9d75": {
       "at": "2026-10-17T22:34:49Z",
       "status": "expired",
@@ -7012,6 +7058,11 @@
       "status": "ignored",
       "story_key": "artificial-analysis-changelog-updates-oct-2026",
       "url": "https://artificialanalysis.ai/changelog#edgeai-9e4133004a6812b634ce"
+    },
+    "8b57b72566ad3c58d871696b": {
+      "at": "2026-11-23T11:21:00Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/"
     },
     "8b8d11c5c80d0e4dca5f164e": {
       "at": "2026-10-29T02:56:09Z",
@@ -9465,6 +9516,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/openpilot"
     },
+    "c00e45f5eca0278a7b603e68": {
+      "at": "2026-11-23T11:21:00Z",
+      "status": "expired",
+      "url": "https://www.producthunt.com/products/mailpipe-2"
+    },
     "c06c3bb88911c2b1b93c4061": {
       "at": "2026-10-16T18:55:37Z",
       "bootstrap": false,
@@ -11405,6 +11461,11 @@
       "at": "2026-10-12T17:49:23Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11530"
+    },
+    "e728b515780ba0f7489a9163": {
+      "at": "2026-11-23T11:21:00Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2123568429286191522"
     },
     "e748499528dff52906945218": {
       "at": "2026-10-12T17:49:31Z",
@@ -15091,6 +15152,27 @@
         "source": "Hugging Face Transformers Releases"
       }
     },
+    "huggingface-transformers-v5-24-0-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/huggingface-transformers-v5-24-0-release.png",
+      "last_updated": "2026-11-23T11:21:14Z",
+      "post_id": "2779277673522289494",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/hugging-face-transformers-v5240.html",
+      "score": 82,
+      "source_image_source": "Hugging Face Transformers Releases",
+      "source_image_url": "https://opengraph.githubassets.com/4ec9bd16703921d68f17049a197901f5e8db7ad76cfd2be0988e8b0594184cdd/huggingface/transformers/releases/tag/v5.24.0",
+      "source_urls": [
+        "https://github.com/huggingface/transformers/releases/tag/v5.24.0"
+      ],
+      "status": "CONFIRMED",
+      "title": "Hugging Face Transformers v5.24.0 Released with Major Cache API Refactoring and New Model Integrations",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "Hugging Face Transformers Releases"
+      }
+    },
     "kimi-browser-extension-launch": {
       "image_kind": "mirrored_source",
       "image_prepared_at": "2026-10-04T19:31:16Z",
@@ -18639,7 +18721,7 @@
     "openrouter-rankings-nov-2026": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openrouter-rankings-nov-2026.jpg",
-      "last_updated": "2026-11-22T08:36:16Z",
+      "last_updated": "2026-11-23T11:21:07Z",
       "post_id": "1656617069732955586",
       "post_url": "https://edgeainews.blogspot.com/2026/11/openrouter-usage-data-shows-deepseek.html",
       "score": 82,
@@ -18653,14 +18735,15 @@
         "https://openrouter.ai/rankings#edgeai-4e0e1f92fd6c13e5a423",
         "https://openrouter.ai/rankings#edgeai-7f7f7675833034706899",
         "https://openrouter.ai/rankings#edgeai-45612fc689bdb495a0f1",
-        "https://openrouter.ai/rankings#edgeai-4106ab1d93b0f55c8478"
+        "https://openrouter.ai/rankings#edgeai-4106ab1d93b0f55c8478",
+        "https://openrouter.ai/rankings#edgeai-8e129703b8492e92dc4d"
       ],
       "status": "CONFIRMED",
-      "title": "OpenRouter Usage Data Updates: DeepSeek and Flash Variants Drive Mid-November 2026 Developer Traffic",
+      "title": "OpenRouter Usage Data Updates: DeepSeek V4.1 Flash and New Agentic Tooling Dominate Late November 2026 Traffic",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
-        "score": 81,
+        "score": 83,
         "source": "OpenRouter Rankings"
       }
     },

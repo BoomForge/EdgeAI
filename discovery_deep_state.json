@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-24T10:15:57Z",
+    "at": "2026-11-24T20:45:23Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 9,
-    "queued": 13,
+    "prefiltered": 2,
+    "queued": 5,
     "sources_ok": 15,
-    "too_old": 7,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 238,
+  "runs": 239,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -2090,6 +2090,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/gerty"
     },
+    "2d9b2b8de4028adf7548f3ab": {
+      "first_seen": "2026-11-24T20:45:19Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/"
+    },
     "2ddc0288d75763a63856ab5a": {
       "first_seen": "2026-11-20T11:34:00Z",
       "status": "too_old",
@@ -3315,6 +3320,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/trusty-csv"
     },
+    "477edd7d9ab5575ccae4c956": {
+      "first_seen": "2026-11-24T20:45:19Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/claude-just-killed-microsoft-office"
+    },
     "478ea25aeed3c99796b0356a": {
       "first_seen": "2026-11-20T03:06:05Z",
       "status": "queued",
@@ -4097,6 +4107,11 @@
       "first_seen": "2026-10-10T11:25:13Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/reso"
+    },
+    "56e9c90ddf31daba534f7205": {
+      "first_seen": "2026-11-24T20:45:20Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-eae193c6d89e4568c45d"
     },
     "56f159df158cbe330e304305": {
       "first_seen": "2026-10-22T07:30:04Z",
@@ -5047,6 +5062,12 @@
       "status": "queued",
       "url": "https://www.anthropic.com/news/public-benefit-fund?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "6abfe63fbd009c41dccc767d": {
+      "first_seen": "2026-11-24T20:45:19Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/hourly-journal"
+    },
     "6aea9d2a251416b544a5eece": {
       "first_seen": "2026-10-05T09:33:48Z",
       "search_score": 0,
@@ -5424,6 +5445,12 @@
       "first_seen": "2026-11-07T00:52:28Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/koltrix"
+    },
+    "726ffe0ff934e41f7c7df129": {
+      "first_seen": "2026-11-24T20:45:19Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/kodak-slidetag"
     },
     "7285d7b661f41f6ff0755320": {
       "first_seen": "2026-10-07T21:57:54Z",
@@ -8116,6 +8143,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/hera-6"
     },
+    "ad7fdf9ca760ee29a50ead0a": {
+      "first_seen": "2026-11-24T20:45:19Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-393da12f6a05b386acea"
+    },
     "adabeb1c4fba292590344eea": {
       "first_seen": "2026-10-19T10:44:24Z",
       "status": "too_old",
@@ -10068,6 +10100,11 @@
       "first_seen": "2026-11-03T09:27:30Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/beamfy"
+    },
+    "d9acfbe0c0517433bb34af0f": {
+      "first_seen": "2026-11-24T20:45:22Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2125321517064171629"
     },
     "d9bb4f8b86ff5a541ada2912": {
       "first_seen": "2026-10-22T07:30:04Z",

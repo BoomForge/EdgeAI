@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-23T12:22:07Z",
+    "at": "2026-11-24T00:11:36Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 9,
-    "queued": 3,
+    "prefiltered": 1,
+    "queued": 9,
     "sources_ok": 15,
-    "too_old": 6,
+    "too_old": 3,
     "warnings": 0
   },
-  "runs": 236,
+  "runs": 237,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -229,6 +229,11 @@
       "first_seen": "2026-10-31T00:48:07Z",
       "status": "queued",
       "url": "https://www.seroundtable.com/google-ai-training-control-42430.html?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "051a990e3faab85cfb0a9753": {
+      "first_seen": "2026-11-24T00:11:31Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/dog-translator-supertranslator"
     },
     "051f34b9aae910454be245f3": {
       "first_seen": "2026-11-12T11:41:10Z",
@@ -817,6 +822,16 @@
       "first_seen": "2026-11-21T00:54:32Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2123882459829875154"
+    },
+    "11e6a0cc6c38f8f4d2dbe67c": {
+      "first_seen": "2026-11-24T00:11:35Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2124889507610927533"
+    },
+    "11f567c93a04ebe53f7f0849": {
+      "first_seen": "2026-11-24T00:11:31Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/mai-image-2-3"
     },
     "12069dbe170b04bd498373b6": {
       "first_seen": "2026-10-15T14:58:06Z",
@@ -2163,6 +2178,11 @@
       "first_seen": "2026-10-22T21:35:21Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
+    },
+    "2f3ef0ead000ffc6df4c17bd": {
+      "first_seen": "2026-11-24T00:11:32Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54/"
     },
     "2f50bab6ba7bd88f9682d846": {
       "first_seen": "2026-11-19T13:44:48Z",
@@ -4123,6 +4143,11 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-fe185384b0b8cd9fcf12"
     },
+    "5891d8b84a7babfc97091a8c": {
+      "first_seen": "2026-11-24T00:11:32Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-ee87714c63f079e807e9"
+    },
     "58e842b94387adf939b0a1c0": {
       "first_seen": "2026-11-03T09:27:30Z",
       "status": "too_old",
@@ -4367,6 +4392,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/latch-7"
     },
+    "5e935d071b0a3fbccfac6255": {
+      "first_seen": "2026-11-24T00:11:35Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2124945850531037556"
+    },
     "5ebf20110b0a7c4331c376bf": {
       "first_seen": "2026-10-04T17:06:51Z",
       "status": "too_old",
@@ -4492,6 +4522,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/albie"
+    },
+    "607efd13331061dd68e119cb": {
+      "first_seen": "2026-11-24T00:11:31Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/figmamcp"
     },
     "60a34fc4c43bf41cbe86151c": {
       "first_seen": "2026-10-09T14:44:12Z",
@@ -5255,6 +5290,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/saidtrace"
     },
+    "70f5abd7aea147092cd3b3d6": {
+      "first_seen": "2026-11-24T00:11:31Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/kopyo"
+    },
     "71033b495826d320d0fb9e83": {
       "first_seen": "2026-11-14T08:55:05Z",
       "status": "too_old",
@@ -5475,6 +5516,11 @@
       "first_seen": "2026-11-10T20:02:29Z",
       "status": "queued",
       "url": "https://www.anthropic.com/news/roadshow-launch?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "75603f46e9ca98c6c31e0235": {
+      "first_seen": "2026-11-24T00:11:31Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/orpheus-2"
     },
     "7580d329b8685f4855204607": {
       "first_seen": "2026-11-19T21:52:25Z",
@@ -9533,6 +9579,11 @@
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "d26bd4b314a87a6551800b11": {
+      "first_seen": "2026-11-24T00:11:32Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/"
+    },
     "d29185cf3f97a7b1d0240615": {
       "first_seen": "2026-11-23T12:22:03Z",
       "search_score": 0,
@@ -10389,6 +10440,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/yourcast"
     },
+    "e59fe8be067f4ab68ffc304f": {
+      "first_seen": "2026-11-24T00:11:32Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird/"
+    },
     "e5bf2fe3c121747cc53874fb": {
       "first_seen": "2026-10-08T08:53:54Z",
       "status": "too_old",
@@ -11068,6 +11124,11 @@
       "status": "queued",
       "url": "https://sakana.ai/schmidhuber/"
     },
+    "f4a368e2e4aca2bd1b056475": {
+      "first_seen": "2026-11-24T00:11:31Z",
+      "status": "queued",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "f4aab44afe3f1629fbe99b54": {
       "first_seen": "2026-11-03T22:28:15Z",
       "status": "queued",
@@ -11309,6 +11370,11 @@
       "first_seen": "2026-10-03T00:46:02Z",
       "status": "queued",
       "url": "https://qwenlm.github.io/blog/qwen-image-edit/"
+    },
+    "f9b1f0589e4375d26d620e4d": {
+      "first_seen": "2026-11-24T00:11:33Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-e661a66db14609bbeecf"
     },
     "f9b2eb9a019f51aebb2c4572": {
       "first_seen": "2026-11-04T09:57:44Z",

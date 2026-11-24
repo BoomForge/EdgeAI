@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-24T00:11:36Z",
+    "at": "2026-11-24T10:15:57Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 9,
+    "prefiltered": 9,
+    "queued": 13,
     "sources_ok": 15,
-    "too_old": 3,
+    "too_old": 7,
     "warnings": 0
   },
-  "runs": 237,
+  "runs": 238,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -398,6 +398,11 @@
       "first_seen": "2026-11-03T22:28:19Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2117696344756252822"
+    },
+    "088f7c322a49586bbe2a0ae7": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/tday"
     },
     "08913be196df8938b291d515": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -1466,6 +1471,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2118830173004902641"
     },
+    "1e9fde50e78fc7798ed33db3": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/cullman"
+    },
     "1eb9694d7827865d4e95ff08": {
       "first_seen": "2026-10-10T20:14:07Z",
       "status": "queued",
@@ -2096,6 +2106,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/moreframe"
     },
+    "2e321ab828f69846d4973bf0": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/prates"
+    },
     "2e38eebea7b3f1398dcaf714": {
       "first_seen": "2026-11-11T15:31:28Z",
       "status": "queued",
@@ -2173,6 +2189,12 @@
       "first_seen": "2026-10-03T00:46:04Z",
       "status": "queued",
       "url": "https://sakana.ai/japan-startup-award-2026/"
+    },
+    "2f3392f1222919fd6c12aa5b": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/juncts"
     },
     "2f38489938aada9ceff85535": {
       "first_seen": "2026-10-22T21:35:21Z",
@@ -2703,6 +2725,12 @@
       "first_seen": "2026-10-16T10:03:10Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/harness-by-autonomous"
+    },
+    "3a83654cdd9e9f18ec8a9d8a": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/finer-screenshot"
     },
     "3ab36cae034414424f99747c": {
       "first_seen": "2026-11-09T11:23:00Z",
@@ -3364,6 +3392,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/aven-app-agent"
     },
+    "48906dda4498bae14e8de37f": {
+      "first_seen": "2026-11-24T10:15:52Z",
+      "status": "queued",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "48950ef873e3e535734f15fb": {
       "first_seen": "2026-11-05T03:47:02Z",
       "status": "queued",
@@ -3734,6 +3767,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/remote-gaze"
     },
+    "502bb1231b32ed5b66b97dec": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/umami-manager"
+    },
     "50576d926329aa09efa01639": {
       "first_seen": "2026-11-22T08:54:10Z",
       "status": "too_old",
@@ -4037,6 +4076,11 @@
       "first_seen": "2026-11-05T11:39:14Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/nock-2"
+    },
+    "56a3867df03648b261c05e3e": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-37a897ac7adba01b1239"
     },
     "56a6eb8a0a23c6afc6e401f1": {
       "first_seen": "2026-11-09T21:33:40Z",
@@ -5260,6 +5304,11 @@
       "status": "queued",
       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "70854a1bed34b3cacc1fe125": {
+      "first_seen": "2026-11-24T10:15:55Z",
+      "status": "queued",
+      "url": "https://sakana.ai/applied-research-lab/"
+    },
     "70c10ce905c06a54f91717a4": {
       "first_seen": "2026-10-09T07:47:51Z",
       "status": "queued",
@@ -5537,6 +5586,12 @@
       "first_seen": "2026-10-14T21:37:22Z",
       "status": "queued",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "75c5263ecc83ecae9e4b7e56": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/sparrowdesk"
     },
     "75c7495da2b47f2d3f189d4c": {
       "first_seen": "2026-11-06T20:59:32Z",
@@ -6012,6 +6067,11 @@
       "first_seen": "2026-11-10T03:50:46Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/cozyzip"
+    },
+    "7f23379fa28dce9e51ef9646": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/tendor"
     },
     "7f251a2320ab82b5ad20e1f3": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -6701,6 +6761,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/zapyso"
     },
+    "8e9d2ceef39aec42dd7a630f": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/astor"
+    },
     "8edf310cbf9c0577d1442636": {
       "first_seen": "2026-10-03T00:46:00Z",
       "search_score": 1,
@@ -7004,6 +7069,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/"
     },
+    "95f216a1d940ffe148f96d8a": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/claude-code"
+    },
     "962fa613337a4bffcda6a4f2": {
       "first_seen": "2026-10-18T10:57:54Z",
       "status": "too_old",
@@ -7080,6 +7150,11 @@
       "first_seen": "2026-11-04T09:57:41Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/openmail"
+    },
+    "973790a660264f2687688f89": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/adanotch"
     },
     "97397d7fa75c50842dda10c0": {
       "first_seen": "2026-10-03T00:46:00Z",
@@ -7188,6 +7263,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/subscriptrack"
+    },
+    "99e74f87b61c8898bb22f086": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-8e87c5774ba9747c92b4"
     },
     "99ed192118002ed42ded74aa": {
       "first_seen": "2026-10-13T10:55:50Z",
@@ -7731,6 +7811,12 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2123135537087181191"
     },
+    "a67bf6309d84231b0469cd47": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/rotara"
+    },
     "a68194e3fdd4077c8c92c488": {
       "first_seen": "2026-11-05T03:47:02Z",
       "status": "queued",
@@ -7871,6 +7957,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/put-here"
+    },
+    "a9bd121c814e0462adc581da": {
+      "first_seen": "2026-11-24T10:15:56Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2125023725347344794"
     },
     "a9e5eb40b02dd637ada77901": {
       "first_seen": "2026-10-03T05:50:29Z",
@@ -8297,6 +8388,11 @@
       "status": "queued",
       "url": "https://www.kimi.com/membership/pricing?from=header_nav&tab=business"
     },
+    "b3e055e868ea471d3e3cc670": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/distribution-dev"
+    },
     "b443199b5957d8fbbf00d876": {
       "first_seen": "2026-10-03T05:50:29Z",
       "status": "queued",
@@ -8541,6 +8637,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/cubicle-2"
     },
+    "b9a080f23ce836720250ec1d": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/granular-build"
+    },
     "b9c265a39495bd6fd5f8089e": {
       "first_seen": "2026-10-03T11:34:52Z",
       "search_score": 0,
@@ -8557,6 +8658,11 @@
       "first_seen": "2026-10-26T17:40:20Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2114743313685176544"
+    },
+    "ba23af475368a8009c31ad3b": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/k-stra"
     },
     "ba479076d0d4baac2b8f1773": {
       "first_seen": "2026-10-07T16:48:32Z",
@@ -8812,6 +8918,11 @@
       "status": "queued",
       "url": "https://www.musubilabs.ai/blog/introducing-policylm-1-7b?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "bfe39e5b176c7b576ee42037": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/"
+    },
     "c00d49acad62014c6ab80d8a": {
       "first_seen": "2026-10-09T14:44:12Z",
       "status": "queued",
@@ -8878,6 +8989,11 @@
       "first_seen": "2026-10-27T01:27:26Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+    },
+    "c169ccf8078dbf975f4bef84": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/viktor"
     },
     "c1a27575d6ef613117ed8d0d": {
       "first_seen": "2026-11-11T15:31:28Z",
@@ -9242,6 +9358,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/rankspot"
     },
+    "cb038529c3a8abc6146f0683": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/frwrd-to"
+    },
     "cb210e1bfd7e397053a30246": {
       "first_seen": "2026-11-09T21:33:40Z",
       "status": "queued",
@@ -9362,6 +9484,11 @@
       "first_seen": "2026-11-11T15:31:28Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/n8n-io"
+    },
+    "cde2e4331c947b3b8676571e": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/"
     },
     "ce381b568ffc4621db7fca15": {
       "first_seen": "2026-10-30T09:55:37Z",
@@ -9746,6 +9873,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/off-grid-ai"
     },
+    "d5e829a5eea1d015b2bcdd6f": {
+      "first_seen": "2026-11-24T10:15:52Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "d5f790226281cc8dde386f89": {
       "first_seen": "2026-11-13T21:40:50Z",
       "status": "queued",
@@ -9852,6 +9984,12 @@
       "first_seen": "2026-10-27T12:46:49Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/nuvio"
+    },
+    "d865f15886c97b379f8dd313": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/wellbreak"
     },
     "d86659296f5c5f68c3be8f88": {
       "first_seen": "2026-11-17T00:23:43Z",
@@ -9992,6 +10130,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/zigzag-3"
+    },
+    "db07c637b176ba55485b3298": {
+      "first_seen": "2026-11-24T10:15:52Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-shirudo/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "db2198007a214d5a15101a72": {
       "first_seen": "2026-10-11T09:11:21Z",
@@ -10521,6 +10664,12 @@
       "first_seen": "2026-11-17T00:23:44Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/boost-space"
+    },
+    "e77c1171d2facb16a0dfeffe": {
+      "first_seen": "2026-11-24T10:15:53Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/finseo-ai"
     },
     "e78574bc3f705c2e8a94f262": {
       "first_seen": "2026-10-19T17:12:31Z",
@@ -11201,6 +11350,11 @@
       "first_seen": "2026-11-21T08:14:20Z",
       "status": "queued",
       "url": "https://www.anthropic.com/news/ipo-close?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "f64760cb3b0b805990347685": {
+      "first_seen": "2026-11-24T10:15:52Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "f686d07c1e559dffea4025a0": {
       "first_seen": "2026-10-26T17:40:20Z",

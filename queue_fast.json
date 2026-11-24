@@ -1864,20 +1864,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "9092d5eb66f29547408d30e0",
-      "discovered_at": "2026-11-11T07:35:48Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Tue, 10 Nov 2026 08:00:00 GMT",
-      "search_score": 11,
-      "source_name": "OpenAI News",
-      "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
-      "title": "Singapore Airlines elevates travel & work with OpenAI technology",
-      "url": "https://openai.com/index/singapore-airlines-travel-work"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "3b3be741a87f5e2153e62660",
       "discovered_at": "2026-11-17T21:54:12Z",
       "kind": "official",
@@ -2071,48 +2057,6 @@
       "summary": "OpenAI commits $2 million to research on AI and children\u2019s safety. The work supports shared tools to measure risks and opportunities for young people.",
       "title": "Supporting research on AI and children\u2019s safety",
       "url": "https://openai.com/index/children-first-declaration"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "0f0020abcf733229d29f4d40",
-      "discovered_at": "2026-11-10T13:19:05Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Tue, 10 Nov 2026 12:00:00 GMT",
-      "search_score": 5,
-      "source_name": "OpenAI News",
-      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-      "title": "Helping caregivers use AI in everyday life",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "69d4d9d74efa01629a6c751d",
-      "discovered_at": "2026-11-10T13:19:05Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Tue, 10 Nov 2026 09:00:00 GMT",
-      "search_score": 5,
-      "source_name": "OpenAI News",
-      "summary": "New ThinkYoung research and lessons from OpenAI\u2019s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
-      "title": "Closing the AI guidance gap in education",
-      "url": "https://openai.com/index/closing-ai-guidance-gap-education"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "f3fc54cd1d78c100d666a9c2",
-      "discovered_at": "2026-11-10T20:29:49Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Tue, 10 Nov 2026 07:00:00 GMT",
-      "search_score": 5,
-      "source_name": "OpenAI News",
-      "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
-      "title": "Work at the Frontier: AI\u2019s effect on freelance work",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work"
     },
     {
       "bootstrap": false,
@@ -2323,20 +2267,6 @@
       "summary": "JioStar\u2019s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
       "title": "JioStar\u2019s chief architect on AI discovery at 500M-user scale",
       "url": "https://openai.com/index/jiostar-vijay-seshadri"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "991ad48e8559b2fefa9ff7bc",
-      "discovered_at": "2026-11-10T20:29:49Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Tue, 10 Nov 2026 10:00:00 GMT",
-      "search_score": 2,
-      "source_name": "OpenAI News",
-      "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-      "title": "Introducing Businesses in ChatGPT",
-      "url": "https://openai.com/index/introducing-businesses-chatgpt"
     },
     {
       "bootstrap": false,
@@ -2676,20 +2606,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "dac6751e4b3871feec9d0a08",
-      "discovered_at": "2026-11-10T20:29:56Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-10T17:17:04Z",
-      "search_score": 16,
-      "source_name": "llama.cpp Releases",
-      "summary": "vulkan: add tiled-transpose concat shader for Qwen models ( #30591 ) vulkan: tiled transpose for dim-0 concat with a transposed source The delta-net conv-state path does ggml_transpose() straight into a dim-0 ggml_concat(), so the generic concat kernel reads src1 with the transposed stride, one element per thread, and neighbouring lanes land on different cache lines. Stage a 32x32 tile through shared memory instead, which keeps both the load and the store coalesced. 33 columns pads away the bank conflicts. Gated narrowly: dim 0, 2D, unquantized 4-byte elements, contiguous src0/dst rows, and src1 actually transposed. Everything else falls through to the existing kernel. Qwen3.6-35B-A3B on gfx1151/RADV, 30 gated-delta-net layers: the CONCAT op goes 11877 us -> 957 us, and pp2048 at ub2048 goes 1224 -> 1628 t/s. Generated text is unchanged. The approach follows the tiled transposed concat Gaetan Puleo wrote for the HIP backend in his Strix Halo fork. Co-Authored-By: Claude Opus 5 noreply@anthropic.com enable by default, add smaller shader sizes clean up comments improve shader Add non-contiguous concat tests Co-authored-by: ravel7524 58877666+ravel7524@users.noreply.github.com handle x or y axis overflow Co-authored-by: Nathan Wilson nath.flagman151@passmail.com Co-authored-by: Claude Opus 5 noreply@anthropic.com Co-authored-by: ravel7524 58877666+ravel7524@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65912251 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12250",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12250"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "24342411095f0402a519e33d",
       "discovered_at": "2026-11-24T06:09:18Z",
       "kind": "local-ai",
@@ -2774,6 +2690,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "df1e6114e9dacf825631d40d",
+      "discovered_at": "2026-11-24T17:56:45Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-24T13:28:52Z",
+      "search_score": 13,
+      "source_name": "llama.cpp Releases",
+      "summary": "GDN: use replay instead of rollback ( #31669 ) GDN: use replay instead of rollback [WIP] memory : move rs_max with the sequence when find_slot swaps cells find_slot swapped pos/src/rs_pend/seq_id of the cell it moves out of the way, but not rs_max, so that sequence inherited the rollback depth of the cell's previous owner. A smaller value made seq_rm refuse the rollback ( #31656 ), a larger one made snapshot mode restore the previous owner's snapshots. With rs_replay the pending columns are copied along with the state, so rs_max follows the sequence. Without it only the final state is copied and the snapshots stay behind, so the moved sequence gets rs_max 0. delta_net: drop the graph replay fallback The graph fallback ran the replay as two gdn ops and copied the committed state from the replay gdn when keep, from the main gdn otherwise. Backends whose graph_optimize reorders nodes (Metal, Vulkan) then give keep and non keep ubatches a different node order for the same node count, and the scheduler reallocates on every switch (abort under GGML_SCHED_DEBUG_REALLOC). The replay now always runs in the gdn op. A device without the replay in its gdn op leaves the op to the CPU through the scheduler, as for any unsupported op. This removes LLAMA_RS_REPLAY=2, the replay probe, rs_replay_fused and the rep_mask input. metal: replay the pending gated delta net tokens in the kernel The gated delta net kernel replays the pending tokens of each seq before the new ones, with the same state update as the main loop and no attention output. With keep, it writes the state after the replay and skips the final state. The replay is a function constant of the pipeline, keep is a kernel argument as on CUDA. The pending buffers fall back to src0 when the op has no replay. vulkan: replay the pending gated delta net tokens in the shader The gated delta net shader replays the pending tokens of each seq before the new ones, with the same state update as the main loop and no attention output. With keep, it writes the state after the replay and skips the final state. The replay is a specialization constant of the pipeline, keep is a push constant as on CUDA. The pending buffers bind q when the op has no replay. The result checker clones the op with its replay sources. webgpu: replay the pending gated delta net tokens in the shader The gated delta net shader replays the pending tokens of each seq before the new ones, with the same state update as the main loop and no attention output. With keep, it writes the state after the replay and skips the final state. The replay is a define of the pipeline, keep is a param as on CUDA. The replay count goes through workgroupUniformLoad, so that the loop around the workgroup barriers stays uniform. delta_net: share the replay conv window views across layers Each replay layer took its own view of the rs_rep_cols input. The scheduler copies every view of a host input as a separate split input, so a verify graph uploaded one copy per layer. The views of the delta net and the PLE conv windows are now built once per graph, like the s_copy views. vulkan: clamp the gated delta net replay count to n_pend The replay count comes from a buffer, so the shader bounds it to the pending rows before looping over them. The pipeline array comment now names the replay index next to the other ones. Address review from 0cc4m. hex-gdn: add support for replay Enable replay in HVX path Enable replay in HMX path gdn: fix rebase conflicts (missing cparams, etc) llama : drop the fused GDN probes brought back by the rebase il parameter of build_delta_net. The rebase kept them (unused, auto_fgdn was always false), so restore master's version of that code. delta_net : replay for the KDA models and Clover-MoE Clover-MoE has the Qwen 3.5 layout and only needs the arch gate. Kimi K3, Kimi K3.1, GLM5-Next and BailingMoE3 keep the q, k and v conv windows one after the other in a row. With replay the row holds three channels-first histories [d_inner, window + pending]: build_conv_state_replay takes the gathered rows of the layer and the block index. The pending gate rows hold S_v gates per head (KDA). GLM5-Next gets the -sm tensor split rules for the replay rows. Tested with test-llama-archs models: logits match snapshots bit for bit with random rollbacks (CUDA, Vulkan, CPU), no graph re-plans, and test-llama-context passes in both modes. cuda : same KDA update in the gated delta net main and replay loops The KDA main loop called expf(g) twice inline, the replay loop reads g from registers. On sm_89 nvcc fused the two loops differently, so a replayed state was a few ulp off the state of the first pass. Compute g into registers in the main loop too: replay matches snapshots bit for bit on sm_89, and the sm_120 output does not change. opencl: support replay in GDN llama : replay inputs for the hybrid iswa rel memory input build_inp_mem_hybrid_iswa_rel came in with the rebase: pass hparams and cparams to build_rs_inp_impl and fill the replay inputs in set_input, like the other hybrid inputs. webgpu: keep the gated delta net replay within the storage buffer limit delta_net : add ggml_gated_delta_net_ext, replay is the only rollback ggml_gated_delta_net_ext takes the optional replay inputs and always outputs one state. ggml_gated_delta_net(..., K) is back to its master signature and is deprecated; both build the same op, so the backends are unchanged. The delta-net models (qwen35, qwen35moe, qwen4exp, clover-moe and the KDA models) now always replay the kept tokens when n_rs_seq > 0. The LLAMA_RS_REPLAY env flag and the snapshot branch of build_recurrent_attn are removed. test-backend-ops drops the K > 1 snapshot cases and the K parameter of the gated delta net tests. The cache fusion test copies the single state. ggml-cpu : spacemit: leave the gdn replay to the generic kernel The RVV gated delta net kernel does not read the replay inputs. Return false when op param 1 (n_pend) is set, so that the generic kernel runs the op. vulkan : fill views at any offset ggml_vk_fill bound dst without allowing a misaligned offset, so a fill of a view whose offset is not a multiple of minStorageBufferOffsetAlignment aborted. The recurrent state zeroing in build_rs hits this with the wider replay conv rows on devices with a 64-byte alignment. Bind dst from the aligned offset below it and pass the element offset in KY. test_fill gets an offset to fill a view in place. Co-authored-by: Pascal admin@serveurperso.com Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71624645 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12676",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12676"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "b96d8738b446b8e65c96c7db",
       "discovered_at": "2026-11-22T07:06:00Z",
       "kind": "agents",
@@ -2855,20 +2785,6 @@
       "summary": "llama : remove redundant fields from llm_graph_params ( #32596 ) llm_graph_params no longer carries hparams, prec_policy and hdmd, since the model reference already provides them. llm_graph_context sources them from the model and keeps prec_policy as a reference. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69749431 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
       "title": "b12546",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12546"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "6d99531d45b580bdaecc93c6",
-      "discovered_at": "2026-11-10T20:29:56Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-10T07:42:25Z",
-      "search_score": 12,
-      "source_name": "llama.cpp Releases",
-      "summary": "sycl: Add device-side MoE scheduler Assisted-by: Codex Add width-heuristic override bit and Q2_K and Q3_K types Assisted-by: Codex tests: cover skipped MUL_MAT_ID slots on the device MoE schedule Assisted-by: Claude Opus 5.5 sycl: keep graphs on for lazily reordered MUL_MAT and reject BN=64 combos on the device MoE schedule The graph check disabled SYCL graphs until every MUL_MAT weight with a reorder extra was reordered, which never happens for some (dense MXFP4, the fused GLU plain path), so graphs stayed off and the check reran on every compute. Upstream already reorders those during recording with the async memory extension, so only MUL_MAT_ID weights are reordered ahead of recording now. ggml_sycl_grouped_dequant_gemm_device_supported() accepted any XMX combo, but the device schedule only runs with BN == GGML_SYCL_FG_BN, so a 32x64 combo (GGML_SYCL_XMX_GATHER_SHAPES=4 or 8) made the graph check pass and the compute fall back to the host sync path while recording. Assisted-by: Claude Opus 5.5 sycl: keep the ggml_sycl_mul_mat_id_needs_sync name for the graph check Assisted-by: Claude Opus 5.5 fix: stop erroneously reordering host-offloaded tensors With -ncmoe, prompt processing offloads the CPU-resident expert matmuls to the GPU: the scheduler uploads the experts into a copy in the compute buffer before every run. init_tensor gave that copy a reorder record, so the MUL_MAT_ID gather path reordered every offloaded expert tensor on every ubatch, and the next upload overwrote the result. Qwen3-30B-A3B Q4_K_M, 1x B60, llama-perplexity -c 4096 -ub 2048 -ncmoe 48, 8 chunks, on master ac8e169 : master                        116 s, PPL 7.739 master XMX_GATHER_TYPES=0      67 s, PPL 7.738 with this change               67 s, PPL 7.729 Refs #31262 Assisted-by: Claude Opus 5.5 Remove SYCL-specific test comments Co-authored-by: Georgi Gerganov ggerganov@gmail.com sycl : name the MUL_MAT_ID path predicates after what they decide ggml_sycl_mul_mat_id_mmvq_ok -> ggml_sycl_mul_mat_id_should_use_mmvq ggml_sycl_mul_mat_id_mmvq_shape_ok -> ggml_sycl_mul_mat_id_mmvq_eligible ggml_sycl_mul_mat_id_grouped_shape_ok -> ggml_sycl_mul_mat_id_device_sched_eligible node_is_device_local -> graph_node_is_in_local_device ggml_sycl_gg_rows -> ggml_sycl_grouped_gemm_rows ggml_sycl_gg_tile -> ggml_sycl_grouped_gemm_tile (from #29245 , renamed to match) \"eligible\" is a necessary condition; the type and width checks follow elsewhere. \"should_use\" means the path runs. No functional change. Assisted-by: Claude Opus 5.5 sycl : reorder Q3_K MoE experts and load them as vectors in the grouped GEMM Assisted-by: Claude Opus 5.5 Co-authored-by: cwriter cwriter@localhost Co-authored-by: Claude noreply@anthropic.com Co-authored-by: Georgi Gerganov ggerganov@gmail.com",
-      "title": "b12251: sycl: Add device-side MoE scheduler (#30156)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12251"
     },
     {
       "bootstrap": false,
@@ -3121,6 +3037,20 @@
       "summary": "What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx: support concurrent generation by @dhiltgen in #19197 llama.cpp: version bump b12257 by @dhiltgen in #19646 MLX, MLX-C: version bump by @dhiltgen in #19647 New Contributors @rpreslar4765 made their first contribution in #17163 Full Changelog : v0.40.16...v0.40.17-rc0",
       "title": "v0.40.17",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "06a5e0898babe8ff1b38761a",
+      "discovered_at": "2026-11-24T17:56:45Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-24T07:06:34Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "metal : batch concat rows and copy them in vector chunks ( #32824 ) metal : batch concat rows and copy them in vector chunks The concat kernel copied one element per thread, so wide rows with many rows ran at a fraction of the memory bandwidth. Batch several rows per threadgroup and copy the contiguous dim-0 elements in 4-element chunks when the row is contiguous. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB) test : cover concat vector and misaligned row paths Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (RTX 5090 32GB, DDR5 128GB) metal : hoist the concat src1 row offset into scalars Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (RTX 5090 32GB, DDR5 128GB) metal : peel to align the concat vector copy Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (RTX 5090 32GB, DDR5 128GB) metal : vectorize concat rows along any dimension Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (RTX 5090 32GB, DDR5 128GB) metal : specialize concat with function constants Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (RTX 5090 32GB, DDR5 128GB) metal : drop the concat row-batch dispatch Batching several rows per threadgroup reduces the number of threads by the batch factor. On machines with a large GPU this leaves too few requests in flight and the copy becomes latency bound: M5 Ultra (36 CPU)   f16 [1024,8,256,1] d=0   8.1 us -> 17.2 us f32 [4096,8,256,1] d=0  35.4 us -> 118.5 us f16 [4096,8,256,1] d=2  50.9 us -> 102.0 us An interleaved sweep of the (nth, nrptg) dispatch over the concat perf cases on an M2 Ultra and an M5 Ultra shows that the base dispatch is best or tied for every shape once the rows are vectorized, and that the gains of the previous commit come from the vector copy alone: M2 Ultra  f16 [1024,8,256,1] d=0  32.4 us -> 17.0 us M5 Ultra  f16 [1024,8,256,1] d=0  13.3 us ->  8.1 us Keep the vector copy and the function-constant specialization, and return to the original dispatch. Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (RTX 5090 32GB, DDR5 128GB) metal : revert the concat function constants Specializing the concat kernel on the concat dimension and on whether a row is split across threadgroups with function constants makes the strided scalar path slower. Interleaved over the concat perf cases on an M5 Ultra, the specialized kernel is not faster than the plain one, and it costs up to 18% on shapes that are already at the memory bandwidth limit: f32 [2050,8,256,1] b=255 d=0  21.0 us -> 25.1 us f32 [2050,8,256,1] b=256 d=2  31.1 us -> 36.7 us f16 [4096,8,256,1] b=256 d=2  31.2 us -> 36.7 us Revert the specialization and keep copying rows with the runtime arguments. The concat change is now limited to the kernel itself. Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (RTX 5090 32GB, DDR5 128GB) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71479926 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12671",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12671"
     },
     {
       "bootstrap": false,
@@ -3460,6 +3390,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "417be228cec59f8a2ed91a21",
+      "discovered_at": "2026-11-24T17:56:41Z",
+      "kind": "open-source",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-24T16:13:08Z",
+      "search_score": 7,
+      "source_name": "Hugging Face Transformers Releases",
+      "summary": "Patch release v5.24.1 A patch to fix a bunch of stuff for vLLM, a few distributed issues, and some model fixes (llama4, dory); see the full list vLLM related Fix backward compatibility of the cache rename for remote code ( #51085 ) by @hmellor Restore modeling_attn_mask_utils for remote code (one-off to unblock vLLM) ( #51124 ) by @hmellor Expose past_key_values in MBartDecoderLayer.forward signature for remote code ( #51177 ) by @hmellor [OmniASR] Support a padding_mask kept on the CPU in the audio encoder ( #51100 ) by @El-euchidali Model fixes Fix Llama4 forward crash on missing image_outputs ( #51144 ) by @kylesayrs Fix dory static cache ( #50993 ) by @ArthurZucker Distributed Allow expert parallelism alone with tp_plan={} ( #50996 ) by @3outeille Fix strided checkpoint reads on PyTorch 2.9 ( #51042 ) by @satsuki2486441738 Full Changelog : v5.24.0...v5.24.1",
+      "title": "Patch release v5.24.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.1"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "acd761c740c5ce014c75e607",
+      "discovered_at": "2026-11-24T17:56:45Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-24T08:30:17Z",
+      "search_score": 6,
+      "source_name": "llama.cpp Releases",
+      "summary": "opencl: fetch the Adreno binary kernel library at configure time for Windows on Snapdragon ( #31759 ) opencl: fetch the Adreno binary kernel library at configure time Make GGML_OPENCL_USE_ADRENO_BIN_KERNELS an option, default ON, and add GGML_OPENCL_ADRENO_BIN_KERNELS_FETCH, default ON. On Windows, CMake downloads the pinned adreno-opencl-kernels release from the Qualcomm Software Center, verifies its SHA256, and copies the DLL and its license next to the executables. A failed download is only a warning; the backend then uses its builtin kernels. The opencl-adreno release job turns the fetch off, since it ships only ggml-opencl.dll. opencl: fetch the Adreno binary kernel library only on ARM64 The library is built for Windows on ARM64 only. opencl: add download timeout and better handle output dir Assisted-by: Codex opencl: add .txt to license file Assisted-by: Codex Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71506489 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12674",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12674"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "ae836c648768a52366a05f22",
       "discovered_at": "2026-11-24T06:09:20Z",
       "kind": "inference",
@@ -3471,6 +3429,48 @@
       "summary": "Signed-off-by: Johnsonms lizhaofu@gmail.com Co-authored-by: vllm-agent claw@inferact.ai",
       "title": "v0.34.1rc0: [Perf][Qwen4Exp] Add SM100 TP=2 and TP=8 skinny GEMM plans (#69529)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "94777b35d1e04ab74c4f9654",
+      "discovered_at": "2026-11-24T17:56:45Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-23T19:02:30Z",
+      "search_score": 6,
+      "source_name": "llama.cpp Releases",
+      "summary": "metal : add NVFP4 support Follow the MXFP4 path: add the UE4M3 scale decode, the NVFP4 dequantizers, a dedicated mat-vec kernel with its MUL_MAT_ID, small-batch and MMA variants, the mul_mm / mul_mm_id and tensor-op variants, and the get_rows and cpy kernels. Enable the type in supports_op. Tested on an M5 Max with ggml-org/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-GGUF:NVFP4 and test-backend-ops (MUL_MAT, MUL_MAT_ID, W4A8/W4A4, CPY, GET_ROWS). Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (2x DGX Spark (RDMA, TP=2)) metal : skip the small-batch path for NVFP4 With the few-row MMA kernels covering ne11 3..16, the small-batch mat-vec kernels are only reachable at ne11 = 2, where they are 17-59% slower than the generic mat-vec kernel on an M2 Ultra and an M5 Max. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (2x DGX Spark (RDMA, TP=2))",
+      "title": "b12672: metal : add NVFP4 support (#32825)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12672"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "0af7158376dbf2f78a8052f5",
+      "discovered_at": "2026-11-24T17:56:45Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-24T10:00:15Z",
+      "search_score": 5,
+      "source_name": "llama.cpp Releases",
+      "summary": "server : preserve a prompt-cache entry until restores succeed ( #32828 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71542828 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12675",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12675"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "dbf3279a2f3448f95b8e3d98",
+      "discovered_at": "2026-11-24T17:56:46Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-24T08:27:44Z",
+      "search_score": 5,
+      "source_name": "Ollama Releases",
+      "summary": "What's Changed mlx: fuse Inkling residual mixing on Metal by @dhiltgen in #19808 mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in #19805 llama.cpp: version bump b12651 + remove jetpack5 support by @pdevine in #19865 inkling2: faster Metal decode, prefill and draft rounds by @dhiltgen in #19843 Full Changelog : v0.40.17...v0.40.18-rc0",
+      "title": "v0.40.18",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18"
     },
     {
       "bootstrap": false,
@@ -3502,6 +3502,6 @@
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-24T06:09:38Z",
+  "updated_at": "2026-11-24T17:57:05Z",
   "version": 2
 }

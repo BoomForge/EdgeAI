@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-24T06:09:38Z",
+    "at": "2026-11-24T17:57:05Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 0,
-    "queued": 16,
+    "prefiltered": 2,
+    "queued": 12,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 240,
+  "runs": 241,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -358,6 +358,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.08792"
     },
+    "06a5e0898babe8ff1b38761a": {
+      "first_seen": "2026-11-24T17:56:45Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12671"
+    },
     "06b77d408489d463550b76b1": {
       "first_seen": "2026-11-16T21:47:38Z",
       "status": "queued",
@@ -554,6 +559,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06897"
     },
+    "0af7158376dbf2f78a8052f5": {
+      "first_seen": "2026-11-24T17:56:45Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12675"
+    },
     "0b0024271a7c2b5987bb318b": {
       "first_seen": "2026-10-19T04:18:13Z",
       "status": "queued",
@@ -708,6 +718,11 @@
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.18878"
+    },
+    "0d108e7b71c406494d2fb930": {
+      "first_seen": "2026-11-24T17:56:40Z",
+      "status": "queued",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/"
     },
     "0d1bedda434773699099da05": {
       "first_seen": "2026-10-03T00:45:52Z",
@@ -3163,6 +3178,11 @@
       "status": "too_old",
       "url": "https://github.com/huggingface/smolagents/releases/tag/v1.25.0"
     },
+    "35a7742018a78626cd493e27": {
+      "first_seen": "2026-11-24T17:56:45Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12677"
+    },
     "35daebbb925807f6385a9035": {
       "first_seen": "2026-11-23T10:28:56Z",
       "status": "queued",
@@ -3827,6 +3847,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12052"
     },
+    "417be228cec59f8a2ed91a21": {
+      "first_seen": "2026-11-24T17:56:41Z",
+      "status": "queued",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.1"
+    },
     "4180f416c105d02a25cf84ca": {
       "first_seen": "2026-11-05T21:07:57Z",
       "search_score": 0,
@@ -4425,6 +4450,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.24960"
     },
+    "4aad2bdf1fe7ed5f68c7dbc0": {
+      "first_seen": "2026-11-24T17:56:40Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders/"
+    },
     "4ac66f0ceceacb1604f99a9c": {
       "first_seen": "2026-11-16T11:43:50Z",
       "status": "queued",
@@ -4529,6 +4559,11 @@
       "first_seen": "2026-11-11T07:35:49Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.12938"
+    },
+    "4ce612ee14691da9a9ba4e17": {
+      "first_seen": "2026-11-24T17:56:57Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.924-beta"
     },
     "4ced9b5daa264ea95664391c": {
       "first_seen": "2026-11-05T05:49:59Z",
@@ -7043,6 +7078,12 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.35984"
     },
+    "796415acf1526e46ebf3928f": {
+      "first_seen": "2026-11-24T17:56:40Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/women-in-film-india-google-flow/"
+    },
     "7986565e52b77548a041f540": {
       "first_seen": "2026-11-23T10:28:49Z",
       "status": "queued",
@@ -8622,6 +8663,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12426"
     },
+    "9458878613dc3d17718ff8a8": {
+      "first_seen": "2026-11-24T17:56:45Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12678"
+    },
     "945ba015726b3f326c93c17b": {
       "first_seen": "2026-10-21T20:14:08Z",
       "status": "queued",
@@ -8636,6 +8682,11 @@
       "first_seen": "2026-11-18T12:14:24Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.21646"
+    },
+    "94777b35d1e04ab74c4f9654": {
+      "first_seen": "2026-11-24T17:56:45Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12672"
     },
     "9488724a10f6105393eb7571": {
       "first_seen": "2026-11-19T10:08:59Z",
@@ -9822,6 +9873,12 @@
       "status": "queued",
       "url": "https://openai.com/index/franklin-templeton"
     },
+    "a8f4e5ff36641a7869e3fe34": {
+      "first_seen": "2026-11-24T17:56:40Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/expanding-london-home-kings-cross/"
+    },
     "a9294cc43c2b4cdfa4041cd4": {
       "first_seen": "2026-10-08T07:31:17Z",
       "status": "queued",
@@ -10007,6 +10064,11 @@
       "first_seen": "2026-11-11T07:35:48Z",
       "status": "queued",
       "url": "https://openai.com/index/chatgpt-plus-for-veterans"
+    },
+    "acd761c740c5ce014c75e607": {
+      "first_seen": "2026-11-24T17:56:45Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12674"
     },
     "acff593fa03b04ca6901f835": {
       "first_seen": "2026-10-08T07:31:18Z",
@@ -12778,6 +12840,11 @@
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc2"
     },
+    "dbf3279a2f3448f95b8e3d98": {
+      "first_seen": "2026-11-24T17:56:46Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18"
+    },
     "dc072a92c6c9bda084e3a556": {
       "first_seen": "2026-10-09T06:41:16Z",
       "status": "queued",
@@ -12991,6 +13058,11 @@
       "first_seen": "2026-10-21T00:55:30Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11763"
+    },
+    "df1e6114e9dacf825631d40d": {
+      "first_seen": "2026-11-24T17:56:45Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12676"
     },
     "df523df86c83732c52ed92f5": {
       "first_seen": "2026-10-19T21:22:48Z",

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-23T22:13:56Z",
+    "at": "2026-11-24T06:09:38Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
+    "prefiltered": 0,
     "queued": 16,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 239,
+  "runs": 240,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1809,6 +1809,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/"
     },
+    "1d49674c589d4df6d151daec": {
+      "first_seen": "2026-11-24T06:09:29Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.110.3"
+    },
     "1d810bfe409cd0323759ff72": {
       "first_seen": "2026-10-28T01:42:05Z",
       "status": "queued",
@@ -2060,6 +2065,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.22511"
     },
+    "229eade2de90165cbfe18dcf": {
+      "first_seen": "2026-11-24T06:09:18Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12662"
+    },
     "22f689f1c4c7ac34dc0277b0": {
       "first_seen": "2026-10-26T05:16:26Z",
       "status": "queued",
@@ -2150,6 +2160,11 @@
       "first_seen": "2026-11-16T11:43:50Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.17463"
+    },
+    "24342411095f0402a519e33d": {
+      "first_seen": "2026-11-24T06:09:18Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12668"
     },
     "2434881791854a653a123034": {
       "first_seen": "2026-10-17T22:56:57Z",
@@ -3203,6 +3218,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12377"
     },
+    "371d782b7284ba4a4363cb27": {
+      "first_seen": "2026-11-24T06:09:18Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12659"
+    },
     "372301cd6ac8a8908391a22c": {
       "first_seen": "2026-10-19T04:18:14Z",
       "status": "queued",
@@ -3777,6 +3797,11 @@
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.0"
     },
+    "410111e56cecf65e1657ed9c": {
+      "first_seen": "2026-11-24T06:09:19Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0"
+    },
     "411c3a13a5d37b3ffb11e8b5": {
       "first_seen": "2026-11-18T20:41:53Z",
       "status": "queued",
@@ -4349,6 +4374,11 @@
       "status": "too_old",
       "url": "https://github.com/stanfordnlp/dspy/releases/tag/3.4.0b1"
     },
+    "4a2208459a63a7a7535d58e0": {
+      "first_seen": "2026-11-24T06:09:18Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12658"
+    },
     "4a2d84d32c3ea23afcc1ddca": {
       "first_seen": "2026-11-04T18:14:30Z",
       "status": "queued",
@@ -4762,6 +4792,11 @@
       "first_seen": "2026-11-09T05:25:55Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.08651"
+    },
+    "52bc13fa42eb98a3356fdf61": {
+      "first_seen": "2026-11-24T06:09:18Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12669"
     },
     "52c93fcf6b24dbf372a96565": {
       "first_seen": "2026-10-16T21:43:55Z",
@@ -5939,6 +5974,11 @@
       "first_seen": "2026-10-07T16:38:55Z",
       "status": "queued",
       "url": "https://openai.com/index/teens-learn-and-plan"
+    },
+    "6632044ca6ee3667da9dd4aa": {
+      "first_seen": "2026-11-24T06:09:36Z",
+      "status": "queued",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.45"
     },
     "664553e7007c199f396852d8": {
       "first_seen": "2026-10-24T16:57:11Z",
@@ -7415,6 +7455,11 @@
       "status": "queued",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.0"
     },
+    "823822d28fd98130568b56af": {
+      "first_seen": "2026-11-24T06:09:38Z",
+      "status": "queued",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.73.0"
+    },
     "82423b134af5a2d779cd5dda": {
       "first_seen": "2026-10-23T21:42:04Z",
       "status": "queued",
@@ -7620,6 +7665,11 @@
       "first_seen": "2026-11-19T10:08:59Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.23240"
+    },
+    "845876460c50859707d418aa": {
+      "first_seen": "2026-11-24T06:09:29Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.109.4"
     },
     "846fae8d241f69fb74914fb1": {
       "first_seen": "2026-10-23T18:43:04Z",
@@ -8738,6 +8788,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/putting-one-of-quantum-mechanics-deepest-features-to-test-at-scale/"
+    },
+    "97a6511f1764049cfcb05d8f": {
+      "first_seen": "2026-11-24T06:09:18Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12667"
     },
     "97b1870af3035f4549bcfa4d": {
       "first_seen": "2026-11-20T01:12:10Z",
@@ -10068,6 +10123,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12445"
     },
+    "ae836c648768a52366a05f22": {
+      "first_seen": "2026-11-24T06:09:20Z",
+      "status": "queued",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0"
+    },
     "ae8cc1ad843ebfe5fc666522": {
       "first_seen": "2026-10-19T21:22:48Z",
       "status": "queued",
@@ -10213,6 +10273,11 @@
       "first_seen": "2026-11-20T08:40:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.23375"
+    },
+    "b0689cf87ab570a441c88635": {
+      "first_seen": "2026-11-24T06:09:12Z",
+      "status": "queued",
+      "url": "https://openai.com/index/introducing-shirudo"
     },
     "b07e710a2d2c19f538678b37": {
       "first_seen": "2026-11-18T12:14:24Z",
@@ -10437,6 +10502,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/"
     },
+    "b4e0f75f44caa34753ea785b": {
+      "first_seen": "2026-11-24T06:09:18Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12670"
+    },
     "b4faf8df08de0fcc37e0f8c0": {
       "first_seen": "2026-11-17T13:40:36Z",
       "status": "queued",
@@ -10607,6 +10677,11 @@
       "first_seen": "2026-11-18T12:14:24Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.21799"
+    },
+    "b88e4e0f3ee5b6e02b8701a2": {
+      "first_seen": "2026-11-24T06:09:17Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.3"
     },
     "b8b3921deeda241db497e80b": {
       "first_seen": "2026-10-10T15:11:44Z",
@@ -11508,6 +11583,11 @@
       "first_seen": "2026-10-16T05:36:28Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.20794"
+    },
+    "c721d869f97e269800337bde": {
+      "first_seen": "2026-11-24T06:09:18Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12679"
     },
     "c75827da1cfa5e282979f290": {
       "first_seen": "2026-10-03T00:46:18Z",

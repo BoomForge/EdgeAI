@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-24T17:57:05Z",
+    "at": "2026-11-25T02:02:08Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 12,
+    "prefiltered": 0,
+    "queued": 20,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 241,
+  "runs": 242,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -2489,6 +2489,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12179"
     },
+    "2921313c1890b3ba1c05726f": {
+      "first_seen": "2026-11-25T02:01:46Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12697"
+    },
     "29339b7285f39e60785cdcde": {
       "first_seen": "2026-11-17T21:54:12Z",
       "status": "queued",
@@ -2955,6 +2960,11 @@
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.57.0"
     },
+    "31d7877117f1d6dcd7c102f6": {
+      "first_seen": "2026-11-25T02:01:46Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12699"
+    },
     "31e0c9262491c8cca07f4b5d": {
       "first_seen": "2026-10-26T05:16:26Z",
       "status": "queued",
@@ -3071,6 +3081,11 @@
       "first_seen": "2026-10-03T00:46:09Z",
       "status": "queued",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.4"
+    },
+    "33b577176b8ad3feee4abc14": {
+      "first_seen": "2026-11-25T02:01:59Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.109.5"
     },
     "33b95c2112c46efd09554302": {
       "first_seen": "2026-11-15T23:30:46Z",
@@ -3821,6 +3836,11 @@
       "first_seen": "2026-11-24T06:09:19Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0"
+    },
+    "410203bcd334fcc80af914ba": {
+      "first_seen": "2026-11-25T02:01:46Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12693"
     },
     "411c3a13a5d37b3ffb11e8b5": {
       "first_seen": "2026-11-18T20:41:53Z",
@@ -4781,6 +4801,11 @@
       "first_seen": "2026-10-17T18:34:47Z",
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.5"
+    },
+    "511e5b07a1e5fbf67c323262": {
+      "first_seen": "2026-11-25T02:01:59Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.112.0-rc.1"
     },
     "512562f1d7f67f90d120ea85": {
       "first_seen": "2026-10-20T05:16:24Z",
@@ -6867,6 +6892,11 @@
       "status": "queued",
       "url": "https://openai.com/index/openai-cut-incident-investigation"
     },
+    "743cfa1919235c4a0ba52f07": {
+      "first_seen": "2026-11-25T02:01:46Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12696"
+    },
     "7442731f0202b0d381df6f0b": {
       "first_seen": "2026-11-03T17:54:39Z",
       "status": "queued",
@@ -6991,6 +7021,11 @@
       "first_seen": "2026-10-21T11:25:13Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11792"
+    },
+    "7758c04a629331bf96383fb7": {
+      "first_seen": "2026-11-25T02:01:40Z",
+      "status": "queued",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra"
     },
     "779981c7cacf901a2d499aec": {
       "first_seen": "2026-11-16T11:43:50Z",
@@ -7309,6 +7344,11 @@
       "first_seen": "2026-10-03T00:45:54Z",
       "status": "too_old",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1"
+    },
+    "7e14b56be674430859075a7f": {
+      "first_seen": "2026-11-25T02:01:40Z",
+      "status": "queued",
+      "url": "https://openai.com/business/customer-stories/intentful-dots"
     },
     "7e52a6acfd99b02c3f1f907e": {
       "first_seen": "2026-11-03T17:54:39Z",
@@ -8025,10 +8065,20 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12534"
     },
+    "89a905d5eae9fa3ef5a8af6c": {
+      "first_seen": "2026-11-25T02:01:40Z",
+      "status": "queued",
+      "url": "https://openai.com/business/customer-stories/ifood"
+    },
     "89c32091399dabfa1a90ef3e": {
       "first_seen": "2026-10-10T08:59:32Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11541"
+    },
+    "89dd45cf6b09ea657cba3f73": {
+      "first_seen": "2026-11-25T02:02:08Z",
+      "status": "queued",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.11"
     },
     "89e4b2e0883990e455c22603": {
       "first_seen": "2026-10-16T05:36:28Z",
@@ -8687,6 +8737,11 @@
       "first_seen": "2026-11-24T17:56:45Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12672"
+    },
+    "9486922f7aa0728711726803": {
+      "first_seen": "2026-11-25T02:01:46Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12695"
     },
     "9488724a10f6105393eb7571": {
       "first_seen": "2026-11-19T10:08:59Z",
@@ -9642,6 +9697,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12540"
     },
+    "a3c9028eefd69cfd15ff27f4": {
+      "first_seen": "2026-11-25T02:01:40Z",
+      "status": "queued",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai"
+    },
     "a3cf20eae0fce76e913abe7e": {
       "first_seen": "2026-10-03T00:45:58Z",
       "status": "queued",
@@ -9688,6 +9748,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.31814"
     },
+    "a50ec739fa6280114cf069d8": {
+      "first_seen": "2026-11-25T02:01:59Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.110.4"
+    },
     "a52615d03b6849c8c0ea3f2e": {
       "first_seen": "2026-10-03T00:46:10Z",
       "status": "queued",
@@ -9717,6 +9782,11 @@
       "first_seen": "2026-11-05T05:49:59Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.05382"
+    },
+    "a5edda0d6f4bf7c08aa924d6": {
+      "first_seen": "2026-11-25T02:01:46Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12690"
     },
     "a5fde3906956a8ce3cf62d0a": {
       "first_seen": "2026-10-17T16:12:06Z",
@@ -10054,6 +10124,11 @@
       "first_seen": "2026-10-26T11:16:07Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11895"
+    },
+    "ac2f786b30f6d45772c42167": {
+      "first_seen": "2026-11-25T02:01:40Z",
+      "status": "queued",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
     },
     "ac41f4531fca042f6f8aec42": {
       "first_seen": "2026-10-03T00:45:58Z",
@@ -10502,6 +10577,11 @@
       "first_seen": "2026-10-14T19:29:32Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11619"
+    },
+    "b3c2fbac6fb59bc1eb787b1a": {
+      "first_seen": "2026-11-25T02:02:08Z",
+      "status": "queued",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.74.0"
     },
     "b3fc674c3d84fc157dac03b3": {
       "first_seen": "2026-11-16T11:43:56Z",
@@ -11891,6 +11971,11 @@
       "first_seen": "2026-10-03T00:46:21Z",
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.53.0"
+    },
+    "cbf46f891ea775e1989c330c": {
+      "first_seen": "2026-11-25T02:01:59Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.111.0"
     },
     "cc240cb0b9ea2a1163aff3e4": {
       "first_seen": "2026-10-15T10:18:29Z",
@@ -13583,6 +13668,16 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.26775"
     },
+    "e7bb12864a66e0a9480c86c7": {
+      "first_seen": "2026-11-25T02:01:46Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12694"
+    },
+    "e7f7857605a40d83ddd199b2": {
+      "first_seen": "2026-11-25T02:01:40Z",
+      "status": "queued",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/"
+    },
     "e81229deb96429c505f099e3": {
       "first_seen": "2026-10-06T23:06:53Z",
       "status": "queued",
@@ -14550,6 +14645,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/products-and-platforms/products/shopping/black-friday-cyber-monday-shopping-tips-2026/"
+    },
+    "f7ec03b0ddb508d37ca35852": {
+      "first_seen": "2026-11-25T02:01:46Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12692"
     },
     "f7ff1d3af8b569ff53e61508": {
       "first_seen": "2026-11-04T18:14:09Z",

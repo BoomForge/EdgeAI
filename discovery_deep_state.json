@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-25T03:48:54Z",
+    "at": "2026-11-25T14:13:53Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 4,
+    "prefiltered": 8,
+    "queued": 11,
     "sources_ok": 15,
-    "too_old": 1,
+    "too_old": 6,
     "warnings": 0
   },
-  "runs": 240,
+  "runs": 241,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -225,6 +225,12 @@
       "status": "queued",
       "url": "https://portal.nousresearch.com/"
     },
+    "0504514e44fe23b274b5bf07": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/blink-35"
+    },
     "050e5c2e4a55398eb3f82370": {
       "first_seen": "2026-10-31T00:48:07Z",
       "status": "queued",
@@ -298,6 +304,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/vampire-crawlers"
+    },
+    "06505681722795f72125033e": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/steerlatch"
     },
     "0658c3d44f7b5cdf8bafbf8f": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -704,6 +715,11 @@
       "first_seen": "2026-10-28T08:23:12Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/app-store-screenshots"
+    },
+    "0fd18a113238288751be5294": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/vibecode-surf"
     },
     "1020060f6ff9f5860cc92152": {
       "first_seen": "2026-10-23T10:24:14Z",
@@ -1887,6 +1903,12 @@
       "status": "queued",
       "url": "https://runway.com/research/rna-sessions"
     },
+    "2891e0e512538fc8326efbb5": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/3way-social"
+    },
     "28949f9df8748f824efa1c9d": {
       "first_seen": "2026-11-07T18:43:16Z",
       "search_score": 1,
@@ -2377,6 +2399,11 @@
       "first_seen": "2026-11-12T19:12:18Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2120938486073029114"
+    },
+    "32807ec084fc8fa9a8b1511f": {
+      "first_seen": "2026-11-25T14:13:48Z",
+      "status": "queued",
+      "url": "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "3284885f8635e52b45272e93": {
       "first_seen": "2026-11-08T08:01:52Z",
@@ -3190,6 +3217,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/hyperresearch"
     },
+    "4374a7675241dd43812e4323": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/relayrunner"
+    },
     "439c143d44947b8130c46fe0": {
       "first_seen": "2026-11-15T14:13:58Z",
       "status": "queued",
@@ -3396,6 +3428,11 @@
       "first_seen": "2026-10-12T15:14:38Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/knocket-2"
+    },
+    "48500779ce8ed52f831f709e": {
+      "first_seen": "2026-11-25T14:13:48Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "485748c9fbe82c07163bc0ad": {
       "first_seen": "2026-10-12T15:14:38Z",
@@ -3950,6 +3987,11 @@
       "first_seen": "2026-11-01T05:55:21Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/"
+    },
+    "544e3e9518de2e5bf32dbdee": {
+      "first_seen": "2026-11-25T14:13:48Z",
+      "status": "queued",
+      "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "545a09a6b32d789c4d5dc1c7": {
       "first_seen": "2026-11-23T12:22:03Z",
@@ -4622,6 +4664,11 @@
       "first_seen": "2026-10-09T07:47:51Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/microsoft-surface-laptop-ultra"
+    },
+    "60ba88fff17fdbe4bded4f90": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/magi-1"
     },
     "60c3338c1256e97cb83289b0": {
       "first_seen": "2026-11-20T11:34:00Z",
@@ -5398,11 +5445,21 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/drops-4"
     },
+    "71138b68466008dec48562e3": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/openeight"
+    },
     "712a8be153b2900da91e9bed": {
       "first_seen": "2026-10-16T14:48:14Z",
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/skisso-design-on-the-live-product"
+    },
+    "7143fd31301b01aa78a093d9": {
+      "first_seen": "2026-11-25T14:13:48Z",
+      "status": "queued",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "715394e40e54708f10445529": {
       "first_seen": "2026-11-17T08:20:02Z",
@@ -5886,6 +5943,12 @@
       "status": "queued",
       "url": "https://openai.com/index/low-resource-programming-languages/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "79e862d5329842c2b3742e37": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/gibhub-git-file-history"
+    },
     "79ebb80118396ffd689ca34b": {
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
@@ -6012,6 +6075,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://newsletter.futurepedia.io/p/chatgpt-6-turns-one-prompt-into-a-live-website-09-15-2026"
+    },
+    "7d026ac6d6bfe7132fe85361": {
+      "first_seen": "2026-11-25T14:13:48Z",
+      "status": "queued",
+      "url": "https://claude.com/resources/articles/install-as-app?utm_source=futuretools.io&utm_medium=newspage"
     },
     "7d06b090b39f7d712c882751": {
       "first_seen": "2026-10-04T12:47:33Z",
@@ -6158,6 +6226,12 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/rill-3"
     },
+    "7fe65c42e48399b4c91f4f41": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/myclaw-3-0"
+    },
     "7fe67dc45aa88bd115b334f4": {
       "first_seen": "2026-10-27T22:30:09Z",
       "status": "queued",
@@ -6216,6 +6290,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/cinemalut"
+    },
+    "8184c6178733501e6c3e3ef3": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-71bafae3523d596f240e"
     },
     "818cf62a3bb0a7f8412e2dfd": {
       "first_seen": "2026-10-13T03:13:29Z",
@@ -6715,6 +6794,12 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/ember-117"
+    },
+    "8bd6402ad2c7415fafdc2d71": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/truastra"
     },
     "8bf0bd1d603c70db0a1b326c": {
       "first_seen": "2026-11-14T08:55:05Z",
@@ -8122,6 +8207,12 @@
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-f2a8b5f0f7360a70e566"
     },
+    "ab752ac421b17686590df9d3": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/eluna"
+    },
     "abbb96cf14716a168d8896a4": {
       "first_seen": "2026-11-04T23:37:16Z",
       "status": "queued",
@@ -9370,6 +9461,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/raccoon-kids"
     },
+    "c95037a7a2cf17fcacd9967e": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/memoryworks"
+    },
     "c950dc177f5da82b2fb934d3": {
       "first_seen": "2026-11-06T15:17:29Z",
       "status": "queued",
@@ -9685,6 +9781,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/harnesshive"
+    },
+    "d0b06f13c561c853e706e865": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/tray-2"
     },
     "d0cfbed1a90e14c7b7350745": {
       "first_seen": "2026-10-13T18:14:15Z",
@@ -10309,6 +10410,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/hypervibe-2"
     },
+    "dd3390582bec09e7ba51e361": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/airbots"
+    },
     "dd4bfe133cbf96feb33f7a32": {
       "first_seen": "2026-10-19T17:12:31Z",
       "status": "too_old",
@@ -10318,6 +10424,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://updates.midjourney.com/alpha-changelog-10-1-26/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "dd556579819acea186d4b97c": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/qube-6"
     },
     "dd67461f8d3ee8d414a9ed3b": {
       "first_seen": "2026-11-20T03:06:08Z",
@@ -10697,6 +10808,12 @@
       "first_seen": "2026-11-18T00:02:22Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-2893e3e805aad49dbb6a"
+    },
+    "e656d65ebccdc4a55debde71": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/sen-vi-t-vielotus-im"
     },
     "e664b5c1e5685295dc6ab7f5": {
       "first_seen": "2026-11-17T00:23:44Z",
@@ -11100,6 +11217,11 @@
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-474285579837a6c058f1"
     },
+    "efff692a296f2ae9ec34f94c": {
+      "first_seen": "2026-11-25T14:13:48Z",
+      "status": "queued",
+      "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "f01e1d1f7f1967bc58c6859a": {
       "first_seen": "2026-10-23T10:24:14Z",
       "status": "queued",
@@ -11180,6 +11302,11 @@
       "first_seen": "2026-10-09T19:51:21Z",
       "status": "queued",
       "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "f184f2ec60de81d8cce082bc": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/partgenie"
     },
     "f1874b9d39a053083bb1f031": {
       "first_seen": "2026-10-03T15:15:03Z",
@@ -11725,6 +11852,12 @@
       "first_seen": "2026-11-10T12:32:54Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/medium"
+    },
+    "fc82da3d3c3ca4cecadc5d82": {
+      "first_seen": "2026-11-25T14:13:49Z",
+      "search_score": -4,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/hiring-right-now"
     },
     "fca408f4a6c439e1c5ea4037": {
       "first_seen": "2026-11-21T08:14:20Z",

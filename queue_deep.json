@@ -422,20 +422,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "0043f87fdd684e2cab69888b",
-      "discovered_at": "2026-11-11T00:37:31Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-11-11T00:37:31Z",
-      "search_score": 42,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 10 Nov 2026 \ud83d\udd14 New article published Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files We\u2019ve partnered with Google DeepMind to launch their Multimodal Knowledge Agent (MKA) evaluation, a new benchmark for agentic knowledge work over complex visual files DigitalOcean performance results now available Kimi K3.1 Pro 09 Nov 2026 \ud83d\udd14 New article published Meta's Muse Ember is the cheapest model scoring 36 on the Intelligence Index Meta's newest model Muse Ember scores 36 on the Artificial Analysis Intelligence Index, matching Claude Haiku 5.5 (max) at a third of the Cost per Task New language model evaluation results available Claude Fable 5.2 (Max, Default Fallback) Intelligence Index: 65 New language model evaluation results available Claude Fable 5.2 (Low, Default Fallback) Intelligence Index: 54 New language model evaluation results available Claude Fable 5.2 (Medium, Default Fallback) Intelligence Index: 56 New language model evaluation results available Claude Fable 5.2 (High, Default Fallback) Intelligence Index: 62 New language model evaluation results available Claude Fable 5.2 (Xhigh, Default Fallback) Intelligence Index: 62 New language model evaluation results available Muse Ember (Xhigh) Intelligence Index: 34 New language model evaluation results available Muse Ember (Max) Intelligence Index: 36 Inco performance results now available Kimi K3.1 Pro Amazon Bedrock performance results now available Kimi K3.1 Pro Zyphra performance results now available GLM-5.3-Flash Anthropic performance results now available Claude Fable 5.2 (Xhigh, Default Fallback) Claude Fable 5.2 (Medium, Default Fallback) Claude Fable 5.2 (Low, Default Fallback) Claude Fable 5.2 (High, Default Fallback) Claude Fable 5.2 (Max, Default Fallback) Meta performance results now available Muse Ember (Xhigh) Muse Ember (Max) 08 Nov 2026 \ud83d\udd14 New article published Introducing the Artificial Analysis Decision Index v2 Introducing the Artificial Analysis Decision Index v2: a new proprietary evaluation, updated benchmarks, and a headline metric that rewards model calibration New language model evaluation results available Agnes 2.5 Pro Theta Intelligence Index: 24 Agnes AI performance results now available Agnes 2.5 Pro Theta 06 Nov 2026 Modal performance results now available Muse Spark Open (Xhigh) GLM-5.3 (Low) DeepSeek V4.1 Flash 1017 (Non-reasoning) Systalyze performance results now available Muse Spark Open (Xhigh) Scaleway performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available GLM-5.3 (Max) Bitdeer AI performance results now available Nemotron 3.5 Super VL 05 Nov 2026 \ud83d\udd14 New article published Thinking Machines Inkling 2 Small: the highest scoring open weights model outside of China pending weights release Thinking Machines has released Inkling 2 Small, scoring 31 on the Artificial Analysis Intelligence Index - their plan to release its weights would make it the highest-scoring open weights model developed outside China based on current rankings \ud83d\udd14 New article published Nanbeige has released Nanbeige4.3-33B scoring 20 on the Intelligence Index Nanbeige has released Nanbeige4.3-33B, an open weights model matching Qwen3.8 27B (xhigh) at 20 on the Artificial Analysis Intelligence Index v5 with stronger terminal use but weaker knowledge Artificial Analysis Endpoint Accuracy Index methodology Artificial Analysis Endpoint Accuracy Index v1.1 Upgraded AA-LCR-25 to AA-LCR v1.1 and increased repeats from 10 to 25, tightening confidence intervals. Expanded coverage to six open weights models with GLM-5.3 Flash and Muse Spark Open. New language model evaluation results available Inkling 2 Small Intelligence Index: 31 CoreWeave performance results now available DeepSeek V4.1 Flash 1017 (Max) DeepSeek V4.1 Flash 1017 (Non-reasoning) Modular performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) Modal performance results now available Kimi K3.1 Pro Inco performance results now available Kimi K3.1 Pro SiliconFlow performance results now available Kimi K3.1 Pro Systalyze performance results now available Kimi K3.1 Pro PrimaLabs performance results now available Kimi K3.1 Pro DeepInfra performance results now available Kimi K3.1 Pro Wafer performance results now available Kimi K3.1 Pro LithosAI performance results now available Kimi K3.1 Pro Parasail performance results now available Kimi K3.1 Pro Fireworks performance results now available Kimi K3.1 Pro Baseten performance results now available Ki",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-f7b88976523975b98895"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "e664b5c1e5685295dc6ab7f5",
       "discovered_at": "2026-11-17T00:23:44Z",
       "kind": "independent",
@@ -447,6 +433,20 @@
       "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 16 Nov 2026 Nebius performance results now available Inkling 2 Small DeepInfra performance results now available Inkling 2 Small Together AI performance results now available Inkling 2 Small 15 Nov 2026 New language model evaluation results available Qwen4 Max Intelligence Index: 43 Alibaba Cloud performance results now available Qwen4 Max 13 Nov 2026 New language model evaluation results available Gemini 4 Argon (Medium) Intelligence Index: 48 New language model evaluation results available DeepSeek V4 Pro 0813 (High) Intelligence Index: 21 Zyphra performance results now available GLM-5.3-Flash Fireworks performance results now available DeepSeek V4.1 Flash 1017 (Max) Google performance results now available Gemini 4 Argon (Medium) Gemini 4 Argon (Medium) 12 Nov 2026 New language model evaluation results available Gemini 4 Hydrogen (Low) Intelligence Index: 27 New language model evaluation results available Gemini 4 Hydrogen (Medium) Intelligence Index: 41 New language model evaluation results available Gemini 4 Hydrogen (High) Intelligence Index: 51 New language model evaluation results available Gemini 4 Hydrogen (Xhigh) Intelligence Index: 54 Google performance results now available Gemini 4 Hydrogen (Low) Gemini 4 Hydrogen (Medium) Gemini 4 Hydrogen (High) Gemini 4 Hydrogen (Xhigh) 11 Nov 2026 New language model evaluation results available JT-4.1 Flash 236B A21B Intelligence Index: 19 Databricks performance results now available Kimi K3.1 Pro SambaNova performance results now available GLM-5.3 (Low) GLM-5.3 (Max) 10 Nov 2026 \ud83d\udd14 New article published Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files We\u2019ve partnered with Google DeepMind to launch their Multimodal Knowledge Agent (MKA) evaluation, a new benchmark for agentic knowledge work over complex visual files DigitalOcean performance results now available Kimi K3.1 Pro 09 Nov 2026 \ud83d\udd14 New article published Endpoint Accuracy Index v1.1: Tighter long context intervals and expanded model coverage We are launching the Artificial Analysis Endpoint Accuracy Index v1.1, a minor version upgrade alongside new coverage for GLM-5.3 Flash and Muse Spark Open. \ud83d\udd14 New article published Meta's Muse Ember is the cheapest model scoring 36 on the Intelligence Index Meta's newest model Muse Ember scores 36 on the Artificial Analysis Intelligence Index, matching Claude Haiku 5.5 (max) at a third of the Cost per Task New language model evaluation results available Claude Fable 5.2 (Max, Default Fallback) Intelligence Index: 65 New language model evaluation results available Claude Fable 5.2 (Low, Default Fallback) Intelligence Index: 54 New language model evaluation results available Claude Fable 5.2 (Medium, Default Fallback) Intelligence Index: 56 New language model evaluation results available Claude Fable 5.2 (High, Default Fallback) Intelligence Index: 62 New language model evaluation results available Claude Fable 5.2 (Xhigh, Default Fallback) Intelligence Index: 62 New language model evaluation results available Muse Ember (Xhigh) Intelligence Index: 34 New language model evaluation results available Muse Ember (Max) Intelligence Index: 36 Inco performance results now available Kimi K3.1 Pro Amazon Bedrock performance results now available Kimi K3.1 Pro Zyphra performance results now available GLM-5.3-Flash Anthropic performance results now available Claude Fable 5.2 (Xhigh, Default Fallback) Claude Fable 5.2 (Medium, Default Fallback) Claude Fable 5.2 (Low, Default Fallback) Claude Fable 5.2 (High, Default Fallback) Claude Fable 5.2 (Max, Default Fallback) Meta performance results now available Muse Ember (Xhigh) Muse Ember (Max) 08 Nov 2026 \ud83d\udd14 New article published Introducing the Artificial Analysis Decision Index v2 Introducing the Artificial Analysis Decision Index v2: a new proprietary evaluation, updated benchmarks, and a headline metric that rewards model calibration New language model evaluation results available Agnes 2.5 Pro Theta Intelligence Index: 24 Agnes AI performance results now available Agnes 2.5 Pro Theta 06 Nov 2026 \ud83d\udd14 New article published VIALS-AA: different paths to scientific image reasoning Independent VIALS-AA results, interactive agent traces, and an analysis of how models inspect scientific images. Modal performance results now available Muse Spark Open (Xhigh) GLM-5.3 (Low) DeepSeek V4.1 Flash 1017 (Non-reasoning) Scaleway performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available GLM-5.3 (Max) Bitdeer AI performance results now a",
       "title": "Artificial Analysis benchmark changelog changed",
       "url": "https://artificialanalysis.ai/changelog#edgeai-24c66a09411c45572ee4"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "3157321933d6edb5aaf5ecb5",
+      "discovered_at": "2026-11-25T03:48:51Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-11-25T03:48:51Z",
+      "search_score": 40,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 24 Nov 2026 Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0.2 Updated Terminal-Bench to version 4.1, the same 66 tasks but with updated verifiers, and upgraded to the latest trajectory scanner for FrontierCode 2.0 DeepInfra performance results now available Inkling 2 Mini Modular performance results now available Nemotron 3.5 Lightning Muse Glimmer (High) Verda performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) Kimi K3.1 Pro Nebius performance results now available DeepSeek V4.1 Flash 1017 (Max) OpenAI performance results now available GPT-6.2 Astra (Max) GPT-6.2 Astra (Max) GPT-6.2 Sol (Max) GPT-6.2 Sol (Max) 23 Nov 2026 New language model evaluation results available Ling-3.2-air Intelligence Index: 23 Thinking Machines performance results now available Inkling 2 Mini 22 Nov 2026 New language model evaluation results available LingSante-3.1-flash Makora performance results now available Kimi K3.1 Pro Databricks performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) 20 Nov 2026 \ud83d\udd14 New article published Thinking Machines has released Inkling 2 Mini, an open weights looped transformer Thinking Machines has released Inkling 2 Mini at 20 on the Artificial Analysis Intelligence Index, an open weights looped transformer on the Pareto frontier for Intelligence vs. Active Parameters New language model evaluation results available Inkling 2 Mini Intelligence Index: 20 18 Nov 2026 \ud83d\udd14 New article published Google continues to accelerate its release cadence with Gemini 4 Neon Google continues to accelerate its release cadence with Gemini 4 Neon, delivering a small Intelligence gain over Gemini 4 Carbon at a ~17% lower Cost per Task New language model evaluation results available Gemini 4 Neon (Low) Intelligence Index: 44 New language model evaluation results available Gemini 4 Neon (Medium) Intelligence Index: 55 New language model evaluation results available Gemini 4 Neon (High) Intelligence Index: 60 New language model evaluation results available Gemini 4 Neon (Xhigh) Intelligence Index: 62 New language model evaluation results available K2 Horizon 32B Intelligence Index: 14 Google performance results now available Gemini 4 Neon (Low) Gemini 4 Neon (Medium) Gemini 4 Neon (High) Gemini 4 Neon (Xhigh) 17 Nov 2026 \ud83d\udd14 New article published OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol OpenAI\u2019s release of GPT-6.2 Astra and GPT-6.2 Sol delivers the #2 model in the Artificial Analysis Intelligence Index and most of the Cost per Task Pareto frontier New language model evaluation results available JoyAI-VL-Preview Intelligence Index: 28 New language model evaluation results available Inkling (High) Intelligence Index: 11 New language model evaluation results available Inkling Small (High) Intelligence Index: 10 New language model evaluation results available LFM3-1.7B Intelligence Index: 6 New language model evaluation results available LFM3-VL-2B Intelligence Index: 2 New language model evaluation results available Astra for Law 6.2 (Max) New language model evaluation results available GPT-6.2 Astra (Max) Intelligence Index: 62 New language model evaluation results available GPT-6.2 Astra (Xhigh) Intelligence Index: 62 New language model evaluation results available GPT-6.2 Astra (High) Intelligence Index: 60 New language model evaluation results available GPT-6.2 Astra (Medium) Intelligence Index: 57 New language model evaluation results available GPT-6.2 Astra (Low) Intelligence Index: 46 New language model evaluation results available GPT-6.2 Sol (Max) Intelligence Index: 57 New language model evaluation results available GPT-6.2 Sol (Xhigh) Intelligence Index: 56 New language model evaluation results available GPT-6.2 Sol (High) Intelligence Index: 55 New language model evaluation results available GPT-6.2 Sol (Medium) Intelligence Index: 52 New language model evaluation results available GPT-6.2 Sol (Low) Intelligence Index: 41 Thinking Machines performance results now available Inkling (High) Inkling Small (High) Liquid AI performance results now available LFM3-1.7B LFM3-VL-2B Makora performance results now available MiniMax-M3.1-Flash OpenAI performance results now available Astra for Law 6.2 (Max) GPT-6.2 Sol (Low) GPT-6.2 Sol (Medium) GPT-6.2 Sol (High) GPT-6.2 Sol (Xhigh) GPT-6.2 Astra (Max) GPT-6.2 Astra (Xhigh) GPT-6.2 Astra (High) GPT-6.2 Astra (Medium) GPT-6.2 Astra (Low) GPT-6.2 Sol (Max) 16 Nov 2026 Nebius performance results now available Ink",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-f738212547a5b138c394"
     },
     {
       "bootstrap": false,
@@ -615,6 +615,20 @@
       "summary": "\u30de\u30a4\u30b1\u30eb\u30fb\u30ed\u30b8\u30e3\u30fc\u30b9\u7c73\u9000\u5f79\u6d77\u8ecd\u5927\u5c06\u3001\u30c8\u30e0\u30fb\u30e2\u30e9\u30f3\u5143CIA\u652f\u5c40\u9577\u304cSakana AI\u306e\u30b7\u30cb\u30a2\u30a2\u30c9\u30d0\u30a4\u30b6\u30fc\u306b\u5c31\u4efb",
       "title": "\u30de\u30a4\u30b1\u30eb\u30fb\u30ed\u30b8\u30e3\u30fc\u30b9\u7c73\u9000\u5f79\u6d77\u8ecd\u5927\u5c06\u3001\u30c8\u30e0\u30fb\u30e2\u30e9\u30f3\u5143CIA\u652f\u5c40\u9577\u304cSakana AI\u306e\u30b7\u30cb\u30a2\u30a2\u30c9\u30d0\u30a4\u30b6\u30fc\u306b\u5c31\u4efb",
       "url": "https://sakana.ai/michael-tom/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "a3dfa00ac6774bc843ac74b5",
+      "discovered_at": "2026-11-25T03:48:53Z",
+      "kind": "primary",
+      "lane": "deep",
+      "priority": 1,
+      "published": "",
+      "search_score": 6,
+      "source_name": "Sakana AI Blog",
+      "summary": "Sakana Namazu Small",
+      "title": "Sakana Namazu Small",
+      "url": "https://sakana.ai/namazu-small/"
     },
     {
       "bootstrap": false,
@@ -1192,6 +1206,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "2a9fbb6f5e677c532fb817fb",
+      "discovered_at": "2026-11-25T03:48:51Z",
+      "kind": "independent-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-25T03:48:51Z",
+      "search_score": 35,
+      "source_name": "OpenRouter Rankings",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 24, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 DeepSeek V4.1 Flash 1017 deepseek 70T tokens +13% 2 Hy4 flash * tencent 28.8T tokens >999% 3 DeepSeek V4.1 Flash deepseek 15T tokens -6% 4 GLM 5.3 Flash z-ai 13.2T tokens +14% 5 GPT-6 Luna openai 8.14T tokens -3% 6 Claude Opus 5.5 anthropic 6.44T tokens -14% 7 MiniMax M3.1 Flash minimax 4.57T tokens +36% 8 Kimi K3.1 Pro moonshotai 4.39T tokens +29% 9 Nemotron 3 Ultra (free) nvidia 4.17T tokens +34% 10 GLM 5.3 z-ai 3.78T tokens +4% 1 . DeepSeek V4.1 Flash 1017 by deepseek 70T tokens 13% 2 . Hy4 flash * by tencent 28.8T tokens >999% 3 . DeepSeek V4.1 Flash by deepseek 15T tokens 6% 4 . GLM 5.3 Flash by z-ai 13.2T tokens 14% 5 . GPT-6 Luna by openai 8.14T tokens 3% 6 . Claude Opus 5.5 by anthropic 6.44T tokens 14% 7 . MiniMax M3.1 Flash by minimax 4.57T tokens 36% 8 . Kimi K3.1 Pro by moonshotai 4.39T tokens 29% 9 . Nemotron 3 Ultra (free) by nvidia 4.17T tokens 34% 10 . GLM 5.3 by z-ai 3.78T tokens 4% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the last 24 complete hours, with the change measured against the 24 hours before them. Models ranked by tokens processed on OpenRouter over the last 24 complete hours Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 13.1T +16% 2 Hy4 flash tencent 5.11T -12% 3 DeepSeek V4.1 Flash deepseek 2.2T -7% 4 GLM 5.3 Flash z-ai 2.07T +1% 5 GPT-6 Luna openai 1.18T -9% 6 Claude Opus 5.5 anthropic 1.12T +11% 7 Kimi K3.1 Pro moonshotai 890B +54% 8 MiniMax M3.1 Flash minimax 684B 0% 9 Nemotron 3 Ultra (free) nvidia 663B +9% 10 GLM 5.3 z-ai 658B +11% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 252T +576% 2 DeepSeek V4.1 Flash deepseek 68T -45% 3 GLM 5.3 Flash z-ai 56.6T +14% 4 GPT-6 Luna openai 35.4T +22% 5 Claude Opus 5.5 anthropic 29.5T +32% 6 Hy4 flash tencent 29.1T new 7 MiniMax M3.1 Flash minimax 20.3T >999% 8 GLM 5.3 z-ai 16.3T -6% 9 Kimi K3.1 Pro moonshotai 15.6T >999% 10 GPT-6.1 Sol openai 14.6T +93% New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 Gemini 4 Neon google 930B new 2 Inkling 2 Mini thinkingmachines 350B new 3 DaisyRose 27B radixark 6.09B new 4 Bison 1 baseten 2.77B new 5 Embed V2 Context 0.6B perplexity 2.61B new 6 Text Embedding 3 Large (batch) openai 1.03M >999% 7 GPT-6.2 Sol Pro (batch) openai 8.2M >999% 8 GPT-6.2 Astra Pro (batch) openai 757M >999% 9 GPT-6.2 Sol (batch) openai 1.14B >999% 10 Claude Haiku 4.5 (batch) anthropic 8.68M >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend Software 39.5% Data 21.8% Information 14.3% Writing 7.1% Assistance 6.4% Creative 6.1% Media 4.1% Retrieval 0.1% Implementation 15.9% of all spend 1 Claude Opus 5.5 by anthropic 21.9% -1.4 2 Kimi K3.1 Pro by moonshotai 9.8% +9.7 3 Gemini 4 Carbon by google 6.6% +6.6 4 Claude Sonnet 5.5 by anthropic 5.6% +1.0 5 Claude Fable 5.2 by anthropic 5.5% +5.5 6 Deepseek V4.1 Flash by deepseek 5.3% +4.8 7 GPT-6.1-Sol by openai 4.7% +2.2 8 GLM 5.3 by z-ai 3.6% -1.9 9 Kimi K3 by moonshotai 2.8% -3.1 10 GPT-6-Astra by openai 2.8% -4.4 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 16, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 25.4% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 DeepSeek 25.4% -7% 2 OpenAI ",
+      "title": "OpenRouter real-world model rankings changed",
+      "url": "https://openrouter.ai/rankings#edgeai-a0c09f5347414eb98d74"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "56e9c90ddf31daba534f7205",
       "discovered_at": "2026-11-24T20:45:20Z",
       "kind": "independent-signal",
@@ -1217,6 +1245,20 @@
       "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 23, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 DeepSeek V4.1 Flash 1017 deepseek 66.8T tokens +9% 2 Hy4 flash * tencent 23.5T tokens >999% 3 DeepSeek V4.1 Flash deepseek 15.5T tokens +0% 4 GLM 5.3 Flash z-ai 12.9T tokens +9% 5 GPT-6 Luna openai 8.34T tokens +3% 6 Claude Opus 5.5 anthropic 6.61T tokens -10% 7 MiniMax M3.1 Flash minimax 4.45T tokens +33% 8 Kimi K3.1 Pro moonshotai 4.07T tokens +25% 9 Nemotron 3 Ultra (free) nvidia 4T tokens +25% 10 GLM 5.3 z-ai 3.59T tokens -4% 1 . DeepSeek V4.1 Flash 1017 by deepseek 66.8T tokens 9% 2 . Hy4 flash * by tencent 23.5T tokens >999% 3 . DeepSeek V4.1 Flash by deepseek 15.5T tokens 0% 4 . GLM 5.3 Flash by z-ai 12.9T tokens 9% 5 . GPT-6 Luna by openai 8.34T tokens 3% 6 . Claude Opus 5.5 by anthropic 6.61T tokens 10% 7 . MiniMax M3.1 Flash by minimax 4.45T tokens 33% 8 . Kimi K3.1 Pro by moonshotai 4.07T tokens 25% 9 . Nemotron 3 Ultra (free) by nvidia 4T tokens 25% 10 . GLM 5.3 by z-ai 3.59T tokens 4% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the last 24 complete hours, with the change measured against the 24 hours before them. Models ranked by tokens processed on OpenRouter over the last 24 complete hours Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 12T +40% 2 Hy4 flash tencent 6.07T +0% 3 DeepSeek V4.1 Flash deepseek 2.26T +6% 4 GLM 5.3 Flash z-ai 2.12T +13% 5 GPT-6 Luna openai 1.29T +53% 6 Claude Opus 5.5 anthropic 1.01T +49% 7 Kimi K3.1 Pro moonshotai 777B +67% 8 MiniMax M3.1 Flash minimax 681B +3% 9 Nemotron 3 Ultra (free) nvidia 666B +9% 10 GLM 5.3 z-ai 598B +24% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 245T +678% 2 DeepSeek V4.1 Flash deepseek 67.7T -46% 3 GLM 5.3 Flash z-ai 56.5T +14% 4 GPT-6 Luna openai 35.7T +27% 5 Claude Opus 5.5 anthropic 29.3T +35% 6 Hy4 flash tencent 23.6T new 7 MiniMax M3.1 Flash minimax 19.9T >999% 8 GLM 5.3 z-ai 16.2T -6% 9 Kimi K3.1 Pro moonshotai 15T >999% 10 GPT-6.1 Sol openai 14.6T +100% New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 GPT-6.2 Sol openai 897B new 2 Gemini 4 Neon google 695B new 3 Inkling 2 Mini thinkingmachines 272B new 4 GPT-6.2 Astra openai 202B new 5 d1.2-ultra liquid 41.3B new 6 Hy4 flash tencent 23.5T >999% 7 GPT-4o-mini (batch) openai 866M >999% 8 Inkling Small (batch) thinkingmachines 1.18M >999% 9 GPT-6.1 Terra Pro (batch) openai 4.59B >999% 10 Kimi K2 0711 moonshotai 32.4B >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend Software 39.8% Data 21.3% Information 14.5% Writing 6.9% Assistance 6.4% Creative 6.2% Media 4.1% Retrieval 0.1% Implementation 15.9% of all spend 1 Claude Opus 5.5 by anthropic 21.9% -1.4 2 Kimi K3.1 Pro by moonshotai 9.9% +9.8 3 Gemini 4 Carbon by google 6.7% +6.7 4 Claude Sonnet 5.5 by anthropic 5.7% +1.1 5 Deepseek V4.1 Flash by deepseek 5.3% +4.9 6 GPT-6.1-Sol by openai 5.0% +2.5 7 Claude Fable 5.2 by anthropic 4.7% +4.7 8 GLM 5.3 by z-ai 3.6% -1.8 9 GPT-6-Astra by openai 3.0% -4.2 10 Kimi K3 by moonshotai 2.8% -3.1 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 16, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 25.4% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 DeepSeek 25.4% -7% 2 OpenAI 16.8% +3% 3 Google 16.1% +24% 4 Tencen",
       "title": "OpenRouter real-world model rankings changed",
       "url": "https://openrouter.ai/rankings#edgeai-8e87c5774ba9747c92b4"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "0b260d07579db8478ef4bb18",
+      "discovered_at": "2026-11-25T03:48:51Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-24T23:02:07+00:00",
+      "search_score": 30,
+      "source_name": "Simon Willison Everything",
+      "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply. Coding agents in November 2025 Today, November 24th 2026, is the one year anniversary of the release of Claude Opus 4.5 . With hindsight, this was a consequential model. In the Opus 4.5 announcement, Anthropic said: Testers noted that Claude Opus 4.5 handles ambiguity and reasons about tradeoffs without hand-holding. They told us that, when pointed at a complex, multi-system bug, Opus 4.5 figures out the fix. They said that tasks that were near-impossible for Sonnet 4.5 just a few weeks ago are now within reach. This held up. Claude Code was 9 months old at that point, having been introduced alongside Claude 3.7 Sonnet on February 24th, 2025. Opus 4.5 was the first model I had used with Claude Code where the default result was generally the right thing. I hadn't been using Claude Code as a daily driver because it didn't feel reliable enough - I had to correct it often enough that it didn't feel like a clear accelerant. The new Opus changed that. For most of the coding problems I faced on a daily basis, Opus would get them right . It was clearly faster than working through the problems myself. Also in November, OpenAI released GPT-5.1 Instant, GPT-5.1 Thinking, GPT-5.1-Codex, and GPT-5.1-Codex-Max. These had a similar effect on their Codex coding agent: it became reliably useful for many of my coding tasks. The timing was convenient, because the December holidays were upon us. A lot of people, myself included, spent December tinkering with these new tools to see what they could do. By January we were ready to use them for our actual work. Fable class models in June/July We got our first hint of Claude Fable in April, when Anthropic announced Claude Mythos and said that it was too dangerous to release , due to its improved cybersecurity capabilities. Mythos was a model that could not just find security vulnerabilities, it could also figure out how to exploit them. In June we got to see how good that model was for ourselves, with the release of Claude Fable 5 - a defanged Mythos, that would solve most problems but would actively block you from using it for security work. After three glorious days... the US government took it away from us. Fable 5 was placed under export controls that effectively banned the model. We wouldn't get it back until July 1st. For me, Fable was an inflection point because it introduced us to what I now think of as Fable class models . My definition of these: In June I wrote about how Claude Fable is relentlessly proactive , after I asked it to help fix a display glitch in Safari and it spun up its own pyobjc-framework-Quartz screenshot mechanism and a CORS-enabled localhost logging server to help resolve the bug. A more recent example of the power of Fable class models is my mysterious beep finder from a couple of weeks ago. I gave Opus 5.5 and then Fable 5.2 access to five WebAudio microphones in a room full of boxes and it was able to triangulate the source of an infuriating mysterious beep to within about 40cm. Give it a goal, give it the right tools, and watch it cook. I'd currently class Claude Fable 5, 5.1, 5.2 and Claude Opus 5.5 as Fable class (I think of Opus 5.5 as \"cheap Fable\"). GPT-6 Astra got there for me too, and I think the new Gemini 4 Neon may count as well. These now represent the baseline for what I expect from a frontier model. 3D modeling and game development in September/October Something interesting happened with frontier LLMs over just the past four months: they got really good at 3D modeling. Set them up with Blender or ask them to write Three.js code and they'll produce credible models of almost anything you ask for. I first noticed this with Claude Fable 5, but it really kicked into gear with Opus 5.5, GPT-5.6 Sol, GPT-6 Astra, and most recently the Gemini 4 family. Here's Gemini 4 Neon's attempt at \"Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data\", for example. 3D spatial awareness is crucial if you want to use vision LLMs for robotics. I don't know if 3D modeling capabilities are a side-effect of the labs focusing on that or vice-versa. Back in August I experimented with having Fable 5 build me a raccoon heist game . It had 3D graphics, looked like a game, and played really poorly. GPT-5.6 Sol Ultra did a much better job but the game itself was still pretty dull after the first 90 seconds of play. I was somewhat relieved that designing a game that was fun appeared to remain a uniquely human pursuit. I even used that in a talk in September to reassure people that us humans still had a role to play! Then, I tried telling Claude Opus 5.5 \"This game isn't fun enough yet. Make it a LOT more fun.\" And it worked . My Command & Conquer-style RTS went from boring to deeply entertaining overnight, after Opus spent 12 hours playtesting new features and rebalancing the gameplay. Opus 5.5 was the first model I'd used that appeared to understand fun. I've since worked on several little game projects where prompts like \"Think hard about how to make sure it is both fun and beautiful\" produced results that kept me engaged for significant amounts of time. Opus 5.5 came out on September 22nd, 2026. I've been to two different conferences since then where people showed me game projects they'd been working on that really did feel like proper, worthwhile games. The indie games scene has descended into a full-blown culture war over AI-assisted programming. A lot of people are calling GTA VI the last pre-generative AI blockbuster . It feels like another inflection point to me. Is Fable 5.2 an inflection point too? I'm still trying to decide if Fable 5.2 represents a new inflection point, or just another incremental improvement. I'm getting so much done with that model right now! It seems to have taste that almost exactly matches my own. I have been burning through all sorts of gnarly problems that I've been thinking about (or procrastinating on) for several years now. The release notes for Datasette 1.0a42 , 1.0a43 , and 1.0a44 - plus LLM 0.37 , 0.37.1 , 0.37.2 , 0.37.3 , and 0.38 - all in the last three weeks , represent a flood of fixes, features and improvements. If this does represent an inflection point, the key feature seems to be that if you can imagine and then clearly describe a piece of software, Fable can build it . That's a wild thing to say, but it matches my experience over the past few weeks. Software development has transformed beyond recognition in the last year. I don't think I'll ever go back to typing most of my code by hand. Tags: game-design , my-talks , ai , generative-ai , llms , annotated-talks , coding-agents , claude-code , codex , claude-mythos-fable",
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
     },
     {
       "bootstrap": false,
@@ -1542,20 +1584,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "498416fd21efac76353b1cbd",
-      "discovered_at": "2026-11-11T00:37:31Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 12,
-      "source_name": "FutureTools AI News",
-      "summary": "Anthropic Launches Claude Sheets, Whiteboards & Upgraded Interactive Connectors claude.com \u00b7 Show TLDR",
-      "title": "Anthropic Launches Claude Sheets, Whiteboards & Upgraded Interactive Connectors claude.com \u00b7 Show TLDR",
-      "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "d86659296f5c5f68c3be8f88",
       "discovered_at": "2026-11-17T00:23:43Z",
       "kind": "signal",
@@ -1836,34 +1864,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "30c410c7643334c58c198e97",
-      "discovered_at": "2026-11-11T00:37:34Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Nov 10, 2026",
-      "search_score": 9,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Unshackle yourself Nov 10, 2026 @NousResearch 24 hours left to submit your plugin. We've received hundreds of awesome submissions and the judges are excited to review them all! x.com/NousResearch/s\u2026 Nov 10, 2026 @NousResearch The Sign in with ChatGPT flow in Nous Portal now supports your ChatGPT Business plan x.com/OpenAIDevs/sta\u2026 Nov 10, 2026 @NousResearch With Hermes it's all yours to conquer Nov 10, 2026 @NousResearch Try Fable 5.2 in Hermes Agent x.com/Kshitijjkapoor\u2026 Nov 9, 2026 @NousResearch Hermes Cloud agents now open in a browser tab with the exact same interface as Hermes Desktop. https://t.co/4Vw3XJgFwn To launch a personal agent, pick a name and a model in Nous Portal. We host it for you and it runs 24/7 in its own container, so it can handle scheduled jobs and answer you on any channel while your laptop is closed. Chats, Group Chats, plugins and settings in the Webapp work the same way they do when you run Hermes on your own computer. Open your agent from Nous Portal on your phone or any computer, or connect Hermes Desktop to it and continue the same chats there. Plus, Super, and Ultra plans each include one Cloud agent out of the box. Using Hermes from anywhere has never been easier. Nov 9, 2026 @NousResearch Using an agent that can change its models or code at any time without telling you is like building on quicksand Nov 8, 2026 @NousResearch hermes-agent.nousresearch.com/marketplace/he\u2026 Nov 8, 2026 @NousResearch Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s. Hermes first maps what an attacker could reach and which inputs it trusts. It splits the code across parallel subagents, checks every candidate finding against the code, and traces whether an attacker can actually exploit it. Turn on test confirmation and Hermes writes a small reproduction for each finding and runs it in a temporary copy of the repo. Each report records the evidence and the findings Hermes ruled out, and exports to SARIF for your existing tools. Run it from chat, the CLI, or the Security page in Hermes Desktop. Nov 8, 2026 @NousResearch Eval: huggingface.co/datasets/NousR\u2026 Weights: huggingface.co/NousResearch/A\u2026 Training data: huggingface.co/datasets/NousR\u2026 Nov 6, 2026",
-      "title": "@NousResearch Unshackle yourself Nov 10, 2026",
-      "url": "https://x.com/NousResearch/status/2120284141509881879"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "d2371d7a10fb2e41ee915232",
-      "discovered_at": "2026-11-11T00:37:34Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Nov 10, 2026",
-      "search_score": 9,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Unshackle yourself Nov 10, 2026 @NousResearch 24 hours left to submit your plugin. We've received hundreds of awesome submissions and the judges are excited to review them all! x.com/NousResearch/s\u2026 Nov 10, 2026 @NousResearch The Sign in with ChatGPT flow in Nous Portal now supports your ChatGPT Business plan x.com/OpenAIDevs/sta\u2026 Nov 10, 2026 @NousResearch With Hermes it's all yours to conquer Nov 10, 2026 @NousResearch Try Fable 5.2 in Hermes Agent x.com/Kshitijjkapoor\u2026 Nov 9, 2026 @NousResearch Hermes Cloud agents now open in a browser tab with the exact same interface as Hermes Desktop. https://t.co/4Vw3XJgFwn To launch a personal agent, pick a name and a model in Nous Portal. We host it for you and it runs 24/7 in its own container, so it can handle scheduled jobs and answer you on any channel while your laptop is closed. Chats, Group Chats, plugins and settings in the Webapp work the same way they do when you run Hermes on your own computer. Open your agent from Nous Portal on your phone or any computer, or connect Hermes Desktop to it and continue the same chats there. Plus, Super, and Ultra plans each include one Cloud agent out of the box. Using Hermes from anywhere has never been easier. Nov 9, 2026 @NousResearch Using an agent that can change its models or code at any time without telling you is like building on quicksand Nov 8, 2026 @NousResearch hermes-agent.nousresearch.com/marketplace/he\u2026 Nov 8, 2026 @NousResearch Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s. Hermes first maps what an attacker could reach and which inputs it trusts. It splits the code across parallel subagents, checks every candidate finding against the code, and traces whether an attacker can actually exploit it. Turn on test confirmation and Hermes writes a small reproduction for each finding and runs it in a temporary copy of the repo. Each report records the evidence and the findings Hermes ruled out, and exports to SARIF for your existing tools. Run it from chat, the CLI, or the Security page in Hermes Desktop. Nov 8, 2026 @NousResearch Eval: huggingface.co/datasets/NousR\u2026 Weights: huggingface.co/NousResearch/A\u2026 Training data: huggingface.co/datasets/NousR\u2026 Nov 6, 2026",
-      "title": "@NousResearch 24 hours left to submit your plugin. We've received hundreds of awesome submissions and the judges are excited to review them all! x.com/NousResearch/s\u2026 Nov 10, 2026",
-      "url": "https://x.com/NousResearch/status/2120271539006222576"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "e304e836ef011046d393ab70",
       "discovered_at": "2026-11-11T07:15:37Z",
       "kind": "primary-signal",
@@ -1959,20 +1959,6 @@
       "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models Rankings data by OpenRouter is licensed under CC BY 4.0 . Reuse and republish it with attribution. The Data API docs cover the citation format and JSON access to these datasets. Footer \u00a9 2026 OpenRouter, Inc Product Chat Ori Labs Pricing Business Enterprise Explore Rankings Models Apps Providers Benchmarks Tools Discover Works With OR Company About Blog Customers Careers Hiring Privacy Terms of Service Trust Center Support Data Brand Developer Documentation API Reference Developer Platform Status AI Site Map Connect Discord GitHub LinkedIn X YouTube",
       "title": "OpenRouter real-world model rankings changed",
       "url": "https://openrouter.ai/rankings#edgeai-9a8e5cceef7f7cc93b57"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "bedc4fd400bdc2c46c8abf9c",
-      "discovered_at": "2026-11-11T00:37:31Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 8,
-      "source_name": "FutureTools AI News",
-      "summary": "Gemini Intelligence Expands to Motorola Signature 27, Pixel 10 With New AI Features blog.google \u00b7 Show TLDR",
-      "title": "Gemini Intelligence Expands to Motorola Signature 27, Pixel 10 With New AI Features blog.google \u00b7 Show TLDR",
-      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2169,48 +2155,6 @@
       "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette Agent so it can help write apps that link to each other. This means you can have e.g. an app that shows details about a specific record, and a completely separate app that searches those records and links to their representations in the first app. Tags: datasette-agent , datasette-apps , datasette , urls",
       "title": "datasette-apps 0.4a0",
       "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "3eb2084344f372f23072fe37",
-      "discovered_at": "2026-11-11T00:37:31Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 6,
-      "source_name": "FutureTools AI News",
-      "summary": "Claude Launches Whiteboards, Sheets & Data Tools for Teams on All Paid Plans claude.com \u00b7 Show TLDR",
-      "title": "Claude Launches Whiteboards, Sheets & Data Tools for Teams on All Paid Plans claude.com \u00b7 Show TLDR",
-      "url": "https://claude.com/resources/articles/sheets-whiteboards-data?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "94079a847d2966732870b59a",
-      "discovered_at": "2026-11-11T00:37:31Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 6,
-      "source_name": "FutureTools AI News",
-      "summary": "Claude Now Lets You Open and Edit Apps Like Notion, Asana & Canva Directly in Chat claude.com \u00b7 Show TLDR",
-      "title": "Claude Now Lets You Open and Edit Apps Like Notion, Asana & Canva Directly in Chat claude.com \u00b7 Show TLDR",
-      "url": "https://claude.com/resources/articles/interactive-connectors-full-tool?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "ca4849704c3f4a9c98f19e1d",
-      "discovered_at": "2026-11-11T00:37:31Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 6,
-      "source_name": "FutureTools AI News",
-      "summary": "Google Cloud Launches Gemini for Healthcare to Streamline Clinical & Admin Workflows googlecloudpresscorner.com \u00b7 Show TLDR",
-      "title": "Google Cloud Launches Gemini for Healthcare to Streamline Clinical & Admin Workflows googlecloudpresscorner.com \u00b7 Show TLDR",
-      "url": "https://www.googlecloudpresscorner.com/2026-11-10-Google-Cloud-Launches-Gemini-for-Healthcare?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -2561,48 +2505,6 @@
       "summary": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method. There are a couple of security fixes, one of which I deemed deserving of a GitHub advisory : private stored queries could be exposed, granting access to the title and SQL of the query (but not allowing that query to be executed). There are dozens of smaller improvements. The row page JSON representation finally has a design suitable for 1.0 . A new <datasette-copy-button> Web Component provides copy-schema in various places. JSON in columns on the row page can be pretty-printed. There's a new DatasetteModal.confirm() JavaScript utility method. Plus dozens of bug fixes, including contributions by Zihan Dai , Peter Olkhovets , Ilya Khalafi , and Ankita Advitot . The feature I'm most excited about is a pretty tiny one: I've added CSS multi-page view transitions to Datasette! Here's the commit - key CSS is as follows: /* Enable cross-document view transitions, for anyone without prefers-reduced-motion */ @media ( prefers-reduced-motion : no-preference ) { @view-transition { navigation : auto ; } } /* .facet-results should morph from old position to new */ html : active-view-transition . content > . facet-results { view-transition-name : facet-results ; } /* So should a .table-wrapper, provided it contains .rows-and-columns */ html : active-view-transition . table-wrapper : has ( > table . rows-and-columns ) { view-transition-name : rows-table ; } With that in place, navigations within Datasette - still staunchly a multi-page application - feel more like an SPA. This works on Safari and Chrome at the moment and I believe supports for Firefox is due to land in Firefox 162 on December 8th 2026 (seeing as they are no longer feature-flagged in Firefox Nightly.) Tags: security , datasette , css , browsers , annotated-release-notes , firefox , javascript , safari , chrome",
       "title": "datasette 1.0a43",
       "url": "https://simonwillison.net/2026/Nov/15/datasette/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "a2324ea2b6d0b1eac9795e0f",
-      "discovered_at": "2026-11-11T00:37:31Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 4,
-      "source_name": "FutureTools AI News",
-      "summary": "Adobe MAX 2026: Creative Agent Expands Across Firefly, Creative Cloud With Google & Microsoft Deals news.adobe.com \u00b7 Show TLDR",
-      "title": "Adobe MAX 2026: Creative Agent Expands Across Firefly, Creative Cloud With Google & Microsoft Deals news.adobe.com \u00b7 Show TLDR",
-      "url": "https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "b5eade4484bcd776916099d4",
-      "discovered_at": "2026-11-11T00:37:31Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 4,
-      "source_name": "FutureTools AI News",
-      "summary": "Adobe Firefly Adds Creative Agent, Quick Actions & Firefly Graph at MAX 2026 news.adobe.com \u00b7 Show TLDR",
-      "title": "Adobe Firefly Adds Creative Agent, Quick Actions & Firefly Graph at MAX 2026 news.adobe.com \u00b7 Show TLDR",
-      "url": "https://news.adobe.com/news/2026/11/adobe-firefly-expands?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "9207c497bfa17f890168ab8a",
-      "discovered_at": "2026-11-11T00:37:31Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 4,
-      "source_name": "FutureTools AI News",
-      "summary": "Adobe Launches Creative Agent & Agentic Workflows Across Creative Cloud news.adobe.com \u00b7 Show TLDR",
-      "title": "Adobe Launches Creative Agent & Agentic Workflows Across Creative Cloud news.adobe.com \u00b7 Show TLDR",
-      "url": "https://news.adobe.com/news/2026/11/adobe-transforms-creative-cloud-tools?utm_source=futuretools.io&utm_medium=newspage"
     },
     {
       "bootstrap": false,
@@ -3390,6 +3292,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-24T20:45:23Z",
+  "updated_at": "2026-11-25T03:48:54Z",
   "version": 2
 }

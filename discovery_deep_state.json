@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-24T20:45:23Z",
+    "at": "2026-11-25T03:48:54Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 2,
-    "queued": 5,
+    "queued": 4,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 1,
     "warnings": 0
   },
-  "runs": 239,
+  "runs": 240,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -532,6 +532,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/kugelaudio"
+    },
+    "0b260d07579db8478ef4bb18": {
+      "first_seen": "2026-11-25T03:48:51Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
     },
     "0b3e7ad5951291266db5d6d2": {
       "first_seen": "2026-10-29T13:31:50Z",
@@ -1990,6 +1995,11 @@
       "status": "queued",
       "url": "https://hermes-agent.nousresearch.com/docs"
     },
+    "2a9fbb6f5e677c532fb817fb": {
+      "first_seen": "2026-11-25T03:48:51Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-a0c09f5347414eb98d74"
+    },
     "2aaeda817e62704d75d8b916": {
       "first_seen": "2026-10-30T09:55:37Z",
       "status": "too_old",
@@ -2315,6 +2325,11 @@
       "first_seen": "2026-11-04T09:57:41Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/render"
+    },
+    "3157321933d6edb5aaf5ecb5": {
+      "first_seen": "2026-11-25T03:48:51Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-f738212547a5b138c394"
     },
     "315ca018630361ad01a8cc39": {
       "first_seen": "2026-10-06T14:08:51Z",
@@ -4185,6 +4200,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/mermaid"
     },
+    "58424dd857fbc3b4a473e9c5": {
+      "first_seen": "2026-11-25T03:48:51Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/astrolabio"
+    },
     "58632a2d8030a25d987094e1": {
       "first_seen": "2026-10-20T22:43:53Z",
       "search_score": 0,
@@ -5141,6 +5162,12 @@
       "first_seen": "2026-11-21T21:48:11Z",
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-92a2544db13db67064ba"
+    },
+    "6c23164b5ce46882be51beef": {
+      "first_seen": "2026-11-25T03:48:51Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/mystonie"
     },
     "6c9a3778997db3fc25b1b0b9": {
       "first_seen": "2026-10-27T12:46:49Z",
@@ -7723,6 +7750,11 @@
       "status": "queued",
       "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "a3dfa00ac6774bc843ac74b5": {
+      "first_seen": "2026-11-25T03:48:53Z",
+      "status": "queued",
+      "url": "https://sakana.ai/namazu-small/"
+    },
     "a41c6b1e5e903c631014638b": {
       "first_seen": "2026-10-29T19:17:18Z",
       "status": "queued",
@@ -9185,6 +9217,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/adhelm-cli"
+    },
+    "c542fd2f8de9743abcd8fdd3": {
+      "first_seen": "2026-11-25T03:48:51Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/context-13"
     },
     "c58c832a38538cb3c7849296": {
       "first_seen": "2026-10-09T07:47:51Z",

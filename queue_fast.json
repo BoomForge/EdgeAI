@@ -2508,20 +2508,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "ac94b61a25ade5edbf713f08",
-      "discovered_at": "2026-11-11T07:35:48Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Wed, 11 Nov 2026 08:00:00 GMT",
-      "search_score": -2,
-      "source_name": "OpenAI News",
-      "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "a1c4ce12170e4f18f3a7e401",
       "discovered_at": "2026-11-13T15:30:17Z",
       "kind": "open-source",
@@ -3432,6 +3418,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "429a2cadf7cdac94d919f323",
+      "discovered_at": "2026-11-25T11:08:28Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-25T03:54:30Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "Assisted-by: Claude Opus 5.5",
+      "title": "b12723: model : inkling2 graph with fewer ops in mix() and control() (#32948)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12723"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "417be228cec59f8a2ed91a21",
       "discovered_at": "2026-11-24T17:56:41Z",
       "kind": "open-source",
@@ -3460,6 +3460,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "101285170393b46e4da58e66",
+      "discovered_at": "2026-11-25T11:08:28Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-25T04:32:13Z",
+      "search_score": 6,
+      "source_name": "llama.cpp Releases",
+      "summary": "cmake : include the llguidance header from the source tree ( #32928 ) Cargo 1.100 changed the build directory layout for intermediate artifacts, so the header destination llguidance derives from $OUT_DIR no longer resolves to target/release, and the build fails on a missing llguidance.h. The header is a source file that cargo only copies around, so include it from the llguidance source tree instead of from the build output. ref: rust-lang/cargo#17354 Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71971342 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12716",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12716"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "acd761c740c5ce014c75e607",
       "discovered_at": "2026-11-24T17:56:45Z",
       "kind": "local-ai",
@@ -3485,23 +3499,9 @@
       "summary": "Signed-off-by: Johnsonms lizhaofu@gmail.com Co-authored-by: vllm-agent claw@inferact.ai",
       "title": "v0.34.1rc0: [Perf][Qwen4Exp] Add SM100 TP=2 and TP=8 skinny GEMM plans (#69529)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "94777b35d1e04ab74c4f9654",
-      "discovered_at": "2026-11-24T17:56:45Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-23T19:02:30Z",
-      "search_score": 6,
-      "source_name": "llama.cpp Releases",
-      "summary": "metal : add NVFP4 support Follow the MXFP4 path: add the UE4M3 scale decode, the NVFP4 dequantizers, a dedicated mat-vec kernel with its MUL_MAT_ID, small-batch and MMA variants, the mul_mm / mul_mm_id and tensor-op variants, and the get_rows and cpy kernels. Enable the type in supports_op. Tested on an M5 Max with ggml-org/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-GGUF:NVFP4 and test-backend-ops (MUL_MAT, MUL_MAT_ID, W4A8/W4A4, CPY, GET_ROWS). Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (2x DGX Spark (RDMA, TP=2)) metal : skip the small-batch path for NVFP4 With the few-row MMA kernels covering ne11 3..16, the small-batch mat-vec kernels are only reachable at ne11 = 2, where they are 17-59% slower than the generic mat-vec kernel on an M2 Ultra and an M5 Max. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (2x DGX Spark (RDMA, TP=2))",
-      "title": "b12672: metal : add NVFP4 support (#32825)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12672"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-25T02:02:08Z",
+  "updated_at": "2026-11-25T11:08:51Z",
   "version": 2
 }

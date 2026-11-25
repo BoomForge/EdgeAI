@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-25T02:02:08Z",
+    "at": "2026-11-25T11:08:51Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 20,
+    "queued": 10,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 242,
+  "runs": 243,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -859,6 +859,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11732"
     },
+    "101285170393b46e4da58e66": {
+      "first_seen": "2026-11-25T11:08:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12716"
+    },
     "101489b52765feb01972a028": {
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
@@ -1034,6 +1039,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0"
+    },
+    "121b5ad1212436fbcee0a55d": {
+      "first_seen": "2026-11-25T11:08:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12722"
     },
     "1228507ec8203815c9319cdf": {
       "first_seen": "2026-11-08T15:51:45Z",
@@ -2332,6 +2342,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11627"
     },
+    "26b8f090b583bb81d59f923e": {
+      "first_seen": "2026-11-25T11:08:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12721"
+    },
     "26c451a3ba9575d2f4b62208": {
       "first_seen": "2026-10-24T13:24:11Z",
       "status": "queued",
@@ -3413,6 +3428,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11719"
     },
+    "3a1429276f451c10cdaf9e76": {
+      "first_seen": "2026-11-25T11:08:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12717"
+    },
     "3a23f7f560d629a2629ab245": {
       "first_seen": "2026-11-08T15:51:35Z",
       "status": "queued",
@@ -3982,6 +4002,11 @@
       "first_seen": "2026-10-08T07:31:26Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11487"
+    },
+    "429a2cadf7cdac94d919f323": {
+      "first_seen": "2026-11-25T11:08:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12723"
     },
     "429c1a67cee7896a94e1f9ba": {
       "first_seen": "2026-11-02T10:42:43Z",
@@ -5415,6 +5440,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/"
     },
+    "5b89c1a6efb3434dde666458": {
+      "first_seen": "2026-11-25T11:08:39Z",
+      "status": "queued",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.5"
+    },
     "5bcbb602a5dce00ac99e5530": {
       "first_seen": "2026-11-09T23:28:24Z",
       "status": "queued",
@@ -6826,6 +6856,11 @@
       "first_seen": "2026-10-23T04:34:34Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.30211"
+    },
+    "72eecb3fece82b05e2b39ed4": {
+      "first_seen": "2026-11-25T11:08:38Z",
+      "status": "queued",
+      "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.5"
     },
     "7308a26fca8e14439fa8677f": {
       "first_seen": "2026-10-21T11:25:25Z",
@@ -8339,6 +8374,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.28772"
     },
+    "8e1f9b3f455e192c9297f23a": {
+      "first_seen": "2026-11-25T11:08:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12719"
+    },
     "8e47f728a8f073bb420294d2": {
       "first_seen": "2026-11-02T10:42:42Z",
       "status": "queued",
@@ -9244,6 +9284,11 @@
       "first_seen": "2026-11-20T08:40:14Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.25172"
+    },
+    "9ce015fea68371ec6809208d": {
+      "first_seen": "2026-11-25T11:08:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12711"
     },
     "9cf1ea8eacb8cd7776b39e33": {
       "first_seen": "2026-11-23T22:13:51Z",
@@ -12707,6 +12752,11 @@
       "first_seen": "2026-10-21T23:26:57Z",
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.13"
+    },
+    "d80a944e56a0f470b8dca6fe": {
+      "first_seen": "2026-11-25T11:08:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12720"
     },
     "d8183669720c73e25da9b33a": {
       "first_seen": "2026-10-28T14:30:19Z",

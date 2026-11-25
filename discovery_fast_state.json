@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-25T11:08:51Z",
+    "at": "2026-11-25T20:31:26Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 10,
+    "queued": 6,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 243,
+  "runs": 244,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -558,6 +558,11 @@
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.06897"
+    },
+    "0af1151093497b21fd8616c0": {
+      "first_seen": "2026-11-25T20:31:07Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12732"
     },
     "0af7158376dbf2f78a8052f5": {
       "first_seen": "2026-11-24T17:56:45Z",
@@ -4757,6 +4762,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11499"
     },
+    "4fa08de0a59013653d280cfa": {
+      "first_seen": "2026-11-25T20:31:07Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12728"
+    },
     "4fb313bfef004f15abdc72c1": {
       "first_seen": "2026-10-13T16:26:21Z",
       "status": "queued",
@@ -6305,6 +6315,11 @@
       "first_seen": "2026-10-03T00:45:51Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2609.38198"
+    },
+    "69b3c46c58bba50dbf9547f2": {
+      "first_seen": "2026-11-25T20:31:07Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12731"
     },
     "69d162e3003a2077ca17c8c6": {
       "first_seen": "2026-11-19T19:03:01Z",
@@ -9697,6 +9712,11 @@
       "status": "queued",
       "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.8"
     },
+    "a32bda4e73647296c0c25339": {
+      "first_seen": "2026-11-25T20:31:19Z",
+      "status": "queued",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.925-beta"
+    },
     "a3433e936d2c04bfa7722c64": {
       "first_seen": "2026-11-04T18:14:02Z",
       "status": "queued",
@@ -11219,6 +11239,11 @@
       "status": "prefiltered",
       "url": "https://blog.google/products/ads-commerce/channel-prioritization-budget-allocation/"
     },
+    "be8335cd6d76fecd99ea1769": {
+      "first_seen": "2026-11-25T20:31:07Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12726"
+    },
     "be85813681676bcab5f05b86": {
       "first_seen": "2026-10-24T09:06:47Z",
       "status": "queued",
@@ -12438,6 +12463,11 @@
       "first_seen": "2026-10-07T09:14:07Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.07084"
+    },
+    "d307e7ba0933893bee522a68": {
+      "first_seen": "2026-11-25T20:31:26Z",
+      "status": "queued",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.75.0"
     },
     "d30a8ab93b58a4a69b36ea97": {
       "first_seen": "2026-10-03T00:45:52Z",

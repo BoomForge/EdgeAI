@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-25T23:13:19Z",
+    "at": "2026-11-26T05:19:02Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 2,
-    "queued": 2,
+    "prefiltered": 1,
+    "queued": 12,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 242,
+  "runs": 243,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -262,6 +262,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/tide-simple-self-hostable-video-calls"
+    },
+    "0541b07206f75bf2d54a30fb": {
+      "first_seen": "2026-11-26T05:18:57Z",
+      "status": "queued",
+      "url": "https://cognition.com/blog/swe-2-1?utm_source=futuretools.io&utm_medium=newspage"
     },
     "055e10c1aeb1f19298cb227c": {
       "first_seen": "2026-10-13T10:55:50Z",
@@ -2027,6 +2032,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/cluinn"
     },
+    "2ada6bc927bcede3f5a7c48d": {
+      "first_seen": "2026-11-26T05:18:58Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/"
+    },
     "2af8f71f756556cba7b5e194": {
       "first_seen": "2026-11-11T00:37:31Z",
       "search_score": 1,
@@ -2285,6 +2295,12 @@
       "first_seen": "2026-10-06T19:44:10Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/noteworthy"
+    },
+    "3039e0b7819a40185ff92582": {
+      "first_seen": "2026-11-26T05:18:58Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/hold-em"
     },
     "30575de818b810e164ca1bed": {
       "first_seen": "2026-10-22T07:30:04Z",
@@ -3490,6 +3506,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/vb-notes"
     },
+    "4915fa3466d2d3bdc6a02929": {
+      "first_seen": "2026-11-26T05:18:58Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts-2/"
+    },
     "494aab68a3420fb5d1cec372": {
       "first_seen": "2026-10-28T08:23:12Z",
       "status": "too_old",
@@ -3917,6 +3938,11 @@
       "first_seen": "2026-11-16T16:16:39Z",
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-a3cd0f3d202b95485502"
+    },
+    "51a79bd716b47f7e17bd28d9": {
+      "first_seen": "2026-11-26T05:18:57Z",
+      "status": "queued",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider-v2/?utm_source=futuretools.io&utm_medium=newspage"
     },
     "51e9644687d4622bc1d41619": {
       "first_seen": "2026-10-08T08:53:54Z",
@@ -5134,6 +5160,11 @@
       "first_seen": "2026-10-20T00:43:52Z",
       "status": "queued",
       "url": "https://www.anthropic.com/news/public-benefit-fund?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "6ab605b6f6923022f5b4699f": {
+      "first_seen": "2026-11-26T05:18:58Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/koed"
     },
     "6abfe63fbd009c41dccc767d": {
       "first_seen": "2026-11-24T20:45:19Z",
@@ -7040,6 +7071,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/rigspark"
     },
+    "91ced52658b8e0a2a527c4a2": {
+      "first_seen": "2026-11-26T05:18:57Z",
+      "status": "queued",
+      "url": "https://epochal.com/blog/introducing-epochal?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "91d422a2a350b2f8e9d7c3ea": {
       "first_seen": "2026-11-07T22:22:07Z",
       "status": "too_old",
@@ -7756,6 +7792,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/"
     },
+    "a183d3df5779b5926b7f81ed": {
+      "first_seen": "2026-11-26T05:18:58Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-e5266a2b54c6930bd9a5"
+    },
     "a1c3614f9f04bf282d6eb487": {
       "first_seen": "2026-10-19T10:44:24Z",
       "search_score": 1,
@@ -7854,6 +7895,11 @@
       "first_seen": "2026-11-25T03:48:53Z",
       "status": "queued",
       "url": "https://sakana.ai/namazu-small/"
+    },
+    "a3e2f37294cfcf05d533c148": {
+      "first_seen": "2026-11-26T05:19:01Z",
+      "status": "queued",
+      "url": "https://sakana.ai/marlin-update-2/"
     },
     "a41c6b1e5e903c631014638b": {
       "first_seen": "2026-10-29T19:17:18Z",
@@ -7986,6 +8032,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/truffle-music-tag-editor"
+    },
+    "a690b0e0e45e7c5823f655dd": {
+      "first_seen": "2026-11-26T05:18:57Z",
+      "status": "queued",
+      "url": "https://higgsfield.ai/announcing-magi-2?utm_source=futuretools.io&utm_medium=newspage"
     },
     "a6ce8ee62eb8a0b82d296cd7": {
       "first_seen": "2026-10-03T15:15:03Z",
@@ -8238,6 +8289,11 @@
       "first_seen": "2026-11-04T23:37:16Z",
       "status": "queued",
       "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/"
+    },
+    "abf2eb2173a8211f885d371c": {
+      "first_seen": "2026-11-26T05:18:57Z",
+      "status": "queued",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers?utm_source=futuretools.io&utm_medium=newspage"
     },
     "ac0fa92fff55b540304bdda0": {
       "first_seen": "2026-10-28T20:28:26Z",
@@ -8987,6 +9043,11 @@
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
       "url": "https://stability.ai/deployment"
+    },
+    "bdd2bd8397a994fbb8143fe9": {
+      "first_seen": "2026-11-26T05:18:58Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-256d5faf085c80509e3a"
     },
     "bdd41eb4bd770cbbce58425a": {
       "first_seen": "2026-11-12T11:41:10Z",
@@ -10572,6 +10633,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/openllm"
+    },
+    "e0577f40419a647d93e25429": {
+      "first_seen": "2026-11-26T05:18:58Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/"
     },
     "e07b1338e91c69ebd6fe27e6": {
       "first_seen": "2026-10-15T19:05:48Z",

@@ -2060,20 +2060,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "d7c1da8cb7dc41da688b7a99",
-      "discovered_at": "2026-11-12T11:29:28Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Thu, 12 Nov 2026 00:00:00 GMT",
-      "search_score": 5,
-      "source_name": "OpenAI News",
-      "summary": "OpenAI commits $2 million to research on AI and children\u2019s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "title": "Supporting research on AI and children\u2019s safety",
-      "url": "https://openai.com/index/children-first-declaration"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "89a905d5eae9fa3ef5a8af6c",
       "discovered_at": "2026-11-25T02:01:40Z",
       "kind": "official",
@@ -2281,20 +2267,6 @@
       "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
       "title": "Introducing ChatGPT for Sales",
       "url": "https://openai.com/index/introducing-chatgpt-for-sales"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "65b96c238445cdedc96b3e82",
-      "discovered_at": "2026-11-11T00:54:02Z",
-      "kind": "official",
-      "lane": "fast",
-      "priority": 1,
-      "published": "Thu, 12 Nov 2026 00:00:00 GMT",
-      "search_score": 2,
-      "source_name": "OpenAI News",
-      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-      "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "url": "https://openai.com/index/gilbert-tobin-sam-nickless"
     },
     {
       "bootstrap": false,
@@ -2970,6 +2942,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "30b4114d89216e9579fef65b",
+      "discovered_at": "2026-11-26T03:05:42Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-25T17:39:50Z",
+      "search_score": 9,
+      "source_name": "llama.cpp Releases",
+      "summary": "model : add hy_v4_flash on the DSA iSWA cache Tencent Hy4 flash is a hy_v4 trunk (iHC, gated MLA, sinks) with sparse and sliding-window MLA layers, sandwich norms, latent routed experts and deepseek41 Engram tables. The sparse layers select their context with a pooled indexer: the keys of 4 consecutive tokens are pooled by a per-channel softmax of a gate plus a position bias, normed, and rotated at the position of the first token. A token attends to the best scored pools of its sequence plus its own pool. The model runs on llama_kv_cache_dsa_iswa as dots3note does. The indexer cache holds the projected value and gate of each token, and the pools are rebuilt from the cells for every ubatch by llama_kv_cache::set_input_kpool(), so there is no pooled state to keep in sync with sequence edits, checkpoints or state save/restore. The selection goes through ggml_top_k_mask with the pool members as blocks and the token's own pool as extra cells. Not covered yet: the MTP block (its tensors are skipped), the vision tower, multiple KV streams, and backends without GGML_OP_TOP_K_MASK. convert : add hy_v4_flash The converter of the hy_v4_flash model, without the vision parts. The four Engram tables are written as one per_layer_token_embd tensor of about 127 GB in BF16. Concatenating them with torch.cat materializes the whole tensor at write time, so they are streamed one table at a time in row chunks through the _StreamedBytes path of deepseek41, which keeps the conversion within 100 GB of RAM. tests : add hy_v4_flash to test-llama-archs A 4 layer fixture that alternates sparse and sliding-window layers, with hyper-connections, one Engram module, an indexer on the sparse layers and a latent width distinct from the expert width, so that a transposed routed_down or routed_up is caught. kv-cache : do not shift the pooled indexer cache The pooled indexer of hy_v4_flash caches the value and the gate of each token, without a position: the pooled key is rotated in the graph. A K-shift rotated these rows as if they were roped keys, which broke the pooled keys after a context shift. tests : add the hy_v4_flash Metal fusion baseline model, mtmd : add hy_v4_flash vision The vision tower of hy_v4_flash, with its projector in mtmd and its converter. The published files carry M-RoPE sections, so the text model runs the interleaved M-RoPE path: the rope rows keep their reference order and are reordered to NeoX halves in the graph. The tokens of an image share their position, so the indexer pools now group consecutive tokens in sequence order instead of consecutive positions, and a pooled key is rotated at the four positions of its first member. Without a backend that runs GGML_OP_TOP_K_MASK, the picked pools are expanded to their cells and go through build_top_k_mask. CUDA: lightning indexer for 16 heads hy_v4_flash scores its pools with 16 indexer heads, which the CUDA backend did not support, so the scheduler ran the 12 sparse layers' indexers on the CPU at every step. Both kernels already handle 16 heads: the mma kernel needs a multiple of 16 and the vector kernel splits the heads in 4 passes. model : move the Hy4 flash Engram gathers before the token embeddings With the gathers after build_inp_embd, the mixed embedding DUP and SET_ROWS sat between two host nodes and stayed on the CPU. Those ops use every thread, so all the CPU workers woke up on each decoded token for a 12K copy. Gathering first lets the scheduler put them on the GPU, as in qwen4exp, and leaves only small single threaded lookups on the host. llama : speed up the Hy4 flash pool inputs on long contexts set_input_kpool deduplicated the pools through a map keyed by vectors even with a single sequence, sorted cells that are already in order and scanned every pool owner for each token. Dedup only when the ubatch has several sequences, skip the sort when the cells are ordered and mark the earlier pools of the token's sequence directly. At 129k cells the host cost of a decode step drops from 4.0 ms to 0.5 ms, the logits are unchanged. llama : use a unified KV cache for Hy4 flash The pools gather their members from a single KV stream, so a split cache with several sequences hit an assert in the graph. Switch to the unified cache with a warning, the sequences then share n_ctx. rm redundant code in mtmd clean up comments Co-authored-by: Xuan Son Nguyen son@huggingface.co",
+      "title": "b12755: model : add hy_v4_flash on the DSA iSWA cache (#32960)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12755"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "fe49c67078f761892c4fc124",
       "discovered_at": "2026-11-20T17:17:29Z",
       "kind": "local-ai",
@@ -3037,6 +3023,20 @@
       "summary": "What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx: support concurrent generation by @dhiltgen in #19197 llama.cpp: version bump b12257 by @dhiltgen in #19646 MLX, MLX-C: version bump by @dhiltgen in #19647 New Contributors @rpreslar4765 made their first contribution in #17163 Full Changelog : v0.40.16...v0.40.17-rc0",
       "title": "v0.40.17",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "c95d57f8182f4a9618a3a588",
+      "discovered_at": "2026-11-26T03:05:43Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-25T22:18:16Z",
+      "search_score": 8,
+      "source_name": "llama.cpp Releases",
+      "summary": "metal : commit the graph in chunks with one command buffer thread ( #32947 ) Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72386571 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12734",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12734"
     },
     {
       "bootstrap": false,
@@ -3390,6 +3390,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "0e3f04a8d2211d91139f1e6d",
+      "discovered_at": "2026-11-26T03:05:42Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-26T02:50:38Z",
+      "search_score": 7,
+      "source_name": "llama.cpp Releases",
+      "summary": "ggml-openvino: fix CI op tests and improve KV cache decode ( #33002 ) ggml-openvino: write back consumed in-place nodes of op-test graphs On the naive path every node of an op-test graph is a model output, except an in-place node that another node reads: it got no output, so its destination buffer was never written. GATED_DELTA_NET_CACHE_FUSION copies the final state into the cache and then reads the copy, so the cache kept its old contents. Write such a node back through its view_src, as is already done when nothing reads it. Model graphs are unchanged. ggml-openvino: keep the rest of the buffer in a partial in-place FILL An in-place FILL on a view into part of a larger buffer produced only the filled values. Its output stands for the whole in-place source, so the write-back put those values at the start of the buffer and not at the view's offset. For a contiguous view with a static shape, build the whole buffer: the elements before the view, the filled values, then the elements after it. Add NodeContext::get_inplace_op_src() to detect the in-place case. ggml-openvino: fix softplus precision for large negative inputs softplus was computed as relu(x) + log(1 + exp(-|x|)). When exp(-|x|) is below the precision of 1 + exp(-|x|), the log returns 0 or one ulp, so for x below about -16 in f32 the result was 0 or far off. The SOFTPLUS test case with inputs in [-16.6, -16] fails on CPU and GPU. Compute log1p(y) for y = exp(-|x|) with the series y - y^2/2 + y^3/3 - y^4/4 when y < 0.01, where its relative error is below 2e-9, and keep log(1 + y) above that. ggml-openvino: finer GPU KV rounding for decode batches Rounding the GPU KV length up to a power of two makes a batch attend up to twice the rows that hold data right after each power of two. Decode reads every attended row, so long contexts lose decode speed. The GPU plugin keeps memory for each attended length: several large buffers for a prompt batch, about one copy of K and V for a decode batch. Keep the power of two for prompt batches (more than 16 tokens per sequence), and round decode batches up to a multiple of 2^k / 4 and of 256. That is four lengths per power of two, with at most 25% masked rows. ggml-openvino : keep the head axis of the 4-D KV cache static ggml-openvino: split two one-line lambdas per clang-format The backend's .clang-format keeps a lambda on one line only when it is a function argument (AllowShortLambdasOnASingleLine: Inline). The constant helpers in the softplus and FILL translators are assigned to variables, so clang-format splits them. Formatting only. Co-authored-by: Mustafa Cavus mustafa.cavus@intel.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72468268 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12754",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12754"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "429a2cadf7cdac94d919f323",
       "discovered_at": "2026-11-25T11:08:28Z",
       "kind": "local-ai",
@@ -3432,6 +3446,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "db24565b234f36f751dcb988",
+      "discovered_at": "2026-11-26T03:05:43Z",
+      "kind": "local-ai",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-25T22:40:13Z",
+      "search_score": 6,
+      "source_name": "llama.cpp Releases",
+      "summary": "server : handle CTRL_BREAK_EVENT on Windows for clean shutdown ( #32080 ) Windows can't send SIGINT to a child process, so scripts that launch llama-server could only kill it, which skips the clean shutdown. The console control handler only handled CTRL_C_EVENT, so a CTRL_BREAK_EVENT sent to the server's own process group ended it with STATUS_CONTROL_C_EXIT. server: handle CTRL_BREAK_EVENT the same as CTRL_C_EVENT in the console control handler scripts/moe-cache-tune.py: on Windows, start the server in a new process group and stop it with CTRL_BREAK_EVENT. On other platforms, stop it with SIGINT. In both cases, kill it afterwards as a fallback. tests: add test_server_ctrl_break (Windows only) and a ServerProcess.share_console option. Console control events only reach a server that shares the test's console, hence the option. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72393785 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
+      "title": "b12738",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12738"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "101285170393b46e4da58e66",
       "discovered_at": "2026-11-25T11:08:28Z",
       "kind": "local-ai",
@@ -3471,37 +3499,9 @@
       "summary": "Signed-off-by: Johnsonms lizhaofu@gmail.com Co-authored-by: vllm-agent claw@inferact.ai",
       "title": "v0.34.1rc0: [Perf][Qwen4Exp] Add SM100 TP=2 and TP=8 skinny GEMM plans (#69529)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "4fa08de0a59013653d280cfa",
-      "discovered_at": "2026-11-25T20:31:07Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-25T15:23:48Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "ggml: allow reserving scratch memory in graph_optimize ( #31898 ) ggml: allow reserving scratch memory in graph_optimize Add add_scratch to ggml_backend_graph_optimize_params. A backend can reserve compute buffer memory that is allocated before a node first and kept until a node last has been computed, e.g. for data that several nodes share. The scheduler adds the scratch tensor to the graph copy right before first and frees it with an alloc dep at last . ggml: clarify the lifetime of add_scratch memory ggml: build the pending scratch set from the scratch map Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72223009 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12728",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12728"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "be8335cd6d76fecd99ea1769",
-      "discovered_at": "2026-11-25T20:31:07Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-25T14:45:56Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "sycl: F8 e4m3 initial support SET_ROWS, CPY, ADD, MUL_MAT, MUL_MAT_ID ( #31871 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72206079 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12726",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12726"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-25T20:31:26Z",
+  "updated_at": "2026-11-26T03:06:04Z",
   "version": 2
 }

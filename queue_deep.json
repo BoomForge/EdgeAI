@@ -884,6 +884,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "33733c16b55818d93cdc696a",
+      "discovered_at": "2026-11-26T15:36:46Z",
+      "kind": "independent-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-26T15:36:46Z",
+      "search_score": 38,
+      "source_name": "OpenRouter Rankings",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 25, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 DeepSeek V4.1 Flash 1017 deepseek 73.7T tokens +19% 2 Hy4 flash * tencent 32.1T tokens >999% 3 DeepSeek V4.1 Flash deepseek 14.5T tokens -10% 4 GLM 5.3 Flash z-ai 13.1T tokens +21% 5 GPT-6 Luna openai 7.82T tokens -9% 6 Claude Opus 5.5 anthropic 6.46T tokens -15% 7 MiniMax M3.1 Flash minimax 4.73T tokens +29% 8 Kimi K3.1 Pro moonshotai 4.37T tokens +23% 9 Nemotron 3 Ultra (free) nvidia 4.25T tokens +28% 10 GLM 5.3 z-ai 3.85T tokens +12% 1 . DeepSeek V4.1 Flash 1017 by deepseek 73.7T tokens 19% 2 . Hy4 flash * by tencent 32.1T tokens >999% 3 . DeepSeek V4.1 Flash by deepseek 14.5T tokens 10% 4 . GLM 5.3 Flash by z-ai 13.1T tokens 21% 5 . GPT-6 Luna by openai 7.82T tokens 9% 6 . Claude Opus 5.5 by anthropic 6.46T tokens 15% 7 . MiniMax M3.1 Flash by minimax 4.73T tokens 29% 8 . Kimi K3.1 Pro by moonshotai 4.37T tokens 23% 9 . Nemotron 3 Ultra (free) by nvidia 4.25T tokens 28% 10 . GLM 5.3 by z-ai 3.85T tokens 12% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the last 24 complete hours, with the change measured against the 24 hours before them. Models ranked by tokens processed on OpenRouter over the last 24 complete hours Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 13.5T -6% 2 Hy4 flash tencent 4.02T +14% 3 DeepSeek V4.1 Flash deepseek 2.01T -1% 4 GLM 5.3 Flash z-ai 1.91T +9% 5 GPT-6 Luna openai 1.28T +16% 6 Claude Opus 5.5 anthropic 1.18T -2% 7 Jev 1.13 typesafe 869B +38% 8 GLM 5.3 z-ai 753B +9% 9 Kimi K3.1 Pro moonshotai 741B +5% 10 MiniMax M3.1 Flash minimax 716B +1% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 260T +509% 2 DeepSeek V4.1 Flash deepseek 67.7T -45% 3 GLM 5.3 Flash z-ai 56.2T +11% 4 GPT-6 Luna openai 35.1T +17% 5 Hy4 flash tencent 32.6T new 6 Claude Opus 5.5 anthropic 29.7T +28% 7 MiniMax M3.1 Flash minimax 20.3T >999% 8 Kimi K3.1 Pro moonshotai 16.1T >999% 9 GLM 5.3 z-ai 16.1T -11% 10 Nemotron 3 Ultra (free) nvidia 14.5T -41% New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 Inkling 2 Mini thinkingmachines 413B new 2 Solar Mini 4.5 (Preview) upstage 31.9B new 3 DaisyRose 27B radixark 6.71B new 4 Bison 1 baseten 3.46B new 5 Embed V2 Context 0.6B perplexity 3.12B new 6 Claude Haiku 4.5 (batch) anthropic 22.2M >999% 7 Qwen3.7 Plus (batch) qwen 3.2M >999% 8 Gemini 4 Neon (batch) google 777M >999% 9 Gemini 4 Neon google 1.22T >999% 10 Hy4 flash tencent 32.1T >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend Software 39.1% Data 22.1% Information 14.5% Writing 7.1% Assistance 6.3% Creative 5.9% Media 4.1% Retrieval 0.1% Implementation 15.7% of all spend 1 Claude Opus 5.5 by anthropic 21.8% -1.6 2 Kimi K3.1 Pro by moonshotai 9.7% +9.5 3 Gemini 4 Carbon by google 6.3% +6.3 4 Claude Fable 5.2 by anthropic 5.9% +5.9 5 Claude Sonnet 5.5 by anthropic 5.5% +0.8 6 Deepseek V4.1 Flash by deepseek 5.4% +4.9 7 GPT-6.1-Sol by openai 4.4% +1.9 8 GLM 5.3 by z-ai 3.5% -2.1 9 GPT-6-Astra by openai 2.8% -4.4 10 Kimi K3 by moonshotai 2.7% -3.1 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 16, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 25.4% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 DeepSeek 25.4% -7% 2 OpenAI 16.8% +3",
+      "title": "OpenRouter real-world model rankings changed",
+      "url": "https://openrouter.ai/rankings#edgeai-d5440c28c40b99e644c4"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "a183d3df5779b5926b7f81ed",
       "discovered_at": "2026-11-26T05:18:58Z",
       "kind": "independent-signal",
@@ -2102,6 +2116,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "fcbb41954277a0a1d4ec8475",
+      "discovered_at": "2026-11-26T15:36:46Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-26T15:09:31+00:00",
+      "search_score": 6,
+      "source_name": "Simon Willison Everything",
+      "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ostensibly serious institutions who want to publish things attached to their reputations and mine, and I see Claude . \u2014 Jack Despain Zhou , Spitting in the Face of Glaude Tags: ai-misuse , claude , generative-ai , ai , llms",
+      "title": "Quoting Jack Despain Zhou",
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "81dba6fe40f7c0eb3a32cc16",
       "discovered_at": "2026-11-16T06:18:18Z",
       "kind": "independent",
@@ -2522,6 +2550,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "7de39f044da3622e099c177c",
+      "discovered_at": "2026-11-26T15:36:46Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-26T06:08:25+00:00",
+      "search_score": 3,
+      "source_name": "Simon Willison Everything",
+      "summary": "sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025 . It was only today that I understood one of its most attractive characteristics. Normally, if you want to grab a snapshot copy of a SQLite database, you need to use either the backup API or VACUUM INTO . In both cases you need enough disk space to create a duplicate copy of your database, so if you're on a small instance and you already use more than half of the available disk you are plain out of luck. sqlite3_rsync can copy a snapshot of your database over an SSH connection to another machine, without first needing to create a full local copy! It's also good for synchronizing an existing copy of a database without re-transmitting the entire thing over the network. It works in a similar way to regular rsync: The core idea behind the protocol is that the replica sends cryptographic hashes for pages or groups of pages over to the origin side. The origin sends back page content that differs, or requests finer-grain hashes if a multi-page hash does not match. If the origin and replica start out being vastly different, the total network bandwidth can exceed the size of the entire database, due to the overhead of exchanging hashes, but the excess bandwidth is not great - a few percent at most. Update : Hah! Turns out I wrote about this application of sqlite_rsync back in October 2024 when the tool was first released. Tags: backups , sqlite",
+      "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+      "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "2ada6bc927bcede3f5a7c48d",
       "discovered_at": "2026-11-26T05:18:58Z",
       "kind": "independent",
@@ -2603,6 +2645,20 @@
       "summary": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely worth the wait. My favorite new feature is this one: For applications that send reads to standbys, PostgreSQL 19 adds \"read-your-writes\" consistency with the new WAIT FOR LSN command. A session on a standby can use WAIT FOR LSN to wait until the standby has replayed the write-ahead log (WAL) up to a specific log sequence number (LSN) before running a query, so the application can read data it just wrote on the primary. In practice, that looks like this: UPDATE movie SET genre = 'Dramatic' WHERE genre = 'Drama';\nSELECT pg_current_wal_insert_lsn(); That returns a value like 0/0306EE20 . Store that somewhere (a signed cookie would work) such that on a subsequent request your application can do: WAIT FOR LSN '0/0306EE20' WITH (TIMEOUT '0.1s');\nSELECT * FROM movie WHERE genre = 'Drama'; The timeout is optional - if you provide one you'll get an error if the replica you are talking to doesn't catch up within the specified time. I first encountered this pattern in Wikipedia , which has a hand-rolled version of this built against MySQL replication: In addition to this, MediaWiki attempts to ensure that the user sees events occurring on the wiki in chronological order. A few seconds of lag can be tolerated, as long as the user sees a consistent picture from subsequent requests. This is done by saving the primary binlog position in the session, and then at the start of each request, waiting for the replica to catch up to that position before doing any reads from it. Here's the relevant MediaWiki code , which these days uses MySQL's WAIT_FOR_EXECUTED_GTID_SET() function and falls back to MASTER_POS_WAIT() . Via Lobste.rs Tags: mysql , postgresql , replication , scaling , wikipedia , ai-security-research",
       "title": "PostgreSQL 19 Released",
       "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "e7f1c23cf7eb37255791b5bd",
+      "discovered_at": "2026-11-26T15:36:46Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-26T05:08:46+00:00",
+      "search_score": 2,
+      "source_name": "Simon Willison Everything",
+      "summary": "My comment on The New York Times warns photographers not to update Photoshop over AI features \u2014 Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photographs as they were taken, with cropping and balancing applied but no edits beyond that. He did spend a bunch of time trying to find the best possible natural lighting for the shots he wanted. The photo at the top of https://www.nytimes.com/2026/02/02/technology/moltbook-ai-so... is my laptop, taken in my garden, after hunting around for the best spot that didn't have too much glare on the screen. You can see how dirty my screen is, too! Photography for a newspaper is photo journalism, and they take it seriously. (Thankfully I did not have a visible stain on my shirt.) Tags: photography , new-york-times , hacker-news , journalism",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/"
     },
     {
       "bootstrap": false,
@@ -3138,6 +3194,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "193210e92b6bf9a5d0e29a3a",
+      "discovered_at": "2026-11-26T15:36:45Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-25T23:58:18-08:00",
+      "search_score": 9,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Switch devices. Keep your AI agents' memory. Discussion | Link",
+      "title": "Claude-Mem Cloud Sync",
+      "url": "https://www.producthunt.com/products/claude-mem"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "dd556579819acea186d4b97c",
       "discovered_at": "2026-11-25T14:13:49Z",
       "kind": "signal",
@@ -3292,6 +3362,48 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "e5323f1163ca56097b2c6b1d",
+      "discovered_at": "2026-11-26T15:36:45Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-25T13:44:16-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Control AI coding agents from your phone Discussion | Link",
+      "title": "WhipDesk",
+      "url": "https://www.producthunt.com/products/whipdesk"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "a92d022203bc9933508edd4a",
+      "discovered_at": "2026-11-26T15:36:45Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-25T10:28:50-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "The long-term memory layer for AI agents Discussion | Link",
+      "title": "Remora",
+      "url": "https://www.producthunt.com/products/remora-6"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "1b4f32b14bc9f666aa2dbd07",
+      "discovered_at": "2026-11-26T15:36:45Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-25T08:34:30-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Ask Claude or ChatGPT to edit your videos Discussion | Link",
+      "title": "Flurra",
+      "url": "https://www.producthunt.com/products/flurra"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "71138b68466008dec48562e3",
       "discovered_at": "2026-11-25T14:13:49Z",
       "kind": "signal",
@@ -3334,6 +3446,34 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "c859ab3a467c44eefb1c7002",
+      "discovered_at": "2026-11-26T15:36:45Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-24T10:34:28-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "Run 100 Claude Code or Codex sessions like 5 Discussion | Link",
+      "title": "Hub",
+      "url": "https://www.producthunt.com/products/hub-20"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "a028202efe2d4cd9c796bd2d",
+      "discovered_at": "2026-11-26T15:36:45Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-24T07:04:58-08:00",
+      "search_score": 3,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "See your website the way AI agents do Discussion | Link",
+      "title": "Bifura",
+      "url": "https://www.producthunt.com/products/bifura"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "607efd13331061dd68e119cb",
       "discovered_at": "2026-11-24T00:11:31Z",
       "kind": "signal",
@@ -3359,23 +3499,9 @@
       "summary": "Set a budget, coordinate teams of AI agents, Discussion | Link",
       "title": "Replit Missions",
       "url": "https://www.producthunt.com/products/replit"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "6ab605b6f6923022f5b4699f",
-      "discovered_at": "2026-11-26T05:18:58Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-11-24T01:30:45-08:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "Supercharged Agents! Discussion | Link",
-      "title": "Koed",
-      "url": "https://www.producthunt.com/products/koed"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-26T05:19:02Z",
+  "updated_at": "2026-11-26T15:36:50Z",
   "version": 2
 }

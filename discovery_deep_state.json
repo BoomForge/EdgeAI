@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-26T05:19:02Z",
+    "at": "2026-11-26T15:36:50Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
+    "prefiltered": 9,
     "queued": 12,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 3,
     "warnings": 0
   },
-  "runs": 243,
+  "runs": 244,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -30,6 +30,12 @@
       "first_seen": "2026-11-23T12:22:04Z",
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-8199f5a5aa3a1a61f626"
+    },
+    "00920469db395b16d6483dd4": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/superframes-ai-video-editor"
     },
     "0098b34dc3539f64cae9a57d": {
       "first_seen": "2026-11-06T20:59:28Z",
@@ -137,6 +143,12 @@
       "first_seen": "2026-10-12T22:33:11Z",
       "status": "queued",
       "url": "https://artificialanalysis.ai/changelog#edgeai-f649d5748324f3286476"
+    },
+    "0360650cc44d52186493a333": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/infrathrone-devops-park"
     },
     "0388a87b2f488e68bbf5a938": {
       "first_seen": "2026-10-21T23:32:24Z",
@@ -1247,6 +1259,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/poke-finder-catch-em-on-the-web"
     },
+    "193210e92b6bf9a5d0e29a3a": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/claude-mem"
+    },
     "193a47818c385a7cc7ddf048": {
       "first_seen": "2026-10-31T12:57:54Z",
       "status": "queued",
@@ -1345,6 +1362,11 @@
       "first_seen": "2026-10-07T09:23:03Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/parakeetai"
+    },
+    "1b4f32b14bc9f666aa2dbd07": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/flurra"
     },
     "1b57fa64b28fe529e32d3761": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -2451,6 +2473,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/animatica-autoposer-pro"
     },
+    "33733c16b55818d93cdc696a": {
+      "first_seen": "2026-11-26T15:36:46Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-d5440c28c40b99e644c4"
+    },
     "337476f5a344a31a82b9dd80": {
       "first_seen": "2026-11-17T17:46:23Z",
       "status": "too_old",
@@ -2789,6 +2816,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/harness-by-autonomous"
     },
+    "3a80690ca626d6dec9bf0cf7": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/watch-reader"
+    },
     "3a83654cdd9e9f18ec8a9d8a": {
       "first_seen": "2026-11-24T10:15:53Z",
       "search_score": 0,
@@ -2821,6 +2853,11 @@
       "first_seen": "2026-11-09T11:23:00Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/panda-video"
+    },
+    "3b219ba5d45b074ee84f2c1f": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/deskfleet"
     },
     "3b3595594a0a5e9e95c2f2e2": {
       "first_seen": "2026-11-12T11:41:10Z",
@@ -3501,6 +3538,12 @@
       "status": "queued",
       "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "48cfa6f8eca55544a1532644": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/meboki"
+    },
     "48d0d26dcdd8d798faf1c851": {
       "first_seen": "2026-11-14T08:55:05Z",
       "status": "too_old",
@@ -3833,6 +3876,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/jot-15"
+    },
+    "4fe7a44d5237bf502e189db4": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/iwantmy-app"
     },
     "4fedba8b70d9334f487a5d2a": {
       "first_seen": "2026-10-05T09:33:48Z",
@@ -5360,6 +5409,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/ganella"
     },
+    "6ed78e684df2bf07ece97ff1": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/chunkify"
+    },
     "6edb45d8a426efafde0b799e": {
       "first_seen": "2026-11-08T08:01:52Z",
       "status": "too_old",
@@ -6162,6 +6216,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/flatbread"
     },
+    "7de39f044da3622e099c177c": {
+      "first_seen": "2026-11-26T15:36:46Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/"
+    },
     "7dec6c4755d03ec98c7c7795": {
       "first_seen": "2026-11-06T15:17:29Z",
       "search_score": 1,
@@ -6256,6 +6315,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/aegis-14"
+    },
+    "7f6d3bd36c681ccff1e61b54": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/nookdeck"
     },
     "7fa30abfca2c7ff1033a152c": {
       "first_seen": "2026-10-20T22:43:53Z",
@@ -7723,6 +7788,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2117998375912222908"
     },
+    "a028202efe2d4cd9c796bd2d": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/bifura"
+    },
     "a056268300c5b68e6b2cf85b": {
       "first_seen": "2026-10-03T00:46:05Z",
       "status": "queued",
@@ -8136,6 +8206,11 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/"
     },
+    "a92d022203bc9933508edd4a": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/remora-6"
+    },
     "a93fe2026663ae7f78a95d76": {
       "first_seen": "2026-11-16T16:16:38Z",
       "search_score": 0,
@@ -8151,6 +8226,12 @@
       "first_seen": "2026-10-23T00:13:07Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2113391397760041329"
+    },
+    "a97890b09350613855903a26": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/openchat-5"
     },
     "a99e7c73be3208be7c0aeb2b": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -8404,6 +8485,12 @@
       "first_seen": "2026-10-24T17:40:31Z",
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2114029282892595467"
+    },
+    "aec00744439bfe1ba22b6b1d": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/hello-transcribe"
     },
     "aee25b0177453f598121ecb3": {
       "first_seen": "2026-11-17T17:46:23Z",
@@ -9369,6 +9456,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/onepin"
     },
+    "c481d10065232f116ebaa915": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/extraorbital-deleted-1365752"
+    },
     "c48f1ff5058b49fc9610ea09": {
       "first_seen": "2026-10-03T00:46:00Z",
       "status": "queued",
@@ -9509,6 +9601,11 @@
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
       "url": "https://www.kimi.com/en/blog/kimi-k3"
+    },
+    "c859ab3a467c44eefb1c7002": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/hub-20"
     },
     "c895869766e3fa71eebc14d1": {
       "first_seen": "2026-10-31T12:57:54Z",
@@ -10833,6 +10930,11 @@
       "status": "queued",
       "url": "https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "e5323f1163ca56097b2c6b1d": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/whipdesk"
+    },
     "e55265af33923ffb0e86d403": {
       "first_seen": "2026-10-28T20:28:26Z",
       "status": "queued",
@@ -10980,6 +11082,11 @@
       "first_seen": "2026-10-12T15:14:38Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/embeddinggemma-2"
+    },
+    "e7f1c23cf7eb37255791b5bd": {
+      "first_seen": "2026-11-26T15:36:46Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/"
     },
     "e800acacef7840a119826a49": {
       "first_seen": "2026-10-03T00:45:59Z",
@@ -11242,6 +11349,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://newsletter.futurepedia.io/p/chatgpt-reads-the-fine-print-so-you-dont-have-to-09-29-2026"
+    },
+    "eef856afbccd4c2228881490": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/transept-ai"
     },
     "ef05560750ad4629967429b8": {
       "first_seen": "2026-11-13T15:37:08Z",
@@ -11552,6 +11664,12 @@
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-664b99d8d1508d59e241"
     },
+    "f411663f97fbf2cc3c779a00": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/nexus-42"
+    },
     "f44c1bcf7172fdcf2fb5d71f": {
       "first_seen": "2026-11-21T16:18:25Z",
       "status": "too_old",
@@ -11664,6 +11782,12 @@
       "first_seen": "2026-11-18T00:02:21Z",
       "status": "queued",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "f6f13f9bcd8bf3b2ccfa5717": {
+      "first_seen": "2026-11-26T15:36:45Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/kagi"
     },
     "f72a8550f935e17610d91403": {
       "first_seen": "2026-10-25T10:01:09Z",
@@ -11961,6 +12085,11 @@
       "first_seen": "2026-10-15T14:58:02Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/chatway"
+    },
+    "fcbb41954277a0a1d4ec8475": {
+      "first_seen": "2026-11-26T15:36:46Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/"
     },
     "fcfee9df69d155aa68351b3e": {
       "first_seen": "2026-11-19T21:52:25Z",

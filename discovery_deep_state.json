@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-27T00:04:26Z",
+    "at": "2026-11-27T08:18:37Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 3,
-    "queued": 3,
+    "prefiltered": 8,
+    "queued": 10,
     "sources_ok": 15,
-    "too_old": 0,
+    "too_old": 2,
     "warnings": 0
   },
-  "runs": 245,
+  "runs": 246,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -355,6 +355,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/doodle-5"
     },
+    "07489eb814334fb807a15304": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/rightfont"
+    },
     "0749e18eb169d7317ef37e04": {
       "first_seen": "2026-10-11T09:11:21Z",
       "search_score": 0,
@@ -427,6 +433,11 @@
       "first_seen": "2026-11-18T00:02:21Z",
       "status": "queued",
       "url": "https://microsoft.ai/news/introducing-mai-image-2-7/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "082bd0f5934af822e3c0ff0c": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/gpyou"
     },
     "083497c77c319f0c4b6fea7a": {
       "first_seen": "2026-11-03T22:28:19Z",
@@ -733,6 +744,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/vinc"
+    },
+    "0f88d44513030e8ea10dd5c2": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/prosed-turn-your-content-into-a-book"
     },
     "0fb3fa4c48c08212c1ae6e15": {
       "first_seen": "2026-10-28T08:23:12Z",
@@ -1535,6 +1551,11 @@
       "status": "queued",
       "url": "https://x.com/NousResearch/status/2109012611555840069"
     },
+    "1f0c82ca04a33dcef5e22464": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "status": "too_old",
+      "url": "https://www.producthunt.com/products/snibl"
+    },
     "1f1a1bb0e60aa69e55f5cd91": {
       "first_seen": "2026-10-31T12:57:54Z",
       "search_score": 0,
@@ -1591,6 +1612,12 @@
       "first_seen": "2026-11-22T22:27:52Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/rankhog"
+    },
+    "20510b9f7eb163864c59ff29": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/form-action-store"
     },
     "205c105de580d142d0e5be16": {
       "first_seen": "2026-10-07T21:57:47Z",
@@ -2633,6 +2660,11 @@
       "search_score": 1,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/willow-voice"
+    },
+    "36513a475006887d413d7900": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "status": "queued",
+      "url": "https://www.wsj.com/tech/nvidia-tells-partners-to-pause-shipments-to-southeast-asia-5b791cb0?utm_source=futuretools.io&utm_medium=newspage"
     },
     "367c15be4f37c77b25801082": {
       "first_seen": "2026-10-12T15:14:38Z",
@@ -4064,6 +4096,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/agent-clan"
     },
+    "53fe13b47521de9867b24f34": {
+      "first_seen": "2026-11-27T08:18:33Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-5c2378c7867e913e0737"
+    },
     "540274e07e8b13fc72fc2c9d": {
       "first_seen": "2026-10-19T17:12:31Z",
       "status": "too_old",
@@ -4650,6 +4687,11 @@
       "first_seen": "2026-11-21T16:18:25Z",
       "status": "queued",
       "url": "https://openrouter.ai/rankings#edgeai-7f7f7675833034706899"
+    },
+    "5f7060337179d20544851376": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/spark-ai-7"
     },
     "5f73b59a3fca2b791eb9dfa7": {
       "first_seen": "2026-11-19T04:24:05Z",
@@ -6669,6 +6711,12 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/whiteboard-5"
     },
+    "86cb55a7349cff31037dc0b5": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/onset"
+    },
     "86daf7cda29ec39908ce8ff7": {
       "first_seen": "2026-11-20T19:16:04Z",
       "search_score": 0,
@@ -7236,6 +7284,11 @@
       "first_seen": "2026-11-10T03:50:46Z",
       "status": "queued",
       "url": "https://www.anthropic.com/research/claude-electronics-design?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "932407eec1e1720cc0e1c6fd": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/pydantic"
     },
     "9330ae30d1053d8c5efb2029": {
       "first_seen": "2026-10-12T22:33:10Z",
@@ -7847,6 +7900,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/kilo"
     },
+    "a0aa67ede09099363155aa61": {
+      "first_seen": "2026-11-27T08:18:35Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2126209386712531138"
+    },
     "a0dd342f75b2e25f02985126": {
       "first_seen": "2026-11-06T20:59:29Z",
       "search_score": 0,
@@ -8413,6 +8471,12 @@
       "first_seen": "2026-10-28T20:28:26Z",
       "status": "queued",
       "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "ac19a4dba7d203b79fb7efa1": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/wizstar"
     },
     "ac1d9e82ded8f675e2bc0a96": {
       "first_seen": "2026-11-20T11:34:00Z",
@@ -9021,6 +9085,12 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/supademo"
     },
+    "ba6a68a6b3ae38bb6c4d3999": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/slay-3"
+    },
     "ba7f5487aabd0bf68c238432": {
       "first_seen": "2026-10-31T12:57:54Z",
       "status": "queued",
@@ -9384,6 +9454,11 @@
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/chatandbuild"
     },
+    "c293cfc9f561b20fa05df120": {
+      "first_seen": "2026-11-27T08:18:33Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-2f311baba8608a4076fe"
+    },
     "c2ae6a56502c150863ca27a8": {
       "first_seen": "2026-11-01T13:14:08Z",
       "status": "too_old",
@@ -9455,6 +9530,11 @@
       "first_seen": "2026-11-07T00:52:28Z",
       "status": "queued",
       "url": "https://www.anthropic.com/research/components-of-agent-memory?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "c424c2d2e717d705fb9581c5": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/contral"
     },
     "c4312adb767125dc510734b0": {
       "first_seen": "2026-11-10T12:32:54Z",
@@ -9597,6 +9677,12 @@
       "first_seen": "2026-10-21T11:41:37Z",
       "status": "queued",
       "url": "https://www.producthunt.com/products/agent-pets"
+    },
+    "c76be3c845e7fcf87fa325a7": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "search_score": 1,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/woomool"
     },
     "c7a6a931449fea1c54930e00": {
       "first_seen": "2026-11-13T15:37:08Z",
@@ -10878,6 +10964,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/proofsource"
     },
+    "e2a1983bb54421b247fb3b09": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/ploid"
+    },
     "e2abf4ccdcb3c7472d4b096b": {
       "first_seen": "2026-10-30T09:55:37Z",
       "search_score": 0,
@@ -11001,6 +11092,12 @@
       "status": "queued",
       "url": "https://simonwillison.net/2026/Nov/23/ladybird/"
     },
+    "e5b98b512272a309b9a8c4fc": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/espresso-27"
+    },
     "e5bf2fe3c121747cc53874fb": {
       "first_seen": "2026-10-08T08:53:54Z",
       "status": "too_old",
@@ -11020,6 +11117,12 @@
       "first_seen": "2026-10-04T12:47:33Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/gemini-4-argon"
+    },
+    "e6076218ce5bd1744c51c68e": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/remove-silence"
     },
     "e61ff85816176ba8f05f13c7": {
       "first_seen": "2026-11-06T15:17:29Z",
@@ -11393,6 +11496,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/paxper"
+    },
+    "ef19478f447150da555b0beb": {
+      "first_seen": "2026-11-27T08:18:32Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/periscope-4"
     },
     "ef19d24fbcfe049a546138c3": {
       "first_seen": "2026-10-11T15:53:31Z",

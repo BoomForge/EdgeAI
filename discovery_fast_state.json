@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-27T04:19:49Z",
+    "at": "2026-11-27T14:00:50Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 7,
+    "queued": 16,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 248,
+  "runs": 249,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -367,6 +367,11 @@
       "first_seen": "2026-11-02T10:42:43Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.40714"
+    },
+    "066828b99e4dd5ecd83fe251": {
+      "first_seen": "2026-11-27T14:00:26Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12809"
     },
     "069ea27fbcad80681d6eca1e": {
       "first_seen": "2026-10-08T07:31:17Z",
@@ -2160,6 +2165,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.02460"
     },
+    "2244d4408ad5facf2034d6ee": {
+      "first_seen": "2026-11-27T14:00:19Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.33161"
+    },
     "225fb5a9da194f15d1149705": {
       "first_seen": "2026-10-28T07:28:00Z",
       "status": "queued",
@@ -2791,6 +2801,11 @@
       "first_seen": "2026-10-26T11:16:07Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11890"
+    },
+    "2cac280b2b558849c11d4a62": {
+      "first_seen": "2026-11-27T14:00:26Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12811"
     },
     "2cb06c7f0326085da61e522e": {
       "first_seen": "2026-11-20T08:40:20Z",
@@ -3654,6 +3669,11 @@
       "first_seen": "2026-10-08T07:31:45Z",
       "status": "queued",
       "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.45"
+    },
+    "3b8ab80803540df3304df55b": {
+      "first_seen": "2026-11-27T14:00:19Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.33190"
     },
     "3b94502ba2eceec312332bb2": {
       "first_seen": "2026-10-21T20:14:31Z",
@@ -4918,6 +4938,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.21812"
     },
+    "4f7e2a21d4986adab6a0f17c": {
+      "first_seen": "2026-11-27T14:00:26Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12815"
+    },
     "4f8bbc5cc6eedd4e461b193f": {
       "first_seen": "2026-10-08T14:56:12Z",
       "status": "queued",
@@ -6093,6 +6118,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11554"
     },
+    "63785b617ca60230ac5ac5d8": {
+      "first_seen": "2026-11-27T14:00:19Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.33322"
+    },
     "637d3dfa247fa816a4c4160f": {
       "first_seen": "2026-10-03T00:45:50Z",
       "status": "queued",
@@ -6865,6 +6895,11 @@
       "status": "queued",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.0"
     },
+    "6fb69fdc2dba31cd26e6cdf3": {
+      "first_seen": "2026-11-27T14:00:26Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12812"
+    },
     "6fc08516e3b37e3254c0ddb9": {
       "first_seen": "2026-11-26T03:05:36Z",
       "status": "queued",
@@ -7193,6 +7228,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.33195"
     },
+    "74c57a4f51eebf2877c28a73": {
+      "first_seen": "2026-11-27T14:00:19Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.33165"
+    },
     "74c9e10c02543c499970682c": {
       "first_seen": "2026-10-13T16:25:52Z",
       "status": "queued",
@@ -7307,6 +7347,11 @@
       "first_seen": "2026-11-25T02:01:40Z",
       "status": "queued",
       "url": "https://openai.com/index/searching-for-distant-planets-with-astra"
+    },
+    "7768337a6b165cbf58842af9": {
+      "first_seen": "2026-11-27T14:00:19Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.33303"
     },
     "779981c7cacf901a2d499aec": {
       "first_seen": "2026-11-16T11:43:50Z",
@@ -8539,6 +8584,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://blog.google/innovation-and-ai/technology/health/ai-health-research/"
+    },
+    "8c99a37c1ea2cc3be8ef910f": {
+      "first_seen": "2026-11-27T14:00:19Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.33263"
     },
     "8c9dd461b232f6c733622c72": {
       "first_seen": "2026-10-08T01:18:13Z",
@@ -10883,6 +10933,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.05383"
     },
+    "b21e617c56a9826658a2498f": {
+      "first_seen": "2026-11-27T14:00:26Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12807"
+    },
     "b254ed96fddf9e1cbfbeba70": {
       "first_seen": "2026-10-21T20:14:08Z",
       "status": "queued",
@@ -11356,6 +11411,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.26758"
     },
+    "ba489f7437672feae55ce57b": {
+      "first_seen": "2026-11-27T14:00:26Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12808"
+    },
     "ba63583808d70cbbc5e9d640": {
       "first_seen": "2026-10-09T06:41:16Z",
       "status": "queued",
@@ -11435,6 +11495,11 @@
       "first_seen": "2026-11-10T04:47:35Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12240"
+    },
+    "bb9da84a9c3c24b4f7485954": {
+      "first_seen": "2026-11-27T14:00:19Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.33160"
     },
     "bbb7f69db5debade679b6245": {
       "first_seen": "2026-11-05T05:49:59Z",
@@ -13032,6 +13097,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11778"
     },
+    "d57d01af0880249ad88203b4": {
+      "first_seen": "2026-11-27T14:00:26Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12814"
+    },
     "d57f531c7227c316c0be589e": {
       "first_seen": "2026-10-03T15:10:00Z",
       "status": "queued",
@@ -13623,6 +13693,11 @@
       "first_seen": "2026-10-03T00:45:50Z",
       "status": "queued",
       "url": "https://openai.com/index/introducing-dots"
+    },
+    "dee6b374d67d70808c3eed41": {
+      "first_seen": "2026-11-27T14:00:19Z",
+      "status": "queued",
+      "url": "https://arxiv.org/abs/2611.33304"
     },
     "dee77e2a8f1482c4f699967e": {
       "first_seen": "2026-11-04T10:39:13Z",
@@ -14718,6 +14793,11 @@
       "first_seen": "2026-10-03T00:45:57Z",
       "status": "too_old",
       "url": "https://github.com/huggingface/diffusers/releases/tag/v0.38.0"
+    },
+    "f0a1e0cf5b5c990bd2bc9575": {
+      "first_seen": "2026-11-27T14:00:26Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12810"
     },
     "f0acb11d7bdafd3b1cd2b61e": {
       "first_seen": "2026-10-26T17:27:08Z",

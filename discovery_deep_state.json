@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-26T15:36:50Z",
+    "at": "2026-11-27T00:04:26Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 9,
-    "queued": 12,
+    "prefiltered": 3,
+    "queued": 3,
     "sources_ok": 15,
-    "too_old": 3,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 244,
+  "runs": 245,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -348,6 +348,12 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/floot"
+    },
+    "07079a253036903ba62462fa": {
+      "first_seen": "2026-11-27T00:04:22Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/doodle-5"
     },
     "0749e18eb169d7317ef37e04": {
       "first_seen": "2026-10-11T09:11:21Z",
@@ -5215,6 +5221,11 @@
       "status": "queued",
       "url": "https://www.producthunt.com/products/koed"
     },
+    "6abee68d4583323998f97d7f": {
+      "first_seen": "2026-11-27T00:04:25Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2125989568721637578"
+    },
     "6abfe63fbd009c41dccc767d": {
       "first_seen": "2026-11-24T20:45:19Z",
       "search_score": 0,
@@ -5332,6 +5343,12 @@
       "first_seen": "2026-10-06T00:46:20Z",
       "status": "queued",
       "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "6d4b3d64a9550d220d174c66": {
+      "first_seen": "2026-11-27T00:04:22Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/superloupe"
     },
     "6d71bdd325a5316e532257b8": {
       "first_seen": "2026-11-12T19:12:14Z",
@@ -6279,6 +6296,11 @@
       "status": "queued",
       "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "7ece6b3222f2de7cd76f5924": {
+      "first_seen": "2026-11-27T00:04:22Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-c6f4e184d54bf1bdd56d"
+    },
     "7f13ecabdb2b75e7b27a40f3": {
       "first_seen": "2026-10-10T11:25:13Z",
       "search_score": 0,
@@ -6347,6 +6369,11 @@
       "first_seen": "2026-11-17T17:46:23Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/rootkey-platform"
+    },
+    "80050f48f8e14a790284ff1e": {
+      "first_seen": "2026-11-27T00:04:22Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/ottante"
     },
     "8021ac8155b7aa37da2475b8": {
       "first_seen": "2026-10-03T00:46:05Z",
@@ -6598,6 +6625,12 @@
       "first_seen": "2026-10-12T15:14:38Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/codemind-2"
+    },
+    "86357a56c1c2d8b2bc7123f1": {
+      "first_seen": "2026-11-27T00:04:22Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/mime"
     },
     "864d6628b37dd237ab24a9b0": {
       "first_seen": "2026-11-03T17:17:19Z",

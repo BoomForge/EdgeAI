@@ -506,6 +506,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "0c950883c1d16541d7e16ee3",
+      "discovered_at": "2026-11-27T18:22:18Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 1,
+      "published": "2026-11-27T18:22:18Z",
+      "search_score": 37,
+      "source_name": "Artificial Analysis Changelog",
+      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 27 Nov 2026 New language model evaluation results available Quasar 1.2 358B (Max, Based on GLM-5.3) Intelligence Index: 23 Multiverse Computing performance results now available Quasar 1.2 358B (Max, Based on GLM-5.3) 26 Nov 2026 New language model evaluation results available ERNIE 5.5 Flash Preview Intelligence Index: 31 Baidu performance results now available ERNIE 5.5 Flash Preview 25 Nov 2026 Amazon Bedrock performance results now available NVIDIA Nemotron Nano 9B V2 (Reasoning) Together AI performance results now available DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available Inkling 2 Small 24 Nov 2026 Artificial Analysis Intelligence Index methodology Artificial Analysis Intelligence Index v5.0.2 Updated Terminal-Bench to version 4.1, the same 66 tasks but with updated verifiers, and upgraded to the latest trajectory scanner for FrontierCode 2.0 DeepInfra performance results now available Inkling 2 Mini Modular performance results now available Nemotron 3.5 Lightning Muse Glimmer (High) Verda performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) Kimi K3.1 Pro Nebius performance results now available DeepSeek V4.1 Flash 1017 (Max) OpenAI performance results now available GPT-6.2 Astra (Max) GPT-6.2 Astra (Max) GPT-6.2 Sol (Max) GPT-6.2 Sol (Max) 23 Nov 2026 New language model evaluation results available Ling-3.2-air Intelligence Index: 23 Thinking Machines performance results now available Inkling 2 Mini 22 Nov 2026 New language model evaluation results available LingSante-3.1-flash Makora performance results now available Kimi K3.1 Pro Databricks performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) 20 Nov 2026 \ud83d\udd14 New article published Thinking Machines has released Inkling 2 Mini, an open weights looped transformer Thinking Machines has released Inkling 2 Mini at 20 on the Artificial Analysis Intelligence Index, an open weights looped transformer on the Pareto frontier for Intelligence vs. Active Parameters New language model evaluation results available Inkling 2 Mini Intelligence Index: 20 18 Nov 2026 \ud83d\udd14 New article published Google continues to accelerate its release cadence with Gemini 4 Neon Google continues to accelerate its release cadence with Gemini 4 Neon, delivering a small Intelligence gain over Gemini 4 Carbon at a ~17% lower Cost per Task New language model evaluation results available Gemini 4 Neon (Low) Intelligence Index: 44 New language model evaluation results available Gemini 4 Neon (Medium) Intelligence Index: 55 New language model evaluation results available Gemini 4 Neon (High) Intelligence Index: 60 New language model evaluation results available Gemini 4 Neon (Xhigh) Intelligence Index: 62 New language model evaluation results available K2 Horizon 32B Intelligence Index: 14 Google performance results now available Gemini 4 Neon (Low) Gemini 4 Neon (Medium) Gemini 4 Neon (High) Gemini 4 Neon (Xhigh) 17 Nov 2026 \ud83d\udd14 New article published OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol OpenAI\u2019s release of GPT-6.2 Astra and GPT-6.2 Sol delivers the #2 model in the Artificial Analysis Intelligence Index and most of the Cost per Task Pareto frontier New language model evaluation results available JoyAI-VL-Preview Intelligence Index: 28 New language model evaluation results available Inkling (High) Intelligence Index: 11 New language model evaluation results available Inkling Small (High) Intelligence Index: 10 New language model evaluation results available LFM3-1.7B Intelligence Index: 6 New language model evaluation results available LFM3-VL-2B Intelligence Index: 2 New language model evaluation results available Astra for Law 6.2 (Max) New language model evaluation results available GPT-6.2 Astra (Max) Intelligence Index: 62 New language model evaluation results available GPT-6.2 Astra (Xhigh) Intelligence Index: 62 New language model evaluation results available GPT-6.2 Astra (High) Intelligence Index: 60 New language model evaluation results available GPT-6.2 Astra (Medium) Intelligence Index: 57 New language model evaluation results available GPT-6.2 Astra (Low) Intelligence Index: 46 New language model evaluation results available GPT-6.2 Sol (Max) Intelligence Index: 57 New language model evaluation results available GPT-6.2 Sol (Xhigh) Intelligence Index: 56 New language model evaluation results available GPT-6.2 Sol (High) Intelligence Index: 55 New language model evaluation results available GPT-6.2 Sol (Medium) Intelligence Index: 52",
+      "title": "Artificial Analysis benchmark changelog changed",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-73e3c9c796097c38ac4d"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "c293cfc9f561b20fa05df120",
       "discovered_at": "2026-11-27T08:18:33Z",
       "kind": "independent",
@@ -870,6 +884,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "117ed46958db2269505be681",
+      "discovered_at": "2026-11-27T18:22:18Z",
+      "kind": "independent-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-27T18:22:18Z",
+      "search_score": 38,
+      "source_name": "OpenRouter Rankings",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 26, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 DeepSeek V4.1 Flash 1017 deepseek 77.2T tokens +24% 2 Hy4 flash * tencent 35.6T tokens >999% 3 DeepSeek V4.1 Flash deepseek 14.2T tokens -11% 4 GLM 5.3 Flash z-ai 13.5T tokens +27% 5 GPT-6 Luna openai 7.47T tokens -16% 6 Claude Opus 5.5 anthropic 6.44T tokens -14% 7 MiniMax M3.1 Flash minimax 4.76T tokens +21% 8 Kimi K3.1 Pro moonshotai 4.67T tokens +31% 9 Nemotron 3 Ultra (free) nvidia 4.28T tokens +25% 10 GLM 5.3 z-ai 4.07T tokens +22% 1 . DeepSeek V4.1 Flash 1017 by deepseek 77.2T tokens 24% 2 . Hy4 flash * by tencent 35.6T tokens >999% 3 . DeepSeek V4.1 Flash by deepseek 14.2T tokens 11% 4 . GLM 5.3 Flash by z-ai 13.5T tokens 27% 5 . GPT-6 Luna by openai 7.47T tokens 16% 6 . Claude Opus 5.5 by anthropic 6.44T tokens 14% 7 . MiniMax M3.1 Flash by minimax 4.76T tokens 21% 8 . Kimi K3.1 Pro by moonshotai 4.67T tokens 31% 9 . Nemotron 3 Ultra (free) by nvidia 4.28T tokens 25% 10 . GLM 5.3 by z-ai 4.07T tokens 22% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the last 24 complete hours, with the change measured against the 24 hours before them. Models ranked by tokens processed on OpenRouter over the last 24 complete hours Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 13.9T +2% 2 Hy4 flash tencent 4T +5% 3 DeepSeek V4.1 Flash deepseek 1.8T -10% 4 GLM 5.3 Flash z-ai 1.45T -25% 5 GPT-6 Luna openai 1.12T -13% 6 Claude Opus 5.5 anthropic 928B -19% 7 GLM 5.3 z-ai 687B -10% 8 MiniMax M3.1 Flash minimax 682B -4% 9 Kimi K3.1 Pro moonshotai 645B -16% 10 Nemotron 3 Ultra (free) nvidia 554B -2% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 267T +448% 2 DeepSeek V4.1 Flash deepseek 67.3T -45% 3 GLM 5.3 Flash z-ai 56.2T +9% 4 Hy4 flash tencent 36.5T new 5 GPT-6 Luna openai 35.2T +16% 6 Claude Opus 5.5 anthropic 29.6T +23% 7 MiniMax M3.1 Flash minimax 20.2T +773% 8 Kimi K3.1 Pro moonshotai 16.7T >999% 9 GLM 5.3 z-ai 16.2T -13% 10 Nemotron 3 Ultra (free) nvidia 14.7T -39% New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 Inkling 2 Mini thinkingmachines 487B new 2 Solar Mini 4.5 (Preview) upstage 59.3B new 3 DaisyRose 27B radixark 6.96B new 4 Bison 1 baseten 4.02B new 5 MiMo-V2.6-Flash-MOPD xiaomi 3.97B new 6 Text Embedding 3 Large (batch) openai 1.39M >999% 7 Claude Haiku 4.5 (batch) anthropic 22.2M >999% 8 Qwen3.7 Plus (batch) qwen 3.19M >999% 9 Hy4 flash tencent 35.6T >999% 10 Extract scaledown 18.8B >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend Software 39.1% Data 22.4% Information 14.3% Writing 7.2% Assistance 6.3% Creative 5.8% Media 4.2% Retrieval 0.1% Implementation 15.8% of all spend 1 Claude Opus 5.5 by anthropic 21.9% -1.4 2 Kimi K3.1 Pro by moonshotai 9.7% +9.4 3 Gemini 4 Carbon by google 6.0% +6.0 4 Claude Fable 5.2 by anthropic 5.7% +5.7 5 Deepseek V4.1 Flash by deepseek 5.5% +5.0 6 Claude Sonnet 5.5 by anthropic 5.0% +0.1 7 GPT-6.1-Sol by openai 4.1% +1.6 8 Gemini 4 Neon by google 3.7% +3.7 9 GLM 5.3 by z-ai 3.6% -2.0 10 Kimi K3 by moonshotai 2.5% -3.2 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 16, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 25.4% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 DeepSeek 25.4% -7% ",
+      "title": "OpenRouter real-world model rankings changed",
+      "url": "https://openrouter.ai/rankings#edgeai-18bf7c924b6ec01a8355"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "53fe13b47521de9867b24f34",
       "discovered_at": "2026-11-27T08:18:33Z",
       "kind": "independent-signal",
@@ -1217,20 +1245,6 @@
       "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 12, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 DeepSeek V4.1 Flash 1017 deepseek 55.8T tokens -1% 2 Hy4 tencent 20.3T tokens +405% 3 DeepSeek V4.1 Flash deepseek 16T tokens -3% 4 GLM 5.3 Flash z-ai 12T tokens -20% 5 GPT-6 Luna openai 7.43T tokens +2% 6 Claude Opus 5.5 anthropic 6.79T tokens +4% 7 Step 5 Preview stepfun 6.73T tokens +1% 8 Kimi K3.1 Pro moonshotai 4.38T tokens +24% 9 GPT-6.1 Sol openai 4.23T tokens +17% 10 GLM 5.3 z-ai 3.88T tokens +9% 1 . DeepSeek V4.1 Flash 1017 by deepseek 55.8T tokens 1% 2 . Hy4 by tencent 20.3T tokens 405% 3 . DeepSeek V4.1 Flash by deepseek 16T tokens 3% 4 . GLM 5.3 Flash by z-ai 12T tokens 20% 5 . GPT-6 Luna by openai 7.43T tokens 2% 6 . Claude Opus 5.5 by anthropic 6.79T tokens 4% 7 . Step 5 Preview by stepfun 6.73T tokens 1% 8 . Kimi K3.1 Pro by moonshotai 4.38T tokens 24% 9 . GPT-6.1 Sol by openai 4.23T tokens 17% 10 . GLM 5.3 by z-ai 3.88T tokens 9% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the most recent complete day, with the change measured against the day before it. Models ranked by tokens processed on OpenRouter over the most recent complete day Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 9.51T -1% 2 Hy4 tencent 2.74T +1% 3 DeepSeek V4.1 Flash deepseek 2.23T -7% 4 GLM 5.3 Flash z-ai 1.64T -37% 5 GPT-6 Luna openai 1.35T +8% 6 Claude Opus 5.5 anthropic 1.18T +13% 7 Step 5 Preview stepfun 963B +0% 8 GPT-6.1 Sol openai 729B +12% 9 MiMo-V2.6-Flash xiaomi 637B -5% 10 GLM 5.3 z-ai 611B -23% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 176T new 2 DeepSeek V4.1 Flash deepseek 81.5T -28% 3 GLM 5.3 Flash z-ai 57.6T +2% 4 GPT-6 Luna openai 34.2T +90% 5 Claude Opus 5.5 anthropic 30.5T +197% 6 Hy4 preview tencent 27.1T -31% 7 Step 5 Preview stepfun 26T +73% 8 Hy4 tencent 24.3T new 9 MiMo-V2.6-Flash xiaomi 20.6T -31% 10 GLM 5.3 z-ai 19.2T +38% New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 Inkling 2 Small (free) thinkingmachines 507B new 2 Claude Fable 5.2 anthropic 457B new 3 ERNIE-5.5-Flash-Preview (free) baidu 422B new 4 Muse Ember meta 248B new 5 Gemini 4 Carbon google 234B new 6 Grok 4.6 (batch) x-ai 262M >999% 7 Motif 3 motif-technologies 13.6M >999% 8 Mi kt 26.2M >999% 9 GPT-5.4 Mini (batch) openai 285M >999% 10 GPT-5.6 Terra Pro (batch) openai 1.41M >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend General 33.2% Agent 30.4% Code 25.9% Data 10.5% Classification 12.8% of all spend 1 Claude Opus 5.5 by anthropic 11.2% +4.5 2 GPT-6.1-Sol by openai 7.4% +5.4 3 Claude Sonnet 5.5 by anthropic 4.6% +3.3 4 Kimi K3 by moonshotai 4.1% +0.8 5 Gemini 3.8 Flash by google 3.5% -0.9 6 GPT-6-Astra by openai 3.3% -2.7 7 Deepseek V4.1 Flash by deepseek 3.1% +0.5 8 GLM 5.3 Flash by z-ai 3.0% +1.0 9 GPT-5.6-Luna by openai 2.9% +0.9 10 GPT-6-Luna by openai 2.7% +1.5 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 2, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 31.8% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 DeepSeek 31.8% +6% 2 OpenAI 19.3% +2% 3 Google 13.6% -5% 4 Z.ai 7.4% -38% 5 Anthropic 5.8% +1% 6 Qwen 5.7% +2% 7 Stealth 2.5% 8 Mistral 2.3% +5% 9 Tencent 2.3% +21% All other authors 9.2% +11% Open / Closed Absolute Percentage Sh",
       "title": "OpenRouter real-world model rankings changed",
       "url": "https://openrouter.ai/rankings#edgeai-3900a479a63a53c832ee"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "13ef043707170c6c881e6a6b",
-      "discovered_at": "2026-11-13T15:37:09Z",
-      "kind": "independent-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-11-13T15:37:09Z",
-      "search_score": 38,
-      "source_name": "OpenRouter Rankings",
-      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 12, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 DeepSeek V4.1 Flash 1017 deepseek 55.8T tokens -1% 2 Hy4 tencent 20.3T tokens +405% 3 DeepSeek V4.1 Flash deepseek 16T tokens -3% 4 GLM 5.3 Flash z-ai 12T tokens -20% 5 GPT-6 Luna openai 7.43T tokens +2% 6 Claude Opus 5.5 anthropic 6.79T tokens +4% 7 Step 5 Preview stepfun 6.73T tokens +1% 8 Kimi K3.1 Pro moonshotai 4.38T tokens +24% 9 GPT-6.1 Sol openai 4.23T tokens +17% 10 GLM 5.3 z-ai 3.88T tokens +9% 1 . DeepSeek V4.1 Flash 1017 by deepseek 55.8T tokens 1% 2 . Hy4 by tencent 20.3T tokens 405% 3 . DeepSeek V4.1 Flash by deepseek 16T tokens 3% 4 . GLM 5.3 Flash by z-ai 12T tokens 20% 5 . GPT-6 Luna by openai 7.43T tokens 2% 6 . Claude Opus 5.5 by anthropic 6.79T tokens 4% 7 . Step 5 Preview by stepfun 6.73T tokens 1% 8 . Kimi K3.1 Pro by moonshotai 4.38T tokens 24% 9 . GPT-6.1 Sol by openai 4.23T tokens 17% 10 . GLM 5.3 by z-ai 3.88T tokens 9% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the most recent complete day, with the change measured against the day before it. Models ranked by tokens processed on OpenRouter over the most recent complete day Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 9.51T -1% 2 Hy4 tencent 2.74T +1% 3 DeepSeek V4.1 Flash deepseek 2.23T -7% 4 GLM 5.3 Flash z-ai 1.64T -37% 5 GPT-6 Luna openai 1.35T +8% 6 Claude Opus 5.5 anthropic 1.18T +13% 7 Step 5 Preview stepfun 963B +0% 8 GPT-6.1 Sol openai 729B +12% 9 MiMo-V2.6-Flash xiaomi 637B -5% 10 GLM 5.3 z-ai 611B -23% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 176T new 2 DeepSeek V4.1 Flash deepseek 81.5T -28% 3 GLM 5.3 Flash z-ai 57.6T +2% 4 GPT-6 Luna openai 34.2T +90% 5 Claude Opus 5.5 anthropic 30.5T +197% 6 Hy4 preview tencent 27.1T -31% 7 Step 5 Preview stepfun 26T +73% 8 Hy4 tencent 24.3T new 9 MiMo-V2.6-Flash xiaomi 20.6T -31% 10 GLM 5.3 z-ai 19.2T +38% New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 Inkling 2 Small (free) thinkingmachines 507B new 2 Claude Fable 5.2 anthropic 457B new 3 ERNIE-5.5-Flash-Preview (free) baidu 422B new 4 Muse Ember meta 248B new 5 Gemini 4 Carbon google 234B new 6 Grok 4.6 (batch) x-ai 262M >999% 7 Motif 3 motif-technologies 13.6M >999% 8 Mi kt 26.2M >999% 9 GPT-5.4 Mini (batch) openai 285M >999% 10 GPT-5.6 Terra Pro (batch) openai 1.41M >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend General 33.2% Agent 30.4% Code 25.9% Data 10.5% Classification 12.8% of all spend 1 Claude Opus 5.5 by anthropic 11.2% +4.5 2 GPT-6.1-Sol by openai 7.4% +5.4 3 Claude Sonnet 5.5 by anthropic 4.6% +3.3 4 Kimi K3 by moonshotai 4.1% +0.8 5 Gemini 3.8 Flash by google 3.5% -0.9 6 GPT-6-Astra by openai 3.3% -2.7 7 Deepseek V4.1 Flash by deepseek 3.1% +0.5 8 GLM 5.3 Flash by z-ai 3.0% +1.0 9 GPT-5.6-Luna by openai 2.9% +0.9 10 GPT-6-Luna by openai 2.7% +1.5 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 2, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 31.8% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 DeepSeek 31.8% +6% 2 OpenAI 19.3% +2% 3 Google 13.6% -5% 4 Z.ai 7.4% -38% 5 Anthropic 5.8% +1% 6 Qwen 5.7% +2% 7 Stealth 2.5% 8 Mistral 2.3% +5% 9 Tencent 2.3% +21% All other authors 9.2% +11% Open / Closed Absolute Percentage Sh",
-      "title": "OpenRouter real-world model rankings changed",
-      "url": "https://openrouter.ai/rankings#edgeai-42cf3e1fe8b40322b474"
     },
     {
       "bootstrap": false,
@@ -3138,6 +3152,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "64a0e78fb4ccff21ce9230da",
+      "discovered_at": "2026-11-27T18:22:17Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "2026-11-26T19:17:55-08:00",
+      "search_score": 8,
+      "source_name": "Product Hunt Main Feed",
+      "summary": "The LinkedIn AI agent that learns what works for your brand Discussion | Link",
+      "title": "Depost AI",
+      "url": "https://www.producthunt.com/products/depost-ai"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "07d3a6a4e8e8d0eb2ce33d70",
       "discovered_at": "2026-11-21T16:18:25Z",
       "kind": "signal",
@@ -3247,6 +3275,20 @@
       "summary": "Nov 24, 2026 \u2022 3 min read Claude Just Killed Microsoft Office Claude does it all now. Here's how. Saj at Futurepedia",
       "title": "Nov 24, 2026 \u2022 3 min read Claude Just Killed Microsoft Office Claude does it all now. Here's how. Saj at Futurepedia",
       "url": "https://newsletter.futurepedia.io/p/claude-just-killed-microsoft-office"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "fa4feec4220c0caba1b109fb",
+      "discovered_at": "2026-11-27T18:22:17Z",
+      "kind": "signal",
+      "lane": "deep",
+      "priority": 3,
+      "published": "Nov 27, 2026",
+      "search_score": 6,
+      "source_name": "Futurepedia Newsletter Archive",
+      "summary": "Nov 27, 2026 \u2022 3 min read Claude Design Is Closing. Do This Now. How to move your projects before Kevin at Futurepedia",
+      "title": "Nov 27, 2026 \u2022 3 min read Claude Design Is Closing. Do This Now. How to move your projects before Kevin at Futurepedia",
+      "url": "https://newsletter.futurepedia.io/p/claude-design-is-closing-do-this-now"
     },
     {
       "bootstrap": false,
@@ -3457,51 +3499,9 @@
       "summary": "Set a budget, coordinate teams of AI agents, Discussion | Link",
       "title": "Replit Missions",
       "url": "https://www.producthunt.com/products/replit"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "932407eec1e1720cc0e1c6fd",
-      "discovered_at": "2026-11-27T08:18:32Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-11-25T20:04:50-08:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "A coding agent where even coding is a plugin Discussion | Link",
-      "title": "Pax by Pydantic",
-      "url": "https://www.producthunt.com/products/pydantic"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "5f7060337179d20544851376",
-      "discovered_at": "2026-11-27T08:18:32Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-11-24T23:30:40-08:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "AI-native permitting & diligence services for data centers Discussion | Link",
-      "title": "Spark AI",
-      "url": "https://www.producthunt.com/products/spark-ai-7"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "082bd0f5934af822e3c0ff0c",
-      "discovered_at": "2026-11-27T08:18:32Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 3,
-      "published": "2026-11-24T12:36:16-08:00",
-      "search_score": 2,
-      "source_name": "Product Hunt Main Feed",
-      "summary": "The OpenRouter for compute for the cheapest GPU in stock Discussion | Link",
-      "title": "gpyou",
-      "url": "https://www.producthunt.com/products/gpyou"
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-27T08:18:37Z",
+  "updated_at": "2026-11-27T18:22:21Z",
   "version": 2
 }

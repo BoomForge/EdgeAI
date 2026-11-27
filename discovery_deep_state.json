@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-27T08:18:37Z",
+    "at": "2026-11-27T18:22:21Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 8,
-    "queued": 10,
+    "prefiltered": 1,
+    "queued": 4,
     "sources_ok": 15,
-    "too_old": 2,
+    "too_old": 0,
     "warnings": 0
   },
-  "runs": 246,
+  "runs": 247,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -661,6 +661,11 @@
       "status": "too_old",
       "url": "https://www.producthunt.com/products/deskcord-chat"
     },
+    "0c950883c1d16541d7e16ee3": {
+      "first_seen": "2026-11-27T18:22:18Z",
+      "status": "queued",
+      "url": "https://artificialanalysis.ai/changelog#edgeai-73e3c9c796097c38ac4d"
+    },
     "0c95a77285a54420d0a528cd": {
       "first_seen": "2026-11-14T08:55:05Z",
       "status": "too_old",
@@ -861,6 +866,11 @@
       "search_score": 0,
       "status": "prefiltered",
       "url": "https://www.producthunt.com/products/sitesolide"
+    },
+    "117ed46958db2269505be681": {
+      "first_seen": "2026-11-27T18:22:18Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-18bf7c924b6ec01a8355"
     },
     "118ddd23e7708938309be590": {
       "first_seen": "2026-11-17T17:46:23Z",
@@ -1654,6 +1664,12 @@
       "first_seen": "2026-10-20T19:29:47Z",
       "status": "queued",
       "url": "https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "20ae3b636bab1594b1e5a34d": {
+      "first_seen": "2026-11-27T18:22:17Z",
+      "search_score": 0,
+      "status": "prefiltered",
+      "url": "https://www.producthunt.com/products/focushaze"
     },
     "20b26252a2f3ea330ff90094": {
       "first_seen": "2026-11-14T08:55:05Z",
@@ -5007,6 +5023,11 @@
       "first_seen": "2026-11-18T00:02:21Z",
       "status": "queued",
       "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "64a0e78fb4ccff21ce9230da": {
+      "first_seen": "2026-11-27T18:22:17Z",
+      "status": "queued",
+      "url": "https://www.producthunt.com/products/depost-ai"
     },
     "64d8f3ec2e2e4644fbbad8f0": {
       "first_seen": "2026-10-11T09:11:21Z",
@@ -12136,6 +12157,11 @@
       "first_seen": "2026-10-13T18:14:15Z",
       "status": "too_old",
       "url": "https://www.producthunt.com/products/mi-speaks"
+    },
+    "fa4feec4220c0caba1b109fb": {
+      "first_seen": "2026-11-27T18:22:17Z",
+      "status": "queued",
+      "url": "https://newsletter.futurepedia.io/p/claude-design-is-closing-do-this-now"
     },
     "fa8918cf1cdfc56d6ae7a094": {
       "first_seen": "2026-10-18T10:57:54Z",

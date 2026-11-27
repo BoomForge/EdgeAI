@@ -2634,6 +2634,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "bf23a7f447f411d8ee8db5aa",
+      "discovered_at": "2026-11-27T04:19:44Z",
+      "kind": "agents",
+      "lane": "fast",
+      "priority": 2,
+      "published": "2026-11-26T22:45:43Z",
+      "search_score": 14,
+      "source_name": "browser-use Releases",
+      "summary": "pip install 'browser-use==1.0.9' rotate_proxy(country=None) : the same Browser Use cloud browser gets a new exit IP, and its tabs, cookies and logins stay. It works over the browser's own connection with no API key; the API is only a fallback. The agent is pointed to it only when a page is a block for its IP, at most once per site. For a site that serves one country (.ru, .de, .co.uk, .kr), it's told to use an exit in that country. On 11 sites that block cloud browsers, the pass rate went from 48% to 62% ( #6537 , #6540 ). rotate_proxy() now fails clearly when the cloud reports no new exit IP. A Browser(cdp_url=...) on any browser-use.com host counts as a cloud browser ( #6540 ). Claude prompt caching now works on every route: openrouter:anthropic/... , bedrock: Claude models, and ChatOpenAI(..., base_url='https://openrouter.ai/api/v1') . Before this, every step re-billed the whole prompt there (cache_read was always 0). Bedrock is covered by unit tests only and wasn't tested live ( #6546 , fixes #6543 ). PRs: #6540 , #6546",
+      "title": "browser-use 1.0.9",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.9"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "012d18fbdfd0ae7fe5ca36db",
       "discovered_at": "2026-11-20T23:11:33Z",
       "kind": "agents",
@@ -3485,23 +3499,9 @@
       "summary": "Signed-off-by: Johnsonms lizhaofu@gmail.com Co-authored-by: vllm-agent claw@inferact.ai",
       "title": "v0.34.1rc0: [Perf][Qwen4Exp] Add SM100 TP=2 and TP=8 skinny GEMM plans (#69529)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "e8e8a8b10b1c96b3e937b1dc",
-      "discovered_at": "2026-11-26T22:10:41Z",
-      "kind": "local-ai",
-      "lane": "fast",
-      "priority": 2,
-      "published": "2026-11-26T22:10:28Z",
-      "search_score": 5,
-      "source_name": "llama.cpp Releases",
-      "summary": "vulkan: fix Windows driver RDNA1 architecture misclassification ( #33123 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72858637 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.5 libraries Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Android: Android arm64 (CPU) Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.5 DLLs Windows arm64 (CUDA 13) - CUDA 13.5 DLLs Windows x64 (Vulkan) Windows arm64 (Vulkan) Windows x64 (OpenVINO) Windows x64 (SYCL) Windows x64 (ROCm 10.0) openEuler: DISABLED openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph) UI: UI",
-      "title": "b12791",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12791"
     }
   ],
   "lane": "fast",
-  "updated_at": "2026-11-26T22:11:01Z",
+  "updated_at": "2026-11-27T04:19:49Z",
   "version": 2
 }

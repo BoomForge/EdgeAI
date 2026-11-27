@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-26T22:11:01Z",
+    "at": "2026-11-27T04:19:49Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
-    "queued": 9,
+    "prefiltered": 0,
+    "queued": 7,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 247,
+  "runs": 248,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -1319,6 +1319,11 @@
       "first_seen": "2026-11-05T21:07:57Z",
       "status": "queued",
       "url": "https://openai.com/index/introducing-gpt-6-cyber"
+    },
+    "14f2694824e43f5d01f92933": {
+      "first_seen": "2026-11-27T04:19:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12803"
     },
     "14f4da45c852d26963c688e0": {
       "first_seen": "2026-11-20T08:40:14Z",
@@ -3785,6 +3790,11 @@
       "first_seen": "2026-10-12T09:23:59Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.12617"
+    },
+    "3dfed99509e99a1aaa6b8014": {
+      "first_seen": "2026-11-27T04:19:29Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12798"
     },
     "3e1de06662103e34e2074f6c": {
       "first_seen": "2026-10-29T17:31:52Z",
@@ -9160,6 +9170,11 @@
       "status": "queued",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0"
     },
+    "9678616b2c6da3dc30f09b18": {
+      "first_seen": "2026-11-27T04:19:29Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12800"
+    },
     "96b8552f38a5cffcf7aa8da9": {
       "first_seen": "2026-10-03T22:01:59Z",
       "status": "queued",
@@ -11615,6 +11630,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.1"
     },
+    "bf23a7f447f411d8ee8db5aa": {
+      "first_seen": "2026-11-27T04:19:44Z",
+      "status": "queued",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.9"
+    },
     "bf2a6d1b9b567f4c8fd38926": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "too_old",
@@ -12358,6 +12378,11 @@
       "status": "queued",
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
     },
+    "caab5e98ff43d4264f0dbcf2": {
+      "first_seen": "2026-11-27T04:19:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12801"
+    },
     "cab1410e9440e33b0fc6a245": {
       "first_seen": "2026-10-15T05:40:20Z",
       "status": "queued",
@@ -12603,6 +12628,11 @@
       "first_seen": "2026-11-22T15:27:57Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12633"
+    },
+    "ceab47e6a5689cb603b9b9f5": {
+      "first_seen": "2026-11-27T04:19:28Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12804"
     },
     "ceac84bcd934c70b9c87e78f": {
       "first_seen": "2026-11-05T21:08:05Z",
@@ -13310,6 +13340,11 @@
       "first_seen": "2026-11-10T20:29:56Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12250"
+    },
+    "dacf48a7747b77c4b98ed15d": {
+      "first_seen": "2026-11-27T04:19:49Z",
+      "status": "queued",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.76.0"
     },
     "dadf4d481b4da1e53106a4eb": {
       "first_seen": "2026-10-26T05:16:26Z",

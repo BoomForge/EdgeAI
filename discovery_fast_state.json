@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-27T14:00:50Z",
+    "at": "2026-11-27T22:37:31Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 16,
+    "queued": 5,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 249,
+  "runs": 250,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -4771,6 +4771,11 @@
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.19063"
     },
+    "4ccfa2054270aa656f5eb08f": {
+      "first_seen": "2026-11-27T22:37:09Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12819"
+    },
     "4cdd56682cb89c3443923522": {
       "first_seen": "2026-11-13T21:37:09Z",
       "status": "queued",
@@ -5801,6 +5806,11 @@
       "first_seen": "2026-11-16T11:43:51Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2611.17395"
+    },
+    "5e7004317a04e455b2d7c268": {
+      "first_seen": "2026-11-27T22:37:09Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19"
     },
     "5e742d363152cad5a3c39241": {
       "first_seen": "2026-10-26T21:51:38Z",
@@ -10556,6 +10566,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12427"
     },
+    "ac1e92b2adbd876df9d69952": {
+      "first_seen": "2026-11-27T22:37:09Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12816"
+    },
     "ac2dba7d51e93c7bd65504e7": {
       "first_seen": "2026-10-26T11:16:07Z",
       "status": "queued",
@@ -11058,6 +11073,11 @@
       "first_seen": "2026-10-09T06:41:17Z",
       "status": "queued",
       "url": "https://arxiv.org/abs/2610.10623"
+    },
+    "b49f2f9239a32873d0d0dca6": {
+      "first_seen": "2026-11-27T22:37:22Z",
+      "status": "queued",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.20"
     },
     "b4a0323c61736ced9c1247be": {
       "first_seen": "2026-11-03T10:03:35Z",
@@ -15533,6 +15553,11 @@
       "first_seen": "2026-11-26T03:05:59Z",
       "status": "queued",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.13"
+    },
+    "fc0006f706f60dada0d55680": {
+      "first_seen": "2026-11-27T22:37:09Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12818"
     },
     "fc21734831cb785bbbe2edfb": {
       "first_seen": "2026-10-22T13:02:17Z",

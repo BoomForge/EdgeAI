@@ -77,12 +77,12 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-26T22:16:33Z",
-    "eligible": 80,
-    "evaluated": 2,
+    "at": "2026-11-27T04:25:38Z",
+    "eligible": 67,
+    "evaluated": 5,
     "mode": "live",
-    "new_posts": 2,
-    "publish_actions": 2,
+    "new_posts": 1,
+    "publish_actions": 1,
     "quota_paused": false
   },
   "last_visual_backfill": {
@@ -951,6 +951,11 @@
       "at": "2026-11-24T06:30:44Z",
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2123882459829875154"
+    },
+    "11e6a0cc6c38f8f4d2dbe67c": {
+      "at": "2026-11-27T04:25:30Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2124889507610927533"
     },
     "11ff01e8f3ddf634b9fa760d": {
       "at": "2026-10-07T06:34:08Z",
@@ -1946,6 +1951,11 @@
       "status": "expired",
       "url": "https://arxiv.org/abs/2610.00012"
     },
+    "24342411095f0402a519e33d": {
+      "at": "2026-11-27T04:25:30Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12668"
+    },
     "244bc6a7baca1b2fec964c28": {
       "at": "2026-11-19T04:08:21Z",
       "status": "expired",
@@ -2538,6 +2548,11 @@
       },
       "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
     },
+    "2f3ef0ead000ffc6df4c17bd": {
+      "at": "2026-11-27T04:25:30Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54/"
+    },
     "2f9135cc5a09bba941f88b88": {
       "at": "2026-10-23T15:52:04Z",
       "status": "expired",
@@ -2702,6 +2717,14 @@
       "at": "2026-11-21T00:19:41Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12482"
+    },
+    "33733c16b55818d93cdc696a": {
+      "at": "2026-11-27T04:25:36Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "openrouter-rankings-update-nov-2026",
+      "url": "https://openrouter.ai/rankings#edgeai-d5440c28c40b99e644c4"
     },
     "338ea65b29ca83a891bd3fe8": {
       "at": "2026-10-03T21:49:26Z",
@@ -2894,6 +2917,11 @@
       "at": "2026-11-17T23:59:47Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12377"
+    },
+    "371d782b7284ba4a4363cb27": {
+      "at": "2026-11-27T04:25:30Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12659"
     },
     "37316f7252bd003ca18047e0": {
       "at": "2026-11-08T14:25:40Z",
@@ -4282,6 +4310,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/hashference"
     },
+    "52bc13fa42eb98a3356fdf61": {
+      "at": "2026-11-27T04:25:30Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12669"
+    },
     "52d0ba5f6cdfe54d2f5a42d2": {
       "at": "2026-11-23T11:21:09Z",
       "bootstrap": false,
@@ -4878,6 +4911,11 @@
       "at": "2026-10-24T01:10:11Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/dots-phone"
+    },
+    "5e935d071b0a3fbccfac6255": {
+      "at": "2026-11-27T04:25:30Z",
+      "status": "expired",
+      "url": "https://x.com/NousResearch/status/2124945850531037556"
     },
     "5ee30d117f6cf7759e8ac7ff": {
       "at": "2026-10-03T21:49:26Z",
@@ -6230,6 +6268,14 @@
       "status": "expired",
       "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "7758c04a629331bf96383fb7": {
+      "at": "2026-11-27T04:25:34Z",
+      "bootstrap": false,
+      "score": 68,
+      "status": "ignored",
+      "story_key": "openai-astra-exoplanet-search",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra"
+    },
     "775cce2b8f031ba723e503c1": {
       "at": "2026-10-07T06:34:08Z",
       "status": "expired",
@@ -6512,6 +6558,11 @@
       "status": "expired",
       "url": "https://www.producthunt.com/products/flatbread"
     },
+    "7e14b56be674430859075a7f": {
+      "at": "2026-11-27T04:25:30Z",
+      "status": "expired",
+      "url": "https://openai.com/business/customer-stories/intentful-dots"
+    },
     "7e525aa8a6e4a82405dbb613": {
       "at": "2026-10-08T05:56:53Z",
       "status": "expired",
@@ -6539,6 +6590,14 @@
       "at": "2026-11-06T00:09:40Z",
       "status": "expired",
       "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "7ece6b3222f2de7cd76f5924": {
+      "at": "2026-11-27T04:25:35Z",
+      "bootstrap": false,
+      "score": 62,
+      "status": "ignored",
+      "story_key": "openrouter-model-rankings-november-2026",
+      "url": "https://openrouter.ai/rankings#edgeai-c6f4e184d54bf1bdd56d"
     },
     "7f251a2320ab82b5ad20e1f3": {
       "at": "2026-10-07T19:56:51Z",
@@ -7131,6 +7190,11 @@
       "at": "2026-11-07T06:23:46Z",
       "status": "expired",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "89a905d5eae9fa3ef5a8af6c": {
+      "at": "2026-11-27T04:25:30Z",
+      "status": "expired",
+      "url": "https://openai.com/business/customer-stories/ifood"
     },
     "89c32091399dabfa1a90ef3e": {
       "at": "2026-10-13T11:42:22Z",
@@ -7794,6 +7858,11 @@
       "status": "expired",
       "url": "https://x.com/NousResearch/status/2123145750833995878"
     },
+    "97a6511f1764049cfcb05d8f": {
+      "at": "2026-11-27T04:25:30Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12667"
+    },
     "97b1175a9af0f2e4574e8674": {
       "at": "2026-10-06T02:32:14Z",
       "status": "expired",
@@ -8342,6 +8411,14 @@
       },
       "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/"
     },
+    "a183d3df5779b5926b7f81ed": {
+      "at": "2026-11-27T04:25:38Z",
+      "bootstrap": false,
+      "score": 60,
+      "status": "ignored",
+      "story_key": "openrouter-rankings-update-nov-2026",
+      "url": "https://openrouter.ai/rankings#edgeai-e5266a2b54c6930bd9a5"
+    },
     "a1a40a257a9ec90ed710bd71": {
       "at": "2026-10-30T01:15:50Z",
       "status": "expired",
@@ -8448,6 +8525,11 @@
       "status": "ignored",
       "story_key": "openai-servicenow-partnership-expansion-2026",
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
+    },
+    "a3c9028eefd69cfd15ff27f4": {
+      "at": "2026-11-27T04:25:30Z",
+      "status": "expired",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai"
     },
     "a3cf20eae0fce76e913abe7e": {
       "at": "2026-10-03T05:49:31Z",
@@ -8917,6 +8999,20 @@
       "at": "2026-10-31T22:41:57Z",
       "status": "expired",
       "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "ac2f786b30f6d45772c42167": {
+      "at": "2026-11-27T04:25:33Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "openai-gpt-6-protein-design",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
+        "source": "OpenAI News"
+      },
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
     },
     "ac41f4531fca042f6f8aec42": {
       "at": "2026-10-05T07:01:46Z",
@@ -9804,6 +9900,11 @@
       "status": "expired",
       "url": "https://www.musubilabs.ai/blog/introducing-policylm-1-7b?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "bfe39e5b176c7b576ee42037": {
+      "at": "2026-11-27T04:25:30Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/"
+    },
     "c00d49acad62014c6ab80d8a": {
       "at": "2026-10-12T17:49:23Z",
       "status": "expired",
@@ -10405,6 +10506,11 @@
       "status": "ignored",
       "story_key": "llamacpp-b11878-release",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11878"
+    },
+    "cde2e4331c947b3b8676571e": {
+      "at": "2026-11-27T04:25:30Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/"
     },
     "cdec551026cbc0789c854deb": {
       "at": "2026-10-13T23:04:15Z",
@@ -12473,6 +12579,11 @@
       },
       "url": "https://sakana.ai/schmidhuber/"
     },
+    "f4a368e2e4aca2bd1b056475": {
+      "at": "2026-11-27T04:25:30Z",
+      "status": "expired",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director?utm_source=futuretools.io&utm_medium=newspage"
+    },
     "f4aab44afe3f1629fbe99b54": {
       "at": "2026-11-07T06:23:46Z",
       "status": "expired",
@@ -12797,6 +12908,11 @@
         "source": "Qwen Blog"
       },
       "url": "https://qwenlm.github.io/blog/qwen-image-edit/"
+    },
+    "f9b1f0589e4375d26d620e4d": {
+      "at": "2026-11-27T04:25:30Z",
+      "status": "expired",
+      "url": "https://openrouter.ai/rankings#edgeai-e661a66db14609bbeecf"
     },
     "f9b2eb9a019f51aebb2c4572": {
       "at": "2026-11-07T13:24:58Z",
@@ -18297,6 +18413,27 @@
         "label": "Verified",
         "reason": "Confirmed information from a high-authority source with directly traceable source material.",
         "score": 96,
+        "source": "OpenAI News"
+      }
+    },
+    "openai-gpt-6-protein-design": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openai-gpt-6-protein-design.jpg",
+      "last_updated": "2026-11-27T04:25:33Z",
+      "post_id": "8406515396554553884",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/openai-details-gpt-6-protein-design_0447511343.html",
+      "score": 92,
+      "source_image_source": "OpenAI News",
+      "source_image_url": "https://images.ctfassets.net/kftzwdyauwt9/Eg5mCwwaA3KqnznOVCh0n/8e6deaef25fd508d9853ff86a95187c1/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-social.png?w=1600&h=900&fit=fill",
+      "source_urls": [
+        "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+      ],
+      "status": "CONFIRMED",
+      "title": "OpenAI Details GPT-6 Protein Design Capabilities and Lab Tests",
+      "trust": {
+        "label": "Verified",
+        "reason": "Confirmed information from a high-authority source with directly traceable source material.",
+        "score": 94,
         "source": "OpenAI News"
       }
     },

@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-27T18:22:21Z",
+    "at": "2026-11-28T01:34:35Z",
     "bootstrap_seed": false,
     "mode": "discover",
-    "prefiltered": 1,
+    "prefiltered": 0,
     "queued": 4,
     "sources_ok": 15,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 247,
+  "runs": 248,
   "seen": {
     "002fac6d4add8ed47e48eaad": {
       "first_seen": "2026-11-10T03:50:46Z",
@@ -8820,6 +8820,11 @@
       "status": "queued",
       "url": "https://dev.meta.ai/resources/blog/build-with-muse-ember?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "b393a64d63ae829136744c5b": {
+      "first_seen": "2026-11-28T01:34:32Z",
+      "status": "queued",
+      "url": "https://openrouter.ai/rankings#edgeai-9c3c7400bf520cc505b5"
+    },
     "b3ddf621cd927d255750a3ef": {
       "first_seen": "2026-10-03T00:46:03Z",
       "status": "queued",
@@ -9313,6 +9318,11 @@
       "first_seen": "2026-11-11T00:37:31Z",
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/?utm_source=futuretools.io&utm_medium=newspage"
+    },
+    "bedee2e9acb0a56aa2615801": {
+      "first_seen": "2026-11-28T01:34:31Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/"
     },
     "bf1cadaf8658bca5634bcf42": {
       "first_seen": "2026-10-29T23:29:41Z",
@@ -9875,6 +9885,11 @@
       "status": "queued",
       "url": "https://openai.com/index/managing-frontier-ai-risk/?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "cb9c58904170486c8df4ceb6": {
+      "first_seen": "2026-11-28T01:34:31Z",
+      "status": "queued",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/"
+    },
     "cb9ca3a61f3b320917664bdc": {
       "first_seen": "2026-10-29T19:17:21Z",
       "status": "queued",
@@ -10416,6 +10431,11 @@
       "first_seen": "2026-10-03T00:45:59Z",
       "status": "queued",
       "url": "https://newsletter.futurepedia.io/p/chatgpt-just-learned-to-use-your-computer-09-11-2026"
+    },
+    "d71a7193dc8d06d814175447": {
+      "first_seen": "2026-11-28T01:34:34Z",
+      "status": "queued",
+      "url": "https://x.com/NousResearch/status/2126416631572119588"
     },
     "d73dc7e3ee8de21f7570a7aa": {
       "first_seen": "2026-11-02T09:24:17Z",

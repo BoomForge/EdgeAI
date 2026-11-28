@@ -338,20 +338,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "c453d1fff9b79ec2073c7f04",
-      "discovered_at": "2026-11-13T21:40:48Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 1,
-      "published": "2026-11-13T21:40:48Z",
-      "search_score": 45,
-      "source_name": "Artificial Analysis Changelog",
-      "summary": "Artificial Analysis K Artificial Analysis Models Coding Agents Image, Speech, Video Inference Leaderboards About AI Trends K Changelog Track the latest AI model benchmarks, performance evaluations, and platform updates. Features & Announcements Language Image Video Speech Music Clear Hide API Endpoints Changelog begins 24 Dec 2025 for image, video, and speech entries 13 Nov 2026 New language model evaluation results available Gemini 4 Argon (Medium) Intelligence Index: 48 New language model evaluation results available DeepSeek V4 Pro 0813 (High) Intelligence Index: 21 Google performance results now available Gemini 4 Argon (Medium) Gemini 4 Argon (Medium) 12 Nov 2026 New language model evaluation results available Gemini 4 Hydrogen (Low) Intelligence Index: 27 New language model evaluation results available Gemini 4 Hydrogen (Medium) Intelligence Index: 41 New language model evaluation results available Gemini 4 Hydrogen (High) Intelligence Index: 51 New language model evaluation results available Gemini 4 Hydrogen (Xhigh) Intelligence Index: 54 Google performance results now available Gemini 4 Hydrogen (Low) Gemini 4 Hydrogen (Medium) Gemini 4 Hydrogen (High) Gemini 4 Hydrogen (Xhigh) 11 Nov 2026 New language model evaluation results available JT-4.1 Flash 236B A21B Intelligence Index: 19 Databricks performance results now available Kimi K3.1 Pro SambaNova performance results now available GLM-5.3 (Low) GLM-5.3 (Max) 10 Nov 2026 \ud83d\udd14 New article published Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files We\u2019ve partnered with Google DeepMind to launch their Multimodal Knowledge Agent (MKA) evaluation, a new benchmark for agentic knowledge work over complex visual files DigitalOcean performance results now available Kimi K3.1 Pro 09 Nov 2026 \ud83d\udd14 New article published Endpoint Accuracy Index v1.1: Tighter long context intervals and expanded model coverage We are launching the Artificial Analysis Endpoint Accuracy Index v1.1, a minor version upgrade alongside new coverage for GLM-5.3 Flash and Muse Spark Open. \ud83d\udd14 New article published Meta's Muse Ember is the cheapest model scoring 36 on the Intelligence Index Meta's newest model Muse Ember scores 36 on the Artificial Analysis Intelligence Index, matching Claude Haiku 5.5 (max) at a third of the Cost per Task New language model evaluation results available Claude Fable 5.2 (Max, Default Fallback) Intelligence Index: 65 New language model evaluation results available Claude Fable 5.2 (Low, Default Fallback) Intelligence Index: 54 New language model evaluation results available Claude Fable 5.2 (Medium, Default Fallback) Intelligence Index: 56 New language model evaluation results available Claude Fable 5.2 (High, Default Fallback) Intelligence Index: 62 New language model evaluation results available Claude Fable 5.2 (Xhigh, Default Fallback) Intelligence Index: 62 New language model evaluation results available Muse Ember (Xhigh) Intelligence Index: 34 New language model evaluation results available Muse Ember (Max) Intelligence Index: 36 Inco performance results now available Kimi K3.1 Pro Amazon Bedrock performance results now available Kimi K3.1 Pro Zyphra performance results now available GLM-5.3-Flash Anthropic performance results now available Claude Fable 5.2 (Xhigh, Default Fallback) Claude Fable 5.2 (Medium, Default Fallback) Claude Fable 5.2 (Low, Default Fallback) Claude Fable 5.2 (High, Default Fallback) Claude Fable 5.2 (Max, Default Fallback) Meta performance results now available Muse Ember (Xhigh) Muse Ember (Max) 08 Nov 2026 \ud83d\udd14 New article published Introducing the Artificial Analysis Decision Index v2 Introducing the Artificial Analysis Decision Index v2: a new proprietary evaluation, updated benchmarks, and a headline metric that rewards model calibration New language model evaluation results available Agnes 2.5 Pro Theta Intelligence Index: 24 Agnes AI performance results now available Agnes 2.5 Pro Theta 06 Nov 2026 \ud83d\udd14 New article published VIALS-AA: different paths to scientific image reasoning Independent VIALS-AA results, interactive agent traces, and an analysis of how models inspect scientific images. Modal performance results now available Muse Spark Open (Xhigh) GLM-5.3 (Low) DeepSeek V4.1 Flash 1017 (Non-reasoning) Scaleway performance results now available DeepSeek V4.1 Flash 1017 (Non-reasoning) DeepSeek V4.1 Flash 1017 (Max) Fireworks performance results now available GLM-5.3 (Max) Bitdeer AI performance results now available Nemotron 3.5 Super VL 05 Nov 2026 \ud83d\udd14 New article published Thinking Machines Inkling 2 Small: the highest scoring open weights model outside of China pending weights release Thinking Machines has released Inkling 2 Small, scoring 31 on the Artificial Analysis Intelligence Index - their plan to release its weights would make it the highest-scoring open weights model developed outside China based on current rankings \ud83d\udd14 New article published Nanbeige has released ",
-      "title": "Artificial Analysis benchmark changelog changed",
-      "url": "https://artificialanalysis.ai/changelog#edgeai-6c9d2f9518f866c320fb"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "e63967d63f593546648659eb",
       "discovered_at": "2026-11-18T00:02:22Z",
       "kind": "independent",
@@ -1234,17 +1220,17 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "a2ecccd9deebef44fe0dd188",
-      "discovered_at": "2026-11-13T21:40:48Z",
+      "candidate_id": "b393a64d63ae829136744c5b",
+      "discovered_at": "2026-11-28T01:34:32Z",
       "kind": "independent-signal",
       "lane": "deep",
       "priority": 2,
-      "published": "2026-11-13T21:40:48Z",
-      "search_score": 38,
+      "published": "2026-11-28T01:34:32Z",
+      "search_score": 35,
       "source_name": "OpenRouter Rankings",
-      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 12, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 DeepSeek V4.1 Flash 1017 deepseek 55.8T tokens -1% 2 Hy4 tencent 20.3T tokens +405% 3 DeepSeek V4.1 Flash deepseek 16T tokens -3% 4 GLM 5.3 Flash z-ai 12T tokens -20% 5 GPT-6 Luna openai 7.43T tokens +2% 6 Claude Opus 5.5 anthropic 6.79T tokens +4% 7 Step 5 Preview stepfun 6.73T tokens +1% 8 Kimi K3.1 Pro moonshotai 4.38T tokens +24% 9 GPT-6.1 Sol openai 4.23T tokens +17% 10 GLM 5.3 z-ai 3.88T tokens +9% 1 . DeepSeek V4.1 Flash 1017 by deepseek 55.8T tokens 1% 2 . Hy4 by tencent 20.3T tokens 405% 3 . DeepSeek V4.1 Flash by deepseek 16T tokens 3% 4 . GLM 5.3 Flash by z-ai 12T tokens 20% 5 . GPT-6 Luna by openai 7.43T tokens 2% 6 . Claude Opus 5.5 by anthropic 6.79T tokens 4% 7 . Step 5 Preview by stepfun 6.73T tokens 1% 8 . Kimi K3.1 Pro by moonshotai 4.38T tokens 24% 9 . GPT-6.1 Sol by openai 4.23T tokens 17% 10 . GLM 5.3 by z-ai 3.88T tokens 9% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the most recent complete day, with the change measured against the day before it. Models ranked by tokens processed on OpenRouter over the most recent complete day Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 9.51T -1% 2 Hy4 tencent 2.74T +1% 3 DeepSeek V4.1 Flash deepseek 2.23T -7% 4 GLM 5.3 Flash z-ai 1.64T -37% 5 GPT-6 Luna openai 1.35T +8% 6 Claude Opus 5.5 anthropic 1.18T +13% 7 Step 5 Preview stepfun 963B +0% 8 GPT-6.1 Sol openai 729B +12% 9 MiMo-V2.6-Flash xiaomi 637B -5% 10 GLM 5.3 z-ai 611B -23% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 176T new 2 DeepSeek V4.1 Flash deepseek 81.5T -28% 3 GLM 5.3 Flash z-ai 57.6T +2% 4 GPT-6 Luna openai 34.2T +90% 5 Claude Opus 5.5 anthropic 30.5T +197% 6 Hy4 preview tencent 27.1T -31% 7 Step 5 Preview stepfun 26T +73% 8 Hy4 tencent 24.3T new 9 MiMo-V2.6-Flash xiaomi 20.6T -31% 10 GLM 5.3 z-ai 19.2T +38% New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 Inkling 2 Small (free) thinkingmachines 507B new 2 Claude Fable 5.2 anthropic 457B new 3 ERNIE-5.5-Flash-Preview (free) baidu 422B new 4 Muse Ember meta 248B new 5 Gemini 4 Carbon google 234B new 6 Grok 4.6 (batch) x-ai 262M >999% 7 Motif 3 motif-technologies 13.6M >999% 8 Mi kt 26.2M >999% 9 GPT-5.4 Mini (batch) openai 285M >999% 10 GPT-5.6 Terra Pro (batch) openai 1.41M >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend General 33.2% Agent 30.4% Code 25.9% Data 10.5% Classification 12.8% of all spend 1 Claude Opus 5.5 by anthropic 11.2% +4.5 2 GPT-6.1-Sol by openai 7.4% +5.4 3 Claude Sonnet 5.5 by anthropic 4.6% +3.3 4 Kimi K3 by moonshotai 4.1% +0.8 5 Gemini 3.8 Flash by google 3.5% -0.9 6 GPT-6-Astra by openai 3.3% -2.7 7 Deepseek V4.1 Flash by deepseek 3.1% +0.5 8 GLM 5.3 Flash by z-ai 3.0% +1.0 9 GPT-5.6-Luna by openai 2.9% +0.9 10 GPT-6-Luna by openai 2.7% +1.5 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 2, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 31.8% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 DeepSeek 31.8% +6% 2 OpenAI 19.3% +2% 3 Google 13.6% -5% 4 Z.ai 7.4% -38% 5 Anthropic 5.8% +1% 6 Qwen 5.7% +2% 7 Stealth 2.5% 8 Mistral 2.3% +5% 9 Tencent 2.3% +21% All other authors 9.2% +11% Open / Closed Absolute Percentage Sh",
+      "summary": "Top Models Leaderboard Top models by task Cost per session Market Share Open / Closed Benchmarks Fastest models Languages Programming Domain Context Length Tool Calls Images Top Apps Top Models AI Model Rankings Live LLM rankings by real-world usage. Models are ranked by tokens processed through the OpenRouter API by millions of developers. View all text models Usage data through Nov 27, 2026 Top Models Weekly usage of models across OpenRouter Model rankings by tokens processed Rank Model Author tokens processed Change 1 DeepSeek V4.1 Flash 1017 deepseek 83.1T tokens +33% 2 Hy4 flash * tencent 38.7T tokens >999% 3 DeepSeek V4.1 Flash deepseek 13.9T tokens -11% 4 GLM 5.3 Flash z-ai 13.2T tokens +22% 5 GPT-6 Luna openai 7.42T tokens -15% 6 Claude Opus 5.5 anthropic 6.36T tokens -12% 7 Kimi K3.1 Pro moonshotai 4.85T tokens +37% 8 MiniMax M3.1 Flash minimax 4.73T tokens +15% 9 Nemotron 3 Ultra (free) nvidia 4.27T tokens +20% 10 GLM 5.3 z-ai 4.16T tokens +23% 1 . DeepSeek V4.1 Flash 1017 by deepseek 83.1T tokens 33% 2 . Hy4 flash * by tencent 38.7T tokens >999% 3 . DeepSeek V4.1 Flash by deepseek 13.9T tokens 11% 4 . GLM 5.3 Flash by z-ai 13.2T tokens 22% 5 . GPT-6 Luna by openai 7.42T tokens 15% 6 . Claude Opus 5.5 by anthropic 6.36T tokens 12% 7 . Kimi K3.1 Pro by moonshotai 4.85T tokens 37% 8 . MiniMax M3.1 Flash by minimax 4.73T tokens 15% 9 . Nemotron 3 Ultra (free) by nvidia 4.27T tokens 20% 10 . GLM 5.3 by z-ai 4.16T tokens 23% Show more Top models today, as text Text summary of the Today tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the last 24 complete hours, with the change measured against the 24 hours before them. Models ranked by tokens processed on OpenRouter over the last 24 complete hours Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 15.2T +16% 2 Hy4 flash tencent 3.45T -10% 3 DeepSeek V4.1 Flash deepseek 1.79T -8% 4 GLM 5.3 Flash z-ai 1.28T -32% 5 GPT-6 Luna openai 1.08T -14% 6 Claude Opus 5.5 anthropic 886B -16% 7 MiniMax M3.1 Flash minimax 688B -1% 8 GLM 5.3 z-ai 650B -13% 9 Kimi K3.1 Pro moonshotai 632B -17% 10 Nemotron 3 Ultra (free) nvidia 552B -5% Top models this month, as text Text summary of the This Month tab of the leaderboard above. Models are ranked by tokens processed on OpenRouter over the trailing thirty days, with the change measured against the thirty days before them. Models ranked by tokens processed on OpenRouter over the trailing thirty days Rank Model Author Tokens Change 1 DeepSeek V4.1 Flash 1017 deepseek 275T +390% 2 DeepSeek V4.1 Flash deepseek 66.7T -45% 3 GLM 5.3 Flash z-ai 55T +4% 4 Hy4 flash tencent 39.9T new 5 GPT-6 Luna openai 34.9T +12% 6 Claude Opus 5.5 anthropic 29.5T +19% 7 MiniMax M3.1 Flash minimax 20T +522% 8 Kimi K3.1 Pro moonshotai 17.1T >999% 9 GLM 5.3 z-ai 16.2T -14% 10 Nemotron 3 Ultra (free) nvidia 14.8T -38% New and trending models this week, as text Text summary of the New & Trending tab of the leaderboard above. Models are ranked by the percentage change in tokens processed over the trailing seven days against the seven days before, among models with at least one million tokens in the current week. A model with no prior week is marked new. Models with the largest week-over-week change in tokens processed on OpenRouter Rank Model Author Tokens Change 1 Inkling 2 Mini thinkingmachines 552B new 2 Solar Mini 4.5 (Preview) upstage 78.3B new 3 DaisyRose 27B radixark 7.23B new 4 MiMo-V2.6-Flash-MOPD xiaomi 4.13B new 5 Solar Pro 4 Contributor upstage 3.93B new 6 Embed V2 Context 0.6B perplexity 3.78B >999% 7 Embed V2 Context 9B perplexity 2.59B >999% 8 Text Embedding 3 Large (batch) openai 1.5M >999% 9 Bison 1 baseten 4.68B >999% 10 Groundhog 1 baseten 2.07B >999% Top models by task Each task\u2019s leading models, ranked by share of spend on OpenRouter Share of spend Software 39.0% Data 22.8% Information 14.1% Writing 7.1% Assistance 6.4% Creative 5.8% Media 4.2% Retrieval 0.1% Implementation 15.7% of all spend 1 Claude Opus 5.5 by anthropic 21.5% -1.8 2 Kimi K3.1 Pro by moonshotai 9.5% +9.2 3 Gemini 4 Carbon by google 5.9% +5.9 4 Claude Fable 5.2 by anthropic 5.9% +5.9 5 Deepseek V4.1 Flash by deepseek 5.8% +5.2 6 Gemini 4 Neon by google 4.9% +4.9 7 Claude Sonnet 5.5 by anthropic 4.6% -0.5 8 GPT-6.1-Sol by openai 3.9% +1.4 9 GLM 5.3 by z-ai 3.8% -1.7 10 Kimi K3 by moonshotai 2.4% -3.3 Cost per session What one coding-agent session typically costs (paid usage), by session length Market share by model author, as text Text summary of the Market Share chart above. Share of text requests made on OpenRouter in the week beginning Nov 16, 2026, with the change in each author's requests against the week before it. DeepSeek leads at 25.4% of the week's requests. Authors the chart groups as others are listed last, so the rows match the series the chart plots. Model authors ranked by their share of text requests on OpenRouter in the most recent complete week Rank Author Share of requests Change in requests 1 ",
       "title": "OpenRouter real-world model rankings changed",
-      "url": "https://openrouter.ai/rankings#edgeai-3900a479a63a53c832ee"
+      "url": "https://openrouter.ai/rankings#edgeai-9c3c7400bf520cc505b5"
     },
     {
       "bootstrap": false,
@@ -1402,20 +1388,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "6306346d6160f583db835ae9",
-      "discovered_at": "2026-11-13T21:40:47Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 18,
-      "source_name": "FutureTools AI News",
-      "summary": "Anthropic's Claude Guide Explains How to Build Always-On AI Agents With 5 Core Primitives claude.com \u00b7 Show TLDR",
-      "title": "Anthropic's Claude Guide Explains How to Build Always-On AI Agents With 5 Core Primitives claude.com \u00b7 Show TLDR",
-      "url": "https://claude.com/resources/articles/building-always-on-agents?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "b4439a7527ca175b45e55871",
       "discovered_at": "2026-11-18T00:02:22Z",
       "kind": "independent",
@@ -1441,6 +1413,20 @@
       "summary": "@NousResearch Hermes Agent can now control your Obsidian vault as a shared knowledge base via the official connector. Your notes stay local, private, and fully under your control. hermes-agent.nousresearch.com/marketplace/ob\u2026 x.com/obsdmd/status/\u2026 Nov 26, 2026 @NousResearch NVIDIA sent us one of the first Vera CPU DevKits. We're going to run massive swarms of Hermes Agents on it to see how much concurrency it can handle. Thank you to our friends at @NVIDIAAI for the gift! Pictured: Ian and Karan mogging Nov 24, 2026 @NousResearch Deepseek V4.1 Flash 1017 is 80% off for 10 days thanks to @digitalocean Try it today at portal.nousresearch.com Nov 24, 2026 @NousResearch Access the frontier at a discount The latest Anthropic and OpenAI models are 20% off for the next week at https://t.co/uomohWX1dw Nov 23, 2026 @NousResearch We\u2019re so back Nov 23, 2026 @NousResearch The revolution will not be privatized Nov 21, 2026 @NousResearch Thank you to our community judges @HermesWatcher, @KSimback, @rlaope, @LiorNsnd, and @iamlukethedev for the hours they spent sorting through a huge volume of submissions! We'll email/dm the winners about their prizes shortly. You can install the winning plugins and numerous other approved submissions from the Hermes Marketplace: https://t.co/au3LYLuoQ0 Nov 20, 2026 @NousResearch 10th place: Hermes Gadget SDK, by @adolandev x.com/adolandev/stat\u2026 Nov 20, 2026 @NousResearch 9th place: Hermes Canvas, by @0xbyt4 x.com/0xbyt4/status/\u2026 Nov 20, 2026 @NousResearch 8th place: Promise Keeper, by @smohiths x.com/smohiths/statu\u2026 Nov 20, 2026",
       "title": "@NousResearch Hermes Agent can now control your Obsidian vault as a shared knowledge base via the official connector. Your notes stay local, private, and fully under your control. hermes-agent.nousresearch.com/marketplace/ob\u2026 x.com/obsdmd/s",
       "url": "https://x.com/NousResearch/status/2125989568721637578"
+    },
+    {
+      "bootstrap": false,
+      "candidate_id": "d71a7193dc8d06d814175447",
+      "discovered_at": "2026-11-28T01:34:34Z",
+      "kind": "primary-signal",
+      "lane": "deep",
+      "priority": 2,
+      "published": "Nov 27, 2026",
+      "search_score": 17,
+      "source_name": "Nous Research Announcements",
+      "summary": "@NousResearch Remember when Black Friday discounts were bangers? For the next 24 hours, get 50% OFF the first month of a new or upgraded Nous Portal plan with code FIFTYFIFTY! Every plan gives you access to hundreds of models, tool usage, and Hermes Cloud agents. portal.nousresearch.com/promos/fiftyfi\u2026 Nov 27, 2026 @NousResearch Thankful for all our Hermeticists \ud83d\udc99 Nov 27, 2026 @NousResearch Hermes Agent can now control your Obsidian vault as a shared knowledge base via the official connector. Your notes stay local, private, and fully under your control. hermes-agent.nousresearch.com/marketplace/ob\u2026 x.com/obsdmd/status/\u2026 Nov 26, 2026 @NousResearch NVIDIA sent us one of the first Vera CPU DevKits. We're going to run massive swarms of Hermes Agents on it to see how much concurrency it can handle. Thank you to our friends at @NVIDIAAI for the gift! Pictured: Ian and Karan mogging Nov 24, 2026 @NousResearch Deepseek V4.1 Flash 1017 is 80% off for 10 days thanks to @digitalocean Try it today at portal.nousresearch.com Nov 24, 2026 @NousResearch Access the frontier at a discount The latest Anthropic and OpenAI models are 20% off for the next week at https://t.co/uomohWX1dw Nov 23, 2026 @NousResearch We\u2019re so back Nov 23, 2026 @NousResearch The revolution will not be privatized Nov 21, 2026 @NousResearch Thank you to our community judges @HermesWatcher, @KSimback, @rlaope, @LiorNsnd, and @iamlukethedev for the hours they spent sorting through a huge volume of submissions! We'll email/dm the winners about their prizes shortly. You can install the winning plugins and numerous other approved submissions from the Hermes Marketplace: https://t.co/au3LYLuoQ0 Nov 20, 2026 @NousResearch 10th place: Hermes Gadget SDK, by @adolandev x.com/adolandev/stat\u2026 Nov 20, 2026",
+      "title": "@NousResearch Remember when Black Friday discounts were bangers? For the next 24 hours, get 50% OFF the first month of a new or upgraded Nous Portal plan with code FIFTYFIFTY! Every plan gives you access to hundreds of models, tool usage, a",
+      "url": "https://x.com/NousResearch/status/2126416631572119588"
     },
     {
       "bootstrap": false,
@@ -1794,20 +1780,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "1dee3ad71d1bf8c3cc1140e9",
-      "discovered_at": "2026-11-13T21:40:47Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 10,
-      "source_name": "FutureTools AI News",
-      "summary": "OpenAI Launches ChatGPT Wallet for Secure Agent Payments via Amex, Mastercard & Visa openai.com \u00b7 Show TLDR",
-      "title": "OpenAI Launches ChatGPT Wallet for Secure Agent Payments via Amex, Mastercard & Visa openai.com \u00b7 Show TLDR",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet/?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "a84dd76bec819875746f5568",
       "discovered_at": "2026-11-17T00:23:43Z",
       "kind": "signal",
@@ -2130,34 +2102,6 @@
     },
     {
       "bootstrap": false,
-      "candidate_id": "5f5491bf67ae3d8141240503",
-      "discovered_at": "2026-11-13T21:40:47Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 6,
-      "source_name": "FutureTools AI News",
-      "summary": "China's Top AI Models Trained on Banned Nvidia Blackwell GPUs, Research Finds techcrunch.com \u00b7 Show TLDR",
-      "title": "China's Top AI Models Trained on Banned Nvidia Blackwell GPUs, Research Finds techcrunch.com \u00b7 Show TLDR",
-      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "f3088a6a94e4dd3182606126",
-      "discovered_at": "2026-11-13T21:40:47Z",
-      "kind": "signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "",
-      "search_score": 6,
-      "source_name": "FutureTools AI News",
-      "summary": "Gemini App Connects Google Wallet for Personalized Finance Insights in the U.S. blog.google \u00b7 Show TLDR",
-      "title": "Gemini App Connects Google Wallet for Personalized Finance Insights in the U.S. blog.google \u00b7 Show TLDR",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/?utm_source=futuretools.io&utm_medium=newspage"
-    },
-    {
-      "bootstrap": false,
       "candidate_id": "40e80e1ce89664d39e4d6693",
       "discovered_at": "2026-11-17T00:23:43Z",
       "kind": "signal",
@@ -2396,6 +2340,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "bedee2e9acb0a56aa2615801",
+      "discovered_at": "2026-11-28T01:34:31Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-27T23:57:17+00:00",
+      "search_score": 4,
+      "source_name": "Simon Willison Everything",
+      "summary": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the design. This release addresses those, which should make building additional chart plugins a whole lot more ergonomic. I've also added a website for the plugin, at charts.datasette.io . The new website includes a tutorial for plugin authors , and a gallery showing all of the core charts and annotations, each one linking to an interactive demo on Datasette Lite . Tags: datasette-charts , datasette , visualization , datasette-lite",
+      "title": "datasette-charts 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "2d9b2b8de4028adf7548f3ab",
       "discovered_at": "2026-11-24T20:45:19Z",
       "kind": "independent",
@@ -2508,6 +2466,20 @@
     },
     {
       "bootstrap": false,
+      "candidate_id": "cb9c58904170486c8df4ceb6",
+      "discovered_at": "2026-11-28T01:34:31Z",
+      "kind": "independent",
+      "lane": "deep",
+      "priority": 2,
+      "published": "2026-11-27T00:26:17+00:00",
+      "search_score": 3,
+      "source_name": "Simon Willison Everything",
+      "summary": "Release: datasette-mcp 0.4 Fixed for compatibility with Datasette 1.0a44 . Tags: model-context-protocol , datasette",
+      "title": "datasette-mcp 0.4",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/"
+    },
+    {
+      "bootstrap": false,
       "candidate_id": "7de39f044da3622e099c177c",
       "discovered_at": "2026-11-26T15:36:46Z",
       "kind": "independent",
@@ -2617,34 +2589,6 @@
       "summary": "My comment on The New York Times warns photographers not to update Photoshop over AI features \u2014 Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photographs as they were taken, with cropping and balancing applied but no edits beyond that. He did spend a bunch of time trying to find the best possible natural lighting for the shots he wanted. The photo at the top of https://www.nytimes.com/2026/02/02/technology/moltbook-ai-so... is my laptop, taken in my garden, after hunting around for the best spot that didn't have too much glare on the screen. You can see how dirty my screen is, too! Photography for a newspaper is photo journalism, and they take it seriously. (Thankfully I did not have a visible stain on my shirt.) Tags: photography , new-york-times , hacker-news , journalism",
       "title": "The New York Times warns photographers not to update Photoshop over AI features",
       "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "d5f790226281cc8dde386f89",
-      "discovered_at": "2026-11-13T21:40:50Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Nov 13, 2026",
-      "search_score": 2,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Nov 13, 2026 @NousResearch We're giving away one of our famous neon signs (plus a merch bundle) to one random Instagram follower next Friday! Just follow us at instagram.com/nous_research to be eligible x.com/mizzysworld/st\u2026 Nov 13, 2026 @NousResearch Nov 12, 2026 @NousResearch Submissions for the Hermes Agent Plugin Hackathon closed at 5PM EST, and we received nearly 1,000 entries. Thank you to everyone who built and submitted them! Our judges are working on sorting through submissions to narrow down the top 10 now. Winners will be emailed directly, and we will announce them here in about a week. Nov 12, 2026 @NousResearch We are on Instagram now btw tap in instagram.com/nous_research Nov 11, 2026 @NousResearch Unshackle yourself Nov 10, 2026 @NousResearch 24 hours left to submit your plugin. We've received hundreds of awesome submissions and the judges are excited to review them all! x.com/NousResearch/s\u2026 Nov 10, 2026 @NousResearch The Sign in with ChatGPT flow in Nous Portal now supports your ChatGPT Business plan x.com/OpenAIDevs/sta\u2026 Nov 10, 2026 @NousResearch With Hermes it's all yours to conquer Nov 10, 2026 @NousResearch Try Fable 5.2 in Hermes Agent x.com/Kshitijjkapoor\u2026 Nov 9, 2026",
-      "title": "@NousResearch Nov 13, 2026",
-      "url": "https://x.com/NousResearch/status/2121348238100062408"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "df257b33d8f4f3c26de00cf0",
-      "discovered_at": "2026-11-13T21:40:50Z",
-      "kind": "primary-signal",
-      "lane": "deep",
-      "priority": 2,
-      "published": "Nov 13, 2026",
-      "search_score": 2,
-      "source_name": "Nous Research Announcements",
-      "summary": "@NousResearch Nov 13, 2026 @NousResearch We're giving away one of our famous neon signs (plus a merch bundle) to one random Instagram follower next Friday! Just follow us at instagram.com/nous_research to be eligible x.com/mizzysworld/st\u2026 Nov 13, 2026 @NousResearch Nov 12, 2026 @NousResearch Submissions for the Hermes Agent Plugin Hackathon closed at 5PM EST, and we received nearly 1,000 entries. Thank you to everyone who built and submitted them! Our judges are working on sorting through submissions to narrow down the top 10 now. Winners will be emailed directly, and we will announce them here in about a week. Nov 12, 2026 @NousResearch We are on Instagram now btw tap in instagram.com/nous_research Nov 11, 2026 @NousResearch Unshackle yourself Nov 10, 2026 @NousResearch 24 hours left to submit your plugin. We've received hundreds of awesome submissions and the judges are excited to review them all! x.com/NousResearch/s\u2026 Nov 10, 2026 @NousResearch The Sign in with ChatGPT flow in Nous Portal now supports your ChatGPT Business plan x.com/OpenAIDevs/sta\u2026 Nov 10, 2026 @NousResearch With Hermes it's all yours to conquer Nov 10, 2026 @NousResearch Try Fable 5.2 in Hermes Agent x.com/Kshitijjkapoor\u2026 Nov 9, 2026",
-      "title": "@NousResearch We're giving away one of our famous neon signs (plus a merch bundle) to one random Instagram follower next Friday! Just follow us at instagram.com/nous_research to be eligible x.com/mizzysworld/st\u2026 Nov 13, 2026",
-      "url": "https://x.com/NousResearch/status/2121328727766220904"
     },
     {
       "bootstrap": false,
@@ -2925,34 +2869,6 @@
       "summary": "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite ) against data in a table or custom query. The last release was in July 2018! I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it work better with Datasette Lite . (Datasette Lite just gained the ability to run JavaScript plugins like this! I'll write more about that soon.) Since it works with Datasette Lite, the live demo in the README now links to this demo on Datasette Lite . Tags: datasette , visualisation , datasette-lite",
       "title": "datasette-vega 0.7",
       "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "4cb58a6ed2a63999aea770e1",
-      "discovered_at": "2026-11-14T01:51:53Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-11-13T23:02:45+00:00",
-      "search_score": 1,
-      "source_name": "Simon Willison Everything",
-      "summary": "Release: datasette-cluster-map 0.19 One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on the new datasette-leaflet to ensure OpenStreetMap tiles are requested with a referrer header. Here's a map of power plants owned by California's PG&E , also demonstrating Datasette's recently redesigned facets : Tags: datasette , geospatial , openstreetmap",
-      "title": "datasette-cluster-map 0.19",
-      "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/"
-    },
-    {
-      "bootstrap": false,
-      "candidate_id": "e1058067669e2b5f7fa97923",
-      "discovered_at": "2026-11-14T01:51:53Z",
-      "kind": "independent",
-      "lane": "deep",
-      "priority": 2,
-      "published": "2026-11-13T22:30:54+00:00",
-      "search_score": 1,
-      "source_name": "Simon Willison Everything",
-      "summary": "Release: datasette-leaflet 0.3 OpenStreetMap have a very reasonable policy that hits to their hosted tile server should send a referrer header . Datasette table pages used the Referrer-Policy: no-referrer HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy. datasette-leaflet is the plugin that loads a bundled Leaflet so other Datasette plugins can depend on it. It now sets the referrer policy on the tile requests themselves to strict-origin-when-cross-origin , passing the host but not the full path to the page. Tags: leaflet , datasette , openstreetmap",
-      "title": "datasette-leaflet 0.3",
-      "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/"
     },
     {
       "bootstrap": false,
@@ -3502,6 +3418,6 @@
     }
   ],
   "lane": "deep",
-  "updated_at": "2026-11-27T18:22:21Z",
+  "updated_at": "2026-11-28T01:34:35Z",
   "version": 2
 }

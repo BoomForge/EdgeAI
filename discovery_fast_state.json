@@ -1,15 +1,15 @@
 {
   "last_run": {
-    "at": "2026-11-27T22:37:31Z",
+    "at": "2026-11-28T04:14:03Z",
     "bootstrap_seed": false,
     "mode": "discover",
     "prefiltered": 0,
-    "queued": 5,
+    "queued": 7,
     "sources_ok": 31,
     "too_old": 0,
     "warnings": 0
   },
-  "runs": 250,
+  "runs": 251,
   "seen": {
     "0011f44db0acd064315cb02d": {
       "first_seen": "2026-10-26T05:16:26Z",
@@ -578,6 +578,11 @@
       "first_seen": "2026-10-05T18:34:46Z",
       "status": "queued",
       "url": "https://blog.google/products-and-platforms/products/education/teacher-voices-sweden/"
+    },
+    "0aaac66dce9dd6761b33dcec": {
+      "first_seen": "2026-11-28T04:13:43Z",
+      "status": "queued",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.20-rc0"
     },
     "0ab7759f43bf366f942a29ee": {
       "first_seen": "2026-10-07T09:14:07Z",
@@ -3369,6 +3374,11 @@
       "status": "queued",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/"
     },
+    "36258e54b92ea6c3ca3e4790": {
+      "first_seen": "2026-11-28T04:13:42Z",
+      "status": "queued",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.4"
+    },
     "36459f304a2d52e221d45bea": {
       "first_seen": "2026-11-14T08:45:09Z",
       "status": "queued",
@@ -5043,6 +5053,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11539"
     },
+    "513e803ef3f9820a888d560e": {
+      "first_seen": "2026-11-28T04:13:43Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12821"
+    },
     "514112b3503896d0525c5997": {
       "first_seen": "2026-11-10T20:29:49Z",
       "search_score": 0,
@@ -6102,6 +6117,11 @@
       "first_seen": "2026-10-17T04:39:59Z",
       "status": "queued",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6"
+    },
+    "6310bf6c29de991cf5a7d1a8": {
+      "first_seen": "2026-11-28T04:13:43Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12823"
     },
     "632839f4bb2e8b34b3ffeafe": {
       "first_seen": "2026-11-02T10:42:49Z",
@@ -13005,6 +13025,11 @@
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11730"
     },
+    "d3d02e9195aa9eab6969055e": {
+      "first_seen": "2026-11-28T04:13:43Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12820"
+    },
     "d3ec8753d421d644d81f616d": {
       "first_seen": "2026-10-16T10:06:04Z",
       "status": "queued",
@@ -15392,6 +15417,11 @@
       "status": "queued",
       "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.0-rc.2"
     },
+    "f9d5d58ce748f83c8161da2b": {
+      "first_seen": "2026-11-28T04:14:03Z",
+      "status": "queued",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.77.0"
+    },
     "f9e220405a9a2d02b9d3085f": {
       "first_seen": "2026-10-26T05:16:26Z",
       "status": "queued",
@@ -15406,6 +15436,11 @@
       "first_seen": "2026-10-15T05:40:28Z",
       "status": "queued",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11641"
+    },
+    "f9fd34f84f9c0a4dff489d0b": {
+      "first_seen": "2026-11-28T04:13:43Z",
+      "status": "queued",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12822"
     },
     "f9fdd453543028293b64ef43": {
       "first_seen": "2026-10-28T23:55:43Z",

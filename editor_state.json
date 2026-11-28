@@ -77,11 +77,11 @@
     "candidate_id": "c6e30aab44ad97598838c4c3"
   },
   "last_run": {
-    "at": "2026-11-27T22:40:30Z",
-    "eligible": 57,
-    "evaluated": 3,
+    "at": "2026-11-28T04:19:03Z",
+    "eligible": 55,
+    "evaluated": 2,
     "mode": "live",
-    "new_posts": 0,
+    "new_posts": 1,
     "publish_actions": 2,
     "quota_paused": false
   },
@@ -652,6 +652,11 @@
       "at": "2026-11-10T02:43:14Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12175"
+    },
+    "0b260d07579db8478ef4bb18": {
+      "at": "2026-11-28T04:18:50Z",
+      "status": "expired",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
     },
     "0b3e7ad5951291266db5d6d2": {
       "at": "2026-10-29T16:27:11Z",
@@ -2287,6 +2292,11 @@
       "status": "expired",
       "url": "https://hermes-agent.nousresearch.com/docs"
     },
+    "2a9fbb6f5e677c532fb817fb": {
+      "at": "2026-11-28T04:18:50Z",
+      "status": "expired",
+      "url": "https://openrouter.ai/rankings#edgeai-a0c09f5347414eb98d74"
+    },
     "2b7cd53c26380bca28073f5e": {
       "at": "2026-11-13T02:48:14Z",
       "status": "expired",
@@ -3679,6 +3689,11 @@
       "at": "2026-10-11T07:07:40Z",
       "status": "expired",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11487"
+    },
+    "429a2cadf7cdac94d919f323": {
+      "at": "2026-11-28T04:18:50Z",
+      "status": "expired",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12723"
     },
     "42de4dd2d95c45b80311fb8b": {
       "at": "2026-11-21T21:14:02Z",
@@ -9472,6 +9487,20 @@
       "status": "expired",
       "url": "https://dev.meta.ai/resources/blog/build-with-muse-ember?utm_source=futuretools.io&utm_medium=newspage"
     },
+    "b393a64d63ae829136744c5b": {
+      "at": "2026-11-28T04:18:56Z",
+      "bootstrap": false,
+      "score": 82,
+      "status": "updated",
+      "story_key": "openrouter-rankings-november-2026",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 83,
+        "source": "OpenRouter Rankings"
+      },
+      "url": "https://openrouter.ai/rankings#edgeai-9c3c7400bf520cc505b5"
+    },
     "b39c30e6bbc6c6f0ecf447d0": {
       "at": "2026-10-17T20:31:16Z",
       "status": "expired",
@@ -9546,6 +9575,20 @@
       "at": "2026-11-06T00:09:40Z",
       "status": "expired",
       "url": "https://www.producthunt.com/products/testera-3"
+    },
+    "b5d19e6727361deb962c28bc": {
+      "at": "2026-11-28T04:19:03Z",
+      "bootstrap": false,
+      "score": 92,
+      "status": "published",
+      "story_key": "llama-cpp-v1-1-0-release",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "llama.cpp Releases"
+      },
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0"
     },
     "b5eade4484bcd776916099d4": {
       "at": "2026-11-14T03:08:34Z",
@@ -16241,6 +16284,27 @@
         "source": "llama.cpp Releases"
       }
     },
+    "llama-cpp-v1-1-0-release": {
+      "image_source": "EdgeAI editorial artwork",
+      "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/llama-cpp-v1-1-0-release.jpg",
+      "last_updated": "2026-11-28T04:19:03Z",
+      "post_id": "8025240802702028230",
+      "post_url": "https://edgeainews.blogspot.com/2026/11/llamacpp-v110-released-with-expanded.html",
+      "score": 92,
+      "source_image_source": "llama.cpp Releases",
+      "source_image_url": "https://opengraph.githubassets.com/9eb5522ad2c8cf78f5b99b74ddbc64709f2f99788bcf8155ef6f1fdf8471da1b/ggml-org/llama.cpp/releases/tag/v1.1.0",
+      "source_urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0"
+      ],
+      "status": "CONFIRMED",
+      "title": "llama.cpp v1.1.0 Released with Expanded Model Support and Redesigned Llama Chat UI",
+      "trust": {
+        "label": "Strong",
+        "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
+        "score": 86,
+        "source": "llama.cpp Releases"
+      }
+    },
     "llamaccpp-b11781-tts-endpoint": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/story-art/llamaccpp-b11781-tts-endpoint.png",
@@ -19499,7 +19563,7 @@
     "openrouter-rankings-november-2026": {
       "image_source": "EdgeAI editorial artwork",
       "image_url": "https://cdn.jsdelivr.net/gh/BoomForge/EdgeAI@main/assets/source-media/openrouter-rankings-november-2026.jpg",
-      "last_updated": "2026-11-27T22:40:30Z",
+      "last_updated": "2026-11-28T04:18:56Z",
       "post_id": "5675369024103222766",
       "post_url": "https://edgeainews.blogspot.com/2026/11/openrouter-usage-data-show-deepseek-v41.html",
       "score": 82,
@@ -19509,14 +19573,15 @@
         "https://openrouter.ai/rankings#edgeai-3900a479a63a53c832ee",
         "https://openrouter.ai/rankings#edgeai-47e20019821ce9899e02",
         "https://openrouter.ai/rankings#edgeai-4dd63975216f1fcc96db",
-        "https://openrouter.ai/rankings#edgeai-71bafae3523d596f240e"
+        "https://openrouter.ai/rankings#edgeai-71bafae3523d596f240e",
+        "https://openrouter.ai/rankings#edgeai-9c3c7400bf520cc505b5"
       ],
       "status": "CONFIRMED",
-      "title": "OpenRouter Usage Data Update: DeepSeek V4.1 Flash Tops 77T Weekly Tokens as Agentic Tools Lead Telemetry",
+      "title": "OpenRouter Telemetry Update: DeepSeek V4.1 Flash Crosses 83T Weekly Tokens as Developer Adoption Shifts",
       "trust": {
         "label": "Strong",
         "reason": "The central claim is confirmed, with source authority and traceability reflected in this score.",
-        "score": 81,
+        "score": 83,
         "source": "OpenRouter Rankings"
       }
     },
